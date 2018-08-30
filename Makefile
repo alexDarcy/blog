@@ -24,6 +24,7 @@ NOTES_PDF=$(NOTES_TEX:.tex=.pdf)
 .PHONY: notes
 .PHONY: ${NOTES_TEX}
 notes: ${NOTES_PDF}
+	mkdir -p _site/notes/medecine
 	cp $^ _site/notes/medecine
 
 notes/medecine/%.pdf: notes/medecine/%.tex

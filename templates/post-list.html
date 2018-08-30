@@ -1,0 +1,16 @@
+<div class="archive">
+  $for(posts)$
+  <div class="summary">
+    <div class="date">$date$</div>
+    <div class="descr">
+      <div class="title">
+        <a href="$url$">$title$</a>
+      </div>
+      $if(teaser)$
+        <div class="excerpt">$teaser$</div>
+      $endif$
+    </div>
+    <div style="clear: both;"> </div>
+  </div>
+  $endfor$
+</div>
