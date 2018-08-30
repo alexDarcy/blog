@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global */
+
+/* For sticky footer */
+html, body
+{
+  height: 100%; 
+  background-color: #ffffff;
+}
+
+.wrapper {
+  min-height:100%;
+}
+
+.main {
+  /*overflow:auto;*/
+  padding-bottom: 150px;
+}
+
+body {
+  margin: 0 auto;
+  line-height: 25px;
+  width: 720px;
+  /*font-family: 'LatinModernSans10Regular';*/
+  font-family: 'eb_garamondregular';
+  font-size: 130%;
+  /*font-size: 20px;*/
+}
+
+h1 {
+  display: inline;
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 0 10px 0;
+}
+
+h2 {
+  font-size:130%;
+  font-weight: bold;
+  margin: 40px 0 20px 0;
+}
+
+h3 {
+  font-weight: normal;
+  font-weight: bold;
+  margin: 10px 0 5px 20px;
+}
+
+h4 {
+  font-weight: normal;
+  font-style: italic;
+  margin: 10px 0 5px 20px;
+}
+
+
+h1 a { 
+  color: black; 
+  text-decoration:none;
+}
+
+h3 a { color: black; }
+
+a { 
+  text-decoration:none;
+  color: #b83000;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Banner : title and menu */
+/*---------------------------------------------------------------------------*/
+.banner {
+  width: 110%;
+  display: block;
+}
+.banner .title {
+  /*margin: 1% 0 0 -35%;*/
+  margin-left: -20%;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  
+  border-bottom: 2px solid #000;
+  font-size: 220%;
+
+}
+
+.banner .menu {
+  text-align: right;
+  margin: 10px 0px 100px 0;
+  font-size: 120%;
+
+}
+
+.banner .menu a {
+  padding: 10px 10px 5px 10px;
+  color: #000;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+.banner .menu a:hover { 
+  color: #fff; 
+  background-color: #000; 
+}
+
+.footer {
+  /*clear: both;
+  position: relative;
+  z-index: 10;
+  margin-top: -3em;
+  */
+  position: relative;
+  margin-top: -100px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  color: #888;
+  font-style: italic;
+  text-align: center;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Archive mode */
+/*---------------------------------------------------------------------------*/
+.archive {
+  /*width: 200px;*/
+margin-left: 50px;
+}
+.archive .date {
+  float: left; 
+  width: 150px;
+  text-align: left;
+
+  color: #3D3D3D;
+  margin-left: -100px;
+}
+.archive .descr{
+  float: left;
+  width: 520px;
+  margin-left: 30px;
+}
+
+/* The title */
+.archive .title a {
+  color: black;
+  font-weight: bold;
+  font-size: 120%;
+  text-decoration: none;
+}
+
+.archive .excerpt {
+  font-size: 100%;
+}
+
+.summary {
+  margin-bottom: 15px;
+}
+/*---------------------------------------------------------------------------*/
+/* Posts */
+/*---------------------------------------------------------------------------*/
+.post {
+  float: left;
+  padding: 0 5% 2% 2%;
+  /* margin-left: 2%;*/ 
+  text-align: justify;
+  tex-justify: newspaper;
+  width: 90%;
+}
+.post h1 a {
+  text-decoration: none;
+}
+
+/* Date */
+.post .date {
+  font-size: 100%;
+  margin-top: 5%;
+  float: right;
+  color: #3D3D3D;
+}
+.post .title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  float: left;
+  font-size: 130%;
+}
+
+
+.post .content {
+  clear: both;
+  margin-top: 10px;
+  display:block;
+}
+
+ul {
+  padding-left: 10%;
+}
+
+.center { text-align: center; }
+
+.post .content p {
+  margin-top: 3px;
+}
+
+img{
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  /*background-color: #e5e5e5; */
+  margin: 10px 0 15px 0;
+}
+
+table.image{
+  margin-top: 10px;
+}
+
+caption {
+  caption-side: bottom;
+}
+
+/* Reduce size and center */
+.overview{
+ width: 300px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/*pre .gp { color: #F99217 } *//* Generic.Prompt */
+
+/* Code inside the text */
+ic {
+  font-size: 90%;
+  font-family: 'LatinModernMono10Regular';
+}
+
+p.note {
+  margin-top:5px;
+  margin-bottom:5px;
+  text-indent: 0;
+  margin-left:30px;
+  font-style: italic;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Link to previous/next post */
+/*---------------------------------------------------------------------------*/
+/*.container{
+width: 920px;
+/*  margin-left: -100px;*/
+/*}
+*/
+.prev{
+  margin-left: -100px;
+  margin-top: 10%;
+  float: left;
+  width: 100px;
+  }
+.next{
+  margin-top: 10%;
+  float: left;
+  width: 100px;
+}
+
+.prev a{ 
+  font-style: italic;
+  text-decoration: none;
+  color: grey;
+}
+.next a{ 
+  font-style: italic;
+  text-decoration: none;
+  color: grey;
+}
+
+/* Table */
+table { 
+  border-collapse: collapse; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+td { 
+  padding-right: 5px;
+  padding-left: 5px;
+  border: solid 1px; 
+}
+
+li {
+  margin-left: 30px;
+}
+
+.urgence {
+  color: red;
+  font-style: normal;
+  }
+
+.urgence::before {
+  /*We cannot write  &#9760 directly but we need the hex value...*/
+  content: "\2620 Urgence";
+}
+
+figcaption {
+    margin: 10px 0 0 0;
+    /*font-variant: small-caps;*/
+    /*font-family: Arial;*/
+    /*font-weight: bold;*/
+    font-style: italic;
+    /*color: #bb3333;*/
+  }
+figcaption::before {content: "Fig.: ";}
+
+figure {
+    padding: 5px;
+}

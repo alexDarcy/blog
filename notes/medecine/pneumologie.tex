@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage[hidelinks]{hyperref}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\graphicspath{{../../pictures/medecine/}}
+% French
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+%-------------------------------------------------------------------------------
+% For graphs
+\usepackage{tikz}
+\usetikzlibrary{graphs}
+\usetikzlibrary{graphdrawing}
+\usetikzlibrary{arrows,positioning,decorations.pathreplacing}
+\usegdlibrary{trees, layered, force}
+\usetikzlibrary{quotes}
+%-------------------------------------------------------------------------------
+% No spacing in itemize
+\usepackage{enumitem}
+\setlist{nolistsep}
+% tightlist from pandoc
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+ % Danger symbol (need fourier package)
+\newcommand*{\TakeFourierOrnament}[1]{{%
+\fontencoding{U}\fontfamily{futs}\selectfont\char#1}}
+\newcommand*{\danger}{\TakeFourierOrnament{66}}
+% Skull (need Symbola font)
+\usepackage{amsmath,fontspec,newunicodechar}
+\newfontface{\skullfont}{Symbola}[Scale=MatchUppercase]
+\NewDocumentCommand{\skull}{}{%
+  \text{\skullfont\symbol{"1F571}}%
+}
+% Hospital sign
+\usepackage{fontspec} % For fontawesome
+\usepackage{fontawesome}
+
+\title{Pneumologie\\
+\large Fiches}
+\author{A. Praga}
+
+\begin{document}
+\maketitle
+
+\section{Physiologie}%
+
+$P_{alv}$ = pression alvéolaire, $P_{ip}$ = pression interpleurale (dans la
+plèvre), pression transpulmonaire = $P_{ip} - P_{alv}$.
+
+\begin{figure}[htpb]
+  \centering
+  \caption{Inspiration (gauche), expiration (droite)}
+  \tikz \graph [ nodes={align=center}, layered layout]
+  {
+    Contraction diaphragme -> Expansion thorax -> "$P_{ip} < P_{atm}$"
+    -> Hausse pression transpulmonaire -> Expansion poumons 
+    -> "$P_{alv} < P_{atm}$"
+    -> Arrivée d'air dans les alvéoles;
+  };
+  \tikz \graph [ nodes={align=center}, layered layout]
+  {
+    "Arrêt contraction\\ diaphragme et intercostaux" -> Rétraction thorax 
+    -> "Valeur initiale de $P_{ip}$"
+    -> Valeur initiale pression transpulmonaire 
+    -> Rétraction poumons 
+    -> "$P_{alv} > P_{atm}$"
+    -> Expulsion d'air depuis les alvéoles;
+  };
+\end{figure}
+\end{document}

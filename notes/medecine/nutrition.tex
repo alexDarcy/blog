@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage[hidelinks]{hyperref}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\graphicspath{{../../pictures/medecine/}}
+% French
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+%-------------------------------------------------------------------------------
+% For graphs
+\usepackage{tikz}
+\usetikzlibrary{graphs}
+\usetikzlibrary{graphdrawing}
+\usetikzlibrary{arrows,positioning,decorations.pathreplacing}
+\usegdlibrary{trees, layered, force}
+\usetikzlibrary{quotes}
+%-------------------------------------------------------------------------------
+% No spacing in itemize
+\usepackage{enumitem}
+\setlist{nolistsep}
+% tightlist from pandoc
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+ % Danger symbol (need fourier package)
+\newcommand*{\TakeFourierOrnament}[1]{{%
+\fontencoding{U}\fontfamily{futs}\selectfont\char#1}}
+\newcommand*{\danger}{\TakeFourierOrnament{66}}
+% Skull (need Symbola font)
+\usepackage{amsmath,fontspec,newunicodechar}
+\newfontface{\skullfont}{Symbola}[Scale=MatchUppercase]
+\NewDocumentCommand{\skull}{}{%
+  \text{\skullfont\symbol{"1F571}}%
+}
+% Hospital sign
+\usepackage{fontspec} % For fontawesome
+\usepackage{fontawesome}
+
+\title{Nutrition\\
+\large Fiches}
+\author{A. Praga}
+
+\begin{document}
+\maketitle
+
+\section{Glucides}%
+\label{sec:glucides}
+
+\tikz \graph [
+  % Labels at the middle 
+  edge quotes mid,
+  % Needed for multi-lines
+  nodes={align=center},
+  sibling distance=3cm,
+  edges={nodes={fill=white}}, 
+layered layout]
+{
+  Glycolyse[draw] // [layered layout] {
+    glucose + ADP -> pyruvate + ATP;
+  };
+  Néoglucogenèse[draw] // [layered layout] {
+    acide aminés -> pyruvate;
+    "(triglycérides du foie)" -> glycérol -> "glucose-6-phosphate";
+    lactate -> pyruvate -> "glucose-6-phosphate" -> glucose;
+  };
+};
+
+\tikz \graph [
+  % Needed for multi-lines
+  nodes={align=center},
+  level distance=2cm,
+layered layout]
+{
+  "Glycolyse anaérobie"[draw] // [layered layout] {
+    glucose ->["muscles"] lactate ->["foie"] pyruvate;
+  };
+};
+
+\section{Lipides}%
+\label{sec:lipides}
+Lipides = triglycérides (95\%), choléstérol, phospholipides, ester vitamines
+solubles
+
+
+\tikz \graph [
+  nodes={align=center},
+  layered layout
+  ]
+{
+  // [layered layout, grow=right, level distance=3cm] {
+    intestin [draw, circle] -> chylomicrons ->["LPL"] "remnants de\\chylomicrons" 
+    -> foie[draw, circle];
+  };
+  // [spring layout, node distance=2cm] {
+    foie -> VLDL -> IDL -> LDL -> "c. périphériques" -> foie;
+  };
+};
+
+
+\end{document}
