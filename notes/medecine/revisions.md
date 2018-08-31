@@ -15,15 +15,15 @@
 UE1-4 Sécurité                 |X    |non                           |
 UE2-26 Risques foetaux         |X    |Venard                        |
 UE6-142 Surveillance           |X    |non                           |1 QI
-UE6-143 Vaccinations           |X    |                              |
+UE6-143 Vaccinations           |X    |                              |1 QI
 UE6-144 Fièvre aigüe           |X    |non                           |
 UE6-145 Infections naso-sinus  |X    |non                           |1 DP
-UE6-146 Angines                |X    |Jacquet                       |
+UE6-146 Angines                |X    |Jacquet                       |1 QI
 UE6-147 Otites                 |X    |non                           |1 DP
 UE6-148 Méningites             |X    |{Lozniewski, Legof, Schvoerer}|
 UE6-149, 150 Endocardites      |X    |Goehringer                    |1 DP, 1 QI
 UE6-151 Infections pulmonaires |X    |Lozniewski                    |
-UE6-152 Infections cutanéo-muq |X    |                              |
+UE6-152 Infections cutanéo-muq |X    |                              |1 DP
 UE6-153 Infections ostéo-art   |X    |                              |
 UE6-154 Septicémie             |X    |                              |
 UE6-155 Tuberculose            |X    |                              |1DP
@@ -39,22 +39,26 @@ UE6-164 Herpès                 |X    |Jeulin                        |1 DP
 UE6-165 VIH                    |X    |{Venard, Jeulin, May, Boyer}  |
 UE6-166 Paludisme              |X    |Debourgogne                   |
 UE6-167 Gale et pédiculose     |X    |                              |
-UE6-168 Parasitoses digestives |X    |                              |1 QI
+UE6-168 Parasitoses digestives |X    |                              |1 DP, 1 QI
 UE6-169 Zoonose                |X    |                              |1 QI
-UE6-170 Migrants               |     |                              |
-UE6-171 Voyage                 |     |                              |
-UE6-172 Diarrhées infectieuses |     |                              |
+UE6-170 Migrants               |révisé     |                              |
+UE6-171 Voyage                 |révisé     |                              |
+UE6-172 Diarrhées infectieuses |lu     |                              |
 UE6-173 ATB                    |X    |Pulcini                       |
 UE6-174 Risques                |X    |non                           |
-UE6-186 Fièvre prolongée       |     |                              |
-UE6-187 Fièvre chez ID         |     |                              |
-UE6-211 Purpuras               |     |                              |
-UE6-213 Sd mononucléosique     |     |Jacquet                       |
-UE6-214 Éosinophilie           |     |                              |
-UE6-216 Adénopathie            |     |                              |
-UE11-352 Péritonite            |     |                              |
-UE11-363 Exposition            |     |                              |
+UE6-186 Fièvre prolongée       |lu   |                              |
+UE6-187 Fièvre chez ID         |lu   |                              |
+UE6-211 Purpuras               |lu   |                              |
+UE6-213 Sd mononucléosique     |lu   |Jacquet                       |
+UE6-214 Éosinophilie           |lu   |                              |
+UE6-216 Adénopathie            |lu   |                              |
+UE11-352 Péritonite            |lu   |                              |
+UE11-363 Exposition            |lu   |                              |
 
 
 * SIDES : QI = 20+2x30, DP = 4
 * S-ECN
+
+# Bibliographie 
+UECN en question isolée, Charrier M et Doreille A, VG éditions, 2015
+UECN en dossiers progressifs, Vincent X, VG éditions, 2017
