@@ -41,9 +41,9 @@ UE6-166 Paludisme              |X    |Debourgogne                   |
 UE6-167 Gale et pédiculose     |X    |                              |
 UE6-168 Parasitoses digestives |X    |                              |1 DP, 1 QI
 UE6-169 Zoonose                |X    |                              |1 QI
-UE6-170 Migrants               |révisé     |                              |
-UE6-171 Voyage                 |révisé     |                              |
-UE6-172 Diarrhées infectieuses |lu     |                              |
+UE6-170 Migrants               |X    |                              |
+UE6-171 Voyage                 |X    |                              |
+UE6-172 Diarrhées infectieuses |X    |                              |
 UE6-173 ATB                    |X    |Pulcini                       |
 UE6-174 Risques                |X    |non                           |
 UE6-186 Fièvre prolongée       |lu   |                              |
