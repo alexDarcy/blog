@@ -16,7 +16,7 @@ UE1-4 Sécurité                 |X    |non                           |
 UE2-26 Risques foetaux         |X    |Venard                        |
 UE6-142 Surveillance           |X    |non                           |1 QI
 UE6-143 Vaccinations           |X    |                              |1 QI
-UE6-144 Fièvre aigüe           |X    |non                           |
+UE6-144 Fièvre aigüe           |X    |non                           |1 QI
 UE6-145 Infections naso-sinus  |X    |non                           |1 DP
 UE6-146 Angines                |X    |Jacquet                       |1 QI
 UE6-147 Otites                 |X    |non                           |1 DP
