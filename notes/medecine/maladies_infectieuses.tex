@@ -17,7 +17,7 @@
 % Smaller marign
 \usepackage[margin=2.5cm]{geometry}
 \usepackage{latexsym}
-
+\usepackage{subcaption}
 %-------------------------------------------------------------------------------
 % For graphs
 \usepackage{tikz}
@@ -530,7 +530,7 @@ Contre-indication à la PL :
 
 \begin{figure}[htpb]
   \centering
-  \begin{minipage}{0.49\textwidth}
+  \begin{minipage}{0.4\textwidth}
     \resizebox{\textwidth}{!}{
       \tikz \graph [
   % Labels at the middle 
@@ -559,7 +559,7 @@ Contre-indication à la PL :
       };
     }
   \end{minipage}
-  \begin{minipage}{0.49\textwidth}
+  \begin{minipage}{0.58\textwidth}
     \resizebox{\textwidth}{!}{
       \tikz \graph [
   % Labels at the middle 
@@ -587,7 +587,7 @@ Contre-indication à la PL :
 
 \begin{figure}[htpb]
   \centering
-  \begin{minipage}{0.2\textwidth}
+  \begin{minipage}{0.42\textwidth}
     \resizebox{\textwidth}{!}{
 
       \tikz \graph [
@@ -1509,6 +1509,7 @@ Bactériurie : $\ge 10^3/ml$ ($10^4$ chez la femme pour bactéries autres que
 \subsection{Cystite}%
 \label{sub:cystite}
 
+bloup
 \paragraph{Cystite simple}
 
 Clinique : pollakurie, brûlures+douleur à la miction, miction impérieuse
@@ -1517,20 +1518,36 @@ Diagnostic : BU
 abdo/lombaire)
 
 \begin{figure}[htpb]
-  \centering
-  \tikz \graph [
+  \begin{subfigure}{0.49\linewidth}
+    \centering
+    \begin{tikzpicture}
+      \graph [
   % Labels at the middle 
-    edge quotes mid,
+        edge quotes mid,
   % Needed for multi-lines
-    nodes={align=center, draw},
-    edges={nodes={fill=white}}, 
-  layered layout]
-  {
-    "Fosfomycine-trométamol" -> Pivmécillinam ->
-    "Fluoroquinolone\\Nitrofurantoïne";
-  };
-
-  \caption{Traitement de la cystite simple}
+        nodes={align=center, draw},
+        edges={nodes={fill=white}}, 
+      layered layout]
+      {
+        "Fosfomycine-trométamol" -> Pivmécillinam ->
+        "Fluoroquinolone\\Nitrofurantoïne";
+      };
+    \end{tikzpicture}
+    \caption{Traitement de la cystite simple}
+  \end{subfigure}
+  \begin{subfigure}{0.49\linewidth}
+      \begin{tabular}{*{4}{c}}
+        \toprule
+        & PNA simple & PNA à risque & PNA grave \\
+        \midrule
+        Hémocultures & si doute & si doute & oui \\
+        CRP, urée, créat & & oui & oui \\
+        Imagerie & oui & oui \\
+        ATB & mono & mono & bi \\
+        \bottomrule
+      \end{tabular}
+    \caption{Examens complémentaires PNA}
+  \end{subfigure}
 \end{figure}
 
 Surveillance: clinique, par la patiente
@@ -1569,72 +1586,61 @@ Si $\ge 4$ épisodes/an : triméthoprime ou fosfomycine-trométamol
 
 \subsection{Pyélonéphrite aigüe}%
 \label{sub:pyelonephite_aigue}
-Clinique : cystite + lombalgie fébrile
-Diagnostic : BU + ECBU
+Clinique : cystite + lombalgie fébrile\\
+Diagnostic : BU + ECBU\\
 Surveillance : clinique si favorable, ECBU + uroscanner à 72h sinon
 
-\begin{table}[htpb]
-  \centering
-  \caption{Examens complémentaires PNA}
-  
-  \begin{tabular}{*{4}{c}}
-    \toprule
-    & PNA simple & PNA à risque & PNA grave \\
-    \midrule
-    Hémocultures & si doute & si doute & oui \\
-    CRP, urée, créat & & oui & oui \\
-    Imagerie & oui & oui \\
-    ATB & mono & mono & bi \\
-    \bottomrule
-  \end{tabular}
-\end{table}
-
-\begin{figure}[htpb]
-  \centering
-  \tikz \graph [
+\begin{figure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \centering
+    \resizebox{\textwidth}{!}{
+      \tikz \graph [
   % Labels at the middle 
-    edge quotes mid,
+        edge quotes mid,
   % Needed for multi-lines
-    nodes={align=center},
-    sibling distance=3cm,
-    edges={nodes={fill=white}}, 
-  layered layout]
-  {
-    ATB probabiliste // [layered layout] {
-      "Facteur de risque ?" -> {
-        FQ [>"non", draw];
-        C3G parentérales [>"oui", draw];
+        nodes={align=center},
+        sibling distance=3cm,
+        edges={nodes={fill=white}}, 
+      layered layout]
+      {
+        ATB probabiliste // [layered layout] {
+          "Facteur de risque ?" -> {
+            FQ [>"non", draw];
+            C3G parentérales [>"oui", draw];
+          };
+        };
+        FQ -> "ATB adaptée (7j)" [draw];
+        C3G parentérales -> "ATB adaptée (10-14j
+        )" [draw];
       };
+    }
+    \caption{PNA à risque}
+  \end{subfigure}%
+  \begin{subfigure}[b]{0.4\linewidth}
+  \resizebox{\textwidth}{!}{
+    \tikz \graph [
+  % Labels at the middle 
+      edge quotes mid,
+  % Needed for multi-lines
+      nodes={align=center},
+      sibling distance=3cm,
+      level distance=2cm,
+      edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      Probabiliste // [layered layout] {
+        "Choc septique + ATCD IU 6 mois ?" -> {
+          "C3G IV + amikacine\\
+          (aztréonam+ amikacine si allergie)" [>"non", draw];
+          "carbapénème\\+ amikacine" [>"oui", draw];
+        };
+      } -> "ATB adapté\\(PNA non grave)";
     };
-    FQ -> "ATB adaptée (7j)" [draw];
-    C3G parentérales -> "ATB adaptée (10-14j)" [draw];
-  };
-  \caption{Traitement de la PNA à risque}
+  }
+  \caption{PNA grave}
+  \end{subfigure}
 \end{figure}
 
-
-\begin{figure}[htpb]
-  \centering
-  \tikz \graph [
-  % Labels at the middle 
-    edge quotes mid,
-  % Needed for multi-lines
-    nodes={align=center},
-    sibling distance=3cm,
-    level distance=2cm,
-    edges={nodes={fill=white}}, 
-  layered layout]
-  {
-    Probabiliste // [layered layout] {
-      "Choc septique + ATCD IU 6 mois ?" -> {
-        "C3G IV + amikacine\\
-        (aztréonam+ amikacine si allergie)" [>"non", draw];
-        "carbapénème\\+ amikacine" [>"oui", draw];
-      };
-    } -> "ATB adapté\\(PNA non grave)";
-  };
-  \caption{Traitement de la PNA grave}
-\end{figure}
 
 \subsection{IU masculine/prostatie aigüe}%
 \label{sub:iu_masculine_prostatie_aigue}
@@ -1651,7 +1657,8 @@ Diagnostic : BU + ECBU
 
 \begin{figure}[htpb]
   \centering
-  \tikz \graph [
+  \begin{tikzpicture}
+    \graph [
   % Labels at the middle 
     edge quotes mid,
   % Needed for multi-lines
@@ -1670,6 +1677,7 @@ Diagnostic : BU + ECBU
       } ;
     } -> Fluoroquinolones;
   };
+  \end{tikzpicture}
   \caption{Traitement de la PNA grave}
 \end{figure}
 
@@ -2400,38 +2408,41 @@ Antigrippal = inhibiteurs de la neuramidase (oseltamivir, zanamivir)
 \section{UE 6 - 163 : Hépatites virales}
 \subsection{Bases}
 
-\begin{table}[htpb]
-  \centering
-  \caption{Transmission}
-  \begin{tabular}{*{5}{c}}
-    \toprule
-                   & Orofécale & Parentérale & Sexuelle & Maternofoetale\\
-     \midrule
-     A             & +         & (+)         & (+)      & \\
-     B             &           & +           & +        & + \\
-     C             &           & +           & (+)      & (+) \\
-     D             &           & +           & (+)      & (+) \\
-     E             & +         & (+)         &          & \\
-     \bottomrule
-  \end{tabular}
-\end{table}
-
-\begin{table}[htpb]
-  \centering
-  \caption{Évolution}
-  \begin{tabular}{*{5}{c}}
-    \toprule
-          & Guérison             & Fulminante          & Chronique \\
-     \midrule
-     A    & 100\%                & < 5\textperthousand & non\\
-     B    & 90\% (adulte)        & 1\%                 & 10\% \\
-          & 5\% (petite enfance) &                     & 95\% \\
-     C    & 15-30\%              & Exceptionelle       & 70-85\% \\
-     D    & si co-infection VHB  & 5\%                 & si surinfection\\
-     E    & si IC                & < 5\textperthousand & si ID \\
-     \bottomrule
-  \end{tabular}
-\end{table}
+\begin{figure}[htpb]
+  \begin{subfigure}{0.49\textwidth}
+    \resizebox{\textwidth}{!}{
+      \begin{tabular}{*{5}{c}}
+        \toprule
+        & Orofécale & Parentérale & Sexuelle & Maternofoetale\\
+        \midrule
+        A             & +         & (+)         & (+)      & \\
+        B             &           & +           & +        & + \\
+        C             &           & +           & (+)      & (+) \\
+        D             &           & +           & (+)      & (+) \\
+        E             & +         & (+)         &          & \\
+        \bottomrule
+      \end{tabular}
+    }
+    \caption{Transmission}
+  \end{subfigure}
+  \begin{subfigure}{0.49\textwidth}
+    \resizebox{\textwidth}{!}{
+      \begin{tabular}{*{5}{c}}
+        \toprule
+        & Guérison             & Fulminante          & Chronique \\
+        \midrule
+        A    & 100\%                & < 5\textperthousand & non\\
+        B    & 90\% (adulte)        & 1\%                 & 10\% \\
+        & 5\% (petite enfance) &                     & 95\% \\
+        C    & 15-30\%              & Exceptionelle       & 70-85\% \\
+        D    & si co-infection VHB  & 5\%                 & si surinfection\\
+        E    & si IC                & < 5\textperthousand & si ID \\
+        \bottomrule
+      \end{tabular}
+    }
+    \caption{Évolution}
+  \end{subfigure}
+\end{figure}
 
 \subsection{Diagnostic}%
 Élévation transaminases $\pm$ clinique (asthénie, anorexie, hépatalgie)\\
@@ -2454,15 +2465,19 @@ dengue/arboviroses si zone tropicale
   \midrule
   A   & Augmentation T.             & non               & normalisation T.\\
       & IgM                         &                   & \\
+  \midrule
   B   & Augmentation T.             & Ag HBs+ > 6 mois, & normalisation T. \\
       & Ag HBs +, Ac anti-HBc +     & Ac anti-HBs-      & Ac anti-HBs+\\
       & IgM anti-HBc+, Ac anti HBs- &                   &\\
       & PCR élevée                  &                   & \\
+  \midrule
   C   & Augmentation T.             &                   & normalisation T. \\
       & IgG anti-VHC+ \danger       & idem              & PCR neg.\\
       & PCR élevée                  & \\
+  \midrule
   D   & Augmentation T.             &                   & PCR nég. \\
       & IgM                         & IgG               & \\
+  \midrule
  E    & Augmentation T. ?           & idem              & normalisation T. \\
       & IgM                         &                   & PCR neg.\\
   \bottomrule
@@ -2598,27 +2613,27 @@ Transmission :~directe, cutanéomuqueuse, transplacentaire
 \begin{table}[htpb]
   \centering
   \begin{tabular}{*{4}{c}}
-
     \toprule
     Type& Localisation& Primo& Récurrence\\
     \midrule
     HSV1& plutôt orale& 
-\begin{tabular}{c}
-    enfance,~asymptomatique\\
-    (ou gingivostomatite aigüe)
-\end{tabular} &
-\begin{tabular}{c}
-    Vésicules unilatérales\\(narines, menton).\\
-    Kératite possible
-\end{tabular}
+      \begin{tabular}{c}
+        enfance,~asymptomatique\\
+        (ou gingivostomatite aigüe)
+      \end{tabular} &
+      \begin{tabular}{c}
+        Vésicules unilatérales\\(narines, menton).\\
+        Kératite possible
+      \end{tabular}
     \\
+    \midrule
     HSV2& plutôt génitale& 
-    \begin{tabular}{c}
-    Érythémato-vésiculeuses\\+ exsudat blanchâtre
-    \end{tabular} &
-    \begin{tabular}{c}
-    Prodromes puis\\~Lésions :~vésicules,\\guérison 7-10j
-    \end{tabular}\\
+      \begin{tabular}{c}
+        Érythémato-vésiculeuses\\+ exsudat blanchâtre
+      \end{tabular} &
+      \begin{tabular}{c}
+        Prodromes puis\\~Lésions :~vésicules,\\guérison 7-10j
+      \end{tabular}\\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -3399,6 +3414,7 @@ FQ ou azithromycine + symptomatique
 
 \section{UE 6 - 173 : Prescription des antibiotiques}
 
+\hspace*{-1cm}
 \begin{table}[htpb]
   \centering
   \caption{Pénicillines}
@@ -4784,3 +4800,8 @@ Polyadénopathies + splénomégalie :
 \appendix
 \input bacteries
 \end{document}
+
+
+% Local Variables:
+% TeX-engine: luatex
+% End:
