@@ -21,7 +21,7 @@ UE6-145 Infections naso-sinus  |X    |non                           |1 DP
 UE6-146 Angines                |X    |Jacquet                       |1 QI
 UE6-147 Otites                 |X    |non                           |1 DP
 UE6-148 Méningites             |X    |{Lozniewski, Legof, Schvoerer}|
-UE6-149, 150 Endocardites      |X    |Goehringer                    |1 DP, 1 QI
+UE6-149, 150 Endocardites      |X    |Goehringer                    |1 DP, 2 QI
 UE6-151 Infections pulmonaires |X    |Lozniewski                    |
 UE6-152 Infections cutanéo-muq |X    |                              |1 DP
 UE6-153 Infections ostéo-art   |X    |                              |
