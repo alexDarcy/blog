@@ -25,7 +25,7 @@ UE6-149, 150 Endocardites      |X    |Goehringer                    |1 DP, 2 QI
 UE6-151 Infections pulmonaires |X    |Lozniewski                    |
 UE6-152 Infections cutanéo-muq |X    |                              |1 DP
 UE6-153 Infections ostéo-art   |X    |                              |
-UE6-154 Septicémie             |X    |                              |
+UE6-154 Septicémie             |X    |1 QI                              |
 UE6-155 Tuberculose            |X    |                              |1DP
 UE6-156 Tétanos                |X    |Non ?                         |
 UE6-157 Infections urinaires   |X    |{Lozniewski, Henard}          |1 DP, 1 QI
