@@ -521,7 +521,8 @@ Contre-indication à la PL :
 \end{itemize}
 
 \subsection{Méningite}
-Épidémio : bactérienne = 70\% de pneumocoque > 40 ans (50\% sinon). Herpétique :
+Épidémio : virale dominent < 65 ans. Bactérienne dominent > 65 ans (70\% de
+pneumocoque > 40 ans, 50\% sinon). Herpétique :
 80\% < 20 ans ou > 50 ans
 
 \begin{figure}[htpb]
@@ -4782,8 +4783,11 @@ Autres : urgence diagnostique seulement
 
 \section{Purpuras}
 \label{sec:orga164eae}
+\danger Purpura + fièvre = urgence 
+\danger Purpura avec 1 élements ecchymotique $\ge 3$ mm / nécrotique $\to$ C3G
+IV en urgence \skull
 
-\section{UE 7 - 213 :Syndrome mononucléosique}%
+\section{UE 7 - 213 : Syndrome mononucléosique}%
 \label{sec:syndrome_mononucleosique}
 Définition : NFS = {> 50\% leucocytes mononuclés et > 10\% de lymphocytes T
   activés (\nearrow taille, coloration)
@@ -4797,10 +4801,23 @@ Principales étiologies :
   \item médicaments
 \end{itemize}
 
+\section{UE 7 - 214 : Éosinophilie}
+\label{sec:org4e42b49}
+Cytotoxique, défense antiparasitaire
+Définition : PNE > 0.5G/L
+\faHospitalSign{} si signes de gravité
+\subsection{Étiologies}
+\label{sec:orgdb9b717}
+Parasitaires :
+\begin{itemize}
+\item helminthoses++ : élévation IgE, EPS 2-3mois plus tard, sérologie délicate
+\item si voyage : anguillulose (ondulante), filarioses (ondulante), schistosomoses (aigüe), distomatoses tropicales (aigües), gnathostomoses (aigüe)
+\item hors séjour : asciridiose (aigüe), trichinellose (aigüe), toxocarose (ondulante), distomatose (aigüe), taeniasose, oxyuroses, échinococcoses
+\end{itemize}
+Non parasitaires : médicaments++, atopie, onco-hématologiques, système,
+vascularites\ldots{}
 
-
-
-\section{Adénopathies superficielles}%
+\section{UE 7 - 216 : Adénopathies superficielles}%
 \label{sec:adenopathies_superficielles}
 Définition : ganglion palpable > 1cm. Causes : infectieuse, tumorale (,
 inflammatoire, médicamenteuse)
@@ -4808,45 +4825,91 @@ inflammatoire, médicamenteuse)
 Diagnostic différentiel : tumeur, lipome, hernie inguinale, masse vasculaire,
 hidrosadénite
 
-Examens complémentaires 
+Localisée :
+- cervicale : si aigü, infection tête+cou, EBV, CMV, VIH, toxplasmose. Sinon,
+EBV, CMV, VIH, toxolpasmose, syphilis, tuberculose, griffes du chat, lymphome,
+cancer
+- sus-claviculaire : néoplasie
+- axillaire : griffes du chat, cancer du sein
+- épitrochlée : infection locale, griffes du chat, syphilis
+inguinale : cancer, infection, IST
+
+Polyadénopathie :
+- bactérienne : mycobactérie (tuberculose),
+- virale : EBV, CMV, VIH
+- parasitaire : toxoplasmose
+- non infectieux : lymphome/leucémies, lupus
+% Examens complémentaires         
+% \begin{itemize}
+%   \item si AEG, > 2cm, pas d'étiologie
+%   \item sérologie VIH, EBV, CMV, toxoplasmose, maladie des griffes du chat,
+%     syphilis
+%   \item NFS, CRP
+% \end{itemize}
+
+% Polyadénopathies
+
+% 1ère intention :
+% \begin{itemize}
+%   \item radio thorax (tuberculose)
+%   \item sérologie VIH EBV, CMV, toxoplasmose 
+%   \item NFS, CRP
+%   \item bilan hépatique, LDH
+% \end{itemize}
+
+% 2eme intention :
+% \begin{itemize}
+%   \item sérologie syphilis
+%   \item AAN (lupus)
+%   \item TDM TAP
+%   \item ponction/biopsie si négatif (lymphome)
+%   \item myélograme (leucémie aigüe)
+% \end{itemize}
+
+% Polyadénopathies + splénomégalie :
+% \begin{itemize}
+%   \item infectieux : bactérien (tuberculose, brucellose), viral (EBV, VIH),
+%     parasitaire (leishmaniose)
+%   \item hématologique, inflammatoire
+% \end{itemize}
+
+\section{UE 11 - 252 : Péritonite aigüe}
+ATB : C3G + métronidazole ou amoxicilline-acide clavulanique + gentamicine
+
+\section{UE 11 - 362 : Exposition accidentelle aux liquides biologiques}
+\subsection{Exposition au sang}
+Déclaration d'accident du travail < 48h
+Sérologie VIH, VHC
+\paragraph{VIH}
+TPE = ténéfovir + emtricitabine + rilpivirine < 4h si
 \begin{itemize}
-  \item si AEG, > 2cm, pas d'étiologie
-  \item sérologie VIH, EBV, CMV, toxoplasmose, maladie des griffes du chat,
-    syphilis
-  \item NFS, CRP
-\end{itemize}
+  \item exposition importante sauf si sérologie inconnue et groupe à prévalence
+    faible
+  \item exposition intermédiarie sauf si CV indétectable ou groupe à prévalence faible
+  \end{itemize}
 
-Polyadénopathies
+  \paragraph{VHB, VHC}
+  \begin{table}[htbp]
+\caption{VHB}
+\centering
+\begin{tabular}{lll}
+ & Ag HBs + ou prévalence élevée & Prévalence faible\\
+\hline
+Non vacciné & Ig + vaccin & Vaccin\\
+Ne répond pas à la vaccination & Ig & \\
+\end{tabular}
+\end{table}
 
-1ère intention :
+\paragraph{Exposition sexuelle}
+TPE si
 \begin{itemize}
-  \item radio thorax (tuberculose)
-  \item sérologie VIH EBV, CMV, toxoplasmose 
-  \item NFS, CRP
-  \item bilan hépatique, LDH
+\item anal réceptif sauf si prévalence faible
+  \item CV détectable ou prévalence élevée ou viol
 \end{itemize}
-
-2eme intention :
-\begin{itemize}
-  \item sérologie syphilis
-  \item AAN (lupus)
-  \item TDM TAP
-  \item ponction/biopsie si négatif (lymphome)
-  \item myélograme (leucémie aigüe)
-\end{itemize}
-
-Polyadénopathies + splénomégalie :
-\begin{itemize}
-  \item infectieux : bactérien (tuberculose, brucellose), viral (EBV, VIH),
-    parasitaire (leishmaniose)
-  \item hématologique, inflammatoire
-\end{itemize}
-
-\appendix
+    \appendix
+    
 \input bacteries
 \end{document}
 
 
-% Local Variables:
-% TeX-engine: luatex
-% End:
+

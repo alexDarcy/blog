@@ -46,10 +46,10 @@ UE6-171 Voyage                 |X    |                              |
 UE6-172 Diarrhées infectieuses |X    |1 DP                              |
 UE6-173 ATB                    |X    |Pulcini                       |
 UE6-174 Risques                |X    |non                           |
-UE6-186 Fièvre prolongée       |lu   |                              |
-UE6-187 Fièvre chez ID         |lu   |                              |
-UE6-211 Purpuras               |lu   |                              |
-UE6-213 Sd mononucléosique     |lu   |Jacquet                       |
+UE6-186 Fièvre prolongée       |X   |                              |
+UE6-187 Fièvre chez ID         |X   |                              |
+UE6-211 Purpuras               |X   |                              |
+UE6-213 Sd mononucléosique     |X   |Jacquet                       |
 UE6-214 Éosinophilie           |lu   |                              |
 UE6-216 Adénopathie            |lu   |                              |
 UE11-352 Péritonite            |lu   |                              |
