@@ -895,6 +895,7 @@ infectieux si prothèse vasculaire.
 
 Prévention amont, péri-, post-opératoire : 
 amoxicilline 1h avant geste dentaire à risque (clindamycine si allergie)
+
 \section{UE 6 - 151 : Infections broncho-pulmonaires communautaires}
 
 \subsection{Bronchite aigüe}
@@ -908,20 +909,16 @@ rétro-sternale, râles bronchiques\\
 Diagnostic :
 
 \begin{itemize}
-\tightlist
-\item
-  signes fonctionnels respiratoires (toux, expector, dyspnée, douleur
+\item signes fonctionnels respiratoires (toux, expector, dyspnée, douleur
   thoracique)
-\item
-  fébrile
-\item
-  radio (atteinte parenchyme) -\textgreater{} pneumonie
+\item fébrile
+\item radio (atteinte parenchyme) $\to$ pneumonie
   alvéolaire/interstitielle/micronodulaire
 \end{itemize}
 
-Démarche diagnostique
 \begin{figure}[htpb]
   \centering
+  \caption{Démarche diagnostique}
 \tikz \graph [
   % Labels at the middle 
   edge quotes mid,
@@ -1004,7 +1001,7 @@ Facteurs de risque de mortalité :
     \begin{itemize}
       \item \dag = Coxiella burnetti
       \item pneumonie franche lobaire aigüe : début brutal, douleur thoracique
-        ``coup de poignard'', touche sèche -\textgreater{} expector.
+        ``coup de poignard'', touche sèche $\to$ expector.
         purulentes/rouille, frissons intenses, fièvre 39-40, malaise général
     \end{itemize}
   }
@@ -1033,48 +1030,12 @@ Complications:~
 \begin{itemize}
 \tightlist
 \item
-  respiratoire : plèver, parenchyme, voies aériennes, fonctionnelle
+  respiratoire : plèvre, parenchyme, voies aériennes, fonctionnelle
 \item
   générales : décompensation, complication infectieuses à distance, choc
   septique, décès
 \end{itemize}
 
-\subsection{Exacerbation de bronchopneumopathie obstructive}
-
-\begin{longtable}[]{@{}lll@{}}
-\toprule
-\begin{minipage}[b]{0.46\columnwidth}\raggedright
-Sans EFR\strut
-\end{minipage} & \begin{minipage}[b]{0.23\columnwidth}\raggedright
-EFR\strut
-\end{minipage} & \begin{minipage}[b]{0.23\columnwidth}\raggedright
-ATB\strut
-\end{minipage}\tabularnewline
-\midrule
-\endhead
-\begin{minipage}[t]{0.46\columnwidth}\raggedright
-\(\emptyset\) dyspnée\strut
-\end{minipage} & \begin{minipage}[t]{0.23\columnwidth}\raggedright
-VEMS \textgreater{} 50\%\strut
-\end{minipage} & \begin{minipage}[t]{0.23\columnwidth}\raggedright
-\(\emptyset\)\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.46\columnwidth}\raggedright
-Dyspnée d'effort\strut
-\end{minipage} & \begin{minipage}[t]{0.23\columnwidth}\raggedright
-VEMS \textless{} 50\%\strut
-\end{minipage} & \begin{minipage}[t]{0.23\columnwidth}\raggedright
-Si expectoration purulente verdâtre : Amoxicilline\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.46\columnwidth}\raggedright
-Dyspnée de repos\strut
-\end{minipage} & \begin{minipage}[t]{0.23\columnwidth}\raggedright
-VEMS \textless{} 30\%\strut
-\end{minipage} & \begin{minipage}[t]{0.23\columnwidth}\raggedright
-Amoxicilline/acide clavulanique\strut
-\end{minipage}\tabularnewline
-\bottomrule
-\end{longtable}
 
 \begin{figure}[htpb]
   \centering
@@ -1103,6 +1064,7 @@ layered layout]
     "\faHospitalSign" -> ["non"] "Amoxicilline\\(+ acide clavulanique\\si agé/comorbid)";
   }
 };
+\caption{Traitement probabiliste PAC (Pneumonie aigüe communautaire)}
 \end{figure}
 
 \begin{figure}[htpb]
@@ -1128,9 +1090,23 @@ layered layout]
   -> ["$\le 65$ ans, FR $\le 1$\\$> 65$ ans, FR $= 0$"] 
   Ambulatoire;
 };
+\caption{Hospitalisation des PAC}
 \end{figure}
 
-
+\begin{table}[htpb]
+  \centering
+  \caption{ATB pour l'exacerbation de bronchopneumopathie obstructive}
+  \begin{tabular}{ccc}
+    \toprule
+    Sans EFR& EFR& ATB\\
+    \midrule
+    \(\emptyset\) dyspnée& VEMS \textgreater{} 50\%& \(\emptyset\)\\
+    Dyspnée d'effort& VEMS \textless{} 50\%& Si expectoration purulente verdâtre :
+    Amoxicilline\\
+    Dyspnée de repos& VEMS \textless{} 30\%& Amoxicilline/acide clavulanique\\
+    \bottomrule
+  \end{tabular}
+\end{table}
 \section{UE 6 - 152 : Infections cutanéo-muqueuses}%
 \label{sec:ue_6_152_infections_cutaneo_muqueuses}
 
@@ -1175,7 +1151,7 @@ Clinique : érysipèle + sepsis grave, douleur intense
 
 Diagnostic clinique, traitement local sauf teignes, onyxis, onyxis
 candidosiques\\
-Candida ou dermatophyte -> azolés local ou grséofulvine (teignes)
+Candida ou dermatophyte $\to$ azolés local ou griséofulvine (teignes)
 
 \paragraph{Candida}
 \begin{itemize}
@@ -1206,13 +1182,13 @@ Candida ou dermatophyte -> azolés local ou grséofulvine (teignes)
 \label{sec:ue_6_153_infections_osteo_articulaires}
 Fréquentes et coûteuses\\
 Étiologie : \bact{dore} sur os natif, staphylocoques coagulase négative sur
-prothèses
+prothèses\\
 Infection :
 \begin{itemize}
   \item aigüe : \danger urgence = isoler agent puis ATB
   \item chroniques : argumenter diagnostic, isoler agent
     \item arthrite septique/bactériémie/sepsis grave/choc septique : ATB
-      probabiliste $\beta$-lactamine $\pm$ gentamicine $\pm$ glycopetitde
+      probabiliste $\beta$-lactamine $\pm$ gentamicine $\pm$ glycopeptitde
 \end{itemize}
 
 \subsection{Arthrite septique (os natif)}
@@ -1229,7 +1205,7 @@ Adulte > 50 ans. Syndrome rachidien d'horaire inflammatoire \\
 Cherche porte d'entrée, agent, localisation secondaire (endocardite ?)\\
 \danger complications : si signes neuro radiculaires/médullaire -> IRM urgence\\
 IRM\\
-Hémoculture : si stériles, ponction-biopsie discovertébrales 
+Hémoculture : si stériles, ponction-biopsie discovertébrales \\
 DD : tassement, spondylarthropathie inflammatoire, myélome, métastase\\
 Bactériémie/sepsis grave/choc septique : traitement probabiliste\\
 Pas de chirurgie
@@ -1248,8 +1224,8 @@ Traitement médico-chirurgical
     Changement en 1-2 temps de la prothèse
 \end{itemize}
 
-\subsection{Infection du pied diabituqe}
-Plaie infectée chez diabètique -> avis spécialisé\\
+\subsection{Infection du pied diabétique}
+Plaie infectée chez diabètique $\to$ avis spécialisé\\
 Ostéite : contact osseux + infection = bonne VPP\\
 Souvent polymicrobien (\bact{dore})\\
 ATB adaptée (2 semaines)
@@ -1259,7 +1235,6 @@ ATB adaptée (2 semaines)
 \label{sec:ue_6_154_bacteriemie_fongemie}
 
 \subsection{Diagnostic}%
-\label{sub:diagnostic}
 
 Fièvre $\pm$ frissons $\rightarrow$ hémocultures (avant ATB !)
 \begin{itemize}
@@ -1273,17 +1248,17 @@ Fièvre $\pm$ frissons $\rightarrow$ hémocultures (avant ATB !)
 
 \paragraph{Signes de gravité}%
 \label{par:signes_de_gravite}
-Sepsis : "quick SOFA" = 2 parmi {FR $\ge 22$/min, Glasgow $\le 13$, PA systolique $\le
-100mmHg$}\\
+Sepsis : "quick SOFA" = 2 parmi \{FR $\ge 22$/min, Glasgow $\le 13$, PA systolique $\le
+100mmHg$\}\\
 Choc septique : sepsis + vasosuppresseurs pour $PA_{moy} \ge 65$mmHg, lactate
 > 2 mmol/L, malgré correction hypovolémie
 
 Défaillances d'organes (les + précoces) :
 \begin{itemize}
-  \item CV : PA syst < 100mmFg (ou baisse 
+  \item CV : PA syst < 100mmHg (ou -40mmHg)
   \item Cutané : marbrures, extr. froides et cyanosées
   \item Métab : acidose lactique
-  \item Reénale : oligo-anurie < 0.5 ml/kg/h
+  \item Rénale : oligo-anurie < 0.5 ml/kg/h
 \end{itemize}
 
 Chercher porte d'entrée + localisation secondaire (echographie pour endocardite
@@ -1304,9 +1279,9 @@ septique/neutropénie/asplénie
 Sinon :
 \begin{itemize}
   \item CG+ : pénicilline M si cutané à \bact{dore}, amoxicilline sinon
-  \item CG- : cefotaxime/ceftriaxonie (méningocoque)
-  \item BG+ : amoxicilline (Listera)
-  \item BG- : cefotaxime/ceftriaxonie (+ imidazolé si voie dig/bilaire ou pas de
+  \item CG- : cefotaxime/ceftriaxone (méningocoque)
+  \item BG+ : amoxicilline (Listeria)
+  \item BG- : cefotaxime/ceftriaxone (+ imidazolé si voie dig/bilaire ou pas de
     foyer)
 \end{itemize}
 
@@ -1322,7 +1297,7 @@ Localisation secondaire : fond d'eil, echo (endocardite), controle hémoc. 14j
 \label{sec:tuberculose}
 
 Bacille Acido-Alcool résistant. Plus fréquent = \bact{tuberculose}\\
-Patgnomonique : granulome épithélioïde giganto-cellulaire centré par de la
+Pathognomonique : granulome épithélioïde giganto-cellulaire centré par de la
 nécrose caséeuse\\
 Infection $\rightarrow$ latente (ITL) ou primaire. L'ITL peut se réactiver. Si
 symptômes : tuberculose maladie\\
@@ -1348,7 +1323,7 @@ IDR positive =
   \caption{Indication des tests}
   \begin{tabular}{*{6}{c}}
     \toprule
-  & < 5 ans & < 79 ans & $\ge 80$ ans & Migran < 15 ans & Migrant $\ge$ 15 ans \\
+  & < 5 ans & < 79 ans & $\ge 80$ ans & Migrant < 15 ans & Migrant $\ge$ 15 ans \\
   \midrule
   IDR         & X & X &   &   & X \\
   IFN$\gamma$ &   & X & X & X & X \\
@@ -1357,16 +1332,16 @@ IDR positive =
 \end{table}
 
 \subsection{Diagnostic}%
-\label{sub:diagnostic}
 
 \paragraph{Pulmonaire} Clinique = toux prolongée, expector muco-purulente,
 signes généraux.\\
 Radio thorax. Prélèvements bactério (sécrétion/tubage) : examen direct, culture
 
 \paragraph{Miliaire} Après primo-infection ou phase terminale.
-Clinique : fièvre prolongée, sueurs nocturnes, SDRA, neuro-méningés,
+Clinique : fièvre prolongée, sueurs nocturnes, SDRA\footnote{Syndrome de
+détresse respiratoire aigüe}, neuro-méningés,
 péricardite.\\
-Riado thorax, culture (hémoculture, LCS, biopsie)
+Radio thorax, culture (hémoculture, LCS, biopsie)
 
 \paragraph{Extra-pulmonaire}
 \begin{itemize}
@@ -1375,32 +1350,32 @@ Riado thorax, culture (hémoculture, LCS, biopsie)
   \item pleurésie : rare en france. Radio thorax (épanchement pleural), PL
     (lymphocytaire), biopsie pleurale
   \item péricardite : rare en France. Clinique = fièvre, douleurs thoracique,
-    dyspnée. Anomalies CG, radio thorax, écho cardiaque, culture liquie
+    dyspnée. Anomalies CG, radio thorax, écho cardiaque, culture liquide
     péricardique
   \item neuro-méningé : AEG, progressif, sd méningé, rhombencéphalite, déficits
-    focaux. PL (lymphocytair, hyperprot, hypoglyco), aranchoidite de la base
+    focaux. PL (lymphocytair, hyperprot, hypoglyco), arachnoïdite de la base
     (IRM), culture LCS
   \item urinaire : leucocyturie aseptique. Urine 3j
-  \item génitale : Clinique = \male{} prostatie, épididymite, masse scrotale. \female{}
+  \item génitale : Clinique = \male{} prostatite, épididymite, masse scrotale. \female{}
     trouble mestruels, douleur abdomino-pelvienne. \male{} calcifications.
     \female{} culture sur menstruations/frottis
-  \item digestive : firbo, colonoscopie
+  \item digestive : fibro, colonoscopie
   \item laryngé : rare. Clinique = ulcération douloureuse, toux, dysphagie,
     odynophagie, wheeing. Prélèvement local
 \end{itemize}
 
 \subsection{Traitement}%
-\label{sub:traitement}
 
-ITL : ttt si immunodérimé, infection < 2 an, enfant < 15 ans
-Primo-infectio : oui si symptomatique, sinon au cas par cas
+ITL : ttt si immunodérimé, infection < 2 an, enfant < 15 ans.\\
+Primo-infection : oui si symptomatique, sinon au cas par cas
 
 EI : 
 \begin{itemize}
   \item rifampicine : cytolyse hépatique, urines orange
-  \item isoniazide : cytolyse hépatique, neuropatie périph
-  \item pyrazinamide : hépatitte toxique
-  \item éthambutal : névrite optique
+  \item isoniazide : cytolyse hépatique, neuropatie périph (examen réflexes
+    OT\footnote{ostéo-tendineux})
+  \item pyrazinamide : hépatite toxique
+  \item éthambutol : névrite optique
 \end{itemize}
 
 Toujours + vitamine B6.\\
@@ -1408,58 +1383,47 @@ Corticothérapie si neuro-méningé ou péricardique
 
 \begin{table}[htpb]
   \centering
-  \caption{caption}
-  \label{tab:label}
+  \caption{Traitement tuberculose}
   \begin{tabular}{*{3}{c}}
+    \toprule
+    & Primo/tuberculose maladie & ITL \\
+    \midrule
  isoniazide & 6 mois & 9 mois ou 3 mois\\
  rifampicine & 6 mois & rien ou 3 mois \\
  ethambutol & 2 mois &\\
  pyrazinamide & 2 mois\\
+ \bottomrule
   \end{tabular}
 \end{table}
 \section{UE 6 - 156 : Tétanos}
-
-\begin{longtable}[]{@{}lll@{}}
-\toprule
-\begin{minipage}[b]{0.24\columnwidth}\raggedright
-Blessure\strut
-\end{minipage} & \begin{minipage}[b]{0.38\columnwidth}\raggedright
-Vaccins à jour\strut
-\end{minipage} & \begin{minipage}[b]{0.29\columnwidth}\raggedright
-Non à jour\strut
-\end{minipage}\tabularnewline
-\midrule
-\endhead
-\begin{minipage}[t]{0.24\columnwidth}\raggedright
-Mineure, propre\strut
-\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
-∅ injection\strut
-\end{minipage} & \begin{minipage}[t]{0.29\columnwidth}\raggedright
-Vaccin immédiat\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.24\columnwidth}\raggedright
-Majeure/contamination tellurique possible\strut
-\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
-pas d'injection\strut
-\end{minipage} & \begin{minipage}[t]{0.29\columnwidth}\raggedright
-Ig 250 UI dans 1 bras, vaccin dans l'autre\strut
-\end{minipage}\tabularnewline
-\bottomrule
-\end{longtable}
+\begin{table}[htpb]
+  \centering
+  \caption{Traitement tétanos}
+  \begin{tabular}{ccc}
+    \toprule
+    Blessure& Vaccins à jour& Non à jour\\
+    \midrule
+    Mineure, propre& ∅ injection& Vaccin immédiat\\
+    Majeure/contamination& pas d'injection& Ig 250 UI dans 1
+    bras, vaccin dans l'autre\\
+    tellurique possible&&\\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \section{UE 6 - 157 : Infections urinaires}%
 \label{sec:item_157_infections_urinaires}
 
 \begin{table}[htpb]
   \centering
-  \caption{Résistances}
+  \caption{Résistances pour les infecitons urinaires}
   \begin{tabular}{ccc}
     \toprule
     Antibiotiques & Résistance (\%) & Probabiliste ? \\
     \midrule
     Fosfomycine-trométamol & < 5 & oui \\
     Nitrofurantoïne & &\\
-    Aminosides &i &\\
+    Aminosides & &\\
     \midrule
     C3G & 5 & éviter \\
     Aztréonam&&\\
@@ -1485,9 +1449,9 @@ BU :
 \end{itemize}
 Pas d'ECBU de contrôle si évolution favorable
 
-Leucocyturie : $> 10^4/ml$
+Leucocyturie : $> 10^4/ml$\\
 Bactériurie : $\ge 10^3/ml$ ($10^4$ chez la femme pour bactéries autres que
-\bact{ecoli}, \bact{saprophyte}
+\bact{ecoli}, \bact{saprophyte})
 
 \danger Ne pas chercher/traiter de colonisation, sauf chez la femme enceinte
 \skull
@@ -1495,13 +1459,11 @@ Bactériurie : $\ge 10^3/ml$ ($10^4$ chez la femme pour bactéries autres que
 \subsection{Cystite}%
 \label{sub:cystite}
 
-bloup
 \paragraph{Cystite simple}
 
-Clinique : pollakurie, brûlures+douleur à la miction, miction impérieuse
-Diagnostic : BU
-\textit{Diagnostic différentiel}  : pyélonéphrite (fièvre, frissons, douleurs
-abdo/lombaire)
+Clinique : pollakurie, brûlures+douleur à la miction, miction impérieuse\\
+Diagnostic : BU\\
+DD: pyélonéphrite (fièvre, frissons, douleurs abdo/lombaire)
 
 \begin{figure}[htpb]
   \begin{subfigure}{0.49\linewidth}
@@ -1628,12 +1590,12 @@ Surveillance : clinique si favorable, ECBU + uroscanner à 72h sinon
 \end{figure}
 
 
-\subsection{IU masculine/prostatie aigüe}%
-\label{sub:iu_masculine_prostatie_aigue}
+\subsection{IU masculine/prostatite aigüe}%
+\label{sub:iu_masculine_prostatite_aigue}
 
 Clinique : 
 \begin{itemize}
-  \item fièvre élegée, sueurs, frissons
+  \item fièvre élevée, sueurs, frissons
   \item brûlures mictions, dysurie, pollakurie
   \item douleurs pelviennes
   \item toucher rectal
@@ -1650,17 +1612,15 @@ Diagnostic : BU + ECBU
   % Needed for multi-lines
     nodes={align=center},
     sibling distance=3cm,
-    level distance=2cm,
+    %level distance=2cm,
     edges={nodes={fill=white}}, 
   layered layout]
   {
     Probabiliste [draw] // [layered layout] {
-      "" -> {
         "Sepsis grave\\ drainage" -> "PNA grave";
         "Rétention urine\\ID profonde" -> "PNA à risque";
         "Fièvre\\mauvaise tolérance" -> "PNA simple";
         "Autre" -> "pas de probabiliste";
-      } ;
     } -> Fluoroquinolones;
   };
   \end{tikzpicture}
@@ -1732,8 +1692,8 @@ Syphilis = \bact{syphilis}
 Clinique : 
 \begin{itemize}
   \item ulcération = herpès génital, syphilis primaire, chancre mou, donovanose,
-    lymphogranulomatose vénérienne
-  \item \male{} urétrite, orchite, prostatie
+    lymphogranulomatose vénérienne (\bact{chlamydia})
+  \item \male{} urétrite, orchite, prostatite
   \item \female{} : infections hautes ( endométrite, salpingite), basses (vaginites, cercivites)
   \item extra-génitale possible
 \end{itemize}
@@ -1762,7 +1722,7 @@ Clinique :
 
 \begin{figure}[htpb]
   \centering
-  \caption{Traitement}
+  \caption{Traitement IST \female}
   \tikz \graph [
   % Labels at the middle 
     edge quotes mid,
@@ -2117,8 +2077,8 @@ Mégalérythème épidémique
 \item
   contagion respiratoire
 \item
-  clinique : rash maculopapuleux (joue -\textgreater{} tronc
-  -\textgreater{} extrémités), arthralgies
+  clinique : rash maculopapuleux (joue $\to$ tronc
+  $\to$ extrémités), arthralgies
 \item
   diagnostique : sérologie, PCR
 \end{itemize}
@@ -2169,7 +2129,7 @@ Scarlatine :
     début brutal (fièvre, céphalées, maux gorge, vomissements)
   \item
     exanthème se généralisant, marqués aux plis de flexion (8j)
-    -\textgreater{} desquamation
+    $\to$ desquamation
   \item
     enanthème orop-pharyngé-lingual (lange framboisée)
   \end{itemize}
@@ -2194,7 +2154,7 @@ Syndrome de Kawasaki
 
   \begin{itemize}
   \item
-    fièvre prolongée, exanthème, glossie
+    fièvre prolongée, exanthème, glossite
   \item
     adénopathies cervicales volumineuses
   \item
@@ -2222,58 +2182,30 @@ Sd du choc toxique
 
 \paragraph{Vésiculeuses}
 
-Varicelle
-
-\begin{itemize}
-\item
-  très contagieuse (J-2 à J+5), incubation 14 jours
-\item
-  clinique : phase d'état
-
-  \begin{itemize}
-  \item
-    macule-papule prurigineuses vésicules (gouttes de rosée)
-    -\textgreater{} croûte
-  \item
-    respecte paume des mains, plantes des pieds
-  \end{itemize}
-\item
-  complication : surinfection (strepto A), immunodéprimé, néonatale,
-  congénitale
-\item
-  traitement : symptomatique, antiviral si immunodéprimé, prévention
-\end{itemize}
+Varicelle : cf Sec.~\ref{subsec:varicelle}
 
 Zona, Herpès : cf \ref{sec:item164}
 
-Coxsackie : sd pieds-mains-bouche (vésicules ovalaires) - contagion par
-les selles (10j) - clinique : vésicules fesses, pieds, bouche, lèvre
+Coxsackie : sd pieds-mains-bouche (vésicules ovalaires). Contagion par
+les selles (10j). Clinique : vésicules fesses, pieds, bouche, lèvre
 
-\paragraph{Pustuleuses}
+\paragraph{Pustuleuses} Poxviridae, variole
 
-Poxviridae Variole
-
-\subsection{Bulleux}
-
-Erythème polymorphe (lésion en cocarde) Toxidermies bulleuses :~sd de
+\subsection{Bulleux} Erythème polymorphe (lésion en cocarde). Toxidermies bulleuses :~sd de
 Stevens-Johnson, sd de Lyell
 
 \section{UE 6 - 161 :~Oreillons}
 
-Bénigne, contagieuse à réservoir humain Diagnostic principalement
+Bénigne, contagieuse à réservoir humain. Diagnostic principalement
 clinique :
 
 \begin{itemize}
-\tightlist
-\item
-  incubation 19j
-\item
-  invasion 24-48h
-\item
-  état : parotidite ourliennes (70\%) unilatérale puis bilatérale
+\item incubation 19j
+\item invasion 24-48h
+\item état : parotidite ourliennes (70\%) unilatérale puis bilatérale
 \end{itemize}
 
-Guérison spontanée 8-10j Autres formes :
+Guérison spontanée 8-10j. Autres formes :
 
 \begin{itemize}
 \tightlist
@@ -2295,7 +2227,6 @@ Prévention :~vaccin ROR
 Transmission inter-humaine (gouttelettes)
 
 \subsection{Diagnostic}%
-\label{sub:diagnostic}
 
 \paragraph{Clinique}%
 \label{par:clinique}
@@ -2382,17 +2313,15 @@ Hospitalisation :
 \end{itemize}
 
 \subsection{Traitement}%
-\label{sub:traitement}
 
-Symptomatique
+Symptomatique.
 Antigrippal = inhibiteurs de la neuramidase (oseltamivir, zanamivir)
 \begin{itemize}
-  \item curatif : précoce !
+  \item curatif : < 48h !
   \item prophylaxie (pré- ou post-exposition)
 \end{itemize}
 
 \section{UE 6 - 163 : Hépatites virales}
-\subsection{Bases}
 
 \begin{figure}[htpb]
   \begin{subfigure}{0.49\textwidth}
@@ -2428,6 +2357,7 @@ Antigrippal = inhibiteurs de la neuramidase (oseltamivir, zanamivir)
     }
     \caption{Évolution}
   \end{subfigure}
+  \caption{Hépatites virales}
 \end{figure}
 
 \subsection{Diagnostic}%
@@ -2535,7 +2465,7 @@ Primo-infection puis latente à vie (récurrence)
 
 \begin{table}[htpb]
   \centering
-  \caption{caption}
+  \caption{Traitement HSV}
   \begin{tabular}{*{4}{c}}
     \toprule
     & & Immunocompétent& Immunodéprimé\\
@@ -2569,26 +2499,8 @@ transplantation d'organe, SIDA
 
 \subsection{EBV}
 
-\begin{itemize}
-\tightlist
-\item
-  Contamination salivaire
-\item
-  Diagnostic
-\end{itemize}
-
-\begin{longtable}[]{@{}lccc@{}}
-\toprule
-Type & VCA IgG & VCA IgM & EBNA IgG\tabularnewline
-\midrule
-\endhead
-Séronégatif & - & - & -\tabularnewline
-Séropositif & + & - & -\tabularnewline
-Primo-infection & +/- & + & -\tabularnewline
-\bottomrule
-\end{longtable}
-
-(VCA~:~viral capsid antigen, EBNA : Epstein Barr Nuclear Antigen)
+Contamination salivaire. Primo infection = VCA IgG +/- \footnote{viral capsid antigen}
+, VCA Ig +, EBNA IgG-\footnote{Epstein Barr Nuclear Antigen}
 
 Contexte: MNI, allogreffe CSH, VIH
 
@@ -2625,12 +2537,15 @@ Transmission :~directe, cutanéomuqueuse, transplacentaire
 \end{table}
 
 Traitement :\\
-- gingivostomatite aigüe : spontanément favorable - ophtalmologique
-:~aciclovir pommade (+ IV ?), pas de corticothérapie ⚠ - préventif si
-\textgreater{} 6 récurrences/an (valaciclovir quotidien 6-12 mois)
+
+\begin{itemize}
+  \item gingivostomatite aigüe : spontanément favorable 
+  \item ophtalmologique :~aciclovir pommade (+ IV ?), pas de corticothérapie \danger 
+  \item  préventif si > 6 récurrences/an (valaciclovir quotidien 6-12 mois)
+\end{itemize}
 
 \subsection{Varicelle}
-
+\label{subsec:varicelle}
 90\% chez l'enfant, plus grave chez l'adulte Diagnostique clinique
 
 \begin{itemize}
@@ -2638,9 +2553,9 @@ Traitement :\\
 \item
   incubation (14j)
 \item
-  état : (maculo-papule) -\textgreater{} vésicules (prurit+++)
-  -\textgreater{}\_érosion + pseudo-ombilication -\textgreater{} croûtes
-  (J4) -\textgreater{} cicatrisation (J10)
+  état : (maculo-papule) $\to$ vésicules (prurit+++)
+  $\to$\_érosion + pseudo-ombilication $\to$ croûtes
+  (J4) $\to$ cicatrisation (J10)
 \item
   spontanément favorable (10-15j)
 \end{itemize}
@@ -2648,28 +2563,19 @@ Traitement :\\
 Complications :
 
 \begin{itemize}
-\tightlist
-\item
-  surinfection bactérienne fréquente (grattage)
-\item
-  terrains, état infectieux sévère, respiratoie neuro, purpura
+\item surinfection bactérienne fréquente (grattage)
+\item terrains, état infectieux sévère, respiratoie neuro, purpura
   thrombopénique aigu
 \end{itemize}
 
 Traitement :
 
 \begin{itemize}
-\tightlist
-\item
-  symptomatique (pas d'aspirine, ni AINS ⚠)
-\item
-  ATB si surinfection cutanée, antiviral si formes graves/compliquées
-\item
-  pas d'éviction scolaire
-\item
-  vaccination : ado, \female en âge de procréer, contact avec ID, professionnel.
+\item symptomatique (pas d'aspirine, ni AINS ⚠)
+\item ATB si surinfection cutanée, antiviral si formes graves/compliquées
+\item pas d'éviction scolaire
+\item vaccination : ado, \female en âge de procréer, contact avec ID, professionnel.
   \skull pas la femme enceinte !
-
 \end{itemize}
 
 NB : toxicité rénale pour l'aciclovir
@@ -2682,16 +2588,12 @@ immunodépression, localisations
 Diagnostic : clinique
 
 \begin{itemize}
-\tightlist
-\item
-  prodrome
-\item
-  état :~éruption (érythémateux roses vifs -\textgreater{} vésicules en
-  bouquets -\textgreater{} érosives -\textgreater{} croûtes
-  -\textgreater{} cicatrices dépigmentées (rosées -\textgreater{}
+\item prodrome
+\item état :~éruption (érythémateux roses vifs $\to$ vésicules en
+  bouquets $\to$ érosives $\to$ croûtes
+  $\to$ cicatrices dépigmentées (rosées $\to$
   blanchâtres) + fébricule
-\item
-  poussées sur 2-3 semaines, douleurs plusieurs mois
+\item poussées sur 2-3 semaines, douleurs plusieurs mois
 \end{itemize}
 
 Complications : principalement DPZ (rarement neurologique)
@@ -2699,34 +2601,34 @@ Complications : principalement DPZ (rarement neurologique)
 Traitement
 
 \begin{itemize}
-\tightlist
-\item
-  local : symptomatique, douleur (antalgique phase aigüe)
-\item
-  ATB si surinfection cutanée, antiviral en prévention DPZ (valaciclovir
+\item local : symptomatique, douleur (antalgique phase aigüe)
+\item ATB si surinfection cutanée, antiviral en prévention DPZ (valaciclovir
   per os 7 jours)
-\item
-  prévention vaccination (entre 65 et 74 ans)
+\item prévention vaccination (entre 65 et 74 ans)
 \end{itemize}
 
 \subsection{Complications}
 
-HSV1, 2 : - nouveau-né (périnatale++) :~mortalité très élevée, séquelle
-très lourdes - femme enceinte : maladie chez nouveau-né - atopique :
-Kaposi-Juliusberg VZV
+HSV1, 2 :
+
+\begin{itemize}
+\item nouveau-né (périnatale++) :~mortalité très élevée, séquelle
+très lourdes 
+\item femme enceinte : maladie chez nouveau-né 
+\item atopique : Kaposi-Juliusberg VZV
+\end{itemize}
 
 \section{UE 6 - 165 : VIH}
 
-Transmission : sexuel, sang, mère -\textgreater{} enfant Prévention
+Transmission : sexuel, sang, mère $\to$ enfant Prévention
 :~TasP (Treat as Prevention), TPE (Traitement Post-Exposition),
 traitement pré-exposition, prévention de la transmission mère-enfat
 
 \subsection{Sérologie}
 
-Fenêtre diagnostique
-
 \begin{figure}[htpb]
   \centering
+  \caption{Fenêtre diagnostique}
   \includegraphics[width=0.8\linewidth]{165_diag}
 \end{figure}
 
@@ -2758,131 +2660,41 @@ layered layout]
 };
 \end{figure}
 
-\begin{longtable}[]{@{}ll@{}}
-\toprule
-\begin{minipage}[b]{0.38\columnwidth}\raggedright
-Infection non-opportuniste\strut
-\end{minipage} & \begin{minipage}[b]{0.56\columnwidth}\raggedright
-Prévention\strut
-\end{minipage}\tabularnewline
-\midrule
-\endhead
-\begin{minipage}[t]{0.38\columnwidth}\raggedright
-Pneumonie à S. pneumonia\strut
-\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
-Vaccin\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.38\columnwidth}\raggedright
-Infections digestions\strut
-\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
-Hygiène alimentaire\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.38\columnwidth}\raggedright
-Grippe\strut
-\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
-Vaccin\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.38\columnwidth}\raggedright
-IST (syphilis, gonococcies, C. trachomatis, HPV)\strut
-\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
-Préservatif, dépistage, vaccin VHA, VHB (homosexuel hommes)\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.38\columnwidth}\raggedright
-VHB, VHC\strut
-\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
-Surveillance, vaccination\strut
-\end{minipage}\tabularnewline
-\bottomrule
-\end{longtable}
+\begin{table}[htpb]
+  \centering
+  \begin{tabular}{cc}
+    \toprule
+    Infection non-opportuniste& Prévention\\
+    \midrule
+    Pneumonie à S. pneumonia& Vaccin\\
+    Infections digestions& Hygiène alimentaire\\
+    Grippe& Vaccin\\
+    IST (syphilis, gonococcies, C. trachomatis, HPV)& Préservatif, dépistage, vaccin VHA, VHB (homosexuel hommes)\\
+    VHB, VHC& Surveillance, vaccination\\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
-\begin{longtable}[]{@{}llll@{}}
-\toprule
-\begin{minipage}[b]{0.20\columnwidth}\raggedright
-Infection opportuniste\strut
-\end{minipage} & \begin{minipage}[b]{0.30\columnwidth}\raggedright
-Seuil CD4\strut
-\end{minipage} & \begin{minipage}[b]{0.20\columnwidth}\raggedright
-Diagnostic\strut
-\end{minipage} & \begin{minipage}[b]{0.20\columnwidth}\raggedright
-Prévention\strut
-\end{minipage}\tabularnewline
-\midrule
-\endhead
-\begin{minipage}[t]{0.20\columnwidth}\raggedright
-Tuberculose 🔥\strut
-\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
-∅\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-Bacille de Koch, examen anatomopathologique\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-ITL par IGRA\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.20\columnwidth}\raggedright
-Candidose oesophagienne 🔥\strut
-\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
-\textless{} 200\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-Clinique\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-∅\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.20\columnwidth}\raggedright
-Pneumocystose pulmonaire 🔥\strut
-\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
-\textless{} 200\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-Radio thorax (interstitiel), prélèvements respi\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-Cotrimoxazole si CD4 \textless{} 200\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.20\columnwidth}\raggedright
-Toxoplasmose cérébrale 🔥\strut
-\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
-\textless{} 200\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-TDM/IRM -\textgreater{} sérologie -\textgreater{} PCR LCS
--\textgreater{} test thérapeutique -\textgreater{} biopsie\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-Cotrimoxazole si CD4 \textless{} 100\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.20\columnwidth}\raggedright
-CMV 🔥\strut
-\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
-\textless{} 100\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-PCR\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-⚠ rétinite\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.20\columnwidth}\raggedright
-Cryptococcose\strut
-\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
-\textless{} 100\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-LCS\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.20\columnwidth}\raggedright
-LEMP\strut
-\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
-\textless{} 100\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-IRM, PCR LCS\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.20\columnwidth}\raggedright
-Mycobactérioses atypiques\strut
-\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
-\textless{} 100\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-Hémocultures, prélèvement\strut
-\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\bottomrule
-\end{longtable}
+\begin{table}[htpb]
+  \centering
+  \begin{tabular}{cccc}
+    \toprule
+    Infection opportuniste& Seuil CD4& Diagnostic& Prévention\\
+    \midrule
+    Tuberculose  & $\emptyset$ & BK, anatomopath. & ITL par IGRA\\
+    Candidose oesophagienne  &< 200& Clinique& $\emptyset$\\
+    Pneumocystose pulmonaire  &< 200& Radio thorax, prelev.  respi& CTM si CD4 < 200\\
+    Toxoplasmose cérébrale  &< 200& TDM/IRM $\to$ sérologie $\to$ PCR LCS \\
+    && $\to$ test thérapeutique $\to$ biopsie& CTM (CD4 $\to$ 100)\\
+    CMV  & < 100& PCR& \danger rétinite\\
+    Cryptococcose& < 100& LCS& \\
+    LEMP& < 100& IRM, PCR LCS& \\
+    Mycobactérioses atypiques& < 100& Hémocultures, prélèvement& \\
+    \bottomrule
+  \end{tabular}
+  \caption{VIH : infecions opportunistes. BK=bacille de Koch, CMT =
+  Cotrimoxazole. Mnémo: "quand les pneus sont toxiques" pour < 200}
+\end{table}
 
 🔥 = fréquents
 
@@ -2974,82 +2786,31 @@ layered layout]
 };
 \end{figure}
 
-Signes de gravité :
-
-\begin{longtable}[]{@{}ll@{}}
-\toprule
-\begin{minipage}[b]{0.34\columnwidth}\raggedright
-Critère\strut
-\end{minipage} & \begin{minipage}[b]{0.60\columnwidth}\raggedright
-Seuil\strut
-\end{minipage}\tabularnewline
-\midrule
-\endhead
-\begin{minipage}[t]{0.34\columnwidth}\raggedright
-Défaillance neuro\strut
-\end{minipage} & \begin{minipage}[t]{0.60\columnwidth}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.34\columnwidth}\raggedright
-Défaillance respi\strut
-\end{minipage} & \begin{minipage}[t]{0.60\columnwidth}\raggedright
-Ventilé:~\(PaO_2/FiO_2 < 300\) mmHg. Non ventilé : \(PaO_2 < 60\) mmHg
-ou \(SpO_2 < 92\) \% ou FR \textgreater{} 30/min. Radio (interstitelle,
-alvéolaire)\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.34\columnwidth}\raggedright
-Défaillance CV\strut
-\end{minipage} & \begin{minipage}[t]{0.60\columnwidth}\raggedright
-PA systol. \textless{} 80 mmHg + signes insuffisance circulatoire\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.34\columnwidth}\raggedright
-Hémorragie\strut
-\end{minipage} & \begin{minipage}[t]{0.60\columnwidth}\raggedright
-clinique\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.34\columnwidth}\raggedright
-Ictère\strut
-\end{minipage} & \begin{minipage}[t]{0.60\columnwidth}\raggedright
-clinique / bilirubine \(> 50 \mu{}mol/L\)\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.34\columnwidth}\raggedright
-Hémoglobuinurie macroscopique\strut
-\end{minipage} & \begin{minipage}[t]{0.60\columnwidth}\raggedright
-\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.34\columnwidth}\raggedright
-Anémie\strut
-\end{minipage} & \begin{minipage}[t]{0.60\columnwidth}\raggedright
-Hg \textless{} 5 g/dL, Ht \textless{} 20\%\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.34\columnwidth}\raggedright
-Hyoglycémie\strut
-\end{minipage} & \begin{minipage}[t]{0.60\columnwidth}\raggedright
-glycémie \textless{} 2.2 mmol/L\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.34\columnwidth}\raggedright
-Acidose\strut
-\end{minipage} & \begin{minipage}[t]{0.60\columnwidth}\raggedright
-bicarbonates plasma. \textless{} 15 mmol/L ou ph \textless{} 7.35\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.34\columnwidth}\raggedright
-Hyperlactémie\strut
-\end{minipage} & \begin{minipage}[t]{0.60\columnwidth}\raggedright
-\textgreater{} 2 mmol/L\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.34\columnwidth}\raggedright
-Hyperparasitémie\strut
-\end{minipage} & \begin{minipage}[t]{0.60\columnwidth}\raggedright
-\textgreater{} 4\%\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.34\columnwidth}\raggedright
-Insuffisance rénale\strut
-\end{minipage} & \begin{minipage}[t]{0.60\columnwidth}\raggedright
-créat. \(> 65 \mu{}mol/L\) ou urée sanguine \textgreater{} 20
-mmol/L\strut
-\end{minipage}\tabularnewline
-\bottomrule
-\end{longtable}
+\begin{table}[htpb]
+  \centering
+  \caption{Signes de gravité du paludisme}
+  \begin{tabular}{cc}
+    \toprule
+    Critère& Seuil\\
+    \midrule
+    Défaillance neuro& \\
+    Défaillance respi& Ventilé:~\(PaO_2/FiO_2 < 300\) mmHg\\
+    & Non ventilé : \(PaO_2 < 60\) mmHg\\
+    & ou \(SpO_2 < 92\) \% ou FR > 30/min. \\
+    &Radio (interstitelle, alvéolaire)\\
+    Défaillance CV& PA systol. < 80 mmHg + signes insuffisance circulatoire\\
+    Hémorragie& clinique\\
+    Ictère& clinique / bilirubine \(> 50 \mu{}mol/L\)\\
+    Hémoglobuinurie macroscopique& \\
+    Anémie& Hg < 5 g/dL, Ht < 20\%\\
+    Hyoglycémie& glycémie < 2.2 mmol/L\\
+    Acidose& bicarbonates plasma. < 15 mmol/L ou ph < 7.35\\
+    Hyperlactémie& > 2 mmol/L\\
+    Hyperparasitémie& > 4\%\\
+    Insuffisance rénale& créat. \(> 65 \mu{}mol/L\) ou urée sanguine > 20 mmol/L\\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \section{UE 6 - 167 : Gale et pédiculose}
 
@@ -3089,7 +2850,7 @@ En france : giardiose, oxyurose\\
 Transmission féco-orale sauf téniasis
 
 \paragraph{Giardiose} Formes : végétatives/kystique. \\
-Souvent asymptomatique. EPS (biopsie jéjunale si végétative\\
+Souvent asymptomatique. EPS (biopsie jéjunale si végétative)\\
 Controle EPS. Hygiène
 
 \paragraph{Téniasis} \bact{saginata} (boeuf) et \bact{solium} (porc).\\
@@ -3119,11 +2880,11 @@ scotch test. Contrôle par EPS
 
 \paragraph{Pasteurellose} morsure, griffure animale/végétale
 Clinique: inflammation majeure en 3-6h autour de la plaie\\
-Diagnostic : prélèvement plaie -> culture
+Diagnostic : prélèvement plaie -> culture\\
 Traitement: amoxicilline
 
 \paragraph{Maladie des griffes de chat} Griffure de chat (jeune)\\
-Clinique : locorégionale + au moins une adénobathie. 2-3 semaines incuabtion
+Clinique : locorégionale + au moins une adénobathie. 2-3 semaines incubation
 Endocardite à hémoc. négatives\\
 Diagnostic : sérologie (PCR si doute)\\
 Traitement : si systémique et viscérale, azithromycine
@@ -3223,7 +2984,6 @@ risque non nul : vaccination curative
 \begin{table}[htpb]
   \centering
   \caption{Risque majeur suivant la géographie}
-  \label{tab:label}
   \begin{tabular}{*{5}{c}}
   \toprule
                & Afrique subsaharienne & Afrique du N & Asie SE & Amérique latine \\
