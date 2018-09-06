@@ -15,6 +15,7 @@
 \usetikzlibrary{arrows,positioning,decorations.pathreplacing}
 \usegdlibrary{trees, layered, force}
 \usetikzlibrary{quotes}
+\usepackage{biocon}
 %-------------------------------------------------------------------------------
 % No spacing in itemize
 \usepackage{enumitem}
@@ -43,6 +44,80 @@
 \begin{document}
 \maketitle
 
+\input bacteries-header.tex
+
+\section{151 : Infections broncho-pulmonaires communautaires}
+\subsection{Bronchite aigue}
+Très fréquente, virale 90\%. \\
+Diagnostic clinique : épidémie, toux sèche \(\to\) productive, expectorations,
+pas de crépitants.\\
+Ttt symptomatique seulement !
+
+\subsection{EBPCO} Cf Sec.
+
+\subsection{Pneumonie aigue communautaire}
+Clinique : \{toux, expet purulentes, dyspnée\} + \{fièvre, asthénie\} +
+crépitants\\
+Radio !\\
+Si \faHospitalSign : hémocultures, ECBC, antigenurie pneumocoque (PCR,
+antigenurie légionelle)\\
+\faHospitalSign : signes de gravité (score CRB64 \(\ge 1\)) / incertitude / échec domicile / comorbidité / inobservance
+
+\begin{table}[htpb]
+  \centering
+  \label{Orientation clinique (non discriminant !)}
+  \begin{tabular}{llll}
+    \toprule
+    & Pneumocoque & Atypique & Légionellose\\
+    \midrule
+    Début & Brutal & Progressif & Rapidement progressif\\
+    Signes & Thoraciques & Extra-thoraciques & Extra-thoraciques\\
+    Biologie &  & Anémie hémolytique & Hyponatrémie, rhabdomyolyse\\
+    & CG+ chainettes/Agurie &  & Antigénurie\\
+    Radio & condensation systématisée & Opacités multifocales & CS ou OM\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{itemize}
+  \item Pneumocoque : fréquent+++. Pas de transmission interhumaine
+  \item Atypique : \bact{mpneumoniae}, \bact{cpneumoniae}, \bact{psitacci}
+  \item Legionnella : pas d'isolement. DO
+  \item Pneumonie virale : signes respi + sd grippal. Grippale = diagnostic PCR, traitement = inihbiteur neuramidase \danger \bact{dore}
+\end{itemize}
+\subsubsection{Traitement}
+\label{sec:org48d8e3b}
+Oral, 7j (8-14 si légionellose, 21j si légionelles graves/ID)
+
+Urgent, probabiliste, réévalué 48-72h
+
+Ambulatoire :Amoxicilline ou macrolide \(\to\) switch
+
+\faHospitalSign  Amoxicilline \(\to\) réévaluation
+
+Réa : C3G IV + macrolide IV / FQ pour pneumocoque
+
+\subsubsection{Échecs}
+\label{sec:orgaaf4c70}
+\begin{itemize}
+  \item Compliquée : épanchement pleural, abcès, obstacle
+  \item Observance, pharmacocinétique, hors spectre
+  \item Diagnostic :
+    \begin{itemize}
+      \item focalisé : embolie pulmonaire
+      \item diffuse : cf pneumopathies interstitielles diffuses aigües
+      \item excavée : cancer, tuberculose pulmonaires, infarctus pulmonaire, vascularite\ldots{}
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Prévention}
+Vaccin : 2 doses + rappel enfant, 2 doses adulte (ID, comorbidité)
+
+\subsubsection{Immunodéprimé}
+Pneumocystose pulmonaire
+Radio : sd interstitiel diffus bilatéral symétrique. ATB cotrimoxazole 21j
+
+\appendix
 \section{Physiologie}%
 
 $P_{alv}$ = pression alvéolaire, $P_{ip}$ = pression interpleurale (dans la
