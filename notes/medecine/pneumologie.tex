@@ -38,6 +38,24 @@
 \usepackage{fontawesome}
 % Diameter
 \usepackage{wasysym}
+% Chemical compound
+\usepackage{chemformula}
+% Footnote in section
+\usepackage[stable]{footmisc}
+% Custom header/footers
+\usepackage{fancyhdr}
+% No numbering
+\setcounter{secnumdepth}{0}
+% Set header
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\thepage}
+%\renewcommand{\headrulewidth}{0.6pt}
+% Custom header : no uper case
+\renewcommand{\sectionmark}[1]{%
+  \markboth{\textit{#1}}{}}
+
 
 \title{Pneumologie\\
 \large Fiches}
@@ -45,6 +63,7 @@
 
 \begin{document}
 \maketitle
+\tableofcontents
 
 \input bacteries-header.tex
 
@@ -55,7 +74,7 @@ Diagnostic clinique : épidémie, toux sèche \(\to\) productive, expectorations
 pas de crépitants.\\
 Ttt symptomatique seulement !
 
-\subsection{EBPCO} Cf Sec.
+\subsection{EBPCO} Cf~\nameref{subsec:ebpco}
 
 \subsection{Pneumonie aigue communautaire}
 Clinique : \{toux, expect purulentes, dyspnée\} + \{fièvre, asthénie\} +
@@ -181,13 +200,12 @@ ID, VIH : penser tuberculose si fièvre\\
 Si anti-TNF, bilan tuberculose
 \subsection{DO}
 
-\section{205 : BPCO}
-BPCO = Bronchopneumopathie chronique obstructive
+\section{205 : BPCO\footnote{Bronchopneumopathie chronique obstructive}}
 \label{sec:205-bpco}
 
 \subsection{Définitions}
 BPCO = \{toux, dyspnée, expector., infections respi basses\} récurrentes et
-TVO\footnote{Trouble ventilatoire obstructif} VEMS/CVF < 0.7
+TVO\footnote{Trouble ventilatoire obstructif} (VEMS/CVF < 0.7)
 \textbf{persistant}\\
 Exacerbation aigùe = aggravation \(\ge 2\) jours\\
 Bronchite chronique (toux productive quotidienne \(\ge 3\) mois, \(\ge 2\) ans),
@@ -217,7 +235,9 @@ Sévérité :
 Épidémio: en augmentation dans le monde. \\
 FR : \{tabac++, aérocontaminants professionnels\}, \(\alpha{}1\) antitrypsine
 
-Évolution : perte fonction respi, exacerbations, handicap respi, risque d'insuffisance respi, comorbidité CV = 1ere cause de mortalité
+Évolution : perte fonction respi, exacerbations, handicap respi, risque
+d'insuffisance respi, comorbidité CV = 1ere cause de mortalité\\
+Score BODE\footnote{Body mass index, Obstruction, Dispnea, Exercice} pour la prédiction.
 
 \subsection{Diagnostic}
 Signes fonctionnels : dyspnée++, toux, expectorations.\\
@@ -228,7 +248,7 @@ Signes physiques : après TVO : \(\nearrow\) temps expiratoire, \(\searrow\) mur
 \item spirométrie (bronchodilat. ou corticoïdes)
 \item pléthysmographie (distension pulmonaire)
 \item DLCO (patho si < 70\%)
-\item si VEMS < 50\% ou \$SpO\(_{\text{2}}\) < 90\$\% : gaz du sang, test d'exercice
+\item si VEMS < 50\% ou $SpO_2< 90$\% : gaz du sang, test d'exercice
 \end{itemize}
 
 \subsubsection{Autres}
@@ -242,21 +262,24 @@ Signes physiques : après TVO : \(\nearrow\) temps expiratoire, \(\searrow\) mur
   edge quotes mid,
   % Needed for multi-lines
   nodes={align=center},
-  %sibling distance=3cm,
+  sibling distance=3cm,
  level distance=2cm,
   edges={nodes={fill=white}}, 
 tree layout]
 {
-  Dyspnée/exacerbations -> BD longue durée[draw]-> 
-  {
-    2 BD [draw, >"Exacerb"] -> "Cortico + 2 BD"[draw, >"exacerb"];
-    "Cortico. inhalé\\
-    + $\beta2$ longue durée"[draw, >"dyspnée"]-> "Cortico + 2 BD"[draw,
-    >"insuffisant"]
-    -> "Réévaluation";
-    2 BD [draw, >"Exacerb"] -> "Réévaluation"[>"dyspnée"];
- ;
-  };
+  Dyspnée/exacerbations -> {
+    BD longue durée[>"oui", draw]-> 
+    {
+      2 BD [draw, >"Exacerb"] -> "Cortico + 2 BD"[draw, >"exacerb"];
+      "Cortico. inhalé\\
+      + $\beta2$ longue durée"[draw, >"dyspnée"]-> "Cortico + 2 BD"[draw,
+      >"insuffisant"]
+      -> "Réévaluation";
+      2 BD [draw, >"Exacerb"] -> "Réévaluation"[>"dyspnée"];
+      ;
+    };
+    BD courte durée [>"non", draw];
+  }
 };
 \caption{Traitement BPCO}
 \end{figure}
@@ -265,6 +288,7 @@ tree layout]
 Arrêt tabac++, vaccins grippe et pneumocoques, réhabilitation respiratoire, oxygénothérapie, chirurgie possibles
 
 \subsection{Exacerbations BPCO}
+\label{subsec:ebpco}
 \subsubsection{Diagnostic :}
 \begin{itemize}
 \item BPCO connu : \(\nearrow\) dyspnée, toux/expect.
@@ -286,6 +310,45 @@ clav/pristinamycine/macrolides\\
 Autres \faHospitalSign : oxygénothérapie, kiné, HBPM, (assistance ventilatoire)
 
 \appendix
+
+\section{Gaz du sang}
+\label{appendix:gds}
+Le pH est déterminé par l'équilibre entre les bicarbonates (\ch{HCO_3-}) et
+$PCO_2$ :
+\begin{equation}
+  pH = K_1 + log\frac{[\ch{HCO_3-]}}{K_2 p_{CO_2}}
+\end{equation}
+avec $K_1$, $K_2$ constante.
+
+Un déséquilibre sur un terme induit une compensation sur l'autre. Si le
+déséquilibre n'est pas compensé, on aboutit à une acidose ou une alcose.
+
+\begin{table}[htpb]
+  \centering
+  \caption{Gaz du sang artériel}
+  \label{tab:gds}
+  \begin{tabular}{ll}
+  \toprule
+  \(PO_2\) & [80, 100] mmHg\\
+  \(SaO_2\) & [95, 98] \%\\
+  \(PCO_2\) & [35, 45] mmHg\\
+  \ch{HCO_3^-} & [22, 29] mmol/L\\
+  pH & [7.38, 7.24]\\
+  \bottomrule
+  \end{tabular}
+\end{table}
+
+Insuf. respi chonique : 
+$$PCO_2 \nearrow \implies \ch{HCO_3-} \nearrow \implies \text{acidose compensée}$$
+Hypoventilation alvéolaire : 
+$$PCO_2 \nearrow \implies \ch{HCO_3-} \text{ N ou} \nearrow \implies \text{acidose}$$
+IR, acidocétose... :
+$$ \ch{HCO_3-} \searrow \implies PCO_2 \text{ N ou} \searrow \implies \text{acidose}$$
+Vomissements, sonde NG :
+$$ \ch{HCO_3-} \searrow \implies PCO_2 \text{ N ou} \nearrow \implies \text{alcalose}$$
+Hyperventilation alvéolaire :
+$$ PCO_2 \searrow \implies \ch{HCO_3-} \text{ N ou} \searrow \implies \text{alcalose}$$
+
 \section{Physiologie}%
 
 $P_{alv}$ = pression alvéolaire, $P_{ip}$ = pression interpleurale (dans la
