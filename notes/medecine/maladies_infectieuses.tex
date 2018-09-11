@@ -1050,18 +1050,18 @@ layered layout]
 {
   %\node (proba1) {proba};
   Pneumocoque[draw] // [layered layout] {
-    "\faHospitalSign Examen direct/Ag" -> Amoxicilline;
+    "\faHospitalO Examen direct/Ag" -> Amoxicilline;
     "\faAmbulance ?" -> Amoxicilline;
   } -> "Réévaluation 48-72h";
   Legionella[draw] // [layered layout] {
-    "\faHospitalSign Ag Legionella" -> Macrolide;
+    "\faHospitalO Ag Legionella" -> Macrolide;
     "\faAmbulance Intracellulaire ?" -> Macrolide;
   } 
   -> "Réévaluation 48-72h" -> {
     "\faAmbulance" [level distance=2cm] -> ["échec"] Échange;
-    "\faHospitalSign" ;
-    "\faHospitalSign" -> ["échec"] "Amoxicilline + macrolide\\(+ acide clavulanique\\si agé/comorbid)";
-    "\faHospitalSign" -> ["non"] "Amoxicilline\\(+ acide clavulanique\\si agé/comorbid)";
+    "\faHospitalO" ;
+    "\faHospitalO" -> ["échec"] "Amoxicilline + macrolide\\(+ acide clavulanique\\si agé/comorbid)";
+    "\faHospitalO" -> ["non"] "Amoxicilline\\(+ acide clavulanique\\si agé/comorbid)";
   }
 };
 \caption{Traitement probabiliste PAC (Pneumonie aigüe communautaire)}
@@ -1128,7 +1128,7 @@ Traitement : hygiène (ATB si formee profuses (amox.+acide clav.))
 \paragraph{Furoncle} Folliculite profonde, nécrosante. \bact{dore}\\
 Complications : 
 \begin{itemize}
-  \item locale = staphylococcie maligne de la face \danger urgence \faHospitalSign{}.
+  \item locale = staphylococcie maligne de la face \danger urgence \faHospitalO{}.
   \item globale = bactériéme 
 \end{itemize}
 Traitement : hygiène, ATB si risque de complication ou si furonculose (7j)
@@ -2773,7 +2773,7 @@ layered layout]
   +/- Ag circulants" [draw] -> {
     "P. vivax/ovale\\/malariae" -> "Chroloquine PO" [draw];
     "P. falciparum\\/knowlesi" -> {
-      "Signes de gravité ?" [level distance=40pt] -> ["oui"] "\faHospitalSign{} urgence\\artésunate IV" [draw];
+      "Signes de gravité ?" [level distance=40pt] -> ["oui"] "\faHospitalO{} urgence\\artésunate IV" [draw];
       "Signes de gravité ?" ->["non"] "\faAmbulance{} possible ?" -> "Vomissements ?" 
           };
   };
@@ -4567,7 +4567,7 @@ Principales étiologies :
 \label{sec:org4e42b49}
 Cytotoxique, défense antiparasitaire
 Définition : PNE > 0.5G/L
-\faHospitalSign{} si signes de gravité
+\faHospitalO{} si signes de gravité
 \subsection{Étiologies}
 \label{sec:orgdb9b717}
 Parasitaires :
