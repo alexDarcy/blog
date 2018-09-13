@@ -393,7 +393,6 @@ Indemnité :
   }
   \caption{Hypersensibilité}
 \end{figure}
-
 \subsection{Définitions}%
 Atopie : prédisposition héréditaires à IgE face à des allergènes.\\
 Allergie : réaction d'HS par mécanismes immunologiques\\
@@ -491,6 +490,152 @@ ES :
   \item générale (hypotensions, bronchospasme, choc anaphylactique) =
     interruption
 \end{itemize}
+
+
+\section{184 : Asthme, rhinite}
+Asthme 6\%, mortalité 1000 DC/an, en baisse. Morbidité en hausse
+
+Rhinite allergique 24\%.
+\subsection{Définitions}
+Asthme : 
+\begin{itemize}
+\item inflammation chronique modifiant les VAS\footnote{voies aériennes
+supérieures} avec symptômes respi \(\wedge\) obstruction voies aériennes réversible
+\item interaction gènes-evironmt, déclencheurs : exercice, HS aspirine/AINS,
+irritants inhalés
+\end{itemize}
+Symptômes d'asthme : 
+\begin{itemize}
+\item gêne respiratoire, dyspnée, sifflements, oppression thoracique,
+toux
+\item < 20 min, réversible, variable
+\end{itemize}
+Exacerbations : \nearrow symptômes > 2 jours, non calmée, sans retour état
+habituel
+
+TVO : 
+\begin{itemize}
+\item VEMS/CVF < 0.7
+\item réversible si +200mL et +12\% après BDCA\footnote{Broncho-dilatateurs à courte durée
+d'action}
+\end{itemize}
+
+Hyperréactivité bronchique : -20\%VEMS après métacholine/air sec (VPP = 100\%)
+
+Débit expiratoire de pointe (pour urgence)
+
+\subsection{Diagnostic}
+\paragraph{Asymptomatique}
+Diagnostic :
+\begin{itemize}
+\item symptômes caract : plusieurs symptômes (cf def), $\nearrow$ nuit/réveil, variable,
+\end{itemize}
+réversibles, déclenché par \{rire, virus, allergènes, irritants\}
+\begin{itemize}
+\item \(\wedge\) obstruction bronchique : sibilant, TVO réversible ou apparaît avec métacholine
+\end{itemize}
+Sévérité évaluée à 6 mois
+\paragraph{Exacerbation}
+Cf def. Signe de sévérité :
+\begin{itemize}
+\item mots, assis en avant, agité
+\item FR > 30/min
+\item muscles respi annexes
+\item FC > 120/min, SpO\(_{\text{2}}\) < 90\%
+\item DEP < 50\%
+\item silence auscultatoire \skull
+\item respi paradoxale \skull
+\item troubles conscience, bradycardie, collapsus \skull
+\end{itemize}
+\paragraph{DD}
+Sans TVO : cordes vocales, sd hyperventilation
+
+TVO non réversible : \{BPCO, bronchectasies, mucoviscidose, bronchiolites
+constrictives\}, autres (corps étranger, tumeur, insuf. cardiaque)
+\paragraph{Bilan}
+Facteurs favorisants, radio thorax, EFR (+test métacholine)
+
+\subsection{Traitement}
+
+\paragraph{Long cours}
+Ttt de fond :
+\begin{itemize}
+\item BDCA à la demande
+\item CSI\footnote{corticostéroïdes inhalés} faible < anti-leucotriènes < CSI moyen/fort
+\(\vee\) (CSI faible et ALT\footnote{anti-leucotriènes} < triotropium \(\vee\) (CSI fort et
+ALT) < CSO\footnote{corticostéroïdes oraux} faible
+\end{itemize}
+Autre : 
+\begin{itemize}
+\item activité physique (sauf plongée)
+\item facteurs favorisants : rhinite, allergie, tabac, \(\beta\)-bloquant
+(aspirine/AINS) reflux GO, comorbidités
+\item vaccins grippe (pneumocoque si asthme sévère)
+\end{itemize}
+Efficace ?
+\begin{itemize}
+\item symptômes contrôlés (diurnes < 2/sem, pas de réveil nocture, BDCA < 2/sem, pas
+limitation d'activité)
+\item exacerbations < 2 corticostéroïdes systém./an
+\item VEMS/CV > 0.7 et VEMS \(\ge\) 80 \%
+\end{itemize}
+Non contrôlé '
+\begin{itemize}
+\item CSI faible + BDLA\footnote{broncho-dilatateur à longue durée d'action} < CSI
+moyen/fort + BDLA < centre spécialisé
+\end{itemize}
+Suivi : périodique, +3mois si changement ttt, mensuel si grossesse
+
+\paragraph{Urgence}
+
+\begin{figure}[htpb]
+  \centering
+  \tikz \graph [
+  % Labels at the middle 
+  edge quotes mid,
+  % Needed for multi-lines
+  nodes={align=center},
+  sibling distance=3cm,
+  edges={nodes={fill=white}}, 
+  layered layout]
+  {
+    "Évaluation" -> {
+      "Exacerbation\\
+      sans signes de gravite" -> 
+      "\(\beta_2\) mimétique forte doses\\
+      chambre inhalation\\
+      \textbf{Corticothérapie orale}  7j" [draw]
+      -> Réévaluation 1H;
+      "Exacerbation \\
+      avec signes de gravite" -> 
+      "\(\beta_2\)-mimétique forte dose" [level distance=2cm] -> {
+        "O\(_2\)\\
+        \(\beta_2\) mimétique nébulisés (5mg/20min)\\
+        $\pm$ ipratropium\\
+        \textbf{Corticothérapie orale} " [>"\faHospitalO", draw];
+      };
+      Perte de contrôle ->
+      "\(\beta_2\) mimétique" [draw] -> Réévaluation 1H;
+    };
+  };
+  \caption{Asthme : traitement d'urgence}
+\end{figure}
+
+Pas d'ATB sauf si suspicion bactérienne. Adrénaline seulement pour choc anaphylactique
+\danger pas de BDLA 
+
+\subsection{Rhinite allergique}
+Diagnostic :
+\begin{itemize}
+\item PAREO : prurit, anosmie, rhinorrhée, éternuement, obstruction nasale
+\item fosses nasales au speculum inflammées
+\item allergique (argumenter !!)
+\end{itemize}
+Sévère si persistant (> 4 semaines/an) et retentissement qualité de vie
+
+TDM
+
+Ttt : laval nasal, allergie, antihistaminique/corticoïdes nasaux, tabac, stress
 
 \section{205 : BPCO\footnote{Bronchopneumopathie chronique obstructive}}
 \label{sec:205-bpco}
