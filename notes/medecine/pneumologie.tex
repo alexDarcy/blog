@@ -871,6 +871,125 @@ layered layout]
 
 Quantification : échelle Borg [0-10] (aigüe) ou MRC [0-4] (chronique)
 
+\section{200 : Toux chronique}%
+\label{sec:200_toux_chronique}
+
+\danger Éliminer toux post-infectieuse (< 3 semaines)
+
+Signes de gravité : 
+\begin{itemize}
+  \item AEG, sd infectieux
+  \item dyspnée d'effort, hémoptysie
+  \item modification toux chez fumeur
+  \item dysphonie, dysphagie, fausses routes
+  \item Adénopathies cervicales suspectes
+  \item Anomalies cardiopulmonaires
+\end{itemize}
+
+\begin{figure}[htpb]
+  \centering
+  \caption{PEC initiale}
+  \resizebox{\linewidth}{!}{
+\tikz \graph [
+  % Labels at the middle 
+  edge quotes mid,
+  % Needed for multi-lines
+  nodes={align=center},
+  level distance=40pt,
+  sibling distance=3cm,
+  edges={nodes={fill=white}}, 
+layered layout]
+{
+  Signe de gravité -> {
+    Exploration [>"oui"];
+    "Médicaments ?" [>"non"] -> {
+      Test d'éviction [>"oui"];
+      "Coqueluche ?" [>"non"] -> {
+        Test diagnostique[>"oui"];
+        "Radio thorax anormale ?" -> {
+          Bilan spécialisé [>"oui"];
+          "cf~\nameref{subsec:toux_orientation}" [>"non"];
+        };
+      };
+    };
+  };
+};
+}
+\end{figure}
+
+\subsection{Orientation diagnostique}
+\label{subsec:toux_orientation}
+\textbf{ORL}  
+\begin{itemize}
+  \item rhinosinusiens : sd rhinorrée postérieur++, obstruction nasale chronique
+  \item carrefour aérodigestif : diverticule de Zenker, laryngite chronique
+\end{itemize}
+
+\textbf{Respiratoire} 
+\begin{itemize}
+  \item Asthme : TVO réversible/hyperréactivité bronchique
+  \item BPCO : TVO non réversible
+  \item Cancer bronchique, tumeurs, bronchectasise (cf
+    \nameref{sub:bronchectasies}
+\end{itemize}
+
+\textbf{RGO}  : pyrosis. Endoscopie digestive si FR, pHmétrie des 24h
+
+\textbf{Allergique} 
+
+\textbf{Systémique}  :  sd Gougerot-Sjögren, polychondrite atrophiante, maladie
+de Hortone, granulomatoes avec polyangéite, rectocolite hémorr., maladie de
+Crohn.
+
+\textbf{Comportement}  : dernière étiologie
+
+\paragraph{Traitement d'épreuve} (ordre d'échec):
+\begin{enumerate}
+  \item RGO : bromphéniramine + pseudoéphédrine 3 sem
+  \item asthme si TVO réversible, corticoïdes inhlalés BD inhalés si
+    hyperréactivité bronchique
+  \item avis spé
+\end{enumerate}
+
+Traitement symptomatique : arrêt tabagisme. Éviter si possible
+\begin{itemize}
+  \item sèche : opiacés, antihistaminique anticholinergique, non
+    antihistaminique non opiacés
+  \item produtive : mucomodificateurs, kiné
+\end{itemize}
+
+\subsection{Bronchectasies}
+\label{sub:bronchectasies}
+Types : bronchectasies (élargissement $\diameter$), bronchocèle (pus), "par
+traction" (NB: pas des vraies bronchectasies)
+
+
+Étiologie : 
+\begin{itemize}
+  \item infection respi sévères : coqueluche, tuberculose (virales respi enfant,
+    pneumonie bact, suppuration suite sténose)
+  \item mucoviscidose
+  \item non infectieux (poumon radique, aspergillose allergique, SDRA,
+    systémique, déficit immunitaire)
+\end{itemize}
+
+Évolution : colonisation bactérienne, hémoptysise, TVO (car dilatation seulement
+proximale), insuffisance respi
+
+Clinique :
+\begin{itemize}
+  \item toux productive quotidienne depuis l'enfance
+  \item hémoptysie
+  \item infections à \{\bact{influenzae}, \bact{pneumocoque}\} puis \{\bact{dore},
+    \bact{aeruginosa}++\}
+\end{itemize}
+
+Diagnostic : TDM (certitude) = bronches de $\diameter$ > artère, lumière
+bronchique > 1/3 parenchyme, pas de réduction du $\diameter$, grappes de kystes,
+opacités tubulées
+
+Traitement : ATB si exacerbation, complications parenchymateuses. Macrolides
+pour l'inflammation. Chir si très local + compliqué.
 %\section{205 : BPCO\footnote{Bronchopneumopathie chronique obstructive}}
 %\label{sec:205-bpco}
 
