@@ -1,4 +1,4 @@
 packages:
 - .
-resolver: lts-12.6
-system-ghc: true
+resolver: lts-12.10
+#system-ghc: true
