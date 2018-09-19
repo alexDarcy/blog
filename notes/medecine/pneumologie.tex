@@ -1606,9 +1606,6 @@ Imagerie : verre dépoli, réticulations, bronchectasies (sauf extrème périph�
 Lymphangite carcinomateuse : toux sèche, rebelle. Radio : épaississements nodulaires des septas intralobulaires. Diagnostic par biopsies des éperons\\
 Carcinome lépidique : verre dépoli. 
 
-\appendix
-
-
 
 \section{207 Sarcoidose}
 Maladie : systémique, cause inconnue, hétérogène, ubiquitaire. Début 25-45ans
@@ -1696,7 +1693,7 @@ Corticoïdes > 10 mois à 0.5mg/kg (décroissance par 6-12 semaines)\\
 2eme intention : hydroxychloroquine, méthotreaxe, azathioprine\\
 3eme intention : cyclophsamide, anti-TNF-\(\alpha\)
 
-\section{Hypertension artérielle pulmonaire}%
+\section{222 : Hypertension artérielle pulmonaire}%
 \label{sec:hypertension_arterielle_pulmonaire}
 
 Circulation : (basse pression, faible résistante) $\implies$ forte résistance
@@ -1756,6 +1753,174 @@ Si écho cardiaque compatible avec HTP :
 \end{itemize}
 
 
+
+\section{224 : Embolie pulmonaire et thrombose veineuse profonde}%
+\label{sec:224_embolie_pulmonaire_et_thrombose_veineuse_profonde}
+
+Maladie fréquente (1 cas /10 000 si < 40 ans, 1/100 si > 75 ans) et grave.
+
+= {embolie pulmonaire (EP), thrombose veineuse profonde (TVP)}
+
+Facteurs de risque :
+\begin{itemize}
+  \item acquis : majeurs = chir < 3mois, trauma MI\footnote{membres inférieurs},
+    \faHospitalO{} aigü, cancer en cours  ttt, sd antiphospholipide, sd
+    néphrotique
+  \item constit : rare = déficit (antithrombien, prot. C, S), fréq = (mutation {Leiden,
+    prothrombine}, facteur VIII > 150\%)
+\end{itemize}
+Complications : DC, récidive (mortelle ou non), séquelle (HTP thrombo-embolique
+chronique si EP, sd post-phlébite si TVP)
+
+Risque de récidive dépend de la clinique : élevé si (non provoqué par facteur
+majeur ou modéré) $\vee$ facteur persistant)
+
+Conséquence :
+\begin{itemize}
+  \item hémodynamique : $\nearrow$ pression artérielle pulmonaire, dilatation
+    VD\footnote{ventricule droit}, compression VG
+  \item respiratoire : hypoxémie (effet espace mort (non perfusé) $\implies$ effet shunt
+    (ventil/perfusion diminué))
+\end{itemize}
+
+\subsection{Diagnostic de l'embolie pulmonaire}
+\begin{figure}[htpb]
+  \label{fig:ep-diag}
+  \centering
+  \resizebox{0.5\linewidth}{!}{
+    \tikz \graph [
+  % Labels at the middle 
+      edge quotes mid,
+  % Needed for multi-lines
+      nodes={align=center},
+      level distance=2cm,
+      sibling distance=3cm,
+      edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      "Proba. clinique" -> {
+        "D-dimères" [>"faible", draw] -> {
+          "Pas de ttt" [>"négatif"];
+          "\texttt{\$examen}" [>"positif", draw];
+        };
+        "\texttt{\$examen}" [>"forte", draw] -> {
+           Ttt [>"positif"];
+        };
+      };
+    };
+  }
+  \caption{Diagnostic général pour l'EP, TVP}
+\end{figure}
+
+
+\paragraph{Suspicion}
+Clinique : douleur thoracique (type pleurale) $\vee$ dyspnée isolée (ascult.
+normale !) $\vee$ état de choc
+
+Radio thoracique, ECG : élimine les DD
+
+Probabilité clinique : important, suivant des scores (Wells, Genève)
+
+\paragraph{Examens}
+Voir la figure~\nameref{fig:ep-diag} avec \texttt{examen} = angioscanner.
+
+D-dimère positifs = $\max(\text{âge}, 50) \times 10 \mu{}$g/L
+
+CI à l'angioscan : insuf. rénale sévère (< 30ml/min) $\implies$ scintigraphie
+
+Si angioscan ou scintigraphie négatif : pas d'EP !
+
+\danger{} si EP grave (état de choc) : angioscan immédiatement ou échographie
+cardiaque en attendant. Traitement après écho si pas d'accès à l'angioscan
+\skull\\
+Sur l'écho, chercher dilatation cavité D, HTP, septum paradoxal
+
+\textit{Si grossesse}  : D-dimères $\implies$ écho. veineuse $\implies$ angioscanner
+(prévenir le pédiatre \skull)
+
+\subsection{Diagnostic de TVP}
+Voir la figure~\nameref{fig:ep-diag} avec \texttt{examen} = échographie veineuse
+des MI
+
+\subsection{Traitement}
+\paragraph{Principes}
+Urgence \skull $\implies$ anticoagulant
+
+CI : coagulopathie sévère, hémorragie intracrânienne spontanée, hémorragie
+active difficilement contrôlable, chir récente, (thrombopénie à l'héparine)
+
+\paragraph{Types de traitement}
+Héparines + relais AVK dès injection IV
+\begin{itemize}
+  \item HBPM, fondaparinux > HNF, sauf si IR sévère (< 30ml/min)
+  \item arrêt si 5 jours d'AVK et IV (ensemble) $\wedge$ INR $\in [2,3]$ à 24h
+\end{itemize}
+Anticoagulants oraux directs : rivaroxaban, apixaban (France)
+\begin{itemize}
+  \item rapide, demi-vie courte
+  \item facteur X
+  \item CI : IR sévère, grossesse, interfaction médic (cytochrome 3A4 ou
+    P-glycoprroténie)
+\end{itemize}
+Éucation thérapeutique\\
+Autres :
+\begin{itemize}
+  \item filtre cave (si CI absolue coagulant $\vee$ EP récidivant)
+  \item fibrinolyse (si EP + choc, sauf si hémorragie active,
+    AIC\footnote{Accident ischémique cérébral}< 2 mois,
+    hémorragie intracrânienne)
+  \item embolectomie (très rare)
+  \item contention veineuse (sauf si EP sans TVP)
+  \item lever +1h
+\end{itemize}
+
+\paragraph{Stratégie}
+Score sPESI = "90 100 110 C C" $\implies$ sat < 90\%, PAS < 100 mmHg, FC >
+110/min, Cancer, insuf Cardiaque chronique:
+
+Risque faible (sPESI = 0) : \faHospitalO{} < 48h, anticoagulation
+Risque intermédiaire (sPESI > 0)
+\begin{itemize}
+  \item dysfonction VD $\vee$ élévation biomarqueurs\footnote{BNP, NT-pro-BNP,
+      troponine} : \faHospitalO{}
+    médecine, anticoagulation
+  \item dysfonction VD $\wedge$ élévation biomarqueurs : urgence \danger{}
+    $\implies$ USI\\
+    $O_2$, scope
+    Anticoag : HNF/HBPM puis AVK/AOP à 48-72h\\
+    (trombolysie si choc)
+\end{itemize}
+Haut risque (choc : PAS < 90mmHG \vee$ -40mmHg) : urgence \skull $\implies$ réa
+\begin{itemize}
+  \item $O_2$ (ventilation méca.), scope
+  \item anticoag HNF (!)
+  \item thrombolyse avec arrêt HNF tant que TCA > 2x témoin
+  \item (embolectomie)
+\end{itemize}
+
+\paragraph{Durée}
+3 mois si 1ere EP/TVP provoque par facteur majeur transitoire $\vee$ risque
+hémorragique élevée. 6 mois ou plus sinon
+
+\paragraph{Étiologie}
+Chercher cancer occulte dans tous les cas (clinique, radio poumon, NFS VS,
+dépistage globux)
+
+Bilan coga : {antithrombine, prot C, S}, mutation {Leiden, prothrombine}, sd
+antiphospholipides
+
+\paragraph{Prophylaxie}
+\begin{itemize}
+  \item Post-op : (chir et > 40 ans) $\vee$ (chir hanche/genou/caricinologique, anomalie
+coag, (> 40 ans et ATCD MTEV))
+  \item polytrauma $\vee$ ({rhumato, inflammatoire intestin, infectin} + 1 FR)
+
+\end{itemize}
+
+
+
+
+\appendix
 \section{Gaz du sang}
 \label{appendix:gds}
 Le pH est déterminé par l'équilibre entre les bicarbonates (\ch{HCO_3-}) et
