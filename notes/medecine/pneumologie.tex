@@ -58,14 +58,14 @@
 % Custom header : no uper case
 \renewcommand{\sectionmark}[1]{%
   \markboth{\textit{#1}}{}}
-
+% Negate \implies
+\usepackage{centernot} 
 
 \title{Pneumologie\\
 \large Fiches}
 \author{A. Praga}
 
-% Negate \implies
-\usepackage{centernot} 
+
 \begin{document}
 \maketitle
 \tableofcontents
@@ -1974,8 +1974,145 @@ Non rythmées :
   \item psychogènes
 \end{itemize}
 
+\section{306 : Tumeurs du poumon}%
+\label{sec:306_tumeurs_du_poumon}
 
+\subsection{Épidémiologie, étiologies}
+1ere cause de mortalité par cancer en France (\male : constante, \female
+$\nearrow$)
 
+Tabac : 90\% (âge de début et durée) pour actif, 25\% passif
+
+Professionel : 15\%
+
+\paragraph{Histologie}
+\begin{itemize}
+  \item "Non à petites cellules" (CBNPC) (80\%) : adénocarcinomes (périphérie),
+    carcinomes épidermoïdes (proximal), indifférencies à grandes cellules
+  \item neuro-endocrine "à petites cellules" (CBPC) (porximal, médiastin)
+\end{itemize}
+
+\subsection{Manifestations}
+\textbf{Y penser si (AEG $\wedge$ tabac) $\vee$ (fonctionnel respi si tabac $\wedge$ >
+40ans)}
+
+\textit{Respiratoires}  : toux (souvent révélatrice, sèche, quinteuse), hémoptysie (<
+10\%), bronchorrée (propre), dyspnée, pneumonie/bronchite (\danger{} si récidive
+dans même territoire), douleur thoracique 
+
+\textit{Locorégionales}  : pleuréises, dysphonies, sd cave supérieur, douleurs thoraciques
+(fixes, tenaces), sd de Pancoast-Tobias\footnote{névralgie cervicobrachiale avec
+douleurs radiculaire C8-D1, sd Claude-Bernard-horner}, paralysie phrénique
+
+\textit{Extrathoracique}  : thrombose inexpliques (y penser !), métastates (SNC,
+foei, os, surrénales)
+
+\textit{Sd paranéoplasiques} (à distance, répapparition $\implies$ rechute) :
+hippocratisme digital, hypercalcémie, hyponatrémie, sd de Cushing, neurologique
+(pseudomyasthénie de Lamert Eaton, neuropathies périh, encéphalopathies)
+
+\subsection{Imagerie}
+Initial = radio thorax chez fumeur > 40 ans
+\paragraph{Radiothorax}
+\begin{itemize}
+  \item projection (juxta-)hilaires
+  \item atélectasies
+  \item opacités arrondies intraparenchymateuses
+  \item cavitaires néoplasiques
+\end{itemize}
+%Normal $\centernot\implies$ pas de cancer
+
+\paragraph{TDM injection}
+Stade N0 sans adénopathie, N1 si hilaire, N2 si médiastin homolatéral, N3 si médiastin
+controlatéral
+
+\paragraph{TEP au 18-FDG}
+Pas dans le cerveau !
+
+Faux positifs : ganglions inflammatoires, infectieux
+
+Faux négatifs : < 1 cm, non solide (verre dépoli)
+
+\subsection{Diagnostic histologique}
+\begin{itemize}
+  \item lésion centrale : fibroscopie bronchique
+  \item périphérique : ponction transpariétale
+  \item entre : fibro ou ponction ou thoracotomie
+\end{itemize}
+Cherchers mutations EGFR, réarrangements ALK, ROS1
+
+\subsection{Bilan préthérapeutique}
+\textit{Extension}  : T(tumeur) = locale, N (node) = ganglionnaire, M
+(métastase) = à distance. \\
+si M : TDM absdo, IRM cérébrale, TEP-TDM
+
+État général (Performance Status de 0 à 4), nutritionnel (-5\% en 1 mois ou
+-10\% en 6 mois = \frownie{})
+
+\textit{Cardiorespiratoire} : ECG, écho cardi, épreuve d'effort, doppler artériel des MI/cou,
+coronarographie.\\
+Règle : 1 lobe = -25\% de VEMS. Opération ssi VEMS post-op > 30\%
+\subsection{Traitement}
+\paragraph{CBPNC}
+\begin{itemize}
+  \item localisé (stade I, II) : local (lobectomie ou radiothérapie)
+  \item localement avancé (stade III) : systémique (chimio) + local (radio ou
+    chir)
+  \item disséminé (stade IV) : systémique = 
+    $\left \{
+      \begin{array}{lr}
+        \text{ITK\footnote{inhibiteur de tyrosine kinase} si altération moléculaire ciblable} & \text{Médiane > 2 ans}\\
+        \text{chimio IV et 3e génération sinon} & \text{Médiane 12 mois}\\
+      \end{array}
+      \right.$
+\end{itemize}
+\paragraph{CBNC}
+Chimiosensible mais rechutes fréquentes et rapides
+    $
+    \left \{
+      \begin{array}{l}
+        \text{chimio si étendue}\\
+        \text{radio + chimio (+ irradiation encéphale) si limitée}
+      \end{array}
+      \right.
+    $
+
+\paragraph{Symptomatique}
+\textit{Douleur}  : Antalgiques, radiothérapie, chir, AINS, vertébroplastie
+
+\textit{Dyspnée}  : lymphangite carcinomateuses (difficile), obstruction bronchique
+(bronchoscopie), pleurésie exsudative (pleuroscopie), sd cave supérieur
+(anticoag, corticoïdes)
+
+\paragraph{Plan cancer}
+Réunion de concertation pluridisciplinaire, consultation d'annonce, plan
+personnalisé de soin
+\paragraph{Suivi}
+CBNPC : arrêt tabac, TDM 2-3 mois, clinique, bio (rein, NFS, hypercalcémie,
+hyopnatrémie)
+
+CBPC : médiane de survie = 16-20 si limitée, 8-12 mois si métastatique
+\subsection{Cancers secondaires}
+Clinique : pauvre, chercher ganglionnaire. (Dypnée, toux, douleur thoracique,
+généraux)
+
+Imagerie : 
+\begin{itemize}
+  \item lâcher de ballons ou miliaire
+  \item épanchement pleural
+  \item interstitiel (lymphangite carcinomateuses)
+\end{itemize}
+
+Diagnostic : clinique, 
+\begin{itemize}
+  \item inconnu : chercher accessibles à ttt spécifique, TEP. Sinon :
+    \begin{itemize}
+      \item épidermoïde, adénocarcinome
+      \item sinon : \female{} = {gynéco, mammo}, \male{} = {PSA, TR, écho prostate}
+    \end{itemize}
+  \item connu : radio peut suffir
+  \item ancien : métastases 10 ans plus tard possibles
+\end{itemize}
 
 \section{Gaz du sang}
 \label{appendix:gds}
