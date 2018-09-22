@@ -2284,6 +2284,205 @@ endobronchique (90\%)
 \paragraph{Extraction}
 Bronchoscopie rigide (ou souple). Chez l'enfant, centre spécialisé !
 
+\section{354 : Détresse respiratoire aigüe}%
+\label{sec:354_detresse_respiratoire_aigue}
+
+Définition : Inadéquation charge - capacité de l'appareil respiratoire
+
+\subsection{Dianostic}
+Signes de luttes
+\begin{itemize}
+  \item Polypnée superficielle
+  \item recrutemente muscles (scalènes $\wedge$ intercostaux), abdominaaux,
+    dilatateurs des voies aériennes supérieures (très petit enfant)
+\end{itemize}
+Signes de faillite
+\begin{itemize}
+  \item respi abdo paradoxale \skull défaillance court terme
+  \item cyanose (hypoxémie profonde) $\implies$ $O_2$ ASAP
+  \item neuro : astérixis, altérations comportement/vigilance. Glasgow < 9
+    $\implies$ assitance ventilatoire
+\end{itemize}
+Appareil circulatoire
+\begin{itemize}
+  \item coeur pulmonaire aigu\footnote{turgescence jugulaire, reflux
+    hépato-jugulaire, hépatomégalie douleureuse, signe de Harzer}
+  \item pouls paradoxal
+  \item hypercapnie : {céphalées, hypervasc des conjonctives}, {tremblements
+    sueurs, tachy, hypotension}
+\end{itemize}
+État de choc 
+\begin{itemize}
+  \item peau froide, marbrures, $\nearrow$ temps recoloration cutanée
+  \item PAs < 90 mmHg ou -50mmHg
+  \item tachy > 120min, FR > 25-30/min
+  \item oligurie
+  \item confusion, altération vigilance
+\end{itemize}
+
+\subsection{PEC}
+Surveillance, $O_2$, voie veineuse gros calibre, assistance ventilatoire,
+ventilation (non)invasive
+
+Pour l'étiologie : radiothorax, ECG, prélèvment (gaz du sang, NFS, iono, urée,
+créat, acide lactique)
+
+\subsection{Diagnostic}
+
+\begin{figure}[htpb]
+  \centering
+  \label{fig:diag_detresse_respi}
+  \resizebox{\linewidth}{!}{
+    \tikz \graph [
+  % Labels at the middle 
+      edge quotes mid,
+  % Needed for multi-lines
+      nodes={align=center},
+      sibling distance=3cm,
+      edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      "Obstruction VAS ?" ->["non"]  Radiothorax -> {
+        Anormale -> {
+          Atélectasies [draw];
+          "Anomalies\\pleurales" ->
+          "Épanchement\\
+          pleural compressif\\
+          Pneumothorax" [draw];
+          "Opacités\\parenchyme" -> 
+          "Pneumonie infect\\
+          OAP\\
+          Patho. infiltrative" [draw];
+        };
+        Normale -> {
+          "Asthme\\
+          aigu grave\\
+          EP" [draw];
+          "BPCO\\
+          Anomalie paroi\\
+          Neuromusc" [draw];
+        }
+      };
+    };
+  }
+  \caption{Diagnostic détresse respiratoire aigǜe}
+\end{figure}
+
+Précision de la figure~\nameref{fig:diag_detresse_respi}
+\begin{enumerate}
+  \item \textit{Obstruction}  : corps étranger, laryngite, oedem de Quincke, sténose
+    trachée, tumeur laryngées
+  \item \textit{Anomalie radio} Priorité = pneumonie inf, OAP,
+    PTX\footnote{Pneumothorax} sous
+    tension\\
+    Indication =
+    \begin{itemize}
+    \item OAP : {ATCD = insuf. cardiaque}, {expectoration mousseuse, orthopnée},
+      {opécatiés bilat diffuses, périhilaire}
+    \item Pneumonie infectieuse : {début brutal}, {expector. purulente}, {sd
+      inflammatoire}
+    \end{itemize}
+  \item \textit{Radio normale} de novo = EP, PTX compressif, asthme. Si
+    chronique, dans l'ordre BPCO, paroi thoracique (obésité, déformation),
+    neuromusc\\
+    En faveur :
+    \begin{itemize}
+      \item EP : fébricule, turgescence jugul, radio normale
+      \item Pneumothorax : {longiligne}, {pas de vibration vocale}, murmure vésicul,
+        {hyperclarté}
+      \item asthme : ATCP, {toux purulente}, {râles ou silence}
+    \end{itemize}
+\end{enumerate}
+
+\subsection{SDRA}
+Détresse respi < 7 jours sans défaillange cardiaque, sans surcharge volémique
+avec opacités radio bilat diffuses
+
+Mécanisme = oedème lésionnel.
+
+Étiologies :
+\begin{itemize}
+  \item exogène = infectieuse, toxique
+  \item endogènes : dès qu'une réponse inflammatoire systémique
+\end{itemize}
+
+\section{356 : Pneumothorax}%
+
+\subsection{Définitions}
+Air dans l'espace pleural $\implies$ collapsus 
+
+\paragraph{Spontané}
+Primaire = poumon sain, sujet jeune, non grave
+
+Secondaire = patho, > 40 ans, peut décompenser
+
+\begin{itemize}
+  \item Blebs (< 1 cm, plutôt primaires)
+  \item bulles d'emphysème : à la corticalité, tabagismes
+  \item lésions kystiques
+  \item cataménial
+\end{itemize}
+
+\paragraph{Traumatique}
+Femé (côte fracturée) ou ouverts
+
+\paragraph{Épidémiologie}
+Spontané primaire : < 35 ans, masculin, longiligne et de grande taille, fumeur !
+
+Spontané secondaire : BPCO (plus rarement asthme, mucoviscidose)
+
+facteurs favorisants : $\Delta P_{atm}$, vols aérien, plongée subaquatique,
+tabagisme actif (PAS
+efforts physiques)
+
+\subsection{Diagnostic}
+Clinique : 
+\begin{itemize}
+  \item fonctionnel : douleur thoracique (brutale, homolatérale, latérale,
+    augmente toux), toux sèche irrit
+  \item physique : diminution murmure vésicul, pas de vibration vocales,
+    tympanisme percusion
+\end{itemize}
+Radio : pas en expiration ! 3 catégorise : apical, axillaire, complet
+
+Grave si dyspnée sévère $\vee$ collapsus tensionnel (! pas déviation médiastin) 
+
+$\implies$ le plus souvent (pneumothorax compressif secondaire à fistule à
+soupape) ou (PTX avec réserve ventilatoire réduite)
+
+\paragraph{Atypique}
+Récidive : 30\% (premier épisde), 50\% (second épisode)
+
+Rarement avec pneumomédiastic
+
+Sous ventilation mécanique : y penser si $\nearrow$ brutal pression
+d'insufflation, collapsus brula, plaie plèvre
+
+\paragraph{DD}
+Facile : douleur thoracique "respiro-dépendante.
+
+Difficile : Dyspnée aigùe sans sd pleural 
+
+\subsection{Traitement}
+\begin{itemize}
+  \item Rien si décollement < 2cm
+  \item PTX compressif = urgence $\implies$ aiguille simple + immédiat
+  \item Pneumotthorax spontané primaire (bien ou mal toléré ) :
+    exsufflation(petit cathéter sur voie thoracique antérieur) puis drain
+si échec
+\item Pour tous les autres : train
+\end{itemize}
+
+Prévention récidive par pleurodèse (accolement des feuillets) : si récidive
+homolat, PTX persistant 5 jours, compliqué ou bilat
+
+Sevrage tabac !!
+
+Attention altitude si PNO existant (seulement existant)
+
+VIh: traitement aussi pneumocystose
+
+
 \section{Gaz du sang}
 \label{appendix:gds}
 Le pH est déterminé par l'équilibre entre les bicarbonates (\ch{HCO_3-}) et
