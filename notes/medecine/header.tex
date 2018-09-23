@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage[hidelinks]{hyperref}
+\usepackage{longtable}
+\usepackage{booktabs}
+%\usepackage[draft]{graphicx}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+% French
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{caption}
+\usepackage[nointegrals]{wasysym} % Male-female symbol
+% Smaller marign
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{latexsym}
+\usepackage{subcaption}
+%-------------------------------------------------------------------------------
+% For graphs
+\usepackage{tikz}
+\usepackage{tikzscale}
+\usetikzlibrary{graphs}
+\usetikzlibrary{graphdrawing}
+\usetikzlibrary{arrows,positioning,decorations.pathreplacing}
+\usetikzlibrary{calc}
+\usegdlibrary{trees, layered}
+\usetikzlibrary{quotes}
+%-------------------------------------------------------------------------------
+% No spacing in itemize
+\usepackage{enumitem}
+\setlist{nolistsep}
+% tightlist from pandoc
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+ % Danger symbol (need fourier package)
+\newcommand*{\TakeFourierOrnament}[1]{{%
+\fontencoding{U}\fontfamily{futs}\selectfont\char#1}}
+\newcommand*{\danger}{\TakeFourierOrnament{66}}
+% Skull (need Symbola font)
+\usepackage{amsmath,fontspec,newunicodechar}
+\newfontface{\skullfont}{Symbola}[Scale=MatchUppercase]
+\NewDocumentCommand{\skull}{}{%
+  \text{\skullfont\symbol{"1F571}}%
+}
+% Hospital sign
+\usepackage{fontspec} % For fontawesome
+\usepackage{fontawesome}
+% Itemize in tabular
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+% No numbering
+\setcounter{secnumdepth}{0}
+% Set header
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\thepage}
+%\renewcommand{\headrulewidth}{0.6pt}
+% Custom header : no uper case
+\renewcommand{\sectionmark}[1]{%
+  \markboth{\textit{#1}}{}}
