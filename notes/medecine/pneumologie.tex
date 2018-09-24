@@ -1,65 +1,5 @@
-\documentclass{article}
-\usepackage[hidelinks]{hyperref}
-\usepackage{longtable}
-\usepackage{booktabs}
-\usepackage[draft]{graphicx}
-\usepackage[draft]{graphicx}
-\graphicspath{{../../pictures/medecine/}}
-% French
-\usepackage[T1]{fontenc}
-\usepackage[francais]{babel}
-%-------------------------------------------------------------------------------
-% For graphs
-\usepackage{tikz}
-\usetikzlibrary{graphs}
-\usetikzlibrary{graphdrawing}
-\usetikzlibrary{arrows,positioning,decorations.pathreplacing}
-\usegdlibrary{trees, layered, force}
-\usetikzlibrary{quotes}
+\input header
 \usepackage{biocon}
-%-------------------------------------------------------------------------------
-% No spacing in itemize
-\usepackage{enumitem}
-\setlist{nolistsep}
-% tightlist from pandoc
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
- % Danger symbol (need fourier package)
-\newcommand*{\TakeFourierOrnament}[1]{{%
-\fontencoding{U}\fontfamily{futs}\selectfont\char#1}}
-\newcommand*{\danger}{\TakeFourierOrnament{66}}
-% Skull (need Symbola font)
-\usepackage{amsmath,fontspec,newunicodechar}
-\newfontface{\skullfont}{Symbola}[Scale=MatchUppercase]
-\NewDocumentCommand{\skull}{}{%
-  \text{\skullfont\symbol{"1F571}}%
-}
-% Hospital sign
-\usepackage{fontspec} % For fontawesome
-\usepackage{fontawesome}
-% Diameter
-\usepackage{wasysym}
-% Chemical compound
-\usepackage{chemformula}
-% Footnote in section
-\usepackage[stable]{footmisc}
-% Custom header/footers
-\usepackage{fancyhdr}
-% No numbering
-\setcounter{secnumdepth}{0}
-% Only sections in TOC
-\setcounter{tocdepth}{1}
-% Set header
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[L]{\leftmark}
-\fancyhead[R]{\thepage}
-%\renewcommand{\headrulewidth}{0.6pt}
-% Custom header : no uper case
-\renewcommand{\sectionmark}[1]{%
-  \markboth{\textit{#1}}{}}
-% Negate \implies
-\usepackage{centernot} 
 
 \title{Pneumologie\\
 \large Fiches}
@@ -1702,9 +1642,10 @@ Critère : PAPm\footnote{Pression de l'artèr pulmonaire moyenne} $\ge 25$ mmHG 
 \begin{itemize}
   \item PAPO\footnote{Pression artérielle pulmonaire occluse $\approx$ pression
     capillaire pulmonaire} $\le 15$ mmHG si précapillaire
-  \item PAPO $> 15$ mmHG si postcapillaire
+  \item PAPO $> 15$ mmHG si postcapillaire 
 \end{itemize}
-5 groupes : 
+
+Classification internationale : 5 groupes
 \begin{enumerate}
   \item hypertension artérielle pulmonaire (HTAP)\footnote{Idiopathique,
       héritable, médicaments, maladie veino-occlusive, hémangiomatose capillaire
@@ -1712,6 +1653,7 @@ Critère : PAPm\footnote{Pression de l'artèr pulmonaire moyenne} $\ge 25$ mmHG 
   \item \textbf{cardiopathie gauche}  : post-capillaire (fréq+++)
   \item HTP maladie \textbf{respiratoire chronique}  : pré-capillaire (freq++)
   \item HTP post-embolique chronique : pré-capillaire
+  \item HTP multi-factorielles : pré-capillaire
 \end{enumerate}
 
 \paragraph{Pronostic}

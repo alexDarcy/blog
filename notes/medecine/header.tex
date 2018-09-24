@@ -48,6 +48,8 @@
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 % No numbering
 \setcounter{secnumdepth}{0}
+% In TOC, only section
+\setcounter{tocnumdepth}{1}
 % Set header
 \pagestyle{fancy}
 \fancyhf{}
@@ -57,3 +59,20 @@
 % Custom header : no uper case
 \renewcommand{\sectionmark}[1]{%
   \markboth{\textit{#1}}{}}
+% Footnote in section
+\usepackage[stable]{footmisc}
+% Chemical compound
+\usepackage{chemformula}
+
+% Negate \implies
+\usepackage{centernot} 
+
+%-------------------------------------------------------------------------------
+% Custom commands
+%-------------------------------------------------------------------------------
+% Logical and, or
+\def\land{$\wedge{}$}
+\def\lor{$\vee{}$}
+\def\dec{$\searrow{}$}
+\def\inc{$\nearrow{}$}
+
