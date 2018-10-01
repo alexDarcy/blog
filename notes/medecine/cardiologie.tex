@@ -1,5 +1,5 @@
 \input header
-
+\def\arrow{$\rightarrow$}
 \begin{document}
 \title{Fiches de cardiologie}
 \author{Alexis Praga}
@@ -806,7 +806,7 @@ Examiner taille aort, valve mitrale, tricuspide
 \begin{itemize}
   \item valve chirurgical : mécanique si jeune mais AVK à vie, sinon prothèse bio (> 65
     ans)
-  \item valvulopastie percutanée abandonnée
+  \item valvulopathie percutanée abandonnée
   \item implantation percutanée d'une valve aortique (TVAI)
 \end{itemize}
 Si symptomatique. Sinon test d'effort.
@@ -1029,7 +1029,7 @@ Risque majeur d'EI $\forall$ prothèse !
     \begin{itemize}
       \item Embolie systémiques : souvent cérébrales
       \item Thromboses de prothèse mécanique : accidents brutaux (OAP, syncope,
-        choc, mort subite). Diagnosic difficile : appartition d'un
+        choc, mort subite). Diagnostic difficile : appartition d'un
         souffle/roulement. \textit{ETT, ETO} \\
         Chir d'urgence possible
         \danger DD avec EI parfois difficile
@@ -1113,7 +1113,7 @@ purpura, lombalgies féribles
     rénale
 \end{itemize}
 
-Diagnosic : hémoculture, échocardio
+Diagnostic : hémoculture, échocardio
 
 Autres : NFS, \{CRP, électrophorèse\}, complexes immuns circulants, \{urée,
 créat\}, BNP
@@ -1355,10 +1355,112 @@ hyperréflexie sinocartidienne, ECG implantable
     (miction), hyperréflexie sinocarotidienne (rasage, \textbf{âgé} )
   \item hypotension artériel : âgé, iatrogène, debout prolongé
   \item troubles du rythme/conduction : plus souvent : tachycardie
-    ventriculaire. Diagnostic = électrophysio.
+    ventriculaire. Diagnostic = électrophysio.. Diagnostic = électrophysio..
+    Diagnostic = électrophysio.
 \end{itemize}
 
+\section{230 : Fibrillation atriale}%
+\label{sec:230_fibrillation_atriale}
 
+Tachycardie irrégulière due à une activité anarchique des oreillettes
+(400-600/min) > 30 secondes.
+
+Noeud AV filtre à 130-180/min \thus tachy irrégulière \thus risque
+d'insuffisance cardiaque et thromboembolique (stase). Évolue : fibrose
+oreillettes, dilatation atriale
+
+Fréquente chez âgé
+
+\paragraph{Classification}
+\begin{itemize}
+  \item Premier épisode
+  \item Paroxystique : retour en sinusal < 7 j
+  \item Persistante :  retour en sinusal > 7 j ou après cardioversion
+  \item Permanente : échec cardioversion/non tentée
+\end{itemize}
+
+\subsection{Diagnostic}
+Signes usuels : palpitations, dypsnée d'effort, angor fonctionnel, asthénie
+inexpliquée...
+
+Auscul : bruits irréguliers, rythme $\pm$ rapide
+
+\textit{ECG} : indispensable \danger
+\begin{itemize}
+  \item petites/grosse mailles
+  \item QRS lents réguliers
+  \item dysfonction sinusale à l'arrêt de FA\footnote{Fibrillation atriale}
+    (brady-tachy)
+\end{itemize}
+
+Autres : \{iono, créat, TSHus, NFS\}, radio thorax, echocardio
+
+\paragraph{Étiologies}
+\begin{enumerate}
+  \item HTA (âgé)
+  \item valvulopathie (mitrale)
+  \item autres : respi (SAS !), cardiomyopathies, SCA, hyperthyroïde (y penser
+    !), péricardites, chir cardiaque récente, cardiopathies congénitales,
+    phéochromocytome
+\end{enumerate}
+
+\paragraph{Tableaux cliniques}
+\textit{FA isolé, coeur normal} : quinqua, palpitation nocturnes $\pm$ angor
+fonctionnel \lor{} dypsnée d'effort. Échocardio normale. Exclure SAS et HTA !\\
+\thus seulement anti-arythmique (flécaïdine)
+
+\textit{FA avec insuf cardiaque} : souvent séquelle infarctus sévère ou
+cardiomyopathie dilatée à coronaires saines. OAP/ décompensation cardiaque
+gloable.\\
+\thus antiocoagulants oraux \arrow{} cardioversion (parfois urgence) \arrow{}
+anticoag. au long cours, amiodarone\footnote{Maintien rythme sinusal}
+
+\textit{FA valvulaire post-rhumatismale}  : persistante/permanente sur maladie
+mitrale. \\
+\thus à discuter, AVK au long cours
+
+\textit{Embolie artérielle systémique} :souvent cérébrale. FA méconnue chez
+\female âgée avec FR embolique (HTA, diabète). Écarter SCA (tropo, ECG)\\
+\thus aigü : (thrombolyse), aspirine \arrow{} AVK, héparine
+
+\textit{Maladie de l'oreillette}  : alternance FA paroxystique rapide-brady\\
+\thus stimulateur cardiaque définitif
+
+\subsection{Traitement}
+\paragraph{Risque thromboembolique}
+Cardioversion : à risque par défaut ! Donc héparine ou anticoag. oral. 
+Si risque très élevée, vérifier l'absence de trombos atrial G
+
+Chronique :
+\begin{itemize}
+  \item FA valvulaire : risque très élevé
+  \item FA isolé sur coeur sain : risque faible
+  \item sinon score CHADS2 \danger{} pas si FA valvulaire !!! : \texttt{Congestion +1,
+    Hypertension artérielle +1, Âge > 75 ans +1, Diabète +1, Stroke +2}\\
+    anticoag si CHADS2 > 1
+\end{itemize}
+
+\paragraph{FA persistante ou premier accès < 7 j}
+\begin{itemize}
+  \item Prévention thromboembolique par HNF IV (AVK/nouveau anticoag
+    directement si bien toléré et pas à haut risque)
+  \item Cardioversion : antiocoag orale -3 semaine et + 4 semaines. Choc
+    électrique sous anesthésie générale \lor{} médicament (amiodarone). Rarement en
+    urgence.
+\end{itemize}
+
+\paragraph{Entretien}
+\begin{itemize}
+  \item Anticoagulant selon terrain : AVK (INR !), inhib trombine (dabigatran), inhib
+facteur X (rivaroxaban, apixaban, edoxaban)\\
+Si FA valvulaire : seuls AVK
+\item respect FA et seul contrôle FC (oui) \lor{} contrôle FA (paroxystique,
+  persistante)
+\end{itemize}
+
+\paragraph{Éducation du patient}
+HTA, risque d'embole cérébrale, effets secondaire amiodarone (thyroïde,
+photosensiblisitation, dépôts cornéens)
 
 
 

@@ -3,7 +3,7 @@ login_file="../login.cfg"
 #STACK=~/.local/bin/stack
 STACK=stack
 
-all: generate movie deploy
+all: generate mng deploy
 
 biblio:
 	wget http://www.citeulike.org/bibtex/user/AlexisPraga -O bibliography/history.bib
@@ -37,8 +37,9 @@ debug: generate update
 update:
 	WID=`xdotool search --name "Mozilla Firefox" | head -1` ; xdotool windowactivate $$WID ; xdotool key F5
 
-movie:
+mng:
 	mng export movie -o _site/misc
+	mng export comic -o _site/misc
 
 # -z flags avoid to upload identical files !
 deploy: 
