@@ -1,5 +1,7 @@
 \input header
 \def\arrow{$\rightarrow$}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+
 \begin{document}
 \title{Fiches de cardiologie}
 \author{Alexis Praga}
@@ -1296,17 +1298,16 @@ encéphalopathie hépatique)
 \end{itemize}
 
 \subsection{PEC}
-Algorithme :
-\begin{enumerate}
-  \item Perte de connaissance brève, pas de crise comitale ? Si non : \textit{épilepsie,
+\begin{algorithm}
+   Perte de connaissance brève, pas de crise comitale ? Si non : \textit{épilepsie,
     AVC/AIT, coma, intoxication, céphalée, SAS} \footnote{Syndrome d'apnée du
-    sommeil} \faHandStopO
-  \item Syncope. Signe de gravité ? Si oui : urgence = SCA, EP... \faHandStopO
-  \item Interrogatoire, cliinque, ECG ? Si cause évidente (méca, électrique,
-    hypotension) \faHandStopO
-  \item Cardiopathie sous-jacente ? Si oui : holter, électrophysio
-  \item Sinon probablement neurocardiogénique
-\end{enumerate}
+    sommeil} \faHandStopO\;
+   Syncope. Signe de gravité ? Si oui : urgence = SCA, EP... \faHandStopO\;
+   Interrogatoire, cliinque, ECG ? Si cause évidente (méca, électrique,
+    hypotension) \faHandStopO\;
+   Cardiopathie sous-jacente ? Si oui : holter, électrophysio\;
+   Sinon probablement neurocardiogénique
+\end{algorithm}
 
 Interrogatoire :
 \begin{itemize}
@@ -2064,6 +2065,189 @@ cathétérisme
 
 
 
+
+\section{224 : Thrombose veineuse profonde et embolie pulmonaire}%
+\label{sec:224_thrombose_veineuse_profonde_et_embolie_pulmonaire}
+Complications de la TVP\footnote{Thrombose veineuse profonde} :
+EP\footnote{Embolie pulmonaire}(précoce), SPT\footnote{Syndrome post-thrombotique}
+(tardif)
+
+TVP : obstruction thrombotique d'un tronc veineux profond. EP : idem mais
+artères pulmonaires ou leurs branches (secondaires TVP à 70\%)
+
+3eme cause de DC en france
+
+Facteurs de risques temporaires (chirurgie orthopédique, trauma, alitement > 3
+jours), permaments (ATCD MTEV\footnote{Maladie thromboemolique veineuse}
+
+\paragraph{Physiopatho} stase veineuse, lésions pariétales, anomalies de l'hémostase \thus
+obstruction/lyse. Si migre dans les artères pulmonaires : symptômes si
+obstruction à 30-50\% \thus anomalie hémodynamique \thus insuf respi
+
+\paragraph{Évolution}
+TVP distales asymptomatique (postop) : 20\% deviennent proximales\\
+TVP distales symptomatique : récidive (9\% si ttt anticoagulant)\\
+TVP proximal symptomatique : risque important !\\
+EP : TVP + 3/7 jours, mortelle dans l'heure à 10\%
+
+\subsection{Thrombose veineuse profonde}
+
+\paragraph{Clinique} = orientation\\
+Douleur du MI, oedème unilatéral, signes inflammatoires, dilatation veines
+superficielles ou asymptomatique
+
+\textit{DD}  : \{traumatisme, claquage musc\}, kyste synovial, \{SPT, insuf veineuse
+primaire\}, \{sciatique, compression extrinsèque\}, \{érysipèle, lymphangite,
+cellulite\}, lymphoedeme, insuf cardiaque droite/rénale/hépatique
+
+Score de probablitié clinique : Wells (faible/interm/forte)
+
+\begin{algorithm}
+  Si âge < 80 ans, pas de cancer, pas de chirurgie < 30 jours, D-dimères.
+    Si < 500$\mu$g/L, \faHandStopO. Sinon, goto 2.\;
+  Contention élastiques (+HBPM si proba clinique $\ge$ intermediate)\;
+  Puis écho-doppler veineux\;
+  Si positif : ttt et contention. Si négatif mais suspicion forte :
+    surveillance $pm$ ttt
+\caption{Diagnostic TVP}
+\end{algorithm}
+NB : TVP va recherche le thrombus, l'incompressibilité de la veine à la
+pression, \dec signal, remplissage partiel du throbus.
+
+\paragraph{Étiologies}
+\begin{itemize}
+  \item FR transitoire (chir, fracture < 3 mois, immobilisation > 3 j) ? Sinon, "non
+provoquée
+\item Recherche de thrombophilie si (1er épisode (non provoqué < 60 ans) \lor{}
+  femme âge procrééer)) \lor{} (récidive (MTEV proximale) \lor (TVP distale non
+  provoquée)
+\item Recherche cancer : > 40 ans ou bilan thrombophilie négatif
+\end{itemize}
+
+Formes particulières :
+\begin{itemize}
+  \item thromboses veineuse superficielles :x(sur trajet saphène, douloureux,
+    rouge, inflammatoire, cordon induré \thus écho-doppler
+  \item TVP pelvienne
+  \item thrombose veine cave inférieure
+  \item phlébite bleue : très rare mais grave
+\end{itemize}
+
+Si grossesse : bilan thrombophilie si ATCD familaux/personnels MTEV
+
+Si cancer : HBPM long cours
+
+\paragraph{Évolution} : favorablement si bien conduit mais récidive toujours
+possible. Complications : 
+\begin{itemize}
+  \item SPT : lourdeur de jambes, oedeme de cheville, dilat veineuses
+    superficielles, troubles trophiques sans ulcère, ulcères sus-malléolaires
+  \item EP
+\end{itemize}
+
+\subsection{Embolie pulmonaires}
+
+\paragraph{Clinique} pas spécifique : dypsnée, douleur thoracique, syncope,
+crachats hémoptoïques, asymptomatique
+
+Radiothorax : aspécfique. 
+
+Gaz du sang : hypoxie-hypocapni
+
+ECG : normale /tachy sinusale / souffrance VD
+
+\thus score probablitié (Genève, Wells)
+
+\begin{algorithm}
+  \caption{EP supectée à haut risque}
+  Si scanner non disponible, ETT\;
+  Si positif et scanner disponible, goto 3. Si positif et scanner indisponible,
+  traitement. Si négatif : \faHandStopO\;
+  Si scanner positif : traitement spécifique. Sinon \faHandStopO\;
+\end{algorithm}
+
+\begin{algorithm}
+  Proba clinique faible/intermédiaire : D-Dimère. Si positif, goto 2\;
+  Si scanner ou écho MI positif, traitement\;
+  \caption{EP supectée non haut risque}
+\end{algorithm}
+
+NB : 
+\begin{itemize}
+  \item si suspicion d'EP, TVP \textbf{proximale} à l'echo des MI suffit au
+diagnostic.
+  \item Scinti : si normale, pas d'EP
+  \item ETT : en urgence, signe de surcharge peut suffire à poser le diagnostic
+\end{itemize}
+
+\textit{DD} :
+\begin{itemize}
+  \item douleur thoracique : IDM, péricardiite, dissection aortique,
+    pneumothorax
+  \item dyspnée aigüe : oedème aigu pulmonaire, crise d'asthme, décompensation
+    BPCO, pneumopathie
+\end{itemize}
+
+\paragraph{Pronostic}
+\begin{itemize}
+  \item Grave si choc/hypotension (PAS < 90mmHg ou -40mmHg > 15 min sans cause
+rythmique/hypovélimuqe/septiques) \thus DC > 15\%
+\item intermédiaire : 3-15\%
+\end{itemize}
+
+\paragraph{Évolution} favorable. Complications : choc cardiogénique réfractaire
+(DC), rédicive, HTAP chronique post-embolique (rare mais grave)
+
+\subsection{Traitement curatif}
+Confirmer diagnostic avant traitement antiocagulant, sauf si absence risque
+hémorragique en attentant confirmation
+
+\begin{itemize}
+  \item HNF : 500UI/kg/jour puis selon test d'hémostase. Pour insuffisants
+    rénaux sévères ou instables
+  \item HBPM, fondaparinux : pas de surveillance bio
+\end{itemize}
+Surveillance des plaquettes \textbf{non si}  : HBPM hors contexte post-op,
+fondaparinux 
+
+Thrombolytique : seulement si EP grave !
+
+Relai per os AVK précoce. Objectif INR = 2.5
+
+Durée : $\ge$ 3 mois si TVP proximale ou EP
+
+Compression élastique $\ge 2$ ans, ASAP. 
+
+Hospitalisation ? 
+\begin{itemize}
+  \item EP
+  \item TVP proximale chez insuf rénaux sévère, risuqe hémorragique, syndrome
+    obstructif ou localisation iliocave
+\end{itemize}
+
+Filtre cave : non systématique
+
+\paragraph{Cas particuliers}
+\begin{itemize}
+  \item 
+TPV distale : symptomatique : anticoagulement 6 semaines seulement si premier épisode. Dans tous les cas,
+compression $\ge 2$ ans
+\item TVS : \textbf{pas} recommandé = AINS, antiocoagulants en curatif, chirurgie
+\item cancer : HBPM, arrêt si plaquettes < 50g/L
+\end{itemize}
+Prevention : 
+\begin{itemize}
+  \item risque modéré : HBPM/HNF/fondaparinux, compression
+  \item risque élevé : idem sans HNF
+\end{itemize}
+
+Nouveau anticoagulant oraux (rivaroxaban) :
+\begin{itemize}
+  \item prévention chir hanche-genou
+  \item curatif TVP, EP
+  \item pas si insuf rénale sévère ou insuf hépatique
+  \item pasa de surveillance bio
+\end{itemize}
 
 \section{326 : Antithrombotiques}%
 \label{sec:326_antithrombotiques}
