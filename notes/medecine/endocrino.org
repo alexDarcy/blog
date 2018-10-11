@@ -1,0 +1,109 @@
+#+title: Fiches d'endocrinologie
+#+author: Alexis Praga
+#+latex_header: \usepackage{booktabs}
+#+latex_header: \input{header}
+
+* 35 : Contraception
+** Contraception hormonale
+Oestroprogestatifs
+- Contient {oestrogène, progestatif (gen 1,2 ou 3), autres progestatif}
+- Administration orale, transdermique ou vaginale
+- Action : {pas d'ovulation, endomètre peu à apte à la nidation, glaire
+  cervicale imperméable aux spermatozoïdes}
+Progestatifs seuls 
+- Microprogestatifs : action sur glaire cervicale, endomètre
+- Macroprogestatifs : si CI oestroprogestatifs
+- Administration : orale, injection, implant, intra-utérin (stérilet)
+** Pratique
+Oestroprogestatifs : 
+- à commencer le premier jour des règles pendant 21j puis 7 j
+d'arrêt.
+- au même moment
+- Si oubli < 12h, ASAP sinon contraception mécanique $\ge 7$ jours
+Microprogestatifs : toujours à la même heure. Si oubli < 3h, ASA, sinon
+contraception mécanique $\ge 7$ jours
+Macroprogestatifs : ccommencer le 5eme jour du cycle
+
+** Contre-indications
+Oestroprogestatifs : absolues =
+- thromboemboliques veineux/artériels, prédisposition thromboses
+- lupus évolutif, connectivites, porphyries
+- vasc, cardiaque, cérébrales, oculaires
+- valvulopathie, troubles rythmes thrombogènes
+- HTA non contrôlée
+- diabète et micro/macroangiopathie
+- tumeur hormono-dépendantes (sein, utérus...)
+- hépatiques sévères
+- hémorragies génitales non diagnostiquées
+- (tumeurs hypophysaires)
+Macro/microprogestatifs : cancers {sein, endomètre}, insuf hépatique, accident
+TEV récents
+
+** Recommandation
+Sans CI, oestroprogestatif minidosé et progestatif 2eme génération monophasique
+(Minidril)
+
+** Efficacité
+Indice de Pearl[fn:1] < 0.07% pour oestroprogestatif
+(< 2% pour les microprogestatifs)
+
+Attention : certains inducteurs enzymatiques réduisens l'efficacité (ou
+millepertuis).
+
+Ado : sous- ou mal utilisée
+
+** Tolérance
+Oestroprogestatifs :
+- bien tolérée, pas de perte de poids
+- surveiller métabolisme
+- active coagulation mais \inc fibrinolyse. Légère augmentation du risque
+  d'accident TEV
+- vasc : faible \inc PA
+- cancer : ovaire = risque -50%, idem pour l'endomètre, faible \inc pour sein
+Microprogestatifs : troubles des règles (spotting, aménorrhées), grossesse
+extra-utérine
+
+Macroprogestatifs : hypoestrogénie, aménorrhées, spotting
+
+** Surveillance
+Consulter si céphalée, déficit sensitivomoteur, (douleur ou oedème) MI, dyspnée,
+douleur thoracique
+
+Examen clinique : 
+- préthérapeutique : gynéco, frottis cervico-vaginal dès 25 ans si
+  asymptomatique.
+- PA à +3mois puis tous 6 mois
+- hyperoestrogénie (tension mammaire), hypoestrogénie (sécheresse vaginale)
+Biologie : cholestérol total, triglycérides, glycémie à jeun à +3mois. Si FR, le
+faire avant (!) prescription
+
+Gynéco : métroragies, spottings. NB frottis cervico-utérin dès 25 ans (+1 an pui
+tous 3 ans) indépendamment contraception
+
+** Femmes à risques
+Diabétique :
+- non hormonale : si diabète 1 > 15 ans ou micro/macroangiopathie \thus locale
+  (nullipare, peu de rapports) ou intra-utérin (multipare, diabète équilibré)
+- hormonale :pas d'oestropregestatifs si {tabac, non équilibré, HTA, surpoids,
+  diabète compliqué} \thus progestatif
+Dyslipidémie : oestroprogestatif si < 3g/L cholestérol total, triglycérides <
+9g/L
+
+Thrombose veineuse
+- prédisposant : anomalies de l'hémostase (génétique, acquises), ATCD familiaux
+- dépistage : thrombose, multiples fausses couches, ATCD thrombose < 45 ans
+- acétate de chlormadinone, CI oestrogène
+
+Autres :
+- HTA : oestroprogestatifs si 0 FR
+- tabac = CI, migraine \land{} vascularite = spécialiste
+
+** Urgence
+- lévonorgesttrel ASAP < 72h
+- ulipristal acétate ASAP < 120h mais 3x plus cher
+
+
+* Footnotes
+
+[fn:1] $\frac{N}{N_e/10}\times 100$ avec N = nb grossesses
+accidentelles, $N_e$ nombres de mois d'exposition

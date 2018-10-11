@@ -14,7 +14,9 @@ build:
 	${STACK} exec blog build
 
 MED=notes/medecine
-NOTES_TEX= ${MED}/maladies_infectieuses.tex\
+NOTES_TEX= \
+${MED}/endocrino.tex\
+${MED}/maladies_infectieuses.tex\
 ${MED}/nutrition.tex\
 ${MED}/pneumologie.tex\
 ${MED}/neurologie.tex\
@@ -22,13 +24,19 @@ ${MED}/neurologie.tex\
 NOTES_PDF=$(NOTES_TEX:.tex=.pdf)
 
 .PHONY: notes
-.PHONY: ${NOTES_TEX}
-notes: ${NOTES_PDF}
+.PHONY: ${NOTES_TEX} 
+notes: ${NOTES_PDF} 
 	mkdir -p _site/notes/medecine
 	cp $^ _site/notes/medecine
 
+lollol:
+	echo ${NOTES_ORG}
+
 notes/medecine/%.pdf: notes/medecine/%.tex
 	latexmk -pdf -lualatex -cd $<
+
+${MED}/endocrino.tex: ${MED}/endocrino.org
+	emacs -u "$(id -un)" --batch $< --eval '(load user-init-file)' -f org-latex-export-to-latex
 
 debug: generate update
 
