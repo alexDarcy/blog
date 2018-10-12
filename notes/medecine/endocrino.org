@@ -102,7 +102,67 @@ Autres :
 - lévonorgesttrel ASAP < 72h
 - ulipristal acétate ASAP < 120h mais 3x plus cher
 
+* 37 : Stérilité du couple
+Infertile : 0 grossesses après 1 an de rapports non protégés. Stérilité si
+définitf.
 
+Stérilité = partagée !!
+
+** Interrogatoire
+- Couple
+- Femme : âge++ (détérioration après 35 ans), {grossesses antérieure,
+  avortements}, infections/curetages++, ATCD chir/infectieux, douleurs
+  pelviennes (rapports, règles), conditions de vie, radio/chimio
+- Homme : trouble libido/érection, ATCD cryptorchidie/trauma testiculaire, ATCD
+  chir pelvienne/scrotale, ATCD médicaux (oreillons++), tabac/anabolisants...
+
+** Examen clinique
+- \female : âge++, obésité/maigreur, tour taille et hanche, pilosité, PA,
+  galactorrhé provoqué, gynéco.
+  - Si anovulation (a-/oligo-ménorrhée) : hyperprolactinémie, hyperandrogénie,
+    troubles comportement alimentaire, bouffées chaleur
+- \male : IMC, pilosité, hypoandrisme, cicatrice chir, varicocèle,
+  gynémocomastie, gynoïde/enuchoïde
+  - volume testiculaire++, palpation cordospermatiques
+
+** Examens complémentaires
+Premiere intention, femme
+- Hormonale++ : oestradiole, LH, FSH, prolactine plasmatique. Puis progestérone
+plasmatique (si cycle réguliers)
+- Écho ovarienne++
+- Hystérographie++
+Première intention, homme :
+- spermogramme++ (concentration, mobilité, morphologie. Attention aux
+  variabilités !
+- hormonale++ si oligo-/azoo-spermie : testostérone, LH, FSH puir SHBG
+Test poist-coïtal (discuté)
+
+** Étiologie
+Femme :
+- anovulation : très fréquent ! Souvent aménorrhées ou irrégularités. Causes :
+  sd des ovaires polymicrokystiques, hyperprolactinémie, insuf ovarienne
+  primitive, déficit gonadotrope, psycho-nutritionnel
+- obstacle mécanique :
+  - anomalie du col utérin et insuf glaire cervilaie : post-conisation/curetage
+  - obstacle, anomalie utérie : manoeuvres post-partum, polypes muqueux... \thus
+    echographie
+  - obstacle tubaire : cause majeure++. Souvent salpingite (Chlamydia++)
+- Endométriose : rarement si modéré. hypstérosalpingographie pui coelioscopie
+Homme :
+- azoospermie 
+  - sécrétoire : diagnostic = volume testiculaire < 10ml, concentration FSH
+    faible
+ \thus caryotype, analyse bras long Y, écho testiculaire (élimine
+    cancer), déficit gonadotrope (rare)
+  - obstructive : volume et concentration ormale, volume séminal \dec \thus
+    examen clinique
+    - cause congénitale : agénésie bilat des canaux déférent++ (soit anomalie
+      biallélique gène CFTR, soit isolée)
+    - acquis : infectieux  (gonocoque, tuberculose, Chlamydia) \thus échographie
+  - exploration chir testiculaire et des voies excrétrices : si azoospermie
+    confirmée par plusieurs spermogrammes, bilan génétique
+- oligo-asthéno-térato-spermie : \dec nombre, mobilité, \inc hormes anormales
+  \thus caryotypeq, brang long Y. Traitement = assistance médicale procréation
 * Footnotes
 
 [fn:1] $\frac{N}{N_e/10}\times 100$ avec N = nb grossesses
