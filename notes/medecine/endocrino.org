@@ -162,7 +162,53 @@ Homme :
   - exploration chir testiculaire et des voies excrétrices : si azoospermie
     confirmée par plusieurs spermogrammes, bilan génétique
 - oligo-asthéno-térato-spermie : \dec nombre, mobilité, \inc hormes anormales
-  \thus caryotypeq, brang long Y. Traitement = assistance médicale procréation
+  \thus caryotype, brang long Y. Traitement = assistance médicale procréation
+* 40 : Aménorrhée
+Déf: absence de cycle menstruel après 16 ans (primaire) ou interruption chez
+femme réglée (secondaire). Physiologique : grossesse, lactation, ménopause
+
+Tout arrêt > 1 mois \thus enquête étiologique \danger
+
+Atteinte de l'axe hypothalamo-hypophysio-ovarien ou anomalie tractus utérin
+
+*Pas de traitement oestrogénique sans enquête étiologique*
+
+** Conduite
+*** Primaire
+Forte proba de cause génétique/chromosomique. Chercher carences nutritionnelle
+
+- Si absence de dév. puberture : doser FSH, LH
+  - Si basses, tumeur hypothalamo-hypophysaire, dénutrition ou génétique : {sd
+    de Kalmann (anosmie), mutation récepteur GnRH (rare), atteinte
+    gonadotrophines (exceptionnels), mutation LH}
+  - Si hautes : sd de Turner (caryotique 45, XO),
+- Examen gynéco, écho pelvienne
+  - Pas d'utérus : sd de Rokitanski, tissu testiculaire dans les canaux
+    inguinaux (CAIS)
+  - ambiguité OGA : dysgénésie gonadique, hyperplasie congénitale surrénales,
+    anomalies sensibilité/biosynthèse androgènes
+*** Secondaire 
+Souvent acquises. 
+
+Interrogatoire : médic, maladie endoc/chronique,
+gynoc/obstétriques, insuf ovarienne (bouffées de chaleur). Douleurs pelviennes
+cycliques : cause utérine
+
+Examen clinique : 
+- poids et taille (carence nutritionnelle
+- hyperandrogénie : sd ovaires polykystiques, déficit 21-hydroxylase, (sd
+  Cushing)
+- carence oestrogénique : pas de glaire +2 semainesa après saignement \thus
+  anovulation
+- pas de signe d'appel : enquête nutritionnelle
+
+Dosages hormonaux :
+- hCG : grossesse
+- prolactine \inc : médciament ou tumeux hypothalamo-hypophysaire (ou adénome)
+- FSh \inc, estradiol \dec : insuf ovarienne primitive
+- estradiol, LH, FSH basse : hypothalamo-hypophysaire ou nutritionnelle
+- testostérone : tumeur surrénalienne/ovarienne
+- sinon SOPK
 * Footnotes
 
 [fn:1] $\frac{N}{N_e/10}\times 100$ avec N = nb grossesses
