@@ -208,8 +208,145 @@ Dosages hormonaux :
 - FSh \inc, estradiol \dec : insuf ovarienne primitive
 - estradiol, LH, FSH basse : hypothalamo-hypophysaire ou nutritionnelle
 - testostérone : tumeur surrénalienne/ovarienne
-- sinon SOPK
+- sinon SOPK[fn:2]
+
+** Causes
+
+*** Déficit gonadotrope organique/fonctionnel
+
+**** Hypothalamus, prolactine normales
+Hypothalamus n'arrive pas à libérer la GnRH au bon rythme. 
+
+Atteintes organiques : tumeur/infiltration \thus IRM
+- macroadénomes hypophysaires, craniopharyngiomes
+- chercher hyperprolactinémie, insuf antéhypophysaire associé
+
+Atteintes fonctionnelles : apports nutritionnels insufissants par rapport à l'activité physique intense+++
+**** Hypothalamo-hypophysaire dû à une hyperprolactinémie
+Cause majeure
+
+Médicaments ou tumeurs \thus pas de traitement dopaminergique sans imagerie \danger
+**** Autres
+- Endocrinopathies : sd de Cushing, dysthyroïdes déficits 21-hydroxylase
+- Hypophysaire (rare) : auto-immune (majorité), sd de Sheehan (très rare, nécrose hypophysaire post-partum)
+*** Anovulation non hypothalamique
+**** SOPK (majorité)
+ Pas de pic de LH, ni de progestérone. Oestradiol mais non cycliques
+
+Irrégularité menstruelles, puis aménorrhées avec acné, hirsutisme
+
+Diagnostic :
+- 2 parmi : {hyperandrogénie clinique[fn:3], oligo-/a-novulation, hypertrophie
+  ovarienne (écho)}
+- exclure bloc 21-hydroxylase, tumeur de l'ovaire, sd Cushing
+- exclure hyperprolactinémie
+
+Diagnostic parfois difficile :
+- sans hyperandrogénie \thus écho
+- {atteinte partielle axe gonadotrope, macroprolactinémie} peuvent y ressembler
+
+Acné : cherche hyperandrogénie, régularité cycle menstruel \thus éliminer
+hyperplasie congénitale des surrénales
+
+2 causes :
+- tumeur ovarienne ou résistance insuline
+  - virilisation si tumeur
+  - imagerie si testostérone > 1.5ng/mL. Si normale, cherche hypothécose
+    (obésité morbide androïde, acanthosis nigricans, insulino-résistance)
+- pathologie surrénale :
+  - sd de Cushing si signes hypercortisolisme \thus cortisol libre urinaier et
+    freinage minute
+  - tumeur surrénale \thus scanner des surrénales
+  - déficit enzymatique en 21-hydroxylase (\danger formes tardives qui peuvent
+    mimer SOPK)
+*** Insuf ovarienne primitive
+\inc FSH
+
+Causes :
+- chir, chimio, radiothérapie
+- anomalie caryotype (sd Turner)
+- anomalie gènes /FMR1/ (sd X fragile)[fn:4]
+- auto-immune
+*** Anomalie utérine
+**** Congénitales :
+Si dév pubertaire normale et douleurs pelviennes cycliques, imperfortanio
+hyménéale/malformation vaginale \thus examen gynéco.\\
+Idem sans douleurs \thus agénésie utérus ?
+
+Difficulté : différence agénésie mullérienne isolée (46,XX)- anomalies androgènes
+(46,XY) \thus testostérone
+**** Secondaires :
+Synéchies utérines (trauma de l'utérus), tuberculose utérine
+* 47 : Puberté
+** Normale
+~4 ans, acquisition de la taille définitive, fonction de
+reproduction. Classification de Tanner (5 stades)
+
+\female : seins ~11 ans [8,13]ans, règles ~13ans [10,15]
+
+\male : \inc volume testiculaire ~11.5 [9.5,14], \inc taille verge ~12.5ans.
+
+Accélération de la croissance : 5 -> 8cm (163cm) \female, 5-10cm (175cm)
+** Retards 
+\male :  volume testiculaire < 4mL ou longeur < 25mm > 14 ans 
+
+\female : pas de seins à 13 ans, pas de règles à 15 ans
+
+Centrale ou périphérique ?
+- centrale : congénital (pas de cassure de croissance, micropénise,
+  cryptorchidie), acquis (tumeur ?), "fonctionnel" (maladie générale, trouble
+  comportement alimentaire), isolé
+- périphérique : sd de Turner chez \female, sd Klinefelter \male
+- retard simple (élimination)
+
+Clinique : 
+- parents, grossesse, courbe de croissance. Chercher trbles digestifs,
+polyuro-polydispise, céphalée, anomalies champ visuel
+- pathologie acquise, OGE, testicules, anosmie (Kallmann)
+
+Âge osseux : 13 ans \male, 11 ans \female
+
+Biologie : 
+- stéroïdes sexuels, si FSH, LH basses \thus hypothalamo-hypophysaire
+- testostérone chez \male, oestradial/écho chez \female
+
+IRM indispensable ! si déficit gonadotrope (tumeur)
+
+Caryotype si FSH élevé. Toujours chez \female de taille < -2DS avec retard
+pubertaire/gonadotrophine \inc
+
+*** Étiologies
+Hypogonadotropes
+- congénitaux : isolés, sd de Kallman, autres déficits hypophysaires, sd
+  polymalformatifs
+- acquis : tumeurs hypophysaires, post-radiothérapie 
+Hypogonadotropes fonctionnels
+- chroniques digestives/cardaques/respi
+- sport intense
+- endocrio
+Hypergonadotropes
+- congénitaux : sd Turner, sd Klinefelter, autres atteintes primitevs
+- acquis : castration, trauma, oreillons, chimio/radio
+
+***  Traitement
+Cause si possible. Sinon doses \inc de testostérone (\male) ou oestrogènes puis
+oestroprogestatif (\female)
+** Précoces
+Avant 8ans \female ou 9.5 ans \male
+*** Centrales
+Plus fréquentes chez les \female
+*** Périphériques
 * Footnotes
+
+[fn:4] Transmission mère-fils. Expansion instable des triplets CGG jusqu'à
+l'absence de transcript de FMR1 (Fragile X Mental Retardation 1). \\
+\danger Risque d'IOP pour la pré-mutation seulement \thus dépister chez
+\female + IOP < 40 ans par PCR et Southern Blot
+
+[fn:3] Séborrhéee, acné, hirsutisme, \inc testostérone
+
+[fn:2] Sd des ovaires polykystiques
 
 [fn:1] $\frac{N}{N_e/10}\times 100$ avec N = nb grossesses
 accidentelles, $N_e$ nombres de mois d'exposition
+
