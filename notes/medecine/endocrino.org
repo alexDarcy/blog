@@ -403,6 +403,65 @@ ovariens. Dominance \female
 - Examen clinique : scrotume, gynécomastie, signes d'hypogonadisme
 - Complémentaire : {FSH, LH, testostérone}, hCG si tumeur à la palpation, écho
   scrotale, spermogramme
+* 51 : Retard de croissance
+\danger Ne pas passer à côté de pathologies sévères
+
+Phases : foetale (rapide, {nutrition, insuline, IGF-2}), précoce 0-3ans (rapide,
+{insuline, IGF, hormones thyroïdiennes}), prépubertaire (plus lente, décroît,
+{génétique, GH/IGF, hormones thyroïdiennes}), pubertaire ({stéroïdes sexuels,
+GH, nutrition})
+
+Retard statural = {taille < -2DS, ralentissements croissance, croissance <<
+parents}
+
+Prise de poids, obésite, ralentissement croissance \thus chercher
+hypercorticisme, tumeux craniopharyngiome sur l'hypothalamus, hypopituitarisme
+
+Examen :
+- ATCD : taille, parents, néonatale, médicaux/chir, contexte social
+- morphotype, dév. pubertaire, tous les système, psychoaffectif
+
+** Principales causes
+#+caption: Retard poid
+| Maladie coeliaque             | IgA {totales, transglutamase}, fibro                   |
+| Crohn                         | VS, écho anse grêle                                    |
+| Mucoviscidose                 | Test sueur                                             |
+| Anorexie mentale              | Courbe de poids                                        |
+| Insuf rénale chroniques       | Créat, iono, explo fonctionnelles                      |
+| Anémie chroniques             | NFS                                                    |
+| Rachitisme hypophosphatémique | Bilan phosphocalcique                                  |
+| Patho mitochondriales         | lactate/pyruvate, génétique, biopsie musc, fond d'oeil |
+| Nanisme psychosocial          |                                                        |
+
+#+caption: Retard statural
+| Endocrino         | Déficit GH (congénital, acquis [tumeur]) | IRM                                 |
+|                   | Hypothyroïdie                            | T4L, TSH, Ac anti-TPO               |
+|                   | Hypercorticisme (iatrogène)              | Cortisol libre urinaire/à 23h, ACTH |
+|                   | Déficit hormones sex.                    | Testostérone, GnRH, IRM             |
+|-------------------+------------------------------------------+-------------------------------------|
+| Constitutionelles | Sd Turner                                | Caryotype                           |
+|                   | Sd noonan                                | Gène PTPN11                         |
+|-------------------+------------------------------------------+-------------------------------------|
+| Autres            | Osseuses (a-/hypo-chondroplasie)         | Radio                               |
+|                   | RCIU                                     | Taille naissance                    |
+|                   | Petite taille idiopathique               | Élimination                         |
+
+- Test de stimulation de l'hormone de croissance (\danger si doute, IRM)
+- Ralentissement sévère \thus bilan en urgence (craniopharyngiome, thyroïdite de
+  Hashimoot) \skull
+- [0, 3] ans : digestives pédiatrique (coeliaque, mucoviscidose), [3,puberté] :
+  endoc constitutionnelle, à la puberté : déficit hormone, patho osseuse
+- Savoir différenceier retard pubertaire syimple d'un vrai  retard
+
+** Exploration :
+- Caryotype : fille taille < -2DS ou < -1.5DS sous taille parentale moyenne
+- NFS, VS, foie, rein
+- IgA totales, anti-transglutaminase
+- GF-1, T4L, TSH
+- Radio
+
+
+
 * Footnotes
 
 [fn:5] \danger Testostérone, FSH, LH interprétables [6mois, puberté]
