@@ -461,6 +461,34 @@ Examen :
 - Radio
 
 
+* 78 : Dopage
+** Substances augmentant la testostérone 
+- Stéroïdes anabolisant, testostérone : \inc masse musc, puissance
+- Risque : thrombotique, rupture musculo-tendineuse, touble personnalité, foie,
+trouble libido, adénome/cancer de la prostate
+- Femmes : masculinisation, hirsutisme, acné, aménorrhée, anovulation,
+  hypertrophie clitoridienne, libido exacerbée
+
+\vspace*{0.5cm}
+- Testostérone : test chromatographique + spectrométrie de masse (très sensible
+  et spécifique)
+- Dihydrotestostérone (DHT) : traitement gynécomastie
+- Anabolisants : \inc tissu cellulaire (muscle). ES : rétention hydrosodée, HTA,
+  IDM, hépatite
+- hCG : diminuer épitestostérone/testostérone après dopage (IM, SC). Testée dans
+  le sang ou urine.
+- Anti-oestrogène : stimule production testiculaire de stéroïdes
+
+** Hormone de croissance (GH), IGF-1
+- GH \inc masse musculaire, modifie architecture sequelette, acromégalie /mais/
+  pas d'effert sur volume d'activité physique. Détection difficile : approche indirecte (cascade biologique) et mesure des
+forme circulante et comparaison à r-hGH
+- IGF-1 mime certains effet GH
+
+** Glucocorticoïdes, ACTH
+- Glucocorticoïdes : antalgiques, psychostimulants, combativité. ES : HTA,
+  oedème, rupture ligament/tendon
+\danger arrêt brutal = dangereux \skull
 
 * Footnotes
 
