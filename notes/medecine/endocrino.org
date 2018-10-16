@@ -334,8 +334,48 @@ oestroprogestatif (\female)
 ** Précoces
 Avant 8ans \female ou 9.5 ans \male
 *** Centrales
-Plus fréquentes chez les \female
+8x plus fréquent chez \female que \male. Chez \female, causes
+idiopathiques. Chez \male, causes tumorales à 50\%
+
+Clinique : 
+- dév prématuré harmoniaux (pas de règles chez \female)
+- crises de rires (harmatome hypothalamique), tâches cutanées (neurofibromatose
+  I ou sd McCune-Albright)
+Biologie :
+- testostérone élevée chez \male mais variabilité d'oestradiol chez \female
+
+IRM hypothalamo-hypophysaire indispensable \danger (petite taille
+définitive). Écho pelvienne pour \female
+
+Traitement si risque de petite taille adulte : analogues GnRH jusque âge normal
+de puberté
 *** Périphériques
+Clinique : \inc vitesse de croissance, avance maturation osseusse
+
+Stéroïdes élevées, LH et FSH bas. Écho pelvienne chez fille
+
+Étiologie :
+- tumeurs ovarienne (rares) : écho puis histologies
+- kystes folliculaires : bénins, régression spontanée possible
+- sd McCune-Albright : {puberté précoce ovarienne, taches cutanées
+  "café-au-lait", dysplasie fibreuses os}. \danger tableau pas toujours complet
+  !\\
+Oestradiol élevé, gonadotrophines basses, écho = utérus stimulé, kystes
+ovariens. Dominance \female
+- médicaments
+- testotoxicose (rare, cellule de Leydig activé et LH basses), adénome leydigien
+  (très rare)
+- tumeurs à hCG (\male)
+*** Avances dissociées
+- Isolé des seins : beaucoup de filles [3mois, 3 ans]
+- Métrorragies isolées : chercher vulvite, vulvovaginite, prolapsus urétrale,
+  corps étranger. Éliminter kyste ovarien, sd McCune-Albright par l'absence des
+  sein
+\thus écho pelvienne
+- Pilosité pubienne isolée : chercher forme d'hyperplasie congénitale des
+  surrénales (\inc 17-hydroxyprogestérone, stimulation ACTH), prémature pubarche
+  (élimination !)
+
 * Footnotes
 
 [fn:4] Transmission mère-fils. Expansion instable des triplets CGG jusqu'à
