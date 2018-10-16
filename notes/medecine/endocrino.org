@@ -375,8 +375,37 @@ ovariens. Dominance \female
 - Pilosité pubienne isolée : chercher forme d'hyperplasie congénitale des
   surrénales (\inc 17-hydroxyprogestérone, stimulation ACTH), prémature pubarche
   (élimination !)
+* 48 : Cryptorchidie
+** Enfant
+ Localisation anormale et inaboutie du testicule. Très fréquente : 3%
+ nouveaux-nés, 20% préma. 2/3 descendent spontanément à 1 an de vie
 
+ Clinique : checher micropénis (< 2cm, hypospadias, autres)
+
+ Explorations : endocrinienne pour toute cryptorchidie \danger
+ - bilatérale : doser 17-hydroxyprogestérone chez \female virilisée pour élimire hyperplasie
+   congénitale des surrénales
+ - testostérone, INSL3 (cellule de Leydig), AMH, inhibine B sérique (c. de
+   Sertoli), FSH, LH mesurée jusque 4-6mois[fn:5]
+ - écho pour vérifier l'absece de dévirés mülleriens
+
+ Étiologie
+ - hypogonadisme hypogonadotrope congénital
+ - anorchidie rare
+ - si hypospade en plus, chercher dysgénésie testiculaire
+ - sd polymalformatif
+
+ Suivre l'âge de l'apparition de la puberté !
+
+ Traitement : chir dès 2 ans, indispensable ! (risque de cancer)
+** Adulte
+- Risque : hypogonadisme, infertilité, cancer testicule
+- Examen clinique : scrotume, gynécomastie, signes d'hypogonadisme
+- Complémentaire : {FSH, LH, testostérone}, hCG si tumeur à la palpation, écho
+  scrotale, spermogramme
 * Footnotes
+
+[fn:5] \danger Testostérone, FSH, LH interprétables [6mois, puberté]
 
 [fn:4] Transmission mère-fils. Expansion instable des triplets CGG jusqu'à
 l'absence de transcript de FMR1 (Fragile X Mental Retardation 1). \\
