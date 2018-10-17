@@ -460,7 +460,6 @@ Examen :
 - GF-1, T4L, TSH
 - Radio
 
-
 * 78 : Dopage
 ** Substances augmentant la testostérone 
 - Stéroïdes anabolisant, testostérone : \inc masse musc, puissance
@@ -490,7 +489,106 @@ forme circulante et comparaison à r-hGH
   oedème, rupture ligament/tendon
 \danger arrêt brutal = dangereux \skull
 
+* 120 : Ménopause et andropause
+
+** Ménopause
+Déf: plus de règle > 1 an \pm sd climatérique, lié à une carence
+oestrogénique. Vers 51 ans.
+
+Pré-ménopause : irrégularités cycles puis dysovulation puis anovulation ~5 ans
+avants.
+
+*** Diagnostic
+Clinique seulement \danger : bouffées de chaleur, \female > 50 ans. Bio
+seulement si hystérectomie \thus \dec oestradiol et \inc FSH
+
+En pratique : progestatif seul 10j/mois x3 \thus pas de saignement à l'arrêt =
+diagnostic
+
+Aménorrhée < 40 ans = pathologique !
+
+*** Conséquences
+Court terme : bouffées de chaleur, trouble sommeil/humeur, \dec sécrétions
+vaginailes
+Moyen terme : douleurs ostéoarticulaires, \inc perte osseuse (selon ATCD d'insuf
+ovarienne prématurée, fractures no traumatique, médicaments, calcium/vit D)
+
+Long terme :: \inc risque CV. Incertitude sur SNC
+
+*** Traitement 
+Bénéfices
+- court terme : qualité de vie à +5-10 ans
+- long terme :
+  - prévention ostéoporose
+  - cardiovasculaire et neuro = incertain
+  - cancer du côlon
+Risques :
+- \inc cancer du sein, accident veineux thromboemboliques (mais chiffres absolus
+  faibles)
+- \inc AVC ischémique, lithiase bilaires
+
+**** Thérapeutique 
+- oestrogène (17\beta-oestradiol)
+oral/percutané/transdermique[fn:6] 25 jours/mois
+- *et* progestatif (au moins les 12 derniers jours) per os/transdermique
+\danger hémorragie de privation possible. Si pendant le traitement, faire écho
+pelvienne, hystéroscopie
+
+**** CI 
+Cancer du sein, endomètre, ATCD thromboembolique artériel (ischémique,
+cardiopathie embolinogène) ou veineux, hémorragie génitale sans diag, hépatique
+
+**** Mise en route
+- Interrogatoire : ATCD {cancer, métabolique, vasculaire}, carence oestrogénique
+- Examen physique : poids, PA, palpation seins, gynéco, frottis cervico-vaginal
+- Mammograhpie !
+- Cholestérol, triglycérides, glycémie
+
+**** En pratique 
+1ere intention si trouble fonctionnels importants. 2eme si risque
+d'ostéoporose. Sinon au cas par cas.
+
+**** Surveillance 
+3-6mois (surdosage = douleur, tension mammaire). Puis tous les 6-12 mois,
+mammographie tous les 2 ans, frottis CV tous les 3 ans.
+
+Traitement \ge 5 ans !!
+
+**** Alternatives
+- Modulateurs spécifiques du récepteur des oestrogènes : raloxifène
+- tibolone
+
+NB : traitement local préserve tractus urogénital. Dépister FR CV. Promouvoir
+exercice, calcium, vit D
+
+** Andropause
+Chez majorité des hommes mûrs/âgés en bonne santé non obèse, baisse de
+testostérone inconstante (2%).
+
+*** Démarche
+ - Interrogatoire : libido, érection, énergie vitale, mobilité/activité physique
+ - Examen clinique : IMC, virilisation, gynécomastie, palper testicules
+ - Mesure de testostérone totale :
+   - > 3.2ng/mL = normale \thus étiologies non endocrino
+   - \in [2.3, 3.2] : dosier SHBG, calculer index de T libre, si bas cherche cause
+   - < 2.3 ng/mL : chercher cause
+*** Étiologie
+Si FSH, LH élevée, insuf testiculaire primitive 
+- lésionnelle : chimio, radiation, alcoolisme surtout. Autres : castration,
+  torsion, orchite ourlienne
+- cryptorchidie bilatérale
+- chromosomique : sd Klienfelter++
+- lié à sénescene, cause génétique (rare !)
+Sinon hypogonadisme hypogonadotrope 
+- tumeur région hypothalamo-hypophysaire : craniopharyngiome, adénome
+  hypophysaire++, autres
+- infiltratif : sarcoïdose, hémochromatose
+- chir, radiothérapie, traumau
+- hyperprolactinémie, carence nutritionnelle, Cushing, tumeur testiculaire
+
 * Footnotes
+
+[fn:6] Percutané, transdermique : limite \inc facteur de coagulation.
 
 [fn:5] \danger Testostérone, FSH, LH interprétables [6mois, puberté]
 
