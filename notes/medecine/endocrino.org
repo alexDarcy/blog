@@ -490,7 +490,7 @@ forme circulante et comparaison à r-hGH
 \danger arrêt brutal = dangereux \skull
 
 * 120 : Ménopause et andropause
-
+\label{sec:120}
 ** Ménopause
 Déf: plus de règle > 1 an \pm sd climatérique, lié à une carence
 oestrogénique. Vers 51 ans.
@@ -586,7 +586,102 @@ Sinon hypogonadisme hypogonadotrope
 - chir, radiothérapie, traumau
 - hyperprolactinémie, carence nutritionnelle, Cushing, tumeur testiculaire
 
+* 122 : Troubles de l'érection 
+Nécessite : vasculaire, musculaire lisse, retour veineux, signal  nerveux,
+hormonal, psychisme = fonctionnels
+
+Déf : incapacité persistante à obtenir/maintenir érection pour rapport sexuel satisfaisant
+
+Âge = FR (déficit neurosensorile, \inc testostérone, comorbidités)
+
+** Conduite  diagnostique
+*** Interrogatoire
+- DD avec perte désire, trouble éjaculation, douleurs pendant, anomalies morphologiques
+- Caractérisation : primaire/secondaire, brutal/progressif,
+  permanent/situationnel, sévérité (délai trouble-consult, capacité résiduelle,
+  masturbation)
+- Pathologies, facteur :
+    - primaire : trouble psychogène perso, complexe identitaire, trouble
+      relationnel, conflit socioprof, anomalie génitale
+    - secondaire : ATCD abdo-pelvien, diabète, FR CV, patho CV, neuro, trouble
+      miction, endocrinopathie, troubles sommeil, traitement, déficit
+      androgénique, sd dépressif, troubles addictifs
+*** Clinique
+- Gynécomastie, hypoandrisme, petits testicules, anomalies du pénis (La Peyronie)
+- CV : HTA, pouls, souffle
+- neuro : sensibilités périnée, MI
+- endoc : anomalie CV
+*** Bio
+Glycémie, lipidique (si > 1 an), {NFS, iono, créat}, foie (si > 5 ans), déficit
+androgénique
+
+Doser prolactine, hormones thyroïdiennes
+
+** Bilan secondaire et approfondi
+Secondaire : sexo/psychologique, épreuve pharmacologique (prostaglandien,
+inhibiteur de la phospohdiestérase 5)
+
+** Étiologies
+Plus fréquentes :
+- vasculaire : FR = HTA
+- endocrino++ : diabète
+- génito-pelvien : chir pelvienne
+- trauma médullaire
+- neuro dégénératif
+- iatrogène : antihypertenseur
+
+** Aspects endocriniens
+*** Androgènes circulants
+Influe libido, intérêt sexuel. Pour l'érection . seulement spontanées !
+
+Hypogonadisme (diag difficile) : 
+- asthénie, gynécomastie, dépilation, perte force musculaire, adiposité androïde
+- doser testostérone totale \pm SHBG, prolactine. FSH, LH pour l'origin (cf
+  Sec. \ref{sec:120})
+  
+*** Hyperprolactinémie 
+Tumeur hypophysaire (IRM), champ visuel si tumeur
+supra-sellaire, {T4L, cortisol, IGF-1, testostérone}
+\thus agoniste dopaminergique
+
+*** Diabète
+sucré = 1ere cause de trouble érectile (TE). TE fréquents chez diabètique. 
+
+Facteurs : mal équilibré, complications, âge, ancienneté diabète
+
+Physiopatho : neuropathie autonomie, microangiopathie \thus défaut relaxation
+musculaire. Macroangiopathie \thus ischémie organes érectiles
+
+\danger facteurs psychènes hyportants !
+
+Diabète et TE \thus mesure testostérone systématique (hypogonadisme ?)
+
+Clinique : 
+- TE peut révéler diabète. 
+- diabète et TE : cherche trouble endoc, vasc, neuro, médicament, dépression
+- TE = FR d'ischémie myocardite silencieuse \danger
+  
+Thérapeutique : inhibiteurs des phosphodiésterases de type 5 moins efficaces
+
+** PEC
+Ttt étiologie : seulement trouble psychogène pur, chir possible, endocrino
+
+*** Trouble endocrinien
+- Si hypogonadisme confirmé par bio[fn:7] : androgène oraux/intramusc/transderm
+- CI : nodule prostatique palpable, PSA > 3ng/mL
+- Surveiller prostate, foie, hématocrite
+  
+*** Pharmacologique
+- FR, Hb glyquée < 7%, psycho/sexologique
+- 1ere intention : inhibiteurs des phosphodiésterases type 5 = efficaces
+- Sinon apomorphine, yohimbine = peu efficace
+- "Pompe" = efficace mais résistance psycho
+- 2eme intention : droge vasoactive = efficace mais douleurs peniennes, priapisme
+- Prothèses péniennes = dernier recours, par chirurgien spécialisé
+
 * Footnotes
+
+[fn:7] Baisse libido, testostérone totale < 3 ng/mL
 
 [fn:6] Percutané, transdermique : limite \inc facteur de coagulation.
 
