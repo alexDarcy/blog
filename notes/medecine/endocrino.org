@@ -782,7 +782,30 @@ Fracture radius distal plus rares.
 Ostéoporoses secondaires plus fréquentes chez l'homme : hypercorticisme,
 hypogonadisme congénital/acquis/iatrogène, alcoolisme, hypercalciurie
 idiopathiques, génétique
+* 207 :Sarcoidose
+  Atteinte hypothalamo-hypophysaire exceptionnelle. Conséquences : diabète
+  inspide central, insufisance gonadotrope
+
+Radio : IRM centrée sur hypothalamo-hypophyse = référence (T1,T2 injecté) \thus
+infiltration plancher 3eme venticule, infundibulum, tige hypophysaire épaissie
+\pm hypophyse augmente de volume
+
+DD : tuberculose, histiocytose, lymphome, autres tumeurs de la région 
+
+Si patient avec sarcoïdose : diagnostic = déficit endocrinien et imagerie[fn:11]
+
+Sinon : atteinte rare[fn:12]
+
+Radio et arguments sarcoïdose.
+
+Traitement : sarcoïdose et déficits hormonaux
 * Footnotes
+
+[fn:12] adénome hypophysaire 90%, méningiome, craniopharyngiome, patho
+inflammatoires infiltratives
+
+[fn:11] Faire bilan hormonal : natrémie, testostérone totale et libre/ostradiol,
+FSH, LH, T4L, TSH, prolactine
 
 [fn:10] Cinacalcet
 
