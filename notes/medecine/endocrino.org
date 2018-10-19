@@ -679,6 +679,47 @@ Ttt étiologie : seulement trouble psychogène pur, chir possible, endocrino
 - 2eme intention : droge vasoactive = efficace mais douleurs peniennes, priapisme
 - Prothèses péniennes = dernier recours, par chirurgien spécialisé
 
+* 215 : Hémochromatose
+Hémochromatose primitive : génétique, surcharge en fer. 5 pour 1 000 !
+
+Physiopatho : 
+- Absorption intestinale régule stockage de fer 
+- Fer entre dans l'entérocyte (DMT1), puis stocké via ferritine ou relargé par ferroportine
+- Hepicidine \dec quand besoins fer \inc +++
+- Hémochromatose : hepcidine effondrée, DMT1 et ferroportine \inc
+  
+Génétique : gène HFE à 95% et mutation C282Y/C282Y ou C282Y/H63D
+
+** Clinique
+En pratique, suspicion aux "3 A" : asthénie, arthralgies, \inc ALAT
+
+*** Atteintes :
+- foie : \inc ALAT ou hépatomégalie. Cirrhose \approx 90% décès
+- coeur : cardiopathie dilatée, troubles rythme
+- endocrino :
+  - diabète++ (accumulation pancréatique de fer) insulino-pénie/-résistance
+  - hypogonadisme+ : impuissance \male, aménorrhée \female, \dec libdio,
+    ostéoporose
+  - insuf thyriodienne exceptionnelle
+- articulaire : arthrite chronique ("poignée de main"), chrondocalcinose
+- cutané : mélanodermie (tardive)
+
+
+** Diagnostic
+- Si CST < 45% : si ferritine \inc, cherche hépatosidérose dysmétabolique,
+  acéruléoplasminémie, mutation gène de la ferroportine 1
+- Sinon, CST > 45% : 
+  - si C282Y/C282Y ou C282Y/H63D : diagnostic
+  - sinon, si ferritine \inc, test génétique de 2eme intention, biopsie
+    hépatique
+
+Examen complémentaires : glycémie, transaminases, écho abdo, ECG \pm écho
+cardiaque, radio articulation, bilan testostérone
+
+Dépistage chez parents (1er degér) : bilan martial \pm dépistage
+génétique. \danger mutation \neq maladie
+
+
 * Footnotes
 
 [fn:7] Baisse libido, testostérone totale < 3 ng/mL
