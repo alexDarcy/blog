@@ -1,4 +1,4 @@
-#+title: Fiches d'endocrinologie
+#+title: Endocrinologie
 #+author: Alexis Praga
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \input{header}
@@ -254,7 +254,7 @@ hyperplasie congénitale des surrénales
   - imagerie si testostérone > 1.5ng/mL. Si normale, cherche hypothécose
     (obésité morbide androïde, acanthosis nigricans, insulino-résistance)
 - pathologie surrénale :
-  - sd de Cushing si signes hypercortisolisme \thus cortisol libre urinaier et
+  - sd de Cushing si signes hypercortisolisme \thus cortisol libre urinaire et
     freinage minute
   - tumeur surrénale \thus scanner des surrénales
   - déficit enzymatique en 21-hydroxylase (\danger formes tardives qui peuvent
@@ -375,6 +375,7 @@ ovariens. Dominance \female
 - Pilosité pubienne isolée : chercher forme d'hyperplasie congénitale des
   surrénales (\inc 17-hydroxyprogestérone, stimulation ACTH), prémature pubarche
   (élimination !)
+
 * 48 : Cryptorchidie
 ** Enfant
  Localisation anormale et inaboutie du testicule. Très fréquente : 3%
@@ -679,6 +680,126 @@ Ttt étiologie : seulement trouble psychogène pur, chir possible, endocrino
 - 2eme intention : droge vasoactive = efficace mais douleurs peniennes, priapisme
 - Prothèses péniennes = dernier recours, par chirurgien spécialisé
 
+* 124 : Ostéopathies
+Ostéoporose : fragilité excessive du squelette (\dec minéraux osseux, modif
+microarchitecture). T-score < -2.5 DS valeur moyenne par DXA
+
+Dominance \female. Primaire ou secondaire :
+- endocrino : hypogonadisme, sd Cushing, hyperthyroïdie, hyperparathyroïdie, diabète
+- digestives, générale, génétique, médicaments, autres
+  
+** Hypogonadisme
+Carence oestrogénique \inc ostéoclastogénèse. Aggravé par précocité,
+déminarilsation
+*** Anorexie mentale
+Biochimie : {isoenzyme des phosphastales alcalines, ostéocalcine} (formation)
+\dec, {CTx, NTx} (résorption) normaux
+
+Aggravé par troubles nutritionnels. Hypercortisolisme hypothalamique réversible
+
+Ostéoporose fréquente, risque de fractures $\times 7$
+
+Traitement 
+- multidisciplinaire
+- pilule oestroprégestative en pratique (limite perte osseuse)
+
+*** Activité physique intensive
+Hypoestrogénie hypothalamique
+
+Facteur : activité[fn:8], troubles menstruels, apports alimentaires
+
+Résorption généralisée (rachis++), \inc fractures de fatigue
+
+Traitement : si aménorrhées, \dec activité ou oestroprogestatifs
+
+*** Pathologies hypophysaires
+Prolactinomes, adénome corticotrope influent remodelage osseux
+
+Perte osseuse rapide (8% par an), récupération variable.
+
+Traitement : \female non ménopausée : oestrogénothérapie
+
+*** Iatrogènes
+Agonistes GnRH (patho utérines), inhibiteurs aromatase (cancer sein)
+
+Réversible à l'arrêt (moins bien si âgée)
+
+Traitement : bisphosphonates, denosumab
+
+*** Dysgénésies gonadique 
+Sd Turner = plus fréquent (1/2500 à naissance)
+
+\dec masses osseuse, continue à l'adolescence. \inc risue fracture chez
+l'adulte.
+
+Traitement : oestrogénisation (hypogonadisme) et hormone de crossance. Adulte :
+oestroprogestatif
+
+** Hyperthyroïdie, traitement par hormones thyroïdiennes
+Cause fréquente d'ostéoporose secondaire \thus dosage systématique TSH
+
+Hormones thyroïdiennes \inc remodelage : résorption sur l'os cortical++ et trabuclaire
+
+En pratique, rarement évolution jusque l'atteinte osseuse (ttt
+rapide). Adapter posologie hormones thyroïdiennes au cancer thyroïdien.
+
+Prévention :
+- densitométrie
+- bisphosphonates sujet âgé ou risque extrémité supérieure du fémur
+- surveillance si ttt suppressif de fonction thyroïdienne
+
+** Hypercortisolisme, corticothérapie
+
+\dec ostéoblastes, \inc activité ostéoclaste. \dec absorption intestinale
+calcium, \inc pertes urinaires calcium, hyperparathyroïdisme
+
+Surtout trabuculaire (vertèbres, côtes, radius). Aggravé si prépubertaire, hypogonadisme
+Fractures vertébrales fréquentes, surtout sd Cushing avec adénome
+corticotrope/surrénalien
+
+Traitement : 
+- pré-corticothérapie : status osseux, FR
+- supplément vitaminocalcique
+- bisphosphonates, tériparatide si corticothérapie > 3 mois, prednison > 7.5mg/j
+  et T-score $\ge -1.5$
+
+** Hyperparathyroïdie primitive
+Fréquent, notamment chez femme ménopausée. Ostéoporose fréquente \thus dépistage
+systématique par DXA
+
+Production continue PTH : \inc résorption os cortical (tiers proximal radius,
+fémur). NB : souvent aussi extr supérieure du fémur et vertèbres. 
+
+Diminution limitée (10%). Souvet favorable post-parathyroïdectomie.
+
+Traitement : chir si T-score < -2:5. Sinon anti-ostéoclastiques[fn:9], calcimimétique[fn:10]
+
+** Chez l'homme
+   Pas de T-score reconnu. 
+
+Fracture radius distal plus rares.
+
+Ostéoporoses secondaires plus fréquentes chez l'homme : hypercorticisme,
+hypogonadisme congénital/acquis/iatrogène, alcoolisme, hypercalciurie
+idiopathiques, génétique
+* 207 :Sarcoidose
+  Atteinte hypothalamo-hypophysaire exceptionnelle. Conséquences : diabète
+  inspide central, insufisance gonadotrope
+
+Radio : IRM centrée sur hypothalamo-hypophyse = référence (T1,T2 injecté) \thus
+infiltration plancher 3eme venticule, infundibulum, tige hypophysaire épaissie
+\pm hypophyse augmente de volume
+
+DD : tuberculose, histiocytose, lymphome, autres tumeurs de la région 
+
+Si patient avec sarcoïdose : diagnostic = déficit endocrinien et imagerie[fn:11]
+
+Sinon : atteinte rare[fn:12]
+
+Radio et arguments sarcoïdose.
+
+Traitement : sarcoïdose et déficits hormonaux
+
 * 215 : Hémochromatose
 Hémochromatose primitive : génétique, surcharge en fer. 5 pour 1 000 !
 
@@ -706,7 +827,7 @@ En pratique, suspicion aux "3 A" : asthénie, arthralgies, \inc ALAT
 
 
 ** Diagnostic
-- Si CS-Tf[fn:8] < 45% : si ferritine \inc, cherche hépatosidérose dysmétabolique,
+- Si CS-Tf[fn:13] < 45% : si ferritine \inc, cherche hépatosidérose dysmétabolique,
   acéruléoplasminémie, mutation gène de la ferroportine 1
 - Sinon, CS-Tf > 45% : 
   - si C282Y/C282Y ou C282Y/H63D : diagnostic
@@ -748,7 +869,19 @@ Bilan ferrique (stade 0,1) ferritinémie, hémoglobine (stade 2 à 4)
 
 * Footnotes
 
-[fn:8] Coefficient de saturation de la transferrine 
+[fn:13] Coefficient de saturation de la transferrine 
+
+[fn:12] adénome hypophysaire 90%, méningiome, craniopharyngiome, patho
+inflammatoires infiltratives
+
+[fn:11] Faire bilan hormonal : natrémie, testostérone totale et libre/ostradiol,
+FSH, LH, T4L, TSH, prolactine
+
+[fn:10] Cinacalcet
+
+[fn:9] Oestrogènes, raloxifène, bisphosphonates
+
+[fn:8] Marathon, danse classique, demi-fond, triathlone, gymnastique, cyclisme
 
 [fn:7] Baisse libido, testostérone totale < 3 ng/mL
 
