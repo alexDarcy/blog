@@ -706,9 +706,9 @@ En pratique, suspicion aux "3 A" : asthénie, arthralgies, \inc ALAT
 
 
 ** Diagnostic
-- Si CST < 45% : si ferritine \inc, cherche hépatosidérose dysmétabolique,
+- Si CS-Tf[fn:8] < 45% : si ferritine \inc, cherche hépatosidérose dysmétabolique,
   acéruléoplasminémie, mutation gène de la ferroportine 1
-- Sinon, CST > 45% : 
+- Sinon, CS-Tf > 45% : 
   - si C282Y/C282Y ou C282Y/H63D : diagnostic
   - sinon, si ferritine \inc, test génétique de 2eme intention, biopsie
     hépatique
@@ -719,8 +719,36 @@ cardiaque, radio articulation, bilan testostérone
 Dépistage chez parents (1er degér) : bilan martial \pm dépistage
 génétique. \danger mutation \neq maladie
 
+** Stades
+0. Asymptomatique, CS-Tf, ferritinémie normaux
+1. CS-Tf \inc 
+2. CS-Tf \inc et ferritine \inc
+3. Idem et expression clinique affectant qualité de vie
+4. Idem et expression clinique affectant pronostic vital
+   
+** Traitement
+À partir du stade 2
+
+*** Saignées 
+Référence. Objectif : ferritine < 50\g g/L (hebdomadaire) puis entretien tous les
+  2-4 mois. Ne pas dépasser 550mL !
+  
+CI : anémie sidéroblastique, thalassémie majeure, cardiopathies sévères
+
+*** Autres 
+- Érythraphérèse : coûteuse, plus difficile
+- Chelation du fer : 2eme intention (coût, effets indésirable)
+- diététique : pas d'alcool, éviter vitamine C mais *conserver* apports en fer !
+- Symptomatique
+
+** Suivi
+Résultats en 3-6 mois sur été générale. 
+
+Bilan ferrique (stade 0,1) ferritinémie, hémoglobine (stade 2 à 4)
 
 * Footnotes
+
+[fn:8] Coefficient de saturation de la transferrine 
 
 [fn:7] Baisse libido, testostérone totale < 3 ng/mL
 
