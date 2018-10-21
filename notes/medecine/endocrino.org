@@ -806,7 +806,7 @@ Hémochromatose primitive : génétique, surcharge en fer. 5 pour 1 000 !
 Physiopatho : 
 - Absorption intestinale régule stockage de fer 
 - Fer entre dans l'entérocyte (DMT1), puis stocké via ferritine ou relargé par ferroportine
-- Hepicidine \dec quand besoins fer \inc +++
+- Hepicidine \dec quand besoins fer \inc (!)
 - Hémochromatose : hepcidine effondrée, DMT1 et ferroportine \inc
   
 Génétique : gène HFE à 95% et mutation C282Y/C282Y ou C282Y/H63D
@@ -851,7 +851,7 @@ génétique. \danger mutation \neq maladie
 À partir du stade 2
 
 *** Saignées 
-Référence. Objectif : ferritine < 50\g g/L (hebdomadaire) puis entretien tous les
+Référence. Objectif : ferritine < 50 g/L (hebdomadaire) puis entretien tous les
   2-4 mois. Ne pas dépasser 550mL !
   
 CI : anémie sidéroblastique, thalassémie majeure, cardiopathies sévères
@@ -869,7 +869,7 @@ Bilan ferrique (stade 0,1) ferritinémie, hémoglobine (stade 2 à 4)
 
 * 219, 220 :  Facteurs de risque CV, dyslipidémies
 Rappel : FR = causalité et {relation forte, \propto dose, indépendant des autres
-FR, plusieus étudise, exposition précède maladie, plausible, réversible++}
+FR, plusieus étude, exposition précède maladie, plausible, réversible++}
 
 Risque absolu = un individu. Relatif = $\frac{R_{\text{exposé}}}{R_{\text{non exposé}}}$
 
@@ -878,7 +878,7 @@ Prévention : primaire (avant accident), secondaire (éviter nouvel), tertaire
 
 ** FR
 - Non modifiable : âgé (> 50A \male, > 60A \female), ATCD familiaux IDM/mort
-  subtie < 55A \male, 65A \female)
+  subite < 55A \male, 65A \female)
 - Modifiable : tabagisme, LDL \inc, HDL < 0.40g/L, diabète, insuf rénale
   chronique
 
@@ -897,21 +897,11 @@ RR : 3 maladie coronarienne, 5 IDM/mort subite, 2-7 AOMI, 2 AVC.
 \danger tabac - contraception oestroprogestative
 
 ** Hyperlipidémie
-*** Diagnostic
-Symptômes :
-- hypercholestérolémies : dépôts lipidiques (arc cornéen, hanthélesma, xhantomes
-  tendineux, cutanés, turbéreux)
-- hypertriglycéridémies : sd hyperchylomicronémique (rare !)[fn:14]
-Complications :
-- hypercholestérolémie : insuf coronaire, AOMI, AVC
-- hypertriglycéridémies : pancréatite aigüe (rare)
-Bilan lipidique
-Si dyslipidémie apparenté, dyslipidémie secondaire, FR. Ou ~50A \male, 60A
-\female
-NB : calcul LDL impossible si triglycéridéme > 3g/L
+\hyphenation{hyper-cho-lesté-ro-lé-mie}
+\showhyphens{hyperholestérolémie}
 
-*** Étiologies
-Secondaire 
+*** Étiologies  
+Secondaire
 - Bilan selon contexte : TSH, glycémie, créat, protéinurie, BU
 - Comorbiditét : 
   - hypocholestérolémie : hypothyroïdie, (cholestase, anorexie mentale)
@@ -920,7 +910,100 @@ Secondaire
     avec sd métabolique)
 - Iatrogène : ciclosporine, corticoïdes, oestrogènes oraux, rétinoïdes,
   IFN-\alpha, certains antétroviraux, neuroleptiques, durétiques thiazidiques, betabloquant
+Primaire
+- Hypercholestérolémies familiales monogéniques
+  - mutation du gène du récepteur LDL++ : hétérozygote (xanthomes tendineux,
+    complications CV précoces) ou homozygote (rare, DC vers 20 ans)
+  - mutation du gène de l'apoliporotéine B
+  - mutation du gène PCSK9
+- Hypercholestérolémies polygéniques : fréquent, complications CV tardives
+- Hyperlipidémies combinées familiales : fréquent++, pas de xanthèmes,
+  complicastions CV suivant intensité
+- Dysbetalipoprotéinémie : xanthomes pathognomoniques
+- Hypertriglycéridémie familiale : rare, pas de xanthomes
+- Hyperchylomicronémie primitive : souvent hypertriglycéridémies majeurs
+
+** HTA et risque CV
+PAs \ge 140, PAd \ge 90mmHg (3 consultations à 3 mois)[fn:15]   
+
+40% adulte. Proba \inc si sd métabolique. Aggravé par HVG, glomérulopathie
+
+Clinique, bio, ECG
+
+** Diabète et risque CV
+Complications coronariennes ischémique : RR \female > \male.
+
+AOMI : RR \times 5, AVC RR \times 2.
+
+Diabète 2 : maladie coronarienne peut précéder diabète ! \thus dépistage
+
+** PEC
+Dépistage familial si pathologie métaboblique \inc risque vasc
+*** Sevrage tabac
+Évaluer dépendance nicotine
+Poid + 5kg ern moyenne
+
+Substituts nicotinique (6sem-6mois) : n'aggrave pas maladie coron/troubles rythmes
+Varéniclide, bupropion = dernière ligne (8 semaines)
+*** Activité physique
+- \dec insulino-résistance, \dec triglycéridémie, \inc HDL
+- \dec PA repos, \inc périmètre marche AOMI, \inc pronostic complications
+coronariennes ischémiques
+
+3x45min à 75% $O_2$
+
+*** Diététique
+- Lipides : graisses < 35%, \dec gras saturés, \inc mono-insaturés, {poisson gras, noix,
+\omega_3}, \dec cholestérol
+-  Autres : \inc fruits, légumes, {noix, noisettes, amandes}, sel < 6g/j, alcool
+  < 3 verres vin, \dec sucres simples, -20% calories
+  
+Hypertriglycéridémie : 
+- modérées : -20% calories ++, \inc activité physique
+- majeur : arrêt alcool, régime hypo- (si obèse) ou iso-calorique avec < 30g
+  lipides (si obèse) ou 20g
+  
+*** Hypolipémiants :
+Statines :
+- \dec LDL, \dec TG \inc HDL
+- ES : myalgies, \inc CPK, \inc transaminases, \inc risque diabète 2
+- CI : HS, grossesse, allaitement
+*** Traitement hypercholestérolémies
+En primaire si LDL élève à +6 mois traitement. En secondaire si complication ischémique
+
+Objectifs :
+- primaire : 
+  - LDL < 1.3g/L si risque CV faible (pop générale, diabète ou
+  hypercholestérolémie familale)
+  - LDL < 1g/L sinon
+- secondaire : systématique
+  
+Molécules
+- hypercholestérolémies : statines
+- hypertriglycéridémies : diététique si TG > 2g/L, statines si TG < 4g/L et HDL
+  bas, fibrate sinon
+
+Augmenter doses progressivtement puis suivi : 2-3 mois tant que objectifs non
+atteints puis 1-2/an
+
+** Antihypertenseurs
+Diurétiques, betabloquant, inhibiteurs calcique, IEC, ARA II[fn:16]
+
+Monoprise, monothérapie en 1ere intention
+
+Objectif : [130, 139] et < 90mmHg. Visites mensuelles jusque l'objectif
+
+Suivi : pas d'hypotension orthostatique, {iono, créat, DFG} +15j après
+chaquement changement, suspension diurétiques, ARA si déshydratation
+
+** Antiagrégants plaquettaire
+Prévention secondaire : systématique. Clipodigrel-aspirine systématique à +1 mois
+après stent, +1 ans après stent actif
 * Footnotes
+
+[fn:16] Antagonistes des récepteurs de l'angiotensine II
+
+[fn:15] -5mmHg si automesure. -10mmHg si MAPA sur 14h
 
 [fn:14] Hépatomégali stéatosique, douleurs abdo, xanthomatose éruptive, lipémie rétinienne
 
