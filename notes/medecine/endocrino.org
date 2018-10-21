@@ -2,7 +2,7 @@
 #+author: Alexis Praga
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \input{header}
-
+#+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 * 35 : Contraception
 ** Contraception hormonale
 Oestroprogestatifs
@@ -999,6 +999,101 @@ chaquement changement, suspension diurétiques, ARA si déshydratation
 ** Antiagrégants plaquettaire
 Prévention secondaire : systématique. Clipodigrel-aspirine systématique à +1 mois
 après stent, +1 ans après stent actif
+
+* 221 : HTA, causes endocriniennes
+Déf: \ge 140/90 mmHg.
+
+Dépistage d'une HTA secondaire : systématique mais économe...
+
+Enquête :
+- initiale : ATCD familiaux HTA, souffle para-ombilical, rein/masse abdo à la
+  palpation, signe d'hypercortisolisme/acromégalie, bio \thus
+  protéinurie/hématurie, imagerie, hormonale (selon signes)
+- si résistance malgré 3 antihypertenseurs (dont 1 diurétique), chercher toutes
+  les cause d'HTA
+
+HTA curables : 3-5%. Cf les catégories ci-dessous !
+
+** Hyperminéralocorticisme primaire (HAP)
+Physiopatho : aldostérone, cortisol, désoxycorticostérone \thus rétention sodée
+\thus HTA et inhibe sécrétion de rénine.
+
+Penser à HAP si hypokaliémie (< 3.5mmol/L) ou HTA résistante
+
+\begin{algorithm}
+  \caption{Explorations des HAP}
+  Arrêt diurétiques\;
+  Vérifier natriurèse+, kaliurèse > 20mmol/j\;
+  \If{aldostérine/rénine \times 2}{
+  Si aldo \inc et rénine \dec : HAP\;
+  Si aldo \inc et rénine \inc : hyperaldo. secondaire\;
+  Sinon aldo \dec et rénine \dec : autre minéralocorticisme\;
+  }
+\end{algorithm}
+
+Tests dynamiques possibles : stimulation (recherche un défaut) de), freination
+(rechere une freination)
+
+*** Adénome de Conn 
+Forme généralement curable
+- imagerie : nodule unilatéral > 10mm au scanner.
+\danger il faut prouver une sécrétion unilatérale d'aldostérone \thus
+cathétérisme si scanner douteux/patient jeune/HTA résistante
+- chir possible (mais tumeur bénigne, risque récidive
+- si autre HAP : médicaments en continus
+
+*** Hyperminéralocorticismes familiaux 
+Lié à l'aldostérone, désoxycorticostérone, cortisol
+
+** HTA endocrines iatrogènes
+Contraception oestroprogestative, corticostéroides, réglisse
+
+** Phéochromocytomes, paragangliomes fonctionnels
+   Phéochromocytomes (PCC) : médullosurrénale. Paragangliomes fonctionnels : autres
+   ganglions sympathiques
+   
+PCC : spontanément mortel. Dépistage :
+- HTA avec céphalées, sueurs, palpitations, HTA paroxystiques/diabète sans
+  surpoids
+- sd familial : neurofibromatose 1 (NF1), von Hippel-Lindau (VHL), néoplasie
+  endocrinienne multiple 2 (NEM2), sd phéochromocytomes-paragangliomes familiaux
+
+Diagnostic : métanéphrines \inc.
+
+Puis imagerie : PCC : uniques, ~5cm. PGG siègent dans l'organe de Zuckerkandl,
+vessie, hiles rénaux, médiastin postérieur, péricarde, cou.
+
+Puis médecine nucléaire
+
+Toujours dépistage :
+- clinique : taches "café-au-lait", neurofibromatomes, nodules de Lish (NF1),
+  hémangioblastomes (VHL)
+- génétique : NEM2, VHL
+  
+Toujours traitement chir mais surveillance long terme
+
+** Sd de Cushing
+Correspond hypersécrétion de cortisol
+
+signes : acén, ecchymoses, faiblesse musc, hirsutisme, oedèmes, ostéoporose, PAd
+> 105mmHg, vergetures pourpres
+
+Étiologies :
+- maladie de Cushing (adénome corticotrope) à 66%
+- tumeur non hypophysaire (15%) : adénome sécrétant surrénalien ou
+  corticosurrénalome
+
+*** Démarche
+- Diagnostic posiitif : cortisol sang (on cherche élévation cortisol
+  vers minuit) ou salive, cortisolurie (sur 24h), test de freinage rapide
+  (dexaméthasone à minuit, cortisolémie à 8h du maitn)
+- Diagnostic étiologique selon ACTH :
+  - ATCH diminuée \thus adénome, corticosurrénalome, hyperplasie bilatérale
+  - ATCH normale ou \inc \thus test CRH. si positif : tumeur ectopique ou
+    maladie de Cushing  
+    
+** Causes rare
+   Tumeurs à rénine, acromégalie
 * Footnotes
 
 [fn:16] Antagonistes des récepteurs de l'angiotensine II
