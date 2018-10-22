@@ -1094,6 +1094,48 @@ signes : acén, ecchymoses, faiblesse musc, hirsutisme, oedèmes, ostéoporose, 
     
 ** Causes rare
    Tumeurs à rénine, acromégalie
+* 238 : Hypoglycémie
+Diagnostic : neuroglucopénie \land{} glycémie < 0.50g/L (0.60 chez diabétique) \land{} correction symptômes
+à normalisation (triade de Whipple)
+
+Causes :
+- sécrétion inappropriée d'insuline (hypoglycémiante)
+- (rare) : défaut de sécrétion d'hormones hyperglycémiantes (GH, glucagon,
+  catécholamine, cortisol), déficit néoglucogénèse, défaut substrat
+
+** Symptômes
+Neuroglucopénie : faim brutale, troubles concentration, troubles moteurs,
+troubles sensitifs, troubles visuels, convulsions focales/généralisése,
+confusion
+
+Coma hypoglycémique : début brutal, agité (sueurs), irritation pyramidale, hypothermie
+
++ souvent signes adrénergiques : anxiété, tremblements, nausése, sueurs,
+  pâleur, tachycardie
+
+** Causes 
+Diabétique : traité par insulines, hypoglycémiants oraux
+
+*** Insulinome 
+1ere cause tumorale (mais rare). Maligne dans 10%, < 2cm (90%)
+Clinique : manif. adrénergiques dominent
+
+Diagnostif : épreuve de jeune. 
+
+- Glycémie : basse
+- Signes neuroglucopénie
+- Insulinémie normale mais inadaptée à glycémie
+- Peptide C bas 
+- Pas de sulfamides
+
+DD : prise d'insuline (peptide C élevé), de sulfonylurée (sulfamides)
+
+Scanner en coupe fine du pancréas et écho-endoscopie si médecin habitué
+
+Traitement : chir
+
+*Hypoglycémie par sécrétion inaproppriée d'insuline : triade de Whipple, glycémie \le 0.45g/L (sponténément/jeûne) avec
+insulinémie \ge 3 mUL/L, peptide C \ge 0.6ng/mL*
 * Footnotes
 
 [fn:16] Antagonistes des récepteurs de l'angiotensine II
