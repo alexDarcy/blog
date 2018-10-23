@@ -1136,7 +1136,154 @@ Traitement : chir
 
 *Hypoglycémie par sécrétion inaproppriée d'insuline : triade de Whipple, glycémie \le 0.45g/L (sponténément/jeûne) avec
 insulinémie \ge 3 mUL/L, peptide C \ge 0.6ng/mL*
+* 239 : Goitre, nodules thyroïdiens, cancers thyroïdiens
+  Synthèse hormones thyroïdiennes nécissite \approx 150 \mu{}g/jour (ado,
+  adulte, \times 2 chez enceinte)
+
+Goitre = hypertrophie de la thyroïde :
+- palpation > dernière phalange du pouce
+- écho : volume > 20 $cm^3$ (18 femme adlute, 16 ado)
+
+** Évaluation
+   Clinique : mobile déglutition/visible cou en extension/visible à
+   distance. Chercher : gene fonctionelle, signes de compression, signes de
+   dysfonction thyroïdienne, ADP[fn:17]
+   
+Bio : 
+- TSH ! si \inc, déficit production, si \dec, imprégration excessive en
+hormoes thyroïdiennes.
+- compléter par T4, et si TSH \inc : Ac anti-TPO, anti-Tg
+
+Échographie
+
+** Goitre simple
+Hypertrophies normo-fonctionnelles non inflammatoires non cancéreuses
+
+Facteurs : \female, tabac, déficience iodée
+
+*** Évolution
+Constitution à l'adolescence (cliniquement latente) puis plurirondulaire : gêne
+cervicale \thus TSH, écho, ponction, scintigraphie
+\danger cherche caractère plongeant sur radio !
+
+À ce stade, complications : hématocèle, strumite, hyperthyroïdie, compression
+organes de voisinages, cancerisation (5%)
+
+*** PEC
+- Ado : levothyroxine ([1,1.5\u]g/kg/j) jusque V normal. Vérifier TSH
+- Adulte/agé : si multinodulaire non malin, surveillance. Si symptomatique,
+  thyroïdectomie totale
+- Goitre ancien, négligé : iode 131
+\inc iode, notamment grossesse
+
+*** Autres pathologies responsables
+- Maladie de Basedow
+- Thyroïdites : 
+  - Hashimoto = hypertrophique. Goitre très ferme, expose à l'hypothyroïdie. Ac
+Ant-TPO\inc\inc{}, écho : goitre diffus, hypoéchogène
+  - autres thyroïdites
+- Troubles de l'hormonosynthèse
+  
+** Nodules thyroïdes
+Déf : toute hypertrophie localisée de la gande thyroïde. Majorité = bénin (5%
+cancers, de très bon pronostic)
+
+Prévalence \approx décennie du sujet. \times 2 chez \female. \inc si grossese,
+déficience iode, irradiation cervicale
+
+*** Évaluation :
+Si signe d'accompagnement :
+- nodule douloureux brutal : hématocèle
+- nodule douloureux + fièvre : thyroïdite subaigüe
+- nodule compressif + ADP : cancer
+- nodule + hyperthyroïdie : nodule toxique
+- nodule + hypothyroïdie : thyroïdite lymphocytaire
+Si isolé : 
+- TSH \dec : nodule hyperfonctionnel ? \thus scintigraphie
+- TSH N : tumeur \thus écho, cytologie
+- TSH \inc : thyroïdite lymphocytaire ? \thus Ac anti-TPO
+
+Pronostic plutôt suspect : 
+- homme, enfant/âgé, ATCD irradiation cervicale, > 3cm,
+ovalaire, dur, irrégulier, > 20% en un an
+- écho : hypoéchogène, contour irrégulier, microcalcifications, ADP
+  
+Bio : TSH surtout. Calcitonine (CT) ? 
+- Si nodule, CT > 100pg/mL = argument solide pour cancer médullaire thyroïde.
+- CT \in [20,50]pg/mL : idem ou hyperplasise des cellules C ou insuffisant rénal
+
+Examens : 
+- Échographie (classification TI-RAD de 1 à 6)
+- Cytologie si nodule suspect (classification Bethesda)
+- Scinti si cytol ininterprétable x2 ou indéterminé
+
+*** Thérapeutique
+- Chir si suspect clinique/écho/cyto : thyroïdectomie si dystrophie controlatérale
+- Surveillance sinon
+- Hormonal si bénin dans familles avec goitres plurinodulaire, < 50 ans.
+
+Kystes, hématocèles : anéchogène \thus hormonothérapie, alcoolisation.
+
+Grossesse : 2e trimestre ou après accouchement pour opération
+
+Nodule oculte : < 1cm. Risque de cancer 5%, faible pouvoir agressif
+- \danger si ADP, hérédité cancer médullaire thyroïde, fixation au TEP
+- ponction seulement si hypoéchogène et > 8mm
+** Cancers thyroïdiens
+1.5% cancers, 4eme chez la femme
+
+Découverte : fortuite++, ADP cervicale, signes de compression, flushes/diarrhée,
+localisation métastatique
+
+Anatomie :
+- carcinomes différenciés d'origine vésiculaire : papillaire (85%, excellent
+  pronostic), vésiculaires (5%), peu différenciés (2%)
+- carcinomes anaplasiques (1%)
+- carcinomes médullaires au dépens des cellules C
+- autres
+  
+Risque de rechute/décès : 
+- taille tumeur, effraction capsule thyroïdienne,
+métastase (clasif TNM de I à IV)
+- mortalité \propto âge, dépend de l'histologie, exérèse
+
+*** Thérapeutique
+- Plan cancer
+- Chir en 1ere intention (anatomopatho pendant = certitude) : thyroïdectomie
+  totale. Curage ganglionnaire si besoin (systémituqe si carcinome médullaire,
+  si enfant/ado). Complications : hémorragie postopératoire \skull,
+  hypoparathyroïdie (calcium + vit D), paralysie transitoire/définitive nerfs récurrents
+\vspace*{10pt}
+/Cancers différenciés d'origine vésiculaire/
+   - iode 131 : seulement post-thyroïdectomie totale (haut risque). Après
+     stimulationo par L-T4 ou injection TSH. Puis hospit après en chambre 2-5 j
+     et contraception 6-12 mois. ES : {nausées, oedèmes}, {agueusie,
+     sialadénite}. Scinti  obligatoire à +2-8j : fixation extracervicale à
+     distance = métastases
+   - hormonal : L-T4 si haut risque ou échec traitement initial. Puis mesurer TSH à
+     +6sem-2mois (pas avant !)
+   - surveillance : 80% des récidives à 5 ans \thus écho cervicale, rhTSH,
+     Tg[fn:18] à 6-12mois : cytoponction puis imagerie si Tg > seuil. Sinon \dec LT4
+   - traitement récidives : chir si cervicale. Plus compliqué si métastates
+     (iode131 si fixant sinon ttt local ou molécules ciblées). Plus LT4
+     
+/Cancers anaplasiques/
+Tuméfaction cervicale rapidement progressive, dure, adhérente, sujet âgé \thus radio-chimio. Pronostic très péjoratif
+
+/Cancers médullaires/
+TTT : chir \pm curage ganglionnaire
+Surveillance : calcitonine > 150\mu{}g/L \thus bilan de localisation.
+Temps doublement : 6 mois = pronostic très mauvais.
+
+Traitement métastases = local.
+
+Étude génétique dans tous les cas : positif \thus chercher phéochromocytome,
+hyperparathyroïdie + enquêtes apparentés
 * Footnotes
+
+[fn:18] Thyroglobuline
+
+[fn:17] Adénopathie
 
 [fn:16] Antagonistes des récepteurs de l'angiotensine II
 
