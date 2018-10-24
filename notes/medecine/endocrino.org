@@ -1279,7 +1279,139 @@ Traitement métastases = local.
 
 Étude génétique dans tous les cas : positif \thus chercher phéochromocytome,
 hyperparathyroïdie + enquêtes apparentés
+* 240 : Hyperthyroïdie
+Déf : hyperfonctionnement de la glande thyroïdienne. Sd de thyrotoxicose =
+conséquence sur les tissus.
+
+Prévalence élevée, 7\times femme
+
+Physiopatho :
+- TSH, TPO et Tg peuvent être des auto-antigènes
+- thyroïde produit surtout thyroxine )T4), convertie en T3 par foie, muscle
+  squelette. [T4] n'est à l'équilibre que +5 semaines
+- effet : 
+  - \inc production chaleur, \inc production énergie, \inc consommation $O_2$
+  - inc débit cardiaque, système nerveux, \inc ostéclasie, \inc lipolyse, \inc
+    glycémie, rétrocontrole négatif hypophysaire
+
+** Sd de thyrotoxicose
+Clinique (par fréquence \dec) :
+- CV : tachycardie (régulière, repos, \inc effort), \inc intensité bruits
+  coeurs, \inc PAs
+- neuropsy : nervosité, tremblement fin régulier des extrémités, fatigue
+  générale, troubles sommeil
+- thermophobie, hypersudation, 
+- amaigrissement rapide, important, avec appétit conservé
+- autre : polydipsie, amyotropie, \inc frequence selles, rétraction paupière
+  supérieure (gynécomastie, troubles règle)
+
+Examen complémentaire : TSH effondrée. T4 ou T3 libre pour l'importance
+
+Complications : 
+- cardiaque (surtout personnes fragiles) : troubles rythme supraV (FA), insuf
+  cardiaque (droite, avec débit N ou \inc), aggravation insuf coronaire
+- crise aigüe thyrotoxique (exceptionnelle)
+- musculair (âgé)
+- ostéoporose (\female ménopausée) : rachis
+
+** Étiologies (fréquence \dec)
+*** Auto-immunes
+**** Maladie de Basedow 
+1% population. Auto-immune, sur terrai génétique. Poussées pui rémissions
+
+Clinique : 
+- goitre diffus homogène, élastique, souffle
+- oculaire (spécifique, inconstant) : rétraction et asynérgie palpébrale,
+  inflammation, exophtlamie, oedème paupières, inflammation conjonctive,
+  limitation mouvement regard
+  \thus examen ophtlamo ! (acuité visuel, cornée, papille, oculomotricité, tonus
+  intraoculaire)\\
+  Mauvais pronostic : exophtlamie importante, paralysie complète, neuropathie
+  optique, hypertonie oculaire avec souffrance papillaire
+- dermopathie (exceptionnelle) placard rouge, surélevé, induré, face ant jambes
+  
+Diagnostic : manif oculaire suffit. sinon : écho (hypoéchogène, vascularisé),
+(scinti), Ac anti-récepteur TSH
+
+**** Autres auto-immune
+- Thyroïdite post-partum (5%) : hyper- transitoire puis hypothyroïdie. Ac
+  anti-TPO mais pas Ac anti-récepteur TSH
+- Thyroïdite d'Hashimoto : goitre irrégulier, très ferme. Écho :
+  hypoéchogène. Ac anti-TPO mais pas anti-récepteur TSH
+
+*** Nodules thyroïdiens hypersécrétans  
+Âge plus avancé, sd de thyrotoxicose pur (pas de manif oculaire) 
+- Goitre multinodulaire toxique : à la clinique, puis écho. Scinti : "en damier"
+- Adénome toxique : palpation nodule unique, écho : tissulaire/partiellement
+  kystique. Scinti nécessaire : reste du parenchyme "froid"
+
+*** Iatrogènes
+- Iode : produits contraste, amiodarine. 2 formes : fonctionnelle ou lésionnelle
+  (lyse des cellules)
+\danger sous amiodarone : T4L \inc mais T3L, TSH N 
+- Hormones thyroïdiennes : pour maigrir. Diag : scinti (pas de fixation), Tg
+  effondrée
+- Interféron (fréq++)
+
+*** Thyroïdite subaigüe de De Quervain
+Affection banale virale. Diagnostic clinique (goitre dur et douleureux)
+
+*** Thyrotoxicose gestionnelle transitoire 
+Fréquent (2% grossesse). 1er trimestre : nervosité, tachycardie, pas de prise de
+poids
+DD : Basedow (pas Ac anti-récepteur TSH)
+
+*** Rares
+Mutations activatrices du récepteur TSH, métastase massives sécrétantes ([fn:19]K
+thyroïdiens vésiculaire différencié), tumeurs placentaires/testiculaires, {sd
+résistance hormones thyroïdiennes, adénome hypophysaire}
+
+** Forme clinique 
+- Enfant : généralement Basedow (néonatale/acquise) : avance staturale et
+  osseuses, hyperactivité \pm signes oculaires
+- Femme enceinte : passage d'Ac \thus hyper- ou hypo-thyroïde. Passe d'ATC \thus
+  goitre, hypothyroïdie possible. Contraception !
+- Âgé : évolution discrète (AEG, fonte musculaire, cachexie, insuf
+  cardiaque). Penser thyrotoxicase si troubles rythme/insuf cardiaque
+  
+** Traitement
+Urgence : crise aigüe thyrotoxicose, cardiothyréose chez âgé/cardiqaue,
+orbitopathie maligne, cachexie vieillard, Basedow chez \female enceinte
+
+Repos, sédatifs, bêtabloquant, contraception
+
+Antithyroïdens de synthèse (ATS) :
+- -mazole (30-60mg/j), -thiouracile (300-600mg/j) : bloque TPO
+- ES : allergies cut, \inc enzymes hépatiques, neutropénie, agranulocytose++
+  (\skull !!)
+- surveillance : T4 libre jusque N puis T4L et TSH. NFS 10jours pendant 2 mois (agrunolcytose)
+  
+Chir : thyroidectomie totale sauf si adénome toxique (loectomie)
+
+Radio-iode : simple, sans danger. CI : femme enceinte.
+
+*** Résultats
+- Basedow : thyroïdectomie \thus hypothyroïdie définitie. Radio-iode \thus
+  hypothyroïdie 50%, risque aggravation orbitopathie. Donc ttt médical (1-2
+  ans) puis chir/iode si récidive
+- Adénome/goitre multinodulaire toxique : chir, iode
+- Induite par l'iode : arrêt si possible
+- Thyroïdite subaigüe : anti-inflammatoire (AINS/corticoïde)
+  
+*** Formes particulières
+- Cardiothyréose : propanolol et anticoag. Si insuf cardiaque : tonicardiaque,
+  diurétiques, vasodilatateurs, betabloquant, anticoag. Pour thyrotoxicose : ATS
+  puis chir/iode 131
+- Crise aigüe thyrotoxique : soins intensifs, réa, ATS, propanolol, corticoïdes,
+  iode131 après 24h ATS
+- Orbitopathie : si simple, collyre. Si maligne : cf spécialiste
+- Femme enceinte : si transitoire, repos. Si Basedow : repos si mineur. Si forme
+  importante : ATS faible dose. Si formes grave, chir (2eme trimestre) possible)
+\thus surveillance avant et après accouchement  
+
 * Footnotes
+
+[fn:19] Cancer
 
 [fn:18] Thyroglobuline
 
