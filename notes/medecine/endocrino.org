@@ -1506,55 +1506,161 @@ Situations particulières:
   lithium, interféron, cytokines}
 - Femme enceinte : si signes, contexte thyroïdien (perso/familial), auto-immunité
 
+* 242 : Adénome hypophysaire
+** Sd tumoral
+Clinique : 
+- céphalées : rétro-orbitaire, localisése
+- trouble visuels : "voile", par compression des voies optiques. Fond d'eil,
+  acuité visuelle OK. Quadra-/hémi-anopsie temporale (sup si quadra)
+- apoplexie hypophysaire (rare) brutal : céphalées violentes, sd méningé sd
+  confusionnel, troubles visuel. Imagerie en urgence \danger : adénome en nécrose/hémorragie
+IRM = examen de référence :
+- microadénome : arrondi, homogène, hypo-T1, hypointense  après injection,
+  signes indirects
+- macroadénome :  > 10mm, iso-T1 et hyperintension après injection. Regarder
+  expansion vers chiasma optique et sinus (sphénoïdal, cavernux)
+- DD : craniopharyngiome intra-sellaire (hétérogène, hyperT2), méningiome
+  intra-sellaire (dure-mère spiculée)
+  
+** Sd d'hypersécrétion
+*** Hyperprolactinémie
+Fréquente \thus cherche adénome hypophysaire (même si majorité = médicament)
+Signes :
+- \female : galactorrhée (pas forcément causée par prolactine ! mais chercher
+  quand même), troubles du cycle menstruel (doser !)
+- \male : galactorrhée, gynécomastie (rare), troubles sexuels. Hypogonadisme
+  \thus doser prolactine 
+- 2 sexes : risque d'ostéoporose
+\begin{algorithm}
+  \caption{Stratégie diagnostique hyperprolactinémie} 
+  Vérifier hyperprolactinémie (kits, agrégats)\;
+  Écarter grossesse, médicaments, hypothyroïdie périphérique, insuf rénale\;
+  IRM : si microadénome. \;
+  Sinon différentier macroadénome à prolactine VS autre tumeur associée à 
+hyperprolactinémie : régression sous agoniste dopaminergique si premier\;
+\end{algorithm}
+
+*** Acromégalie
+Clinique :
+- Sd dyspmorphique : extrémier élargies, visage (nez élargie, front bombé, lèvres
+épaisses, tendance prognathisme}
+- Signes fonctionnels : sueurs, céphalées, paresthésies des mains, douleurs
+articulaires, asthénie fréquente, HTA (50%)
+Complications :
+- CV : hypertrophie myocardite (écho), débit \inc. Puis insuf cardiaque
+  congestive
+- arthropathie périphérique : grosses articulations, radio (interligne \inc,
+  ostéophite), rachis (spondylose d'Erdheim)
+- diabète/intolérance glucose, SAS, goitre, polypes du colons
+  Diagnostic : absence de freinage de la GH pendant hyperglycémie provouqée
+  orale (GH > 0.4ng/mL), \inc IGH-F1
+Puis bilan tumoral, retentissement fonctionnel hypophysaire, retentissement
+acromégalie
+*** Sd de cushing
+Excès de glucocorticoïdes : causes iatrogènes ou adénomes hypophysaires
+corticotropes
+Clinique :
+- anomalies acquises. Amyotrophie ceinture et abdomen, lenteur cicatrisation,
+  peu amince (mains), ecchymoses au moindr chocs, vergétures cutanée (flancs,
+  racine des membres, mammaire, péri-ombilic), visage érythrosique, congestif,
+  varicosité
+- moins spécifique : +10kg, graisse facio-tronculaire (visage arrondi), bosse de
+  bison, hyperandrogénie, OMI
+- autres : ostéoporose (asymptomatique), spanioménorrhée, \dec libido, HTA,
+  troubles psy
+Bio : intolérance glucide
+
+Diagnostic : 
+\begin{algorithm}
+  \caption{Stratégie diagnostique hypercorticisme}
+  Cortisol libre urinaire (CLU) ou freinage minute ou cortisol à minuit\;
+  Si CLU \inc, réponse anormale freinage minuit, cortisol minuit > 72ng/mL\;
+  Vérifier par freinage standard \thus hypercorticisme\;
+  Dosage ACTH : si bas, scanner surrénales pour adénome\;
+  Sinon IRHM hyperphysaire, freinage fort, test CRH, 
+  test métopirone \thus sécrétion ectopique (normal) ou maladie de Cushing\;
+\end{algorithm}
+
+NB : 
+- Freinage minute = cortisolémie matin après 1mg dexméthasone à 23h. Freinage
+faible : urines 48h puis idem après 0.5mg dexméthasone
+- DD : stress intense, dépression sérèver, psychose, alcoolsime (CLU modéré,
+  freinage minute anormal) \thus épreuve du temps 
+  
+** Insuffisance antéhypophysaire
+Clinique : face pâle, "veillot", dépigmentation aréole mammaire et OGE,
+dépilation complète aisselles pubis
+
+Signes des déficits hypophysaires :
+- gonadotrope : \male = {\dec libido, pilosité visage \dec, petits
+  testicules mou, infertile}, \female = {aménorrhée, dyspareunie}, ostéoporose,
+  (retard pubertaire)
+- corticotrope : asthénie, hypotension, amaigrissement, pas de déficit
+  aldostérone ! (hyponatrémie de dilution). Risque de collapsuse CV
+- hypothyroïdie modérée
+- somatotrope : adulte = {\dec masse et force musc, adiposité abdo}, enfant =
+  retard croissance, accidents hypoglycémiques
+  
+*** Bilan hypophysaire
+- Déficit corticotrope : test Métopirone, cortisol < 200ng/mL si hypoglycémie (<
+  0.49g/L), autres test (cortisolémie, synacthone, CRH)
+- Déficit thyréotrope  : \dec T4L, TSH normale
+- Déficit gonadotrope : \female préménopause : aménorrhée, oestradiol \dec,
+  gonadotrophines normales, \female postménopause  : gonadotrrophine
+  basses/valeurs jeunes, \male : troubles sexuels \dec testostérone
+- Déficit somatotrope : déficit GH enfant++ (retard croissance, pas de réponse
+  à stimulation GH) ou adulte (faire au moins 2 tests stimulation)
+- Prolactine normale/élevée
+
+IRM si déficit hypophysaire
 * Footnotes
 
-[fn:21] Clinique discrète : ictère prolongé, constipation, hypotonie, pleurs
-rauques, difficulté succin, fontanelles larges, hypothermie
+[fn:1] $\frac{N}{N_e/10}\times 100$ avec N = nb grossesses
+accidentelles, $N_e$ nombres de mois d'exposition
 
-[fn:20] Asthénie, somnolence, hypothermie, frilosité, constipation, bradycardie,
-prise poids modeste
+[fn:2] Sd des ovaires polykystiques
 
-[fn:19] Cancer
-
-[fn:18] Thyroglobuline
-
-[fn:17] Adénopathie
-
-[fn:16] Antagonistes des récepteurs de l'angiotensine II
-
-[fn:15] -5mmHg si automesure. -10mmHg si MAPA sur 14h
-
-[fn:14] Hépatomégali stéatosique, douleurs abdo, xanthomatose éruptive, lipémie rétinienne
-
-[fn:13] Coefficient de saturation de la transferrine 
-
-[fn:12] adénome hypophysaire 90%, méningiome, craniopharyngiome, patho
-inflammatoires infiltratives
-
-[fn:11] Faire bilan hormonal : natrémie, testostérone totale et libre/ostradiol,
-FSH, LH, T4L, TSH, prolactine
-
-[fn:10] Cinacalcet
-
-[fn:9] Oestrogènes, raloxifène, bisphosphonates
-
-[fn:8] Marathon, danse classique, demi-fond, triathlone, gymnastique, cyclisme
-
-[fn:7] Baisse libido, testostérone totale < 3 ng/mL
-
-[fn:6] Percutané, transdermique : limite \inc facteur de coagulation.
-
-[fn:5] \danger Testostérone, FSH, LH interprétables [6mois, puberté]
+[fn:3] Séborrhéee, acné, hirsutisme, \inc testostérone
 
 [fn:4] Transmission mère-fils. Expansion instable des triplets CGG jusqu'à
 l'absence de transcript de FMR1 (Fragile X Mental Retardation 1). \\
 \danger Risque d'IOP pour la pré-mutation seulement \thus dépister chez
 \female + IOP < 40 ans par PCR et Southern Blot
 
-[fn:3] Séborrhéee, acné, hirsutisme, \inc testostérone
+[fn:5] \danger Testostérone, FSH, LH interprétables [6mois, puberté]
 
-[fn:2] Sd des ovaires polykystiques
+[fn:6] Percutané, transdermique : limite \inc facteur de coagulation.
 
-[fn:1] $\frac{N}{N_e/10}\times 100$ avec N = nb grossesses
-accidentelles, $N_e$ nombres de mois d'exposition
+[fn:7] Baisse libido, testostérone totale < 3 ng/mL
 
+[fn:8] Marathon, danse classique, demi-fond, triathlone, gymnastique, cyclisme
+
+[fn:9] Oestrogènes, raloxifène, bisphosphonates
+
+[fn:10] Cinacalcet
+
+[fn:11] Faire bilan hormonal : natrémie, testostérone totale et libre/ostradiol,
+FSH, LH, T4L, TSH, prolactine
+
+[fn:12] adénome hypophysaire 90%, méningiome, craniopharyngiome, patho
+inflammatoires infiltratives
+
+[fn:13] Coefficient de saturation de la transferrine
+
+[fn:15] -5mmHg si automesure. -10mmHg si MAPA sur 14h
+
+[fn:16] Antagonistes des récepteurs de l'angiotensine II
+
+[fn:17] Adénopathie
+
+[fn:18] Thyroglobuline
+
+[fn:19] Cancer
+
+[fn:20] Asthénie, somnolence, hypothermie, frilosité, constipation, bradycardie,
+prise poids modeste
+
+[fn:21] Clinique discrète : ictère prolongé, constipation, hypotonie, pleurs
+rauques, difficulté succin, fontanelles larges, hypothermie
+
+[fn:14] Hépatomégali stéatosique, douleurs abdo, xanthomatose éruptive, lipémie rétinienne
