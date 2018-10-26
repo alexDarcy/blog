@@ -1613,7 +1613,132 @@ Signes des déficits hypophysaires :
 - Prolactine normale/élevée
 
 IRM si déficit hypophysaire
+* 243 : Insuffisance surrénale
+** Insuffisance surrénale lente
+Rare mais grave \skull
+
+Physiopatho :
+- cortisol (stimulé par ACTH, rétrocontrole nég. sur ACTH) : hyperglycémiant,
+  stimule = {catabolisme protidique, lipogenèse, SNC, tonus vasculaire}, inhibe
+  = {hormone antidiurétique}, anti-inflammatoire et antipyrétique,
+  minéralocorticoïde
+  Minimum 0-2h, maximum 7-9h
+- aldostérone : rétention Na+, excrète K+
+- androgènes surrénalien (stimulé par ACTH)
+  
+Insuffisance surrénale : primaire (maladie d'Addison) VS secondaire
+
+| Primaire                                           | Secondaire        |
+|----------------------------------------------------+-------------------|
+| Fatigue, dépression, anorexie, nausées             |                   |
+| \dec poids, hypotension, hypotension orthostatique |                   |
+|----------------------------------------------------+-------------------|
+| Hyperpigmentation                                  | Pâleur            |
+|----------------------------------------------------+-------------------|
+| HyperK, hypoNa (manque sel)                        | HypoNa (dilution) |
+*** Diagnostic
+\danger ne pas attendre résultats pour commencer traitment \skull
+
+Positif 
+- cortisolémie
+- mesure ACTH pour différencier primaire de secondaire
+- aldostérone/rénine : rénine \inc si primaire
+- test Synacthène (+ Métopirone ou hypoglycémie insulinique si doute)
+
+NB : femme enceinte = {\inc seuil, faisceau d'args}, enfant : répéter dosages
+voire ttt probabiliste
+
+Étiologies de l'IS primaire
+- Auto-immune (80% adulte, 20% enfant) : 
+  - polyendocrinopathie de type 1 (mutation
+  facteur de transcription AIRE) ou 2 (IS + 1 parmi {thyroïdite d'Hashimoto+++,
+  Basedow, diabète 1}
+  - \thus autoAc anti-21-hydroxylase, scanner (surrénales atrophiques)
+- tuberculose bilatérale surrénale (10%) : transplanté ou ID avec TCD tuberculose
+  \thus scanner surrénales (\inc puis atrophie et calcification). Bilan des
+  localisation tuberculose
+- VIH (stade avancé) : iatrogène, infection opportuniste (CMV++), atteinte de
+  l'hypophyse (lymphome, CMV), corticoïde anti-inflammatoire et ritonavir
+\danger dénutrition \thus spécialiste
+- autres : iatrogènes++[fn:22], métastases bilatérales++[fn:23], lymphomes, maladies
+  infiltratives, causes vasculaires
+- enfant : génétiques surtout = bloc enzymatique++ (dépistage obligatoire), adrénoleucodystrophie
+
+Étiologies de l'IS secondaire 
+- surtout interruption corticothérapie prolongée (> 7mg prednisone)
+- autres[fn:24] : tumeur région hypothalamo-hypophysaire, hypophysite (auto-immune),
+  granulomatose, trauma, chir hypophysaire, radiothérapie, sd de Sheehan 
+
+*** Prise en charge
+Ttt substitutif :
+- glucocorticoïdes (hydrocortisone) 15-25mg/j
+- minéralocorticoïde (fludrocortisone) 50-150\mu{}g/j si IS primaire
+
+TTT cause
+
+Éducation du patient : 
+- avoir carte, hydrocortisone (comprimés et injection),
+régime normosodé
+- pas de laxatifs, diurétiques, millepertuis, réglisse, jus de pamplemousse
+- ttt à vie
+- hydrocortisone en SC si > 2 vomissement/diarrhées en < 1/2 journée
+- adapter à chaleur, exercice, voyage
+
+Surveillance clinique :
+- fatigue, poids, PA
+- surdosage en hydrocortisone (gonflement/rougeur visage, \inc poids, HTA, os,
+  métabolisme, CV)
+- surdosage en fludrocortisone
+- cortisolémie, ACTH inutile !!
+  
+** Insuffisance surrénale aigüe
+*** Y penser
+- déshydratation extracellullaire avec pli cutané, hypotension
+- confusion, crises convulsives
+- troubles digestifs
+- douleurs (musc, céphalées)
+- fièvre
+Biologie : 
+- hémoconcentration, insuf rénale fonctionnelle++
+- hypoNa, hyperK++
+- hypoglycémie, acidose métabolique, anémie, hyperlymphocytose,
+  hyperéosinophilie, natriurèse conservée
+
+*** Confirmation
+Si diagnostic *non* posé : dosage cortisol (\dec\dec), ATCH (\inc si primitive, N ou \dec
+si secondaire). 
+Ne pas attendre les résultats \skull
+
+*** Causes 
+- Insuf surrénale chronique décompensée++
+- D'emblée si bloc enzymatique surrénalien (21-hydroxylase) complet (néonatale)
+  ou hémorragie bilat surrénale ou apoplexie hypophysaire
+- Décompension par n'importe quelle patho intercurrente
+
+*** PEC
+\danger Urgence extrème \skull
+- Domicile : 100mg hydrocortisone (IV, IM, SC) puis transport
+- Hopital : réa puis 
+  - perfusion NaCL (et G30% si hypoglycémie)
+  - ttt facteur déclenchant
+  - surveiller : PA, FC, FR, oxymétrie de pouls, diurèse, T, glycémie, CS, ECG
+    si hyperK
+
+Ttt préventif : patient doit \inc ses doses, médecin traitant au courant
+
+** Arrêt d'une corticothérapie
+   Expose au rebond de la maladie causale, insuf surrénale secondaire
+   (corticotrope), sd de sevrage
+
+À risque : (ttt \ge 3 semaines par \ge 20mg prednisone) ou (corticoïdes et inhib enzymatique du
+cytochromie P450 (ritonavir)) ou sd Cushing iatrogène
 * Footnotes
+
+[fn:24] S'associe souvent à d'autres insuffisances de l'axe hypothalamo-hypophysaire
+
+[fn:23] \danger élimiiner phéochromocytomes avant biopsie surrénale
+
+[fn:22] Surrénalectomie bilatére, anticortisolique de synthèse, nécrose hémorragique 
 
 [fn:1] $\frac{N}{N_e/10}\times 100$ avec N = nb grossesses
 accidentelles, $N_e$ nombres de mois d'exposition
