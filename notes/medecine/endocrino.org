@@ -1354,7 +1354,8 @@ Diagnostic : manif oculaire suffit. sinon : écho (hypoéchogène, vascularisé)
 - Interféron (fréq++)
 
 *** Thyroïdite subaigüe de De Quervain
-Affection banale virale. Diagnostic clinique (goitre dur et douleureux)
+Affection banale virale. Diagnostic clinique (goitre dur et douleureux). Hyper-
+puis hypo-thyroïdie
 
 *** Thyrotoxicose gestionnelle transitoire 
 Fréquent (2% grossesse). 1er trimestre : nervosité, tachycardie, pas de prise de
@@ -1409,7 +1410,109 @@ Radio-iode : simple, sans danger. CI : femme enceinte.
   importante : ATS faible dose. Si formes grave, chir (2eme trimestre) possible)
 \thus surveillance avant et après accouchement  
 
+* 241 : Hypothyroïdie
+- Atteinte de la glande thyroïde  : \inc TSH et (T4L N : hypothyroïdie frustre) (T4L \dec : hypothyroïdie patente)
+- Ou hypothalamo-hypophysaire : T4L \dec et (TSH (\dec ou N)  ou légèrement /inc)
+  
+** Sémiologie
+Général :
+- sd d'hypométabolisme[fn:20]
+- peau pâle/jaune, sèche squamueuse dépilée, cheveux secs cassant
+- myxoedeme cutanéomuqueux : faciès "lunaire", voix rauque, hypoacousie,
+  macroglossie
+- neuromusc : crampes, myalgies
+- endocrinien : (galactorrhée), troubles règles, troubles libido
+Cliniques (rare, diag fait avant) :
+- CV : bradycardie sinusale, \dec contractilité, (insuf cardiaques, troubles
+  rythme V), épanchement péricardique, favorise athérome coronarien
+- neuromusc, neuropsy : dépressif, sd confusionnel, démence, myopathie prox,
+  apnée sommeil
+- coma myxoedemateux : si hypothyroïdie primaire profonde et
+  aggression. Convulsion, EEG non spécifique. Hyponatrémie. Pronostic sévère
+
+Palpation : glande ferme hétérogène, pseudonodulaire
+
+Grossesse : 
+- complication mère : HTA, prééclampsie, fausse couche, hémorragie post-partum
+- complications foetus : troubles developpement neuro-intellectuel, hypotrophie
+- 1er trimestre : TSH \dec, T4L limite sup. Puis TSH normale, T4L basses
+  (physiologique !)
+
+Anomalies bio :
+- hémato : anémie normocytaire normochrome (si macrocytose, penser anémie de
+  Biermer) troubles de coagulation,hémostase
+- hypercholestérolémie, \inc CPK, hyponatrémie dilution
+
+** Étiologies
+*** Hypothyroïdie primaire
+Auto-immunes :
+- Thyroïdite d'Hashimoto : 
+  - goitre ferme, irégulier, Ac anti-TPO. 
+  - infiltraton lymphocytaire du parenchyme thyroïdien. Facteurs environement,
+    terrain génétique.
+  - penser à lymphome si \inc rapide du goitre
+  - écho thyroïdiennes : hypoéchogène, hétérogène, vasc hétérogène (scint
+    inutile)
+- Thyroïdite atrophique : pas de goitre, Ac anti-thyroidiens moins
+  élevés. Souvent une évolution d'Hashimoto, > 50 ans. 
+- Thyroïdite du post-partum : idem, petit goitre. Normalement résolutif dans
+  l'année. 5%
+Non auto-immune :
+- thyroïdite subaigüe de De Quervain : inflammation du parenchime. Phase de
+  thyrotoxicose puis hypothyroïdie
+- thyroïdite sans Ac
+- thyroïdite iatrogène : interferon++, amiodarone, ATS, iode131, radiothérapie
+  cervicale, lithium, ttt anti-tyrosine kinase (cancéro)
+Autres : carences iodées (endémie++), hypothyroïdie congénitale (dépistage à
+naissance + 72h[fn:21]
+
+*** Démarche diagnostique
+TSH puis (T4L (profondeur) et Ac anti-TPO, échographie pour étiologie)
+*** Insuffisance thyréotrope
+- compression région hypothalamo-hypophysaire (HH) par tumeur (adénome hypophysaire
+  souvent)
+- séquelle post-chir, post-radio des tumeurs de la région HH
+- séquelles méningite, trauma crânien, hémorragie méningée
+- génétiques (rare) 
+
+IRM systématique !
+
+** Traitement
+Lévothyroxine (T4) 
+- hypothyroïdie patente : L-T4 [50150] \mu{}g/j. Si coronarien : \inc progressivement
+  de 12.5 à 25\mu{}g/j. \danger Surveillance ! (ECG hebdo si grave, hospit si coronarien
+  récent, sinon patient doit consulter si douleurs thoraciques)
+- hypothyroïdie frustre : 3 cas
+  - TSH > 10mUI/L ou Ac anti-TPO : ttt
+  - TSH < 10mUI/L et pasd'Ac anti-TPO : surveillance
+  - si grossesse : dès TSH \ge 3mUI/L
+  - à discuter sinon
+
+Suivi
+- hypothyroïdie primaire : objectif : TSH $\in [0.5, 2.5]$ mUI/L (\approx 10mUI/L
+pour âgé, et < 2.5mUI/L pour femme eceinte)
+- insuf thyréotrope : suivi sur T4L seulement
+  
+Situations particulières:
+- grossesse : \inc posologie dès diagnostic grossesse
+- \inc si interférence : \dec absorption intestinale{sulfate de fer, carbonate de calcium, hydroxyde
+  d'alimunie, cholestyramine}, \inc clairance {phénobabrital, carbamazépinex, rifampicine,
+  phényto¨en, sertraline, chlooriqune}, oestrogenes
+- néonatale : L-T4 à vie
+  
+** Dépistage ?
+- Adulte : si risque : signes clinique, goitre, hypercholestérolémie, ATCD
+  thyroïdiennes, auto-immunité thyriodienne, irradiation cervicale, {amiodaone,
+  lithium, interféron, cytokines}
+- Femme enceinte : si signes, contexte thyroïdien (perso/familial), auto-immunité
+
 * Footnotes
+
+[fn:21] Clinique discrète : ictère prolongé, constipation, hypotonie, pleurs
+rauques, difficulté succin, fontanelles larges, hypothermie
+
+[fn:20] Asthénie, somnolence, hypothermie, frilosité, constipation, bradycardie,
+prise poids modeste
 
 [fn:19] Cancer
 
