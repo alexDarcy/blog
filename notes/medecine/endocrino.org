@@ -1893,11 +1893,61 @@ Ménopause : hormonothérapie seulement si médicalement indiqué
 Jeûne : 
 - si intolérance gastrique : pas d'arrêt insuline, collations
 liquide/hospit. Vérifier cétonurie
-- pour examen à jeun : laisser agir analogue lent, surveiller glycémiie
+- pour examen à jeun : laisser agir analogue lent, surveiller glycémie
 - prolongé/stress : soluté glucosé et insuline en IV
   
 ** Diabète 2
+90% de diabète. Prévalence 4%. À risque : obèse, anomalie métabolisme
+glucidique, ATCD familiaux diabète 2, ethnie noire hispanique.
+Age adulte.
+
+*** Physiopatho
+Insuline n'arrive pas à avoir une réponse amximale : défaut de captation
+musculaire du glucose, \inc production hépatique du glucose, lipolyse \inc acides gras
+libres circulants \thus (aggrave \dec insulinosécrétion et utilisation du glucose)
+
+Insuf de sécrétion d'insuline, s'aggrave avec l'âge et la durée
+
+Facteurs génétique. Hyperglycémie aggrave insulinosécrétion,
+insulino-résistance. \Dec sécrétion adiopkines
+
+*** Cliniques
+Signes secondaires hyperglycémie, souvent inaperçus. Décompression sévères \thus
+polyurie, polydispie, amaigrissement, prurit vulvaire/balanite, infections
+récidivantes
+
+Dépistage : si
+- glycémie veineuse à jeun pour : signes cliniques de diabètes, > 45 ans (tous les 3 ans), \ge 1 FR
+- non caucasien/migrant, sd métabolique [fn:30]
+ 
+DD : diabète 1 lent (LADA) (minceur, 0 ATCD, IA2 et GAD positifs), génétique
+(MODY2, mitochondrial), secondaire (pancréatopathie, hémochromatose,
+mucoviscidose, médicaments)
+
+Évolution : insulinopénie -> insulinoréquerant. Pronostic selon complications.
+
+*** Traitement 
+Objectifs : normalisation HbA1c (< 6.5%), améliorer gylcémie, insulinosensibilité
+Moyens  : activité physique, régime (hypocalorique si surpoids) sans sucres
+rapides, traitement oraux, analogues GLP-1, insuline
+
+Ttt oral :
+- biguanide (Metformine) +++ : ES = digestif. CI = insuf rénale (?), hépatique, respiratoire
+- autres sulfamides, glinides, inhibiteurs DPP-4, inhibiteurs \alpha-glucosidase
+  
+Surveillance glycémique :
+- HbA1c essentielle : < 7% pour plupart des patients (8% si comorbidité grave,
+  âgé farigle, ATCD complication macrovasc, insuf rénale chronique sévère, 9% si
+  agé dépendante)
+- autosurveillance glycémique : pas systématique si ttt oral (1-3 cycles/j),
+  nécessaire si insuline
+
+PEC
 * Footnotes
+
+[fn:30] IMC > 28 kg/m^2, HTA, (HDL < 0.35g/L ou
+  TG > 2g/L ou dyslipidémie traitée), ATCD diabète familial/gestionnel,
+  temporairement induit
 
 [fn:29] Hémoglobinopathie, anémie hémolytique, urémie, EPO, saignées
 
