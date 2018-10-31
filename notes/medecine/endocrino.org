@@ -1732,6 +1732,45 @@ Ttt préventif : patient doit \inc ses doses, médecin traitant au courant
 
 À risque : (ttt \ge 3 semaines par \ge 20mg prednisone) ou (corticoïdes et inhib enzymatique du
 cytochromie P450 (ritonavir)) ou sd Cushing iatrogène
+* 244 : Gynécomastie
+  Hyperplasie tissue glandulaire mammaire, fréquente. Dû au déséquilibre
+  oestrogène/testostérone (\inc et \dec respectivement). Regarder aussi TeBG,
+  SHBG
+** Démarche
+- Clinique : palpation = ferme/rugueux, mobile arrondi, centré par le
+mamelon (rien si adipomastie)
+- Mammographie si doute : opacité nodulaire/triangulaire (rien si adipomastie). Élimine cancer du sein (rare) 
+- Physiologique ? 
+  - 2/3 des nouveaux-nés
+  - pubertaire : de 13 jusque 20 ans, rétrocède . Palper testicule pour atrophie testiculaire/tumeur
+  - fréquente > 65 ans. Palpation testiculaire
+** Étiologie 
+Évidente :
+- insuf rénale chronique, cirrhose, médicaments (surtout spironolactone,
+  antiandrègène, kétoconazole, neuroleptiques, ATB antirétroviraux, antiulcéreux)
+Sinon exploration hormonale : T4L, TSH, hCG, testostérone totale, LH, FSH,
+prolactine, oestradiol
+
+Causes endocriniennes :
+- hyperthyroïdie
+- insuffisance testiculaire/hypogonadisme périphérique (8%) : sd de Klinefelter
+  le plus fréquent
+- hypogonadisme d'origine hypothalamique/hypophysaire: testostérone basse, LH,
+  FSH normales/abaissées \thus imagerie hypophysaire, dosage
+  prolactine. Hyperprolactinémie ou tumorale
+- tumeur sécrétant oestrogène : oestradiol \inc, testostérone \dec \thus tumeur
+  testiculaire (ou surrénalienne rarement) \thus echo testiculaire ou scanner
+  abdo
+- tumeur sécrétant hCG : \inc hCG \thus écho testiculaire, scanner
+  cérébrales. Dans le bronches ou le foie parfois. Chimio.
+- Résistance androgènes (exceptionnelle) : testostérone \inc, LH inc
+- idiopathique (25%)
+
+** Traitement
+Traiter la cause. Sinon
+- Pubertaire : ne rien faire
+- Idiopathique : androgènes non aromatisables 3 mois. Si inefficace, chir
+  plastique possible
 * Footnotes
 
 [fn:24] S'associe souvent à d'autres insuffisances de l'axe hypothalamo-hypophysaire
