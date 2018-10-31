@@ -301,7 +301,7 @@ Centrale ou périphérique ?
 
 Clinique : 
 - parents, grossesse, courbe de croissance. Chercher trbles digestifs,
-polyuro-polydispise, céphalée, anomalies champ visuel
+polyuro-polydispsie, céphalée, anomalies champ visuel
 - pathologie acquise, OGE, testicules, anosmie (Kallmann)
 
 Âge osseux : 13 ans \male, 11 ans \female
@@ -1322,11 +1322,11 @@ Complications :
 Clinique : 
 - goitre diffus homogène, élastique, souffle
 - oculaire (spécifique, inconstant) : rétraction et asynérgie palpébrale,
-  inflammation, exophtlamie, oedème paupières, inflammation conjonctive,
+  inflammation, exophtalmie, oedème paupières, inflammation conjonctive,
   limitation mouvement regard
-  \thus examen ophtlamo ! (acuité visuel, cornée, papille, oculomotricité, tonus
+  \thus examen ophtalmo ! (acuité visuel, cornée, papille, oculomotricité, tonus
   intraoculaire)\\
-  Mauvais pronostic : exophtlamie importante, paralysie complète, neuropathie
+  Mauvais pronostic : exophtalmie importante, paralysie complète, neuropathie
   optique, hypertonie oculaire avec souffrance papillaire
 - dermopathie (exceptionnelle) placard rouge, surélevé, induré, face ant jambes
   
@@ -1771,7 +1771,143 @@ Traiter la cause. Sinon
 - Pubertaire : ne rien faire
 - Idiopathique : androgènes non aromatisables 3 mois. Si inefficace, chir
   plastique possible
+* 245 : Diabète
+Définition : glycémie à jeun \ge 1.26g/L (2 reprises) ou aléatoire \ge 2g/L[fn:25]
+me
+Caractéristiques diabète 1 (le diabète 2 s'y oppose) : ATCD familiaux rares, <
+25 ans, début rapide explosif, symptomatologie bruyante, poids normal ou \dec,
+shyperglycémie majeure > 23g/L, souvent cétose, pas de complications
+dégénératives, mortalité par insuf rénale (CV pour diabète 2)
+
+** Diabète 1
+   Prévalence : 1/200 000 (10% des diabétiques). Peut survenir à tout âge. \inc
+   incidence. Sex-ratio = 1
+
+*** Physiopathologie
+Carence en insuline par destruction cellules beta du pancréas. Soit auto-immun
+(fréquent), soit idiopathique
+
+Prédisposition génétique (Ag HLA, VNTR, CTLA-4, PTP-N22), facteurs
+environementaux.
+
+Processus auto-immunss : au moins un Ac parmi les suivants dans 97% : Ac
+anti-{ICA, GAD, IA2, insuline, ZnT8}
+
+Diabète \in sd polyendocrinien auto-immun : 10% d'autres maladies auto-immunes =
+thyroïdopathies (Basedow, thyroïdite), Addison, atrophie gastrique de Biermer,
+maladie coeliaque, vitiligo 
+- \thus doser Ac anti-TPO ou TSH (thyroïdite),
+anti-surrénale (Addison), anti-transglutaminase \pm anti-endomysium (coeliaque),
+anti-paroi gastrique, anti-facteur intrinsèque (Biermer)
+- si positif : surveillance annuelle
+
+*** Clinique
+Habituel : début rapide/explosif, sd cardinal = *polyuro-polydispsie,
+amaigrissement, polyphagie*, troubles visuels transitoires, examen pauvre (fonte
+musc, signes d'acidose[fn:26], glycémie veineuse, cétonurie (acidocétose
+inaugurale)
+
+Formes
+- Diabète 1 lent (LADA[fn:27]) : début tardif, progessif, Ac
+positif. Insulinothérapie en 2-10 ans
+- Révélé par acidocétose : fréquente chez enfants, ne devrait plus être vues
+- Non insulinodépendantes : 3 auto-Ac positifs \thus 100% d'avoir diabète 1 dans
+  5 ans. Rémission de quelques mois possibles.
+- cétosique du sujet noir d'origine africaine : mécanisme
+  auto-immun. Décompensation cétosique. Auto-Ac spécifique du diabète 1
+  nésgatifs.
+
+Affirmer type 1 :
+- clinique : triade maigreur/amaigrissement, cétose, < 35 ans
+- sinon auto-Ac
+- sinon :
+  - hérédité dominante : MODY, mutation SUR1/KIR6-2 (si diabète néonatal)
+  - symptômes inhabituels : sd de Wolfram (atrophie optique, surdité, diabète
+    inspide < 20 ans), mitochondropathie (surdité, distrophie maculaire,
+    cardiomyopathie transmission par la mère)
+  - secondaire : cancer pancréas (amaigrissement), pancréatite chronique,
+    mucoviscidose, hémochromatos, médicaments
+    
+*** Évolution
+Schéma théorique : phase préclinique (destruction cellules beta), clinique (85% détruites), clinique séquellaire
+
+Diabète instable : itérations de cétoacidoses ou hypoglyémies sévères,
+psycho. DD : gastroparésie, déficit systèmes contra-insuliniques, Ac anti-insuline
+
+*** PEC
+Patient : contrôle glycémie, injection d'insuline, prévenir complications
+métaboliques et vasculaires, adapter ttt, contrôle de l'alimentation \thus
+éducation thérapeutiques
+
+Objectifs : HbA1c < 7% (enfants : entre 7.5 et 8.5, complication/sujet âgé : 8%)
+
+Autosurveillance : urinaire rare, glycémique 4/jour [fn:28], (glucose en SC si
+objectifs thérapeutiques non remplis) :
+
+Surveillance :
+- HbA1c : en pourcentage Hb totale, aucun sens si modif durée de vie moyenne des globules rouges[fn:29]
+- diabétologue/pédiatre endocrinologue 3/an
+- {lipides, créat, microalbuminurie}
+- ophtalmo, cardiologie 1/an (sympto/âgé,compliqué), dentiste 1/an
+
+Traitement insulinique : palliatif à vie
+
+| Type                          | Injection  | Durée | Utilisation              |
+|-------------------------------+------------+-------+--------------------------|
+| insuline humaine recombinante | IV, IM, SC | 7-8   | Prandiale, hyperglycémie |
+| analogue rapide de l'insuline | IV, IM, SC | 4-6h  | Pompe                    |
+| forme lente                   | SC         | 9-16h |                          |
+| analogue lents                | 16-40h     |       |                          |
+
+Injection :
+- Résorption SC \inc si injection dans muscle, chaleur, vasodilatition, selon zone et dose, 
+- Stylo à insuline (pompe si échec)
+- Schéma : analogue lent (1-2/j) et analogue rapide (3-4)
+- dose "pour vivre", "pour manger", "éour traiter", activité physique \thus
+  éducation nutritionnelle
+
+Effets secondaires : hypoglycémie, prise de poids légère, allergie rarissime,
+lipoatrophie insulinique (immuno), lipohypertrophie si piqûres au même endroit
+
+Non insulinique : accompagnement, alimentation variée sans interdits, exercice physique
+
+*** Cas particuliers
+Enfant/ado : 
+- cétoacidoses fréquentes (risque d'oedème cérébral \inc si réa).
+- difficile à équilibrer et accepter chez l'ado
+- pompe chez très petit enfant
+
+Femme :
+- dépister diabète 1 pendant grossesse
+- contraception à discuter : pilule oestrogestative possible si \female jeune,
+  sans complication, non fumeuses, diabète bien équilibré
+- qrossesse : pronostic quasi normal si équilibre dès conception
+  jusqu'accouchement et non compliqué. Analogue de l'insuline. Attention : HbA1c
+  \dec , \inc besoin fin grossesse et \dec post-partum, aggravation rétinopathie
+  et néphropatie
+- CI absolue : insuf coronaire instable
+- HbA1c < 6.5%, glycémie jeun < 0.9g/L
+  
+Ménopause : hormonothérapie seulement si médicalement indiqué
+
+Jeûne : 
+- si intolérance gastrique : pas d'arrêt insuline, collations
+liquide/hospit. Vérifier cétonurie
+- pour examen à jeun : laisser agir analogue lent, surveiller glycémiie
+- prolongé/stress : soluté glucosé et insuline en IV
+  
+** Diabète 2
 * Footnotes
+
+[fn:29] Hémoglobinopathie, anémie hémolytique, urémie, EPO, saignées
+
+[fn:28] De temps en temps 3h matin, postprandial
+
+[fn:27] Latent Autoimmune Diabetes in the Adult
+
+[fn:26] Dyspnée de Kussmaul, haleine acétonique
+
+[fn:25] Normale à jeune < 1.10g/L
 
 [fn:24] S'associe souvent à d'autres insuffisances de l'axe hypothalamo-hypophysaire
 
