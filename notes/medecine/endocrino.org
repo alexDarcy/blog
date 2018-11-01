@@ -2172,12 +2172,11 @@ vitamines B, médicaments.
 \diameter > 200 \mu{}m. Plus fréquente et sévère. Artères visibles sur radio.
 
 Prévention CV = *problème majeur* des diabétiques 2 : 3/4 DC d'une cause
-CV. Risque CV x2-3 (x3-4 chez \female). Risque coronarien x2-4, AV ischémique
-x2, AOMI x5-10 !
+CV. Risque CV \times{}2-3 (\times{}3-4 chez \female). Risque coronarien \times{}2-4, AV ischémique
+\times{}2, AOMI \times{}5-10 !
 
 **** Dépistage
-Risque > 1% est élevée. Étude UKPDS ou SCORE (mais x2-4)Risque > 1% est
-élevée. Étude UKPDS ou SCORE (mais x2-4)
+Risque > 1% est élevée. Étude UKPDS ou SCORE (mais \times{}2-4)
 
 /FR/ : > 50 ans \male (> 60 \female), diabète > 10 ans, ATCD IDM/mort subite (< 55
 ans \male, < 65 ans \female)c ATCD AVC constitué < 45 ans, tabac, HTA
@@ -2189,7 +2188,7 @@ Autres facteurs : obésité abdominale (> 102cm \male, > 88cm \female) ou IMC >
 Montrer atteinte artérielle : 
 - coronaropathie : ECG repos annuel, scinti avec épreuve d'effort si signes,
   épreuve d'effort si risque d'ischémie myocardique silencieuse
-- carotides ? ascultation \thus écho si AIT possible
+- carotides ? auscultation \thus écho si AIT possible
 - AOMI ? pieds, pouls, claudication, IPS cheville/bras < 0.7 ? Écho-doppler
 
 **** Diagnostic
@@ -2217,9 +2216,127 @@ néphropatie). Statines (simvastatine, pravastatine, atorvastatine) ou fibrates[
 - Prévention thrombose si \ge 1 FR : aspirine 75-150mg
 - Poids : IMC < 25kg/m^2, tour taille < 94cm \male, 80cm
   \female. Hygiéno-diététique
-- Arrêt tabac : substitus nicotiniques (bupriopion sinon). Anticiper polyphagie
+- Arrêt tabac : substituts nicotiniques (bupriopion sinon). Anticiper polyphagie
   réactionnelle et modification transitoire sensibilité insuline !
 
+*** Pied diabétique
+1/10 \ge 1 amputation d'orteils. Éviter les plaies pour prévenir l'amputation
+\skull
+
+Mal perforant plantaire, plaie ischémie d'orteil/membre
+
+À risque : diabète et pouls faible, neuropathie \land{} trouble statique pied,
+troubles sensibilité {algique, vibratoire, thermique, profonde}, ulcération
+pieds
+
+**** Mal perforant plantaire (MPP)
+Neuropathies entraîne hypoesthésie et déformations
+ostéoarticulaires \thus durillons puis fissure et infection \thus
+dermo-hypodermite.
+
+Révélé par : pus, fonte purulente localisé tisseux adipeux
+
+**** Autres
+- Ischémie/nécrose : si oblitération/sténose artères de moyen-petit calibre. Peau
+froide, fine, dépilée, livedo. \danger nécrose peut arriver en qq heures \thus
+revasculariser en urgence \skull
+- Combinaison nécrose et MPP
+- Dermo-hypodermite nécrosante : très rare, urgence vitale \skull. {Teinte gris,
+  hémodynamique altérée, plaie odeur fétide} \thus débrider en urgence, ATB. Cas
+  particuliers : gangrène gazeuse à \bact{perfringens} (crépitations à la
+  palpation, clartés parties moelles}. Urgence vitale \danger
+
+**** CAT
+- Dater l'apparition, neuropathie ou artériopathie. Plaie : localisation, couleur,
+signes de diffusion, {fièvre, frisson, teint gris}, douleur.
+- Contact : orthopédiste si drain d'une infection purulente. Chir vasculaire si
+  doute sur l'ischémie. Réanimateur si tableau sévère.
+- Radio pieds bilatérale (ostéite ?), si infection NFS, iono, CRP
+- Surveillance si état clinique
+- TTT : 
+  - décharge (chaussure, arrêt de travail), excision kératose à domicile : peut
+    suffire
+  - anticoagulation si alitement, antalgique, 
+  - réhydratation, équilibrer glycémie si besoin
+  - anti-escarre si ischémie, vaccin anti-tétanos ! 
+  - si infection : parage et drainage, ATB (cocci G+ si récent, sinon bacille G-)
+  - revascularisation si plaie artériopathique
+
+Ostéite : grave mais pas une urgence. Basé sur radio. Ttt . résection
+chirurgicale ou ATB 6-12semaine et sans l'appui
+
+*** Autres
+Peau : 
+- nécrobiose lipoïdique (rare, ttt mal codifié)
+- dermopathie diabétique (fréqe, cicatrices brunâtre, régresse spontanément)
+- bullose diabètique (cicatrice spontanément)
+- lipodystrophie (hypertrophie le plus souvent, dû à des injections trop souvent
+  au même endroit)
+- acanthosis nigricans (placards cutanés brunâtres, cou/aisselles, plis inguinaux)
+- vitiligo (taches achromiques)
+- xanthomatose éruptives (nodules rouge/jeun si grande hypertriglycéridémies)
+Infections : bactériennes plus nombreuses, fonction polynucléaires altérée
+- otite nécrosante : écoulement auriculaire, douleur intense et insomniante,,
+  inflammation conduit auditif externe avec granulome/nécrose du plancher du
+  conduit \thus \danger urgence, ORL spécialisé
+- mucormycose : rhino-cérébro-orbitale, destruction osseuse, nécrose muqueuse
+  paroi des sinus. Fièvre, obstruction et écoulement nasal, oedème jugal et
+  palpébral \thus urgence \skull
+Foie : hépatologue dès anomalie transaminases ou \gamma-GT
+
+Articulations : 
+- capsulite rétractile : douleur diffuse des épaules, limitations
+mouvements actifs et passifs, \times{}4. Ttt : antalgiques, corticoïdes locaux,
+physiothérapie
+- Maladie de Dupuytren : sclérose réractile de l'aponévrose palmaire moyenne
+- Chéiroarthropathie : raideur des doigs, peau épaissise et cireuse, signe de la
+  prière
+- Arthrose : fréquente diabétique 2
+
+Dents : maladie parodontale 
+- car {plus de plaque dentaire, \inc production
+toxine, matrice extracellullaire altérée, vasculairisation gencive aussi}
+- contrôle diabète, brossage, fil dentaire, soins dentaires prévention
+- signes : dents branlantes, saignements gencive brossage/mastication
+\thus dentiste tous 6 mois
+
+*Suivi diabète* : 
+- complications oculaires, rénales, neuro, cv
+- fond d'oeil annuel, ECG repos annuel, bilan cardio approfondi si risque CV
+  \inc, écho-doppler MI (si > 40 ans, diabète > 20 ans) tous 5 ans
+- bio : HbA1c 4/an, glycémie veineuse, lipides 1/an, microalbuminurie 1/an,
+  créatininémie jeun, clairance créat 1/an, TSH
+
+*** Complications métaboliques
+Coma cétoacidosique
+- acétonurie, glycosurie, glycémie 2.5g/L, pH veineux < 7.25, bicarbonate <
+  15mEg/L
+- cause : déficit insuline absolu/relatif, inconnue
+- évolution : cétose puis cétoacidose (Kussmaul, stupeur, déshydratation mixte)
+- gravité : âgé, ph < 7, kaliémie 4-6 mmol/L, coma profond, TA instable, pas de
+  diurèse après 3h, vomissements incoercibles
+- DD : urgence abdo, coma hyperosmolaire
+- Régression sous ttt en 24-48h. Complication iatrogène : oedème cérébral,
+  surcharge hydrosodée
+- ttt :
+  - éducation : si cétose, maintenir injections, supplément insuline rapide,
+    acétonurie si glycémie > 2.5g/L
+  - curatif : insuline rapide IV, recharge volumique, apport potassimu, glucose
+    si besoin, facteur déclenchant
+
+Coma hyperosmolarie :
+- glycémie > 6g/L, osmolalité > 350mmol/kg, natrémie corrigée > 155mmol/L, pas
+  de cétose ni d'acidose
+- FR : > 80 ans, infection aigüe, diurétique, pas d'accès aux boissons, corticothérapie
+- ttt : réhydratation prudente, lente, insuline IV, surveillance, héparine
+  préventive, ttt causal, soins yeux/bouche/aérosols/aspiration bronchique
+
+Hypoglycémie : inévitable 
+- mais pas mortelle, pas séquelle au cerveaux, ne
+délenche pas d'accivent vasculaire/cardiaque.
+- peur chez diabiétique, déstabilise diabète, attention si âgé ou alcoolique
+- favorisé par : hypoglycémie mineure répétées ignorées, neuropathie végétative
+- cause : repas insuffisants, effort physique, erreur d'injection
 * Footnotes
 
 [fn:42] Pas en association ! 
