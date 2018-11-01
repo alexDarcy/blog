@@ -3,6 +3,7 @@
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \input{header}
 #+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+#+OPTIONS: H:4
 * 35 : Contraception
 ** Contraception hormonale
 Oestroprogestatifs
@@ -1788,16 +1789,15 @@ Carence en insuline par destruction cellules beta du pancréas. Soit auto-immun
 (fréquent), soit idiopathique
 
 Prédisposition génétique (Ag HLA, VNTR, CTLA-4, PTP-N22), facteurs
-environementaux.
+environnementaux.
 
-Processus auto-immunss : au moins un Ac parmi les suivants dans 97% : Ac
+Processus auto-immuns : au moins un Ac parmi les suivants dans 97% : Ac
 anti-{ICA, GAD, IA2, insuline, ZnT8}
 
 Diabète \in sd polyendocrinien auto-immun : 10% d'autres maladies auto-immunes =
 thyroïdopathies (Basedow, thyroïdite), Addison, atrophie gastrique de Biermer,
 maladie coeliaque, vitiligo 
-- \thus doser Ac anti-TPO ou TSH (thyroïdite),
-anti-surrénale (Addison), anti-transglutaminase \pm anti-endomysium (coeliaque),
+- \thus doser Ac anti-TPO ou TSH (thyroïdite), anti-surrénale (Addison), anti-transglutaminase \pm anti-endomysium (coeliaque),
 anti-paroi gastrique, anti-facteur intrinsèque (Biermer)
 - si positif : surveillance annuelle
 
@@ -1852,12 +1852,12 @@ Surveillance :
 
 Traitement insulinique : palliatif à vie
 
-| Type                          | Injection  | Durée | Utilisation              |
-|-------------------------------+------------+-------+--------------------------|
-| insuline humaine recombinante | IV, IM, SC | 7-8   | Prandiale, hyperglycémie |
-| analogue rapide de l'insuline | IV, IM, SC | 4-6h  | Pompe                    |
-| forme lente                   | SC         | 9-16h |                          |
-| analogue lents                | 16-40h     |       |                          |
+| Type                          | Injection  | Durée  | Utilisation              |
+|-------------------------------+------------+--------+--------------------------|
+| insuline humaine recombinante | IV, IM, SC | 7-8    | Prandiale, hyperglycémie |
+| analogue rapide de l'insuline | IV, IM, SC | 4-6h   | Pompe                    |
+| forme lente                   | SC         | 9-16h  |                          |
+| analogue lents                |            | 16-40h |                          |
 
 Injection :
 - Résorption SC \inc si injection dans muscle, chaleur, vasodilatition, selon zone et dose, 
@@ -1928,6 +1928,7 @@ mucoviscidose, médicaments)
 
 *** Traitement 
 Objectifs : normalisation HbA1c (< 6.5%), améliorer gylcémie, insulinosensibilité
+
 Moyens  : activité physique, régime (hypocalorique si surpoids) sans sucres
 rapides, traitement oraux, analogues GLP-1, insuline
 
@@ -1962,13 +1963,148 @@ Traitement médicamenteux :
   - quand : insulinorequérance (amaigrissement, asthénie,
   amyotrophie), observance thérapeutique, HbA1c > objectfis, CI oraux,
   affections intercurrentes
-  - combine = insuline entermédiante/analogue lent + hypoglycémiant oraux si
+  - combiné = insuline entermédiante/analogue lent + hypoglycémiant oraux si
     insulinorequérance partielles. 0.2 U/kg/j à adapter
-  - exclusie : autosurveillance glycémique quotidienne, même gestion que
+  - exclusive : autosurveillance glycémique quotidienne, même gestion que
     diabète 1. 
-  - CI au renouvellement permis poids lourd
+  - CI au renouvellement permis poids lourds
 
+** Complications
+Souffrance vasculaire : micro- (rein, oeil, nef) et macro-angiopathie (\inc
+athérosclérose). AOMI x6-10
+
+*** Physiopatho
+Excès de glucose entre dans les cellules endothéliales, musculaire lisses, péricytes.
+Glycolyse : voies mineures \inc, systèmes de protection de la mitochondrie
+débordés \thus stress oxydant dans la cellule.
+
+Autres causes d'agression: inflammation, activation rénine-angiotensine, voies profibrosantes,
+induites par l'hypoxies. Systems de protection monis efficaces : antioxydants,
+anti-inflammatoire, cellules progénitrices vasculaires, angio-, artério-genèse
+
+Conséquences : épaississement des membranes basales, troubles perméabilité
+vasusculaire, spécifiques = {profil vasculaire (rétine), fibrose (rein)}
+
+*** Rétinopathie diabétique
+**** Déf
+diabète = risque d'une rétinopathie. Complications dont on peut éviter la
+cécité ! \thus examen ophtalmo et surveillance annuelle, contrôler glycémie et
+HTA, laser (si (pré-)proliférante), laser ou injection anti-VEGF (maculopathie
+oedémateuse)
+
+**** Épidémio 
+90% de rétinopathie après 30 ans de diabète, dont 30% menançant pronostic
+visuel. Diabète = 1ere cause de cécité acquise en France chez < 50 ans. FR =
+durée et intensité de l'hyperglycémie
+
+**** Physiopatho 
+anomalie vasculaire (microanévrisme, trouble perméabilité capillaire) \thus soit
+oedème (dangereux si maculaire) soit (ischémie puis angiogenèse[fn:32] puis rétinopathie proliférante)
+
+**** Examens 
+cécite possible du jour au lendemain \skull \thus dépistage tous les 2 ans
+(annuel si diabète/TA mal contrôlé, {avant, trimestre, post-partum} pour femme enceinte)
+Surveillance par examen ophtalmo, photo au rétinographe(dépistage seulement), tomographie de
+cohérence optique
+
+**** Gravité
+- au fond d'oeil : 
+  - microanévrisme < exsudats < nodules blancs cotonneux,
+irrégularités \diameter veines, capillaires dilatés (préproliférante) <
+néovaisseaux (proliférante) < décollement rétine, hémorragies, glaucome néovasculaire
+  - maculopathie : exsudat, oedème maculaire, ischémie
+- \dec acuité visuelle car hémorragie intravitréenne, décollementd rétine,
+  glaucome néovasculaire, maculopathie diabétique
+- complémentaire : angiographie fluorescéine, tomographie cohérence optique
+  (oedème maculaire), écho en mode B
+- risque d'évolution rapide : ado, puberté, grossesse, intensification de
+  l'insuline, chir cataracte, \inc TA, dégradation fonction rénale
+
+**** Traitement
+équilibre glycémie et TA++, laser[fn:33] (+ injection intraoculaire
+d'inhibiteurs VEGF)
+
+Autres complications : cataracte (+ freq), glaucome néovasculaire (redoutable),
+paralysie oculomotrice (régresse spontanément qq mois)
+
+*** Néphropathie
+Diabète = 1ere cause d'insuf rénale terminale. Diabète 2 = $\frac{3}{4}$
+diabétiques dyalisé. Risque CV x10 (D1), x3 (D2). Décès insuf rénale terminale
+30% (D1), 5% (D2)
+
+Physiopatho : \inc pression intra-glomérulaire \thus dilatation des
+glomérules. Filtration améliorée puis décroît (sclérose) avec \inc
+albumine[fn:34]. Et toxicité directe glucose.
+
+**** Dépistage 
+1/an par BU (protéinurie, hématuri, infection urinaire),
+rapport albuminurie/créatinurie (excrétion urinaire) et vérif à 6 mois
+
+**** Diagnostic
+Signes cliniques tardifs (HTA si protéinurie, oedème si protéinurie et insuf
+rénale)
+
+\danger faux positifs pour microalbuminurie : orthostatisme prolongé, activité
+physique intense, \Delta PA, tabac, fièvre, \inc insuf cardiaque, hyperglycémie,
+infection urinaire
+
+Signes associés : 
+- rétinopathie (surtout D1). FR CV : microalbuminurie, DFG \dec. 
+- Penser sténose des artères rénale (surtout D2) si HTA résistante ou \dec\dec
+  rein. 
+- Hyperkaliémie (\inc si IEC, sartans) \thus surveiller
+  
+Diagnostic histologique :
+- pas besoin si {rétinopathie
+(hyperglycémie prolongé), excrétion urinaire d'albumine \inc répétée et
+croissante} 
+- biopsie seulement si 0 rétinopathie, < 10 ans après diagnostic,
+aggravation rapide, hématurie HTA sévère, signes extra-rénaux
+- diabète 1 : hypertrophie mésangiale, glomérulaire < épaississement membrane basale, dépôts
+  mésangiaux < hyalinose artériolaire < glomérulosclérose nodulaire
+- diabète 2 : 1/3 typique, 1/3 vasculaire, 1/3 non néphropatie diabétique
+
+Classification en 5 stades : 
+4. [@4] Néphropathie incipiens : microalbuminurie[fn:35]
+5. Néphropathie : PA élevée, DFG \dec de 10mL/min/an, nodule de sclérose,
+   hyalinose artériolaire
+6. Insuffisance rénale
+
+**** Traitement
+Prévention 
+- primaire (diabète, FR HTA)
+- si microalbuminurie : HbA1c < 7%, PA < 140/85, IEC ou sartans, FR, régime
+  hypoprotidique, sel < 6g/j
+- si macroalbuminurie : contrôle tension++ < 140/85mmHg. (IEC ou sartan) et
+  diurétique thiazidique. Protéinurie < 0.5g
+- si insuf rénale : 
+  - si DFG < 30mL/min/1.73m^2, HbA1c < 8% et seuls autorisé :
+  insuline, répaglinide, inhib \alpha-glucosidase, 
+  - srveiller glycémie (HbA1c souvent pertubrée si IR chronique)
+  - PAs < 130mmHg
+  - traiter anomalies phosphocalciques, anémie arégénérative, préparer suppléance rénale
+    
+Éviter AINS. Si nécessaire, pas d'IEC/sartan. Limiter produits contrastes iodés
+
+Néphrologue si doute diagnostique, DFG < 45mL/min/1.73m^2, protéinuire brutale.
+
+IEC, sartans : se méfier d'une sténose des artères rénales : doser kaliémie, créatininémie
+
+Infections urinaires :x3 dont 90% asymptomatique (basses)
+- Risque = contamination du haut appareil urinaire (pyélonéphrite, nécrose papillaire,
+pyélonéphrite emphysémateuse), aggravation néphropatie glomérulaire.
+- Ttt : oui si symptomatique. Sinon pas de consensus
 * Footnotes
+
+[fn:35] 30-300mg/24h ou 20-200mg/L
+
+[fn:34] Microalbuminurie, macro quand détectable à la BU 
+
+[fn:33] \dec de 50% risque de cécité, \dec néovascularisation dans 90%. Danger
+si oedème maculaire, traite seulement l'exsudat
+
+[fn:32] Risques : saignement entre rétine et vitré, traction sur rétine,
+hypertonie oculaire 
 
 [fn:31] 50% glucides, 30% lipides, 20% protides. Légumes et féculents pour \inc
 absorption des glucides
