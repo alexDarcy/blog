@@ -1302,7 +1302,7 @@ Clinique (par fréquence \dec) :
   générale, troubles sommeil
 - thermophobie, hypersudation, 
 - amaigrissement rapide, important, avec appétit conservé
-- autre : polydipsie, amyotropie, \inc frequence selles, rétraction paupière
+- autre : polydipsie, amyotrophie, \inc frequence selles, rétraction paupière
   supérieure (gynécomastie, troubles règle)
 
 Examen complémentaire : TSH effondrée. T4 ou T3 libre pour l'importance
@@ -1942,8 +1942,36 @@ Surveillance glycémique :
 - autosurveillance glycémique : pas systématique si ttt oral (1-3 cycles/j),
   nécessaire si insuline
 
-PEC
+Hygiéno-diététique
+- Activité physique 
+  - avantages : \dec incidence diabète 2, \inc insulinorésistance, \inc TA
+    effort, \inc masse maigre, \dec masse grasse
+  - intensité modérée et \ge 30min) et (intense > 60% $VO_{2max}$ de 20min)
+  - 30min/jour, 3-5/semaines
+  - CI : insuf coronarienne, rétinopathie proliférante non stabilisée
+  - surveiller si risque hypoglycémie (reprise, intensité/durée
+    inhabituelle). Pieds ! NB : prescription du sport = mécial
+- Alimentation : 
+  - hypocalorique si surpoids, équilibré[fn:31], sans sucre rapide. 
+  - objectif : -5-10% du poids
+
+Traitement médicamenteux :
+- oral : metformine (sinon sulfamide, puis inhibiteurs DPP-4 ou inhibiteurs
+  \alpha-glucosidase)
+- insulinothérapie 
+  - quand : insulinorequérance (amaigrissement, asthénie,
+  amyotrophie), observance thérapeutique, HbA1c > objectfis, CI oraux,
+  affections intercurrentes
+  - combine = insuline entermédiante/analogue lent + hypoglycémiant oraux si
+    insulinorequérance partielles. 0.2 U/kg/j à adapter
+  - exclusie : autosurveillance glycémique quotidienne, même gestion que
+    diabète 1. 
+  - CI au renouvellement permis poids lourd
+
 * Footnotes
+
+[fn:31] 50% glucides, 30% lipides, 20% protides. Légumes et féculents pour \inc
+absorption des glucides
 
 [fn:30] IMC > 28 kg/m^2, HTA, (HDL < 0.35g/L ou
   TG > 2g/L ou dyslipidémie traitée), ATCD diabète familial/gestionnel,
