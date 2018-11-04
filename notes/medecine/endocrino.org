@@ -783,7 +783,7 @@ Fracture radius distal plus rares.
 Ostéoporoses secondaires plus fréquentes chez l'homme : hypercorticisme,
 hypogonadisme congénital/acquis/iatrogène, alcoolisme, hypercalciurie
 idiopathiques, génétique
-* 207 :Sarcoidose
+* 207 : Sarcoidose
   Atteinte hypothalamo-hypophysaire exceptionnelle. Conséquences : diabète
   inspide central, insufisance gonadotrope
 
@@ -2337,7 +2337,43 @@ délenche pas d'accivent vasculaire/cardiaque.
 - peur chez diabiétique, déstabilise diabète, attention si âgé ou alcoolique
 - favorisé par : hypoglycémie mineure répétées ignorées, neuropathie végétative
 - cause : repas insuffisants, effort physique, erreur d'injection
+* 249 : Amaigrissement
+Fréquent
+
+** Interrogatoire 
+- Histoire pondérale, conditions, de vie, psychologique, activité physique excessive et apports alimentaires insuffisants
+- Anorexie, {troubles digestifs, palpitations, sd polyuro-polydipsie}, troubles
+  libido/érection, amnénorrhée (anorexie mentale ou hypothalamique
+  fonctionnelle), médicaments (nausée, anorexie), dépression masquée++
+
+** Examens :
+Clinique : poids, taille, IMC, pli cutané, fonte musculaire, carences vitamines,
+pâleur cutanéomuqueuse
+
+Complémentaires :
+- bio : NFS (anémie), VS/CRP (inflammatoire), iono (hyponatrémie \thus insuf
+  surrénale), BU (glycosurie), calcémie, {transaminase, \gamma-GT}(foie), TSH
+  (hyperthyroïdie), {B12, folates, TP, albuminémie}, graisses fécales ?
+  (pancréatite chronique calcifiante), dénutrition[fn:43]
+- Radio thoracique (tuberculose), écho abdo (abcès/tumeur), fibro (obstacle),
+  DEXA (composition corporelles)
+
+** Étiologie
+- Poids stables, apports nutritionnels normaux, examens normaux :  maigreur
+  constitutionnelle
+- Si perte de poids confirmée, éliminer anorexie mentale, maladies digestives,
+  iatrogène, cancer extradigestif, maladies infectieuses, neuro, grande
+  défaillance cardiaque/rénale/respi/hépatique, alcool
+- Sinon, causes endocrines :
+  - diabète 1 ou 2 : glycémie, HbA1C
+  - hyperthyroïdie : TSH \dec\dec, hormones thyroïdiennes \inc
+  - hypercalcémie : si PTH inadpatée, hyperparathyroïdie primaire
+  - insuf surrénalienne : cortisol, ACTH plasmatique
+  - panhypopituitarisme : cortisol \dec
+  - phéochromocytomes : (nor)métanéphrines dans urines 24h, imagerie surrénales
 * Footnotes
+
+[fn:43] (Pré-)Albumine, IGF-1, ferritine sérique
 
 [fn:42] Pas en association ! 
 
