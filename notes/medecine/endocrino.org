@@ -4,6 +4,9 @@
 #+latex_header: \input{header}
 #+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 #+OPTIONS: H:4
+
+\input{bacteries-header}
+
 * 35 : Contraception
 ** Contraception hormonale
 Oestroprogestatifs
@@ -1909,7 +1912,7 @@ libres circulants \thus (aggrave \dec insulinosécrétion et utilisation du gluc
 Insuf de sécrétion d'insuline, s'aggrave avec l'âge et la durée
 
 Facteurs génétique. Hyperglycémie aggrave insulinosécrétion,
-insulino-résistance. \Dec sécrétion adiopkines
+insulino-résistance. \dec sécrétion adiopkines
 
 *** Cliniques
 Signes secondaires hyperglycémie, souvent inaperçus. Décompression sévères \thus
@@ -1933,7 +1936,7 @@ Moyens  : activité physique, régime (hypocalorique si surpoids) sans sucres
 rapides, traitement oraux, analogues GLP-1, insuline
 
 Ttt oral :
-- biguanide (Metformine) +++ : ES = digestif. CI = insuf rénale (?), hépatique, respiratoire
+- biguanide (Metformine)+++ : ES = digestif. CI = insuf rénale (?), hépatique, respiratoire
 - autres sulfamides, glinides, inhibiteurs DPP-4, inhibiteurs \alpha-glucosidase
   
 Surveillance glycémique :
@@ -2371,7 +2374,100 @@ Complémentaires :
   - insuf surrénalienne : cortisol, ACTH plasmatique
   - panhypopituitarisme : cortisol \dec
   - phéochromocytomes : (nor)métanéphrines dans urines 24h, imagerie surrénales
+* 251 : Obésité
+** Adulte
+Surpoids = IMC \in [25, 29.9]kg/m^2. Obésité :
+- grade 1 : IMC \in [30, 34.9]kg/m^2.
+- grade 2 : IMC \in [35, 39.9]kg/m^2.
+- grade 3 : IMC \ge 40kg/m^2.
+
+Limites : sous-estimé chez asiatiques. Seulement pour [18,65]
+
+Phases : prise de poids, constituée, perte, rechutes
+
+Localisation : viscéral (scanner, IRM), sous-cutanée, ectopique (muscle, foie)
+
+Épidémio : +27.5% 1980-2013 (monde). France : de plus en plus jeune, \inc chez >
+65 ans
+
+Étiologie :
+- génétique: envisager si précoce (naissance +24 mois), troubles du
+  comportement alimentair
+- obésites communes liées à des facteurs environementaux (majorité) : surtout
+  déséquilibre apport caloriques- dépense
+  - ntipsychotiques, glucocorticoïdes, antidépresseurs,
+    antiépileptiques, antidiabétiques
+  - arrêt du tabac, privation de sommeil (?), hypothalamique (rare)
+
+Complications : \inc RR mortalité, métabolique, CV, respi, ostéoarticulaire,
+digestive, rénale, gyncéo, cutanée, néoplasiques, psychosociale
+
+*** Clinique
+- Interrogatoire : 
+  - ATCD familiaux d'obésité, poids naissance, âge surpoids,
+    poids max et min, circonstances déclenchantes, tentatives antérieures, phases
+  - Comportement alimentaire (carnet), évaluation dépense énergétique, pyscho-comportementale
+  - Complications (SAS)
+- Examen : poids, taille, PA, tour de taille[fn:44], obésité secondaire
+- Complentaires : glycémie à jeune, lipides, hépatique, uricémie, ECG repois
+  
+*** Traitement
+- Diététique, activité physique (\forall IMC)
+- Psychologique
+- Médicaments (IMC \ge 30 ou (\ge 27 et comorbidités)) : orlistat
+- Chir bariatrique :  {anneau gastrique ajustable, sleeve gastrectomie},
+  {court-circuit gastrique, dérivation biliopancréatique} : < 65 ans. Prise en
+  charge 6 mois avant et post-op à vie (carences vitaminiques)[fn:45]
+** Enfant/ado
+\danger{} évolutivité. Surpoids : IMC > 25. Obésité 
+- grade 1 : > 30kg/m^2
+- grade 2 : > 35kg/m^2
+- grade 3: > 40kg/m^2
+
+Épidémio : stabilisation mais obésités sévères \times{}4
+
+*** Étiologies
+- génétiques : mutation sur récepteur de la mélanocortine type 4 = 2.5-5%
+- communes (majorité) : facteurs environnementaux et prédisposition génétique
+  - repond d'adiposité à 6 ans. Risque d'obésité \propto précocité du rebond
+  - tour de taille/taille > 0.62 = forte valeur prédictive
+  - FR : surpoids parent, poids excessif/tabac pedant grossesse, anomalie de
+    croissance foetale, \inc\inc poids à naissance + 2ans, difficulité
+    socio-éoc, manque d'activité physique, torubles sommeil, psychopatho
+- secondaires (rare) : ralentissement de la vitesse de croissance naturelle
+
+*** Complications 
+- HTA : > 97e percentile + 10mmHg
+- Insulinorésistance avec glycémie normale fréquente
+- \inc TG et \dec HDL
+- Stéatose hépatique non alcoolique
+- Rachialgies, gonaliges, troubles statique vertérable. Penser à l'épiphysiolyse
+  de la tête fémorale : garçons [10,15] ans avec douleur mécanique de hanche
+  \thus radio de profil
+- Psychologique
+  
+*** Clinique
+Interrogatoire : 
+- ATCD familaux, 
+- personnels : poids, taille naissance, âge d'appartition, changements environnementaux, tentatives antérieures, troubles des règles 
+- comportement alimentaire (difficile)
+Examen clinique :
+- poids, taille, PA, tour de taille, pli-cutané (< 20% après 5 ans), courbes de
+  croissance (ralentissement = pathologique !), dermato (acanthosis nigricans =
+  insulinorésistance, vergétures= hypercorticisme, intertrigo, mycose)
+Pas d'examens complémentaires !
+
+*** Traitement	
+Prévention surtout. Modifier style de vie (efficacité faible). Chir possible
+avec équipes spécialisées
 * Footnotes
+
+[fn:45] CI : troubles cognitifs sévères, troubles sévères non stabilisés du
+comportement alimentaire, dépendances à l'alcool / substances psychoactives, pas
+de PEC médicale, pronostic vital mis en jeu, CI à l'anesthésie générale,
+incapacité à faire un suivi médical prolongé
+
+[fn:44] Obésité abdominale : > 88cm \female, > 102cm \male
 
 [fn:43] (Pré-)Albumine, IGF-1, ferritine sérique
 
