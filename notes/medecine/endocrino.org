@@ -2460,6 +2460,31 @@ Pas d'examens complémentaires !
 *** Traitement	
 Prévention surtout. Modifier style de vie (efficacité faible). Chir possible
 avec équipes spécialisées
+* 252 : Diabète gestationnel
+Physio chez femme enceinte selon moitié:
+- non diabétique : (\inc insulinéme, insulinosensibilité) puis (insulinorésistance
+  \thus hyperinsulinisme ou diabète gestationnel)
+- à risque de diabète : (hypoglycémie, cétose) puis (insulinosécrétion
+  postprandiale insuffisante)
+  
+** PEC du diabète pré-gestationnel
+Grossesse à risque mais fécondité normale (sauf si sd ovaires polykystiques).
+*normalisation glycémie préconcetpion -> accouchement* 
+- HbA1c \le 6.5%
+- glycémie à jeun \in [0.6, 0.9]g/L
+- glycémie repase + 1h < 1.40g/L et +2h 1.20g/L
+  
+*** Risque foetus
+- Fausses couches spontanées x2, \propto hémoglobine glycquée
+- Malformation congénitales x2, constituée pendant 8 premières semaines :
+  cardiaque, neuro, rénale \thus \inc fausses couches spontanées, mortalité
+  foeatale/néonatale, malfomations
+- 2e trimestre : macrosomie, hypoxie tissulaire, retard maturation pulmonaire,
+  hypertrophie cardiaque septale
+- 3e tri : mort foeatle
+- Accouchement : \inc prématurés, césariennes. Danger : trauma foetal,
+  hypoglycémie sévère, hypocalcémie, hyperbilirubinémie/polyglobulie, détresse
+  respi transitoire, maladie des membranes hyalines
 * Footnotes
 
 [fn:45] CI : troubles cognitifs sévères, troubles sévères non stabilisés du
