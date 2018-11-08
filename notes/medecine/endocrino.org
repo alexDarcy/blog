@@ -2469,7 +2469,7 @@ Physio chez femme enceinte selon moitié:
   
 ** PEC du diabète pré-gestationnel
 Grossesse à risque mais fécondité normale (sauf si sd ovaires polykystiques).
-*normalisation glycémie préconcetpion -> accouchement* 
+*normalisation glycémie préconception -> accouchement* 
 - HbA1c \le 6.5%
 - glycémie à jeun \in [0.6, 0.9]g/L
 - glycémie repase + 1h < 1.40g/L et +2h 1.20g/L
@@ -2485,7 +2485,75 @@ Grossesse à risque mais fécondité normale (sauf si sd ovaires polykystiques).
 - Accouchement : \inc prématurés, césariennes. Danger : trauma foetal,
   hypoglycémie sévère, hypocalcémie, hyperbilirubinémie/polyglobulie, détresse
   respi transitoire, maladie des membranes hyalines
+- Long terme : surpoids/obésité et diabète 2
+*** Risque mère
+- HTA (30%) : si > 20 SAc, risque de toxémie gradivique. \times{}5 si
+  diabète 1. Risque vital \skull
+- Rétinopathie : ttt préalable si rétinopathie proliférative. CI : rétinopathie
+  proliférative floride non traitée
+- Néphropathie : 
+  - FR = {HTA, déséquilibre glycémique, rétinopathie évoluée dès
+  départ, diabète ancien, insuf rénale, hydramnios, correction trop rapide d'une
+  hyperglycémie chronique}. 
+  - Insuf rénale \thus hypotrophie foetale, prééclampsie. Si IR préexistante : 50%
+mortalité foeatale *in utero*
+  - dépistage : créat plasmatique, microalbuminurie, protéinurie
+  - IEC contre-indiqués
+- Coronaropatihe : exceptionnelle mais gravissime. Dépister si diabète ancien et
+  complications microvasculaire (ECG, effort)
+- Infection urinaire \inc, risque pyélonéphrite, décompensation diabétique
+- Diabète 1 : \inc risque dysfonction thyroïdiennes
+
+*** PEC
+- Avant grossesse : glycémie \in [0.7, 1.20] préprandial, \int [1, 1.4]
+  postprandial et HbA1c < 7%
+  - diabète 1 : \inc insuline
+  - diabète 2 : insuline si régime ne suffit pas/arrêt ttt oral
+- Pendant    
+  - équilibre glycémique++ (6 glycémies capillaires/jour)
+    - \danger insuline \dec puis \inc puis \dec\dec
+    - cétonémie/cétonurie si glycémie > 2g/L
+  - \ge 1600kcal/j 2eme et 3eme tri
+  - surveiller poids, PA, créat plasmatique, microalbuminurie, protéinurie, FO,
+    BU, protéinurie 
+  - obstrétricale : date++ (12-14SA) malformations (22-24), placenta et liquide
+    amniotique (32-34SA), cardiomyopathie hypertrophie (32-34SA), bien-être
+    foetal
+  - pas de bêtamimétique si prématuré 
+*** (Post)partum
+Accouchement programmé souvent, facilité si rétinopathie sévère, insuline
+  SC/IV et glucosé avec surveillance horaire
+
+Puis : insuline selon besoin pré-grossesse (D1) ou arrêt (D2)
+
+** Diabète gestationnel
+Si lié à la grossesse, apparait en 2eme partie. Risque : pré-éclampsie,
+césarienne (\propto hyperglycémie matenrelle). FR : surpoids 
+
+Même complications liées à l'hyperinsulinisme que pré-gestationnel
+
+*** Dépistage
+Si FR seulement : 
+- \ge 35ans
+- IMC \ge 25kg/m^2
+- ATCD : diabète gestationnel, macrosomie, diabète chez parents 1er degré
+Diagnostic :
+- début de grossesse si glycémie jeun \ge 0.92g/L \thus PEC immédiate
+- sinon à 24-28SA et (glycémie jeun < 0.92g/L ou non faite) : hyperglycémie
+  provoquée oralement
+
+*** Traitement
+- Diététique (30-35kcal/kg [25 si surpoids]), activité physique, antidiabétique
+  CI \skulll, insuline si régime ne suffit pas après 8 jours
+- Surveillance : glycémie (6/jour puis 4/jour), cétonurie (si glycémie > 2g/L),,
+  HTA
+- Objectif : glycémie jeun < 0.95g/L et postprandiale +2h < 1.20g/L
+
+Post-partum : arrêt insuline et surveillance glycémie (diabète antérieur
+?). Vérifier glycorégulation à 3 mois. Risque de récidive si grossesse
 * Footnotes
+
+[fn:46] 12-24SA
 
 [fn:45] CI : troubles cognitifs sévères, troubles sévères non stabilisés du
 comportement alimentaire, dépendances à l'alcool / substances psychoactives, pas
