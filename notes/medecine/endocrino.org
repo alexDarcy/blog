@@ -2551,7 +2551,88 @@ Diagnostic :
 
 Post-partum : arrêt insuline et surveillance glycémie (diabète antérieur
 ?). Vérifier glycorégulation à 3 mois. Risque de récidive si grossesse
+* 253 : Nutrition chez le sportif
+** Examen d'aptitude
+Dépister les pathologies induisant un risque vital/fonctionnel grave : mort
+subite (1-4/100 000 après 35 ans)
+Obligation légale si compétition (licencié ou non)[fn:47]
+
+Examen :
+- ATCD sportif, médicaux familiaux (CV, hypercholestérolémie familiale),
+  conduites à risque, alimentaire, ttt, toxiques
+- Clinique : 
+  - poids, taille, IMC, (courbe de croissance)
+  - maturation pubertaire
+  - ostéoarticulaire, cardiorespiratoire, test dynamique sous-maximal
+    (Ruffier-Dickson)
+- Complemntaire : ECG repos[fn:48], CV
+
+** Bénéfices/inconvénients 
+Adulte :
+- Bénéfices :
+  - maintien santé : \dec mortalité prématurée, \inc qualité de vie, \inc
+    autonomie (âgé), régule poids
+  - prévention : cancers (colon, sein), CV, métabolique, ostéoporose \female
+  - ttt : anxiété, cardiomyopathie ischémique, BPCO, obésité, diabète 2, neuro,
+    rhumatismales, dégénératives
+- Surveillance : dépistage d'insuf coronarienne > 40 ans, \danger nutitrion et
+  hydratition si > 3h/semain,
+- Recommandation : 150min/semaine (modéré) ou 75min/semaine (soutenu). Idéal : x2
+
+Enfant : 
+- Bénéfices :
+  - dev psychosocial : \dec stress, anxiété, \inc intégration sociale, \inc
+    confiance en soi
+  - dev psychomoteur : concentration, coordination, équilibre
+  - \inc masse maigre, \inc densité osseuse
+  - prévention : sd métabolique, surpoids, CV
+- Surveillance : nutrition (véiter retards de croissance/pubertaire), attitude
+  alimentaires restrictives
+- Recommandation : 60min/jour (modéré-soutenu) et renforcement musculaire,
+  osseux 3x/semaine
+  
+** Besoins nutritionnels
+
+| Intensité     | durée     | Energie                      | Limitation |
+|---------------+-----------+------------------------------+------------|
+| Très intense  | secondes  | ATP, P-Cr                    |            |
+| Intense       | minutes   | Glycogène musculaire         | Lactate    |
+| Faible-élevée | prolongée | glycogène musculaire/lipides | VO_2 max   |
+
+Macronutriments :
+- Glucides : détermine l'épuisement si endurance \thus index glycémique faible à
+distance, IG élevé juste avant. Pendant : maintenir glycémie. Après :
+reconstituer les stocks de glycogène
+- Lipides à limiter si intensité élevé/compétition
+- Protides : endurance 1.2-1.4g/kg/j, force : 1.3-1.5g/kg/j si maintien masse, sinon jusque 2.5g-kg/j
+
+Hydrosodé : avant = 500ml en 2h (prévention). Pendant : NaCl si \ge 1h selon
+intensité (jusque 1.5L/h). Après : 150% perte pondérale.
+
+Minéraux, vitamines:
+- attention situation à risque : déficit en fer, contrainte de poids,
+  alimentation glucidiques mais faible densité nutritionnelle, exclusion de
+  groupes d'aliments
+- endurance : vit B énergétiques[fn:49] , vit. "antioxydantes"[fn:50]. force :
+  \inc vit B6, \inc "antioxydantes"
+
+*** Enfant
+ Apport insuffisants \thus retard croissance staturo-pondéral ou pubertaire,
+ \dec masse musculaire, déminéralisation osseuse, déficit immunitaire.
+
+Surveiller calcium, vit D, fer.
+
 * Footnotes
+
+[fn:50] Vit C, E, \beta{xcarotène
+
+[fn:49] Thiamine, riboflavine, niacine, B6
+
+[fn:48] Pour 1er certificat puis tous les 3 ans puis tous les 5
+  ans jusque 35 ans
+
+[fn:47] Sauf alpinisme, armes à feu, mécaniques, aériens, sous-marins, de combat
+avec HS
 
 [fn:46] 12-24SA
 
