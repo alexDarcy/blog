@@ -1,5 +1,4 @@
 title,serie,rating,status,year
-When Marnie was here,,4,done,
 101 Dalmatians,,3.5,done,1961
 12 Angry Men,,4.5,done,1957
 12 Years a Slave,,4,done,2013
@@ -263,19 +262,20 @@ WALL-E,,4.5,done,2008
 Wallace & Gromit: The Curse of the Were-Rabbit,,3.5,done,2005
 Wall·E,,4.5,done,2008
 When Harry Met Sally,,5,done,1989
+When Marnie was here,,4,done,
 Whiplash,,4,done,2014
 Wolf Children,,5,done,2012
 Wonder Woman,,4,done,
 Wreck-It Ralph,,3.5,done,2012
 Zatoichi: The Blind Swordsman,,3.5,done,1989
-Zero dark thirty,,4,done,
+Zero Dark Thirty,,4,done,
 Birth of a Nation,1001_movies_to_watch,4.5,done,1915
 Arrival,,,towatch,
 Contact,,,towatch,1997
 Dallas Buyers Club,,,towatch,2013
 Don\'t breathe,,,towatch,
 First Man,,,towatch,
-Green Room,,,towatch,
+Green Room,,4,done,
 Manchester by the sea,,,towatch,
 Nightcrawler,,,towatch,2014
 Paterson,,,towatch,
@@ -288,4 +288,3 @@ Star Trek,,,towatch,2009
 The Jungle Book,,,towatch,
 The lives of other,,,towatch,2006
 War for the Planet of the Apes,,,towatch,
-Zero Dark Thirty,,,towatch,2013

@@ -2544,7 +2544,7 @@ Diagnostic :
 
 *** Traitement
 - Diététique (30-35kcal/kg [25 si surpoids]), activité physique, antidiabétique
-  CI \skulll, insuline si régime ne suffit pas après 8 jours
+  CI \skull, insuline si régime ne suffit pas après 8 jours
 - Surveillance : glycémie (6/jour puis 4/jour), cétonurie (si glycémie > 2g/L),,
   HTA
 - Objectif : glycémie jeun < 0.95g/L et postprandiale +2h < 1.20g/L
@@ -2622,7 +2622,144 @@ Minéraux, vitamines:
 
 Surveiller calcium, vit D, fer.
 
+* 265 : Hypocalcémie, dyskaliémie, hyponatrémie
+ 
+** Hypocalcémie (hypoCa)
+Éliminer fausses hypoCa dues à l'hypoalbuminémie.
+Calcémie = équilibre absorption intenstinale, résorption osseuse, excrétion
+rénale. Régulé par PTH, calcitriol
+
+Clinique : 
+- hyperexcitabilité neuromusc : paresthésie main, pieds, péribuccales
+  (spontanées/effort), signe de Trousseau ("main d'accoucheur"), signe de
+  Chvosteck (peu spécifique), crises de tétanie (paresthésie, fasciculation
+  pouvant entraîner arrêt respi)
+- chronique : sd de Fahr[fn:51] \thus signes extrapyramidaux, crises comitiales
+- \inc QTc \thus troubles du rythmes
+- dans l'enfance : musc, neuro, cardiaques
+  
+*** Principales causes
+- Hypoparathyroïdes : anamnèse et {hypoCa, PTH \dec, phosphatémie
+  normale/haute}.
+  - post-chir++ : parathyroïdectomie totale
+  - congénitale : sd Di George++[fn:52]
+- Pseudoparathyroïdies : génétiques : résistance à la PTH \thus PTH
+  \inc. Chondrodysplasie possible
+- Anomalie vitamine D
+  - carence vit D = 1ere cause hypoCa chez nourrisson \thus rachitisme
+    carentiel. Chez l'adulte, seulement si déficite prolongé et profond
+  - malabsorption digestive, insuf rénale chronique, cirrhose
+
+*** TTt
+- Aigüe = urgence \skull \thus calcium IV lente (2-3x10ml). Suspension ttt \inc
+QTc, réduction digoxine
+- Chronique : vit D (ou dérivés actifs) et calcium per os
+
+** Hyper-/hypo-kaliémie, 
+Retentissement cardiaque \thus vital \skull
+
+*** HyperK 
+Principales causes
+- Acidose (sort K+ de la cellule) et insulinopénie (réduit entrée K+) : ttt par
+  insuline à risque d'hypoK \danger \thus apport K+ dès normokaliémie
+- Hypoaldostéronisme
+  - insuf surrénale périphérique
+  - secondaire : chez > 65 ans, diabétiques. Risque = aggravation si IEC ou ARA II
+- Pseudo-hypoaldostéronisme : résistance à l'aldostérone (génétique)
+  
+*** HypoK 
+- Dénutrition sévère : anorexique, post-chir bariatrique sans suivi
+- Insulinothérapie : si cétoacidose et troubles digestifs majeurs \thus
+  insulinothérapie seulement après normokaliémie, sinon arrêt cardiocirculatoire \skull
+- \inc activité \beta{}adrénergique
+- Paralysie périodique famililiale : exceptionnelle, paralysie brutale
+  transitoire des 4 membres
+- Hyperaldostéronisme ou hypercorticisme : y penser si HTA (non constante) et hypoK avec
+  kaliurèse \inc
+- Polyurie : hyperglycémie \inc
+- Hypomagnésémie : si Mg \dec, malabsorption, pertes digestives causées par
+  IPP. Sinon : pertes urinaires acquises/génétique
+- Bloc 11-\beta{}hydroxystéroïde déshydrogénase : similaire à
+  hyperaldostéronisme primaire mais avec aldostérone \dec. Si HTA et hypoK,
+  vérifier réglisse et pastis (glycyrrhizine)
+
+** Hyponatrémie endocrinienne
+
+HypoNa = anomalie électrolytique la plus commune chez hospitalisés
+
+Osmolarité (mosm/L) : 2\times{}([Na+] + [K+]) + glycémie + urée
+
+#+BEGIN_EXPORT latex
+\begin{figure}[htpb]
+  \centering
+  \resizebox{\linewidth}{!}{
+    \tikz \graph [
+  % Labels at the middle 
+      edge quotes mid,
+  % Needed for multi-lines
+      nodes={align=center},
+      sibling distance=3cm,
+      edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      Osmolalité -> {
+        Augmentée -> "Hyperglycémie";
+        Normale -> "HyperTG\\Hyperprotidémie";
+        Diminuée -> Volémie -> {
+	  "Augmentée\\(hyperhydrat. extracell)" -> "Insuf cardiaque\\Cirrhose\\Sd néphrotique";
+	  "Normal\\(hyperhydrat intracell)" -> "Hypothyroïdie\\Insuf corticotrope\\SIADH";
+	  "Diminué\\(déshydrat extracell)" -> "Perte digestives\\rénales, cérébrales\\Insuf corticosurrénales aigüe";
+	};
+      };
+    };
+  }
+  \caption{Démarche diagnostique devant une hyponatrémie}
+\end{figure}
+#+END_EXPORT
+
+Physiopatho : hormone anti-diurétique (ADH) : répond au stimulus osmotique,
+volémique et stress etc. Action vasoconstrictive, corticotrope (stress),
+antidiurétique
+
+*** SIADH
+PA et FC normale, pas de pli cutané, (déshydratation extra-cellulaire) ni
+d'oedème (hyperhydratation extra-cellulaire)
+
+DD : cf figure. Si hyponatrémie hypoosmolaire normovolémique :
+- insuf corticotrope : cortisolémie et ACTH
+- insuf surrénale aigüe
+- hyporthyroïdie proto-thyroïdienne : TSH \inc
+- hypopituitarisme antérieure : cortisolémie, TSH, T4L
+
+Étioliogise :
+- iatrogènes : neuroleptiques, antidépresseurs, chimio, carbamazépine,
+  desmopressine
+- quasi toutes affections neuro, notament intervention trans-sphénoïdale
+  (adénome corticotrope)
+- pulmonaires
+- tumeurs malignes : cancer bronchique à petites cellules++
+- rares : mutation récepteur V2 ADH, marathonien, VIH
+- Intoxication aigüe à l'eau
+
+*** Traitement
+Urgence si < 115mmol/L ou {délire, coma, convulsio} \skull \thus sérum salé
+hypertonique jusque Natrémie = 120mmol/L (puis restriction hydrique). \danger <
+12mmol/24h sinon tableau d'AVC (myélinolysie centropontine) !! \skull
+
+Thérapeutique :
+- restriction hydrique : mal tolérée
+- déméclocycline : induit diabète inspidie néphrogénique
+- aquarétine (tolvaptan)
+  
+Indications :
+- symptômes cliniques sévères/récent : sérum salé hypertonique
+- symptômes plus modérés : sérum et tolvaptan
+- sinon restriction hydrique et tolvaptan (ou déméclocycline)
 * Footnotes
+
+[fn:52] Hypoplasie des parathyroïdes et du thymus, dysmorphie faciale, anomalies cardiaques
+
+[fn:51] Cataracte sous-capsulaire, calcification des noyaux gris centraux 
 
 [fn:50] Vit C, E, \beta{xcarotène
 
