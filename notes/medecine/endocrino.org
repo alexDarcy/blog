@@ -2755,7 +2755,80 @@ Indications :
 - symptômes cliniques sévères/récent : sérum salé hypertonique
 - symptômes plus modérés : sérum et tolvaptan
 - sinon restriction hydrique et tolvaptan (ou déméclocycline)
+* 266 : Hypercalcémie
+Diagnostic = double dosage calcémie. Étiologie selon parathormone (PTH)
+
+Physio : calcémie régulée par PTH et calcitriol
+- PTH: \inc absorption intestinale du calcium et phosphore, \inc résorption
+  osseuse, \dec réabsorption phoshpore et \inc absorption calcium (rein)
+- PTH régulée par récepteur sensible au calcium (CaSR)
+  
+Bio : calcémie totale = {calcium ionisé, calcium lié = {lié à l'albumine,
+complexé aux anions}}. Calcium ionisé \approx 50% calcium total[fn:53]
+
+Clinique : asthénie, {polyuro-polydipsie, lithiases rénales}, {anorexie,
+constipation, nausées}, {apathie, somnolence, confusion, psychose, coma}, {HTA,
+\dec QT}
+
+\danger hyperglycémie maligne = urgence \skull{} avec déshydratation, {confusion,
+coma, insuf rénale} et risques de troubles du rythme cardiaque, bradycardie avec asystolie
+
+** Étiologies
+*** Hypercalcémie PTH dépendante (PTH N ou \inc) 
+- *Hyperparathyroïdie primaire* (55%) : lésion parathyroïde. 
+  - Signes cliniques précédents avec rénaux, osseux (clinique et radio[fn:54]) \thus créatinine
+  plasmatique, scénal rénal non injecté
+  - Surtout densité osseaux (tier distal du radius)
+  - Bio : hypercalcémie et PTH non adaptée (N ou \inc). 
+    - \danger corriger déficit vit D avant doser calcémie. 
+    - \danger DD : sd hypercalcémie-hypocalciurie familiale,
+      hyperparathormonémie avec ttt au lithium
+    - calcémie et phosphorémie n'ont de sens qu'avec une fonction rénale normale
+    - calciurie : si augmentée, enlève les DD précédents
+  - imagerie : bio primaire mais sert si indication opératoire seulement (écho, scinti)
+  - étiologie :
+    - majorité : sporadique, isolé
+    - NEM1[fn:55] (1%) : hyperparathyroïdie primaire = 95%. Recherche tumeurs
+      endocrines pancréas et duodenum, adénomes hypophysaires 
+    - NEM2 : cancer médullaire de thyroïde puis phéochromocytome bilat et
+      hyperparathyroïdie primaire avec atteinte multiglandulaire
+    - \danger hyperparathyroïdie primaire chez jeune = suspicion transimission
+      génétiques
+    - hyperparathyroïdie /secondaire/ : adaptation à hypocalcémie (chercher chez
+      insuf rénaux chronqiue)
+    - hyperparathyroïdie /tertaire/ : insuf rénaux chronqiue
+- hypercalcémie-hypocalciurie familiale bénigne :: hypercalcémie,
+     hypophosphorémie, (hypermagnésémie), calciurie \dec\dec{}, PTH inadaptées
+     (N ou \inc)
+- Lithium
+
+*** hypercalcémie PTH-indépendante
+- *Hypercalcémie des affections malignes* (30%) : PTH \dec\dec{}. 
+  - Tumeurs : poumon, sein, rein, tractus digestif
+  - Production tumorale de PTHrp (mime PTH)
+- Autres : 
+  - granulomatose : hyperphosphorémie, PTH \dec
+  - iatrogènes : vitamine D (hypercalcémie, hyperphosphorémie, PTH passe),
+    vitamine A (asthénie sévère, douleurs musc et osseuse, alopécie des
+    sourcils, célitie fissuraire), diurétiques thiazidique, buveurs de laits
+    (plutôt fortes doses d'antiacide ou carbonate de calcium)
+
+** Traitement
+Hypoparathyroïdie primitive : guérison par ablation des adénome(s) par chir
+conventionnelle ou mini-invasive (faire imagerie avant !)
+
+Sinon, traitement palliatif : bisphosphonates (inhibe résorption osseuse),
+calcimimétiques (\dec PTH), 
+
+\danger Hypercalcémie = urgence \skull{} : bisphosphonate en perf lente
+ou corticothérapide IV (myélome/hémopathie) ou dialyse (maligne)
 * Footnotes
+
+[fn:55] Néoplasie endocirinienne multiple de type 1 
+
+[fn:54] Ostéite fibrokystique de von Recklinhausen, exceptionnelle.
+
+[fn:53] Sauf si acidose, hyperprotidémie, \inc phosphore/sulfate sériques 
 
 [fn:52] Hypoplasie des parathyroïdes et du thymus, dysmorphie faciale, anomalies cardiaques
 
