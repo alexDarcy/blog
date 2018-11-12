@@ -2822,7 +2822,46 @@ calcimimétiques (\dec PTH),
 
 \danger Hypercalcémie = urgence \skull{} : bisphosphonate en perf lente
 ou corticothérapide IV (myélome/hémopathie) ou dialyse (maligne)
+* 303 : Tumeurs de l'ovaire (hormono-sécrétante)
+** Sécrétant des oestrogènes
+Tumeurs de la granulosa : 
+- malignes, les plus fréquentes des tumeurs des cordons sexuels et du stroma. 
+- plutôto femmes [30,50] ans
+- jeune fille : pseudo-puberté précoce. Femme :
+  aménorrhées/ménométrorragie. Ménopausée : saignement vaginal dû à hyperplase
+  endométriale[fn:56] 
+- ttt : ovariectomie unilatérale mais récidives 10-33%
+
+Thécomes : 
+- très rare, surtout péri-/post-ménopause
+- Tumeurs solides, bénignes \thus exérèse = guérison
+Sd peutz-Jeghers (très très rare)
+
+** Sécrétant des androgènes
+Tumeurs à cellules de Sertoli-Leydig 
+- sécrète testostérone
+- rare. Y penser si hirsutisme récent avec signes de virilisation
+- DD : corticosurrénalome (faire scanner surrénales), sd Cushing (faire freinage
+  minute), block 21-hydroxylase (doser 17-hydroxyprogestérone)
+- femme 30-40ans
+- détecté à l'écho ovarienne vaginale ou IRM pelvienne
+- si < 5 cm, bon pronostic \thus ttt conservateur chez femme jeune
+
+Tumeurs à cellules de Leydig
+- cristaux de Reinke (caractéristique)
+- typiquement : virilisantes chez ménopausée
+- petite taille, bénignie \thus ovariectomie bilatérale
+
+Tumeurs germinales sécrétantes
+- tumeur ovarienne sécrétant de l'hCG : chez femme jeune, aménorrhée, douleurs
+  abdo/métrorragie. Tttt : conservateur si jeune, chimio si étendu
+- gonadoblastome : chez sd de Turner avec mosaïque et chromosome Y (risque
+  7-20%) \thus gonadectomi préventie
+- autres : sécrétant hCG, T4, sérotonine
+- 
 * Footnotes
+
+[fn:56] Tumeurs souvent > 10cm, kystique, multiloculaire, unlatérale
 
 [fn:55] Néoplasie endocirinienne multiple de type 1 
 
