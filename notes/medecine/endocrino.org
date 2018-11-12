@@ -2835,7 +2835,7 @@ Tumeurs de la granulosa :
 Thécomes : 
 - très rare, surtout péri-/post-ménopause
 - Tumeurs solides, bénignes \thus exérèse = guérison
-Sd peutz-Jeghers (très très rare)
+Sd Peutz-Jeghers (très très rare)
 
 ** Sécrétant des androgènes
 Tumeurs à cellules de Sertoli-Leydig 
@@ -2850,16 +2850,63 @@ Tumeurs à cellules de Sertoli-Leydig
 Tumeurs à cellules de Leydig
 - cristaux de Reinke (caractéristique)
 - typiquement : virilisantes chez ménopausée
-- petite taille, bénignie \thus ovariectomie bilatérale
+- petite taille, bénigne \thus ovariectomie bilatérale
 
 Tumeurs germinales sécrétantes
 - tumeur ovarienne sécrétant de l'hCG : chez femme jeune, aménorrhée, douleurs
   abdo/métrorragie. Tttt : conservateur si jeune, chimio si étendu
 - gonadoblastome : chez sd de Turner avec mosaïque et chromosome Y (risque
-  7-20%) \thus gonadectomi préventie
+  7-20%) \thus gonadectomi préventive
 - autres : sécrétant hCG, T4, sérotonine
-- 
+
+ 
+* 305 Tumeurs du pancréas (endocrine)
+Rare, concerne pancréas et duodénome. Diagnostic histologique, compléteté par
+immunohistochimie
+
+Pronostic péjoratif : > 2 cm, invasion vasculaire, dissémination métastase
+
+| Sécrétion | Clinique                                                          |
+|-----------+-------------------------------------------------------------------|
+| Insuline  | Hypoglycémie organiques                                           |
+| Gastrine  | Ulcère OGD[fn:57], diarrhées                                      |
+| ACTH      | Cushing                                                          |
+| Glucagon  | Diabète, érythème migrateur, diarrhée, amaigrissement, thromboses |
+| VIP       | Diarrhée hydroélectrolytique profuse, hypokaliémie                |
+| GHRH      | Acromégalie                                                       |
+
+Imagerie : scannéer spiralé TAP \pm IRM abdo
+
+Formes familiales : NEM1, neurofibromatose 1, von Hippel-Lindau
+
+* 310 : Tumeurs du testicule (aspects endocriniens)
+
+Prévalence : 9/100 000, ado/adulte jeune
+
+** Tumeurs stromales
+Cellules de Leydig. Unilatérales, bénignes
+- Garçon < 9 ans : pseudo-puberté précoce \thus testostérone plasmatique, écho
+testiculaire
+- Adulte : féminisation, infertilité \thus oestradiol \inc, testostérone N ou \dec
+  
+Cellules de Sertoli : rares (enfant) ou exceptionnelles
+(adulte). Féminisation/pseudo-puberté précoce à 50%. Testostérone/oestradial
+\inc, LH et FSH \dec, inhibine B \inc.[fn:58]
+
+** Autres
+- Tumeurs germinales : fréquentes, écho testiculaire
+  - séminomateuses : fréquentes, pronostic bon
+  - non séminomateuses : pronistic réservé
+- Inclusion surrénaliennes : par excès ACTSH. Marqueur : 17-hydroxyprogestérone
+
+** PEC 
+Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimio si métastases pulmonaires/ganglionnaires.
+
 * Footnotes
+
+[fn:58] Peut appartenir à : complexe Carney, sd Petuz-Jeghers
+
+[fn:57] Oestro-gastro-duodénaux
 
 [fn:56] Tumeurs souvent > 10cm, kystique, multiloculaire, unlatérale
 
