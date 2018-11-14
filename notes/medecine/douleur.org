@@ -64,6 +64,7 @@ IEC}, lithium, corticoïdes, méthotrexate
 60mg codéine = 50mg tramadol = 10mg morphine
 
 \fbox{Douleurs modéres/intenses d'emblée ou ne répondant pas au palier I}
+
 Douleurs aigües (courte) ou chronique (courte/long)
 
 Codéine : 
@@ -88,7 +89,78 @@ Effets indésirables :
 - sécheresse buccale, douleurs abdo, troubles visuels, convulsion (si facteurs)
 
 Éviter codéine si enceinte. \dec posologie si âgé
+
+** Palier III
+AMM : 
+- douleurs /non/ cancéreuse = morphine, oxycodone, fentanyl (transdermique)
+- douleurs cancéreuse = idem et fentanyyl transmuqueus, hydromorphone
+  
+*** Formes 
+- Agonistes purs
+  - Morphine (agoniste) : référence. Sous forme de chlorhydrate (inject) ou
+    sulfate (orale en LP ou  LI)
+  - Hydromorphine (agoniste) : délai 2h, dure 12h. Seconde intention dans cancer
+  - Oxycodone (agoniste) : morphine x2. LP (12h) ou LI  (4h)
+  - Fentanyl : morphine x50-150. Transdermique (délai 12-18h et dure 72h) en
+    relais ou transmuqueuse (délai 10min et dure 1-2h)
+  - Méthadone : substitutif pour dépendance aux opiacés
+- Agonistes partiels : buprénorphine = morphine x30. Effet plafond
+- Agoniste-antagonistes : nalpubphine = pédiatrie++, effet plafond, parentéral
+  seulement. 
+- Antagonistes : naloxone  
+
+*** CI
+Insuf respi décompensée, insuf hépatocellulaire sévère, insuf rénale sévère,
+épilepsie non contrôlée, trauma crânier et HTIC, intox alcoolique aigüe, +IMAO,
+associer agonistes avec a. partiel ou a-antagonistes
+
+*** ECI
+- Constipation (fréquent !):
+ - préventif = laxatif oral systématique, hygiéno-diététique, oxycodone et
+   naloxone
+ - curatif : \inc laxatif, fécalome ?, ttt rectal.[fn:6] 
+- Nausées, vomisseements(fréquent !):
+ - préventif : anti-émétique
+ - curatif : neuroleptique action centrale, corticoïdes, sétrons, droperidol
+- Somnolence : \dec dose ou rotation
+- Dépression respi (FR < 10min) : réa et naloxone
+- Trouble s confusionnels, cognitifs : \dec doses, rotation
+- Dysurie, rétention :[fn:7] \dec doses, sondage, chercher médicaments favorisants
+- Prurit : antihsistaminique, rotation
+  
+Dépendance : pyschologique (recherche compulsvie), physique (sd sevrage)
+
+*** Surdosage
+Somnolence, respi irrégulière, FR < 10/min
+Échelle de sédation (0 à 3)[fn:8], de qualité de respiration (R0 à R3)[fn:9]
+
+Réat et injection narcan (naloxone) : 0.4mg par dose de 0.04mg/2min jusque R1/R0
+
+*** Indications :
+- Douleurs aigüe : très intenses ou (modéré/sévère ne répondant pas au palier
+II). Oral (parentéral si urgence)
+- Douleurs chroniques cancéreuses ou (non cancéreuses après échec étiologique,
+  palier 1, II et techniques). Oral et LP.
+
+Équivalence :
+- morphine : 1 oral = 1/2 SC = 1/3 IV 
+- 1 morphine Iv = 1 oxycodone IV/SC
+- oxycodone . 1 oral = 1/2 IV/SC
+
+Prescription : ordonnance sécurisée, \le 28j
+
+
 * Footnotes
+
+[fn:9] R0 = normale, R3 = pauses/apnée
+
+[fn:8] 0 = éveillé, 3 = très somnolent, éveillable par stimulation tactile. 
+
+[fn:7] Y enser si HTA, douleurs abdo, agitation inhabituelle
+ 
+
+[fn:6] Si 0 selles : bithérapie laxative, lavement rectal, antagoniste
+morphinique périph
 
 [fn:5] Inhibiteurs de la monoamine oxydase
 
