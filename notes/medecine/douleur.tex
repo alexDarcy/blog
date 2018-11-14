@@ -1,0 +1,128 @@
+% Created 2018-11-14 Wed 20:44
+% Intended LaTeX compiler: lualatex
+\documentclass[11pt]{article}
+\usepackage[hidelinks]{hyperref}
+\usepackage{booktabs}
+\input{header}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\author{Alexis Praga}
+\date{\today}
+\title{Douleur}
+\hypersetup{
+ pdfauthor={Alexis Praga},
+ pdftitle={Douleur},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\input{bacteries-header}
+
+\section{132 : Antalgiques}
+\label{sec:org4c64834}
+\subsection{Palier 1 et AINS}
+\label{sec:org6e32bba}
+\subsubsection{Paracétamol}
+\label{sec:org0ff80ff}
+1ere intention, surtout douleur chronique
+
+Prescription : 3-4g/24h (adulte) avec délai 4-6h. Délai 1h, dure 4-6h. Enfant : 60mg/kg/24g
+espacée de 6h 
+
+Seul pour douleurs faibles/modérées, avec opioïdes sinon
+
+Tolérance :
+\begin{itemize}
+\item si surdosage : 
+\begin{itemize}
+\item hépatotoxique \thus urgence \skull \thus N-acétylcysténine
+\item insuf rénale aigüe et nécrose tubulaire
+\item thrombocytopénie
+\end{itemize}
+\item sinon bonne tolérance. Surveiller HTA, hypersensibilité
+\end{itemize}
+
+\subsubsection{AINS}
+\label{sec:orgf4b757c}
+COX-1 : protège muqueuse gastro-duodénale et pro-agrégant. COX-2 : inflammation,
+effet anti-agrégant
+
+Antalgique à faible dose. Pour douleurs \{ostéo-articulaire, trauma, post-op,
+néplasiques\}, coliques néphrétiques, dysménorrhées essentielles, migraines.
+
+OS, injectable (limiter à 48h !) ou pommade/gel
+
+Effets indésirables :
+\begin{itemize}
+\item digestif \footnote{NB : coxibs \dec probabilité de développer un ulcère simple/compliqué
+mais retard circatrisation d'un ulcère gastrique \ldots{}}: 
+\begin{itemize}
+\item mineur : nausées, vomissements, gastralgies, douleurs abdo
+\item grave : ulcère, perforation digestive, hémorragie
+\item autres : ulcère oesophagien\footnote{Donc toujours prendre avec de l'eau, debout et sans être à jeun !}, aggravation diverticulose,
+anorectites/brûlures anales
+\item FR : \{ > 65 ans, ATCD ulcère/hémorragie dig, infection \bact{helicobacter},
+maladie générale sévère\}, \{+ AINS, + corticoïdes, +anticoag/agrégants,
++aspirine\}
+\thus FR \(\ge\) 3 ou aspirine : éviter !
+\end{itemize}
+\item rein :
+\begin{itemize}
+\item \danger risque hypovolémie, néphropathie, âgé, association (diurétique, IEC,
+ARAII)
+\item insuf rénale fonctionnel (créat !), rétention hydrosodée, hyperkaliémie,
+néphropathie intestitielle, (nécrose papillaire)
+\end{itemize}
+\item cutanés/muqueus fréquents : bénin, urticaire (sd Lyelle/Stevens-johnson)
+\item allergiques (rhinite, conjonctivite, oedème de Quincke, asthme) ou respiratoire
+\item si anémie, chercher saignement digestif
+\item hépatite (souvent silencieuse)
+\item sd confusionnel (âgé)
+\item CV : rétention hydrosodée, \inc risque thrombotique artériel
+\end{itemize}
+
+Éviter interactions : AINSE aspirine, \{anticoag, ticlopidine\}, \{diurétiques,
+IEC\}, lithium, corticoïdes, méthotrexate
+
+\fbox{Surtout douleurs aigües}
+
+\subsection{Palier II}
+\label{sec:orgc31422c}
+60mg codéine = 50mg tramadol = 10mg morphine
+
+\fbox{Douleurs modéres/intenses d'emblée ou ne répondant pas au palier I}
+Douleurs aigües (courte) ou chronique (courte/long)
+
+Codéine : 
+\begin{itemize}
+\item agoniste opioïde naturel \thus métabolite * morphine
+\item seul (sirop, dihydrocodéine) ou avec paracétamol.
+\item 1-2 comprimés toutes 6-8h
+\end{itemize}
+
+Tramadol : 
+\begin{itemize}
+\item seul, libération prolongée (LP) sur 12h \footnote{1 prise/j, 24h si 2 prises/j} ou immédiate (LI)\footnote{Toutes 4-6h}
+\item max 400mg/j.
+\item IV lente seulement en hôpital
+\end{itemize}
+
+Poudre d'opium avec paracétmal : 1-2 gélules toutes 4h (max 10/j)
+
+Contre-indications : insuf respiratoire, asthme grave, insuf hépatocellulaire
+sévère, enfants < 12 ans [codéine] ou 3 ans [tramadol], allaitement, épilepsie
+non contrôlé [tramadol], +(ant)agoniste morphinique, +IMAO\footnote{Inhibiteurs de la monoamine oxydase} [tramadol].
+
+Effets indésirables :
+\begin{itemize}
+\item ceux des opioïdes = sédation, vertige, \{constipation, nausées, vomissements\},
+\{bronchospasme (dépression respiratoire)\}, rétetion d'urine
+\item sécheresse buccale, douleurs abdo, troubles visuels, convulsion (si facteurs)
+\end{itemize}
+
+Éviter codéine si enceinte. \dec posologie si âgé
+\end{document}

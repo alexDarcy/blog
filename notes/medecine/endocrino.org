@@ -2970,7 +2970,10 @@ absorption des glucides
 
 [fn:30] IMC > 28 kg/m^2, HTA, (HDL < 0.35g/L ou
   TG > 2g/L ou dyslipidémie traitée), ATCD diabète familial/gestionnel,
-  temporairement induit
+  temporairement induit.
+Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female), hyperglycémie
+  (glycémie à jeun > 1g/L), dyslipidémie (TG > 1.5g/L et (HDL < 0.4g/L \male ou
+  0.5g/L \female)), HTA (> 130mmHg systole ou > 85mmHg diastole)
 
 [fn:29] Hémoglobinopathie, anémie hémolytique, urémie, EPO, saignées
 

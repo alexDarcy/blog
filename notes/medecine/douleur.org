@@ -1,0 +1,102 @@
+#+title: Douleur
+#+author: Alexis Praga
+#+latex_header: \usepackage{booktabs}
+#+latex_header: \input{header}
+#+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+#+OPTIONS: H:4
+
+\input{bacteries-header}
+
+* 132 : Antalgiques
+** Palier 1 et AINS
+*** Paracétamol
+1ere intention, surtout douleur chronique
+
+Prescription : 3-4g/24h (adulte) avec délai 4-6h. Délai 1h, dure 4-6h. Enfant : 60mg/kg/24g
+espacée de 6h 
+
+Seul pour douleurs faibles/modérées, avec opioïdes sinon
+
+Tolérance :
+- si surdosage : 
+  - hépatotoxique \thus urgence \skull \thus N-acétylcysténine
+  - insuf rénale aigüe et nécrose tubulaire
+  - thrombocytopénie
+- sinon bonne tolérance. Surveiller HTA, hypersensibilité
+  
+*** AINS
+COX-1 : protège muqueuse gastro-duodénale et pro-agrégant. COX-2 : inflammation,
+effet anti-agrégant
+
+Antalgique à faible dose. Pour douleurs {ostéo-articulaire, trauma, post-op,
+néplasiques}, coliques néphrétiques, dysménorrhées essentielles, migraines.
+
+OS, injectable (limiter à 48h !) ou pommade/gel
+
+Effets indésirables :
+- digestif [fn:2]: 
+  - mineur : nausées, vomissements, gastralgies, douleurs abdo
+  - grave : ulcère, perforation digestive, hémorragie
+  - autres : ulcère oesophagien[fn:1], aggravation diverticulose,
+    anorectites/brûlures anales
+  - FR : { > 65 ans, ATCD ulcère/hémorragie dig, infection \bact{helicobacter},
+    maladie générale sévère}, {+ AINS, + corticoïdes, +anticoag/agrégants,
+    +aspirine}
+    \thus FR \ge 3 ou aspirine : éviter !
+- rein :
+  - \danger risque hypovolémie, néphropathie, âgé, association (diurétique, IEC,
+    ARAII)
+  - insuf rénale fonctionnel (créat !), rétention hydrosodée, hyperkaliémie,
+    néphropathie intestitielle, (nécrose papillaire) 
+- cutanés/muqueus fréquents : bénin, urticaire (sd Lyelle/Stevens-johnson)
+- allergiques (rhinite, conjonctivite, oedème de Quincke, asthme) ou respiratoire
+- si anémie, chercher saignement digestif
+- hépatite (souvent silencieuse)
+- sd confusionnel (âgé)
+- CV : rétention hydrosodée, \inc risque thrombotique artériel
+  
+Éviter interactions : AINSE aspirine, {anticoag, ticlopidine}, {diurétiques,
+IEC}, lithium, corticoïdes, méthotrexate
+
+\fbox{Surtout douleurs aigües}
+
+** Palier II
+60mg codéine = 50mg tramadol = 10mg morphine
+
+\fbox{Douleurs modéres/intenses d'emblée ou ne répondant pas au palier I}
+Douleurs aigües (courte) ou chronique (courte/long)
+
+Codéine : 
+- agoniste opioïde naturel \thus métabolite * morphine
+- seul (sirop, dihydrocodéine) ou avec paracétamol. 
+- 1-2 comprimés toutes 6-8h
+  
+Tramadol : 
+- seul, libération prolongée (LP) sur 12h [fn:3] ou immédiate (LI)[fn:4]
+- max 400mg/j.
+- IV lente seulement en hôpital
+
+Poudre d'opium avec paracétmal : 1-2 gélules toutes 4h (max 10/j)
+
+Contre-indications : insuf respiratoire, asthme grave, insuf hépatocellulaire
+sévère, enfants < 12 ans [codéine] ou 3 ans [tramadol], allaitement, épilepsie
+non contrôlé [tramadol], +(ant)agoniste morphinique, +IMAO[fn:5] [tramadol].
+
+Effets indésirables :
+- ceux des opioïdes = sédation, vertige, {constipation, nausées, vomissements},
+  {bronchospasme (dépression respiratoire)}, rétetion d'urine
+- sécheresse buccale, douleurs abdo, troubles visuels, convulsion (si facteurs)
+
+Éviter codéine si enceinte. \dec posologie si âgé
+* Footnotes
+
+[fn:5] Inhibiteurs de la monoamine oxydase
+
+[fn:4] Toutes 4-6h
+
+[fn:3] 1 prise/j, 24h si 2 prises/j
+
+[fn:2] NB : coxibs \dec probabilité de développer un ulcère simple/compliqué
+mais retard circatrisation d'un ulcère gastrique ...
+
+[fn:1] Donc toujours prendre avec de l'eau, debout et sans être à jeun !
