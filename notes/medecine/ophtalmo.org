@@ -63,7 +63,22 @@ Oculomotricité
 
 ** Complémentaires
 Fonctions visuelles
-Champ visuel
+- Champ visuel :
+  - sensibilité lumineuse \dec périphérie, papille = zone aveugle
+  - périmétrie cinétique (Goldman : trace isoptères) ou statique (dépistage
+  glaucome)
+- Vision des couleurs : si dépistage anomalie congénitale (planches colorées) ou
+affection acquise (Farnsworth = classer couleurs). Utile pour antipaludéens de
+synthèse ou {éthambutal, isoniazide}
+Angiographie du fond d'oeils : fluorescine ou vert d'indocyanine (DMLA++)
+
+Électrophysio : électrorétinogramme (si lésion rétiniennes étendues), potentiels
+évoqués visuels (cortex occipital) (SEP++), électro-oculogramme (épithelium pigmentaire)
+
+Echographie : mode A (longueur globe oculaire) ou B (décollement rétine, corps
+étranger intraoculaire, tumeur)
+
+Tomographie en cohérence optique (OCT) : affection maculaire
 * Footnotes
 
 [fn:6] Si BAV, vasculaire probable. Sinon HTIC
