@@ -1,0 +1,80 @@
+#+title: Ophtalmologie
+#+author: Alexis Praga
+#+latex_header: \usepackage{booktabs}
+#+latex_header: \input{header}
+#+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+#+OPTIONS: H:4
+
+\input{bacteries-header}
+* Sémiologie oculaire
+** Globe
+Membranes (d'avant en arrière)
+- externe = {cornée (avant), conjonctive (sur sclère antérieure), sclère}
+- intermédiaire (uvée) = {iris, corps ciliaires, choroïde}
+- interne (rétine) = {épithelium pigmentaire, neurosensorielle (photorécepteurs,
+  fibres optiques}}. NB : phototransduction = pigment visuel
+  (épithelium) \rightarrow photorécepteurs (bâtonnets = {vision périphérique,
+  nocturne}, cône = {détails, couleurs} \in macula)
+Contenu : 
+- humeur aqueuse \in chambre antérieure, évacuée dans l'angle iridocornéen. P
+  normale si \le 22 mmHg.
+- cristallin : biconvexe, convergente, déformation par zonule \thus accomodation
+- corps vitré : 4/5e cavité oculaire \thus segment antérieur vs postérieur
+Voies optiques : 
+- nerf optique - chiasma - bandelettes optiques - corps genouillés externes - radiations optiques - cortex occipital
+- mydriase "sensorielle"[fn:1] vs "paralytique"[fn:2]
+- voie efférente sympathique : si atteinte, sd Claude-Bernard-Horner (myosis, ptosis)
+Annexes
+- oculomoteur : nerf IV = {oblique supérieur}, VI = {droit externe} et III =
+  {droit sup, droit inf, droit médial, oblique inf}
+- protection : paupière (muscle orbiculaire, tarse), conjonctive (face interne
+  paupière, globe antérieur), film lacrymal
+  
+** Examen
+Interrogatoire : 
+- baisse d'acuité visuelle (BAV), fatigue visuelle, myodésopsise,
+métamorphopsies, héméralopie, scotome/amputation champ visuel, 
+- mode d'installation : urgente si brutal
+- douleur superficielles/profondes
+- diplopie mono/bi-noculaire
+- évolution : aggration rapide = grave
+Acuité visuelle : échelle de Monoyer (à 5m), de Parinaud (33cm)
+
+Segment antérieur : "lampe à fente"
+- conjonctive : rougeur (diffuse/localisée/culs-de-sac inférieure/avec
+  sécrétions/cercle périkératique/paupière), chemosis[fn:3]
+- cornée (transparence)
+- iris : myosis/mydriase
+- chambre antérieure : inflammation (Tyndall[fn:4], précipités rétro-cornéens,
+  synéchies iridocristaliniennes), hypopion (pus), hyphéma (sang)
+Pression intraoculaire par tonomètre à air pulsé. Hypertonie si \ge 22 mmHg
+
+Gonioscopie : angle iridocornéen
+
+Fond d'oeil
+- direct, indirect (apprentissage++), biomicroscopie
+- aspect : pôle postérieur = {papille, vaisseaux rétitiens, macula}, rétine
+  périphérique (si besoin)
+- lésions : microanévrisme (points rouges), hémorragie (intravitréennes,
+  prérétiniennes, sous-rétiniennes, intra-rétiniennes[fn:5]), nodules cotonneux,
+  exsudats profonds, oedème papillaire[fn:6]
+
+Oculomotricité
+
+** Complémentaires
+Fonctions visuelles
+Champ visuel
+* Footnotes
+
+[fn:6] Si BAV, vasculaire probable. Sinon HTIC
+
+[fn:5] Punctiformes, flammèches, profondes
+
+[fn:4] Cellules inflammatoires, protéines dans l'humeur aqueuse
+
+[fn:3] Oedème conjonctival
+
+[fn:2] Plus de voie efférente \thus oeil atteint : RPM direct aboli. Oeil sain : RPM consensuel aboli
+
+[fn:1] Plus de voie afférente  \thus RPM (réflexe photomoteur) direct et
+consensuel aboli pour l'oeil atteint
