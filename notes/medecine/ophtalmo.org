@@ -194,7 +194,79 @@ Examen :
 Correction optique. Si amblyopie, occlusion de l'oeil dominant (jusque 6-8ans)
 
 Chir si angle résident avec correction. Correction optique après opération
+* 5 Diplopie (binoculaire)
+Binoculaire : disparaît à l'occlusion d'un oeil[fn:10]. Souvent une urgence
+\danger
+
+Noyaux des nefs oculomoteurs \in tronc cérébral - racine - troncs -
+muscle. Voies supranucléaire (latéralité, verticalité), internucléraires.
+
+#+caption: Champ d'action (\danger \ne action) 
+| oblique inférieur | droit supérieur |
+|-------------------+-----------------|
+| droit médial      | droit latéral   |
+|-------------------+-----------------|
+| oblique supérieur | droit inférieur |
+
+Mouvement bilatéraux : synergie des muscles
+
+Vision binoculaire :
+- loi de Hering : même influx nerveux pour muscles antagonistes. Loi de
+  Sherrington : muscle antagonistes se relachent quand muscles synergistes se
+  contractent.
+- si correspondance rétinienne anormale (oeux non \parallel) : diplopie
+  
+** Diagnostic
+- Signes fonctionnels : dédoublement toujours même direction[fn:11], disparaît à
+l'occlusion
+- Interrogatoire : terrain, circonstance, brutal/progressif, {douleurs, vertiges,
+céphalées, nausées}, {horizontale, verticale, oblique}, moment journée
+- Attitude vicieuse ? Chercher déviation en position primaire par reflets
+  cornéens
+
+Examens :
+- motilité
+- cover-test (oeil dévié puis se redresse)
+- au verre rouge (dissociation point rouge et blanc)
+- test de Lancaster (superposer flèche de couleurs différente) \thus diagnostic
+  paralysie oculomotrie
+- RPM, inégalité pupillaire
+  
+** Sémiologie
+- Paralysie du III : totale (ptosis total, mydriase aréflective, 0 accomodation)
+ou partielle
+- Paralysie du IV : diplopie verticale oblique
+- Paralysie du VI : convergence oeil atteint, déficit abduction
+- Formes particulières :
+  - paralysie supranucléaire : sd Foville (latéralité), sd Parinaud (verticalité
+    et cv \thus pinéalome++)
+  - paralysie intranucléaire : ophtalmoplégie intranucléaire (parallélisme OK mais
+    déficie adduction) \thus SEP
+  - paralysie intraxile : {fonction et diplopie, diplopie et signe neuro
+    controlatéraux}
+
+** DD
+Diplopie monoculaire, simulation, hystérie
+
+** Étiologie
+- Traumatique : fracture du plancher de l'orbite (élévation globe douleureuse),
+  hémorragie méningé traumatique
+- Tumeurs : HTIC, de la base du crâne
+- Vasculaires : AVC, insuf vertébrobasilaire, *anévrime
+  intracranien* (Y penser si atteinte partielle, signes
+  pupillaires, sujet jeune, 0 FR vasc, céphalée \thus angioscanner urgence
+  \skull)A, fistule carotidocaverneuse
+- Avec exophtalmie : Basedow, tumeurs de l'orbite
+- douleureuse : penser anévrisme intracrânnien, dissection carotidienne, fistule
+  carotidocaverneuse = urgence \skull. Maladie de Horton. Sd Tolosa-Hunt
+- SEP : paralysie VI, ophtalmoplégie internucléaire
+- Myasthénie : diag = {test Prostigmine, Ac anti récepteur acétylcholine, électromyographie}
 * Footnotes
+
+
+[fn:11] \danger méconnu si ptosis/oedème palpébral
+
+[fn:10] Monoculaire : cause cornéenne, irienne, cristalinienne \thus pas une urgence.
 
 [fn:9] Abrasion épithelium cornéen ou volet dans cornée.
 
