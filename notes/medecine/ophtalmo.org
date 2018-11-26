@@ -6,7 +6,7 @@
 #+OPTIONS: H:4
 
 \input{bacteries-header}
-* Sémiologie oculaire
+* 1 Sémiologie oculaire
 ** Globe
 Membranes (d'avant en arrière)
 - externe = {cornée (avant), conjonctive (sur sclère antérieure), sclère}
@@ -78,8 +78,129 @@ Angiographie du fond d'oeils : fluorescine ou vert d'indocyanine (DMLA++)
 Echographie : mode A (longueur globe oculaire) ou B (décollement rétine, corps
 étranger intraoculaire, tumeur)
 
-Tomographie en cohérence optique (OCT) : affection maculaire
+Tomographie en cohérence optique (OCT) : affection maculaire (trou, DMLA),
+dépistage glaucome chronique
+
+* 2 Réfraction
+Oeil \approx 60 dioptries (cornée = 42, cristallin = 20)
+Emmétrope = oeil normal. Amétrope = anomalie de réfraction
+
+Punctum remotum (PR) : point le plus éloigné visible /sans/ accomoder. Punctum
+proximum (PP) = point le plus proche visible /en/ accomodant.
+
+Acuité visuelle = $\frac{1}{\alpha}$ où \alpha = pouvoir séparateur de
+l'oeil. Mesurée par l'échelle de Monoyer (de loin) en 10eme (!) et de Parinaud
+(de près)
+
+** Accomodation
+Amplitude \dec jusque 0 (79 ans) \thus presbytie (BAV vision de près). Compensée
+par verres sphériques convexes progressifs ou implant cristallinien
+
+Sinon, \dec vision de près par : médicaments, paralysie III, maladie générale,
+spasmes de l'accomodation
+
+** Anomalies de la réfraction
+Différencier maladie de l'oeil/voie optique et anomalie réfraction !
+
+Examen : réfractomètres automatiques \thus réfraction, kératométrie[fn:7]. [fn:8]
+
+*** Myopie 
+Oeil trop convergent. \approx 20% population occidentale. PR à distance finie,
+PP plus proche.
+
+Types : myopie d'indice (\inc indice de réfraction), de courbure (courbure
+cornée \inc) ou axile (longueur axiale \inc)
+
+Myopie
+- faible : < 6 dioptrie
+- forte : > 6 dioptries ou longueur axiale \ge 26mm. Héréditaire, \in [1/10,
+  5/10] /après/ correction. Complications : glaucome chronique à angle ouvert,
+  cataracte, décollement de la rétine++
+
+Correction : verres sphériques concaves.
+
+Chirurgie par photoablation au laser ecited dimer[fn:9]. Chirugie du cristallin
+possible.
+
+*** Hypermétropie
+Fréquent (enfant++). Pas assez convergent. PR = virtuel à l'arrière. Correction
+par verres sphériques convexes, lentilles ou chir.
+
+*** Astigmatisme
+Rayons de courbures différents pour les méridiens. Régulier si 2 méridiens
+principaux \bot.
+
+1 point à l'infini = 2 droite perpendiculaire (= focales) \thus myopique,
+hypermétropiique ou mixtes
+
+Correction par verres cylindriques convexes/concaves, lentilles ou chir
+
+* 3 Suivi d'un nourisson
+Déficits mineurs (amétropie, strabisme) ou sévères (grave !) (milieux transparents,
+  malforamtion, rétinopathie, atteintes neuro centrales)
+
+20% d'enfant < 6 ans avec anomalie visuelle. Si non traitée, amblyopie (BAV),
+définitive > 6ans !
+
+Développement :
+- 1ere semaine : réflexe lumière, RPM
+- 2-4e semaine : reflexe de poursuite
+- 4-12e semaine : reflexe de poursuite
+- 3e mois : vision des formes
+- 4-5e mois : coordinatio oeil-tête-main
+- > 2 ans : AV mesurable
+Examens obligatoires pour {strabisme, nystagmus, anomalie organique, trouble
+comportement visuel}:
+- dépistage anténal (écho)
+- 1ere semaine
+- 4eme mois
+- 9eme mois
+- 2 ans
+- 3-6 ans
+  
+Dépistage : leucocorie, glaucome congénital, malformations, infections
+maternelles, maladies enfants secoués, rétinopathie des prématurés
+* 4 Strabisme de l'enfant
+  
+Position de l'oeil anormale et altération vision binoculaire. Provient d'une
+perturbation de la fusion.
+
+Conséquences :
+- Si aigu : diplopie possible. Si ancien : corrigé par cerveaux \thus vision
+binoculaire non acquise si strabisme dans premiers mois de vie !. Amblyopie
+possible
+- Perturbation vision stéréoscopie (3D)
+ 
+Souvent dans l'enfance. 4% population. *Dépistage avant 2 ans*
+
+** Dépistage
+Jamais normal, toujours symptôme
+
+Interrogatoire :
+- date d'apparition
+- horizontal : /eso-/ si convergent, /exo-/ si divergent. Vertical : /hyper-/,
+  /hypo-/. Si divergent < 9 mois, examen neuroradio
+- intermittent ?
+- oeil dominé
+  
+Examen : 
+- motilité : strabisme paralytique ?
+- segment antérieur et FO (fond d'oeil) : perte transparence, patho rétinienne ? Si nystagmus : électrorétinogramme, PEV, IRM
+- réfraction sous cycloplégique : amyotropie ? Hypermétropie fréuente
+- acuité visuelle : amblyopie ? (> 2/10 entre 2 yeux)
+- mesure de l'angle de déviation (si chir), vision binoculaire (pronostique)
+
+** Traitement
+Correction optique. Si amblyopie, occlusion de l'oeil dominant (jusque 6-8ans)
+
+Chir si angle résident avec correction. Correction optique après opération
 * Footnotes
+
+[fn:9] Abrasion épithelium cornéen ou volet dans cornée.
+
+[fn:8] Chez l'enfant, cycloplégique
+
+[fn:7] Courbure de la cornée
 
 [fn:6] Si BAV, vasculaire probable. Sinon HTIC
 
