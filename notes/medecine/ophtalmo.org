@@ -32,7 +32,7 @@ Annexes
   
 ** Examen
 Interrogatoire : 
-- baisse d'acuité visuelle (BAV), fatigue visuelle, myodésopsise,
+- baisse d'acuité visuelle (BAV), fatigue visuelle, myodésopsies,
 métamorphopsies, héméralopie, scotome/amputation champ visuel, 
 - mode d'installation : urgente si brutal
 - douleur superficielles/profondes
@@ -359,7 +359,85 @@ Oeil rouge, douloureux, BAV
   - néovaisseaux sur l'iri
   - /Ttt/ hypotonisants locaux et généraux, photocoagulation ou injection anti-VEGF
 - Endophtalmie post-opératoire : douleur intense, oedème palpébral, hyalite
+* 7 Altération de la fonction visuelle
+** Examen
+Interrogatoire : BAV objective, altération CV  (myodésopsies, phosphènes,
+métamorphopsies, éclipse viusuelle (qq secondes) ou cécité monoculaire
+transitoire (qq min-heures), aura visuelle), installation, unilatéral ?, douleur
+? ATCD, ttt, traumatisme ?
+
+Examen ophtalmo : AV (avec correction), RPM, segment antériur, tonus oculaire,
+{cristallin, vitré, rétine, vaisseux, nerf optique}
+
+** BAV progressive [fn:16]
+Si améliorié par correction optique, trouble de réfraction. Sinon 
+
+*** Transparence anormale
+Cataracte : BAV bilatérale, photophobie, myopie d'indice, diplopie
+monoculaire. Perte de transparence du cristallin (opalescent). Étiologie : âge
+surtout. /Ttt/ : chir
+
+Autres : cornées, vitré (hyalite des uvéite)
+
+*** Atteinte nerf optique
+Glaucome chronique à angle ouvert (GCAO) : longtemps asymptomatique. Diag =
+{\inc tonus oculaire, altération CV, excavation glaucomateuse de la
+papille}. /Ttt/ : collyre hypotonisants, trabéculoplastie (laser/chir)
+
+Autres : neuropathie toxiques (alcool-tabac, médic), héréditaires, compressive
+
+*** Atteinte de la rétine/macula
+Dystrophies rétiniennes héréditaires :
+- maculoopathies héréditaires : maladie de Stargardt = débute vers 7-12 ans,
+  1/10e en fin d'évolution (!), en "oeil de boeuf"
+- rétinopathies pigmentaires : héméralopie, rétrécissement progressif du CV
+  (débute dans l'enfance), aspect réticulé "en ostéoblastes"
+"Interface vitréomaculaire" = séparation vitré-région maculaire
+- membranes épi-/pré-maculaire (par tissu fibreux). "reflet" cellophane". OCT
+  maculaire. Chir possible
+- trous maculaires : OCT
+Dégénérescence maculaire liée à l'âge 
+
+Oedème maculaire : en "pétales de fleur" si important. Causes : 
+  - rétinopathie diabétique : /ttt/ : injection IV anti-VEGF ou corticoïdes
+  - occlusion veine centrale de la rétine : /ttt/ idem
+  - chir cataracte 
+  - uvéite postérieures : /ttt/ : cause ou corticoïdes retard
+    
+Maculopathies toxiques aux antipaludéens de synthèse : potentiellement cécité
+irréversible. Pas avant 5 ans ? Commence par périfovéolopathie \thus arrêt
+immédiat du ttt \danger
+
+** Altération du CV
+= altération vision périphérique
+
+*** Affections rétiniennes 
+Scotomes (para)centraux , déficits périphériques
+
+*** Atteinte des voies optiques
+Atteinte nerf optique : cécité unilatérale (trauma, tumeur) 
+- scotome central unilatéral ou caecocentral uni-/bi-latéral
+- déficicit fasciculaire possible
+- déficit altitudinal si neuropathie optique ischémique antérieure (NOIA)
+- étiologies :
+  - SEP (névrite optique rétrobulbaire)
+  - NOIA 
+  - toxiques et métabolique : bilatéral, progressive. {alcool-tabac, médicament,
+    professionnelle, métabolique}, tumoral (tumeurs intraorbitaires, étage
+    antérieur du crâne)}
+
+Lésion du chiasma optique : hémianopsie/quadranopsie bitemporale (décussation
+!). Étiologies : adénome hypophyse surtout
+
+Lésions rétrochiasmatique : hémianopsie latérale homonyme. Si atteinte des
+radiaton optiques, quadranopsie latérale homonymes. Étiologies vasc, tumoral,
+trauma
+
+Cécité corticale : bilatérale, brutale. Examen ophtalmo OK, RPM OK,
+désorientation, hallucination visuelles, anosognosie
 * Footnotes
+
+[fn:16] Cf chapitre suivant pour BAV brutale
 
 [fn:15]  Déshydratation du vitré
 
