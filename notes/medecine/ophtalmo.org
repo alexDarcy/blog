@@ -435,7 +435,149 @@ trauma
 
 Cécité corticale : bilatérale, brutale. Examen ophtalmo OK, RPM OK,
 désorientation, hallucination visuelles, anosognosie
+* 8 Anomalies de la vision d'apparition brutale
+** Diagnostic
+Interrogatoire : BAV ? altération CV ? myodésopsies,  phosphènes,
+métamorphopsies ? rapidité, latéralité, type de douleurs, ATCD, ttt, trauma ?
+
+Examen ophtalmo ( 2 yeux) : AV, RPM, segment antérieur, tonus oculaire, FO
+
+** Étiologie
+BAV, oeil rouge et douloureux 
+- kératite aigüe : douleur superficielles importantes, photophobie,
+  blépharospasme. \dec transparence cornée, cercle périkératique, ulcération(s)
+  cornéenne(s)
+- glaucome aigü par fermeture de l'angle : douleurs profondes, intense,
+  irradiant dans trijumeaux. \inc\inc tonus oculaire ("bille de bois" à la
+  palpation)
+- uvéites 
+  - antérieure aigüe : BAV, douleurs, cercle périkératique, myosis par synéchies
+    iridocristalliniennes. Tyndall, chercher uvéite postérieure
+  - postérieure : toxoplasmose oculaire le plus souvent. Myodésopises, BAV. FO =
+    foyer blanchâtre puis cicatrice. /Ttt/ antiparasitaire si AV menacée
+- autres  : glaucome néovasculaire, endophtalmie (contexte post-op)
+
+BAV, oeil blanc indolore
+- FO non visible 
+  - hémorragie intravitréenne : précédée d'une "pluie de cendre", BAV
+    variable. Écho. B pour éliminer un décollement de la rétine. Causes :
+    rétinopathie diabétique proliférante, occlusions ischémique de la veine
+    centrale de la rétine, déchirure rétinienne, sd de Terson[fn:17], plaie
+    perforante
+  - uvéite intermédiaire (dans le vitré) : cellules inflammatoires
+- FO visible anormal
+  - occlusion de l'artère centrale de la rétine : BAV brutale, mydriase
+    aréflexique et RPM direct aboli, \dec diffuse du calibre artériel, oedème
+    blanc rétinien ischémique de la rétine (macula rouge cerise)
+  - occlusion de la veine centrale de la rétine : BAV variable, {oedème
+    papillaire, hémorragie rétiniennes disséminées, nodules cotonneux,
+    tortuosités veineuse}. Préciser si ischémique
+  - DMLA : BAV et métamorphopsies brutales, décolleme exsudatif de la rétine
+    maculaire \pm hémorragies, exsudats profonds
+  - décollement de la rétine rhegmatogène : après une déhiscence, le vitré va
+    sous la rétine. 
+    - causese : idiopathique (âgé), myopie (forte), chir cataracte
+    - évolution spontanée = cécité
+    - /ttt/ chir (semi-urgence \danger) 
+    - clinique : myodésopsies, phosphènes, amputation CV périphérique, BAV
+    - diag par FO : rétine en relief, mobile, avec des plis
+    - toujours examiner oeil controlatéral (ttt préventif par photocoagulation)
+      \danger
+  - neuropathie optique ischémique antérieure : BAV unilatérale brutale, \dec
+    RPM direct, oedème papillaire, déficit fasciculaire pour CV. Cause : surtout
+    artériosclérose mais penser à Horton (urgence \skull)
+FO visible normal
+  - névrite optique rétrobulbaire : BAV unilatérale progresse en qq jours (!),
+    douleur \inc mouvement oculaires, RPM direct \dec, FO normal, scotome
+    (caeco)-central
+  - atteinte des voies (rétro)chiasmatiques : tumorale (si progressive), vasc (si brutale)
+    
+Anomalies transitoire 
+  - cécité monoculaire transitoire (qq minute) = amarause. FO pour embole
+    rétinien. Urgence \skull. Cherhe athérome carotidien, cardiopathie embolinogène
+  - insuf vertébrobasilaire, éclipses visuelle, scotome scintillant
+* 9 Prélèvement de cornée
+Le médecine prélèveur \ne celui qui a fait le constat de mort
+
+Sérologies à faire : HIV, HTLV, hépatite B et C, syphils
+CI :
+- locale : chir sur segment antérieure, uvéite, conjonctivite, tumeur,
+  rétinoblastome, mélanome choroïdien
+- infectieuses (Sida, rage, Creutzfeld-Jakob, héatite..),
+- neuro inexpliquée, démence
+
+Prélèvement *in situ*
+
+* 10 Greffe de cornée
+Couches (depuis l'extérieur) = épithelium, couche de Bowman, stroma, membrane
+  de Descemet, endothelium
+  
+Techniques
+- kératoplastie transfixiante = toute les couches
+- kératoplastie lamellaire antérieure = épithelium, Bowman et stroma seulement
+- kératoplastie endothéliale : membrane de Descemet et endotheliale seulement.
+
+Indications : trauma perforant de la cornée, brûlures chimiques, dégénérescene
+cornéenne (kératocône), kératite (herpétique), dystrophie bulleuse chez âgé
+
+Bon pronostic dans $\frac{2}{3}$
+
+Complications rare (retard d'épithélialisation, oedème cornéen précoce, rejet
+immuntaire, récivide de maladie causale, hypertonie oculaire, astigmatisme post-op
+* 11 Traumatismes oculaires
+** Globe fermé (contusions)
+Dangerosité inversement \propt taille agent.
+
+Interrogatoire : douleurs, AV, heure dernier repas, lésions associées.
+
+Examen :
+- contusions du segment antérieur 
+  - cornée : /ttt/ lubrifiant cicatrisant
+  - conjonctive : plaie ou hémorragie sous-conjonctivale. Toujours chercher plaie
+    sclérale, corps étranger
+  - chambre antérieure : hyphéma. Résorption spontanée
+  - iris : iridodyalise [fn:18], rupture sphincter irien, mydriase post-trauma
+  - cristallin : (sub)luxation, cataracte contusive (plusieurs mois après...)
+  - hypertonie oculaire : si lésions de l'angle iridocornée, hyphéma, luxation
+    antérieure du cristallin
+- contusions du segment postérieur
+  - oedème rétinien du pôle supérieur : guérison spontanée
+  - hémorragie intravitréenne : résorption spontanée. Écho B si décollement de
+    rétine (DR) suspecté
+  - déchirure rétiniennes périph. Photocoagulation prophylactique possible
+    (contre DR)
+  - rupture de la choroïde : BAV définite si macula
+
+** Globe ouverts
+Rupture du globe : pronostic plus péjoratif si postérieur
+
+Trauma perforant : 
+- AVP, accidents domestique, bricolage, agression.
+- larges, mauvais pronostic ou petite plais (cornée ou sclère)
+- risque : méconnaître plaie, corps étranger. Si doute, scanner !
+
+** Corps étrangers
+Diagnosic évident : 
+- superficiel 
+  - circonstance, symptôme de conjonctivite ou kératite
+  superficielle. Corps étranger souvent visible
+  - bon pronostic, ttt lubrifiant et antiseptique/ATB local
+- intraoculaire : circonstance, porte d'entrée et trajet visible
+Délicat si trauma non remarqué, pas de porte d'entrée, trajet et corps non visible
+
+Examens : TDM si doute. Pas d'écho B si transfixiante. Pas d'IRM \danger
+
+Complications (si intraoculaire) : endophtalmie (grave++), DR, cataracte traumatique
+
+Complications tardives : ophtalmie sympathique [fn:19], sidérose, chalcose
 * Footnotes
+
+[fn:19] Uvéite auto-immune sévère
+
+[fn:18] Désinsertion de la base de l'iris
+
+[fn:17] Hémorragie itnravitréen uni-/bi-latérale et hémorragie méningée par
+rupture d'anévrisme intracrânien
 
 [fn:16] Cf chapitre suivant pour BAV brutale
 
