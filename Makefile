@@ -15,6 +15,7 @@ build:
 
 MED=notes/medecine
 NOTES_TEX= \
+${MED}/douleur.tex\
 ${MED}/endocrino.tex\
 ${MED}/maladies_infectieuses.tex\
 ${MED}/nutrition.tex\
@@ -29,13 +30,10 @@ notes: ${NOTES_PDF}
 	mkdir -p _site/notes/medecine
 	cp $^ _site/notes/medecine
 
-lollol:
-	echo ${NOTES_ORG}
-
 notes/medecine/%.pdf: notes/medecine/%.tex
 	latexmk -pdf -lualatex -cd $<
 
-${MED}/endocrino.tex: ${MED}/endocrino.org
+${MED}/%.tex: ${MED}/%.org
 	emacs -u "$(id -un)" --batch $< --eval '(load user-init-file)' -f org-latex-export-to-latex
 
 debug: generate update

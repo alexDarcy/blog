@@ -7,7 +7,7 @@
 
 \input{bacteries-header}
 
-* 132 : Antalgiques
+* 132 : Antalgiques
 ** Palier 1 et AINS
 *** Paracétamol
 1ere intention, surtout douleur chronique
@@ -77,7 +77,7 @@ Tramadol :
 - max 400mg/j.
 - IV lente seulement en hôpital
 
-Poudre d'opium avec paracétmal : 1-2 gélules toutes 4h (max 10/j)
+Poudre d'opium avec paracétamol : 1-2 gélules toutes 4h (max 10/j)
 
 Contre-indications : insuf respiratoire, asthme grave, insuf hépatocellulaire
 sévère, enfants < 12 ans [codéine] ou 3 ans [tramadol], allaitement, épilepsie
@@ -85,7 +85,7 @@ non contrôlé [tramadol], +(ant)agoniste morphinique, +IMAO[fn:5] [tramadol].
 
 Effets indésirables :
 - ceux des opioïdes = sédation, vertige, {constipation, nausées, vomissements},
-  {bronchospasme (dépression respiratoire)}, rétetion d'urine
+  {bronchospasme (dépression respiratoire)}, rétention d'urine
 - sécheresse buccale, douleurs abdo, troubles visuels, convulsion (si facteurs)
 
 Éviter codéine si enceinte. \dec posologie si âgé
@@ -99,7 +99,7 @@ AMM :
 - Agonistes purs
   - Morphine (agoniste) : référence. Sous forme de chlorhydrate (inject) ou
     sulfate (orale en LP ou  LI)
-  - Hydromorphine (agoniste) : délai 2h, dure 12h. Seconde intention dans cancer
+  - Hydromorphone (agoniste) : délai 2h, dure 12h. Seconde intention dans cancer
   - Oxycodone (agoniste) : morphine x2. LP (12h) ou LI  (4h)
   - Fentanyl : morphine x50-150. Transdermique (délai 12-18h et dure 72h) en
     relais ou transmuqueuse (délai 10min et dure 1-2h)
@@ -114,7 +114,7 @@ Insuf respi décompensée, insuf hépatocellulaire sévère, insuf rénale sév�
 épilepsie non contrôlée, trauma crânier et HTIC, intox alcoolique aigüe, +IMAO,
 associer agonistes avec a. partiel ou a-antagonistes
 
-*** ECI
+*** EI
 - Constipation (fréquent !):
  - préventif = laxatif oral systématique, hygiéno-diététique, oxycodone et
    naloxone
