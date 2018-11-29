@@ -570,6 +570,49 @@ Examens : TDM si doute. Pas d'écho B si transfixiante. Pas d'IRM \danger
 Complications (si intraoculaire) : endophtalmie (grave++), DR, cataracte traumatique
 
 Complications tardives : ophtalmie sympathique [fn:19], sidérose, chalcose
+* 12 Brûlures oculaires
+Accident industriels (graves), domestiques, aggression
+
+Brûlures 
+- thermique : peu grave (brûlure par cigarette). Cicatrisation rapide, sans séquelles
+- acides : gravité modérée-moyenne, grave si très concentré
+- basiques : grave !
+  
+Classification de Roper-Hall
+1. bon pronostic 
+2. bon pronostic : opacité cornéenne mais détails iris, ischémie < 1/3 \diameter
+3. pronostic réservé : désépithélialisation cornéenne totale, opacité cornéenne
+   , ischémie \in [1/3, 1/2] \diameter
+4. pronostic péjoratif 
+
+Ttt d'urgence par lavage (20-30min) par sérum phy (ou eau), puis collyre
+corticoïde ASAP
+
+Autres :
+- brûlures des UV (ski, UV)
+- soudure à l'arc sans lunette
+- phototraumatisme (éclipse) : BAV définitive !
+
+* 13 Cataracte
+Déf: opacification (partielle ou non) du cristallin. 
+
+** Diagnostic
+Découvert sur BAV (progressive, vision de loin), photophobie, (diplopie
+monoculaire), jaunissement
+
+Examen clinique :
+- interrogatoire : âge, profession, ATCD (diabète, corticoïdes), myodésopsies,
+  métamorphopsies
+- AV (oeil par oeil, bionculaire)
+- lampe à fente : 
+  - cristallin (caracte {nucléaire, sous-capsulaire postérieure, corticale, totale})
+  - éliminer autre patho (cornée, iris, vitré, rétine (DMLA, glaucome)
+  - mesure tonus oculaire (hypertonie, glaucome)
+
+Diagnostic clinique mais en complémentaire :
+- écho en mode B si décollement de rétine/tumeur intraoculaire
+- pour le cristallin artificiel : kératométire, longeur axiale
+
 * Footnotes
 
 [fn:19] Uvéite auto-immune sévère
