@@ -51,13 +51,13 @@ Pression intraoculaire par tonomètre à air pulsé. Hypertonie si \ge 22 mmHg
 
 Gonioscopie : angle iridocornéen
 
-Fond d'oeil
+Fond d'\oe{}il
 - direct, indirect (apprentissage++), biomicroscopie
 - aspect : pôle postérieur = {papille, vaisseaux rétitiens, macula}, rétine
   périphérique (si besoin)
 - lésions : microanévrisme (points rouges), hémorragie (intravitréennes,
   prérétiniennes, sous-rétiniennes, intra-rétiniennes[fn:5]), nodules cotonneux,
-  exsudats profonds, oedème papillaire[fn:6]
+  exsudats profonds, \oe{}dème papillaire[fn:6]
 
 Oculomotricité
 
@@ -70,7 +70,7 @@ Fonctions visuelles
 - Vision des couleurs : si dépistage anomalie congénitale (planches colorées) ou
 affection acquise (Farnsworth = classer couleurs). Utile pour antipaludéens de
 synthèse ou {éthambutal, isoniazide}
-Angiographie du fond d'oeils : fluorescine ou vert d'indocyanine (DMLA++)
+Angiographie du fond d'\oe{}ils : fluorescine ou vert d'indocyanine (DMLA++)
 
 Électrophysio : électrorétinogramme (si lésion rétiniennes étendues), potentiels
 évoqués visuels (cortex occipital) (SEP++), électro-oculogramme (épithelium pigmentaire)
@@ -82,14 +82,14 @@ Tomographie en cohérence optique (OCT) : affection maculaire (trou, DMLA),
 dépistage glaucome chronique
 
 * 2 Réfraction
-Oeil \approx 60 dioptries (cornée = 42, cristallin = 20)
-Emmétrope = oeil normal. Amétrope = anomalie de réfraction
+\OE{}il \approx 60 dioptries (cornée = 42, cristallin = 20)
+Emmétrope = \oe{}il normal. Amétrope = anomalie de réfraction
 
 Punctum remotum (PR) : point le plus éloigné visible /sans/ accomoder. Punctum
 proximum (PP) = point le plus proche visible /en/ accomodant.
 
 Acuité visuelle = $\frac{1}{\alpha}$ où \alpha = pouvoir séparateur de
-l'oeil. Mesurée par l'échelle de Monoyer (de loin) en 10eme (!) et de Parinaud
+l'\oe{}il. Mesurée par l'échelle de Monoyer (de loin) en 10eme (!) et de Parinaud
 (de près)
 
 ** Accomodation
@@ -100,12 +100,12 @@ Sinon, \dec vision de près par : médicaments, paralysie III, maladie général
 spasmes de l'accomodation
 
 ** Anomalies de la réfraction
-Différencier maladie de l'oeil/voie optique et anomalie réfraction !
+Différencier maladie de l'\oe{}il/voie optique et anomalie réfraction !
 
 Examen : réfractomètres automatiques \thus réfraction, kératométrie[fn:7]. [fn:8]
 
 *** Myopie 
-Oeil trop convergent. \approx 20% population occidentale. PR à distance finie,
+\OE{}il trop convergent. \approx 20% population occidentale. PR à distance finie,
 PP plus proche.
 
 Types : myopie d'indice (\inc indice de réfraction), de courbure (courbure
@@ -147,7 +147,7 @@ Développement :
 - 2-4e semaine : reflexe de poursuite
 - 4-12e semaine : reflexe de poursuite
 - 3e mois : vision des formes
-- 4-5e mois : coordinatio oeil-tête-main
+- 4-5e mois : coordinatio \oe{}il-tête-main
 - > 2 ans : AV mesurable
 Examens obligatoires pour {strabisme, nystagmus, anomalie organique, trouble
 comportement visuel}:
@@ -162,7 +162,7 @@ Dépistage : leucocorie, glaucome congénital, malformations, infections
 maternelles, maladies enfants secoués, rétinopathie des prématurés
 * 4 Strabisme de l'enfant
   
-Position de l'oeil anormale et altération vision binoculaire. Provient d'une
+Position de l'\oe{}il anormale et altération vision binoculaire. Provient d'une
 perturbation de la fusion.
 
 Conséquences :
@@ -181,21 +181,21 @@ Interrogatoire :
 - horizontal : /eso-/ si convergent, /exo-/ si divergent. Vertical : /hyper-/,
   /hypo-/. Si divergent < 9 mois, examen neuroradio
 - intermittent ?
-- oeil dominé
+- \oe{}il dominé
   
 Examen : 
 - motilité : strabisme paralytique ?
-- segment antérieur et FO (fond d'oeil) : perte transparence, patho rétinienne ? Si nystagmus : électrorétinogramme, PEV, IRM
+- segment antérieur et FO (fond d'\oe{}il) : perte transparence, patho rétinienne ? Si nystagmus : électrorétinogramme, PEV, IRM
 - réfraction sous cycloplégique : amyotropie ? Hypermétropie fréuente
 - acuité visuelle : amblyopie ? (> 2/10 entre 2 yeux)
 - mesure de l'angle de déviation (si chir), vision binoculaire (pronostique)
 
 ** Traitement
-Correction optique. Si amblyopie, occlusion de l'oeil dominant (jusque 6-8ans)
+Correction optique. Si amblyopie, occlusion de l'\oe{}il dominant (jusque 6-8ans)
 
 Chir si angle résident avec correction. Correction optique après opération
 * 5 Diplopie (binoculaire)
-Binoculaire : disparaît à l'occlusion d'un oeil[fn:10]. Souvent une urgence
+Binoculaire : disparaît à l'occlusion d'un \oe{}il[fn:10]. Souvent une urgence
 \danger
 
 Noyaux des nefs oculomoteurs \in tronc cérébral - racine - troncs -
@@ -214,7 +214,7 @@ Vision binoculaire :
 - loi de Hering : même influx nerveux pour muscles antagonistes. Loi de
   Sherrington : muscle antagonistes se relachent quand muscles synergistes se
   contractent.
-- si correspondance rétinienne anormale (oeux non \parallel) : diplopie
+- si correspondance rétinienne anormale (\oe{}ux non \parallel) : diplopie
   
 ** Diagnostic
 - Signes fonctionnels : dédoublement toujours même direction[fn:11], disparaît à
@@ -226,7 +226,7 @@ céphalées, nausées}, {horizontale, verticale, oblique}, moment journée
 
 Examens :
 - motilité
-- cover-test (oeil dévié puis se redresse)
+- cover-test (\oe{}il dévié puis se redresse)
 - au verre rouge (dissociation point rouge et blanc)
 - test de Lancaster (superposer flèche de couleurs différente) \thus diagnostic
   paralysie oculomotrie
@@ -236,7 +236,7 @@ Examens :
 - Paralysie du III : totale (ptosis total, mydriase aréflective, 0 accomodation)
 ou partielle
 - Paralysie du IV : diplopie verticale oblique
-- Paralysie du VI : convergence oeil atteint, déficit abduction
+- Paralysie du VI : convergence \oe{}il atteint, déficit abduction
 - Formes particulières :
   - paralysie supranucléaire : sd Foville (latéralité), sd Parinaud (verticalité
     et cv \thus pinéalome++)
@@ -261,7 +261,7 @@ Diplopie monoculaire, simulation, hystérie
   carotidocaverneuse = urgence \skull. Maladie de Horton. Sd Tolosa-Hunt
 - SEP : paralysie VI, ophtalmoplégie internucléaire
 - Myasthénie : diag = {test Prostigmine, Ac anti récepteur acétylcholine, électromyographie}
-* 6 Oeil rouge/douloureux
+* 6 \OE{}il rouge/douloureux
 ** Examen
 Interrogatoire : mode d'apparition, douleur superficielle/profonde, BAV
    ?, ATCD ophtalmo et généraux, signes locaux associés
@@ -288,7 +288,7 @@ Examen à lampe à fente (bilatéral) :
 - FO 
 
 ** Étiologies
-Oeil rouge, non douloureux, sans BAV
+\OE{}il rouge, non douloureux, sans BAV
 - hémorragie sous-conjonctivale spontanée : chercher HTA, trouble
   coagulation. Penser corps étranger, plaie sclérale \danger
 - conjonctivite : "grain de sable", prurit
@@ -296,7 +296,7 @@ Oeil rouge, non douloureux, sans BAV
 matin). Germe Gram+. /Ttt/ : hygiène des mains, lavage sérum phy, collyre
 antiseptique (pas forcément ATB !!)
 
-Oeil rouge unilatéral, douloureux, sans BAV
+\OE{}il rouge unilatéral, douloureux, sans BAV
 - épisclérite (sous conjonctive) : rougeur disparaissant avec collyre
   vasoconstricteur. /Ttt/ corticothérapie locale
 - sclérite : douleur \inc mobilisation du globe. Ne disparait pas au
@@ -315,7 +315,7 @@ Yeux rouges bilatéraux, douloureux, sans BAV
   facteurs irritants, occlusion points lacrymaux
 - autres : Basedow, malpositions palpébrale, conjonctivite d'irritation
 
-Oeil rouge, douloureux, BAV
+\OE{}il rouge, douloureux, BAV
 - Kératite aigüe : BAV, douleurs
   superficielles importantes, larmoiement, photophobie,
   blépharospasme. Érosion/ulcérationsc cornée, \dec transparence cornée,
@@ -347,7 +347,7 @@ Oeil rouge, douloureux, BAV
     dans champre postérieure et bloque le trabeculum.
   - signes fonctionnels .: douleurs profondes++ irradiant dans trijumeau,
     souvent nausées, vomissement, BAV
-  - examen : douleurs intenses, oeil rouge, transparence cornée \dec diffuse,
+  - examen : douleurs intenses, \oe{}il rouge, transparence cornée \dec diffuse,
     semi-mydriase aréflexique, angle iridocornéen fermé, hypertonie oculaire++
   - cécité en qq jours sans ttt \danger 
   - /ttt/ = urgence \skull : antalgique, inhibiteurs de l'anhydrase
@@ -358,7 +358,7 @@ Oeil rouge, douloureux, BAV
   l'humeur aqueuse
   - néovaisseaux sur l'iri
   - /Ttt/ hypotonisants locaux et généraux, photocoagulation ou injection anti-VEGF
-- Endophtalmie post-opératoire : douleur intense, oedème palpébral, hyalite
+- Endophtalmie post-opératoire : douleur intense, \oe{}dème palpébral, hyalite
 * 7 Altération de la fonction visuelle
 ** Examen
 Interrogatoire : BAV objective, altération CV  (myodésopsies, phosphènes,
@@ -389,7 +389,7 @@ Autres : neuropathie toxiques (alcool-tabac, médic), héréditaires, compressiv
 *** Atteinte de la rétine/macula
 Dystrophies rétiniennes héréditaires :
 - maculoopathies héréditaires : maladie de Stargardt = débute vers 7-12 ans,
-  1/10e en fin d'évolution (!), en "oeil de boeuf"
+  1/10e en fin d'évolution (!), en "\oe{}il de b\oe{}uf"
 - rétinopathies pigmentaires : héméralopie, rétrécissement progressif du CV
   (débute dans l'enfance), aspect réticulé "en ostéoblastes"
 "Interface vitréomaculaire" = séparation vitré-région maculaire
@@ -398,7 +398,7 @@ Dystrophies rétiniennes héréditaires :
 - trous maculaires : OCT
 Dégénérescence maculaire liée à l'âge 
 
-Oedème maculaire : en "pétales de fleur" si important. Causes : 
+\OE{}dème maculaire : en "pétales de fleur" si important. Causes : 
   - rétinopathie diabétique : /ttt/ : injection IV anti-VEGF ou corticoïdes
   - occlusion veine centrale de la rétine : /ttt/ idem
   - chir cataracte 
@@ -443,7 +443,7 @@ métamorphopsies ? rapidité, latéralité, type de douleurs, ATCD, ttt, trauma 
 Examen ophtalmo ( 2 yeux) : AV, RPM, segment antérieur, tonus oculaire, FO
 
 ** Étiologie
-BAV, oeil rouge et douloureux 
+BAV, \oe{}il rouge et douloureux 
 - kératite aigüe : douleur superficielles importantes, photophobie,
   blépharospasme. \dec transparence cornée, cercle périkératique, ulcération(s)
   cornéenne(s)
@@ -457,7 +457,7 @@ BAV, oeil rouge et douloureux
     foyer blanchâtre puis cicatrice. /Ttt/ antiparasitaire si AV menacée
 - autres  : glaucome néovasculaire, endophtalmie (contexte post-op)
 
-BAV, oeil blanc indolore
+BAV, \oe{}il blanc indolore
 - FO non visible 
   - hémorragie intravitréenne : précédée d'une "pluie de cendre", BAV
     variable. Écho. B pour éliminer un décollement de la rétine. Causes :
@@ -467,9 +467,9 @@ BAV, oeil blanc indolore
   - uvéite intermédiaire (dans le vitré) : cellules inflammatoires
 - FO visible anormal
   - occlusion de l'artère centrale de la rétine : BAV brutale, mydriase
-    aréflexique et RPM direct aboli, \dec diffuse du calibre artériel, oedème
+    aréflexique et RPM direct aboli, \dec diffuse du calibre artériel, \oe{}dème
     blanc rétinien ischémique de la rétine (macula rouge cerise)
-  - occlusion de la veine centrale de la rétine : BAV variable, {oedème
+  - occlusion de la veine centrale de la rétine : BAV variable, {\oe{}dème
     papillaire, hémorragie rétiniennes disséminées, nodules cotonneux,
     tortuosités veineuse}. Préciser si ischémique
   - DMLA : BAV et métamorphopsies brutales, décolleme exsudatif de la rétine
@@ -481,10 +481,10 @@ BAV, oeil blanc indolore
     - /ttt/ chir (semi-urgence \danger) 
     - clinique : myodésopsies, phosphènes, amputation CV périphérique, BAV
     - diag par FO : rétine en relief, mobile, avec des plis
-    - toujours examiner oeil controlatéral (ttt préventif par photocoagulation)
+    - toujours examiner \oe{}il controlatéral (ttt préventif par photocoagulation)
       \danger
   - neuropathie optique ischémique antérieure : BAV unilatérale brutale, \dec
-    RPM direct, oedème papillaire, déficit fasciculaire pour CV. Cause : surtout
+    RPM direct, \oe{}dème papillaire, déficit fasciculaire pour CV. Cause : surtout
     artériosclérose mais penser à Horton (urgence \skull)
 FO visible normal
   - névrite optique rétrobulbaire : BAV unilatérale progresse en qq jours (!),
@@ -522,11 +522,11 @@ cornéenne (kératocône), kératite (herpétique), dystrophie bulleuse chez âg
 
 Bon pronostic dans $\frac{2}{3}$
 
-Complications rare (retard d'épithélialisation, oedème cornéen précoce, rejet
+Complications rare (retard d'épithélialisation, \oe{}dème cornéen précoce, rejet
 immuntaire, récivide de maladie causale, hypertonie oculaire, astigmatisme post-op
 * 11 Traumatismes oculaires
 ** Globe fermé (contusions)
-Dangerosité inversement \propt taille agent.
+Dangerosité inversement \propto taille agent.
 
 Interrogatoire : douleurs, AV, heure dernier repas, lésions associées.
 
@@ -541,7 +541,7 @@ Examen :
   - hypertonie oculaire : si lésions de l'angle iridocornée, hyphéma, luxation
     antérieure du cristallin
 - contusions du segment postérieur
-  - oedème rétinien du pôle supérieur : guérison spontanée
+  - \oe{}dème rétinien du pôle supérieur : guérison spontanée
   - hémorragie intravitréenne : résorption spontanée. Écho B si décollement de
     rétine (DR) suspecté
   - déchirure rétiniennes périph. Photocoagulation prophylactique possible
@@ -603,7 +603,7 @@ monoculaire), jaunissement
 Examen clinique :
 - interrogatoire : âge, profession, ATCD (diabète, corticoïdes), myodésopsies,
   métamorphopsies
-- AV (oeil par oeil, bionculaire)
+- AV (\oe{}il par \oe{}il, bionculaire)
 - lampe à fente : 
   - cristallin (caracte {nucléaire, sous-capsulaire postérieure, corticale, totale})
   - éliminer autre patho (cornée, iris, vitré, rétine (DMLA, glaucome)
@@ -658,6 +658,39 @@ Trabéculoplastie au laser = photocoagulation de l'angle. Effet modeste, non dur
 Chir : trabéculectomie. Complications (rare) = cataracte, hyoptonie précoce
 avec décollement choroïdien, infection globe oculaire. Principal échec :
 fermeture de la voie par fibrose sous-conjonctivale.
+
+* 15 Dégénérescence maculaire liée à l'âge
+Atteinte de la macula chez > 50 A. Débutante/intermédaire : drusent, altération
+pigmentaire, AV normale ou peu \dec. Évoluée : atrophique ou exsudative
+
+Prévalence : 18% après 50 ans, 37% à 85 ans.
+
+FR : âge, pop européennes, polymorphisme facteur H du complément, tabac, régime
+pauvre en anti-oxydant/riches en (acide gras saturés et cholestérol)
+
+** Diagnostic
+- Mesure AV (loin et près, recherche scotome central ou métamorphopsies (grille
+d'Amsler)
+- FO (drusen, altération pigmentaires, atrophie épithelium pigmentaire,
+forme exsudative [cf /infra/].
+- OCT : suivi, ou diagnostic si + FO
+
+** Formes cliniques
+- débutante : /drusen/ = résidus de phagocytose des photorécepteurs. Petites
+  lésions profondes jaunâtre. OCT
+- atrophique : disparition de l'épithelium pigmentaire. FO : atrophie de
+  l'épithelium pigmentaire et choroïde. BAV sévère avec scotome centrale
+- exsudative (néovaisseaux sous rétine) : \oe{}dème intrarétinien, hémorragies,
+  décollement maculaire exsudatif (BAV, métamorphopsies brutales). Sans ttt :
+  BAV sévère, scotome central définitif. BAV chez drusen = urgence \skull
+
+** Ttt
+- débutante : vit E, C, zinc, lutéine, zéaxantine
+- atrophique : \emptyset
+- exsudative : injection d'anti-VEGF : ranibizumab,
+  aflibercet. bévacizumab. Stoppent néovaisseux, font régresser l'\oe{}dème. 40%
+  ont amélioration visuelle à 2 ans. 
+Laser possible mais risque thrombose
 * Footnotes
 
 [fn:20] EI : rougeur, irrit. oculaire. Puis iris plus sombre, \inc pousse cils. 
@@ -675,11 +708,11 @@ rupture d'anévrisme intracrânien
 
 [fn:14] \dec production d'humeur aqueuse.
 
-[fn:13] Oedème conjonctival
+[fn:13] \OE{}dème conjonctival
 
 [fn:12] Cherche plaie conjonctivale !
 
-[fn:11] \danger méconnu si ptosis/oedème palpébral
+[fn:11] \danger méconnu si ptosis/\oe{}dème palpébral
 
 [fn:10] Monoculaire : cause cornéenne, irienne, cristalinienne \thus pas une urgence.
 
@@ -695,9 +728,9 @@ rupture d'anévrisme intracrânien
 
 [fn:4] Cellules inflammatoires, protéines dans l'humeur aqueuse
 
-[fn:3] Oedème conjonctival
+[fn:3] \OE{}dème conjonctival
 
-[fn:2] Plus de voie efférente \thus oeil atteint : RPM direct aboli. Oeil sain : RPM consensuel aboli
+[fn:2] Plus de voie efférente \thus \oe{}il atteint : RPM direct aboli. \OE{}il sain : RPM consensuel aboli
 
 [fn:1] Plus de voie afférente  \thus RPM (réflexe photomoteur) direct et
-consensuel aboli pour l'oeil atteint
+consensuel aboli pour l'\oe{}il atteint
