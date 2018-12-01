@@ -691,6 +691,53 @@ forme exsudative [cf /infra/].
   aflibercet. bévacizumab. Stoppent néovaisseux, font régresser l'\oe{}dème. 40%
   ont amélioration visuelle à 2 ans. 
 Laser possible mais risque thrombose
+* 16 Occlusions artérielles rétiniennes
+Artères ciliaires postérieure alimente les couches profondes (épithelium
+pigmentaire de la rétine, photorécepteurs). 
+Artère centrale de la rétine = couche internes (cellules bipolaires,
+ganglionnaires, fibres optiques).
+
+Arrêt circulatoire \thus lésions définitives en 90min \danger
+
+** Occlusion de l'artère centrale de la rétine
+Diagnostic : 
+- BAV brutale (amaurose transitoires précédentes possibles)
+- Oeil blanc indolore, AV effondrée, mydriase aréflective (RPM direct aboli)
+- FO : dans les heures : oedème ischémique rétinien blanchâtre, tache "rouge
+  cerise de la macula")
+
+Étiologie : 
+- embolies : athérome carotidien++, cardiopathie embolinogène, ( fractures des os
+  lng ou emboles tumoraux)
+- thromboses : maladie de Horton (urgence \skull, à rechercher), (maladies de systèmes)
+- troubles coagulation : anomalie primitive, sd antiphospholipides, hyperhomocystéinémie
+
+Évolution spontanée quasiment toujours défavorable
+
+CAT : urgence \danger \skull (fonction visuelle et patho sous-jacente)
+- bilan étio : athérome, carotidien, cardiopathie embolinogène, dissection
+  carotidienne (si jeune), horton
+- ttt décevant : hypotonisant (acétazolamide IV/per os), vasodilatateur,
+  anticoagulant si  bespoin fibrinolytique
+- bilan cardio
+- Aspirine dans tous les cas. Si jeune, bon état général, ttt max. 
+- selon étio : antiagrégant plaquettaire (athérome carotidien), anti-vit K (emboles
+  cardiaques), endartériectomie
+
+** Occlusion de branche l'artère centrale de la rétine
+Amputation du CV. BAV possible. FO : \oe{}dème rétinie ischémique en secteur
+
+Évolution : \inc AV en qq semaines, pronostic visuel bon mais amputation
+perisiste.
+
+Même étio, sausf Horton. Même ttt.
+
+** Nodules cotonneux
+Occlusion d'artérioles rétiniennes précapillaire \thus nodules cotonneux =
+petites lésions blanches superficielles d'aspect duveteux.
+
+Étio : HTA, diabète, occlusions veineuses rétiniennes, sida, lupus érythémateux
+disséminé, périartérite noueuses, embolies graisseuses, pancréatite aigüe, sd Purtscher
 * Footnotes
 
 [fn:20] EI : rougeur, irrit. oculaire. Puis iris plus sombre, \inc pousse cils. 
