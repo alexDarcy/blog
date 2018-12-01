@@ -738,7 +738,60 @@ petites lésions blanches superficielles d'aspect duveteux.
 
 Étio : HTA, diabète, occlusions veineuses rétiniennes, sida, lupus érythémateux
 disséminé, périartérite noueuses, embolies graisseuses, pancréatite aigüe, sd Purtscher
+* 17 Occlusions veineuses rétiniennes
+** Occlusion de la veine centrale de la rétine
+SF : vision trouble brutalement, BAV variable, \oe{}il blanc indolore
+FO : 
+- diagnostic = {\oe{}dème papillaire, veines rétitiennes tortueuses et dilatées,
+  hémorragies sur la surface rétitienne, nodules cotonneux}
+- formes non ischémiques (freq) : AV > 2/10, hémorragies en flammèches, ischémie
+  peu étendue
+- formes ischémiques[fn:21] : AV < 1/10, réflexe pupillaire direct diminué, hémorragies
+  plus volumineuses, en tache
+  
+Suivi par OCT
+
+Étiologie inconnue 
+- mais > 50 ans avec FR vasc \thus recherche {tabac, HTA,
+diabète, hypercholestérolémie, SAS}, hypertonie oculaire++
+- si < 50 ans, 0 FR ou OVCR bilatérale, chercher anomalie primitive de la
+  coagulation, sd antiphospholipides, hyperhomocystéinémie, contraception, hyperviscosité
+  
+Évolution :
+- formes non ischémiques : normalisation AV en 3-6 mois. Sinon : conversion en
+  forme ischémique, peristance d'un \oe{}dème maculaire cystoïde (BAV permanente !)
+- formes ischémiques : 
+  - pas de récupération fonctionnelle. 
+  - Pire complication = néovascularisation irienne \thus progression rapide vers glaucome
+  néovasculaire (3 mois) \thus prévention par photocoagulation panrétinienne
+  - néovascularisation prérétiniennes ou précapillaire (hémorragie intravitréenne)
+    
+Ttt 
+- formes non ischémique : injection d'anti-VEGF/triamcinolone si \oe{}dème
+  maculaire cystoïde avec BAV persistante. Surveillance tous les mois
+- formes ischémiques : photocoagulation panrétinienne (PPR) pour éviter glaucome
+  néovasculaire
+- glaucome néovasculaire : PPR en urgence après hypotonisant local \danger
+  
+
+** Occlusion de branche veineuse rétinienne
+Identique à OVCR mais territoire plus limité.
+Signe du croisement (cf chap 23) \thus > 60 ans, FR d'artériosclérose
+
+Clinique : BAV variable, FO identique OVCR
+
+Évolution favorable en majorité. Défavorable si maculopathie ischémique,
+\oe{}dème maculaire persistante, néovaisseaux prérétiniennes \thus hémorragie du
+vitré mais *pas* de GNV
+
+Ttt similaire. 
+- Si \oe{}dème maculaire peristant : injection intravitréenne
+- photocoagulation maculaire en grille (si \ge 3 mois, \oe{}dème maculaire
+  perisistante, AV ɇ 5/10)
+- photocoagulation sectorielle
 * Footnotes
+
+[fn:21] Différence avec l'angiographie fluorescinique
 
 [fn:20] EI : rougeur, irrit. oculaire. Puis iris plus sombre, \inc pousse cils. 
 
