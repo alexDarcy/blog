@@ -789,6 +789,42 @@ Ttt similaire.
 - photocoagulation maculaire en grille (si \ge 3 mois, \oe{}dème maculaire
   perisistante, AV ɇ 5/10)
 - photocoagulation sectorielle
+* 18 Pathologies des paupières
+Anatomie : plan antérieur cutanéomusculaire, plan postérieur : tarse,
+conjonctive (papébrale, cul-de-sac, bulbauire). Sécrétion des larmes par la
+glande lacrymale principale, évacuées par les voies lacrymales excrétrices
+
+Fermeture paupière : nerf VII, ouverture par nerf III
+
+** Pathologies
+Orgelet : furoncle du bord libre, centré sur follicule du cil.
+- infection bactérienne (\bact{dore}, tuméfaction rouge autour point blanc
+- ttt : ATB 8 jour
+Chalazion : granulome inflammatoire sur glande de Meibomius (tarse)
+- tuméfaction douloureuses
+- Ttt : pommade corticoïde locale, massage des paupières. Éventuellement
+  incision
+
+** Autres
+Malformation palpébrales : 
+- entropion : bascule vers l'intérieur. Sénile, cicatriciel)
+- ectropion . sénile, cicatriciel, paralytique
+- ptosis : neurogène, myogène, sénile, traumatique
+- lagophtalmie (inoclusion palpébrale) : anesthésie générale, coma prolongé,
+  paralysie faciale
+Tumeurs palpébrales :
+- bénignes : papillome, hydocystome (kyste lacrymal), xanthélesmas (dépôts
+  cholestérol). TTt : chir
+- malignes : 
+  - épithéliale : carcinome basocellulaire surtout (nodule perlé,
+    télangiectasise; peut menacer globe oculaire, pas de métastases), carcinome
+    épidermoide (métastase)
+  - mélaniques : pronostic peut être effroyable. suspecter si tuméfaction
+    (pigmentée) des paupières
+  - carcinomes sébacés, lymphomes MALT
+Trauma : vérifier septum orbitaire, globe oculaire, canalicules lacrymaux
+arrachés (urgence \skull)
+
 * Footnotes
 
 [fn:21] Différence avec l'angiographie fluorescinique
