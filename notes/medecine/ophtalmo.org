@@ -825,7 +825,96 @@ Tumeurs palpébrales :
 Trauma : vérifier septum orbitaire, globe oculaire, canalicules lacrymaux
 arrachés (urgence \skull)
 
+* 19 SEP
+Névrite optique rétrobulbaire \in SEP (20% = inaugurale). Atteint adulte \in
+[20,40]ans, surtout \female
+
+Neuropathie optique :
+- BAV variable sur qq jours, douleurs rétro oculaires (80%) 
+- pupille de Marcus gunn (dilatation paradoxale). Si inflammation intraoculaire,
+  penser syphilis, sarcoïdose
+- Complémentaire :
+  - examen du CV : scotome (caeco)central.
+  - dyschromatopsie d'axe rouge-vert
+  - IRM encéphalique systématique (SEP)
+- régression en 3-6 mois. Risque de SEP = 50% à 15 ans (75% si lésions
+  encéphaliques à l'IRM). Phénomène d'Uhthoff possible[fn:22]
+- ne pas confondre avec neuromyélite de Devic ! Inflammation (\ne aut-immune) du
+  SNC, BAV profonde rapide. IRM : pas d'inflammation cérébrale mais médullaire 
+- ttt : corticothérapie  parentérale 3-5j (1g/j) puis oral court (11 j). Retarde
+  un nouvel épisde. Si SEP, ttt de fond (immunomodulateur [interférons, acétate
+  de glatiramère] ou natalizumab, fingolimod)
+- pronostic fonctionnel souvent favorable
+- DD : autres neuropathies optiques
+
+Autres :
+- oculomotrice : paralysie du VI, internucléaire (penser SEP si bilatérale chez jeune)[fn:23]
+- nystagmus : 1/3 patient avec SEP > 5 ans
+- périphlibite rétiniennes (5%)
+* 20 Neuropathie optique ischémique antérieure
+Ischémie de la tête du nerf optique (artères ciliaire postiérieures)
+
+Diagnostic clinique :
+- BAV unilatérale brutale indolore
+- AV variable, \dec RPM direct, FO = \oe{}dème papillaire++, papille souvent
+  pâle, hémorrage en flammèche sur le bord papillaire
+- complémentaire : examen CV++ = {déficit fasciculaire, altitudinal},
+  angiographique du fond d'\oe{}il
+
+Étiologie : 
+- maladie de Horton = urgence \skull (cécité bilatérale définitive) \thus 
+  - signes systémique, modif artères temporale
+  - signes oculaire : amaurose fugace, défaut de remplissage choroïdien (angiographie)
+  - bio : VS \inc[fn:24] , CRP \inc
+  - biopsie de l'artère temporale (ne doit pas retarder les soins !)
+- artériosclérose (fréq) : FR (tabac, HTA, diabète, hypercholestérolémie)
+
+Évolution : résorbtion de l'\oe{}dème en 6-8 semainer (atrophie). Pas de récup
+visuelle. Bilatéralisation possible en qq jours \danger
+
+DD : causes d'\oe{}dème papillaire (HTIC)
+
+Ttt : 
+- artéritique = urgence ! Corticothérapie générale à forte dose puis per os
+  1mg/kg/j
+- non artéritique : pas de ttt efficace
+  
+* 21 Rétinopathie diabétique
+30% diabétique en ont une. Diabète 1 : 90% après 20 ans. Diabète 2 : 60% à 15
+ans
+
+Physiopatho : hyperglycémie \thus {accumulation sorbitol, glycation, stress
+oxydatif} \thus {inflammation, activation rénine-angiotensine, modif flux
+sanguin rétinien, production VEGF} puis 
+- occlusion capillaire et néovascularisation
+- \oe{}dème maculaire
+  
+** Diagnostic
+Photographie du FO = référence et dépistage
+- microanévrisme rétitiens : dilatations punctiformes rouges (postérieure)
+- hémorragie rétiniennes punctiformes
+- nodules contonneux
+- signes d'ischémie : hémorragies intrarétiniennes "en taches" ou en flammèche, anomalies
+  microvasculaire intrarétinienne, dilatations veineuses "en chapelet",
+  néovaisseux prérétiniens et précapillaires, hémorragie prérétiniennes/intravitréennes
+- complications : hémorragie intravitréennek, décollement de la rétine /par
+  traction/, néovascularisation irien (\thus glaucome néovasculaire !)
+- signes maculaires : \oe{}dème maculaire (cystoïde), exsudats lipidiques
+  (souvent en couronne)
+
+Complémentaire : OCT pour diagnostic et suivi \oe{}dème maculaire, echo en mode B
+pour décollement de rétine par traction
+
+** Dépistage
+
 * Footnotes
+
+[fn:24] Non nécessaire
+
+[fn:23] \OE{}il atteint = pas d'adduction mais adduction des yeux OK à la
+convergence. Nystagmus pendulaire en abduction de l'\oe{}il sain !
+
+[fn:22] BAV transitoire quand température \inc 
 
 [fn:21] Différence avec l'angiographie fluorescinique
 
