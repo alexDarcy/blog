@@ -613,7 +613,54 @@ Diagnostic clinique mais en complémentaire :
 - écho en mode B si décollement de rétine/tumeur intraoculaire
 - pour le cristallin artificiel : kératométire, longeur axiale
 
+* 14 Glaucome chronique
+= Glaucome primite à angle ouvert (GPAO) Neuropathie optique progressive altération
+fonction/structure.
+FR : âge, hypertonie oculaire (\ne cause !!), ATCD familaux directs, noirs
+d'origine africaine, myopie
+
+Physio : perte accélére des fibres optiques liée à l'âge
+
+** Formes cliniques :
+GPAO à préssion élevée (> 21 mmHg) (70% des pop. occidentales)
+- anomalies de structures visibles cliniquement : papille = {\dec surface,
+  hémorragies péripapillaires en flammèches, atrophie péripapillaire \beta, \inc
+  excavation papillaire}. Rapport de taille entre papilles des 2 yeux > 0.2
+  \thus suspect
+- autres anomalies de structures : OCT
+- anomalies de foncton : champ visuel mais AV touchée très tardivement
+
+GPAO à pression normale (70% pop. asiatique) : plutôt femmes, migraine, acrosyndromes
+
+DD : 
+- hypertonie oculaire : pression intraoculaire > 21mmHg, angle ouvert (gonio),
+  \emptyset neuropathie optique. Pas forcément de ttt.
+- glaucomes à angles ouvert secondaires
+- glaucomes par fermeture de l'angle
+- crise aigüe de fermeture de l'angle : douleur, urgence \skull
+- neuropathie optiques non glaucomateuses
+
+** Traitement
+Dépistage : seulement ATCD familaux de GPAO, myopie, > 40 ans
+
+Ttt : \dec pression intra oculaire
+
+Médicaments :
+- à vie 
+- 1ere intention : collyre à base de prostaglandines [fn:20](\inc élimination humeur
+  aqueuse) ou collyre betabloquant
+  (\dec sécrétion humeur aqueuse)
+- association possible mais \le 3
+- rarement : acétazolamide par voie générale
+  
+Trabéculoplastie au laser = photocoagulation de l'angle. Effet modeste, non durable.
+
+Chir : trabéculectomie. Complications (rare) = cataracte, hyoptonie précoce
+avec décollement choroïdien, infection globe oculaire. Principal échec :
+fermeture de la voie par fibrose sous-conjonctivale.
 * Footnotes
+
+[fn:20] EI : rougeur, irrit. oculaire. Puis iris plus sombre, \inc pousse cils. 
 
 [fn:19] Uvéite auto-immune sévère
 
