@@ -943,7 +943,43 @@ RD proliférante
 - photocoagulationau lasar si exsudats lipidique ou liquide
 - injection anti-VEGF mensuelle. Dexaméthasone retard possible mais cataracte,
   risque d'hypertonie oculaire (30%)
+* 22 Orbitopathie dysthyroïdienne
+Surtout maladie de Basedow (ou thyroïdite auto-immune d'Hashimoto
+
+Thyrotoxicose : {palpitations, tachycardie}, {nervosité, tremblement, insomnie},
+thermophobie, {amaigrissement, fatigue}
+
+Classification :
+- gravité = NOSPECS : No sign, Only lid retraction, Soft tissues, Proptosis \ge
+  3mm, Extraocular muscle, Corneal
+- inflammataion = CAS
+  (clinical activity score)
+
+Manifestation :
+- exophtalmie : bilatérale (75%), axile, non pulsatile, réductible, indolore,
+ > 21 mm
+- rétraction paupière, asynergie oculopalpébrale vers le bas, \dec fréquence
+  clignement
+- trouble oculomoteur : myosite \thus diplopie
+  
+Complications :
+- cornée : kératite, peforation
+- neuropathie optique compressive (3%) \thus méthylprednisolone forte dose ou
+  décompression rapide \skull !
+
+Complémentaire : TSH effondrée (hyperthyroïdie), scanner et IRM pour conforter,
+{pupille, champ visuel, couleurs, PEV}
+
+DD : infection orbitaire, fistules artériocaverneuses, tumeurs, orbitopathies
+inflammatoires
+
+Traitement 
+- médical : 
+  - traiter thyrotoxicose (\danger iode radioactif peut aggraver orbitopathie) arrêt tabac, ttt locaux (symptômes), sélénium si forme modérée
+  - CAS \ge 3 \thus anti-inflammatoire (méthylprednisolone)
+- chir : décompression orbitaire, muscles oculomoteurs, paupières
 * Footnotes
+
 
 [fn:24] Non nécessaire
 
