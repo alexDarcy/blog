@@ -905,8 +905,44 @@ Photographie du FO = référence et dépistage
 Complémentaire : OCT pour diagnostic et suivi \oe{}dème maculaire, echo en mode B
 pour décollement de rétine par traction
 
-** Dépistage
+** Dépistage RD
+Diabète 1 : photo FO à la découverte puis surveillance annuelle
+- enfant: pas avant 10 ans
+- grossesse : avant puis tous les 3 mois (tous les mois si RD !)
+Diabète 2 : dès découverte
 
+Surveillance :
+- \emptyset RD on non proliférante minime : annuelle
+- sonn tous 4 à 6 mois
+- renforcé si puberté, adolescende, si équilibrage trop rapide de la glycémie,
+  chir bariatrique, diabète ancien mal équilibré, chir de la cataracte,
+  \oe{}dème maculaire
+  
+Classification :
+- \emptyset RD
+- RD non proliférante : minime, modérée, sévère (hémorragie rétiniennes dans 4
+  quadrants ou dilatations veineuses 2 quadrants ou AMIR 1 quadrant)
+- RD proliférante : minime, sévère, compliquée
+  
+Progression lente, aggravations rapides possibles. \danger prolifération néovasc
+peut donner cécité 
+
+** Traitement
+Médical :
+- équilibre glycémique et hypertension pour 2 diabètes !
+- pas de ttt médicamenteux
+RD proliférante 
+- photocoagulation panrétinienne : régression dans 90%. INdication : RD
+  proliférante ou (RD non proliférante sévère si grossesse, sujet jeune
+  diabétique 1 avec normalisation rapide glycémie, chir cataracte)
+- injection intravitréenne anti-VEGF (pour néovasc. iridienne, glaucome
+  néovasculaire)
+- chir si RD proliférante avec hémorragie intravitréenne persistante/décollement
+  de rétine tractionnel
+\OE{}dème maculaire 
+- photocoagulationau lasar si exsudats lipidique ou liquide
+- injection anti-VEGF mensuelle. Dexaméthasone retard possible mais cataracte,
+  risque d'hypertonie oculaire (30%)
 * Footnotes
 
 [fn:24] Non nécessaire
