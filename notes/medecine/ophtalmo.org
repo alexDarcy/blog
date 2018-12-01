@@ -978,8 +978,45 @@ Traitement
   - traiter thyrotoxicose (\danger iode radioactif peut aggraver orbitopathie) arrêt tabac, ttt locaux (symptômes), sélénium si forme modérée
   - CAS \ge 3 \thus anti-inflammatoire (méthylprednisolone)
 - chir : décompression orbitaire, muscles oculomoteurs, paupières
+* 23 Rétinopathie et choroïdopathie hypertensive
+Bien différencier modifications liée à l'HTA (réversible par ttt de l'HTA) et
+celles irréversibles liées à l'artériosclérose 
+
+\ic Pa \thus vasoconstriction artérieur active (autorégulation)
+
+** Rétinopathie hypertensive
+AV normale. Signes oculaires seulement si sévère :
+- barrière hématorétinienne rompue \thus hémorragies rétiniennes superficielles,
+  \oe{}dème maculaire et exsudat secs, \oe{}dème papillaire
+- occlusion artérioles précapillaires \thus nodules cotonneux, hémorragies
+  rétiniennes profondes
+- hémorragies en flammèches péripapillaire (superficielles) ou rondes sur toute
+  la rétine (profondes)
+\thus non spécifiques mais évocateurs d'HTA si associés. Pas de BAV
+
+** Choroïdopathie hypertensive
+Pas d'autorégulation pour les vaisseaux choroïdiens. Occlusion \thus ischémie et
+nécrose de l'épithelium pigmentaire. cicatrisens en petite taches pigmentées
+("d'Elschnig").
+
+Formes plusu sévère : décollement de rétine exsudatif (post) avec
+BAV. Normalisation avec ttt
+
+** Artériosclérose
+Lésions chroniques irréversibles mais asymptomatiques :
+- accentuation du reflet artériolaire
+- signe du croisement[fn:25]
+  
+
+Classification de Kirkendall 
+- rétinopathie hypertensive : I (rétrécissement artériel sévère et disséminé),
+  II (idem + hémorragies rétiniennes, exsudats secs, nodules cotonneux), III
+  (idem + \oe{}dème papillaire
+- artériosclérose : I (croisemenrt), II (idem plus rétrécissement marqué), III
+  (idem plus occlusion de branche)
 * Footnotes
 
+[fn:25] Veine "écrasée" sur le croisement avec l'artère, dilatée en amont
 
 [fn:24] Non nécessaire
 
