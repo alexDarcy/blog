@@ -15,6 +15,7 @@ build:
 
 MED=notes/medecine
 NOTES_TEX= \
+${MED}/afgsu.tex\
 ${MED}/douleur.tex\
 ${MED}/endocrino.tex\
 ${MED}/maladies_infectieuses.tex\
