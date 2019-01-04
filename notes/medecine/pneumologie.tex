@@ -1,11 +1,12 @@
 \documentclass{article}
 \input header
 \usepackage{biocon}
+\usepackage[acronym]{glossaries}
+\makeglossaries
 
 \title{Pneumologie\\
-\large Fiches}
+  \large Fiches}
 \author{A. Praga}
-
 
 \begin{document}
 \maketitle
@@ -13,49 +14,79 @@
 
 \input bacteries-header.tex
 
+\newacronym{TVO}{TVO}{Troubles Ventilatoires Obstructifs}
+\newacronym{VAS}{VAS}{Voies Aériennes Supérieures}
+
+\newglossaryentry{VEMS}
+{
+  name={VEMS}, 
+  description={volume expiratoire maximal en 1s (après inspiration maximale)}
+}
+
+\newglossaryentry{VC}
+{ name=Volume courant,
+  description={volume mobilisé pendant une respiration normale}
+}
+\newglossaryentry{VRI}
+{ name = Volume de réserve inspiratoire,
+  description = volume supplémentaire (par rapport au VC) avec
+    une inspiration forcé
+}
+\newglossaryentry{VRE}
+{ name = Volume de réserve expiratoire,
+  description = idem VRI mais en expiration forcée
+}
+\newglossaryentry{VR}
+{ name = Volume résiduel,
+  description = volume restant (impossible à expirer)
+}
+
+\glsaddall
+%\glsaddallunused
+
 \section{73 : Addiction au tabac}
 3 fumées : courant primaire (inspiré), secondaire (tabagisme passif++), tertiaire (exhalé)\\
 Produits :
 \begin{itemize}
-  \item nicotine = dépendance
-  \item fumée de tabac = 0.3 $\mu$m, pénètre partout !
-  \item goudrons = cancérigène
-  \item CO = hypoxie, risque ischémie, marqueur tabagisme des dernières heures
+\item nicotine = dépendance
+\item fumée de tabac = 0.3 $\mu$m, pénètre partout !
+\item goudrons = cancérigène
+\item CO = hypoxie, risque ischémie, marqueur tabagisme des dernières heures
 \end{itemize}
 16 millions de fumeurs en 2013 (France). Éducation et cat. sociale faible = plus
 tabagiques
 \subsection{Pathologies liées au tabac}
 K :
 \begin{itemize}
-  \item 90\% des cancers broncho-pulmonaires en actif, 25\% en passif
-  \item voies aérodigestives sup, vessie, pancréas, rein, col de l'utérus
+\item 90\% des cancers broncho-pulmonaires (tabagisme actif), 25\% (passif) 
+\item voies aérodigestives sup, vessie, pancréas, rein, col de l'utérus
 \end{itemize}
 Respiratoires : BPCO, asthme\\
 Cardio-vasc : 
 \begin{itemize}
-  \item cardiopathies ischémiques
-  \item artérite
-  \item HTA
-  \item cérébro-vasculaires
-  \item relation tabac-athérome, maladie coronaire
+\item cardiopathies ischémiques
+\item artérite
+\item HTA
+\item cérébro-vasculaires
+\item relation tabac-athérome, maladie coronaire
 \end{itemize}
 Autres : digestives, kératites, retard consolidation os, agueusie, anosmie\\
 Passif :
 \begin{itemize}
-  \item +25\% risque cancer bronchique
-  \item +25\% maladies CV
-  \item aggrave asthme, BPCO
-  \item nourrisson : RCIU\footnote{retard croissance intra-utérin}, \(\nearrow\) risque
-    infections respi, 1ere cause identifiée mort-subite
+\item +25\% risque cancer bronchique
+\item +25\% maladies CV
+\item aggrave asthme, BPCO
+\item nourrisson : RCIU\footnote{Retard croissance intra-utérin}, \(\nearrow\) risque
+  infections respi, mort-subite (1ere cause identifiée)
 \end{itemize}
 \subsection{Prise en charge}
 Évaluer : consommation (paquets/années), dépendance, autres (alcool = déclencheur,
 cannabis), motivation, comorbidités (psy, CV, respi)
 \subsection{Traitement}
-Conseil, motivationnel, traitement (substitut nicotinique, varénicline \danger
-suivi, bupropion), thérapies cognitivo-comportementales, cigarette
+Conseil, motivationnel, traitement (substitut nicotinique, varénicline [\danger
+suivi], bupropion), thérapies cognitivo-comportementales, cigarette
 électronique\\
-Suivi : réussi si \(\ge 1\) an
+Sevrage : réussi si \(\ge 1\) an
 
 
 \section{108 : Troubles du sommeil}
@@ -65,12 +96,12 @@ Sd d'apnées centrales = désat profondes et soutenus
 
 Apnée : 
 \begin{itemize}
-  \item obstructive : arrêt débit \(\ge\) 10s + efforts ventilatoires
-  \item centrale : idem, sans efforts ventilatoires
-  \item mixte = obstructive et centrale
+\item obstructive : arrêt débit \(\ge\) 10s + efforts ventilatoires
+\item centrale : idem, sans efforts ventilatoires
+\item mixte = obstructive et centrale
 \end{itemize}
-Hypopnée = diminution ventilation \(\ge\) 10 s \(\wedge\) (débit -50\% \(\vee\) désat
-transcut \(\ge\) 3\% \textpm{} microéveil)
+Hypopnée = (diminution ventilation \(\ge\) 10 s) \(\wedge\) ((débit -50\%) \(\vee\) (désat
+transcut \(\ge\) 3\%) \textpm{} microéveil)
 
 SAOS = (somnolence diurne non expliquée \(\vee\) (2 parmi : ronflements, étouffement,
 éveils répétés, sommeil non réparateur, fatigue diurne, trble concentration,
@@ -81,29 +112,29 @@ Sévère si IAH \(\ge\) 30.
 FR : obésité, homme, âge, anomalie voie aériennes supérieures. 
 Comorbidités :
 \begin{itemize}
-  \item neuropsy + accidents (risque x2)
-  \item CV : HTA, insuf. coronaire, cardiaque, ACFA
-  \item sd métabolique\footnote{Obésité abdo \(\wedge\) (2 parmi : HTA, glycémie \(\ge\) 5.6 mmol/L,
+\item neuropsy + accidents (risque x2)
+\item CV : HTA, insuf. coronaire, cardiaque, ACFA
+\item sd métabolique\footnote{Obésité abdo \(\wedge\) (2 parmi : HTA, glycémie \(\ge\) 5.6 mmol/L,
     HDL bas, hypertriglycéridémie)}
-  \item diabète
-  \item dyslipidémie
+\item diabète
+\item dyslipidémie
 \end{itemize}
 
 NB : obstruction VAS dûe à {réduction \diameter, \nearrow{} collapsibilité,
-\searrow{} efficacité muscles dilatateurs}
+  \searrow{} efficacité muscles dilatateurs}
 \subsection{Diagnostic}
 \subsubsection{Clinique :}
 \begin{itemize}
-  \item nocturne = ronflements, pause respi, étouffement, nycturie
-  \item diurne = somnolence excessive (questionnaire d'Epworth)
+\item nocturne = ronflements, pause respi, étouffement, nycturie
+\item diurne = somnolence excessive (questionnaire d'Epworth)
 \end{itemize}
 DD : hypersomnie diurne (insomnie, sd dépressif, sédatif, hygiène de sommeil,
 neuro)
 \subsubsection{Examen}
 \begin{itemize}
-  \item IMC, obésité abdo (\(\ge\) 94 cm \male, 80cm \female)
-  \item ORL
-  \item CV, respi
+\item IMC, obésité abdo (\(\ge\) 94 cm \male, 80cm \female)
+\item ORL
+\item CV, respi
 \end{itemize}
 \subsubsection{Complémentaire}
 (EFR et imagerie optionnels)
@@ -116,19 +147,19 @@ myorelaxants, morphiniques\}, PEC CV
 
 Spécifique :
 \begin{itemize}
-  \item Pression positive continue = 1ere intention
-  \item Orthèse d'avancée mandibulaire = 2eme
-  \item Autres : orthèse anti-décubitus dorsal, chirurgie = \{vélo-amygdalienne,
-    avancée maxillo-mandibulaire (lourd++), nasale\}
+\item Pression positive continue = 1ere intention
+\item Orthèse d'avancée mandibulaire = 2eme
+\item Autres : orthèse anti-décubitus dorsal, chirurgie = \{vélo-amygdalienne,
+  avancée maxillo-mandibulaire (lourd++), nasale\}
 \end{itemize}
 \subsection{Autres}
 \begin{itemize}
-  \item Sd d'apnée de type central : cause = {insuf. cardiaque sévère (traitement !),
-atteinte tronc cérébral, séjour altitude, morphiniques}
-  \item Hypoventilation alvéolaire : aggravation de l'état de veille. Traitement =
-    VNI\footnote{ventilation non invasive}
-  \item Sd obésité hypoventilation :  PaCO\(_{\text{2}}\) > 45 mmHg \(\wedge\) PaO\(_{\text{2}}\) < 70 mmFg \(\wedge\)
-    IMC > 30 kg/\(m^2\), pas d'autre cause. Traitement = VNI
+\item Sd d'apnée de type central : cause = {insuf. cardiaque sévère (traitement !),
+    atteinte tronc cérébral, séjour altitude, morphiniques}
+\item Hypoventilation alvéolaire : aggravation de l'état de veille. Traitement =
+  VNI\footnote{ventilation non invasive}
+\item Sd obésité hypoventilation : (PaCO\(_{\text{2}}\) > 45 mmHg) \(\wedge\) (PaO\(_{\text{2}}\) < 70 mmFg) \(\wedge\)
+  (IMC > 30 kg/\(m^2\)), pas d'autre cause. Traitement = VNI
 \end{itemize}
 
 \section{151 : Infections broncho-pulmonaires communautaires}
@@ -144,9 +175,11 @@ Ttt symptomatique seulement !
 Clinique : \{toux, expect purulentes, dyspnée\} + \{fièvre, asthénie\} +
 crépitants\\
 Radio !\\
-Si \faHospitalO : hémocultures, ECBC, antigenurie pneumocoque (PCR,
+Si \faHospitalO : hémocultures, ECBC, antigenurie pneumocoque (\pm PCR,
 antigenurie légionelle)\\
-\faHospitalO : signes de gravité (score CRB65 \(\ge 1\)) / incertitude / échec domicile / comorbidité / inobservance
+\faHospitalO : signes de gravité (score CRB65\footnote{Confusion, fréquence
+  Respiratoire \ge 30min, (Blood) PAs < 90mmHg ou PAd \ge 60mmg, Age \ge 65 ans}
+\(\ge 1\)) / incertitude / échec domicile / comorbidité / inobservance
 
 \begin{table}[htpb]
   \centering
@@ -158,17 +191,17 @@ antigenurie légionelle)\\
     Début & Brutal & Progressif & Rapidement progressif\\
     Signes & Thoraciques & Extra-thoraciques & Extra-thoraciques\\
     Biologie &  & Anémie hémolytique & Hyponatrémie, rhabdomyolyse\\
-    & CG+ chainettes/Agurie &  & Antigénurie\\
-    Radio \faHeart & condensation systématisée & Opacités multifocales & CS ou OM\\
+    Microbio & CG+ chainettes/Ag pneumocoque + &  & Ag légionelle +\\
+    RX thorax & condensation systématisée & Opacités multifocales & CS ou OM\\
     \bottomrule
   \end{tabular}
 \end{table}
 
 \begin{itemize}
-  \item Pneumocoque : fréquent+++. Pas de transmission interhumaine
-  \item Atypique : \bact{mpneumoniae}, \bact{cpneumoniae}, \bact{psitacci}
-  \item Legionnella : pas d'isolement. DO
-  \item Pneumonie virale : signes respi + sd grippal. Grippale = diagnostic PCR, traitement = inihbiteur neuramidase \danger \bact{dore}
+\item Pneumocoque : fréquent+++. Pas de transmission interhumaine
+\item Atypique : \bact{mpneumoniae}, \bact{cpneumoniae}, \bact{psitacci}
+\item Legionnella : pas d'isolement. DO
+\item Pneumonie virale : signes respi + sd grippal. Grippale = diagnostic PCR, traitement = inihbiteur neuramidase \danger \bact{dore}
 \end{itemize}
 \subsubsection{Traitement}
 Oral, 7j (8-14 si légionellose, 21j si légionelles graves/ID)
@@ -183,23 +216,25 @@ Réa : C3G IV + macrolide IV / FQ pour pneumocoque
 
 \subsubsection{Échecs}
 \begin{itemize}
-  \item Compliquée : épanchement pleural, abcès, obstacle
-  \item Observance, pharmacocinétique, hors spectre
-  \item Diagnostic :
-    \begin{itemize}
-      \item focalisé : embolie pulmonaire
-      \item diffuse : cf pneumopathies interstitielles diffuses aigües
-      \item excavée : cancer, tuberculose pulmonaires, infarctus pulmonaire, vascularite\ldots{}
-    \end{itemize}
+\item Compliquée : épanchement pleural, abcès, obstacle
+\item Observance, pharmacocinétique, hors spectre
+\item Diagnostic :
+  \begin{itemize}
+  \item focalisé : embolie pulmonaire
+  \item diffuse : cf pneumopathies interstitielles diffuses aigües
+  \item excavée : cancer, tuberculose pulmonaires, infarctus pulmonaire, vascularite\ldots{}
+  \end{itemize}
 \end{itemize}
 
 \subsubsection{Prévention}
 Vaccin : 2 doses + rappel enfant, 2 doses adulte (ID, comorbidité)
 
 \subsubsection{Immunodéprimé}
-Pneumocystose pulmonaire
-Radio : sd interstitiel diffus bilatéral symétrique. ATB cotrimoxazole 21j
-
+Pneumocystose pulmonaire : 
+\begin{itemize}
+\item RX : sd interstitiel diffus bilatéral symétrique.
+\item ATB cotrimoxazole 21j
+\end{itemize}
 
 \section{151 : Tuberculose}
 \bact{tuberculose}
@@ -230,20 +265,21 @@ Mises en évidence du bacille :
 \subsection{Traitement}
 Quadrithérapie (lutter MDR ou XDR) : 1/jour 1h avant petit déjeuner
 \begin{itemize}
-\item Isoniazide (polynévrite SM\footnote{sensitivomotrice}, surv. transaminases) : 6 mois
-\item Rifampicine (inducteur enzymatique\footnote{contraception !}) : 6 mois
+\item Isoniazide (polynévrite SM\footnote{Sensitivomotrice}, surv. transaminases) : 6 mois
+\item Rifampicine (inducteur enzymatique\footnote{Contraception !}) : 6 mois
 \item Ethambutol (névrite optique rétrobulbaire) : 2 premiers mois
 \item Pyrazinamide (surv. transaminases)
 \end{itemize}
 Autres : aminosides, fluoroquinolones \\
 Avant traitement : 
 \begin{itemize}
-\item hémogramme, \{transaminases, bilirubine, phosphatases alcalines, \$\(\gamma\)\$GT\}, créat,natrémie,uricémie.
+\item hémogramme, \{transaminases, bilirubine, phosphatases alcalines,
+  $\gamma$GT\}, créat, natrémie, uricémie.
 \item proposer VIH, VHB, VHC
 \item visions des couleurs
 \end{itemize}
 
-\subsection{ITL}
+\subsection{Infection tuberculeuse latente (ITL)}
 Diagnostic (\danger pas pour tuberculose active): 
 \begin{itemize}
 \item IDR (non spécifique, faux négatifs !) : +72h : \diameter > 10mm (15 si vaccination) ou +10mm en 3 mois : suspicion ITL
@@ -252,59 +288,69 @@ Diagnostic (\danger pas pour tuberculose active):
 Traitement : 
 \begin{itemize}
 \item primaire si < 2 ans, secondaire si < 18 ans ou ID ou ITL < 1 an ou séquellaire
-\item INH 9 mois ou INF + RMP 3 mois
+\item INH 9 mois ou INH + RMP 3 mois
 \end{itemize}
 \subsection{Vaccination}
 Sauf VIH, déficits immunitaires
 \subsection{Cas particuliers}
 Grossesse : INH (+vit. B6) + RMP (+vit. K1) + EMB\\
-Insuf. rénale : [15,30]mL/min : diminuer EMB, PZA. si < 15mL/min : diminuer INH, EMB, PZA\\
-Insuf. hépatique : [3,6N] : arrêt PZA. Si > 6N, arrêt INH, PZA\\
-ID, VIH : penser tuberculose si fièvre\\
+Insuf. rénale :
+$ \begin{cases}
+    [15,30] \text{mL/min} : & \text{diminuer EMB, PZA}.\\
+    < 15 \text{mL/min} : & \text{diminuer INH, EMB, PZA}\\
+  \end{cases} $
+  
+Insuf. hépatique :
+  $\begin{cases}
+  [3,6N] : & \text{arrêt PZA}\\
+  > 6N : & \text{arrêt INH, PZA}\\
+\end{cases}$
+
+ID, VIH : penser tuberculose si fièvre
+
 Si anti-TNF, bilan tuberculose
-\subsection{DO}
-
-
+\subsection{Déclaration obligatoire}
 
 \section{180 : Accidents du travail}
-Maladie professionnelle = lente, prolongée (\(\neq\) accidend du travail)
+Maladie professionnelle = lente, prolongée (\(\neq\) accident du travail)
 \subsection{Maladies}
 \subsubsection{Asthmes}
 10-15\% des asthmes. On a
 \begin{itemize}
-  \item asthme professionnel : (avec latence [immunologique]) \(\vee\) (sans latence
-    [exposition unique])
-  \item asthme aggravé par le travail
+\item asthme professionnel : (avec latence [immunologique]) \(\vee\) (sans latence
+  [exposition unique])
+\item asthme aggravé par le travail
 \end{itemize}
 Métiers : boulangers, santé, coiffeurs, peintres pistolets, bois, nettoyage\\
 Diagnostic : de novo, profession, rythme
 \subsubsection{BPCO}
-TVO lente progressive + inflammation poumons. 10-20\% BPCO\\
+TVO lente progressive + inflammation
+poumons. Facteurs professionnels = 10-20\% BPCO\\
 Métiers : mines, BTP, fonderie, textile, agricole
 \subsubsection{Cancers}
 \begin{itemize}
-  \item mésothéliome : 2/100 000habi/an, amiante++, DO\footnote{déclaration obligatoire}
-  \item bronchique primitif
+\item mésothéliome : 2/100 000habi/an, amiante++, DO
+\item K bronchique primitif
 \end{itemize}
-\subsubsection{PID}
+\subsubsection{Pneumopathie interstitielle diffuse (PID)}
 \begin{itemize}
-  \item Hypersensibilité X agricole
-  \item Silicose (+cancer bronchique primitif)
-  \item Bérylliose : adénopathies médiastinales, sd infiltrant parenchymateux
-  \item Sidérose : fumées d'oxyde de fer, micronodule \textpm{} emphysème
-  \item Asbestose : fibrose
+\item Pneumopathie d'hypersensibilité : agricole
+\item Silicose (+cancer bronchique primitif)
+\item Bérylliose : adénopathies médiastinales, sd infiltrant parenchymateux
+\item Sidérose : fumées d'oxyde de fer, micronodule \textpm{} emphysème
+\item Asbestose : fibrose
 \end{itemize}
 \subsubsection{Liées à l'amiante}
 \begin{itemize}
-  \item Cancer : mésothéliome, cancer bronchique primitif
-  \item Pleural (plaques, épaississements, pleurésies), parenchyme (fibrose)
+\item Cancer : mésothéliome, cancer bronchique primitif
+\item Pleural (plaques, épaississements, pleurésies), parenchyme (fibrose)
 \end{itemize}
 \subsection{Reconnaissance}
 Indemnité : 
 \begin{itemize}
-  \item 60\% salaire si < 28 jours, 80\% sinon
-  \item si séquelles, taux incapacité permante < 10\% : capital, > 10\% rente, > 40\%
-    rentre et autres
+\item 60\% salaire si < 28 jours, 80\% sinon
+\item si séquelles, selon taux incapacité permanente : capital (< 10\%), rente
+  (> 10\%), rentre et autres (> 40\%)
 \end{itemize}
 
 \section{182 : Hypersensibilités et allergies respiratoires}%
@@ -312,14 +358,14 @@ Indemnité :
 
 \begin{figure}[htpb]
   \centering
-  \resizebox{\linewidth}{!}{
+  \resizebox{0.5\linewidth}{!}{
     \tikz \graph [
-  % Labels at the middle 
-      edge quotes mid,
-  % Needed for multi-lines
-      nodes={align=center},
-      sibling distance=3cm,
-      edges={nodes={fill=white}}, 
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    sibling distance=3cm,
+    edges={nodes={fill=white}}, 
     layered layout]
     {
       HS non allergique;
@@ -339,15 +385,15 @@ Atopie : prédisposition héréditaires à IgE face à des allergènes.\\
 Allergie : réaction d'HS par mécanismes immunologiques\\
 Sensibilisation : test cutané positif à un allergène\\
 Allergène : capable d'induire une réaction d'HS = pneumallergènes (aéroportés),
-trophallergènes (alimentaires), profesionnels, recombinants
+trophallergènes (alimentaires), professionnels, recombinants
 
 Hypersensibilité :
 \begin{itemize}
-  \item type 1 (immédiate) : la plus fréquente, IgE. Rhinite, asthme
-  \item type 2 : complément et phagocytose. Réactions médicament.
-  \item type 3 : complexes immuns. Pneumonies d'HS
-  \item type 4 : LT, cytotoxiques 48-72h. Granulome épithélioïde gigantocellulaire.
-    Dermato.
+\item type 1 (immédiate) : la plus fréquente, IgE. Rhinite, asthme
+\item type 2 : complément et phagocytose. Réactions médicament.
+\item type 3 : complexes immuns. Pneumonies d'HS
+\item type 4 : LT, cytotoxiques 48-72h. Granulome épithélioïde gigantocellulaire.
+  Dermato.
 \end{itemize}
 
 \paragraph{Asthme et rhinite allergique}
@@ -361,9 +407,9 @@ bronchique) et obstruction $\diameter$ (mucus)
 
 \paragraph{Réaction IgE}
 \begin{itemize}
-  \item Sensibilisation : synthèse IgE spécifiques (lymphocytes B)
-  \item effectrice : fixation de l'allergène $\implies$ activation (histamine,
-    cytokines) $\implies$ cascade allergique
+\item Sensibilisation : synthèse IgE spécifiques (lymphocytes B)
+\item effectrice : fixation de l'allergène $\implies$ activation (histamine,
+  cytokines) $\implies$ cascade allergique
 \end{itemize}
 
 \subsection{Épidémiologie}
@@ -372,9 +418,9 @@ des 9-11 ans
 
 FR : 
 \begin{itemize}
-  \item génétique (enfants à risque)
-  \item environnement : fréq $\nearrow$ temps, alimentaires, tabagisme passif
-    maternel, allergènes, pollution atmosphérique \danger niveau de preuve 
+\item génétique (enfants à risque)
+\item environnement : fréq $\nearrow$ temps, alimentaires, tabagisme passif
+  maternel, allergènes, pollution atmosphérique \danger niveau de preuve 
 \end{itemize}
 Morbidité forte, mortalité encore forte pour l'asthme.
 
@@ -383,27 +429,27 @@ Clinique : asthme, rhinite, conjonctivite
 
 \paragraph{Diagnostic}
 Unité de temps, lieu et action (perannuels [acariens,
-blattes, phanères d'animaux, végéteaux d'intérieur, moisissures] ou saisonniers
+blattes, phanères d'animaux, végétaux d'intérieur, moisissures] ou saisonniers
 [pollens]) $\wedge$ IgE spécifiques
 
 Prick-test = référence.
 \begin{itemize}
-  \item $\diameter \ge 3$mm / témoin
-  \item acariens, pollens, phanères d'animaux, blatte, moisissures chez l'adulte
-  \item arachide, blanc d'oeuf, poisson, lait de vache si < 3 ans
-  \item CI : antihistaminiques, $\beta$-bloquants, eczéma, grossesse si
-      allergie médic
+\item $\diameter \ge 3$mm / témoin
+\item acariens, pollens, phanères d'animaux, blatte, moisissures chez l'adulte
+\item arachide, blanc d'oeuf, poisson, lait de vache si < 3 ans
+\item CI : antihistaminiques, $\beta$-bloquants, eczéma, grossesse si
+  allergie médic
 \end{itemize}
 
-Autres tests : dosage IgE spécifique (moins sensible), umltiallergénique (sensible mais
-    pas quantitatif)
+Autres tests : dosage IgE spécifique (moins sensible), multiallergénique (sensible mais
+pas quantitatif)
 
 \paragraph{Professionnelles} boulangers, santé, coiffeurs, peintres pistolets, bois, nettoyage\\
 
 \paragraph{Autres}
 \begin{itemize}
-  \item Test de provocation = certitude mais dangereux
-  \item Très sécifique : dosage IgE totale, dosage éosinophiles sanguin, dosage tryptage sérique
+\item Test de provocation = certitude mais dangereux
+\item Très sécifique : dosage IgE totale, dosage éosinophiles sanguin, dosage tryptage sérique
 \end{itemize}
 
 \subsection{Traitement}
@@ -411,25 +457,25 @@ Autres tests : dosage IgE spécifique (moins sensible), umltiallergénique (sens
 
 \paragraph{Symptomatiques}
 \begin{itemize}
-  \item antihistaminiques : rhinite, conjonctivite, prurit
-  \item corticoïdes : systémitique si urgence (prednisone, prednisolone), local
-    si traitement fond
+\item antihistaminiques : rhinite, conjonctivite, prurit
+\item corticoïdes : systématique si urgence (prednisone, prednisolone), local
+  si traitement fond
 \end{itemize}
 
 \paragraph{Immunthérapie spécifique}
 Faibles doses croissantes d'allergènes :
 \begin{itemize}
-  \item Sous-cutanées/sub-linguale : acariens, pollens, hyménoptères
-  \item orale : pollen
+\item Sous-cutanées/sub-linguale : acariens, pollens, hyménoptères
+\item orale : pollen
 \end{itemize}
 CI : maladies allergiques, dysimmunités, grosses (induction), asthme sévère non
 contrôlé, mastocytoses, $\beta$-bloquants
 
 ES : 
 \begin{itemize}
-  \item syndromique (asthme, rhinite, urticaire) = alerte
-  \item générale (hypotensions, bronchospasme, choc anaphylactique) =
-    interruption
+\item syndromique (asthme, rhinite, urticaire) = alerte
+\item générale (hypotensions, bronchospasme, choc anaphylactique) =
+  interruption
 \end{itemize}
 
 
@@ -440,25 +486,16 @@ Rhinite allergique 24\%.
 \subsection{Définitions}
 Asthme : 
 \begin{itemize}
-\item inflammation chronique modifiant les VAS\footnote{voies aériennes
-supérieures} avec symptômes respi \(\wedge\) obstruction voies aériennes réversible
+\item inflammation chronique modifiant les VAS avec symptômes respi \(\wedge\) obstruction voies aériennes réversible
 \item interaction gènes-evironmt, déclencheurs : exercice, HS aspirine/AINS,
-irritants inhalés
+  irritants inhalés
 \end{itemize}
-Symptômes d'asthme : 
-\begin{itemize}
-\item gêne respiratoire, dyspnée, sifflements, oppression thoracique,
-toux
-\item < 20 min, réversible, variable
-\end{itemize}
-Exacerbations : \nearrow symptômes > 2 jours, non calmée, sans retour état
-habituel
 
 TVO : 
 \begin{itemize}
-\item VEMS/CVF < 0.7
+\item \gls{VEMS}/CVF < 0.7
 \item réversible si +200mL et +12\% après BDCA\footnote{Broncho-dilatateurs à courte durée
-d'action}
+    d'action}
 \end{itemize}
 
 Hyperréactivité bronchique : -20\%VEMS après métacholine/air sec (VPP = 100\%)
@@ -469,17 +506,22 @@ Débit expiratoire de pointe (pour urgence)
 \paragraph{Asymptomatique}
 Diagnostic :
 \begin{itemize}
-\item symptômes caract : plusieurs symptômes (cf def), $\nearrow$ nuit/réveil, variable,
-\end{itemize}
-réversibles, déclenché par \{rire, virus, allergènes, irritants\}
-\begin{itemize}
-\item \(\wedge\) obstruction bronchique : sibilant, TVO réversible ou apparaît avec métacholine
+\item symptômes caractéristiques (20 min, réversible, variable)
+  \begin{itemize}
+    \item plusieurs parmi \{gêne respiratoire, dyspnée,
+        sifflements, oppression thoraciques\}
+    \item $\nearrow$ nuit/réveil, variable,réversibles, déclenché par \{rire,
+      virus, allergènes, irritants\}
+    \end{itemize}
+\item \textbf{et} obstruction bronchique : sibilant, TVO réversible ou apparaît avec métacholine
 \end{itemize}
 Sévérité évaluée à 6 mois
 \paragraph{Exacerbation}
-Cf def. Signe de sévérité :
+\nearrow{} symptômes > 2 jours, non calmée, sans retour état habituel
+
+Signes de sévérité :
 \begin{itemize}
-\item mots, assis en avant, agité
+\item mots (au lieu de phrases), assis en avant, agité
 \item FR > 30/min
 \item muscles respi annexes
 \item FC > 120/min, SpO\(_{\text{2}}\) < 90\%
@@ -499,31 +541,42 @@ Facteurs favorisants, radio thorax, EFR (+test métacholine)
 \subsection{Traitement}
 
 \paragraph{Long cours}
-Ttt de fond :
-\begin{itemize}
-\item BDCA à la demande
-\item CSI\footnote{corticostéroïdes inhalés} faible < anti-leucotriènes < CSI moyen/fort
-\(\vee\) (CSI faible et ALT\footnote{anti-leucotriènes} < triotropium \(\vee\) (CSI fort et
-ALT) < CSO\footnote{corticostéroïdes oraux} faible
-\end{itemize}
+Ttt de fond : cf Table~\ref{tab:ttt_asthme}
+
+\begin{table}
+  \centering
+  \begin{tabular}{ccccc}
+    \toprule
+    Palier 1 & Palier 2 & Palier 3 & Palier 4 & Palier 5 \\
+    \midrule
+    CSI faible & ALT & CSI moyen/fort & triotropium & CSO faible\\
+             & & ou (CSI faible et ALT) & ou (CSI fort et ALT) &\\
+  \bottomrule                                                              
+  \end{tabular}
+  \caption{Ttt de fond de l'asthme (\textbf{BDCA à la demande}).\\
+    CSI = Corticostéroïdes inhalés. ALT =
+    anti-leucotriènes. CSO = Corticostéroïdes oraux}
+  \label{tab:ttt_asthme}
+\end{table}
+
 Autre : 
 \begin{itemize}
 \item activité physique (sauf plongée)
 \item facteurs favorisants : rhinite, allergie, tabac, \(\beta\)-bloquant
-(aspirine/AINS) reflux GO, comorbidités
+  (aspirine/AINS), RGO, comorbidités
 \item vaccins grippe (pneumocoque si asthme sévère)
 \end{itemize}
 Efficace ?
 \begin{itemize}
 \item symptômes contrôlés (diurnes < 2/sem, pas de réveil nocture, BDCA < 2/sem, pas
-limitation d'activité)
+  limitation d'activité)
 \item exacerbations < 2 corticostéroïdes systém./an
 \item VEMS/CV > 0.7 et VEMS \(\ge\) 80 \%
 \end{itemize}
-Non contrôlé '
+Si non contrôlé
 \begin{itemize}
-\item CSI faible + BDLA\footnote{broncho-dilatateur à longue durée d'action} < CSI
-moyen/fort + BDLA < centre spécialisé
+\item CSI faible + BDLA\footnote{Broncho-dilatateur à longue durée d'action} < CSI
+  moyen/fort + BDLA < centre spécialisé
 \end{itemize}
 Suivi : périodique, +3mois si changement ttt, mensuel si grossesse
 
@@ -579,36 +632,36 @@ TDM
 Ttt : laval nasal, allergie, antihistaminique/corticoïdes nasaux, tabac, stress
 
 
-\section{Pathologies auto-immunes}%
+\section{188, 189 : Pathologies auto-immunes}%
 \label{sec:pathologies_auto_immunes}
 
 Manifestations respi. viennent de (par priorité décroissante) :
 \begin{itemize}
-  \item infectieuse (favorisé par ttt)
-  \item toxicité médicamenteuse
-  \item spécicifique
-  \item indépendant
+\item infectieuse (favorisé par ttt)
+\item toxicité médicamenteuse
+\item spécicifique
+\item indépendant
 \end{itemize}
 
 \subsection{Complications infectieuses}
 Immunodépression :
 \begin{itemize}
-  \item corticoïdes forte dose > 1 mois
-  \item méthotrexate
-  \item cyclophosphamide
-  \item anti-TNF$\alpha$ (infliximab)
+\item corticoïdes forte dose > 1 mois
+\item méthotrexate
+\item cyclophosphamide
+\item anti-TNF$\alpha$ (infliximab)
 \end{itemize}
 Tuberculose : 
 \begin{itemize}
-  \item comme ID = 50\% extrapulmonaire, 25\% disséminé
-  \item prévention si TNF-$\alpha$ : INH 9 mois $\vee$ INH-RMP 3 mois
+\item comme ID = 50\% extrapulmonaire, 25\% disséminé
+\item prévention si TNF-$\alpha$ : INH 9 mois $\vee$ INH-RMP 3 mois
 \end{itemize}
 Pneumocystose : si corticoïdes forte dose $\vee$ méthotrexate $\vee$
 cyclophosphamide
 \begin{itemize}
-  \item clinique : début brutal, insuf. respi, mortalité élevée
-  \item radio thorax : condensation alvéolaire/verre dépoli bilat
-  \item penser co-infections
+\item clinique : début brutal, insuf. respi, mortalité élevée
+\item radio thorax : condensation alvéolaire/verre dépoli bilat
+\item penser co-infections
 \end{itemize}
 \subsection{Médicaments}
 Méthotrexate : plus fréquent, pneumopathie d'HS (opacités diffuses), LBA
@@ -619,44 +672,44 @@ Inhibiteurs TNF-$\alpha$ : PID/granulomatoses, anaphylactique
 \subsection{Connectivites}
 Polyarthrite rhumatoide
 \begin{itemize}
-  \item PID\footnote{pneumopathie interstitielle diffuse} : radio =
-    réticulations, rayons de miels, bronchectasies. Surveillance seulement
-  \item pleurésie rhumatoïde : unilatérale, peu abondante, exsudative. Évolution
-    favorable
-  \item nodules pulmonaires rhumatoïdes. 
-  \item bronchiolite oblitérante
+\item PID\footnote{Pneumopathie interstitielle diffuse} : radio =
+  réticulations, rayons de miels, bronchectasies. Surveillance seulement
+\item pleurésie rhumatoïde : unilatérale, peu abondante, exsudative. Évolution
+  favorable
+\item nodules pulmonaires rhumatoïdes. 
+\item bronchiolite oblitérante
 \end{itemize}
 Sclérodermie systémique : CREST (Calcinose, Raynaud, dyskinésie oEsophagienne,
 Sclérodactyie, Télangiectasie), Ac anti-nucléraires
 \begin{itemize}
-  \item PID : semblable à PINS\footnote{pneumopathie interstitielle non
+\item PID : semblable à PINS\footnote{Pneumopathie interstitielle non
     spécifique} : opacités en verre dépoli, bronchectasies par traction. Survie
-    85\% à 5 ans
-  \item hypertension artérielle pulmonaire : dyspnée. Echo. cardiaque +
-    cathéterisme cardiaque
+  85\% à 5 ans
+\item hypertension artérielle pulmonaire : dyspnée. Echo. cardiaque +
+  cathéterisme cardiaque
 \end{itemize}
 Lupus érythémateux disséminé 
 \begin{itemize}
-  \item pleurésie lupique : peu abondant, svt bilatéral, svt + péricardite
-  \item infectieux, sd hémorragie alvéolaire
+\item pleurésie lupique : peu abondant, svt bilatéral, svt + péricardite
+\item infectieux, sd hémorragie alvéolaire
 \end{itemize}
 Dermato-, polymyosite
 \begin{itemize}
-  \item PID chronique : 1ere cause DC, opacités verre dépoli, LBA lymphocytaire.
-    Ttt : corticothérapie + IS
-  \item PID (sub)aigüe
+\item PID chronique : 1ere cause DC, opacités verre dépoli, LBA lymphocytaire.
+  Ttt : corticothérapie + IS
+\item PID (sub)aigüe
 \end{itemize}
 Sd de Gougerot-Sjögren
 \begin{itemize}
-  \item bronchite lymphocytaire chronique : toux sèche chronique
-  \item PID, lymphome pulmonaire primitif
+\item bronchite lymphocytaire chronique : toux sèche chronique
+\item PID, lymphome pulmonaire primitif
 \end{itemize}
 
 \subsection{Vascularitess}
 Granumolatose avec polyangéite : 40-50ans, début ORL+ poumon (+ rein)
 \begin{itemize}
-  \item radio : nodules s'excavant, opacités verre dépoli
-  \item Ttt urgent = corticothérapie, cyclophosphamide
+\item radio : nodules s'excavant, opacités verre dépoli
+\item Ttt urgent = corticothérapie, cyclophosphamide
 \end{itemize}
 Granumolatose éosinophilique avec polyangéite :  hyperéosinophilie, pneumopathie
 éosino.
@@ -670,142 +723,142 @@ Aigüe = quelques heures/jours
 
 Détresses respi aigüe :
 \begin{itemize}
-  \item cyanose
-  \item sueur
-  \item FR > 30/min ou < 10/min
-  \item tirage, muscle respi accessoires
-  \item respi abdo paradoxale
+\item cyanose
+\item sueur
+\item FR > 30/min ou < 10/min
+\item tirage, muscle respi accessoires
+\item respi abdo paradoxale
 \end{itemize}
 Hémodynamique :
 \begin{itemize}
-  \item FC > 110/min
-  \item choc (marbrures, oligurie, angoisse, extr. froides)
-  \item PAS < 80 mmHg
-  \item insuf. ventriculaire droite (turgescence jug, OMI, signe Harzer)
+\item FC > 110/min
+\item choc (marbrures, oligurie, angoisse, extr. froides)
+\item PAS < 80 mmHg
+\item insuf. ventriculaire droite (turgescence jug, OMI, signe Harzer)
 \end{itemize}
 Urgence !!
 
 \begin{figure}[htpb]
   \centering
   \resizebox{\linewidth}{!}{
-  \tikz \graph [
-  % Labels at the middle 
-  edge quotes mid,
-  % Needed for multi-lines
-  nodes={align=center},
-  sibling distance=3cm,
-  level distance=2cm,
-  edges={nodes={fill=white}}, 
-  layered layout]
-{
-  Anomalie respi ? -> 
-  {
-    "Inspiration\\(VAS)" -> {
-      Enfant -> {
-        "\textbf{Corps étranger}";
-        "\textbf{Laryngite}";
-      };
-      Adulte -> {
-        "\textbf{Oedeme de Quincke}\\
-        Terrain allergie";
+    \tikz \graph [
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    sibling distance=3cm,
+    level distance=2cm,
+    edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      Anomalie respi ? -> 
+      {
+        "Inspiration\\(VAS)" -> {
+          Enfant -> {
+            "\textbf{Corps étranger}";
+            "\textbf{Laryngite}";
+          };
+          Adulte -> {
+            "\textbf{Oedeme de Quincke}\\
+            Terrain allergie";
+          };
+        };
+        "expiration\\(bronches)" -> {
+          "\textbf{Asthme}\\
+          Allergie\\
+          Facteur\\
+          Médic\\
+          Hyposodé";
+          "\textbf{OAP}\\
+          Orthopnée\\
+          Expect. mousseuses\\
+          Médic\\
+          Hyposodé";
+          "\textbf{EBPCO}\\
+          Tabac\\
+          Bronchite aigüe";
+        };
+        non -> {
+          douleur -> {
+            "\textbf{Infectieux}\\
+            Sd infectieux\\
+            Toux\\
+            Expect. purul";
+            "\textbf{Pneumothorax}\\
+            Sd pleural\\
+            Brutal";
+            "\textbf{EP/vasculaire}\\
+            Alitement\\
+            Voyage\\
+            Phlébite";
+          };
+          sans douleur ->  
+          "\textbf{OAP}\\
+          Agé\\
+          Orthopnée\\
+          Expect. mousseuses\\
+          Nocturne\\
+          Crépitants";
+        };
       };
     };
-    "expiration\\(bronches)" -> {
-      "\textbf{Asthme}\\
-      Allergie\\
-      Facteur\\
-      Médic\\
-      Hyposodé";
-      "\textbf{OAP}\\
-      Orthopnée\\
-      Expect. mousseuses\\
-      Médic\\
-      Hyposodé";
-      "\textbf{EBPCO}\\
-      Tabac\\
-      Bronchite aigüe";
-    };
-    non -> {
-      douleur -> {
-        "\textbf{Infectieux}\\
-        Sd infectieux\\
-        Toux\\
-        Expect. purul";
-        "\textbf{Pneumothorax}\\
-        Sd pleural\\
-        Brutal";
-        "\textbf{EP/vasculaire}\\
-        Alitement\\
-        Voyage\\
-        Phlébite";
-      };
-      sans douleur ->  
-      "\textbf{OAP}\\
-      Agé\\
-      Orthopnée\\
-      Expect. mousseuses\\
-      Nocturne\\
-      Crépitants";
-    };
-  };
-};
-}
-\caption{Dyspnée aigüe}
+  }
+  \caption{Dyspnée aigüe}
 \end{figure}
 \begin{figure}[htpb]
   \centering
   \resizebox{\linewidth}{!}{
-\tikz \graph [
-   %Labels at the middle 
-  edge quotes mid,
-   %Needed for multi-lines
-  nodes={align=center},
-  sibling distance=3cm,
- level distance=2cm,
-  edges={nodes={fill=white}}, 
-layered layout]
-{
-  Sibilants -> {
-    "\textbf{Asthme}\\
-    Jeune\\
-    Atopie\\
-    Variable\\
-    Nocturne";
-    "\textbf{BPCO}\\
-    Tabac\\
-    Toux, expect.";
-    "\textbf{Insuf cardiaque G}\\
-    ATCD\\
-    Orthopnée\\
-    Toux\\
-    Nocturne";
-  };
-  Crépitants -> {
-    "\textbf{Insuf cardiaque G}\\
-    ATCD\\
-    Orthopnée\\
-    Toux\\
-    Nocturne";
-    "\textbf{PID}\\
-    Toux sèche\\
-    Maladie systémique";
-  };
-  Normal -> {
-    "\textbf{EP/vasc.}\\
-    ATCD\\
-    Phlébite";
-    "\textbf{Neuromusc.}\\
-    Orthopnée\\
-    Respi. paradoxale\\
-    Neuro";
-    "\textbf{Sd hyperventil}\\
-    Non lié effort\\
-    Vertiges\\
-    Paresthésies";
-  };
-};
-}
-\caption{Dyspnée chronique}
+    \tikz \graph [
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    sibling distance=3cm,
+    level distance=2cm,
+    edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      Sibilants -> {
+        "\textbf{Asthme}\\
+        Jeune\\
+        Atopie\\
+        Variable\\
+        Nocturne";
+        "\textbf{BPCO}\\
+        Tabac\\
+        Toux, expect.";
+        "\textbf{Insuf cardiaque G}\\
+        ATCD\\
+        Orthopnée\\
+        Toux\\
+        Nocturne";
+      };
+      Crépitants -> {
+        "\textbf{Insuf cardiaque G}\\
+        ATCD\\
+        Orthopnée\\
+        Toux\\
+        Nocturne";
+        "\textbf{PID}\\
+        Toux sèche\\
+        Maladie systémique";
+      };
+      Normal -> {
+        "\textbf{EP/vasc.}\\
+        ATCD\\
+        Phlébite";
+        "\textbf{Neuromusc.}\\
+        Orthopnée\\
+        Respi. paradoxale\\
+        Neuro";
+        "\textbf{Sd hyperventil}\\
+        Non lié effort\\
+        Vertiges\\
+        Paresthésies";
+      };
+    };
+  }
+  \caption{Dyspnée chronique}
 \end{figure}
 Quantification : échelle Borg [0-10] (aigüe) ou MRC [0-4] (chronique)
 \section{200 : Toux chronique}
@@ -815,59 +868,59 @@ Quantification : échelle Borg [0-10] (aigüe) ou MRC [0-4] (chronique)
 
 Signes de gravité : 
 \begin{itemize}
-  \item AEG, sd infectieux
-  \item dyspnée d'effort, hémoptysie
-  \item modification toux chez fumeur
-  \item dysphonie, dysphagie, fausses routes
-  \item Adénopathies cervicales suspectes
-  \item Anomalies cardiopulmonaires
+\item AEG, sd infectieux
+\item dyspnée d'effort, hémoptysie
+\item modification toux chez fumeur
+\item dysphonie, dysphagie, fausses routes
+\item Adénopathies cervicales suspectes
+\item Anomalies cardiopulmonaires
 \end{itemize}
 
 \begin{figure}[htpb]
   \centering
   \caption{PEC initiale}
   \resizebox{\linewidth}{!}{
-\tikz \graph [
-   %Labels at the middle 
-  edge quotes mid,
-   %Needed for multi-lines
-  nodes={align=center},
-  level distance=40pt,
-  sibling distance=3cm,
-  edges={nodes={fill=white}}, 
-layered layout]
-{
-  Signe de gravité -> {
-    Exploration "oui"];
-    "Médicaments ?" "non"] -> {
-      Test d'éviction "oui"];
-      "Coqueluche ?" "non"] -> {
-        Test diagnostique"oui"];
-        "Radio thorax anormale ?" -> {
-          Bilan spécialisé "oui"];
-          "cf~\nameref{subsec:toux_orientation}" "non"];
+    \tikz \graph [
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    level distance=40pt,
+    sibling distance=3cm,
+    edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      Signe de gravité -> {
+        Exploration "oui"];
+        "Médicaments ?" "non"] -> {
+          Test d'éviction "oui"];
+          "Coqueluche ?" "non"] -> {
+            Test diagnostique"oui"];
+            "Radio thorax anormale ?" -> {
+              Bilan spécialisé "oui"];
+              "cf~\nameref{subsec:toux_orientation}" "non"];
+            };
+          };
         };
       };
     };
-  };
-};
-}
+  }
 \end{figure}
 
 \subsection{Orientation diagnostique}
 \label{subsec:toux_orientation}
 \textbf{ORL}  
 \begin{itemize}
-  \item rhinosinusiens : sd rhinorrée postérieur++, obstruction nasale chronique
-  \item carrefour aérodigestif : diverticule de Zenker, laryngite chronique
+\item rhinosinusiens : sd rhinorrée postérieur++, obstruction nasale chronique
+\item carrefour aérodigestif : diverticule de Zenker, laryngite chronique
 \end{itemize}
 
 \textbf{Respiratoire} 
 \begin{itemize}
-  \item Asthme : TVO réversible/hyperréactivité bronchique
-  \item BPCO : TVO non réversible
-  \item Cancer bronchique, tumeurs, bronchectasise (cf
-    \nameref{sub:bronchectasies}
+\item Asthme : TVO réversible/hyperréactivité bronchique
+\item BPCO : TVO non réversible
+\item Cancer bronchique, tumeurs, bronchectasise (cf
+  \nameref{sub:bronchectasies}
 \end{itemize}
 
 \textbf{RGO}  : pyrosis. Endoscopie digestive si FR, pHmétrie des 24h
@@ -882,17 +935,17 @@ Crohn.
 
 \paragraph{Traitement d'épreuve} (ordre d'échec):
 \begin{enumerate}
-  \item RGO : bromphéniramine + pseudoéphédrine 3 sem
-  \item asthme si TVO réversible, corticoïdes inhlalés BD inhalés si
-    hyperréactivité bronchique
-  \item avis spé
+\item RGO : bromphéniramine + pseudoéphédrine 3 sem
+\item asthme si TVO réversible, corticoïdes inhlalés BD inhalés si
+  hyperréactivité bronchique
+\item avis spé
 \end{enumerate}
 
 Traitement symptomatique : arrêt tabagisme. Éviter si possible
 \begin{itemize}
-  \item sèche : opiacés, antihistaminique anticholinergique, non
-    antihistaminique non opiacés
-  \item produtive : mucomodificateurs, kiné
+\item sèche : opiacés, antihistaminique anticholinergique, non
+  antihistaminique non opiacés
+\item produtive : mucomodificateurs, kiné
 \end{itemize}
 
 \subsection{Bronchectasies}
@@ -903,11 +956,11 @@ traction" (NB: pas des vraies bronchectasies)
 
 Étiologie : 
 \begin{itemize}
-  \item infection respi sévères : coqueluche, tuberculose (virales respi enfant,
-    pneumonie bact, suppuration suite sténose)
-  \item mucoviscidose
-  \item non infectieux (poumon radique, aspergillose allergique, SDRA,
-    systémique, déficit immunitaire)
+\item infection respi sévères : coqueluche, tuberculose (virales respi enfant,
+  pneumonie bact, suppuration suite sténose)
+\item mucoviscidose
+\item non infectieux (poumon radique, aspergillose allergique, SDRA,
+  systémique, déficit immunitaire)
 \end{itemize}
 
 Évolution : colonisation bactérienne, hémoptysie, TVO (car dilatation seulement
@@ -915,10 +968,10 @@ proximale), insuffisance respi
 
 Clinique :
 \begin{itemize}
-  \item toux productive quotidienne depuis l'enfance
-  \item hémoptysie
-  \item infections à \{\bact{influenzae}, \bact{pneumocoque}\} puis \{\bact{dore},
-    \bact{aeruginosa}++\}
+\item toux productive quotidienne depuis l'enfance
+\item hémoptysie
+\item infections à \{\bact{influenzae}, \bact{pneumocoque}\} puis \{\bact{dore},
+  \bact{aeruginosa}++\}
 \end{itemize}
 
 Diagnostic : TDM (certitude) = bronches de $\diameter$ > artère, lumière
@@ -934,20 +987,20 @@ pour l'inflammation. Chir si très local + compliqué.
 Urgence \skull
 
 \begin{enumerate}
-  \item Est-ce une hémoptysie ? Hématémèse ou ORL possibles
-  \item Gravité ? Suivant abondance, terrain, persistance $\implies$ risque = hématose et asphyxie
+\item Est-ce une hémoptysie ? Hématémèse ou ORL possibles
+\item Gravité ? Suivant abondance, terrain, persistance $\implies$ risque = hématose et asphyxie
 \end{enumerate}
 
 \subsection{Étiologies}
 \begin{itemize}
-  \item Tumeurs bronchopulmonaires++
-  \item Bronchectasies++
-  \item Tuberculose (évolutive/séquelles)++
-  \item Idiopathique++
-  \item Infections : aspergillaires, pneumopathie infectieuses nécrosante
-  \item Vasc : embolie pulmonaire, HT pulmonaire, anévrysmes/malformations
-  \item Hémorragie alvéolaires : insuf. cardiaque gauches, médicaments/toxiques,
-    vascularites, collagénose, sd Goodpasture
+\item Tumeurs bronchopulmonaires++
+\item Bronchectasies++
+\item Tuberculose (évolutive/séquelles)++
+\item Idiopathique++
+\item Infections : aspergillaires, pneumopathie infectieuses nécrosante
+\item Vasc : embolie pulmonaire, HT pulmonaire, anévrysmes/malformations
+\item Hémorragie alvéolaires : insuf. cardiaque gauches, médicaments/toxiques,
+  vascularites, collagénose, sd Goodpasture
 \end{itemize}
 
 \subsection{Diagnostic}
@@ -957,13 +1010,13 @@ Interrogatoire : ATCD respi, cardiaque, histoire médicale
 
 Examens 
 \begin{itemize}
-  \item clinique : \{$SpO_2$, tension, pouls\}, mauvaise tolérance respi, gêne
-    latéralisée, hippocratisme digital
-  \item radio thorax pour siège (verre dépoli/sd alvéolaire), lésion
-  \item scanner plus précis : nature, localisation, carto. vasc.
-  \item (endoscopie : hématémèse, multiples lésions, tumeur proximale)
-  \item (artériographie bronchique : ttt par embolisation)
-  \item autres : gaz du sang, dosage Hg, bilan coagulation, groupe sanguin, {BK,
+\item clinique : \{$SpO_2$, tension, pouls\}, mauvaise tolérance respi, gêne
+  latéralisée, hippocratisme digital
+\item radio thorax pour siège (verre dépoli/sd alvéolaire), lésion
+\item scanner plus précis : nature, localisation, carto. vasc.
+\item (endoscopie : hématémèse, multiples lésions, tumeur proximale)
+\item (artériographie bronchique : ttt par embolisation)
+\item autres : gaz du sang, dosage Hg, bilan coagulation, groupe sanguin, {BK,
     ECG} pour étiologie (OAP hémorragique pour ECG)
 \end{itemize}
 
@@ -986,63 +1039,63 @@ Chir si localiés, fonction respi et "à froid"
 \subsection{Diagnostic}
 Suspicion clinique :
 \begin{itemize}
-  \item douleur thoracique, dyspnée, toux sèche, hyperthermie
-  \item sd pleural liquidien (silence auscult, matité, $\emptyset$ transmission
-    corde vocales, souffle pleurétique
+\item douleur thoracique, dyspnée, toux sèche, hyperthermie
+\item sd pleural liquidien (silence auscult, matité, $\emptyset$ transmission
+  corde vocales, souffle pleurétique
 \end{itemize}
 Sigenes de gravité : détresse respi, choc septique, choc hémorragique
 
 Confirmation imagerie
 \begin{itemize}
-  \item radio : opacité dense, homogène, non sytématisé, limité par ligne
-    concave (DD atélectasie : EP = "repousse" vers côté sain). \\
-    Cas difficiles : profil, sous pulmonaire, cloisonnés
-  \item échographie : cloisonné, pleurésie VS collapus, guide ponction
-  \item TDM en urgence si embolie pulmonaire ou hémothorax
+\item radio : opacité dense, homogène, non sytématisé, limité par ligne
+  concave (DD atélectasie : EP = "repousse" vers côté sain). \\
+  Cas difficiles : profil, sous pulmonaire, cloisonnés
+\item échographie : cloisonné, pleurésie VS collapus, guide ponction
+\item TDM en urgence si embolie pulmonaire ou hémothorax
 \end{itemize}
 
 \subsection{Causes}
 \paragraph{Transsudats}
 \begin{itemize}
-  \item insuf. cardiaque G
-  \item cirrhose
-  \item sd néphrotique
-  \item atélectasie
-  \item embolie pulmonaire
+\item insuf. cardiaque G
+\item cirrhose
+\item sd néphrotique
+\item atélectasie
+\item embolie pulmonaire
 \end{itemize}
 
 \paragraph{Exsudats}
 \textit{Néoplasiques} 
 \begin{itemize}
-  \item métastatique : liquide sérohématique/rosé/citrin, cytodiagnostic +
-    biopsie (aveugle/vue) sauf si cancer connu
-  \item mésothéliome 
-    \begin{itemize}
-      \item exposition amiante
-      \item imagerie : épaississement pleural diffus, circonférentiel
-      \item liquide citrin/sérohématique
-      \item biopsie sous thorascopie++
-    \end{itemize}
+\item métastatique : liquide sérohématique/rosé/citrin, cytodiagnostic +
+  biopsie (aveugle/vue) sauf si cancer connu
+\item mésothéliome 
+  \begin{itemize}
+  \item exposition amiante
+  \item imagerie : épaississement pleural diffus, circonférentiel
+  \item liquide citrin/sérohématique
+  \item biopsie sous thorascopie++
+  \end{itemize}
 \end{itemize}
 
 \textit{Infectieux} 
 \begin{itemize}
-  \item parapneumoniques (=bactérien) 
-    \begin{itemize}
-      \item non compliqués (liquide clair, pas de germe) : ATB
-      \item compliqué : ATB + évacuation liquide
-    \end{itemize}
-  \item virale
-  \item tuberculeuse : progressif, fièvre modérée, amaigrissement. Exsudat riche
-    en proténie. Biopsie++ (aveugle/vue)
+\item parapneumoniques (=bactérien) 
+  \begin{itemize}
+  \item non compliqués (liquide clair, pas de germe) : ATB
+  \item compliqué : ATB + évacuation liquide
+  \end{itemize}
+\item virale
+\item tuberculeuse : progressif, fièvre modérée, amaigrissement. Exsudat riche
+  en proténie. Biopsie++ (aveugle/vue)
 \end{itemize}
 
 \textit{Autres}  :
 \begin{itemize}
-  \item embolie pulmonaire
-  \item bénigne liée à l'amiante (exclusion++)
-  \item post trauma, rupture oesophagienne, sous-diaphragme
-  \item systémique : lupus, polyarthrite rhumatoide
+\item embolie pulmonaire
+\item bénigne liée à l'amiante (exclusion++)
+\item post trauma, rupture oesophagienne, sous-diaphragme
+\item systémique : lupus, polyarthrite rhumatoide
 \end{itemize}
 
 \subsection{Ponction}
@@ -1056,23 +1109,23 @@ Tout le liquide ? Si étiologique ou non cloisonné
 \paragraph{Biologie}
 1ère intention :
 \begin{itemize}
-  \item biochimie
-    \begin{itemize}
-      \item transsudat si protide < 25g/L ou critère de Light faux
-      \item exsudat si protide > 35g/L ou critère de Light vrais
-    \end{itemize}
-  \item cytologie (cf tableau)
-  \item recherche germes pygènes, mycobactéries
+\item biochimie
+  \begin{itemize}
+  \item transsudat si protide < 25g/L ou critère de Light faux
+  \item exsudat si protide > 35g/L ou critère de Light vrais
+  \end{itemize}
+\item cytologie (cf tableau)
+\item recherche germes pygènes, mycobactéries
 \end{itemize}
 NB : Light : LDH > 200 UI/L $\vee$ protiduse pleuraux/sérique > 0.5 $\vee$ LDH
 pleuraux/sérique > 0.6
 
 2eme intention : 
 \begin{itemize}
-  \item trauma $\wedge$ hématocrite pleural/sanguin > 0.5 $\implies$ probablmt
-    hémothoraux (urgence \danger)
-  \item amylase pleurale si pancréatique et sous-phrénique
-  \item si triglycéride > 1.1g/L $\implies$ chylothorax
+\item trauma $\wedge$ hématocrite pleural/sanguin > 0.5 $\implies$ probablmt
+  hémothoraux (urgence \danger)
+\item amylase pleurale si pancréatique et sous-phrénique
+\item si triglycéride > 1.1g/L $\implies$ chylothorax
 \end{itemize}
 
 \begin{table}[htpb]
@@ -1084,16 +1137,16 @@ pleuraux/sérique > 0.6
     & Cellules tumorales & Neutrophiles & Lymphocytes & Éosinophiles\\
     \midrule
     Néoplasique & Métastasique &  & Cancer & Cancer\\
-                & Mésothéliome &  & Lymphome & \\
-                & Hémopathies malignes &  &  & \\
+    & Mésothéliome &  & Lymphome & \\
+    & Hémopathies malignes &  &  & \\
     \midrule
     Infectieux &  & Parapneumonique & Tuberculose & Parasitose\\
     \midrule
     Autres &  & Embolie pulmonaire & Sarcoïdose & Hémothorax\\
-           &  & Pancréatite & Chylothorax & Pneumothorax\\
-           &  & Sous-phrénique & PR, lupus & Embolie pulmonaire\\
-           &  & Oesophage &  & Asbestosique bénigne\\
-           &  &  &  & Médicament\\
+    &  & Pancréatite & Chylothorax & Pneumothorax\\
+    &  & Sous-phrénique & PR, lupus & Embolie pulmonaire\\
+    &  & Oesophage &  & Asbestosique bénigne\\
+    &  &  &  & Médicament\\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -1103,60 +1156,60 @@ pleuraux/sérique > 0.6
 \label{sec:203_opacites_et_masses_thoraciques}
 
 \begin{itemize}
-  \item < 3mm : micronodules
-  \item $[3,30]$mm : nodules
-  \item > 30mm : masses
+\item < 3mm : micronodules
+\item $[3,30]$mm : nodules
+\item > 30mm : masses
 \end{itemize}
 
 \subsection{Nodules}
 Origine maligne probable si :
 \begin{itemize}
-  \item homme, > 50 ans, fumeur
-  \item carcinogènes pro, > 1cm (> 3cm ++)
-  \item contours spiculés, polylobés, irrégulier
-  \item attire structures proches
-  \item augmente de taille
-  \item pas de calcifications
-  \item fixe TED-FDG
+\item homme, > 50 ans, fumeur
+\item carcinogènes pro, > 1cm (> 3cm ++)
+\item contours spiculés, polylobés, irrégulier
+\item attire structures proches
+\item augmente de taille
+\item pas de calcifications
+\item fixe TED-FDG
 \end{itemize}
 Certitude = histologie
 
 \textbf{Tumeurs malignes}  
 \begin{itemize}
-  \item cancers bronchopulmonaires primitifs : > 50 ans, fumeur, souvent nodule
-    solitaire
-  \item secondaires : opacités rondes régulières
+\item cancers bronchopulmonaires primitifs : > 50 ans, fumeur, souvent nodule
+  solitaire
+\item secondaires : opacités rondes régulières
 \end{itemize}
 
 \textbf{Tumeurs bénignes} 
 \begin{itemize}
-  \item Hamartochondrome (freq++) : "pop-corn", pathognomonique
-  \item Tumeurs  carcinoïdes
+\item Hamartochondrome (freq++) : "pop-corn", pathognomonique
+\item Tumeurs  carcinoïdes
 \end{itemize}
 
 \textbf{Non tumorales}
 \begin{itemize}
-  \item infectieux 
-    \begin{itemize}
-      \item abcès à pyogène (contexte aigü fébrile)
-      \item bactérie filamenteuse crossance Tente
-      \item tuberculome ($\implies$ prélèvements)
-      \item kytes hydatiques ("membrane flottente")
-      \item aspergillome (opacité ronde + croissant gazeux)
-    \end{itemize}
-  \item granumolatose avec polyangétie
-  \item nodules rhumatoïdes
-  \item atélectasies
-  \item masses pseudo-tumorale silicotiques (micronodules, confluents ?)
-  \item malformations artérioveineuses
+\item infectieux 
+  \begin{itemize}
+  \item abcès à pyogène (contexte aigü fébrile)
+  \item bactérie filamenteuse crossance Tente
+  \item tuberculome ($\implies$ prélèvements)
+  \item kytes hydatiques ("membrane flottente")
+  \item aspergillome (opacité ronde + croissant gazeux)
+  \end{itemize}
+\item granumolatose avec polyangétie
+\item nodules rhumatoïdes
+\item atélectasies
+\item masses pseudo-tumorale silicotiques (micronodules, confluents ?)
+\item malformations artérioveineuses
 \end{itemize}
 
 \paragraph{Examens}
 \begin{itemize}
-  \item TDM et TEP
-  \item Fibroscopie pronchique systémitaque
-  \item Ponction transpariétal sous TDM (sauf insuffisance respi)
-  \item Autres : thoracotomie, médiastinoscopie si ADP médiastinales fexant en TEP-FDG
+\item TDM et TEP
+\item Fibroscopie pronchique systémitaque
+\item Ponction transpariétal sous TDM (sauf insuffisance respi)
+\item Autres : thoracotomie, médiastinoscopie si ADP médiastinales fexant en TEP-FDG
 \end{itemize}
 Prélevement si solide, > 8mm, hypermétabolique. Sinon surveillance TDM (sauf non solide et image résolutive à 6 semaines)
 
@@ -1168,43 +1221,43 @@ DD: intraparenchymateux, pariétal $\implies$ TMD
 
 \paragraph{Médiastin antérieur}
 \begin{itemize}
-  \item Supérieur : goître plongeant $\implies$ TMD : continuité glande thyroïde
-  \item Moyen : 
-    \begin{itemize}
-      \item tumeurs thymiques : épithéliales (thymomes, carcinomes thymiques),
-        lymphomes thymiques, kystes, tumeurs bénignes
-      \item Tumeurs germinales : bénignes, séminomateuses, non séminomateuses
-        (carcinomes embryonnaires, vitellines, choriocarcinomes)
-    \end{itemize}
-  \item Inférieur : kystes pleuropéricardiques
+\item Supérieur : goître plongeant $\implies$ TMD : continuité glande thyroïde
+\item Moyen : 
+  \begin{itemize}
+  \item tumeurs thymiques : épithéliales (thymomes, carcinomes thymiques),
+    lymphomes thymiques, kystes, tumeurs bénignes
+  \item Tumeurs germinales : bénignes, séminomateuses, non séminomateuses
+    (carcinomes embryonnaires, vitellines, choriocarcinomes)
+  \end{itemize}
+\item Inférieur : kystes pleuropéricardiques
 \end{itemize}
 
 \paragraph{Médiastin moyen}
 \begin{itemize}
-  \item Tumoral : cancer bronchopulmonaires, lymphomes, LLC, cancers
-    extra-thoraciques
-  \item Non tumoral : sarcoïdose, tuberculose, silicose, infections
-    parenchymateuses chroniques, histoplasmose (Amérique du Nord)
-  \item Autres : insuf. cardiaque gauche
+\item Tumoral : cancer bronchopulmonaires, lymphomes, LLC, cancers
+  extra-thoraciques
+\item Non tumoral : sarcoïdose, tuberculose, silicose, infections
+  parenchymateuses chroniques, histoplasmose (Amérique du Nord)
+\item Autres : insuf. cardiaque gauche
 \end{itemize}
 
 \paragraph{Médiastin postérieur} neurogènes
 
 Diagnostic :
 \begin{itemize}
-  \item médiastin antérieur : 
-    \begin{itemize}
-      \item $\alpha$-foetoprotéine (tumeurs vitellines), HCG\footnote{Hormone gonadotrophine chorionique} (choriocarcinomes)
-      \item ponction transpariétale
-      \item médiastinotomie
-      \item chir si complète et peu mutilante
-    \end{itemize}
-  \item médiastin moyen : médiastinoscopie $\vee$ ponction transbronchique
-  \item médiastin postérieur : 
-    \begin{itemize}
-      \item ponction transpariétale, transoesophagienne
-      \item chir si complète et peu mutilante
-    \end{itemize}
+\item médiastin antérieur : 
+  \begin{itemize}
+  \item $\alpha$-foetoprotéine (tumeurs vitellines), HCG\footnote{Hormone gonadotrophine chorionique} (choriocarcinomes)
+  \item ponction transpariétale
+  \item médiastinotomie
+  \item chir si complète et peu mutilante
+  \end{itemize}
+\item médiastin moyen : médiastinoscopie $\vee$ ponction transbronchique
+\item médiastin postérieur : 
+  \begin{itemize}
+  \item ponction transpariétale, transoesophagienne
+  \item chir si complète et peu mutilante
+  \end{itemize}
 \end{itemize}
 
 NB : urgence si jeune et suspicion de tumeur germinale non séminomateuses
@@ -1216,11 +1269,11 @@ NB : urgence si jeune et suspicion de tumeur germinale non séminomateuses
 Hypoxémie
 \begin{itemize}
 \item Inadéquation ventilation/perfusion :
-\begin{itemize}
-\item effet shunt (mauvaise ventilation) => oxygénothérapie corrige
-\item shunt vrai (communication anat. ou non ventilé) => oxygénothérapie ne corrige
-\end{itemize}
-pas
+  \begin{itemize}
+  \item effet shunt (mauvaise ventilation) => oxygénothérapie corrige
+  \item shunt vrai (communication anat. ou non ventilé) => oxygénothérapie ne corrige
+  \end{itemize}
+  pas
 \item Hypoventilation alvéolaire : pure (commande, neuromusc) ou effet "espace mort"
 \end{itemize}
 (mauvaise perfusion)
@@ -1240,18 +1293,18 @@ Hypercapnie : compensée par le rein
 \label{sec:org5310651}
 Hypoxémie si PaO\(_{\text{2}}\) < 70mmHg (arbitraire). Selon EFR
 \begin{center}
-\begin{tabular}{llllll}
-\toprule
-TV & TVO & TVR T\(_{\text{LCO}}\)/V\(_{\text{A}}\) bas & TVR T\(_{\text{LCO}}\)/V\(_{\text{A}}\) normal & mixte & non\\
-\midrule
- & BPCO, asthme & P. interstitiel & Sd obésité-hyperventil & DDB & HTP\\
- & bronchiolite &  & cage thoracique & Muscoviscidose & \\
-\midrule
-Méchanisme & V\(_{\text{A}}\)/Q & Surf d'échange & Hypoventilation & V\(_{\text{A}}\)/Q & Surf d'échange\\
-\midrule
-Atteinte & échangeur & échangeur & pompe/central & échangeur & vasculaire\\
-\bottomrule
-\end{tabular}
+  \begin{tabular}{llllll}
+    \toprule
+    TV & TVO & TVR T\(_{\text{LCO}}\)/V\(_{\text{A}}\) bas & TVR T\(_{\text{LCO}}\)/V\(_{\text{A}}\) normal & mixte & non\\
+    \midrule
+       & BPCO, asthme & P. interstitiel & Sd obésité-hyperventil & DDB & HTP\\
+       & bronchiolite &  & cage thoracique & Muscoviscidose & \\
+    \midrule
+    Méchanisme & V\(_{\text{A}}\)/Q & Surf d'échange & Hypoventilation & V\(_{\text{A}}\)/Q & Surf d'échange\\
+    \midrule
+    Atteinte & échangeur & échangeur & pompe/central & échangeur & vasculaire\\
+    \bottomrule
+  \end{tabular}
 \end{center}
 
 \subsection{Diagnostic}
@@ -1263,12 +1316,12 @@ IRC = dyspnée (sous-évaluée), neuropsy + patho initiale
 Physique : 
 \begin{itemize}
 \item IRC : cyanose, insuf. cardiaque D (turgescence jugulaire, oedeme MI, reflux
-hépato-jugulaire)
+  hépato-jugulaire)
 \item patho : 
-\begin{itemize}
-\item obstructive : distension thoracique, dimin. bilat murmure vésicul
-\item restrictive : râle crépitant des bases, hippocratisme digital
-\end{itemize}
+  \begin{itemize}
+  \item obstructive : distension thoracique, dimin. bilat murmure vésicul
+  \item restrictive : râle crépitant des bases, hippocratisme digital
+  \end{itemize}
 \end{itemize}
 
 \subsubsection{Diagnostic}
@@ -1288,7 +1341,7 @@ Cause, arrêt tabac, vaccins (grippe, pneumocoque), réhabilitation respi.
 Oxygénothérapie de longue durée : 2 mesures à 2 semaines avec
 \begin{itemize}
 \item obstructive = PaO\(_{\text{2}}\) < 55mmHG \(\vee\) ( \(\in\) [55, 60] mmHG \(\wedge\) hypoxie
-tissulaire (Ht > 55\%, HTP, insuf. vetre D, SpO\(_{\text{2}}\) nocturne \(\le\) 88\%)
+  tissulaire (Ht > 55\%, HTP, insuf. vetre D, SpO\(_{\text{2}}\) nocturne \(\le\) 88\%)
 \item restrictivé = PaO\(_{\text{2}}\) < 60 mmHg
 \end{itemize}
 Efficace si  IRC après BPCO, 15h/jour, forme gazeuse ou liquide
@@ -1314,17 +1367,17 @@ Bronchite chronique (toux productive quotidienne \(\ge 3\) mois, \(\ge 2\) ans),
 emphysème (élargissement espaces aériens distaux + destructions parois
 alvéolaires) inclus dans BPCO\\
 \begin{table}[htbp]
-\caption{Différences asthme-BPCO}
-\centering
-\begin{tabular}{ll}
-\toprule
-Asthme & BPCO\\
-\midrule
-Obstructive non réversible & Obst. réversible\\
-Jeune, atopique & Fumeur, > 40 ans\\
-Survient \textasciitilde{}40 ans & Enfance\\
-\bottomrule
-\end{tabular}
+  \caption{Différences asthme-BPCO}
+  \centering
+  \begin{tabular}{ll}
+    \toprule
+    Asthme & BPCO\\
+    \midrule
+    Obstructive non réversible & Obst. réversible\\
+    Jeune, atopique & Fumeur, > 40 ans\\
+    Survient \textasciitilde{}40 ans & Enfance\\
+    \bottomrule
+  \end{tabular}
 \end{table}
 
 Sévérité : 
@@ -1359,31 +1412,31 @@ Signes physiques : après TVO : \(\nearrow\) temps expiratoire, \(\searrow\) mur
 \subsection{Traitement}
 \begin{figure}[htpb]
   \centering
-\tikz \graph [
+  \tikz \graph [
   % Labels at the middle 
   edge quotes mid,
   % Needed for multi-lines
   nodes={align=center},
   sibling distance=3cm,
- level distance=2cm,
+  level distance=2cm,
   edges={nodes={fill=white}}, 
-tree layout]
-{
-  Dyspnée/exacerbations -> {
-    BD longue durée[>"oui", draw]-> 
-    {
-      2 BD [draw, >"Exacerb"] -> "Cortico + 2 BD"[draw, >"exacerb"];
-      "Cortico. inhalé\\
-      + $\beta2$ longue durée"[draw, >"dyspnée"]-> "Cortico + 2 BD"[draw,
-      >"insuffisant"]
-      -> "Réévaluation";
-      2 BD [draw, >"Exacerb"] -> "Réévaluation"[>"dyspnée"];
-      ;
-    };
-    BD courte durée [>"non", draw];
-  }
-};
-\caption{Traitement BPCO}
+  tree layout]
+  {
+    Dyspnée/exacerbations -> {
+      BD longue durée[>"oui", draw]-> 
+      {
+        2 BD [draw, >"Exacerb"] -> "Cortico + 2 BD"[draw, >"exacerb"];
+        "Cortico. inhalé\\
+        + $\beta2$ longue durée"[draw, >"dyspnée"]-> "Cortico + 2 BD"[draw,
+        >"insuffisant"]
+        -> "Réévaluation";
+        2 BD [draw, >"Exacerb"] -> "Réévaluation"[>"dyspnée"];
+        ;
+      };
+      BD courte durée [>"non", draw];
+    }
+  };
+  \caption{Traitement BPCO}
 \end{figure}
 
 
@@ -1438,44 +1491,44 @@ Clinique : état général, signes de connectivite
 
 
 \begin{table}[htbp]
-\caption{Biologie PID subaigüe}
-\centering
-\begin{tabular}{ll}
-\toprule
-Examen & Maladie\\
-\midrule
-NFS, CRP & Sd inflammatoire\\
- & Hyperéosinophilie, lymphopénie\\
-BNP & Insuf. cardiaque\\
-Créat & Insuf. rénale\\
-Précipitines sériques & Hypersensib. (si contexte)\\
-CEA, calcémie, calciurie & Sarcoïdose\\
-Facteur rhumatoïdes etc & Connectivites\\
-ANCA & Vascularite\\
-Séro VIH & Opportuniste\\
-\bottomrule
-\end{tabular}
+  \caption{Biologie PID subaigüe}
+  \centering
+  \begin{tabular}{ll}
+    \toprule
+    Examen & Maladie\\
+    \midrule
+    NFS, CRP & Sd inflammatoire\\
+           & Hyperéosinophilie, lymphopénie\\
+    BNP & Insuf. cardiaque\\
+    Créat & Insuf. rénale\\
+    Précipitines sériques & Hypersensib. (si contexte)\\
+    CEA, calcémie, calciurie & Sarcoïdose\\
+    Facteur rhumatoïdes etc & Connectivites\\
+    ANCA & Vascularite\\
+    Séro VIH & Opportuniste\\
+    \bottomrule
+  \end{tabular}
 \end{table}
 
 \begin{table}[htbp]
-\caption{LBA PID subaigüe}
-\centering
-\begin{tabular}{ll}
-\toprule
-Normal & 80\% macrophages\\
- & < 15\% lymphocytes\\
- & < 5\% PNN\\
- & < 2\% PNE\\
-\midrule
-Alvéolite & Hypercellularité totale\\
-Histiocytose langerhansienne & Macrophage\\
-Sarcoïdose, PHS & Lymphocytaire\\
-P. à éosinophiles & Éosinophilique\\
-POC\footnote{Pneuompathie organisée cryptogénique} & Panachées\\
-Hémorragie alvéolaire & Rosé\\
-Protéinose alvéolaire primitive & Laiteux\\
-\bottomrule
-\end{tabular}
+  \caption{LBA PID subaigüe}
+  \centering
+  \begin{tabular}{ll}
+    \toprule
+    Normal & 80\% macrophages\\
+           & < 15\% lymphocytes\\
+           & < 5\% PNN\\
+           & < 2\% PNE\\
+    \midrule
+    Alvéolite & Hypercellularité totale\\
+    Histiocytose langerhansienne & Macrophage\\
+    Sarcoïdose, PHS & Lymphocytaire\\
+    P. à éosinophiles & Éosinophilique\\
+    POC\footnote{Pneuompathie organisée cryptogénique} & Panachées\\
+    Hémorragie alvéolaire & Rosé\\
+    Protéinose alvéolaire primitive & Laiteux\\
+    \bottomrule
+  \end{tabular}
 \end{table}
 
 Examens complémentaires : fibro + LBA > biopsie bronchique > biopsie pulmonaire chir, biopsie transbronchique
@@ -1575,7 +1628,7 @@ Formes atypiques : TVO, cavitaires, pseudonodulaires/alvéolaires
 \item Adénopathies
 \item Foie
 \item Moins fréquentes : nerveux (sd méningé, paires craniennes), ORL (obstruction
-nasale,
+  nasale,
 \end{itemize}
 sd Mikulicz, sd Heerfordt), ostéo-articulaire (bi-arthrite cheville =
 spécfique++), 
@@ -1604,18 +1657,18 @@ Suivi : 3-6 mois\\
 Pronostic : 80\% favorable sans traitement, 10\% séquelles, 5\% DC
 
 \begin{table}[htbp]
-\caption{Pronostic de la sarcoidose}
-\centering
-\begin{tabular}{ll}
-\toprule
-Négatif & Positif\\
-\midrule
-> 40 ans & Érythème noueux\\
-Chronicité & Forme aigüe\\
-Stade III, IV & Stade 1 asymptomatique\\
-Extra-respi grave & \\
-\bottomrule
-\end{tabular}
+  \caption{Pronostic de la sarcoidose}
+  \centering
+  \begin{tabular}{ll}
+    \toprule
+    Négatif & Positif\\
+    \midrule
+    > 40 ans & Érythème noueux\\
+    Chronicité & Forme aigüe\\
+    Stade III, IV & Stade 1 asymptomatique\\
+    Extra-respi grave & \\
+    \bottomrule
+  \end{tabular}
 \end{table}
 
 Atteintes :
@@ -1638,20 +1691,20 @@ Circulation : (basse pression, faible résistante) $\implies$ forte résistance
 
 Critère : PAPm\footnote{Pression de l'artèr pulmonaire moyenne} $\ge 25$ mmHG et 
 \begin{itemize}
-  \item PAPO\footnote{Pression artérielle pulmonaire occluse $\approx$ pression
+\item PAPO\footnote{Pression artérielle pulmonaire occluse $\approx$ pression
     capillaire pulmonaire} $\le 15$ mmHG si précapillaire
-  \item PAPO $> 15$ mmHG si postcapillaire 
+\item PAPO $> 15$ mmHG si postcapillaire 
 \end{itemize}
 
 Classification internationale : 5 groupes
 \begin{enumerate}
-  \item hypertension artérielle pulmonaire (HTAP)\footnote{Idiopathique,
-      héritable, médicaments, maladie veino-occlusive, hémangiomatose capillaire
+\item hypertension artérielle pulmonaire (HTAP)\footnote{Idiopathique,
+    héritable, médicaments, maladie veino-occlusive, hémangiomatose capillaire
     pulmonaire, HTP persistante du nouveu-né}: pré-capillaire
-  \item \textbf{cardiopathie gauche}  : post-capillaire (fréq+++)
-  \item HTP maladie \textbf{respiratoire chronique}  : pré-capillaire (freq++)
-  \item HTP post-embolique chronique : pré-capillaire
-  \item HTP multi-factorielles : pré-capillaire
+\item \textbf{cardiopathie gauche}  : post-capillaire (fréq+++)
+\item HTP maladie \textbf{respiratoire chronique}  : pré-capillaire (freq++)
+\item HTP post-embolique chronique : pré-capillaire
+\item HTP multi-factorielles : pré-capillaire
 \end{enumerate}
 
 \paragraph{Pronostic}
@@ -1664,17 +1717,17 @@ Découverte : dyspnée, dépistage
 
 Détection :
 \begin{itemize}
-  \item fonctionnel : dyspne d'effert+++ progressive (lipothymie à l'effert,
-    syncope, asthénie, douleurs angineuses, palpilations, hémoptysies)
-  \item physique : 
-    HTP (signe de Carvallo\footnote{souffle holosystolique
+\item fonctionnel : dyspne d'effert+++ progressive (lipothymie à l'effert,
+  syncope, asthénie, douleurs angineuses, palpilations, hémoptysies)
+\item physique : 
+  HTP (signe de Carvallo\footnote{Souffle holosystolique
     d'insuf. tricuspid majoré à l'inspiration}, éclat B2, souffle diastolytique
-    d'insuf\\
-    insuf cardiaque D (tachy, galop, turgescence jugulaire, reflux
-    hépato-jugulaire, HMG\footnote{hépatomégalie}, OMI\footnote{oèdeme des
+  d'insuf\\
+  insuf cardiaque D (tachy, galop, turgescence jugulaire, reflux
+  hépato-jugulaire, HMG\footnote{Hépatomégalie}, OMI\footnote{Oèdeme des
     membres inférieurs}, anasarque)
-  \item imagerie thorax : dilatation artères plumon, élargissement coeur D
-  \item ECG : hypertrophie D, troulbe rythme
+\item imagerie thorax : dilatation artères plumon, élargissement coeur D
+\item ECG : hypertrophie D, troulbe rythme
 \end{itemize}
 
 Écho cardiaque transthoracique = non invasif de référence. Diagnostifg par
@@ -1683,13 +1736,13 @@ cathétérisme cardiaque D avec \textbf{PAPm $\ge 25$ mmHg}
 \paragraph{Démarche}
 Si écho cardiaque compatible avec HTP :
 \begin{itemize}
-  \item Cardiopathies G, maladies respi + exmans pour groupe 2 et 3. Si confirmé
-    : \faHandStopO
-  \item Sinon regarder signes thrombo-embolie chronique (scinti, angiosca) : Si
-    groupe 4, \faHandStopO
-  \item Sinon confirmer HTP précapillaire 
-  \item Si confirmée, tester pour groupe 1 (connectivites, médicaments, VIH,
-    cardiopathie conégin, HT portale, schistosomiase) ou groupe 5
+\item Cardiopathies G, maladies respi + exmans pour groupe 2 et 3. Si confirmé
+  : \faHandStopO
+\item Sinon regarder signes thrombo-embolie chronique (scinti, angiosca) : Si
+  groupe 4, \faHandStopO
+\item Sinon confirmer HTP précapillaire 
+\item Si confirmée, tester pour groupe 1 (connectivites, médicaments, VIH,
+  cardiopathie conégin, HT portale, schistosomiase) ou groupe 5
 \end{itemize}
 
 
@@ -1703,10 +1756,10 @@ Maladie fréquente (1 cas /10 000 si < 40 ans, 1/100 si > 75 ans) et grave.
 
 Facteurs de risque :
 \begin{itemize}
-  \item acquis : majeurs = chir < 3mois, trauma MI\footnote{membres inférieurs},
-    \faHospitalO{} aigü, cancer en cours  ttt, sd antiphospholipide, sd
-    néphrotique
-  \item constit : rare = déficit (antithrombien, prot. C, S), fréq = (mutation {Leiden,
+\item acquis : majeurs = chir < 3mois, trauma MI\footnote{Membres inférieurs},
+  \faHospitalO{} aigü, cancer en cours  ttt, sd antiphospholipide, sd
+  néphrotique
+\item constit : rare = déficit (antithrombien, prot. C, S), fréq = (mutation {Leiden,
     prothrombine}, facteur VIII > 150\%)
 \end{itemize}
 Complications : DC, récidive (mortelle ou non), séquelle (HTP thrombo-embolique
@@ -1717,10 +1770,10 @@ majeur ou modéré) $\vee$ facteur persistant)
 
 Conséquence :
 \begin{itemize}
-  \item hémodynamique : $\nearrow$ pression artérielle pulmonaire, dilatation
-    VD\footnote{ventricule droit}, compression VG
-  \item respiratoire : hypoxémie (effet espace mort (non perfusé) $\implies$ effet shunt
-    (ventil/perfusion diminué))
+\item hémodynamique : $\nearrow$ pression artérielle pulmonaire, dilatation
+  VD\footnote{Ventricule droit}, compression VG
+\item respiratoire : hypoxémie (effet espace mort (non perfusé) $\implies$ effet shunt
+  (ventil/perfusion diminué))
 \end{itemize}
 
 \subsection{Diagnostic de l'embolie pulmonaire}
@@ -1729,13 +1782,13 @@ Conséquence :
   \centering
   \resizebox{0.5\linewidth}{!}{
     \tikz \graph [
-  % Labels at the middle 
-      edge quotes mid,
-  % Needed for multi-lines
-      nodes={align=center},
-      level distance=2cm,
-      sibling distance=3cm,
-      edges={nodes={fill=white}}, 
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    level distance=2cm,
+    sibling distance=3cm,
+    edges={nodes={fill=white}}, 
     layered layout]
     {
       "Proba. clinique" -> {
@@ -1744,7 +1797,7 @@ Conséquence :
           "\texttt{\$examen}" [>"positif", draw];
         };
         "\texttt{\$examen}" [>"forte", draw] -> {
-           Ttt [>"positif"];
+          Ttt [>"positif"];
         };
       };
     };
@@ -1792,26 +1845,26 @@ active difficilement contrôlable, chir récente, (thrombopénie à l'héparine)
 \paragraph{Types de traitement}
 Héparines + relais AVK dès injection IV
 \begin{itemize}
-  \item HBPM, fondaparinux > HNF, sauf si IR sévère (< 30ml/min)
-  \item arrêt si 5 jours d'AVK et IV (ensemble) $\wedge$ INR $\in [2,3]$ à 24h
+\item HBPM, fondaparinux > HNF, sauf si IR sévère (< 30ml/min)
+\item arrêt si 5 jours d'AVK et IV (ensemble) $\wedge$ INR $\in [2,3]$ à 24h
 \end{itemize}
 Anticoagulants oraux directs : rivaroxaban, apixaban (France)
 \begin{itemize}
-  \item rapide, demi-vie courte
-  \item facteur X
-  \item CI : IR sévère, grossesse, interfaction médic (cytochrome 3A4 ou
-    P-glycoprroténie)
+\item rapide, demi-vie courte
+\item facteur X
+\item CI : IR sévère, grossesse, interfaction médic (cytochrome 3A4 ou
+  P-glycoprroténie)
 \end{itemize}
 Éucation thérapeutique\\
 Autres :
 \begin{itemize}
-  \item filtre cave (si CI absolue coagulant $\vee$ EP récidivant)
-  \item fibrinolyse (si EP + choc, sauf si hémorragie active,
-    AIC\footnote{Accident ischémique cérébral}< 2 mois,
-    hémorragie intracrânienne)
-  \item embolectomie (très rare)
-  \item contention veineuse (sauf si EP sans TVP)
-  \item lever +1h
+\item filtre cave (si CI absolue coagulant $\vee$ EP récidivant)
+\item fibrinolyse (si EP + choc, sauf si hémorragie active,
+  AIC\footnote{Accident ischémique cérébral}< 2 mois,
+  hémorragie intracrânienne)
+\item embolectomie (très rare)
+\item contention veineuse (sauf si EP sans TVP)
+\item lever +1h
 \end{itemize}
 
 \paragraph{Stratégie}
@@ -1821,21 +1874,21 @@ Score sPESI = "90 100 110 C C" $\implies$ sat < 90\%, PAS < 100 mmHg, FC >
 Risque faible (sPESI = 0) : \faHospitalO{} < 48h, anticoagulation
 Risque intermédiaire (sPESI > 0)
 \begin{itemize}
-  \item dysfonction VD $\vee$ élévation biomarqueurs\footnote{BNP, NT-pro-BNP,
-      troponine} : \faHospitalO{}
-    médecine, anticoagulation
-  \item dysfonction VD $\wedge$ élévation biomarqueurs : urgence \danger{}
-    $\implies$ USI\\
-    $O_2$, scope
-    Anticoag : HNF/HBPM puis AVK/AOP à 48-72h\\
-    (trombolysie si choc)
+\item dysfonction VD $\vee$ élévation biomarqueurs\footnote{BNP, NT-pro-BNP,
+    troponine} : \faHospitalO{}
+  médecine, anticoagulation
+\item dysfonction VD $\wedge$ élévation biomarqueurs : urgence \danger{}
+  $\implies$ USI\\
+  $O_2$, scope
+  Anticoag : HNF/HBPM puis AVK/AOP à 48-72h\\
+  (trombolysie si choc)
 \end{itemize}
 Haut risque (choc : PAS < 90mmHG $\vee$ -40mmHg) : urgence \skull $\implies$ réa
 \begin{itemize}
-  \item $O_2$ (ventilation méca.), scope
-  \item anticoag HNF (!)
-  \item thrombolyse avec arrêt HNF tant que TCA > 2x témoin
-  \item (embolectomie)
+\item $O_2$ (ventilation méca.), scope
+\item anticoag HNF (!)
+\item thrombolyse avec arrêt HNF tant que TCA > 2x témoin
+\item (embolectomie)
 \end{itemize}
 
 \paragraph{Durée}
@@ -1851,9 +1904,9 @@ antiphospholipides
 
 \paragraph{Prophylaxie}
 \begin{itemize}
-  \item Post-op : (chir et > 40 ans) $\vee$ (chir hanche/genou/caricinologique, anomalie
-coag, (> 40 ans et ATCD MTEV))
-  \item polytrauma $\vee$ ({rhumato, inflammatoire intestin, infectin} + 1 FR)
+\item Post-op : (chir et > 40 ans) $\vee$ (chir hanche/genou/caricinologique, anomalie
+  coag, (> 40 ans et ATCD MTEV))
+\item polytrauma $\vee$ ({rhumato, inflammatoire intestin, infectin} + 1 FR)
 
 \end{itemize}
 
@@ -1866,10 +1919,10 @@ coag, (> 40 ans et ATCD MTEV))
 
 \subsection{Signes de gravité}
 \begin{itemize}
-  \item Respi : cyanose, tachypnée, lutte avec tirage, balancement thoraco-abdominal
-  \item CV : pâleur, tachycardie, hypotension, choc (marbrures, extrémités
-    froides)
-  \item neuro : lipothymie/syncope, agitation/trble vigilance, général (sudation)
+\item Respi : cyanose, tachypnée, lutte avec tirage, balancement thoraco-abdominal
+\item CV : pâleur, tachycardie, hypotension, choc (marbrures, extrémités
+  froides)
+\item neuro : lipothymie/syncope, agitation/trble vigilance, général (sudation)
 \end{itemize}
 
 \danger arrêt cario-respi ! bradypnée, (bradycardie + choc + troubles vigilance
@@ -1880,38 +1933,38 @@ Si {brady, tachy}pnée ou $SpO_2 < 95\%$, gaz du sang
 
 \subsection{Urgences vitales}
 \begin{itemize}
-  \item Syndrome coronaire agiüe (fréquent++ 1/3) : ECG + troponines
-  \item Embolie pulmonaire (fréquent) : suspicion si douleur thorax, pas
-    d'anomalie ascult, RX thorax "normale" \textit{surtout}  si hypoxémie +
-    facteurs de risque\\
-    Dyspnée ou douleur thoracique aigüe chez TVP = EP
-  \item dissection aortique (exceptionnelle) : échocardio + angioscanner
-  \item Tamponnade (peu fréq) : suspicion (hypotension réfractaire, insuf.
-    cardiaque D aigüe, microvoltage + alternance ECG) $\implies$ echo cardiaque
-  \item Pneumothorax : ATCD (!), radio thorax \\
-    pneumomédiastin (rare) : scanner
+\item Syndrome coronaire agiüe (fréquent++ 1/3) : ECG + troponines
+\item Embolie pulmonaire (fréquent) : suspicion si douleur thorax, pas
+  d'anomalie ascult, RX thorax "normale" \textit{surtout}  si hypoxémie +
+  facteurs de risque\\
+  Dyspnée ou douleur thoracique aigüe chez TVP = EP
+\item dissection aortique (exceptionnelle) : échocardio + angioscanner
+\item Tamponnade (peu fréq) : suspicion (hypotension réfractaire, insuf.
+  cardiaque D aigüe, microvoltage + alternance ECG) $\implies$ echo cardiaque
+\item Pneumothorax : ATCD (!), radio thorax \\
+  pneumomédiastin (rare) : scanner
 \end{itemize}
 
 \subsection{Non urgent}
 Rythmées par respiration :
 \begin{itemize}
-  \item post-traumatique
-  \item pneumonie infectieuses : radio thorax
-  \item épanchement pleural (douleur latéral-base, majorée inspiration, toux)
-  \item infarctus pulmonaire (doelur basithoracique, faible hémoptysie)
-  \item trachéobronchite aigüe
-  \item musculosquelettique, nerveurse : tumeurs costales, lésivos vertèbres,
-    névralgies cervicobrachiales
+\item post-traumatique
+\item pneumonie infectieuses : radio thorax
+\item épanchement pleural (douleur latéral-base, majorée inspiration, toux)
+\item infarctus pulmonaire (doelur basithoracique, faible hémoptysie)
+\item trachéobronchite aigüe
+\item musculosquelettique, nerveurse : tumeurs costales, lésivos vertèbres,
+  névralgies cervicobrachiales
 \end{itemize}
 Non rythmées :
 \begin{itemize}
-  \item angor d'effort stable (calmée 2-5min post-effort)
-  \item péricardituqe (viral si aigü, tuberculose/néoplasie sinon)
-  \item cocaïne (fréquente) : SCA, myopéricardite,pneumothorax
-  \item zona thoracique (brûlures, hyperesthésie 24h avant)
-  \item digestives : reflux gastro-oesophagen, spasmes oesophagiens. Exclure SCA
-    \skull
-  \item psychogènes
+\item angor d'effort stable (calmée 2-5min post-effort)
+\item péricardituqe (viral si aigü, tuberculose/néoplasie sinon)
+\item cocaïne (fréquente) : SCA, myopéricardite,pneumothorax
+\item zona thoracique (brûlures, hyperesthésie 24h avant)
+\item digestives : reflux gastro-oesophagen, spasmes oesophagiens. Exclure SCA
+  \skull
+\item psychogènes
 \end{itemize}
 
 \section{306 : Tumeurs du poumon}%
@@ -1927,22 +1980,22 @@ Professionel : 15\%
 
 \paragraph{Histologie}
 \begin{itemize}
-  \item "Non à petites cellules" (CBNPC) (80\%) : adénocarcinomes (périphérie),
-    carcinomes épidermoïdes (proximal), indifférencies à grandes cellules
-  \item neuro-endocrine "à petites cellules" (CBPC) (porximal, médiastin)
+\item "Non à petites cellules" (CBNPC) (80\%) : adénocarcinomes (périphérie),
+  carcinomes épidermoïdes (proximal), indifférencies à grandes cellules
+\item neuro-endocrine "à petites cellules" (CBPC) (porximal, médiastin)
 \end{itemize}
 
 \subsection{Manifestations}
 \textbf{Y penser si (AEG $\wedge$ tabac) $\vee$ (fonctionnel respi si tabac $\wedge$ >
-40ans)}
+  40ans)}
 
 \textit{Respiratoires}  : toux (souvent révélatrice, sèche, quinteuse), hémoptysie (<
 10\%), bronchorrée (propre), dyspnée, pneumonie/bronchite (\danger{} si récidive
 dans même territoire), douleur thoracique 
 
 \textit{Locorégionales}  : pleuréises, dysphonies, sd cave supérieur, douleurs thoraciques
-(fixes, tenaces), sd de Pancoast-Tobias\footnote{névralgie cervicobrachiale avec
-douleurs radiculaire C8-D1, sd Claude-Bernard-horner}, paralysie phrénique
+(fixes, tenaces), sd de Pancoast-Tobias\footnote{Névralgie cervicobrachiale avec
+  douleurs radiculaire C8-D1, sd Claude-Bernard-horner}, paralysie phrénique
 
 \textit{Extrathoracique}  : thrombose inexpliques (y penser !), métastates (SNC,
 foei, os, surrénales)
@@ -1955,12 +2008,12 @@ hippocratisme digital, hypercalcémie, hyponatrémie, sd de Cushing, neurologiqu
 Initial = radio thorax chez fumeur > 40 ans
 \paragraph{Radiothorax}
 \begin{itemize}
-  \item projection (juxta-)hilaires
-  \item atélectasies
-  \item opacités arrondies intraparenchymateuses
-  \item cavitaires néoplasiques
+\item projection (juxta-)hilaires
+\item atélectasies
+\item opacités arrondies intraparenchymateuses
+\item cavitaires néoplasiques
 \end{itemize}
-%Normal $\centernot\implies$ pas de cancer
+% Normal $\centernot\implies$ pas de cancer
 
 \paragraph{TDM injection}
 Stade N0 sans adénopathie, N1 si hilaire, N2 si médiastin homolatéral, N3 si médiastin
@@ -1975,9 +2028,9 @@ Faux négatifs : < 1 cm, non solide (verre dépoli)
 
 \subsection{Diagnostic histologique}
 \begin{itemize}
-  \item lésion centrale : fibroscopie bronchique
-  \item périphérique : ponction transpariétale
-  \item entre : fibro ou ponction ou thoracotomie
+\item lésion centrale : fibroscopie bronchique
+\item périphérique : ponction transpariétale
+\item entre : fibro ou ponction ou thoracotomie
 \end{itemize}
 Cherchers mutations EGFR, réarrangements ALK, ROS1
 
@@ -1995,27 +2048,27 @@ Règle : 1 lobe = -25\% de VEMS. Opération ssi VEMS post-op > 30\%
 \subsection{Traitement}
 \paragraph{CBPNC}
 \begin{itemize}
-  \item localisé (stade I, II) : local (lobectomie ou radiothérapie)
-  \item localement avancé (stade III) : systémique (chimio) + local (radio ou
-    chir)
-  \item disséminé (stade IV) : systémique = 
-    $\left \{
-      \begin{array}{lr}
-        \text{ITK\footnote{inhibiteur de tyrosine kinase} si altération moléculaire ciblable} & \text{Médiane > 2 ans}\\
-        \text{chimio IV et 3e génération sinon} & \text{Médiane 12 mois}\\
-      \end{array}
-      \right.$
+\item localisé (stade I, II) : local (lobectomie ou radiothérapie)
+\item localement avancé (stade III) : systémique (chimio) + local (radio ou
+  chir)
+\item disséminé (stade IV) : systémique = 
+  $\left \{
+    \begin{array}{lr}
+      \text{ITK\footnote{Inhibiteur de tyrosine kinase} si altération moléculaire ciblable} & \text{Médiane > 2 ans}\\
+      \text{chimio IV et 3e génération sinon} & \text{Médiane 12 mois}\\
+    \end{array}
+  \right.$
 \end{itemize}
 \paragraph{CBNC}
 Chimiosensible mais rechutes fréquentes et rapides
-    $
-    \left \{
-      \begin{array}{l}
-        \text{chimio si étendue}\\
-        \text{radio + chimio (+ irradiation encéphale) si limitée}
-      \end{array}
-      \right.
-    $
+$
+\left \{
+  \begin{array}{l}
+    \text{chimio si étendue}\\
+    \text{radio + chimio (+ irradiation encéphale) si limitée}
+  \end{array}
+\right.
+$
 
 \paragraph{Symptomatique}
 \textit{Douleur}  : Antalgiques, radiothérapie, chir, AINS, vertébroplastie
@@ -2038,20 +2091,20 @@ généraux)
 
 Imagerie : 
 \begin{itemize}
-  \item lâcher de ballons ou miliaire
-  \item épanchement pleural
-  \item interstitiel (lymphangite carcinomateuses)
+\item lâcher de ballons ou miliaire
+\item épanchement pleural
+\item interstitiel (lymphangite carcinomateuses)
 \end{itemize}
 
 Diagnostic : clinique, 
 \begin{itemize}
-  \item inconnu : chercher accessibles à ttt spécifique, TEP. Sinon :
-    \begin{itemize}
-      \item épidermoïde, adénocarcinome
-      \item sinon : \female{} = {gynéco, mammo}, \male{} = {PSA, TR, écho prostate}
-    \end{itemize}
-  \item connu : radio peut suffir
-  \item ancien : métastases 10 ans plus tard possibles
+\item inconnu : chercher accessibles à ttt spécifique, TEP. Sinon :
+  \begin{itemize}
+  \item épidermoïde, adénocarcinome
+  \item sinon : \female{} = {gynéco, mammo}, \male{} = {PSA, TR, écho prostate}
+  \end{itemize}
+\item connu : radio peut suffir
+\item ancien : métastases 10 ans plus tard possibles
 \end{itemize}
 
 \section{333 : Oedème de Quincke et anaphylaxie}%
@@ -2060,9 +2113,9 @@ Diagnostic : clinique,
 \subsection{Définition, épidémiologie}
 HS systémique immédiate sévère. 2 types :
 \begin{itemize}
-  \item allergique : production IgE spécifiques. Libération de médiateurs par
-    mastocytes et bsophiles $\implies$ vasodilatation, bronchoconstriction
-  \item non-allergique : pas d'exposition préalable, moins sévere 
+\item allergique : production IgE spécifiques. Libération de médiateurs par
+  mastocytes et bsophiles $\implies$ vasodilatation, bronchoconstriction
+\item non-allergique : pas d'exposition préalable, moins sévere 
 \end{itemize}
 Déf : symptômes CV, respi, cut/digestif mettant en
 jeu le pronostic vital immédiatement après contant
@@ -2071,46 +2124,46 @@ jeu le pronostic vital immédiatement après contant
 35 DC (alimentaire), 40 DC (piqûre) / an
 Agents :
 \begin{itemize}
-  \item aliments (90\% enfant) : arachide++, prot. oeuf/lait, fruits exotique
-  \item médicaments (15-20\%)
-  \item venin hyménoptères (15-20\%)
-  \item autres : latex, effort
+\item aliments (90\% enfant) : arachide++, prot. oeuf/lait, fruits exotique
+\item médicaments (15-20\%)
+\item venin hyménoptères (15-20\%)
+\item autres : latex, effort
 \end{itemize}
 
 \subsection{Clinique}
 Délai < 1h (5min si médic. IV, 15 si piqûre, 30 si alimentaire)
 Manifestations :
 \begin{itemize}
-  \item CV : PAS < 100mmFg (ou -30\%), tachycardie, pâleur, hypotonie, malaise,
-    perte conaissance, trouble rythme/conduction, ischémie myocardique
-  \item respi : de la toux à l'asthme (mortalité $\nearrow$ si asthme mal
-    contrôlé)
-  \item cutanées, muqueures : pruit, sah cutané érythméateux, urticaire et
-    sorutout 
-    \begin{itemize}
-      \item angioedeme : gonflement mal limité ferme, non érythémateux, pas
-        prurit
-      \item oedème de Quincke : angioedeme larynx et cou : gêne respi haute
-        (dysphonie++, dysphagie++). \
-        Clinique : gonflement langue, luette, paupière lèvre ou face
-        Possiblement létal \skull
-    \end{itemize}
-  \item digestives
+\item CV : PAS < 100mmFg (ou -30\%), tachycardie, pâleur, hypotonie, malaise,
+  perte conaissance, trouble rythme/conduction, ischémie myocardique
+\item respi : de la toux à l'asthme (mortalité $\nearrow$ si asthme mal
+  contrôlé)
+\item cutanées, muqueures : pruit, sah cutané érythméateux, urticaire et
+  sorutout 
+  \begin{itemize}
+  \item angioedeme : gonflement mal limité ferme, non érythémateux, pas
+    prurit
+  \item oedème de Quincke : angioedeme larynx et cou : gêne respi haute
+    (dysphonie++, dysphagie++). \
+    Clinique : gonflement langue, luette, paupière lèvre ou face
+    Possiblement létal \skull
+  \end{itemize}
+\item digestives
 \end{itemize}
 \textbf{Hautement probable}  si 
 \begin{itemize}
-  \item gêne respi haute $\vee$ asthme $\vee$ choc
-mettent en jeu le pronostic vital
-  \item cutanéomuqeu
-  \item début brutal, progression rapide
+\item gêne respi haute $\vee$ asthme $\vee$ choc
+  mettent en jeu le pronostic vital
+\item cutanéomuqeu
+\item début brutal, progression rapide
 \end{itemize}
 Sévérité
 \begin{enumerate}[label=\Roman*]
-  \item cutanéomuqeux généralisé
-  \item multivivscérale modérée
-  \item multivivscérale sévère
-  \item arrêt respi
-  \item DC
+\item cutanéomuqeux généralisé
+\item multivivscérale modérée
+\item multivivscérale sévère
+\item arrêt respi
+\item DC
 \end{enumerate}
 
 \paragraph{Diagnostic}
@@ -2122,9 +2175,9 @@ Doser systématiquement tryptase sérique (confirmation) : H+0, H+1, H+24
 
 DD : 
 \begin{itemize}
-  \item choc anaphylactique : choc {vagale, septique, cardiogénique,}, hypglycémie, mastocytose
-  \item Oedeme de Quincke : sd cave sup, érysipèle du visage, angi-eodeme à
-    braykinine, inhalation de corps étranger (toujours y penser !!)
+\item choc anaphylactique : choc {vagale, septique, cardiogénique,}, hypglycémie, mastocytose
+\item Oedeme de Quincke : sd cave sup, érysipèle du visage, angi-eodeme à
+  braykinine, inhalation de corps étranger (toujours y penser !!)
 \end{itemize}
 
 \subsection{Traitement}
@@ -2148,11 +2201,11 @@ inconscient
 \paragraph{Préventif}
 Trousse avec adrénaline si (absolument) :
 \begin{itemize}
-  \item anaphylaxie antérieure (aliment, insecte ou latex), induite par l'effort
-    ou idiopathique
-  \item allergie alimentaire et asthme persistant modéré non contrôlé
-  \item allergie hyménoptères avec réaction systémique antérieure (adulte) ou
-    plus sévère que cutanéomuq (enfant)
+\item anaphylaxie antérieure (aliment, insecte ou latex), induite par l'effort
+  ou idiopathique
+\item allergie alimentaire et asthme persistant modéré non contrôlé
+\item allergie hyménoptères avec réaction systémique antérieure (adulte) ou
+  plus sévère que cutanéomuq (enfant)
 \end{itemize}
 
 
@@ -2166,46 +2219,46 @@ Trousse avec adrénaline si (absolument) :
 
 Pics = 
 \begin{itemize}
-  \item < 3 ans : graines d'oléagineux avec symétrie G-D
-  \item âgé si troubles déglutition, mauvaise dentition. 2 tableaux : asphyxie
-    aigüe (viande) $\vee$ pneumonie à répétition/suppuration bronchique
-  \item rarement chez l'adulte/ado : trauma facial (dents), bricolage, toruble
-    de conscience. Plutôt à droite
+\item < 3 ans : graines d'oléagineux avec symétrie G-D
+\item âgé si troubles déglutition, mauvaise dentition. 2 tableaux : asphyxie
+  aigüe (viande) $\vee$ pneumonie à répétition/suppuration bronchique
+\item rarement chez l'adulte/ado : trauma facial (dents), bricolage, toruble
+  de conscience. Plutôt à droite
 \end{itemize}
 
 \subsection{Diagnostic}
 \paragraph{Clinique et radio}
 Dans les heures post-inhalation :
 \begin{itemize}
-  \item CE mobile (sd de pénétration) : toux quinteuse, suffucation avec tirage,
-    cornage, cyanose. Résolutif en qq secondes
-  \item soit CE expulsé (pétéchies visage/tronc ou bouche/conjonctive)
-  \item plus rarement enclavement 
-    \begin{itemize}
-      \item proximal (enfant) : diminution murmure vésiculaire, wheezing
-      \item distal (adulte) : asymptomatique
-      \item exceptionnellement : oropharynx, larynx, lumière trachéale
-    \end{itemize}
+\item CE mobile (sd de pénétration) : toux quinteuse, suffucation avec tirage,
+  cornage, cyanose. Résolutif en qq secondes
+\item soit CE expulsé (pétéchies visage/tronc ou bouche/conjonctive)
+\item plus rarement enclavement 
+  \begin{itemize}
+  \item proximal (enfant) : diminution murmure vésiculaire, wheezing
+  \item distal (adulte) : asymptomatique
+  \item exceptionnellement : oropharynx, larynx, lumière trachéale
+  \end{itemize}
 \end{itemize}
 Radio : le plus souvent normale. Sinon : atélectasie, hyperclarté $\nearrow$
 expiration
- 
+
 Mois/années post-inhalation : à évoquer si respi chronique/récidivante ne
 répondant pas au tt $\vee$ anomalies radio persistantes dans même territoire
 
 \paragraph{DD}
 (sub)aigü : 
 \begin{itemize}
-  \item détresse respi aigüe à début brutal, tirage, cornage : épiglottite aigüe
-    (fièvre, modif voix, hypersaliv)
-  \item infection respi basse : PAC, bronchite sifflante (< 3 ans)
+\item détresse respi aigüe à début brutal, tirage, cornage : épiglottite aigüe
+  (fièvre, modif voix, hypersaliv)
+\item infection respi basse : PAC, bronchite sifflante (< 3 ans)
 \end{itemize}
 Chronique/récidive :
 \begin{itemize}
-  \item trouble ventilation persistant : tumeur bronchique obstructive, sténose
-    bronchique
-  \item infection respi même territoire : tumeur bronchique obstructive, foyer
-    bronchectasies
+\item trouble ventilation persistant : tumeur bronchique obstructive, sténose
+  bronchique
+\item infection respi même territoire : tumeur bronchique obstructive, foyer
+  bronchectasies
 \end{itemize}
 
 \subsection{CAT}
@@ -2216,7 +2269,7 @@ pressions setrnum.
 Supper que CE toujours présent !! (sauf confirmation entourage). 
 
 Clinique : dimination unilat murmure, wheezing, persistance {toux, dyspnée,
-cornage, tirage}
+  cornage, tirage}
 
 RX  : piégage (expiration) $\wedge$ diminution unilatérale murmure $\implies$ CE
 endobronchique (90\%)
@@ -2232,32 +2285,32 @@ Définition : Inadéquation charge - capacité de l'appareil respiratoire
 \subsection{Dianostic}
 Signes de luttes
 \begin{itemize}
-  \item Polypnée superficielle
-  \item recrutemente muscles (scalènes $\wedge$ intercostaux), abdominaaux,
-    dilatateurs des voies aériennes supérieures (très petit enfant)
+\item Polypnée superficielle
+\item recrutemente muscles (scalènes $\wedge$ intercostaux), abdominaaux,
+  dilatateurs des voies aériennes supérieures (très petit enfant)
 \end{itemize}
 Signes de faillite
 \begin{itemize}
-  \item respi abdo paradoxale \skull défaillance court terme
-  \item cyanose (hypoxémie profonde) $\implies$ $O_2$ ASAP
-  \item neuro : astérixis, altérations comportement/vigilance. Glasgow < 9
-    $\implies$ assitance ventilatoire
+\item respi abdo paradoxale \skull défaillance court terme
+\item cyanose (hypoxémie profonde) $\implies$ $O_2$ ASAP
+\item neuro : astérixis, altérations comportement/vigilance. Glasgow < 9
+  $\implies$ assitance ventilatoire
 \end{itemize}
 Appareil circulatoire
 \begin{itemize}
-  \item coeur pulmonaire aigu\footnote{turgescence jugulaire, reflux
+\item coeur pulmonaire aigu\footnote{Turgescence jugulaire, reflux
     hépato-jugulaire, hépatomégalie douleureuse, signe de Harzer}
-  \item pouls paradoxal
-  \item hypercapnie : {céphalées, hypervasc des conjonctives}, {tremblements
+\item pouls paradoxal
+\item hypercapnie : {céphalées, hypervasc des conjonctives}, {tremblements
     sueurs, tachy, hypotension}
 \end{itemize}
 État de choc 
 \begin{itemize}
-  \item peau froide, marbrures, $\nearrow$ temps recoloration cutanée
-  \item PAs < 90 mmHg ou -50mmHg
-  \item tachy > 120min, FR > 25-30/min
-  \item oligurie
-  \item confusion, altération vigilance
+\item peau froide, marbrures, $\nearrow$ temps recoloration cutanée
+\item PAs < 90 mmHg ou -50mmHg
+\item tachy > 120min, FR > 25-30/min
+\item oligurie
+\item confusion, altération vigilance
 \end{itemize}
 
 \subsection{PEC}
@@ -2274,12 +2327,12 @@ créat, acide lactique)
   \label{fig:diag_detresse_respi}
   \resizebox{\linewidth}{!}{
     \tikz \graph [
-  % Labels at the middle 
-      edge quotes mid,
-  % Needed for multi-lines
-      nodes={align=center},
-      sibling distance=3cm,
-      edges={nodes={fill=white}}, 
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    sibling distance=3cm,
+    edges={nodes={fill=white}}, 
     layered layout]
     {
       "Obstruction VAS ?" ->["non"]  Radiothorax -> {
@@ -2310,28 +2363,28 @@ créat, acide lactique)
 
 Précision de la figure~\nameref{fig:diag_detresse_respi}
 \begin{enumerate}
-  \item \textit{Obstruction}  : corps étranger, laryngite, oedem de Quincke, sténose
-    trachée, tumeur laryngées
-  \item \textit{Anomalie radio} Priorité = pneumonie inf, OAP,
-    PTX\footnote{Pneumothorax} sous
-    tension\\
-    Indication =
-    \begin{itemize}
-    \item OAP : {ATCD = insuf. cardiaque}, {expectoration mousseuse, orthopnée},
-      {opécatiés bilat diffuses, périhilaire}
-    \item Pneumonie infectieuse : {début brutal}, {expector. purulente}, {sd
+\item \textit{Obstruction}  : corps étranger, laryngite, oedem de Quincke, sténose
+  trachée, tumeur laryngées
+\item \textit{Anomalie radio} Priorité = pneumonie inf, OAP,
+  PTX\footnote{Pneumothorax} sous
+  tension\\
+  Indication =
+  \begin{itemize}
+  \item OAP : {ATCD = insuf. cardiaque}, {expectoration mousseuse, orthopnée},
+    {opécatiés bilat diffuses, périhilaire}
+  \item Pneumonie infectieuse : {début brutal}, {expector. purulente}, {sd
       inflammatoire}
-    \end{itemize}
-  \item \textit{Radio normale} de novo = EP, PTX compressif, asthme. Si
-    chronique, dans l'ordre BPCO, paroi thoracique (obésité, déformation),
-    neuromusc\\
-    En faveur :
-    \begin{itemize}
-      \item EP : fébricule, turgescence jugul, radio normale
-      \item Pneumothorax : {longiligne}, {pas de vibration vocale}, murmure vésicul,
-        {hyperclarté}
-      \item asthme : ATCP, {toux purulente}, {râles ou silence}
-    \end{itemize}
+  \end{itemize}
+\item \textit{Radio normale} de novo = EP, PTX compressif, asthme. Si
+  chronique, dans l'ordre BPCO, paroi thoracique (obésité, déformation),
+  neuromusc\\
+  En faveur :
+  \begin{itemize}
+  \item EP : fébricule, turgescence jugul, radio normale
+  \item Pneumothorax : {longiligne}, {pas de vibration vocale}, murmure vésicul,
+    {hyperclarté}
+  \item asthme : ATCP, {toux purulente}, {râles ou silence}
+  \end{itemize}
 \end{enumerate}
 
 \subsection{SDRA}
@@ -2342,8 +2395,8 @@ Mécanisme = oedème lésionnel.
 
 Étiologies :
 \begin{itemize}
-  \item exogène = infectieuse, toxique
-  \item endogènes : dès qu'une réponse inflammatoire systémique
+\item exogène = infectieuse, toxique
+\item endogènes : dès qu'une réponse inflammatoire systémique
 \end{itemize}
 
 \section{356 : Pneumothorax}%
@@ -2357,10 +2410,10 @@ Primaire = poumon sain, sujet jeune, non grave
 Secondaire = patho, > 40 ans, peut décompenser
 
 \begin{itemize}
-  \item Blebs (< 1 cm, plutôt primaires)
-  \item bulles d'emphysème : à la corticalité, tabagismes
-  \item lésions kystiques
-  \item cataménial
+\item Blebs (< 1 cm, plutôt primaires)
+\item bulles d'emphysème : à la corticalité, tabagismes
+\item lésions kystiques
+\item cataménial
 \end{itemize}
 
 \paragraph{Traumatique}
@@ -2378,10 +2431,10 @@ efforts physiques)
 \subsection{Diagnostic}
 Clinique : 
 \begin{itemize}
-  \item fonctionnel : douleur thoracique (brutale, homolatérale, latérale,
-    augmente toux), toux sèche irrit
-  \item physique : diminution murmure vésicul, pas de vibration vocales,
-    tympanisme percusion
+\item fonctionnel : douleur thoracique (brutale, homolatérale, latérale,
+  augmente toux), toux sèche irrit
+\item physique : diminution murmure vésicul, pas de vibration vocales,
+  tympanisme percusion
 \end{itemize}
 Radio : pas en expiration ! 3 catégorise : apical, axillaire, complet
 
@@ -2405,11 +2458,11 @@ Difficile : Dyspnée aigùe sans sd pleural
 
 \subsection{Traitement}
 \begin{itemize}
-  \item Rien si décollement < 2cm
-  \item PTX compressif = urgence $\implies$ aiguille simple + immédiat
-  \item Pneumotthorax spontané primaire (bien ou mal toléré ) :
-    exsufflation(petit cathéter sur voie thoracique antérieur) puis drain
-si échec
+\item Rien si décollement < 2cm
+\item PTX compressif = urgence $\implies$ aiguille simple + immédiat
+\item Pneumotthorax spontané primaire (bien ou mal toléré ) :
+  exsufflation(petit cathéter sur voie thoracique antérieur) puis drain
+  si échec
 \item Pour tous les autres : train
 \end{itemize}
 
@@ -2440,13 +2493,13 @@ déséquilibre n'est pas compensé, on aboutit à une acidose ou une alcose.
   \caption{Gaz du sang artériel}
   \label{tab:gds}
   \begin{tabular}{ll}
-  \toprule
-  \(PO_2\) & [80, 100] mmHg\\
-  \(SaO_2\) & [95, 98] \%\\
-  \(PCO_2\) & [35, 45] mmHg\\
-  \ch{HCO_3^-} & [22, 29] mmol/L\\
-  pH & [7.38, 7.24]\\
-  \bottomrule
+    \toprule
+    \(PO_2\) & [80, 100] mmHg\\
+    \(SaO_2\) & [95, 98] \%\\
+    \(PCO_2\) & [35, 45] mmHg\\
+    \ch{HCO_3^-} & [22, 29] mmol/L\\
+    pH & [7.38, 7.24]\\
+    \bottomrule
   \end{tabular}
 \end{table}
 
@@ -2487,4 +2540,7 @@ plèvre), pression transpulmonaire = $P_{ip} - P_{alv}$.
   };
 
 \end{figure}
+
+\printglossary
+
 \end{document}
