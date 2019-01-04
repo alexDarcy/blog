@@ -3,7 +3,6 @@
 \usepackage{biocon}
 \usepackage[acronym]{glossaries}
 \makeglossaries
-
 \title{Pneumologie\\
   \large Fiches}
 \author{A. Praga}
@@ -16,6 +15,7 @@
 
 \newacronym{TVO}{TVO}{Troubles Ventilatoires Obstructifs}
 \newacronym{VAS}{VAS}{Voies Aériennes Supérieures}
+\newacronym{LBA}{LBA}{Lavage Broncho-Alvéolaire}
 
 \newglossaryentry{VEMS}
 {
@@ -40,9 +40,6 @@
 { name = Volume résiduel,
   description = volume restant (impossible à expirer)
 }
-
-\glsaddall
-%\glsaddallunused
 
 \section{73 : Addiction au tabac}
 3 fumées : courant primaire (inspiré), secondaire (tabagisme passif++), tertiaire (exhalé)\\
@@ -120,7 +117,7 @@ Comorbidités :
 \item dyslipidémie
 \end{itemize}
 
-NB : obstruction VAS dûe à {réduction \diameter, \nearrow{} collapsibilité,
+NB : obstruction \gls{VAS} dûe à {réduction \diameter, \nearrow{} collapsibilité,
   \searrow{} efficacité muscles dilatateurs}
 \subsection{Diagnostic}
 \subsubsection{Clinique :}
@@ -268,7 +265,7 @@ Quadrithérapie (lutter MDR ou XDR) : 1/jour 1h avant petit déjeuner
 \item Isoniazide (polynévrite SM\footnote{Sensitivomotrice}, surv. transaminases) : 6 mois
 \item Rifampicine (inducteur enzymatique\footnote{Contraception !}) : 6 mois
 \item Ethambutol (névrite optique rétrobulbaire) : 2 premiers mois
-\item Pyrazinamide (surv. transaminases)
+\item Pyrazinamide (surv. transaminases) : 2 premiers mois
 \end{itemize}
 Autres : aminosides, fluoroquinolones \\
 Avant traitement : 
@@ -324,7 +321,7 @@ Maladie professionnelle = lente, prolongée (\(\neq\) accident du travail)
 Métiers : boulangers, santé, coiffeurs, peintres pistolets, bois, nettoyage\\
 Diagnostic : de novo, profession, rythme
 \subsubsection{BPCO}
-TVO lente progressive + inflammation
+\gls{TVO} lente progressive + inflammation
 poumons. Facteurs professionnels = 10-20\% BPCO\\
 Métiers : mines, BTP, fonderie, textile, agricole
 \subsubsection{Cancers}
@@ -664,7 +661,7 @@ cyclophosphamide
 \item penser co-infections
 \end{itemize}
 \subsection{Médicaments}
-Méthotrexate : plus fréquent, pneumopathie d'HS (opacités diffuses), LBA
+Méthotrexate : plus fréquent, pneumopathie d'HS (opacités diffuses), \gls{LBA}
 lymphocytaire. Évolution favorable à l'arrêt + corticothérapie
 
 Inhibiteurs TNF-$\alpha$ : PID/granulomatoses, anaphylactique
@@ -685,7 +682,7 @@ Sclérodactyie, Télangiectasie), Ac anti-nucléraires
 \item PID : semblable à PINS\footnote{Pneumopathie interstitielle non
     spécifique} : opacités en verre dépoli, bronchectasies par traction. Survie
   85\% à 5 ans
-\item hypertension artérielle pulmonaire : dyspnée. Echo. cardiaque +
+\item HTA pulmonaire : dyspnée. Echo. cardiaque +
   cathéterisme cardiaque
 \end{itemize}
 Lupus érythémateux disséminé 
@@ -695,7 +692,7 @@ Lupus érythémateux disséminé
 \end{itemize}
 Dermato-, polymyosite
 \begin{itemize}
-\item PID chronique : 1ere cause DC, opacités verre dépoli, LBA lymphocytaire.
+\item PID chronique : 1ere cause DC, opacités verre dépoli, \gls{LBA} lymphocytaire.
   Ttt : corticothérapie + IS
 \item PID (sub)aigüe
 \end{itemize}
@@ -705,8 +702,8 @@ Sd de Gougerot-Sjögren
 \item PID, lymphome pulmonaire primitif
 \end{itemize}
 
-\subsection{Vascularitess}
-Granumolatose avec polyangéite : 40-50ans, début ORL+ poumon (+ rein)
+\subsection{Vascularites}
+Granulomatose avec polyangéite : 40-50ans, début ORL+ poumon (+ rein)
 \begin{itemize}
 \item radio : nodules s'excavant, opacités verre dépoli
 \item Ttt urgent = corticothérapie, cyclophosphamide
@@ -872,14 +869,14 @@ Signes de gravité :
 \item dyspnée d'effort, hémoptysie
 \item modification toux chez fumeur
 \item dysphonie, dysphagie, fausses routes
-\item Adénopathies cervicales suspectes
-\item Anomalies cardiopulmonaires
+\item adénopathies cervicales suspectes
+\item anomalies cardiopulmonaires
 \end{itemize}
 
 \begin{figure}[htpb]
   \centering
-  \caption{PEC initiale}
-  \resizebox{\linewidth}{!}{
+  \caption{PEC initiale d'une toux chronique}
+  \resizebox{0.6\linewidth}{!}{
     \tikz \graph [
     % Labels at the middle 
     edge quotes mid,
@@ -891,14 +888,14 @@ Signes de gravité :
     layered layout]
     {
       Signe de gravité -> {
-        Exploration "oui"];
-        "Médicaments ?" "non"] -> {
-          Test d'éviction "oui"];
-          "Coqueluche ?" "non"] -> {
-            Test diagnostique"oui"];
+        Exploration ["oui"];
+        "Médicaments ?" ["non"] -> {
+          Test d'éviction ["oui"];
+          "Coqueluche ?" ["non"] -> {
+            Test diagnostique ["oui"];
             "Radio thorax anormale ?" -> {
-              Bilan spécialisé "oui"];
-              "cf~\nameref{subsec:toux_orientation}" "non"];
+              Bilan spécialisé ["oui"];
+              "cf~\nameref{subsec:toux_orientation}" ["non"];
             };
           };
         };
@@ -920,32 +917,32 @@ Signes de gravité :
 \item Asthme : TVO réversible/hyperréactivité bronchique
 \item BPCO : TVO non réversible
 \item Cancer bronchique, tumeurs, bronchectasise (cf
-  \nameref{sub:bronchectasies}
+  \nameref{sub:bronchectasies})
 \end{itemize}
 
-\textbf{RGO}  : pyrosis. Endoscopie digestive si FR, pHmétrie des 24h
+\textbf{RGO} : pyrosis. Endoscopie digestive si FR, pHmétrie des 24h
 
 \textbf{Allergique} 
 
-\textbf{Systémique}  :  sd Gougerot-Sjögren, polychondrite atrophiante, maladie
-de Hortone, granulomatoes avec polyangéite, rectocolite hémorr., maladie de
+\textbf{Systémique} : sd Gougerot-Sjögren, polychondrite atrophiante, maladie
+de Horton, granulomatose avec polyangéite, rectocolite hémorr., maladie de
 Crohn.
 
-\textbf{Comportement}  : dernière étiologie
+\textbf{Comportement} : dernière étiologie
 
 \paragraph{Traitement d'épreuve} (ordre d'échec):
 \begin{enumerate}
 \item RGO : bromphéniramine + pseudoéphédrine 3 sem
-\item asthme si TVO réversible, corticoïdes inhlalés BD inhalés si
+\item asthme si TVO réversible, corticoïdes inhalés ou bronchodilatateurs inhalés si
   hyperréactivité bronchique
 \item avis spé
 \end{enumerate}
 
 Traitement symptomatique : arrêt tabagisme. Éviter si possible
 \begin{itemize}
-\item sèche : opiacés, antihistaminique anticholinergique, non
+\item si toux sèche : opiacés, antihistaminique anticholinergique, non
   antihistaminique non opiacés
-\item produtive : mucomodificateurs, kiné
+\item si toux productive : mucomodificateurs, kiné
 \end{itemize}
 
 \subsection{Bronchectasies}
@@ -974,7 +971,7 @@ Clinique :
   \bact{aeruginosa}++\}
 \end{itemize}
 
-Diagnostic : TDM (certitude) = bronches de $\diameter$ > artère, lumière
+Diagnostic : TDM (certitude) = $\diameter_\text{bronche}$ > $\diameter_\text{artère}$, lumière
 bronchique > 1/3 parenchyme, pas de réduction du $\diameter$, grappes de kystes,
 opacités tubulées
 
@@ -1016,22 +1013,19 @@ Examens
 \item scanner plus précis : nature, localisation, carto. vasc.
 \item (endoscopie : hématémèse, multiples lésions, tumeur proximale)
 \item (artériographie bronchique : ttt par embolisation)
-\item autres : gaz du sang, dosage Hg, bilan coagulation, groupe sanguin, {BK,
-    ECG} pour étiologie (OAP hémorragique pour ECG)
+\item autres : gaz du sang, dosage Hb, bilan coagulation, groupe sanguin, {BK,
+    ECG} si suspicion OAP hémorragique
 \end{itemize}
 
 \danger BPCO $\centernot\implies$ hémoptysie
 
 \subsection{Traitement}
 $O_2$ + vasconstriction IV, protection voies aériennes (décubitus latéral,
-ventilation mécanique
+ventilation mécanique)
 
 Embolisation artérielle bronchique
 
-Chir si localiés, fonction respi et "à froid"
-
-
-
+Chir si localisé, fonction respi OK et "à froid"
 
 \section{202 : Épanchement pleural}%
 \label{sec:epanchement_pleural}
@@ -1041,21 +1035,21 @@ Suspicion clinique :
 \begin{itemize}
 \item douleur thoracique, dyspnée, toux sèche, hyperthermie
 \item sd pleural liquidien (silence auscult, matité, $\emptyset$ transmission
-  corde vocales, souffle pleurétique
+  corde vocales, souffle pleurétique)
 \end{itemize}
-Sigenes de gravité : détresse respi, choc septique, choc hémorragique
+Signes de gravité : détresse respi, choc septique, choc hémorragique
 
 Confirmation imagerie
 \begin{itemize}
 \item radio : opacité dense, homogène, non sytématisé, limité par ligne
-  concave (DD atélectasie : EP = "repousse" vers côté sain). \\
+  concave (DD atélectasie : médiastin dévié vers l'opacité). \\
   Cas difficiles : profil, sous pulmonaire, cloisonnés
-\item échographie : cloisonné, pleurésie VS collapus, guide ponction
+\item échographie : cloisonné, différencie pleurésie et collapus, guide ponction
 \item TDM en urgence si embolie pulmonaire ou hémothorax
 \end{itemize}
 
 \subsection{Causes}
-\paragraph{Transsudats}
+\paragraph{Transsudats (protides < 25g/L)}
 \begin{itemize}
 \item insuf. cardiaque G
 \item cirrhose
@@ -1064,7 +1058,7 @@ Confirmation imagerie
 \item embolie pulmonaire
 \end{itemize}
 
-\paragraph{Exsudats}
+\paragraph{Exsudats (protides > 35 g/L)}\mbox{}\\
 \textit{Néoplasiques} 
 \begin{itemize}
 \item métastatique : liquide sérohématique/rosé/citrin, cytodiagnostic +
@@ -1099,7 +1093,7 @@ Confirmation imagerie
 \end{itemize}
 
 \subsection{Ponction}
-Qui ? Majorité sauf peu abondant et insuf cardiaque G (sauf si
+Qui ? Majorité sauf si peu abondant et insuf cardiaque G (sauf si
 unilat/asymétrique $\vee$ douleur pleurale/fièvre $\vee$ traitement insuffisant)
 
 Quand ? Urgence si fébrile, hémothorax ou mauvaise tolérance
@@ -1111,19 +1105,19 @@ Tout le liquide ? Si étiologique ou non cloisonné
 \begin{itemize}
 \item biochimie
   \begin{itemize}
-  \item transsudat si protide < 25g/L ou critère de Light faux
+  \item transsudat si protide < 25g/L ou critère de Light\footnote{
+(LDH > 200 UI/L) $\vee$ (protides pleuraux/sérique > 0.5) $\vee$ (LDH
+pleuraux/sérique > 0.6)} faux
   \item exsudat si protide > 35g/L ou critère de Light vrais
   \end{itemize}
 \item cytologie (cf tableau)
 \item recherche germes pygènes, mycobactéries
 \end{itemize}
-NB : Light : LDH > 200 UI/L $\vee$ protiduse pleuraux/sérique > 0.5 $\vee$ LDH
-pleuraux/sérique > 0.6
 
-2eme intention : 
+2eme intention :
 \begin{itemize}
-\item trauma $\wedge$ hématocrite pleural/sanguin > 0.5 $\implies$ probablmt
-  hémothoraux (urgence \danger)
+\item trauma $\wedge$ hématocrite pleural/sanguin > 0.5 $\implies$ probable
+  hémothorax (urgence \danger)
 \item amylase pleurale si pancréatique et sous-phrénique
 \item si triglycéride > 1.1g/L $\implies$ chylothorax
 \end{itemize}
@@ -1285,7 +1279,7 @@ ou effet espace mort)
 
 \subsection{Conséquences}
 \label{sec:orgf6b3986}
-Hypoxémie : Polyglobule, rétention hydrosodée (fréquente), hypertension pulmaire
+Hypoxémie : Polyglobule, rétention hydrosodée (fréquente), hypertension pulmonaire
 
 Hypercapnie : compensée par le rein
 
@@ -2541,6 +2535,9 @@ plèvre), pression transpulmonaire = $P_{ip} - P_{alv}$.
 
 \end{figure}
 
+\glsaddall 
 \printglossary
+
+\printglossary[type=\acronymtype]
 
 \end{document}
