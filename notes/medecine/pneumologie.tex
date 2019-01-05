@@ -1,28 +1,31 @@
 \documentclass{article}
 \input header
 \usepackage{biocon}
-\usepackage[acronym]{glossaries}
+\usepackage[acronym, nonumberlist]{glossaries}
+
+
 \makeglossaries
-\title{Pneumologie\\
-  \large Fiches}
-\author{A. Praga}
-
-\begin{document}
-\maketitle
-\tableofcontents
-
-\input bacteries-header.tex
 
 \newacronym{TVO}{TVO}{Troubles Ventilatoires Obstructifs}
+\newacronym{TVR}{TVR}{Troubles Ventilatoires Restrictif}
 \newacronym{VAS}{VAS}{Voies Aériennes Supérieures}
 \newacronym{LBA}{LBA}{Lavage Broncho-Alvéolaire}
+\newacronym{FPI}{FPI}{Fibrose Pulmonaire Idiopathique}
+\newacronym{PINS}{PINS}{Pneumonpathie Interstitielle Non Spécifique}
+\newacronym{DIP}{DIP}{Pneumopathie Interstitielle Desquamante}
+\newacronym{BD}{BD}{Bronchodilatateur}
+\newacronym{POC}{POC}{Pneuompathie organisée cryptogénique}
+\newacronym{ADP}{ADP}{Adénopathies}
 
 \newglossaryentry{VEMS}
 {
   name={VEMS}, 
   description={volume expiratoire maximal en 1s (après inspiration maximale)}
 }
-
+\newglossaryentry{CV}
+{ name = Capacité Vitale,
+  description = volume total mobilisable maximal = VC + VRI + VRE
+}
 \newglossaryentry{VC}
 { name=Volume courant,
   description={volume mobilisé pendant une respiration normale}
@@ -40,6 +43,32 @@
 { name = Volume résiduel,
   description = volume restant (impossible à expirer)
 }
+\newglossaryentry{CVF}
+{ name = Capacité Vitale Forcée,
+  description = volume expulsé avec force (CPT - VR)
+}
+\newglossaryentry{CVL}
+{ name = Capacité Vitale Lente,
+  description = idem CVF mais lentement
+}  
+\newglossaryentry{CPT}
+{ name = {Capacité Pulmonaire Totale},
+  description = {Capacité Vitale + volume résiduel}
+}
+
+\glsaddall % Add all entries
+\glsunsetall % Acronyms always in short form
+
+
+\title{Pneumologie\\
+  \large Fiches}
+\author{A. Praga}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\input bacteries-header.tex
 
 \section{73 : Addiction au tabac}
 3 fumées : courant primaire (inspiré), secondaire (tabagisme passif++), tertiaire (exhalé)\\
@@ -1159,7 +1188,7 @@ pleuraux/sérique > 0.6)} faux
 Origine maligne probable si :
 \begin{itemize}
 \item homme, > 50 ans, fumeur
-\item carcinogènes pro, > 1cm (> 3cm ++)
+\item carcinogènes professionnels, > 1cm (> 3cm ++)
 \item contours spiculés, polylobés, irrégulier
 \item attire structures proches
 \item augmente de taille
@@ -1186,12 +1215,12 @@ Certitude = histologie
 \item infectieux 
   \begin{itemize}
   \item abcès à pyogène (contexte aigü fébrile)
-  \item bactérie filamenteuse crossance Tente
+  \item bactérie filamenteuse crossance lente
   \item tuberculome ($\implies$ prélèvements)
-  \item kytes hydatiques ("membrane flottente")
+  \item kytes hydatiques ("membrane flottante")
   \item aspergillome (opacité ronde + croissant gazeux)
   \end{itemize}
-\item granumolatose avec polyangétie
+\item granumolatose avec polyangéite
 \item nodules rhumatoïdes
 \item atélectasies
 \item masses pseudo-tumorale silicotiques (micronodules, confluents ?)
@@ -1201,13 +1230,13 @@ Certitude = histologie
 \paragraph{Examens}
 \begin{itemize}
 \item TDM et TEP
-\item Fibroscopie pronchique systémitaque
-\item Ponction transpariétal sous TDM (sauf insuffisance respi)
-\item Autres : thoracotomie, médiastinoscopie si ADP médiastinales fexant en TEP-FDG
+\item Fibroscopie pronchique systématique
+\item Ponction transpariétale sous TDM (sauf insuffisance respi)
+\item Autres : thoracotomie, médiastinoscopie si ADP médiastinales fixant en TEP-FDG
 \end{itemize}
 Prélevement si solide, > 8mm, hypermétabolique. Sinon surveillance TDM (sauf non solide et image résolutive à 6 semaines)
 
-\subsection{Médiastin}
+\subsection{Masses/tumeurs du médiastin}
 Diagnostic : limite externe nette, raccord pente douce, limite interne non
 visible, tonalité hydrique
 
@@ -1235,7 +1264,7 @@ DD: intraparenchymateux, pariétal $\implies$ TMD
 \item Autres : insuf. cardiaque gauche
 \end{itemize}
 
-\paragraph{Médiastin postérieur} neurogènes
+\paragraph{Médiastin postérieur} "neurogènes"
 
 Diagnostic :
 \begin{itemize}
@@ -1264,42 +1293,49 @@ Hypoxémie
 \begin{itemize}
 \item Inadéquation ventilation/perfusion :
   \begin{itemize}
-  \item effet shunt (mauvaise ventilation) => oxygénothérapie corrige
-  \item shunt vrai (communication anat. ou non ventilé) => oxygénothérapie ne corrige
-  \end{itemize}
+  \item effet shunt (mauvaise ventilation) => $O_2$ corrige
+  \item shunt vrai (communication anat. ou non ventilé) => $O_2$ ne corrige
   pas
+  \end{itemize}
 \item Hypoventilation alvéolaire : pure (commande, neuromusc) ou effet "espace mort"
 \end{itemize}
 (mauvaise perfusion)
 \begin{itemize}
 \item Atteinte de la surface d'échange
 \end{itemize}
-Hypercapnie : hypoventilation alvéolaire (pompe ventilatiorie/commande centrale
+Hypercapnie : hypoventilation alvéolaire (pompe ventilatoire/commande centrale
 ou effet espace mort)
 
 \subsection{Conséquences}
 \label{sec:orgf6b3986}
-Hypoxémie : Polyglobule, rétention hydrosodée (fréquente), hypertension pulmonaire
+Hypoxémie : Polyglobulie, rétention hydrosodée (fréquente), hypertension pulmonaire
 
 Hypercapnie : compensée par le rein
 
 \subsection{Étiologies}
 \label{sec:org5310651}
-Hypoxémie si PaO\(_{\text{2}}\) < 70mmHg (arbitraire). Selon EFR
+Hypoxémie si PaO\(_{\text{2}}\) < 70mmHg (arbitraire). Voir table~\ref{tab:etio_irc}.
+\begin{table}
 \begin{center}
   \begin{tabular}{llllll}
     \toprule
-    TV & TVO & TVR T\(_{\text{LCO}}\)/V\(_{\text{A}}\) bas & TVR T\(_{\text{LCO}}\)/V\(_{\text{A}}\) normal & mixte & non\\
+    TV ? & Obstructif & Restrictif & Restrictif & Mixte & Non\\
+         &            &  $\frac{T_{LCO}}{V_a}$ bas & $\frac{T_{LCO}}{V_a}$ normal & & \\
     \midrule
-       & BPCO, asthme & P. interstitiel & Sd obésité-hyperventil & DDB & HTP\\
-       & bronchiolite &  & cage thoracique & Muscoviscidose & \\
-    \midrule
-    Méchanisme & V\(_{\text{A}}\)/Q & Surf d'échange & Hypoventilation & V\(_{\text{A}}\)/Q & Surf d'échange\\
-    \midrule
+    Patho. & BPCO & Interstitielles & Sd obésité-hypoventil & DDB & HTP\\
+       & asthme &  & Atteinte cage thoracique & Muscoviscidose & \\
+       & bronchiolite &  & &  & \\
+    Mécanisme & $\frac{V_a}{Q}$ & Surf d'échange & Hypoventilation & $\frac{V_a}{Q}$ & Surf d'échange\\
     Atteinte & échangeur & échangeur & pompe/central & échangeur & vasculaire\\
     \bottomrule
   \end{tabular}
 \end{center}
+\caption{Insuffisance respiratoire chronique : diagnostic simplifié (selon
+  EFR). $V_a$ ventilation alvéolaire, $Q$ débit sanguin, $T_{LCO}$ capacité de
+transfert du CO}
+\label{tab:etio_irc}
+\end{table}
+
 
 \subsection{Diagnostic}
 \label{sec:orgf8776e2}
@@ -1322,44 +1358,54 @@ Physique :
 \label{sec:org7599c0f}
 PaO\(_{\text{2}}\) < 70 mmHg (gaz du sang : hypercapnie)
 
-Étiologie : EFR donne TVO (VEMS/CVF < 70\% => BPCO), TVR (échangeur/pompe) ou
+Étiologie :
+\begin{itemize}
+\item EFR donne TVO (VEMS/CVF < 70\% => BPCO), TVR (échangeur/pompe) ou
 mixte (DDB, mucov)
-Radio thorax
-Autres : NFS (polyglobulie), ECG (dextrorotation, BDB droite, repolarisation),
+\item  Radio thorax
+\item Autres : NFS (polyglobulie), ECG (dextrorotation, BDB droite, repolarisation),
 écho cardiaque systématique (éval. ventricule D, dépistage du G)
+\end{itemize}
 
 \subsection{Traitement}
 \label{sec:org870a2d5}
 Cause, arrêt tabac, vaccins (grippe, pneumocoque), réhabilitation respi.
 
-Oxygénothérapie de longue durée : 2 mesures à 2 semaines avec
+Oxygénothérapie de longue durée : indiquée si 2 mesures à 2 semaines avec
 \begin{itemize}
 \item obstructive = PaO\(_{\text{2}}\) < 55mmHG \(\vee\) ( \(\in\) [55, 60] mmHG \(\wedge\) hypoxie
-  tissulaire (Ht > 55\%, HTP, insuf. vetre D, SpO\(_{\text{2}}\) nocturne \(\le\) 88\%)
-\item restrictivé = PaO\(_{\text{2}}\) < 60 mmHg
+  tissulaire\footnote{Ht > 55\%, HTP, insuf. ventricule D, SpO\(_{\text{2}}\) nocturne \(\le\) 88\%})
+\item restrictive = PaO\(_{\text{2}}\) < 60 mmHg
 \end{itemize}
-Efficace si  IRC après BPCO, 15h/jour, forme gazeuse ou liquide
+Efficace si  IRC après BPCO, 15h/jour, $O_2$ gazeux ou liquide
 
 Ventilation long cours : IRC restrictive, la nuit.
-Chir : 200/an
+
+Chir rare (200/an)
 
 \subsection{Pronostic}
 \label{sec:org2ec66b4}
-Irréversible, risque = insuf. respi aigüe de causes : IR basse, dysfonction
-cardia G, EP
+Irréversible, risque = insuf. respi aigüe (surtout causée par insuf. respi. basse, dysfonction
+cardiaque G, EP)
 
 
 \section{205 : BPCO\footnote{Bronchopneumopathie chronique obstructive}}
 \label{sec:205-bpco}
 
 \subsection{Définitions}
-BPCO = \{toux, dyspnée, expector., infections respi basses\} récurrentes et
-TVO\footnote{Trouble ventilatoire obstructif} (VEMS/CVF < 0.7)
-\textbf{persistant}\\
-Exacerbation aigùe = aggravation \(\ge 2\) jours\\
-Bronchite chronique (toux productive quotidienne \(\ge 3\) mois, \(\ge 2\) ans),
-emphysème (élargissement espaces aériens distaux + destructions parois
-alvéolaires) inclus dans BPCO\\
+BPCO = \{toux, dyspnée, expectorations, infections respi basses\} récurrentes et
+TVO (VEMS/CVF < 0.7)
+\textbf{persistant}
+
+Exacerbation aigùe = aggravation \(\ge 2\) jours
+
+Inclus dans BPCO \textbf{si TVO} : 
+\begin{itemize}
+\item bronchite chronique (toux productive quotidienne \(\ge 3\) mois/an et \(\ge 2\) ans),
+\item emphysème (élargissement espaces aériens distaux + destructions parois
+alvéolaires) inclus dans BPCO
+\end{itemize}
+
 \begin{table}[htbp]
   \caption{Différences asthme-BPCO}
   \centering
@@ -1367,7 +1413,7 @@ alvéolaires) inclus dans BPCO\\
     \toprule
     Asthme & BPCO\\
     \midrule
-    Obstructive non réversible & Obst. réversible\\
+    Obstructive non réversible & Obstructive réversible\\
     Jeune, atopique & Fumeur, > 40 ans\\
     Survient \textasciitilde{}40 ans & Enfance\\
     \bottomrule
@@ -1376,9 +1422,9 @@ alvéolaires) inclus dans BPCO\\
 
 Sévérité : 
 \begin{itemize}
-\item obstruction : GOLD (1 à 4, [80, 100] [50,80], [30,49], [0, 30])
-\item dyspnée : MRC (0 à 4)
-\item fréquences exacerbations (\$\(\ge\) 2\$/an = grave)
+\item obstruction : GOLD (stade 1 (VEMS $\ge 80\%$) à 4 (VEMS < 30\%))
+\item dyspnée : échelle MRC (0 (effort important) à 4 (habiller))
+\item fréquences exacerbations ($\ge 2$/an = grave)
 \end{itemize}
 
 Épidémio: en augmentation dans le monde. \\
@@ -1390,49 +1436,51 @@ Score BODE\footnote{Body mass index, Obstruction, Dispnea, Exercice} pour la pr�
 
 \subsection{Diagnostic}
 Signes fonctionnels : dyspnée++, toux, expectorations.\\
-Signes physiques : après TVO : \(\nearrow\) temps expiratoire, \(\searrow\) murmure vésiculaire et bruts coeur, distension thoracique
+Signes physiques (après apparition TVO) : \(\nearrow\) temps expiratoire,
+\(\searrow\) murmure vésiculaire, $\searrow$ bruits coeur, distension thoracique
 
 \subsubsection{EFR}
 \begin{itemize}
-\item spirométrie (bronchodilat. ou corticoïdes)
-\item pléthysmographie (distension pulmonaire)
-\item DLCO (patho si < 70\%)
+\item spirométrie : TVO (VEMS/CVF < 0.7) persistante après bronchodilateur
+\item pléthysmographie (identifie distension pulmonaire)
+\item $T_{LCO} < 70\%$ = pathologique
 \item si VEMS < 50\% ou $SpO_2< 90$\% : gaz du sang, test d'exercice
 \end{itemize}
 
 \subsubsection{Autres}
-(TDM), ECG si VEMS < 50\%, NFS (polyglobulie, anémie), (dosage \(\alpha1\) antitrypsine
+(TDM), ECG si VEMS < 50\%, NFS (polyglobulie, anémie), (dosage \(\alpha1\) antitrypsine)
 
 \subsection{Traitement}
 \begin{figure}[htpb]
   \centering
+ \resizebox{0.5\linewidth}{!}{
   \tikz \graph [
   % Labels at the middle 
   edge quotes mid,
   % Needed for multi-lines
   nodes={align=center},
-  sibling distance=3cm,
+  sibling distance=4cm,
   level distance=2cm,
   edges={nodes={fill=white}}, 
-  tree layout]
+  layered layout]
   {
     Dyspnée/exacerbations -> {
       BD longue durée[>"oui", draw]-> 
       {
-        2 BD [draw, >"Exacerb"] -> "Cortico + 2 BD"[draw, >"exacerb"];
+        "2 BD longue durée" [draw, >"dyspnée"] -> "Cortico. inhalé\\+ 2 BD longue durée"[draw, >"exacerb"];
         "Cortico. inhalé\\
-        + $\beta2$ longue durée"[draw, >"dyspnée"]-> "Cortico + 2 BD"[draw,
+        + BD longue durée"[draw, >"exacerbation"]-> "Cortico. inhalé\\+ 2 BD longue durée"[draw,
         >"insuffisant"]
         -> "Réévaluation";
-        2 BD [draw, >"Exacerb"] -> "Réévaluation"[>"dyspnée"];
+        "2 BD longue durée" [draw] -> "Réévaluation"[>"dyspnée"];
         ;
       };
       BD courte durée [>"non", draw];
     }
   };
+  }
   \caption{Traitement BPCO}
 \end{figure}
-
 
 Arrêt tabac++, vaccins grippe et pneumocoques, réhabilitation respiratoire, oxygénothérapie, chirurgie possibles
 
@@ -1461,8 +1509,8 @@ Autres \faHospitalO : oxygénothérapie, kiné, HBPM, (assistance ventilatoire)
 \section{206 : Pneumopathies infiltrantes diffuses}
 \subsection{Présentation}
 Clinique : dyspnée d'effort prgorsessive.\\
-EFR : TVR\footnote{trouble ventilatoire restrictif} ( CPT < 80\% et VEMS/CVL >
-70\% ) et DLCO < 70\%, hypoxémie, désaturation\\
+EFR : \gls{TVR} ( CPT < 80\% et VEMS/CVL >
+70\% ) et TLCO < 70\%, hypoxémie, désaturation\\
 Radio : opacités parenchymateuse non systématisées bilatérales
 
 \subsection{PID aigüe}
@@ -1474,15 +1522,14 @@ Inconnues : sarcoïdose, fibrose plumonaire idiopathique
 \item Contexte (ATCD, ID, exposition)
 \item ECG, BNP, echo cardiaque
 \item LBA si possible
-\item PEC thérapeutique (réa si détresse respi, \(O_2\), ATB probab si fièvre, arrêt de médic. pneumotoxiques)
+\item PEC thérapeutique (réa si détresse respi, \(O_2\), ATB probabiliste si fièvre, arrêt de médic. pneumotoxiques)
 \end{itemize}
 
 \subsection{PID subaigüe/chronique}
 \subsubsection{Démarches}
-Interrogatoire++ : terrain (sarcoïdose=25-45 ans, FPI si > 60 ans), tabac (histiocytose langerhansienne, DIP), toxico, médic, ATCD radio, exposition
+Interrogatoire++ : terrain (sarcoïdose=25-45 ans, \gls{FPI} si > 60 ans), tabac (histiocytose langerhansienne, \gls{DIP}), toxico, médic, ATCD radio, exposition
 
 Clinique : état général, signes de connectivite
-
 
 \begin{table}[htbp]
   \caption{Biologie PID subaigüe}
@@ -1518,16 +1565,21 @@ Clinique : état général, signes de connectivite
     Histiocytose langerhansienne & Macrophage\\
     Sarcoïdose, PHS & Lymphocytaire\\
     P. à éosinophiles & Éosinophilique\\
-    POC\footnote{Pneuompathie organisée cryptogénique} & Panachées\\
+    \gls{POC} & Panachées\\
     Hémorragie alvéolaire & Rosé\\
     Protéinose alvéolaire primitive & Laiteux\\
     \bottomrule
   \end{tabular}
 \end{table}
 
-Examens complémentaires : fibro + LBA > biopsie bronchique > biopsie pulmonaire chir, biopsie transbronchique
+Examens complémentaires :
+\begin{enumerate}
+\item fibro et LBA (+ biopsie bronchique)
+\item soit biopsie pulmonaire chir (pas de diagnostic), soit biopsie
+  transbronchique et ADP médiastinales
+\end{enumerate}
 
-\subsubsection{Oedeme pulmonaire}
+\subsubsection{Oedème pulmonaire}
 Mécanisme : Surcharge hémodynamique\\
 Clinique : HTA, coronaropathie, valvulopathie mitrale\\
 Diagnostic : ECG, BNP, écho coeur\\
@@ -1536,7 +1588,7 @@ Imagerie : Péri-hilaire
 \subsubsection{Tuberculose}
 Mécanisme : BK\\
 Clinique : Contage, AEG, hémoptysie\\
-Diagnostic : Expectorations : ED, culture, biopsie transbronchique\\
+Diagnostic : Expectorations (ED, culture, biopsie transbronchique)\\
 Imagerie : 
 \begin{itemize}
 \item pulmonaire = nodules, infiltrats, excavations
@@ -1551,7 +1603,7 @@ Mécanisme : Ag organiques\\
 Clinique : 
 \begin{itemize}
 \item aigüe : sd peudo-grippal quelques heurs
-\item subaigüe : semaines/mois avec toux, fébricule, rales crépitants, squeaks
+\item subaigüe : semaines/mois avec toux, fébricule, râles crépitants, squeaks
 \item chronique : dyspnée, toux sèche
 \end{itemize}
 Diagnostic : Sérologie, LBA\\
@@ -1564,31 +1616,33 @@ Clinique : Exposition\\
 Imagerie : 
 \begin{itemize}
 \item silicose : opacités micronodulaires diffuses \(\implies\) masses pseudotumorales. Peut donner un cancer bronchique
-\item asbestose : opacités linéaires non septables des bases \(\parallel\) ou \(\bot\) plèvre, réticulations et rayons de miels comme FPI. Évolue vers insuf respi chronique.
+\item asbestose : opacités linéaires non septales des bases \(\parallel\) ou \(\bot\) plèvre, réticulations et rayons de miels comme FPI. Évolue vers insuf respi chronique.
 \end{itemize}
 
 \subsubsection{Sarcoïdose}
 Mécanisme : Signes extra-respiratoires\\
-Diagnostic : anapath : extra-pulmonaire, biopsie EP et TB. Adénopathies médiastinales \\
+Diagnostic : anapath : extra-pulmonaire, biopsie éperons bronchiques et transbronchique. ADP médiastinales \\
 Imagerie : Nodules, micronodules (ditribution lymphatique), adénopathie, hyperdensités, distorsions bronchiques
 
 \subsubsection{Fibrose pulmonaire idiopathique}
 Clinique : Dyspnée d'effort progressive, toux sèche, hippocratisme digital, crépitants sec base\\
-EFR : trouble ventilatoire restrictif, diminution DLCO\\
-Imagerie : Réticulations, bronchectasies, rayons de miel. Domine sous pleur et bases
+EFR : TVR, diminution TLCO\\
+Imagerie : Réticulations, bronchectasies, rayons de miel. Domine sous-pleural et bases
 
 \subsubsection{Connectivites}
 Mécanisme : Dysimmunitaire\\
-Clinique : Extra-respi : polyarthrite rhumatoide, sclérodermie, lupus, vascularite\\
+Clinique : Extra-respi (polyarthrite rhumatoide, sclérodermie, lupus, vascularite)\\
 Diagnostic : Ac spécifiques\\
 Imagerie : Réticulations, hyperdensités, bronchectasies
 
 \subsubsection{Pneumopathie interstitielle non spécifique}
-Origine : connectivite, médicaments (idiopathique)
-Imagerie : verre dépoli, réticulations, bronchectasies (sauf extrème périphérie du poumon)
+Origine : connectivite, médicaments (idiopathique)\\
+Imagerie : verre dépoli, réticulations, bronchectasies (sauf extrême périphérie du poumon)
 
 \subsubsection{Proliférations tumorales}
-Lymphangite carcinomateuse : toux sèche, rebelle. Radio : épaississements nodulaires des septas intralobulaires. Diagnostic par biopsies des éperons\\
+Lymphangite carcinomateuse : toux sèche, rebelle. \\
+Radio : épaississements nodulaires des septas intralobulaires.\\
+Diagnostic : biopsies des éperons\\
 Carcinome lépidique : verre dépoli. 
 
 
@@ -1611,15 +1665,16 @@ Radio : 4 stades
 \end{itemize}
 TDM : atteinte parenchyme = micronodule selon lymphatiques. Utile pour : formes atypiques ou détection précoce (fibrose, complications [greffe aspergillaire])\\
 EFR : sd restrictif, DLCO $\searrow$\\
-Endoscopie bronchique (non system) : normal/en "fond d'oeil". Biopsie : \{éperons, LBA\} > \{ponction ganglions médiastinaux, transbronchique\} > médistanoscopie\\
+(Endoscopie bronchique : normal/muqueuse en "fond d'oeil".)\\
+Biopsie : \{éperons, LBA\} > \{ponction ganglions médiastinaux, transbronchique\} > médistanoscopie\\
 Formes atypiques : TVO, cavitaires, pseudonodulaires/alvéolaires
 
 \subsubsection{Extra-pulmonaire}
 \label{sec:org316c190}
 \begin{itemize}
-\item Oeil : uvéite antérieure aigue (toujours cherche uvétie postérieure)
+\item Oeil : uvéite antérieure aigue (toujours cherche uvéite postérieure)
 \item Peau : nodules cutanés, lupus pernio, érythème noueux
-\item Adénopathies
+\item ADP
 \item Foie
 \item Moins fréquentes : nerveux (sd méningé, paires craniennes), ORL (obstruction
   nasale,
@@ -1630,7 +1685,7 @@ coeur (BAV, bloc branche droit), rein (\(\nearrow\) créatininémie)
 \begin{itemize}
 \item Généraux : asthénie (pas de fièvre sauf sd de Löfgren)
 \end{itemize}
-Sd de Löfgren = érythème noueux + adénopathies hilaires médiastinales (+ fièvre)
+Sd de Löfgren = érythème noueux + ADP hilaires médiastinales (+ fièvre)
 \subsubsection{Biologie}
 \label{sec:orgbfe5d87}
 \begin{itemize}
@@ -1673,10 +1728,12 @@ Atteintes :
 
 \subsection{Traitement}
 \label{sec:orgc05b9f6}
-Atteinte respi : pas si sd de Löfgren ou stade I asymptomatique\\
-Corticoïdes > 10 mois à 0.5mg/kg (décroissance par 6-12 semaines)\\
-2eme intention : hydroxychloroquine, méthotreaxe, azathioprine\\
-3eme intention : cyclophsamide, anti-TNF-\(\alpha\)
+Atteinte respi : pas de ttt si sd de Löfgren ou stade I asymptomatique\\
+\begin{itemize}
+\item 1ère intention : Corticoïdes > 12 mois à 0.5mg/kg (décroissance par 6-12 semaines)
+\item 2eme intention : hydroxychloroquine, méthotrexate, azathioprine
+\item 3eme intention : cyclophsamide, anti-TNF-\(\alpha\)
+\end{itemize}
 
 \section{222 : Hypertension artérielle pulmonaire}%
 \label{sec:hypertension_arterielle_pulmonaire}
@@ -1711,7 +1768,7 @@ Découverte : dyspnée, dépistage
 
 Détection :
 \begin{itemize}
-\item fonctionnel : dyspne d'effert+++ progressive (lipothymie à l'effert,
+\item fonctionnel : dyspne d'effort+++ progressive (lipothymie à l'effert,
   syncope, asthénie, douleurs angineuses, palpilations, hémoptysies)
 \item physique : 
   HTP (signe de Carvallo\footnote{Souffle holosystolique
@@ -2535,9 +2592,14 @@ plèvre), pression transpulmonaire = $P_{ip} - P_{alv}$.
 
 \end{figure}
 
-\glsaddall 
+
 \printglossary
 
 \printglossary[type=\acronymtype]
 
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
