@@ -16,6 +16,12 @@
 \newacronym{BD}{BD}{Bronchodilatateur}
 \newacronym{POC}{POC}{Pneuompathie organisée cryptogénique}
 \newacronym{ADP}{ADP}{Adénopathies}
+\newacronym{PAPm}{PAPm}{Pression de l'artère pulmonaire moyenne}
+\newacronym{OMI}{OMI}{Oedème des membres inférieurs}
+\newacronym{HMG}{HMG}{Hépatomégalie}
+\newacronym{MTEV}{MTEV}{Maladie Thrombo-Embolique Veineuse}
+\newacronym{EP}{EP}{Embolie pulmonaire}
+\newacronym{TVP}{TVP}{Thrombose veineuse profonde}
 
 \newglossaryentry{VEMS}
 {
@@ -54,6 +60,11 @@
 \newglossaryentry{CPT}
 { name = {Capacité Pulmonaire Totale},
   description = {Capacité Vitale + volume résiduel}
+}
+\newglossaryentry{PAPO}{
+  name = PAPO,
+  description = Pression artérielle pulmonaire occluse $\approx$ pression
+  capillaire pulmonaire
 }
 
 \glsaddall % Add all entries
@@ -1740,11 +1751,11 @@ Atteinte respi : pas de ttt si sd de Löfgren ou stade I asymptomatique\\
 
 Circulation : (basse pression, faible résistante) $\implies$ forte résistance
 
-Critère : PAPm\footnote{Pression de l'artèr pulmonaire moyenne} $\ge 25$ mmHG et 
-\begin{itemize}
-\item PAPO\footnote{Pression artérielle pulmonaire occluse $\approx$ pression
-    capillaire pulmonaire} $\le 15$ mmHG si précapillaire
-\item PAPO $> 15$ mmHG si postcapillaire 
+Critère : \gls{PAPm} $\ge 25$ mmHG et
+$\begin{cases}
+  \text{\gls{PAPO}} \le 15 & \text{mmHG si précapillaire} \\
+  \text{PAPO} > 15 & \text{mmHG si postcapillaire}
+  \end{cases}  $
 \end{itemize}
 
 Classification internationale : 5 groupes
@@ -1768,56 +1779,56 @@ Découverte : dyspnée, dépistage
 
 Détection :
 \begin{itemize}
-\item fonctionnel : dyspne d'effort+++ progressive (lipothymie à l'effert,
-  syncope, asthénie, douleurs angineuses, palpilations, hémoptysies)
+\item fonctionnel : dyspnée d'effort+++ progressive (lipothymie à l'effort,
+  syncope, asthénie, douleurs angineuses, palpitations, hémoptysies)
 \item physique : 
-  HTP (signe de Carvallo\footnote{Souffle holosystolique
+  \begin{itemize}
+  \item HTP (signe de Carvallo\footnote{Souffle holosystolique
     d'insuf. tricuspid majoré à l'inspiration}, éclat B2, souffle diastolytique
-  d'insuf\\
-  insuf cardiaque D (tachy, galop, turgescence jugulaire, reflux
-  hépato-jugulaire, HMG\footnote{Hépatomégalie}, OMI\footnote{Oèdeme des
-    membres inférieurs}, anasarque)
-\item imagerie thorax : dilatation artères plumon, élargissement coeur D
-\item ECG : hypertrophie D, troulbe rythme
+  d'insuf pulmonaire)
+  \item insuf cardiaque D (tachy, galop, turgescence jugulaire, reflux
+  hépato-jugulaire, HMG, OMI, anasarque)
+  \end{itemize}
+\item imagerie thorax : dilatation artères pulmonaires, élargissement coeur D
+\item ECG : hypertrophie D, trouble rythme
 \end{itemize}
 
-Écho cardiaque transthoracique = non invasif de référence. Diagnostifg par
-cathétérisme cardiaque D avec \textbf{PAPm $\ge 25$ mmHg}
+Écho cardiaque transthoracique = non invasif de référence. \\
+Diagnostig par cathétérisme cardiaque D avec \textbf{PAPm $\ge 25$ mmHg}
 
 \paragraph{Démarche}
 Si écho cardiaque compatible avec HTP :
 \begin{itemize}
-\item Cardiopathies G, maladies respi + exmans pour groupe 2 et 3. Si confirmé
+\item Cardiopathies G, maladies respi + exams pour groupe 2 et 3. Si confirmé
   : \faHandStopO
-\item Sinon regarder signes thrombo-embolie chronique (scinti, angiosca) : Si
+\item Sinon regarder signes thrombo-embolie chronique (scinti, angioscan) : Si
   groupe 4, \faHandStopO
 \item Sinon confirmer HTP précapillaire 
 \item Si confirmée, tester pour groupe 1 (connectivites, médicaments, VIH,
-  cardiopathie conégin, HT portale, schistosomiase) ou groupe 5
+  cardiopathie congénitale, HT portale, schistosomiase) ou groupe 5
 \end{itemize}
 
 
 
 \section{224 : Embolie pulmonaire et thrombose veineuse profonde}%
 \label{sec:224_embolie_pulmonaire_et_thrombose_veineuse_profonde}
+\gls{MTEV} = \{\gls{EP}, \gls{TVP}\}
 
 Maladie fréquente (1 cas /10 000 si < 40 ans, 1/100 si > 75 ans) et grave.
-
-= {embolie pulmonaire (EP), thrombose veineuse profonde (TVP)}
 
 Facteurs de risque :
 \begin{itemize}
 \item acquis : majeurs = chir < 3mois, trauma MI\footnote{Membres inférieurs},
   \faHospitalO{} aigü, cancer en cours  ttt, sd antiphospholipide, sd
   néphrotique
-\item constit : rare = déficit (antithrombien, prot. C, S), fréq = (mutation {Leiden,
+\item constit : rare = déficit (antithrombine, prot. C, S), fréq = (mutation {Leiden,
     prothrombine}, facteur VIII > 150\%)
 \end{itemize}
 Complications : DC, récidive (mortelle ou non), séquelle (HTP thrombo-embolique
 chronique si EP, sd post-phlébite si TVP)
 
 Risque de récidive dépend de la clinique : élevé si (non provoqué par facteur
-majeur ou modéré) $\vee$ facteur persistant)
+majeur ou modéré) $\vee$ (\og facteur persistant)
 
 Conséquence :
 \begin{itemize}
@@ -1831,7 +1842,7 @@ Conséquence :
 \begin{figure}[htpb]
   \label{fig:ep-diag}
   \centering
-  \resizebox{0.5\linewidth}{!}{
+  \resizebox{0.3\linewidth}{!}{
     \tikz \graph [
     % Labels at the middle 
     edge quotes mid,
@@ -1866,7 +1877,7 @@ Radio thoracique, ECG : élimine les DD
 Probabilité clinique : important, suivant des scores (Wells, Genève)
 
 \paragraph{Examens}
-Voir la figure~\nameref{fig:ep-diag} avec \texttt{examen} = angioscanner.
+Voir la figure~\ref{fig:ep-diag} avec \texttt{examen} = angioscanner.
 
 D-dimère positifs = $\max(\text{âge}, 50) \times 10 \mu{}$g/L
 
@@ -1883,7 +1894,7 @@ Sur l'écho, chercher dilatation cavité D, HTP, septum paradoxal
 (prévenir le pédiatre \skull)
 
 \subsection{Diagnostic de TVP}
-Voir la figure~\nameref{fig:ep-diag} avec \texttt{examen} = échographie veineuse
+Voir la figure~\ref{fig:ep-diag} avec \texttt{examen} = échographie veineuse
 des MI
 
 \subsection{Traitement}
@@ -1893,23 +1904,23 @@ Urgence \skull $\implies$ anticoagulant
 CI : coagulopathie sévère, hémorragie intracrânienne spontanée, hémorragie
 active difficilement contrôlable, chir récente, (thrombopénie à l'héparine)
 
-\paragraph{Types de traitement}
-Héparines + relais AVK dès injection IV
+q\paragraph{Types de traitement}\mbox{}\\
+Option 1 : Héparines + relais AVK dès injection IV
 \begin{itemize}
 \item HBPM, fondaparinux > HNF, sauf si IR sévère (< 30ml/min)
 \item arrêt si 5 jours d'AVK et IV (ensemble) $\wedge$ INR $\in [2,3]$ à 24h
 \end{itemize}
-Anticoagulants oraux directs : rivaroxaban, apixaban (France)
+Option 2 : Anticoagulants oraux directs : rivaroxaban, apixaban (France)
 \begin{itemize}
 \item rapide, demi-vie courte
 \item facteur X
-\item CI : IR sévère, grossesse, interfaction médic (cytochrome 3A4 ou
+\item CI : IR sévère, grossesse, interaction médic (cytochrome 3A4 ou
   P-glycoprroténie)
 \end{itemize}
 Éucation thérapeutique\\
 Autres :
 \begin{itemize}
-\item filtre cave (si CI absolue coagulant $\vee$ EP récidivant)
+\item filtre cave (si CI absolu aux anti-coagulant ou EP récidivant)
 \item fibrinolyse (si EP + choc, sauf si hémorragie active,
   AIC\footnote{Accident ischémique cérébral}< 2 mois,
   hémorragie intracrânienne)
@@ -1919,20 +1930,23 @@ Autres :
 \end{itemize}
 
 \paragraph{Stratégie}
-Score sPESI = "90 100 110 C C" $\implies$ sat < 90\%, PAS < 100 mmHg, FC >
-110/min, Cancer, insuf Cardiaque chronique:
+Score sPESI = \texttt{90 100 110 C C}\footnote{sat < 90\%, PAS < 100 mmHg, FC >
+110/min, Cancer, insuf Cardiaque chronique}:
 
-Risque faible (sPESI = 0) : \faHospitalO{} < 48h, anticoagulation
+Risque faible (sPESI = 0) : \faHospitalO{} < 48h, anticoagulation\\
 Risque intermédiaire (sPESI > 0)
 \begin{itemize}
 \item dysfonction VD $\vee$ élévation biomarqueurs\footnote{BNP, NT-pro-BNP,
     troponine} : \faHospitalO{}
   médecine, anticoagulation
 \item dysfonction VD $\wedge$ élévation biomarqueurs : urgence \danger{}
-  $\implies$ USI\\
-  $O_2$, scope
-  Anticoag : HNF/HBPM puis AVK/AOP à 48-72h\\
-  (trombolysie si choc)
+  $\implies$ USI
+  \begin{itemize}
+  \item $O_2$, scope
+  \item anticoag : HNF/HBPM puis AVK/AOP à 48-72h\\
+  (trombolyse si choc)
+    \end{itemize}
+
 \end{itemize}
 Haut risque (choc : PAS < 90mmHG $\vee$ -40mmHg) : urgence \skull $\implies$ réa
 \begin{itemize}
@@ -1943,7 +1957,7 @@ Haut risque (choc : PAS < 90mmHG $\vee$ -40mmHg) : urgence \skull $\implies$ ré
 \end{itemize}
 
 \paragraph{Durée}
-3 mois si 1ere EP/TVP provoque par facteur majeur transitoire $\vee$ risque
+3 mois si 1ere EP/TVP provoqué par facteur majeur transitoire $\vee$ risque
 hémorragique élevée. 6 mois ou plus sinon
 
 \paragraph{Étiologie}
@@ -1976,7 +1990,7 @@ antiphospholipides
 \item neuro : lipothymie/syncope, agitation/trble vigilance, général (sudation)
 \end{itemize}
 
-\danger arrêt cario-respi ! bradypnée, (bradycardie + choc + troubles vigilance
+\danger arrêt cario-respi ! Y penser si bradypnée, (bradycardie et choc et troubles vigilance\}
 
 \subsection{Examens}
 Fréquence respi, $SpO_2$, radio thorax, ECG.
@@ -1984,7 +1998,7 @@ Si {brady, tachy}pnée ou $SpO_2 < 95\%$, gaz du sang
 
 \subsection{Urgences vitales}
 \begin{itemize}
-\item Syndrome coronaire agiüe (fréquent++ 1/3) : ECG + troponines
+\item Syndrome coronaire aigü (fréquent++ 1/3) : ECG + troponines
 \item Embolie pulmonaire (fréquent) : suspicion si douleur thorax, pas
   d'anomalie ascult, RX thorax "normale" \textit{surtout}  si hypoxémie +
   facteurs de risque\\
@@ -1993,7 +2007,7 @@ Si {brady, tachy}pnée ou $SpO_2 < 95\%$, gaz du sang
 \item Tamponnade (peu fréq) : suspicion (hypotension réfractaire, insuf.
   cardiaque D aigüe, microvoltage + alternance ECG) $\implies$ echo cardiaque
 \item Pneumothorax : ATCD (!), radio thorax \\
-  pneumomédiastin (rare) : scanner
+  pneumomédiastin (rare) : scanner
 \end{itemize}
 
 \subsection{Non urgent}
@@ -2002,15 +2016,15 @@ Rythmées par respiration :
 \item post-traumatique
 \item pneumonie infectieuses : radio thorax
 \item épanchement pleural (douleur latéral-base, majorée inspiration, toux)
-\item infarctus pulmonaire (doelur basithoracique, faible hémoptysie)
+\item infarctus pulmonaire (douleur basithoracique, faible hémoptysie)
 \item trachéobronchite aigüe
-\item musculosquelettique, nerveurse : tumeurs costales, lésivos vertèbres,
+\item musculosquelettique, nerfs : tumeurs costales, lésions vertèbres,
   névralgies cervicobrachiales
 \end{itemize}
 Non rythmées :
 \begin{itemize}
 \item angor d'effort stable (calmée 2-5min post-effort)
-\item péricardituqe (viral si aigü, tuberculose/néoplasie sinon)
+\item péricardite (viral si aigü, tuberculose/néoplasie sinon)
 \item cocaïne (fréquente) : SCA, myopéricardite,pneumothorax
 \item zona thoracique (brûlures, hyperesthésie 24h avant)
 \item digestives : reflux gastro-oesophagen, spasmes oesophagiens. Exclure SCA
@@ -2032,7 +2046,7 @@ Professionel : 15\%
 \paragraph{Histologie}
 \begin{itemize}
 \item "Non à petites cellules" (CBNPC) (80\%) : adénocarcinomes (périphérie),
-  carcinomes épidermoïdes (proximal), indifférencies à grandes cellules
+  carcinomes épidermoïdes (proximal), indifférenciés à grandes cellules
 \item neuro-endocrine "à petites cellules" (CBPC) (porximal, médiastin)
 \end{itemize}
 
