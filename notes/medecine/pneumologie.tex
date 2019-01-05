@@ -22,6 +22,7 @@
 \newacronym{MTEV}{MTEV}{Maladie Thrombo-Embolique Veineuse}
 \newacronym{EP}{EP}{Embolie pulmonaire}
 \newacronym{TVP}{TVP}{Thrombose veineuse profonde}
+\newacronym{ITK}{ITK}{Inhibiteur de tyrosine kinase}
 
 \newglossaryentry{VEMS}
 {
@@ -1756,7 +1757,6 @@ $\begin{cases}
   \text{\gls{PAPO}} \le 15 & \text{mmHG si précapillaire} \\
   \text{PAPO} > 15 & \text{mmHG si postcapillaire}
   \end{cases}  $
-\end{itemize}
 
 Classification internationale : 5 groupes
 \begin{enumerate}
@@ -1840,7 +1840,6 @@ Conséquence :
 
 \subsection{Diagnostic de l'embolie pulmonaire}
 \begin{figure}[htpb]
-  \label{fig:ep-diag}
   \centering
   \resizebox{0.3\linewidth}{!}{
     \tikz \graph [
@@ -1865,6 +1864,7 @@ Conséquence :
     };
   }
   \caption{Diagnostic général pour l'EP, TVP}
+  \label{fig:ep-diag}
 \end{figure}
 
 
@@ -2047,27 +2047,27 @@ Professionel : 15\%
 \begin{itemize}
 \item "Non à petites cellules" (CBNPC) (80\%) : adénocarcinomes (périphérie),
   carcinomes épidermoïdes (proximal), indifférenciés à grandes cellules
-\item neuro-endocrine "à petites cellules" (CBPC) (porximal, médiastin)
+\item neuro-endocrine "à petites cellules" (CBPC) (proximal, médiastin)
 \end{itemize}
 
 \subsection{Manifestations}
-\textbf{Y penser si (AEG $\wedge$ tabac) $\vee$ (fonctionnel respi si tabac $\wedge$ >
-  40ans)}
+\textbf{Y penser si (AEG et tabagique) $\vee$ (symptôme fonctionnel respiratoire
+  chez tabagique > 40A)}
 
 \textit{Respiratoires}  : toux (souvent révélatrice, sèche, quinteuse), hémoptysie (<
 10\%), bronchorrée (propre), dyspnée, pneumonie/bronchite (\danger{} si récidive
 dans même territoire), douleur thoracique 
 
-\textit{Locorégionales}  : pleuréises, dysphonies, sd cave supérieur, douleurs thoraciques
+\textit{Locorégionales}  : pleurésies, dysphonies, sd cave supérieur, douleurs thoraciques
 (fixes, tenaces), sd de Pancoast-Tobias\footnote{Névralgie cervicobrachiale avec
   douleurs radiculaire C8-D1, sd Claude-Bernard-horner}, paralysie phrénique
 
-\textit{Extrathoracique}  : thrombose inexpliques (y penser !), métastates (SNC,
-foei, os, surrénales)
+\textit{Extrathoracique}  : thromboses inexpliquées (y penser !), métastase (SNC,
+foie, os, surrénales)
 
-\textit{Sd paranéoplasiques} (à distance, répapparition $\implies$ rechute) :
+\textit{Sd paranéoplasiques} (à distance, réapparition $\implies$ rechute) :
 hippocratisme digital, hypercalcémie, hyponatrémie, sd de Cushing, neurologique
-(pseudomyasthénie de Lamert Eaton, neuropathies périh, encéphalopathies)
+(pseudomyasthénie de Lamert Eaton, neuropathies périph, encéphalopathies)
 
 \subsection{Imagerie}
 Initial = radio thorax chez fumeur > 40 ans
@@ -2095,19 +2095,19 @@ Faux négatifs : < 1 cm, non solide (verre dépoli)
 \begin{itemize}
 \item lésion centrale : fibroscopie bronchique
 \item périphérique : ponction transpariétale
-\item entre : fibro ou ponction ou thoracotomie
+\item entre les 2 : fibro ou ponction ou thoracotomie
 \end{itemize}
-Cherchers mutations EGFR, réarrangements ALK, ROS1
+Chercher mutations EGFR, réarrangements ALK, ROS1
 
 \subsection{Bilan préthérapeutique}
 \textit{Extension}  : T(tumeur) = locale, N (node) = ganglionnaire, M
 (métastase) = à distance. \\
-si M : TDM absdo, IRM cérébrale, TEP-TDM
+si M : TDM abdo, IRM cérébrale, TEP-TDM
 
 État général (Performance Status de 0 à 4), nutritionnel (-5\% en 1 mois ou
 -10\% en 6 mois = \frownie{})
 
-\textit{Cardiorespiratoire} : ECG, écho cardi, épreuve d'effort, doppler artériel des MI/cou,
+\textit{Cardiorespiratoire} : ECG, écho cardio, épreuve d'effort, doppler artériel des MI/cou,
 coronarographie.\\
 Règle : 1 lobe = -25\% de VEMS. Opération ssi VEMS post-op > 30\%
 \subsection{Traitement}
@@ -2119,18 +2119,18 @@ Règle : 1 lobe = -25\% de VEMS. Opération ssi VEMS post-op > 30\%
 \item disséminé (stade IV) : systémique = 
   $\left \{
     \begin{array}{lr}
-      \text{ITK\footnote{Inhibiteur de tyrosine kinase} si altération moléculaire ciblable} & \text{Médiane > 2 ans}\\
+      \text{\gls{ITK} si altération moléculaire ciblable} & \text{Médiane > 2 ans}\\
       \text{chimio IV et 3e génération sinon} & \text{Médiane 12 mois}\\
     \end{array}
   \right.$
 \end{itemize}
-\paragraph{CBNC}
-Chimiosensible mais rechutes fréquentes et rapides
+\paragraph{CBPC\footnote{Chimiosensible rechutes fréquentes et rapides}}
+Pas de chir !
 $
 \left \{
   \begin{array}{l}
-    \text{chimio si étendue}\\
-    \text{radio + chimio (+ irradiation encéphale) si limitée}
+    \text{radio + chimio (+ irradiation encéphale) si limitée}\\
+    \text{chimio sinon}
   \end{array}
 \right.
 $
@@ -2149,10 +2149,9 @@ personnalisé de soin
 CBNPC : arrêt tabac, TDM 2-3 mois, clinique, bio (rein, NFS, hypercalcémie,
 hyopnatrémie)
 
-CBPC : médiane de survie = 16-20 si limitée, 8-12 mois si métastatique
+CBPC : médiane de survie = 16-20 mois si limitée, 8-12 mois si métastatique
 \subsection{Cancers secondaires}
-Clinique : pauvre, chercher ganglionnaire. (Dypnée, toux, douleur thoracique,
-généraux)
+Clinique : pauvre (dyspnée, toux, douleur thoracique, généraux), chercher extension ganglionnaire
 
 Imagerie : 
 \begin{itemize}
@@ -2179,38 +2178,38 @@ Diagnostic : clinique,
 HS systémique immédiate sévère. 2 types :
 \begin{itemize}
 \item allergique : production IgE spécifiques. Libération de médiateurs par
-  mastocytes et bsophiles $\implies$ vasodilatation, bronchoconstriction
-\item non-allergique : pas d'exposition préalable, moins sévere 
+  mastocytes et basophiles $\implies$ vasodilatation, bronchoconstriction
+\item non-allergique : pas d'exposition préalable, moins sévère 
 \end{itemize}
-Déf : symptômes CV, respi, cut/digestif mettant en
-jeu le pronostic vital immédiatement après contant
+Déf : symptômes CV, respi, cutané/digestif mettant en
+jeu le pronostic vital immédiatement après contact
 
 \paragraph{Épidémiologie}
-35 DC (alimentaire), 40 DC (piqûre) / an
+35 DC (alimentaire), 40 DC (piqûre) / an\\
 Agents :
 \begin{itemize}
-\item aliments (90\% enfant) : arachide++, prot. oeuf/lait, fruits exotique
+\item aliments (90\% enfant) : arachide++, protéine oeuf/lait, fruits exotiques
 \item médicaments (15-20\%)
 \item venin hyménoptères (15-20\%)
 \item autres : latex, effort
 \end{itemize}
 
 \subsection{Clinique}
-Délai < 1h (5min si médic. IV, 15 si piqûre, 30 si alimentaire)
+Délai < 1h (5min si médic. IV, 15 si piqûre, 30 si alimentaire).
 Manifestations :
 \begin{itemize}
 \item CV : PAS < 100mmFg (ou -30\%), tachycardie, pâleur, hypotonie, malaise,
-  perte conaissance, trouble rythme/conduction, ischémie myocardique
+  perte connaissance, trouble rythme/conduction, ischémie myocardique
 \item respi : de la toux à l'asthme (mortalité $\nearrow$ si asthme mal
   contrôlé)
-\item cutanées, muqueures : pruit, sah cutané érythméateux, urticaire et
-  sorutout 
+\item cutanées, muqueuses : prurit, rash cutané érythémateux, urticaire et
+  surtout 
   \begin{itemize}
-  \item angioedeme : gonflement mal limité ferme, non érythémateux, pas
+  \item angioedeme : gonflement mal limité ferme, non érythémateux, sans
     prurit
   \item oedème de Quincke : angioedeme larynx et cou : gêne respi haute
-    (dysphonie++, dysphagie++). \
-    Clinique : gonflement langue, luette, paupière lèvre ou face
+    (dysphonie++, dysphagie++). \\
+    Clinique : gonflement langue, luette, paupière lèvre ou face\\
     Possiblement létal \skull
   \end{itemize}
 \item digestives
@@ -2219,15 +2218,15 @@ Manifestations :
 \begin{itemize}
 \item gêne respi haute $\vee$ asthme $\vee$ choc
   mettent en jeu le pronostic vital
-\item cutanéomuqeu
+\item cutanéomuqueux
 \item début brutal, progression rapide
 \end{itemize}
 Sévérité
 \begin{enumerate}[label=\Roman*]
 \item cutanéomuqeux généralisé
-\item multivivscérale modérée
-\item multivivscérale sévère
-\item arrêt respi
+\item multiviscérale modérée
+\item multiviscérale sévère
+\item arrêt respiratoire
 \item DC
 \end{enumerate}
 
@@ -2240,15 +2239,15 @@ Doser systématiquement tryptase sérique (confirmation) : H+0, H+1, H+24
 
 DD : 
 \begin{itemize}
-\item choc anaphylactique : choc {vagale, septique, cardiogénique,}, hypglycémie, mastocytose
+\item choc anaphylactique : choc {vagal, septique, cardiogénique}, hypoglycémie, mastocytose
 \item Oedeme de Quincke : sd cave sup, érysipèle du visage, angi-eodeme à
-  braykinine, inhalation de corps étranger (toujours y penser !!)
+  bradykinine, inhalation de corps étranger (toujours y penser !!)
 \end{itemize}
 
 \subsection{Traitement}
 \paragraph{Urgence}
-Adrénaline : 0.01mg/kg (< 0.5mg) adulte \faHospitalO{} $\vee$ 0.3mg /5 min jusque
-stabilitation en autoinjection 
+Adrénaline : 0.01mg/kg (< 0.5mg) adulte à \faHospitalO{} ou  0.3mg
+auto-injection $\rightarrow$ répéter /5 min jusque stabilisation\\
 Voie IM (pas de SC ou d'IV \danger{})
 
 Remplissage vasc : 50-100mL adulte
@@ -2270,14 +2269,8 @@ Trousse avec adrénaline si (absolument) :
   ou idiopathique
 \item allergie alimentaire et asthme persistant modéré non contrôlé
 \item allergie hyménoptères avec réaction systémique antérieure (adulte) ou
-  plus sévère que cutanéomuq (enfant)
+  plus sévère que cutanéomuqueux (enfant)
 \end{itemize}
-
-
-
-
-
-
 
 \section{354 : Corps étranger des voies aériennes}%
 \label{sec:354_corps_etranger_des_voies_aeriennes}
@@ -2287,7 +2280,7 @@ Pics =
 \item < 3 ans : graines d'oléagineux avec symétrie G-D
 \item âgé si troubles déglutition, mauvaise dentition. 2 tableaux : asphyxie
   aigüe (viande) $\vee$ pneumonie à répétition/suppuration bronchique
-\item rarement chez l'adulte/ado : trauma facial (dents), bricolage, toruble
+\item rarement chez l'adulte/ado : trauma facial (dents), bricolage, trouble
   de conscience. Plutôt à droite
 \end{itemize}
 
@@ -2295,7 +2288,7 @@ Pics =
 \paragraph{Clinique et radio}
 Dans les heures post-inhalation :
 \begin{itemize}
-\item CE mobile (sd de pénétration) : toux quinteuse, suffucation avec tirage,
+\item CE mobile (sd de pénétration) : toux quinteuse, suffocation avec tirage,
   cornage, cyanose. Résolutif en qq secondes
 \item soit CE expulsé (pétéchies visage/tronc ou bouche/conjonctive)
 \item plus rarement enclavement 
@@ -2327,11 +2320,11 @@ Chronique/récidive :
 \end{itemize}
 
 \subsection{CAT}
-\paragraph{Asphyixe aigüe}
+\paragraph{Asphyxie aigüe}
 Toux ou Heimlich (si conscient) ou réanimation. Si < 2 ans, tapes dos puis
 pressions setrnum.
 \paragraph{Sd pénétration no régressif}
-Supper que CE toujours présent !! (sauf confirmation entourage). 
+Supposer que CE toujours présent !! (sauf confirmation entourage). 
 
 Clinique : dimination unilat murmure, wheezing, persistance {toux, dyspnée,
   cornage, tirage}
@@ -2350,13 +2343,13 @@ Définition : Inadéquation charge - capacité de l'appareil respiratoire
 \subsection{Dianostic}
 Signes de luttes
 \begin{itemize}
-\item Polypnée superficielle
-\item recrutemente muscles (scalènes $\wedge$ intercostaux), abdominaaux,
+\item polypnée superficielle
+\item recrutemente muscles (scalènes $\wedge$ intercostaux), abdominaux,
   dilatateurs des voies aériennes supérieures (très petit enfant)
 \end{itemize}
 Signes de faillite
 \begin{itemize}
-\item respi abdo paradoxale \skull défaillance court terme
+\item respi abdo paradoxale \skull{} défaillance court terme
 \item cyanose (hypoxémie profonde) $\implies$ $O_2$ ASAP
 \item neuro : astérixis, altérations comportement/vigilance. Glasgow < 9
   $\implies$ assitance ventilatoire
@@ -2382,15 +2375,14 @@ Appareil circulatoire
 Surveillance, $O_2$, voie veineuse gros calibre, assistance ventilatoire,
 ventilation (non)invasive
 
-Pour l'étiologie : radiothorax, ECG, prélèvment (gaz du sang, NFS, iono, urée,
+Pour l'étiologie : radiothorax, ECG, prélèvement (gaz du sang, NFS, iono, urée,
 créat, acide lactique)
 
 \subsection{Diagnostic}
 
 \begin{figure}[htpb]
   \centering
-  \label{fig:diag_detresse_respi}
-  \resizebox{\linewidth}{!}{
+  \resizebox{0.8\linewidth}{!}{
     \tikz \graph [
     % Labels at the middle 
     edge quotes mid,
@@ -2424,11 +2416,12 @@ créat, acide lactique)
     };
   }
   \caption{Diagnostic détresse respiratoire aigǜe}
+  \label{fig:diag_detresse_respi}
 \end{figure}
 
-Précision de la figure~\nameref{fig:diag_detresse_respi}
+Précision de la figure~\ref{fig:diag_detresse_respi}
 \begin{enumerate}
-\item \textit{Obstruction}  : corps étranger, laryngite, oedem de Quincke, sténose
+\item \textit{Obstruction}  : corps étranger, laryngite, oedème de Quincke, sténose
   trachée, tumeur laryngées
 \item \textit{Anomalie radio} Priorité = pneumonie inf, OAP,
   PTX\footnote{Pneumothorax} sous
@@ -2436,24 +2429,24 @@ Précision de la figure~\nameref{fig:diag_detresse_respi}
   Indication =
   \begin{itemize}
   \item OAP : {ATCD = insuf. cardiaque}, {expectoration mousseuse, orthopnée},
-    {opécatiés bilat diffuses, périhilaire}
+    {opacités bilat diffuses, périhilaire}
   \item Pneumonie infectieuse : {début brutal}, {expector. purulente}, {sd
       inflammatoire}
   \end{itemize}
 \item \textit{Radio normale} de novo = EP, PTX compressif, asthme. Si
   chronique, dans l'ordre BPCO, paroi thoracique (obésité, déformation),
   neuromusc\\
-  En faveur :
+  Orientation :
   \begin{itemize}
   \item EP : fébricule, turgescence jugul, radio normale
   \item Pneumothorax : {longiligne}, {pas de vibration vocale}, murmure vésicul,
     {hyperclarté}
-  \item asthme : ATCP, {toux purulente}, {râles ou silence}
+  \item asthme : ATDS, toux purulente, râles ou silence
   \end{itemize}
 \end{enumerate}
 
 \subsection{SDRA}
-Détresse respi < 7 jours sans défaillange cardiaque, sans surcharge volémique
+Détresse respi < 7 jours sans défaillance cardiaque, sans surcharge volémique
 avec opacités radio bilat diffuses
 
 Mécanisme = oedème lésionnel.
@@ -2461,7 +2454,7 @@ Mécanisme = oedème lésionnel.
 Étiologies :
 \begin{itemize}
 \item exogène = infectieuse, toxique
-\item endogènes : dès qu'une réponse inflammatoire systémique
+\item endogènes : réponse inflammatoire systémique
 \end{itemize}
 
 \section{356 : Pneumothorax}%
@@ -2509,17 +2502,17 @@ $\implies$ le plus souvent (pneumothorax compressif secondaire à fistule à
 soupape) ou (PTX avec réserve ventilatoire réduite)
 
 \paragraph{Atypique}
-Récidive : 30\% (premier épisde), 50\% (second épisode)
+Récidive : 30\% (premier épisode), 50\% (second épisode)
 
-Rarement avec pneumomédiastic
+Rarement avec pneumomédiastin
 
 Sous ventilation mécanique : y penser si $\nearrow$ brutal pression
-d'insufflation, collapsus brula, plaie plèvre
+d'insufflation, collapsus brutal, plaie plèvre
 
 \paragraph{DD}
-Facile : douleur thoracique "respiro-dépendante.
+Facile : douleur thoracique "respiro-dépendante".
 
-Difficile : Dyspnée aigùe sans sd pleural 
+Difficile : Dyspnée aigüe sans sd pleural 
 
 \subsection{Traitement}
 \begin{itemize}
@@ -2528,7 +2521,7 @@ Difficile : Dyspnée aigùe sans sd pleural
 \item Pneumotthorax spontané primaire (bien ou mal toléré ) :
   exsufflation(petit cathéter sur voie thoracique antérieur) puis drain
   si échec
-\item Pour tous les autres : train
+\item Pour tous les autres : drain
 \end{itemize}
 
 Prévention récidive par pleurodèse (accolement des feuillets) : si récidive
