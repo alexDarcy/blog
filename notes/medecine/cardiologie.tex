@@ -17,6 +17,9 @@
 \newacronym{IVA}{IVA}{Artère intraventriculaire antérieure}
 \newacronym{BAV}{BAV}{Bloc auriculoventriculaire}
 \newacronym{IPC}{IPC}{Intervention coronaire percutanée}
+\newacronym{OCA}{OCA}{Occlusion coronaire aigüe}
+\newacronym{FIV}{FIV}{Fibrinolyse intra-veineuse}
+\newacronym{DAI}{DAI}{Défibrillateur automatique implantable}
 
 \glsaddall % Add all entries
 \glsunsetall % Acronyms always in short form
@@ -167,7 +170,7 @@ ATD personnels CV
 
 \subsection{Prévention}
 \paragraph{Secondaire}
-
+\label{subsec:basic_prev}        
 BASIC : $\beta$bloquants, Antiagrégants, Statine, Inhibiteurs de l'enzyme de
 conversion, Contrôle des FR
 
@@ -457,7 +460,7 @@ CPK-MB si récidive
 Douleur thoracique : péricardite aigüe, EP, dissection aortique, sous-diaphragme (cholécystite aigüe,
 ulcère perforé, pancréatite aigüe).
 
-Simule IDM : Penser à mycocardite aigüe (IRM), cardiomypoathie de stress
+Simule IDM : Penser à mycocardite aigüe (IRM), cardiomyopathie de stress
 (coronarographie)
 
 \paragraph{Complications précoces}
@@ -475,7 +478,7 @@ Hémodynamiques
 \begin{itemize}
   \item insuf. ventriculaire G : grave, faire échocardio vite (4 stades)
   \item choc cardiogénique : diagnostic si hypotension artérielle mal tolérée,
-    ne répond pas au rempilssage macromoléculaire. Souvent OCA + 24/48h.
+    ne répond pas au rempilssage macromoléculaire. Souvent \gls{OCA} + 24/48h.
     Mortalité > 70\%
   \item infarctus ventricule D : hypotension, champs pulmonaires clairs,
     turgescence jugulaire. Regarder dérivations droites (!) : sus-ST.
@@ -484,7 +487,7 @@ Hémodynamiques
 Mécaniques :
 \begin{itemize}
   \item rupture paroi libre ventricule G : rapidement fatal
-  \item rupture septale : +24-48gh. Échocardiographie doppler. Forte mortalité
+  \item rupture septale : +24-48h. Échocardiographie doppler. Forte mortalité
   \item insuf mitrale : fuite par prolapsus valvlaire. Ttt chir
 \end{itemize}
 Thrombotique : thrombus intra-VG, embolies systémique : échocardio. (Thrombose
@@ -497,34 +500,31 @@ Récidive ischémique \thus récidive IDM. Épreuve d'effort à  +5 jours.
 \paragraph{Complications tardives}
 Péricardite à +3 semaines (sd de Dressler)
 
-Dysfonction ventricule G : scint/échocardio de stress/IRM cardiaque. Évolue en
+Dysfonction ventricule G : scinti/échocardio de stress/IRM cardiaque. Évolue en
 dilatation VG/anévrisme
 
-Troubles rythmes ventriculaires sévères : défibrillateurs automatique
-implantable (DAI)
+Troubles rythmes ventriculaires sévères : \gls{DAI}
 
-\subsection{Traitement}
+\subsection{PEC}
 Reperfusion !!
-\begin{itemize}
-  \item ICP si < 120min, précédée d'\{aspirine, inhib récepteurs P2Y12, anticoagulant\}
-  \item sinon fibrinolyse IV par TNK-tPA
-  \end{itemize}
-  \textit{Antiagrégants et anticoagulant pendant transport !}
+\begin{enumerate}
+\item Si angioplastie faisable < 120min ou CI à la \gls{FIV} : salle de cathétérisme +
+  angioplastie
+\item sinon FIV par TNK-tPA. Si échec, angioplastie de sautage
+\item \textbf{en même temps } 
+  \begin{itemize}
+  \item antalgique $\pm O_2$
+  \item + aspirine + (clopidogrel (si fibronolyse) ou prasugrel ou ticagrelor)
+  \item + (HNF ou énoxaparine ou bivalirudine [\danger{} pas si FIV]
+  \item + $\beta$-bloquant (avec prudence)
+  \item + IEC dans 24h
+  \item + éplérénone précocement (si FEVG < 40\% ou insuf cardiaque)
+\end{itemize}
+\end{enumerate}
   
 Efficacité : reperfusion dans 90min (50\%). Sd reperfusion
 
 Complications : AVC, réocclusion (surtout si ttt antiagrégant interrompu)
-
-\paragraph{Associé}
-\begin{itemize}
-  \item antalgique
-  \item antiagrégant : aspirine et inhib récepteur P2Y12 [\danger clopidogrel
-    seulement si fibronolyse]
-  \item anticoagulant : bivalirudine si ICP
-  \item $\beta$bloquant (avec prudence)
-  \item IEC dans 24h
-  \item éplérénone précocement (si FEVG < 40\% ou insuf cardiaque)
-\end{itemize}
 
 \paragraph{Tttt des complications}
 Troubles rythmes ventriculaire : amiodarone
@@ -544,13 +544,13 @@ revascularisation
 Mécanique : rupture paroi libre = mortelle, septale = suture chir, mitrale =
 remplacement valvulaire.
 
-\subsection{Suivi}
+\subsection{Suivi} BASIC (cf section~\ref{subsec:basic_prev}).
 \begin{itemize}
   \item antiagrégants plaquettaires : aspirine + clopidogrel (sauf si angor
-    stable : aspirine)
-  \item statines : si SCA/ango stable
-  \item $\beta$bloquant : si infarctus
-  \item EAC si coronarions post-infact
+    stable : aspirine)
+  \item statines : si SCA/angor stable
+  \item $\beta$-bloquant : si infarctus
+  \item IEC si coronariens post-infact
   \item épléronone : IDM étendu FEVG < 40à%
 \end{itemize}
 Éventuellement DAI
@@ -589,14 +589,14 @@ Transfert USIC
 
 \paragraph{Dissection aortique}
 \begin{itemize}
-  \item HTA, sd de Marfan, maladie de Turner
+  \item Favorisé par : HTA ancienne, sd de Marfan, maladie de Turner
   \item Douleur aigüe, prolongée, intense, déchirement, irradie dans dos, descend
     vers lombes
   \item Clinique : $\Delta$PAS > 20mmHg (bras), abolition 1 pouls, souffle
     insuffisance aortique, déficit neuro
   \item ECG : normal \lor{} SCA
   \item Radio : élargissement médiastin
-  \item \textit{Échocardio et ETO \lor{} scanner} 
+  \item \textit{Échocardio et (ETO ou scanner)} 
   \item Chir en urgence, contrôle pression artérielle
 \end{itemize}
 
@@ -607,17 +607,18 @@ normale \skull
   \item 2 tableaux
     \begin{itemize}
       \item infarctus pulmonaire : douleur basithoracique, hémoptysie noire
-      \item c\oe{}ur pulmonaire aigü : dyspnée, défaillance ventriculaire
+      \item c\oe{}ur pulmonaire aigü\footnote{Insuffisance ventricule D suite à
+          une augmentation brutale de sa post-charge} : dyspnée, défaillance ventriculaire
     \end{itemize}
   \item EC : parfois thrombose veineuse
   \item radio normale
   \item ECG : c\oe{}ur pulmonaire droit
-  \item \textit{D-Ddimère \thus doppler veineux MI, angoscan ou scinti}. HBPM sans
+  \item \textit{D-Ddimère \thus doppler veineux MI, angioscan ou scinti}. HBPM sans
     attendre !
 \end{itemize}
 
 \paragraph{Péricardite aigüe}
-Tamponnade péricardite = urgence \skull
+Tamponnade\footnote{Accumulation de liquide dans le péricarde} péricardite = urgence \skull
 \begin{itemize}
   \item douleur thoracique, dyspnée, polypnée \thus orthopnée, toux
   \item turgescence jugulaire, reflux hépatojugulaire
@@ -640,7 +641,7 @@ Péricardite non compliquée (plus bénin) :
 \paragraph{Myopéricardite}
 Douleur type péricardite mais \textbf{peut simuler SCA} .
 
-Échocarido + (coronarographie normale)
+Échocardio + (coronarographie normale)
 
 \subsection{Chroniques cardiaque}
 Angor stable
@@ -661,7 +662,7 @@ radiculaires
 \label{sec:223_arteriopathie_obliterante_aorte_mi_}
 \subsection{AOMI\footnote{Artériopathie oblitérante des membres inférieurs}}
 
-Épidémio : \male > \female. Pic = 60-75 (\male), 70-80 (female). Prévalence :
+Épidémio : \male > \female. Pic = 60-75 (\male), 70-80 (\female). Prévalence :
 1-2\%
 
 \paragraph{Clinique}
@@ -689,7 +690,7 @@ Puis au repos :
 Physique : 
 \begin{itemize}
   \item inspection : pâle, cyanosé. Interdigitaux++)
-  \item palpation : froid, douleur à palpation musc si sévère), pouls, temps recoloration cutané, anévrisme
+  \item palpation : froid, douleur à palpation musc si sévère, pouls, temps recoloration cutané, anévrisme
 abdo, poplité
   \item auscult : souffle
 \end{itemize}
@@ -698,7 +699,7 @@ cheville/bras} < 0.90, sévére si < 0.60
 
 \paragraph{Paraclinique}
 \begin{itemize}
-  \item Test de marche (6min ou tapris roulant) : -30mmHG \lor{} -20\% évoque AOMI
+  \item Test de marche (6min ou tapis roulant) : -30mmHG \lor{} -20\% évoque AOMI
   \item Transcutané de la $PO_2$ : hypoxie si < 35mmHg, critique si < 10mmHg
   \item écho-doppler artériel des MI
   \item Si revascularisation : angioscanner des MI, angiographie par RM,
@@ -714,7 +715,7 @@ cheville/bras} < 0.90, sévére si < 0.60
 \end{itemize}
 
 \paragraph{Étiologie} : atteinte athéromateuse = 95\%. Sinon : arthériopathies
-inflammatoires, dysplasie fibromusculaire, coarctaation de l'aorte, atteinte
+inflammatoires, dysplasie fibromusculaire, coarctation de l'aorte, atteinte
 post-radique ou post-trauma, toxique, gelures, compressions extrinsèques,
 atteinte de l'artère poplitée
     
@@ -728,7 +729,7 @@ prostaglandine (ischémie critique non revasc.)
 Revascularisation si ischémie permanente : endovasc. (stent) ou chir (pontage).
 Association possible. Parfois endartériectomie ou amputation
 
-\paragraph{Pronostic} : grave, esperance de vie -10 ans
+\paragraph{Pronostic} : grave, espérance de vie -10 ans
 
 \subsection{Anévrismes}
 Dilatation du \diameter{} > 50\%. Artères cérébrales, aorte, artères poplitées, iliaques
@@ -772,9 +773,9 @@ choc)
 
 \paragraph{Diagnostic} Clinique, ne pas retarder la chirurgie \danger
 
-Douleur brutale, intense, broiement, impotence fonctiennelle. 
+Douleur brutale, intense, broiement, impotence fonctionnelle. 
 
-Livie, douleur à palpation musc, pouls abolis en aval, anesthésie, paralysise
+Membred livide et froid, douleur à palpation musc, pouls abolis en aval, anesthésie, paralysie
 
 \paragraph{Étiologie} 2 tableaux (qui peuvent se mélanger) :
 \begin{itemize}
@@ -783,15 +784,15 @@ Livie, douleur à palpation musc, pouls abolis en aval, anesthésie, paralysise
 \end{itemize}
 Donc ascultation cardiaque, ECG, palpation abdo, bilan coagulation
 
-Évualuer état général, fonction cardiaque, comorbidité
+Évaluer état général, fonction cardiaque, comorbidité
 
 \paragraph{Traitement}
 Médical : HNF, antalgique niveau 3, oxygène, soins locaux.
 
-revascularisation : chirurgie (embolectomie sond Fogarty) voire fibrinolyse
+revascularisation : chirurgie (embolectomie par sonde Fogarty) voire fibrinolyse
 $\pm$ angioplastie, aponévrotomie. Amputation possible
 
-Surveiller acidose métabolique hyperK, insuf rénanel : diurèse, iono, urée,
+Surveiller acidose métabolique, hyperK, insuf rénale : diurèse, iono, urée,
 créat.
 
 
