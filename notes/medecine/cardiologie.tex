@@ -1,7 +1,25 @@
 \documentclass{article}
 \input header
 \def\arrow{$\rightarrow$}
+\hypersetup{
+  colorlinks = true,
+  linkcolor=teal
+}
 \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage[acronym, nonumberlist]{glossaries}
+
+\makeglossaries
+
+\newacronym{IEC}{IEC}{Inhibiteurs de l'enzyme de conversion}
+\newacronym{ARA II}{ARA II}{Antagonistes des récepteurs de l'angiotensine}
+\newacronym{TG}{TG}{Tryglycérides}
+\newacronym{BBG}{BBG}{Bloc de branche gauche}
+\newacronym{IVA}{IVA}{Artère intraventriculaire antérieure}
+\newacronym{BAV}{BAV}{Bloc auriculoventriculaire}
+\newacronym{IPC}{IPC}{Intervention coronaire percutanée}
+
+\glsaddall % Add all entries
+\glsunsetall % Acronyms always in short form
 
 \begin{document}
 \title{Fiches de cardiologie}
@@ -21,8 +39,8 @@ En France : incidence \male = 5$\times$\female.
 Mortalité $\searrow$ mais prévalence $\nearrow$
 
 \subsection{Mécanisme}
-Contient centre lipiqude, cellules {spumeuses,muscularise, inflammatoire} +
-chape fibreuse
+Contient centre lipidique, cellules \{spumeuses, inflammatoire\} +
+chape fibreuse + support musculaire (migration vers l'endothelium)
 
 Évolution de la plaque :
 \begin{itemize}
@@ -46,8 +64,8 @@ FDR : tabagisme, HTA, dyslipidémie, diabète
 
 \paragraph{Thérapeutiques}
 Prévention du développement de l'athérome : diminuer lésion endothéliale,
-diminuer accumulation LDL, stabiliser plaques, diminuer volume des plaques,
-diminuer l'inflammation, diminuer les contraintes mécaniques
+$\searrow$ accumulation LDL, stabiliser plaques, $\searrow$ volume des plaques,
+$\searrow$ l'inflammation, $\searrow$ les contraintes mécaniques
 
 \subsection{Polyathéromateux}
 
@@ -60,8 +78,7 @@ Thérapeutiques :
   \item arrêt tabac, diététique, activité physique
   \item aspirine en systématique (colpidogrel si intolérance)
   \item statines en prévention secondaire
-  \item IEC\footnote{Inhibiteurs de l'enzyme de conversion}, ARA
-      II\footnote{Antagonistes des récepteurs de l'angiotensine}
+  \item \gls{IEC}, \gls{ARA II}
 \end{itemize}
 
 PEC spécifique : chirurgie anévrisme ($\diameter \ge 5.5cm$), endartériectomie
@@ -75,7 +92,7 @@ Facteur de risque (FR) : causalité avec la maladie $\neq$ marqueur de risque
 (simple témoin)
 
 \subsection{FR}
-Non modifiables : 10 ans + tôt chez \male, hérédité = plutôto environnement
+Non modifiables : 10 ans + tôt chez \male, hérédité = plutôt environnement
 familial
 
 Modifiables : 
@@ -91,7 +108,7 @@ Modifiables :
 Conséquence : \dec HDL, \inc risque thrombose, altère vasomotricité artérielles,
 \inc [CO]
 
-2eme FR de l'IDM : $\propto$ consommation, $\forall$ tabac, jeunes, passif
+2eme FR de l'IDM : $\propto$ consommation, $\forall$ tabac, sujet jeune, tabagisme passif
 
 Rôle : AOMI, anévrisme aorte abdo, AVC
 
@@ -102,15 +119,23 @@ anomalie lipidique à jeun
 Majorité = alimentaire mais génétique possible (hétérozygote/homozygote)
 
 \paragraph{HTA}
-Stade 1 : [140-159]/[90-99] mmHg
-Stade 2 : [160-179]/[100-109] mmHg
-Stade 3 : > 180/110 mmHg
+Voir table~\ref{tab:hta_stades}.
+\begin{table}
+  \centering
+  \begin{tabular}{cc}
+      Stade 1 & [140-159]/[90-99] mmHg\\
+Stade 2 & [160-179]/[100-109] mmHg\\
+Stade 3 & > 180/110 mmHg
+  \end{tabular}
+  \caption{Stades d'HTA}
+  \label{tab:hta_stades}
+\end{table}
 
-Silencieuse. Impact c\oe{}ur (insuf. coronire, cardiaque), cerveau (AVC), rein (IR)
+Silencieuse. Impact c\oe{}ur (insuf. coronaire, cardiaque), cerveau (AVC), rein (IR)
 
 Augmente avec l'âge.
 
-3 mesure espaces d'1 semaine
+3 mesure espacées d'1 semaine
 
 \paragraph{Diabète}
 90\% de diabète 2 (résistance insuline). Déf :
@@ -125,7 +150,7 @@ Hérédité. Complications microvasc, macrovasc
 \paragraph{Surpoids}
 IMC $\in [25, 29.9]$ = surpoids, IMC $\ge 30$ = obésité. 
 
-Obésité centrale = (\diameter abdo $\ge 94 $cm (\male) ou $\ge 80$cm (\female))
+Obésité centrale = (\diameter{} abdo $\ge 94 $cm (\male) ou $\ge 80$cm (\female))
 \land{} 2 FR
 
 
@@ -133,7 +158,7 @@ Obésité centrale = (\diameter abdo $\ge 94 $cm (\male) ou $\ge 80$cm (\female)
 \label{subsec:fr}
 Score
 \begin{itemize}
-  \item +1 si {tabac $\le 3$ ans, LDL > 1.6g/L, HTA, diabète, HDL < 0.40g/L, âge > 50
+  \item +1 si {arrêt tabac $\le 3$ ans, LDL > 1.6g/L, HTA, diabète, HDL < 0.40g/L, âge > 50
 (\male) ou 60 (\female), ATCD coronaires}
   \item  -1 si HDL $\ge 0.60$
 \end{itemize}
@@ -157,21 +182,26 @@ conversion, Contrôle des FR
 \end{itemize}
 
 \paragraph{Primaire}
-Cholestérol : 0FR : LDL < 2.20, 1FR : LDl < 1.90, 2FR : LDl < 1.60, $\ge 3$ FR
-: LDL < 1.30 (haut risque : LDL < 1g/L)
+Voir table~\ref{tab:cholestérol}.
 
-
-
-
-
-
-
+\begin{table}
+  \centering
+  \begin{tabular}{cc}
+    0 FR & LDL < 2.20 \\
+    1 FR & LDL < 1.90\\
+    2 FR & LDL < 1.60\\
+    $\ge 3$ FR& LDL < 1.30 \\
+    haut risque & LDL < 1g/L
+  \end{tabular}
+  \caption{FR du cholestérol}
+  \label{tab:cholesterol}
+\end{table}
 \section{220 : Dyslipidémies}%
 \label{sec:220_dyslipidemies}
 
 Risques : maladies CV athéromateuses
 
-LDL = total - HDL - TG\footnote{Tryglycérides}
+LDL = total - HDL - \gls{TG}
 
 Bilan normal : \begin{itemize}
   \item LDL  < 1.6g/L
@@ -183,7 +213,7 @@ Bilan normal : \begin{itemize}
 diabète, hyperlipidémie iatrogènee, oestrogènes, corticoïdes, rétinoïdes,
 antirétroviraux, ciclosporine, diurétiques
 
-\paragraph{Hyperlipidémies primitives}
+\paragraph{Hyperlipidémies primitives}\mbox{}\\
 \textit{Fréquentes}  : hypercholestérolémie familiale monogénique (HCFM) (mutation LDL récepteur
 hétérozygote), hypercholestérolémie polygénique, hyperlipidémie familiale
 combinée
@@ -192,7 +222,7 @@ combinée
 dysbêtalipoprotéinémie, hypertriglycéridémie familiale, hypechylomicronémie
 primitives
 
-\paragraph{Risque} faible (0 FR), intermédiarie ($\ge 1$ FR), haut (ATCD)
+\paragraph{Risque} faible (0 FR), intermédiaire ($\ge 1$ FR), haut (ATCD)
 
 FR semblables au~\hyperref[subsec:fr]{score précédent} : tabac $\le 3$ ans, HTA, diabète, HDL < 0.40g/L, âge > 50
 (\male) ou 60 (\female), ATCD familiaux IDM ou mort subite
@@ -233,15 +263,15 @@ Angor stable à l'effort : lésions fibro-athéromateuses
 Ici : pas de thrombus
 
 Inadéquation besoin/apport $O_2$ : 95\% sténoses athéromateuses coronariennes
-serrées (parfois : spasme coronaire, \inc besoins, "à coronires saines")
+serrées (parfois : spasme coronaire, \inc besoins, "à coronaires saines")
 
-Mécanisme d'adaptation d'apport en $O_2$ du myocorde = vasodilatation (surtout par
-sécrétion monoxyde d'azode par l'endothélium)
+Donc le myocarde s'adapte en vasodilatant (pour apport $O_2$)\footnote{Surtout par
+sécrétion monoxyde d'azode par l'endothélium}
 
-Cascade ischémique : \dec perfusion myocarde [scinti] \thus altération
+Donc cascade ischémique : \dec perfusion myocarde [scinti] \thus altération
 contractilité [écho stress] \thus signes ECG \thus douleur (pas toujours)
 
-Athérome : risque = fracture de plaque \thus (thrombose) mort subit/IDM, angor
+Athérome : risque = fracture de plaque \thus (thrombose) mort subite/IDM, angor
 instable
 
 \paragraph{Diagnostic}
@@ -249,7 +279,7 @@ Douleur angineuse\footnote{Classes de 1 à 4}
 \begin{itemize}
   \item typique : rétrosternal en barre horizontale, irradiant (épaules,
     avant-bras, poignet, machoîres), constrictive, angoissante, \textbf{à
-    l'effort}, sensible à trinitrine
+    l'effort}, \underline{sensible à trinitrine}
   \item atypique ou silencieuse possible
 \end{itemize}
 Exaen clinique souvent négatif mais chercher souffle aortique, souffle vasc, HTA
@@ -262,19 +292,18 @@ Exaen clinique souvent négatif mais chercher souffle aortique, souffle vasc, HT
     sous-decalage ST
   \item Tomoscintigraphie myocardique de perfusion d'effort ou injection
     vasodilatateur (dipyridamole) : segment normal/ischémie/nécrotique.
-    \textit{Lorsque VP ECG insuffisante}. Coûteux. Éviter si BBG\footnote{Bloc
-    de branche gauche}
+    \textit{Lorsque VP ECG insuffisante}. Coûteux. Éviter si \gls{BBG}
   \item Échocardiographie d'effort ou dobutamine. \textit{Mêmes indication que
     scinti} 
-  \item IRM stresse : rare
-  \item Coronarographie (parfois + venticulalographie) : sténose si > 70\%
-    lumière. Invasif, complications rare. \textit{Angor suspecté et examen
+  \item IRM de stress : rare
+  \item Coronarographie (parfois + ventriculographie) : sténose si > 70\%
+    lumière. Invasif, complications rare. \textit{Si angor suspecté et examen
     d'ischémie positif}\footnote{Examens complémentaires : test Méthergin pour
       forcer un spasme, FFR (fraction flow reserve) pour vérifier sténose}
   \item Scanner coronaire : non recommandé
 \end{itemize}
 
-\danger CI des épreuves de stresse : angor instable, troubles rythme ventriculaire
+\danger CI des épreuves de stress : angor instable, troubles rythme ventriculaire
 graves, fibrillation auriculaire rapide, HTA repos > 220/120mmHg
 
 \paragraph{Mauvais pronostic} : 
@@ -283,34 +312,27 @@ graves, fibrillation auriculaire rapide, HTA repos > 220/120mmHg
   \item ischémie pour charge/fréquence cardiaque faible, baisse PA à l'effort
   \item plusieurs segments ischémique, fraction d'éjection <
     40\%\footnote{Normale si > 55\%}
-  \item lésions pluritronculaire, tronc coronaire g, IVA proximale
+  \item lésions pluritronculaires, tronc coronaire G, \gls{IVA} proximale
 \end{itemize}
 
-\paragraph{Traitements}
-Crise : arrêt effort, dérivés nitrés.
-
-Correction FR (tabac, hypolipides, activisé physique, HTA, diabètes, statine,
+\paragraph{PEC}
+\begin{enumerate}
+\item Crise : arrêt effort, dérivés nitrés.
+\item Correction FR (tabac, hypolipides, activité physique, HTA, diabètes, statine,
 IEC)
-
-Anti-ischémique (traitement de fond) en première intention : $\beta$bloquant
-(anticalcique/ivbradine si intolérance) $\pm$ {dérivés nitrés, molsidomine,
+\item aspirine\footnote{Anti-agrégant plaquettaire} 75mg/j (ou
+  clopidogrel\footnote{Idem mais inhibiteur des récepteurs P2Y12} 75mg) +
+  $\beta$-bloquant (anticalcique/ivabradine si intolérance) $\pm$ {dérivés nitrés, molsidomine,
 nicorandil}
+\item Revascularisation si échec médicament ou pour améliorer le pronostic vital
+  : \gls{IPC} (stent) ou pontage coronaire
+\end{enumerate}
 
-Antiagrégants plaquettaires :
-\begin{itemize}
-  \item aspirine (sauf CI) 75mg/j
-  \item clopidogrel sinon 75mg
-\end{itemize}
-Revascularisation si échec médicament ou pour améliorer le pronostic vital
-\begin{itemize}
-  \item intervention coronaire percutanée (IPC) : stent
-  \item pontage coronaire
-\end{itemize}
-
-\paragraph{Angor de Prinzmetal} Vaspastique = douleur sensible trinitrine et
+\paragraph{Angor de Prinzmetal} Vasospastique = douleur sensible à la trinitrine
+et, soit:
 \begin{itemize}
   \item au repos, 2eme partie de nuit, récupération = angor de Prinzmetal
-  \item sur un effort = surimposé à une sténose
+  \item sur un effort = angor surimposé à une sténose
 \end{itemize}
 Diagnostic : coronarographie \thus test provocation spasme (pendant coronaro)
 
@@ -322,13 +344,33 @@ Bon pronostic si traité
 = \{angor instable, IDM sans sus-décalage ST persistant \}. Ici thrombus non
 occlusif
 
-\subsection{IDM}
-Ici thrombus occlusif après réaction thrombotique
+\begin{figure}[htpb]
+  \centering
+  \resizebox{0.6\linewidth}{!}{
+    \tikz \graph [
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    sibling distance=3cm,
+    layer distance=2cm,
+    edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      "SCA sans sus-décalage ST" ->{
+        Angor instable [>"tropo=0"];
+        "IDM ST-"[>"tropo +"];
+      };
+      "SCA avec sus-décalage ST" -> "IDM ST+"[>"tropo +"];
+    };
+  }
+  \caption{Classification des SCA (hor}
+\end{figure}
 
 \paragraph{Diagnostic}
 Même douleur que l'angor stable mais 
 \begin{itemize}
-  \item spontané > 20min, régressant spontanément ou à trinitrine
+  \item \textbf{spontané > 20min}, régressant spontanément ou non à trinitrine
   \item angor d'effort récent (2-3)
   \item aggravation d'un angor stable
   \item IDM + 1mois
@@ -339,35 +381,48 @@ ECG en urgence \skull puis +6h
 \begin{itemize}
   \item percritique : sous-décalage ST (rarement sus), (grandes T négatives \lor{}
     repositivation T). Si normal, diagnostic peu probable
-  \item post-critique (être très prudent !) : sous-déclage ST, T négative
+  \item post-critique (être très prudent !) : sous-décalage ST, T négative
     profonde
 \end{itemize}
-Doser troponine ssi suspicion !
 
-Échocardiographie pour DD
+\paragraph{PEC}
+\begin{enumerate}
+\item USIC en urgence ! Avec ECG, dosage troponine, créatinine, glycémie, NFS
+  \begin{itemize}
+  \item aspirine
+  \item +
+    $\begin{cases}
+      \text{clopidogrel + fondaparinux si bas risque}\footnotemark\\
+      \addtocounter{footnote}{-1}
+\text{ticagrelor/prasugrel + HNF/HBPM (+ anti-GPIIb/IIIa) si haut risque}\footnotemark
 
-Coronarographie suivant le risque :
+\end{cases}$
+\footnotetext{Anti-agrégant plaquettaire et anticoagulant respectivement}
+  \item + $\beta$-bloquant + statine $\pm$ dérivé nitré $\pm$ inhibiteur
+    calcique\footnote{Anti-ischémiques}
+  \end{itemize}
+\item si (risque élevé et Grace > 140) ou (risque faible mais élevé à +6/12h) :
+  poursuite médic + coronarographie + angioplastie
+\item sinon, tests non invasifs
+\end{enumerate}
+
+Notes :
+\begin{itemize}
+\item Doser troponine ssi suspicion !
+\item Échocardiographie pour DD
+\item Coronarographie suivant le risque :
 \begin{itemize}
   \item très haut risque : en urgence !
   \item haut risque : < 24h (score GRACE > 140) ou < 72 (GRACE $\in [109, 140]$)
   item bas risque (GRACE < 109)  à discuter 
 \end{itemize}
-
-\paragraph{Traitement}
-USIC : suivi ECG; dosage troponine, crétaninie, glycémie, NFS
-
-Aspirine, inhibiteurs de la pompe à protons, anti ischémique et :
-\begin{itemize}
-  \item bas risque : inhib P2Y12 (clopidogrel) et anticoag (fondaparinux)
-  \item (très) haut risque : inhib P2Y12 (ticagrelor/prasugrel) et anticoag
-    (énoxaparine/héparine) (+ anti-GPIIb/IIIa suivant)
 \end{itemize}
 
 \subsection{IDM}
 
 Ici, obstruction par thrombus
 
-5 catégories : 1 à 5. Type 1 = 
+5 catégories : 1 à 5. Type 1 (spontané) =
 \begin{itemize}
   \item sus-ST : désobstruer ASAP
   \item sans sus-ST : prévenir
@@ -378,8 +433,8 @@ Physiopatho : accident vasculaire coronaire athérothrombotique occlusif ou
 occlusion coronaire aigüe (segmente : nécrose totale à 12h, akinésie)
 
 \paragraph{Diagnostic}
-Douleur précordiale : angineuse au repos > 30min, trinitrorésistante (peut
-manquer !)
+Douleur précordiale : angineuse \textbf{au repos > 30min},
+\underline{trinitrorésistante} (la douleur peut manquer !)
 
 Examen clinique normal
 
@@ -390,7 +445,7 @@ Parfois en miroir
 \fbox{(Douleur thoracique > 30min) \land{} ECG = IDM ST} 
 
 \paragraph{Évolution}
-Sd de reperfusion : \dec douleur, négativation ondes T, T = 38
+Sd de reperfusion : \dec douleur, négativation ondes T, T = $38^{\circ}$
 à +6h
 
 Onde Q de nécrose (diagnostic a posteriori)
@@ -402,7 +457,7 @@ CPK-MB si récidive
 Douleur thoracique : péricardite aigüe, EP, dissection aortique, sous-diaphragme (cholécystite aigüe,
 ulcère perforé, pancréatite aigüe).
 
-Simule IDM : Penser à mycocardite aigüe (IRM), cardiomypoathie de stresse
+Simule IDM : Penser à mycocardite aigüe (IRM), cardiomypoathie de stress
 (coronarographie)
 
 \paragraph{Complications précoces}
@@ -411,7 +466,7 @@ Rythme/conduction :
   \item rythme ventriculaire : extrasystole < tachycardie < fibrillation
     ventriculaire (FV = plupart des morts subites ! Besoin d'un choc électrique)
   \item supra-ventriculaire : décompensation hémodynamique, accidents emboliques
-  \item BAV\footnote{Bloc auricolventriulaire} (transitoire/définitif) ou
+  \item \gls{BAV} (transitoire/définitif) ou
     hypervagotonie\footnote{Bradycardie, hypotension} (Ttt : atropine, remplissage
     macromoléculaire)
 \end{itemize}
@@ -435,7 +490,7 @@ Mécaniques :
 Thrombotique : thrombus intra-VG, embolies systémique : échocardio. (Thrombose
 veineuse, EP)
 
-Péricardituqe : sd inflammatoire, souvent asymptomatique.
+Péricardite : sd inflammatoire, souvent asymptomatique.
 
 Récidive ischémique \thus récidive IDM. Épreuve d'effort à  +5 jours.
 
@@ -451,9 +506,11 @@ implantable (DAI)
 \subsection{Traitement}
 Reperfusion !!
 \begin{itemize}
-  \item ICP si < 120min. Aspirine, inhib récepteurs P2Y12, anticoagulant
-  \item sinon fibrinolyse VI par TNK-tPA
-\end{itemize}
+  \item ICP si < 120min, précédée d'\{aspirine, inhib récepteurs P2Y12, anticoagulant\}
+  \item sinon fibrinolyse IV par TNK-tPA
+  \end{itemize}
+  \textit{Antiagrégants et anticoagulant pendant transport !}
+  
 Efficacité : reperfusion dans 90min (50\%). Sd reperfusion
 
 Complications : AVC, réocclusion (surtout si ttt antiagrégant interrompu)
@@ -466,16 +523,17 @@ Complications : AVC, réocclusion (surtout si ttt antiagrégant interrompu)
   \item anticoagulant : bivalirudine si ICP
   \item $\beta$bloquant (avec prudence)
   \item IEC dans 24h
-  \item Éplérénone précocement
+  \item éplérénone précocement (si FEVG < 40\% ou insuf cardiaque)
 \end{itemize}
 
-\paragraph{Des complications}
+\paragraph{Tttt des complications}
 Troubles rythmes ventriculaire : amiodarone
 
 Troubles rythmes supra-ventriculaire : AVK si mal toléré (hémodynamique)
 
-BAV transitoire : atropine. BAV après IDm antérieur : sonde d'entraînement
-électrosystoliques.
+BAV transitoire : atropine.
+
+BAV après IDM antérieur : sonde d'entraînement électrosystoliques.
 
 Insuf ventriculaire G : diurétique, IEC, épléronone
 
@@ -483,7 +541,7 @@ Choc cardiogénique : lutter contre {hypovolémie, troubles rythme}, sidération
 (dobutamine). Assistance circulatoire/cardiaque/cardiocirculation,
 revascularisation
 
-Mécanique : rupture paroi libre = mortelle, Septable = suture chir. mitrale =
+Mécanique : rupture paroi libre = mortelle, septale = suture chir, mitrale =
 remplacement valvulaire.
 
 \subsection{Suivi}
@@ -2776,10 +2834,12 @@ Hémorragiques :
 \end{itemize}
 
 
-
-
-
-
-
+\printglossary
+\printglossary[type=\acronymtype]
 
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
