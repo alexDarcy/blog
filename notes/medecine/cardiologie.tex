@@ -6,6 +6,7 @@
   linkcolor=teal
 }
 \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{enumitem}
 \usepackage[acronym, nonumberlist]{glossaries}
 
 \makeglossaries
@@ -20,6 +21,12 @@
 \newacronym{OCA}{OCA}{Occlusion coronaire aigüe}
 \newacronym{FIV}{FIV}{Fibrinolyse intra-veineuse}
 \newacronym{DAI}{DAI}{Défibrillateur automatique implantable}
+\newacronym{TAVI}{TAVI}{Transcatheter Aortic Valve Implantation}
+\newacronym{VG}{VG}{Ventricule gauche}
+\newacronym{OG}{OG}{Oreillette gauche}
+\newacronym{EI}{EI}{Endocardite infectieuse}
+\newacronym{PA}{PA}{Pression artérielle}
+\newacronym{HVG}{HVG}{Hypertrophie ventriculaire gauche}
 
 \glsaddall % Add all entries
 \glsunsetall % Acronyms always in short form
@@ -795,14 +802,6 @@ $\pm$ angioplastie, aponévrotomie. Amputation possible
 Surveiller acidose métabolique, hyperK, insuf rénale : diurèse, iono, urée,
 créat.
 
-
-
-
-
-
-
-
-
 \section{231 : Rétrécissement aortique}%
 \label{sec:231_retrecissement_aortique}
 Obstruction à l'éjection du VG\footnote{Ventricule gauche}, ici au niveau de la
@@ -814,15 +813,16 @@ valve aortique
   \item dégénératif après (rarement post-rhumatismal)
 \end{itemize}
 
-Physiopatho: \inc pression \thus hypertrophie pariétale. Compense un temps
-l'élévation de pression puis dysfonction systolique. Dysfonction diastolique
+Physiopatho: \inc pression \thus hypertrophie pariétale (compense un temps
+l'élévation de pression) \thus dysfonction systolique \thus dysfonction
+diastolique (altération compliance)
 
 \paragraph{Complication}
 Insuf cardiaque, fibrillation auriculaire, troubles conduction, mort subite++
 
 \subsection{Clinique}
 
-Pronostic vital mis en jeu si symptomes ! \skull
+Pronostic vital mis en jeu si symptômes ! \skull
 
 Dyspnée d'effort, angor d'effort, syncope (d'effort ?), (hémorragie digestive)
 
@@ -831,50 +831,50 @@ Examen :
   \item auscultation : \{souffle mésosystolique éjectionnel, rude, râpeux\},
     abolition B2 si calcifié
   \item frémissement palpatoire (foyer aortique), (choc de point dévié en bas à
-    gauche 
+    gauche) 
 \end{itemize}
 
 \subsection{Explorations}
-Radio thorax : éventullement dilatation VG, surcharge pulmonaire
+Radio thorax : dilatation VG ?, surcharge pulmonaire
 
-ECG : souvent hypertrophie VG, auriculaire G, troubles conduction/rythme
+ECG : souvent hypertrophie VG et auriculaire G, troubles conduction/rythme
 
 Cathétérisme : pas habituellement mais coronarographie pour pré-op si \male > 40 ans, FR, angor d'effort ou insuf
 cardiaque
 
-Scanner cardiaque : pré-op si TAVI (cf supra)
+Scanner cardiaque : pré-op si \gls{TAVI}
 
 \paragraph{Échocardiographie-doppler transthoracique} : examen clé. Critères
 \begin{itemize}
   \item V max > 4m/s
   \item gradient moyen > 40 mmHg
-  \item surface aoritque < 1 $\text{cm}^2$
+  \item surface aortique < 1 $\text{cm}^2$
 \end{itemize}
 Évalue conséquences sur VG, débit cardiaque, pressions droites
 
-Examiner taille aort, valve mitrale, tricuspide
+Examiner taille aorte, valve mitrale, tricuspide
 
 \subsection{Traitement}
 \begin{itemize}
   \item valve chirurgical : mécanique si jeune mais AVK à vie, sinon prothèse bio (> 65
     ans)
   \item valvulopathie percutanée abandonnée
-  \item implantation percutanée d'une valve aortique (TVAI)
+  \item implantation percutanée d'une valve aortique (TAVI)
 \end{itemize}
-Si symptomatique. Sinon test d'effort.
+Si symptomatique, opérer. Sinon (et FEVG normale), test d'effort.
 
-NB : si FE < 35\=, échocardio de stress sous dobutamine pour risque opératoire
+NB : si FE < 35\%, échocardio de stress sous dobutamine pour risque opératoire
 
 
 \section{231 : Insuffisance mitrale}%
 \label{sec:231_insuffisance_mitrale}
-Reflux de sang depuis le VG\footnote{Ventricule gauche} vers l'OG\footnote{Oreillette gauche} pendant la systole.
+Reflux de sang depuis le VG vers l'OG pendant la systole.
 
 Classif de Carpentier
-\begin{enumerate}
-  \item valves restent dans le plan de l'anneau (perforations)
-  \item au moins une valve hors du plan de l'anneau (prolapsus)
-  \item au moins une valve sous le plan de l'anneau
+\begin{enumerate}[label=\Roman*]
+  \item Valves restent dans le plan de l'anneau (perforations)
+  \item Au moins une valve au-dessus du plan de l'anneau (prolapsus)
+  \item Au moins une valve sous le plan de l'anneau
 \end{enumerate}
 
 \paragraph{Étiologies}
@@ -890,26 +890,27 @@ Classif de Carpentier
     et atteinte systolique
 \end{itemize}
 
-Causes des insuf. mitrales aigües : rupture de portage ou de pliier, dysfonction
+Causes des insuf. mitrales aigües : rupture de cordage ou de pilier, dysfonction
 de pilier ischémique, perforation par endocardite.
 
 Tableau hémodynamique \thus urgence vitale \danger 
 
-Conséquences Hémodynamiques : altération contractilité VG (aval), HTAP pouvaint
+Conséquences hémodynamiques : altération contractilité VG (aval), HTAP pouvant
 être importante si aigü (amont)
+
 
 \subsection{Diagnostic}
 \danger{} peut être asymptomatique
 
-Dyspnée : d'effort (lente et prgoressif), de repos, orthopnée, paroxystique
+Dyspnée : d'effort (lente et progressif), de repos, orthopnée, paroxystique
 nocturne, OAP
 
 Examen : 
 \begin{itemize}
-  \item palpation : frémissement systolique apex, (déviation et abissement choc
+  \item palpation : frémissement systolique apex, (déviation et abaissement choc
     de pointe)
   \item auscultation : souffle systolique de régurgitation, en "jet de vapeur",
-    souffle holosystaque de B1 à post-B2, irradie vers l'aisselle ou la base
+    souffle holosystolique de B1 à post-B2, irradie vers l'aisselle ou la base
   \item (autres : galop B3, roulement mésodiastolique, éclat B2, souffle
     d'insuf. tricuspide)
   \item poumon : râles de stase
@@ -920,11 +921,11 @@ Para clinique
   \item ECG longtemps normal. hypertrophie OG, VG, VD, fibrillation atriale, 
   \item Radio thorax : normale si $\le$ modérée. cardiomégalie, dilatation OG,
     HTAP
-  \item \textit{ETT et ETO} : référence. Sévérité côté par SOR\footnote{surface
-    de l'orifice régurgitant}, VR\footnote{Volume régurgité} (Vérifier la
+  \item \textit{ETT et ETO} : référence. Sévérité côtée en 4 grades\footnote{Selon
+      la Surface de l'orifice régurgitant, Volume régurgité} (Vérifier la
     tricuspide)
   \item Cathétérisme : coronarographie seulement en pré-op si \male > 40 ans ou
-    \female monopausée avec FR
+    \female{} monopausée avec FR
   \item Épreuve d'effort, échocardio d'effort
 \end{itemize}
 
@@ -963,7 +964,6 @@ Médical :
     atriale)
 \end{itemize}
 
-
 \section{231 : Insuffisance aortique}%
 \label{sec:231_insuffisance_aortique}
 Régurgitation de sang vers VG en diastole.
@@ -972,10 +972,9 @@ Régurgitation de sang vers VG en diastole.
 \begin{itemize}
   \item Chronique
 surcharge volume et pression. Aorte : \inc
-PA\footnote{Pression artérielle}
-systolique, \dec PA diastoliques
-Hypertrophie compense (parfois pendant des années !!) puis fibrèse
-\item Aigüe : surtout EI\footnote{Endocardite infectieuse}, surcharge brutale,
+PA systolique, \dec PA diastoliques. 
+Hypertrophie compense (parfois pendant des années !!) puis fibrose
+\item Aigüe : surtout \gls{EI}, surcharge brutale,
   \inc pression puis oedème pulmonaire
 \end{itemize}
 
@@ -1002,14 +1001,13 @@ Physique :
 \begin{itemize}
   \item ascult : souffle diastolique++, "doux, lointain, humé, aspiratif",
     souffle systolique éjectionnel d'accompagnement, roulement de Flint
-    apexin/galop
+    apexien/galop
   \item palpation : choc de pointe étalé, en bas à gauche
   \item hyperpulsatilité artérielle périphérique (pouls++), \dec PA
     diastolique++
 \end{itemize}
 
-ECG : normal ou HVG\footnote{Hypertrophie ventriculaire gauche} diastolique, (ou
-HVG systolique)
+ECG : normal ou \gls{HVG} diastolique, (ou HVG systolique)
 
 Radio : \inc index cardiothoracique si volumineuse chronique
 
@@ -1031,6 +1029,7 @@ IRM/scanner : dimension aorte, surveillance
 \danger, opération même si asympto. \danger dystrophique, bicuspidies
   \item Aigu : OAP, mort subite \thus chir précoce
 \end{itemize}
+
 Complications : EI ++, insuf cardiaque (tardive), rupture aortique, (mort subite)
    
 \paragraph{Surveillance} 
@@ -1057,7 +1056,7 @@ Quand faire la chir ?
   \item chronique volumineuse
     \begin{itemize}
       \item  symptomatique : urgent \danger
-      \item asymptomatique : FEVG < 50\%, dilatation aorte $\ge 55$mm, diamètre
+      \item asymptomatique : si FEVG < 50\%, dilatation aorte $\ge 55$mm, diamètre
         VG télédiastolique > 70mm, télésystolique > 50mm
     \end{itemize}
   \item dystrophique et dilatation aorte asc : dès $\ge 55$mm
@@ -1070,7 +1069,8 @@ Quand faire la chir ?
 \begin{itemize}
   \item Prothèses mécaniques : double ailette, à vie, anticoagulant à vie
     (risque thrombose)
-  \item Biologiques : pas d'anticoagulant, 40\% à 15 ans.
+  \item Biologiques : pas d'anticoagulant, chez > 65 ans (aortique) ou > 70
+    (mitrale) [faible durée de vie\footnote{40\% durent 15 ans}].
 \end{itemize}
 Risque majeur d'EI $\forall$ prothèse !
 
@@ -1081,8 +1081,8 @@ Risque majeur d'EI $\forall$ prothèse !
     \begin{itemize}
       \item Embolie systémiques : souvent cérébrales
       \item Thromboses de prothèse mécanique : accidents brutaux (OAP, syncope,
-        choc, mort subite). Diagnostic difficile : appartition d'un
-        souffle/roulement. \textit{ETT, ETO} \\
+        choc, mort subite). Diagnostic difficile : apparition d'un
+        souffle/roulement. Diagnostic : \textit{ETT, ETO} \\
         Chir d'urgence possible
         \danger DD avec EI parfois difficile
     \end{itemize}
@@ -1097,8 +1097,8 @@ Risque majeur d'EI $\forall$ prothèse !
         Prévention/traitement de tout foyer infectieux (ORL, dentaire)\\
         Hémocultures systémiques devant fièvre inexpliquée
     \end{itemize}
-  \item Traitement anticoagulant : 1.2\% patiens-années risque hémorragique
-  \item Dégéneresce bioprothèses
+  \item Traitement anticoagulant : risque hémorragique 1.2\% patients-années
+  \item Dégénérescence bioprothèses
 \end{itemize}
 
 \subsection{Surveillance}
@@ -1132,12 +1132,12 @@ staphylocoques
 Bactéries adhèrent sur une lésion préexistante \thus
 \begin{itemize}
   \item insuffisance valvulaire, souffle, risque de défaillance cardiaque
-  \item végétations \thus embolies septiques, lésions de vasculairet, anévrisme
+  \item végétations \thus embolies septiques, lésions de vascularite, anévrisme
     "mycotique"
 \end{itemize}
 
-Cardiopathies à haut risque : prothèses valvilaire, cardiopathies congénitale
-cyanogiène, ATCD EI
+Cardiopathies à haut risque : prothèses valvulaires, cardiopathies congénitales
+cyanogènes, ATCD EI
 
 50\% des EI sur c\oe{}ur présumé sain !
 
@@ -1149,19 +1149,20 @@ Hémocultures positives (90\%)
 Hémocultures négatives :
 \begin{itemize}
    \item ATB
-   \item croissante lente : HACEK, Brucella, champignons
+   \item croissante lente : HACEK\footnote{Haemophilus, Actinobacillus,
+       Cardiobacterium, Capnocytophaga, Eikenella, Kingella}, Brucella, champignons
    \item intra-cellulaire : \bact{burnetii}, Chlamydia, Bartonella,
      \bact{whipplei}
 \end{itemize}
 
 \subsection{Clinique}
 \danger Manif trompeuses. Y penser si souffle cardiaque et fébrile, AVC,
-purpura, lombalgies féribles
+purpura, lombalgies fébriles
 
 \begin{itemize}
   \item Sd infectieux : fièvre, AEG, splénomégalie
   \item Apparition/modif souffle, insuf cardiaque
-  \item cutané (nodosité d'Osler !), respi, ophtalmo, rhumato(freq), neuro,
+  \item cutané (nodosité d'Osler !), respi, ophtalmo, rhumato (freq), neuro,
     rénale
 \end{itemize}
 
@@ -1174,23 +1175,24 @@ Classif de Duke : 2 majeurs ou (1 majeur et 3 mineurs) ou (5 mineurs)
 \begin{itemize}
   \item majeurs
     \begin{itemize}
-      \item Hémocultures : micro-org typique, HC $\ge 2$ \lor{} positive > 12h
-        \lor{} positive à \bact{burnetii}
-      \item Échocardio avec végétation, abcès, désinsertion prothétique \lor{} nouveau souffle de régurgitation valvulaire
+      \item Hémocultures : (micro-org typique d'une EI sur $\ge 2$ HC) ou (HC
+        positives sur > 12h) ou (une HC positive à \bact{burnetii})
+      \item (Échocardio avec végétation, abcès, désinsertion prothétique) ou (nouveau souffle de régurgitation valvulaire)
     \end{itemize}
   \item mineurs
     \begin{itemize}
       \item cardiopathie à risque/toxicomanie
       \item $\ge 38^{\circ}$
-      \item comilcation vasc
-      \item immunologique
+      \item complication vasc\footnote{Cérébrale, EP septique, anévrisme mycotique...}
+      \item immunologique\footnote{Glomérulonéphrite, faux panaris d'Osler,
+          taches de Roth...}
       \item hémoc/séro positive
     \end{itemize}
 \end{itemize}
 
 \paragraph{Évolution}
-Complications : insuf cardiaque (num. 1 DC), neuro (num 2), embolies (septiques,
-cérébrales, splénique, rénales, coronaires), infarctus spnélique, arythmies et
+Complications : insuf cardiaque (1ere cause DC), neuro (2eme cause DC), embolies (septiques,
+cérébrales, splénique, rénales, coronaires), infarctus splénique, arythmies et
 troubles de conduction
 
 Penser à scanner cérébral et abdo-pelvien !
@@ -1199,7 +1201,7 @@ Pronostic :
 \begin{itemize}
   \item sur aortique : chir
   \item staph ou prothèse : mortalité++
-  \item pneumocoque, bacciles Gram négatif : destruction valvulaire graves
+  \item pneumocoque, bacilles Gram négatif : destruction valvulaire graves
   \item levure : grosse végétations
 \end{itemize}
 
@@ -1214,10 +1216,10 @@ Fonction rénale pour aminosides et vancomycine !
   \item entérocoques : idem
   \item staph : si sensible : cloxacilline (+gentamicine + rifampicine si sur
     prothèse). Sinon vancomycine (+gentamicine + rifampicine)
-  \item hémoc négative : en attendant amox + acide clavilanique + gentamicine
+  \item hémoc négative :  amox + acide clavilanique + gentamicine en attendant
 \end{itemize}
 
-Chirurgie : valvie native si possible. Intervention si insuf cardiaque ou sd
+Chirurgie : valve native si possible. Intervention si insuf cardiaque ou sd
 infectieux non contrôlé
 
 \paragraph{Prévention}
