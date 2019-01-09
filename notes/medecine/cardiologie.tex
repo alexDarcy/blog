@@ -2178,7 +2178,7 @@ Score de probablitié clinique : Wells (faible/interm/forte)
           (+HBPM si proba clinique\\$\ge$ intermediaire)" [>"non"];
       };
       ddimere -> {                                                                   
-        contention [>"$> 500\mu$g/L"] -> "écho-doppler veineux" -> {                 
+        contention [>"$> 500\mu$g/L"] -> "écho-doppler veineux\footnotemark" -> {                 
           "Anticoag\\contention" [>"positif"];                                      
           "Surveillance\\$\pm$ anticoag, contention" [>"négatif\\forte suspicion"]; 
           dd/"Chercher DD" [>"négatif"];                                                          
@@ -2190,22 +2190,24 @@ Score de probablitié clinique : Wells (faible/interm/forte)
   \caption{Diagnostic TVP}
 \end{figure}
 
-NB : TVP va recherche le thrombus, l'incompressibilité de la veine à la
-pression, \dec signal, remplissage partiel du throbus.
+\footnotetext{Signes : thrombus, incompressibilité de la veine à la
+pression, \dec signal, remplissage partiel du throbus.}
 
 \paragraph{Étiologies}
 \begin{itemize}
   \item FR transitoire (chir, fracture < 3 mois, immobilisation > 3 j) ? Sinon, "non
-provoquée
-\item Recherche de thrombophilie si (1er épisode (non provoqué < 60 ans) ou
-  femme âge procrééer)) ou (récidive (MTEV proximale) \lor (TVP distale non
-  provoquée)
-\item Recherche cancer : > 40 ans ou bilan thrombophilie négatif
+provoquée"
+\item Recherche de thrombophilie si
+  \begin{itemize}
+  \item 1er épisode :  (non provoqué < 60 ans) ou (femme âge procrééer)
+  \item ou récidive : (MTEV proximale) ou (TVP distale non provoquée)
+  \end{itemize}
+\item Recherche cancer : > 40 ans ou bilan thrombophilie négatif
 \end{itemize}
 
 Formes particulières :
 \begin{itemize}
-  \item thromboses veineuse superficielles :x(sur trajet saphène, douloureux,
+  \item thromboses veineuse superficielles : (sur trajet saphène, douloureux,
     rouge, inflammatoire, cordon induré \thus écho-doppler
   \item TVP pelvienne
   \item thrombose veine cave inférieure
@@ -2216,7 +2218,7 @@ Si grossesse : bilan thrombophilie si ATCD familaux/personnels MTEV
 
 Si cancer : HBPM long cours
 
-\paragraph{Évolution} : favorablement si bien conduit mais récidive toujours
+\paragraph{Évolution} : favorable si bien conduit mais récidive toujours
 possible. Complications : 
 \begin{itemize}
   \item SPT : lourdeur de jambes, oedeme de cheville, dilat veineuses
@@ -2226,29 +2228,55 @@ possible. Complications : 
 
 \subsection{Embolie pulmonaires}
 
-\paragraph{Clinique} pas spécifique : dypsnée, douleur thoracique, syncope,
+\paragraph{Clinique} pas spécifique : dyspnée, douleur thoracique, syncope,
 crachats hémoptoïques, asymptomatique
 
-Radiothorax : aspécfique. 
+Radiothorax : aspécifique. 
 
-Gaz du sang : hypoxie-hypocapni
+Gaz du sang : hypoxie-hypocapnie
 
 ECG : normale /tachy sinusale / souffrance VD
 
 \thus score probablitié (Genève, Wells)
 
-\begin{algorithm}
-  \caption{EP supectée à haut risque}
-  Si scanner non disponible, ETT\;
-  Si positif et scanner disponible, goto 3. Si positif et scanner indisponible,
-  traitement. Si négatif : \faHandStopO\;
-  Si scanner positif : traitement spécifique. Sinon \faHandStopO\;
-\end{algorithm}
+\paragraph{PEC} voir fig.~\ref{fig:pec_ep_risque}, \ref{pec_ep}.
+\begin{figure}[htpb]                    
+  \centering                              
+  \resizebox{0.6\linewidth}{!}{            
+    \tikz \graph [
+      edge quotes mid,
+      % Needed for multi-lines              
+      nodes={align=center},                 
+      sibling distance=3cm,                 
+      layer distance=2cm,                   
+      edges={nodes={fill=white}},
+      component order=by first specified node, % important here
+      tree layout]                       
+    {                                     
+      "scanner disponible immédiat.?" -> {
+        ETT [>"non"] -> {
+          "Cherche autre"[>"non"];
+          "scanner dispo ?" [>"oui", sibling distance=5cm] -> {
+            scanner [>"oui"] -> {
+              ttt/"thrombolyse\\embolectomie" [>"positif"];
+              autre [>"négatif"];
+            };
+            ttt [>"non"];
+          };
+        };
+        scanner;
+      };
+    };
+  }
+  \caption{PEC : EP supectée à haut risque}
+  \label{fig:pec_ep_risque}  
+\end{figure}                            
 
 \begin{algorithm}
   Proba clinique faible/intermédiaire : D-Dimère. Si positif, goto 2\;
   Si scanner ou écho MI positif, traitement\;
   \caption{EP supectée non haut risque}
+  \label{fig:pec_ep}
 \end{algorithm}
 
 NB : 
@@ -2261,7 +2289,7 @@ diagnostic.
 
 \textit{DD} :
 \begin{itemize}
-  \item douleur thoracique : IDM, péricardiite, dissection aortique,
+  \item douleur thoracique : IDM, péricardite, dissection aortique,
     pneumothorax
   \item dyspnée aigüe : oedème aigu pulmonaire, crise d'asthme, décompensation
     BPCO, pneumopathie
