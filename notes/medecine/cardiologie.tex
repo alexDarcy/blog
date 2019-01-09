@@ -11,7 +11,8 @@
 
 \makeglossaries
 
-\newacronym{MTEV}{MTEV}{Maladie thromboemolique veineuse}
+\newacronym{TIH}{TIH}{Thrombopénie induite par l'héparine}
+\newacronym{FO}{FO}{Fond d'oeil}
 \newacronym{ARA II}{ARA II}{Antagonistes des récepteurs de l'angiotensine}
 \newacronym{BAV}{BAV}{Bloc auriculoventriculaire}
 \newacronym{BBG}{BBG}{Bloc de branche gauche}
@@ -28,11 +29,13 @@
 \newacronym{IPC}{IPC}{Intervention coronaire percutanée}
 \newacronym{IVA}{IVA}{Artère intraventriculaire antérieure}
 \newacronym{JPDC}{JPDC}{Jusqu'à preuve du contraire}
+\newacronym{MTEV}{MTEV}{Maladie thromboemolique veineuse}
 \newacronym{OCA}{OCA}{Occlusion coronaire aigüe}
 \newacronym{OG}{OG}{Oreillette gauche}
-\newacronym{PAPO}{PAPO}{Pression artérielle pulmonaire d'occlusion, $\approx$ pression
-oreillette G} 
+\newacronym{PAD}{PAD}{Pression artérielle diastolique}
+\newacronym{PAPO}{PAPO}{Pression artérielle pulmonaire d'occlusion, $\approx$ pression oreillette G} 
 \newacronym{PAPm}{PAPm}{Pression de l'artère pulmonaire moyenne}
+\newacronym{PAS}{PAS}{Pression artérielle systolique}
 \newacronym{PA}{PA}{Pression artérielle}
 \newacronym{RCT}{RCT}{Rapport cardiothor}
 \newacronym{SAS}{SAS}{Syndrome d'apnée du sommeil}
@@ -40,6 +43,7 @@ oreillette G}
 \newacronym{TAVI}{TAVI}{Transcatheter Aortic Valve Implantation}
 \newacronym{TG}{TG}{Tryglycérides}
 \newacronym{TVP}{TVP}{Thrombose veineuse profonde}
+\newacronym{TVS}{TVS}{Thrombose veineuse superficielle}
 \newacronym{VG}{VG}{Ventricule gauche}
 \glsaddall % Add all entries
 \glsunsetall % Acronyms always in short form
@@ -2298,7 +2302,7 @@ diagnostic.
 \paragraph{Pronostic}
 \begin{itemize}
   \item Grave si choc/hypotension (PAS < 90mmHg ou -40mmHg > 15 min sans cause
-rythmique/hypovélimuqe/septiques) \thus DC > 15\%
+rythmique/hypovolémique/septique) \thus DC > 15\%
 \item intermédiaire : 3-15\%
 \end{itemize}
 
@@ -2306,15 +2310,15 @@ rythmique/hypovélimuqe/septiques) \thus DC > 15\%
 (DC), rédicive, HTAP chronique post-embolique (rare mais grave)
 
 \subsection{Traitement curatif}
-Confirmer diagnostic avant traitement antiocagulant, sauf si absence risque
-hémorragique en attentant confirmation
+Confirmer diagnostic avant traitement antiocagulant (sauf si 0 risque
+hémorragique et probabilité $\ge$ intermédiaire)
 
 \begin{itemize}
   \item HNF : 500UI/kg/jour puis selon test d'hémostase. Pour insuffisants
     rénaux sévères ou instables
   \item HBPM, fondaparinux : pas de surveillance bio
 \end{itemize}
-Surveillance des plaquettes \textbf{non si}  : HBPM hors contexte post-op,
+Pas de surveillance systématique des plaquettes si : HBPM hors contexte post-op,
 fondaparinux 
 
 Thrombolytique : seulement si EP grave !
@@ -2328,7 +2332,7 @@ Compression élastique $\ge 2$ ans, ASAP.
 Hospitalisation ? 
 \begin{itemize}
   \item EP
-  \item TVP proximale chez insuf rénaux sévère, risuqe hémorragique, syndrome
+  \item TVP proximale chez insuf rénaux sévère, risque hémorragique, syndrome
     obstructif ou localisation iliocave
 \end{itemize}
 
@@ -2337,12 +2341,12 @@ Filtre cave : non systématique
 \paragraph{Cas particuliers}
 \begin{itemize}
   \item 
-TPV distale : symptomatique : anticoagulement 6 semaines seulement si premier épisode. Dans tous les cas,
+TVP distale : symptomatique : anticoagulement 6 semaines seulement si premier épisode. Dans tous les cas,
 compression $\ge 2$ ans
-\item TVS : \textbf{pas} recommandé = AINS, antiocoagulants en curatif, chirurgie
+\item \gls{TVS} : \textbf{pas} d'AINS, antiocoagulants en curatif, chirurgie
 \item cancer : HBPM, arrêt si plaquettes < 50g/L
 \end{itemize}
-Prevention : 
+Prévention : 
 \begin{itemize}
   \item risque modéré : HBPM/HNF/fondaparinux, compression
   \item risque élevé : idem sans HNF
@@ -2353,16 +2357,16 @@ Nouveau anticoagulant oraux (rivaroxaban) :
   \item prévention chir hanche-genou
   \item curatif TVP, EP
   \item pas si insuf rénale sévère ou insuf hépatique
-  \item pasa de surveillance bio
+  \item pas de surveillance bio
 \end{itemize}
 
 \section{221 : Hypertension artérielle}%
 \label{sec:221_hypertension_arterielle}
-Grades (PA systolique, PA diastolique (PAS, PAD)):
+Grades (\gls{PAS}/\gls{PAD})):
 \begin{itemize}
-  \item 1 : 140/90 - 159/99
-  \item 2 : 160/100 - 759/109
-  \item 3 : > 180/110
+  \item 1 : 140/90 - 159/99
+  \item 2 : 160/100 - 759/109
+  \item 3 : > 180/110
   \item systolique isolé : > 140 et < 90
 \end{itemize}
 
@@ -2370,13 +2374,13 @@ HTA modérée = plus fréquente\\
 \inc avec l'âge. Plus fréquent chez femmes, noirs, obèse, consommation sel,
 défavorisé. Génétique 30\%.
 
-Risque : PAS, PAD sauf après 60 ans ! PAS, Pression pulsée = PAS - PAD
+Risque estimé par PAS, PAD (Après 60 ans, utiliser la PAS et Pression pulsée = PAS - PAD)
 
 \paragraph{Physiopatho}
 Régulation :
 \begin{itemize}
-  \item court : sympathique 
-  \item moyen : rénine-angiotensine,-aldostérone et peptide natriurétique (ANP,
+  \item court terme : sympathique 
+  \item moyen : rénine-angiotensine-aldostérone et peptide natriurétique (ANP,
     BNP)
   \item long : natriurièse de pression, arginine-vasopressine
 \end{itemize}
@@ -2390,9 +2394,10 @@ Régulation :
 \textit{Neuro}  : AVC ischémique, hémorragie cérébrale/méningée, encéphalopathie
 hypertensive, lacune cérébrale, démence vasculaire, rétinopathie hypertensive
 \item \textit{CV}  : insuf cardiaque systolique, insuf VG (anomalie de
-  \textit{remplissage} , cardiopathie ischémique, fibrillation atriale, arythmie
-  ventriculaire, complications artérielles. Mortalité CV x5 (\male) ou x3 (\female)
-\item \textit{rénales} : évolution vers l'insuf rénale par néphroangioscélore,
+  \textit{remplissage}), cardiopathie ischémique, FA, arythmie
+  ventriculaire, complications artérielles. Mortalité CV $\times 5$ (\male) ou
+  $\times 3$ (\female)
+\item \textit{rénales} : évolution vers l'insuf rénale par néphroangioscélose,
   sténose athéromateuse de l'artère rénale, diurétiques, IEC
 \item rénale
 \end{itemize}
@@ -2402,12 +2407,12 @@ hypertensive, lacune cérébrale, démence vasculaire, rétinopathie hypertensiv
   \item Urgences : SCA, insuf VG, dissection aortique, encéphalopathie
     hypertensivee, hémorragie méningée/AVC, phéochromocytome, \{amphétamines, 
     LSD, cocaïne\}, péri-op, (pré)éclampise, sd hémolytique et urémique
-  \item examens : bio, ECG, radiothorax, échocardio, FO\footnote{Fond d'oeil},
-    scanner cérébrale, amagerie aortique
+  \item examens : bio, ECG, radiothorax, échocardio, \gls{FO},
+    scanner cérébral, imagerie aortique
 \end{itemize}
 
 \paragraph{HTA maligne} rare. Hypovolémie (natriurèse). \\
-Tableau : PAD > 130mmFg, oèdeme papillaire au FO, insuf VG, insuf rénale
+Tableau : PAD > 130mmHg, oèdeme papillaire au FO, insuf VG, insuf rénale
 aigüe++. \\
 Évolution en quelques mois++
 
@@ -2431,8 +2436,8 @@ Atteintes spécifiques :
 \begin{itemize}
   \item coeur : ECG (HVG, hypertrophie atriale G), échocardio (HVG = masse VG >
     125g/$m^2$ (110 chez \female)
-  \item écho carotide (AOMI : IPS < 0.9)
-  \item rein: 
+  \item écho carotides (AOMI : IPS < 0.9)
+  \item rein : \inc créat ou \dec clairance créat
   \item FO : stade 3 (hémorragie, exsudats), 4 (oedème papillaire)
 \end{itemize}
 
@@ -2440,21 +2445,21 @@ Atteintes spécifiques :
 Élevé si grade 3 ou ((grade 1 ou grade 2) et $\ge 3$ FR)\\
 FR : âge, tabac, ATCD familaux d'accident CV précoce, diabète, dyslipidémie
 
-\subsection{HAT secondaire}
-Dépistage : point d'appel, grade 3, < 3* ans, HTA résistante
+\subsection{HTA secondaire}
+Dépistage si point d'appel, grade 3, < 30 ans, HTA résistante
 
 \begin{itemize}
   \item néphropathie parenchymateuse : palpation de masses abdo bilat \thus écho
-    abdo et créat, protéinure, sédiment urinaire
+    abdo et créat, protéinurie, sédiment urinaire
   \item HTA rénovasculaire : clinique (souffle abdo lat, OAP récidivant sans
-    explication), bio (hypoK et hyperaldostéronisme ou insuf rénanle). Diag
+    explication), bio (hypoK et hyperaldostéronisme ou insuf rénale). Diag
     écho, confirmé par angio-IRM. \\
     Ttt : hygiénodiététique, aspirine, statine, antihypertenseurs
   \item phéochromocytome : triade de Ménard (céphalée, sueurs, palpitations).
     Dosage urinaire métanéphrines, catécholamines\\
     Localisation tumeur (IRM), $\alpha$ et $\beta$ bloqueurs, exérèse chir
   \item Sd de Conn : dépisté par kaliémie. \inc aldostérone/rénine. Localisation
-    tumeaur scanner/IRM\\
+    tumeur scanner/IRM\\
     Chir éventuelle
   \item Coarctation aortique (enfant, adultee jeune) : clinique, confirmée IRM.
     Ttt chir ou endoluminal
@@ -2463,8 +2468,8 @@ Dépistage : point d'appel, grade 3, < 3* ans, HTA résistante
     contraceptifs oraux, réglisse
   \item HTA gravidique : 16-22 SA. Primipare, noires ou obèses.\\
     DD : HTA > 20 SA, grossesse chez hypertendue, prééclampsie\\
-    Complications : éclampise++, rénale, cardiqaue, RCIU, HELLP\\
-    \textbf{Pas} régime sans seil, ni IEC, ARA II, diurétiques
+    Complications : éclampsie++, rénale, cardiqaue, RCIU, HELLP\\
+    \textbf{Pas} régime sans sel, ni IEC, ARA II, diurétiques
 \end{itemize}
 
 \subsection{Traitement}
@@ -2478,10 +2483,10 @@ Hygiénodiététique, traitement FR, éducation.
   \item inhibiteurs calciques
   \item IEC
   \item antagonistes récepteurs angiotensine II
-  \item btea-bloqueurs
+  \item beta-bloquants
   \item diurétiques thiazidique
 \end{itemize}
-\danger : pas de beta-bloquers ni diurétique si FR métaboluqes.\\
+\danger : pas de beta-bloquants ni diurétiques si FR métaboliques.\\
 
 En association la plupart du temps
 
@@ -2494,15 +2499,15 @@ En association la plupart du temps
 Autres :
 \begin{itemize}
   \item HTA résistante si $\ge 3$ classes médicaments dont 1 diurétiques
-  \item âgé : attentio hypotension orthostatique, \textbf{pas} régime sans seul,
-    $\ge 3$ médic, objectif : PAS > 150\\
-    ttt : diurétique, calcium bloqeurs
+  \item âgé : \danger{} hypotension orthostatique, \textbf{pas} régime sans sel,
+    $\ge 3$ médic, objectif : PAS < 150\\
+    ttt : diurétique, calcium bloqueurs
   \item Urgence : éviter baisse brutale tension et hypotension \skull
 \end{itemize}
 \section{225 : Insuffisance veineuse chronique}%
 \label{sec:225_insuffisance_veineuse_chronique}
 
-Rappel : réseau superificel = veine saphène interne, saphène externe\\
+Rappel : réseau superificiel = veine saphène interne, saphène externe\\
 Insuffisance veineuse quand dysfonction du retour, soit par valvules, soit par
 péristaltisme (contraction musculaire, écrasement voûte plantaire)
 
@@ -2518,7 +2523,7 @@ péristaltisme (contraction musculaire, écrasement voûte plantaire)
 \paragraph{FR} Varices : âge, ATCD, obésité, grossesse, \female\\
 MTEV : immobilisation, cancer, anomalies hémostase
 
-\paragraph{Symptômes} jamboes foulders, aggravé par station debout prolongéé,
+\paragraph{Symptômes} jambes lourdes, aggravé par station debout prolongée,
 fatigue vespérale, chaleur. Calmée par le froid, marche, surélévation
 
 \paragraph{Clinique}
@@ -2538,9 +2543,9 @@ Examens : \textit{écho-doppler}  veineur des MI
 
 \subsection{Traitement}
 \begin{itemize}
-  \item Compression élastique (bas, bandes) : à vie si chroniqu. Attention CI si AOMI
+  \item Compression élastique (bas, bandes) : à vie si chronique. Attention CI si AOMI
   \item Hygiène de vie
-  \item Invasif : sclérothérape, traitement endoveinux, chirurgie (conservatrice/exérèse), (recanalisation)
+  \item Invasif : sclérothérapie, traitement endoveineux, chirurgie (conservatrice/exérèse), (recanalisation)
 \end{itemize}
 NB : CI à la chir = sd obstructif veineux profond
 
@@ -2550,18 +2555,18 @@ NB : CI à la chir = sd obstructif veineux profond
 \subsection{Diagnostic}
 2 parmi
 \begin{itemize}
-  \item douleur thoracique : résistant trinitrine, majorée décubits, calmée par
+  \item douleur thoracique : résistant trinitrine, majorée décubitus, calmée par
     l'antéflexion
   \item frottement péricardique
   \item ECG typique : 4 stades = \{ sus-ST, T plates, T négatives,
     normalisation\}. Aussi : sous-PQ, tachycardie sinusale, microvoltage
   \item épanchement péricardique
 \end{itemize}
-Plus (parfois) : fièvre modérée, dyspnée, épanchement pleural
+$\pm$ fièvre modérée, dyspnée, épanchement pleural
 
 Examens complémentaires (hors ECG) :
 \begin{itemize}
-  \item bio : inflammation, nécrose, iono urée, créat, hémoc si fièvre
+  \item bio : inflammation, nécrose, iono, urée, créat, hémoc si fièvre
   \item radiothorax normale (rectitude gauche ou cardiomégalie)
   \item échocardio : épanchement péricardique, masse péricardique
 \end{itemize}
@@ -2571,9 +2576,9 @@ Hospit ? si étiologie ou risque (symptôme > plusieurs jours)
 
 \paragraph{Étiologies} 90\% virale ou inconnue
 \begin{itemize}
-  \item aigùe virale : fréq++, sérologie inutile si typique sans gravité.
-    Évolution favorable (tamponnade/constriction péricard rare).\\
-    Pendant VIH
+  \item aigüe virale : fréq++, sérologie inutile si typique sans gravité.
+    Évolution favorable\footnote{Tamponnade/constriction péricardique rare}.\\
+    Fréquent pendant VIH
   \item purulente : rare mais grave. Immunodéprimé, infections sévère.\\
     Évolue vers tamponnade/constriction péricardique\\
     ATB
@@ -2581,13 +2586,13 @@ Hospit ? si étiologie ou risque (symptôme > plusieurs jours)
     greffé, VIH, alcoolique.\\
     BK, PCR\\
     Évolue vers tamponnade/constriction péricardique\\
-    ABT
+    ATB
   \item néoplasique : souvent métastase. Échocardio\\
     Ponction/biopsie essentielle. Récidive fréquente
   \item systémique auto-immunes : lupus, polyarthrite rhumatoïde, sclérodermie,
     pérartérite noueuse, dermatomyosite
   \item IDM : précoce (5j) : favorable, tardive (2-16sem) : sd Dressler
-  \item insuf rénale chronique : urémique ou dialyséa au long cours
+  \item insuf rénale chronique : urémique $\ne$ dialysée au long cours
   \item sd post-péricardotomie : post chir ou greff cardiaque.
 \end{itemize}
 
@@ -2599,10 +2604,10 @@ Hospit ? si étiologie ou risque (symptôme > plusieurs jours)
     ECG, radiothorax, échocardio ("swining heart")
   \item Myocardite : insuf cardiaque fébrile. Échocardio, IRM+++
   \item Péricardite récidivante : colchicine ?
-  \item Péricardite chronique > 3 mois : souvent népolasique
+  \item Péricardite chronique > 3 mois : souvent néoplasique
   \item Péricardite chronique constrictive : adiastolie avec égalisation
     pression télédiastoliques\\
-    INsuf cardiaque droite et gauche. Diago écho. Chir ?
+    Insuf cardiaque droite et gauche. Diago écho. Chir ?
 \end{itemize}
 
 \subsection{Traitement}
@@ -2614,23 +2619,23 @@ Tamponnade : urgence \skull, remplissage, ponction/drainage
 \section{327 : Arrêt cardiocirculatoire}%
 \label{sec:327_arret_cardiocirculatoire}
 
-Mort subite : après symptômes < 1h. Arrêt cardiorespi (ACR) : plus d'activité
+Mort subite : aigǜe, après symptômes < 1h. Arrêt cardiorespi (ACR) : plus d'activité
 mécanique cardiaque\\
-"No flow" : intervalle sans rénimation = \textbf{important} 
+"No flow" : intervalle sans rénimation = \textbf{important}. 
 "Low flow" : intervalle sans rétablissement HD
 
-Chaîne de survi : alerte, réa (RCP), défibrillantio, RCP spéc
+Chaîne de survie : alerte, réa (RCP), défibrillation, RCP spécialisée
 
-> 10 min de fibrillation/arrêt : < 5\% de récupérations
+Si > 10 min de fibrillation ou d'arrêt : < 5\% de récupérations
 
 \subsection{Étiologies}
-Fibrillation ventriculaire puis brady extrême puis asystolies
+Fibrillation ventriculaire puis brady extrême puis asystolies.
 Autres :
 \begin{itemize}
   \item SCA inauguraux (40-77\=)
   \item autres CV : troubles rythme sur ischémie ancienne, hypertrophique,
     trouble du rythme/conduction indépendant, tamponnade, dissection aortique...
-  \item non vasc : toxique, traumatique, insu respi aigu€, noyades
+  \item non vasc : toxique, traumatique, insuf respi aigüe, noyades
 \end{itemize}
 
 \paragraph{Diagnostic} ne bouge plus, ne réagit plus, ne respire plus, plus de
@@ -2638,7 +2643,7 @@ pouls
 
 \subsection{CAT}
 ABCD : maintien voies Aériennes, assistance respi (B), Circulation (massage
-cardique), Défibrillation et Drogue
+cardiaque), Défibrillation et Drogue
 
 \paragraph{Médicaments}
 \begin{itemize}
@@ -2688,13 +2693,13 @@ Action rapide et courte. Vasodilatation veineuse (utile pour OAP)
 \paragraph{Thiazidiques} Hydrochlorothiazide
 
 Inhibe réabsorption NaCl au segment proximal du tube contourné distal. Augment
-excrétion K, Cl mais diminue Ca+.
+excrétion $K^+$, $Cl^-$ mais diminue $Ca^{2+}$.
 
 Inefficace si insuf rénale sévère
 
-\paragraph{Épargnants le potassium} spironolactone
+\paragraph{Épargnant le potassium} spironolactone
 
-Diminue excrétation K+ , Hl au tube contourné distal. Effet inférieur au 2
+Diminue excrétion $K^+$, $Cl^-$ au tube contourné distal. Effet inférieur au 2
 autres
 
 \subsection{Indications}
@@ -2720,40 +2725,35 @@ Hydroélectriques
 \begin{itemize}
   \item déshydratation : âgé, peut entrainer IR aigue
   \item hyponatrémie 
-  \item hypokaliémie : fréquene, modérée, surveillance, apport alimentaires
+  \item hypokaliémie : fréquente, modérée, surveillance, apport alimentaires
     !
-  \item hyperkaliémie : dangereuse \danger{} bradycardie sévères, torubles
+  \item hyperkaliémie : dangereuse \danger{} bradycardie sévères, troubles
     rythme ventriculaire. Favorisé par IEC, ARA II, insuf rénale
-  \item hypovélime : parfois hypotension orthostatique
+  \item hypovolémie : parfois hypotension orthostatique
 \end{itemize}
 Autres : 
 \begin{itemize}
   \item hyperglycémie, hyperuricémie (anse, thiazidiques)
-  \item augmentation choléstérole (thiazidique)
+  \item augmentation cholestérol (thiazidique)
   \item gynécomastie (spironolactone)
   \item ototoxicité (anse)
   \item interaction : lithium, hypokaliémiant, AINS
 \end{itemize}
 
-
-
-
-
-
-
 \section{326 : Antithrombotiques}%
 \label{sec:326_antithrombotiques}
-
-
-Cliniques usuelles : 
-\begin{itemize}
-  \item Bifasciculaire du sujet âgé avec perte de conaissance : BdB droite et
-    hémibloc antérieur gauche. Chercher cardiopathie sous-jacente. souvent
-    endocavitaire.
-  \item BdB gauche de l'infarctus antérieur
-  \item Bloc alternant : (BdB droit III et gauche III) ou (alternance
-    entre les 2 hémibloc avec BdB droit III)
-\end{itemize}
+% ???
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cliniques usuelles :                                                          %
+% \begin{itemize}                                                               %
+%   \item Bifasciculaire du sujet âgé avec perte de conaissance : BdB droite et %
+%     hémibloc antérieur gauche. Chercher cardiopathie sous-jacente. souvent    %
+%     endocavitaire.                                                            %
+%   \item BdB gauche de l'infarctus antérieur                                   %
+%   \item Bloc alternant : (BdB droit III et gauche III) ou (alternance         %
+%     entre les 2 hémibloc avec BdB droit III)                                  %
+% \end{itemize}                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Antiagrégants plaquettaires}
 \paragraph{Aspirine}
 Inhibe Cox1. Irréversible. Effets antalgique, anti-inflammatoires (doses plus
@@ -2773,7 +2773,7 @@ EI : saignements, intolérances gastriques (d'où IPP)
 Situations à risque : attendre 6 semaines/3-6 mois tout acte invasif à risque
 hémorragique. Si risque très important, arrêt 5 j seulement.
 
-\paragraph{Thiéonpyridines, ticagrelor}
+\paragraph{Thiénopyridines, ticagrelor}
 Bloque récepteur P2Y12
 \begin{itemize}
   \item Clopidogrel : 300-600mg + 75mg/j. SCA et post-angioplastie coronaire
@@ -2784,10 +2784,9 @@ Bloque récepteur P2Y12
 
 CI absolue : prasugrel si ATCD accident cérébral.
 
-\paragraph{Autres}
+\paragraph{Autres\footnote{Dipyridamole : n'est plus utilisé}}
 \begin{itemize}
   \item Anti-GPIIb-IIIa : voie veineuse, courtes périodes, conditions très particulières
-  \item Dipyridamole : plus utilisé
 \end{itemize}
 
 \subsection{Héparines}%
@@ -2802,34 +2801,34 @@ CI absolue : prasugrel si ATCD accident cérébral.
 Indications : pour anticoag urgente = thromboses veineuses profondes, EP,
 troubles du rythmes, SCA.
 
-EI : complications hémorragiques, TIH
+EI : complications hémorragiques, \gls{TIH}
 
 Apparentés :
 \begin{itemize}
-  \item danaparoïde : anticoag si passif de TIH
+  \item danaparoïde : anticoag si ATCD de TIH
   \item bivalirudine : pour angioplastie coronaire
 \end{itemize}
 
 \subsection{Anti-vitamines K}
 Agit sur facteurs dépendant de vitamine K. Oral, traitement longue durée.
 
-Coumadine (ref), fluindione = demi-vie longue. Acénocoumarole = demi-vie courte.
+Coumadine (ref), fluindione (Previscan) = demi-vie longue. Acénocoumarole = demi-vie courte.
 
 Utiliser l'héparine en relais des AVK avec 4-5j de chevauchement et 2 INR
 efficaces à 24h
 
-\textbf{Surveiller INR}  1/mois \danger
+\textbf{Surveiller INR}  1/mois \danger. Cible : INR $\in [2,3]$
 
-Antidotes : PPSB, vit. K
+Antidotes : PPSB, vitamine K
 
-Indications : fibrillation atriale, TVP, EP, valve cardiaque mécanique,
+Indications : FA, TVP, EP, valve cardiaque mécanique,
 complications de l'IDM/insuf cardiaque
 
-Situations à risque ? Si très important :
+Situations à risque très hémorragique :
 \begin{itemize}
   \item arrêt 3-4j avant
-  \item ou arrêt 4-5 j avant et relais héparine (pour TVP, EP > 3 mois ou FA
-    risque embolique élevée ou valves mécaniques
+  \item ou arrêt 4-5 j avant et relais héparine (pour TVP, EP > 3 mois, FA
+    à risque embolique élevée, valves mécaniques)
 \end{itemize}
 
 \subsection{Nouveau anticoagulants oraux}
