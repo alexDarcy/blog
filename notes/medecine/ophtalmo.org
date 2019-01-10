@@ -8,6 +8,9 @@
 #+latex_header_extra: \newacronym{RPM}{RPM}{Réflexe photomoteur}
 #+latex_header_extra: \newacronym{DMLA}{DMLA}{Dégénérescence maculaire liée à l'âge}
 #+latex_header_extra: \newacronym{PEV}{PEV}{Potentiels évoqués visuels}
+#+latex_header_extra: \def\ttt{\textit{Ttt:} }
+#+latex_header_extra: \def\ttt{\hspace*{1cm}Ttt: }
+#+latex_header_extra: \newacronym{NOIA}{NOIA}{Neuropathie optique ischémique antérieure}
 
 #+OPTIONS: H:4
 
@@ -194,22 +197,22 @@ Binoculaire : disparaît à l'occlusion d'un \oe{}il[fn:10]. Souvent une urgence
 \danger
 
 Noyaux des nefs oculomoteurs \in tronc cérébral - racine - troncs -
-muscle. Voies supranucléaire (latéralité, verticalité), internucléraires.
+muscle. Voies supranucléaires (latéralité, verticalité), internucléraires.
 
-#+caption: Champ d'action (\danger \ne action) 
-| oblique inférieur | droit supérieur |
-|-------------------+-----------------|
-| droit médial      | droit latéral   |
-|-------------------+-----------------|
-| oblique supérieur | droit inférieur |
+#+caption: Champ d'action (\danger \ne action) avec l'innervation
+| oblique inférieur (III) | droit supérieur (III) |
+|-------------------------+-----------------------|
+| droit médial (III)      | droit latéral (VI)    |
+|-------------------------+-----------------------|
+| oblique supérieur (IV)  | droit inférieur (III) |
 
 Mouvement bilatéraux : synergie des muscles
 
 Vision binoculaire :
 - loi de Hering : même influx nerveux pour muscles antagonistes. Loi de
-  Sherrington : muscle antagonistes se relachent quand muscles synergistes se
+  Sherrington : muscle antagonistes se relâchent quand muscles synergistes se
   contractent.
-- si correspondance rétinienne anormale (\oe{}ux non \parallel) : diplopie
+- si correspondance rétinienne anormale (yeux non \parallel) : diplopie
   
 ** Diagnostic
 - Signes fonctionnels : dédoublement toujours même direction[fn:11], disparaît à
@@ -223,23 +226,21 @@ Examens :
 - motilité
 - cover-test (\oe{}il dévié puis se redresse)
 - au verre rouge (dissociation point rouge et blanc)
-- test de Lancaster (superposer flèche de couleurs différente) \thus diagnostic
+- test de Lancaster (superposer flèches de couleurs différentes) \thus diagnostic
   paralysie oculomotrie
 - RPM, inégalité pupillaire
   
 ** Sémiologie
-- Paralysie du III : totale (ptosis total, mydriase aréflective, 0 accomodation)
-ou partielle
+- Paralysie du III : totale (ptosis total, mydriase aréflective, 0 accomodation) ou partielle
 - Paralysie du IV : diplopie verticale oblique
 - Paralysie du VI : convergence \oe{}il atteint, déficit abduction
 - Formes particulières :
   - paralysie supranucléaire : sd Foville (latéralité), sd Parinaud (verticalité
     et cv \thus pinéalome++)
   - paralysie intranucléaire : ophtalmoplégie intranucléaire (parallélisme OK mais
-    déficie adduction) \thus SEP
-  - paralysie intraxile : {fonction et diplopie, diplopie et signe neuro
-    controlatéraux}
-
+    déficit adduction) \thus SEP
+  - paralysie intraxiale : (atteinte fonction et diplopie) ou (diplopie et signe neuro
+    controlatéraux)
 ** DD
 Diplopie monoculaire, simulation, hystérie
 
@@ -247,13 +248,13 @@ Diplopie monoculaire, simulation, hystérie
 - Traumatique : fracture du plancher de l'orbite (élévation globe douleureuse),
   hémorragie méningé traumatique
 - Tumeurs : HTIC, de la base du crâne
-- Vasculaires : AVC, insuf vertébrobasilaire, *anévrime
-  intracranien* (Y penser si atteinte partielle, signes
+- Vasculaires : AVC, insuf vertébrobasilaire, *anévrisme
+  intrâcranien* (Y penser si atteinte partielle, signes
   pupillaires, sujet jeune, 0 FR vasc, céphalée \thus angioscanner urgence
-  \skull)A, fistule carotidocaverneuse
+  \skull), fistule carotidocaverneuse
 - Avec exophtalmie : Basedow, tumeurs de l'orbite
-- douleureuse : penser anévrisme intracrânnien, dissection carotidienne, fistule
-  carotidocaverneuse = urgence \skull. Maladie de Horton. Sd Tolosa-Hunt
+- douleureuse : penser {anévrisme intracrânnien, dissection carotidienne, fistule
+  carotidocaverneuse} = urgences \skull. Maladie de Horton. Sd Tolosa-Hunt
 - SEP : paralysie VI, ophtalmoplégie internucléaire
 - Myasthénie : diag = {test Prostigmine, Ac anti récepteur acétylcholine, électromyographie}
 * 6 \OE{}il rouge/douloureux
@@ -270,12 +271,12 @@ Examen à lampe à fente (bilatéral) :
 - cornée : perte de transparence, dépôts rétro-cornéens
 - collyre à fluorescine pour ulcération cornéenne : unique (trauma), localisée
   avec zone blanche (kératite bactérienne), dendritique (kératite herpétique),
-  petites ed disséminées (kératite à adénoviruse, sd sec oculaire, corps
+  petites et disséminées (kératite à adénoviruse, sd sec oculaire, corps
   étranger)
 - iris et pupille : synéchie iridocristallinienne (uvéite), atrophie iris
-  (herpès), myosis (kératite aigùe, uvéite aigǜe), semi-mydriase
+  (herpès), myosis (kératite aigüe, uvéite aigüe), semi-mydriase
   aréflexique (glaucome aigü)
-- chambre antérieure : étroite, plate (glaucome aigù, plaie perforante), signes inflammatoires
+- chambre antérieure : étroite, plate (glaucome aigü, plaie perforante), signes inflammatoires
 - tonus oculaire : hypertonie (glaucome aigu par fermeture de l'angle, glaucome
   néovasculaire), hypotonie (plaie oculaire transfixiante)
 - conjonctive palpébrale : follicules (conjonctivite virale), papilles
@@ -283,123 +284,142 @@ Examen à lampe à fente (bilatéral) :
 - FO 
 
 ** Étiologies
-\OE{}il rouge, non douloureux, sans BAV
-- hémorragie sous-conjonctivale spontanée : chercher HTA, trouble
+
+#+caption: Étiologies résumées d'\oe{}il rouge
+| Non douloureux sans BAV     | Douloureux avec BAV                           |
+|-----------------------------+-----------------------------------------------|
+| hémorragie ss-conjonctivale | kératite aigüe                                |
+| conjonctivite               | uvéite antérieure aigüe sclérite              |
+| (épi)sclérite               | crise aigüe de glaucome par fermeture d'angle |
+|                             | glaucome néovasculaire                        |
+
+*** \OE{}il rouge, non douloureux, sans BAV
+- /hémorragie sous-conjonctivale spontanée/ : chercher HTA, trouble
   coagulation. Penser corps étranger, plaie sclérale \danger
-- conjonctivite : "grain de sable", prurit
-- conjonctivite  bactérienne : sécrétions mucopurulentes (paupières collées le
-matin). Germe Gram+. /Ttt/ : hygiène des mains, lavage sérum phy, collyre
-antiseptique (pas forcément ATB !!)
+- /conjonctivite/ : sensation de "grain de sable", prurit
+- /conjonctivite bactérienne/ : sécrétions mucopurulentes (paupières collées le
+  matin). Germe Gram+. 
+\ttt hygiène des mains, lavage sérum phy, collyre antiseptique (pas forcément ATB !!)
 
 \OE{}il rouge unilatéral, douloureux, sans BAV
-- épisclérite (sous conjonctive) : rougeur disparaissant avec collyre
-  vasoconstricteur. /Ttt/ corticothérapie locale
-- sclérite : douleur \inc mobilisation du globe. Ne disparait pas au
+- /épisclérite/ (sous conjonctive) : rougeur disparaissant avec collyre
+  vasoconstricteur. 
+\ttt corticothérapie locale
+- /sclérite/ : douleur \inc mobilisation du globe. Ne disparait pas au
   collyre. Cherche maladie de système (articulaire, vasc, granulomateuse,
-  infectieuse). /Ttt/ AINS générale et cause.
+  infectieuse). 
+\ttt AINS générale et cause.
 
-Yeux rouges bilatéraux, douloureux, sans BAV
-- conjonctivite virale : fréq++, contagieux. Sécrétion claires, ADP prétragienne
-  douloureuses à palpation. /Ttt/ inutile
-- conjonctivite allergique : terrain, prurit, chemosis[fn:13], sécrétion claire,
-  volumineuses papilles. /Ttt/ bilan allergique, évition, collyre antiallergique
-- conjonctivite à \bact{chlamydia} : tiers-monde++
-- sd sec oculaire : fréq++. Diag = test Schirmer (quantité sécrétion lacrymale),
+*** Yeux rouges bilatéraux, douloureux, sans BAV
+- /conjonctivite virale/ : fréq++, contagieux. Sécrétion claires, ADP prétragienne
+  douloureuses à palpation. 
+\ttt inutile
+- /conjonctivite allergique/ : terrain, prurit, chemosis[fn:13], sécrétion claire,
+  volumineuses papilles. 
+\ttt bilan allergique, éviction, collyre antiallergique
+- /conjonctivite à \bact{chlamydia}/ : tiers-monde++
+- /sd sec oculaire/ : fréq++. Diag = test Schirmer (quantité sécrétion lacrymale),
   qualité film lacrymal, surfarce cornéenne, surface conjonctivale}. Cause :
-  involution (âge), sd Gougerot-Sjögren. /Ttt/ substituts lacrymaux, évictions
+  involution (âge), sd Gougerot-Sjögren. 
+\ttt substituts lacrymaux, évictions
   facteurs irritants, occlusion points lacrymaux
 - autres : Basedow, malpositions palpébrale, conjonctivite d'irritation
 
-\OE{}il rouge, douloureux, BAV
-- Kératite aigüe : BAV, douleurs
+*** \OE{}il rouge, douloureux, BAV
+- /Kératite aigüe/ : BAV, douleurs
   superficielles importantes, larmoiement, photophobie,
   blépharospasme. Érosion/ulcérationsc cornée, \dec transparence cornée,
   cercle périkératique
-  - kératite à adénovirus : petite ulcérations disséminées. Évolution favorable
+  - /kératite à adénovirus/ : petite ulcérations disséminées. Évolution favorable
     (?)
-  - kératite herpétique : ulcération en "feuille de fougère". /Ttt/ :
-    valaciclovir \pm aciclovir en pommadex. Jamais de corticothérapie locale
-    sans avoir élimine une ulcération cornéenne \skull
-  - kératite zostérienne : zona ophtalmique \thus (?) kératite superficielle ou
-    neuroparalytique (grave). 9Ttt/ : valaciclovir et protecteurs locaux
+  - /kératite herpétique/ : ulcération en "feuille de fougère". 
+\ttt
+    valaciclovir \pm aciclovir en pommade. Jamais de corticothérapie locale
+    sans avoir éliminé une ulcération cornéenne \skull
+  - /kératite zostérienne/ : zona ophtalmique \thus (?) kératite superficielle ou
+    neuroparalytique (grave). 
+\ttt valaciclovir et protecteurs locaux
     cornéens
-  - kératite bactérienne, parasitaire, mycosique : plage blanchâtre. Prélèver
-    sur l'abcès. /ttt/ collyre ATB (si important : "collyre fortifiés"). \danger
+  - /kératite bactérienne, parasitaire, mycosique/ : plage blanchâtre. Prélèver
+    sur l'abcès. 
+\ttt collyre ATB (si important : "collyre fortifiés"). \danger
     évolution : endophtalmie, perforation cornéenne, taie cornéenne cicatricielle
-  - kératite sur sd sec
-  - kératite d'exposition (paralysie faciale) : /ttt/ protecteurs cornéens en
-    prévention, tarsorraphie (=suture)
-- Uvéite antérieure : cercle périkératique, transparence cornée OK, myosis,
+  - /kératite sur sd sec/
+  - /kératite d'exposition/ (paralysie faciale) : 
+\ttt protecteurs cornéens en prévention, tarsorraphie (=suture)
+- /Uvéite antérieure/ : cercle périkératique, transparence cornée OK, myosis,
   (synéchies iridocristalliniennes ou iridocornéennes), Tyndall, précipités
   rétro-cornéens. FO systématique ! 
   - Causes : inconnue, spondylarthrite ankylosante (diag = {sacro-iléite, rachis,
     Ag HLA B27), uvéite herpétique, arthrite juvénile idiopathique, sarcoïdose,
     Behçet, lupus erythémateux disséminé.
-  - /Ttt/ collyre mydriatique, collyres corticoïdes
-- Glaucome aigu par fermeture de l'angle : rare, pronostic sévère.
+\ttt collyre mydriatique, collyres corticoïdes
+- /Glaucome aigu par fermeture de l'angle/ : rare, pronostic sévère.
   - prédisposition anatomique, pendant une mydriase
   - humeur aqueuse ne peut plus passer dans la chambre antérieure, s'accumule
-    dans champre postérieure et bloque le trabeculum.
+    dans chambre postérieure et bloque le trabeculum.
   - signes fonctionnels .: douleurs profondes++ irradiant dans trijumeau,
     souvent nausées, vomissement, BAV
   - examen : douleurs intenses, \oe{}il rouge, transparence cornée \dec diffuse,
     semi-mydriase aréflexique, angle iridocornéen fermé, hypertonie oculaire++
   - cécité en qq jours sans ttt \danger 
-  - /ttt/ = urgence \skull : antalgique, inhibiteurs de l'anhydrase
+\ttt antalgique, inhibiteurs de l'anhydrase en urgence \skull
     carbonique [fn:14], solutés hyperosmolaires[fn:15], collyre hypotonisants,
     collyres myotiques
   - post-crise : iridotomie périphérique sur *les deux yeux* (laser ou chir)
-- Glaucome néovasculaire : VEGF crée néovaisseux qui empêche la résorption de
+- /Glaucome néovasculaire/ : VEGF crée néovaisseux qui empêche la résorption de
   l'humeur aqueuse
-  - néovaisseaux sur l'iri
-  - /Ttt/ hypotonisants locaux et généraux, photocoagulation ou injection anti-VEGF
-- Endophtalmie post-opératoire : douleur intense, \oe{}dème palpébral, hyalite
+  - néovaisseaux sur l'iris
+\ttt hypotonisants locaux et généraux, photocoagulation ou injection anti-VEGF
+- /Endophtalmie post-opératoire/ : douleur intense, \oe{}dème palpébral, hyalite
 * 7 Altération de la fonction visuelle
 ** Examen
 Interrogatoire : BAV objective, altération CV  (myodésopsies, phosphènes,
-métamorphopsies, éclipse viusuelle (qq secondes) ou cécité monoculaire
+métamorphopsies, éclipse visuelle (qq secondes) ou cécité monoculaire
 transitoire (qq min-heures), aura visuelle), installation, unilatéral ?, douleur
 ? ATCD, ttt, traumatisme ?
 
-Examen ophtalmo : AV (avec correction), RPM, segment antériur, tonus oculaire,
-{cristallin, vitré, rétine, vaisseux, nerf optique}
+Examen ophtalmo : AV (avec correction), RPM, segment antérieur, tonus oculaire,
+{cristallin, vitré, rétine, vaisseaux, nerf optique}
 
 ** BAV progressive [fn:16]
-Si améliorié par correction optique, trouble de réfraction. Sinon 
+Si améliorée par correction optique, trouble de réfraction. Sinon :
 
 *** Transparence anormale
-Cataracte : BAV bilatérale, photophobie, myopie d'indice, diplopie
+/Cataracte/ : BAV bilatérale, photophobie, myopie d'indice, diplopie
 monoculaire. Perte de transparence du cristallin (opalescent). Étiologie : âge
-surtout. /Ttt/ : chir
+surtout.\\
+\ttt chir
 
-Autres : cornées, vitré (hyalite des uvéite)
+Autres : /cornée, vitré/ (hyalite des uvéite)
 
-*** Atteinte nerf optique
-Glaucome chronique à angle ouvert (GCAO) : longtemps asymptomatique. Diag =
+*** Transparence normale: atteinte nerf optique
+/Glaucome chronique à angle ouvert/ (GCAO) : longtemps asymptomatique. Diag =
 {\inc tonus oculaire, altération CV, excavation glaucomateuse de la
-papille}. /Ttt/ : collyre hypotonisants, trabéculoplastie (laser/chir)
+papille}. \\
+\ttt collyre hypotonisants, trabéculoplastie (laser/chir)
 
-Autres : neuropathie toxiques (alcool-tabac, médic), héréditaires, compressive
+Autres : /neuropathie toxiques/ (alcool-tabac, médic), /héréditaires, compressive/
 
-*** Atteinte de la rétine/macula
+*** Transparence normale: atteinte de la rétine/macula
 Dystrophies rétiniennes héréditaires :
-- maculoopathies héréditaires : maladie de Stargardt = débute vers 7-12 ans,
+- /maculopathies héréditaires/ : maladie de Stargardt = débute vers 7-12 ans,
   1/10e en fin d'évolution (!), en "\oe{}il de b\oe{}uf"
-- rétinopathies pigmentaires : héméralopie, rétrécissement progressif du CV
+- /rétinopathies pigmentaires/ : héméralopie, rétrécissement progressif du CV
   (débute dans l'enfance), aspect réticulé "en ostéoblastes"
-"Interface vitréomaculaire" = séparation vitré-région maculaire
+"Interface vitréomaculaire" = /séparation vitré-région maculaire/
 - membranes épi-/pré-maculaire (par tissu fibreux). "reflet" cellophane". OCT
   maculaire. Chir possible
 - trous maculaires : OCT
-Dégénérescence maculaire liée à l'âge 
+/Dégénérescence maculaire liée à l'âge/
 
-\OE{}dème maculaire : en "pétales de fleur" si important. Causes : 
+/\OE{}dème maculaire/ : en "pétales de fleur" si important. Causes : 
   - rétinopathie diabétique : /ttt/ : injection IV anti-VEGF ou corticoïdes
   - occlusion veine centrale de la rétine : /ttt/ idem
   - chir cataracte 
   - uvéite postérieures : /ttt/ : cause ou corticoïdes retard
     
-Maculopathies toxiques aux antipaludéens de synthèse : potentiellement cécité
+/Maculopathies toxiques aux antipaludéens de synthèse/ : potentiellement cécité
 irréversible. Pas avant 5 ans ? Commence par périfovéolopathie \thus arrêt
 immédiat du ttt \danger
 
@@ -413,7 +433,7 @@ Scotomes (para)centraux , déficits périphériques
 Atteinte nerf optique : cécité unilatérale (trauma, tumeur) 
 - scotome central unilatéral ou caecocentral uni-/bi-latéral
 - déficicit fasciculaire possible
-- déficit altitudinal si neuropathie optique ischémique antérieure (NOIA)
+- déficit altitudinal si gls:NOIA
 - étiologies :
   - SEP (névrite optique rétrobulbaire)
   - NOIA 
@@ -1050,7 +1070,7 @@ rupture d'anévrisme intracrânien
 
 [fn:11] \danger méconnu si ptosis/\oe{}dème palpébral
 
-[fn:10] Monoculaire : cause cornéenne, irienne, cristalinienne \thus pas une urgence.
+[fn:10] Monoculaire : cause cornéenne, irienne, cristalinienne $\ne$ urgence.
 
 [fn:9] Abrasion épithelium cornéen ou volet dans cornée.
 
