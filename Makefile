@@ -14,16 +14,21 @@ build:
 	${STACK} exec blog build
 
 MED=notes/medecine
+NOTES_ORG= \
+${MED}/douleur.org\
+${MED}/endocrino.org\
+${MED}/ophtalmo.org
+
+# Some note are still in latex
 NOTES_TEX= \
 ${MED}/afgsu.tex\
-${MED}/douleur.tex\
-${MED}/endocrino.tex\
 ${MED}/maladies_infectieuses.tex\
 ${MED}/nutrition.tex\
 ${MED}/pneumologie.tex\
 ${MED}/neurologie.tex\
+$(NOTES_ORG:.org=.tex)
 
-NOTES_PDF=$(NOTES_TEX:.tex=.pdf)
+NOTES_PDF=$(NOTES_TEX:.tex=.pdf) 
 
 .PHONY: notes
 .PHONY: ${NOTES_TEX} 

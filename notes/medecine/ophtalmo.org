@@ -982,7 +982,7 @@ Traitement
 Bien différencier modifications liée à l'HTA (réversible par ttt de l'HTA) et
 celles irréversibles liées à l'artériosclérose 
 
-\ic Pa \thus vasoconstriction artérieur active (autorégulation)
+\inc Pa \thus vasoconstriction artérieur active (autorégulation)
 
 ** Rétinopathie hypertensive
 AV normale. Signes oculaires seulement si sévère :

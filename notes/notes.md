@@ -4,9 +4,10 @@ Fiches
 [AFGSU](medecine/afgsu.pdf)  
 [Cardiologie](medecine/cardiologie.pdf)  
 [Maladies infectieuses](medecine/maladies_infectieuses.pdf)  
-[Neurologie](medecine/neurologie.pdf)  
-[Nutrition](medecine/nutrition.pdf)  
+[Neurologie](medecine/neurologie.pdf) (ébauche)   
+[Nutrition](medecine/nutrition.pdf) (ébauche)  
 [Pneumologie](medecine/pneumologie.pdf)  
+[Ophtalmologie](medecine/ophtalmo.pdf)  
 
 ## Histoire
 
