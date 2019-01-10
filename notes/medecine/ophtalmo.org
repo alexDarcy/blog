@@ -290,7 +290,7 @@ Examen à lampe à fente (bilatéral) :
 | Non douloureux sans BAV     | Douloureux avec BAV                           |
 |-----------------------------+-----------------------------------------------|
 | hémorragie ss-conjonctivale | kératite aigüe                                |
-| conjonctivite               | uvéite antérieure aigüe sclérite              |
+| conjonctivite               | uvéite antérieure aigüe |
 | (épi)sclérite               | crise aigüe de glaucome par fermeture d'angle |
 |                             | glaucome néovasculaire                        |
 
@@ -633,6 +633,8 @@ Diagnostic clinique mais en complémentaire :
 Étiologies :
 - âge++
 - traumatique (contusion violent, trauma perforant)
+- secondaire à uvéites chroniques (postérieures), myopie forte, rétinopathie
+  pigmentaires, chir oculaire
 - secondaire à diabète, hypoparathyroïdie
 - secondaire aux corticoïdes locaux/généraux au long cours, à radiothérapie
   orbitaire
@@ -759,13 +761,14 @@ Diagnostic :
 - thromboses : maladie de Horton (urgence \skull, à rechercher), (maladies de systèmes)
 - troubles coagulation : anomalie primitive, sd antiphospholipides, hyperhomocystéinémie
 
-Évolution spontanée quasiment toujours défavorable
+Évolution spontanée quasiment toujours défavorable : régression \oe{}dème,
+atrophie rétine et papille
 
 CAT : urgence \danger \skull (fonction visuelle et patho sous-jacente)
 - bilan étio : athérome, carotidien, cardiopathie embolinogène, dissection
   carotidienne (si jeune), horton
 - ttt décevant : hypotonisant (acétazolamide IV/per os), vasodilatateur,
-  anticoagulant si  bespoin fibrinolytique
+  anticoagulant si besoin, fibrinolytique
 - bilan cardio
 - Aspirine dans tous les cas. Si jeune, bon état général, ttt max. 
 - selon étio : antiagrégant plaquettaire (athérome carotidien), anti-vit K (emboles
