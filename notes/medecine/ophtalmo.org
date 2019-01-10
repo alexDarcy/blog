@@ -8,7 +8,6 @@
 #+latex_header_extra: \newacronym{RPM}{RPM}{Réflexe photomoteur}
 #+latex_header_extra: \newacronym{DMLA}{DMLA}{Dégénérescence maculaire liée à l'âge}
 #+latex_header_extra: \newacronym{PEV}{PEV}{Potentiels évoqués visuels}
-#+latex_header_extra: \def\ttt{\textit{Ttt:} }
 #+latex_header_extra: \def\ttt{\hspace*{1cm}Ttt: }
 #+latex_header_extra: \newacronym{NOIA}{NOIA}{Neuropathie optique ischémique antérieure}
 
@@ -458,67 +457,69 @@ métamorphopsies ? rapidité, latéralité, type de douleurs, ATCD, ttt, trauma 
 Examen ophtalmo ( 2 yeux) : AV, RPM, segment antérieur, tonus oculaire, FO
 
 ** Étiologie
-BAV, \oe{}il rouge et douloureux 
-- kératite aigüe : douleur superficielles importantes, photophobie,
+*** BAV, \oe{}il rouge et douloureux 
+- /kératite aigüe/ : douleur superficielles importantes, photophobie,
   blépharospasme. \dec transparence cornée, cercle périkératique, ulcération(s)
   cornéenne(s)
-- glaucome aigü par fermeture de l'angle : douleurs profondes, intense,
+- /glaucome aigü par fermeture de l'angle/ : douleurs profondes, intense,
   irradiant dans trijumeaux. \inc\inc tonus oculaire ("bille de bois" à la
   palpation)
-- uvéites 
-  - antérieure aigüe : BAV, douleurs, cercle périkératique, myosis par synéchies
+- /uvéites/
+  - /antérieure aigüe/ : BAV, douleurs, cercle périkératique, myosis par synéchies
     iridocristalliniennes. Tyndall, chercher uvéite postérieure
-  - postérieure : toxoplasmose oculaire le plus souvent. Myodésopises, BAV. FO =
-    foyer blanchâtre puis cicatrice. /Ttt/ antiparasitaire si AV menacée
+  - /postérieure/ : toxoplasmose oculaire le plus souvent. Myodésopsies, BAV. FO =
+    foyer blanchâtre puis cicatrice. \\
+\ttt antiparasitaire si AV menacée
 - autres  : glaucome néovasculaire, endophtalmie (contexte post-op)
 
-BAV, \oe{}il blanc indolore
+*** BAV, \oe{}il blanc indolore
 - FO non visible 
-  - hémorragie intravitréenne : précédée d'une "pluie de cendre", BAV
+  - /hémorragie intravitréenne/ : précédée d'une "pluie de cendre", BAV
     variable. Écho. B pour éliminer un décollement de la rétine. Causes :
     rétinopathie diabétique proliférante, occlusions ischémique de la veine
     centrale de la rétine, déchirure rétinienne, sd de Terson[fn:17], plaie
     perforante
-  - uvéite intermédiaire (dans le vitré) : cellules inflammatoires
+  - /uvéite intermédiaire/ (dans le vitré) : cellules inflammatoires
 - FO visible anormal
-  - occlusion de l'artère centrale de la rétine : BAV brutale, mydriase
+  - /occlusion de l'artère centrale de la rétine/ : BAV brutale, mydriase
     aréflexique et RPM direct aboli, \dec diffuse du calibre artériel, \oe{}dème
     blanc rétinien ischémique de la rétine (macula rouge cerise)
-  - occlusion de la veine centrale de la rétine : BAV variable, {\oe{}dème
+  - /occlusion de la veine centrale de la rétine/ : BAV variable, {\oe{}dème
     papillaire, hémorragie rétiniennes disséminées, nodules cotonneux,
     tortuosités veineuse}. Préciser si ischémique
-  - DMLA : BAV et métamorphopsies brutales, décolleme exsudatif de la rétine
+  - /DMLA/ : BAV et métamorphopsies brutales, décollement exsudatif de la rétine
     maculaire \pm hémorragies, exsudats profonds
-  - décollement de la rétine rhegmatogène : après une déhiscence, le vitré va
+  - /décollement de la rétine rhegmatogène/ : après une déhiscence, le vitré va
     sous la rétine. 
-    - causese : idiopathique (âgé), myopie (forte), chir cataracte
+    - causes : idiopathique (âgé), myopie (forte), chir cataracte
     - évolution spontanée = cécité
     - /ttt/ chir (semi-urgence \danger) 
     - clinique : myodésopsies, phosphènes, amputation CV périphérique, BAV
     - diag par FO : rétine en relief, mobile, avec des plis
     - toujours examiner \oe{}il controlatéral (ttt préventif par photocoagulation)
       \danger
-  - neuropathie optique ischémique antérieure : BAV unilatérale brutale, \dec
+  - /neuropathie optique ischémique antérieure/ : BAV unilatérale brutale, \dec
     RPM direct, \oe{}dème papillaire, déficit fasciculaire pour CV. Cause : surtout
     artériosclérose mais penser à Horton (urgence \skull)
-FO visible normal
-  - névrite optique rétrobulbaire : BAV unilatérale progresse en qq jours (!),
+- FO visible normal
+  - /névrite optique rétrobulbaire/ : BAV unilatérale progresse en qq jours (!),
     douleur \inc mouvement oculaires, RPM direct \dec, FO normal, scotome
     (caeco)-central
-  - atteinte des voies (rétro)chiasmatiques : tumorale (si progressive), vasc (si brutale)
+  - /atteinte des voies (rétro)chiasmatiques/ : tumorale (si progressive), vasc (si brutale)
     
 Anomalies transitoire 
-  - cécité monoculaire transitoire (qq minute) = amarause. FO pour embole
-    rétinien. Urgence \skull. Cherhe athérome carotidien, cardiopathie embolinogène
+  - /cécité monoculaire transitoire/ (qq minute) = amarause. FO pour embole
+    rétinien. Urgence \skull. Chercher athérome carotidien, cardiopathie embolinogène
   - insuf vertébrobasilaire, éclipses visuelle, scotome scintillant
 * 9 Prélèvement de cornée
 Le médecine prélèveur \ne celui qui a fait le constat de mort
 
-Sérologies à faire : HIV, HTLV, hépatite B et C, syphils
+Sérologies à faire : HIV, HTLV, hépatite B et C, syphilis
+
 CI :
 - locale : chir sur segment antérieure, uvéite, conjonctivite, tumeur,
   rétinoblastome, mélanome choroïdien
-- infectieuses (Sida, rage, Creutzfeld-Jakob, héatite..),
+- infectieuses (Sida, rage, Creutzfeld-Jakob, hépatite..),
 - neuro inexpliquée, démence
 
 Prélèvement *in situ*
@@ -532,13 +533,13 @@ Techniques
 - kératoplastie lamellaire antérieure = épithelium, Bowman et stroma seulement
 - kératoplastie endothéliale : membrane de Descemet et endotheliale seulement.
 
-Indications : trauma perforant de la cornée, brûlures chimiques, dégénérescene
+Indications : trauma perforant de la cornée, brûlures chimiques, dégénérescence
 cornéenne (kératocône), kératite (herpétique), dystrophie bulleuse chez âgé
 
 Bon pronostic dans $\frac{2}{3}$
 
-Complications rare (retard d'épithélialisation, \oe{}dème cornéen précoce, rejet
-immuntaire, récivide de maladie causale, hypertonie oculaire, astigmatisme post-op
+Complications rares (retard d'épithélialisation, \oe{}dème cornéen précoce, rejet
+immunitaire, récivide de maladie causale, hypertonie oculaire, astigmatisme post-op)
 * 11 Traumatismes oculaires
 ** Globe fermé (contusions)
 Dangerosité inversement \propto taille agent.
@@ -568,14 +569,13 @@ Rupture du globe : pronostic plus péjoratif si postérieur
 
 Trauma perforant : 
 - AVP, accidents domestique, bricolage, agression.
-- larges, mauvais pronostic ou petite plais (cornée ou sclère)
+- plaies : larges (mauvais pronostic) ou petites (cornée ou sclère)
 - risque : méconnaître plaie, corps étranger. Si doute, scanner !
 
 ** Corps étrangers
 Diagnosic évident : 
 - superficiel 
-  - circonstance, symptôme de conjonctivite ou kératite
-  superficielle. Corps étranger souvent visible
+  - circonstance, symptôme de conjonctivite ou kératite superficielle. Corps étranger souvent visible
   - bon pronostic, ttt lubrifiant et antiseptique/ATB local
 - intraoculaire : circonstance, porte d'entrée et trajet visible
 Délicat si trauma non remarqué, pas de porte d'entrée, trajet et corps non visible
@@ -584,7 +584,7 @@ Examens : TDM si doute. Pas d'écho B si transfixiante. Pas d'IRM \danger
 
 Complications (si intraoculaire) : endophtalmie (grave++), DR, cataracte traumatique
 
-Complications tardives : ophtalmie sympathique [fn:19], sidérose, chalcose
+Complications tardives : ophtalmie sympathique [fn:19], sidérose (fer), chalcose (cuivre)
 * 12 Brûlures oculaires
 Accident industriels (graves), domestiques, aggression
 
@@ -621,12 +621,43 @@ Examen clinique :
 - AV (\oe{}il par \oe{}il, bionculaire)
 - lampe à fente : 
   - cristallin (caracte {nucléaire, sous-capsulaire postérieure, corticale, totale})
-  - éliminer autre patho (cornée, iris, vitré, rétine (DMLA, glaucome)
+  - éliminer autre patho (cornée, iris, vitré, rétine (DMLA, glaucome))
   - mesure tonus oculaire (hypertonie, glaucome)
 
 Diagnostic clinique mais en complémentaire :
 - écho en mode B si décollement de rétine/tumeur intraoculaire
-- pour le cristallin artificiel : kératométire, longeur axiale
+- pour le cristallin artificiel : kératométrie, longeur axiale
+
+Étiologies :
+- âge++
+- traumatique (contusion violent, trauma perforant)
+- secondaire à diabète, hypoparathyroïdie
+- secondaire aux corticoïdes locaux/généraux au long cours, à radiothérapie
+  orbitaire
+- secondaire à dystrophie myotonique de Steinert, trisomie 21
+- congénitales
+
+** Traitement = chir
+Anesthésique topique/locorégionale[fn:28], en ambulatoire. Sous dilatation
+pupillaire. 
+
+Technique = extraction extracapsulaire automatique par phacoémulsification. Puis
+collyre anti-inflammatoire+ATB (1 mois).
+
+Correction optique : implant de chambre postérieure (rarement antérieure)
+- monofocal = sphérique (hypermétropie/myopie) ou torique (idem + astigmatisme)
+- multifocaux : corrige vision de loin et de près
+- si implant impossible : lentilles de contact/ ou lunettes (exceptionnel)
+
+Indication : quand BAV = 5/10.
+
+Complications :
+- opacification de la capsule postérieure
+- endophtalmie[fn:29] : à J2-J7. Ttt : ATB local, intravitréenne et générale
+- décollement de la rétine
+- \oe{}dème maculaire : semaines/mois. ttt : anti-inflammatoire
+  (local/locorégional)
+- kératite bulleuse
 
 * 14 Glaucome chronique
 = Glaucome primite à angle ouvert (GPAO) Neuropathie optique progressive altération
@@ -1034,6 +1065,10 @@ Classification de Kirkendall
 
 * Footnotes
 
+[fn:29] Infection intraoculaire sévère.
+
+[fn:28] Voire générale
+
 [fn:27] BAV par altération précoce de l'expérience visuelle. 
 
 [fn:26] Focales en avant/arrière/des 2 côtes de la rétine resp.
@@ -1055,7 +1090,7 @@ convergence. Nystagmus pendulaire en abduction de l'\oe{}il sain !
 
 [fn:18] Désinsertion de la base de l'iris
 
-[fn:17] Hémorragie itnravitréen uni-/bi-latérale et hémorragie méningée par
+[fn:17] Hémorragie intravitréenne uni-/bi-latérale et hémorragie méningée par
 rupture d'anévrisme intracrânien
 
 [fn:16] Cf chapitre suivant pour BAV brutale
