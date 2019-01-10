@@ -3,6 +3,12 @@
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \input{header}
 #+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+#+latex_header: \usepackage[acronym, nonumberlist]{glossaries}
+#+latex_header: \makeglossaries
+#+latex_header_extra: \newacronym{RPM}{RPM}{Réflexe photomoteur}
+#+latex_header_extra: \newacronym{DMLA}{DMLA}{Dégénérescence maculaire liée à l'âge}
+#+latex_header_extra: \newacronym{PEV}{PEV}{Potentiels évoqués visuels}
+
 #+OPTIONS: H:4
 
 \input{bacteries-header}
@@ -32,9 +38,8 @@ Annexes
   
 ** Examen
 Interrogatoire : 
-- baisse d'acuité visuelle (BAV), fatigue visuelle, myodésopsies,
-métamorphopsies, héméralopie, scotome/amputation champ visuel, 
-- mode d'installation : urgente si brutal
+- baisse d'acuité visuelle (BAV), fatigue visuelle, myodésopsies, métamorphopsies, héméralopie, scotome/amputation champ visuel, 
+- mode d'installation : urgence si brutal \skull
 - douleur superficielles/profondes
 - diplopie mono/bi-noculaire
 - évolution : aggration rapide = grave
@@ -65,15 +70,14 @@ Oculomotricité
 Fonctions visuelles
 - Champ visuel :
   - sensibilité lumineuse \dec périphérie, papille = zone aveugle
-  - périmétrie cinétique (Goldman : trace isoptères) ou statique (dépistage
-  glaucome)
+  - périmétrie cinétique (Goldman : trace isoptères) ou statique (dépistage glaucome)
 - Vision des couleurs : si dépistage anomalie congénitale (planches colorées) ou
 affection acquise (Farnsworth = classer couleurs). Utile pour antipaludéens de
 synthèse ou {éthambutal, isoniazide}
-Angiographie du fond d'\oe{}ils : fluorescine ou vert d'indocyanine (DMLA++)
 
-Électrophysio : électrorétinogramme (si lésion rétiniennes étendues), potentiels
-évoqués visuels (cortex occipital) (SEP++), électro-oculogramme (épithelium pigmentaire)
+Angiographie du fond d'\oe{}ils : fluorescine ou vert d'indocyanine (gls:DMLA++)
+
+Électrophysio : électrorétinogramme (si lésion rétiniennes étendues), gls:PEV (cortex occipital) (SEP++), électro-oculogramme (épithelium pigmentaire)
 
 Echographie : mode A (longueur globe oculaire) ou B (décollement rétine, corps
 étranger intraoculaire, tumeur)
@@ -119,7 +123,7 @@ Myopie
 
 Correction : verres sphériques concaves.
 
-Chirurgie par photoablation au laser ecited dimer[fn:9]. Chirugie du cristallin
+Chirurgie par photoablation au laser excited dimer[fn:9]. Chirurgie du cristallin
 possible.
 
 *** Hypermétropie
@@ -128,19 +132,19 @@ par verres sphériques convexes, lentilles ou chir.
 
 *** Astigmatisme
 Rayons de courbures différents pour les méridiens. Régulier si 2 méridiens
-principaux \bot.
+principaux \bot{}.
 
 1 point à l'infini = 2 droite perpendiculaire (= focales) \thus myopique,
-hypermétropiique ou mixtes
+hypermétropique ou mixtes[fn:26]
 
 Correction par verres cylindriques convexes/concaves, lentilles ou chir
 
 * 3 Suivi d'un nourisson
 Déficits mineurs (amétropie, strabisme) ou sévères (grave !) (milieux transparents,
-  malforamtion, rétinopathie, atteintes neuro centrales)
+  malformation, rétinopathie, atteintes neuro centrales)
 
-20% d'enfant < 6 ans avec anomalie visuelle. Si non traitée, amblyopie (BAV),
-définitive > 6ans !
+20% d'enfant < 6 ans avec anomalie visuelle. Si non traitée, amblyopie[fn:27] ,
+définitive après 6ans !
 
 Développement :
 - 1ere semaine : réflexe lumière, RPM
@@ -150,25 +154,16 @@ Développement :
 - 4-5e mois : coordinatio \oe{}il-tête-main
 - > 2 ans : AV mesurable
 Examens obligatoires pour {strabisme, nystagmus, anomalie organique, trouble
-comportement visuel}:
-- dépistage anténal (écho)
-- 1ere semaine
-- 4eme mois
-- 9eme mois
-- 2 ans
-- 3-6 ans
+comportement visuel}: /dépistage anténal - S1 - 4M - 9M - 2A - 3 à 6A/
   
 Dépistage : leucocorie, glaucome congénital, malformations, infections
 maternelles, maladies enfants secoués, rétinopathie des prématurés
 * 4 Strabisme de l'enfant
   
-Position de l'\oe{}il anormale et altération vision binoculaire. Provient d'une
-perturbation de la fusion.
+Position de l'\oe{}il anormale et altération vision binoculaire. Due à une perturbation de la fusion.
 
 Conséquences :
-- Si aigu : diplopie possible. Si ancien : corrigé par cerveaux \thus vision
-binoculaire non acquise si strabisme dans premiers mois de vie !. Amblyopie
-possible
+- Si aigu : diplopie possible. Si ancien : corrigé par cerveau \thus vision binoculaire non acquise si strabisme dans premiers mois de vie !. Amblyopie possible
 - Perturbation vision stéréoscopie (3D)
  
 Souvent dans l'enfance. 4% population. *Dépistage avant 2 ans*
@@ -186,14 +181,14 @@ Interrogatoire :
 Examen : 
 - motilité : strabisme paralytique ?
 - segment antérieur et FO (fond d'\oe{}il) : perte transparence, patho rétinienne ? Si nystagmus : électrorétinogramme, PEV, IRM
-- réfraction sous cycloplégique : amyotropie ? Hypermétropie fréuente
+- mesure de réfraction sous collyre cycloplégique : amyotropie ? Hypermétropie fréquente
 - acuité visuelle : amblyopie ? (> 2/10 entre 2 yeux)
 - mesure de l'angle de déviation (si chir), vision binoculaire (pronostique)
 
 ** Traitement
 Correction optique. Si amblyopie, occlusion de l'\oe{}il dominant (jusque 6-8ans)
 
-Chir si angle résident avec correction. Correction optique après opération
+Chir si angle résiduel avec correction. Correction optique après opération
 * 5 Diplopie (binoculaire)
 Binoculaire : disparaît à l'occlusion d'un \oe{}il[fn:10]. Souvent une urgence
 \danger
@@ -1014,7 +1009,14 @@ Classification de Kirkendall
   (idem + \oe{}dème papillaire
 - artériosclérose : I (croisemenrt), II (idem plus rétrécissement marqué), III
   (idem plus occlusion de branche)
+
+\printglossaries
+
 * Footnotes
+
+[fn:27] BAV par altération précoce de l'expérience visuelle. 
+
+[fn:26] Focales en avant/arrière/des 2 côtes de la rétine resp.
 
 [fn:25] Veine "écrasée" sur le croisement avec l'artère, dilatée en amont
 
@@ -1066,5 +1068,5 @@ rupture d'anévrisme intracrânien
 
 [fn:2] Plus de voie efférente \thus \oe{}il atteint : RPM direct aboli. \OE{}il sain : RPM consensuel aboli
 
-[fn:1] Plus de voie afférente  \thus RPM (réflexe photomoteur) direct et
-consensuel aboli pour l'\oe{}il atteint
+[fn:1] Plus de voie afférente  \thus gls:RPM direct et consensuel aboli pour l'\oe{}il atteint
+

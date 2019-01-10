@@ -1,10 +1,15 @@
-% Created 2019-01-10 Thu 11:06
+% Created 2019-01-10 Thu 14:05
 % Intended LaTeX compiler: lualatex
 \documentclass[11pt]{article}
 \usepackage[hidelinks]{hyperref}
 \usepackage{booktabs}
 \input{header}
 \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage[acronym, nonumberlist]{glossaries}
+\makeglossaries
+\newacronym{RPM}{RPM}{Réflexe photomoteur}
+\newacronym{DMLA}{DMLA}{Dégénérescence maculaire liée à l'âge}
+\newacronym{PEV}{PEV}{Potentiels évoqués visuels}
 \author{Alexis Praga}
 \date{\today}
 \title{Ophtalmologie}
@@ -22,9 +27,9 @@
 
 \input{bacteries-header}
 \section{1 Sémiologie oculaire}
-\label{sec:orgfcd942a}
+\label{sec:org65b8291}
 \subsection{Globe}
-\label{sec:org03ba321}
+\label{sec:org331ffa6}
 Membranes (d'avant en arrière)
 \begin{itemize}
 \item externe = \{cornée (avant), conjonctive (sur sclère antérieure), sclère\}
@@ -44,8 +49,7 @@ normale si \(\le\) 22 mmHg.
 Voies optiques : 
 \begin{itemize}
 \item nerf optique - chiasma - bandelettes optiques - corps genouillés externes - radiations optiques - cortex occipital
-\item mydriase "sensorielle"\footnote{Plus de voie afférente  \thus RPM (réflexe photomoteur) direct et
-consensuel aboli pour l'\oe{}il atteint} vs "paralytique"\footnote{Plus de voie efférente \thus \oe{}il atteint : RPM direct aboli. \OE{}il sain : RPM consensuel aboli}
+\item mydriase "sensorielle"\footnote{Plus de voie afférente  \thus \gls{RPM} direct et consensuel aboli pour l'\oe{}il atteint} vs "paralytique"\footnote{Plus de voie efférente \thus \oe{}il atteint : RPM direct aboli. \OE{}il sain : RPM consensuel aboli}
 \item voie efférente sympathique : si atteinte, sd Claude-Bernard-Horner (myosis, ptosis)
 \end{itemize}
 Annexes
@@ -57,14 +61,11 @@ paupière, globe antérieur), film lacrymal
 \end{itemize}
 
 \subsection{Examen}
-\label{sec:orga860ba4}
+\label{sec:org26fd334}
 Interrogatoire : 
 \begin{itemize}
-\item baisse d'acuité visuelle (BAV), fatigue visuelle, myodésopsies,
-\end{itemize}
-métamorphopsies, héméralopie, scotome/amputation champ visuel, 
-\begin{itemize}
-\item mode d'installation : urgente si brutal
+\item baisse d'acuité visuelle (BAV), fatigue visuelle, myodésopsies, métamorphopsies, héméralopie, scotome/amputation champ visuel,
+\item mode d'installation : urgence si brutal \skull
 \item douleur superficielles/profondes
 \item diplopie mono/bi-noculaire
 \item évolution : aggration rapide = grave
@@ -97,23 +98,22 @@ exsudats profonds, \oe{}dème papillaire\footnote{Si BAV, vasculaire probable. S
 Oculomotricité
 
 \subsection{Complémentaires}
-\label{sec:org092bbef}
+\label{sec:org4415083}
 Fonctions visuelles
 \begin{itemize}
 \item Champ visuel :
 \begin{itemize}
 \item sensibilité lumineuse \dec périphérie, papille = zone aveugle
-\item périmétrie cinétique (Goldman : trace isoptères) ou statique (dépistage
+\item périmétrie cinétique (Goldman : trace isoptères) ou statique (dépistage glaucome)
 \end{itemize}
-glaucome)
 \item Vision des couleurs : si dépistage anomalie congénitale (planches colorées) ou
 \end{itemize}
 affection acquise (Farnsworth = classer couleurs). Utile pour antipaludéens de
 synthèse ou \{éthambutal, isoniazide\}
-Angiographie du fond d'\oe{}ils : fluorescine ou vert d'indocyanine (DMLA++)
 
-Électrophysio : électrorétinogramme (si lésion rétiniennes étendues), potentiels
-évoqués visuels (cortex occipital) (SEP++), électro-oculogramme (épithelium pigmentaire)
+Angiographie du fond d'\oe{}ils : fluorescine ou vert d'indocyanine (\gls{DMLA}++)
+
+Électrophysio : électrorétinogramme (si lésion rétiniennes étendues), \gls{PEV} (cortex occipital) (SEP++), électro-oculogramme (épithelium pigmentaire)
 
 Echographie : mode A (longueur globe oculaire) ou B (décollement rétine, corps
 étranger intraoculaire, tumeur)
@@ -122,7 +122,7 @@ Tomographie en cohérence optique (OCT) : affection maculaire (trou, DMLA),
 dépistage glaucome chronique
 
 \section{2 Réfraction}
-\label{sec:org7e843b9}
+\label{sec:orgdf4340d}
 \OE{}il \(\approx\) 60 dioptries (cornée = 42, cristallin = 20)
 Emmétrope = \oe{}il normal. Amétrope = anomalie de réfraction
 
@@ -134,7 +134,7 @@ l'\oe{}il. Mesurée par l'échelle de Monoyer (de loin) en 10eme (!) et de Parin
 (de près)
 
 \subsection{Accomodation}
-\label{sec:org2292605}
+\label{sec:org7e8ea95}
 Amplitude \dec jusque 0 (79 ans) \thus presbytie (BAV vision de près). Compensée
 par verres sphériques convexes progressifs ou implant cristallinien
 
@@ -142,13 +142,13 @@ Sinon, \dec vision de près par : médicaments, paralysie III, maladie général
 spasmes de l'accomodation
 
 \subsection{Anomalies de la réfraction}
-\label{sec:org623795b}
+\label{sec:orgdd11093}
 Différencier maladie de l'\oe{}il/voie optique et anomalie réfraction !
 
 Examen : réfractomètres automatiques \thus réfraction, kératométrie\footnote{Courbure de la cornée}. \footnote{Chez l'enfant, cycloplégique}
 
 \subsubsection{Myopie}
-\label{sec:org74f4092}
+\label{sec:org99b6840}
 \OE{}il trop convergent. \(\approx\) 20\% population occidentale. PR à distance finie,
 PP plus proche.
 
@@ -165,31 +165,31 @@ cataracte, décollement de la rétine++
 
 Correction : verres sphériques concaves.
 
-Chirurgie par photoablation au laser ecited dimer\footnote{Abrasion épithelium cornéen ou volet dans cornée.}. Chirugie du cristallin
+Chirurgie par photoablation au laser excited dimer\footnote{Abrasion épithelium cornéen ou volet dans cornée.}. Chirurgie du cristallin
 possible.
 
 \subsubsection{Hypermétropie}
-\label{sec:orga4f2cb6}
+\label{sec:org302b8c8}
 Fréquent (enfant++). Pas assez convergent. PR = virtuel à l'arrière. Correction
 par verres sphériques convexes, lentilles ou chir.
 
 \subsubsection{Astigmatisme}
-\label{sec:orga4937f0}
+\label{sec:orgf0ae656}
 Rayons de courbures différents pour les méridiens. Régulier si 2 méridiens
-principaux \bot.
+principaux \bot{}.
 
 1 point à l'infini = 2 droite perpendiculaire (= focales) \thus myopique,
-hypermétropiique ou mixtes
+hypermétropique ou mixtes\footnote{Focales en avant/arrière/des 2 côtes de la rétine resp.}
 
 Correction par verres cylindriques convexes/concaves, lentilles ou chir
 
 \section{3 Suivi d'un nourisson}
-\label{sec:orgd75c772}
+\label{sec:org4faec2a}
 Déficits mineurs (amétropie, strabisme) ou sévères (grave !) (milieux transparents,
-  malforamtion, rétinopathie, atteintes neuro centrales)
+  malformation, rétinopathie, atteintes neuro centrales)
 
-20\% d'enfant < 6 ans avec anomalie visuelle. Si non traitée, amblyopie (BAV),
-définitive > 6ans !
+20\% d'enfant < 6 ans avec anomalie visuelle. Si non traitée, amblyopie\footnote{BAV par altération précoce de l'expérience visuelle.} ,
+définitive après 6ans !
 
 Développement :
 \begin{itemize}
@@ -201,38 +201,25 @@ Développement :
 \item > 2 ans : AV mesurable
 \end{itemize}
 Examens obligatoires pour \{strabisme, nystagmus, anomalie organique, trouble
-comportement visuel\}:
-\begin{itemize}
-\item dépistage anténal (écho)
-\item 1ere semaine
-\item 4eme mois
-\item 9eme mois
-\item 2 ans
-\item 3-6 ans
-\end{itemize}
+comportement visuel\}: \emph{dépistage anténal - S1 - 4M - 9M - 2A - 3 à 6A}
 
 Dépistage : leucocorie, glaucome congénital, malformations, infections
 maternelles, maladies enfants secoués, rétinopathie des prématurés
 \section{4 Strabisme de l'enfant}
-\label{sec:org610138f}
+\label{sec:orgcc5848b}
 
-Position de l'\oe{}il anormale et altération vision binoculaire. Provient d'une
-perturbation de la fusion.
+Position de l'\oe{}il anormale et altération vision binoculaire. Due à une perturbation de la fusion.
 
 Conséquences :
 \begin{itemize}
-\item Si aigu : diplopie possible. Si ancien : corrigé par cerveaux \thus vision
-\end{itemize}
-binoculaire non acquise si strabisme dans premiers mois de vie !. Amblyopie
-possible
-\begin{itemize}
+\item Si aigu : diplopie possible. Si ancien : corrigé par cerveau \thus vision binoculaire non acquise si strabisme dans premiers mois de vie !. Amblyopie possible
 \item Perturbation vision stéréoscopie (3D)
 \end{itemize}
 
 Souvent dans l'enfance. 4\% population. \textbf{Dépistage avant 2 ans}
 
 \subsection{Dépistage}
-\label{sec:orgd778007}
+\label{sec:orgf6b5b46}
 Jamais normal, toujours symptôme
 
 Interrogatoire :
@@ -248,18 +235,18 @@ Examen :
 \begin{itemize}
 \item motilité : strabisme paralytique ?
 \item segment antérieur et FO (fond d'\oe{}il) : perte transparence, patho rétinienne ? Si nystagmus : électrorétinogramme, PEV, IRM
-\item réfraction sous cycloplégique : amyotropie ? Hypermétropie fréuente
+\item mesure de réfraction sous collyre cycloplégique : amyotropie ? Hypermétropie fréquente
 \item acuité visuelle : amblyopie ? (> 2/10 entre 2 yeux)
 \item mesure de l'angle de déviation (si chir), vision binoculaire (pronostique)
 \end{itemize}
 
 \subsection{Traitement}
-\label{sec:orgf45d303}
+\label{sec:org10f8b53}
 Correction optique. Si amblyopie, occlusion de l'\oe{}il dominant (jusque 6-8ans)
 
-Chir si angle résident avec correction. Correction optique après opération
+Chir si angle résiduel avec correction. Correction optique après opération
 \section{5 Diplopie (binoculaire)}
-\label{sec:orgdaa72c7}
+\label{sec:orgdb5c89e}
 Binoculaire : disparaît à l'occlusion d'un \oe{}il\footnote{Monoculaire : cause cornéenne, irienne, cristalinienne \thus pas une urgence.}. Souvent une urgence
 \danger
 
@@ -291,7 +278,7 @@ contractent.
 \end{itemize}
 
 \subsection{Diagnostic}
-\label{sec:org0ceeeb9}
+\label{sec:org76c9f1d}
 \begin{itemize}
 \item Signes fonctionnels : dédoublement toujours même direction\footnote{\danger méconnu si ptosis/\oe{}dème palpébral}, disparaît à
 \end{itemize}
@@ -316,7 +303,7 @@ paralysie oculomotrie
 \end{itemize}
 
 \subsection{Sémiologie}
-\label{sec:org1017540}
+\label{sec:org88ec868}
 \begin{itemize}
 \item Paralysie du III : totale (ptosis total, mydriase aréflective, 0 accomodation)
 \end{itemize}
@@ -336,11 +323,11 @@ controlatéraux\}
 \end{itemize}
 
 \subsection{DD}
-\label{sec:org6307403}
+\label{sec:org10a67c9}
 Diplopie monoculaire, simulation, hystérie
 
 \subsection{Étiologie}
-\label{sec:org13c4f71}
+\label{sec:orgaf5a451}
 \begin{itemize}
 \item Traumatique : fracture du plancher de l'orbite (élévation globe douleureuse),
 hémorragie méningé traumatique
@@ -356,9 +343,9 @@ carotidocaverneuse = urgence \skull. Maladie de Horton. Sd Tolosa-Hunt
 \item Myasthénie : diag = \{test Prostigmine, Ac anti récepteur acétylcholine, électromyographie\}
 \end{itemize}
 \section{6 \OE{}il rouge/douloureux}
-\label{sec:org910abf6}
+\label{sec:org6a52392}
 \subsection{Examen}
-\label{sec:org7d5e1b1}
+\label{sec:org9a78402}
 Interrogatoire : mode d'apparition, douleur superficielle/profonde, BAV
    ?, ATCD ophtalmo et généraux, signes locaux associés
 
@@ -386,7 +373,7 @@ néovasculaire), hypotonie (plaie oculaire transfixiante)
 \end{itemize}
 
 \subsection{Étiologies}
-\label{sec:orgf4b483a}
+\label{sec:orga2cf9c7}
 \OE{}il rouge, non douloureux, sans BAV
 \begin{itemize}
 \item hémorragie sous-conjonctivale spontanée : chercher HTA, trouble
@@ -475,9 +462,9 @@ l'humeur aqueuse
 \item Endophtalmie post-opératoire : douleur intense, \oe{}dème palpébral, hyalite
 \end{itemize}
 \section{7 Altération de la fonction visuelle}
-\label{sec:orgdc41f5e}
+\label{sec:org2318e10}
 \subsection{Examen}
-\label{sec:org73ac69d}
+\label{sec:org29737d7}
 Interrogatoire : BAV objective, altération CV  (myodésopsies, phosphènes,
 métamorphopsies, éclipse viusuelle (qq secondes) ou cécité monoculaire
 transitoire (qq min-heures), aura visuelle), installation, unilatéral ?, douleur
@@ -487,11 +474,11 @@ Examen ophtalmo : AV (avec correction), RPM, segment antériur, tonus oculaire,
 \{cristallin, vitré, rétine, vaisseux, nerf optique\}
 
 \subsection{BAV progressive \footnote{Cf chapitre suivant pour BAV brutale}}
-\label{sec:org9a30eaa}
+\label{sec:org306f843}
 Si améliorié par correction optique, trouble de réfraction. Sinon 
 
 \subsubsection{Transparence anormale}
-\label{sec:org2dbe063}
+\label{sec:orgf46f4ef}
 Cataracte : BAV bilatérale, photophobie, myopie d'indice, diplopie
 monoculaire. Perte de transparence du cristallin (opalescent). Étiologie : âge
 surtout. \emph{Ttt} : chir
@@ -499,7 +486,7 @@ surtout. \emph{Ttt} : chir
 Autres : cornées, vitré (hyalite des uvéite)
 
 \subsubsection{Atteinte nerf optique}
-\label{sec:orgd1603c4}
+\label{sec:org909e42f}
 Glaucome chronique à angle ouvert (GCAO) : longtemps asymptomatique. Diag =
 \{\inc tonus oculaire, altération CV, excavation glaucomateuse de la
 papille\}. \emph{Ttt} : collyre hypotonisants, trabéculoplastie (laser/chir)
@@ -507,7 +494,7 @@ papille\}. \emph{Ttt} : collyre hypotonisants, trabéculoplastie (laser/chir)
 Autres : neuropathie toxiques (alcool-tabac, médic), héréditaires, compressive
 
 \subsubsection{Atteinte de la rétine/macula}
-\label{sec:orga8bdd6c}
+\label{sec:orgc11a556}
 Dystrophies rétiniennes héréditaires :
 \begin{itemize}
 \item maculoopathies héréditaires : maladie de Stargardt = débute vers 7-12 ans,
@@ -536,15 +523,15 @@ irréversible. Pas avant 5 ans ? Commence par périfovéolopathie \thus arrêt
 immédiat du ttt \danger
 
 \subsection{Altération du CV}
-\label{sec:org2cd3631}
+\label{sec:orgd7ffd76}
 = altération vision périphérique
 
 \subsubsection{Affections rétiniennes}
-\label{sec:orgc25b44b}
+\label{sec:orgc690987}
 Scotomes (para)centraux , déficits périphériques
 
 \subsubsection{Atteinte des voies optiques}
-\label{sec:org578df13}
+\label{sec:org24e85d9}
 Atteinte nerf optique : cécité unilatérale (trauma, tumeur) 
 \begin{itemize}
 \item scotome central unilatéral ou caecocentral uni-/bi-latéral
@@ -570,16 +557,16 @@ trauma
 Cécité corticale : bilatérale, brutale. Examen ophtalmo OK, RPM OK,
 désorientation, hallucination visuelles, anosognosie
 \section{8 Anomalies de la vision d'apparition brutale}
-\label{sec:org933af26}
+\label{sec:org8e4dac5}
 \subsection{Diagnostic}
-\label{sec:org78c49ce}
+\label{sec:org596b85d}
 Interrogatoire : BAV ? altération CV ? myodésopsies,  phosphènes,
 métamorphopsies ? rapidité, latéralité, type de douleurs, ATCD, ttt, trauma ?
 
 Examen ophtalmo ( 2 yeux) : AV, RPM, segment antérieur, tonus oculaire, FO
 
 \subsection{Étiologie}
-\label{sec:org95f401e}
+\label{sec:orge4387eb}
 BAV, \oe{}il rouge et douloureux 
 \begin{itemize}
 \item kératite aigüe : douleur superficielles importantes, photophobie,
@@ -651,7 +638,7 @@ rétinien. Urgence \skull. Cherhe athérome carotidien, cardiopathie embolinogè
 \item insuf vertébrobasilaire, éclipses visuelle, scotome scintillant
 \end{itemize}
 \section{9 Prélèvement de cornée}
-\label{sec:org3c8fdd7}
+\label{sec:org2e92491}
 Le médecine prélèveur \(\ne\) celui qui a fait le constat de mort
 
 Sérologies à faire : HIV, HTLV, hépatite B et C, syphils
@@ -666,7 +653,7 @@ rétinoblastome, mélanome choroïdien
 Prélèvement \textbf{in situ}
 
 \section{10 Greffe de cornée}
-\label{sec:org2d642f1}
+\label{sec:org764e59e}
 Couches (depuis l'extérieur) = épithelium, couche de Bowman, stroma, membrane
   de Descemet, endothelium
 
@@ -685,9 +672,9 @@ Bon pronostic dans \(\frac{2}{3}\)
 Complications rare (retard d'épithélialisation, \oe{}dème cornéen précoce, rejet
 immuntaire, récivide de maladie causale, hypertonie oculaire, astigmatisme post-op
 \section{11 Traumatismes oculaires}
-\label{sec:orgc1abb52}
+\label{sec:org6dcc0bd}
 \subsection{Globe fermé (contusions)}
-\label{sec:org4ee2b32}
+\label{sec:orgd874fad}
 Dangerosité inversement \(\propto\) taille agent.
 
 Interrogatoire : douleurs, AV, heure dernier repas, lésions associées.
@@ -717,7 +704,7 @@ rétine (DR) suspecté
 \end{itemize}
 
 \subsection{Globe ouverts}
-\label{sec:org10f12d4}
+\label{sec:org10ee96a}
 Rupture du globe : pronostic plus péjoratif si postérieur
 
 Trauma perforant : 
@@ -728,7 +715,7 @@ Trauma perforant :
 \end{itemize}
 
 \subsection{Corps étrangers}
-\label{sec:orgbe6cb06}
+\label{sec:org423482e}
 Diagnosic évident : 
 \begin{itemize}
 \item superficiel 
@@ -749,7 +736,7 @@ Complications (si intraoculaire) : endophtalmie (grave++), DR, cataracte traumat
 
 Complications tardives : ophtalmie sympathique \footnote{Uvéite auto-immune sévère}, sidérose, chalcose
 \section{12 Brûlures oculaires}
-\label{sec:orgff1bd80}
+\label{sec:org8442f03}
 Accident industriels (graves), domestiques, aggression
 
 Brûlures 
@@ -779,11 +766,11 @@ Autres :
 \end{itemize}
 
 \section{13 Cataracte}
-\label{sec:org6aaa299}
+\label{sec:org52c3669}
 Déf: opacification (partielle ou non) du cristallin. 
 
 \subsection{Diagnostic}
-\label{sec:org1a232e7}
+\label{sec:orgf10d9f8}
 Découvert sur BAV (progressive, vision de loin), photophobie, (diplopie
 monoculaire), jaunissement
 
@@ -807,7 +794,7 @@ Diagnostic clinique mais en complémentaire :
 \end{itemize}
 
 \section{14 Glaucome chronique}
-\label{sec:orgd23f279}
+\label{sec:orge9e7d19}
 = Glaucome primite à angle ouvert (GPAO) Neuropathie optique progressive altération
 fonction/structure.
 FR : âge, hypertonie oculaire (\(\ne\) cause !!), ATCD familaux directs, noirs
@@ -816,7 +803,7 @@ d'origine africaine, myopie
 Physio : perte accélére des fibres optiques liée à l'âge
 
 \subsection{Formes cliniques :}
-\label{sec:orgbd7677d}
+\label{sec:org3eb6754}
 GPAO à préssion élevée (> 21 mmHg) (70\% des pop. occidentales)
 \begin{itemize}
 \item anomalies de structures visibles cliniquement : papille = \{\dec surface,
@@ -840,7 +827,7 @@ DD :
 \end{itemize}
 
 \subsection{Traitement}
-\label{sec:org1c8c590}
+\label{sec:org662cd53}
 Dépistage : seulement ATCD familaux de GPAO, myopie, > 40 ans
 
 Ttt : \dec pression intra oculaire
@@ -862,7 +849,7 @@ avec décollement choroïdien, infection globe oculaire. Principal échec :
 fermeture de la voie par fibrose sous-conjonctivale.
 
 \section{15 Dégénérescence maculaire liée à l'âge}
-\label{sec:org01f79d7}
+\label{sec:org0da74f4}
 Atteinte de la macula chez > 50 A. Débutante/intermédaire : drusent, altération
 pigmentaire, AV normale ou peu \dec. Évoluée : atrophique ou exsudative
 
@@ -872,7 +859,7 @@ FR : âge, pop européennes, polymorphisme facteur H du complément, tabac, rég
 pauvre en anti-oxydant/riches en (acide gras saturés et cholestérol)
 
 \subsection{Diagnostic}
-\label{sec:org9226e7b}
+\label{sec:org9730bae}
 \begin{itemize}
 \item Mesure AV (loin et près, recherche scotome central ou métamorphopsies (grille
 \end{itemize}
@@ -886,7 +873,7 @@ forme exsudative [cf /infra/].
 \end{itemize}
 
 \subsection{Formes cliniques}
-\label{sec:org9a17a04}
+\label{sec:org0c21e87}
 \begin{itemize}
 \item débutante : \emph{drusen} = résidus de phagocytose des photorécepteurs. Petites
 lésions profondes jaunâtre. OCT
@@ -898,7 +885,7 @@ BAV sévère, scotome central définitif. BAV chez drusen = urgence \skull
 \end{itemize}
 
 \subsection{Ttt}
-\label{sec:orgf34b893}
+\label{sec:org4b62f16}
 \begin{itemize}
 \item débutante : vit E, C, zinc, lutéine, zéaxantine
 \item atrophique : \(\emptyset\)
@@ -908,7 +895,7 @@ ont amélioration visuelle à 2 ans.
 \end{itemize}
 Laser possible mais risque thrombose
 \section{16 Occlusions artérielles rétiniennes}
-\label{sec:org1849d89}
+\label{sec:orgd9dcd39}
 Artères ciliaires postérieure alimente les couches profondes (épithelium
 pigmentaire de la rétine, photorécepteurs). 
 Artère centrale de la rétine = couche internes (cellules bipolaires,
@@ -917,7 +904,7 @@ ganglionnaires, fibres optiques).
 Arrêt circulatoire \thus lésions définitives en 90min \danger
 
 \subsection{Occlusion de l'artère centrale de la rétine}
-\label{sec:orgf77ff10}
+\label{sec:orgf952bfc}
 Diagnostic : 
 \begin{itemize}
 \item BAV brutale (amaurose transitoires précédentes possibles)
@@ -949,7 +936,7 @@ cardiaques), endartériectomie
 \end{itemize}
 
 \subsection{Occlusion de branche l'artère centrale de la rétine}
-\label{sec:org66d97f5}
+\label{sec:org425c527}
 Amputation du CV. BAV possible. FO : \oe{}dème rétinie ischémique en secteur
 
 Évolution : \inc AV en qq semaines, pronostic visuel bon mais amputation
@@ -958,16 +945,16 @@ perisiste.
 Même étio, sausf Horton. Même ttt.
 
 \subsection{Nodules cotonneux}
-\label{sec:orgbf8f7c5}
+\label{sec:org2413bdf}
 Occlusion d'artérioles rétiniennes précapillaire \thus nodules cotonneux =
 petites lésions blanches superficielles d'aspect duveteux.
 
 Étio : HTA, diabète, occlusions veineuses rétiniennes, sida, lupus érythémateux
 disséminé, périartérite noueuses, embolies graisseuses, pancréatite aigüe, sd Purtscher
 \section{17 Occlusions veineuses rétiniennes}
-\label{sec:org124478a}
+\label{sec:orge029035}
 \subsection{Occlusion de la veine centrale de la rétine}
-\label{sec:orge94f2c9}
+\label{sec:orgc1d546f}
 SF : vision trouble brutalement, BAV variable, \oe{}il blanc indolore
 FO : 
 \begin{itemize}
@@ -1017,7 +1004,7 @@ néovasculaire
 
 
 \subsection{Occlusion de branche veineuse rétinienne}
-\label{sec:org176dd92}
+\label{sec:org0ecab75}
 Identique à OVCR mais territoire plus limité.
 Signe du croisement (cf chap 23) \thus > 60 ans, FR d'artériosclérose
 
@@ -1035,7 +1022,7 @@ perisistante, AV ɇ 5/10)
 \item photocoagulation sectorielle
 \end{itemize}
 \section{18 Pathologies des paupières}
-\label{sec:orgee0b1a7}
+\label{sec:org1ff142a}
 Anatomie : plan antérieur cutanéomusculaire, plan postérieur : tarse,
 conjonctive (papébrale, cul-de-sac, bulbauire). Sécrétion des larmes par la
 glande lacrymale principale, évacuées par les voies lacrymales excrétrices
@@ -1043,7 +1030,7 @@ glande lacrymale principale, évacuées par les voies lacrymales excrétrices
 Fermeture paupière : nerf VII, ouverture par nerf III
 
 \subsection{Pathologies}
-\label{sec:org6d4d6de}
+\label{sec:org09b98a2}
 Orgelet : furoncle du bord libre, centré sur follicule du cil.
 \begin{itemize}
 \item infection bactérienne (\bact{dore}, tuméfaction rouge autour point blanc
@@ -1057,7 +1044,7 @@ incision
 \end{itemize}
 
 \subsection{Autres}
-\label{sec:org20aacb8}
+\label{sec:orge4d3216}
 Malformation palpébrales : 
 \begin{itemize}
 \item entropion : bascule vers l'intérieur. Sénile, cicatriciel)
@@ -1084,7 +1071,7 @@ Trauma : vérifier septum orbitaire, globe oculaire, canalicules lacrymaux
 arrachés (urgence \skull)
 
 \section{19 SEP}
-\label{sec:org3f70d53}
+\label{sec:orgaa523c7}
 Névrite optique rétrobulbaire \(\in\) SEP (20\% = inaugurale). Atteint adulte \(\in\)
 [20,40]ans, surtout \female
 
@@ -1118,7 +1105,7 @@ convergence. Nystagmus pendulaire en abduction de l'\oe{}il sain !}
 \item périphlibite rétiniennes (5\%)
 \end{itemize}
 \section{20 Neuropathie optique ischémique antérieure}
-\label{sec:org0391c67}
+\label{sec:orgccaceee}
 Ischémie de la tête du nerf optique (artères ciliaire postiérieures)
 
 Diagnostic clinique :
@@ -1155,7 +1142,7 @@ Ttt : 
 \end{itemize}
 
 \section{21 Rétinopathie diabétique}
-\label{sec:orgd42923d}
+\label{sec:org2e67982}
 30\% diabétique en ont une. Diabète 1 : 90\% après 20 ans. Diabète 2 : 60\% à 15
 ans
 
@@ -1168,7 +1155,7 @@ sanguin rétinien, production VEGF\} puis
 \end{itemize}
 
 \subsection{Diagnostic}
-\label{sec:orgddf1cb3}
+\label{sec:orgfbce772}
 Photographie du FO = référence et dépistage
 \begin{itemize}
 \item microanévrisme rétitiens : dilatations punctiformes rouges (postérieure)
@@ -1187,7 +1174,7 @@ Complémentaire : OCT pour diagnostic et suivi \oe{}dème maculaire, echo en mod
 pour décollement de rétine par traction
 
 \subsection{Dépistage RD}
-\label{sec:org8ed117b}
+\label{sec:orgc4034fb}
 Diabète 1 : photo FO à la découverte puis surveillance annuelle
 \begin{itemize}
 \item enfant: pas avant 10 ans
@@ -1216,7 +1203,7 @@ Progression lente, aggravations rapides possibles. \danger prolifération néova
 peut donner cécité 
 
 \subsection{Traitement}
-\label{sec:orgcf619ca}
+\label{sec:orgb9b0e3a}
 Médical :
 \begin{itemize}
 \item équilibre glycémique et hypertension pour 2 diabètes !
@@ -1239,7 +1226,7 @@ de rétine tractionnel
 risque d'hypertonie oculaire (30\%)
 \end{itemize}
 \section{22 Orbitopathie dysthyroïdienne}
-\label{sec:orga4b02dd}
+\label{sec:orgc796136}
 Surtout maladie de Basedow (ou thyroïdite auto-immune d'Hashimoto
 
 Thyrotoxicose : \{palpitations, tachycardie\}, \{nervosité, tremblement, insomnie\},
@@ -1285,14 +1272,14 @@ Traitement
 \item chir : décompression orbitaire, muscles oculomoteurs, paupières
 \end{itemize}
 \section{23 Rétinopathie et choroïdopathie hypertensive}
-\label{sec:org3eb661a}
+\label{sec:org8976f7a}
 Bien différencier modifications liée à l'HTA (réversible par ttt de l'HTA) et
 celles irréversibles liées à l'artériosclérose 
 
 \inc Pa \thus vasoconstriction artérieur active (autorégulation)
 
 \subsection{Rétinopathie hypertensive}
-\label{sec:org6f8e659}
+\label{sec:orgd3ebb52}
 AV normale. Signes oculaires seulement si sévère :
 \begin{itemize}
 \item barrière hématorétinienne rompue \thus hémorragies rétiniennes superficielles,
@@ -1305,7 +1292,7 @@ la rétine (profondes)
 \thus non spécifiques mais évocateurs d'HTA si associés. Pas de BAV
 
 \subsection{Choroïdopathie hypertensive}
-\label{sec:org0078604}
+\label{sec:orge9d4092}
 Pas d'autorégulation pour les vaisseaux choroïdiens. Occlusion \thus ischémie et
 nécrose de l'épithelium pigmentaire. cicatrisens en petite taches pigmentées
 ("d'Elschnig").
@@ -1314,7 +1301,7 @@ Formes plusu sévère : décollement de rétine exsudatif (post) avec
 BAV. Normalisation avec ttt
 
 \subsection{Artériosclérose}
-\label{sec:orgc592030}
+\label{sec:orgc4da791}
 Lésions chroniques irréversibles mais asymptomatiques :
 \begin{itemize}
 \item accentuation du reflet artériolaire
@@ -1330,4 +1317,6 @@ II (idem + hémorragies rétiniennes, exsudats secs, nodules cotonneux), III
 \item artériosclérose : I (croisemenrt), II (idem plus rétrécissement marqué), III
 (idem plus occlusion de branche)
 \end{itemize}
+
+\printglossaries
 \end{document}
