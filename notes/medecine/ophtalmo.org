@@ -3,13 +3,15 @@
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \input{header}
 #+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
-#+latex_header: \usepackage[acronym, nonumberlist]{glossaries}
+#+latex_header: \usepackage[nonumberlist]{glossaries}
 #+latex_header: \makeglossaries
 #+latex_header_extra: \newacronym{RPM}{RPM}{Réflexe photomoteur}
 #+latex_header_extra: \newacronym{DMLA}{DMLA}{Dégénérescence maculaire liée à l'âge}
 #+latex_header_extra: \newacronym{PEV}{PEV}{Potentiels évoqués visuels}
 #+latex_header_extra: \def\ttt{\hspace*{1cm}Ttt: }
 #+latex_header_extra: \newacronym{NOIA}{NOIA}{Neuropathie optique ischémique antérieure}
+#+latex_header_extra: \newacronym{GPAO}{GPAO}{Glaucome primitif à angle ouvert}
+#+latex_header_extra: \newacronym{GNV}{GNV}{Glaucome néovasculaire}
 
 #+OPTIONS: H:4
 
@@ -660,17 +662,17 @@ Complications :
 - kératite bulleuse
 
 * 14 Glaucome chronique
-= Glaucome primite à angle ouvert (GPAO) Neuropathie optique progressive altération
-fonction/structure.
+= gls:GPAO. Neuropathie optique progressive altérant la fonction/structure.
+
 FR : âge, hypertonie oculaire (\ne cause !!), ATCD familaux directs, noirs
 d'origine africaine, myopie
 
-Physio : perte accélére des fibres optiques liée à l'âge
+Physio : perte accélérée des fibres optiques liée à l'âge
 
 ** Formes cliniques :
-GPAO à préssion élevée (> 21 mmHg) (70% des pop. occidentales)
+GPAO à pression élevée (> 21 mmHg) (70% des pop. occidentales)
 - anomalies de structures visibles cliniquement : papille = {\dec surface,
-  hémorragies péripapillaires en flammèches, atrophie péripapillaire \beta, \inc
+  hémorragies péripapillaires en flammèches, atrophie péripapillaire de type \beta, \inc
   excavation papillaire}. Rapport de taille entre papilles des 2 yeux > 0.2
   \thus suspect
 - autres anomalies de structures : OCT
@@ -701,12 +703,12 @@ Médicaments :
   
 Trabéculoplastie au laser = photocoagulation de l'angle. Effet modeste, non durable.
 
-Chir : trabéculectomie. Complications (rare) = cataracte, hyoptonie précoce
+Chir : trabéculectomie. Complications (rare) = cataracte, hypotonie précoce
 avec décollement choroïdien, infection globe oculaire. Principal échec :
 fermeture de la voie par fibrose sous-conjonctivale.
 
 * 15 Dégénérescence maculaire liée à l'âge
-Atteinte de la macula chez > 50 A. Débutante/intermédaire : drusent, altération
+Atteinte de la macula chez > 50 A. Débutante/intermédaire : drusen, altération
 pigmentaire, AV normale ou peu \dec. Évoluée : atrophique ou exsudative
 
 Prévalence : 18% après 50 ans, 37% à 85 ans.
@@ -715,10 +717,9 @@ FR : âge, pop européennes, polymorphisme facteur H du complément, tabac, rég
 pauvre en anti-oxydant/riches en (acide gras saturés et cholestérol)
 
 ** Diagnostic
-- Mesure AV (loin et près, recherche scotome central ou métamorphopsies (grille
-d'Amsler)
-- FO (drusen, altération pigmentaires, atrophie épithelium pigmentaire,
-forme exsudative [cf /infra/].
+- Mesure AV (loin et près, recherche scotome central ou métamorphopsies (grille d'Amsler)
+- FO (drusen, altération pigmentaires, atrophie épithelium pigmentaire, forme
+  exsudative [cf /infra/ ].
 - OCT : suivi, ou diagnostic si + FO
 
 ** Formes cliniques
@@ -728,10 +729,10 @@ forme exsudative [cf /infra/].
   l'épithelium pigmentaire et choroïde. BAV sévère avec scotome centrale
 - exsudative (néovaisseaux sous rétine) : \oe{}dème intrarétinien, hémorragies,
   décollement maculaire exsudatif (BAV, métamorphopsies brutales). Sans ttt :
-  BAV sévère, scotome central définitif. BAV chez drusen = urgence \skull
+  BAV sévère, scotome central définitif. BAV + drusen = urgence \skull
 
 ** Ttt
-- débutante : vit E, C, zinc, lutéine, zéaxantine
+- débutante : vitamine E, C, zinc, lutéine, zéaxantine
 - atrophique : \emptyset
 - exsudative : injection d'anti-VEGF : ranibizumab,
   aflibercet. bévacizumab. Stoppent néovaisseux, font régresser l'\oe{}dème. 40%
@@ -754,7 +755,7 @@ Diagnostic :
 
 Étiologie : 
 - embolies : athérome carotidien++, cardiopathie embolinogène, ( fractures des os
-  lng ou emboles tumoraux)
+  long ou emboles tumoraux)
 - thromboses : maladie de Horton (urgence \skull, à rechercher), (maladies de systèmes)
 - troubles coagulation : anomalie primitive, sd antiphospholipides, hyperhomocystéinémie
 
@@ -770,13 +771,13 @@ CAT : urgence \danger \skull (fonction visuelle et patho sous-jacente)
 - selon étio : antiagrégant plaquettaire (athérome carotidien), anti-vit K (emboles
   cardiaques), endartériectomie
 
-** Occlusion de branche l'artère centrale de la rétine
-Amputation du CV. BAV possible. FO : \oe{}dème rétinie ischémique en secteur
+** Occlusion de branche de l'artère centrale de la rétine
+Amputation du CV. BAV possible. FO : \oe{}dème rétinien ischémique en secteur
 
 Évolution : \inc AV en qq semaines, pronostic visuel bon mais amputation
-perisiste.
+persiste.
 
-Même étio, sausf Horton. Même ttt.
+Même étio, sauf Horton. Même ttt.
 
 ** Nodules cotonneux
 Occlusion d'artérioles rétiniennes précapillaire \thus nodules cotonneux =
@@ -798,14 +799,13 @@ FO :
 Suivi par OCT
 
 Étiologie inconnue 
-- mais > 50 ans avec FR vasc \thus recherche {tabac, HTA,
-diabète, hypercholestérolémie, SAS}, hypertonie oculaire++
+- mais > 50 ans avec FR vasc \thus recherche {tabac, HTA, diabète, hypercholestérolémie, SAS}, hypertonie oculaire++
 - si < 50 ans, 0 FR ou OVCR bilatérale, chercher anomalie primitive de la
   coagulation, sd antiphospholipides, hyperhomocystéinémie, contraception, hyperviscosité
   
 Évolution :
 - formes non ischémiques : normalisation AV en 3-6 mois. Sinon : conversion en
-  forme ischémique, peristance d'un \oe{}dème maculaire cystoïde (BAV permanente !)
+  forme ischémique, persistance d'un \oe{}dème maculaire cystoïde (BAV permanente !)
 - formes ischémiques : 
   - pas de récupération fonctionnelle. 
   - Pire complication = néovascularisation irienne \thus progression rapide vers glaucome
@@ -831,20 +831,20 @@ Clinique : BAV variable, FO identique OVCR
 vitré mais *pas* de GNV
 
 Ttt similaire. 
-- Si \oe{}dème maculaire peristant : injection intravitréenne
+- Si \oe{}dème maculaire persistant : injection intravitréenne
 - photocoagulation maculaire en grille (si \ge 3 mois, \oe{}dème maculaire
-  perisistante, AV ɇ 5/10)
+  persistante, AV ɇ 5/10)
 - photocoagulation sectorielle
 * 18 Pathologies des paupières
 Anatomie : plan antérieur cutanéomusculaire, plan postérieur : tarse,
-conjonctive (papébrale, cul-de-sac, bulbauire). Sécrétion des larmes par la
+conjonctive (papébrale, cul-de-sac, bulbaire). Sécrétion des larmes par la
 glande lacrymale principale, évacuées par les voies lacrymales excrétrices
 
 Fermeture paupière : nerf VII, ouverture par nerf III
 
 ** Pathologies
 Orgelet : furoncle du bord libre, centré sur follicule du cil.
-- infection bactérienne (\bact{dore}, tuméfaction rouge autour point blanc
+- infection bactérienne (\bact{dore}), tuméfaction rouge autour point blanc
 - ttt : ATB 8 jour
 Chalazion : granulome inflammatoire sur glande de Meibomius (tarse)
 - tuméfaction douloureuses
@@ -853,14 +853,14 @@ Chalazion : granulome inflammatoire sur glande de Meibomius (tarse)
 
 ** Autres
 Malformation palpébrales : 
-- entropion : bascule vers l'intérieur. Sénile, cicatriciel)
-- ectropion . sénile, cicatriciel, paralytique
+- entropion : bascule vers l'intérieur. Sénile, cicatriciel
+- ectropion : sénile, cicatriciel, paralytique
 - ptosis : neurogène, myogène, sénile, traumatique
 - lagophtalmie (inoclusion palpébrale) : anesthésie générale, coma prolongé,
   paralysie faciale
 Tumeurs palpébrales :
-- bénignes : papillome, hydocystome (kyste lacrymal), xanthélesmas (dépôts
-  cholestérol). TTt : chir
+- bénignes : papillome, hydrocystome (kyste lacrymal), xanthélesmas (dépôts
+  cholestérol). Ttt : chir
 - malignes : 
   - épithéliale : carcinome basocellulaire surtout (nodule perlé,
     télangiectasise; peut menacer globe oculaire, pas de métastases), carcinome
@@ -885,7 +885,7 @@ Neuropathie optique :
   - IRM encéphalique systématique (SEP)
 - régression en 3-6 mois. Risque de SEP = 50% à 15 ans (75% si lésions
   encéphaliques à l'IRM). Phénomène d'Uhthoff possible[fn:22]
-- ne pas confondre avec neuromyélite de Devic ! Inflammation (\ne aut-immune) du
+- ne pas confondre avec neuromyélite de Devic ! Inflammation (\ne auto-immune) du
   SNC, BAV profonde rapide. IRM : pas d'inflammation cérébrale mais médullaire 
 - ttt : corticothérapie  parentérale 3-5j (1g/j) puis oral court (11 j). Retarde
   un nouvel épisde. Si SEP, ttt de fond (immunomodulateur [interférons, acétate
@@ -903,7 +903,7 @@ Ischémie de la tête du nerf optique (artères ciliaire postiérieures)
 Diagnostic clinique :
 - BAV unilatérale brutale indolore
 - AV variable, \dec RPM direct, FO = \oe{}dème papillaire++, papille souvent
-  pâle, hémorrage en flammèche sur le bord papillaire
+  pâle, hémorragie en flammèche sur le bord papillaire
 - complémentaire : examen CV++ = {déficit fasciculaire, altitudinal},
   angiographique du fond d'\oe{}il
 
@@ -911,11 +911,11 @@ Diagnostic clinique :
 - maladie de Horton = urgence \skull (cécité bilatérale définitive) \thus 
   - signes systémique, modif artères temporale
   - signes oculaire : amaurose fugace, défaut de remplissage choroïdien (angiographie)
-  - bio : VS \inc[fn:24] , CRP \inc
+  - bio : VS \inc (non systématique), CRP \inc
   - biopsie de l'artère temporale (ne doit pas retarder les soins !)
 - artériosclérose (fréq) : FR (tabac, HTA, diabète, hypercholestérolémie)
 
-Évolution : résorbtion de l'\oe{}dème en 6-8 semainer (atrophie). Pas de récup
+Évolution : résorbtion de l'\oe{}dème en 6-8 semaines (atrophie). Pas de récup
 visuelle. Bilatéralisation possible en qq jours \danger
 
 DD : causes d'\oe{}dème papillaire (HTIC)
@@ -942,9 +942,9 @@ Photographie du FO = référence et dépistage
 - nodules contonneux
 - signes d'ischémie : hémorragies intrarétiniennes "en taches" ou en flammèche, anomalies
   microvasculaire intrarétinienne, dilatations veineuses "en chapelet",
-  néovaisseux prérétiniens et précapillaires, hémorragie prérétiniennes/intravitréennes
-- complications : hémorragie intravitréennek, décollement de la rétine /par
-  traction/, néovascularisation irien (\thus glaucome néovasculaire !)
+  néovaisseaux prérétiniens et précapillaires, hémorragie prérétiniennes/intravitréennes
+- complications : hémorragie intravitréenne, décollement de la rétine /par
+  traction/, néovascularisation irienne (\thus glaucome néovasculaire !)
 - signes maculaires : \oe{}dème maculaire (cystoïde), exsudats lipidiques
   (souvent en couronne)
 
@@ -959,8 +959,8 @@ Diabète 2 : dès découverte
 
 Surveillance :
 - \emptyset RD on non proliférante minime : annuelle
-- sonn tous 4 à 6 mois
-- renforcé si puberté, adolescende, si équilibrage trop rapide de la glycémie,
+- sinon tous 4 à 6 mois
+- renforcé si puberté, adolescence, si équilibrage trop rapide de la glycémie,
   chir bariatrique, diabète ancien mal équilibré, chir de la cataracte,
   \oe{}dème maculaire
   
@@ -968,7 +968,8 @@ Classification :
 - \emptyset RD
 - RD non proliférante : minime, modérée, sévère (hémorragie rétiniennes dans 4
   quadrants ou dilatations veineuses 2 quadrants ou AMIR 1 quadrant)
-- RD proliférante : minime, sévère, compliquée
+- RD proliférante (néovaisseaux): minime, sévère, compliquée (décollement de
+  rétine par traction, gls:GNV)
   
 Progression lente, aggravations rapides possibles. \danger prolifération néovasc
 peut donner cécité 
@@ -978,7 +979,7 @@ Médical :
 - équilibre glycémique et hypertension pour 2 diabètes !
 - pas de ttt médicamenteux
 RD proliférante 
-- photocoagulation panrétinienne : régression dans 90%. INdication : RD
+- photocoagulation panrétinienne : régression dans 90%. Indication : RD
   proliférante ou (RD non proliférante sévère si grossesse, sujet jeune
   diabétique 1 avec normalisation rapide glycémie, chir cataracte)
 - injection intravitréenne anti-VEGF (pour néovasc. iridienne, glaucome
@@ -986,7 +987,7 @@ RD proliférante
 - chir si RD proliférante avec hémorragie intravitréenne persistante/décollement
   de rétine tractionnel
 \OE{}dème maculaire 
-- photocoagulationau lasar si exsudats lipidique ou liquide
+- photocoagulation au laser si exsudats lipidiques ou liquides
 - injection anti-VEGF mensuelle. Dexaméthasone retard possible mais cataracte,
   risque d'hypertonie oculaire (30%)
 * 22 Orbitopathie dysthyroïdienne
@@ -996,10 +997,8 @@ Thyrotoxicose : {palpitations, tachycardie}, {nervosité, tremblement, insomnie}
 thermophobie, {amaigrissement, fatigue}
 
 Classification :
-- gravité = NOSPECS : No sign, Only lid retraction, Soft tissues, Proptosis \ge
-  3mm, Extraocular muscle, Corneal
-- inflammataion = CAS
-  (clinical activity score)
+- gravité = NOSPECS[fn:24]
+- inflammation = CAS (clinical activity score)
 
 Manifestation :
 - exophtalmie : bilatérale (75%), axile, non pulsatile, réductible, indolore,
@@ -1042,10 +1041,10 @@ AV normale. Signes oculaires seulement si sévère :
 
 ** Choroïdopathie hypertensive
 Pas d'autorégulation pour les vaisseaux choroïdiens. Occlusion \thus ischémie et
-nécrose de l'épithelium pigmentaire. cicatrisens en petite taches pigmentées
+nécrose de l'épithelium pigmentaire. cicatrices en petite taches pigmentées
 ("d'Elschnig").
 
-Formes plusu sévère : décollement de rétine exsudatif (post) avec
+Formes plus sévères : décollement de rétine exsudatif (post) avec
 BAV. Normalisation avec ttt
 
 ** Artériosclérose
@@ -1058,12 +1057,15 @@ Classification de Kirkendall
 - rétinopathie hypertensive : I (rétrécissement artériel sévère et disséminé),
   II (idem + hémorragies rétiniennes, exsudats secs, nodules cotonneux), III
   (idem + \oe{}dème papillaire
-- artériosclérose : I (croisemenrt), II (idem plus rétrécissement marqué), III
+- artériosclérose : I (croisement), II (idem plus rétrécissement marqué), III
   (idem plus occlusion de branche)
 
 \printglossaries
 
 * Footnotes
+
+[fn:24] No sign, Only lid retraction, Soft tissues, Proptosis \ge
+  3mm, Extraocular muscle, Corneal
 
 [fn:29] Infection intraoculaire sévère.
 
@@ -1075,9 +1077,7 @@ Classification de Kirkendall
 
 [fn:25] Veine "écrasée" sur le croisement avec l'artère, dilatée en amont
 
-[fn:24] Non nécessaire
-
-[fn:23] \OE{}il atteint = pas d'adduction mais adduction des yeux OK à la
+[fn:23] Pas d'adduction de l'\oe{}il atteint mais adduction des yeux OK à la
 convergence. Nystagmus pendulaire en abduction de l'\oe{}il sain !
 
 [fn:22] BAV transitoire quand température \inc 
