@@ -305,17 +305,27 @@ Synéchies utérines (trauma de l'utérus), tuberculose utérine
 ~4 ans, acquisition de la taille définitive, fonction de
 reproduction. Classification de Tanner (5 stades)
 
-\female : seins ~11 ans [8,13]ans, règles ~13ans [10,15]
+#+caption: Puberté normale
+| \female    |                        | \male               |                         |
+|------------+------------------------+---------------------+-------------------------|
+| seins      | 11 ans [8,13]          | volume testiculaire | 11.5 ans [9.5,14]       |
+| règles     | 13 ans [10,15]         | \inc taille verge   | 12.5 ans                |
+| croissance | 5 $\rightarrow$ 8cm/an | croissance          | 5 $\rightarrow$ 10cm/an |
+| taille     | 163cm                  | taille              | 175cm                   |
 
-\male : \inc volume testiculaire ~11.5 [9.5,14], \inc taille verge ~12.5ans.
-
-Accélération de la croissance : 5 -> 8cm (163cm) \female, 5-10cm (175cm)
 ** Retards 
 \male :  volume testiculaire < 4mL ou longeur < 25mm > 14 ans 
 
 \female : pas de seins à 13 ans, pas de règles à 15 ans
 
+\begin{tcolorbox}
 Centrale ou périphérique ?
+\begin{itemize}
+\item FSH, LH \inc : gonades (hypogonadisme hypergonadotrope) 
+\item FSH, LH normales ou \dec : hypothalamo-hypophysaire (hypogonadisme hypogonadotrope)
+\end{itemize}
+\end{tcolorbox}
+
 - centrale : congénital (pas de cassure de croissance, micropénise,
   cryptorchidie), acquis (tumeur ?), "fonctionnel" (maladie générale, trouble
   comportement alimentaire), isolé
@@ -323,20 +333,20 @@ Centrale ou périphérique ?
 - retard simple (élimination)
 
 Clinique : 
-- parents, grossesse, courbe de croissance. Chercher trbles digestifs,
-polyuro-polydispsie, céphalée, anomalies champ visuel
+- parents, grossesse, courbe de croissance. Chercher trbles digestifs, polyuro-polydispsie, céphalée, anomalies champ visuel
 - pathologie acquise, OGE, testicules, anosmie (Kallmann)
 
 Âge osseux : 13 ans \male, 11 ans \female
 
-Biologie : 
-- stéroïdes sexuels, si FSH, LH basses \thus hypothalamo-hypophysaire
+Biologie : stéroïdes sexuels
+- FSH, LH basses \thus hypothalamo-hypophysaire
 - testostérone chez \male, oestradial/écho chez \female
 
-IRM indispensable ! si déficit gonadotrope (tumeur)
+IRM indispensable si déficit gonadotrope (tumeur) \danger
 
-Caryotype si FSH élevé. Toujours chez \female de taille < -2DS avec retard
-pubertaire/gonadotrophine \inc
+Caryotype si :
+- FSH élevé
+- toujours chez \female{} de taille < -2DS avec retard pubertaire/gonadotrophine \inc
 
 *** Étiologies
 Hypogonadotropes
@@ -344,9 +354,9 @@ Hypogonadotropes
   polymalformatifs
 - acquis : tumeurs hypophysaires, post-radiothérapie 
 Hypogonadotropes fonctionnels
-- chroniques digestives/cardaques/respi
+- maladies chroniques digestives/cardiaques/respi
 - sport intense
-- endocrio
+- maladies endocriniennes
 Hypergonadotropes
 - congénitaux : sd Turner, sd Klinefelter, autres atteintes primitevs
 - acquis : castration, trauma, oreillons, chimio/radio
@@ -357,18 +367,18 @@ oestroprogestatif (\female)
 ** Précoces
 Avant 8ans \female ou 9.5 ans \male
 *** Centrales
-8x plus fréquent chez \female que \male. Chez \female, causes
-idiopathiques. Chez \male, causes tumorales à 50\%
+8x plus fréquent chez \female{} que \male{}. Chez \female{}, causes
+idiopathiques. Chez \male{}, causes tumorales à 50%
 
 Clinique : 
-- dév prématuré harmoniaux (pas de règles chez \female)
+- dév prématuré harmonieux (pas de règles chez \female)
 - crises de rires (harmatome hypothalamique), tâches cutanées (neurofibromatose
   I ou sd McCune-Albright)
 Biologie :
-- testostérone élevée chez \male mais variabilité d'oestradiol chez \female
+- testostérone élevée chez \male{} mais variabilité d'oestradiol chez \female{}
 
 IRM hypothalamo-hypophysaire indispensable \danger (petite taille
-définitive). Écho pelvienne pour \female
+définitive). Écho pelvienne pour \female{}
 
 Traitement si risque de petite taille adulte : analogues GnRH jusque âge normal
 de puberté
@@ -380,17 +390,15 @@ Stéroïdes élevées, LH et FSH bas. Écho pelvienne chez fille
 Étiologie :
 - tumeurs ovarienne (rares) : écho puis histologies
 - kystes folliculaires : bénins, régression spontanée possible
-- sd McCune-Albright : {puberté précoce ovarienne, taches cutanées
-  "café-au-lait", dysplasie fibreuses os}. \danger tableau pas toujours complet
-  !\\
-Oestradiol élevé, gonadotrophines basses, écho = utérus stimulé, kystes
-ovariens. Dominance \female
+- sd McCune-Albright : 
+  - {puberté précoce ovarienne, taches cutanées "café-au-lait", dysplasie fibreuses os}. \danger tableau pas toujours complet !
+  - oestradiol élevé, gonadotrophines basses, écho = utérus stimulé, kystes ovariens. Dominance \female
 - médicaments
 - testotoxicose (rare, cellule de Leydig activé et LH basses), adénome leydigien
   (très rare)
 - tumeurs à hCG (\male)
 *** Avances dissociées
-- Isolé des seins : beaucoup de filles [3mois, 3 ans]
+- Isolé des seins : beaucoup de filles ( de 3 mois à 3 ans)
 - Métrorragies isolées : chercher vulvite, vulvovaginite, prolapsus urétrale,
   corps étranger. Éliminter kyste ovarien, sd McCune-Albright par l'absence des
   sein
@@ -2878,7 +2886,6 @@ Tumeurs germinales sécrétantes
   7-20%) \thus gonadectomi préventive
 - autres : sécrétant hCG, T4, sérotonine
 
- 
 * 305 Tumeurs du pancréas (endocrine)
 Rare, concerne pancréas et duodénome. Diagnostic histologique, compléteté par
 immunohistochimie
@@ -2924,6 +2931,18 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 
 \printglossaries
 
+* Annexes
+
+|                  | Klinefelter                  | Turner                     | Kallmann                              |
+|------------------+------------------------------+----------------------------+---------------------------------------|
+| Sexe             | \male                        | \female                    | \male{}, \female                      |
+| Frequence        | 1/500                        | 1/2000 \female             | 1/30 000 \male{}, 1/250 000 \female{} |
+| Caryotype        | 46 XX,Y                      | genes manquants            |                                       |
+|                  |                              | sur bras court d'un chr. X |                                       |
+| Caractéristiques | Hypogonadisme, infertilité   | Petite taille              | Anosmie                               |
+|                  | gynécomastie                 | Aménorrhée                 | \male : Micropénis, cryptorchidie     |
+|                  | trouble apprentissage, comm. | Pas de seins ?             | Pas de dev. sexuel secondaire         |
+|                  |                              |                            |                                       |
 * Footnotes
 
 [fn:2] Hypothalamus n'arrive pas à libérer la GnRH au bon rythme. 
