@@ -16,6 +16,7 @@
 #+OPTIONS: H:4
 
 \input{bacteries-header}
+
 * 1 Sémiologie oculaire
 ** Globe
 Membranes (d'avant en arrière)
@@ -373,6 +374,11 @@ Examen à lampe à fente (bilatéral) :
   - néovaisseaux sur l'iris
 \ttt hypotonisants locaux et généraux, photocoagulation ou injection anti-VEGF
 - /Endophtalmie post-opératoire/ : douleur intense, \oe{}dème palpébral, hyalite
+  
+\begin{tcolorbox}
+Uvéite : penser maladie générale (rhumatismal, sarcoïdose, MICI, arthrite juvénile idiopathique [enfant++])
+\end{tcolorbox}
+
 * 7 Altération de la fonction visuelle
 ** Examen
 Interrogatoire : BAV objective, altération CV  (myodésopsies, phosphènes,
@@ -719,7 +725,7 @@ FR : âge, pop européennes, polymorphisme facteur H du complément, tabac, rég
 pauvre en anti-oxydant/riches en (acide gras saturés et cholestérol)
 
 ** Diagnostic
-- Mesure AV (loin et près, recherche scotome central ou métamorphopsies (grille d'Amsler)
+- Mesure AV (loin et près), recherche scotome central ou métamorphopsies (grille d'Amsler)
 - FO (drusen, altération pigmentaires, atrophie épithelium pigmentaire, forme
   exsudative [cf /infra/ ].
 - OCT : suivi, ou diagnostic si + FO
@@ -761,8 +767,8 @@ Diagnostic :
 - thromboses : maladie de Horton (urgence \skull, à rechercher), (maladies de systèmes)
 - troubles coagulation : anomalie primitive, sd antiphospholipides, hyperhomocystéinémie
 
-Évolution spontanée quasiment toujours défavorable : régression \oe{}dème,
-atrophie rétine et papille
+/Très mauvais pronostic fonctionnel/ (régression \oe{}dème,
+atrophie rétine et papille)
 
 CAT : urgence \danger \skull (fonction visuelle et patho sous-jacente)
 - bilan étio : athérome, carotidien, cardiopathie embolinogène, dissection
@@ -798,7 +804,12 @@ FO :
   peu étendue
 - formes ischémiques[fn:21] : AV < 1/10, réflexe pupillaire direct diminué, hémorragies
   plus volumineuses, en tache
-  
+
+\begin{tcolorbox}
+Diag facile car tableau typique : BAV brutale, dilatation veineuse, nodules cotonneux,
+hémorragies disséminées, oedème papillaire
+\end{tcolorbox}
+
 Suivi par OCT
 
 Étiologie inconnue 
@@ -831,7 +842,7 @@ Clinique : BAV variable, FO identique OVCR
 
 Évolution favorable en majorité. Défavorable si maculopathie ischémique,
 \oe{}dème maculaire persistante, néovaisseaux prérétiniennes \thus hémorragie du
-vitré mais *pas* de GNV
+vitré mais *pas* de gls:GNV
 
 Ttt similaire. 
 - Si \oe{}dème maculaire persistant : injection intravitréenne
@@ -942,7 +953,7 @@ sanguin rétinien, production VEGF} puis
 Photographie du FO = référence et dépistage
 - microanévrisme rétitiens : dilatations punctiformes rouges (postérieure)
 - hémorragie rétiniennes punctiformes
-- nodules contonneux
+- nodules cotonneux
 - signes d'ischémie : hémorragies intrarétiniennes "en taches" ou en flammèche, anomalies
   microvasculaire intrarétinienne, dilatations veineuses "en chapelet",
   néovaisseaux prérétiniens et précapillaires, hémorragie prérétiniennes/intravitréennes
