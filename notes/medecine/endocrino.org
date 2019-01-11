@@ -3,6 +3,14 @@
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \input{header}
 #+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+#+latex_header: \usepackage[nonumberlist]{glossaries}
+#+latex_header: \makeglossaries
+#+latex_header_extra: \newacronym{SHBG}{SHBG}{Sex Hormone-Binding Globulin}
+#+latex_header_extra: \newacronym{SOPK}{SOPK}{Syndrome des ovaires polymicrokystiques}
+#+latex_header_extra: \newacronym{OGE}{OGE}{Organes génitaux externes}
+#+latex_header_extra: \newacronym{CAIS}{CAIS}{Complete Androgen Insensitivity Syndrome}
+#+latex_header_extra: \newacronym{IOP}{IOP}{Insuffisance ovarienne primitive}
+
 #+OPTIONS: H:4
 
 \input{bacteries-header}
@@ -19,14 +27,13 @@ Progestatifs seuls
 - Macroprogestatifs : si CI oestroprogestatifs
 - Administration : orale, injection, implant, intra-utérin (stérilet)
 ** Pratique
-Oestroprogestatifs : 
-- à commencer le premier jour des règles pendant 21j puis 7 j
-d'arrêt.
-- au même moment
-- Si oubli < 12h, ASAP sinon contraception mécanique $\ge 7$ jours
-Microprogestatifs : toujours à la même heure. Si oubli < 3h, ASA, sinon
+Oestroprogestatifs : le premier jour des règles pendant 21j puis 7 j
+d'arrêt. /Tjrs au même moment/. Si oubli < 12h, ASAP sinon contraception mécanique $\ge 7$ jours
+
+Microprogestatifs : toujours à la même heure. Si oubli < 3h, ASAP, sinon
 contraception mécanique $\ge 7$ jours
-Macroprogestatifs : ccommencer le 5eme jour du cycle
+
+Macroprogestatifs : commencer le 5eme jour du cycle
 
 ** Contre-indications
 Oestroprogestatifs : absolues =
@@ -81,8 +88,9 @@ Examen clinique :
 Biologie : cholestérol total, triglycérides, glycémie à jeun à +3mois. Si FR, le
 faire avant (!) prescription
 
-Gynéco : métroragies, spottings. NB frottis cervico-utérin dès 25 ans (+1 an pui
-tous 3 ans) indépendamment contraception
+Gynéco : métrorragies, spottings. 
+
+Frottis cervico-utérin dès 25 ans (+1 an puis tous 3 ans) indépendamment contraception
 
 ** Femmes à risques
 Diabétique :
@@ -91,24 +99,25 @@ Diabétique :
 - hormonale :pas d'oestropregestatifs si {tabac, non équilibré, HTA, surpoids,
   diabète compliqué} \thus progestatif
 Dyslipidémie : oestroprogestatif si < 3g/L cholestérol total, triglycérides <
-9g/L
+2g/L
 
 Thrombose veineuse
 - prédisposant : anomalies de l'hémostase (génétique, acquises), ATCD familiaux
 - dépistage : thrombose, multiples fausses couches, ATCD thrombose < 45 ans
-- acétate de chlormadinone, CI oestrogène
+- CI oestrogène, acétate de chlormadinone à la place
 
 Autres :
 - HTA : oestroprogestatifs si 0 FR
-- tabac = CI, migraine \land{} vascularite = spécialiste
+- tabac = CI
+- si migraine et vascularite, voir spécialiste
 
-** Urgence
-- lévonorgesttrel ASAP < 72h
+** Contraception d'urgence
+- lévonorgestrel ASAP < 72h
 - ulipristal acétate ASAP < 120h mais 3x plus cher
 
 * 37 : Stérilité du couple
-Infertile : 0 grossesses après 1 an de rapports non protégés. Stérilité si
-définitf.
+Infertile : 0 grossesse après 1 an de rapports non protégés. Stérilité si
+définitif.
 
 Stérilité = partagée !!
 
@@ -118,54 +127,50 @@ Stérilité = partagée !!
   avortements}, infections/curetages++, ATCD chir/infectieux, douleurs
   pelviennes (rapports, règles), conditions de vie, radio/chimio
 - Homme : trouble libido/érection, ATCD cryptorchidie/trauma testiculaire, ATCD
-  chir pelvienne/scrotale, ATCD médicaux (oreillons++), tabac/anabolisants...
+  chir pelvienne/scrotale, ATCD médicaux (orchite ourlienne++), tabac/anabolisants...
 
 ** Examen clinique
 - \female : âge++, obésité/maigreur, tour taille et hanche, pilosité, PA,
   galactorrhé provoqué, gynéco.
-  - Si anovulation (a-/oligo-ménorrhée) : hyperprolactinémie, hyperandrogénie,
+  - Si anovulation (a/oligo-ménorrhée) : hyperprolactinémie, hyperandrogénie,
     troubles comportement alimentaire, bouffées chaleur
-- \male : IMC, pilosité, hypoandrisme, cicatrice chir, varicocèle,
-  gynémocomastie, gynoïde/enuchoïde
+- \male : IMC, pilosité, hypoandrisme, cicatrice chir, varicocèle[fn:59],
+  gynécomastie, gynoïde/enuchoïde
   - volume testiculaire++, palpation cordospermatiques
 
 ** Examens complémentaires
 Premiere intention, femme
-- Hormonale++ : oestradiole, LH, FSH, prolactine plasmatique. Puis progestérone
-plasmatique (si cycle réguliers)
+- Hormonale++ : oestradiol, LH, FSH, prolactine plasmatique. Puis progestérone plasmatique (si cycle réguliers)
 - Écho ovarienne++
 - Hystérographie++
 Première intention, homme :
-- spermogramme++ (concentration, mobilité, morphologie. Attention aux
-  variabilités !
-- hormonale++ si oligo-/azoo-spermie : testostérone, LH, FSH puir SHBG
+- spermogramme++ (concentration, mobilité, morphologie). Attention aux variabilités !
+- hormonale++ si oligo-/azoo-spermie : testostérone, LH, FSH puis gls:SHBG
 Test poist-coïtal (discuté)
 
 ** Étiologie
 Femme :
-- anovulation : très fréquent ! Souvent aménorrhées ou irrégularités. Causes :
-  sd des ovaires polymicrokystiques, hyperprolactinémie, insuf ovarienne
-  primitive, déficit gonadotrope, psycho-nutritionnel
-- obstacle mécanique :
-  - anomalie du col utérin et insuf glaire cervilaie : post-conisation/curetage
-  - obstacle, anomalie utérie : manoeuvres post-partum, polypes muqueux... \thus
+- /anovulation/ : très fréquent ! Souvent aménorrhées ou irrégularités. Causes :
+  gls:SOPK, hyperprolactinémie, insuf ovarienne primitive, déficit gonadotrope, psycho-nutritionnel
+- /obstacle mécanique/ :
+  - anomalie du col utérin et insuf glaire cervicale : post-conisation/curetage
+  - obstacle, anomalie utérine : manoeuvres post-partum, polypes muqueux... \thus
     echographie
   - obstacle tubaire : cause majeure++. Souvent salpingite (Chlamydia++)
-- Endométriose : rarement si modéré. hypstérosalpingographie pui coelioscopie
+- /endométriose/ : rarement en cause si modérée. hystérosalpingographie puis coelioscopie
 Homme :
-- azoospermie 
-  - sécrétoire : diagnostic = volume testiculaire < 10ml, concentration FSH
+- /azoospermie/
+  - /sécrétoire/ : diagnostic = volume testiculaire < 10ml, concentration FSH
     faible
- \thus caryotype, analyse bras long Y, écho testiculaire (élimine
-    cancer), déficit gonadotrope (rare)
-  - obstructive : volume et concentration ormale, volume séminal \dec \thus
+ \thus caryotype, analyse bras long Y, écho testiculaire (élimine K), déficit gonadotrope (rare)
+  - /obstructive/ : volume et concentration ormale, volume séminal \dec \thus
     examen clinique
     - cause congénitale : agénésie bilat des canaux déférent++ (soit anomalie
       biallélique gène CFTR, soit isolée)
     - acquis : infectieux  (gonocoque, tuberculose, Chlamydia) \thus échographie
   - exploration chir testiculaire et des voies excrétrices : si azoospermie
     confirmée par plusieurs spermogrammes, bilan génétique
-- oligo-asthéno-térato-spermie : \dec nombre, mobilité, \inc hormes anormales
+- /oligo-asthéno-térato-spermie/ : \dec nombre et mobilité, \inc formes anormales
   \thus caryotype, brang long Y. Traitement = assistance médicale procréation
 * 40 : Aménorrhée
 Déf: absence de cycle menstruel après 16 ans (primaire) ou interruption chez
@@ -175,21 +180,23 @@ Tout arrêt > 1 mois \thus enquête étiologique \danger
 
 Atteinte de l'axe hypothalamo-hypophysio-ovarien ou anomalie tractus utérin
 
-*Pas de traitement oestrogénique sans enquête étiologique*
+\begin{tcolorbox}
+Pas de traitement oestrogénique sans enquête étiologique
+\end{tcolorbox}
 
 ** Conduite
 *** Primaire
 Forte proba de cause génétique/chromosomique. Chercher carences nutritionnelle
 
-- Si absence de dév. puberture : doser FSH, LH
+- Si absence de dév. pubertaire : doser FSH, LH
   - Si basses, tumeur hypothalamo-hypophysaire, dénutrition ou génétique : {sd
     de Kalmann (anosmie), mutation récepteur GnRH (rare), atteinte
     gonadotrophines (exceptionnels), mutation LH}
-  - Si hautes : sd de Turner (caryotique 45, XO),
+  - Si hautes : sd de Turner (caryotipe 45, X0),
 - Examen gynéco, écho pelvienne
-  - Pas d'utérus : sd de Rokitanski, tissu testiculaire dans les canaux
-    inguinaux (CAIS)
-  - ambiguité OGA : dysgénésie gonadique, hyperplasie congénitale surrénales,
+  - Pas d'utérus : sd de Rokitanski, tissu testiculaire dans les canaux
+    inguinaux (ex: acrshort:CAIS)
+  - ambiguité acrshort:OGE : dysgénésie gonadique, hyperplasie congénitale surrénales,
     anomalies sensibilité/biosynthèse androgènes
 *** Secondaire 
 Souvent acquises. 
@@ -199,41 +206,50 @@ gynoc/obstétriques, insuf ovarienne (bouffées de chaleur). Douleurs pelviennes
 cycliques : cause utérine
 
 Examen clinique : 
-- poids et taille (carence nutritionnelle
-- hyperandrogénie : sd ovaires polykystiques, déficit 21-hydroxylase, (sd
-  Cushing)
+- poids et taille (carence nutritionnelle)
+- hyperandrogénie : gls:SOPK, déficit 21-hydroxylase, (sd Cushing)
 - carence oestrogénique : pas de glaire +2 semainesa après saignement \thus
   anovulation
 - pas de signe d'appel : enquête nutritionnelle
 
-Dosages hormonaux :
-- hCG : grossesse
-- prolactine \inc : médciament ou tumeux hypothalamo-hypophysaire (ou adénome)
-- FSh \inc, estradiol \dec : insuf ovarienne primitive
-- estradiol, LH, FSH basse : hypothalamo-hypophysaire ou nutritionnelle
-- testostérone : tumeur surrénalienne/ovarienne
-- sinon SOPK[fn:2]
+
+Dosages hormonaux : cf Table \ref{tab:amenorrhe_second}
+
+\begin{table}
+\begin{tabular}{llllll}
+\toprule
+hCG & prolactine \inc & FSH \inc & estradiol& testostérone \inc & sinon\\
+& & & LH, FSH àdec & & \\
+\midrule
+grossesse & médicaments & \acrshort{IOP} & tumeur H-H & tumeur surrénales & \gls{SOPK}\\
+ & adénome à prolactine &  & nutrition & tumeur ovarienne sécrét. & \\
+ & tumeur H-H &  &  &  & \\
+\bottomrule
+\end{tabular}
+\caption{Évaluation hormonale d'une aménorrhée secondaire. H-H = hypothalamo-hypophysaire}
+\label{tab:amenorrhe_second}
+\end{table}
 
 ** Causes
 
-*** Déficit gonadotrope organique/fonctionnel
+*** 1. Déficit gonadotrope organique/fonctionnel
 
-**** Hypothalamus, prolactine normales
-Hypothalamus n'arrive pas à libérer la GnRH au bon rythme. 
+**** Prolactine normale [fn:2]
+- Atteintes organiques : tumeur/infiltration \thus IRM
+  - macroadénomes hypophysaires, craniopharyngiomes
+  - chercher hyperprolactinémie, insuf antéhypophysaire associé
+- Atteintes fonctionnelles : apports nutritionnels insufisants par rapport à l'activité physique intense+++
 
-Atteintes organiques : tumeur/infiltration \thus IRM
-- macroadénomes hypophysaires, craniopharyngiomes
-- chercher hyperprolactinémie, insuf antéhypophysaire associé
-
-Atteintes fonctionnelles : apports nutritionnels insufissants par rapport à l'activité physique intense+++
-**** Hypothalamo-hypophysaire dû à une hyperprolactinémie
-Cause majeure
+**** Hyperprolactinémie 
+Atteinte hypothalamo-hypophysaire (majeure++)
 
 Médicaments ou tumeurs \thus pas de traitement dopaminergique sans imagerie \danger
+
 **** Autres
 - Endocrinopathies : sd de Cushing, dysthyroïdes déficits 21-hydroxylase
 - Hypophysaire (rare) : auto-immune (majorité), sd de Sheehan (très rare, nécrose hypophysaire post-partum)
-*** Anovulation non hypothalamique
+
+*** 2. Anovulation non hypothalamique
 **** SOPK (majorité)
  Pas de pic de LH, ni de progestérone. Oestradiol mais non cycliques
 
@@ -263,7 +279,8 @@ hyperplasie congénitale des surrénales
   - tumeur surrénale \thus scanner des surrénales
   - déficit enzymatique en 21-hydroxylase (\danger formes tardives qui peuvent
     mimer SOPK)
-*** Insuf ovarienne primitive
+
+*** 3. Insuf ovarienne primitive
 \inc FSH
 
 Causes :
@@ -271,15 +288,17 @@ Causes :
 - anomalie caryotype (sd Turner)
 - anomalie gènes /FMR1/ (sd X fragile)[fn:4]
 - auto-immune
-*** Anomalie utérine
-**** Congénitales :
-Si dév pubertaire normale et douleurs pelviennes cycliques, imperfortanio
-hyménéale/malformation vaginale \thus examen gynéco.\\
-Idem sans douleurs \thus agénésie utérus ?
+
+*** 4. Anomalie utérine
+**** Congénitales 
+Si dév pubertaire normal :
+- et douleurs pelviennes cycliques :  imperforation hyménéale/malformation vaginale \thus examen gynéco.\\
+- ou sans douleurs \thus agénésie utérus ?
 
 Difficulté : différence agénésie mullérienne isolée (46,XX)- anomalies androgènes
 (46,XY) \thus testostérone
-**** Secondaires :
+
+**** Secondaires 
 Synéchies utérines (trauma de l'utérus), tuberculose utérine
 * 47 : Puberté
 ** Normale
@@ -1099,7 +1118,7 @@ signes : acén, ecchymoses, faiblesse musc, hirsutisme, oedèmes, ostéoporose, 
 ** Causes rare
    Tumeurs à rénine, acromégalie
 * 238 : Hypoglycémie
-Diagnostic : neuroglucopénie \land{} glycémie < 0.50g/L (0.60 chez diabétique) \land{} correction symptômes
+Diagnostic : neuroglucopénie et glycémie < 0.50g/L (0.60 chez diabétique) et correction symptômes
 à normalisation (triade de Whipple)
 
 Causes :
@@ -2902,7 +2921,14 @@ Cellules de Sertoli : rares (enfant) ou exceptionnelles
 ** PEC 
 Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimio si métastases pulmonaires/ganglionnaires.
 
+
+\printglossaries
+
 * Footnotes
+
+[fn:2] Hypothalamus n'arrive pas à libérer la GnRH au bon rythme. 
+
+[fn:59] Dilatation variqueuse des veines du cordon spermatique 
 
 [fn:58] Peut appartenir à : complexe Carney, sd Petuz-Jeghers
 
@@ -2993,8 +3019,6 @@ Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female), h
 
 [fn:1] $\frac{N}{N_e/10}\times 100$ avec N = nb grossesses
 accidentelles, $N_e$ nombres de mois d'exposition
-
-[fn:2] Sd des ovaires polykystiques
 
 [fn:3] Séborrhéee, acné, hirsutisme, \inc testostérone
 
