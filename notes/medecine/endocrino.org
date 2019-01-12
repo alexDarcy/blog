@@ -19,6 +19,8 @@
 #+latex_header_extra: \newacronym{PCC}{PCC}{Phéochromocytomes}
 #+latex_header_extra: \newacronym{PGG}{PGG}{Paragangliomes}
 #+latex_header_extra: \newacronym{ADP}{ADP}{Adénopathie}
+#+latex_header_extra: \newglossaryentry{TPO}{name={Thyroid peroxydase (TPO)},description={Enzyme de la thyroïde servant à générer la thyroxine (T4) et triiodothyroine (T3)}}
+#+latex_header_extra: \newacronym{ATS}{ATS}{Antithyroïdiens de synthèse}
 
 #+OPTIONS: H:4
 
@@ -1325,7 +1327,8 @@ Tuméfaction cervicale rapidement progressive, dure, adhérente, sujet âgé \th
 - Surveillance : calcitonine > 150\mu{}g/L \thus bilan de localisation.
 - Temps doublement : 6 mois = pronostic très mauvais.
 - Traitement métastases = local.
-- Étude génétique dans tous les cas : positif \thus chercher phéochromocytome,
+
+Étude génétique dans tous les cas : positif \thus chercher phéochromocytome,
 hyperparathyroïdie + enquêtes apparentés
 * 240 : Hyperthyroïdie
 Déf : hyperfonctionnement de la glande thyroïdienne. Sd de thyrotoxicose =
@@ -1334,12 +1337,12 @@ conséquence sur les tissus.
 Prévalence élevée, 7\times femme
 
 Physiopatho :
-- TSH, TPO et Tg peuvent être des auto-antigènes
-- thyroïde produit surtout thyroxine )T4), convertie en T3 par foie, muscle
-  squelette. [T4] n'est à l'équilibre que +5 semaines
+- TSH, gls:TPO et Tg peuvent être des auto-antigènes
+- thyroïde produit surtout thyroxine (T4[fn:65]), convertie en T3 par foie, muscle
+  squelette. 
 - effet : 
   - \inc production chaleur, \inc production énergie, \inc consommation $O_2$
-  - inc débit cardiaque, système nerveux, \inc ostéclasie, \inc lipolyse, \inc
+  - \inc débit cardiaque, système nerveux, \inc ostéclasie, \inc lipolyse, \inc
     glycémie, rétrocontrole négatif hypophysaire
 
 ** Sd de thyrotoxicose
@@ -1359,13 +1362,13 @@ Complications :
 - cardiaque (surtout personnes fragiles) : troubles rythme supraV (FA), insuf
   cardiaque (droite, avec débit N ou \inc), aggravation insuf coronaire
 - crise aigüe thyrotoxique (exceptionnelle)
-- musculair (âgé)
+- musculaire (âgé)
 - ostéoporose (\female ménopausée) : rachis
 
 ** Étiologies (fréquence \dec)
 *** Auto-immunes
-**** Maladie de Basedow 
-1% population. Auto-immune, sur terrai génétique. Poussées pui rémissions
+/Maladie de Basedow/\\
+1% population. Auto-immune, sur terrai génétique. Poussées puis rémissions
 
 Clinique : 
 - goitre diffus homogène, élastique, souffle
@@ -1381,8 +1384,8 @@ Clinique :
 Diagnostic : manif oculaire suffit. sinon : écho (hypoéchogène, vascularisé),
 (scinti), Ac anti-récepteur TSH
 
-**** Autres auto-immune
-- Thyroïdite post-partum (5%) : hyper- transitoire puis hypothyroïdie. Ac
+/Autres auto-immune/\\
+- Thyroïdite post-partum (5%) : hyperthyroïdie transitoire puis hypothyroïdie. Ac
   anti-TPO mais pas Ac anti-récepteur TSH
 - Thyroïdite d'Hashimoto : goitre irrégulier, très ferme. Écho :
   hypoéchogène. Ac anti-TPO mais pas anti-récepteur TSH
@@ -1394,7 +1397,7 @@ Diagnostic : manif oculaire suffit. sinon : écho (hypoéchogène, vascularisé)
   kystique. Scinti nécessaire : reste du parenchyme "froid"
 
 *** Iatrogènes
-- Iode : produits contraste, amiodarine. 2 formes : fonctionnelle ou lésionnelle
+- Iode : produits contraste, amiodarone. 2 formes : fonctionnelle ou lésionnelle
   (lyse des cellules)
 \danger sous amiodarone : T4L \inc mais T3L, TSH N 
 - Hormones thyroïdiennes : pour maigrir. Diag : scinti (pas de fixation), Tg
@@ -1408,39 +1411,40 @@ puis hypo-thyroïdie
 *** Thyrotoxicose gestionnelle transitoire 
 Fréquent (2% grossesse). 1er trimestre : nervosité, tachycardie, pas de prise de
 poids
+
 DD : Basedow (pas Ac anti-récepteur TSH)
 
 *** Rares
-Mutations activatrices du récepteur TSH, métastase massives sécrétantes ([fn:19]K
+Mutations activatrices du récepteur TSH, métastase massives sécrétantes (K
 thyroïdiens vésiculaire différencié), tumeurs placentaires/testiculaires, {sd
 résistance hormones thyroïdiennes, adénome hypophysaire}
 
 ** Forme clinique 
 - Enfant : généralement Basedow (néonatale/acquise) : avance staturale et
   osseuses, hyperactivité \pm signes oculaires
-- Femme enceinte : passage d'Ac \thus hyper- ou hypo-thyroïde. Passe d'ATC \thus
-  goitre, hypothyroïdie possible. Contraception !
+- Femme enceinte : passage d'Ac \thus hyper- ou hypo-thyroïde. Passage
+  d'antithyroïdiens de synthèse \thus goitre, hypothyroïdie possible. Contraception !
 - Âgé : évolution discrète (AEG, fonte musculaire, cachexie, insuf
-  cardiaque). Penser thyrotoxicase si troubles rythme/insuf cardiaque
+  cardiaque). Penser thyrotoxicose si troubles rythme/insuf cardiaque
   
 ** Traitement
-Urgence : crise aigüe thyrotoxicose, cardiothyréose chez âgé/cardiqaue,
-orbitopathie maligne, cachexie vieillard, Basedow chez \female enceinte
+\skull{} Urgence : crise aigüe thyrotoxicose, cardiothyréose chez âgé/cardiqaue,
+orbitopathie maligne, cachexie vieillard, Basedow chez \female{} enceinte
 
 Repos, sédatifs, bêtabloquant, contraception
 
-Antithyroïdens de synthèse (ATS) :
+gls:ATS :
 - -mazole (30-60mg/j), -thiouracile (300-600mg/j) : bloque TPO
 - ES : allergies cut, \inc enzymes hépatiques, neutropénie, agranulocytose++
   (\skull !!)
-- surveillance : T4 libre jusque N puis T4L et TSH. NFS 10jours pendant 2 mois (agrunolcytose)
+- surveillance : T4 libre jusque N puis T4L et TSH. NFS 10jours pendant 2 mois (agranulocytose)
   
-Chir : thyroidectomie totale sauf si adénome toxique (loectomie)
+Chir : thyroidectomie totale sauf si adénome toxique (lobectomie)
 
 Radio-iode : simple, sans danger. CI : femme enceinte.
 
 *** Résultats
-- Basedow : thyroïdectomie \thus hypothyroïdie définitie. Radio-iode \thus
+- Basedow : thyroïdectomie \thus hypothyroïdie définitive. Radio-iode \thus
   hypothyroïdie 50%, risque aggravation orbitopathie. Donc ttt médical (1-2
   ans) puis chir/iode si récidive
 - Adénome/goitre multinodulaire toxique : chir, iode
@@ -1459,13 +1463,21 @@ Radio-iode : simple, sans danger. CI : femme enceinte.
 \thus surveillance avant et après accouchement  
 
 * 241 : Hypothyroïdie
-- Atteinte de la glande thyroïde  : \inc TSH et (T4L N : hypothyroïdie frustre) (T4L \dec : hypothyroïdie patente)
-- Ou hypothalamo-hypophysaire : T4L \dec et (TSH (\dec ou N)  ou légèrement /inc)
+\begin{tcolorbox}
+Rappel : TRH (hypothalamus) stimule la production de TSH (hypophyse) qui stimule la thyroïde
+\end{tcolorbox}
+
+- Atteinte de la glande thyroïde  : \inc TSH et 
+  - soit T4L N : hypothyroïdie frustre
+  - soit T4L \dec : hypothyroïdie patente
+- Ou hypothalamo-hypophysaire : T4L \dec et 
+  - soit TSH \dec ou N : hypophysaire
+  - soit TSH légèrement /inc : hypothalamus
   
 ** Sémiologie
 Général :
 - sd d'hypométabolisme[fn:20]
-- peau pâle/jaune, sèche squamueuse dépilée, cheveux secs cassant
+- peau pâle/jaune, sèche, squameuse, dépilée; cheveux secs cassants
 - myxoedeme cutanéomuqueux : faciès "lunaire", voix rauque, hypoacousie,
   macroglossie
 - neuromusc : crampes, myalgies
@@ -1496,7 +1508,7 @@ Anomalies bio :
 Auto-immunes :
 - Thyroïdite d'Hashimoto : 
   - goitre ferme, irégulier, Ac anti-TPO. 
-  - infiltraton lymphocytaire du parenchyme thyroïdien. Facteurs environement,
+  - infiltration lymphocytaire du parenchyme thyroïdien. Facteurs environnementaux,
     terrain génétique.
   - penser à lymphome si \inc rapide du goitre
   - écho thyroïdiennes : hypoéchogène, hétérogène, vasc hétérogène (scint
@@ -1504,15 +1516,15 @@ Auto-immunes :
 - Thyroïdite atrophique : pas de goitre, Ac anti-thyroidiens moins
   élevés. Souvent une évolution d'Hashimoto, > 50 ans. 
 - Thyroïdite du post-partum : idem, petit goitre. Normalement résolutif dans
-  l'année. 5%
+  l'année. 5% des grossesses
 Non auto-immune :
-- thyroïdite subaigüe de De Quervain : inflammation du parenchime. Phase de
+- thyroïdite subaigüe de De Quervain : inflammation du parenchyme. Phase de
   thyrotoxicose puis hypothyroïdie
 - thyroïdite sans Ac
 - thyroïdite iatrogène : interferon++, amiodarone, ATS, iode131, radiothérapie
   cervicale, lithium, ttt anti-tyrosine kinase (cancéro)
 Autres : carences iodées (endémie++), hypothyroïdie congénitale (dépistage à
-naissance + 72h[fn:21]
+naissance + 72h[fn:21])
 
 *** Démarche diagnostique
 TSH puis (T4L (profondeur) et Ac anti-TPO, échographie pour étiologie)
@@ -1527,30 +1539,29 @@ IRM systématique !
 
 ** Traitement
 Lévothyroxine (T4) 
-- hypothyroïdie patente : L-T4 [50150] \mu{}g/j. Si coronarien : \inc progressivement
+- hypothyroïdie patente : L-T4 50 à 150 \mu{}g/j. Si coronarien : \inc progressivement
   de 12.5 à 25\mu{}g/j. \danger Surveillance ! (ECG hebdo si grave, hospit si coronarien
   récent, sinon patient doit consulter si douleurs thoraciques)
 - hypothyroïdie frustre : 3 cas
   - TSH > 10mUI/L ou Ac anti-TPO : ttt
-  - TSH < 10mUI/L et pasd'Ac anti-TPO : surveillance
+  - TSH < 10mUI/L et pas d'Ac anti-TPO : surveillance
   - si grossesse : dès TSH \ge 3mUI/L
   - à discuter sinon
 
 Suivi
-- hypothyroïdie primaire : objectif : TSH $\in [0.5, 2.5]$ mUI/L (\approx 10mUI/L
-pour âgé, et < 2.5mUI/L pour femme eceinte)
+- hypothyroïdie primaire : objectif : TSH $\in [0.5, 2.5]$ mUI/L (\approx 10mUI/L pour âgé, et < 2.5mUI/L pour femme eceinte)
 - insuf thyréotrope : suivi sur T4L seulement
   
 Situations particulières:
 - grossesse : \inc posologie dès diagnostic grossesse
-- \inc si interférence : \dec absorption intestinale{sulfate de fer, carbonate de calcium, hydroxyde
-  d'alimunie, cholestyramine}, \inc clairance {phénobabrital, carbamazépinex, rifampicine,
-  phényto¨en, sertraline, chlooriqune}, oestrogenes
+- \inc si interférence avec l'absorption intestinale{sulfate de fer, carbonate de calcium, hydroxyde
+  d'alimunie, cholestyramine}, la clairance {phénobabrital, carbamazépinex, rifampicine,
+  phénytoïne, sertraline, chlooriqune}, oestrogenes
 - néonatale : L-T4 à vie
   
 ** Dépistage ?
 - Adulte : si risque : signes clinique, goitre, hypercholestérolémie, ATCD
-  thyroïdiennes, auto-immunité thyriodienne, irradiation cervicale, {amiodaone,
+  thyroïdiens, auto-immunité thyroïdienne, irradiation cervicale, {amiodarone,
   lithium, interféron, cytokines}
 - Femme enceinte : si signes, contexte thyroïdien (perso/familial), auto-immunité
 
@@ -2962,6 +2973,8 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 |                  |                              |                            |                                       |
 * Footnotes
 
+[fn:65] [T4] n'est à l'équilibre que +5 semaines après modification de T4
+
 [fn:64] Physiologique = minimal à minuit, donc mesure à minuit. Mesure salivaire possible.
 
 [fn:63] 1mg de dexaméthasone à minuit. Action de rétrocontrôle négative du
@@ -3102,8 +3115,6 @@ inflammatoires infiltratives
 [fn:17] Adénopathie
 
 [fn:18] Thyroglobuline
-
-[fn:19] Cancer
 
 [fn:20] Asthénie, somnolence, hypothermie, frilosité, constipation, bradycardie,
 prise poids modeste
