@@ -332,12 +332,14 @@ reproduction. Classification de Tanner (5 stades)
 \footnotetext{ou longueur < 25mm}
 
 \begin{tcolorbox}
-Centrale ou périphérique ?
+Hypogonadisme\footnotemark central ou périphérique ?
 \begin{itemize}
-\item FSH, LH \inc : gonades (hypogonadisme hypergonadotrope) 
-\item FSH, LH normales ou \dec : hypothalamo-hypophysaire (hypogonadisme hypogonadotrope)
+\item FSH, LH \inc : pour compenser le manque des gonades (hypergonadotrope = primaire) 
+\item FSH, LH N ou \dec : problème hypothalamo-hypophysaire\footnotemark (hypogonadotrope = secondaire)
 \end{itemize}
 \end{tcolorbox}
+\footnotetext{Chez \male{}, manque de testostérone}
+\footnotetext{Rappel : LH entraîne la production de testostérone}
 
 - centrale : congénital (pas de cassure de croissance, micropénis,
   cryptorchidie), acquis (tumeur ?), "fonctionnel" (maladie générale, trouble
@@ -1331,6 +1333,10 @@ Tuméfaction cervicale rapidement progressive, dure, adhérente, sujet âgé \th
 Étude génétique dans tous les cas : positif \thus chercher phéochromocytome,
 hyperparathyroïdie + enquêtes apparentés
 * 240 : Hyperthyroïdie
+\begin{tcolorbox}
+Examen en 1ere intention : TSHus (puis T4L !)
+\end{tcolorbox}
+
 Déf : hyperfonctionnement de la glande thyroïdienne. Sd de thyrotoxicose =
 conséquence sur les tissus.
 
