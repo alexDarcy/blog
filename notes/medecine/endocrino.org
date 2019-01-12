@@ -13,6 +13,12 @@
 #+latex_header_extra: \newglossaryentry{Leydigcell}{name={cellule de Leydig},description={Produit de la testostérone. Localisé près des tubules séminifères (testicules)}. Activé par LH}
 #+latex_header_extra: \newglossaryentry{Sertolicell}{name={cellule de Sertoli},description={Participe à la production du sperme. Localisé dans un tubule séminifère. Activé par FSH}}
 #+latex_header_extra: \newacronym{HVG}{HVG}{Hypertrophie ventriculaire gauche}
+#+latex_header_extra: \newglossaryentry{NF1}{name=NF1, description={Neurofibromatose 1. Tâches café au lait, neurofibromes (cutanées, nodulaires [le long d'un trajet d'un nerf] ou plexiformes [K possible]), nodules de Lisch sur l'iris.}}
+#+latex_header_extra: \newacronym{NEM2}{NEM2}{Néoplasie endocrinienne multiple 2}
+#+latex_header_extra: \newglossaryentry{VHL}{name={von Hippel-Lindau}, description={Hémangioblastome du cervelet/moelle épinière, de la rétine, phéochromocytome}}
+#+latex_header_extra: \newacronym{PCC}{PCC}{Phéochromocytomes}
+#+latex_header_extra: \newacronym{PGG}{PGG}{Paragangliomes}
+#+latex_header_extra: \newacronym{ADP}{ADP}{Adénopathie}
 
 #+OPTIONS: H:4
 
@@ -1035,7 +1041,7 @@ après stent, +1 ans après stent actif
 * 221 : HTA, causes endocriniennes
 Déf: \ge 140/90 mmHg.
 
-Dépistage d'une HTA secondaire : systématique mais économe...
+Dépistage d'une HTA secondaire : doit être systématique mais économe...
 
 Enquête :
 - initiale : ATCD familiaux HTA, souffle para-ombilical, rein/masse abdo à la
@@ -1052,6 +1058,10 @@ Physiopatho : aldostérone, cortisol, désoxycorticostérone \thus rétention so
 
 Penser à HAP si hypokaliémie (< 3.5mmol/L) ou HTA résistante
 
+\begin{tcolorbox}
+Si la surrénale produit plus d'aldostérone : régulation négative par la rénine (en théorie)
+\end{tcolorbox}
+
 \begin{algorithm}
   \caption{Explorations des HAP}
   Arrêt diurétiques\;
@@ -1063,15 +1073,15 @@ Penser à HAP si hypokaliémie (< 3.5mmol/L) ou HTA résistante
   }
 \end{algorithm}
 
-Tests dynamiques possibles : stimulation (recherche un défaut) de), freination
-(rechere une freination)
+Tests dynamiques possibles : stimulation (recherche un défaut de), freination
+(recherche une freination)
 
 *** Adénome de Conn 
 Forme généralement curable
 - imagerie : nodule unilatéral > 10mm au scanner.
 \danger il faut prouver une sécrétion unilatérale d'aldostérone \thus
 cathétérisme si scanner douteux/patient jeune/HTA résistante
-- chir possible (mais tumeur bénigne, risque récidive
+- chir possible (mais tumeur bénigne, risque récidive)
 - si autre HAP : médicaments en continus
 
 *** Hyperminéralocorticismes familiaux 
@@ -1081,19 +1091,18 @@ Lié à l'aldostérone, désoxycorticostérone, cortisol
 Contraception oestroprogestative, corticostéroides, réglisse
 
 ** Phéochromocytomes, paragangliomes fonctionnels
-   Phéochromocytomes (PCC) : médullosurrénale. Paragangliomes fonctionnels : autres
-   ganglions sympathiques
+   gls:PCC : médullosurrénale. gls:PGG fonctionnels : autres    ganglions sympathiques
    
 PCC : spontanément mortel. Dépistage :
 - HTA avec céphalées, sueurs, palpitations, HTA paroxystiques/diabète sans
   surpoids
-- sd familial : neurofibromatose 1 (NF1), von Hippel-Lindau (VHL), néoplasie
-  endocrinienne multiple 2 (NEM2), sd phéochromocytomes-paragangliomes familiaux
+- sd familial : gls:NF1, gls:VHL, gls:NEM2, sd phéochromocytomes-paragangliomes familiaux
 
 Diagnostic : métanéphrines \inc.
 
-Puis imagerie : PCC : uniques, ~5cm. PGG siègent dans l'organe de Zuckerkandl,
-vessie, hiles rénaux, médiastin postérieur, péricarde, cou.
+Puis imagerie : 
+- PCC : uniques, ~5cm. 
+- PGG siègent dans l'organe de Zuckerkandl, vessie, hiles rénaux, médiastin postérieur, péricarde, cou.
 
 Puis médecine nucléaire
 
@@ -1107,7 +1116,7 @@ Toujours traitement chir mais surveillance long terme
 ** Sd de Cushing
 Correspond hypersécrétion de cortisol
 
-signes : acén, ecchymoses, faiblesse musc, hirsutisme, oedèmes, ostéoporose, PAd
+Signes : acné, ecchymoses, faiblesse musc, hirsutisme, oedèmes, ostéoporose, PAd
 > 105mmHg, vergetures pourpres
 
 Étiologies :
@@ -1116,9 +1125,13 @@ signes : acén, ecchymoses, faiblesse musc, hirsutisme, oedèmes, ostéoporose, 
   corticosurrénalome
 
 *** Démarche
-- Diagnostic posiitif : cortisol sang (on cherche élévation cortisol
-  vers minuit) ou salive, cortisolurie (sur 24h), test de freinage rapide
-  (dexaméthasone à minuit, cortisolémie à 8h du maitn)
+\begin{tcolorbox}
+CRH (hypothalamus) stimule ACTH (hypophyse) qui stimule la production de
+glucocorticoïdes (surrénale)
+\end{tcolorbox}
+
+- Diagnostic positif : cortisol plasmatique [fn:64], cortisolurie (sur 24h), test de freinage rapide[fn:63]
+
 - Diagnostic étiologique selon ACTH :
   - ATCH diminuée \thus adénome, corticosurrénalome, hyperplasie bilatérale
   - ATCH normale ou \inc \thus test CRH. si positif : tumeur ectopique ou
@@ -1142,7 +1155,7 @@ confusion
 
 Coma hypoglycémique : début brutal, agité (sueurs), irritation pyramidale, hypothermie
 
-+ souvent signes adrénergiques : anxiété, tremblements, nausése, sueurs,
++ souvent signes adrénergiques : anxiété, tremblements, nausées, sueurs,
   pâleur, tachycardie
 
 ** Causes 
@@ -1150,40 +1163,47 @@ Diabétique : traité par insulines, hypoglycémiants oraux
 
 *** Insulinome 
 1ere cause tumorale (mais rare). Maligne dans 10%, < 2cm (90%)
-Clinique : manif. adrénergiques dominent
 
-Diagnostif : épreuve de jeune. 
+Clinique : manif. adrénergiques surtout
 
-- Glycémie : basse
-- Signes neuroglucopénie
-- Insulinémie normale mais inadaptée à glycémie
-- Peptide C bas 
-- Pas de sulfamides
+Diagnostic : épreuve de jeûne, cf table [[jeûne]]
 
-DD : prise d'insuline (peptide C élevé), de sulfonylurée (sulfamides)
+#+name: jeûne
+#+caption: Diagnostic d'hypoglycémie (jeûne) avec DD
+|              | Diagnostic positif     | Insuline cachée | Sulfonylurée cachée |
+|--------------+------------------------+-----------------+---------------------|
+| Glycémie     | basse                  | basse           | basse               |
+| Signes       | neuroglucopénie        |                 |                     |
+| Insulinémie  | normale mais inadaptée | dosable         | dosable             |
+| Peptide C    | bas                    | dosable         | indosable           |
+| Sulfamides   | 0                      |                 |                     |
+| pro-insuline | élevée                 |                 | indosable           |
 
 Scanner en coupe fine du pancréas et écho-endoscopie si médecin habitué
 
 Traitement : chir
 
-*Hypoglycémie par sécrétion inaproppriée d'insuline : triade de Whipple, glycémie \le 0.45g/L (sponténément/jeûne) avec
-insulinémie \ge 3 mUL/L, peptide C \ge 0.6ng/mL*
+\begin{tcolorbox}
+Hypoglycémie par sécrétion inaproppriée d'insuline : triade de Whipple, glycémie \le 0.45g/L\footnotemark avec
+insulinémie \ge 3 mUL/L, peptide C \ge 0.6ng/mL
+\end{tcolorbox}
+\footnotetext{Spontanément/jeûne}
+
 * 239 : Goitre, nodules thyroïdiens, cancers thyroïdiens
-  Synthèse hormones thyroïdiennes nécissite \approx 150 \mu{}g/jour (ado,
+Besoins en iode quotidiens (synthèse hormones thyroïdiennes) :  \approx 150 \mu{}g/jour (ado,
   adulte, \times 2 chez enceinte)
 
 Goitre = hypertrophie de la thyroïde :
 - palpation > dernière phalange du pouce
-- écho : volume > 20 $cm^3$ (18 femme adlute, 16 ado)
+- écho : volume > 20 $cm^3$ (18 femme adulte, 16 ado)
 
 ** Évaluation
    Clinique : mobile déglutition/visible cou en extension/visible à
    distance. Chercher : gene fonctionelle, signes de compression, signes de
-   dysfonction thyroïdienne, ADP[fn:17]
+   dysfonction thyroïdienne, acrshort:ADP
    
 Bio : 
-- TSH ! si \inc, déficit production, si \dec, imprégration excessive en
-hormoes thyroïdiennes.
+- TSH++ : \inc, déficit production, si \dec, imprégnation excessive en hormones thyroïdiennes.
 - compléter par T4, et si TSH \inc : Ac anti-TPO, anti-Tg
 
 Échographie
@@ -1202,7 +1222,7 @@ cervicale \thus TSH, écho, ponction, scintigraphie
 organes de voisinages, cancerisation (5%)
 
 *** PEC
-- Ado : levothyroxine ([1,1.5\u]g/kg/j) jusque V normal. Vérifier TSH
+- Ado : levothyroxine (1 à 1.5 $\mu{}$g/kg/j) jusque V normal. Vérifier TSH
 - Adulte/agé : si multinodulaire non malin, surveillance. Si symptomatique,
   thyroïdectomie totale
 - Goitre ancien, négligé : iode 131
@@ -1211,8 +1231,7 @@ organes de voisinages, cancerisation (5%)
 *** Autres pathologies responsables
 - Maladie de Basedow
 - Thyroïdites : 
-  - Hashimoto = hypertrophique. Goitre très ferme, expose à l'hypothyroïdie. Ac
-Ant-TPO\inc\inc{}, écho : goitre diffus, hypoéchogène
+  - Hashimoto = hypertrophique. Goitre très ferme, expose à l'hypothyroïdie. Ac Ant-TPO\inc\inc{}, écho : goitre diffus, hypoéchogène
   - autres thyroïdites
 - Troubles de l'hormonosynthèse
   
@@ -1220,7 +1239,7 @@ Ant-TPO\inc\inc{}, écho : goitre diffus, hypoéchogène
 Déf : toute hypertrophie localisée de la gande thyroïde. Majorité = bénin (5%
 cancers, de très bon pronostic)
 
-Prévalence \approx décennie du sujet. \times 2 chez \female. \inc si grossese,
+Prévalence \approx décennie du sujet. \times 2 chez \female. \inc si grossesse,
 déficience iode, irradiation cervicale
 
 *** Évaluation :
@@ -1236,27 +1255,26 @@ Si isolé :
 - TSH \inc : thyroïdite lymphocytaire ? \thus Ac anti-TPO
 
 Pronostic plutôt suspect : 
-- homme, enfant/âgé, ATCD irradiation cervicale, > 3cm,
-ovalaire, dur, irrégulier, > 20% en un an
+- homme, enfant/âgé, ATCD irradiation cervicale, > 3cm, ovalaire, dur, irrégulier, > 20% en un an
 - écho : hypoéchogène, contour irrégulier, microcalcifications, ADP
   
-Bio : TSH surtout. Calcitonine (CT) ? 
-- Si nodule, CT > 100pg/mL = argument solide pour cancer médullaire thyroïde.
-- CT \in [20,50]pg/mL : idem ou hyperplasise des cellules C ou insuffisant rénal
+Bio : TSH surtout. 
+- si nodule, calcitonine > 100pg/mL = argument solide pour cancer médullaire thyroïde.
+- calcitonine \in [20,50]pg/mL : idem ou hyperplasise des cellules C ou insuffisant rénal
 
 Examens : 
 - Échographie (classification TI-RAD de 1 à 6)
-- Cytologie si nodule suspect (classification Bethesda)
-- Scinti si cytol ininterprétable x2 ou indéterminé
+- Cytologie si nodule suspect (classification Bethesda de 1 à 6)
+- Scinti si cytologie ininterprétable 2 fois ou indéterminée
 
 *** Thérapeutique
-- Chir si suspect clinique/écho/cyto : thyroïdectomie si dystrophie controlatérale
+- Chir si suspect clinique/écho/cyto/calcitonine \inc\inc{} : thyroïdectomie si dystrophie controlatérale
 - Surveillance sinon
 - Hormonal si bénin dans familles avec goitres plurinodulaire, < 50 ans.
 
-Kystes, hématocèles : anéchogène \thus hormonothérapie, alcoolisation.
+Kystes, hématocèles : anéchogène \thus ponction \pm hormonothérapie , alcoolisation.
 
-Grossesse : 2e trimestre ou après accouchement pour opération
+Grossesse : chir possible 2e trimestre ou après accouchement 
 
 Nodule oculte : < 1cm. Risque de cancer 5%, faible pouvoir agressif
 - \danger si ADP, hérédité cancer médullaire thyroïde, fixation au TEP
@@ -1275,41 +1293,39 @@ Anatomie :
 - autres
   
 Risque de rechute/décès : 
-- taille tumeur, effraction capsule thyroïdienne,
-métastase (clasif TNM de I à IV)
+- taille tumeur, effraction capsule thyroïdienne, métastase (clasif TNM de I à IV)
 - mortalité \propto âge, dépend de l'histologie, exérèse
 
 *** Thérapeutique
 - Plan cancer
 - Chir en 1ere intention (anatomopatho pendant = certitude) : thyroïdectomie
-  totale. Curage ganglionnaire si besoin (systémituqe si carcinome médullaire,
-  si enfant/ado). Complications : hémorragie postopératoire \skull,
-  hypoparathyroïdie (calcium + vit D), paralysie transitoire/définitive nerfs récurrents
+  totale. Curage ganglionnaire si besoin (systémique si carcinome médullaire,
+  si enfant/ado). \\
+  Complications : hémorragie postopératoire \skull,  hypoparathyroïdie (calcium + vit D), paralysie transitoire/définitive nerfs récurrents
 \vspace*{10pt}
+
 /Cancers différenciés d'origine vésiculaire/
-   - iode 131 : seulement post-thyroïdectomie totale (haut risque). Après
-     stimulationo par L-T4 ou injection TSH. Puis hospit après en chambre 2-5 j
-     et contraception 6-12 mois. ES : {nausées, oedèmes}, {agueusie,
-     sialadénite}. Scinti  obligatoire à +2-8j : fixation extracervicale à
-     distance = métastases
+   - iode 131 : seulement post-thyroïdectomie totale (haut risque). Nécéssite
+     stimulation par L-T4 ou injection TSH. Puis hospit après en chambre 2-5 j
+     et contraception 6-12 mois. \\
+     ES : {nausées, oedèmes}, {agueusie, sialadénite}. \\
+     Scinti  obligatoire à +2-8j : fixation extracervicale à  distance = métastases
    - hormonal : L-T4 si haut risque ou échec traitement initial. Puis mesurer TSH à
      +6sem-2mois (pas avant !)
    - surveillance : 80% des récidives à 5 ans \thus écho cervicale, rhTSH,
      Tg[fn:18] à 6-12mois : cytoponction puis imagerie si Tg > seuil. Sinon \dec LT4
    - traitement récidives : chir si cervicale. Plus compliqué si métastates
-     (iode131 si fixant sinon ttt local ou molécules ciblées). Plus LT4
+     (iode131 si fixant sinon ttt local ou molécules ciblées). Maintenir LT4
      
-/Cancers anaplasiques/
+/Cancers anaplasiques/\\
 Tuméfaction cervicale rapidement progressive, dure, adhérente, sujet âgé \thus radio-chimio. Pronostic très péjoratif
 
 /Cancers médullaires/
-TTT : chir \pm curage ganglionnaire
-Surveillance : calcitonine > 150\mu{}g/L \thus bilan de localisation.
-Temps doublement : 6 mois = pronostic très mauvais.
-
-Traitement métastases = local.
-
-Étude génétique dans tous les cas : positif \thus chercher phéochromocytome,
+- TTT : chir \pm curage ganglionnaire
+- Surveillance : calcitonine > 150\mu{}g/L \thus bilan de localisation.
+- Temps doublement : 6 mois = pronostic très mauvais.
+- Traitement métastases = local.
+- Étude génétique dans tous les cas : positif \thus chercher phéochromocytome,
 hyperparathyroïdie + enquêtes apparentés
 * 240 : Hyperthyroïdie
 Déf : hyperfonctionnement de la glande thyroïdienne. Sd de thyrotoxicose =
@@ -2945,6 +2961,11 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 |                  | trouble apprentissage, comm. | Pas de seins ?             | Pas de dev. sexuel secondaire         |
 |                  |                              |                            |                                       |
 * Footnotes
+
+[fn:64] Physiologique = minimal à minuit, donc mesure à minuit. Mesure salivaire possible.
+
+[fn:63] 1mg de dexaméthasone à minuit. Action de rétrocontrôle négative du
+cortisol donc on vérifie le cortisol plasmatique le lendemain à 8h.
 
 [fn:62] Atteinte poumon évocatrice, \inc{} ACE, pas de tuberculose, granulome
 non caséeux (histologie)
