@@ -5,11 +5,14 @@
 #+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 #+latex_header: \usepackage[nonumberlist]{glossaries}
 #+latex_header: \makeglossaries
-#+latex_header_extra: \newacronym{SHBG}{SHBG}{Sex Hormone-Binding Globulin}
+#+latex_header_extra: \newglossaryentry{SHBG}{name=SHBG,description={Sex Hormone-Binding Globulin. Diminue avec des androgènes, augmente avec les oestrogènes}}
 #+latex_header_extra: \newacronym{SOPK}{SOPK}{Syndrome des ovaires polymicrokystiques}
 #+latex_header_extra: \newacronym{OGE}{OGE}{Organes génitaux externes}
 #+latex_header_extra: \newacronym{CAIS}{CAIS}{Complete Androgen Insensitivity Syndrome}
 #+latex_header_extra: \newacronym{IOP}{IOP}{Insuffisance ovarienne primitive}
+#+latex_header_extra: \newglossaryentry{Leydigcell}{name={cellule de Leydig},description={Produit de la testostérone. Localisé près des tubules séminifères (testicules)}. Activé par LH}
+#+latex_header_extra: \newglossaryentry{Sertolicell}{name={cellule de Sertoli},description={Participe à la production du sperme. Localisé dans un tubule séminifère. Activé par FSH}}
+#+latex_header_extra: \newacronym{HVG}{HVG}{Hypertrophie ventriculaire gauche}
 
 #+OPTIONS: H:4
 
@@ -314,9 +317,11 @@ reproduction. Classification de Tanner (5 stades)
 | taille     | 163cm                  | taille              | 175cm                   |
 
 ** Retards 
-\male :  volume testiculaire < 4mL ou longeur < 25mm > 14 ans 
-
+\begin{tcolorbox}
+\male :  volume testiculaire < 4mL après 14 ans \footnotemark\\
 \female : pas de seins à 13 ans, pas de règles à 15 ans
+\end{tcolorbox}
+\footnotetext{ou longueur < 25mm}
 
 \begin{tcolorbox}
 Centrale ou périphérique ?
@@ -326,7 +331,7 @@ Centrale ou périphérique ?
 \end{itemize}
 \end{tcolorbox}
 
-- centrale : congénital (pas de cassure de croissance, micropénise,
+- centrale : congénital (pas de cassure de croissance, micropénis,
   cryptorchidie), acquis (tumeur ?), "fonctionnel" (maladie générale, trouble
   comportement alimentaire), isolé
 - périphérique : sd de Turner chez \female, sd Klinefelter \male
@@ -415,11 +420,10 @@ Stéroïdes élevées, LH et FSH bas. Écho pelvienne chez fille
  Clinique : checher micropénis (< 2cm, hypospadias, autres)
 
  Explorations : endocrinienne pour toute cryptorchidie \danger
- - bilatérale : doser 17-hydroxyprogestérone chez \female virilisée pour élimire hyperplasie
+ - bilatérale : doser 17-hydroxyprogestérone chez \female{} virilisée pour éliminer hyperplasie
    congénitale des surrénales
- - testostérone, INSL3 (cellule de Leydig), AMH, inhibine B sérique (c. de
-   Sertoli), FSH, LH mesurée jusque 4-6mois[fn:5]
- - écho pour vérifier l'absece de dévirés mülleriens
+ - testostérone, gls:Leydigcell (INSL3), gls:Sertolicell (AMH, inhibine B sérique), FSH, LH mesurée jusque 4-6mois[fn:5]
+ - si bilatéral, écho (vérifier l'absence de dérivés mülleriens)
 
  Étiologie
  - hypogonadisme hypogonadotrope congénital
@@ -432,21 +436,21 @@ Stéroïdes élevées, LH et FSH bas. Écho pelvienne chez fille
  Traitement : chir dès 2 ans, indispensable ! (risque de cancer)
 ** Adulte
 - Risque : hypogonadisme, infertilité, cancer testicule
-- Examen clinique : scrotume, gynécomastie, signes d'hypogonadisme
+- Examen clinique : scrotum, gynécomastie, signes d'hypogonadisme
 - Complémentaire : {FSH, LH, testostérone}, hCG si tumeur à la palpation, écho
   scrotale, spermogramme
 * 51 : Retard de croissance
 \danger Ne pas passer à côté de pathologies sévères
 
-Phases : foetale (rapide, {nutrition, insuline, IGF-2}), précoce 0-3ans (rapide,
-{insuline, IGF, hormones thyroïdiennes}), prépubertaire (plus lente, décroît,
-{génétique, GH/IGF, hormones thyroïdiennes}), pubertaire ({stéroïdes sexuels,
-GH, nutrition})
+Phases : 
+- foetale (rapide, {nutrition, insuline, IGF-2})
+- précoce 0-3ans (rapide, {insuline, IGF, hormones thyroïdiennes})
+- prépubertaire (plus lente, décroît, {génétique, GH/IGF, hormones thyroïdiennes})
+- pubertaire ({stéroïdes sexuels, GH, nutrition})
 
-Retard statural = {taille < -2DS, ralentissements croissance, croissance <<
-parents}
+Retard statural = {taille < -2DS, ralentissements croissance, croissance $\le$ parents}
 
-Prise de poids, obésite, ralentissement croissance \thus chercher
+Prise de poids, obésité, ralentissement croissance \thus chercher
 hypercorticisme, tumeux craniopharyngiome sur l'hypothalamus, hypopituitarisme
 
 Examen :
@@ -454,8 +458,18 @@ Examen :
 - morphotype, dév. pubertaire, tous les système, psychoaffectif
 
 ** Principales causes
-#+caption: Retard poid
-| Maladie coeliaque             | IgA {totales, transglutamase}, fibro                   |
+- Si poids < poids idéal : cf table [[retard pondéral]]
+- Si poids $\ge$ poids idéal : cf table [[retard statural]]. Précisions :
+  - Test de stimulation de l'hormone de croissance (\danger si doute, IRM)
+  - Ralentissement sévère \thus bilan en urgence (craniopharyngiome, thyroïdite de
+    Hashimoto) \skull
+  - [0, 3] ans : digestives pédiatrique (coeliaque, mucoviscidose), [3,puberté] :
+    endoc constitutionnelle, à la puberté : déficit hormone, patho osseuse
+  - Savoir différencier retard pubertaire simple d'un vrai retard
+
+#+NAME: retard pondéral 
+#+caption: Causes de retard pondéral
+| Maladie coeliaque             | IgA totales, IgA anti-transglutamase, fibro            |
 | Crohn                         | VS, écho anse grêle                                    |
 | Mucoviscidose                 | Test sueur                                             |
 | Anorexie mentale              | Courbe de poids                                        |
@@ -465,25 +479,20 @@ Examen :
 | Patho mitochondriales         | lactate/pyruvate, génétique, biopsie musc, fond d'oeil |
 | Nanisme psychosocial          |                                                        |
 
-#+caption: Retard statural
+#+NAME: retard statural 
+#+caption: Causes de retard statural 
 | Endocrino         | Déficit GH (congénital, acquis [tumeur]) | IRM                                 |
 |                   | Hypothyroïdie                            | T4L, TSH, Ac anti-TPO               |
 |                   | Hypercorticisme (iatrogène)              | Cortisol libre urinaire/à 23h, ACTH |
 |                   | Déficit hormones sex.                    | Testostérone, GnRH, IRM             |
 |-------------------+------------------------------------------+-------------------------------------|
 | Constitutionelles | Sd Turner                                | Caryotype                           |
-|                   | Sd noonan                                | Gène PTPN11                         |
+|                   | Sd Noonan                                | Gène PTPN11                         |
 |-------------------+------------------------------------------+-------------------------------------|
 | Autres            | Osseuses (a-/hypo-chondroplasie)         | Radio                               |
 |                   | RCIU                                     | Taille naissance                    |
 |                   | Petite taille idiopathique               | Élimination                         |
 
-- Test de stimulation de l'hormone de croissance (\danger si doute, IRM)
-- Ralentissement sévère \thus bilan en urgence (craniopharyngiome, thyroïdite de
-  Hashimoot) \skull
-- [0, 3] ans : digestives pédiatrique (coeliaque, mucoviscidose), [3,puberté] :
-  endoc constitutionnelle, à la puberté : déficit hormone, patho osseuse
-- Savoir différenceier retard pubertaire syimple d'un vrai  retard
 
 ** Exploration :
 - Caryotype : fille taille < -2DS ou < -1.5DS sous taille parentale moyenne
@@ -495,25 +504,23 @@ Examen :
 * 78 : Dopage
 ** Substances augmentant la testostérone 
 - Stéroïdes anabolisant, testostérone : \inc masse musc, puissance
-- Risque : thrombotique, rupture musculo-tendineuse, touble personnalité, foie,
-trouble libido, adénome/cancer de la prostate
-- Femmes : masculinisation, hirsutisme, acné, aménorrhée, anovulation,
-  hypertrophie clitoridienne, libido exacerbée
+- Risque : thrombotique, rupture musculo-tendineuse, trouble personnalité, foie, trouble libido, adénome/cancer de la prostate
+- Femmes : masculinisation, hirsutisme, acné, aménorrhée, anovulation, hypertrophie clitoridienne, libido exacerbée
 
 \vspace*{0.5cm}
-- Testostérone : test chromatographique + spectrométrie de masse (très sensible
+- /Testostérone/ : test chromatographique + spectrométrie de masse (très sensible
   et spécifique)
-- Dihydrotestostérone (DHT) : traitement gynécomastie
-- Anabolisants : \inc tissu cellulaire (muscle). ES : rétention hydrosodée, HTA,
-  IDM, hépatite
-- hCG : diminuer épitestostérone/testostérone après dopage (IM, SC). Testée dans
+- /Dihydrotestostérone/ (DHT) : traitement gynécomastie
+- /Anabolisants/ : \inc tissu cellulaire (muscle). 
+ES : rétention hydrosodée, HTA, IDM, hépatite
+- /hCG/ : diminuer épitestostérone/testostérone après dopage (IM, SC). Testée dans
   le sang ou urine.
-- Anti-oestrogène : stimule production testiculaire de stéroïdes
+- /Anti-oestrogène/ : stimule production testiculaire de stéroïdes
 
 ** Hormone de croissance (GH), IGF-1
 - GH \inc masse musculaire, modifie architecture sequelette, acromégalie /mais/
-  pas d'effert sur volume d'activité physique. Détection difficile : approche indirecte (cascade biologique) et mesure des
-forme circulante et comparaison à r-hGH
+  pas d'effet sur volume d'activité physique. Détection difficile : approche
+  indirecte (cascade biologique) et mesure des forme circulante et comparaison à r-hGH
 - IGF-1 mime certains effet GH
 
 ** Glucocorticoïdes, ACTH
@@ -541,11 +548,12 @@ Aménorrhée < 40 ans = pathologique !
 
 *** Conséquences
 Court terme : bouffées de chaleur, trouble sommeil/humeur, \dec sécrétions
-vaginailes
-Moyen terme : douleurs ostéoarticulaires, \inc perte osseuse (selon ATCD d'insuf
-ovarienne prématurée, fractures no traumatique, médicaments, calcium/vit D)
+vaginales
 
-Long terme :: \inc risque CV. Incertitude sur SNC
+Moyen terme : douleurs ostéoarticulaires, \inc perte osseuse (selon ATCD d'insuf
+ovarienne prématurée, fractures non traumatiques, médicaments, calcium/vit D)
+
+Long terme : \inc risque CV. Incertitude sur SNC
 
 *** Traitement 
 Bénéfices
@@ -560,15 +568,14 @@ Risques :
 - \inc AVC ischémique, lithiase bilaires
 
 **** Thérapeutique 
-- oestrogène (17\beta-oestradiol)
-oral/percutané/transdermique[fn:6] 25 jours/mois
+- oestrogène (17\beta-oestradiol) oral/percutané/transdermique[fn:6] 25 jours/mois
 - *et* progestatif (au moins les 12 derniers jours) per os/transdermique
 \danger hémorragie de privation possible. Si pendant le traitement, faire écho
 pelvienne, hystéroscopie
 
 **** CI 
 Cancer du sein, endomètre, ATCD thromboembolique artériel (ischémique,
-cardiopathie embolinogène) ou veineux, hémorragie génitale sans diag, hépatique
+cardiopathie embolinogène) ou veineux, hémorragie génitale sans diagnostic, hépatique
 
 **** Mise en route
 - Interrogatoire : ATCD {cancer, métabolique, vasculaire}, carence oestrogénique
@@ -589,9 +596,9 @@ Traitement \ge 5 ans !!
 **** Alternatives
 - Modulateurs spécifiques du récepteur des oestrogènes : raloxifène
 - tibolone
+- traitement local préserve tractus urogénital
 
-NB : traitement local préserve tractus urogénital. Dépister FR CV. Promouvoir
-exercice, calcium, vit D
+NB : Dépister FR CV. Promouvoir exercice, calcium, vit D
 
 ** Andropause
 Chez majorité des hommes mûrs/âgés en bonne santé non obèse, baisse de
@@ -602,16 +609,16 @@ testostérone inconstante (2%).
  - Examen clinique : IMC, virilisation, gynécomastie, palper testicules
  - Mesure de testostérone totale :
    - > 3.2ng/mL = normale \thus étiologies non endocrino
-   - \in [2.3, 3.2] : dosier SHBG, calculer index de T libre, si bas cherche cause
+   - \in [2.3, 3.2] : doser SHBG, calculer index de T libre, si bas, chercher cause
    - < 2.3 ng/mL : chercher cause
 *** Étiologie
-Si FSH, LH élevée, insuf testiculaire primitive 
+Si FSH, LH élevée, /insuf testiculaire primitive/ 
 - lésionnelle : chimio, radiation, alcoolisme surtout. Autres : castration,
   torsion, orchite ourlienne
 - cryptorchidie bilatérale
-- chromosomique : sd Klienfelter++
+- chromosomique : sd Klinefelter++
 - lié à sénescene, cause génétique (rare !)
-Sinon hypogonadisme hypogonadotrope 
+Sinon /hypogonadisme hypogonadotrope/
 - tumeur région hypothalamo-hypophysaire : craniopharyngiome, adénome
   hypophysaire++, autres
 - infiltratif : sarcoïdose, hémochromatose
@@ -619,16 +626,16 @@ Sinon hypogonadisme hypogonadotrope
 - hyperprolactinémie, carence nutritionnelle, Cushing, tumeur testiculaire
 
 * 122 : Troubles de l'érection 
-Nécessite : vasculaire, musculaire lisse, retour veineux, signal  nerveux,
-hormonal, psychisme = fonctionnels
+Nécessite : réseau vasculaire, appareil musculaire lisse, retour veineux, signal  nerveux,
+appareil hormonal et psychisme fonctionnels
 
 Déf : incapacité persistante à obtenir/maintenir érection pour rapport sexuel satisfaisant
 
-Âge = FR (déficit neurosensorile, \inc testostérone, comorbidités)
+Âge = FR (car déficit neurosensoriel, \inc testostérone, comorbidités)
 
 ** Conduite  diagnostique
 *** Interrogatoire
-- DD avec perte désire, trouble éjaculation, douleurs pendant, anomalies morphologiques
+- DD avec perte désir, trouble éjaculation, douleurs pendant, anomalies morphologiques
 - Caractérisation : primaire/secondaire, brutal/progressif,
   permanent/situationnel, sévérité (délai trouble-consult, capacité résiduelle,
   masturbation)
@@ -650,7 +657,7 @@ androgénique
 Doser prolactine, hormones thyroïdiennes
 
 ** Bilan secondaire et approfondi
-Secondaire : sexo/psychologique, épreuve pharmacologique (prostaglandien,
+Secondaire : sexo/psychologique, épreuve pharmacologique (prostaglandine,
 inhibiteur de la phospohdiestérase 5)
 
 ** Étiologies
@@ -664,17 +671,16 @@ Plus fréquentes :
 
 ** Aspects endocriniens
 *** Androgènes circulants
-Influe libido, intérêt sexuel. Pour l'érection . seulement spontanées !
+Influe libido, intérêt sexuel, érection (seulement spontanée!)
 
 Hypogonadisme (diag difficile) : 
 - asthénie, gynécomastie, dépilation, perte force musculaire, adiposité androïde
-- doser testostérone totale \pm SHBG, prolactine. FSH, LH pour l'origin (cf
-  Sec. \ref{sec:120})
+- doser testostérone totale \pm SHBG, prolactine. FSH, LH pour l'origin
   
 *** Hyperprolactinémie 
 Tumeur hypophysaire (IRM), champ visuel si tumeur
 supra-sellaire, {T4L, cortisol, IGF-1, testostérone}
-\thus agoniste dopaminergique
+\thus correction par agoniste dopaminergique
 
 *** Diabète
 sucré = 1ere cause de trouble érectile (TE). TE fréquents chez diabètique. 
@@ -684,7 +690,7 @@ Facteurs : mal équilibré, complications, âge, ancienneté diabète
 Physiopatho : neuropathie autonomie, microangiopathie \thus défaut relaxation
 musculaire. Macroangiopathie \thus ischémie organes érectiles
 
-\danger facteurs psychènes hyportants !
+\danger facteurs psychogènes hyportants !
 
 Diabète et TE \thus mesure testostérone systématique (hypogonadisme ?)
 
@@ -693,10 +699,8 @@ Clinique :
 - diabète et TE : cherche trouble endoc, vasc, neuro, médicament, dépression
 - TE = FR d'ischémie myocardite silencieuse \danger
   
-Thérapeutique : inhibiteurs des phosphodiésterases de type 5 moins efficaces
-
 ** PEC
-Ttt étiologie : seulement trouble psychogène pur, chir possible, endocrino
+Ttt étiologie seulement pour : trouble psychogène pur, chir possible, endocrino
 
 *** Trouble endocrinien
 - Si hypogonadisme confirmé par bio[fn:7] : androgène oraux/intramusc/transderm
@@ -705,10 +709,11 @@ Ttt étiologie : seulement trouble psychogène pur, chir possible, endocrino
   
 *** Pharmacologique
 - FR, Hb glyquée < 7%, psycho/sexologique
-- 1ere intention : inhibiteurs des phosphodiésterases type 5 = efficaces
-- Sinon apomorphine, yohimbine = peu efficace
-- "Pompe" = efficace mais résistance psycho
-- 2eme intention : droge vasoactive = efficace mais douleurs peniennes, priapisme
+- 1ere intention 
+  - inhibiteurs des phosphodiésterases type 5[fn:60]
+  - Sinon apomorphine, yohimbine = peu efficace
+  - "Pompe" = efficace mais résistance psycho
+- 2eme intention : drogue vasoactive = efficace mais douleurs peniennes, priapisme
 - Prothèses péniennes = dernier recours, par chirurgien spécialisé
 
 * 124 : Ostéopathies
@@ -720,11 +725,11 @@ Dominance \female. Primaire ou secondaire :
 - digestives, générale, génétique, médicaments, autres
   
 ** Hypogonadisme
-Carence oestrogénique \inc ostéoclastogénèse. Aggravé par précocité,
-déminarilsation
+Carence oestrogénique \inc ostéoclastogénèse. Aggravé par la précocité,
+déminéralisation
 *** Anorexie mentale
-Biochimie : {isoenzyme des phosphastales alcalines, ostéocalcine} (formation)
-\dec, {CTx, NTx} (résorption) normaux
+Biochimie : marqueurs de formation \dec (isoenzyme des phosphastales alcalines,
+ostéocalcine), marqueurs de résorption normaux (CTx, NTx) 
 
 Aggravé par troubles nutritionnels. Hypercortisolisme hypothalamique réversible
 
@@ -748,7 +753,7 @@ Prolactinomes, adénome corticotrope influent remodelage osseux
 
 Perte osseuse rapide (8% par an), récupération variable.
 
-Traitement : \female non ménopausée : oestrogénothérapie
+Traitement : \female{} non ménopausée : oestrogénothérapie
 
 *** Iatrogènes
 Agonistes GnRH (patho utérines), inhibiteurs aromatase (cancer sein)
@@ -760,16 +765,16 @@ Traitement : bisphosphonates, denosumab
 *** Dysgénésies gonadique 
 Sd Turner = plus fréquent (1/2500 à naissance)
 
-\dec masses osseuse, continue à l'adolescence. \inc risue fracture chez
+\dec masses osseuse, continue à l'adolescence. \inc risque fracture chez
 l'adulte.
 
-Traitement : oestrogénisation (hypogonadisme) et hormone de crossance. Adulte :
+Traitement : oestrogénisation (hypogonadisme) et hormone de croissance. Adulte :
 oestroprogestatif
 
 ** Hyperthyroïdie, traitement par hormones thyroïdiennes
 Cause fréquente d'ostéoporose secondaire \thus dosage systématique TSH
 
-Hormones thyroïdiennes \inc remodelage : résorption sur l'os cortical++ et trabuclaire
+Hormones thyroïdiennes \inc remodelage : résorption sur l'os cortical++ et trabéculaire
 
 En pratique, rarement évolution jusque l'atteinte osseuse (ttt
 rapide). Adapter posologie hormones thyroïdiennes au cancer thyroïdien.
@@ -784,14 +789,14 @@ Prévention :
 \dec ostéoblastes, \inc activité ostéoclaste. \dec absorption intestinale
 calcium, \inc pertes urinaires calcium, hyperparathyroïdisme
 
-Surtout trabuculaire (vertèbres, côtes, radius). Aggravé si prépubertaire, hypogonadisme
-Fractures vertébrales fréquentes, surtout sd Cushing avec adénome
-corticotrope/surrénalien
+Surtout trabéculaire (vertèbres, côtes, radius). Aggravé si prépubertaire, hypogonadisme
+
+Fractures vertébrales fréquentes, surtout sd Cushing avec adénome corticotrope/surrénalien
 
 Traitement : 
 - pré-corticothérapie : status osseux, FR
 - supplément vitaminocalcique
-- bisphosphonates, tériparatide si corticothérapie > 3 mois, prednison > 7.5mg/j
+- bisphosphonates, tériparatide si corticothérapie > 3 mois, prednisone > 7.5mg/j
   et T-score $\ge -1.5$
 
 ** Hyperparathyroïdie primitive
@@ -799,9 +804,9 @@ Fréquent, notamment chez femme ménopausée. Ostéoporose fréquente \thus dép
 systématique par DXA
 
 Production continue PTH : \inc résorption os cortical (tiers proximal radius,
-fémur). NB : souvent aussi extr supérieure du fémur et vertèbres. 
+fémur)[fn:61]
 
-Diminution limitée (10%). Souvet favorable post-parathyroïdectomie.
+Diminution limitée (10%). Souvent favorable post-parathyroïdectomie.
 
 Traitement : chir si T-score < -2:5. Sinon anti-ostéoclastiques[fn:9], calcimimétique[fn:10]
 
@@ -823,11 +828,9 @@ infiltration plancher 3eme venticule, infundibulum, tige hypophysaire épaissie
 
 DD : tuberculose, histiocytose, lymphome, autres tumeurs de la région 
 
-Si patient avec sarcoïdose : diagnostic = déficit endocrinien et imagerie[fn:11]
+Si patient avec sarcoïdose connue : diagnostic = déficit endocrinien et imagerie[fn:11]
 
-Sinon : atteinte rare[fn:12]
-
-Radio et arguments sarcoïdose.
+Sinon : atteinte rare[fn:12], diag = radio et arguments sarcoïdose[fn:62].
 
 Traitement : sarcoïdose et déficits hormonaux
 
@@ -837,7 +840,7 @@ Hémochromatose primitive : génétique, surcharge en fer. 5 pour 1 000 !
 Physiopatho : 
 - Absorption intestinale régule stockage de fer 
 - Fer entre dans l'entérocyte (DMT1), puis stocké via ferritine ou relargé par ferroportine
-- Hepicidine \dec quand besoins fer \inc (!)
+- Hepcidine \dec quand besoins fer \inc (!)
 - Hémochromatose : hepcidine effondrée, DMT1 et ferroportine \inc
   
 Génétique : gène HFE à 95% et mutation C282Y/C282Y ou C282Y/H63D
@@ -865,11 +868,10 @@ En pratique, suspicion aux "3 A" : asthénie, arthralgies, \inc ALAT
   - sinon, si ferritine \inc, test génétique de 2eme intention, biopsie
     hépatique
 
-Examen complémentaires : glycémie, transaminases, écho abdo, ECG \pm écho
+Examen complémentaires : pancréas (glycémie),  foie (transaminases, écho abdo), ECG \pm écho
 cardiaque, radio articulation, bilan testostérone
 
-Dépistage chez parents (1er degér) : bilan martial \pm dépistage
-génétique. \danger mutation \neq maladie
+Dépistage chez parents (1er degré) : bilan martial \pm dépistage génétique. \danger mutation \neq maladie
 
 ** Stades
 0. Asymptomatique, CS-Tf, ferritinémie normaux
@@ -881,8 +883,8 @@ génétique. \danger mutation \neq maladie
 ** Traitement
 À partir du stade 2
 
-*** Saignées 
-Référence. Objectif : ferritine < 50 g/L (hebdomadaire) puis entretien tous les
+*** Saignées = référence
+Objectif : ferritine < 50 g/L (hebdomadaire) puis entretien tous les
   2-4 mois. Ne pas dépasser 550mL !
   
 CI : anémie sidéroblastique, thalassémie majeure, cardiopathies sévères
@@ -900,7 +902,7 @@ Bilan ferrique (stade 0,1) ferritinémie, hémoglobine (stade 2 à 4)
 
 * 219, 220 :  Facteurs de risque CV, dyslipidémies
 Rappel : FR = causalité et {relation forte, \propto dose, indépendant des autres
-FR, plusieus étude, exposition précède maladie, plausible, réversible++}
+FR, plusieurs étude, exposition précède maladie, plausible, réversible++}
 
 Risque absolu = un individu. Relatif = $\frac{R_{\text{exposé}}}{R_{\text{non exposé}}}$
 
@@ -923,7 +925,7 @@ Estimation : Étude Framingham, SCORE. En pratique :
 
 \inc rapide du risque après sevrage (mécanisme prothrombotique du tabac). 
 
-RR : 3 maladie coronarienne, 5 IDM/mort subite, 2-7 AOMI, 2 AVC.
+RR = 3 de maladie coronarienne, = 5 d'IDM/mort subite, = 2-7 d'AOMI, = 2 d'AVC.
 
 \danger tabac - contraception oestroprogestative
 
@@ -934,13 +936,13 @@ RR : 3 maladie coronarienne, 5 IDM/mort subite, 2-7 AOMI, 2 AVC.
 *** Étiologies  
 Secondaire
 - Bilan selon contexte : TSH, glycémie, créat, protéinurie, BU
-- Comorbiditét : 
+- Comorbidité : 
   - hypocholestérolémie : hypothyroïdie, (cholestase, anorexie mentale)
   - mixtes : sd néphrotique, grossesse
   - hypertriglycéridémie : insuf rénale chronique, alcoolisme, (obésité, diabète
     avec sd métabolique)
 - Iatrogène : ciclosporine, corticoïdes, oestrogènes oraux, rétinoïdes,
-  IFN-\alpha, certains antétroviraux, neuroleptiques, durétiques thiazidiques, betabloquant
+  IFN-\alpha, certains antétroviraux, neuroleptiques, diurétiques thiazidiques, betabloquant
 Primaire
 - Hypercholestérolémies familiales monogéniques
   - mutation du gène du récepteur LDL++ : hétérozygote (xanthomes tendineux,
@@ -957,12 +959,12 @@ Primaire
 ** HTA et risque CV
 PAs \ge 140, PAd \ge 90mmHg (3 consultations à 3 mois)[fn:15]   
 
-40% adulte. Proba \inc si sd métabolique. Aggravé par HVG, glomérulopathie
+40% adulte. Proba \inc si sd métabolique. Aggravé par acrshort:HVG, glomérulopathie
 
 Clinique, bio, ECG
 
 ** Diabète et risque CV
-Complications coronariennes ischémique : RR \female > \male.
+Complications coronariennes ischémique : RR \female{} > \male.
 
 AOMI : RR \times 5, AVC RR \times 2.
 
@@ -972,20 +974,20 @@ Diabète 2 : maladie coronarienne peut précéder diabète ! \thus dépistage
 Dépistage familial si pathologie métaboblique \inc risque vasc
 *** Sevrage tabac
 Évaluer dépendance nicotine
-Poid + 5kg ern moyenne
+Poids + 5kg en moyenne
 
-Substituts nicotinique (6sem-6mois) : n'aggrave pas maladie coron/troubles rythmes
+Substituts nicotinique (6sem-6mois) : n'aggrave pas maladie
+coronarienne/troubles rythmes
+
 Varéniclide, bupropion = dernière ligne (8 semaines)
 *** Activité physique
 - \dec insulino-résistance, \dec triglycéridémie, \inc HDL
-- \dec PA repos, \inc périmètre marche AOMI, \inc pronostic complications
-coronariennes ischémiques
+- \dec PA repos, \inc périmètre marche AOMI, \inc pronostic complications coronariennes ischémiques
 
 3x45min à 75% $O_2$
 
 *** Diététique
-- Lipides : graisses < 35%, \dec gras saturés, \inc mono-insaturés, {poisson gras, noix,
-\omega_3}, \dec cholestérol
+- Lipides : graisses < 35%, \dec gras saturés, \inc mono-insaturés, {poisson gras, noix, \Omega_3}, \dec cholestérol
 -  Autres : \inc fruits, légumes, {noix, noisettes, amandes}, sel < 6g/j, alcool
   < 3 verres vin, \dec sucres simples, -20% calories
   
@@ -1000,12 +1002,11 @@ Statines :
 - ES : myalgies, \inc CPK, \inc transaminases, \inc risque diabète 2
 - CI : HS, grossesse, allaitement
 *** Traitement hypercholestérolémies
-En primaire si LDL élève à +6 mois traitement. En secondaire si complication ischémique
+En primaire si LDL reste élèvé à +6 mois traitement. En secondaire si complication ischémique
 
 Objectifs :
 - primaire : 
-  - LDL < 1.3g/L si risque CV faible (pop générale, diabète ou
-  hypercholestérolémie familale)
+  - LDL < 1.3g/L si risque CV faible (pop générale, diabète ou hypercholestérolémie familale)
   - LDL < 1g/L sinon
 - secondaire : systématique
   
@@ -1025,7 +1026,7 @@ Monoprise, monothérapie en 1ere intention
 Objectif : [130, 139] et < 90mmHg. Visites mensuelles jusque l'objectif
 
 Suivi : pas d'hypotension orthostatique, {iono, créat, DFG} +15j après
-chaquement changement, suspension diurétiques, ARA si déshydratation
+chaquement changement, suspension diurétiques et ARA si déshydratation
 
 ** Antiagrégants plaquettaire
 Prévention secondaire : systématique. Clipodigrel-aspirine systématique à +1 mois
@@ -2945,6 +2946,13 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 |                  |                              |                            |                                       |
 * Footnotes
 
+[fn:62] Atteinte poumon évocatrice, \inc{} ACE, pas de tuberculose, granulome
+non caséeux (histologie)
+
+[fn:61] Souvent aussi extr supérieure du fémur et vertèbres.
+
+[fn:60] Efficace si stimulation sexuelle (même chez diabétique)
+
 [fn:2] Hypothalamus n'arrive pas à libérer la GnRH au bon rythme. 
 
 [fn:59] Dilatation variqueuse des veines du cordon spermatique 
@@ -3052,7 +3060,7 @@ l'absence de transcript de FMR1 (Fragile X Mental Retardation 1). \\
 
 [fn:7] Baisse libido, testostérone totale < 3 ng/mL
 
-[fn:8] Marathon, danse classique, demi-fond, triathlone, gymnastique, cyclisme
+[fn:8] Marathon, danse classique, demi-fond, triathlon, gymnastique, cyclisme
 
 [fn:9] Oestrogènes, raloxifène, bisphosphonates
 
