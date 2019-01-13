@@ -21,6 +21,8 @@
 #+latex_header_extra: \newacronym{ADP}{ADP}{Adénopathie}
 #+latex_header_extra: \newglossaryentry{TPO}{name={Thyroid peroxydase (TPO)},description={Enzyme de la thyroïde servant à générer la thyroxine (T4) et triiodothyroine (T3)}}
 #+latex_header_extra: \newacronym{ATS}{ATS}{Antithyroïdiens de synthèse}
+#+latex_header_extra: \newacronym{GH}{GH}{Hormone de croissance (Growth hormone)}
+#+latex_header_extra: \newacronym{CLU}{CLU}{Cortisol libre urinaire}
 
 #+OPTIONS: H:4
 
@@ -1575,10 +1577,12 @@ Situations particulières:
 ** Sd tumoral
 Clinique : 
 - céphalées : rétro-orbitaire, localisése
-- trouble visuels : "voile", par compression des voies optiques. Fond d'eil,
+- trouble visuels : "voile", par compression des voies optiques. Fond d'oeil,
   acuité visuelle OK. Quadra-/hémi-anopsie temporale (sup si quadra)
 - apoplexie hypophysaire (rare) brutal : céphalées violentes, sd méningé sd
-  confusionnel, troubles visuel. Imagerie en urgence \danger : adénome en nécrose/hémorragie
+  confusionnel, troubles visuel.\\
+ Imagerie en urgence \danger : adénome en nécrose/hémorragie \skull
+
 IRM = examen de référence :
 - microadénome : arrondi, homogène, hypo-T1, hypointense  après injection,
   signes indirects
@@ -1588,7 +1592,7 @@ IRM = examen de référence :
   intra-sellaire (dure-mère spiculée)
   
 ** Sd d'hypersécrétion
-*** Hyperprolactinémie
+*** Hyperprolactinémie[fn:19]
 Fréquente \thus cherche adénome hypophysaire (même si majorité = médicament)
 Signes :
 - \female : galactorrhée (pas forcément causée par prolactine ! mais chercher
@@ -1605,28 +1609,34 @@ Signes :
 hyperprolactinémie : régression sous agoniste dopaminergique si premier\;
 \end{algorithm}
 
-*** Acromégalie
+*** Acromégalie (excès de gls:GH)
 Clinique :
-- Sd dyspmorphique : extrémier élargies, visage (nez élargie, front bombé, lèvres
-épaisses, tendance prognathisme}
-- Signes fonctionnels : sueurs, céphalées, paresthésies des mains, douleurs
-articulaires, asthénie fréquente, HTA (50%)
+- Sd dysmorphique : extrémités élargies, visage (nez élargi, front bombé, lèvres épaisses, tendance prognathisme}
+- Signes fonctionnels : sueurs, céphalées, paresthésies des mains, douleurs articulaires, asthénie fréquente, HTA (50%)
+
 Complications :
 - CV : hypertrophie myocardite (écho), débit \inc. Puis insuf cardiaque
   congestive
 - arthropathie périphérique : grosses articulations, radio (interligne \inc,
   ostéophite), rachis (spondylose d'Erdheim)
 - diabète/intolérance glucose, SAS, goitre, polypes du colons
-  Diagnostic : absence de freinage de la GH pendant hyperglycémie provouqée
-  orale (GH > 0.4ng/mL), \inc IGH-F1
+
+\begin{tcolorbox}
+Diagnostic d'acromégalie : absence de freinage de la GH pendant hyperglycémie provoquée
+  orale (GH > 0.4ng/mL), \inc IGF-1\footnotemark
+\end{tcolorbox}
+\footnotetext{La GH stimule la production d'IGF-1.}
+
 Puis bilan tumoral, retentissement fonctionnel hypophysaire, retentissement
 acromégalie
-*** Sd de cushing
+
+*** Sd de Cushing (excès de glucocorticoïdes)
 Excès de glucocorticoïdes : causes iatrogènes ou adénomes hypophysaires
 corticotropes
+
 Clinique :
 - anomalies acquises. Amyotrophie ceinture et abdomen, lenteur cicatrisation,
-  peu amince (mains), ecchymoses au moindr chocs, vergétures cutanée (flancs,
+  peu amincie (mains), ecchymoses au moindre choc, vergétures cutanée (flancs,
   racine des membres, mammaire, péri-ombilic), visage érythrosique, congestif,
   varicosité
 - moins spécifique : +10kg, graisse facio-tronculaire (visage arrondi), bosse de
@@ -1635,21 +1645,29 @@ Clinique :
   troubles psy
 Bio : intolérance glucide
 
-Diagnostic : 
-\begin{algorithm}
-  \caption{Stratégie diagnostique hypercorticisme}
-  Cortisol libre urinaire (CLU) ou freinage minute ou cortisol à minuit\;
-  Si CLU \inc, réponse anormale freinage minuit, cortisol minuit > 72ng/mL\;
-  Vérifier par freinage standard \thus hypercorticisme\;
-  Dosage ACTH : si bas, scanner surrénales pour adénome\;
-  Sinon IRHM hyperphysaire, freinage fort, test CRH, 
-  test métopirone \thus sécrétion ectopique (normal) ou maladie de Cushing\;
-\end{algorithm}
+\begin{tcolorbox}
+Diagnostic d'hypercorticisme :\\
+  Si (\acrshort{CLU} \inc, réponse anormale au freinage minute\footnotemark, cortisol minuit > 72ng/mL) :
+\begin{enumerate}
+  \item Confirmation par freinage standard\footnotemark
+  \item Dosage ACTH : 
+  \begin{itemize}
+    \item Si bas, scanner surrénales pour adénome\footnotemark
+    \item Sinon IRM hypophysaire, freinage fort, test CRH, 
+    test métopirone \thus sécrétion ectopique (normal) ou maladie de Cushing
+    \end{itemize}
+\end{enumerate}
+\end{tcolorbox}
 
-NB : 
-- Freinage minute = cortisolémie matin après 1mg dexméthasone à 23h. Freinage
-faible : urines 48h puis idem après 0.5mg dexméthasone
-- DD : stress intense, dépression sérèver, psychose, alcoolsime (CLU modéré,
+\footnotetext{Freinage minute = cortisolémie matin après 1mg dexaméthasone à 23h
+  (rétrocontrole négatif en théorie des glucocorticoïdes sur cortisol)}
+\footnotetext{Freinage standard/faible : urines sur 48h puis idem après 0.5mg
+  dexméthasone. On vérifie également le rétrocontrôle négatif}
+\footnotetext{ACTH stimule la production de glucocorticoïdes (via
+  surrénales). Un excès de cortisol est censé diminuer la production d'ACTH. Si
+  oui, atteinte surrénale !}
+
+DD : stress intense, dépression sévère, psychose, alcoolisme (CLU modéré,
   freinage minute anormal) \thus épreuve du temps 
   
 ** Insuffisance antéhypophysaire
@@ -2966,7 +2984,67 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 \printglossaries
 
 * Annexes
+** Hormones
 
+\begin{figure}[htpb]
+  \centering
+  \resizebox{!}{5cm}{
+    \tikz \graph [
+    % Labels at the middle 
+    %edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    sibling distance=6cm,
+    layer distance=2cm,
+    %edges={nodes={fill=white}}, 
+    tree layout]
+    {
+      ht/hypothalamus -> ["CRH"] hh/hypophyse -> ["ACTH"] cs/corticosurrénale -> cort/cortisol;
+      cort ->[bend left=60, "-"] ht;
+      cort -- ["+"] hh;
+      hh --["+"] ht;
+    };
+  }
+\resizebox{0.4\linewidth}{!}{
+    \tikz \graph [
+    % Labels at the middle 
+    %edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    %sibling distance=6cm,
+    layer distance=1.5cm,
+    %edges={nodes={fill=white}}, 
+    tree layout]
+    {
+      ht/hypothalamus -> ["GnRH"] hh/hypophyse -> "FSH, LH" -> {
+        testicules -> test/testosterone;
+        ovaires -> est/estrogène;
+      };
+      test -> [bend left=70, "-"] ht;
+      test -> [bend left=60, "-"] hh;
+      est -> [bend right=70, "-"] ht;
+    };
+}
+\resizebox{!}{5cm}{
+    \tikz \graph [
+    % Labels at the middle 
+    %edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    %sibling distance=6cm,
+    layer distance=1.5cm,
+    %edges={nodes={fill=white}}, 
+    tree layout]
+    {
+      ht/hypothalamus -> ["TRH"] hh/antéhypophyse ->["TSH"] th/thyroide -> "T4, T3";
+      th -> [bend left=60, "-"] hh;
+      th -> [bend left=70, "-"] ht;
+    };
+}
+\end{figure}
+
+
+** Syndromes génétiques
 |                  | Klinefelter                  | Turner                     | Kallmann                              |
 |------------------+------------------------------+----------------------------+---------------------------------------|
 | Sexe             | \male                        | \female                    | \male{}, \female                      |
@@ -2977,7 +3055,12 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 |                  | gynécomastie                 | Aménorrhée                 | \male : Micropénis, cryptorchidie     |
 |                  | trouble apprentissage, comm. | Pas de seins ?             | Pas de dev. sexuel secondaire         |
 |                  |                              |                            |                                       |
+
+
 * Footnotes
+
+
+[fn:19] Prolactine est sécrétée par l'hypophyse
 
 [fn:65] [T4] n'est à l'équilibre que +5 semaines après modification de T4
 
