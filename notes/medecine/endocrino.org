@@ -1836,6 +1836,9 @@ cytochromie P450 (ritonavir)) ou sd Cushing iatrogène
   - pubertaire : de 13 jusque 20 ans, rétrocède . Palper testicule pour atrophie testiculaire/tumeur
   - fréquente > 65 ans. Palpation testiculaire
 ** Étiologie 
+\begin{tcolorbox}
+Causes fréquentes : médic, idiopathique, cirrhose, insuf testiculaire/gonadotrope, (tumoral)
+\end{tcolorbox}
 Évidente :
 - insuf rénale chronique, cirrhose, médicaments (surtout spironolactone,
   antiandrogène, kétoconazole, neuroleptiques, ATB antirétroviraux, antiulcéreux)
@@ -1863,12 +1866,21 @@ Traiter la cause. Sinon
 - Idiopathique : androgènes non aromatisables 3 mois. Si inefficace, chir
   plastique possible
 * 245 : Diabète
-Définition : glycémie à jeun \ge 1.26g/L (2 reprises) ou aléatoire \ge 2g/L[fn:25]
-me
-Caractéristiques diabète 1 (le diabète 2 s'y oppose) : ATCD familiaux rares, <
-25 ans, début rapide explosif, symptomatologie bruyante, poids normal ou \dec,
-shyperglycémie majeure > 23g/L, souvent cétose, pas de complications
-dégénératives, mortalité par insuf rénale (CV pour diabète 2)
+  \begin{tcolorbox}
+Définition : glycémie à jeun \ge 1.26g/L (2 reprises) ou aléatoire \ge 2g/L \footnotemark
+\end{tcolorbox}
+\footnotetext{Normale à jeûn < 1.10g/L}
+
+Caractéristiques diabète 1 (le diabète 2 s'y oppose) : 
+- ATCD familiaux rares
+- < 25 ans
+- début rapide explosif
+- symptomatologie bruyante
+- poids normal ou \dec
+- hyperglycémie majeure > 23g/L
+- souvent cétose
+- pas de complications dégénératives
+- mortalité par insuf rénale (CV pour diabète 2)
 
 ** Diabète 1
    Prévalence : 1/200 000 (10% des diabétiques). Peut survenir à tout âge. \inc
@@ -1887,19 +1899,20 @@ anti-{ICA, GAD, IA2, insuline, ZnT8}
 Diabète \in sd polyendocrinien auto-immun : 10% d'autres maladies auto-immunes =
 thyroïdopathies (Basedow, thyroïdite), Addison, atrophie gastrique de Biermer,
 maladie coeliaque, vitiligo 
-- \thus doser Ac anti-TPO ou TSH (thyroïdite), anti-surrénale (Addison), anti-transglutaminase \pm anti-endomysium (coeliaque),
-anti-paroi gastrique, anti-facteur intrinsèque (Biermer)
+- doser Ac anti-TPO ou TSH (thyroïdite), anti-surrénale (Addison), anti-transglutaminase \pm anti-endomysium (coeliaque), anti-paroi gastrique, anti-facteur intrinsèque (Biermer)
 - si positif : surveillance annuelle
 
 *** Clinique
-Habituel : début rapide/explosif, sd cardinal = *polyuro-polydispsie,
-amaigrissement, polyphagie*, troubles visuels transitoires, examen pauvre (fonte
+\begin{tcolorbox}
+Diabète 1 : \{polyuro-polydipsie, amaigrissement, polyphagie\}, glycémie $> 2g/L$ \pm cétonurie
+\end{tcolorbox}
+Habituel : début rapide/explosif, sd cardinal = polyuro-polydispsie,
+amaigrissement, polyphagie, troubles visuels transitoires, examen pauvre (fonte
 musc, signes d'acidose[fn:26], glycémie veineuse, cétonurie (acidocétose
 inaugurale)
 
 Formes
-- Diabète 1 lent (LADA[fn:27]) : début tardif, progessif, Ac
-positif. Insulinothérapie en 2-10 ans
+- Diabète 1 lent (LADA[fn:27]) : début tardif, progessif, Ac positif. Insulinothérapie en 2-10 ans
 - Révélé par acidocétose : fréquente chez enfants, ne devrait plus être vues
 - Non insulinodépendantes : 3 auto-Ac positifs \thus 100% d'avoir diabète 1 dans
   5 ans. Rémission de quelques mois possibles.
@@ -1913,16 +1926,17 @@ Affirmer type 1 :
 - sinon :
   - hérédité dominante : MODY, mutation SUR1/KIR6-2 (si diabète néonatal)
   - symptômes inhabituels : sd de Wolfram (atrophie optique, surdité, diabète
-    inspide < 20 ans), mitochondropathie (surdité, distrophie maculaire,
+    insipide < 20 ans), mitochondropathie (surdité, dystrophie maculaire,
     cardiomyopathie transmission par la mère)
   - secondaire : cancer pancréas (amaigrissement), pancréatite chronique,
-    mucoviscidose, hémochromatos, médicaments
+    mucoviscidose, hémochromatose, médicaments
     
 *** Évolution
 Schéma théorique : phase préclinique (destruction cellules beta), clinique (85% détruites), clinique séquellaire
 
-Diabète instable : itérations de cétoacidoses ou hypoglyémies sévères,
-psycho. DD : gastroparésie, déficit systèmes contra-insuliniques, Ac anti-insuline
+Diabète instable : 
+- itérations de cétoacidoses ou hypoglycémies sévères, psycho. 
+- DD : gastroparésie, déficit systèmes contra-insuliniques, Ac anti-insuline
 
 *** PEC
 Patient : contrôle glycémie, injection d'insuline, prévenir complications
@@ -1940,8 +1954,10 @@ Surveillance :
 - {lipides, créat, microalbuminurie}
 - ophtalmo, cardiologie 1/an (sympto/âgé,compliqué), dentiste 1/an
 
-Traitement insulinique : palliatif à vie
+Traitement insulinique (Table [[insuline]] ): palliatif à vie
 
+#+name: insuline
+#+caption: Traitement insulinique du diabète 1
 | Type                          | Injection  | Durée  | Utilisation              |
 |-------------------------------+------------+--------+--------------------------|
 | insuline humaine recombinante | IV, IM, SC | 7-8    | Prandiale, hyperglycémie |
@@ -1953,7 +1969,7 @@ Injection :
 - Résorption SC \inc si injection dans muscle, chaleur, vasodilatition, selon zone et dose, 
 - Stylo à insuline (pompe si échec)
 - Schéma : analogue lent (1-2/j) et analogue rapide (3-4)
-- dose "pour vivre", "pour manger", "éour traiter", activité physique \thus
+- dose "pour vivre", "pour manger", "pour traiter", activité physique \thus
   éducation nutritionnelle
 
 Effets secondaires : hypoglycémie, prise de poids légère, allergie rarissime,
@@ -1969,11 +1985,11 @@ Enfant/ado :
 
 Femme :
 - dépister diabète 1 pendant grossesse
-- contraception à discuter : pilule oestrogestative possible si \female jeune,
+- contraception à discuter : pilule oestrogestative possible si \female{} jeune,
   sans complication, non fumeuses, diabète bien équilibré
-- qrossesse : pronostic quasi normal si équilibre dès conception
-  jusqu'accouchement et non compliqué. Analogue de l'insuline. Attention : HbA1c
-  \dec , \inc besoin fin grossesse et \dec post-partum, aggravation rétinopathie
+- grossesse : pronostic quasi normal si équilibre dès conception
+  jusqu'accouchement et non compliqué. Analogue de l'insuline. \\
+  \danger{} HbA1c \dec , \inc besoin fin grossesse et \dec post-partum, aggravation rétinopathie
   et néphropatie
 - CI absolue : insuf coronaire instable
 - HbA1c < 6.5%, glycémie jeun < 0.9g/L
@@ -1981,14 +1997,13 @@ Femme :
 Ménopause : hormonothérapie seulement si médicalement indiqué
 
 Jeûne : 
-- si intolérance gastrique : pas d'arrêt insuline, collations
-liquide/hospit. Vérifier cétonurie
+- si intolérance gastrique : pas d'arrêt insuline, collations liquide/hospit. Vérifier cétonurie
 - pour examen à jeun : laisser agir analogue lent, surveiller glycémie
 - prolongé/stress : soluté glucosé et insuline en IV
   
 ** Diabète 2
 90% de diabète. Prévalence 4%. À risque : obèse, anomalie métabolisme
-glucidique, ATCD familiaux diabète 2, ethnie noire hispanique.
+glucidique, ATCD familiaux diabète 2, ethnie noire/hispanique.
 Age adulte.
 
 *** Physiopatho
@@ -2017,18 +2032,20 @@ mucoviscidose, médicaments)
 Évolution : insulinopénie -> insulinoréquerant. Pronostic selon complications.
 
 *** Traitement 
-Objectifs : normalisation HbA1c (< 6.5%), améliorer gylcémie, insulinosensibilité
+Objectifs : normalisation HbA1c (< 6.5%), améliorer glycémie, insulinosensibilité
 
 Moyens  : activité physique, régime (hypocalorique si surpoids) sans sucres
 rapides, traitement oraux, analogues GLP-1, insuline
 
 Ttt oral :
-- biguanide (Metformine)+++ : ES = digestif. CI = insuf rénale (?), hépatique, respiratoire
+- biguanide (Metformine)+++ : 
+  - ES = digestif. 
+  - CI = insuf rénale (?), hépatique, respiratoire
 - autres sulfamides, glinides, inhibiteurs DPP-4, inhibiteurs \alpha-glucosidase
   
 Surveillance glycémique :
 - HbA1c essentielle : < 7% pour plupart des patients (8% si comorbidité grave,
-  âgé farigle, ATCD complication macrovasc, insuf rénale chronique sévère, 9% si
+  âgé fragile, ATCD complication macrovasc, insuf rénale chronique sévère, 9% si
   agé dépendante)
 - autosurveillance glycémique : pas systématique si ttt oral (1-3 cycles/j),
   nécessaire si insuline
@@ -2037,23 +2054,22 @@ Hygiéno-diététique
 - Activité physique 
   - avantages : \dec incidence diabète 2, \inc insulinorésistance, \inc TA
     effort, \inc masse maigre, \dec masse grasse
-  - intensité modérée et \ge 30min) et (intense > 60% $VO_{2max}$ de 20min)
-  - 30min/jour, 3-5/semaines
+  - intensité modérée  \ge 30min et intense (> 60% $VO_{2max}$) de 20min
+  - 30min/jour, 3-5/semaine
   - CI : insuf coronarienne, rétinopathie proliférante non stabilisée
   - surveiller si risque hypoglycémie (reprise, intensité/durée
-    inhabituelle). Pieds ! NB : prescription du sport = mécial
+    inhabituelle). \danger{} pieds ! 
 - Alimentation : 
-  - hypocalorique si surpoids, équilibré[fn:31], sans sucre rapide. 
-  - objectif : -5-10% du poids
+  - hypocalorique si surpoids, équilibrée[fn:31], sans sucres rapides. 
+  - objectif : -5 à 10% du poids
 
 Traitement médicamenteux :
 - oral : metformine (sinon sulfamide, puis inhibiteurs DPP-4 ou inhibiteurs
   \alpha-glucosidase)
 - insulinothérapie 
-  - quand : insulinorequérance (amaigrissement, asthénie,
-  amyotrophie), observance thérapeutique, HbA1c > objectfis, CI oraux,
+  - quand : insulinorequérance (amaigrissement, asthénie, amyotrophie), observance thérapeutique, HbA1c > objectfis, CI oraux,
   affections intercurrentes
-  - combiné = insuline entermédiante/analogue lent + hypoglycémiant oraux si
+  - combiné = insuline intermédiaire/analogue lent + hypoglycémiant oraux si
     insulinorequérance partielles. 0.2 U/kg/j à adapter
   - exclusive : autosurveillance glycémique quotidienne, même gestion que
     diabète 1. 
@@ -2066,14 +2082,15 @@ athérosclérose). AOMI x6-10
 *** Physiopatho
 Excès de glucose entre dans les cellules endothéliales, musculaire lisses, péricytes.
 Glycolyse : voies mineures \inc, systèmes de protection de la mitochondrie
-débordés \thus stress oxydant dans la cellule.
+débordés \\
+\thus stress oxydant dans la cellule.
 
 Autres causes d'agression: inflammation, activation rénine-angiotensine, voies profibrosantes,
-induites par l'hypoxies. Systems de protection monis efficaces : antioxydants,
+induites par l'hypoxies. Systèmes de protection moins efficaces : antioxydants,
 anti-inflammatoire, cellules progénitrices vasculaires, angio-, artério-genèse
 
 Conséquences : épaississement des membranes basales, troubles perméabilité
-vasusculaire, spécifiques = {profil vasculaire (rétine), fibrose (rein)}
+vasculaire, spécifiques = {profil vasculaire (rétine), fibrose (rein)}
 
 *** Rétinopathie diabétique
 **** Déf
@@ -2083,25 +2100,25 @@ HTA, laser (si (pré-)proliférante), laser ou injection anti-VEGF (maculopathie
 oedémateuse)
 
 **** Épidémio 
-90% de rétinopathie après 30 ans de diabète, dont 30% menançant pronostic
+90% de rétinopathie après 30 ans de diabète, dont 30% menaçant pronostic
 visuel. Diabète = 1ere cause de cécité acquise en France chez < 50 ans. FR =
 durée et intensité de l'hyperglycémie
 
 **** Physiopatho 
 anomalie vasculaire (microanévrisme, trouble perméabilité capillaire) \thus soit
-oedème (dangereux si maculaire) soit (ischémie puis angiogenèse[fn:32] puis rétinopathie proliférante)
+oedème (dangereux si maculaire), soit (ischémie puis angiogenèse[fn:32] puis rétinopathie proliférante)
 
 **** Examens 
-cécite possible du jour au lendemain \skull \thus dépistage tous les 2 ans
-(annuel si diabète/TA mal contrôlé, {avant, trimestre, post-partum} pour femme enceinte)
+cécité possible du jour au lendemain \skull \thus dépistage tous les 2 ans
+(annuel si diabète/TA mal contrôlé, {avant, trimestre, post-partum} pour femme
+enceinte)
+
 Surveillance par examen ophtalmo, photo au rétinographe(dépistage seulement), tomographie de
 cohérence optique
 
 **** Gravité
 - au fond d'oeil : 
-  - microanévrisme < exsudats < nodules blancs cotonneux,
-irrégularités \diameter veines, capillaires dilatés (préproliférante) <
-néovaisseaux (proliférante) < décollement rétine, hémorragies, glaucome néovasculaire
+  - microanévrisme < exsudats < nodules blancs cotonneux, irrégularités \diameter{} veines, capillaires dilatés (préproliférante) < néovaisseaux (proliférante) < décollement rétine, hémorragies, glaucome néovasculaire
   - maculopathie : exsudat, oedème maculaire, ischémie
 - \dec acuité visuelle car hémorragie intravitréenne, décollementd rétine,
   glaucome néovasculaire, maculopathie diabétique
@@ -2127,14 +2144,14 @@ glomérules. Filtration améliorée puis décroît (sclérose) avec \inc
 albumine[fn:34]. Et toxicité directe glucose.
 
 **** Dépistage 
-1/an par BU (protéinurie, hématuri, infection urinaire),
+1/an par BU (protéinurie, hématurie, infection urinaire),
 rapport albuminurie/créatinurie (excrétion urinaire) et vérif à 6 mois
 
 **** Diagnostic
 Signes cliniques tardifs (HTA si protéinurie, oedème si protéinurie et insuf
 rénale)
 
-\danger faux positifs pour microalbuminurie : orthostatisme prolongé, activité
+\danger{} faux positifs pour microalbuminurie : orthostatisme prolongé, activité
 physique intense, \Delta PA, tabac, fièvre, \inc insuf cardiaque, hyperglycémie,
 infection urinaire
 
@@ -2145,11 +2162,8 @@ Signes associés :
 - Hyperkaliémie (\inc si IEC, sartans) \thus surveiller
   
 Diagnostic histologique :
-- pas besoin si {rétinopathie
-(hyperglycémie prolongé), excrétion urinaire d'albumine \inc répétée et
-croissante} 
-- biopsie seulement si 0 rétinopathie, < 10 ans après diagnostic,
-aggravation rapide, hématurie HTA sévère, signes extra-rénaux
+- pas besoin si {rétinopathie (hyperglycémie prolongé), excrétion urinaire d'albumine \inc répétée et croissante} 
+- biopsie seulement si 0 rétinopathie, < 10 ans après diagnostic, aggravation rapide, hématurie HTA sévère, signes extra-rénaux
 - diabète 1 : hypertrophie mésangiale, glomérulaire < épaississement membrane basale, dépôts
   mésangiaux < hyalinose artériolaire < glomérulosclérose nodulaire
 - diabète 2 : 1/3 typique, 1/3 vasculaire, 1/3 non néphropatie diabétique
@@ -2168,21 +2182,20 @@ Prévention
 - si macroalbuminurie : contrôle tension++ < 140/85mmHg. (IEC ou sartan) et
   diurétique thiazidique. Protéinurie < 0.5g
 - si insuf rénale : 
-  - si DFG < 30mL/min/1.73m^2, HbA1c < 8% et seuls autorisé :
-  insuline, répaglinide, inhib \alpha-glucosidase, 
-  - srveiller glycémie (HbA1c souvent pertubrée si IR chronique)
+  - si DFG < 30mL/min/1.73m^2, HbA1c < 8% et seuls autorisé : insuline, répaglinide, inhib \alpha-glucosidase, 
+  - surveiller glycémie (HbA1c souvent pertubrée si IR chronique)
   - PAs < 130mmHg
   - traiter anomalies phosphocalciques, anémie arégénérative, préparer suppléance rénale
     
 Éviter AINS. Si nécessaire, pas d'IEC/sartan. Limiter produits contrastes iodés
 
-Néphrologue si doute diagnostique, DFG < 45mL/min/1.73m^2, protéinuire brutale.
+Néphrologue si : doute diagnostique, DFG < 45mL/min/1.73m^2, protéinurie brutale.
 
 IEC, sartans : se méfier d'une sténose des artères rénales : doser kaliémie, créatininémie
 
-Infections urinaires :x3 dont 90% asymptomatique (basses)
+Infections urinaires : $\times 3$ dont 90% asymptomatique (basses)
 - Risque = contamination du haut appareil urinaire (pyélonéphrite, nécrose papillaire,
-pyélonéphrite emphysémateuse), aggravation néphropatie glomérulaire.
+pyélonéphrite emphysémateuse), aggravation néphropathie glomérulaire.
 - Ttt : oui si symptomatique. Sinon pas de consensus
   
 *** Neuropathie
@@ -2193,7 +2206,7 @@ pyélonéphrite emphysémateuse), aggravation néphropatie glomérulaire.
 Atteinte métabolique et vasculaire.
 
 Dépistage sur examen clinique et interrogatoire (+ examens complémentaires si
-autonome
+autonome)
 
 Si débutante, souvent silencieuse ! Examen des pieds !
 
@@ -2209,10 +2222,10 @@ clinique pour perte de sensibilité, interrogatoire pour douleur
   - complication : neuroarthropathie (pied "cubique" de Charcot)
   - rares : mononeuropathies avec signes moteurs déficitaires, douleurs à
     exacerbation nocturne
-- Polynévrite asmyétrique proximale : beaucoup plus rare. L2, L3
+- Polynévrite asymétrique proximale : beaucoup plus rare. L2, L3
   (L4). Fatigabilité et amyotrophie douloureuse proximale
 - Polyradiculopathie thoracique : rare, douleurs abdo aux niveaux T4-12
-- Mononévrite : 5-10%, asymétirique. Souvent nerfs crâniens. Si MS
+- Mononévrite : 5-10%, asymétrique. Souvent nerfs crâniens. Si MS
   : compressive. Si MI : sensitif
 - Multinévrite : DD = vascularite
   
@@ -2226,58 +2239,55 @@ lésés. Régression rare
   microcirculation périphérique[fn:37]
 - Troubles sudation : sécheresse cutanée MI, parfois hypersudation partie
   supérieure. Prurit possible
-- Digestive gastro-intestinale : {parésie tractus digestif, dysphagie,
-gastroparésie (fréq), diarrhée banale/motrice capricieuse (diag d'élimination
-![fn:38], constipation, incontinence fécale (rare)}
+- Digestive gastro-intestinale : {parésie tractus digestif, dysphagie, gastroparésie (fréq), diarrhée banale/motrice capricieuse (diag d'élimination ![fn:38], constipation, incontinence fécale (rare)}
 - Vésicale : pas de perception de la vessie pleine, hypoactavité détrusor et
   favorisé par polyurie de l'hyperglycémie. Résidu post-miction \thus
-  incontinence, rétention, infection urinaire \thus cliniuqe, écho
+  incontinence, rétention, infection urinaire \thus clinique, écho
   (prostate, vessie)
 - Dysfonction érectile : psychogène, sd de Leriche[fn:39] (rare). À rechercher
-  /systématiquement/. DD : examen génital, testostérone,
-  prolactinémie. Traitement efficace presque toujours.
+  /systématiquement/. \\
+  DD : examen génital, testostérone, prolactinémie. Traitement efficace presque toujours.
   
 
 Examen 
-- clinique : interrogatoire (hypotension OS, diarrhée...), inspection
-pieds, ROT abolis au niveau des troubles sensitifs, monofilament, sensibilité
-épicritique, thermoalgique, vibratoire[fn:40], proprioceptiques[fn:40]
+- clinique : interrogatoire (hypotension OS, diarrhée...), inspection pieds, ROT abolis au niveau des troubles sensitifs, monofilament, sensibilité épicritique, thermoalgique, vibratoire[fn:40], proprioceptiques[fn:40]
 - ECG annuel, EMG si atypique
 - chercher dénervation cardiaque parasympathique : variation de la FC entre
   inspiration et expiration[fn:41], rapport RR long/court pendant épreuve de
   Valsalva, variation FC de couché à debout
 
 DD : neuropathies métaboliques (insuf rénale, amylose, hypothyroïdie), toxiques
-(alcool, tabac, iatrogène), paranéoplasiques, carentielles, inflammatioire,
-infectieuxse (Lyme, lèpre), autre (Charcot-Marie-Tooth, péri-artérite noueuse)
+(alcool, tabac, iatrogène), paranéoplasiques, carentielles, inflammatoire,
+infectieuse (Lyme, lèpre), autre (Charcot-Marie-Tooth, péri-artérite noueuse)
 
 Traitement : 
 - préventif = glycémie. FR : alcool, tabac, insuf rénale, carence
-vitamines B, médicaments. 
+  vitamines B, médicaments. 
 - Si installées, stabiliser et éviter les complications
-(mal perforant plantaire++)
+  (mal perforant plantaire++)
 - Antalgiques, hydratation peau
 
 *** Macroangiopathie
 \diameter > 200 \mu{}m. Plus fréquente et sévère. Artères visibles sur radio.
 
-Prévention CV = *problème majeur* des diabétiques 2 : 3/4 DC d'une cause
-CV. Risque CV \times{}2-3 (\times{}3-4 chez \female). Risque coronarien \times{}2-4, AV ischémique
+Prévention CV = *problème majeur* des diabétiques 2 : $\frac{3}{4}$ DC d'une cause
+CV. 
+
+Risque CV \times{}2-3 (\times{}3-4 chez \female). Risque coronarien \times{}2-4, AV ischémique
 \times{}2, AOMI \times{}5-10 !
 
 **** Dépistage
-Risque > 1% est élevée. Étude UKPDS ou SCORE (mais \times{}2-4)
+Risque > 1% = élevé[fn:25]
 
-/FR/ : > 50 ans \male (> 60 \female), diabète > 10 ans, ATCD IDM/mort subite (< 55
-ans \male, < 65 ans \female)c ATCD AVC constitué < 45 ans, tabac, HTA
-permanente, HDLc < 0.4g/L, microalbuminurie > 30mg/24h
-
-Autres facteurs : obésité abdominale (> 102cm \male, > 88cm \female) ou IMC >
-30k/m^2, sédentarité, > 3 verres vin/j (2 si \female), pyschosociaux
+/FR/ :
+- CV : > 50 ans \male (> 60 \female), diabète > 10 ans, ATCD IDM/mort subite (< 55
+  ans \male, < 65 ans \female) ATCD AVC constitué < 45 ans, tabac, HTA
+  permanente, HDLc < 0.4g/L, microalbuminurie > 30mg/24h
+- autres : obésité abdominale (> 102cm \male, > 88cm \female) ou IMC >
+  30k/m^2, sédentarité, > 3 verres vin/j (2 si \female), pyschosociaux
 
 Montrer atteinte artérielle : 
-- coronaropathie : ECG repos annuel, scinti avec épreuve d'effort si signes,
-  épreuve d'effort si risque d'ischémie myocardique silencieuse
+- coronaropathie : ECG repos annuel, scinti avec épreuve d'effort ou coronarographie
 - carotides ? auscultation \thus écho si AIT possible
 - AOMI ? pieds, pouls, claudication, IPS cheville/bras < 0.7 ? Écho-doppler
 
@@ -2297,25 +2307,25 @@ Revascularisation : stents par défaut (risque de resténose) et chir si atteint
 3 coronaires.
 
 - Glycémie : Objectif 6.5% si jeune et prévention primaire, 7% si âgé ou plus à
-risque. Metformine systématique
+  risque. Metformine systématique
 - Activité physique systématique
 - Contrôle lipidique : LDL < 1.3g/L (1.0 si risque CV élevée ou
-néphropatie). Statines (simvastatine, pravastatine, atorvastatine) ou fibrates[fn:42] 
+  néphropatie). Statines (simvastatine, pravastatine, atorvastatine) ou fibrates[fn:42] 
 - PAs \in [130, 139] et PAd < 90mmHg. Hygiéno-diététique et antihypertenseurs si
   échec
 - Prévention thrombose si \ge 1 FR : aspirine 75-150mg
 - Poids : IMC < 25kg/m^2, tour taille < 94cm \male, 80cm
   \female. Hygiéno-diététique
-- Arrêt tabac : substituts nicotiniques (bupriopion sinon). Anticiper polyphagie
+- Arrêt tabac : substituts nicotiniques (bupropion sinon). Anticiper polyphagie
   réactionnelle et modification transitoire sensibilité insuline !
 
 *** Pied diabétique
-1/10 \ge 1 amputation d'orteils. Éviter les plaies pour prévenir l'amputation
+1 patient sur 10 à risque d'1 amputation d'orteils. Éviter les plaies pour prévenir l'amputation
 \skull
 
 Mal perforant plantaire, plaie ischémie d'orteil/membre
 
-À risque : diabète et pouls faible, neuropathie \land{} trouble statique pied,
+À risque : diabète et pouls faible, neuropathie et trouble statique pied,
 troubles sensibilité {algique, vibratoire, thermique, profonde}, ulcération
 pieds
 
@@ -2328,13 +2338,13 @@ Révélé par : pus, fonte purulente localisé tisseux adipeux
 
 **** Autres
 - Ischémie/nécrose : si oblitération/sténose artères de moyen-petit calibre. Peau
-froide, fine, dépilée, livedo. \danger nécrose peut arriver en qq heures \thus
-revasculariser en urgence \skull
+  froide, fine, dépilée, livedo. \danger nécrose peut arriver en qq heures \thus
+  revasculariser en urgence \skull
 - Combinaison nécrose et MPP
 - Dermo-hypodermite nécrosante : très rare, urgence vitale \skull. {Teinte gris,
-  hémodynamique altérée, plaie odeur fétide} \thus débrider en urgence, ATB. Cas
-  particuliers : gangrène gazeuse à \bact{perfringens} (crépitations à la
-  palpation, clartés parties moelles}. Urgence vitale \danger
+  hémodynamique altérée, plaie odeur fétide} \thus débrider en urgence, ATB. \\
+  Cas particulier : gangrène gazeuse à \bact{perfringens} (crépitations à la
+  palpation, clartés parties moelles} \thus urgence vitale \danger
 
 **** CAT
 - Dater l'apparition, neuropathie ou artériopathie. Plaie : localisation, couleur,
@@ -3075,6 +3085,8 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 
 * Footnotes
 
+[fn:25] Calcul par les études UKPDS ou SCORE (mais \times{}2-4 pour ce dernier)
+
 [fn:67] Stimulé par ACTH, rétrocontrole nég. sur ACTH
 
 [fn:66] Ou dans les valeurs des femmes jeunes
@@ -3178,7 +3190,6 @@ Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female), h
 
 [fn:26] Dyspnée de Kussmaul, haleine acétonique
 
-[fn:25] Normale à jeune < 1.10g/L
 
 [fn:24] S'associe souvent à d'autres insuffisances de l'axe hypothalamo-hypophysaire
 
