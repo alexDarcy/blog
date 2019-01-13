@@ -16,7 +16,7 @@
 #+latex_header_extra: \newglossaryentry{NF1}{name=NF1, description={Neurofibromatose 1. Tâches café au lait, neurofibromes (cutanées, nodulaires [le long d'un trajet d'un nerf] ou plexiformes [K possible]), nodules de Lisch sur l'iris.}}
 #+latex_header_extra: \newacronym{NEM2}{NEM2}{Néoplasie endocrinienne multiple 2}
 #+latex_header_extra: \newglossaryentry{VHL}{name={von Hippel-Lindau}, description={Hémangioblastome du cervelet/moelle épinière, de la rétine, phéochromocytome}}
-#+latex_header_extra: \newacronym{PCC}{PCC}{Phéochromocytomes}
+#+latex_header_extra: \newglossaryentry{PCC}{name={Phéochromocytomes}, description={Tumeur de la médullo-surrénale}}
 #+latex_header_extra: \newacronym{PGG}{PGG}{Paragangliomes}
 #+latex_header_extra: \newacronym{ADP}{ADP}{Adénopathie}
 #+latex_header_extra: \newglossaryentry{TPO}{name={Thyroid peroxydase (TPO)},description={Enzyme de la thyroïde servant à générer la thyroxine (T4) et triiodothyroine (T3)}}
@@ -24,6 +24,7 @@
 #+latex_header_extra: \newacronym{GH}{GH}{Hormone de croissance (Growth hormone)}
 #+latex_header_extra: \newacronym{CLU}{CLU}{Cortisol libre urinaire}
 #+latex_header_extra: \newacronym{IS}{IS}{Insuffisance surrénale}
+#+latex_header_extra: \newglossaryentry{PTH}{name={Parathyroide Hormone (PTH)},description={Stimule la résorbtion osseuse (ostéoclastes) pour libérer plus de calcium}}
 
 #+OPTIONS: H:4
 
@@ -2348,10 +2349,10 @@ Révélé par : pus, fonte purulente localisé tisseux adipeux
 
 **** CAT
 - Dater l'apparition, neuropathie ou artériopathie. Plaie : localisation, couleur,
-signes de diffusion, {fièvre, frisson, teint gris}, douleur.
+  signes de diffusion, {fièvre, frisson, teint gris}, douleur.
 - Contact : orthopédiste si drain d'une infection purulente. Chir vasculaire si
   doute sur l'ischémie. Réanimateur si tableau sévère.
-- Radio pieds bilatérale (ostéite ?), si infection NFS, iono, CRP
+- Radio pieds bilatérale (ostéite ?), si infection : NFS, iono, CRP
 - Surveillance si état clinique
 - TTT : 
   - décharge (chaussure, arrêt de travail), excision kératose à domicile : peut
@@ -2368,15 +2369,15 @@ chirurgicale ou ATB 6-12semaine et sans l'appui
 *** Autres
 Peau : 
 - nécrobiose lipoïdique (rare, ttt mal codifié)
-- dermopathie diabétique (fréqe, cicatrices brunâtre, régresse spontanément)
-- bullose diabètique (cicatrice spontanément)
+- dermopathie diabétique (fréquente, cicatrices brunâtre, régresse spontanément)
+- bullose diabétique (cicatrise spontanément)
 - lipodystrophie (hypertrophie le plus souvent, dû à des injections trop souvent
   au même endroit)
 - acanthosis nigricans (placards cutanés brunâtres, cou/aisselles, plis inguinaux)
 - vitiligo (taches achromiques)
 - xanthomatose éruptives (nodules rouge/jeun si grande hypertriglycéridémies)
 Infections : bactériennes plus nombreuses, fonction polynucléaires altérée
-- otite nécrosante : écoulement auriculaire, douleur intense et insomniante,,
+- otite nécrosante : écoulement auriculaire, douleur intense et insomniante,
   inflammation conduit auditif externe avec granulome/nécrose du plancher du
   conduit \thus \danger urgence, ORL spécialisé
 - mucormycose : rhino-cérébro-orbitale, destruction osseuse, nécrose muqueuse
@@ -2386,19 +2387,19 @@ Foie : hépatologue dès anomalie transaminases ou \gamma-GT
 
 Articulations : 
 - capsulite rétractile : douleur diffuse des épaules, limitations
-mouvements actifs et passifs, \times{}4. Ttt : antalgiques, corticoïdes locaux,
-physiothérapie
+  mouvements actifs et passifs, frequence \times{}4. Ttt : antalgiques, corticoïdes locaux,
+  physiothérapie
 - Maladie de Dupuytren : sclérose réractile de l'aponévrose palmaire moyenne
-- Chéiroarthropathie : raideur des doigs, peau épaissise et cireuse, signe de la
+- Chéiroarthropathie : raideur des doigts, peau épaissie et cireuse, signe de la
   prière
 - Arthrose : fréquente diabétique 2
 
 Dents : maladie parodontale 
 - car {plus de plaque dentaire, \inc production
-toxine, matrice extracellullaire altérée, vasculairisation gencive aussi}
+  toxine, matrice extracellullaire altérée, vasculairisation gencive aussi}
 - contrôle diabète, brossage, fil dentaire, soins dentaires prévention
 - signes : dents branlantes, saignements gencive brossage/mastication
-\thus dentiste tous 6 mois
+  \thus dentiste tous 6 mois
 
 *Suivi diabète* : 
 - complications oculaires, rénales, neuro, cv
@@ -2424,7 +2425,7 @@ Coma cétoacidosique
   - curatif : insuline rapide IV, recharge volumique, apport potassimu, glucose
     si besoin, facteur déclenchant
 
-Coma hyperosmolarie :
+Coma hyperosmolaire :
 - glycémie > 6g/L, osmolalité > 350mmol/kg, natrémie corrigée > 155mmol/L, pas
   de cétose ni d'acidose
 - FR : > 80 ans, infection aigüe, diurétique, pas d'accès aux boissons, corticothérapie
@@ -2432,8 +2433,7 @@ Coma hyperosmolarie :
   préventive, ttt causal, soins yeux/bouche/aérosols/aspiration bronchique
 
 Hypoglycémie : inévitable 
-- mais pas mortelle, pas séquelle au cerveaux, ne
-délenche pas d'accivent vasculaire/cardiaque.
+- mais pas mortelle, pas séquelle au cerveaux, ne déclenche pas d'accident vasculaire/cardiaque.
 - peur chez diabiétique, déstabilise diabète, attention si âgé ou alcoolique
 - favorisé par : hypoglycémie mineure répétées ignorées, neuropathie végétative
 - cause : repas insuffisants, effort physique, erreur d'injection
@@ -2467,9 +2467,9 @@ Complémentaires :
 - Sinon, causes endocrines :
   - diabète 1 ou 2 : glycémie, HbA1C
   - hyperthyroïdie : TSH \dec\dec, hormones thyroïdiennes \inc
-  - hypercalcémie : si PTH inadpatée, hyperparathyroïdie primaire
+  - hypercalcémie : si gls:PTH inadaptée, hyperparathyroïdie primaire
   - insuf surrénalienne : cortisol, ACTH plasmatique
-  - panhypopituitarisme : cortisol \dec
+  - panhypopituitarisme[fn:68] : cortisol \dec
   - phéochromocytomes : (nor)métanéphrines dans urines 24h, imagerie surrénales
 * 251 : Obésité
 ** Adulte
@@ -2478,7 +2478,7 @@ Surpoids = IMC \in [25, 29.9]kg/m^2. Obésité :
 - grade 2 : IMC \in [35, 39.9]kg/m^2.
 - grade 3 : IMC \ge 40kg/m^2.
 
-Limites : sous-estimé chez asiatiques. Seulement pour [18,65]
+Limites : sous-estimé chez asiatiques. Seulement pour [18,65] ans
 
 Phases : prise de poids, constituée, perte, rechutes
 
@@ -2489,15 +2489,15 @@ Localisation : viscéral (scanner, IRM), sous-cutanée, ectopique (muscle, foie)
 
 Étiologie :
 - génétique: envisager si précoce (naissance +24 mois), troubles du
-  comportement alimentair
-- obésites communes liées à des facteurs environementaux (majorité) : surtout
+  comportement alimentaire
+- obésités communes liées à des facteurs environementaux (majorité) : surtout
   déséquilibre apport caloriques- dépense
-  - ntipsychotiques, glucocorticoïdes, antidépresseurs,
+  - antipsychotiques, glucocorticoïdes, antidépresseurs,
     antiépileptiques, antidiabétiques
   - arrêt du tabac, privation de sommeil (?), hypothalamique (rare)
 
 Complications : \inc RR mortalité, métabolique, CV, respi, ostéoarticulaire,
-digestive, rénale, gyncéo, cutanée, néoplasiques, psychosociale
+digestive, rénale, gynéco, cutanée, néoplasiques, psychosociale
 
 *** Clinique
 - Interrogatoire : 
@@ -2506,7 +2506,7 @@ digestive, rénale, gyncéo, cutanée, néoplasiques, psychosociale
   - Comportement alimentaire (carnet), évaluation dépense énergétique, pyscho-comportementale
   - Complications (SAS)
 - Examen : poids, taille, PA, tour de taille[fn:44], obésité secondaire
-- Complentaires : glycémie à jeune, lipides, hépatique, uricémie, ECG repois
+- Complémentaires : glycémie à jeune, lipides, hépatique, uricémie, ECG repos
   
 *** Traitement
 - Diététique, activité physique (\forall IMC)
@@ -2528,9 +2528,9 @@ digestive, rénale, gyncéo, cutanée, néoplasiques, psychosociale
 - communes (majorité) : facteurs environnementaux et prédisposition génétique
   - repond d'adiposité à 6 ans. Risque d'obésité \propto précocité du rebond
   - tour de taille/taille > 0.62 = forte valeur prédictive
-  - FR : surpoids parent, poids excessif/tabac pedant grossesse, anomalie de
-    croissance foetale, \inc\inc poids à naissance + 2ans, difficulité
-    socio-éoc, manque d'activité physique, torubles sommeil, psychopatho
+  - FR : surpoids parent, poids excessif/tabac pendant grossesse, anomalie de
+    croissance foetale, \inc\inc poids à naissance + 2ans, difficulté
+    socio-éoc, manque d'activité physique, troubles sommeil, psychopatho
 - secondaires (rare) : ralentissement de la vitesse de croissance naturelle
 
 *** Complications 
@@ -2538,7 +2538,7 @@ digestive, rénale, gyncéo, cutanée, néoplasiques, psychosociale
 - Insulinorésistance avec glycémie normale fréquente
 - \inc TG et \dec HDL
 - Stéatose hépatique non alcoolique
-- Rachialgies, gonaliges, troubles statique vertérable. Penser à l'épiphysiolyse
+- Rachialgies, gonalgies, troubles statique vertébrales. Penser à l'épiphysiolyse
   de la tête fémorale : garçons [10,15] ans avec douleur mécanique de hanche
   \thus radio de profil
 - Psychologique
@@ -2549,7 +2549,7 @@ Interrogatoire :
 - personnels : poids, taille naissance, âge d'appartition, changements environnementaux, tentatives antérieures, troubles des règles 
 - comportement alimentaire (difficile)
 Examen clinique :
-- poids, taille, PA, tour de taille, pli-cutané (< 20% après 5 ans), courbes de
+- poids, taille, PA, tour de taille, pli-cutané (masse grasse < 20% après 5 ans), courbes de
   croissance (ralentissement = pathologique !), dermato (acanthosis nigricans =
   insulinorésistance, vergétures= hypercorticisme, intertrigo, mycose)
 Pas d'examens complémentaires !
@@ -3084,6 +3084,8 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 
 
 * Footnotes
+
+[fn:68] Insuffisance antéhypophysaire complète
 
 [fn:25] Calcul par les études UKPDS ou SCORE (mais \times{}2-4 pour ce dernier)
 
