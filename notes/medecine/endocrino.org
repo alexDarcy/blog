@@ -2999,9 +2999,10 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
     %edges={nodes={fill=white}}, 
     tree layout]
     {
-      ht/hypothalamus -> ["CRH"] hh/hypophyse -> ["ACTH"] cs/corticosurrénale -> cort/cortisol;
+      ht/hypothalamus -> ["CRH"] hh/hypophyse -> ["ACTH"] cs/corticosurrénale;
+      cs -> cort/cortisol;
       cort ->[bend left=60, "-"] ht;
-      cort -- ["+"] hh;
+      cs -- ["+"] hh;
       hh --["+"] ht;
     };
   }
