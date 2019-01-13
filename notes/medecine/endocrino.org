@@ -23,6 +23,7 @@
 #+latex_header_extra: \newacronym{ATS}{ATS}{Antithyroïdiens de synthèse}
 #+latex_header_extra: \newacronym{GH}{GH}{Hormone de croissance (Growth hormone)}
 #+latex_header_extra: \newacronym{CLU}{CLU}{Cortisol libre urinaire}
+#+latex_header_extra: \newacronym{IS}{IS}{Insuffisance surrénale}
 
 #+OPTIONS: H:4
 
@@ -1600,14 +1601,20 @@ Signes :
 - \male : galactorrhée, gynécomastie (rare), troubles sexuels. Hypogonadisme
   \thus doser prolactine 
 - 2 sexes : risque d'ostéoporose
-\begin{algorithm}
-  \caption{Stratégie diagnostique hyperprolactinémie} 
-  Vérifier hyperprolactinémie (kits, agrégats)\;
-  Écarter grossesse, médicaments, hypothyroïdie périphérique, insuf rénale\;
-  IRM : si microadénome. \;
-  Sinon différentier macroadénome à prolactine VS autre tumeur associée à 
-hyperprolactinémie : régression sous agoniste dopaminergique si premier\;
-\end{algorithm}
+
+\begin{tcolorbox}
+Diagnostique d'hyperprolactinémie
+\begin{enumerate}
+\item  Vérifier hyperprolactinémie (kits, agrégats)
+\item  Écarter grossesse, médicaments, hypothyroïdie périphérique, insuf rénale
+\item  IRM : 
+\begin{itemize}
+  \item microadénome ?
+  \item sinon différentier macroadénome à prolactine VS autre tumeur associée à 
+hyperprolactinémie : régression sous agoniste dopaminergique si macrodénome
+\end{itemize}
+\end{enumerate}
+\end{tcolorbox}
 
 *** Acromégalie (excès de gls:GH)
 Clinique :
@@ -1659,13 +1666,9 @@ Diagnostic d'hypercorticisme :\\
 \end{enumerate}
 \end{tcolorbox}
 
-\footnotetext{Freinage minute = cortisolémie matin après 1mg dexaméthasone à 23h
-  (rétrocontrole négatif en théorie des glucocorticoïdes sur cortisol)}
-\footnotetext{Freinage standard/faible : urines sur 48h puis idem après 0.5mg
-  dexméthasone. On vérifie également le rétrocontrôle négatif}
-\footnotetext{ACTH stimule la production de glucocorticoïdes (via
-  surrénales). Un excès de cortisol est censé diminuer la production d'ACTH. Si
-  oui, atteinte surrénale !}
+\footnotetext{Freinage minute = cortisolémie matin après 1mg dexaméthasone à 23h  (rétrocontrole négatif en théorie des glucocorticoïdes sur cortisol)}
+\footnotetext{Freinage standard/faible : urines sur 48h puis idem après 0.5mg  dexméthasone. On vérifie également le rétrocontrôle négatif}
+\footnotetext{ACTH stimule la production de glucocorticoïdes (via surrénales). Un excès de cortisol est censé diminuer la production d'ACTH. Si   oui, atteinte surrénale !}
 
 DD : stress intense, dépression sévère, psychose, alcoolisme (CLU modéré,
   freinage minute anormal) \thus épreuve du temps 
@@ -1679,18 +1682,22 @@ Signes des déficits hypophysaires :
   testicules mou, infertile}, \female = {aménorrhée, dyspareunie}, ostéoporose,
   (retard pubertaire)
 - corticotrope : asthénie, hypotension, amaigrissement, pas de déficit
-  aldostérone ! (hyponatrémie de dilution). Risque de collapsuse CV
+  aldostérone ! (hyponatrémie de dilution). Risque de collapsus CV
 - hypothyroïdie modérée
 - somatotrope : adulte = {\dec masse et force musc, adiposité abdo}, enfant =
   retard croissance, accidents hypoglycémiques
   
 *** Bilan hypophysaire
+
+
 - Déficit corticotrope : test Métopirone, cortisol < 200ng/mL si hypoglycémie (<
   0.49g/L), autres test (cortisolémie, synacthone, CRH)
-- Déficit thyréotrope  : \dec T4L, TSH normale
-- Déficit gonadotrope : \female préménopause : aménorrhée, oestradiol \dec,
-  gonadotrophines normales, \female postménopause  : gonadotrrophine
-  basses/valeurs jeunes, \male : troubles sexuels \dec testostérone
+- Déficit thyréotrope  : \dec{} T4L sans augmentation de TSH
+- Déficit gonadotrope : 
+  - \female{} préménopause : aménorrhée, oestradiol \dec, gonadotrophines
+    normales
+  - \female{} postménopause  : gonadotrophines basses[fn:66]
+  - \male{} : troubles sexuels \dec testostérone
 - Déficit somatotrope : déficit GH enfant++ (retard croissance, pas de réponse
   à stimulation GH) ou adulte (faire au moins 2 tests stimulation)
 - Prolactine normale/élevée
@@ -1701,54 +1708,58 @@ IRM si déficit hypophysaire
 Rare mais grave \skull
 
 Physiopatho :
-- cortisol (stimulé par ACTH, rétrocontrole nég. sur ACTH) : hyperglycémiant,
-  stimule = {catabolisme protidique, lipogenèse, SNC, tonus vasculaire}, inhibe
+- cortisol [fn:67]) : hyperglycémiant, stimule = {catabolisme protidique, lipogenèse, SNC, tonus vasculaire}, inhibe
   = {hormone antidiurétique}, anti-inflammatoire et antipyrétique,
-  minéralocorticoïde
+  minéralocorticoïde\\
   Minimum 0-2h, maximum 7-9h
 - aldostérone : rétention Na+, excrète K+
 - androgènes surrénalien (stimulé par ACTH)
   
-Insuffisance surrénale : primaire (maladie d'Addison) VS secondaire
+#+caption: Insuffisance surrénale primaire (maladie d'Addison)/secondaire : clinique
+| Primaire (surrénale)                               | Secondaire (hypophysaire) |
+|----------------------------------------------------+---------------------------|
+| Fatigue, dépression, anorexie, nausées             |                           |
+| \dec poids, hypotension, hypotension orthostatique |                           |
+| Hyperpigmentation                                  | Pâleur                    |
+| HyperK, hypoNa (manque sel)                        | HypoNa (dilution)         |
 
-| Primaire                                           | Secondaire        |
-|----------------------------------------------------+-------------------|
-| Fatigue, dépression, anorexie, nausées             |                   |
-| \dec poids, hypotension, hypotension orthostatique |                   |
-|----------------------------------------------------+-------------------|
-| Hyperpigmentation                                  | Pâleur            |
-|----------------------------------------------------+-------------------|
-| HyperK, hypoNa (manque sel)                        | HypoNa (dilution) |
 *** Diagnostic
 \danger ne pas attendre résultats pour commencer traitment \skull
 
+#+caption: Insuffisance surrénale : diagnostic
+|                   | Primaire                         | Secondaire           |
+|-------------------+----------------------------------+----------------------|
+| cortisolémie à 8h | basse                            | basse                |
+| ACTH              | haute                            | basse                |
+| aldostérone       | basse                            | N                    |
+| rénine            | haute                            | N                    |
+| Synacthène        | réponse insuffisante du cortisol | réponse insuffisante |
+
 Positif 
-- cortisolémie
-- mesure ACTH pour différencier primaire de secondaire
-- aldostérone/rénine : rénine \inc si primaire
+- cortisolémie : à compléter avec tests dynamiques si valeurs "intermédiaires"
+- primaire ou secondaire ? ACTH \inc{} si primairei, rénine \inc si primaire
 - test Synacthène (+ Métopirone ou hypoglycémie insulinique si doute)
 
 NB : femme enceinte = {\inc seuil, faisceau d'args}, enfant : répéter dosages
 voire ttt probabiliste
 
-Étiologies de l'IS primaire
+*** Étiologies de l' acrshort:IS primaire
 - Auto-immune (80% adulte, 20% enfant) : 
-  - polyendocrinopathie de type 1 (mutation
-  facteur de transcription AIRE) ou 2 (IS + 1 parmi {thyroïdite d'Hashimoto+++,
-  Basedow, diabète 1}
+  - /polyendocrinopathie de type 1/ (mutation facteur de transcription AIRE) 
+  - ou /type 2/ (IS + 1 parmi {thyroïdite d'Hashimoto+++, Basedow, diabète 1}
   - \thus autoAc anti-21-hydroxylase, scanner (surrénales atrophiques)
-- tuberculose bilatérale surrénale (10%) : transplanté ou ID avec TCD tuberculose
+- /tuberculose bilatérale surrénale/ (10%) : transplanté ou ID avec TCD tuberculose
   \thus scanner surrénales (\inc puis atrophie et calcification). Bilan des
   localisation tuberculose
-- VIH (stade avancé) : iatrogène, infection opportuniste (CMV++), atteinte de
+- /VIH/ (stade avancé) : iatrogène, infection opportuniste (CMV++), atteinte de
   l'hypophyse (lymphome, CMV), corticoïde anti-inflammatoire et ritonavir
 \danger dénutrition \thus spécialiste
-- autres : iatrogènes++[fn:22], métastases bilatérales++[fn:23], lymphomes, maladies
+- autres : /iatrogènes/[fn:22], /métastases bilatérales/[fn:23], lymphomes, maladies
   infiltratives, causes vasculaires
 - enfant : génétiques surtout = bloc enzymatique++ (dépistage obligatoire), adrénoleucodystrophie
 
-Étiologies de l'IS secondaire 
-- surtout interruption corticothérapie prolongée (> 7mg prednisone)
+*** Étiologies de l'IS secondaire 
+- /interruption corticothérapie prolongée/ surtout (> 7mg prednisone)
 - autres[fn:24] : tumeur région hypothalamo-hypophysaire, hypophysite (auto-immune),
   granulomatose, trauma, chir hypophysaire, radiothérapie, sd de Sheehan 
 
@@ -1760,8 +1771,7 @@ Ttt substitutif :
 TTT cause
 
 Éducation du patient : 
-- avoir carte, hydrocortisone (comprimés et injection),
-régime normosodé
+- avoir carte, hydrocortisone (comprimés et injection), régime normosodé
 - pas de laxatifs, diurétiques, millepertuis, réglisse, jus de pamplemousse
 - ttt à vie
 - hydrocortisone en SC si > 2 vomissement/diarrhées en < 1/2 journée
@@ -1772,7 +1782,7 @@ Surveillance clinique :
 - surdosage en hydrocortisone (gonflement/rougeur visage, \inc poids, HTA, os,
   métabolisme, CV)
 - surdosage en fludrocortisone
-- cortisolémie, ACTH inutile !!
+- cortisolémie et ACTH inutile !!
   
 ** Insuffisance surrénale aigüe
 *** Y penser
@@ -1796,7 +1806,7 @@ Ne pas attendre les résultats \skull
 - Insuf surrénale chronique décompensée++
 - D'emblée si bloc enzymatique surrénalien (21-hydroxylase) complet (néonatale)
   ou hémorragie bilat surrénale ou apoplexie hypophysaire
-- Décompension par n'importe quelle patho intercurrente
+- Décompensation par n'importe quelle patho intercurrente
 
 *** PEC
 \danger Urgence extrème \skull
@@ -1816,12 +1826,10 @@ Ttt préventif : patient doit \inc ses doses, médecin traitant au courant
 À risque : (ttt \ge 3 semaines par \ge 20mg prednisone) ou (corticoïdes et inhib enzymatique du
 cytochromie P450 (ritonavir)) ou sd Cushing iatrogène
 * 244 : Gynécomastie
-  Hyperplasie tissue glandulaire mammaire, fréquente. Dû au déséquilibre
-  oestrogène/testostérone (\inc et \dec respectivement). Regarder aussi TeBG,
+  Hyperplasie tissue glandulaire mammaire, fréquente. Dû à oestrogène \inc{} et testostérone \dec{}. Regarder aussi TeBG,
   SHBG
 ** Démarche
-- Clinique : palpation = ferme/rugueux, mobile arrondi, centré par le
-mamelon (rien si adipomastie)
+- Clinique : palpation = ferme/rugueux, mobile arrondi, centré par le mamelon (rien si adipomastie)
 - Mammographie si doute : opacité nodulaire/triangulaire (rien si adipomastie). Élimine cancer du sein (rare) 
 - Physiologique ? 
   - 2/3 des nouveaux-nés
@@ -1830,7 +1838,7 @@ mamelon (rien si adipomastie)
 ** Étiologie 
 Évidente :
 - insuf rénale chronique, cirrhose, médicaments (surtout spironolactone,
-  antiandrègène, kétoconazole, neuroleptiques, ATB antirétroviraux, antiulcéreux)
+  antiandrogène, kétoconazole, neuroleptiques, ATB antirétroviraux, antiulcéreux)
 Sinon exploration hormonale : T4L, TSH, hCG, testostérone totale, LH, FSH,
 prolactine, oestradiol
 
@@ -1845,8 +1853,8 @@ Causes endocriniennes :
   testiculaire (ou surrénalienne rarement) \thus echo testiculaire ou scanner
   abdo
 - tumeur sécrétant hCG : \inc hCG \thus écho testiculaire, scanner
-  cérébrales. Dans le bronches ou le foie parfois. Chimio.
-- Résistance androgènes (exceptionnelle) : testostérone \inc, LH inc
+  cérébrales. Dans les bronches ou le foie parfois. Chimio.
+- Résistance androgènes (exceptionnelle) : testostérone \inc, LH \inc
 - idiopathique (25%)
 
 ** Traitement
@@ -3044,6 +3052,13 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 }
 \end{figure}
 
+#+caption: Hormones produite par les surrénales (du moins au plus profond)
+| Zone de la surrénale    | Hormones                          |
+|-------------------------+-----------------------------------|
+| corticale (glomerusa)   | minéralocorticoïdes (aldostérone) |
+| corticale (fasciculata) | glucocorticoïdes (cortisol)       |
+| corticale (reticularis) | androgènes                        |
+| médullaire              | épinephrine, norepinéphrine       |
 
 ** Syndromes génétiques
 |                  | Klinefelter                  | Turner                     | Kallmann                              |
@@ -3060,6 +3075,9 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 
 * Footnotes
 
+[fn:67] Stimulé par ACTH, rétrocontrole nég. sur ACTH
+
+[fn:66] Ou dans les valeurs des femmes jeunes
 
 [fn:19] Prolactine est sécrétée par l'hypophyse
 
@@ -3164,7 +3182,7 @@ Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female), h
 
 [fn:24] S'associe souvent à d'autres insuffisances de l'axe hypothalamo-hypophysaire
 
-[fn:23] \danger élimiiner phéochromocytomes avant biopsie surrénale
+[fn:23] \danger éliminer phéochromocytomes avant biopsie surrénale
 
 [fn:22] Surrénalectomie bilatére, anticortisolique de synthèse, nécrose hémorragique 
 
