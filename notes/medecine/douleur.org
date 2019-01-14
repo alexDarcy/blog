@@ -18,16 +18,38 @@
 \input{bacteries-header}
 
 * Douleur
+** Divers 
+- Douleurs par excès de nociception : anti-inflammatoires, opioïdes en pratique
+- Douleurs chez personne âgée : interaction douleur, dépression et démence
+- Douleur chez l'enfant : anesthésique locaux topique (EMLA), mélange
+  oxygène-protoxyde d'azote (MEOPA)
+- Santé mentale : anxiété pour douleur aigüe, dépression pour douleur chronique
+- anesthésie : hypnotique (CS) + morphinique (analgésie) \pm curare (relâchement
+  musc). Médullaire ou périphérique
+- douleurs neuro : antidépresseurs tricycliques et mixet et antiépileptiques =
+  efficaces sur douleurs continues et paroxystiques
+
+** Autres médicaments 
+- anesthésiques locaux : 
+  - EMLA : douleurs provoquées par les soins)
+  - techniques de bloc : prévenir douleurs post-op
+- capsaïcine : 
+  - faible concentration : douleurs musc, arthrose, neuro (immédiat)
+  - forte concentration : 3 mois sur douleurs neuro (neurotoxique !)
+- corticoïdes : anti-inflammatoire, et (+ anesthésiques locaux) sur
+  lésion/irritation nerf
+- kétamine : anesthésie seulement
 
 ** Évaluation de la douleur chez l'adulte
-| Quantitative        | gls:EVS  |
-|                     | gls:EVA  |
-|                     | gls:EN   |
-| Qualitative         | DN4      |
-| Retentissement      | gls:HAD  |
-|                     | gls:QDSA |
-|                     | gls:QCD  |
-| Âgé non communicant | Doloplus |
+| Quantitative        | gls:EVS              |
+|                     | gls:EVA              |
+|                     | gls:EN               |
+| Qualitative         | DN4                  |
+| Retentissement      | gls:HAD              |
+|                     | gls:QDSA             |
+|                     | gls:QCD              |
+| Âgé non communicant | Doloplus (chronique) |
+|                     | Algoplus (aigüe)       |
 ** 132 : Antalgiques
 *** Palier 1 et AINS
 **** Paracétamol
@@ -160,6 +182,10 @@
  Réat et injection narcan (naloxone) : 0.4mg par dose de 0.04mg/2min jusque R1/R0
 
 **** Indications :
+\begin{tcolorbox}
+Privilégier formale orale et LP
+\end{tcolorbox}
+
  - Douleurs aigüe : très intenses ou (modéré/sévère ne répondant pas au palier
  II). Oral (parentéral si urgence)
  - Douleurs chroniques cancéreuses ou (non cancéreuses après échec étiologique,
@@ -177,8 +203,6 @@
  Prescription : ordonnance sécurisée, \le 28j
 
 
-\printglossaries
-
 ** Antiépileptiques
 Douleur neuropathique :
 1. Gabapentinoïdes 
@@ -194,6 +218,7 @@ Douleurs chroniques :
 - neuropathiques, lombalgie, céphalée : amitriptyline
 - fibromyalgie : duloxétine, milnacipran
 
+\printglossaries
 * Footnotes
 
 [fn:9] R0 = normale, R3 = pauses/apnée
