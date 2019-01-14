@@ -202,7 +202,6 @@ Privilégier formale orale et LP
 
  Prescription : ordonnance sécurisée, \le 28j
 
-
 ** Antiépileptiques
 Douleur neuropathique :
 1. Gabapentinoïdes 
@@ -219,6 +218,28 @@ Douleurs chroniques :
 - fibromyalgie : duloxétine, milnacipran
 
 \printglossaries
+
+** Grands syndromes
+Pneumo 
+- Dyspnée : morphinique, benzodiazepine \pm O_2 (en phase terminale ?)
+- Encombrements bronchiques : demi-assis, soins de bouches, éviter aspirations,
+  anticholinergiques
+
+Digestifs :
+- nausées, vomissements : alimentation, soins de bouche, neuroleptiques,
+  corticoïdes, agonistes récepteurs 5-HT3 (si chimio) \pm benzodiazepine
+- occlusion intestinale : origine mécanique ou fonctionnelle
+  (motricité). Fréquent si carcinose péritonéale
+  - à jeûn + réhydratation IV/SC
+  - antiémétique (neuroleptique), antisécrétoires anti-cholinergique,
+    antisécrétoire analogue somatostatine, IPP, corticothérapie, antalgique \pm
+    SNG
+- constipation : hygiéno-diététique, laxatif osmotique/stimulation (3e jour :
+  suppositoire de glycérine)
+
+Neuropsy :
+- confusion : neuroleptique (éviter benzodiazepine !)
+- anxiété : benzodiazepine, hydroxine. Si échec neuroleptique
 * Footnotes
 
 [fn:9] R0 = normale, R3 = pauses/apnée
