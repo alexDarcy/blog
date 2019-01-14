@@ -1713,7 +1713,7 @@ Physiopatho :
   = {hormone antidiurétique}, anti-inflammatoire et antipyrétique,
   minéralocorticoïde\\
   Minimum 0-2h, maximum 7-9h
-- aldostérone : rétention Na+, excrète K+
+- aldostérone : réabsportion Na+ et Cl-, excrète K+
 - androgènes surrénalien (stimulé par ACTH)
   
 #+caption: Insuffisance surrénale primaire (maladie d'Addison)/secondaire : clinique
@@ -2566,19 +2566,20 @@ Physio chez femme enceinte selon moitié:
   
 ** PEC du diabète pré-gestationnel
 Grossesse à risque mais fécondité normale (sauf si sd ovaires polykystiques).
-*normalisation glycémie préconception -> accouchement* 
+
+\danger{} Normalisation glycémie préconception \rightarrow accouchement
 - HbA1c \le 6.5%
 - glycémie à jeun \in [0.6, 0.9]g/L
-- glycémie repase + 1h < 1.40g/L et +2h 1.20g/L
+- glycémie repas + 1h < 1.40g/L et +2h 1.20g/L
   
 *** Risque foetus
-- Fausses couches spontanées x2, \propto hémoglobine glycquée
-- Malformation congénitales x2, constituée pendant 8 premières semaines :
+- Fausses couches spontanées \times{}2, \propto hémoglobine glycquée
+- Malformation congénitales \times{}2, constituée pendant 8 premières semaines :
   cardiaque, neuro, rénale \thus \inc fausses couches spontanées, mortalité
   foeatale/néonatale, malfomations
 - 2e trimestre : macrosomie, hypoxie tissulaire, retard maturation pulmonaire,
   hypertrophie cardiaque septale
-- 3e tri : mort foeatle
+- 3e trimestre : mort foetale
 - Accouchement : \inc prématurés, césariennes. Danger : trauma foetal,
   hypoglycémie sévère, hypocalcémie, hyperbilirubinémie/polyglobulie, détresse
   respi transitoire, maladie des membranes hyalines
@@ -2590,31 +2591,31 @@ Grossesse à risque mais fécondité normale (sauf si sd ovaires polykystiques).
   proliférative floride non traitée
 - Néphropathie : 
   - FR = {HTA, déséquilibre glycémique, rétinopathie évoluée dès
-  départ, diabète ancien, insuf rénale, hydramnios, correction trop rapide d'une
-  hyperglycémie chronique}. 
+    départ, diabète ancien, insuf rénale, hydramnios, correction trop rapide d'une
+    hyperglycémie chronique}. 
   - Insuf rénale \thus hypotrophie foetale, prééclampsie. Si IR préexistante : 50%
-mortalité foeatale *in utero*
+    mortalité foeatale *in utero*
   - dépistage : créat plasmatique, microalbuminurie, protéinurie
   - IEC contre-indiqués
-- Coronaropatihe : exceptionnelle mais gravissime. Dépister si diabète ancien et
+- Coronaropathie : exceptionnelle mais gravissime. Dépister si diabète ancien et
   complications microvasculaire (ECG, effort)
 - Infection urinaire \inc, risque pyélonéphrite, décompensation diabétique
 - Diabète 1 : \inc risque dysfonction thyroïdiennes
 
 *** PEC
-- Avant grossesse : glycémie \in [0.7, 1.20] préprandial, \int [1, 1.4]
+- Avant grossesse : glycémie \in [0.7, 1.20] préprandial, \in [1, 1.4]
   postprandial et HbA1c < 7%
   - diabète 1 : \inc insuline
   - diabète 2 : insuline si régime ne suffit pas/arrêt ttt oral
 - Pendant    
   - équilibre glycémique++ (6 glycémies capillaires/jour)
-    - \danger insuline \dec puis \inc puis \dec\dec
+    - \danger variations physiologiques : insuline \dec puis \inc puis \dec\dec
     - cétonémie/cétonurie si glycémie > 2g/L
   - \ge 1600kcal/j 2eme et 3eme tri
   - surveiller poids, PA, créat plasmatique, microalbuminurie, protéinurie, FO,
     BU, protéinurie 
-  - obstrétricale : date++ (12-14SA) malformations (22-24), placenta et liquide
-    amniotique (32-34SA), cardiomyopathie hypertrophie (32-34SA), bien-être
+  - surveillance obstétricale : dater++ (12-14SA), malformations (22-24), placenta et liquide
+    amniotique (32-34SA), cardiomyopathie hypertrophique (32-34SA), bien-être
     foetal
   - pas de bêtamimétique si prématuré 
 *** (Post)partum
@@ -2642,7 +2643,7 @@ Diagnostic :
 *** Traitement
 - Diététique (30-35kcal/kg [25 si surpoids]), activité physique, antidiabétique
   CI \skull, insuline si régime ne suffit pas après 8 jours
-- Surveillance : glycémie (6/jour puis 4/jour), cétonurie (si glycémie > 2g/L),,
+- Surveillance : glycémie (6/jour puis 4/jour), cétonurie (si glycémie > 2g/L),
   HTA
 - Objectif : glycémie jeun < 0.95g/L et postprandiale +2h < 1.20g/L
 
@@ -2662,7 +2663,7 @@ Examen :
   - maturation pubertaire
   - ostéoarticulaire, cardiorespiratoire, test dynamique sous-maximal
     (Ruffier-Dickson)
-- Complemntaire : ECG repos[fn:48], CV
+- Complémentaire : ECG repos[fn:48], CV
 
 ** Bénéfices/inconvénients 
 Adulte :
@@ -2672,8 +2673,8 @@ Adulte :
   - prévention : cancers (colon, sein), CV, métabolique, ostéoporose \female
   - ttt : anxiété, cardiomyopathie ischémique, BPCO, obésité, diabète 2, neuro,
     rhumatismales, dégénératives
-- Surveillance : dépistage d'insuf coronarienne > 40 ans, \danger nutitrion et
-  hydratition si > 3h/semain,
+- Surveillance : dépistage d'insuf coronarienne > 40 ans, \danger nutrition et
+  hydratation si > 3h/semaine
 - Recommandation : 150min/semaine (modéré) ou 75min/semaine (soutenu). Idéal : x2
 
 Enfant : 
@@ -2683,7 +2684,7 @@ Enfant :
   - dev psychomoteur : concentration, coordination, équilibre
   - \inc masse maigre, \inc densité osseuse
   - prévention : sd métabolique, surpoids, CV
-- Surveillance : nutrition (véiter retards de croissance/pubertaire), attitude
+- Surveillance : nutrition (éviter retards de croissance/pubertaire), attitude
   alimentaires restrictives
 - Recommandation : 60min/jour (modéré-soutenu) et renforcement musculaire,
   osseux 3x/semaine
@@ -2698,8 +2699,8 @@ Enfant :
 
 Macronutriments :
 - Glucides : détermine l'épuisement si endurance \thus index glycémique faible à
-distance, IG élevé juste avant. Pendant : maintenir glycémie. Après :
-reconstituer les stocks de glycogène
+  distance, IG élevé juste avant. Pendant : maintenir glycémie. Après :
+  reconstituer les stocks de glycogène
 - Lipides à limiter si intensité élevé/compétition
 - Protides : endurance 1.2-1.4g/kg/j, force : 1.3-1.5g/kg/j si maintien masse, sinon jusque 2.5g-kg/j
 
@@ -2710,8 +2711,8 @@ Minéraux, vitamines:
 - attention situation à risque : déficit en fer, contrainte de poids,
   alimentation glucidiques mais faible densité nutritionnelle, exclusion de
   groupes d'aliments
-- endurance : vit B énergétiques[fn:49] , vit. "antioxydantes"[fn:50]. force :
-  \inc vit B6, \inc "antioxydantes"
+- endurance : vit B énergétiques[fn:49] , vit. "antioxydantes"[fn:50]
+- force : \inc vit B6, \inc "antioxydantes"
 
 *** Enfant
  Apport insuffisants \thus retard croissance staturo-pondéral ou pubertaire,
@@ -2722,7 +2723,7 @@ Surveiller calcium, vit D, fer.
 * 265 : Hypocalcémie, dyskaliémie, hyponatrémie
  
 ** Hypocalcémie (hypoCa)
-Éliminer fausses hypoCa dues à l'hypoalbuminémie.
+Éliminer fausses hypoCa dues à l'hypoalbuminémie[fn:69].
 Calcémie = équilibre absorption intenstinale, résorption osseuse, excrétion
 rénale. Régulé par PTH, calcitriol
 
@@ -2744,12 +2745,12 @@ Clinique :
   \inc. Chondrodysplasie possible
 - Anomalie vitamine D
   - carence vit D = 1ere cause hypoCa chez nourrisson \thus rachitisme
-    carentiel. Chez l'adulte, seulement si déficite prolongé et profond
+    carentiel. Chez l'adulte, seulement si déficit prolongé et profond
   - malabsorption digestive, insuf rénale chronique, cirrhose
 
 *** TTt
-- Aigüe = urgence \skull \thus calcium IV lente (2-3x10ml). Suspension ttt \inc
-QTc, réduction digoxine
+- Aigüe = urgence \skull \thus calcium IV lente (2-3x10ml). Suspension des ttt qui \inc
+  QTc, réduction digoxine
 - Chronique : vit D (ou dérivés actifs) et calcium per os
 
 ** Hyper-/hypo-kaliémie, 
@@ -2776,7 +2777,7 @@ Principales causes
 - Polyurie : hyperglycémie \inc
 - Hypomagnésémie : si Mg \dec, malabsorption, pertes digestives causées par
   IPP. Sinon : pertes urinaires acquises/génétique
-- Bloc 11-\beta{}hydroxystéroïde déshydrogénase : similaire à
+- Bloc 11-\beta{}hydroxystéroïde déshydrogénase : tableau similaire à
   hyperaldostéronisme primaire mais avec aldostérone \dec. Si HTA et hypoK,
   vérifier réglisse et pastis (glycyrrhizine)
 
@@ -2789,13 +2790,14 @@ Osmolarité (mosm/L) : 2\times{}([Na+] + [K+]) + glycémie + urée
 #+BEGIN_EXPORT latex
 \begin{figure}[htpb]
   \centering
-  \resizebox{\linewidth}{!}{
+  \resizebox{0.9\linewidth}{!}{
     \tikz \graph [
   % Labels at the middle 
       edge quotes mid,
   % Needed for multi-lines
       nodes={align=center},
       sibling distance=3cm,
+      level distance=1.5cm,
       edges={nodes={fill=white}}, 
     layered layout]
     {
@@ -2803,14 +2805,17 @@ Osmolarité (mosm/L) : 2\times{}([Na+] + [K+]) + glycémie + urée
         Augmentée -> "Hyperglycémie";
         Normale -> "HyperTG\\Hyperprotidémie";
         Diminuée -> Volémie -> {
-	  "Augmentée\\(hyperhydrat. extracell)" -> "Insuf cardiaque\\Cirrhose\\Sd néphrotique";
-	  "Normal\\(hyperhydrat intracell)" -> "Hypothyroïdie\\Insuf corticotrope\\SIADH";
-	  "Diminué\\(déshydrat extracell)" -> "Perte digestives\\rénales, cérébrales\\Insuf corticosurrénales aigüe";
+	  "Augmentée\\(hyperhydrat. extracell)" -> "Insuf cardiaque\\Cirrhose\\Sd néphrotique"
+	  -> "Sérum salé\\isotonique";
+	  "Normal\\(hyperhydrat intracell)" -> "Hypothyroïdie\\Insuf corticotrope\\SIADH"
+          -> "Sérum salé\\hypertonique";
+	  "Diminué\\(déshydrat extracell)" -> "Perte digestives\\rénales, cérébrales\\Insuf corticosurrénales aigüe"
+          -> "Restriction hydrosodée";
 	};
       };
     };
   }
-  \caption{Démarche diagnostique devant une hyponatrémie}
+  \caption{Démarche diagnostique et ttt devant une hyponatrémie}
 \end{figure}
 #+END_EXPORT
 
@@ -2828,7 +2833,7 @@ DD : cf figure. Si hyponatrémie hypoosmolaire normovolémique :
 - hyporthyroïdie proto-thyroïdienne : TSH \inc
 - hypopituitarisme antérieure : cortisolémie, TSH, T4L
 
-Étioliogise :
+Étioliogies :
 - iatrogènes : neuroleptiques, antidépresseurs, chimio, carbamazépine,
   desmopressine
 - quasi toutes affections neuro, notament intervention trans-sphénoïdale
@@ -2839,14 +2844,15 @@ DD : cf figure. Si hyponatrémie hypoosmolaire normovolémique :
 - Intoxication aigüe à l'eau
 
 *** Traitement
-Urgence si < 115mmol/L ou {délire, coma, convulsio} \skull \thus sérum salé
-hypertonique jusque Natrémie = 120mmol/L (puis restriction hydrique). \danger <
-12mmol/24h sinon tableau d'AVC (myélinolysie centropontine) !! \skull
+Urgence si < 115mmol/L ou {délire, coma, convulsion} \skull \thus sérum salé
+hypertonique jusque Natrémie = 120mmol/L (puis restriction hydrique).
+
+ \danger{} < 12mmol/24h sinon tableau d'AVC (myélinolysie centropontine) !! \skull
 
 Thérapeutique :
 - restriction hydrique : mal tolérée
 - déméclocycline : induit diabète inspidie néphrogénique
-- aquarétine (tolvaptan)
+- aquarétique (tolvaptan)
   
 Indications :
 - symptômes cliniques sévères/récent : sérum salé hypertonique
@@ -2872,12 +2878,12 @@ coma, insuf rénale} et risques de troubles du rythme cardiaque, bradycardie ave
 
 ** Étiologies
 *** Hypercalcémie PTH dépendante (PTH N ou \inc) 
-- *Hyperparathyroïdie primaire* (55%) : lésion parathyroïde. 
+- *Hyperparathyroïdie[fn:70] primaire* (55%) : lésion parathyroïde. 
   - Signes cliniques précédents avec rénaux, osseux (clinique et radio[fn:54]) \thus créatinine
-  plasmatique, scénal rénal non injecté
-  - Surtout densité osseaux (tier distal du radius)
+   plasmatique, scénal rénal non injecté
+  - Surtout densité osseuse (tier distal du radius)
   - Bio : hypercalcémie et PTH non adaptée (N ou \inc). 
-    - \danger corriger déficit vit D avant doser calcémie. 
+    - \danger corriger déficit vitamine D avant doser calcémie. 
     - \danger DD : sd hypercalcémie-hypocalciurie familiale,
       hyperparathormonémie avec ttt au lithium
     - calcémie et phosphorémie n'ont de sens qu'avec une fonction rénale normale
@@ -2893,10 +2899,10 @@ coma, insuf rénale} et risques de troubles du rythme cardiaque, bradycardie ave
       génétiques
     - hyperparathyroïdie /secondaire/ : adaptation à hypocalcémie (chercher chez
       insuf rénaux chronqiue)
-    - hyperparathyroïdie /tertaire/ : insuf rénaux chronqiue
-- hypercalcémie-hypocalciurie familiale bénigne :: hypercalcémie,
-     hypophosphorémie, (hypermagnésémie), calciurie \dec\dec{}, PTH inadaptées
-     (N ou \inc)
+    - hyperparathyroïdie /tertaire/ : insuf rénaux chronique
+- *hypercalcémie-hypocalciurie familiale bénigne* : hypercalcémie,
+  hypophosphorémie, (hypermagnésémie), calciurie \dec\dec{}, PTH inadaptées
+  (N ou \inc)
 - Lithium
 
 *** hypercalcémie PTH-indépendante
@@ -2907,7 +2913,7 @@ coma, insuf rénale} et risques de troubles du rythme cardiaque, bradycardie ave
   - granulomatose : hyperphosphorémie, PTH \dec
   - iatrogènes : vitamine D (hypercalcémie, hyperphosphorémie, PTH passe),
     vitamine A (asthénie sévère, douleurs musc et osseuse, alopécie des
-    sourcils, célitie fissuraire), diurétiques thiazidique, buveurs de laits
+    sourcils, chéilite fissuraire), diurétiques thiazidique, buveurs de laits
     (plutôt fortes doses d'antiacide ou carbonate de calcium)
 
 ** Traitement
@@ -2917,15 +2923,16 @@ conventionnelle ou mini-invasive (faire imagerie avant !)
 Sinon, traitement palliatif : bisphosphonates (inhibe résorption osseuse),
 calcimimétiques (\dec PTH), 
 
-\danger Hypercalcémie = urgence \skull{} : bisphosphonate en perf lente
-ou corticothérapide IV (myélome/hémopathie) ou dialyse (maligne)
+\danger Hypercalcémie = urgence \skull{} : 
+- sérum phy
+- bisphosphonate en perf lente ou corticothérapide IV (myélome/hémopathie) ou dialyse (maligne)
 * 303 : Tumeurs de l'ovaire (hormono-sécrétante)
 ** Sécrétant des oestrogènes
 Tumeurs de la granulosa : 
 - malignes, les plus fréquentes des tumeurs des cordons sexuels et du stroma. 
-- plutôto femmes [30,50] ans
+- plutôt femmes [30,50] ans
 - jeune fille : pseudo-puberté précoce. Femme :
-  aménorrhées/ménométrorragie. Ménopausée : saignement vaginal dû à hyperplase
+  aménorrhées/ménométrorragie. Ménopausée : saignement vaginal dû à hyperplasie
   endométriale[fn:56] 
 - ttt : ovariectomie unilatérale mais récidives 10-33%
 
@@ -2953,7 +2960,7 @@ Tumeurs germinales sécrétantes
 - tumeur ovarienne sécrétant de l'hCG : chez femme jeune, aménorrhée, douleurs
   abdo/métrorragie. Tttt : conservateur si jeune, chimio si étendu
 - gonadoblastome : chez sd de Turner avec mosaïque et chromosome Y (risque
-  7-20%) \thus gonadectomi préventive
+  7-20%) \thus gonadectomie préventive
 - autres : sécrétant hCG, T4, sérotonine
 
 * 305 Tumeurs du pancréas (endocrine)
@@ -2962,16 +2969,17 @@ immunohistochimie
 
 Pronostic péjoratif : > 2 cm, invasion vasculaire, dissémination métastase
 
+#+caption: Caractéristiques des tumeurs endocrines duodéno-pancréatiques
 | Sécrétion | Clinique                                                          |
 |-----------+-------------------------------------------------------------------|
 | Insuline  | Hypoglycémie organiques                                           |
-| Gastrine  | Ulcère OGD[fn:57], diarrhées                                      |
+| Gastrine  | Ulcère oestro-gastro-duodénaux, diarrhées                                                 |
 | ACTH      | Cushing                                                          |
 | Glucagon  | Diabète, érythème migrateur, diarrhée, amaigrissement, thromboses |
 | VIP       | Diarrhée hydroélectrolytique profuse, hypokaliémie                |
 | GHRH      | Acromégalie                                                       |
 
-Imagerie : scannéer spiralé TAP \pm IRM abdo
+Imagerie : scanner spiralé TAP \pm IRM abdo
 
 Formes familiales : NEM1, neurofibromatose 1, von Hippel-Lindau
 
@@ -2982,7 +2990,7 @@ Prévalence : 9/100 000, ado/adulte jeune
 ** Tumeurs stromales
 Cellules de Leydig. Unilatérales, bénignes
 - Garçon < 9 ans : pseudo-puberté précoce \thus testostérone plasmatique, écho
-testiculaire
+  testiculaire
 - Adulte : féminisation, infertilité \thus oestradiol \inc, testostérone N ou \dec
   
 Cellules de Sertoli : rares (enfant) ou exceptionnelles
@@ -2992,7 +3000,7 @@ Cellules de Sertoli : rares (enfant) ou exceptionnelles
 ** Autres
 - Tumeurs germinales : fréquentes, écho testiculaire
   - séminomateuses : fréquentes, pronostic bon
-  - non séminomateuses : pronistic réservé
+  - non séminomateuses : pronostic réservé
 - Inclusion surrénaliennes : par excès ACTSH. Marqueur : 17-hydroxyprogestérone
 
 ** PEC 
@@ -3004,20 +3012,13 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 * Annexes
 ** Hormones
 
+
 \begin{figure}[htpb]
   \centering
   \resizebox{!}{5cm}{
-    \tikz \graph [
-    % Labels at the middle 
-    %edge quotes mid,
-    % Needed for multi-lines
-    nodes={align=center},
-    sibling distance=6cm,
-    layer distance=2cm,
-    %edges={nodes={fill=white}}, 
-    tree layout]
+    \tikz \graph [decision]
     {
-      ht/hypothalamus -> ["CRH"] hh/hypophyse -> ["ACTH"] cs/corticosurrénale;
+      ht/hypothalamus[organ] -> ["CRH"] hh/hypophyse[organ] -> ["ACTH"] cs/corticosurrénale[organ];
       cs -> cort/cortisol;
       cort ->[bend left=60, "-"] ht;
       cs -- ["+"] hh;
@@ -3025,19 +3026,11 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
     };
   }
 \resizebox{0.4\linewidth}{!}{
-    \tikz \graph [
-    % Labels at the middle 
-    %edge quotes mid,
-    % Needed for multi-lines
-    nodes={align=center},
-    %sibling distance=6cm,
-    layer distance=1.5cm,
-    %edges={nodes={fill=white}}, 
-    tree layout]
+    \tikz \graph [decision]
     {
-      ht/hypothalamus -> ["GnRH"] hh/hypophyse -> "FSH, LH" -> {
-        testicules -> test/testosterone;
-        ovaires -> est/estrogène;
+      ht/hypothalamus[organ] -> ["GnRH"] hh/hypophyse[organ] -> "FSH, LH" -> {
+        testicules[organ] -> test/testosterone;
+        ovaires[organ] -> est/estrogène;
       };
       test -> [bend left=70, "-"] ht;
       test -> [bend left=60, "-"] hh;
@@ -3045,19 +3038,22 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
     };
 }
 \resizebox{!}{5cm}{
-    \tikz \graph [
-    % Labels at the middle 
-    %edge quotes mid,
-    % Needed for multi-lines
-    nodes={align=center},
-    %sibling distance=6cm,
-    layer distance=1.5cm,
-    %edges={nodes={fill=white}}, 
-    tree layout]
+    \tikz \graph [decision, layer distance=1.5cm]
     {
-      ht/hypothalamus -> ["TRH"] hh/antéhypophyse ->["TSH"] th/thyroide -> "T4, T3";
+      ht/hypothalamus[organ] -> ["TRH"] hh/antéhypophyse[organ]
+      ->["TSH"] th/thyroide[organ] -> "T4, T3";
       th -> [bend left=60, "-"] hh;
       th -> [bend left=70, "-"] ht;
+    };
+}
+\resizebox{!}{5cm}{
+    \tikz \graph [decision, layer distance=1.5cm]
+    {
+      ht/hypothalamus[organ] -> ["GHRH"] hh/hypophyse[organ] -> Foie[organ] -> "IGF-1" -> {
+        os;
+	muscle;
+	graisse..;      
+      }
     };
 }
 \end{figure}
@@ -3084,6 +3080,10 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 
 
 * Footnotes
+
+[fn:70] La PTH est produite par la parathyroïde...
+
+[fn:69] Une partie du calcium est lié à l'albumine
 
 [fn:68] Insuffisance antéhypophysaire complète
 
@@ -3115,7 +3115,7 @@ non caséeux (histologie)
 
 [fn:58] Peut appartenir à : complexe Carney, sd Petuz-Jeghers
 
-[fn:57] Oestro-gastro-duodénaux
+
 
 [fn:56] Tumeurs souvent > 10cm, kystique, multiloculaire, unlatérale
 
@@ -3136,7 +3136,7 @@ non caséeux (histologie)
 [fn:48] Pour 1er certificat puis tous les 3 ans puis tous les 5
   ans jusque 35 ans
 
-[fn:47] Sauf alpinisme, armes à feu, mécaniques, aériens, sous-marins, de combat
+[fn:47] Médecin qualifé pour : alpinisme, armes à feu, mécaniques, aériens, sous-marins, de combat
 avec HS
 
 [fn:46] 12-24SA

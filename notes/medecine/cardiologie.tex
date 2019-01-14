@@ -2880,7 +2880,45 @@ Hémorragiques :
     surveillance biologique
 \end{itemize}
 
-
+\appendix
+ \resizebox{\linewidth}{!}{           
+\begin{tikzpicture}
+    \graph [
+    % Labels at the middle 
+    %edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    % right-angle arrow
+    skip loop/.style = {to path={-- ++(0,#1) |- (\tikztotarget)}},
+    vh path/.style = {to path={ |- (\tikztotarget)}},
+    hv path/.style = {to path={ -| (\tikztotarget)}},
+    medic/.style = {rectangle, draw=red},
+    %sibling distance=6cm,
+    %layer distance=1.5cm,
+    %edges={nodes={fill=white}}, 
+    branch down=9mm,
+   grow right sep]
+   % Ugly hack : using "above" should not be used with "right
+    {
+      at/angiotensinogène -- p1 [coordinate] -> at1/"Angiotensine I" 
+      -- p2 [coordinate] -> at2/"Angiotensine II" 
+      -- p3 [coordinate] -> "+" -> [vh path, "lol"] {
+        "Système sympathique";
+        "Réabsorption Na+ et Cl-\\Excrétion K+";
+        "Aldostérone\\(cortex surrénalien)";
+        "Vasoconstriction artérioles";
+        adh/"ADH (hypophyse)";
+      }
+      --[hv path] p4 [coordinate] -> rt/"Rétention hydrosodée\\Augmentation volémie";
+      Rein[above=-1mm of p1];
+      Foie[above=6cm of at];
+      Foie -> at;
+      rt -- [vh path] neg/"-"[below=-6cm of adh] -> Rein ->["+"] p1;
+      p1 --["Rénine"] Rein;
+      IEC[above=8cm of p2, medic] ->["-"] p2;
+    };
+\end{tikzpicture}
+}
 \printglossary
 \printglossary[type=\acronymtype]
 
@@ -2889,4 +2927,5 @@ Hémorragiques :
 %%% Local Variables:
 %%% mode: latex
 %%% TeX-master: t
+%%% TeX-engine: luatex
 %%% End:

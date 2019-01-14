@@ -67,7 +67,25 @@
 
 \usegdlibrary{trees, layered}
 \usetikzlibrary{quotes}
-%-------------------------------------------------------------------------------
+\usetikzlibrary{shapes.misc} % for rounded rectangle
+
+% Custom graph style, for most of our graphs
+\tikzgraphsset{decision/.style={
+   % Labels at the middle 
+    %edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    %sibling distance=6cm,
+    layer distance=2cm,
+    %edges={nodes={fill=white}}, 
+    tree layout
+    }
+  }
+\tikzset{
+  organ/.style = {rounded rectangle, draw=black}
+}
+
+% -------------------------------------------------------------------------------
 % No spacing in itemize
 \usepackage{enumitem}
 \setlist{nolistsep}
