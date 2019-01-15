@@ -259,6 +259,11 @@ Diplopie monoculaire, simulation, hystérie
   carotidocaverneuse} = urgences \skull. Maladie de Horton. Sd Tolosa-Hunt
 - SEP : paralysie VI, ophtalmoplégie internucléaire
 - Myasthénie : diag = {test Prostigmine, Ac anti récepteur acétylcholine, électromyographie}
+
+** CAT
+- Récente : étiologie++ (neuro, imagerie cérébrale)
+- Phase précoce : occlusion oeil paralysé, prismation, toxine botulique
+- Phase tardive : attendre régénérescen nerveuse (6 mois-1an)
 * 6 \OE{}il rouge/douloureux
 ** Examen
 Interrogatoire : mode d'apparition, douleur superficielle/profonde, BAV
@@ -359,16 +364,15 @@ Examen à lampe à fente (bilatéral) :
 - /Glaucome aigu par fermeture de l'angle/ : rare, pronostic sévère.
   - prédisposition anatomique, pendant une mydriase
   - humeur aqueuse ne peut plus passer dans la chambre antérieure, s'accumule
-    dans chambre postérieure et bloque le trabeculum.
+    dans chambre postérieure et bloque le trabeculum[fn:30].
   - signes fonctionnels .: douleurs profondes++ irradiant dans trijumeau,
     souvent nausées, vomissement, BAV
   - examen : douleurs intenses, \oe{}il rouge, transparence cornée \dec diffuse,
     semi-mydriase aréflexique, angle iridocornéen fermé, hypertonie oculaire++
   - cécité en qq jours sans ttt \danger 
-\ttt antalgique, inhibiteurs de l'anhydrase en urgence \skull
-    carbonique [fn:14], solutés hyperosmolaires[fn:15], collyre hypotonisants,
-    collyres myotiques
-  - post-crise : iridotomie périphérique sur *les deux yeux* (laser ou chir)
+\ttt antalgique, inhibiteurs de l'anhydrase carbonique [fn:14]\skull, solutés hyperosmolaires[fn:15], collyre hypotonisants,
+    collyres myotiques\\
+  post-crise : iridotomie périphérique sur *les deux yeux* (laser ou chir)
 - /Glaucome néovasculaire/ : VEGF crée néovaisseux qui empêche la résorption de
   l'humeur aqueuse
   - néovaisseaux sur l'iris
@@ -612,8 +616,8 @@ Ttt d'urgence par lavage (20-30min) par sérum phy (ou eau), puis collyre
 corticoïde ASAP
 
 Autres :
-- brûlures des UV (ski, UV)
-- soudure à l'arc sans lunette
+- brûlures des UV (ski, UV) : guérison en 48h, sans séquelles
+- soudure à l'arc sans lunette : idem
 - phototraumatisme (éclipse) : BAV définitive !
 
 * 13 Cataracte
@@ -716,6 +720,8 @@ avec décollement choroïdien, infection globe oculaire. Principal échec :
 fermeture de la voie par fibrose sous-conjonctivale.
 
 * 15 Dégénérescence maculaire liée à l'âge
+1ere cause de malvoyance après 50 ans (pays industrialisés).
+
 Atteinte de la macula chez > 50 A. Débutante/intermédaire : drusen, altération
 pigmentaire, AV normale ou peu \dec. Évoluée : atrophique ou exsudative
 
@@ -729,7 +735,7 @@ pauvre en anti-oxydant/riches en (acide gras saturés et cholestérol)
 - FO (drusen, altération pigmentaires, atrophie épithelium pigmentaire, forme
   exsudative [cf /infra/ ].
 - OCT : suivi, ou diagnostic si + FO
-
+- Angiographie
 ** Formes cliniques
 - débutante : /drusen/ = résidus de phagocytose des photorécepteurs. Petites
   lésions profondes jaunâtre. OCT
@@ -742,8 +748,8 @@ pauvre en anti-oxydant/riches en (acide gras saturés et cholestérol)
 ** Ttt
 - débutante : vitamine E, C, zinc, lutéine, zéaxantine
 - atrophique : \emptyset
-- exsudative : injection d'anti-VEGF : ranibizumab,
-  aflibercet. bévacizumab. Stoppent néovaisseux, font régresser l'\oe{}dème. 40%
+- exsudative : injection d'anti-VEGF : ranibizumab, 
+  aflibercet, bévacizumab. Stoppent néovaisseux, font régresser l'\oe{}dème. 40%
   ont amélioration visuelle à 2 ans. 
 Laser possible mais risque thrombose
 * 16 Occlusions artérielles rétiniennes
@@ -1078,6 +1084,8 @@ Classification de Kirkendall
 
 * Footnotes
 
+[fn:30] Entre la cornée et l'iris !
+
 [fn:24] No sign, Only lid retraction, Soft tissues, Proptosis \ge
   3mm, Extraocular muscle, Corneal
 
@@ -1111,7 +1119,7 @@ rupture d'anévrisme intracrânien
 
 [fn:15]  Déshydratation du vitré
 
-[fn:14] \dec production d'humeur aqueuse.
+[fn:14] \dec production d'humeur aqueuse. Acétazolamide IV + potassium.
 
 [fn:13] \OE{}dème conjonctival
 
@@ -1119,7 +1127,7 @@ rupture d'anévrisme intracrânien
 
 [fn:11] \danger méconnu si ptosis/\oe{}dème palpébral
 
-[fn:10] Monoculaire : cause cornéenne, irienne, cristalinienne $\ne$ urgence.
+[fn:10] Monoculaire : disparaît à l'occlusion de l'oeil /atteint/. Cause cornéenne, irienne, cristalinienne $\ne$ urgence.
 
 [fn:9] Abrasion épithelium cornéen ou volet dans cornée.
 

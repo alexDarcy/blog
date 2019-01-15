@@ -1451,7 +1451,7 @@ gls:ATS :
   
 Chir : thyroidectomie totale sauf si adénome toxique (lobectomie)
 
-Radio-iode : simple, sans danger. CI : femme enceinte.
+Radio-iode : simple, sans risque génétique/cancérisation secondaire (\danger{} orbitopathie...). CI : femme enceinte.
 
 *** Résultats
 - Basedow : thyroïdectomie \thus hypothyroïdie définitive. Radio-iode \thus
@@ -1467,7 +1467,7 @@ Radio-iode : simple, sans danger. CI : femme enceinte.
   puis chir/iode 131
 - Crise aigüe thyrotoxique : soins intensifs, réa, ATS, propanolol, corticoïdes,
   iode131 après 24h ATS
-- Orbitopathie : si simple, collyre. Si maligne : cf spécialiste
+- Orbitopathie : pas d'effet ATS, iode peut aggraver !! Si simple, collyre. Si maligne : cf spécialiste
 - Femme enceinte : si transitoire, repos. Si Basedow : repos si mineur. Si forme
   importante : ATS faible dose. Si formes grave, chir (2eme trimestre) possible)
 \thus surveillance avant et après accouchement  
