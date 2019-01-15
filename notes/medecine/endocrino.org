@@ -1416,7 +1416,7 @@ Diagnostic : manif oculaire suffit. sinon : écho (hypoéchogène, vascularisé)
 
 *** Thyroïdite subaigüe de De Quervain
 Affection banale virale. Diagnostic clinique (goitre dur et douleureux). Hyper-
-puis hypo-thyroïdie
+puis hypo-thyroïdie. Echo = hypoéchogène
 
 *** Thyrotoxicose gestionnelle transitoire 
 Fréquent (2% grossesse). 1er trimestre : nervosité, tachycardie, pas de prise de
