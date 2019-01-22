@@ -1,10 +1,8 @@
 #+title: Endocrinologie
 #+author: Alexis Praga
-#+latex_header: \usepackage{booktabs}
+
 #+latex_header: \input{header}
 #+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
-#+latex_header: \usepackage[nonumberlist]{glossaries}
-#+latex_header: \makeglossaries
 #+latex_header_extra: \newglossaryentry{SHBG}{name=SHBG,description={Sex Hormone-Binding Globulin. Diminue avec des androgènes, augmente avec les oestrogènes}}
 #+latex_header_extra: \newacronym{SOPK}{SOPK}{Syndrome des ovaires polymicrokystiques}
 #+latex_header_extra: \newacronym{OGE}{OGE}{Organes génitaux externes}
@@ -25,6 +23,14 @@
 #+latex_header_extra: \newacronym{CLU}{CLU}{Cortisol libre urinaire}
 #+latex_header_extra: \newacronym{IS}{IS}{Insuffisance surrénale}
 #+latex_header_extra: \newglossaryentry{PTH}{name={Parathyroide Hormone (PTH)},description={Stimule la résorbtion osseuse (ostéoclastes) pour libérer plus de calcium}}
+#+latex_header_extra: \newglossaryentry{sdMetabolique}{name={Syndrome métabolique}, 
+#+latex_header_extra:   description={IMC > 28 kg/$m^2$, HTA, 
+#+latex_header_extra:     (HDL < 0.35g/L ou TG > 2g/L ou dyslipidémie traitée), 
+#+latex_header_extra:     ATCD diabète familial/gestionnel, temporairement induit. 
+#+latex_header_extra:     Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female), 
+#+latex_header_extra:     hyperglycémie (glycémie à jeun > 1g/L), 
+#+latex_header_extra:     dyslipidémie (TG > 1.5g/L et (HDL < 0.4g/L \male ou 0.5g/L \female)), 
+#+latex_header_extra:     HTA (> 130mmHg systole ou > 85mmHg diastole)}}
 
 #+OPTIONS: H:4
 
@@ -2024,7 +2030,7 @@ récidivantes
 
 Dépistage : si
 - glycémie veineuse à jeun pour : signes cliniques de diabètes, > 45 ans (tous les 3 ans), \ge 1 FR
-- non caucasien/migrant, sd métabolique [fn:30]
+- non caucasien/migrant, \glslink{sdMetabolique}{sd métabolique}
  
 DD : diabète 1 lent (LADA) (minceur, 0 ATCD, IA2 et GAD positifs), génétique
 (MODY2, mitochondrial), secondaire (pancréatopathie, hémochromatose,
@@ -3079,6 +3085,8 @@ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimi
 |                  |                              |                            |                                       |
 
 
+\printglossaries
+
 * Footnotes
 
 [fn:70] La PTH est produite par la parathyroïde...
@@ -3177,12 +3185,7 @@ hypertonie oculaire
 [fn:31] 50% glucides, 30% lipides, 20% protides. Légumes et féculents pour \inc
 absorption des glucides
 
-[fn:30] IMC > 28 kg/m^2, HTA, (HDL < 0.35g/L ou
-  TG > 2g/L ou dyslipidémie traitée), ATCD diabète familial/gestionnel,
-  temporairement induit.
-Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female), hyperglycémie
-  (glycémie à jeun > 1g/L), dyslipidémie (TG > 1.5g/L et (HDL < 0.4g/L \male ou
-  0.5g/L \female)), HTA (> 130mmHg systole ou > 85mmHg diastole)
+
 
 [fn:29] Hémoglobinopathie, anémie hémolytique, urémie, EPO, saignées
 

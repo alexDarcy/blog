@@ -1,10 +1,7 @@
 #+title: Ophtalmologie
 #+author: Alexis Praga
-#+latex_header: \usepackage{booktabs}
 #+latex_header: \input{header}
 #+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
-#+latex_header: \usepackage[nonumberlist]{glossaries}
-#+latex_header: \makeglossaries
 #+latex_header_extra: \newacronym{RPM}{RPM}{Réflexe photomoteur}
 #+latex_header_extra: \newacronym{DMLA}{DMLA}{Dégénérescence maculaire liée à l'âge}
 #+latex_header_extra: \newacronym{PEV}{PEV}{Potentiels évoqués visuels}

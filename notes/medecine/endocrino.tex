@@ -1,12 +1,9 @@
-% Created 2019-01-15 Tue 11:22
+% Created 2019-01-22 Tue 22:02
 % Intended LaTeX compiler: lualatex
 \documentclass[11pt]{article}
 \usepackage[hidelinks]{hyperref}
-\usepackage{booktabs}
 \input{header}
 \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
-\usepackage[nonumberlist]{glossaries}
-\makeglossaries
 \newglossaryentry{SHBG}{name=SHBG,description={Sex Hormone-Binding Globulin. Diminue avec des androgènes, augmente avec les oestrogènes}}
 \newacronym{SOPK}{SOPK}{Syndrome des ovaires polymicrokystiques}
 \newacronym{OGE}{OGE}{Organes génitaux externes}
@@ -27,6 +24,14 @@
 \newacronym{CLU}{CLU}{Cortisol libre urinaire}
 \newacronym{IS}{IS}{Insuffisance surrénale}
 \newglossaryentry{PTH}{name={Parathyroide Hormone (PTH)},description={Stimule la résorbtion osseuse (ostéoclastes) pour libérer plus de calcium}}
+\newglossaryentry{sdMetabolique}{name={Syndrome métabolique},
+description={IMC > 28 kg/$m^2$, HTA,
+(HDL < 0.35g/L ou TG > 2g/L ou dyslipidémie traitée),
+ATCD diabète familial/gestionnel, temporairement induit.
+Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female),
+hyperglycémie (glycémie à jeun > 1g/L),
+dyslipidémie (TG > 1.5g/L et (HDL < 0.4g/L \male ou 0.5g/L \female)),
+HTA (> 130mmHg systole ou > 85mmHg diastole)}}
 \author{Alexis Praga}
 \date{\today}
 \title{Endocrinologie}
@@ -45,9 +50,9 @@
 \input{bacteries-header}
 
 \section{35 : Contraception}
-\label{sec:org1b9ba27}
+\label{sec:org539cd44}
 \subsection{Contraception hormonale}
-\label{sec:org9182d29}
+\label{sec:org3581d98}
 Oestroprogestatifs
 \begin{itemize}
 \item Contient \{oestrogène, progestatif (gen 1,2 ou 3), autres progestatif\}
@@ -62,7 +67,7 @@ Progestatifs seuls
 \item Administration : orale, injection, implant, intra-utérin (stérilet)
 \end{itemize}
 \subsection{Pratique}
-\label{sec:orgb35f0e1}
+\label{sec:orgddf1a45}
 Oestroprogestatifs : le premier jour des règles pendant 21j puis 7 j
 d'arrêt. \emph{Tjrs au même moment}. Si oubli < 12h, ASAP sinon contraception mécanique \(\ge 7\) jours
 
@@ -72,7 +77,7 @@ contraception mécanique \(\ge 7\) jours
 Macroprogestatifs : commencer le 5eme jour du cycle
 
 \subsection{Contre-indications}
-\label{sec:org2b1f589}
+\label{sec:org62bf106}
 Oestroprogestatifs : absolues =
 \begin{itemize}
 \item thromboemboliques veineux/artériels, prédisposition thromboses
@@ -90,12 +95,12 @@ Macro/microprogestatifs : cancers \{sein, endomètre\}, insuf hépatique, accide
 TEV récents
 
 \subsection{Recommandation}
-\label{sec:org8a12141}
+\label{sec:orgb8fb7eb}
 Sans CI, oestroprogestatif minidosé et progestatif 2eme génération monophasique
 (Minidril)
 
 \subsection{Efficacité}
-\label{sec:orgb74ded1}
+\label{sec:org83842d2}
 Indice de Pearl\footnote{\(\frac{N}{N_e/10}\times 100\) avec N = nb grossesses
 accidentelles, \(N_e\) nombres de mois d'exposition} < 0.07\% pour oestroprogestatif
 (< 2\% pour les microprogestatifs)
@@ -106,7 +111,7 @@ millepertuis).
 Ado : sous- ou mal utilisée
 
 \subsection{Tolérance}
-\label{sec:org8aa7681}
+\label{sec:org73cd727}
 Oestroprogestatifs :
 \begin{itemize}
 \item bien tolérée, pas de perte de poids
@@ -122,7 +127,7 @@ extra-utérine
 Macroprogestatifs : hypoestrogénie, aménorrhées, spotting
 
 \subsection{Surveillance}
-\label{sec:org37e299a}
+\label{sec:orgb475377}
 Consulter si céphalée, déficit sensitivomoteur, (douleur ou oedème) MI, dyspnée,
 douleur thoracique
 
@@ -141,7 +146,7 @@ Gynéco : métrorragies, spottings.
 Frottis cervico-utérin dès 25 ans (+1 an puis tous 3 ans) indépendamment contraception
 
 \subsection{Femmes à risques}
-\label{sec:org5227bf3}
+\label{sec:org9d30589}
 Diabétique :
 \begin{itemize}
 \item non hormonale : si diabète 1 > 15 ans ou micro/macroangiopathie \thus locale
@@ -167,21 +172,21 @@ Autres :
 \end{itemize}
 
 \subsection{Contraception d'urgence}
-\label{sec:orgc6c405f}
+\label{sec:org07f96a6}
 \begin{itemize}
 \item lévonorgestrel ASAP < 72h
 \item ulipristal acétate ASAP < 120h mais 3x plus cher
 \end{itemize}
 
 \section{37 : Stérilité du couple}
-\label{sec:orga3ccd39}
+\label{sec:orgec86955}
 Infertile : 0 grossesse après 1 an de rapports non protégés. Stérilité si
 définitif.
 
 Stérilité = partagée !!
 
 \subsection{Interrogatoire}
-\label{sec:org12f1aad}
+\label{sec:org29b9515}
 \begin{itemize}
 \item Couple
 \item Femme : âge++ (détérioration après 35 ans), \{grossesses antérieure,
@@ -192,7 +197,7 @@ chir pelvienne/scrotale, ATCD médicaux (orchite ourlienne++), tabac/anabolisant
 \end{itemize}
 
 \subsection{Examen clinique}
-\label{sec:org523ce4d}
+\label{sec:org99f06ad}
 \begin{itemize}
 \item \female : âge++, obésité/maigreur, tour taille et hanche, pilosité, PA,
 galactorrhé provoqué, gynéco.
@@ -208,7 +213,7 @@ gynécomastie, gynoïde/enuchoïde
 \end{itemize}
 
 \subsection{Examens complémentaires}
-\label{sec:orgcea1126}
+\label{sec:orgf6ad85f}
 Premiere intention, femme
 \begin{itemize}
 \item Hormonale++ : oestradiol, LH, FSH, prolactine plasmatique. Puis progestérone plasmatique (si cycle réguliers)
@@ -223,7 +228,7 @@ Première intention, homme :
 Test poist-coïtal (discuté)
 
 \subsection{Étiologie}
-\label{sec:orgd32b331}
+\label{sec:org65dbbb6}
 Femme :
 \begin{itemize}
 \item \emph{anovulation} : très fréquent ! Souvent aménorrhées ou irrégularités. Causes :
@@ -260,7 +265,7 @@ confirmée par plusieurs spermogrammes, bilan génétique
 \thus caryotype, brang long Y. Traitement = assistance médicale procréation
 \end{itemize}
 \section{40 : Aménorrhée}
-\label{sec:orgfef4f87}
+\label{sec:org8f66a65}
 Déf: absence de cycle menstruel après 16 ans (primaire) ou interruption chez
 femme réglée (secondaire). Physiologique : grossesse, lactation, ménopause
 
@@ -273,9 +278,9 @@ Pas de traitement oestrogénique sans enquête étiologique
 \end{tcolorbox}
 
 \subsection{Conduite}
-\label{sec:orgd7b022a}
+\label{sec:org9d522b0}
 \subsubsection{Primaire}
-\label{sec:org45848a5}
+\label{sec:org26a95f9}
 Forte proba de cause génétique/chromosomique. Chercher carences nutritionnelle
 
 \begin{itemize}
@@ -295,7 +300,7 @@ anomalies sensibilité/biosynthèse androgènes
 \end{itemize}
 \end{itemize}
 \subsubsection{Secondaire}
-\label{sec:orgeade2d1}
+\label{sec:orgd87fb01}
 Souvent acquises. 
 
 Interrogatoire : médic, maladie endoc/chronique,
@@ -330,13 +335,13 @@ grossesse & médicaments & \acrshort{IOP} & tumeur H-H & tumeur surrénales & \g
 \end{table}
 
 \subsection{Causes}
-\label{sec:orgf973c1e}
+\label{sec:org7e48c5f}
 
 \subsubsection{1. Déficit gonadotrope organique/fonctionnel}
-\label{sec:org6451222}
+\label{sec:org90903d3}
 
 \paragraph{Prolactine normale \footnote{Hypothalamus n'arrive pas à libérer la GnRH au bon rythme.}}
-\label{sec:org469bef1}
+\label{sec:org7fc803c}
 \begin{itemize}
 \item Atteintes organiques : tumeur/infiltration \thus IRM
 \begin{itemize}
@@ -347,22 +352,22 @@ grossesse & médicaments & \acrshort{IOP} & tumeur H-H & tumeur surrénales & \g
 \end{itemize}
 
 \paragraph{Hyperprolactinémie}
-\label{sec:org819e1e5}
+\label{sec:orgd8599e5}
 Atteinte hypothalamo-hypophysaire (majeure++)
 
 Médicaments ou tumeurs \thus pas de traitement dopaminergique sans imagerie \danger
 
 \paragraph{Autres}
-\label{sec:org0a36aa0}
+\label{sec:org5efba9e}
 \begin{itemize}
 \item Endocrinopathies : sd de Cushing, dysthyroïdes déficits 21-hydroxylase
 \item Hypophysaire (rare) : auto-immune (majorité), sd de Sheehan (très rare, nécrose hypophysaire post-partum)
 \end{itemize}
 
 \subsubsection{2. Anovulation non hypothalamique}
-\label{sec:orgaf0bc9a}
+\label{sec:org180cde2}
 \paragraph{SOPK (majorité)}
-\label{sec:org2efee42}
+\label{sec:org85338b5}
 Pas de pic de LH, ni de progestérone. Oestradiol mais non cycliques
 
 Irrégularité menstruelles, puis aménorrhées avec acné, hirsutisme
@@ -403,7 +408,7 @@ mimer SOPK)
 \end{itemize}
 
 \subsubsection{3. Insuf ovarienne primitive}
-\label{sec:orgef6b198}
+\label{sec:org6aa8f88}
 \inc FSH
 
 Causes :
@@ -418,9 +423,9 @@ l'absence de transcript de FMR1 (Fragile X Mental Retardation 1). \\
 \end{itemize}
 
 \subsubsection{4. Anomalie utérine}
-\label{sec:org3446e17}
+\label{sec:org3256169}
 \paragraph{Congénitales}
-\label{sec:org2feca3d}
+\label{sec:orgf95baaf}
 Si dév pubertaire normal :
 \begin{itemize}
 \item et douleurs pelviennes cycliques :  imperforation hyménéale/malformation vaginale \thus examen gynéco.\\
@@ -431,12 +436,12 @@ Difficulté : différence agénésie mullérienne isolée (46,XX)- anomalies and
 (46,XY) \thus testostérone
 
 \paragraph{Secondaires}
-\label{sec:orgab26c7d}
+\label{sec:orgfd85482}
 Synéchies utérines (trauma de l'utérus), tuberculose utérine
 \section{47 : Puberté}
-\label{sec:orgb00d463}
+\label{sec:orga842b34}
 \subsection{Normale}
-\label{sec:org04ad5b7}
+\label{sec:orgaf1f3b6}
 \textasciitilde{}4 ans, acquisition de la taille définitive, fonction de
 reproduction. Classification de Tanner (5 stades)
 
@@ -456,7 +461,7 @@ taille & 163cm & taille & 175cm\\
 \end{table}
 
 \subsection{Retards}
-\label{sec:org526aee8}
+\label{sec:orga820eb2}
 \begin{tcolorbox}
 \male :  volume testiculaire < 4mL après 14 ans \footnotemark\\
 \female : pas de seins à 13 ans, pas de règles à 15 ans
@@ -504,7 +509,7 @@ Caryotype si :
 \end{itemize}
 
 \subsubsection{Étiologies}
-\label{sec:orga5ad5fb}
+\label{sec:org984c09b}
 Hypogonadotropes
 \begin{itemize}
 \item congénitaux : isolés, sd de Kallman, autres déficits hypophysaires, sd
@@ -524,14 +529,14 @@ Hypergonadotropes
 \end{itemize}
 
 \subsubsection{Traitement}
-\label{sec:orgc0a21e1}
+\label{sec:org9fc62d5}
 Cause si possible. Sinon doses \inc de testostérone (\male) ou oestrogènes puis
 oestroprogestatif (\female)
 \subsection{Précoces}
-\label{sec:org6ddfbd7}
+\label{sec:org42abb44}
 Avant 8ans \female ou 9.5 ans \male
 \subsubsection{Centrales}
-\label{sec:org5b826a1}
+\label{sec:org4fd68ef}
 8x plus fréquent chez \female{} que \male{}. Chez \female{}, causes
 idiopathiques. Chez \male{}, causes tumorales à 50\%
 
@@ -552,7 +557,7 @@ définitive). Écho pelvienne pour \female{}
 Traitement si risque de petite taille adulte : analogues GnRH jusque âge normal
 de puberté
 \subsubsection{Périphériques}
-\label{sec:orga1793b3}
+\label{sec:org445207b}
 Clinique : \inc vitesse de croissance, avance maturation osseusse
 
 Stéroïdes élevées, LH et FSH bas. Écho pelvienne chez fille
@@ -572,7 +577,7 @@ Stéroïdes élevées, LH et FSH bas. Écho pelvienne chez fille
 \item tumeurs à hCG (\male)
 \end{itemize}
 \subsubsection{Avances dissociées}
-\label{sec:org2fba0f9}
+\label{sec:orgeb93510}
 \begin{itemize}
 \item Isolé des seins : beaucoup de filles ( de 3 mois à 3 ans)
 \item Métrorragies isolées : chercher vulvite, vulvovaginite, prolapsus urétrale,
@@ -587,9 +592,9 @@ surrénales (\inc 17-hydroxyprogestérone, stimulation ACTH), prémature pubarch
 \end{itemize}
 
 \section{48 : Cryptorchidie}
-\label{sec:org0e961ae}
+\label{sec:orga7fd930}
 \subsection{Enfant}
-\label{sec:org605bddb}
+\label{sec:orgfef3a1b}
 Localisation anormale et inaboutie du testicule. Très fréquente : 3\%
 nouveaux-nés, 20\% préma. 2/3 descendent spontanément à 1 an de vie
 
@@ -615,7 +620,7 @@ Suivre l'âge de l'apparition de la puberté !
 
 Traitement : chir dès 2 ans, indispensable ! (risque de cancer)
 \subsection{Adulte}
-\label{sec:org55b2f22}
+\label{sec:orgc11ba55}
 \begin{itemize}
 \item Risque : hypogonadisme, infertilité, cancer testicule
 \item Examen clinique : scrotum, gynécomastie, signes d'hypogonadisme
@@ -623,7 +628,7 @@ Traitement : chir dès 2 ans, indispensable ! (risque de cancer)
 scrotale, spermogramme
 \end{itemize}
 \section{51 : Retard de croissance}
-\label{sec:orgd690bc5}
+\label{sec:org9884db2}
 \danger Ne pas passer à côté de pathologies sévères
 
 Phases : 
@@ -646,10 +651,10 @@ Examen :
 \end{itemize}
 
 \subsection{Principales causes}
-\label{sec:org63bc04c}
+\label{sec:org26d07d3}
 \begin{itemize}
-\item Si poids < poids idéal : cf table \ref{tab:org45add7f}
-\item Si poids \(\ge\) poids idéal : cf table \ref{tab:org70725a3}. Précisions :
+\item Si poids < poids idéal : cf table \ref{tab:org55b5dc0}
+\item Si poids \(\ge\) poids idéal : cf table \ref{tab:orgc3f8b0d}. Précisions :
 \begin{itemize}
 \item Test de stimulation de l'hormone de croissance (\danger si doute, IRM)
 \item Ralentissement sévère \thus bilan en urgence (craniopharyngiome, thyroïdite de
@@ -661,7 +666,7 @@ endoc constitutionnelle, à la puberté : déficit hormone, patho osseuse
 \end{itemize}
 
 \begin{table}[htbp]
-\caption{\label{tab:org45add7f}
+\caption{\label{tab:org55b5dc0}
 Causes de retard pondéral}
 \centering
 \begin{tabular}{ll}
@@ -680,7 +685,7 @@ Nanisme psychosocial & \\
 \end{table}
 
 \begin{table}[htbp]
-\caption{\label{tab:org70725a3}
+\caption{\label{tab:orgc3f8b0d}
 Causes de retard statural}
 \centering
 \begin{tabular}{lll}
@@ -702,7 +707,7 @@ Autres & Osseuses (a-/hypo-chondroplasie) & Radio\\
 
 
 \subsection{Exploration :}
-\label{sec:org417453c}
+\label{sec:org15cda80}
 \begin{itemize}
 \item Caryotype : fille taille < -2DS ou < -1.5DS sous taille parentale moyenne
 \item NFS, VS, foie, rein
@@ -712,9 +717,9 @@ Autres & Osseuses (a-/hypo-chondroplasie) & Radio\\
 \end{itemize}
 
 \section{78 : Dopage}
-\label{sec:orge5561e5}
+\label{sec:org77e8421}
 \subsection{Substances augmentant la testostérone}
-\label{sec:org39177db}
+\label{sec:orgafce8a1}
 \begin{itemize}
 \item Stéroïdes anabolisant, testostérone : \inc masse musc, puissance
 \item Risque : thrombotique, rupture musculo-tendineuse, trouble personnalité, foie, trouble libido, adénome/cancer de la prostate
@@ -736,7 +741,7 @@ le sang ou urine.
 \end{itemize}
 
 \subsection{Hormone de croissance (GH), IGF-1}
-\label{sec:orgc0f970e}
+\label{sec:orge7edf04}
 \begin{itemize}
 \item GH \inc masse musculaire, modifie architecture sequelette, acromégalie \emph{mais}
 pas d'effet sur volume d'activité physique. Détection difficile : approche
@@ -745,7 +750,7 @@ indirecte (cascade biologique) et mesure des forme circulante et comparaison à 
 \end{itemize}
 
 \subsection{Glucocorticoïdes, ACTH}
-\label{sec:org0871351}
+\label{sec:orgd2c082f}
 \begin{itemize}
 \item Glucocorticoïdes : antalgiques, psychostimulants, combativité. ES : HTA,
 oedème, rupture ligament/tendon
@@ -753,10 +758,10 @@ oedème, rupture ligament/tendon
 \danger arrêt brutal = dangereux \skull
 
 \section{120 : Ménopause et andropause}
-\label{sec:orgd933fb4}
+\label{sec:org7e6e969}
 \label{sec:120}
 \subsection{Ménopause}
-\label{sec:org89758b6}
+\label{sec:org0be1514}
 Déf: plus de règle > 1 an \textpm{} sd climatérique, lié à une carence
 oestrogénique. Vers 51 ans.
 
@@ -764,7 +769,7 @@ Pré-ménopause : irrégularités cycles puis dysovulation puis anovulation \tex
 avants.
 
 \subsubsection{Diagnostic}
-\label{sec:org2eb8999}
+\label{sec:orgc75c3f1}
 Clinique seulement \danger : bouffées de chaleur, \female > 50 ans. Bio
 seulement si hystérectomie \thus \dec oestradiol et \inc FSH
 
@@ -774,7 +779,7 @@ diagnostic
 Aménorrhée < 40 ans = pathologique !
 
 \subsubsection{Conséquences}
-\label{sec:org826d94d}
+\label{sec:orgf8d5614}
 Court terme : bouffées de chaleur, trouble sommeil/humeur, \dec sécrétions
 vaginales
 
@@ -784,7 +789,7 @@ ovarienne prématurée, fractures non traumatiques, médicaments, calcium/vit D)
 Long terme : \inc risque CV. Incertitude sur SNC
 
 \subsubsection{Traitement}
-\label{sec:org3f1da97}
+\label{sec:orgec81c6c}
 Bénéfices
 \begin{itemize}
 \item court terme : qualité de vie à +5-10 ans
@@ -803,7 +808,7 @@ faibles)
 \end{itemize}
 
 \paragraph{Thérapeutique}
-\label{sec:org9766f52}
+\label{sec:orgc5ffbac}
 \begin{itemize}
 \item oestrogène (17\(\beta\)-oestradiol) oral/percutané/transdermique\footnote{Percutané, transdermique : limite \inc facteur de coagulation.} 25 jours/mois
 \item \textbf{et} progestatif (au moins les 12 derniers jours) per os/transdermique
@@ -812,12 +817,12 @@ faibles)
 pelvienne, hystéroscopie
 
 \paragraph{CI}
-\label{sec:orgcdf7702}
+\label{sec:orgda06f84}
 Cancer du sein, endomètre, ATCD thromboembolique artériel (ischémique,
 cardiopathie embolinogène) ou veineux, hémorragie génitale sans diagnostic, hépatique
 
 \paragraph{Mise en route}
-\label{sec:org1dff6c1}
+\label{sec:orga6511dc}
 \begin{itemize}
 \item Interrogatoire : ATCD \{cancer, métabolique, vasculaire\}, carence oestrogénique
 \item Examen physique : poids, PA, palpation seins, gynéco, frottis cervico-vaginal
@@ -826,19 +831,19 @@ cardiopathie embolinogène) ou veineux, hémorragie génitale sans diagnostic, h
 \end{itemize}
 
 \paragraph{En pratique}
-\label{sec:orgb3e75bd}
+\label{sec:orgdd635e2}
 1ere intention si trouble fonctionnels importants. 2eme si risque
 d'ostéoporose. Sinon au cas par cas.
 
 \paragraph{Surveillance}
-\label{sec:orgb104d64}
+\label{sec:org1b8c3ab}
 3-6mois (surdosage = douleur, tension mammaire). Puis tous les 6-12 mois,
 mammographie tous les 2 ans, frottis CV tous les 3 ans.
 
 Traitement \(\ge\) 5 ans !!
 
 \paragraph{Alternatives}
-\label{sec:orgb14a312}
+\label{sec:orgab4c595}
 \begin{itemize}
 \item Modulateurs spécifiques du récepteur des oestrogènes : raloxifène
 \item tibolone
@@ -848,12 +853,12 @@ Traitement \(\ge\) 5 ans !!
 NB : Dépister FR CV. Promouvoir exercice, calcium, vit D
 
 \subsection{Andropause}
-\label{sec:org0e9407f}
+\label{sec:orgf2a226e}
 Chez majorité des hommes mûrs/âgés en bonne santé non obèse, baisse de
 testostérone inconstante (2\%).
 
 \subsubsection{Démarche}
-\label{sec:orgd53d660}
+\label{sec:org2c825c8}
 \begin{itemize}
 \item Interrogatoire : libido, érection, énergie vitale, mobilité/activité physique
 \item Examen clinique : IMC, virilisation, gynécomastie, palper testicules
@@ -865,7 +870,7 @@ testostérone inconstante (2\%).
 \end{itemize}
 \end{itemize}
 \subsubsection{Étiologie}
-\label{sec:orgd57cf91}
+\label{sec:org3c66ac6}
 Si FSH, LH élevée, \emph{insuf testiculaire primitive} 
 \begin{itemize}
 \item lésionnelle : chimio, radiation, alcoolisme surtout. Autres : castration,
@@ -884,7 +889,7 @@ hypophysaire++, autres
 \end{itemize}
 
 \section{122 : Troubles de l'érection}
-\label{sec:org8d9fb26}
+\label{sec:org7edd3d4}
 Nécessite : réseau vasculaire, appareil musculaire lisse, retour veineux, signal  nerveux,
 appareil hormonal et psychisme fonctionnels
 
@@ -893,9 +898,9 @@ Déf : incapacité persistante à obtenir/maintenir érection pour rapport sexue
 Âge = FR (car déficit neurosensoriel, \inc testostérone, comorbidités)
 
 \subsection{Conduite  diagnostique}
-\label{sec:orgf616516}
+\label{sec:org29a8cb9}
 \subsubsection{Interrogatoire}
-\label{sec:org383c6e7}
+\label{sec:org72da416}
 \begin{itemize}
 \item DD avec perte désir, trouble éjaculation, douleurs pendant, anomalies morphologiques
 \item Caractérisation : primaire/secondaire, brutal/progressif,
@@ -911,7 +916,7 @@ androgénique, sd dépressif, troubles addictifs
 \end{itemize}
 \end{itemize}
 \subsubsection{Clinique}
-\label{sec:org9d34940}
+\label{sec:org5d73eaa}
 \begin{itemize}
 \item Gynécomastie, hypoandrisme, petits testicules, anomalies du pénis (La Peyronie)
 \item CV : HTA, pouls, souffle
@@ -919,19 +924,19 @@ androgénique, sd dépressif, troubles addictifs
 \item endoc : anomalie CV
 \end{itemize}
 \subsubsection{Bio}
-\label{sec:org5bedb95}
+\label{sec:org78afc0a}
 Glycémie, lipidique (si > 1 an), \{NFS, iono, créat\}, foie (si > 5 ans), déficit
 androgénique
 
 Doser prolactine, hormones thyroïdiennes
 
 \subsection{Bilan secondaire et approfondi}
-\label{sec:orga3c1597}
+\label{sec:org3f1b94a}
 Secondaire : sexo/psychologique, épreuve pharmacologique (prostaglandine,
 inhibiteur de la phospohdiestérase 5)
 
 \subsection{Étiologies}
-\label{sec:org230d186}
+\label{sec:org479a3f8}
 Plus fréquentes :
 \begin{itemize}
 \item vasculaire : FR = HTA
@@ -943,9 +948,9 @@ Plus fréquentes :
 \end{itemize}
 
 \subsection{Aspects endocriniens}
-\label{sec:orgf35d225}
+\label{sec:org26d4fa4}
 \subsubsection{Androgènes circulants}
-\label{sec:org9e63a0d}
+\label{sec:orgb5e4b67}
 Influe libido, intérêt sexuel, érection (seulement spontanée!)
 
 Hypogonadisme (diag difficile) : 
@@ -955,13 +960,13 @@ Hypogonadisme (diag difficile) :
 \end{itemize}
 
 \subsubsection{Hyperprolactinémie}
-\label{sec:orgb782f72}
+\label{sec:orga7a359e}
 Tumeur hypophysaire (IRM), champ visuel si tumeur
 supra-sellaire, \{T4L, cortisol, IGF-1, testostérone\}
 \thus correction par agoniste dopaminergique
 
 \subsubsection{Diabète}
-\label{sec:orgd047f0f}
+\label{sec:org18f41c4}
 sucré = 1ere cause de trouble érectile (TE). TE fréquents chez diabètique. 
 
 Facteurs : mal équilibré, complications, âge, ancienneté diabète
@@ -981,11 +986,11 @@ Clinique :
 \end{itemize}
 
 \subsection{PEC}
-\label{sec:org0cb8eaa}
+\label{sec:orga08f20d}
 Ttt étiologie seulement pour : trouble psychogène pur, chir possible, endocrino
 
 \subsubsection{Trouble endocrinien}
-\label{sec:org54a1fd9}
+\label{sec:orgb78a2a6}
 \begin{itemize}
 \item Si hypogonadisme confirmé par bio\footnote{Baisse libido, testostérone totale < 3 ng/mL} : androgène oraux/intramusc/transderm
 \item CI : nodule prostatique palpable, PSA > 3ng/mL
@@ -993,7 +998,7 @@ Ttt étiologie seulement pour : trouble psychogène pur, chir possible, endocrin
 \end{itemize}
 
 \subsubsection{Pharmacologique}
-\label{sec:org09d2b61}
+\label{sec:orged89f3d}
 \begin{itemize}
 \item FR, Hb glyquée < 7\%, psycho/sexologique
 \item 1ere intention 
@@ -1007,7 +1012,7 @@ Ttt étiologie seulement pour : trouble psychogène pur, chir possible, endocrin
 \end{itemize}
 
 \section{124 : Ostéopathies}
-\label{sec:orgedd1876}
+\label{sec:orgc997287}
 Ostéoporose : fragilité excessive du squelette (\dec minéraux osseux, modif
 microarchitecture). T-score < -2.5 DS valeur moyenne par DXA
 
@@ -1018,11 +1023,11 @@ Dominance \female. Primaire ou secondaire :
 \end{itemize}
 
 \subsection{Hypogonadisme}
-\label{sec:org4b398fa}
+\label{sec:org170d3b2}
 Carence oestrogénique \inc ostéoclastogénèse. Aggravé par la précocité,
 déminéralisation
 \subsubsection{Anorexie mentale}
-\label{sec:org168f364}
+\label{sec:org1ef689d}
 Biochimie : marqueurs de formation \dec (isoenzyme des phosphastales alcalines,
 ostéocalcine), marqueurs de résorption normaux (CTx, NTx) 
 
@@ -1037,7 +1042,7 @@ Traitement
 \end{itemize}
 
 \subsubsection{Activité physique intensive}
-\label{sec:org8106369}
+\label{sec:orgb28d2bb}
 Hypoestrogénie hypothalamique
 
 Facteur : activité\footnote{Marathon, danse classique, demi-fond, triathlon, gymnastique, cyclisme}, troubles menstruels, apports alimentaires
@@ -1047,7 +1052,7 @@ Résorption généralisée (rachis++), \inc fractures de fatigue
 Traitement : si aménorrhées, \dec activité ou oestroprogestatifs
 
 \subsubsection{Pathologies hypophysaires}
-\label{sec:org8a0c00d}
+\label{sec:org07a22e6}
 Prolactinomes, adénome corticotrope influent remodelage osseux
 
 Perte osseuse rapide (8\% par an), récupération variable.
@@ -1055,7 +1060,7 @@ Perte osseuse rapide (8\% par an), récupération variable.
 Traitement : \female{} non ménopausée : oestrogénothérapie
 
 \subsubsection{Iatrogènes}
-\label{sec:org6de0cac}
+\label{sec:org6fb2346}
 Agonistes GnRH (patho utérines), inhibiteurs aromatase (cancer sein)
 
 Réversible à l'arrêt (moins bien si âgée)
@@ -1063,7 +1068,7 @@ Réversible à l'arrêt (moins bien si âgée)
 Traitement : bisphosphonates, denosumab
 
 \subsubsection{Dysgénésies gonadique}
-\label{sec:org242e5c7}
+\label{sec:orge0efb7b}
 Sd Turner = plus fréquent (1/2500 à naissance)
 
 \dec masses osseuse, continue à l'adolescence. \inc risque fracture chez
@@ -1073,7 +1078,7 @@ Traitement : oestrogénisation (hypogonadisme) et hormone de croissance. Adulte 
 oestroprogestatif
 
 \subsection{Hyperthyroïdie, traitement par hormones thyroïdiennes}
-\label{sec:org5e21136}
+\label{sec:orgcd803a8}
 Cause fréquente d'ostéoporose secondaire \thus dosage systématique TSH
 
 Hormones thyroïdiennes \inc remodelage : résorption sur l'os cortical++ et trabéculaire
@@ -1089,7 +1094,7 @@ Prévention :
 \end{itemize}
 
 \subsection{Hypercortisolisme, corticothérapie}
-\label{sec:org286e0b8}
+\label{sec:org289dbfe}
 
 \dec ostéoblastes, \inc activité ostéoclaste. \dec absorption intestinale
 calcium, \inc pertes urinaires calcium, hyperparathyroïdisme
@@ -1107,7 +1112,7 @@ et T-score \(\ge -1.5\)
 \end{itemize}
 
 \subsection{Hyperparathyroïdie primitive}
-\label{sec:org9dcd770}
+\label{sec:org56e85c0}
 Fréquent, notamment chez femme ménopausée. Ostéoporose fréquente \thus dépistage
 systématique par DXA
 
@@ -1119,7 +1124,7 @@ Diminution limitée (10\%). Souvent favorable post-parathyroïdectomie.
 Traitement : chir si T-score < -2:5. Sinon anti-ostéoclastiques\footnote{Oestrogènes, raloxifène, bisphosphonates}, calcimimétique\footnote{Cinacalcet}
 
 \subsection{Chez l'homme}
-\label{sec:orgcb2453b}
+\label{sec:org1edd6c2}
 Pas de T-score reconnu. 
 
 Fracture radius distal plus rares.
@@ -1128,7 +1133,7 @@ Ostéoporoses secondaires plus fréquentes chez l'homme : hypercorticisme,
 hypogonadisme congénital/acquis/iatrogène, alcoolisme, hypercalciurie
 idiopathiques, génétique
 \section{207 : Sarcoidose}
-\label{sec:orgf1e4df7}
+\label{sec:org2f52bf6}
 Atteinte hypothalamo-hypophysaire exceptionnelle. Conséquences : diabète
 inspide central, insufisance gonadotrope
 
@@ -1148,7 +1153,7 @@ non caséeux (histologie)}.
 Traitement : sarcoïdose et déficits hormonaux
 
 \section{215 : Hémochromatose}
-\label{sec:org851b68a}
+\label{sec:orgd0cdf97}
 Hémochromatose primitive : génétique, surcharge en fer. 5 pour 1 000 !
 
 Physiopatho : 
@@ -1162,11 +1167,11 @@ Physiopatho :
 Génétique : gène HFE à 95\% et mutation C282Y/C282Y ou C282Y/H63D
 
 \subsection{Clinique}
-\label{sec:org31e0221}
+\label{sec:org0600d82}
 En pratique, suspicion aux "3 A" : asthénie, arthralgies, \inc ALAT
 
 \subsubsection{Atteintes :}
-\label{sec:orgf015e5c}
+\label{sec:org5f45c0c}
 \begin{itemize}
 \item foie : \inc ALAT ou hépatomégalie. Cirrhose \(\approx\) 90\% décès
 \item coeur : cardiopathie dilatée, troubles rythme
@@ -1183,7 +1188,7 @@ ostéoporose
 
 
 \subsection{Diagnostic}
-\label{sec:org1c6ce61}
+\label{sec:org4482947}
 \begin{itemize}
 \item Si CS-Tf\footnote{Coefficient de saturation de la transferrine} < 45\% : si ferritine \inc, cherche hépatosidérose dysmétabolique,
 acéruléoplasminémie, mutation gène de la ferroportine 1
@@ -1201,7 +1206,7 @@ cardiaque, radio articulation, bilan testostérone
 Dépistage chez parents (1er degré) : bilan martial \textpm{} dépistage génétique. \danger mutation \(\neq\) maladie
 
 \subsection{Stades}
-\label{sec:org2b585ae}
+\label{sec:org3a36a76}
 \begin{enumerate}
 \item Asymptomatique, CS-Tf, ferritinémie normaux
 \item CS-Tf \inc
@@ -1211,18 +1216,18 @@ Dépistage chez parents (1er degré) : bilan martial \textpm{} dépistage géné
 \end{enumerate}
 
 \subsection{Traitement}
-\label{sec:orgbf37e27}
+\label{sec:org28dfb59}
 À partir du stade 2
 
 \subsubsection{Saignées = référence}
-\label{sec:org452f9f1}
+\label{sec:org63b4091}
 Objectif : ferritine < 50 g/L (hebdomadaire) puis entretien tous les
   2-4 mois. Ne pas dépasser 550mL !
 
 CI : anémie sidéroblastique, thalassémie majeure, cardiopathies sévères
 
 \subsubsection{Autres}
-\label{sec:orgca870bf}
+\label{sec:org818b6c2}
 \begin{itemize}
 \item Érythraphérèse : coûteuse, plus difficile
 \item Chelation du fer : 2eme intention (coût, effets indésirable)
@@ -1231,13 +1236,13 @@ CI : anémie sidéroblastique, thalassémie majeure, cardiopathies sévères
 \end{itemize}
 
 \subsection{Suivi}
-\label{sec:orga4f81af}
+\label{sec:org0033037}
 Résultats en 3-6 mois sur été générale. 
 
 Bilan ferrique (stade 0,1) ferritinémie, hémoglobine (stade 2 à 4)
 
 \section{219, 220 :  Facteurs de risque CV, dyslipidémies}
-\label{sec:orgeb9b183}
+\label{sec:org5813199}
 Rappel : FR = causalité et \{relation forte, \(\propto\) dose, indépendant des autres
 FR, plusieurs étude, exposition précède maladie, plausible, réversible++\}
 
@@ -1247,7 +1252,7 @@ Prévention : primaire (avant accident), secondaire (éviter nouvel), tertaire
 (traiter séquelles\}
 
 \subsection{FR}
-\label{sec:org1f3f1e9}
+\label{sec:orgfb1d3b0}
 \begin{itemize}
 \item Non modifiable : âgé (> 50A \male, > 60A \female), ATCD familiaux IDM/mort
 subite < 55A \male, 65A \female)
@@ -1263,7 +1268,7 @@ symptomatique (ECG)
 \end{itemize}
 
 \subsection{Tabac}
-\label{sec:orge94c5a0}
+\label{sec:orge9eb099}
 30\% adulte, 25\% femmes enceintes
 
 \inc rapide du risque après sevrage (mécanisme prothrombotique du tabac). 
@@ -1273,12 +1278,12 @@ RR = 3 de maladie coronarienne, = 5 d'IDM/mort subite, = 2-7 d'AOMI, = 2 d'AVC.
 \danger tabac - contraception oestroprogestative
 
 \subsection{Hyperlipidémie}
-\label{sec:org2f8e800}
+\label{sec:org4d8d9c5}
 \hyphenation{hyper-cho-lesté-ro-lé-mie}
 \showhyphens{hyperholestérolémie}
 
 \subsubsection{Étiologies}
-\label{sec:orgc3d1b06}
+\label{sec:orga9b2083}
 Secondaire
 \begin{itemize}
 \item Bilan selon contexte : TSH, glycémie, créat, protéinurie, BU
@@ -1310,7 +1315,7 @@ complicastions CV suivant intensité
 \end{itemize}
 
 \subsection{HTA et risque CV}
-\label{sec:org142f790}
+\label{sec:org2ad68bf}
 PAs \(\ge\) 140, PAd \(\ge\) 90mmHg (3 consultations à 3 mois)\footnote{-5mmHg si automesure. -10mmHg si MAPA sur 14h}   
 
 40\% adulte. Proba \inc si sd métabolique. Aggravé par \acrshort{HVG}, glomérulopathie
@@ -1318,7 +1323,7 @@ PAs \(\ge\) 140, PAd \(\ge\) 90mmHg (3 consultations à 3 mois)\footnote{-5mmHg 
 Clinique, bio, ECG
 
 \subsection{Diabète et risque CV}
-\label{sec:org9baef08}
+\label{sec:orgd0689da}
 Complications coronariennes ischémique : RR \female{} > \male.
 
 AOMI : RR \texttimes{} 5, AVC RR \texttimes{} 2.
@@ -1326,10 +1331,10 @@ AOMI : RR \texttimes{} 5, AVC RR \texttimes{} 2.
 Diabète 2 : maladie coronarienne peut précéder diabète ! \thus dépistage
 
 \subsection{PEC}
-\label{sec:org4a8d097}
+\label{sec:orgc88cc22}
 Dépistage familial si pathologie métaboblique \inc risque vasc
 \subsubsection{Sevrage tabac}
-\label{sec:org04cb46e}
+\label{sec:orgd00b878}
 Évaluer dépendance nicotine
 Poids + 5kg en moyenne
 
@@ -1338,7 +1343,7 @@ coronarienne/troubles rythmes
 
 Varéniclide, bupropion = dernière ligne (8 semaines)
 \subsubsection{Activité physique}
-\label{sec:orgeabbbca}
+\label{sec:org48b60c8}
 \begin{itemize}
 \item \dec insulino-résistance, \dec triglycéridémie, \inc HDL
 \item \dec PA repos, \inc périmètre marche AOMI, \inc pronostic complications coronariennes ischémiques
@@ -1347,7 +1352,7 @@ Varéniclide, bupropion = dernière ligne (8 semaines)
 3x45min à 75\% \(O_2\)
 
 \subsubsection{Diététique}
-\label{sec:org59b2946}
+\label{sec:org46ed7e5}
 \begin{itemize}
 \item Lipides : graisses < 35\%, \dec gras saturés, \inc mono-insaturés, \{poisson gras, noix, \(\Omega_{\text{3}}\)\}, \dec cholestérol
 \item Autres : \inc fruits, légumes, \{noix, noisettes, amandes\}, sel < 6g/j, alcool
@@ -1362,7 +1367,7 @@ lipides (si obèse) ou 20g
 \end{itemize}
 
 \subsubsection{Hypolipémiants :}
-\label{sec:org0ec9f1d}
+\label{sec:org3a464aa}
 Statines :
 \begin{itemize}
 \item \dec LDL, \dec TG \inc HDL
@@ -1370,7 +1375,7 @@ Statines :
 \item CI : HS, grossesse, allaitement
 \end{itemize}
 \subsubsection{Traitement hypercholestérolémies}
-\label{sec:org3c7de73}
+\label{sec:org5aa2e59}
 En primaire si LDL reste élèvé à +6 mois traitement. En secondaire si complication ischémique
 
 Objectifs :
@@ -1394,7 +1399,7 @@ Augmenter doses progressivtement puis suivi : 2-3 mois tant que objectifs non
 atteints puis 1-2/an
 
 \subsection{Antihypertenseurs}
-\label{sec:org2eaad40}
+\label{sec:org3508162}
 Diurétiques, betabloquant, inhibiteurs calcique, IEC, ARA II\footnote{Antagonistes des récepteurs de l'angiotensine II}
 
 Monoprise, monothérapie en 1ere intention
@@ -1405,12 +1410,12 @@ Suivi : pas d'hypotension orthostatique, \{iono, créat, DFG\} +15j après
 chaquement changement, suspension diurétiques et ARA si déshydratation
 
 \subsection{Antiagrégants plaquettaire}
-\label{sec:orgb1d009e}
+\label{sec:org0566af7}
 Prévention secondaire : systématique. Clipodigrel-aspirine systématique à +1 mois
 après stent, +1 ans après stent actif
 
 \section{221 : HTA, causes endocriniennes}
-\label{sec:orged25934}
+\label{sec:org366db22}
 Déf: \(\ge\) 140/90 mmHg.
 
 Dépistage d'une HTA secondaire : doit être systématique mais économe\ldots{}
@@ -1427,7 +1432,7 @@ les cause d'HTA
 HTA curables : 3-5\%. Cf les catégories ci-dessous !
 
 \subsection{Hyperminéralocorticisme primaire (HAP)}
-\label{sec:org2280419}
+\label{sec:org6dbe58d}
 Physiopatho : aldostérone, cortisol, désoxycorticostérone \thus rétention sodée
 \thus HTA et inhibe sécrétion de rénine.
 
@@ -1452,7 +1457,7 @@ Tests dynamiques possibles : stimulation (recherche un défaut de), freination
 (recherche une freination)
 
 \subsubsection{Adénome de Conn}
-\label{sec:org031c793}
+\label{sec:orge29f34f}
 Forme généralement curable
 \begin{itemize}
 \item imagerie : nodule unilatéral > 10mm au scanner.
@@ -1465,15 +1470,15 @@ cathétérisme si scanner douteux/patient jeune/HTA résistante
 \end{itemize}
 
 \subsubsection{Hyperminéralocorticismes familiaux}
-\label{sec:orgfed50fa}
+\label{sec:org69b0526}
 Lié à l'aldostérone, désoxycorticostérone, cortisol
 
 \subsection{HTA endocrines iatrogènes}
-\label{sec:orge244ea9}
+\label{sec:orga1892d6}
 Contraception oestroprogestative, corticostéroides, réglisse
 
 \subsection{Phéochromocytomes, paragangliomes fonctionnels}
-\label{sec:org552acdf}
+\label{sec:org5b891dc}
 \gls{PCC} : médullosurrénale. \gls{PGG} fonctionnels : autres    ganglions sympathiques
 
 PCC : spontanément mortel. Dépistage :
@@ -1503,7 +1508,7 @@ hémangioblastomes (VHL)
 Toujours traitement chir mais surveillance long terme
 
 \subsection{Sd de Cushing}
-\label{sec:org724277a}
+\label{sec:org8674552}
 Correspond hypersécrétion de cortisol
 
 Signes : acné, ecchymoses, faiblesse musc, hirsutisme, oedèmes, ostéoporose, PAd
@@ -1517,7 +1522,7 @@ corticosurrénalome
 \end{itemize}
 
 \subsubsection{Démarche}
-\label{sec:org6be5239}
+\label{sec:org98f0c9e}
 \begin{tcolorbox}
 CRH (hypothalamus) stimule ACTH (hypophyse) qui stimule la production de
 glucocorticoïdes (surrénale)
@@ -1536,10 +1541,10 @@ maladie de Cushing
 \end{itemize}
 
 \subsection{Causes rare}
-\label{sec:org825ca18}
+\label{sec:orgf11df1c}
 Tumeurs à rénine, acromégalie
 \section{238 : Hypoglycémie}
-\label{sec:orgdf46260}
+\label{sec:org67be7d1}
 Diagnostic : neuroglucopénie et glycémie < 0.50g/L (0.60 chez diabétique) et correction symptômes
 à normalisation (triade de Whipple)
 
@@ -1551,7 +1556,7 @@ catécholamine, cortisol), déficit néoglucogénèse, défaut substrat
 \end{itemize}
 
 \subsection{Symptômes}
-\label{sec:org4ff7ad2}
+\label{sec:org527ad85}
 Neuroglucopénie : faim brutale, troubles concentration, troubles moteurs,
 troubles sensitifs, troubles visuels, convulsions focales/généralisése,
 confusion
@@ -1564,19 +1569,19 @@ pâleur, tachycardie
 \end{itemize}
 
 \subsection{Causes}
-\label{sec:org92a2d48}
+\label{sec:org0012513}
 Diabétique : traité par insulines, hypoglycémiants oraux
 
 \subsubsection{Insulinome}
-\label{sec:orgc081263}
+\label{sec:orgc7d5067}
 1ere cause tumorale (mais rare). Maligne dans 10\%, < 2cm (90\%)
 
 Clinique : manif. adrénergiques surtout
 
-Diagnostic : épreuve de jeûne, cf table \ref{tab:orgde1aaf5}
+Diagnostic : épreuve de jeûne, cf table \ref{tab:org03790d7}
 
 \begin{table}[htbp]
-\caption{\label{tab:orgde1aaf5}
+\caption{\label{tab:org03790d7}
 Diagnostic d'hypoglycémie (jeûne) avec DD}
 \centering
 \begin{tabular}{llll}
@@ -1604,7 +1609,7 @@ insulinémie \ge 3 mUL/L, peptide C \ge 0.6ng/mL
 \footnotetext{Spontanément/jeûne}
 
 \section{239 : Goitre, nodules thyroïdiens, cancers thyroïdiens}
-\label{sec:org4ff94aa}
+\label{sec:org91d435b}
 Besoins en iode quotidiens (synthèse hormones thyroïdiennes) :  \(\approx\) 150 \(\mu\)g/jour (ado,
   adulte, \texttimes{} 2 chez enceinte)
 
@@ -1615,7 +1620,7 @@ Goitre = hypertrophie de la thyroïde :
 \end{itemize}
 
 \subsection{Évaluation}
-\label{sec:orga2c5f34}
+\label{sec:org23701f9}
 Clinique : mobile déglutition/visible cou en extension/visible à
 distance. Chercher : gene fonctionelle, signes de compression, signes de
 dysfonction thyroïdienne, \acrshort{ADP}
@@ -1629,13 +1634,13 @@ Bio :
 Échographie
 
 \subsection{Goitre simple}
-\label{sec:orga14e2ac}
+\label{sec:orgf4ad1a7}
 Hypertrophies normo-fonctionnelles non inflammatoires non cancéreuses
 
 Facteurs : \female, tabac, déficience iodée
 
 \subsubsection{Évolution}
-\label{sec:orgfdfc6af}
+\label{sec:org6e13add}
 Constitution à l'adolescence (cliniquement latente) puis plurirondulaire : gêne
 cervicale \thus TSH, écho, ponction, scintigraphie
 \danger cherche caractère plongeant sur radio !
@@ -1644,7 +1649,7 @@ cervicale \thus TSH, écho, ponction, scintigraphie
 organes de voisinages, cancerisation (5\%)
 
 \subsubsection{PEC}
-\label{sec:orga54e8b1}
+\label{sec:org2393fd0}
 \begin{itemize}
 \item Ado : levothyroxine (1 à 1.5 \$\(\mu\)\$g/kg/j) jusque V normal. Vérifier TSH
 \item Adulte/agé : si multinodulaire non malin, surveillance. Si symptomatique,
@@ -1654,7 +1659,7 @@ thyroïdectomie totale
 \inc iode, notamment grossesse
 
 \subsubsection{Autres pathologies responsables}
-\label{sec:org8d6af29}
+\label{sec:org8363432}
 \begin{itemize}
 \item Maladie de Basedow
 \item Thyroïdites : 
@@ -1666,7 +1671,7 @@ thyroïdectomie totale
 \end{itemize}
 
 \subsection{Nodules thyroïdes}
-\label{sec:org25ef826}
+\label{sec:org1382bef}
 Déf : toute hypertrophie localisée de la gande thyroïde. Majorité = bénin (5\%
 cancers, de très bon pronostic)
 
@@ -1674,7 +1679,7 @@ Prévalence \(\approx\) décennie du sujet. \texttimes{} 2 chez \female. \inc si
 déficience iode, irradiation cervicale
 
 \subsubsection{Évaluation :}
-\label{sec:org09f6b85}
+\label{sec:org00a8d0e}
 Si signe d'accompagnement :
 \begin{itemize}
 \item nodule douloureux brutal : hématocèle
@@ -1710,7 +1715,7 @@ Examens :
 \end{itemize}
 
 \subsubsection{Thérapeutique}
-\label{sec:org1d364c9}
+\label{sec:orge3df9ce}
 \begin{itemize}
 \item Chir si suspect clinique/écho/cyto/calcitonine \inc\inc{} : thyroïdectomie si dystrophie controlatérale
 \item Surveillance sinon
@@ -1727,7 +1732,7 @@ Nodule oculte : < 1cm. Risque de cancer 5\%, faible pouvoir agressif
 \item ponction seulement si hypoéchogène et > 8mm
 \end{itemize}
 \subsection{Cancers thyroïdiens}
-\label{sec:org5562c04}
+\label{sec:orga5007f2}
 1.5\% cancers, 4eme chez la femme
 
 Découverte : fortuite++, ADP cervicale, signes de compression, flushes/diarrhée,
@@ -1749,7 +1754,7 @@ Risque de rechute/décès :
 \end{itemize}
 
 \subsubsection{Thérapeutique}
-\label{sec:org9390ab7}
+\label{sec:orgc3cee28}
 \begin{itemize}
 \item Plan cancer
 \item Chir en 1ere intention (anatomopatho pendant = certitude) : thyroïdectomie
@@ -1788,7 +1793,7 @@ Tuméfaction cervicale rapidement progressive, dure, adhérente, sujet âgé \th
 Étude génétique dans tous les cas : positif \thus chercher phéochromocytome,
 hyperparathyroïdie + enquêtes apparentés
 \section{240 : Hyperthyroïdie}
-\label{sec:org0c60f7e}
+\label{sec:orgcf5659f}
 \begin{tcolorbox}
 Examen en 1ere intention : TSHus (puis T4L !)
 \end{tcolorbox}
@@ -1812,7 +1817,7 @@ glycémie, rétrocontrole négatif hypophysaire
 \end{itemize}
 
 \subsection{Sd de thyrotoxicose}
-\label{sec:org2d22ce9}
+\label{sec:org957a38e}
 Clinique (par fréquence \dec) :
 \begin{itemize}
 \item CV : tachycardie (régulière, repos, \inc effort), \inc intensité bruits
@@ -1837,9 +1842,9 @@ cardiaque (droite, avec débit N ou \inc), aggravation insuf coronaire
 \end{itemize}
 
 \subsection{Étiologies (fréquence \dec)}
-\label{sec:org0d040d5}
+\label{sec:org7653659}
 \subsubsection{Auto-immunes}
-\label{sec:orgd90a7b2}
+\label{sec:org25523d7}
 \emph{Maladie de Basedow}\\
 1\% population. Auto-immune, sur terrai génétique. Poussées puis rémissions
 
@@ -1868,7 +1873,7 @@ hypoéchogène. Ac anti-TPO mais pas anti-récepteur TSH
 \end{itemize}
 
 \subsubsection{Nodules thyroïdiens hypersécrétans}
-\label{sec:org7b07eaa}
+\label{sec:org523121b}
 Âge plus avancé, sd de thyrotoxicose pur (pas de manif oculaire) 
 \begin{itemize}
 \item Goitre multinodulaire toxique : à la clinique, puis écho. Scinti : "en damier"
@@ -1877,7 +1882,7 @@ kystique. Scinti nécessaire : reste du parenchyme "froid"
 \end{itemize}
 
 \subsubsection{Iatrogènes}
-\label{sec:org0091d51}
+\label{sec:org0fe40a2}
 \begin{itemize}
 \item Iode : produits contraste, amiodarone. 2 formes : fonctionnelle ou lésionnelle
 (lyse des cellules)
@@ -1890,25 +1895,25 @@ effondrée
 \end{itemize}
 
 \subsubsection{Thyroïdite subaigüe de De Quervain}
-\label{sec:org9749ebd}
+\label{sec:org29b804a}
 Affection banale virale. Diagnostic clinique (goitre dur et douleureux). Hyper-
-puis hypo-thyroïdie
+puis hypo-thyroïdie. Echo = hypoéchogène
 
 \subsubsection{Thyrotoxicose gestionnelle transitoire}
-\label{sec:org439d666}
+\label{sec:org15147f4}
 Fréquent (2\% grossesse). 1er trimestre : nervosité, tachycardie, pas de prise de
 poids
 
 DD : Basedow (pas Ac anti-récepteur TSH)
 
 \subsubsection{Rares}
-\label{sec:org7a91712}
+\label{sec:org239154f}
 Mutations activatrices du récepteur TSH, métastase massives sécrétantes (K
 thyroïdiens vésiculaire différencié), tumeurs placentaires/testiculaires, \{sd
 résistance hormones thyroïdiennes, adénome hypophysaire\}
 
 \subsection{Forme clinique}
-\label{sec:org614a1dd}
+\label{sec:org8bdc929}
 \begin{itemize}
 \item Enfant : généralement Basedow (néonatale/acquise) : avance staturale et
 osseuses, hyperactivité \textpm{} signes oculaires
@@ -1919,7 +1924,7 @@ cardiaque). Penser thyrotoxicose si troubles rythme/insuf cardiaque
 \end{itemize}
 
 \subsection{Traitement}
-\label{sec:org2de7b5d}
+\label{sec:org07c73c0}
 \skull{} Urgence : crise aigüe thyrotoxicose, cardiothyréose chez âgé/cardiqaue,
 orbitopathie maligne, cachexie vieillard, Basedow chez \female{} enceinte
 
@@ -1938,7 +1943,7 @@ Chir : thyroidectomie totale sauf si adénome toxique (lobectomie)
 Radio-iode : simple, sans risque génétique/cancérisation secondaire (\danger{} orbitopathie\ldots{}). CI : femme enceinte.
 
 \subsubsection{Résultats}
-\label{sec:org9ab584c}
+\label{sec:org9e5efda}
 \begin{itemize}
 \item Basedow : thyroïdectomie \thus hypothyroïdie définitive. Radio-iode \thus
 hypothyroïdie 50\%, risque aggravation orbitopathie. Donc ttt médical (1-2
@@ -1949,7 +1954,7 @@ ans) puis chir/iode si récidive
 \end{itemize}
 
 \subsubsection{Formes particulières}
-\label{sec:org65fe20a}
+\label{sec:org2c10ecf}
 \begin{itemize}
 \item Cardiothyréose : propanolol et anticoag. Si insuf cardiaque : tonicardiaque,
 diurétiques, vasodilatateurs, betabloquant, anticoag. Pour thyrotoxicose : ATS
@@ -1963,7 +1968,7 @@ importante : ATS faible dose. Si formes grave, chir (2eme trimestre) possible)
 \thus surveillance avant et après accouchement  
 
 \section{241 : Hypothyroïdie}
-\label{sec:org14ef133}
+\label{sec:org3612558}
 \begin{tcolorbox}
 Rappel : TRH (hypothalamus) stimule la production de TSH (hypophyse) qui stimule la thyroïde
 \end{tcolorbox}
@@ -1982,7 +1987,7 @@ Rappel : TRH (hypothalamus) stimule la production de TSH (hypophyse) qui stimule
 \end{itemize}
 
 \subsection{Sémiologie}
-\label{sec:orgae25f0f}
+\label{sec:orga272108}
 Général :
 \begin{itemize}
 \item sd d'hypométabolisme\footnote{Asthénie, somnolence, hypothermie, frilosité, constipation, bradycardie,
@@ -2021,9 +2026,9 @@ Biermer) troubles de coagulation,hémostase
 \end{itemize}
 
 \subsection{Étiologies}
-\label{sec:orgced4c87}
+\label{sec:org34c65fc}
 \subsubsection{Hypothyroïdie primaire}
-\label{sec:org59c30e4}
+\label{sec:org97a7e33}
 Auto-immunes :
 \begin{itemize}
 \item Thyroïdite d'Hashimoto : 
@@ -2053,10 +2058,10 @@ naissance + 72h\footnote{Clinique discrète : ictère prolongé, constipation, h
 rauques, difficulté succin, fontanelles larges, hypothermie})
 
 \subsubsection{Démarche diagnostique}
-\label{sec:orge3b3c02}
+\label{sec:org3d87a54}
 TSH puis (T4L (profondeur) et Ac anti-TPO, échographie pour étiologie)
 \subsubsection{Insuffisance thyréotrope}
-\label{sec:org5c83677}
+\label{sec:org83434d0}
 \begin{itemize}
 \item compression région hypothalamo-hypophysaire (HH) par tumeur (adénome hypophysaire
 souvent)
@@ -2068,7 +2073,7 @@ souvent)
 IRM systématique !
 
 \subsection{Traitement}
-\label{sec:orgb89d218}
+\label{sec:org1c731ba}
 Lévothyroxine (T4) 
 \begin{itemize}
 \item hypothyroïdie patente : L-T4 50 à 150 \(\mu\)g/j. Si coronarien : \inc progressivement
@@ -2099,7 +2104,7 @@ phénytoïne, sertraline, chlooriqune\}, oestrogenes
 \end{itemize}
 
 \subsection{Dépistage ?}
-\label{sec:orgeaee4fb}
+\label{sec:orgc91734e}
 \begin{itemize}
 \item Adulte : si risque : signes clinique, goitre, hypercholestérolémie, ATCD
 thyroïdiens, auto-immunité thyroïdienne, irradiation cervicale, \{amiodarone,
@@ -2108,9 +2113,9 @@ lithium, interféron, cytokines\}
 \end{itemize}
 
 \section{242 : Adénome hypophysaire}
-\label{sec:org85cfb3b}
+\label{sec:org2f9cadb}
 \subsection{Sd tumoral}
-\label{sec:org04cd9e2}
+\label{sec:org117b991}
 Clinique : 
 \begin{itemize}
 \item céphalées : rétro-orbitaire, localisése
@@ -2132,9 +2137,9 @@ intra-sellaire (dure-mère spiculée)
 \end{itemize}
 
 \subsection{Sd d'hypersécrétion}
-\label{sec:org571722c}
+\label{sec:org6b7dd71}
 \subsubsection{Hyperprolactinémie\footnote{Prolactine est sécrétée par l'hypophyse}}
-\label{sec:orgf2f54f0}
+\label{sec:org54f32ec}
 Fréquente \thus cherche adénome hypophysaire (même si majorité = médicament)
 Signes :
 \begin{itemize}
@@ -2160,7 +2165,7 @@ hyperprolactinémie : régression sous agoniste dopaminergique si macrodénome
 \end{tcolorbox}
 
 \subsubsection{Acromégalie (excès de \gls{GH})}
-\label{sec:orga445aa5}
+\label{sec:org35b98f5}
 Clinique :
 \begin{itemize}
 \item Sd dysmorphique : extrémités élargies, visage (nez élargi, front bombé, lèvres épaisses, tendance prognathisme\}
@@ -2186,7 +2191,7 @@ Puis bilan tumoral, retentissement fonctionnel hypophysaire, retentissement
 acromégalie
 
 \subsubsection{Sd de Cushing (excès de glucocorticoïdes)}
-\label{sec:org3c22c19}
+\label{sec:orgd0cdee3}
 Excès de glucocorticoïdes : causes iatrogènes ou adénomes hypophysaires
 corticotropes
 
@@ -2225,7 +2230,7 @@ DD : stress intense, dépression sévère, psychose, alcoolisme (CLU modéré,
   freinage minute anormal) \thus épreuve du temps 
 
 \subsection{Insuffisance antéhypophysaire}
-\label{sec:orge0eabf4}
+\label{sec:org49dce73}
 Clinique : face pâle, "veillot", dépigmentation aréole mammaire et OGE,
 dépilation complète aisselles pubis
 
@@ -2242,7 +2247,7 @@ retard croissance, accidents hypoglycémiques
 \end{itemize}
 
 \subsubsection{Bilan hypophysaire}
-\label{sec:org2c43d50}
+\label{sec:org411850d}
 
 
 \begin{itemize}
@@ -2263,9 +2268,9 @@ normales
 
 IRM si déficit hypophysaire
 \section{243 : Insuffisance surrénale}
-\label{sec:orgf8b5553}
+\label{sec:org15901ed}
 \subsection{Insuffisance surrénale lente}
-\label{sec:org2fa9f7b}
+\label{sec:org2c8ea27}
 Rare mais grave \skull
 
 Physiopatho :
@@ -2294,7 +2299,7 @@ HyperK, hypoNa (manque sel) & HypoNa (dilution)\\
 \end{table}
 
 \subsubsection{Diagnostic}
-\label{sec:orgdeeb3bc}
+\label{sec:orgf9cc5df}
 \danger ne pas attendre résultats pour commencer traitment \skull
 
 \begin{table}[htbp]
@@ -2324,7 +2329,7 @@ NB : femme enceinte = \{\inc seuil, faisceau d'args\}, enfant : répéter dosage
 voire ttt probabiliste
 
 \subsubsection{Étiologies de l' \acrshort{IS} primaire}
-\label{sec:org8b15586}
+\label{sec:org2cec53b}
 \begin{itemize}
 \item Auto-immune (80\% adulte, 20\% enfant) : 
 \begin{itemize}
@@ -2346,7 +2351,7 @@ infiltratives, causes vasculaires
 \end{itemize}
 
 \subsubsection{Étiologies de l'IS secondaire}
-\label{sec:org5f2876e}
+\label{sec:orgc0a82c9}
 \begin{itemize}
 \item \emph{interruption corticothérapie prolongée} surtout (> 7mg prednisone)
 \item autres\footnote{S'associe souvent à d'autres insuffisances de l'axe hypothalamo-hypophysaire} : tumeur région hypothalamo-hypophysaire, hypophysite (auto-immune),
@@ -2354,7 +2359,7 @@ granulomatose, trauma, chir hypophysaire, radiothérapie, sd de Sheehan
 \end{itemize}
 
 \subsubsection{Prise en charge}
-\label{sec:org92a7ef5}
+\label{sec:org5f94948}
 Ttt substitutif :
 \begin{itemize}
 \item glucocorticoïdes (hydrocortisone) 15-25mg/j
@@ -2382,9 +2387,9 @@ métabolisme, CV)
 \end{itemize}
 
 \subsection{Insuffisance surrénale aigüe}
-\label{sec:orgbe1757d}
+\label{sec:org93c2f0f}
 \subsubsection{Y penser}
-\label{sec:orgf32bc09}
+\label{sec:orge500a5e}
 \begin{itemize}
 \item déshydratation extracellullaire avec pli cutané, hypotension
 \item confusion, crises convulsives
@@ -2401,13 +2406,13 @@ hyperéosinophilie, natriurèse conservée
 \end{itemize}
 
 \subsubsection{Confirmation}
-\label{sec:org8c3167e}
+\label{sec:org8d0fa74}
 Si diagnostic \textbf{non} posé : dosage cortisol (\dec\dec), ATCH (\inc si primitive, N ou \dec
 si secondaire). 
 Ne pas attendre les résultats \skull
 
 \subsubsection{Causes}
-\label{sec:orgde2f999}
+\label{sec:orgb4ed3a0}
 \begin{itemize}
 \item Insuf surrénale chronique décompensée++
 \item D'emblée si bloc enzymatique surrénalien (21-hydroxylase) complet (néonatale)
@@ -2416,7 +2421,7 @@ ou hémorragie bilat surrénale ou apoplexie hypophysaire
 \end{itemize}
 
 \subsubsection{PEC}
-\label{sec:org151ddf0}
+\label{sec:org20b6be1}
 \danger Urgence extrème \skull
 \begin{itemize}
 \item Domicile : 100mg hydrocortisone (IV, IM, SC) puis transport
@@ -2432,18 +2437,18 @@ si hyperK
 Ttt préventif : patient doit \inc ses doses, médecin traitant au courant
 
 \subsection{Arrêt d'une corticothérapie}
-\label{sec:org0f22962}
+\label{sec:org93113a2}
 Expose au rebond de la maladie causale, insuf surrénale secondaire
 (corticotrope), sd de sevrage
 
 À risque : (ttt \(\ge\) 3 semaines par \(\ge\) 20mg prednisone) ou (corticoïdes et inhib enzymatique du
 cytochromie P450 (ritonavir)) ou sd Cushing iatrogène
 \section{244 : Gynécomastie}
-\label{sec:orgdc66bf8}
+\label{sec:org3e8e77e}
 Hyperplasie tissue glandulaire mammaire, fréquente. Dû à oestrogène \inc{} et testostérone \dec{}. Regarder aussi TeBG,
 SHBG
 \subsection{Démarche}
-\label{sec:org829bf40}
+\label{sec:org79c5d17}
 \begin{itemize}
 \item Clinique : palpation = ferme/rugueux, mobile arrondi, centré par le mamelon (rien si adipomastie)
 \item Mammographie si doute : opacité nodulaire/triangulaire (rien si adipomastie). Élimine cancer du sein (rare)
@@ -2455,7 +2460,7 @@ SHBG
 \end{itemize}
 \end{itemize}
 \subsection{Étiologie}
-\label{sec:orgb440fdf}
+\label{sec:org43c4c4b}
 \begin{tcolorbox}
 Causes fréquentes : médic, idiopathique, cirrhose, insuf testiculaire/gonadotrope, (tumoral)
 \end{tcolorbox}
@@ -2485,7 +2490,7 @@ cérébrales. Dans les bronches ou le foie parfois. Chimio.
 \end{itemize}
 
 \subsection{Traitement}
-\label{sec:org6eb70c9}
+\label{sec:orgd7f2568}
 Traiter la cause. Sinon
 \begin{itemize}
 \item Pubertaire : ne rien faire
@@ -2493,7 +2498,7 @@ Traiter la cause. Sinon
 plastique possible
 \end{itemize}
 \section{245 : Diabète}
-\label{sec:org5815eab}
+\label{sec:org8399064}
   \begin{tcolorbox}
 Définition : glycémie à jeun \ge 1.26g/L (2 reprises) ou aléatoire \ge 2g/L \footnotemark
 \end{tcolorbox}
@@ -2513,12 +2518,12 @@ Caractéristiques diabète 1 (le diabète 2 s'y oppose) :
 \end{itemize}
 
 \subsection{Diabète 1}
-\label{sec:org848feff}
+\label{sec:org7a4c0f5}
 Prévalence : 1/200 000 (10\% des diabétiques). Peut survenir à tout âge. \inc
 incidence. Sex-ratio = 1
 
 \subsubsection{Physiopathologie}
-\label{sec:orgde001fc}
+\label{sec:org047339e}
 Carence en insuline par destruction cellules beta du pancréas. Soit auto-immun
 (fréquent), soit idiopathique
 
@@ -2537,7 +2542,7 @@ maladie coeliaque, vitiligo
 \end{itemize}
 
 \subsubsection{Clinique}
-\label{sec:orge646d68}
+\label{sec:org19eb2ad}
 \begin{tcolorbox}
 Diabète 1 : \{polyuro-polydipsie, amaigrissement, polyphagie\}, glycémie $> 2g/L$ \pm cétonurie
 \end{tcolorbox}
@@ -2573,7 +2578,7 @@ mucoviscidose, hémochromatose, médicaments
 \end{itemize}
 
 \subsubsection{Évolution}
-\label{sec:org9640944}
+\label{sec:orgf2909b7}
 Schéma théorique : phase préclinique (destruction cellules beta), clinique (85\% détruites), clinique séquellaire
 
 Diabète instable : 
@@ -2583,7 +2588,7 @@ Diabète instable :
 \end{itemize}
 
 \subsubsection{PEC}
-\label{sec:org0cce777}
+\label{sec:org808d1af}
 Patient : contrôle glycémie, injection d'insuline, prévenir complications
 métaboliques et vasculaires, adapter ttt, contrôle de l'alimentation \thus
 éducation thérapeutiques
@@ -2601,10 +2606,10 @@ Surveillance :
 \item ophtalmo, cardiologie 1/an (sympto/âgé,compliqué), dentiste 1/an
 \end{itemize}
 
-Traitement insulinique (Table \ref{tab:org7335512} ): palliatif à vie
+Traitement insulinique (Table \ref{tab:orgae693a1} ): palliatif à vie
 
 \begin{table}[htbp]
-\caption{\label{tab:org7335512}
+\caption{\label{tab:orgae693a1}
 Traitement insulinique du diabète 1}
 \centering
 \begin{tabular}{llll}
@@ -2634,7 +2639,7 @@ lipoatrophie insulinique (immuno), lipohypertrophie si piqûres au même endroit
 Non insulinique : accompagnement, alimentation variée sans interdits, exercice physique
 
 \subsubsection{Cas particuliers}
-\label{sec:org066de8c}
+\label{sec:org30604e5}
 Enfant/ado : 
 \begin{itemize}
 \item cétoacidoses fréquentes (risque d'oedème cérébral \inc si réa).
@@ -2665,13 +2670,13 @@ Jeûne :
 \end{itemize}
 
 \subsection{Diabète 2}
-\label{sec:org58a4b0e}
+\label{sec:org048a072}
 90\% de diabète. Prévalence 4\%. À risque : obèse, anomalie métabolisme
 glucidique, ATCD familiaux diabète 2, ethnie noire/hispanique.
 Age adulte.
 
 \subsubsection{Physiopatho}
-\label{sec:orgc033f30}
+\label{sec:orgffd5cd7}
 Insuline n'arrive pas à avoir une réponse amximale : défaut de captation
 musculaire du glucose, \inc production hépatique du glucose, lipolyse \inc acides gras
 libres circulants \thus (aggrave \dec insulinosécrétion et utilisation du glucose)
@@ -2682,7 +2687,7 @@ Facteurs génétique. Hyperglycémie aggrave insulinosécrétion,
 insulino-résistance. \dec sécrétion adiopkines
 
 \subsubsection{Cliniques}
-\label{sec:orga517c0f}
+\label{sec:orged85310}
 Signes secondaires hyperglycémie, souvent inaperçus. Décompression sévères \thus
 polyurie, polydispie, amaigrissement, prurit vulvaire/balanite, infections
 récidivantes
@@ -2690,12 +2695,7 @@ récidivantes
 Dépistage : si
 \begin{itemize}
 \item glycémie veineuse à jeun pour : signes cliniques de diabètes, > 45 ans (tous les 3 ans), \(\ge\) 1 FR
-\item non caucasien/migrant, sd métabolique \footnote{IMC > 28 kg/m\(^{\text{2}}\), HTA, (HDL < 0.35g/L ou
-  TG > 2g/L ou dyslipidémie traitée), ATCD diabète familial/gestionnel,
-  temporairement induit.
-Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female), hyperglycémie
-  (glycémie à jeun > 1g/L), dyslipidémie (TG > 1.5g/L et (HDL < 0.4g/L \male ou
-  0.5g/L \female)), HTA (> 130mmHg systole ou > 85mmHg diastole)}
+\item non caucasien/migrant, \glslink{sdMetabolique}{sd métabolique}
 \end{itemize}
 
 DD : diabète 1 lent (LADA) (minceur, 0 ATCD, IA2 et GAD positifs), génétique
@@ -2705,7 +2705,7 @@ mucoviscidose, médicaments)
 Évolution : insulinopénie -> insulinoréquerant. Pronostic selon complications.
 
 \subsubsection{Traitement}
-\label{sec:org256c024}
+\label{sec:orgce73fc3}
 Objectifs : normalisation HbA1c (< 6.5\%), améliorer glycémie, insulinosensibilité
 
 Moyens  : activité physique, régime (hypocalorique si surpoids) sans sucres
@@ -2769,12 +2769,12 @@ diabète 1.
 \end{itemize}
 
 \subsection{Complications}
-\label{sec:org704b47e}
+\label{sec:org8da55c1}
 Souffrance vasculaire : micro- (rein, oeil, nef) et macro-angiopathie (\inc
 athérosclérose). AOMI x6-10
 
 \subsubsection{Physiopatho}
-\label{sec:org9d3833e}
+\label{sec:org4ed095d}
 Excès de glucose entre dans les cellules endothéliales, musculaire lisses, péricytes.
 Glycolyse : voies mineures \inc, systèmes de protection de la mitochondrie
 débordés \\
@@ -2788,28 +2788,28 @@ Conséquences : épaississement des membranes basales, troubles perméabilité
 vasculaire, spécifiques = \{profil vasculaire (rétine), fibrose (rein)\}
 
 \subsubsection{Rétinopathie diabétique}
-\label{sec:orga92206c}
+\label{sec:org3379bdb}
 \paragraph{Déf}
-\label{sec:orgde435e5}
+\label{sec:org647d8fb}
 diabète = risque d'une rétinopathie. Complications dont on peut éviter la
 cécité ! \thus examen ophtalmo et surveillance annuelle, contrôler glycémie et
 HTA, laser (si (pré-)proliférante), laser ou injection anti-VEGF (maculopathie
 oedémateuse)
 
 \paragraph{Épidémio}
-\label{sec:org5786915}
+\label{sec:orgb4de828}
 90\% de rétinopathie après 30 ans de diabète, dont 30\% menaçant pronostic
 visuel. Diabète = 1ere cause de cécité acquise en France chez < 50 ans. FR =
 durée et intensité de l'hyperglycémie
 
 \paragraph{Physiopatho}
-\label{sec:org7b5347c}
+\label{sec:orge6dc81d}
 anomalie vasculaire (microanévrisme, trouble perméabilité capillaire) \thus soit
 oedème (dangereux si maculaire), soit (ischémie puis angiogenèse\footnote{Risques : saignement entre rétine et vitré, traction sur rétine,
 hypertonie oculaire} puis rétinopathie proliférante)
 
 \paragraph{Examens}
-\label{sec:org859b253}
+\label{sec:orgd8bb7cb}
 cécité possible du jour au lendemain \skull \thus dépistage tous les 2 ans
 (annuel si diabète/TA mal contrôlé, \{avant, trimestre, post-partum\} pour femme
 enceinte)
@@ -2818,7 +2818,7 @@ Surveillance par examen ophtalmo, photo au rétinographe(dépistage seulement), 
 cohérence optique
 
 \paragraph{Gravité}
-\label{sec:org1372c81}
+\label{sec:orgfcae8e9}
 \begin{itemize}
 \item au fond d'oeil : 
 \begin{itemize}
@@ -2834,7 +2834,7 @@ l'insuline, chir cataracte, \inc TA, dégradation fonction rénale
 \end{itemize}
 
 \paragraph{Traitement}
-\label{sec:orgbee1508}
+\label{sec:org2d7b9a5}
 équilibre glycémie et TA++, laser\footnote{\dec de 50\% risque de cécité, \dec néovascularisation dans 90\%. Danger
 si oedème maculaire, traite seulement l'exsudat} (+ injection intraoculaire
 d'inhibiteurs VEGF)
@@ -2843,7 +2843,7 @@ Autres complications : cataracte (+ freq), glaucome néovasculaire (redoutable),
 paralysie oculomotrice (régresse spontanément qq mois)
 
 \subsubsection{Néphropathie}
-\label{sec:orgb260237}
+\label{sec:org471519b}
 Diabète = 1ere cause d'insuf rénale terminale. Diabète 2 = \(\frac{3}{4}\)
 diabétiques dyalisé. Risque CV x10 (D1), x3 (D2). Décès insuf rénale terminale
 30\% (D1), 5\% (D2)
@@ -2853,12 +2853,12 @@ glomérules. Filtration améliorée puis décroît (sclérose) avec \inc
 albumine\footnote{Microalbuminurie, macro quand détectable à la BU}. Et toxicité directe glucose.
 
 \paragraph{Dépistage}
-\label{sec:orgc93085e}
+\label{sec:org9516b30}
 1/an par BU (protéinurie, hématurie, infection urinaire),
 rapport albuminurie/créatinurie (excrétion urinaire) et vérif à 6 mois
 
 \paragraph{Diagnostic}
-\label{sec:orgd2f3f11}
+\label{sec:org8c0528e}
 Signes cliniques tardifs (HTA si protéinurie, oedème si protéinurie et insuf
 rénale)
 
@@ -2893,7 +2893,7 @@ hyalinose artériolaire
 \end{enumerate}
 
 \paragraph{Traitement}
-\label{sec:orgb84d3c3}
+\label{sec:org7ffae2e}
 Prévention 
 \begin{itemize}
 \item primaire (diabète, FR HTA)
@@ -2926,7 +2926,7 @@ pyélonéphrite emphysémateuse), aggravation néphropathie glomérulaire.
 \end{itemize}
 
 \subsubsection{Neuropathie}
-\label{sec:orged3b149}
+\label{sec:org9f56605}
 \begin{itemize}
 \item Autonome : tardive
 \item Périphérique : 50\% des diabètes à 20 ans. FR : grande taille, tabac, âge,
@@ -2941,7 +2941,7 @@ autonome)
 Si débutante, souvent silencieuse ! Examen des pieds !
 
 \paragraph{Sensorimotrice}
-\label{sec:org52e7bae}
+\label{sec:org581be5f}
 Fibres les plus longues en premier ("chaussettes" puis "gants")\footnote{Exceptionnellement, douleurs abdominales}. Examen
 clinique pour perte de sensibilité, interrogatoire pour douleur
 
@@ -2965,7 +2965,7 @@ exacerbation nocturne
 \end{itemize}
 
 \paragraph{Autonome}
-\label{sec:org0b30bdb}
+\label{sec:org8f04f4d}
 Diabète ancien, mal équilibré \thus nerfs vagues, système sympathique
 lésés. Régression rare
 
@@ -2989,7 +2989,7 @@ DD : examen génital, testostérone, prolactinémie. Traitement efficace presque
 
 Examen 
 \begin{itemize}
-\item clinique : interrogatoire (hypotension OS, diarrhée\ldots{}), inspection pieds, ROT abolis au niveau des troubles sensitifs, monofilament, sensibilité épicritique, thermoalgique, vibratoire\footnote{Grosses fibres\label{org4c47609}}, proprioceptiques\textsuperscript{\ref{org4c47609}}
+\item clinique : interrogatoire (hypotension OS, diarrhée\ldots{}), inspection pieds, ROT abolis au niveau des troubles sensitifs, monofilament, sensibilité épicritique, thermoalgique, vibratoire\footnote{Grosses fibres\label{org8c6a3c8}}, proprioceptiques\textsuperscript{\ref{org8c6a3c8}}
 \item ECG annuel, EMG si atypique
 \item chercher dénervation cardiaque parasympathique : variation de la FC entre
 inspiration et expiration\footnote{Sensible mais pas interprétable > 60 ans ou patho bronchorespiratoire}, rapport RR long/court pendant épreuve de
@@ -3010,7 +3010,7 @@ vitamines B, médicaments.
 \end{itemize}
 
 \subsubsection{Macroangiopathie}
-\label{sec:orgf419986}
+\label{sec:org9d9ab3a}
 \diameter > 200 \(\mu\)m. Plus fréquente et sévère. Artères visibles sur radio.
 
 Prévention CV = \textbf{problème majeur} des diabétiques 2 : \(\frac{3}{4}\) DC d'une cause
@@ -3020,7 +3020,7 @@ Risque CV \texttimes{}2-3 (\texttimes{}3-4 chez \female). Risque coronarien \tex
 \texttimes{}2, AOMI \texttimes{}5-10 !
 
 \paragraph{Dépistage}
-\label{sec:orgecf4253}
+\label{sec:orgf6b7869}
 Risque > 1\% = élevé\footnote{Calcul par les études UKPDS ou SCORE (mais \texttimes{}2-4 pour ce dernier)}
 
 \emph{FR} :
@@ -3040,7 +3040,7 @@ Montrer atteinte artérielle :
 \end{itemize}
 
 \paragraph{Diagnostic}
-\label{sec:org0524a96}
+\label{sec:org7cbb8fc}
 Ischémie myocardique silencieuse fréquente ! Y penser si troubles digestifs,
 asthénie à l'effort, troubles du rythme cardiaque, déséquilibre inexpliqué du
 diabète, \dec PA \thus dépistage systématique si risque
@@ -3052,7 +3052,7 @@ AOMI : fréquemment avec neuropathie. 1/3 proximale (HTA), 1/3 distale sous
 genou (glycémie, tabac), 1/3 proximale et distale. Pouls pédieux = bon pronostic
 
 \paragraph{Traitement}
-\label{sec:org2c34f8a}
+\label{sec:org3392675}
 Revascularisation : stents par défaut (risque de resténose) et chir si atteinte
 3 coronaires.
 
@@ -3072,7 +3072,7 @@ réactionnelle et modification transitoire sensibilité insuline !
 \end{itemize}
 
 \subsubsection{Pied diabétique}
-\label{sec:orga7eed7e}
+\label{sec:orgdea3ba8}
 1 patient sur 10 à risque d'1 amputation d'orteils. Éviter les plaies pour prévenir l'amputation
 \skull
 
@@ -3083,7 +3083,7 @@ troubles sensibilité \{algique, vibratoire, thermique, profonde\}, ulcération
 pieds
 
 \paragraph{Mal perforant plantaire (MPP)}
-\label{sec:org51a4a79}
+\label{sec:org15f1807}
 Neuropathies entraîne hypoesthésie et déformations
 ostéoarticulaires \thus durillons puis fissure et infection \thus
 dermo-hypodermite.
@@ -3091,7 +3091,7 @@ dermo-hypodermite.
 Révélé par : pus, fonte purulente localisé tisseux adipeux
 
 \paragraph{Autres}
-\label{sec:org251d3b6}
+\label{sec:org6bd46ac}
 \begin{itemize}
 \item Ischémie/nécrose : si oblitération/sténose artères de moyen-petit calibre. Peau
 froide, fine, dépilée, livedo. \danger nécrose peut arriver en qq heures \thus
@@ -3104,7 +3104,7 @@ palpation, clartés parties moelles\} \thus urgence vitale \danger
 \end{itemize}
 
 \paragraph{CAT}
-\label{sec:org5280f5f}
+\label{sec:org46137df}
 \begin{itemize}
 \item Dater l'apparition, neuropathie ou artériopathie. Plaie : localisation, couleur,
 signes de diffusion, \{fièvre, frisson, teint gris\}, douleur.
@@ -3128,7 +3128,7 @@ Ostéite : grave mais pas une urgence. Basé sur radio. Ttt . résection
 chirurgicale ou ATB 6-12semaine et sans l'appui
 
 \subsubsection{Autres}
-\label{sec:orgfd64f47}
+\label{sec:org83ea325}
 Peau : 
 \begin{itemize}
 \item nécrobiose lipoïdique (rare, ttt mal codifié)
@@ -3181,7 +3181,7 @@ créatininémie jeun, clairance créat 1/an, TSH
 \end{itemize}
 
 \subsubsection{Complications métaboliques}
-\label{sec:orgcdfc017}
+\label{sec:org3c6d81a}
 Coma cétoacidosique
 \begin{itemize}
 \item acétonurie, glycosurie, glycémie 2.5g/L, pH veineux < 7.25, bicarbonate <
@@ -3219,11 +3219,11 @@ Hypoglycémie : inévitable
 \item cause : repas insuffisants, effort physique, erreur d'injection
 \end{itemize}
 \section{249 : Amaigrissement}
-\label{sec:orgf3f33cc}
+\label{sec:org28dd9c8}
 Fréquent
 
 \subsection{Interrogatoire}
-\label{sec:org507535f}
+\label{sec:org533ee74}
 \begin{itemize}
 \item Histoire pondérale, conditions, de vie, psychologique, activité physique excessive et apports alimentaires insuffisants
 \item Anorexie, \{troubles digestifs, palpitations, sd polyuro-polydipsie\}, troubles
@@ -3232,7 +3232,7 @@ fonctionnelle), médicaments (nausée, anorexie), dépression masquée++
 \end{itemize}
 
 \subsection{Examens :}
-\label{sec:orgea5c03c}
+\label{sec:org8de6a36}
 Clinique : poids, taille, IMC, pli cutané, fonte musculaire, carences vitamines,
 pâleur cutanéomuqueuse
 
@@ -3247,7 +3247,7 @@ DEXA (composition corporelles)
 \end{itemize}
 
 \subsection{Étiologie}
-\label{sec:orgf64a9f1}
+\label{sec:org90bf74b}
 \begin{itemize}
 \item Poids stables, apports nutritionnels normaux, examens normaux :  maigreur
 constitutionnelle
@@ -3265,9 +3265,9 @@ défaillance cardiaque/rénale/respi/hépatique, alcool
 \end{itemize}
 \end{itemize}
 \section{251 : Obésité}
-\label{sec:org1edcbbb}
+\label{sec:org0159ff1}
 \subsection{Adulte}
-\label{sec:orgfc82b11}
+\label{sec:org2e4818a}
 Surpoids = IMC \(\in\) [25, 29.9]kg/m\(^{\text{2}}\). Obésité :
 \begin{itemize}
 \item grade 1 : IMC \(\in\) [30, 34.9]kg/m\(^{\text{2}}\).
@@ -3301,7 +3301,7 @@ Complications : \inc RR mortalité, métabolique, CV, respi, ostéoarticulaire,
 digestive, rénale, gynéco, cutanée, néoplasiques, psychosociale
 
 \subsubsection{Clinique}
-\label{sec:orga97adcf}
+\label{sec:org0c9a6c7}
 \begin{itemize}
 \item Interrogatoire : 
 \begin{itemize}
@@ -3315,7 +3315,7 @@ poids max et min, circonstances déclenchantes, tentatives antérieures, phases
 \end{itemize}
 
 \subsubsection{Traitement}
-\label{sec:orgd13aa98}
+\label{sec:org0b89533}
 \begin{itemize}
 \item Diététique, activité physique (\(\forall\) IMC)
 \item Psychologique
@@ -3328,7 +3328,7 @@ de PEC médicale, pronostic vital mis en jeu, CI à l'anesthésie générale,
 incapacité à faire un suivi médical prolongé}
 \end{itemize}
 \subsection{Enfant/ado}
-\label{sec:org6c26ac4}
+\label{sec:org5316694}
 \danger{} évolutivité. Surpoids : IMC > 25. Obésité 
 \begin{itemize}
 \item grade 1 : > 30kg/m\(^{\text{2}}\)
@@ -3339,7 +3339,7 @@ incapacité à faire un suivi médical prolongé}
 Épidémio : stabilisation mais obésités sévères \texttimes{}4
 
 \subsubsection{Étiologies}
-\label{sec:orgbb3df6a}
+\label{sec:org3358ba5}
 \begin{itemize}
 \item génétiques : mutation sur récepteur de la mélanocortine type 4 = 2.5-5\%
 \item communes (majorité) : facteurs environnementaux et prédisposition génétique
@@ -3354,7 +3354,7 @@ socio-éoc, manque d'activité physique, troubles sommeil, psychopatho
 \end{itemize}
 
 \subsubsection{Complications}
-\label{sec:orgf096d80}
+\label{sec:org4c0aa19}
 \begin{itemize}
 \item HTA : > 97e percentile + 10mmHg
 \item Insulinorésistance avec glycémie normale fréquente
@@ -3367,7 +3367,7 @@ de la tête fémorale : garçons [10,15] ans avec douleur mécanique de hanche
 \end{itemize}
 
 \subsubsection{Clinique}
-\label{sec:org20fb155}
+\label{sec:org181761d}
 Interrogatoire : 
 \begin{itemize}
 \item ATCD familaux,
@@ -3383,11 +3383,11 @@ insulinorésistance, vergétures= hypercorticisme, intertrigo, mycose)
 Pas d'examens complémentaires !
 
 \subsubsection{Traitement}
-\label{sec:orgea138b0}
+\label{sec:org6f29b11}
 Prévention surtout. Modifier style de vie (efficacité faible). Chir possible
 avec équipes spécialisées
 \section{252 : Diabète gestationnel}
-\label{sec:org83de113}
+\label{sec:orgd87a74f}
 Physio chez femme enceinte selon moitié:
 \begin{itemize}
 \item non diabétique : (\inc insulinéme, insulinosensibilité) puis (insulinorésistance
@@ -3397,7 +3397,7 @@ postprandiale insuffisante)
 \end{itemize}
 
 \subsection{PEC du diabète pré-gestationnel}
-\label{sec:org70d8a93}
+\label{sec:org02b0895}
 Grossesse à risque mais fécondité normale (sauf si sd ovaires polykystiques).
 
 \danger{} Normalisation glycémie préconception \(\rightarrow\) accouchement
@@ -3408,7 +3408,7 @@ Grossesse à risque mais fécondité normale (sauf si sd ovaires polykystiques).
 \end{itemize}
 
 \subsubsection{Risque foetus}
-\label{sec:org6ef4dff}
+\label{sec:orge7056f9}
 \begin{itemize}
 \item Fausses couches spontanées \texttimes{}2, \(\propto\) hémoglobine glycquée
 \item Malformation congénitales \texttimes{}2, constituée pendant 8 premières semaines :
@@ -3423,7 +3423,7 @@ respi transitoire, maladie des membranes hyalines
 \item Long terme : surpoids/obésité et diabète 2
 \end{itemize}
 \subsubsection{Risque mère}
-\label{sec:orgcb6e6f3}
+\label{sec:org3b4a2f0}
 \begin{itemize}
 \item HTA (30\%) : si > 20 SAc, risque de toxémie gradivique. \texttimes{}5 si
 diabète 1. Risque vital \skull
@@ -3446,7 +3446,7 @@ complications microvasculaire (ECG, effort)
 \end{itemize}
 
 \subsubsection{PEC}
-\label{sec:org2766ed7}
+\label{sec:orgfe3e3eb}
 \begin{itemize}
 \item Avant grossesse : glycémie \(\in\) [0.7, 1.20] préprandial, \(\in\) [1, 1.4]
 postprandial et HbA1c < 7\%
@@ -3471,21 +3471,21 @@ foetal
 \end{itemize}
 \end{itemize}
 \subsubsection{(Post)partum}
-\label{sec:orgeee282b}
+\label{sec:org6bd13fb}
 Accouchement programmé souvent, facilité si rétinopathie sévère, insuline
   SC/IV et glucosé avec surveillance horaire
 
 Puis : insuline selon besoin pré-grossesse (D1) ou arrêt (D2)
 
 \subsection{Diabète gestationnel}
-\label{sec:orgea1cdfd}
+\label{sec:org29b17e7}
 Si lié à la grossesse, apparait en 2eme partie. Risque : pré-éclampsie,
 césarienne (\(\propto\) hyperglycémie matenrelle). FR : surpoids 
 
 Même complications liées à l'hyperinsulinisme que pré-gestationnel
 
 \subsubsection{Dépistage}
-\label{sec:orgda268da}
+\label{sec:orgf2eb18b}
 Si FR seulement : 
 \begin{itemize}
 \item \(\ge\) 35ans
@@ -3500,7 +3500,7 @@ provoquée oralement
 \end{itemize}
 
 \subsubsection{Traitement}
-\label{sec:org83a0812}
+\label{sec:orgd152022}
 \begin{itemize}
 \item Diététique (30-35kcal/kg [25 si surpoids]), activité physique, antidiabétique
 CI \skull, insuline si régime ne suffit pas après 8 jours
@@ -3512,9 +3512,9 @@ HTA
 Post-partum : arrêt insuline et surveillance glycémie (diabète antérieur
 ?). Vérifier glycorégulation à 3 mois. Risque de récidive si grossesse
 \section{253 : Nutrition chez le sportif}
-\label{sec:orga7add50}
+\label{sec:org49b1f6c}
 \subsection{Examen d'aptitude}
-\label{sec:org4366ff8}
+\label{sec:org159f684}
 Dépister les pathologies induisant un risque vital/fonctionnel grave : mort
 subite (1-4/100 000 après 35 ans)
 Obligation légale si compétition (licencié ou non)\footnote{Médecin qualifé pour : alpinisme, armes à feu, mécaniques, aériens, sous-marins, de combat
@@ -3536,7 +3536,7 @@ ans jusque 35 ans}, CV
 \end{itemize}
 
 \subsection{Bénéfices/inconvénients}
-\label{sec:org969c457}
+\label{sec:org1d10f92}
 Adulte :
 \begin{itemize}
 \item Bénéfices :
@@ -3569,7 +3569,7 @@ osseux 3x/semaine
 \end{itemize}
 
 \subsection{Besoins nutritionnels}
-\label{sec:org02574f7}
+\label{sec:org4799504}
 
 \begin{center}
 \begin{tabular}{llll}
@@ -3605,17 +3605,17 @@ groupes d'aliments
 \end{itemize}
 
 \subsubsection{Enfant}
-\label{sec:org4b7cbdc}
+\label{sec:orgda1e961}
 Apport insuffisants \thus retard croissance staturo-pondéral ou pubertaire,
 \dec masse musculaire, déminéralisation osseuse, déficit immunitaire.
 
 Surveiller calcium, vit D, fer.
 
 \section{265 : Hypocalcémie, dyskaliémie, hyponatrémie}
-\label{sec:org29b6efb}
+\label{sec:org95ee1f6}
 
 \subsection{Hypocalcémie (hypoCa)}
-\label{sec:org71fc5a7}
+\label{sec:orgc6de158}
 Éliminer fausses hypoCa dues à l'hypoalbuminémie\footnote{Une partie du calcium est lié à l'albumine}.
 Calcémie = équilibre absorption intenstinale, résorption osseuse, excrétion
 rénale. Régulé par PTH, calcitriol
@@ -3632,7 +3632,7 @@ pouvant entraîner arrêt respi)
 \end{itemize}
 
 \subsubsection{Principales causes}
-\label{sec:org7c20577}
+\label{sec:org819e265}
 \begin{itemize}
 \item Hypoparathyroïdes : anamnèse et \{hypoCa, PTH \dec, phosphatémie
 normale/haute\}.
@@ -3651,7 +3651,7 @@ carentiel. Chez l'adulte, seulement si déficit prolongé et profond
 \end{itemize}
 
 \subsubsection{TTt}
-\label{sec:org4537a47}
+\label{sec:org851b0ed}
 \begin{itemize}
 \item Aigüe = urgence \skull \thus calcium IV lente (2-3x10ml). Suspension des ttt qui \inc
 QTc, réduction digoxine
@@ -3659,11 +3659,11 @@ QTc, réduction digoxine
 \end{itemize}
 
 \subsection{Hyper-/hypo-kaliémie,}
-\label{sec:org413acbd}
+\label{sec:org7560470}
 Retentissement cardiaque \thus vital \skull
 
 \subsubsection{HyperK}
-\label{sec:org8c34f5c}
+\label{sec:orgcf364f1}
 Principales causes
 \begin{itemize}
 \item Acidose (sort K+ de la cellule) et insulinopénie (réduit entrée K+) : ttt par
@@ -3677,7 +3677,7 @@ insuline à risque d'hypoK \danger \thus apport K+ dès normokaliémie
 \end{itemize}
 
 \subsubsection{HypoK}
-\label{sec:org5312b7a}
+\label{sec:org02883a1}
 \begin{itemize}
 \item Dénutrition sévère : anorexique, post-chir bariatrique sans suivi
 \item Insulinothérapie : si cétoacidose et troubles digestifs majeurs \thus
@@ -3696,7 +3696,7 @@ vérifier réglisse et pastis (glycyrrhizine)
 \end{itemize}
 
 \subsection{Hyponatrémie endocrinienne}
-\label{sec:org54bc57d}
+\label{sec:org477c763}
 
 HypoNa = anomalie électrolytique la plus commune chez hospitalisés
 
@@ -3737,7 +3737,7 @@ volémique et stress etc. Action vasoconstrictive, corticotrope (stress),
 antidiurétique
 
 \subsubsection{SIADH}
-\label{sec:org5ca2d7b}
+\label{sec:org2bbb436}
 PA et FC normale, pas de pli cutané, (déshydratation extra-cellulaire) ni
 d'oedème (hyperhydratation extra-cellulaire)
 
@@ -3762,7 +3762,7 @@ desmopressine
 \end{itemize}
 
 \subsubsection{Traitement}
-\label{sec:org4330f67}
+\label{sec:org23f3fb0}
 Urgence si < 115mmol/L ou \{délire, coma, convulsion\} \skull \thus sérum salé
 hypertonique jusque Natrémie = 120mmol/L (puis restriction hydrique).
 
@@ -3782,7 +3782,7 @@ Indications :
 \item sinon restriction hydrique et tolvaptan (ou déméclocycline)
 \end{itemize}
 \section{266 : Hypercalcémie}
-\label{sec:org624ad85}
+\label{sec:org4abc6d2}
 Diagnostic = double dosage calcémie. Étiologie selon parathormone (PTH)
 
 Physio : calcémie régulée par PTH et calcitriol
@@ -3803,9 +3803,9 @@ constipation, nausées\}, \{apathie, somnolence, confusion, psychose, coma\}, \{
 coma, insuf rénale\} et risques de troubles du rythme cardiaque, bradycardie avec asystolie
 
 \subsection{Étiologies}
-\label{sec:org1cfd6f8}
+\label{sec:org42dac98}
 \subsubsection{Hypercalcémie PTH dépendante (PTH N ou \inc)}
-\label{sec:org70d02ca}
+\label{sec:org38d8ccb}
 \begin{itemize}
 \item \textbf{Hyperparathyroïdie\footnote{La PTH est produite par la parathyroïde\ldots{}} primaire} (55\%) : lésion parathyroïde. 
 \begin{itemize}
@@ -3842,7 +3842,7 @@ hypophosphorémie, (hypermagnésémie), calciurie \dec\dec{}, PTH inadaptées
 \end{itemize}
 
 \subsubsection{hypercalcémie PTH-indépendante}
-\label{sec:org82f1080}
+\label{sec:orgc480281}
 \begin{itemize}
 \item \textbf{Hypercalcémie des affections malignes} (30\%) : PTH \dec\dec{}. 
 \begin{itemize}
@@ -3860,7 +3860,7 @@ sourcils, chéilite fissuraire), diurétiques thiazidique, buveurs de laits
 \end{itemize}
 
 \subsection{Traitement}
-\label{sec:orgda45334}
+\label{sec:org26fb781}
 Hypoparathyroïdie primitive : guérison par ablation des adénome(s) par chir
 conventionnelle ou mini-invasive (faire imagerie avant !)
 
@@ -3873,9 +3873,9 @@ calcimimétiques (\dec PTH),
 \item bisphosphonate en perf lente ou corticothérapide IV (myélome/hémopathie) ou dialyse (maligne)
 \end{itemize}
 \section{303 : Tumeurs de l'ovaire (hormono-sécrétante)}
-\label{sec:org2ba5c36}
+\label{sec:org78fc714}
 \subsection{Sécrétant des oestrogènes}
-\label{sec:org0bac348}
+\label{sec:orgf786305}
 Tumeurs de la granulosa : 
 \begin{itemize}
 \item malignes, les plus fréquentes des tumeurs des cordons sexuels et du stroma.
@@ -3894,7 +3894,7 @@ Thécomes :
 Sd Peutz-Jeghers (très très rare)
 
 \subsection{Sécrétant des androgènes}
-\label{sec:org221361c}
+\label{sec:orgbbd5609}
 Tumeurs à cellules de Sertoli-Leydig 
 \begin{itemize}
 \item sécrète testostérone
@@ -3923,7 +3923,7 @@ abdo/métrorragie. Tttt : conservateur si jeune, chimio si étendu
 \end{itemize}
 
 \section{305 Tumeurs du pancréas (endocrine)}
-\label{sec:org56369be}
+\label{sec:org9762786}
 Rare, concerne pancréas et duodénome. Diagnostic histologique, compléteté par
 immunohistochimie
 
@@ -3951,12 +3951,12 @@ Imagerie : scanner spiralé TAP \textpm{} IRM abdo
 Formes familiales : NEM1, neurofibromatose 1, von Hippel-Lindau
 
 \section{310 : Tumeurs du testicule (aspects endocriniens)}
-\label{sec:orgae377ff}
+\label{sec:orge1d449a}
 
 Prévalence : 9/100 000, ado/adulte jeune
 
 \subsection{Tumeurs stromales}
-\label{sec:orgba81c7b}
+\label{sec:orgf829d90}
 Cellules de Leydig. Unilatérales, bénignes
 \begin{itemize}
 \item Garçon < 9 ans : pseudo-puberté précoce \thus testostérone plasmatique, écho
@@ -3969,7 +3969,7 @@ Cellules de Sertoli : rares (enfant) ou exceptionnelles
 \inc, LH et FSH \dec, inhibine B \inc.\footnote{Peut appartenir à : complexe Carney, sd Petuz-Jeghers}
 
 \subsection{Autres}
-\label{sec:org85ee84d}
+\label{sec:org8847683}
 \begin{itemize}
 \item Tumeurs germinales : fréquentes, écho testiculaire
 \begin{itemize}
@@ -3980,16 +3980,16 @@ Cellules de Sertoli : rares (enfant) ou exceptionnelles
 \end{itemize}
 
 \subsection{PEC}
-\label{sec:org223f974}
+\label{sec:orgba232d4}
 Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimio si métastases pulmonaires/ganglionnaires.
 
 
 \printglossaries
 
 \section{Annexes}
-\label{sec:org8b79e76}
+\label{sec:org9e029f8}
 \subsection{Hormones}
-\label{sec:org7b13437}
+\label{sec:orgae7ef15}
 
 
 \begin{figure}[htpb]
@@ -4053,7 +4053,7 @@ médullaire & épinephrine, norepinéphrine\\
 \end{table}
 
 \subsection{Syndromes génétiques}
-\label{sec:org19da9cf}
+\label{sec:orga811095}
 \begin{center}
 \begin{tabular}{llll}
 \toprule
@@ -4070,4 +4070,7 @@ Caractéristiques & Hypogonadisme, infertilité & Petite taille & Anosmie\\
 \bottomrule
 \end{tabular}
 \end{center}
+
+
+\printglossaries
 \end{document}
