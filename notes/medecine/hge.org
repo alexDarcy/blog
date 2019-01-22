@@ -1,0 +1,48 @@
+#+title: HGE
+#+author: Alexis Praga
+
+#+latex_header: \input{header}
+#+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+#+latex_header_extra: \newglossaryentry{SHBG}{name=SHBG,description={Sex Hormone-Binding Globulin. Diminue avec des androgènes, augmente avec les oestrogènes}}
+#+latex_header_extra: \newacronym{SOPK}{SOPK}{Syndrome des ovaires polymicrokystiques}
+#+latex_header_extra: \newacronym{OGE}{OGE}{Organes génitaux externes}
+#+latex_header_extra: \newacronym{CAIS}{CAIS}{Complete Androgen Insensitivity Syndrome}
+#+latex_header_extra: \newacronym{IOP}{IOP}{Insuffisance ovarienne primitive}
+#+latex_header_extra: \newglossaryentry{Leydigcell}{name={cellule de Leydig},description={Produit de la testostérone. Localisé près des tubules séminifères (testicules)}. Activé par LH}
+#+latex_header_extra: \newglossaryentry{Sertolicell}{name={cellule de Sertoli},description={Participe à la production du sperme. Localisé dans un tubule séminifère. Activé par FSH}}
+#+latex_header_extra: \newacronym{HVG}{HVG}{Hypertrophie ventriculaire gauche}
+#+latex_header_extra: \newglossaryentry{NF1}{name=NF1, description={Neurofibromatose 1. Tâches café au lait, neurofibromes (cutanées, nodulaires [le long d'un trajet d'un nerf] ou plexiformes [K possible]), nodules de Lisch sur l'iris.}}
+#+latex_header_extra: \newacronym{NEM2}{NEM2}{Néoplasie endocrinienne multiple 2}
+#+latex_header_extra: \newglossaryentry{VHL}{name={von Hippel-Lindau}, description={Hémangioblastome du cervelet/moelle épinière, de la rétine, phéochromocytome}}
+#+latex_header_extra: \newglossaryentry{PCC}{name={Phéochromocytomes}, description={Tumeur de la médullo-surrénale}}
+#+latex_header_extra: \newacronym{PGG}{PGG}{Paragangliomes}
+#+latex_header_extra: \newacronym{ADP}{ADP}{Adénopathie}
+#+latex_header_extra: \newglossaryentry{TPO}{name={Thyroid peroxydase (TPO)},description={Enzyme de la thyroïde servant à générer la thyroxine (T4) et triiodothyroine (T3)}}
+#+latex_header_extra: \newacronym{ATS}{ATS}{Antithyroïdiens de synthèse}
+#+latex_header_extra: \newacronym{GH}{GH}{Hormone de croissance (Growth hormone)}
+#+latex_header_extra: \newacronym{CLU}{CLU}{Cortisol libre urinaire}
+#+latex_header_extra: \newacronym{IS}{IS}{Insuffisance surrénale}
+#+latex_header_extra: \newglossaryentry{PTH}{name={Parathyroide Hormone (PTH)},description={Stimule la résorbtion osseuse (ostéoclastes) pour libérer plus de calcium}}
+#+latex_header_extra: \newglossaryentry{sdMetabolique}{name={Syndrome métabolique}, 
+#+latex_header_extra:   description={IMC > 28 kg/$m^2$, HTA, 
+#+latex_header_extra:     (HDL < 0.35g/L ou TG > 2g/L ou dyslipidémie traitée), 
+#+latex_header_extra:     ATCD diabète familial/gestionnel, temporairement induit. 
+#+latex_header_extra:     Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female), 
+#+latex_header_extra:     hyperglycémie (glycémie à jeun > 1g/L), 
+#+latex_header_extra:     dyslipidémie (TG > 1.5g/L et (HDL < 0.4g/L \male ou 0.5g/L \female)), 
+#+latex_header_extra:     HTA (> 130mmHg systole ou > 85mmHg diastole)}}
+
+#+OPTIONS: H:4
+
+\input{bacteries-header}
+
+* 74 : Addiction à l'alcool
+** Définition
+- Non-usage
+- Usage simple
+- Mésusage : 
+  - risque
+  - nocif
+  - dépendance : 3 parmi {désir puissant, difficulté à contrvôler l'utilisation,
+    sd de sevrage, tolérance, abandon d'autres plaisirs/intérêt, consommation
+    malgré conséquences nocives} 
