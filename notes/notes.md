@@ -3,6 +3,8 @@
 Fiches  
 [AFGSU](medecine/afgsu.pdf)  
 [Cardiologie](medecine/cardiologie.pdf)  
+[Douleur](medecine/douleur.pdf)  
+[HGE](medecine/hge.pdf)  
 [Maladies infectieuses](medecine/maladies_infectieuses.pdf)  
 [Neurologie](medecine/neurologie.pdf) (ébauche)   
 [Nutrition](medecine/nutrition.pdf) (ébauche)  

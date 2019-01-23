@@ -2,35 +2,7 @@
 #+author: Alexis Praga
 
 #+latex_header: \input{header}
-#+latex_header: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
-#+latex_header_extra: \newglossaryentry{SHBG}{name=SHBG,description={Sex Hormone-Binding Globulin. Diminue avec des androgènes, augmente avec les oestrogènes}}
-#+latex_header_extra: \newacronym{SOPK}{SOPK}{Syndrome des ovaires polymicrokystiques}
-#+latex_header_extra: \newacronym{OGE}{OGE}{Organes génitaux externes}
-#+latex_header_extra: \newacronym{CAIS}{CAIS}{Complete Androgen Insensitivity Syndrome}
-#+latex_header_extra: \newacronym{IOP}{IOP}{Insuffisance ovarienne primitive}
-#+latex_header_extra: \newglossaryentry{Leydigcell}{name={cellule de Leydig},description={Produit de la testostérone. Localisé près des tubules séminifères (testicules)}. Activé par LH}
-#+latex_header_extra: \newglossaryentry{Sertolicell}{name={cellule de Sertoli},description={Participe à la production du sperme. Localisé dans un tubule séminifère. Activé par FSH}}
-#+latex_header_extra: \newacronym{HVG}{HVG}{Hypertrophie ventriculaire gauche}
-#+latex_header_extra: \newglossaryentry{NF1}{name=NF1, description={Neurofibromatose 1. Tâches café au lait, neurofibromes (cutanées, nodulaires [le long d'un trajet d'un nerf] ou plexiformes [K possible]), nodules de Lisch sur l'iris.}}
-#+latex_header_extra: \newacronym{NEM2}{NEM2}{Néoplasie endocrinienne multiple 2}
-#+latex_header_extra: \newglossaryentry{VHL}{name={von Hippel-Lindau}, description={Hémangioblastome du cervelet/moelle épinière, de la rétine, phéochromocytome}}
-#+latex_header_extra: \newglossaryentry{PCC}{name={Phéochromocytomes}, description={Tumeur de la médullo-surrénale}}
-#+latex_header_extra: \newacronym{PGG}{PGG}{Paragangliomes}
-#+latex_header_extra: \newacronym{ADP}{ADP}{Adénopathie}
-#+latex_header_extra: \newglossaryentry{TPO}{name={Thyroid peroxydase (TPO)},description={Enzyme de la thyroïde servant à générer la thyroxine (T4) et triiodothyroine (T3)}}
-#+latex_header_extra: \newacronym{ATS}{ATS}{Antithyroïdiens de synthèse}
-#+latex_header_extra: \newacronym{GH}{GH}{Hormone de croissance (Growth hormone)}
-#+latex_header_extra: \newacronym{CLU}{CLU}{Cortisol libre urinaire}
-#+latex_header_extra: \newacronym{IS}{IS}{Insuffisance surrénale}
-#+latex_header_extra: \newglossaryentry{PTH}{name={Parathyroide Hormone (PTH)},description={Stimule la résorbtion osseuse (ostéoclastes) pour libérer plus de calcium}}
-#+latex_header_extra: \newglossaryentry{sdMetabolique}{name={Syndrome métabolique}, 
-#+latex_header_extra:   description={IMC > 28 kg/$m^2$, HTA, 
-#+latex_header_extra:     (HDL < 0.35g/L ou TG > 2g/L ou dyslipidémie traitée), 
-#+latex_header_extra:     ATCD diabète familial/gestionnel, temporairement induit. 
-#+latex_header_extra:     Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female), 
-#+latex_header_extra:     hyperglycémie (glycémie à jeun > 1g/L), 
-#+latex_header_extra:     dyslipidémie (TG > 1.5g/L et (HDL < 0.4g/L \male ou 0.5g/L \female)), 
-#+latex_header_extra:     HTA (> 130mmHg systole ou > 85mmHg diastole)}}
+#+latex_header_extra: \newacronym{DT}{DT}{Delirium tremens}
 
 #+OPTIONS: H:4
 
@@ -46,3 +18,117 @@
   - dépendance : 3 parmi {désir puissant, difficulté à contrvôler l'utilisation,
     sd de sevrage, tolérance, abandon d'autres plaisirs/intérêt, consommation
     malgré conséquences nocives} 
+** Étiologie
+Génétique (40-60%), ATCD paternel, personnalité antisociale, facteurs
+socioculturels.
+
+Anatomie : noyau accumbens.
+** Épidémiologie
+Consommation : \dec{} vin, \inc{} boissons peu/très alcoolisées
+
+Mésusage : 49 000 DC/an. Alcool = 3eme cause de DC. 2 700 DC/an sur route, 20%
+AT.
+
+Souvent + conduite addictive (tabac, benzodiazépine).
+
+50% DC prématurés = pas de dépendance !
+** Dépistage
+20-30% adultes en CS ont un problème avec l'alcool
+1 verre = 10g d'alcool pur[fn:1]
+
+Questionnaires : AUDIT-C, FACE
+** Biologie [fn:2]
+- alcoolémie
+- \gamma-GT : peu sensible, peu spécifique. Utile si (transaminases et
+  phosphatases alcalines normales) ou (transaminases < 5N avec \inc{} ASAT
+- VGM
+- transferrine désialylée
+** Clinique
+Intoxications alcoolique aigüe : 
+- diagnostic = alcoolémie, régression de qq heures
+- désinhibition et euphorisant puis dépression sur SNC
+- pathologique : excitomotrice, délirante, dépressive/hypomaniaque, amnéie
+  lacunaire, convulsivante
+- risque = coma alcoolique avec pronostic vital engagé
+Coma alcoolique : alcoolémie > 3 g/L
+- neuro : coma calme, hypotonique, mydriase bilatérale symétrique
+- dépression repsiration
+- hypotension artérielle, bradycardie, collapsus CV
+- hypothermie
+- \danger cherche : hémorragie cérébroméningée, aVC, hémato sous/extra-durale,
+  épilepsie, Gayez-Wernicke, encéphalopathie hépatique, gls:DT, infection
+  cérébroméningée si fièvre
+Dépendance : sevrage
+- $\frac{1}{3}$ n'ont pas de symptômes de sevrage
+- anxiété, sueurs, tremblemens, vomissement
+- gls:DT, épilespise chez 5%
+Accidents du sevrage
+- convulsions : dans 48h (mais retard possible). Sans ttt, peut évoluer vers
+  DT. Éliminer autres causes !
+- DT : début brutal/petits signes de sevrage/crise comitiale. Sans ttt : sd
+  confusionnel. Sans PEC, DC \skull
+
+** Complications somatiques
+\begin{tcolorbox}
+5 arguments pour rapporter une pathologie à l'alcool : consommation à risque,
+ complication connue, tableau évocateur, pas d'autre cause, s'améliore avec le sevrage/réduction
+\end{tcolorbox}
+#+caption: Complications somatiques
+| Cancer                 | VAS, oesophage, hépatocellulaire, colorectal, sein                            |
+| Digestif               | Maladie alcoolique du foie, pancréatite aigüe/(chronique                      |
+|                        | calcifiante), oesophagite, gastrite, diarrhée montrice                        |
+| SN                     | Troubles cognitifs, démence, encéphalopathies carentielles, métaboliques,     |
+|                        | atrophie cérébelleuse, épilepsie, polyneuropathies SM, neuropathie optique, |
+|                        | traum, hémorragies cérébrales/méningées                                       |
+| CV                     | HTA, troubles rythme, cardiomyopathies non obstructives                       |
+| Rhumato                | Nécrose tête fémorale, ostéoporose, ostéomalacie                              |
+| Trauma                 | Fracture                                                                      |
+| Hémato                 | Macrocytose, anémie, thrombopénie, leucopénie                                 |
+| Métabo                 | Hypoglyclémie, hyperTG, dénutrition, hyperuircémie                            |
+| Dermato                | Aggrav. psoriasis, rhinophyma                                                 |
+| Psy                    | Dépression, trouble anxieux                                                   |
+| Foetus                 | Dysmorphie, retard mental                                                     |
+| Dysfonctions sexuelles |                                                                               |
+
+** PEC
+Attitude empathique
+
+Intervention brève (5-20min)
+
+Intoxication alcoolique aigüe : 
+- éliminer hypoglycémie, autre intoxication,hématome IC, hémorragies méningées \thus EC et complémentaires si trouble
+conscience. 
+- \danger Vitamine B1 avant perfusion glucosée !
+
+Usage nocif, dépendance :
+- nocif/dépendance sans comorbidités sévères : réduction conosmmation
+- nocif et complications nombreuses/sévères : addictologie
+- dépendance sévère et comorbidité : arrêt
+- motivation++
+- surveiller ASAT, ALAT, \gamma-GT, TP, NFS
+
+Sevrage : 
+- hospit si : ATCD complication sevrage, dépendance sévère ou avec
+  benzodiazépines, échec de l'ambulatoire, environnement social, terrain
+  vulnérable
+- arrêt, hydratation orale, vitamine B1 \pm correction troubles
+  hydroélectriques, \pm benzodiazépnie (diazépam)
+
+Complications de sevrage :
+- DT
+  - hospit, réhydratation IV, correction trouble hydroélectrique
+  - vitamine B1 forte dose avant sérum glucosé
+  - diazépam jusque sédation
+- Crises convulsive : cf sevrage
+
+Médicaments efficaces seulement si suivi psychosocial !
+- \dec{} consommation : nalméfène (CI : opiacés) (ou baclofène)
+- maintien abstinence : acamprosate ou naltrexone (ou disulfirame, baclofène)
+
+Autre : PEC comorbidités psyc, addictive (tabac, cannabais++), non psy, sociale
+* Footnotes
+
+[fn:2] Biologie normale \ne pas de mésusage !
+
+[fn:1] Contenu d'alcool = $V_{alcool} \times \rho_{alcool}$ = degré d'alcool
+$\times V_{total} \times 0.8$. Volume en L, degré en pourcentage.

@@ -16,6 +16,7 @@ build:
 MED=notes/medecine
 NOTES_ORG= \
 ${MED}/douleur.org\
+${MED}/hge.org\
 ${MED}/endocrino.org\
 ${MED}/ophtalmo.org
 
