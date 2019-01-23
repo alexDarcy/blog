@@ -3,6 +3,11 @@
 
 #+latex_header: \input{header}
 #+latex_header_extra: \newacronym{DT}{DT}{Delirium tremens}
+#+latex_header_extra: \newacronym{ID}{ID}{Immunodéprimé}
+#+latex_header_extra: \newacronym{HSH}{HSH}{Hommes ayant des relations sexuelles avec des hommes}
+#+latex_header_extra: \newacronym{DO}{DO}{Déclaration obligatoire}
+#+latex_header_extra: \newacronym{CHC}{CHC}{Carcinome hépato-cellulaire}
+#+latex_header_extra: \newacronym{OGD}{OGD}{Oestro-gastro-duodénale}
 
 #+OPTIONS: H:4
 
@@ -125,7 +130,138 @@ Médicaments efficaces seulement si suivi psychosocial !
 - \dec{} consommation : nalméfène (CI : opiacés) (ou baclofène)
 - maintien abstinence : acamprosate ou naltrexone (ou disulfirame, baclofène)
 
-Autre : PEC comorbidités psyc, addictive (tabac, cannabais++), non psy, sociale
+Autre : PEC comorbidités psy, addictive (tabac, cannabais++), non psy, sociale
+* 163 : Hépatites virales
+Définition : processus inflammatoire du foie. Chronique si > 6 mois.
+
+Causes :
+- \inc{} forte des transaminases : 
+  - *médicaments, virale* = {VHA, VHB, VHC, VHE et Herpes (EBV, HSV, CMV, VZV)}
+  - migration lithiasique, hépatite auto-immune, maladie de Wilson
+- \inc{} modérée des transaminases : 
+  - *alcool, sd métabolique, VHB, VHC*
+  - VHE si gls:ID, médicaments, hépatite auto-imune, hémochromatose, maladie de
+    Wilson, déficit \alpha-1-antitrypsine
+  - DD : maladie coeliaque, myopathie, effort violent, hémolys
+
+Diagnostic: 
+- souvent asymptomatiques, ictère peut manquer (symptômes + 7 à 10j)
+- chercher signes de gravité : 
+  - TP < 50% = hépatite sévère \thus centre spécialisé
+  - encéphalopathie \thus hospit en urgence \skull
+- dans tous les cas : CI médicaments hépatotoxiques, neurosédatifs, éviter
+  contamination (VHA, VHE)
+
+#+caption: Hépatites virales, résumé
+|              | VHA                   | VHB                  | VHC         | VHD                | VHE         |
+|--------------+-----------------------+----------------------+-------------+--------------------+-------------|
+|              | Simple brin           | Double brin          | Simple brin | Simple brin        |             |
+|              | Sans enveloppe        | Enveloppe            |             | Enveloppe          |             |
+| Famille      | /Hepatovirus/         | /Hepadnavirus/       | /Flavirus/  |                    |             |
+| Transmission | Féco-orale, \acs{HSH} | périnatale, sexuelle | parentéral  | sang, sexuelle     |             |
+|              |                       | sang, contact        |             |                    |             |
+| Diagnostic   | IgM anti-VHA          | Ag HBs               | Ac antiVHC  | IgM/IgG anti-delta | IgM antiVHE |
+|              |                       |                      | \pm ARN     | ARN                |             |
+|              | \acs{DO}              | DO (aigüe)           |             |                    |             |
+
+** VHA
+Incubation 2-6 semaines
+
+Pas d'infection chronique !
+Vaccin efficace.
+
+Fréquent. Asymptotique et béninge le plus souvent
+
+** VHB
+2 milliards porteurs d'une infection (résolue ou non). 
+
+Hépatite aigüe B :
+- incubation 6 sem. - 4 mois
+- Morbidité/mortalité : risque de cirrhose (20%) ou gls:CHC
+- \danger recherche VIH, IST, coinfection VHD.
+
+Hépatite chronique B : Ag HBs positif > 6mois. 
+- asymptomatique jusqu'à cirrhose, CHC
+- 4 phases :
+  1. tolérance immunitaire (réplication virale, hépatite peu active) : AgHBe
+  2. clairance immunitaire (réplication virale, hépatite) : Ag HBe
+  3. non réplicative (réplication virale faible, pas d'activité hépatite) : Ac
+     anti-HBe
+  4. hépatite B résolue : Ac anti-HBs
+- 40% de mutation
+- IS = risque de réactivation \skull
+- CHC possible sans cirrhose \danger
+
+*** Traitement
+ALD, PEC 100%
+
+Chercher cirrhose : hypertension portable (endoscopie \gls{OGD}), prévention
+hémorragies digestives, dépistage CHC (écho abdo tous 6 mois)
+
+2 traitements :
+- à vie : analogues nucléosidiques/nucléotidiques (entécavir, ténofovir) =
+  antiviral
+- 1 an : antiviral + immunomodulateur (plus rare)
+
+Indications :
+- ADN VHB > 2 000 UI/mL et transaminases > N ou fibrose hépatique modérée ou
+  activité modérée
+- ADN > 20 000 UI/mL et transaminases > 2N
+- cirrhose et ADN VHB
+- ACTD familiale de cirrhose/CHC ou atteinte extrahépatique
+- IS
+Pas indiqué en phase de "tolérance immunitaire" ou "non réplicative"
+
+Élasticité hépatique (Fibroscan) :
+- < 7kPa : cirrhose peu probable
+- > 17kPa : cirrhose très probable
+
+Vaccination :
+- obligatoire nourrison (hexavalent) : sinon rattrapage jusque 15 ans (2 inj. à
+  6 mois d'écart)
+- dépistage chez femme enceinte avant 10 SA : si positive, sérovaccination à la
+  naissance
+- professionnels de santé
+- sujet exposé
+- IgG anti-HBs seulement si contage accidentel chez non vacciné
+
+** VHC
+Pas de vaccin !
+
+Cirrhose dans 10-20% à 20 ans. CHC 1-4% par an. Manifestations extrahépatiques
+
+Aigüe : 
+- incubation très variable (7-8 sem), souvent asymptomatique
+- ARN à +1 semaine
+- Ac anti-VHC à +12semaines
+
+Chronique : (sérologie positive, ARN détectable) > 6 mois. \danger ponoction
+biopside non recommandée sans comorbidités
+
+*** Traitement
+Cherche cirrhose (cf VHB).
+
+Guérison virologique.
+
+Pas d'interféron, ni ribavirine.
+
+Régression des lésions hépatiques si pas de cirrhose. \danger continuer
+dépistage CHC
+
+** VHD
+Dépend du VHB !
+\danger toujours cherche VHD chez VHB
+
+Co/sur-infection. Risque : cirrhose, CHC
+
+Ttt : interféron pégylé, peu efficace
+
+** VHE
+Incubation 3-8semaines, 3-4 jours pré-ictériques.
+Guérison sans séquelles en 1 mois souvent. Formes graves : hépatite fulminante, décompensation
+
+Chez l'ID, chercher ARN pour diagnostic
+
 * Footnotes
 
 [fn:2] Biologie normale \ne pas de mésusage !
