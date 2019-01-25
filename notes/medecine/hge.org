@@ -8,6 +8,7 @@
 #+latex_header_extra: \newacronym{DO}{DO}{Déclaration obligatoire}
 #+latex_header_extra: \newacronym{CHC}{CHC}{Carcinome hépato-cellulaire}
 #+latex_header_extra: \newacronym{OGD}{OGD}{Oestro-gastro-duodénale}
+#+latex_header_extra: \newglossaryentry{trophozoïtes}{name={Trophozoïtes},description={Formes végétatives mobiles}}
 
 #+OPTIONS: H:4
 
@@ -262,7 +263,138 @@ Guérison sans séquelles en 1 mois souvent. Formes graves : hépatite fulminant
 
 Chez l'ID, chercher ARN pour diagnostic
 
+* 168 : Parasitoses digestives
+
+** Téniasis : 
+#+caption: Caractéristiques des /Taenia/
+|            | /saginata/                       | /solium/                            | /hymenolepsis/       | /Diphyllobothrium/   |
+|            |                                  |                                     | /nana/               | /latum/              |
+|------------+----------------------------------+-------------------------------------+----------------------+----------------------|
+| Caract     | Anneaux, 4-10m,                  | \danger{} cysticercose\footnotemark | Petit                | 10-15m, 10 ans       |
+|            | intestin grêle                   |                                     |                      |                      |
+| Contam.    | Boeuf mal cuit                   | Porc mal cuit                       |                      | Poisson mal cuit     |
+| Clinique   | Latent                           |                                     |                      |                      |
+| Diagnostic | Anneaux selles/vêtement          | Sérologie                           | \OE{}ufs dans selles | \OE{}ufs dans selles |
+|            | EPS                              | \pm biopsie-exérèse                 |                      |                      |
+| Ttt        | Niclosamide                      | Albendazole                         | Niclosamidel         | Niclosamide          |
+|            | praziquantel                     | praziquantel                        | praziquantel         | praziquantel         |
+|            |                                  | (+cortico si cérébral)              |                      |                      |
+| Prévention | Cuisson/congélateur\footnotemark |                                     | hygiène des main     | Cuisson              |
+|            |                                  |                                     |                      |                      |
+
+\footnotetext{> qq semaines}
+\footnotetext{Larves dans tissus SC, muscle, oeil, cerveau, moelle épinière \danger}
+
+** Ascaridiose
+
+Pays tropicaux hygène insuffisante
+
+Ingestion \oe{}ufs
+
+Clinique selon nb de parasites : signes allergiques, sd de Löffler[fn:3]
+
+Complications : appendicite, angiocholite, pancréatite, occlusion intestinale
+
+Diag: \oe{}ufs dans selles (+2 mois)
+
+Ttt : flubendazole, albendazole
+
+Prév: lavage mains, fruits, crudités, péric fécal
+
+** Oxurose
+
+Fréquent (enfants âge scolaire)
+
+Clinique : prurit anal/asymptomatique
+
+Diag : vers blancs mobiles dans selles/Scotch test
+
+Ttt : flubendazole, albendazole, pyrantel. Traiter toute la communaute !
+
+** Giardiose
+
+Ingestion eau, aliments contaminés, féco-oral
+
+Clinique : 
+- asymptomatique
+- atypique : {brutal, selles nbs liquide, douleurs épigastriques}
+- subaigu/chronique (mois/année)
+- malabsorption et dénutrition si massif
+
+Diag : kystes/gls:trophozoïtes à l'EPS. \times{} 3 si besoin. Biopsie duodénale
+si chronique
+
+Ttt : métronidazole (contrôle + 1mois)
+
+Prév : hygiène eau, boisson, aliments
+
+** Am\oe{}bose
+
+Une des parasitoses les	plus fréquentes
+
+Kyste ou trophozoïtes.
+
+Cont: féco-orale[fn:4]
+
+Dissémination par vois sanguine depuis tube digestif : atteinte intestinale
+(tous âges) ou foie (\male{} 20-50 ans), poumons, cerveau
+
+Forme intestinale 
+- (sub)Aigue, diarrhée non hémorragiques, douleurs abdo, sans fièvre ni AEG
+- Autres formes : dysentérique aigüe, fébrile, colite aigüe grave amibienne
+  ==urgence \skull
+
+Forme hépatique : rare, collection purulente, après am\oe{}bose intestinale
+- qq jours, fièvre élevée, frissons, douleur hypochondre droit/scapula droit
+- foie volumineux, douleureux palpation
+- hyperleucocytose à PNN, légère \inc{} transaminases, phosphatases,
+  bilirubinémie
+- DD : abcès du foie à pyogènes, tumeur maligne nécrose
+- complications rares, graves
+
+*** Diagnostic
+Intestinale
+- EPS : seulement kyste, et confusion /Entamoeba histolycita/ et /dispar/ (non
+  patho)
+- biopsie des lésion : "boutons de chemise", sérologies
+Hépatique
+- sérologie et clinique et écho typique \approx certittude
+- répéter si séro négative. Si négative et sans argument : ponction avec écho
+
+*** Traitement
+Intestinale : curatif/probabiliste: métronidazole 10 j puis am\oe{}bicide de
+contact 10j (tiliquinol)
+
+Hépatique : imidazolé et am\oe{}bicide de contact. Ponction seulement si abcès superficiels au bord
+de la rupture
+
+** Hydatidose
+Parasite adlute (anneaux), hydatide (larve).
+
+Cycle : intestin grêle du chien -> \oe{}ufs -> mammifères herbivores : hydatide
+dans foie/poumon -> ingestion de protoscolex par le chien. Homme = accident
+
+Clinique : asymptomatique, lent (années)
+- hépatique : 
+  - fréquent, 10-15ans. HMG isolée, indolore, bien toléré. \skull pas
+    de ponction !
+  - complications : compression voie biliaires ou veineux porte/cave,
+    fissuration/ruputre (réaction allergiques, hydatidose secondaire),
+    infection après fissure
+  - IRM hépatique
+- autres : radio thorax suspectes, même complications. N'importe quel
+  endroit. Os = mauvais pronostic
+  
+Diag: sérologie (90% hépatique, 70% pulmonaire). Pas de ponction !!
+
+Ttt : chir (albendazole seul sinon)
+
+Prév : chien, mesures sanitaires
 * Footnotes
+
+[fn:4] Ou sexuelles oro-anales
+
+[fn:3] Fièvre, toux, dyspnée, infiltration radio fugace, hyperéosinophilie
 
 [fn:2] Biologie normale \ne pas de mésusage !
 
