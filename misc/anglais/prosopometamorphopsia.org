@@ -6,6 +6,8 @@
 #+LATEX_CLASS: beamer
 #+BEAMER_THEME: Singapore
 #+latex_header_extra: \usepackage{subfig}
+#+latex_header_extra: \titlegraphic{\includegraphics[height=0.3\textheight]{metamorph.png}}
+
 ** A rare case
 
 Only 2 papers !
@@ -106,5 +108,7 @@ Our patient : no symptoms one month later
     
     More studies needed !
 
-
-
+** Sources
+Pictures : 
+- Wikipedia
+- Trojano, Luigi, et al. "Unilateral left prosopometamorphopsia: a neuropsychological case study." Neuropsychologia 47.3 (2009): 942-948.
