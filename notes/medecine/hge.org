@@ -9,6 +9,8 @@
 #+latex_header_extra: \newacronym{CHC}{CHC}{Carcinome hépato-cellulaire}
 #+latex_header_extra: \newacronym{OGD}{OGD}{Oestro-gastro-duodénale}
 #+latex_header_extra: \newglossaryentry{trophozoïtes}{name={Trophozoïtes},description={Formes végétatives mobiles}}
+#+latex_header_extra: \newacronym{CST}{CST}{Coefficient de saturation de la transferrine}
+#+latex_header_extra: \newglossaryentry{sdmetabolique}{name={Syndrome métabolique},description={\diameter \ge 94 cm \male{}, 80 cm \female{}, TG \ge 1.7mmol/L, HDL <_1mmol/L \male{} ou 1.3mmol/L \female{}, PAs \ge 130 mmHg ou PAd \ge 85 mmHg, glycémie jeun \ge 1 g/L}}
 
 #+OPTIONS: H:4
 
@@ -390,7 +392,133 @@ Diag: sérologie (90% hépatique, 70% pulmonaire). Pas de ponction !!
 Ttt : chir (albendazole seul sinon)
 
 Prév : chien, mesures sanitaires
+* 197 : Transplantation d'organes
+Indication num. 1 de greffe hépatique : CHC
+
+Complications :
+- précoces = vasculaire, bilaire et sepsis
+- tardives : récidive maladie initiale, cancers de novo, CV
+
+Survie : 62% à 10 ans
+
+Score "foie" pour défaillance chronique
+
+Consentement présumé, gratuité du don, anonymat donneur-receveur
+* 215 : Pathologies du fer
+
+Absoprtion par les entérocytes du duodénum et jéjunum proximal. Puis stocké par
+ferritine ou exporté par ferroportine dans le plasma. Il y est alors transporté
+par transferrine.
+
+Régulation : hepcidine influence l'absorption.
+
+Réserve de fer : ferritine (foie, moelle osseuse, rate)
+
+** Exploration
+- Ferritine = 1ere intention : si \dec, carence en fer, si \inc, pas forcément
+  un excès...[fn:5]
+- gls:CST = transport du fer. Montre surcharge mais sans la quantifié. \dec si
+  sd inflammatoire, \inc insuf hépatocellulaire, sd néphrotique, sd
+  inflammatoire
+- récepteur soluble de transferrine = 2eme intention
+
+** Anémie par carence martiale
+*** Mécanisme
+- Saignement : occulte. Digestif ou gynéco si femme non ménopausée
+- Malabsorption : hypochlorhydrie franche[fn:6], altération muqueuse
+  duodénojéjunale, court-circuit duodénojéjunal. Maladie c\oe{}liaque ++
+- Carence d'apportA : 1mg/j (\male) ou 2 mg (\female). \inc besoins ou régime
+  végétarien très strict
+*** Diagnostic
+Pâleur, asthénie. Chercher signes de gravité.
+Diagnostic biologique : anémie hypochrome microcytaire 
+- 1ere intention : ferritine \inc
+- différencier d'un sd inflammatoire et thalassémie (cf encadré)
+
+\begin{tcolorbox}
+Carence en fer = ferritine \dec, fer sérique \dec, CST \dec et transferrine \inc
+\end{tcolorbox}
+
+*** Étiologie
+Clinique : ATCD, médic, gynéco, régles, troubles dig. Chercher masse tumorale,
+méléna
+
+Examens :
+- 1ere intention : gynéco, endoscopie gls:OGD et coloscopie :
+  - NB: > 5 Ans : coloscopie systématique (K colique) \danger
+  - pas de lésion à l'endoscopie \thus biopsie duodénale \pm gastrique
+  - **pas** des causes : hernie hiatale sans érosion, polype colique non ulcéré
+    < 15mm
+- 2eme intention : vidéocapsule endoscopie (sauf sis sténose), entéroscopie (biopsie),
+  scanner spiralé (tumeurs du grêles), scintigraphie au pertechnétate-99m
+  (diverticule de Meckel)
+- Si exploration négatives : supplémentation Fe
+
+*** Traitement
+Cause si possible.
+
+Martial : voie orale 150 à 300mg/j hors repas (selles noires, interactions
+possibles). IV si intolérance. Contrôle ! Traiter jusque normalisation ferritinémie
+
+
+
+
+** Surcharge en fer
+Diagnostic = 
+- CST < 45% \thus *pas* origine génétique. si Ferritine \inc, hépatosidérose
+  métabolique (\in sd métabolique)
+- CST > 45%, répéter test. Si positif et pas d'autres causes, chercher mutation C2V2Y du gène HFE : si
+  oui, diagnostic positif
+- \pm IRm hépatique
+DD : surcharge d'apport, malade chronique du foie, porphyrie cutanée, hémopathie
+
+*** Hémochromatose
+10 à 20% des homozygotes ont des symptômes. 4 phases :
+1. asymptomatique
+2. surcharge Fe biologique : CST > 45%, ferritine normale
+3. symptômes clinique (30 ans)
+4. lésions viscérales (40-60 ans)
+
+Clinique : 
+- asthénie
+- mélanodermie, dépilation et cheveux fins et cassants
+- ostéoarticulaire : petite articulations de la main. RX : athropathie sous
+  chondrale
+- HMG : risque CHC élevé
+- diabète tardif, hypogonadisme hypogonadotrope, cardiqaque
+
+Si stade \ge 2, chercher atteinte pancréas, foie, coeur, gonades, os
+
+Diagnostic des lésions hépatiques : biopsie hépatique \pm IRM hépatique
+
+Diagnostic génétique : individuel (cf supra) ou familal (apparenté 1er degré)
+
+Traitement : 
+- soustractions sanguines : 7mL/kg/semaine \ge 550mL tous les 7-10j puis 1-3
+  mois. Contrôle : PA, pouls, NFS. \danger arrêt si Hg < 11g/dL
+- chélateurs du fer sinon
+Suivi des complications cirrhose si besoin
+
+Pronostic \approx population générale avant cirrhose.
+
+*** Hépatosidérose métabolique++
+gls:sdmetabolique et surcharge en fe
+
+Ferritinémie \inc, CST normal \thus IRM hépatique.
+
+surcharge modérées mais les atteintes peuvent évoluer. 
+
+PEC : troubles lipidiques, HTA, diabète, activité physique, équilbre alim. Pas
+forcément normalisation Fe !!
+
+
+\printglossaries
 * Footnotes
+
+[fn:6] Acide chlorhydrique garde Fe sous forme soluble
+
+[fn:5] Lyse cellulaire, sd inflammatoire, alcool, sd métabolique, sd
+paranéoplasique, hyperthyroïde
 
 [fn:4] Ou sexuelles oro-anales
 
