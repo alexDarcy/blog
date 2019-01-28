@@ -10,8 +10,11 @@
 #+latex_header_extra: \newacronym{OGD}{OGD}{Oestro-gastro-duodénale}
 #+latex_header_extra: \newglossaryentry{trophozoïtes}{name={Trophozoïtes},description={Formes végétatives mobiles}}
 #+latex_header_extra: \newacronym{CST}{CST}{Coefficient de saturation de la transferrine}
-#+latex_header_extra: \newglossaryentry{sdmetabolique}{name={Syndrome métabolique},description={\diameter \ge 94 cm \male{}, 80 cm \female{}, TG \ge 1.7mmol/L, HDL <_1mmol/L \male{} ou 1.3mmol/L \female{}, PAs \ge 130 mmHg ou PAd \ge 85 mmHg, glycémie jeun \ge 1 g/L}}
-
+#+latex_header_extra: \newglossaryentry{sdmetabolique}{name={Syndrome métabolique},
+#+latex_header_extra:    description={$\diameter \ge 94$ cm $\male{}$, 80 cm $\female{}$,
+#+latex_header_extra:    TG $\ge$ 1.7mmol/L, HDL < 1 mmol/L $\male{}$ ou 1.3mmol/L $\female{}$, 
+#+latex_header_extra:     PAs $\ge 130$ mmHg ou PAd $\ge 85$ mmHg, glycémie jeun $\ge$ 1 g/L
+#+latex_header_extra: }}
 #+OPTIONS: H:4
 
 \input{bacteries-header}
