@@ -572,7 +572,7 @@ Conséquence : sévère et épuisement des réserves lipidiques \thus pronostiv 
 - réponse aux aggresion inadaptée
 
 PEC : 
-- supplémentation alimentaire : débit énergétique basal \time facteur
+- supplémentation alimentaire : débit énergétique basal \times facteur
 - nutrition entérale (sonde dans tube digestif supérieur) par voie
   nasogastrique, gastrostomie, jéjunostomie. 
   - Bien tolérée
@@ -586,12 +586,178 @@ pré-opératoire si dénutri
 
 Privilégier nutrition entérale
 
+* 268 : Douleurs abdominales/lombaires aigües
+
+*** Clinique 
+ Irradiation : pointe omoplate droite (hépatobiliaire), épigastrique
+ (bilio-pancréatique), OGE (urologique)
+
+ Installation : brutale (perforation, embolie, rupture), rapide (obstacle,
+ ischémie, torsion), progressive (inflamation, infeciton, obstruction)
+
+ Exacerbé par marche, inspiration et calmée par décubitus : inflammation
+ intra-abdominale), soulagement par l'alimentation (ulcère), antéflexion
+ (pancréas), vomissement (obstruction, occlusion intestinale)
+
+ Déclenché par : alcool (pancréatite, hépatique alcoolique), médicaments (AINS,
+ aspirine), voyage récent
+
+ Terrain :
+ - signes généraux/organe
+ - \female{} penser grossesse extra-utérine, gynéco
+ - médicaments : AINS, aspirine (ulcère, gastrite aigüe), anticoagulant
+   (hématomes des muscle [paroi abdo. antérieure, psoas, paroi tube digestif),
+   corticoïdes
+
+*** Examen
+ - Fièvre, FC, PA, choc
+ - Ictère, pâleur, cyanose, cicatrice abdo++, hernie ballonnement, 0 mouvement
+   respi
+ - palpation++
+ - toucher pelvien++ (systématique)[fn:10]
+ - percussion : matité déclive/globe vésical/tympanisme (occlusion ou
+   pneumopéritoine)
+ - auscultation : silence, bruits hydroéariques, souffle abdo (anévrisme de
+   l'aorte)
 
 
+*** Examens complémentaires
+ - Biologie : NFS, CRP, iono, hémoc si fièvre, lipasémie, {transaminases, \gamma-GT,
+ phosphatases alcalines, bilirubine totale} si clinique, BU, \beta-HCG,
+ {hypercalcémie, acidocétose diabétique, insuf. surrénale aigüe}, TP-TCA et
+ Rh-RAI si hémorragie digestive
+ - ECG : infarctus antérieur, péricardite
+ - RX pulmonaire si cause pleurale, pulmonaire
+ - Echo si suspicion bilio-pancréatique, gynéco, urinaire, infection sous-abdo
+ - /Scanner abdo/ : 1ere intention si diverticulite sigmoïdienne, occlusion par
+   obstruction, sd péritonéal
+
+** Principaux tableaux
+Douleur biliaire ou colique hépatique
+- épigastre/hypochrondre droit (irradie épaule/omoplate droite)
+- forte intensité, plusieurs heures
+- aggravée par inspiration
+- signe de Murphy
+- causes : /complications lithiase bilaire/, K vésicule/voie biliaire
+  principale, parasite, hémobilie
+Douleur gastrique ou duodénale
+- épigastre, torsion sans irradiation
+- parfois très intense, 30min à plusieurs heures
+- calmée par aliments, anti-acides, pansements gastrique
+- EC normal ou douleur provoquée du creux épigastrique
+- causes : maladie ulcéreuse gastrique/duodénale, K gastrique, dyspepsie fonctionnelle
+Douleur colique
+- épigastre/en cadre/fosses illiaque,/hypogastre (irradie le long du cadre
+  colique)
+- qq minutes-qq heures
+- calmée par selles/gaz++, antispasmodique
+- examen : douleur en cadre (colique)
+- causes : troubles fonctionnels intestinaux, K côlon, colites
+  inflammatoires/infectieuses/ischémiques
+Douleur pancréatique
+- épigastre/sus-ombilical, crampe (irradie dos)
+- très intense, "coup de poignants", pluiseurs heures
+- déclenchée par repas gras, alcool
+- soulagée par antéflexion, aspirine
+- examen : douleur provoquée épigastrique/périombilicale
+- causes : pancréatite aigüe/chronique, K pancréas
+Ischémie intestinale aigüe = urgence avec pronostic vital \skull [fn:11]
+- y penser si terrain vasculaire
+- /douleur abdo/ : inaugurale aigǜe ou angor mésentérique puis diffuse rapidement
+  à tout l'abdomen. Intensite \inc{} sans répit
+- et /terrain à risque/
+- angioscanner multibarretes en urgence
+Ischémie intestinale chronique [fn:11]
+- artérite oblitérante, athéromateuse++, inflammoire/radique
+- angor mésentérique avec douleurs abdo chroniques diffuses postprandiales
+  précoces 1-3h
+- peur alimentaire
+- perte poids
+- âgé, terrain CV
+
+** Grandes causes
+Douleur épigastriques : 
+- ulcère (hyperalgique, perforation), pancréatite aigüe
+- biliaire (colique hépatique, migration lithiase, cholécystite)
+- autres : aorte [fn:12], cardiaque [fn:13], pulmonaire [fn:14], digestive [fn:15]
+
+Douleur de l'hypochondre droite :
+- hépatobilaire : colique hépatique, cholécystite, angiocholite, tumeur/abcès du
+  foie, affections héaptique
+- ulcère perforé, appendicite sous-hépatique, abcès sous-phrénique,
+  pulmonaire, urinaire
+
+Douleurs de l'hypochondre gauche (rare)
+- queue du pancréas, ulcère gastrique, gastrite aigǜe
+- sd de l'intestin irritable, diverticulite de l'angle colique gauche
+- splénique, pleuropulmonaire, urologique, abcès sous-phrénique
+
+Douleurs de l'hypogastre :
+- gynéco, urologique, colique
+- appendicite pelvienne, diverticule de Meckel, sd de l'intestin irritable
+
+Douleurs de la fosse illiaque droite :
+- chirurgicale : appendicite, diverticule de Meckel, diverticulite (côlon
+  droit/sigmoïde), hernie étranglée, grossesse extra-utérine, torsion
+  d'annexe/fibrome utérin, anévrisme artériel iliaque
+- médicale : sd de l'intestin irritable, adénolymphite mésentérique, torsion de
+  frange épiploïque, iléite, salpingite, kyste ovarien, cystite, colique
+  néphrétique, abcès/hématome du psoas/grand droit
+Douleurs de la fosse iliaque gauche
+- sd de l'intestin irritable, colite diverticulaire, colite, K côlon gauche
+  compliqué, fécalome
+- grossesse extra-utérine, torsion d'annexe/fibrome, salpingite, colique
+  néphrétique, pyélonéphrite, cystite
+- anévrisme artérial iliaque, abcès/hématome du psoas/grand droit
+Douleurs lombaires : 
+- urologique, appendicite rétrocaecale, abcès/hématome psoas, fissuration anévrisme de l'aorte, douleur rachis
+
+Douleurs abdominales diffuses 
+- péritonite, occlusion, ischémie/infarctus mésentérique, médicales (cf supra)
 
 
+** Douleurs pièges
+- IDM : douleur épigastrique, FR coronaire \thus ECG
+- Insuffisance surrénale : contexte, douleurs intenses diffuse, abdo souple, TR
+  indolore. HyperK, hypoglycémie. Urgence \skull
+- Hypercalcémie : urgence \skull
+- Acidocétose diabétique : diabète connu/situation révélatrice. Sd
+  polyuropolydipsique/trouble neur/Kussmau et haleine cétosique \thus
+  hyperglycémie, cétonurie, acidose
+- Acidocétose alcoolique : alcool et jeûne. Acidose métabolique, \inc corps
+  cétoniques, glycémie \dec
+- Maladie périodique (fièvre méditerranéenne) : jeune, ACTD crises. Sd
+  inflammatoire bio \thus mutation gène de la marénostrine
+- TRAPS sd \thus mutation gène TNFRSF1A
+- Sd hyper-IgD \thus doser IgD
+- Périhépatite : femme, péritonique, vénérienne. Sd inflammatoire, écho
+  hépatobiliaire normale.
+- Porphyrie hépatique aigüe intermittente : femme jeune avec
+  infection/médic. Urine rouge porto \thus doser acide delta aminolévulinique et PBG
+- Oedème angioneurotique : \oe{}dème récidivant dans l'enfants \thus diag = \dec
+  inhibiteur C1-estérase, C4, C3 normal
+- Sevrage opiacés, ingestion teoxiques, amphétamines, dérivés ergo de seigle,
+  intoxication au plomb
+- Purpura rhumatoïde 
+- Autre vascularite : y penser si purpura
+- Drépanocytose : stress, effort physique, soleil. Anémie, hyperleucocytose
+- Phéochromocytome : crise brutale avec douleurs montantes et se finit par envie
+  impérieuse d'uriner abondamment
+- Douleurs rachidiennes procjeté : zona, sd de Cyriax (compression du nerf intercostal)
 
 * Footnotes
+
+[fn:12] Dissection/anévrisme
+
+[fn:13] Péricardite, infarctus postéro-inf
+
+[fn:14] Pneumopathie infeciteuse, pleurésie
+
+[fn:15] Gastrite, oesophagite, appendicite aigüe
+
+[fn:11] Diagnostic difficile
+
+[fn:10] Douleur du cul-de-sac de Douglas : inflammation péritonéale
 
 [fn:9] Perte de plasma et protéines \thus hypoalbuminémie, oedèmes rapides
 
