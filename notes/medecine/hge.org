@@ -516,7 +516,88 @@ forcément normalisation Fe !!
 
 
 \printglossaries
+* 248 : Dénutrition
+Référence nutritionnelle pour la population (couvre besoin). Sinon : apport
+satisfaisant (apport moyen d'une population)
+
+Besoins
+- Eau : 2L/j \female{}, 2.5L/j \male{} (\approx 1L dans aliments)
+- Energie : 2400-2500 kcal (ou 35kcal/kg)
+  - base = 1500kcal/j \male{} (formule de Harris et Benedict)
+  - thermorégulation (< 5%), alimentation (10%)
+  - musculaire (15-30%), 150-200 kcal
+  - 1g glucide = 1g protide = 4 kcal; 1g lipide = 9 kcal, 1g alcool = 7 kcal
+- Nutriments : 10-20% protides, 35-40% lipides, 40-55% glucides avec 0.75 g/kg/j
+  de protides et acide linoléique et acide alphalinolénique
+- Minéraux, vitamines : calcium, fer, folates, vitamines A, B1, B12, C, E, D
+- Âgé : \inc ea, calcium, vitamine D, folate. 30 kcal/kg/j
+
+** Evaluation 
+Clinique : 
+- interrogatoire (contexte patho, activité physique, fatigabilité, poids
+  antérieur, anorexie, modification apports
+- EC : 
+  - épreuve du tabouret, \oe{}dèmes délives, peau, ongles, cheveux, lèvre,
+    langue, faciès, masse musculaire
+  - poids vs poinds antérieur et idéal. IMC $\in [18.5, 25] kg/m^2$ si < 70 ans
+    et $[21, 25] kg/m^2$ après[fn:7]
+  - épaisseur cutanées tricipitale, périmètre bras au milieu
+- Biologie : 
+  - créatinine urinaire sur 24h (\approx masse musculaire)
+  - albuminémie ($t_{1/2} = 20$ j) : \dec si malnutrition, fuite rénale/digestive[fn:8]
+  - transthyrétine ($t_{1/2} = 2$ j !)
+Evaluation : protéino-énergétique ou protéique, aigüe ou chronique, grave ?
+
+** Dénutrition
+Rechercher chez tout malade en début d'hospitalisation et toutes les semaines :
+- IMC insuffisant ou perte de poids de 2% (1 semaine) ou 5% (1 mois) ou 10% (6
+mis)
+- doser albuminémie
+
+Mécanisme = énergétique (balance énergétique négative), protéique (bilan azoté
+  négatif) ou mixte
+Causes : 
+- \dec apport alimentaire = énergétique (marasme). 
+  - Volontaire, dysphagie, trouble déglutition, troubles digestifs
+    post-prandiaux
+  - Maldigestion, malabsorption intestinale
+- Hypermétabolisme : affection septiques, néoplasique, inflammatoire
+  grave/étendues
+- Perte protéique anormale : cutanées, urinaires[fn:9]
+
+Conséquence : sévère et épuisement des réserves lipidiques \thus pronostiv vital
+!
+- muscle (sarcopénie) \thus \dec force musculaire, \inc fatigabilité, \dec
+  ventilation
+- réponse aux aggresion inadaptée
+
+PEC : 
+- supplémentation alimentaire : débit énergétique basal \time facteur
+- nutrition entérale (sonde dans tube digestif supérieur) par voie
+  nasogastrique, gastrostomie, jéjunostomie. 
+  - Bien tolérée
+  - Broncho-pneumopathie d'inhalaion \thus faible débit et positino demi-assise
+    (nuit++)
+  - 30 kcal/kg/j et 1.25 g/kg/j protéines chez dénutri chroniquue
+- nutrition parentérale : cathéter dans veine cave supérieure
+  - complication infectieuses (5-20% patients) cher, difficile à domicile
+À envisager si patho digestive, alimentation orale impossible/insuffisante,
+pré-opératoire si dénutri
+
+Privilégier nutrition entérale
+
+
+
+
+
+
 * Footnotes
+
+[fn:9] Perte de plasma et protéines \thus hypoalbuminémie, oedèmes rapides
+
+[fn:8] Ou hémodiluton, insuffisance hépatocellulaire, sd infectieux/inflammatoire
+
+[fn:7] \danger Obésité sarcopéniques
 
 [fn:6] Acide chlorhydrique garde Fe sous forme soluble
 
