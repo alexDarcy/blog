@@ -804,7 +804,7 @@ et coucher
 *** Chirurgie
 Fundoplicature complète (Nissen)
 
-* 269 : Ulcère gastrique et duodénaal
+* 269 : Ulcère gastrique et duodénal
 
 ** Ulcère gastrique et duodénal
 Déf: perte de substance en profondeur (jusque musculeuse). Chronique si socle
@@ -944,7 +944,72 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
   - sd de Zollinger-Ellison
 - Gastropathie radique (> 45 Gy) : multiples biopsies, chronicité possible
 
+* 270 : Dysphagie
+Déf : sensation de gêne/obstacle à la progression du bol alimentaire
+(déglutition). \ne odynophagie, striction cervicale (anxiété), anorexie, satiété
+précoce
+
+2 types : oropharyngé (cervicale) et \oe{}sophagienne (rétrosternal)
+
+** Dysphagie \oe{}sophagienne
+1. Interrogatoire : 
+   - anorexie, asthénie, /amaigrissement/, /localisation/, solides
+     ou liquide, brutal ou progressif, évolution, terrain (âge, /tabac-alcool/,
+     agents irritants, affection maligne), symptômes
+   - score d'Eckart pour quantifier
+2. Chercher lésion organique de l'\oe{}sophage :
+   - endoscopie OGD 1ere intention (toujours biopsie pour \oe{}sophagite à
+      éosinophiles !)
+   - autres : scanner thoracique (lésions médiastin), échoendoscopie (paro
+     \oe{}sophage), transit baryté de l'\oe{}sophage (K de l'\oe{}sophage,
+     diverticule, achalasie)
+3. Si endoscopie normale, chercher trouble moteur : manométrie \oe{}sophagienne
+(haute résolution)
+
+** Dysphagies lésionnelles 
+Prédomine sur les solides, s'aggrave, retentit état général. Sténoe organique en
+majorité.
+
+Principales lésions organiques :
+- sténoses tumorales
+  - carcinome épidermoïde (terrain alcool-tabac)
+  - adénocarcinome \oe{}sophagien sur endobrachy\oe{}sophage
+  - tumeurs bénignes de la paroi
+  - compression extrinsèque (tumeur, ADP médiastinale, carcinome bronchopulmonaire)
+- sténoses non tumorales
+  - peptique
+  - caustique
+  - post-radique
+  - après \oe{}sophagectomie
+  - après résection endoscopique étendue
+  - pendant \oe{}sophagite
+  - anneaux de Schatzki (aspect de diaphragme)
+  - sd de Plummer-Vinson/Kelly-Paterson
+  - compression extrinsèque (ADP, anomalie artérielle)
+- \OE{}sophagite sans sténoe : médicaments, à éosinophiles[fn:18], infectieuses
+  (ID)
+- Diverticule de Zenker
+
+
+** Dysphagies non lésionnelles
+Liquides et solides, fluctue dans le temps. Endoscopie souvent normales
+
+- Achalasie : trouble moteur d'origine inconnue avec relaxation du sphincter
+  inférieur de l'\oe{}sophage et sans contractions péristaltiques
+  - surtout les liquides, capricieuse, régurgitations. Endoscopie : \oe{}sophage
+    dilaté (stade évolué !), méga-\oe{}sophage, cardia en "bec d'oiseau"
+  - Anomalies manométriques \oe{}sophagienne : type I (défault relaxation de la
+    joncion), type II (pressurisation \oe{}sophage), type III (contractions
+    \oe{}sophagiennes prématurées)
+  - DD : toujours endoscopie (néoplasie !) : tumeur infiltrante du cardia
+- Autres troubles moteurs : 
+  - douleurs thoraciques peudo-angineuses : spasmes \oe{}sophagiens, \oe{}sophage
+    hypercontractile
+  - RGO et clairance oesophage \dec : péristaltisme inefficace ou absent 
+
 * Footnotes
+
+[fn:18] Endoscopie peut être normale !
 
 [fn:17] Anesthésie locale pharyngée/générale. Morbidité et mortalité faibles
 

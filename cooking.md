@@ -1,6 +1,8 @@
 ## Desserts 
-- Mille-feuille [de
-    Conticini](https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse)
+- Galette des rois [de Conticini]()https://www.youtube.com/watch?v=ETkk7QXbtlw
+Diviser quantité de crème par 2. Tester avec pâte feuilletée inversée
+
+- Mille-feuille [de Conticini](https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse)
 - Brioche ([Enviedebienmanger](http://www.enviedebienmanger.fr/fiche-recette/recette-brioche-pur-beurre)) : bonne consistance et bon aspect. Attention, 30min est un maximum.
     + 250 g de beurre gastronomique (+30 g pour beurrer les moules)
     + 10 cl de lait entier
@@ -39,6 +41,7 @@
     + 40g de sucre semoule
     + 500g de farine
 NB: préchauffer à 250, puis cuire 20min à 180. Laisser refroidir.
+Retenter recette de PPAP
 - Biscuit de Savoie ( [meilleur du chef](https://www.meilleurduchef.com/cgi/mdc/l/fr/recette/biscuit-savoie.html)) : cuire vraiment plus longtemps en bas du four. Bien beurrer et fariner.
 - Clafoutis aux pommes ([ptitecuisinedepauline](http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html)). Avec un peu plus de farine, on a un clafoutis bien compact.
 - Pâte à chou (Patisserie, Leçons pas-à-pas) : 45-50min de cuisson
