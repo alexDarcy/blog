@@ -2,6 +2,7 @@
 #+author: Alexis Praga
 
 #+latex_header: \input{header}
+#+latex_header_extra: \usepackage{adjustbox}
 #+latex_header_extra: \newacronym{DT}{DT}{Delirium tremens}
 #+latex_header_extra: \newacronym{ID}{ID}{Immunodéprimé}
 #+latex_header_extra: \newacronym{HSH}{HSH}{Hommes ayant des relations sexuelles avec des hommes}
@@ -16,6 +17,7 @@
 #+latex_header_extra:     PAs $\ge 130$ mmHg ou PAd $\ge 85$ mmHg, glycémie jeun $\ge$ 1 g/L
 #+latex_header_extra: }}
 #+latex_header_extra: \newacronym{RGO}{RGO}{Reflux gastro-oesophagien}
+#+latex_header_extra: \newacronym{IS}{IS}{Immunosuppresseurs}
 
 #+OPTIONS: H:4
 
@@ -160,17 +162,28 @@ Diagnostic:
 - dans tous les cas : CI médicaments hépatotoxiques, neurosédatifs, éviter
   contamination (VHA, VHE)
 
-#+caption: Hépatites virales, résumé
-|              | VHA                   | VHB                  | VHC         | VHD                | VHE         |
-|--------------+-----------------------+----------------------+-------------+--------------------+-------------|
-|              | Simple brin           | Double brin          | Simple brin | Simple brin        |             |
-|              | Sans enveloppe        | Enveloppe            |             | Enveloppe          |             |
-| Famille      | /Hepatovirus/         | /Hepadnavirus/       | /Flavirus/  |                    |             |
-| Transmission | Féco-orale, \acs{HSH} | périnatale, sexuelle | parentéral  | sang, sexuelle     |             |
-|              |                       | sang, contact        |             |                    |             |
-| Diagnostic   | IgM anti-VHA          | Ag HBs               | Ac antiVHC  | IgM/IgG anti-delta | IgM antiVHE |
-|              |                       |                      | \pm ARN     | ARN                |             |
-|              | \acs{DO}              | DO (aigüe)           |             |                    |             |
+
+
+
+
+#+begin_table
+#+LATEX: \caption{Hépatites virales, résumé}
+#+LATEX: \label{tab:my-table}
+#+LATEX: \centering
+#+LATEX: \adjustbox{max width=\linewidth}{
+#+ATTR_LATEX: :center nil
+|              | VHA                   | VHB                  | VHC             | VHD                | VHE           |
+|--------------+-----------------------+----------------------+-----------------+--------------------+---------------|
+|              | ARN simple brin       | ADN double brin      | ARN simple brin | ARN simple brin    | ARN           |
+|              | Sans enveloppe        | Enveloppe            |                 | Enveloppe          | monocaténaire |
+| Famille      | /Hepatovirus/         | /Hepadnavirus/       | /Flavirus/      |                    |               |
+| Transmission | Féco-orale, \acs{HSH} | périnatale, sexuelle | parentéral      | sang, sexuelle     |               |
+|              |                       | sang, contact        |                 |                    |               |
+| Diagnostic   | IgM anti-VHA          | Ag HBs               | Ac antiVHC      | IgM/IgG anti-delta | IgM antiVHE   |
+|              |                       |                      | \pm ARN         | ARN                |               |
+|              | \acs{DO}              | DO (aigüe)           |                 |                    |               |
+#+LATEX: }
+#+end_table
 
 ** VHA
 Incubation 2-6 semaines
@@ -178,7 +191,7 @@ Incubation 2-6 semaines
 Pas d'infection chronique !
 Vaccin efficace.
 
-Fréquent. Asymptotique et béninge le plus souvent
+Fréquent. Asymptotique et bénigne le plus souvent
 
 ** VHB
 2 milliards porteurs d'une infection (résolue ou non). 
@@ -187,6 +200,7 @@ Hépatite aigüe B :
 - incubation 6 sem. - 4 mois
 - Morbidité/mortalité : risque de cirrhose (20%) ou gls:CHC
 - \danger recherche VIH, IST, coinfection VHD.
+- chronique dans 5-10%
 
 Hépatite chronique B : Ag HBs positif > 6mois. 
 - asymptomatique jusqu'à cirrhose, CHC
@@ -197,10 +211,10 @@ Hépatite chronique B : Ag HBs positif > 6mois.
      anti-HBe
   4. hépatite B résolue : Ac anti-HBs
 - 40% de mutation
-- IS = risque de réactivation \skull
+- gls:IS = risque de réactivation \skull
 - CHC possible sans cirrhose \danger
 
-*** Traitement
+*** Traitement (chronique)
 ALD, PEC 100%
 
 Chercher cirrhose : hypertension portable (endoscopie \gls{OGD}), prévention
@@ -213,11 +227,11 @@ hémorragies digestives, dépistage CHC (écho abdo tous 6 mois)
 
 Indications :
 - ADN VHB > 2 000 UI/mL et transaminases > N ou fibrose hépatique modérée ou
-  activité modérée
+  activité modérée[fn:19]
 - ADN > 20 000 UI/mL et transaminases > 2N
 - cirrhose et ADN VHB
 - ACTD familiale de cirrhose/CHC ou atteinte extrahépatique
-- IS
+- ISN
 Pas indiqué en phase de "tolérance immunitaire" ou "non réplicative"
 
 Élasticité hépatique (Fibroscan) :
@@ -236,17 +250,17 @@ Vaccination :
 ** VHC
 Pas de vaccin !
 
-Cirrhose dans 10-20% à 20 ans. CHC 1-4% par an. Manifestations extrahépatiques
+Chronique dans 75-85%, cirrhose dans 10-20% à 20 ans. CHC 1-4% par an. Manifestations extrahépatiques
 
 Aigüe : 
 - incubation très variable (7-8 sem), souvent asymptomatique
 - ARN à +1 semaine
 - Ac anti-VHC à +12semaines
 
-Chronique : (sérologie positive, ARN détectable) > 6 mois. \danger ponoction
-biopside non recommandée sans comorbidités
+Chronique : (sérologie positive, ARN détectable) > 6 mois. 
+- \danger ponction biopside non recommandée [fn:20]\thus Fibrotest, Fibromètre Fibroscan
 
-*** Traitement
+*** Traitement (chronique)
 Cherche cirrhose (cf VHB).
 
 Guérison virologique.
@@ -262,7 +276,7 @@ Dépend du VHB !
 
 Co/sur-infection. Risque : cirrhose, CHC
 
-Ttt : interféron pégylé, peu efficace
+Ttt (chronique) : interféron pégylé, peu efficace
 
 ** VHE
 Incubation 3-8semaines, 3-4 jours pré-ictériques.
@@ -1008,6 +1022,11 @@ Liquides et solides, fluctue dans le temps. Endoscopie souvent normales
   - RGO et clairance oesophage \dec : péristaltisme inefficace ou absent 
 
 * Footnotes
+
+[fn:20] Sans comorbidités
+
+[fn:19] Avec le score Metavir : activité \ge A2 et fibrose \ge F2 (entre 0 et 3,
+entre 0 et 4 respectivement)
 
 [fn:18] Endoscopie peut être normale !
 
