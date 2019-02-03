@@ -1021,7 +1021,118 @@ Liquides et solides, fluctue dans le temps. Endoscopie souvent normales
     hypercontractile
   - RGO et clairance oesophage \dec : péristaltisme inefficace ou absent 
 
+* 271 : Vomissements
+Nausées et vomissement : souvent activation des SN sympathiques et
+parasympathiques
+
+DD : régurgitations (remontée sans effort), rumination/mérycisme (remontée
+volontaire)
+
+Physio: 
+- centre = substance réticulée du tronc cérébral
+- stimulation : plancher 4eme ventricule, cortex cérébral, vestibulaire, nerfs
+  vagues et sympathiques
+- efférences motrice
+
+Complications :
+- troubles hydroélectriques : déshydratation puis IR, hypochlorémie, alcalose
+  métabolique, hypoK
+- sd de Mallory-Weiss[fn:21] : vomissement puis hématémèse
+- rupture de la paroi de l'\oe{}sophage : exceptionnel, urgence \skull. Dyspnée,
+  emphysème SC, odynophagie \thus diag par TDM thoracique
+- inhalation bronchique avec pneumopathie
+- \oe{}sophagite
+- hémorragie sous-conjonctivale, fracture de côte, dénutrition, interrution ttt
+  oraux
+- encéphalopathie Gayet Wernicke : urgence, femmes enceintes
+
+Aigus si \ge 7 jours
+
+** Diagnostic
+ Sémiologie :
+- matin, à jeun, liquide un peu glaireux, haut-le-c\oe{}ur : alcool, médic,
+  tabac, grossesse
+- matin, en jets, sans nausée ni haut-le-c\oe{}ur : HTIC (rare)
+- postprandial, répétés, aliments nauséabonds partiellement digérés :
+  obstruction chronique GD organique/fonctionnelle
+- fécaloïdes : obstruction basse, fistule gastrocolique (exceptionnel)
+- perprandiaux/juste après repas : psychogène (par élimination !)
+- fin de journée : sd obstructif, avec nausées, balonnements, satiété, crampes
+
+Médicaments : antimitotiques, dérivés théophylline, digitaliques
+
+\begin{tcolorbox}
+Toujours penser à : grossesse, surdosage, intolérance médicaments/toxique, métabolique, HTIC
+\end{tcolorbox}
+
+Chercher complications, dénutrition, toxiques
+
+Si déshydratation, perte de poids, AEG, vomissement ou personnes à risque :
+- iono sanguin, NFS, urée, créat, iono urinaire
+- albuminémie, préalbuminuméie
+Si vomissements chronique : endoscopie EOG. Éventuellement : scinti de vidange
+gastrique, scanner (opacification digestive haute), IRM cérébrale
+
+*** Vomissements aigüs
+ Causes :
+ - abdominopelviennes :
+   - medicale : /gastroentérite virale, toxi-infection alimentaire/, hépatite
+     aigüe, sténose du pylore, colique hépatique/néphrétique
+   - chir : douleur biliaire, pancréatite aigüe, infarctus mésentérique, torsion
+     kyste de l'ovaire, grossesse extra-utérine
+ - médic
+ - neuro : vestibulaire, migraine, trauma cérébral, méningite, HTIC, hémorragie
+   méningée
+ - métabolique : acidocétose diabétique, IR aigüe[fn:22], hyperCa, hypoglycémie/malaise
+   vagal, insuf. surrénale aigüe, hypoNa, hyperthyroïdie
+ - autre : /grossesse/, postop, mal des transports, glaucome aigue[fn:22], IDM
+   inférieur[fn:22], radiothérapie, psychogène
+
+*** Vomissements chronique
+- Digestif supérieur : 
+  - mécanique : ulcère, K gastrique/duodénal, K pancréas, compression par
+    pseudo-kyste pancréatique
+  - fonctionnelle : gastroparésie, chir gastrique, vagotomie
+- Intestion, côlon :
+  - obstruction mécanique tumorale
+  - sténose mécanique non tumorale
+  - fonctionnelle 
+- SNC : HTIC, épilepsie
+- Psychogène
+- Autres : cataméniaux[fn:23], sd des vomissements cyclique[fn:24], sd d'hyperemesis aux cannabinoïdes
+Grossesse
+- 1er trimestre : fréquents, physiologique si pas d'AEG. Hyperemesis gravidarum
+  (forme grave) : anomalies disparaissent à l'arrêt
+- 3eme trimestre : non lié ou {stéatose aigüe gravidique, prééclampsie} =
+  urgences \skull
+Chimio : aigü (< 24h), retardés, anticiéps
+
+** Traitement
+Hospitalisation urgrente : urgence médicale/chir/obstétricale, trouble
+hydroélectriques, trouble conscience, réhydratation orale impossible, ttt oral
+indispensible impossible, décompensation, complication
+
+Symptomatique :
+- réhydratation per os/IV
+- sonde gastrique si risque d'inhalation
+- surveillance (déshydratation, FC, PA, diurèse, iono sanguin)
+- médic: 
+  - métoclopramide (neuroleptique, \in benzamides) : CI : dyskinésie des
+    neuroleptiques, phéochromocytome, alcool, lévodopa
+  - dompéridone (neuroleptique, \in butyrophénones)
+  - métopimazine (\in phénothiazines)
+- chimio : anti-5-HT3, aprépitant, corticoïdes, métoclopramide, alizapride
+
+
 * Footnotes
+
+[fn:24]  Sans organicité ni toxiques
+
+[fn:23] Pendant menstruations
+
+[fn:22] Piège !
+
+[fn:21] Déchirurge longitudinale du cardia
 
 [fn:20] Sans comorbidités
 
