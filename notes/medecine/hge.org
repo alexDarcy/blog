@@ -18,6 +18,8 @@
 #+latex_header_extra: }}
 #+latex_header_extra: \newacronym{RGO}{RGO}{Reflux gastro-oesophagien}
 #+latex_header_extra: \newacronym{IS}{IS}{Immunosuppresseurs}
+#+latex_header_extra: \newacronym{HMG}{HMG}{Hépatomégalie}
+#+latex_header_extra: \newacronym{SMG}{SMG}{Splénomégalie}
 
 #+OPTIONS: H:4
 
@@ -1130,8 +1132,124 @@ Symptomatique :
   - métopimazine (\in phénothiazines)
 - chimio : anti-5-HT3, aprépitant, corticoïdes, métoclopramide, alizapride
 
+* 273 : Hépatomégalie, masse abdo
+
+** gls:HMG
+Projection ligne médio-claviculaire > 12cm[fn:10]. Écho abdominable si besoin.
+
+DD : tumeur du rein/angle colique droit/estomac/pancreas => mobile avec
+respiration échographie
+
+#+caption: Causes d'HMG
+| Augmentation de volume | Causes                                                                       |
+|------------------------+------------------------------------------------------------------------------|
+| diffuse, homogène      | hépatite, cirrhose                                                           |
+|                        | stéatose, stéatohépatique \hfill [foie hyperéchogène, alcool/sd métabolique] |
+|                        | cholestase prolongée \hfill [ictère cholestatique/voie biliaires dilatées]   |
+|                        | foie cardiaque \hfill [veines hépatiques dilatées]                           |
+|                        | sd Budd-Chiari, surcharge en fer, abcès du foie, autres                      |
+| sectorielle, homogène  | cirrhose, autres                                                             |
+| hétérogène             | cirrhose, tumeurs bénignes (kyste biliaire simple/hydatique)                 |
+|                        | polykystose hépatique, abcès du foie                                         |
+|                        | tumeurs malignes (métastases foie, CHC, autres)                              |
+
+*** Moyens diagnostiques :
+**** Clinique
+ATCD, symptômes, FR maladie du foie. Et :
+- foie douloureux, sd inflammaatoire
+- angiomes stellaires, hypertension portale[fn:29]
+- reflux hépatojugulaire, expansion systolique du foie
+NB foie cirrhotique = dur
+
+**** Écho
+sans attendre ! : diffuse/sectorielle, homogène/hétérogène, cirrhose,
+stéatose, insuf cardiqaue droite, dilatation voies biliaires intrahépatiques
+
+**** Autres :
+- hémogrammes, {transaminases, phosphatases alcalines, \gamma-GT, TP,
+  bilirubinémie, électrophorèse des protéines plasmatique[fn:30]
+- écho Doppler/contraste, TDM, IRM, écho cardiaque si besoin
+- ponction-biopsie hépatique si cause introuvable [fn:31]
+
+*** Démarche : HMG hétérogène
+1. Maladie chronique du foie ?
+2. Si oui, CHC ? (centre spécialisé)
+3. Sinon : 
+   - lésion kystique : si liquidienne sans paroi ni cloison \thus kyste biliaire
+     symple. Sinon centre spécialisé
+   - tumeur solide :
+     - rehaussement périphérie - centre : hémangiome bénin
+     - rehaussement périphérie (temps artériel) : abcès/tumeur nécrosée
+     - rehaussement : métastase/adénome hépatocellulaire
+     - rehaussement (temps artériel) :  CHCH ou autre \thus milieu spé
+
+** Masse abdominale
+Interrogatoire : découverte, date et évolution, SF, ATCD med et chir, ttt
+(anticoag)
+
+Examen : éliminer éventration, hernies, distension abdo. Localisation, taille,
+forme, contours, consistante, mobile, percussion, auscultation (souffe).
+Cherche métastase
+
+Imagerie : écho abdo en 1ere intention. /TDM = examen clé/ [fn:32]
+
+** Hypothèses
+Épigastre :
+- tumeur gastrique : masse pierreuse, AEG, signes digestifs hauts \thus diag =
+  endoscopie + biopsies
+- tumeur pancréatique : tête = ictère, prurite, corps = douleurs solaires, queu
+  = masse épigastrique/hypochondre gauche. AEG
+- pseudo-kyste du pancréas : contexte pancréatite
+Hypochondre droit
+- HMG
+- Grosse vésicule [fn:33] : tumeur maligne pancréatique (ictère précédé d'un
+  prurit, hydrocholécyste (écho = diag), cholécystite aigüe (fébrile), tumeur
+  maligne d la vésicule (masse dure, fixée, irrégulière)
+- Autre : lésion angle colique D, rein D, surrénale D
+Hypochondre gauche :
+- gls:SMG : s'abaisse à l'inspiration, bord antérieur crénelé
+- queue du pancréas, angle colique gauche, grosse tubérosité gastrique, rein
+  gauche
+Fosse iliaque droite :
+- tumeur du c\ae{}cum : masse abdo, anémie ferriprive, méléna \thus diag =
+  coloscopie + biopsie
+- appendicite : si abcès, tuméfaction douloureuse fixée, fébrile. TDM si besoin
+- Crohn avec abcès
+- kyste de l'ovaire
+Fosse iliaque gauche
+- sigmoïdite avec abcès périsigmoïdien : douleur fosse iliaque gauche, troubles
+  transit, fièvre \thus diag = TDM
+- tumeur sigmoïdienne, kyste de l'ovaire
+Région ombilicale
+- anévrisme de l'aorte abdo : tuméfaction, battante, souffle systolique \thus
+  diag  angioscanner
+- K côlon transverse, tumeurs du grêle, tumeur mésentérique
+Flancs : lésions rénale, psoas
+
+Hypogastre : éliminer fécalome, globe vésical, grossesse
+- fibromyome utérine : ménorragie, pesanteur pelvienne, pollakiurie. Masse
+  régulière, bien limitée, ferme indolore \thus diag = écho pelvienne
+- K endomètre : métrorragie post-ménopausique \thus diag = gynéco + biopsie
+- tumeur de l'ovaire : douleur pelvienne, pesanteur, ascite, palpation masse
+  pelvienne
+
+Ubiquitaire : tuméfaction pariétale, nodules de carcinose péritonéale, ADP, corps étranger
 
 * Footnotes
+
+[fn:33] Non palpable à l'état normal
+
+[fn:32] Éliminer grossesse !
+
+[fn:31] Pas pas voie transpariétale/transcapulaire si troubles de l'hémostase
+non corrigés/dilatation diffues des voies biliaires intra-hépatiques/ascite
+
+[fn:30] Et si besoin : hépatetites virales/auto-immunes, surcharge en fere,
+amibiases (abcès), hydatidose (kyste)
+
+[fn:29] Maladie chronique du foie
+
+[fn:10] Entre limite supérieure (percussion) et bord inférieur (palpation)
 
 [fn:28] /Entamoeba histolytica/
 
