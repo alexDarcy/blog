@@ -286,33 +286,33 @@ Chez l'ID, chercher ARN pour diagnostic
 
 * 168 : Parasitoses digestives
 
-** Téniasis : 
+** Téniasis : cf Tab [[taenia_table]]
+#+name: taenia_table
 #+caption: Caractéristiques des /Taenia/
-|            | /saginata/                       | /solium/                            | /hymenolepsis/       | /Diphyllobothrium/   |
-|            |                                  |                                     | /nana/               | /latum/              |
-|------------+----------------------------------+-------------------------------------+----------------------+----------------------|
-| Caract     | Anneaux, 4-10m,                  | \danger{} cysticercose\footnotemark | Petit                | 10-15m, 10 ans       |
-|            | intestin grêle                   |                                     |                      |                      |
-| Contam.    | Boeuf mal cuit                   | Porc mal cuit                       |                      | Poisson mal cuit     |
-| Clinique   | Latent                           |                                     |                      |                      |
-| Diagnostic | Anneaux selles/vêtement          | Sérologie                           | \OE{}ufs dans selles | \OE{}ufs dans selles |
-|            | EPS                              | \pm biopsie-exérèse                 |                      |                      |
-| Ttt        | Niclosamide                      | Albendazole                         | Niclosamidel         | Niclosamide          |
-|            | praziquantel                     | praziquantel                        | praziquantel         | praziquantel         |
-|            |                                  | (+cortico si cérébral)              |                      |                      |
-| Prévention | Cuisson/congélateur\footnotemark |                                     | hygiène des main     | Cuisson              |
-|            |                                  |                                     |                      |                      |
+|            | /saginata/                                       | /solium/                                                                                                                        | /hymenolepsis/       | /Diphyllobothrium/   |
+|            |                                                  |                                                                                                                                 | /nana/               | /latum/              |
+|------------+--------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+----------------------+----------------------|
+| Caract     | Anneaux, 4-10m,                                  | \danger{} cysticercose\tablefootnote{Larves dans tissus SC, muscle, oeil, cerveau (HTIC, épilepsie !), moelle épinière \danger} | Petit                | 10-15m, 10 ans       |
+|            | intestin grêle                                   |                                                                                                                                 |                      |                      |
+| Contam.    | Boeuf mal cuit                                   | Porc mal cuit                                                                                                                   |                      | Poisson mal cuit     |
+| Clinique   | Latent                                           |                                                                                                                                 |                      |                      |
+| Diagnostic | Anneaux selles/vêtement                          | Sérologie                                                                                                                       | \OE{}ufs dans selles | \OE{}ufs dans selles |
+|            | EPS                                              | \pm biopsie-exérèse                                                                                                             |                      |                      |
+| Ttt        | Niclosamide                                      | Albendazole                                                                                                                     | Niclosamidel         | Niclosamide          |
+|            | praziquantel                                     | praziquantel                                                                                                                    | praziquantel         | praziquantel         |
+|            |                                                  | (+cortico si cérébral)                                                                                                          |                      |                      |
+| Prévention | Cuisson/congélateur\tablefootnote{> qq semaines} |                                                                                                                                 | hygiène des main     | Cuisson              |
 
-\footnotetext{> qq semaines}
-\footnotetext{Larves dans tissus SC, muscle, oeil, cerveau, moelle épinière \danger}
 
-** Ascaridiose
+
+** Ascaridiose[fn:25]
 
 Pays tropicaux hygène insuffisante
 
 Ingestion \oe{}ufs
 
-Clinique selon nb de parasites : signes allergiques, sd de Löffler[fn:3]
+Phase de migration : signes allergiques, sd de Löffler[fn:3]. Phase d'état :
+troubles digestifs
 
 Complications : appendicite, angiocholite, pancréatite, occlusion intestinale
 
@@ -320,9 +320,9 @@ Diag: \oe{}ufs dans selles (+2 mois)
 
 Ttt : flubendazole, albendazole
 
-Prév: lavage mains, fruits, crudités, péric fécal
+Prév: lavage mains, fruits, crudités, péril fécal
 
-** Oxurose
+** Oxyurose [fn:26]
 
 Fréquent (enfants âge scolaire)
 
@@ -332,7 +332,7 @@ Diag : vers blancs mobiles dans selles/Scotch test
 
 Ttt : flubendazole, albendazole, pyrantel. Traiter toute la communaute !
 
-** Giardiose
+** Giardiose[fn:27]
 
 Ingestion eau, aliments contaminés, féco-oral
 
@@ -340,7 +340,7 @@ Clinique :
 - asymptomatique
 - atypique : {brutal, selles nbs liquide, douleurs épigastriques}
 - subaigu/chronique (mois/année)
-- malabsorption et dénutrition si massif
+- malabsorption et dénutrition si déficit immunitaire
 
 Diag : kystes/gls:trophozoïtes à l'EPS. \times{} 3 si besoin. Biopsie duodénale
 si chronique
@@ -349,21 +349,19 @@ Ttt : métronidazole (contrôle + 1mois)
 
 Prév : hygiène eau, boisson, aliments
 
-** Am\oe{}bose
+** Am\oe{}bose[fn:28]
 
-Une des parasitoses les	plus fréquentes
-
-Kyste ou trophozoïtes.
+Une des parasitoses les	plus fréquentes. Kyste ou trophozoïtes.
 
 Cont: féco-orale[fn:4]
 
-Dissémination par vois sanguine depuis tube digestif : atteinte intestinale
+Dissémination par voie sanguine depuis tube digestif : atteinte intestinale
 (tous âges) ou foie (\male{} 20-50 ans), poumons, cerveau
 
 Forme intestinale 
 - (sub)Aigue, diarrhée non hémorragiques, douleurs abdo, sans fièvre ni AEG
 - Autres formes : dysentérique aigüe, fébrile, colite aigüe grave amibienne
-  ==urgence \skull
+  = urgence \skull
 
 Forme hépatique : rare, collection purulente, après am\oe{}bose intestinale
 - qq jours, fièvre élevée, frissons, douleur hypochondre droit/scapula droit
@@ -377,7 +375,7 @@ Forme hépatique : rare, collection purulente, après am\oe{}bose intestinale
 Intestinale
 - EPS : seulement kyste, et confusion /Entamoeba histolycita/ et /dispar/ (non
   patho)
-- biopsie des lésion : "boutons de chemise", sérologies
+- endoscopie : "boutons de chemise", sérologies (sur biopsie)
 Hépatique
 - sérologie et clinique et écho typique \approx certittude
 - répéter si séro négative. Si négative et sans argument : ponction avec écho
@@ -609,7 +607,7 @@ Privilégier nutrition entérale
  (bilio-pancréatique), OGE (urologique)
 
  Installation : brutale (perforation, embolie, rupture), rapide (obstacle,
- ischémie, torsion), progressive (inflamation, infeciton, obstruction)
+ ischémie, torsion), progressive (inflamation, infection, obstruction)
 
  Exacerbé par marche, inspiration et calmée par décubitus : inflammation
  intra-abdominale), soulagement par l'alimentation (ulcère), antéflexion
@@ -626,22 +624,31 @@ Privilégier nutrition entérale
    corticoïdes
 
 *** Examen
+\begin{tcolorbox}
+Toujours chercher : cicatrice abdo, hernie, défense/contracture, toucher pelviens
+\end{tcolorbox}
+
  - Fièvre, FC, PA, choc
  - Ictère, pâleur, cyanose, cicatrice abdo++, hernie ballonnement, 0 mouvement
    respi
  - palpation++
- - toucher pelvien++ (systématique)[fn:10]
  - percussion : matité déclive/globe vésical/tympanisme (occlusion ou
    pneumopéritoine)
- - auscultation : silence, bruits hydroéariques, souffle abdo (anévrisme de
+ - auscultation : silence, bruits hydroaériques, souffle abdo (anévrisme de
    l'aorte)
+NB : irritation péritonéale : douleur à la décompression, défense/contracture
+abdo, douleur toucher pelvien
 
 
 *** Examens complémentaires
+\begin{tcolorbox}
+Aux urgences, penser : BU, \beta-HCG, ECG (IDM, péricardite)
+\end{tcolorbox}
+
  - Biologie : NFS, CRP, iono, hémoc si fièvre, lipasémie, {transaminases, \gamma-GT,
- phosphatases alcalines, bilirubine totale} si clinique, BU, \beta-HCG,
- {hypercalcémie, acidocétose diabétique, insuf. surrénale aigüe}, TP-TCA et
- Rh-RAI si hémorragie digestive
+   phosphatases alcalines, bilirubine totale} si clinique, BU, \beta-HCG,
+   {hypercalcémie, acidocétose diabétique, insuf. surrénale aigüe}, TP-TCA et
+   Rh-RAI si hémorragie digestive
  - ECG : infarctus antérieur, péricardite
  - RX pulmonaire si cause pleurale, pulmonaire
  - Echo si suspicion bilio-pancréatique, gynéco, urinaire, infection sous-abdo
@@ -759,7 +766,7 @@ Douleurs abdominales diffuses
 - Drépanocytose : stress, effort physique, soleil. Anémie, hyperleucocytose
 - Phéochromocytome : crise brutale avec douleurs montantes et se finit par envie
   impérieuse d'uriner abondamment
-- Douleurs rachidiennes procjeté : zona, sd de Cyriax (compression du nerf intercostal)
+- Douleurs rachidiennes projetées : zona, sd de Cyriax (compression du nerf intercostal)
 
 * 268 : Reflux gastro-\oe{}sophagien
 
@@ -1126,6 +1133,14 @@ Symptomatique :
 
 * Footnotes
 
+[fn:28] /Entamoeba histolytica/
+
+[fn:27] /Giardia intestinalis/
+
+[fn:26] /Enterobius vermicularis/
+
+[fn:25] /Ascaris lumbricoides/
+
 [fn:24]  Sans organicité ni toxiques
 
 [fn:23] Pendant menstruations
@@ -1154,8 +1169,6 @@ entre 0 et 4 respectivement)
 [fn:15] Gastrite, \oe{}sophagite, appendicite aigüe
 
 [fn:11] Diagnostic difficile
-
-[fn:10] Douleur du cul-de-sac de Douglas : inflammation péritonéale
 
 [fn:9] Perte de plasma et protéines \thus hypoalbuminémie, \oe{}dèmes rapides
 
