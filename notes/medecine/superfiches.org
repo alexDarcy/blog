@@ -1,0 +1,50 @@
+#+title: Superfiches
+#+author: Alexis Praga
+
+#+latex_header: \input{header}
+* Cardiologie
+** 218 : Athérome
+1ere cause mortalité dans monde.
+
+Prévention : aspirine, statines, antihypertenseurs
+
+Si rupture de plaque : aspirine, clopidogrel, héparine 
+
+Localisations : coronaires, aorte, carotides, artères MI
+
+Prévention secondaire : aspirine/clopidogrel, statines, IEC/ARA II
+
+** 219 : Facteur de risques cardio-vasculaires
+** 220 : Dyslipidémies
+** 334 : Syndromes coronariens aigüs
+** 228 : Douleur thoracique aigüe
+** 223 : Artériopathie oblitérante (aorte, MI)
+** 231 : Rétrécissement aortique
+** 231 : Insuffisance mitrale
+** 231 : Insuffisance aortique
+** 150 : Surveillance des porteurs de valves, prothèses vasculaires
+** 149 : Endocardite infectieuse
+** 236 : Souffle cardiaque chez l'enfant
+** 337 : Malaise, perte de connaissance
+** 230 : Fibrillation atriale
+** 234 : Troubles de la conduction intracardiaque
+** 229 : ECG
+** 235 : Palpitations
+** 232 : Insuffisance cardiaque
+** 222 : HTA pulmonaire artérielle
+** 199 : Dysnée aigüe et chronique
+** 224 : Thrombose veineuse profonde et embolie pulmonaire
+** 221 : Hypertension artérielle
+** 225 : Insuffisance veineuse chronique
+** 233 Péricardite aigüe
+** 327 : Arrêt cardiocirculatoire
+** 264 : Diurétiques
+#+caption: Diurétiques
+| Type                   | Molécule               | Indication                | ES                    |
+|------------------------+------------------------+---------------------------+-----------------------|
+| de l'anse              | furosémide             | insuf cardiaque, IR       | hypoK, déshydratation |
+|                        |                        | \oe{}dème/ascite cirrhose |                       |
+| thiazidique            | hydrochlorothiazidique | HTA                       | hypoK                 |
+| épargnant le potassium | spironolactone         | Insuf cardiaque, HTA      | hyperK, IR            |
+
+** 326 : Antithrombotiques
