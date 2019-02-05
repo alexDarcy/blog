@@ -2,6 +2,7 @@
 #+author: Alexis Praga
 
 #+latex_header: \input{header}
+#+latex_header_extra: \usepackage{adjustbox}
 * Cardiologie
 ** 218 : Athérome
 1ere cause mortalité dans monde.
@@ -15,8 +16,39 @@ Localisations : coronaires, aorte, carotides, artères MI
 Prévention secondaire : aspirine/clopidogrel, statines, IEC/ARA II
 
 ** 219 : Facteur de risques cardio-vasculaires
+FR : LDL > 1.6G/L, HDL < 0.4g/L, tabac[fn:1], âge[fn:2], tension \ge 140/90, diabète, ATCD
+coronaires familiaux[fn:3]
+
+Objectifs : tension < 140/90, LDL < 1g/L
 ** 220 : Dyslipidémies
+Haut risque : maladie vasculaire/coronaire, diabète 2 et atteinte rénale,
+$p(\text{evt coronaire à 10 ans}) > 0.2$
+
+Ttt : hypercholestorémie, hyperlipidémies mixtes : statines. Hypertriglycéridémie : fibrate si TG > 4g/L
 ** 334 : Syndromes coronariens aigüs
+#+begin_table
+#+LATEX: \caption{SCA}
+#+LATEX: \centering
+#+LATEX: \adjustbox{max width=\linewidth}{
+#+ATTR_LATEX: :center nil
+| Type         | douleur            | PEC                    | Ttt                                   |
+|--------------+--------------------+------------------------+---------------------------------------|
+| Angor stable | angineuse          | ECG d'effort           | Dérivés nitrés (crise)                |
+|              | à l'effort         |                        | Aspirine, \beta-bloquants             |
+|              | trinitro-sensible  |                        |                                       |
+| SCA sans ST  | angineuse          | \faHospitalO{} urgente | Aspirine, inhib PY12                  |
+|              | spontanée > 20min  | ECG, troponine         | , héparine, \beta-bloquants, statines |
+|              |                    |                        | Angioplastie percut.                  |
+| SCA ST+      | angineuse          | ECG                    | Angioplastie si < 120min              |
+|              | repos > 30min/jour |                        | Sinon FIV                             |
+|              | trinitro-sensible  |                        | Morphine, $O_2$, aspirine             |
+|              |                    |                        | , inhib P2Y12, héparine (crise)         |
+#+LATEX: }
+#+end_table
+ST- : sous-ST pendant la douleur \ge 1 mm dans 2 dérivations contigües
+
+ST+ : sus-ST \ge 2mm ($V_1$ à $V_6$) ou \ge 1mm (autres) dans 2 dérivations contigües
+
 ** 228 : Douleur thoracique aigüe
 ** 223 : Artériopathie oblitérante (aorte, MI)
 ** 231 : Rétrécissement aortique
@@ -48,16 +80,30 @@ Prévention secondaire : aspirine/clopidogrel, statines, IEC/ARA II
 | épargnant le potassium | spironolactone         | Insuf cardiaque, HTA      | hyperK, IR            |
 
 ** 326 : Antithrombotiques
-| Type              | Action                             | Indication                 | Dangers                       |
-|-------------------+------------------------------------+----------------------------+-------------------------------|
-| Antiagrégants     | aspirine                           | AVC, coronaropathie        |                               |
-|                   | clopidogrel, prasugrel, ticagrelor | SCA, post-angio coronaires | hémorr. cérébrale (prasugrel) |
-| Héparines         | HNF, HBPM                          | urgence : TVP, EP, SCA     | \danger hémorragie            |
-|                   |                                    |                            | \danger thrompopénie          |
-| Anti-vit. K       | Oral, relais héparine              | FA, TVP, EP                | \danger hémorragie            |
-|                   |                                    | valve cardiaque            |                               |
-| Nv anticoag oraux | dabigatran, rivaroxaban, apixaban  |                            | Surv. rein                    |
-|                   | rapide, 0 antidote                 |                            |                               |
-| Thrombolytique    |                                    | EP grave, AVC < 6h30       |                               |
-|                   |                                    | IDM < 6-12h                |                               |
+#+begin_table
+#+LATEX: \caption{Antithrombotiques}
+#+LATEX: \centering
+#+LATEX: \adjustbox{max width=\linewidth}{
+#+ATTR_LATEX: :center nil
+| Type              | Action                                                                | Indication                 | Dangers                         |
+|-------------------+-----------------------------------------------------------------------+----------------------------+---------------------------------|
+| Antiagrégants     | aspirine                                                              | AVC, coronaropathie        |                                 |
+|                   | /clopidogrel, prasugrel, ticagrelor/\tablefootnote{Inhibiteurs P2Y12} | SCA, post-angio coronaires | hémorr. cérébrale (prasugrel)   |
+| Héparines         | HNF, HBPM, /fondaparinux/                                             | urgence : TVP, EP, SCA     | \danger hémorragie, thrompopénie |
+| Anti-vit. K       | Oral, relais héparine                                                 | FA, TVP, EP                | \danger hémorragie              |
+|                   |                                                                       | valve cardiaque            |                                 |
+| Nv anticoag oraux | /dabigatran, rivaroxaban, apixaban/                                   |                            | Surv. rein                      |
+|                   | rapide, 0 antidote                                                    |                            |                                 |
+| Thrombolytique    |                                                                       | EP grave, AVC < 6h30       |                                 |
+|                   |                                                                       | IDM < 6-12h                |                                 |
+#+LATEX: }
+#+end_table
+
+* Footnotes
+
+[fn:3] Père < 55 ans, mère < 65 ans
+
+[fn:2] > 50 ans \male{}, > 60 ans \female{}
+
+[fn:1] Arrêt < 3 ans
 
