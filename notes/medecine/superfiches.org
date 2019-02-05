@@ -48,3 +48,16 @@ Prévention secondaire : aspirine/clopidogrel, statines, IEC/ARA II
 | épargnant le potassium | spironolactone         | Insuf cardiaque, HTA      | hyperK, IR            |
 
 ** 326 : Antithrombotiques
+| Type              | Action                             | Indication                 | Dangers                       |
+|-------------------+------------------------------------+----------------------------+-------------------------------|
+| Antiagrégants     | aspirine                           | AVC, coronaropathie        |                               |
+|                   | clopidogrel, prasugrel, ticagrelor | SCA, post-angio coronaires | hémorr. cérébrale (prasugrel) |
+| Héparines         | HNF, HBPM                          | urgence : TVP, EP, SCA     | \danger hémorragie            |
+|                   |                                    |                            | \danger thrompopénie          |
+| Anti-vit. K       | Oral, relais héparine              | FA, TVP, EP                | \danger hémorragie            |
+|                   |                                    | valve cardiaque            |                               |
+| Nv anticoag oraux | dabigatran, rivaroxaban, apixaban  |                            | Surv. rein                    |
+|                   | rapide, 0 antidote                 |                            |                               |
+| Thrombolytique    |                                    | EP grave, AVC < 6h30       |                               |
+|                   |                                    | IDM < 6-12h                |                               |
+
