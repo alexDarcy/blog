@@ -10,6 +10,7 @@ Fiches
 [Nutrition](medecine/nutrition.pdf) (ébauche)  
 [Pneumologie](medecine/pneumologie.pdf)  
 [Ophtalmologie](medecine/ophtalmo.pdf)  
+[Superfiche](medecine/superfiche.pdf)
 
 ## Histoire
 

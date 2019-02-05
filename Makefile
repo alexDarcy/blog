@@ -14,11 +14,7 @@ build:
 	${STACK} exec blog build
 
 MED=notes/medecine
-NOTES_ORG= \
-${MED}/douleur.org\
-${MED}/hge.org\
-${MED}/endocrino.org\
-${MED}/ophtalmo.org
+NOTES_ORG= $(wildcard ${MED}/*.org)
 
 # Some note are still in latex
 NOTES_TEX= \
