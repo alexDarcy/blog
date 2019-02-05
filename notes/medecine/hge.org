@@ -1,4 +1,6 @@
 #+title: HGE
+#+latex_header_extra: \newacronym{CPRE}{CPRE}{Cholangio-pancréatographie rétrograde endoscopique}
+
 #+author: Alexis Praga
 
 #+latex_header: \input{header}
@@ -20,6 +22,7 @@
 #+latex_header_extra: \newacronym{IS}{IS}{Immunosuppresseurs}
 #+latex_header_extra: \newacronym{HMG}{HMG}{Hépatomégalie}
 #+latex_header_extra: \newacronym{SMG}{SMG}{Splénomégalie}
+#+latex_header_extra: \newacronym{VBP}{VBP}{Voie biliaire principale}
 
 #+OPTIONS: H:4
 
@@ -1235,7 +1238,82 @@ Hypogastre : éliminer fécalome, globe vésical, grossesse
 
 Ubiquitaire : tuméfaction pariétale, nodules de carcinose péritonéale, ADP, corps étranger
 
+* 274 : Lithiases biliaires
+Fréquence : 20% (Occident) et 60% après 80 ans.
+
+3 types :
+- calculs cholestéroliques : 
+  - favorisés par \inc sécrétion biliaire de
+    cholestérol, défaut des facteurs le solubilisant, rétention vésiculaire
+  - FR : âge, \female, surpoids, multiparité, jeûne prolongé, ethines, hyperTG,
+    certains médic
+- pigmentaire : déconjugaison bilirubine. FR = \inc production bilirubine,
+  infection ou obstacles biliaires
+- mixtes
+
+/Pas de dépistage/
+
+** Lithiase vésiculaire symptomatique
+Typique = colique hépatique : douleur brutale, permanente, épigastre ou
+hypochondre droit, irradiant vers l'épaule/fosse lombaire droite, qq min à qq
+heures. Chercher un signe de Murphy
+
+Bio = RAS. /Échographie/
+
+** Lithiase vésiculaire compliquée
+
+*** Cholécystite aigüe[fn:34]
+Sd infectieux, douleur hypochondre droit _> 6h_ (> 24h), frissons \pm défense,
+contracture (= grave)
+
+Bio : hyperleucocytose à PNN, hépatique normal
+
+Imagerie : écho : paroi vésiculaire > 4mm
+
+Complications : 
+- gangrène paroi vésiculaire \thus perforation dans le foie ou
+  péritoine
+- ileus biliaire[fn:35], sd Mirizzi[fn:36], K vésiculaire
+
+
+*** Migration lithiasique
+Douleur colique sans fièvre. \inc _transitoire_ transaminases
+
+*** Angiocholite aigüe
+Infection aigùe gls:VBP (généralement calcul, parfois parasite). Sous 48h :
+/douleur biliaire, fièvre, ictère/.
+Sd infectieux parfois sévère
+
+Bio : _\inc bilirubine conjugée, \inc transaminases_, hyperleucocytose PNN
+
+Écho (moyennement sensible) : cholangio-IRM, échoendoscopie (sensibles) 
+
+Complications : choc septique, + IR
+
+*** Pancréatite aigüe (cf chap)
+
+** Traitement
+- Asymptomatique : non
+- Colique hépatique : \danger urgence : antispasmodique, antalgiques,
+  anti-inflammatoire. Puis cholécystectomie < 1 mois
+- Cholécystite aigüe : remplissage vasc, ATB proba (germe digestif : (amoxicilline+
+  acide clavulanique) ou (CG3 + imidazolé)) puis adaptée. antalgique.
+  Cholécystectomie < 72h 
+- Angiocholite : immédiatement ATB proba, décompression dans 24h (voire urgente si
+  ne répond pas) \thus gls:CPRE 1ere intention (extraction du calcul par
+  sphinctérotomie, 5-10% de complications)
+- Calculs VBP hors angiocholite : calculs prédictifs, différentes approches
+- Pancrétite aigüe biliaire : si angiocholite aigüe en plus, ATB et extraction
+  calculs < 24h
+
 * Footnotes
+
+[fn:36] Gros calcul dans le collet vésiculaire/canal cystique. Ictère,
+dilatation voies biliaires, perturbation bilan hépatique
+
+[fn:35] Fistule biliodigestive \thus occlusion tube digestif par le calcul
+
+[fn:34] Infection aigüe de la vésicule (ici par obstruction prolongée !)
 
 [fn:33] Non palpable à l'état normal
 
