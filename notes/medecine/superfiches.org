@@ -50,7 +50,32 @@ ST- : sous-ST pendant la douleur \ge 1 mm dans 2 dérivations contigües
 ST+ : sus-ST \ge 2mm ($V_1$ à $V_6$) ou \ge 1mm (autres) dans 2 dérivations contigües
 
 ** 228 : Douleur thoracique aigüe
+Examens sytématiques : ECG 12 dérivation, RX pulmonaire, troponines
+
+#+caption: 4 urgences = PIED
+| Urgence                  | Caractéristiques                                                                                          | Examens                         |
+|--------------------------+-----------------------------------------------------------------------------------------------------------+---------------------------------|
+| Péricardite (tamponnade) | signes droits\tablefootnote{Turgescence jugulaire, reflux hépatojugulaire}, choc avec tachy, PAs < 90mmHg | échocardio                      |
+| IDM                      | douleur spontanée de repos > 20min                                                                        | ECG, troponine x2               |
+| Embolie pulmonaire       | terrain, douleur basithoracique + dyspnée                                                                 | D-dimère \thus angioscan/scinti |
+| Dissection aortique      | douleur déchirement, irradie dans dos                                                                     | echo cardio et ETO              |
+|                          |                                                                                                           |                                 |
+Non CV : 4P = pneumonie, pleurésie, pneumothorax, pancréatite
 ** 223 : Artériopathie oblitérante (aorte, MI)
+AOMI : pronostic grave !
+- asymptom. - claudication intermittente - douleur ischémique de repos -
+  ulcération/gangrène
+- diag: IPS < 0.70 ( + écho-doppler MI en pratique)
+- ttt : FR, antiagrégant, statines, IEC + arrêt tabac, marche \pm
+  revascularisation (stent/chir)
+Anévrisme aorte abdominale : âge, tabac, ATCD familiaux
+- scanner abdopelvien/IRM = référence
+- asymptomatique : chir si \diameter \ge 50-55mm
+- symptomatique : urgence \skull
+Ischémie aigüe des membres inférieurs = urgence \skull (embolie/thrombose)
+- diag : douleur brutale, intense, broiement avec impotence fonctionnelle et membre froid, livide, douleur paplpation musc
+- ttt : anticoagulant, antalgique niv. 3, $O_2$ et revasc. chir
+
 ** 231 : Rétrécissement aortique
 ** 231 : Insuffisance mitrale
 ** 231 : Insuffisance aortique
