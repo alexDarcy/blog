@@ -73,15 +73,58 @@ Anévrisme aorte abdominale : âge, tabac, ATCD familiaux
 - asymptomatique : chir si \diameter \ge 50-55mm
 - symptomatique : urgence \skull
 Ischémie aigüe des membres inférieurs = urgence \skull (embolie/thrombose)
-- diag : douleur brutale, intense, broiement avec impotence fonctionnelle et membre froid, livide, douleur paplpation musc
+- diag : douleur brutale, intense, broiement avec impotence fonctionnelle et membre froid, livide, douleur palpation musc
 - ttt : anticoagulant, antalgique niv. 3, $O_2$ et revasc. chir
 
 ** 231 : Rétrécissement aortique
+Pronostic vital mis en jeu si symptômes !
+
+Auscult : souffle systolique éjectionnel au foyer aortique
+
+Diag : ETT = $V_{max} > 4m/s$, gradient moyen > 40mmHg, surface aortique <
+1$cm^2$
+
+Ttt : chir si symptomatique = valve mécanique ou bio
 ** 231 : Insuffisance mitrale
+Classif. de Carpentier (I à III)
+
+Auscult : souffle apexo-axillaire holosytolique de régurgitation dès B1
+
+Examen : ETT \pm ETO
+
+Ttt : chir = reconstruction valve ou prothèse (bio/méca)[fn:4]
 ** 231 : Insuffisance aortique
+Formes : dystrophiques (valves normales mais non jointive), bicuspidie aortique
+
+Auscult : souffle diastolique. ETT = diagnostic
+
+Opérer :
+- urgence si chronique volumineuse symptomatique ou aigüe volumineuse
+- si dystrophie et aorte dilatée[fn:5], si chronique volumineuse asymptomatique et (aorte
+  dilatée, FEVG < 50%...)
 ** 150 : Surveillance des porteurs de valves, prothèses vasculaires
+Complications : embolie, thromboses[fn:6], désinsertion, EI \skull,
+dégénérescence[fn:7], ttt anticoagulant
+
+INR \in [2.5, 4] à vie pour prothèse mécanique
 ** 149 : Endocardite infectieuse
+Diag = ETO. Critères de Duke : 2 majeur/1 majeur et 3 mineurs/5mineurs
+- majeurs : 
+  - hémoc = typique sur 2HC ou positive > 12h ou /C. burnetii/
+  - végétation/abcès/désinsertion (écho) ou nv souffle régurgitation valvulaire
+- mineurs : cardiopathie à risque, > 38$^\circ$, complication vasc,
+  immonologique
+Complications : insuf cardiqaue \skull, embolie septiques, neuro , rénale
+Ttt :
+- streptocoques (oraux/groupe D) : amoxicilline + gentamicine
+- staphylocoques : cloxacilline si sensible (sinon vancomycine)
 ** 236 : Souffle cardiaque chez l'enfant
+Néonatale : coarctation aortique préductale (chir urgente \skull), transposition des gros vaissaux,
+malformations complexes
+
+Nourisson (2M - marche) : shunt gauche-droite (communication intraventricul), tétralogie de Fallot
+
+2A-16A : souffles fonctionnels[fn:8]
 ** 337 : Malaise, perte de connaissance
 ** 230 : Fibrillation atriale
 ** 234 : Troubles de la conduction intracardiaque
@@ -125,6 +168,17 @@ Ischémie aigüe des membres inférieurs = urgence \skull (embolie/thrombose)
 #+end_table
 
 * Footnotes
+
+[fn:8] Asymptomatique, systolique (!), proto/mésosystoliques, éjectionnels,
+faible intensité, doux
+
+[fn:7] Bioprothèses
+
+[fn:6] Prothèse mécaniques
+
+[fn:5] Même critère que précédemment : \ge 55mm
+
+[fn:4] Si asymptomatique, chir si dilatation VG/fraction d'éjection < 60%
 
 [fn:3] Père < 55 ans, mère < 65 ans
 
