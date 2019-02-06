@@ -126,9 +126,51 @@ Nourisson (2M - marche) : shunt gauche-droite (communication intraventricul), t�
 
 2A-16A : souffles fonctionnels[fn:8]
 ** 337 : Malaise, perte de connaissance
+- Éliminer épilepsie
+- Éliminer urgence (SCA, EP....)
+- ECG, clinique : cause évidente = mécanique[fn:9], électrique[fn:10], hypotensive[fn:11] ?
+- Sinon chercher cardiopathie  (échocardio)
 ** 230 : Fibrillation atriale
+ECG indispensable : pas de P, QRS irréguliers
+
+Risques = insuf cardiqaue, thromboemolique artériel systémique
+
+Étiologie : HTA, valvulopathies
+
+Ttt 
+- 1er épisode : HNF seule
+- FA persistante[fn:12] : 3 semaines HNF IV puis choc électrique puis 4 semaine anticoagulants oraux
+- FA permanente[fn:13] : bradycardisants (\beta-bloquants)
+- FA paroxystique : anti-arythmique et bradycardisants
+
 ** 234 : Troubles de la conduction intracardiaque
+Bradychardie grave = urgence \skull
+
+Ttt : tachycardisants (atropine, catécholamine)
+
+#+caption: EEP  = étude électrophysiologique endocavitaire
+| Type                 | Causes             | Diagnostic                  | Pacemaker           |
+|----------------------+--------------------+-----------------------------+---------------------|
+| Dysfonction sinusale | dégénérative       | ECG + Holter                | Si symptomes        |
+|                      | médicaments, vagal |                             |                     |
+| BAV                  | hyperkaliémie      | ECG +                       | BAV II symptom.     |
+|                      |                    | si paroxystique: Holter/EEP | BAV III non curable |
+| BdB                  | dégénérative       | ECG + EEG                   | Si symptômes        |
 ** 229 : ECG
+| Hypertrophie atriale       | gauche : P > 0.12s (largeur)               | droite : P > 2.5mm (hauteur) |
+| Hypertrophie ventriculaire | gauche : $SV_1 + rV_5 > 35$ mm             | droite +110$^\circ$          |
+|----------------------------+--------------------------------------------+------------------------------|
+| BdB                        | gauche: QRS > 0.12s et (rS ou QS en $V_1$) | droite : QRS > 0.12s et RsR' |
+| Hémibloc                   | antérieur : $S_3 > S_2$                    | postérieur : $S_1Q_3$        |
+| BAV                        | I : PR > 0.2s , II : \inc PR               | III : aucun P                |
+| Angor                      | sous-ST                                    |                              |
+| IDM                        | sus-ST convexe (vers le haut)              |                              |
+| Péricardite aigüe          | sus-ST concave                             |                              |
+Troubles supraventriculaire : FA (100-200/min), flutter atrial (300/min), tachy. atriale,
+tachy. jonctionnelle, extrasystole
+
+Troubles ventriculaires : tachy. ventricale, fibrillation ventricalure (\skull
+absolue), torsade de pointe
 ** 235 : Palpitations
 ** 232 : Insuffisance cardiaque
 ** 222 : HTA pulmonaire artérielle
@@ -168,6 +210,16 @@ Nourisson (2M - marche) : shunt gauche-droite (communication intraventricul), t�
 #+end_table
 
 * Footnotes
+
+[fn:13] Échec cardioversion 
+
+[fn:12] Retour sinal > 7j/cardioversion
+
+[fn:11] Orthostatiques iatrogène/sujet âgé ou hypotension réflexe 
+
+[fn:10] TV, bradycardies par bloc AV/dysfonction sinusale
+
+[fn:9] Rétrécissement aortique, EP, cardiomyopathies obstructives, tamponnades, thromboses de valves
 
 [fn:8] Asymptomatique, systolique (!), proto/mésosystoliques, éjectionnels,
 faible intensité, doux
