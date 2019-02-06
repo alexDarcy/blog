@@ -172,6 +172,11 @@ tachy. jonctionnelle, extrasystole
 Troubles ventriculaires : tachy. ventricale, fibrillation ventricalure (\skull
 absolue), torsade de pointe
 ** 235 : Palpitations
+Éliminer urgences immédiates (tachy à QRS large !!)
+
+Fréquents : fibrillation/flutters atriaux, tachy jonctionnelle
+
+Tachy sinusale (grossesse, hyperthyroïde, SAS, alcoolisme) 
 ** 232 : Insuffisance cardiaque
 ** 222 : HTA pulmonaire artérielle
 ** 199 : Dysnée aigüe et chronique
