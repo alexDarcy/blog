@@ -195,9 +195,43 @@ saumon", crépitants \thus PEC immédiate \skull
 | OAP               | assis, furosémide, dérivés nitrés, HBPM                                                             |
 
 ** 221 : Hypertension artérielle
+3 catégories. Étiologies :
+- Essentielles (90%) 
+- Secondaire : néphropathie parenchym., HTA rénovasc., phéochromocytome, sd Conn,
+  coarctation aortiques, SAS, médicemants, HTA gravidique
+
+Examens : glycémie, cholestérol, kaliémie, créat, BU, ECG
+
+Complications : rein, neuro, CV
+
+Ttt : objectif < 140/90 \thus hygiéno-diét et {IEC, diurétiques thiazidiques, \beta-bloquants, ARA II
 ** 225 : Insuffisance veineuse chronique
-** 233 Péricardite aigüe
-** 327 : Arrêt cardiocirculatoire
+FR : varices = âge, ATC, obésité, grossesse; MTEV = immobilisation, K, anomalies hémostase
+
+Clinique : jambes lourdes[fn:17], dermite ocre, varices
+
+Examen : echo-doppler veinux des MI   
+
+Ttt (non curatif) : contention, hygiène de vie, invasif
+** 233 : Péricardite aigüe
+Douleur : thoracique, trinitro-résistant, \inc inspiration, \dec assis en avant
+
+Examens : ECG (4 phases[fn:18]), marqueurs de nécrose cardio, sd inflammatoire, /échocardio/
+
+Étiologie Péricardite aigüe virale, népolasiques, tuberculeuse surtout
+
+Ttt : AINS, colchicine
+
+Complications : tamponnade = urgence \skull (drainage/ponction)
+** 327 : Arrêt cardiocirculatoire
+   ABCD : maintien voies Aéoriennes, assistance respi (B), massage Cardiqaue,
+   Défibrillation et Drogues
+
+   Ttt : adrénaline 1mg/4min et après 2eme choc amiodarone (300mg dans 30mL)
+   
+   Ventilation, hypothermie
+   
+   Étio : FA, bradyc, asystolie
 ** 264 : Diurétiques
 #+caption: Diurétiques
 | Type                   | Molécule               | Indication                | ES                    |
@@ -272,6 +306,10 @@ Diagnostic : ETT et cathétérisme cardiaque droit
     Ttt : thrombolyse si EP grave. HBPM/fondaparinux/nv anticoag avec relais AVK
     précoce \ge 3 mois (EP)
 * Footnotes
+
+[fn:18] sus-ST concave, T plates, T négatives, normales
+
+[fn:17] Calmé par froid, surélévation, march
 
 [fn:16] Hypoxie-hypocapnie
 
