@@ -177,7 +177,23 @@ absolue), torsade de pointe
 Fréquents : fibrillation/flutters atriaux, tachy jonctionnelle
 
 Tachy sinusale (grossesse, hyperthyroïde, SAS, alcoolisme) 
-** 232 : Insuffisance cardiaque
+** 232 : Insuffisance cardiaque
+Grave : 50% de DC à 5 ans
+
+EC : dypnée d'effort, signes d'IC droite[fn:14]
+
+Examens : ECG, RX thorax, dosage BNP, /ETT/
+
+Cause : ischémie, HTA, cardiomypathie
+
+IC aigüe \approx OAP : polypnée, sueurs, cyanose, expectorations "mousseuses
+saumon", crépitants \thus PEC immédiate \skull
+
+#+caption: Ttt insuffisance cardiaque
+| IC à FE < 40%     | diurétiques + IEC + \beta-bloquants[fn:15]. Si échec : ivabradine puis défibrillateur auto   |
+| IC à FE conservée | mal définie (idem ?)                                                                                |
+| OAP               | assis, furosémide, dérivés nitrés, HBPM                                                             |
+
 ** 222 : HTA pulmonaire artérielle
 ** 199 : Dysnée aigüe et chronique
 ** 224 : Thrombose veineuse profonde et embolie pulmonaire
@@ -215,6 +231,10 @@ Tachy sinusale (grossesse, hyperthyroïde, SAS, alcoolisme)
 #+end_table
 
 * Footnotes
+
+[fn:15] Pas si crise aigüe ! \danger
+
+[fn:14] Turgescence jugulaire, reflux hépatojugulaire, HMG, \oe{}dème périph, ascite
 
 [fn:13] Échec cardioversion 
 
