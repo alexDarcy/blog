@@ -194,9 +194,6 @@ saumon", crépitants \thus PEC immédiate \skull
 | IC à FE conservée | mal définie (idem ?)                                                                                |
 | OAP               | assis, furosémide, dérivés nitrés, HBPM                                                             |
 
-** 222 : HTA pulmonaire artérielle
-** 199 : Dysnée aigüe et chronique
-** 224 : Thrombose veineuse profonde et embolie pulmonaire
 ** 221 : Hypertension artérielle
 ** 225 : Insuffisance veineuse chronique
 ** 233 Péricardite aigüe
@@ -230,7 +227,53 @@ saumon", crépitants \thus PEC immédiate \skull
 #+LATEX: }
 #+end_table
 
+
+* Pneumologie
+** 199 : Dyspnée aigüe et chronique (à compléter)
+Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
+#+caption: Étiologies de dyspnée aigüe
+| Inspiratoire            | Expiratoire  | Les 2                    |
+|-------------------------+--------------+--------------------------|
+| enfant : corps étranger | asthme, BPCO | OAP (crépitants), EP     |
+| , laryngite, épiglotite |              | pneumopathie infectieuse |
+|                         |              | pleurésie, pneumothorax  |
+|                         |              | tamponnade               |
+#+caption: Étiologies de dyspnée chroniques
+| Obstructif   | Restrictif | Cardio-vasc                |
+|--------------+------------+----------------------------|
+| BPCO, asthme | PID        | HTAP                       |
+|              |            | IC, constriction péricarde |
+** 222 : HTA pulmonaire artérielle (à compléter)
+HTAP = PAP moyenne \ge 25mmHg et PAPO \le 15mmHg (pré-capillaire)
+
+Clinique : dyspnée avec EC normal
+
+Complémentaire : ECG, RX thorax, EFR, gaz du sang normaux
+
+Diagnostic : ETT et cathétérisme cardiaque droit
+** 224 : Thrombose veineuse profonde et embolie pulmonaire (à compléter)
+*** TVP 
+    Probabilité : score de Wells (unilatéral : OMI, douleur trajet veineux...)
+
+    Diagnostic : (D-dimère si proba faible puis) Écho-doppler veineux MI
+   
+    Ttt : HPMC curatif, relais AVK J1, contention, lever
+
+    Étiologies : congénitale ("thrombophilie") ou acquise (K, alitement,
+    contraception, chir...)
+    
+    Prévention : HBPM, contention, lever
+*** EP
+    Suspicion : proba clinique, RX thorax, ECG, gaz du sang [fn:16]
+
+    Diagnostic : (D-dimère si proba faible puis) scanner (ETT en attendant). Si
+    scanner toujours non disponible et patient à haut risque, traiter !
+
+    Ttt : thrombolyse si EP grave. HBPM/fondaparinux/nv anticoag avec relais AVK
+    précoce \ge 3 mois (EP)
 * Footnotes
+
+[fn:16] Hypoxie-hypocapnie
 
 [fn:15] Pas si crise aigüe ! \danger
 
