@@ -295,6 +295,17 @@ Pneumonie aigüe communautaires : grave. Cf table [[tab:pac]]
 | amoxicilline                                                |                                             | \thus macrolides                   |
 
 ** 151 : Tuberculose
+Diag = IDR/IFN \gamma si primo infection. Sinon bacille de Kock sur prélèvement
+#+caption: Formes pulmonaires 
+| Forme       | pulmonaire                    | miliaire                                 |
+|-------------+-------------------------------+------------------------------------------|
+| Clinique    | AEG, fièvre, sueurs nocturnes | idem, VIH !                              |
+| RX          | nodules, infiltrats, cavernes | sd interstitiel                          |
+| Prélèvement | crachat/tubage/fibro          | biopsie                                  |
+| Diag        | ED ou culture Löwenstein      | granulome épithélioïde gigantocellulaire |
+|             |                               | avec nécrose caséeuse                    |
+Ttt : isoniazide (6M), rifampicine (6M), ethambutol (2M), pyranizamide (2M)
+Vaccination !
 ** 180 : Accidents du travail
 ** 182 : Hypersensibilités et allergies respiratoires
 ** 184 : Asthme, rhinite

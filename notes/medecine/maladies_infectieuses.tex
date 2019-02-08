@@ -16,7 +16,7 @@ Morbiliforme = avec intervalles de peau saine\\
 Scarlatiniforme = sans intervalles de peau saine
 
 
-\section{UE 1 Item 4 : Sécurité du patient}%
+\section{UE 1 - 4 : Sécurité du patient}%
 \label{sec:ue_1_item_4_securite_du_patient}
 
 Infection nosocomiale : > 48h post-admission ( > 30 j après opération, > 1 an si
@@ -48,7 +48,7 @@ ATB :
 \end{itemize}
 
 Cathéter : changer 72h
-\section{UE2 - Item 26 : Prévention des risques foetaux}%
+\section{UE2 - 26 : Prévention des risques foetaux}%
 \label{sec:ue2_item_26_prevention_des_risques_foetaux}
 
 \begin{table}[htpb]
@@ -590,7 +590,7 @@ pneumocoque > 40 ans, 50\% sinon). Herpétique :
     Clinique & Traitement & Prévention \\
     \midrule
     Début \textbf{progressif} & Quadrithérapie 2 mois & Vaccins \\
-    Sd méningé frustre & (isoniazide, rifampicine, pyranizamide, ethambutol) & \\
+    Sd méningé frustre & (isoniazide, rifampicine, ethambutol, pyranizamide) & \\
     Détections infections latentes & Bithérapie 10 mois & \\ 
     Fébricule, sueurs &(isoniazide, rifampicine)  & \\
     AEG & & \\
@@ -1234,16 +1234,31 @@ IDR positive =
 \end{table}
 
 \subsection{Diagnostic}%
+\begin{tcolorbox}
+  Primo-infection: virage tuberculinique ou IFN gamma\\
+  Tuberculose maladie : isolement BK dans tissus
+\end{tcolorbox}
+Mises en évidence du bacille :
+\begin{itemize}
+\item 3 prélèvement (ECBC/tubage). Si miliaire : +hémocultures, ECBU
+\item direct, culture, identification et ATBgramme
+\item Granulomes épithélioïdes gigantocellulaires avec nécrose caséeuses,
+  coloration Ziehl Neelsen (> $10^3$bacilles/mL)
+\end{itemize}
 
 \paragraph{Pulmonaire} Clinique = toux prolongée, expector muco-purulente,
-signes généraux.\\
-Radio thorax. Prélèvements bactério (sécrétion/tubage) : examen direct, culture
+{asthé, anorexie, amaigrissement, fébricule (nocture), sueurs nocturnes}.\\
+Radio thorax = nodules, infiltrats, cavernes (lob sup, post)\\
+Diag = prélèvements bactério (sécrétion/tubage) = examen direct, culture
 
 \paragraph{Miliaire} Après primo-infection ou phase terminale.
 Clinique : fièvre prolongée, sueurs nocturnes, SDRA\footnote{Syndrome de
 détresse respiratoire aigüe}, neuro-méningés,
 péricardite.\\
-Radio thorax, culture (hémoculture, LCS, biopsie)
+Radio thorax : interstitiel diffus micronodulaire\\
+Diag : culture (hémoculture, LCS, biopsie)
+
+\paragraph{Autres manifestations pulmonaires} pleurésie (épanchement unilat, exsudative lymphocytaire), pneumonie aigüe
 
 \paragraph{Extra-pulmonaire}
 \begin{itemize}
@@ -1266,18 +1281,30 @@ Radio thorax, culture (hémoculture, LCS, biopsie)
     odynophagie, wheeing. Prélèvement local
 \end{itemize}
 
+\paragraph{Infection tuberculeuse latente}
+Diagnostic (\danger pas pour tuberculose active): 
+\begin{itemize}
+\item IDR (non spécifique, faux négatifs !) : +72h : \diameter > 10mm (15 si vaccination) ou +10mm en 3 mois : suspicion ITL
+\item IGRA\footnote{Interferon Gamma Release Assay} : > 15 ans ou migrant  < 15 ans
+\end{itemize}
+Traitement : 
+\begin{itemize}
+\item primaire si < 2 ans, secondaire si < 18 ans ou ID ou ITL < 1 an ou séquellaire
+\item INH 9 mois ou INH + RMP 3 mois
+\end{itemize}
+
 \subsection{Traitement}%
 
 ITL : ttt si immunodérimé, infection < 2 an, enfant < 15 ans.\\
 Primo-infection : oui si symptomatique, sinon au cas par cas
 
-EI : 
+EI (\texttt{PERI}): 
 \begin{itemize}
-  \item rifampicine : cytolyse hépatique, urines orange
   \item isoniazide : cytolyse hépatique, neuropatie périph (examen réflexes
     OT\footnote{ostéo-tendineux})
-  \item pyrazinamide : hépatite toxique
+  \item rifampicine : cytolyse hépatique, urines orange
   \item éthambutol : névrite optique
+  \item pyrazinamide : hépatite toxique
 \end{itemize}
 
 Toujours + vitamine B6.\\
@@ -1297,6 +1324,29 @@ Corticothérapie si neuro-méningé ou péricardique
  \bottomrule
   \end{tabular}
 \end{table}
+
+\subsection{Cas particuliers}
+Grossesse : INH (+vit. B6) + RMP (+vit. K1) + EMB\\
+Insuf. rénale :
+$ \begin{cases}
+    [15,30] \text{mL/min} : & \text{diminuer EMB, PZA}.\\
+    < 15 \text{mL/min} : & \text{diminuer INH, EMB, PZA}\\
+  \end{cases} $
+  
+Insuf. hépatique :
+  $\begin{cases}
+  [3,6N] : & \text{arrêt PZA}\\
+  > 6N : & \text{arrêt INH, PZA}\\
+\end{cases}$
+
+ID, VIH : penser tuberculose si fièvre
+
+Si anti-TNF, bilan tuberculose
+\subsection{Déclaration obligatoire}
+
+\subsection{Vaccination}
+Sauf VIH, déficits immunitaires
+
 \section{UE 6 - 156 : Tétanos}
 \begin{table}[htpb]
   \centering
