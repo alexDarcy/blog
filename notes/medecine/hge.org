@@ -23,6 +23,7 @@
 #+latex_header_extra: \newacronym{HMG}{HMG}{Hépatomégalie}
 #+latex_header_extra: \newacronym{SMG}{SMG}{Splénomégalie}
 #+latex_header_extra: \newacronym{VBP}{VBP}{Voie biliaire principale}
+#+latex_header_extra: \newacronym{BGT}{BGT}{bilirubine glucoronide-transférase}
 
 #+OPTIONS: H:4
 
@@ -787,9 +788,9 @@ Mécanismes :
 
 Signes fonctionnels :
 - pyrosis, régurgitations = quasi pathognomonique
-- extra-digestifs
+- extra-digestifs (pulmonaire, ORL, cardiaque)
 - RGO compliqué[fn:16] : ulcérations du bas \oe{}sophage (étendues,
-  confluentes/circonférentielles) \thus risque d'ischémie digestive, de sténose
+  confluentes/circonférentielles) \thus risque = hémorragi digestive, sténose
   \oe{}sophagienne
 
 Endobrachy\oe{}sophage : épithelium normal de l'\oe{}sophage remplacé par épithelium
@@ -800,7 +801,7 @@ dysplasie, adénocarcinome)
 Interrogatoire : éliminer sd de rumination (pas de brûlure, nausée,
 vomissement).
 
-< 50 ans, pyrosis ou régurgitation, pas de dysphagie, amaigrissement, anémie :
+< 50 ans, pyrosis ou régurgitation, 0 dysphagie, 0 amaigrissement, 0 anémie :
 pas d'examen complémentaire
 
 Sinon : endoscopie OGD 
@@ -815,7 +816,7 @@ Autres : impédancemétrie \oe{}sophagienne (reflux persistant), manométrie
 Anti-acides, inhibiteurs de la sécrétion gastrique (IPP), protection de la muqueuse
 \oe{}sophagienne (alginates)
 
-\dec{} poids, arrêt tabac et alcool, tête de lit à 45$^{circ}$, 3h entre diner
+\dec{} poids, arrêt tabac et alcool, tête de lit à 45$^{\circ}$, 3h entre diner
 et coucher
 
 - RGO sans \oe{}sophagite: anti-acides/alginates/anti-H2 si < 1/semaine. Sinon
@@ -1306,7 +1307,112 @@ Complications : choc septique, + IR
 - Pancrétite aigüe biliaire : si angiocholite aigüe en plus, ATB et extraction
   calculs < 24h
 
+* 275 : Ictère
+Coloration jaune quand bilirubinémie > 40$\mu$mol/L
+
+Physiopatho : 
+- dégradation hémoglobine -> bilirubine dans le plasma (non conjugée surtout) 
+- transportée par l'albumine dans les hépatocytes puis conjugée par gls:BGT
+- puis sécrétée dans la bile (mais une partie revient dans le plasma)
+
+\begin{figure}[htpb]
+  \centering
+  \resizebox{0.5\linewidth}{!}{
+     \tikz \graph [
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    edges={nodes={fill=white, align=center}}, 
+    patho/.style={rectangle, draw=black},
+    h path/.style = {to path={ - (\tikztotarget)}},
+    layered layout]
+    {
+      "" ->  {
+      	 "Urine claire\\b. non conjuguée" -> 
+         "Ictère à bilirubine\\non conjugée" [patho] ->
+         "\inc{} réticulocyte \dec{} haptoglobine ?"[level distance=50pt] -> {
+             Hémolytique [>"oui", patho];
+             "Non hémolytique" [>"non", patho];
+           };
+           "Urine brune\\b. conjuguée" -> "Ictère à bilirubine\\conjugée"[patho] -> {
+           "Prurit\\ \inc{} phosphatases alcalines, $\gamma$ -GT" -> {
+             "Cholestatique" [>"oui", patho] -> Imagerie -> {
+	       "Avec obstacles\\sur gros canaux"[patho];
+	       "Sans obstacles\\sur gros canaux"[patho];
+	     };
+             "Non cholestatique" [>"non", patho];
+           };
+	  };
+        };
+    };
+  }
+  \caption{Orientation devant un ictère}
+\end{figure}
+
+** Étiologies 
+- Ictère à bilirubinie non conjugée
+  - hémolyse, dysérythropoïèse[fn:37]
+  - \dec conjugaisons par la BGT
+    - sd de Gilbert : bénin, fréquent \thus diagnostic = ictère non persistant,
+      tests hépatiques /normaux/ et élimination autres causes
+    - sd Crigler-Najjar : exceptionnel, très grave : ictère néonatal marqué permanent
+- Ictère à bilirubine conjugée
+  - cholestase++ (\dec sécrétion biliaire)
+    - obstruction canaux biliaires
+      - gls:VBP (freq) : /K pancréas/ (ictère, AEG), /K primitif VBP/ (ictère),
+        /litihiase VBP/ (précédée douleurs), sténose post-op voie biliaire,
+        pancréatite chronique calcifiante (par compression), ADP
+      - atteinte des petits/moyens canaux : cirrhose biliaire primitive
+        (auto-immune, rare), cholangite immunoallergique (amox-acide
+        clavulanique, sulfamide, macrolide, allopurinol), cholangite scérosante
+        primite (rare, faire cholangio-IRM)
+    - sans obstacle : génétique (très rare : infantile, "récurrente béningne" ou
+      gravidique") ou acquises (hépatite aigües, infections bactériennes, angiocholite)
+  - transport canaliculaire de bilirubine conjugée (rarissime) : sd de Rotor,
+    maladie Dubin-Johnson
+  - multiples mécanismes
+
+Mnémotech: la bilirubine non conjuguée ne passe pas les urines \thus urine claire
+
+** Urgences
+- Encéphalopathie bilirubinique du nouveau-né : séquelles cognitives/motrices
+  graves \thus ttt par UV/échanges pasma en urgence \skull
+- Angiocholite : cf table [[tab:angiocholite]]. Traitement :
+  1. ATB ASAP (bactéries intestinales), corrections désordres généraux
+  2. drainage endoscopique : sous 48h si aggravation ou en urgence si choc
+     septique \skull
+- Insuffisance hépatique :
+  - cirrhose
+  - K foie en phase terminale : confort du patient
+  - insuf. hépatique aigüe : 
+	Quick et facteur V < 50%
+    - transaminases > 20N \thus diagnostic = \dec taux
+    - risque = insuf hépatique grave : 80% mortalité \skull
+    - chercher paracétamol systématiquement \thus N-acétylcystéine en urgence
+    - si grave : transplantation 
+
+#+name: tab:angiocholite
+#+caption: Diagnostic d'angiocholite 
+  | Suspicion                      | Diagnostic                                 | DD                              |
+  |--------------------------------+--------------------------------------------+---------------------------------|
+  | triade "douleur-fièvre-ictère" | cholestase                                 | infections bactériennes sévères |
+  |                                | sd inflammatoire systémique marqué         | sd inflammatoires de lymphomes  |
+  |                                | obstruction voies biliaire : /échographie/ | hépatite herpétique/virale A    |
+
+** Imagerie
+- Échographie : diagnostic pour lithiase biliaire, obstruction VBP (et siège de l'obstacle)
+- TDM : plus sensible que l'écho pour pancréas
+- cholangio-pancréatio-oRM
+- échoendoscopie [fn:38]: litihase VBP++
+- gls:CPRE [fn:38] (\danger pancréatite aigüe) : pas en diagnostic
+- cholangiographie percutanée transhépatique [fn:38] : si échec CPRE mais risque
+  hémopéritoien, bilio-péritoine, angiocholite
 * Footnotes
+
+[fn:38] Anesthésie générale
+
+[fn:37] Destruction intra-médullaire des nouvelles hématies :
 
 [fn:36] Gros calcul dans le collet vésiculaire/canal cystique. Ictère,
 dilatation voies biliaires, perturbation bilan hépatique
