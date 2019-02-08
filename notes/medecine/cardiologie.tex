@@ -1,56 +1,5 @@
-\documentclass{article}
-\usepackage{hyperref}
-\input header
 \def\arrow{$\rightarrow$}
 
-\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
-\usepackage{enumitem}
-
-\newacronym{AT}{AT}{Antithrombine}
-\newacronym{TIH}{TIH}{Thrombopénie induite par l'héparine}
-\newacronym{FO}{FO}{Fond d'oeil}
-\newacronym{ARA II}{ARA II}{Antagonistes des récepteurs de l'angiotensine}
-\newacronym{BAV}{BAV}{Bloc auriculoventriculaire}
-\newacronym{BBG}{BBG}{Bloc de branche gauche}
-\newacronym{BSA}{BSA}{Bloc sinuso-atrial}
-\newacronym{DAI}{DAI}{Défibrillateur automatique implantable}
-\newacronym{EI}{EI}{Endocardite infectieuse}
-\newacronym{EP}{EP}{Embolie pulmonaire}
-\newacronym{FA}{FA}{Fibrillation atriale}
-\newacronym{FE}{FE}{Fraction d'ejection}
-\newacronym{FIV}{FIV}{Fibrinolyse intra-veineuse}
-\newacronym{HVG}{HVG}{Hypertrophie ventriculaire gauche}
-\newacronym{IC}{IC}{Insuffisance cardiaque} 
-\newacronym{IEC}{IEC}{Inhibiteurs de l'enzyme de conversion}
-\newacronym{IPC}{IPC}{Intervention coronaire percutanée}
-\newacronym{IVA}{IVA}{Artère intraventriculaire antérieure}
-\newacronym{JPDC}{JPDC}{Jusqu'à preuve du contraire}
-\newacronym{MTEV}{MTEV}{Maladie thromboemolique veineuse}
-\newacronym{OCA}{OCA}{Occlusion coronaire aigüe}
-\newacronym{OG}{OG}{Oreillette gauche}
-\newacronym{PAD}{PAD}{Pression artérielle diastolique}
-\newacronym{PAPO}{PAPO}{Pression artérielle pulmonaire d'occlusion, $\approx$ pression oreillette G} 
-\newacronym{PAPm}{PAPm}{Pression de l'artère pulmonaire moyenne}
-\newacronym{PAS}{PAS}{Pression artérielle systolique}
-\newacronym{PA}{PA}{Pression artérielle}
-\newacronym{RCT}{RCT}{Rapport cardiothor}
-\newacronym{SAS}{SAS}{Syndrome d'apnée du sommeil}
-\newacronym{SPT}{SPT}{Syndrome post-thrombotique}
-\newacronym{TAVI}{TAVI}{Transcatheter Aortic Valve Implantation}
-\newacronym{TG}{TG}{Tryglycérides}
-\newacronym{TVP}{TVP}{Thrombose veineuse profonde}
-\newacronym{TVS}{TVS}{Thrombose veineuse superficielle}
-\newacronym{VG}{VG}{Ventricule gauche}
-\glsaddall % Add all entries
-\glsunsetall % Acronyms always in short form
-
-\begin{document}
-\title{Fiches de cardiologie}
-\author{Alexis Praga}
-\maketitle
-\tableofcontents
-
-\input bacteries-header
 
 \section{218 : Athérome}%
 \label{sec:1_atherome}
@@ -2896,7 +2845,7 @@ Hémorragiques :
     surveillance biologique
 \end{itemize}
 
-\appendix
+\section{Annexe}
  \resizebox{\linewidth}{!}{           
 \begin{tikzpicture}
     \graph [
@@ -2935,13 +2884,3 @@ Hémorragiques :
     };
 \end{tikzpicture}
 }
-\printglossary
-\printglossary[type=\acronymtype]
-
-\end{document}
-
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% TeX-engine: luatex
-%%% End:
