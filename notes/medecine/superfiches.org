@@ -332,6 +332,22 @@ Rhinite :
 - PAREO : Prurit, Anosmie, Rhinorrhée, Éternuement, Obstruction ansale
 - ttt : antihistaminiques/corticoïdes nasaux
 ** 188, 189 : Pathologies auto-immunes
+Si ttt pour connectivite, vascularite,
+penser 1. infenciton 2. médicament 3. manifestation maladie 4. manifestation
+indépendante
+
+Cf Table [[tab:auto-immune]]
+
+#+name: tab:auto-immune
+#+caption: Manifestations respiratoires 
+| Sclérodermie systémique                    | PID, HTAP                                                                     |
+| Lupus érythémateux                         | Pleurésie lupique, sd hémorragie alvéolaire                                   |
+| Polymyosite                                | PID chronique/aigùe                                                           |
+| Sd Gougerot-Sjögren                        | Toux chronique , PID                                                          |
+| Granulomatose avec polyangéite             | Nodules\tablefootnote{Évoluant vers excavation, infiltrats diffus bilatéraux} |
+| Granulomatose éosinophile avec polyangéite | Asthme, pneumopathie à éosinophiles                                           |
+| Polyangéite microscopique                  | Sd hémorragique alvéolaire                                                    |
+
 ** 199 : Dyspnée aigüe et chronique (à compléter)
 Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
 #+caption: Étiologies de dyspnée aigüe
