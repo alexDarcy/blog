@@ -42,7 +42,7 @@ Ttt : hypercholestorémie, hyperlipidémies mixtes : statines. Hypertriglycérid
 | SCA ST+      | angineuse          | ECG                    | Angioplastie si < 120min              |
 |              | repos > 30min/jour |                        | Sinon FIV                             |
 |              | trinitro-sensible  |                        | Morphine, $O_2$, aspirine             |
-|              |                    |                        | , inhib P2Y12, héparine (crise)         |
+|              |                    |                        | , inhib P2Y12, héparine (crise)       |
 #+LATEX: }
 #+end_table
 ST- : sous-ST pendant la douleur \ge 1 mm dans 2 dérivations contigües
@@ -261,8 +261,44 @@ Complications : tamponnade = urgence \skull (drainage/ponction)
 #+LATEX: }
 #+end_table
 
-
 * Pneumologie
+** 73 : Addiction au tabac
+16 millions de fumeurs en France. 1 fumeur sur 2 décède d'une malaide liée au
+tabac.
+Cause 90% K bronchopulomaire (25% si passif)
+
+Sevrage : TCC, éducation thérapeutique, substituts nicotiniques.
+** 108 : Troubles du sommeil de l'adulte
+Sd d'apnée obstructive du sommeil : 
+- diagnostic : {ronflement, pause respi, nycturie et somnolence diurne} et
+  polysomnographie[fn:19]
+- ttt : pression positive continue
+
+Autres : sd d'apnée centrale[fn:20] (IC cardiaque sévère !), insuf respi chronique avec
+hypoventilation alvéolaire, sd obésite hypoventilation (ttt = VNI)
+
+** 151 : Infections broncho-pulmonaires communautaires
+Bronchite aigüe : virale++, diag clinique (épidémie, toux, expectoration muqueuse/purulente), ttt symptomatique
+
+Exacerbation BPCO (cf item 205)
+
+Pneumonie aigüe communautaires : grave. Cf table [[tab:pac]]
+- Clinique : signes auscult en foyer, crépitants. RX thorax !
+- Ttt : ATB urgence (pneumocoque !), réévaluation 48-72h
+#+name: tab:pac
+#+caption: PAC
+| Pneumocoque\tablefootnote{Pas de transmission interhumaine} | Légionellose\tablefootnote{Pas d'isolement} | Atypiques                          |
+|-------------------------------------------------------------+---------------------------------------------+------------------------------------|
+| fréquent++                                                  | progressif                                  | virale \thus inhib neuramidases   |
+| début brutal, fièvre                                        | myalgies                                    | /Mycoplasmia pneumoniae/           |
+| RX: condensation, systématisée                              | macrolides                                  | /Chlamydia pneumoniae/, /psitacci/ |
+| amoxicilline                                                |                                             | \thus macrolides                   |
+
+** 151 : Tuberculose
+** 180 : Accidents du travail
+** 182 : Hypersensibilités et allergies respiratoires
+** 184 : Asthme, rhinite
+** 188, 189 : Pathologies auto-immunes
 ** 199 : Dyspnée aigüe et chronique (à compléter)
 Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
 #+caption: Étiologies de dyspnée aigüe
@@ -277,6 +313,14 @@ Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
 |--------------+------------+----------------------------|
 | BPCO, asthme | PID        | HTAP                       |
 |              |            | IC, constriction péricarde |
+** 200 : Toux chronique
+** 201 : Hémoptysie
+** 202 : Épanchement pleural
+** 203 : Opacités et masses thoraciques
+** 204 : Insuffisance respiratoire chronique
+** 205 : BPCO
+** 206 : Pneumopathies infiltrantes diffuses
+** 207 : Sarcoidose
 ** 222 : HTA pulmonaire artérielle (à compléter)
 HTAP = PAP moyenne \ge 25mmHg et PAPO \le 15mmHg (pré-capillaire)
 
@@ -305,7 +349,22 @@ Diagnostic : ETT et cathétérisme cardiaque droit
 
     Ttt : thrombolyse si EP grave. HBPM/fondaparinux/nv anticoag avec relais AVK
     précoce \ge 3 mois (EP)
+** 228 : Douleur thoracique aigüe et chronique
+** 306 : Tumeurs du poumon
+** 333 : Oedème de Quincke et anaphylaxie
+** 354 : Corps étranger des voies aériennes
+** 354 : Détresse respiratoire aigüe
+** 356 : Pneumothorax
+
 * Footnotes
+
+[fn:22] Pas d'isolement ! 
+
+[fn:21] Pas de transmission interhumaine ! 
+
+[fn:20] Pas d'effort respi, contrairement au SAOS
+
+[fn:19] Ou enregistrement polygraphie ventilation
 
 [fn:18] sus-ST concave, T plates, T négatives, normales
 
