@@ -1,4 +1,4 @@
-#+title: Superfiches
+#+title: Fiches
 #+author: Alexis Praga
 #+latex_class: book-noparts
 
@@ -7,86 +7,3397 @@
 #+latex_header_extra: \usepackage{multirow, makecell}
 #+latex_header_extra: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 #+latex_header_extra: \usepackage{enumitem}
+#+latex_header_extra: \def\ttt{\hspace*{1cm}Ttt: }
 
-#+latex_header_extra: \newacronym{AT}{AT}{Antithrombine}
-#+latex_header_extra: \newacronym{TIH}{TIH}{Thrombopénie induite par l'héparine}
-#+latex_header_extra: \newacronym{FO}{FO}{Fond d'oeil}
+#+latex_header_extra: \newacronym{ADP}{ADP}{Adénopathie}
 #+latex_header_extra: \newacronym{ARA II}{ARA II}{Antagonistes des récepteurs de l'angiotensine}
+#+latex_header_extra: \newacronym{ATS}{ATS}{Antithyroïdiens de synthèse}
+#+latex_header_extra: \newacronym{AT}{AT}{Antithrombine}
 #+latex_header_extra: \newacronym{BAV}{BAV}{Bloc auriculoventriculaire}
 #+latex_header_extra: \newacronym{BBG}{BBG}{Bloc de branche gauche}
+#+latex_header_extra: \newacronym{BGT}{BGT}{bilirubine glucoronide-transférase}
 #+latex_header_extra: \newacronym{BSA}{BSA}{Bloc sinuso-atrial}
+#+latex_header_extra: \newacronym{CAIS}{CAIS}{Complete Androgen Insensitivity Syndrome}
+#+latex_header_extra: \newacronym{CHC}{CHC}{Carcinome hépato-cellulaire}
+#+latex_header_extra: \newacronym{CLU}{CLU}{Cortisol libre urinaire}
+#+latex_header_extra: \newacronym{CPRE}{CPRE}{Cholangio-pancréatographie rétrograde endoscopique}
+#+latex_header_extra: \newacronym{CST}{CST}{Coefficient de saturation de la transferrine}
 #+latex_header_extra: \newacronym{DAI}{DAI}{Défibrillateur automatique implantable}
+#+latex_header_extra: \newacronym{DMLA}{DMLA}{Dégénérescence maculaire liée à l'âge}
+#+latex_header_extra: \newacronym{DO}{DO}{Déclaration obligatoire}
+#+latex_header_extra: \newacronym{DT}{DT}{Delirium tremens}
+#+latex_header_extra: \newacronym{ECPA}{ECPA}{Echelle comportementale d'évaluation de la douleur chez la personne âgée}
 #+latex_header_extra: \newacronym{EI}{EI}{Endocardite infectieuse}
+#+latex_header_extra: \newacronym{EN}{EN}{Echelle numérique}
 #+latex_header_extra: \newacronym{EP}{EP}{Embolie pulmonaire}
+#+latex_header_extra: \newacronym{EVA}{EVA}{Echelle visuelle analogiqu}
+#+latex_header_extra: \newacronym{EVS}{EVS}{Echelle verbale simple}
 #+latex_header_extra: \newacronym{FA}{FA}{Fibrillation atriale}
 #+latex_header_extra: \newacronym{FE}{FE}{Fraction d'ejection}
 #+latex_header_extra: \newacronym{FIV}{FIV}{Fibrinolyse intra-veineuse}
+#+latex_header_extra: \newacronym{FO}{FO}{Fond d'oeil}
+#+latex_header_extra: \newacronym{GH}{GH}{Hormone de croissance (Growth hormone)}
+#+latex_header_extra: \newacronym{GNV}{GNV}{Glaucome néovasculaire}
+#+latex_header_extra: \newacronym{GPAO}{GPAO}{Glaucome primitif à angle ouvert}
+#+latex_header_extra: \newacronym{HAD}{HAD}{Hospital Anxiety and Depression Scale}
+#+latex_header_extra: \newacronym{HMG}{HMG}{Hépatomégalie}
+#+latex_header_extra: \newacronym{HSH}{HSH}{Hommes ayant des relations sexuelles avec des hommes}
 #+latex_header_extra: \newacronym{HVG}{HVG}{Hypertrophie ventriculaire gauche}
 #+latex_header_extra: \newacronym{IC}{IC}{Insuffisance cardiaque} 
+#+latex_header_extra: \newacronym{ID}{ID}{Immunodéprimé}
 #+latex_header_extra: \newacronym{IEC}{IEC}{Inhibiteurs de l'enzyme de conversion}
+#+latex_header_extra: \newacronym{IOP}{IOP}{Insuffisance ovarienne primitive}
 #+latex_header_extra: \newacronym{IPC}{IPC}{Intervention coronaire percutanée}
+#+latex_header_extra: \newacronym{IS}{IS}{Insuffisance surrénale}
 #+latex_header_extra: \newacronym{IVA}{IVA}{Artère intraventriculaire antérieure}
 #+latex_header_extra: \newacronym{JPDC}{JPDC}{Jusqu'à preuve du contraire}
 #+latex_header_extra: \newacronym{MTEV}{MTEV}{Maladie thromboemolique veineuse}
+#+latex_header_extra: \newacronym{NEM2}{NEM2}{Néoplasie endocrinienne multiple 2}
+#+latex_header_extra: \newacronym{NOIA}{NOIA}{Neuropathie optique ischémique antérieure}
 #+latex_header_extra: \newacronym{OCA}{OCA}{Occlusion coronaire aigüe}
+#+latex_header_extra: \newacronym{OGD}{OGD}{Oestro-gastro-duodénale}
+#+latex_header_extra: \newacronym{OGE}{OGE}{Organes génitaux externes}
 #+latex_header_extra: \newacronym{OG}{OG}{Oreillette gauche}
 #+latex_header_extra: \newacronym{PAD}{PAD}{Pression artérielle diastolique}
 #+latex_header_extra: \newacronym{PAPO}{PAPO}{Pression artérielle pulmonaire d'occlusion, $\approx$ pression oreillette G} 
 #+latex_header_extra: \newacronym{PAPm}{PAPm}{Pression de l'artère pulmonaire moyenne}
 #+latex_header_extra: \newacronym{PAS}{PAS}{Pression artérielle systolique}
 #+latex_header_extra: \newacronym{PA}{PA}{Pression artérielle}
+#+latex_header_extra: \newacronym{PEV}{PEV}{Potentiels évoqués visuels}
+#+latex_header_extra: \newacronym{PGG}{PGG}{Paragangliomes}
+#+latex_header_extra: \newacronym{QCD}{QCD}{Questionnaire Concis de la Douleur}
+#+latex_header_extra: \newacronym{QDSA}{QDSA}{Questionnaire Douleur Saint-Antonne}
 #+latex_header_extra: \newacronym{RCT}{RCT}{Rapport cardiothor}
+#+latex_header_extra: \newacronym{RGO}{RGO}{Reflux gastro-oesophagien}
+#+latex_header_extra: \newacronym{RPM}{RPM}{Réflexe photomoteur}
 #+latex_header_extra: \newacronym{SAS}{SAS}{Syndrome d'apnée du sommeil}
+#+latex_header_extra: \newacronym{SMG}{SMG}{Splénomégalie}
+#+latex_header_extra: \newacronym{SOPK}{SOPK}{Syndrome des ovaires polymicrokystiques}
 #+latex_header_extra: \newacronym{SPT}{SPT}{Syndrome post-thrombotique}
 #+latex_header_extra: \newacronym{TAVI}{TAVI}{Transcatheter Aortic Valve Implantation}
 #+latex_header_extra: \newacronym{TG}{TG}{Tryglycérides}
+#+latex_header_extra: \newacronym{TIH}{TIH}{Thrombopénie induite par l'héparine}
 #+latex_header_extra: \newacronym{TVP}{TVP}{Thrombose veineuse profonde}
 #+latex_header_extra: \newacronym{TVS}{TVS}{Thrombose veineuse superficielle}
+#+latex_header_extra: \newacronym{VBP}{VBP}{Voie biliaire principale}
 #+latex_header_extra: \newacronym{VG}{VG}{Ventricule gauche}
-#+latex_header_extra: \newacronym{RPM}{RPM}{Réflexe photomoteur}
-#+latex_header_extra: \newacronym{DMLA}{DMLA}{Dégénérescence maculaire liée à l'âge}
-#+latex_header_extra: \newacronym{PEV}{PEV}{Potentiels évoqués visuels}
-#+latex_header_extra: \def\ttt{\hspace*{1cm}Ttt: }
-#+latex_header_extra: \newacronym{NOIA}{NOIA}{Neuropathie optique ischémique antérieure}
-#+latex_header_extra: \newacronym{GPAO}{GPAO}{Glaucome primitif à angle ouvert}
-#+latex_header_extra: \newacronym{GNV}{GNV}{Glaucome néovasculaire}
-#+latex_header_extra: \newacronym{CPRE}{CPRE}{Cholangio-pancréatographie rétrograde endoscopique}
-#+latex_header_extra: \usepackage{adjustbox}
-#+latex_header_extra: \newacronym{DT}{DT}{Delirium tremens}
-#+latex_header_extra: \newacronym{ID}{ID}{Immunodéprimé}
-#+latex_header_extra: \newacronym{HSH}{HSH}{Hommes ayant des relations sexuelles avec des hommes}
-#+latex_header_extra: \newacronym{DO}{DO}{Déclaration obligatoire}
-#+latex_header_extra: \newacronym{CHC}{CHC}{Carcinome hépato-cellulaire}
-#+latex_header_extra: \newacronym{OGD}{OGD}{Oestro-gastro-duodénale}
+#+latex_header_extra: \newglossaryentry{Leydigcell}{name={cellule de Leydig},description={Produit de la testostérone. Localisé près des tubules séminifères (testicules)}. Activé par LH}
+#+latex_header_extra: \newglossaryentry{NF1}{name=NF1, description={Neurofibromatose 1. Tâches café au lait, neurofibromes (cutanées, nodulaires [le long d'un trajet d'un nerf] ou plexiformes [K possible]), nodules de Lisch sur l'iris.}}
+#+latex_header_extra: \newglossaryentry{PCC}{name={Phéochromocytomes}, description={Tumeur de la médullo-surrénale}}
+#+latex_header_extra: \newglossaryentry{PTH}{name={Parathyroide Hormone (PTH)},description={Stimule la résorbtion osseuse (ostéoclastes) pour libérer plus de calcium}}
+#+latex_header_extra: \newglossaryentry{SHBG}{name=SHBG,description={Sex Hormone-Binding Globulin. Diminue avec des androgènes, augmente avec les oestrogènes}}
+#+latex_header_extra: \newglossaryentry{Sertolicell}{name={cellule de Sertoli},description={Participe à la production du sperme. Localisé dans un tubule séminifère. Activé par FSH}}
+#+latex_header_extra: \newglossaryentry{TPO}{name={Thyroid peroxydase (TPO)},description={Enzyme de la thyroïde servant à générer la thyroxine (T4) et triiodothyroine (T3)}}
+#+latex_header_extra: \newglossaryentry{VHL}{name={von Hippel-Lindau}, description={Hémangioblastome du cervelet/moelle épinière, de la rétine, phéochromocytome}}
 #+latex_header_extra: \newglossaryentry{trophozoïtes}{name={Trophozoïtes},description={Formes végétatives mobiles}}
-#+latex_header_extra: \newacronym{CST}{CST}{Coefficient de saturation de la transferrine}
+#+latex_header_extra: \usepackage{adjustbox}
+
+#+latex_header_extra: \newglossaryentry{sdMetabolique}{name={Syndrome métabolique}, 
+#+latex_header_extra:   description={IMC > 28 kg/$m^2$, HTA, 
+#+latex_header_extra:     (HDL < 0.35g/L ou TG > 2g/L ou dyslipidémie traitée), 
+#+latex_header_extra:     ATCD diabète familial/gestionnel, temporairement induit. 
+#+latex_header_extra:     Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female), 
+#+latex_header_extra:     hyperglycémie (glycémie à jeun > 1g/L), 
+#+latex_header_extra:     dyslipidémie (TG > 1.5g/L et (HDL < 0.4g/L \male ou 0.5g/L \female)), 
+#+latex_header_extra:     HTA (> 130mmHg systole ou > 85mmHg diastole)}}
+
 #+latex_header_extra: \newglossaryentry{sdmetabolique}{name={Syndrome métabolique},
 #+latex_header_extra:    description={$\diameter \ge 94$ cm $\male{}$, 80 cm $\female{}$,
 #+latex_header_extra:    TG $\ge$ 1.7mmol/L, HDL < 1 mmol/L $\male{}$ ou 1.3mmol/L $\female{}$, 
 #+latex_header_extra:     PAs $\ge 130$ mmHg ou PAd $\ge 85$ mmHg, glycémie jeun $\ge$ 1 g/L
 #+latex_header_extra: }}
-#+latex_header_extra: \newacronym{RGO}{RGO}{Reflux gastro-oesophagien}
-#+latex_header_extra: \newacronym{IS}{IS}{Immunosuppresseurs}
-#+latex_header_extra: \newacronym{HMG}{HMG}{Hépatomégalie}
-#+latex_header_extra: \newacronym{SMG}{SMG}{Splénomégalie}
-#+latex_header_extra: \newacronym{VBP}{VBP}{Voie biliaire principale}
-#+latex_header_extra: \newacronym{BGT}{BGT}{bilirubine glucoronide-transférase}
 
 #+OPTIONS: H:4
 
-\input bacteries-header
-
+\input{bacteries-header}
 * Cardiologie
 \input cardiologie
+
+* Douleur (ébauche)
+** Divers 
+- Douleurs par excès de nociception : anti-inflammatoires, opioïdes en pratique
+- Douleurs chez personne âgée : interaction douleur, dépression et démence
+- Douleur chez l'enfant : anesthésique locaux topique (EMLA), mélange
+  oxygène-protoxyde d'azote (MEOPA)
+- Santé mentale : anxiété pour douleur aigüe, dépression pour douleur chronique
+- anesthésie : hypnotique (CS) + morphinique (analgésie) \pm curare (relâchement
+  musc). Médullaire ou périphérique
+- douleurs neuro : antidépresseurs tricycliques et mixet et antiépileptiques =
+  efficaces sur douleurs continues et paroxystiques
+
+** Autres médicaments 
+- anesthésiques locaux : 
+  - EMLA : douleurs provoquées par les soins)
+  - techniques de bloc : prévenir douleurs post-op
+- capsaïcine : 
+  - faible concentration : douleurs musc, arthrose, neuro (immédiat)
+  - forte concentration : 3 mois sur douleurs neuro (neurotoxique !)
+- corticoïdes : anti-inflammatoire, et (+ anesthésiques locaux) sur
+  lésion/irritation nerf
+- kétamine : anesthésie seulement
+
+** Évaluation de la douleur chez l'adulte
+| Quantitative        | gls:EVS              |
+|                     | gls:EVA              |
+|                     | gls:EN               |
+| Qualitative         | DN4                  |
+| Retentissement      | gls:HAD              |
+|                     | gls:QDSA             |
+|                     | gls:QCD              |
+| Âgé non communicant | Doloplus (chronique) |
+|                     | Algoplus (aigüe)       |
+** 132 : Antalgiques
+*** Palier 1 et AINS
+**** Paracétamol
+ 1ere intention, surtout douleur chronique
+
+ Prescription : 3-4g/24h (adulte) avec délai 4-6h. Délai 1h, dure 4-6h. Enfant : 60mg/kg/24g
+ espacée de 6h 
+
+ Seul pour douleurs faibles/modérées, avec opioïdes sinon
+
+ Tolérance :
+ - si surdosage : 
+   - hépatotoxique \thus urgence \skull \thus N-acétylcysténine
+   - insuf rénale aigüe et nécrose tubulaire
+   - thrombocytopénie
+ - sinon bonne tolérance. Surveiller HTA, hypersensibilité
+  
+**** AINS
+ COX-1 : protège muqueuse gastro-duodénale et pro-agrégant. COX-2 : inflammation,
+ effet anti-agrégant
+
+ Antalgique à faible dose. Pour douleurs {ostéo-articulaire, trauma, post-op,
+ néplasiques}, coliques néphrétiques, dysménorrhées essentielles, migraines.
+
+ OS, injectable (limiter à 48h !) ou pommade/gel
+
+ Effets indésirables :
+ - digestif [fn:douleur2]: 
+   - mineur : nausées, vomissements, gastralgies, douleurs abdo
+   - grave : ulcère, perforation digestive, hémorragie
+   - autres : ulcère oesophagien[fn:douleur1], aggravation diverticulose,
+     anorectites/brûlures anales
+   - FR : { > 65 ans, ATCD ulcère/hémorragie dig, infection \bact{helicobacter},
+     maladie générale sévère}, {+ AINS, + corticoïdes, +anticoag/agrégants,
+     +aspirine}
+     \thus FR \ge 3 ou aspirine : éviter !
+ - rein :
+   - \danger risque hypovolémie, néphropathie, âgé, association (diurétique, IEC,
+     ARAII)
+   - insuf rénale fonctionnel (créat !), rétention hydrosodée, hyperkaliémie,
+     néphropathie intestitielle, (nécrose papillaire) 
+ - cutanés/muqueus fréquents : bénin, urticaire (sd Lyelle/Stevens-johnson)
+ - allergiques (rhinite, conjonctivite, oedème de Quincke, asthme) ou respiratoire
+ - si anémie, chercher saignement digestif
+ - hépatite (souvent silencieuse)
+ - sd confusionnel (âgé)
+ - CV : rétention hydrosodée, \inc risque thrombotique artériel
+  
+ Éviter interactions : AINSE aspirine, {anticoag, ticlopidine}, {diurétiques,
+ IEC}, lithium, corticoïdes, méthotrexate
+
+ \fbox{Surtout douleurs aigües}
+
+*** Palier II
+ 60mg codéine = 50mg tramadol = 10mg morphine
+
+ \fbox{Douleurs modéres/intenses d'emblée ou ne répondant pas au palier I}
+
+ Douleurs aigües (courte) ou chronique (courte/long)
+
+ Codéine : 
+ - agoniste opioïde naturel \thus métabolite * morphine
+ - seul (sirop, dihydrocodéine) ou avec paracétamol. 
+ - 1-2 comprimés toutes 6-8h
+  
+ Tramadol : 
+ - seul, libération prolongée (LP) sur 12h [fn:douleur3] ou immédiate (LI)[fn:douleur4]
+ - max 400mg/j.
+ - IV lente seulement en hôpital
+
+ Poudre d'opium avec paracétamol : 1-2 gélules toutes 4h (max 10/j)
+
+ Contre-indications : insuf respiratoire, asthme grave, insuf hépatocellulaire
+ sévère, enfants < 12 ans [codéine] ou 3 ans [tramadol], allaitement, épilepsie
+ non contrôlé [tramadol], +(ant)agoniste morphinique, +IMAO[fn:douleur5] [tramadol].
+
+ Effets indésirables :
+ - ceux des opioïdes = sédation, vertige, {constipation, nausées, vomissements},
+   {bronchospasme (dépression respiratoire)}, rétention d'urine
+ - sécheresse buccale, douleurs abdo, troubles visuels, convulsion (si facteurs)
+
+ Éviter codéine si enceinte. \dec posologie si âgé
+
+*** Palier III
+ AMM : 
+ - douleurs /non/ cancéreuse = morphine, oxycodone, fentanyl (transdermique)
+ - douleurs cancéreuse = idem et fentanyyl transmuqueus, hydromorphone
+  
+**** Formes 
+| Catégorie             | Molécule      | Note               | forme         | Action                 |
+|-----------------------+---------------+--------------------+---------------+------------------------|
+| Agonistes purs        | Morphine      | référence.         | Chlorhydrate  |                        |
+|                       |               |                    | Sulfate       | LP (12-24h) ou LI (4h) |
+|                       | Hydromorphone | K (2eme intention) |               | 12h (délai 2h)         |
+|                       | Oxycodone)    | morphine x2        |               | LP (12h) ou LI (4h)    |
+|                       | Fentanyl      | morphine x50-150   | Transdermique | 72h (délai 12-18h)     |
+|                       |               |                    | Transmuqueuse | 1-2h (délai 10min)     |
+|                       | Méthadone     | dpdance opiacés    |               |                        |
+|                       |               |                    |               |                        |
+| Agonistes partiels    | buprénorphine | morphine x30.      |               |                        |
+|                       |               | Effet plafond      |               |                        |
+| Agoniste-antagonistes | nalbuphine    | pédiatrie++        |               |                        |
+| Antagonistes          | naloxone      | Effet plafond      |               |                        |
+
+**** CI
+ Insuf respi décompensée, insuf hépatocellulaire sévère, insuf rénale sévère,
+ épilepsie non contrôlée, trauma crânier et HTIC, intox alcoolique aigüe, +IMAO,
+ associer agonistes avec a. partiel ou a-antagonistes
+
+**** EI
+ - Constipation (fréquent !):
+  - préventif = laxatif oral systématique, hygiéno-diététique, oxycodone et
+    naloxone
+  - curatif : \inc laxatif, fécalome ?, ttt rectal.[fn:douleur6] 
+ - Nausées, vomisseements(fréquent !):
+  - préventif : anti-émétique
+  - curatif : neuroleptique action centrale, corticoïdes, sétrons, droperidol
+ - Somnolence : \dec dose ou rotation
+ - Dépression respi (FR < 10min) : réa et naloxone
+ - Trouble s confusionnels, cognitifs : \dec doses, rotation
+ - Dysurie, rétention :[fn:douleur7] \dec doses, sondage, chercher médicaments favorisants
+ - Prurit : antihsistaminique, rotation
+  
+ Dépendance : pyschologique (recherche compulsvie), physique (sd sevrage)
+
+**** Surdosage
+ Somnolence, respi irrégulière, FR < 10/min
+ Échelle de sédation (0 à 3)[fn:douleur8], de qualité de respiration (R0 à R3)[fn:douleur9]
+
+ Réat et injection narcan (naloxone) : 0.4mg par dose de 0.04mg/2min jusque R1/R0
+
+**** Indications :
+\begin{tcolorbox}
+Privilégier formale orale et LP
+\end{tcolorbox}
+
+ - Douleurs aigüe : très intenses ou (modéré/sévère ne répondant pas au palier
+ II). Oral (parentéral si urgence)
+ - Douleurs chroniques cancéreuses ou (non cancéreuses après échec étiologique,
+   palier 1, II et techniques). Oral et LP.
+
+\begin{tcolorbox}
+ Équivalence :
+\begin{itemize}
+\item morphine : 1 oral = 1/2 SC = 1/3 IV 
+\item 1 morphine Iv = 1 oxycodone IV/SC
+\item oxycodone : 1 oral = 1/2 IV/SC
+\end{itemize}
+\end{tcolorbox}
+
+ Prescription : ordonnance sécurisée, \le 28j
+
+** Antiépileptiques
+Douleur neuropathique :
+1. Gabapentinoïdes 
+2. \pm tricycliques/opioïdes (2eme intention)
+
+** Antidépresseur
+Classes :
+- tricyclique : amitriptyline
+- inhibiteurs de la recapture de la noradrénaline et sérotonie : venlafaxine,
+  duloxétine, milnacipran
+
+Douleurs chroniques : 
+- neuropathiques, lombalgie, céphalée : amitriptyline
+- fibromyalgie : duloxétine, milnacipran
+
+\printglossaries
+
+** Grands syndromes
+Pneumo 
+- Dyspnée : morphinique, benzodiazepine \pm O_2 (en phase terminale ?)
+- Encombrements bronchiques : demi-assis, soins de bouches, éviter aspirations,
+  anticholinergiques
+
+Digestifs :
+- nausées, vomissements : alimentation, soins de bouche, neuroleptiques,
+  corticoïdes, agonistes récepteurs 5-HT3 (si chimio) \pm benzodiazepine
+- occlusion intestinale : origine mécanique ou fonctionnelle
+  (motricité). Fréquent si carcinose péritonéale
+  - à jeûn + réhydratation IV/SC
+  - antiémétique (neuroleptique), antisécrétoires anti-cholinergique,
+    antisécrétoire analogue somatostatine, IPP, corticothérapie, antalgique \pm
+    SNG
+- constipation : hygiéno-diététique, laxatif osmotique/stimulation (3e jour :
+  suppositoire de glycérine)
+
+Neuropsy :
+- confusion : neuroleptique (éviter benzodiazepine !)
+- anxiété : benzodiazepine, hydroxine. Si échec neuroleptique
+
+* Endocrinologie
+** 35 : Contraception
+*** Contraception hormonale
+ Oestroprogestatifs
+ - Contient {oestrogène, progestatif (gen 1,2 ou 3), autres progestatif}
+ - Administration orale, transdermique ou vaginale
+ - Action : {pas d'ovulation, endomètre peu à apte à la nidation, glaire
+   cervicale imperméable aux spermatozoïdes}
+ Progestatifs seuls 
+ - Microprogestatifs : action sur glaire cervicale, endomètre
+ - Macroprogestatifs : si CI oestroprogestatifs
+ - Administration : orale, injection, implant, intra-utérin (stérilet)
+*** Pratique
+ Oestroprogestatifs : le premier jour des règles pendant 21j puis 7 j
+ d'arrêt. /Tjrs au même moment/. Si oubli < 12h, ASAP sinon contraception mécanique $\ge 7$ jours
+
+ Microprogestatifs : toujours à la même heure. Si oubli < 3h, ASAP, sinon
+ contraception mécanique $\ge 7$ jours
+
+ Macroprogestatifs : commencer le 5eme jour du cycle
+
+*** Contre-indications
+ Oestroprogestatifs : absolues =
+ - thromboemboliques veineux/artériels, prédisposition thromboses
+ - lupus évolutif, connectivites, porphyries
+ - vasc, cardiaque, cérébrales, oculaires
+ - valvulopathie, troubles rythmes thrombogènes
+ - HTA non contrôlée
+ - diabète et micro/macroangiopathie
+ - tumeur hormono-dépendantes (sein, utérus...)
+ - hépatiques sévères
+ - hémorragies génitales non diagnostiquées
+ - (tumeurs hypophysaires)
+ Macro/microprogestatifs : cancers {sein, endomètre}, insuf hépatique, accident
+ TEV récents
+
+*** Recommandation
+ Sans CI, oestroprogestatif minidosé et progestatif 2eme génération monophasique
+ (Minidril)
+
+*** Efficacité
+ Indice de Pearl[fn:endocrino1] < 0.07% pour oestroprogestatif
+ (< 2% pour les microprogestatifs)
+
+ Attention : certains inducteurs enzymatiques réduisens l'efficacité (ou
+ millepertuis).
+
+ Ado : sous- ou mal utilisée
+
+*** Tolérance
+ Oestroprogestatifs :
+ - bien tolérée, pas de perte de poids
+ - surveiller métabolisme
+ - active coagulation mais \inc fibrinolyse. Légère augmentation du risque
+   d'accident TEV
+ - vasc : faible \inc PA
+ - cancer : ovaire = risque -50%, idem pour l'endomètre, faible \inc pour sein
+ Microprogestatifs : troubles des règles (spotting, aménorrhées), grossesse
+ extra-utérine
+
+ Macroprogestatifs : hypoestrogénie, aménorrhées, spotting
+
+*** Surveillance
+ Consulter si céphalée, déficit sensitivomoteur, (douleur ou oedème) MI, dyspnée,
+ douleur thoracique
+
+ Examen clinique : 
+ - préthérapeutique : gynéco, frottis cervico-vaginal dès 25 ans si
+   asymptomatique.
+ - PA à +3mois puis tous 6 mois
+ - hyperoestrogénie (tension mammaire), hypoestrogénie (sécheresse vaginale)
+ Biologie : cholestérol total, triglycérides, glycémie à jeun à +3mois. Si FR, le
+ faire avant (!) prescription
+
+ Gynéco : métrorragies, spottings. 
+
+ Frottis cervico-utérin dès 25 ans (+1 an puis tous 3 ans) indépendamment contraception
+
+*** Femmes à risques
+ Diabétique :
+ - non hormonale : si diabète 1 > 15 ans ou micro/macroangiopathie \thus locale
+   (nullipare, peu de rapports) ou intra-utérin (multipare, diabète équilibré)
+ - hormonale :pas d'oestropregestatifs si {tabac, non équilibré, HTA, surpoids,
+   diabète compliqué} \thus progestatif
+ Dyslipidémie : oestroprogestatif si < 3g/L cholestérol total, triglycérides <
+ 2g/L
+
+ Thrombose veineuse
+ - prédisposant : anomalies de l'hémostase (génétique, acquises), ATCD familiaux
+ - dépistage : thrombose, multiples fausses couches, ATCD thrombose < 45 ans
+ - CI oestrogène, acétate de chlormadinone à la place
+
+ Autres :
+ - HTA : oestroprogestatifs si 0 FR
+ - tabac = CI
+ - si migraine et vascularite, voir spécialiste
+
+*** Contraception d'urgence
+ - lévonorgestrel ASAP < 72h
+ - ulipristal acétate ASAP < 120h mais 3x plus cher
+
+** 37 : Stérilité du couple
+ Infertile : 0 grossesse après 1 an de rapports non protégés. Stérilité si
+ définitif.
+
+ Stérilité = partagée !!
+
+*** Interrogatoire
+ - Couple
+ - Femme : âge++ (détérioration après 35 ans), {grossesses antérieure,
+   avortements}, infections/curetages++, ATCD chir/infectieux, douleurs
+   pelviennes (rapports, règles), conditions de vie, radio/chimio
+ - Homme : trouble libido/érection, ATCD cryptorchidie/trauma testiculaire, ATCD
+   chir pelvienne/scrotale, ATCD médicaux (orchite ourlienne++), tabac/anabolisants...
+
+*** Examen clinique
+ - \female : âge++, obésité/maigreur, tour taille et hanche, pilosité, PA,
+   galactorrhé provoqué, gynéco.
+   - Si anovulation (a/oligo-ménorrhée) : hyperprolactinémie, hyperandrogénie,
+     troubles comportement alimentaire, bouffées chaleur
+ - \male : IMC, pilosité, hypoandrisme, cicatrice chir, varicocèle[fn:endocrino59],
+   gynécomastie, gynoïde/enuchoïde
+   - volume testiculaire++, palpation cordospermatiques
+
+*** Examens complémentaires
+ Premiere intention, femme
+ - Hormonale++ : oestradiol, LH, FSH, prolactine plasmatique. Puis progestérone plasmatique (si cycle réguliers)
+ - Écho ovarienne++
+ - Hystérographie++
+ Première intention, homme :
+ - spermogramme++ (concentration, mobilité, morphologie). Attention aux variabilités !
+ - hormonale++ si oligo-/azoo-spermie : testostérone, LH, FSH puis gls:SHBG
+ Test poist-coïtal (discuté)
+
+*** Étiologie
+ Femme :
+ - /anovulation/ : très fréquent ! Souvent aménorrhées ou irrégularités. Causes :
+   gls:SOPK, hyperprolactinémie, insuf ovarienne primitive, déficit gonadotrope, psycho-nutritionnel
+ - /obstacle mécanique/ :
+   - anomalie du col utérin et insuf glaire cervicale : post-conisation/curetage
+   - obstacle, anomalie utérine : manoeuvres post-partum, polypes muqueux... \thus
+     echographie
+   - obstacle tubaire : cause majeure++. Souvent salpingite (Chlamydia++)
+ - /endométriose/ : rarement en cause si modérée. hystérosalpingographie puis coelioscopie
+ Homme :
+ - /azoospermie/
+   - /sécrétoire/ : diagnostic = volume testiculaire < 10ml, concentration FSH
+     faible
+  \thus caryotype, analyse bras long Y, écho testiculaire (élimine K), déficit gonadotrope (rare)
+   - /obstructive/ : volume et concentration ormale, volume séminal \dec \thus
+     examen clinique
+     - cause congénitale : agénésie bilat des canaux déférent++ (soit anomalie
+       biallélique gène CFTR, soit isolée)
+     - acquis : infectieux  (gonocoque, tuberculose, Chlamydia) \thus échographie
+   - exploration chir testiculaire et des voies excrétrices : si azoospermie
+     confirmée par plusieurs spermogrammes, bilan génétique
+ - /oligo-asthéno-térato-spermie/ : \dec nombre et mobilité, \inc formes anormales
+   \thus caryotype, brang long Y. Traitement = assistance médicale procréation
+** 40 : Aménorrhée
+ Déf: absence de cycle menstruel après 16 ans (primaire) ou interruption chez
+ femme réglée (secondaire). Physiologique : grossesse, lactation, ménopause
+
+ Tout arrêt > 1 mois \thus enquête étiologique \danger
+
+ Atteinte de l'axe hypothalamo-hypophysio-ovarien ou anomalie tractus utérin
+
+ \begin{tcolorbox}
+ Pas de traitement oestrogénique sans enquête étiologique
+ \end{tcolorbox}
+
+*** Conduite
+**** Primaire
+ Forte proba de cause génétique/chromosomique. Chercher carences nutritionnelle
+
+ - Si absence de dév. pubertaire : doser FSH, LH
+   - Si basses, tumeur hypothalamo-hypophysaire, dénutrition ou génétique : {sd
+     de Kalmann (anosmie), mutation récepteur GnRH (rare), atteinte
+     gonadotrophines (exceptionnels), mutation LH}
+   - Si hautes : sd de Turner (caryotipe 45, X0),
+ - Examen gynéco, écho pelvienne
+   - Pas d'utérus : sd de Rokitanski, tissu testiculaire dans les canaux
+     inguinaux (ex: acrshort:CAIS)
+   - ambiguité acrshort:OGE : dysgénésie gonadique, hyperplasie congénitale surrénales,
+     anomalies sensibilité/biosynthèse androgènes
+**** Secondaire 
+ Souvent acquises. 
+
+ Interrogatoire : médic, maladie endoc/chronique,
+ gynoc/obstétriques, insuf ovarienne (bouffées de chaleur). Douleurs pelviennes
+ cycliques : cause utérine
+
+ Examen clinique : 
+ - poids et taille (carence nutritionnelle)
+ - hyperandrogénie : gls:SOPK, déficit 21-hydroxylase, (sd Cushing)
+ - carence oestrogénique : pas de glaire +2 semainesa après saignement \thus
+   anovulation
+ - pas de signe d'appel : enquête nutritionnelle
+
+
+ Dosages hormonaux : cf Table \ref{tab:amenorrhe_second}
+
+ \begin{table}
+ \begin{tabular}{llllll}
+ \toprule
+ hCG & prolactine \inc & FSH \inc & estradiol& testostérone \inc & sinon\\
+ & & & LH, FSH àdec & & \\
+ \midrule
+ grossesse & médicaments & \acrshort{IOP} & tumeur H-H & tumeur surrénales & \gls{SOPK}\\
+  & adénome à prolactine &  & nutrition & tumeur ovarienne sécrét. & \\
+  & tumeur H-H &  &  &  & \\
+ \bottomrule
+ \end{tabular}
+ \caption{Évaluation hormonale d'une aménorrhée secondaire. H-H = hypothalamo-hypophysaire}
+ \label{tab:amenorrhe_second}
+ \end{table}
+
+*** Causes
+
+**** 1. Déficit gonadotrope organique/fonctionnel
+
+***** Prolactine normale [fn:endocrino2]
+ - Atteintes organiques : tumeur/infiltration \thus IRM
+   - macroadénomes hypophysaires, craniopharyngiomes
+   - chercher hyperprolactinémie, insuf antéhypophysaire associé
+ - Atteintes fonctionnelles : apports nutritionnels insufisants par rapport à l'activité physique intense+++
+
+***** Hyperprolactinémie 
+ Atteinte hypothalamo-hypophysaire (majeure++)
+
+ Médicaments ou tumeurs \thus pas de traitement dopaminergique sans imagerie \danger
+
+***** Autres
+ - Endocrinopathies : sd de Cushing, dysthyroïdes déficits 21-hydroxylase
+ - Hypophysaire (rare) : auto-immune (majorité), sd de Sheehan (très rare, nécrose hypophysaire post-partum)
+
+**** 2. Anovulation non hypothalamique
+***** SOPK (majorité)
+  Pas de pic de LH, ni de progestérone. Oestradiol mais non cycliques
+
+ Irrégularité menstruelles, puis aménorrhées avec acné, hirsutisme
+
+ Diagnostic :
+ - 2 parmi : {hyperandrogénie clinique[fn:endocrino3], oligo-/a-novulation, hypertrophie
+   ovarienne (écho)}
+ - exclure bloc 21-hydroxylase, tumeur de l'ovaire, sd Cushing
+ - exclure hyperprolactinémie
+
+ Diagnostic parfois difficile :
+ - sans hyperandrogénie \thus écho
+ - {atteinte partielle axe gonadotrope, macroprolactinémie} peuvent y ressembler
+
+ Acné : cherche hyperandrogénie, régularité cycle menstruel \thus éliminer
+ hyperplasie congénitale des surrénales
+
+ 2 causes :
+ - tumeur ovarienne ou résistance insuline
+   - virilisation si tumeur
+   - imagerie si testostérone > 1.5ng/mL. Si normale, cherche hypothécose
+     (obésité morbide androïde, acanthosis nigricans, insulino-résistance)
+ - pathologie surrénale :
+   - sd de Cushing si signes hypercortisolisme \thus cortisol libre urinaire et
+     freinage minute
+   - tumeur surrénale \thus scanner des surrénales
+   - déficit enzymatique en 21-hydroxylase (\danger formes tardives qui peuvent
+     mimer SOPK)
+
+**** 3. Insuf ovarienne primitive
+ \inc FSH
+
+ Causes :
+ - chir, chimio, radiothérapie
+ - anomalie caryotype (sd Turner)
+ - anomalie gènes /FMR1/ (sd X fragile)[fn:endocrino4]
+ - auto-immune
+
+**** 4. Anomalie utérine
+***** Congénitales 
+ Si dév pubertaire normal :
+ - et douleurs pelviennes cycliques :  imperforation hyménéale/malformation vaginale \thus examen gynéco.\\
+ - ou sans douleurs \thus agénésie utérus ?
+
+ Difficulté : différence agénésie mullérienne isolée (46,XX)- anomalies androgènes
+ (46,XY) \thus testostérone
+
+***** Secondaires 
+ Synéchies utérines (trauma de l'utérus), tuberculose utérine
+** 47 : Puberté
+*** Normale
+ ~4 ans, acquisition de la taille définitive, fonction de
+ reproduction. Classification de Tanner (5 stades)
+
+ #+caption: Puberté normale
+ | \female    |                        | \male               |                         |
+ |------------+------------------------+---------------------+-------------------------|
+ | seins      | 11 ans [8,13]          | volume testiculaire | 11.5 ans [9.5,14]       |
+ | règles     | 13 ans [10,15]         | \inc taille verge   | 12.5 ans                |
+ | croissance | 5 $\rightarrow$ 8cm/an | croissance          | 5 $\rightarrow$ 10cm/an |
+ | taille     | 163cm                  | taille              | 175cm                   |
+
+*** Retards 
+ \begin{tcolorbox}
+ \male :  volume testiculaire < 4mL après 14 ans \footnotemark\\
+ \female : pas de seins à 13 ans, pas de règles à 15 ans
+ \end{tcolorbox}
+ \footnotetext{ou longueur < 25mm}
+
+ \begin{tcolorbox}
+ Hypogonadisme\footnotemark central ou périphérique ?
+ \begin{itemize}
+ \item FSH, LH \inc : pour compenser le manque des gonades (hypergonadotrope = primaire) 
+ \item FSH, LH N ou \dec : problème hypothalamo-hypophysaire\footnotemark (hypogonadotrope = secondaire)
+ \end{itemize}
+ \end{tcolorbox}
+ \footnotetext{Chez \male{}, manque de testostérone}
+ \footnotetext{Rappel : LH entraîne la production de testostérone}
+
+ - centrale : congénital (pas de cassure de croissance, micropénis,
+   cryptorchidie), acquis (tumeur ?), "fonctionnel" (maladie générale, trouble
+   comportement alimentaire), isolé
+ - périphérique : sd de Turner chez \female, sd Klinefelter \male
+ - retard simple (élimination)
+
+ Clinique : 
+ - parents, grossesse, courbe de croissance. Chercher trbles digestifs, polyuro-polydispsie, céphalée, anomalies champ visuel
+ - pathologie acquise, OGE, testicules, anosmie (Kallmann)
+
+ Âge osseux : 13 ans \male, 11 ans \female
+
+ Biologie : stéroïdes sexuels
+ - FSH, LH basses \thus hypothalamo-hypophysaire
+ - testostérone chez \male, oestradial/écho chez \female
+
+ IRM indispensable si déficit gonadotrope (tumeur) \danger
+
+ Caryotype si :
+ - FSH élevé
+ - toujours chez \female{} de taille < -2DS avec retard pubertaire/gonadotrophine \inc
+
+**** Étiologies
+ Hypogonadotropes
+ - congénitaux : isolés, sd de Kallman, autres déficits hypophysaires, sd
+   polymalformatifs
+ - acquis : tumeurs hypophysaires, post-radiothérapie 
+ Hypogonadotropes fonctionnels
+ - maladies chroniques digestives/cardiaques/respi
+ - sport intense
+ - maladies endocriniennes
+ Hypergonadotropes
+ - congénitaux : sd Turner, sd Klinefelter, autres atteintes primitevs
+ - acquis : castration, trauma, oreillons, chimio/radio
+
+****  Traitement
+ Cause si possible. Sinon doses \inc de testostérone (\male) ou oestrogènes puis
+ oestroprogestatif (\female)
+*** Précoces
+ Avant 8ans \female ou 9.5 ans \male
+**** Centrales
+ 8x plus fréquent chez \female{} que \male{}. Chez \female{}, causes
+ idiopathiques. Chez \male{}, causes tumorales à 50%
+
+ Clinique : 
+ - dév prématuré harmonieux (pas de règles chez \female)
+ - crises de rires (harmatome hypothalamique), tâches cutanées (neurofibromatose
+   I ou sd McCune-Albright)
+ Biologie :
+ - testostérone élevée chez \male{} mais variabilité d'oestradiol chez \female{}
+
+ IRM hypothalamo-hypophysaire indispensable \danger (petite taille
+ définitive). Écho pelvienne pour \female{}
+
+ Traitement si risque de petite taille adulte : analogues GnRH jusque âge normal
+ de puberté
+**** Périphériques
+ Clinique : \inc vitesse de croissance, avance maturation osseusse
+
+ Stéroïdes élevées, LH et FSH bas. Écho pelvienne chez fille
+
+ Étiologie :
+ - tumeurs ovarienne (rares) : écho puis histologies
+ - kystes folliculaires : bénins, régression spontanée possible
+ - sd McCune-Albright : 
+   - {puberté précoce ovarienne, taches cutanées "café-au-lait", dysplasie fibreuses os}. \danger tableau pas toujours complet !
+   - oestradiol élevé, gonadotrophines basses, écho = utérus stimulé, kystes ovariens. Dominance \female
+ - médicaments
+ - testotoxicose (rare, cellule de Leydig activé et LH basses), adénome leydigien
+   (très rare)
+ - tumeurs à hCG (\male)
+**** Avances dissociées
+ - Isolé des seins : beaucoup de filles ( de 3 mois à 3 ans)
+ - Métrorragies isolées : chercher vulvite, vulvovaginite, prolapsus urétrale,
+   corps étranger. Éliminter kyste ovarien, sd McCune-Albright par l'absence des
+   sein
+ \thus écho pelvienne
+ - Pilosité pubienne isolée : chercher forme d'hyperplasie congénitale des
+   surrénales (\inc 17-hydroxyprogestérone, stimulation ACTH), prémature pubarche
+   (élimination !)
+
+** 48 : Cryptorchidie
+*** Enfant
+  Localisation anormale et inaboutie du testicule. Très fréquente : 3%
+  nouveaux-nés, 20% préma. 2/3 descendent spontanément à 1 an de vie
+
+  Clinique : checher micropénis (< 2cm, hypospadias, autres)
+
+  Explorations : endocrinienne pour toute cryptorchidie \danger
+  - bilatérale : doser 17-hydroxyprogestérone chez \female{} virilisée pour éliminer hyperplasie
+    congénitale des surrénales
+  - testostérone, gls:Leydigcell (INSL3), gls:Sertolicell (AMH, inhibine B sérique), FSH, LH mesurée jusque 4-6mois[fn:endocrino5]
+  - si bilatéral, écho (vérifier l'absence de dérivés mülleriens)
+
+  Étiologie
+  - hypogonadisme hypogonadotrope congénital
+  - anorchidie rare
+  - si hypospade en plus, chercher dysgénésie testiculaire
+  - sd polymalformatif
+
+  Suivre l'âge de l'apparition de la puberté !
+
+  Traitement : chir dès 2 ans, indispensable ! (risque de cancer)
+*** Adulte
+ - Risque : hypogonadisme, infertilité, cancer testicule
+ - Examen clinique : scrotum, gynécomastie, signes d'hypogonadisme
+ - Complémentaire : {FSH, LH, testostérone}, hCG si tumeur à la palpation, écho
+   scrotale, spermogramme
+** 51 : Retard de croissance
+ \danger Ne pas passer à côté de pathologies sévères
+
+ Phases : 
+ - foetale (rapide, {nutrition, insuline, IGF-2})
+ - précoce 0-3ans (rapide, {insuline, IGF, hormones thyroïdiennes})
+ - prépubertaire (plus lente, décroît, {génétique, GH/IGF, hormones thyroïdiennes})
+ - pubertaire ({stéroïdes sexuels, GH, nutrition})
+
+ Retard statural = {taille < -2DS, ralentissements croissance, croissance $\le$ parents}
+
+ Prise de poids, obésité, ralentissement croissance \thus chercher
+ hypercorticisme, tumeux craniopharyngiome sur l'hypothalamus, hypopituitarisme
+
+ Examen :
+ - ATCD : taille, parents, néonatale, médicaux/chir, contexte social
+ - morphotype, dév. pubertaire, tous les système, psychoaffectif
+
+*** Principales causes
+ - Si poids < poids idéal : cf table [[retard pondéral]]
+ - Si poids $\ge$ poids idéal : cf table [[retard statural]]. Précisions :
+   - Test de stimulation de l'hormone de croissance (\danger si doute, IRM)
+   - Ralentissement sévère \thus bilan en urgence (craniopharyngiome, thyroïdite de
+     Hashimoto) \skull
+   - [0, 3] ans : digestives pédiatrique (coeliaque, mucoviscidose), [3,puberté] :
+     endoc constitutionnelle, à la puberté : déficit hormone, patho osseuse
+   - Savoir différencier retard pubertaire simple d'un vrai retard
+
+ #+NAME: retard pondéral 
+ #+caption: Causes de retard pondéral
+ | Maladie coeliaque             | IgA totales, IgA anti-transglutamase, fibro            |
+ | Crohn                         | VS, écho anse grêle                                    |
+ | Mucoviscidose                 | Test sueur                                             |
+ | Anorexie mentale              | Courbe de poids                                        |
+ | Insuf rénale chroniques       | Créat, iono, explo fonctionnelles                      |
+ | Anémie chroniques             | NFS                                                    |
+ | Rachitisme hypophosphatémique | Bilan phosphocalcique                                  |
+ | Patho mitochondriales         | lactate/pyruvate, génétique, biopsie musc, fond d'oeil |
+ | Nanisme psychosocial          |                                                        |
+
+ #+NAME: retard statural 
+ #+caption: Causes de retard statural 
+ | Endocrino         | Déficit GH (congénital, acquis [tumeur]) | IRM                                 |
+ |                   | Hypothyroïdie                            | T4L, TSH, Ac anti-TPO               |
+ |                   | Hypercorticisme (iatrogène)              | Cortisol libre urinaire/à 23h, ACTH |
+ |                   | Déficit hormones sex.                    | Testostérone, GnRH, IRM             |
+ |-------------------+------------------------------------------+-------------------------------------|
+ | Constitutionelles | Sd Turner                                | Caryotype                           |
+ |                   | Sd Noonan                                | Gène PTPN11                         |
+ |-------------------+------------------------------------------+-------------------------------------|
+ | Autres            | Osseuses (a-/hypo-chondroplasie)         | Radio                               |
+ |                   | RCIU                                     | Taille naissance                    |
+ |                   | Petite taille idiopathique               | Élimination                         |
+
+
+*** Exploration :
+ - Caryotype : fille taille < -2DS ou < -1.5DS sous taille parentale moyenne
+ - NFS, VS, foie, rein
+ - IgA totales, anti-transglutaminase
+ - GF-1, T4L, TSH
+ - Radio
+
+** 78 : Dopage
+*** Substances augmentant la testostérone 
+ - Stéroïdes anabolisant, testostérone : \inc masse musc, puissance
+ - Risque : thrombotique, rupture musculo-tendineuse, trouble personnalité, foie, trouble libido, adénome/cancer de la prostate
+ - Femmes : masculinisation, hirsutisme, acné, aménorrhée, anovulation, hypertrophie clitoridienne, libido exacerbée
+
+ \vspace*{0.5cm}
+ - /Testostérone/ : test chromatographique + spectrométrie de masse (très sensible
+   et spécifique)
+ - /Dihydrotestostérone/ (DHT) : traitement gynécomastie
+ - /Anabolisants/ : \inc tissu cellulaire (muscle). 
+ ES : rétention hydrosodée, HTA, IDM, hépatite
+ - /hCG/ : diminuer épitestostérone/testostérone après dopage (IM, SC). Testée dans
+   le sang ou urine.
+ - /Anti-oestrogène/ : stimule production testiculaire de stéroïdes
+
+*** Hormone de croissance (GH), IGF-1
+ - GH \inc masse musculaire, modifie architecture sequelette, acromégalie /mais/
+   pas d'effet sur volume d'activité physique. Détection difficile : approche
+   indirecte (cascade biologique) et mesure des forme circulante et comparaison à r-hGH
+ - IGF-1 mime certains effet GH
+
+*** Glucocorticoïdes, ACTH
+ - Glucocorticoïdes : antalgiques, psychostimulants, combativité. ES : HTA,
+   oedème, rupture ligament/tendon
+ \danger arrêt brutal = dangereux \skull
+
+** 120 : Ménopause et andropause
+ \label{sec:120}
+*** Ménopause
+ Déf: plus de règle > 1 an \pm sd climatérique, lié à une carence
+ oestrogénique. Vers 51 ans.
+
+ Pré-ménopause : irrégularités cycles puis dysovulation puis anovulation ~5 ans
+ avants.
+
+**** Diagnostic
+ Clinique seulement \danger : bouffées de chaleur, \female > 50 ans. Bio
+ seulement si hystérectomie \thus \dec oestradiol et \inc FSH
+
+ En pratique : progestatif seul 10j/mois x3 \thus pas de saignement à l'arrêt =
+ diagnostic
+
+ Aménorrhée < 40 ans = pathologique !
+
+**** Conséquences
+ Court terme : bouffées de chaleur, trouble sommeil/humeur, \dec sécrétions
+ vaginales
+
+ Moyen terme : douleurs ostéoarticulaires, \inc perte osseuse (selon ATCD d'insuf
+ ovarienne prématurée, fractures non traumatiques, médicaments, calcium/vit D)
+
+ Long terme : \inc risque CV. Incertitude sur SNC
+
+**** Traitement 
+ Bénéfices
+ - court terme : qualité de vie à +5-10 ans
+ - long terme :
+   - prévention ostéoporose
+   - cardiovasculaire et neuro = incertain
+   - cancer du côlon
+ Risques :
+ - \inc cancer du sein, accident veineux thromboemboliques (mais chiffres absolus
+   faibles)
+ - \inc AVC ischémique, lithiase bilaires
+
+***** Thérapeutique 
+ - oestrogène (17\beta-oestradiol) oral/percutané/transdermique[fn:endocrino6] 25 jours/mois
+ - *et* progestatif (au moins les 12 derniers jours) per os/transdermique
+ \danger hémorragie de privation possible. Si pendant le traitement, faire écho
+ pelvienne, hystéroscopie
+
+***** CI 
+ Cancer du sein, endomètre, ATCD thromboembolique artériel (ischémique,
+ cardiopathie embolinogène) ou veineux, hémorragie génitale sans diagnostic, hépatique
+
+***** Mise en route
+ - Interrogatoire : ATCD {cancer, métabolique, vasculaire}, carence oestrogénique
+ - Examen physique : poids, PA, palpation seins, gynéco, frottis cervico-vaginal
+ - Mammograhpie !
+ - Cholestérol, triglycérides, glycémie
+
+***** En pratique 
+ 1ere intention si trouble fonctionnels importants. 2eme si risque
+ d'ostéoporose. Sinon au cas par cas.
+
+***** Surveillance 
+ 3-6mois (surdosage = douleur, tension mammaire). Puis tous les 6-12 mois,
+ mammographie tous les 2 ans, frottis CV tous les 3 ans.
+
+ Traitement \ge 5 ans !!
+
+***** Alternatives
+ - Modulateurs spécifiques du récepteur des oestrogènes : raloxifène
+ - tibolone
+ - traitement local préserve tractus urogénital
+
+ NB : Dépister FR CV. Promouvoir exercice, calcium, vit D
+
+*** Andropause
+ Chez majorité des hommes mûrs/âgés en bonne santé non obèse, baisse de
+ testostérone inconstante (2%).
+
+**** Démarche
+  - Interrogatoire : libido, érection, énergie vitale, mobilité/activité physique
+  - Examen clinique : IMC, virilisation, gynécomastie, palper testicules
+  - Mesure de testostérone totale :
+    - > 3.2ng/mL = normale \thus étiologies non endocrino
+    - \in [2.3, 3.2] : doser SHBG, calculer index de T libre, si bas, chercher cause
+    - < 2.3 ng/mL : chercher cause
+**** Étiologie
+ Si FSH, LH élevée, /insuf testiculaire primitive/ 
+ - lésionnelle : chimio, radiation, alcoolisme surtout. Autres : castration,
+   torsion, orchite ourlienne
+ - cryptorchidie bilatérale
+ - chromosomique : sd Klinefelter++
+ - lié à sénescene, cause génétique (rare !)
+ Sinon /hypogonadisme hypogonadotrope/
+ - tumeur région hypothalamo-hypophysaire : craniopharyngiome, adénome
+   hypophysaire++, autres
+ - infiltratif : sarcoïdose, hémochromatose
+ - chir, radiothérapie, traumau
+ - hyperprolactinémie, carence nutritionnelle, Cushing, tumeur testiculaire
+
+** 122 : Troubles de l'érection 
+ Nécessite : réseau vasculaire, appareil musculaire lisse, retour veineux, signal  nerveux,
+ appareil hormonal et psychisme fonctionnels
+
+ Déf : incapacité persistante à obtenir/maintenir érection pour rapport sexuel satisfaisant
+
+ Âge = FR (car déficit neurosensoriel, \inc testostérone, comorbidités)
+
+*** Conduite  diagnostique
+**** Interrogatoire
+ - DD avec perte désir, trouble éjaculation, douleurs pendant, anomalies morphologiques
+ - Caractérisation : primaire/secondaire, brutal/progressif,
+   permanent/situationnel, sévérité (délai trouble-consult, capacité résiduelle,
+   masturbation)
+ - Pathologies, facteur :
+     - primaire : trouble psychogène perso, complexe identitaire, trouble
+       relationnel, conflit socioprof, anomalie génitale
+     - secondaire : ATCD abdo-pelvien, diabète, FR CV, patho CV, neuro, trouble
+       miction, endocrinopathie, troubles sommeil, traitement, déficit
+       androgénique, sd dépressif, troubles addictifs
+**** Clinique
+ - Gynécomastie, hypoandrisme, petits testicules, anomalies du pénis (La Peyronie)
+ - CV : HTA, pouls, souffle
+ - neuro : sensibilités périnée, MI
+ - endoc : anomalie CV
+**** Bio
+ Glycémie, lipidique (si > 1 an), {NFS, iono, créat}, foie (si > 5 ans), déficit
+ androgénique
+
+ Doser prolactine, hormones thyroïdiennes
+
+*** Bilan secondaire et approfondi
+ Secondaire : sexo/psychologique, épreuve pharmacologique (prostaglandine,
+ inhibiteur de la phospohdiestérase 5)
+
+*** Étiologies
+ Plus fréquentes :
+ - vasculaire : FR = HTA
+ - endocrino++ : diabète
+ - génito-pelvien : chir pelvienne
+ - trauma médullaire
+ - neuro dégénératif
+ - iatrogène : antihypertenseur
+
+*** Aspects endocriniens
+**** Androgènes circulants
+ Influe libido, intérêt sexuel, érection (seulement spontanée!)
+
+ Hypogonadisme (diag difficile) : 
+ - asthénie, gynécomastie, dépilation, perte force musculaire, adiposité androïde
+ - doser testostérone totale \pm SHBG, prolactine. FSH, LH pour l'origin
+  
+**** Hyperprolactinémie 
+ Tumeur hypophysaire (IRM), champ visuel si tumeur
+ supra-sellaire, {T4L, cortisol, IGF-1, testostérone}
+ \thus correction par agoniste dopaminergique
+
+**** Diabète
+ sucré = 1ere cause de trouble érectile (TE). TE fréquents chez diabètique. 
+
+ Facteurs : mal équilibré, complications, âge, ancienneté diabète
+
+ Physiopatho : neuropathie autonomie, microangiopathie \thus défaut relaxation
+ musculaire. Macroangiopathie \thus ischémie organes érectiles
+
+ \danger facteurs psychogènes hyportants !
+
+ Diabète et TE \thus mesure testostérone systématique (hypogonadisme ?)
+
+ Clinique : 
+ - TE peut révéler diabète. 
+ - diabète et TE : cherche trouble endoc, vasc, neuro, médicament, dépression
+ - TE = FR d'ischémie myocardite silencieuse \danger
+  
+*** PEC
+ Ttt étiologie seulement pour : trouble psychogène pur, chir possible, endocrino
+
+**** Trouble endocrinien
+ - Si hypogonadisme confirmé par bio[fn:endocrino7] : androgène oraux/intramusc/transderm
+ - CI : nodule prostatique palpable, PSA > 3ng/mL
+ - Surveiller prostate, foie, hématocrite
+  
+**** Pharmacologique
+ - FR, Hb glyquée < 7%, psycho/sexologique
+ - 1ere intention 
+   - inhibiteurs des phosphodiésterases type 5[fn:endocrino60]
+   - Sinon apomorphine, yohimbine = peu efficace
+   - "Pompe" = efficace mais résistance psycho
+ - 2eme intention : drogue vasoactive = efficace mais douleurs peniennes, priapisme
+ - Prothèses péniennes = dernier recours, par chirurgien spécialisé
+
+** 124 : Ostéopathies
+ Ostéoporose : fragilité excessive du squelette (\dec minéraux osseux, modif
+ microarchitecture). T-score < -2.5 DS valeur moyenne par DXA
+
+ Dominance \female. Primaire ou secondaire :
+ - endocrino : hypogonadisme, sd Cushing, hyperthyroïdie, hyperparathyroïdie, diabète
+ - digestives, générale, génétique, médicaments, autres
+  
+*** Hypogonadisme
+ Carence oestrogénique \inc ostéoclastogénèse. Aggravé par la précocité,
+ déminéralisation
+**** Anorexie mentale
+ Biochimie : marqueurs de formation \dec (isoenzyme des phosphastales alcalines,
+ ostéocalcine), marqueurs de résorption normaux (CTx, NTx) 
+
+ Aggravé par troubles nutritionnels. Hypercortisolisme hypothalamique réversible
+
+ Ostéoporose fréquente, risque de fractures $\times 7$
+
+ Traitement 
+ - multidisciplinaire
+ - pilule oestroprégestative en pratique (limite perte osseuse)
+
+**** Activité physique intensive
+ Hypoestrogénie hypothalamique
+
+ Facteur : activité[fn:endocrino8], troubles menstruels, apports alimentaires
+
+ Résorption généralisée (rachis++), \inc fractures de fatigue
+
+ Traitement : si aménorrhées, \dec activité ou oestroprogestatifs
+
+**** Pathologies hypophysaires
+ Prolactinomes, adénome corticotrope influent remodelage osseux
+
+ Perte osseuse rapide (8% par an), récupération variable.
+
+ Traitement : \female{} non ménopausée : oestrogénothérapie
+
+**** Iatrogènes
+ Agonistes GnRH (patho utérines), inhibiteurs aromatase (cancer sein)
+
+ Réversible à l'arrêt (moins bien si âgée)
+
+ Traitement : bisphosphonates, denosumab
+
+**** Dysgénésies gonadique 
+ Sd Turner = plus fréquent (1/2500 à naissance)
+
+ \dec masses osseuse, continue à l'adolescence. \inc risque fracture chez
+ l'adulte.
+
+ Traitement : oestrogénisation (hypogonadisme) et hormone de croissance. Adulte :
+ oestroprogestatif
+
+*** Hyperthyroïdie, traitement par hormones thyroïdiennes
+ Cause fréquente d'ostéoporose secondaire \thus dosage systématique TSH
+
+ Hormones thyroïdiennes \inc remodelage : résorption sur l'os cortical++ et trabéculaire
+
+ En pratique, rarement évolution jusque l'atteinte osseuse (ttt
+ rapide). Adapter posologie hormones thyroïdiennes au cancer thyroïdien.
+
+ Prévention :
+ - densitométrie
+ - bisphosphonates sujet âgé ou risque extrémité supérieure du fémur
+ - surveillance si ttt suppressif de fonction thyroïdienne
+
+*** Hypercortisolisme, corticothérapie
+
+ \dec ostéoblastes, \inc activité ostéoclaste. \dec absorption intestinale
+ calcium, \inc pertes urinaires calcium, hyperparathyroïdisme
+
+ Surtout trabéculaire (vertèbres, côtes, radius). Aggravé si prépubertaire, hypogonadisme
+
+ Fractures vertébrales fréquentes, surtout sd Cushing avec adénome corticotrope/surrénalien
+
+ Traitement : 
+ - pré-corticothérapie : status osseux, FR
+ - supplément vitaminocalcique
+ - bisphosphonates, tériparatide si corticothérapie > 3 mois, prednisone > 7.5mg/j
+   et T-score $\ge -1.5$
+
+*** Hyperparathyroïdie primitive
+ Fréquent, notamment chez femme ménopausée. Ostéoporose fréquente \thus dépistage
+ systématique par DXA
+
+ Production continue PTH : \inc résorption os cortical (tiers proximal radius,
+ fémur)[fn:endocrino61]
+
+ Diminution limitée (10%). Souvent favorable post-parathyroïdectomie.
+
+ Traitement : chir si T-score < -2:5. Sinon anti-ostéoclastiques[fn:endocrino9], calcimimétique[fn:endocrino10]
+
+*** Chez l'homme
+    Pas de T-score reconnu. 
+
+ Fracture radius distal plus rares.
+
+ Ostéoporoses secondaires plus fréquentes chez l'homme : hypercorticisme,
+ hypogonadisme congénital/acquis/iatrogène, alcoolisme, hypercalciurie
+ idiopathiques, génétique
+** 207 : Sarcoidose
+   Atteinte hypothalamo-hypophysaire exceptionnelle. Conséquences : diabète
+   inspide central, insufisance gonadotrope
+
+ Radio : IRM centrée sur hypothalamo-hypophyse = référence (T1,T2 injecté) \thus
+ infiltration plancher 3eme venticule, infundibulum, tige hypophysaire épaissie
+ \pm hypophyse augmente de volume
+
+ DD : tuberculose, histiocytose, lymphome, autres tumeurs de la région 
+
+ Si patient avec sarcoïdose connue : diagnostic = déficit endocrinien et imagerie[fn:endocrino11]
+
+ Sinon : atteinte rare[fn:endocrino12], diag = radio et arguments sarcoïdose[fn:endocrino62].
+
+ Traitement : sarcoïdose et déficits hormonaux
+
+** 215 : Hémochromatose
+ Hémochromatose primitive : génétique, surcharge en fer. 5 pour 1 000 !
+
+ Physiopatho : 
+ - Absorption intestinale régule stockage de fer 
+ - Fer entre dans l'entérocyte (DMT1), puis stocké via ferritine ou relargé par ferroportine
+ - Hepcidine \dec quand besoins fer \inc (!)
+ - Hémochromatose : hepcidine effondrée, DMT1 et ferroportine \inc
+  
+ Génétique : gène HFE à 95% et mutation C282Y/C282Y ou C282Y/H63D
+
+*** Clinique
+ En pratique, suspicion aux "3 A" : asthénie, arthralgies, \inc ALAT
+
+**** Atteintes :
+ - foie : \inc ALAT ou hépatomégalie. Cirrhose \approx 90% décès
+ - coeur : cardiopathie dilatée, troubles rythme
+ - endocrino :
+   - diabète++ (accumulation pancréatique de fer) insulino-pénie/-résistance
+   - hypogonadisme+ : impuissance \male, aménorrhée \female, \dec libdio,
+     ostéoporose
+   - insuf thyriodienne exceptionnelle
+ - articulaire : arthrite chronique ("poignée de main"), chrondocalcinose
+ - cutané : mélanodermie (tardive)
+
+
+*** Diagnostic
+ - Si CS-Tf[fn:endocrino13] < 45% : si ferritine \inc, cherche hépatosidérose dysmétabolique,
+   acéruléoplasminémie, mutation gène de la ferroportine 1
+ - Sinon, CS-Tf > 45% : 
+   - si C282Y/C282Y ou C282Y/H63D : diagnostic
+   - sinon, si ferritine \inc, test génétique de 2eme intention, biopsie
+     hépatique
+
+ Examen complémentaires : pancréas (glycémie),  foie (transaminases, écho abdo), ECG \pm écho
+ cardiaque, radio articulation, bilan testostérone
+
+ Dépistage chez parents (1er degré) : bilan martial \pm dépistage génétique. \danger mutation \neq maladie
+
+*** Stades
+ 0. Asymptomatique, CS-Tf, ferritinémie normaux
+ 1. CS-Tf \inc 
+ 2. CS-Tf \inc et ferritine \inc
+ 3. Idem et expression clinique affectant qualité de vie
+ 4. Idem et expression clinique affectant pronostic vital
+   
+*** Traitement
+ À partir du stade 2
+
+**** Saignées = référence
+ Objectif : ferritine < 50 g/L (hebdomadaire) puis entretien tous les
+   2-4 mois. Ne pas dépasser 550mL !
+  
+ CI : anémie sidéroblastique, thalassémie majeure, cardiopathies sévères
+
+**** Autres 
+ - Érythraphérèse : coûteuse, plus difficile
+ - Chelation du fer : 2eme intention (coût, effets indésirable)
+ - diététique : pas d'alcool, éviter vitamine C mais *conserver* apports en fer !
+ - Symptomatique
+
+*** Suivi
+ Résultats en 3-6 mois sur été générale. 
+
+ Bilan ferrique (stade 0,1) ferritinémie, hémoglobine (stade 2 à 4)
+
+** 219, 220 :  Facteurs de risque CV, dyslipidémies
+ Rappel : FR = causalité et {relation forte, \propto dose, indépendant des autres
+ FR, plusieurs étude, exposition précède maladie, plausible, réversible++}
+
+ Risque absolu = un individu. Relatif = $\frac{R_{\text{exposé}}}{R_{\text{non exposé}}}$
+
+ Prévention : primaire (avant accident), secondaire (éviter nouvel), tertaire
+ (traiter séquelles}
+
+*** FR
+ - Non modifiable : âgé (> 50A \male, > 60A \female), ATCD familiaux IDM/mort
+   subite < 55A \male, 65A \female)
+ - Modifiable : tabagisme, LDL \inc, HDL < 0.40g/L, diabète, insuf rénale
+   chronique
+
+ Estimation : Étude Framingham, SCORE. En pratique : 
+ - interrogatoire  : ATCD familiaux CV, personnels, FR
+ - examen : athérome asymptomatique (pouls périphérique, souffle vasculaire),
+   symptomatique (ECG)
+  
+*** Tabac 
+ 30% adulte, 25% femmes enceintes
+
+ \inc rapide du risque après sevrage (mécanisme prothrombotique du tabac). 
+
+ RR = 3 de maladie coronarienne, = 5 d'IDM/mort subite, = 2-7 d'AOMI, = 2 d'AVC.
+
+ \danger tabac - contraception oestroprogestative
+
+*** Hyperlipidémie
+ \hyphenation{hyper-cho-lesté-ro-lé-mie}
+ \showhyphens{hyperholestérolémie}
+
+**** Étiologies  
+ Secondaire
+ - Bilan selon contexte : TSH, glycémie, créat, protéinurie, BU
+ - Comorbidité : 
+   - hypocholestérolémie : hypothyroïdie, (cholestase, anorexie mentale)
+   - mixtes : sd néphrotique, grossesse
+   - hypertriglycéridémie : insuf rénale chronique, alcoolisme, (obésité, diabète
+     avec sd métabolique)
+ - Iatrogène : ciclosporine, corticoïdes, oestrogènes oraux, rétinoïdes,
+   IFN-\alpha, certains antétroviraux, neuroleptiques, diurétiques thiazidiques, betabloquant
+ Primaire
+ - Hypercholestérolémies familiales monogéniques
+   - mutation du gène du récepteur LDL++ : hétérozygote (xanthomes tendineux,
+     complications CV précoces) ou homozygote (rare, DC vers 20 ans)
+   - mutation du gène de l'apoliporotéine B
+   - mutation du gène PCSK9
+ - Hypercholestérolémies polygéniques : fréquent, complications CV tardives
+ - Hyperlipidémies combinées familiales : fréquent++, pas de xanthèmes,
+   complicastions CV suivant intensité
+ - Dysbetalipoprotéinémie : xanthomes pathognomoniques
+ - Hypertriglycéridémie familiale : rare, pas de xanthomes
+ - Hyperchylomicronémie primitive : souvent hypertriglycéridémies majeurs
+
+*** HTA et risque CV
+ PAs \ge 140, PAd \ge 90mmHg (3 consultations à 3 mois)[fn:endocrino15]   
+
+ 40% adulte. Proba \inc si sd métabolique. Aggravé par acrshort:HVG, glomérulopathie
+
+ Clinique, bio, ECG
+
+*** Diabète et risque CV
+ Complications coronariennes ischémique : RR \female{} > \male.
+
+ AOMI : RR \times 5, AVC RR \times 2.
+
+ Diabète 2 : maladie coronarienne peut précéder diabète ! \thus dépistage
+
+*** PEC
+ Dépistage familial si pathologie métaboblique \inc risque vasc
+**** Sevrage tabac
+ Évaluer dépendance nicotine
+ Poids + 5kg en moyenne
+
+ Substituts nicotinique (6sem-6mois) : n'aggrave pas maladie
+ coronarienne/troubles rythmes
+
+ Varéniclide, bupropion = dernière ligne (8 semaines)
+**** Activité physique
+ - \dec insulino-résistance, \dec triglycéridémie, \inc HDL
+ - \dec PA repos, \inc périmètre marche AOMI, \inc pronostic complications coronariennes ischémiques
+
+ 3x45min à 75% $O_2$
+
+**** Diététique
+ - Lipides : graisses < 35%, \dec gras saturés, \inc mono-insaturés, {poisson gras, noix, \Omega_3}, \dec cholestérol
+ -  Autres : \inc fruits, légumes, {noix, noisettes, amandes}, sel < 6g/j, alcool
+   < 3 verres vin, \dec sucres simples, -20% calories
+  
+ Hypertriglycéridémie : 
+ - modérées : -20% calories ++, \inc activité physique
+ - majeur : arrêt alcool, régime hypo- (si obèse) ou iso-calorique avec < 30g
+   lipides (si obèse) ou 20g
+  
+**** Hypolipémiants :
+ Statines :
+ - \dec LDL, \dec TG \inc HDL
+ - ES : myalgies, \inc CPK, \inc transaminases, \inc risque diabète 2
+ - CI : HS, grossesse, allaitement
+**** Traitement hypercholestérolémies
+ En primaire si LDL reste élèvé à +6 mois traitement. En secondaire si complication ischémique
+
+ Objectifs :
+ - primaire : 
+   - LDL < 1.3g/L si risque CV faible (pop générale, diabète ou hypercholestérolémie familale)
+   - LDL < 1g/L sinon
+ - secondaire : systématique
+  
+ Molécules
+ - hypercholestérolémies : statines
+ - hypertriglycéridémies : diététique si TG > 2g/L, statines si TG < 4g/L et HDL
+   bas, fibrate sinon
+
+ Augmenter doses progressivtement puis suivi : 2-3 mois tant que objectifs non
+ atteints puis 1-2/an
+
+*** Antihypertenseurs
+ Diurétiques, betabloquant, inhibiteurs calcique, IEC, ARA II[fn:endocrino16]
+
+ Monoprise, monothérapie en 1ere intention
+
+ Objectif : [130, 139] et < 90mmHg. Visites mensuelles jusque l'objectif
+
+ Suivi : pas d'hypotension orthostatique, {iono, créat, DFG} +15j après
+ chaquement changement, suspension diurétiques et ARA si déshydratation
+
+*** Antiagrégants plaquettaire
+ Prévention secondaire : systématique. Clipodigrel-aspirine systématique à +1 mois
+ après stent, +1 ans après stent actif
+
+** 221 : HTA, causes endocriniennes
+ Déf: \ge 140/90 mmHg.
+
+ Dépistage d'une HTA secondaire : doit être systématique mais économe...
+
+ Enquête :
+ - initiale : ATCD familiaux HTA, souffle para-ombilical, rein/masse abdo à la
+   palpation, signe d'hypercortisolisme/acromégalie, bio \thus
+   protéinurie/hématurie, imagerie, hormonale (selon signes)
+ - si résistance malgré 3 antihypertenseurs (dont 1 diurétique), chercher toutes
+   les cause d'HTA
+
+ HTA curables : 3-5%. Cf les catégories ci-dessous !
+
+*** Hyperminéralocorticisme primaire (HAP)
+ Physiopatho : aldostérone, cortisol, désoxycorticostérone \thus rétention sodée
+ \thus HTA et inhibe sécrétion de rénine.
+
+ Penser à HAP si hypokaliémie (< 3.5mmol/L) ou HTA résistante
+
+ \begin{tcolorbox}
+ Si la surrénale produit plus d'aldostérone : régulation négative par la rénine (en théorie)
+ \end{tcolorbox}
+
+ \begin{algorithm}
+   \caption{Explorations des HAP}
+   Arrêt diurétiques\;
+   Vérifier natriurèse+, kaliurèse > 20mmol/j\;
+   \If{aldostérine/rénine \times 2}{
+   Si aldo \inc et rénine \dec : HAP\;
+   Si aldo \inc et rénine \inc : hyperaldo. secondaire\;
+   Sinon aldo \dec et rénine \dec : autre minéralocorticisme\;
+   }
+ \end{algorithm}
+
+ Tests dynamiques possibles : stimulation (recherche un défaut de), freination
+ (recherche une freination)
+
+**** Adénome de Conn 
+ Forme généralement curable
+ - imagerie : nodule unilatéral > 10mm au scanner.
+ \danger il faut prouver une sécrétion unilatérale d'aldostérone \thus
+ cathétérisme si scanner douteux/patient jeune/HTA résistante
+ - chir possible (mais tumeur bénigne, risque récidive)
+ - si autre HAP : médicaments en continus
+
+**** Hyperminéralocorticismes familiaux 
+ Lié à l'aldostérone, désoxycorticostérone, cortisol
+
+*** HTA endocrines iatrogènes
+ Contraception oestroprogestative, corticostéroides, réglisse
+
+*** Phéochromocytomes, paragangliomes fonctionnels
+    gls:PCC : médullosurrénale. gls:PGG fonctionnels : autres    ganglions sympathiques
+   
+ PCC : spontanément mortel. Dépistage :
+ - HTA avec céphalées, sueurs, palpitations, HTA paroxystiques/diabète sans
+   surpoids
+ - sd familial : gls:NF1, gls:VHL, gls:NEM2, sd phéochromocytomes-paragangliomes familiaux
+
+ Diagnostic : métanéphrines \inc.
+
+ Puis imagerie : 
+ - PCC : uniques, ~5cm. 
+ - PGG siègent dans l'organe de Zuckerkandl, vessie, hiles rénaux, médiastin postérieur, péricarde, cou.
+
+ Puis médecine nucléaire
+
+ Toujours dépistage :
+ - clinique : taches "café-au-lait", neurofibromatomes, nodules de Lish (NF1),
+   hémangioblastomes (VHL)
+ - génétique : NEM2, VHL
+  
+ Toujours traitement chir mais surveillance long terme
+
+*** Sd de Cushing
+ Correspond hypersécrétion de cortisol
+
+ Signes : acné, ecchymoses, faiblesse musc, hirsutisme, oedèmes, ostéoporose, PAd
+ > 105mmHg, vergetures pourpres
+
+ Étiologies :
+ - maladie de Cushing (adénome corticotrope) à 66%
+ - tumeur non hypophysaire (15%) : adénome sécrétant surrénalien ou
+   corticosurrénalome
+
+**** Démarche
+ \begin{tcolorbox}
+ CRH (hypothalamus) stimule ACTH (hypophyse) qui stimule la production de
+ glucocorticoïdes (surrénale)
+ \end{tcolorbox}
+
+ - Diagnostic positif : cortisol plasmatique [fn:endocrino64], cortisolurie (sur 24h), test de freinage rapide[fn:endocrino63]
+
+ - Diagnostic étiologique selon ACTH :
+   - ATCH diminuée \thus adénome, corticosurrénalome, hyperplasie bilatérale
+   - ATCH normale ou \inc \thus test CRH. si positif : tumeur ectopique ou
+     maladie de Cushing  
+    
+*** Causes rare
+    Tumeurs à rénine, acromégalie
+** 238 : Hypoglycémie
+ Diagnostic : neuroglucopénie et glycémie < 0.50g/L (0.60 chez diabétique) et correction symptômes
+ à normalisation (triade de Whipple)
+
+ Causes :
+ - sécrétion inappropriée d'insuline (hypoglycémiante)
+ - (rare) : défaut de sécrétion d'hormones hyperglycémiantes (GH, glucagon,
+   catécholamine, cortisol), déficit néoglucogénèse, défaut substrat
+
+*** Symptômes
+ Neuroglucopénie : faim brutale, troubles concentration, troubles moteurs,
+ troubles sensitifs, troubles visuels, convulsions focales/généralisése,
+ confusion
+
+ Coma hypoglycémique : début brutal, agité (sueurs), irritation pyramidale, hypothermie
+
+ + souvent signes adrénergiques : anxiété, tremblements, nausées, sueurs,
+   pâleur, tachycardie
+
+*** Causes 
+ Diabétique : traité par insulines, hypoglycémiants oraux
+
+**** Insulinome 
+ 1ere cause tumorale (mais rare). Maligne dans 10%, < 2cm (90%)
+
+ Clinique : manif. adrénergiques surtout
+
+ Diagnostic : épreuve de jeûne, cf table [[jeûne]]
+
+ #+name: jeûne
+ #+caption: Diagnostic d'hypoglycémie (jeûne) avec DD
+ |              | Diagnostic positif     | Insuline cachée | Sulfonylurée cachée |
+ |--------------+------------------------+-----------------+---------------------|
+ | Glycémie     | basse                  | basse           | basse               |
+ | Signes       | neuroglucopénie        |                 |                     |
+ | Insulinémie  | normale mais inadaptée | dosable         | dosable             |
+ | Peptide C    | bas                    | dosable         | indosable           |
+ | Sulfamides   | 0                      |                 |                     |
+ | pro-insuline | élevée                 |                 | indosable           |
+
+ Scanner en coupe fine du pancréas et écho-endoscopie si médecin habitué
+
+ Traitement : chir
+
+ \begin{tcolorbox}
+ Hypoglycémie par sécrétion inaproppriée d'insuline : triade de Whipple, glycémie \le 0.45g/L\footnotemark avec
+ insulinémie \ge 3 mUL/L, peptide C \ge 0.6ng/mL
+ \end{tcolorbox}
+ \footnotetext{Spontanément/jeûne}
+
+** 239 : Goitre, nodules thyroïdiens, cancers thyroïdiens
+ Besoins en iode quotidiens (synthèse hormones thyroïdiennes) :  \approx 150 \mu{}g/jour (ado,
+   adulte, \times 2 chez enceinte)
+
+ Goitre = hypertrophie de la thyroïde :
+ - palpation > dernière phalange du pouce
+ - écho : volume > 20 $cm^3$ (18 femme adulte, 16 ado)
+
+*** Évaluation
+    Clinique : mobile déglutition/visible cou en extension/visible à
+    distance. Chercher : gene fonctionelle, signes de compression, signes de
+    dysfonction thyroïdienne, acrshort:ADP
+   
+ Bio : 
+ - TSH++ : \inc, déficit production, si \dec, imprégnation excessive en hormones thyroïdiennes.
+ - compléter par T4, et si TSH \inc : Ac anti-TPO, anti-Tg
+
+ Échographie
+
+*** Goitre simple
+ Hypertrophies normo-fonctionnelles non inflammatoires non cancéreuses
+
+ Facteurs : \female, tabac, déficience iodée
+
+**** Évolution
+ Constitution à l'adolescence (cliniquement latente) puis plurirondulaire : gêne
+ cervicale \thus TSH, écho, ponction, scintigraphie
+ \danger cherche caractère plongeant sur radio !
+
+ À ce stade, complications : hématocèle, strumite, hyperthyroïdie, compression
+ organes de voisinages, cancerisation (5%)
+
+**** PEC
+ - Ado : levothyroxine (1 à 1.5 $\mu{}$g/kg/j) jusque V normal. Vérifier TSH
+ - Adulte/agé : si multinodulaire non malin, surveillance. Si symptomatique,
+   thyroïdectomie totale
+ - Goitre ancien, négligé : iode 131
+ \inc iode, notamment grossesse
+
+**** Autres pathologies responsables
+ - Maladie de Basedow
+ - Thyroïdites : 
+   - Hashimoto = hypertrophique. Goitre très ferme, expose à l'hypothyroïdie. Ac Ant-TPO\inc\inc{}, écho : goitre diffus, hypoéchogène
+   - autres thyroïdites
+ - Troubles de l'hormonosynthèse
+  
+*** Nodules thyroïdes
+ Déf : toute hypertrophie localisée de la gande thyroïde. Majorité = bénin (5%
+ cancers, de très bon pronostic)
+
+ Prévalence \approx décennie du sujet. \times 2 chez \female. \inc si grossesse,
+ déficience iode, irradiation cervicale
+
+**** Évaluation :
+ Si signe d'accompagnement :
+ - nodule douloureux brutal : hématocèle
+ - nodule douloureux + fièvre : thyroïdite subaigüe
+ - nodule compressif + ADP : cancer
+ - nodule + hyperthyroïdie : nodule toxique
+ - nodule + hypothyroïdie : thyroïdite lymphocytaire
+ Si isolé : 
+ - TSH \dec : nodule hyperfonctionnel ? \thus scintigraphie
+ - TSH N : tumeur \thus écho, cytologie
+ - TSH \inc : thyroïdite lymphocytaire ? \thus Ac anti-TPO
+
+ Pronostic plutôt suspect : 
+ - homme, enfant/âgé, ATCD irradiation cervicale, > 3cm, ovalaire, dur, irrégulier, > 20% en un an
+ - écho : hypoéchogène, contour irrégulier, microcalcifications, ADP
+  
+ Bio : TSH surtout. 
+ - si nodule, calcitonine > 100pg/mL = argument solide pour cancer médullaire thyroïde.
+ - calcitonine \in [20,50]pg/mL : idem ou hyperplasise des cellules C ou insuffisant rénal
+
+ Examens : 
+ - Échographie (classification TI-RAD de 1 à 6)
+ - Cytologie si nodule suspect (classification Bethesda de 1 à 6)
+ - Scinti si cytologie ininterprétable 2 fois ou indéterminée
+
+**** Thérapeutique
+ - Chir si suspect clinique/écho/cyto/calcitonine \inc\inc{} : thyroïdectomie si dystrophie controlatérale
+ - Surveillance sinon
+ - Hormonal si bénin dans familles avec goitres plurinodulaire, < 50 ans.
+
+ Kystes, hématocèles : anéchogène \thus ponction \pm hormonothérapie , alcoolisation.
+
+ Grossesse : chir possible 2e trimestre ou après accouchement 
+
+ Nodule oculte : < 1cm. Risque de cancer 5%, faible pouvoir agressif
+ - \danger si ADP, hérédité cancer médullaire thyroïde, fixation au TEP
+ - ponction seulement si hypoéchogène et > 8mm
+*** Cancers thyroïdiens
+ 1.5% cancers, 4eme chez la femme
+
+ Découverte : fortuite++, ADP cervicale, signes de compression, flushes/diarrhée,
+ localisation métastatique
+
+ Anatomie :
+ - carcinomes différenciés d'origine vésiculaire : papillaire (85%, excellent
+   pronostic), vésiculaires (5%), peu différenciés (2%)
+ - carcinomes anaplasiques (1%)
+ - carcinomes médullaires au dépens des cellules C
+ - autres
+  
+ Risque de rechute/décès : 
+ - taille tumeur, effraction capsule thyroïdienne, métastase (clasif TNM de I à IV)
+ - mortalité \propto âge, dépend de l'histologie, exérèse
+
+**** Thérapeutique
+ - Plan cancer
+ - Chir en 1ere intention (anatomopatho pendant = certitude) : thyroïdectomie
+   totale. Curage ganglionnaire si besoin (systémique si carcinome médullaire,
+   si enfant/ado). \\
+   Complications : hémorragie postopératoire \skull,  hypoparathyroïdie (calcium + vit D), paralysie transitoire/définitive nerfs récurrents
+ \vspace*{10pt}
+
+ /Cancers différenciés d'origine vésiculaire/
+    - iode 131 : seulement post-thyroïdectomie totale (haut risque). Nécéssite
+      stimulation par L-T4 ou injection TSH. Puis hospit après en chambre 2-5 j
+      et contraception 6-12 mois. \\
+      ES : {nausées, oedèmes}, {agueusie, sialadénite}. \\
+      Scinti  obligatoire à +2-8j : fixation extracervicale à  distance = métastases
+    - hormonal : L-T4 si haut risque ou échec traitement initial. Puis mesurer TSH à
+      +6sem-2mois (pas avant !)
+    - surveillance : 80% des récidives à 5 ans \thus écho cervicale, rhTSH,
+      Tg[fn:endocrino18] à 6-12mois : cytoponction puis imagerie si Tg > seuil. Sinon \dec LT4
+    - traitement récidives : chir si cervicale. Plus compliqué si métastates
+      (iode131 si fixant sinon ttt local ou molécules ciblées). Maintenir LT4
+     
+ /Cancers anaplasiques/\\
+ Tuméfaction cervicale rapidement progressive, dure, adhérente, sujet âgé \thus radio-chimio. Pronostic très péjoratif
+
+ /Cancers médullaires/
+ - TTT : chir \pm curage ganglionnaire
+ - Surveillance : calcitonine > 150\mu{}g/L \thus bilan de localisation.
+ - Temps doublement : 6 mois = pronostic très mauvais.
+ - Traitement métastases = local.
+
+ Étude génétique dans tous les cas : positif \thus chercher phéochromocytome,
+ hyperparathyroïdie + enquêtes apparentés
+** 240 : Hyperthyroïdie
+ \begin{tcolorbox}
+ Examen en 1ere intention : TSHus (puis T4L !)
+ \end{tcolorbox}
+
+ Déf : hyperfonctionnement de la glande thyroïdienne. Sd de thyrotoxicose =
+ conséquence sur les tissus.
+
+ Prévalence élevée, 7\times femme
+
+ Physiopatho :
+ - TSH, gls:TPO et Tg peuvent être des auto-antigènes
+ - thyroïde produit surtout thyroxine (T4[fn:endocrino65]), convertie en T3 par foie, muscle
+   squelette. 
+ - effet : 
+   - \inc production chaleur, \inc production énergie, \inc consommation $O_2$
+   - \inc débit cardiaque, système nerveux, \inc ostéclasie, \inc lipolyse, \inc
+     glycémie, rétrocontrole négatif hypophysaire
+
+*** Sd de thyrotoxicose
+ Clinique (par fréquence \dec) :
+ - CV : tachycardie (régulière, repos, \inc effort), \inc intensité bruits
+   coeurs, \inc PAs
+ - neuropsy : nervosité, tremblement fin régulier des extrémités, fatigue
+   générale, troubles sommeil
+ - thermophobie, hypersudation, 
+ - amaigrissement rapide, important, avec appétit conservé
+ - autre : polydipsie, amyotrophie, \inc frequence selles, rétraction paupière
+   supérieure (gynécomastie, troubles règle)
+
+ Examen complémentaire : TSH effondrée. T4 ou T3 libre pour l'importance
+
+ Complications : 
+ - cardiaque (surtout personnes fragiles) : troubles rythme supraV (FA), insuf
+   cardiaque (droite, avec débit N ou \inc), aggravation insuf coronaire
+ - crise aigüe thyrotoxique (exceptionnelle)
+ - musculaire (âgé)
+ - ostéoporose (\female ménopausée) : rachis
+
+*** Étiologies (fréquence \dec)
+**** Auto-immunes
+ /Maladie de Basedow/\\
+ 1% population. Auto-immune, sur terrai génétique. Poussées puis rémissions
+
+ Clinique : 
+ - goitre diffus homogène, élastique, souffle
+ - oculaire (spécifique, inconstant) : rétraction et asynérgie palpébrale,
+   inflammation, exophtalmie, oedème paupières, inflammation conjonctive,
+   limitation mouvement regard
+   \thus examen ophtalmo ! (acuité visuel, cornée, papille, oculomotricité, tonus
+   intraoculaire)\\
+   Mauvais pronostic : exophtalmie importante, paralysie complète, neuropathie
+   optique, hypertonie oculaire avec souffrance papillaire
+ - dermopathie (exceptionnelle) placard rouge, surélevé, induré, face ant jambes
+  
+ Diagnostic : manif oculaire suffit. sinon : écho (hypoéchogène, vascularisé),
+ (scinti), Ac anti-récepteur TSH
+
+ /Autres auto-immune/\\
+ - Thyroïdite post-partum (5%) : hyperthyroïdie transitoire puis hypothyroïdie. Ac
+   anti-TPO mais pas Ac anti-récepteur TSH
+ - Thyroïdite d'Hashimoto : goitre irrégulier, très ferme. Écho :
+   hypoéchogène. Ac anti-TPO mais pas anti-récepteur TSH
+
+**** Nodules thyroïdiens hypersécrétans  
+ Âge plus avancé, sd de thyrotoxicose pur (pas de manif oculaire) 
+ - Goitre multinodulaire toxique : à la clinique, puis écho. Scinti : "en damier"
+ - Adénome toxique : palpation nodule unique, écho : tissulaire/partiellement
+   kystique. Scinti nécessaire : reste du parenchyme "froid"
+
+**** Iatrogènes
+ - Iode : produits contraste, amiodarone. 2 formes : fonctionnelle ou lésionnelle
+   (lyse des cellules)
+ \danger sous amiodarone : T4L \inc mais T3L, TSH N 
+ - Hormones thyroïdiennes : pour maigrir. Diag : scinti (pas de fixation), Tg
+   effondrée
+ - Interféron (fréq++)
+
+**** Thyroïdite subaigüe de De Quervain
+ Affection banale virale. Diagnostic clinique (goitre dur et douleureux). Hyper-
+ puis hypo-thyroïdie. Echo = hypoéchogène
+
+**** Thyrotoxicose gestionnelle transitoire 
+ Fréquent (2% grossesse). 1er trimestre : nervosité, tachycardie, pas de prise de
+ poids
+
+ DD : Basedow (pas Ac anti-récepteur TSH)
+
+**** Rares
+ Mutations activatrices du récepteur TSH, métastase massives sécrétantes (K
+ thyroïdiens vésiculaire différencié), tumeurs placentaires/testiculaires, {sd
+ résistance hormones thyroïdiennes, adénome hypophysaire}
+
+*** Forme clinique 
+ - Enfant : généralement Basedow (néonatale/acquise) : avance staturale et
+   osseuses, hyperactivité \pm signes oculaires
+ - Femme enceinte : passage d'Ac \thus hyper- ou hypo-thyroïde. Passage
+   d'antithyroïdiens de synthèse \thus goitre, hypothyroïdie possible. Contraception !
+ - Âgé : évolution discrète (AEG, fonte musculaire, cachexie, insuf
+   cardiaque). Penser thyrotoxicose si troubles rythme/insuf cardiaque
+  
+*** Traitement
+ \skull{} Urgence : crise aigüe thyrotoxicose, cardiothyréose chez âgé/cardiqaue,
+ orbitopathie maligne, cachexie vieillard, Basedow chez \female{} enceinte
+
+ Repos, sédatifs, bêtabloquant, contraception
+
+ gls:ATS :
+ - -mazole (30-60mg/j), -thiouracile (300-600mg/j) : bloque TPO
+ - ES : allergies cut, \inc enzymes hépatiques, neutropénie, agranulocytose++
+   (\skull !!)
+ - surveillance : T4 libre jusque N puis T4L et TSH. NFS 10jours pendant 2 mois (agranulocytose)
+  
+ Chir : thyroidectomie totale sauf si adénome toxique (lobectomie)
+
+ Radio-iode : simple, sans risque génétique/cancérisation secondaire (\danger{} orbitopathie...). CI : femme enceinte.
+
+**** Résultats
+ - Basedow : thyroïdectomie \thus hypothyroïdie définitive. Radio-iode \thus
+   hypothyroïdie 50%, risque aggravation orbitopathie. Donc ttt médical (1-2
+   ans) puis chir/iode si récidive
+ - Adénome/goitre multinodulaire toxique : chir, iode
+ - Induite par l'iode : arrêt si possible
+ - Thyroïdite subaigüe : anti-inflammatoire (AINS/corticoïde)
+  
+**** Formes particulières
+ - Cardiothyréose : propanolol et anticoag. Si insuf cardiaque : tonicardiaque,
+   diurétiques, vasodilatateurs, betabloquant, anticoag. Pour thyrotoxicose : ATS
+   puis chir/iode 131
+ - Crise aigüe thyrotoxique : soins intensifs, réa, ATS, propanolol, corticoïdes,
+   iode131 après 24h ATS
+ - Orbitopathie : pas d'effet ATS, iode peut aggraver !! Si simple, collyre. Si maligne : cf spécialiste
+ - Femme enceinte : si transitoire, repos. Si Basedow : repos si mineur. Si forme
+   importante : ATS faible dose. Si formes grave, chir (2eme trimestre) possible)
+ \thus surveillance avant et après accouchement  
+
+** 241 : Hypothyroïdie
+ \begin{tcolorbox}
+ Rappel : TRH (hypothalamus) stimule la production de TSH (hypophyse) qui stimule la thyroïde
+ \end{tcolorbox}
+
+ - Atteinte de la glande thyroïde  : \inc TSH et 
+   - soit T4L N : hypothyroïdie frustre
+   - soit T4L \dec : hypothyroïdie patente
+ - Ou hypothalamo-hypophysaire : T4L \dec et 
+   - soit TSH \dec ou N : hypophysaire
+   - soit TSH légèrement /inc : hypothalamus
+  
+*** Sémiologie
+ Général :
+ - sd d'hypométabolisme[fn:endocrino20]
+ - peau pâle/jaune, sèche, squameuse, dépilée; cheveux secs cassants
+ - myxoedeme cutanéomuqueux : faciès "lunaire", voix rauque, hypoacousie,
+   macroglossie
+ - neuromusc : crampes, myalgies
+ - endocrinien : (galactorrhée), troubles règles, troubles libido
+ Cliniques (rare, diag fait avant) :
+ - CV : bradycardie sinusale, \dec contractilité, (insuf cardiaques, troubles
+   rythme V), épanchement péricardique, favorise athérome coronarien
+ - neuromusc, neuropsy : dépressif, sd confusionnel, démence, myopathie prox,
+   apnée sommeil
+ - coma myxoedemateux : si hypothyroïdie primaire profonde et
+   aggression. Convulsion, EEG non spécifique. Hyponatrémie. Pronostic sévère
+
+ Palpation : glande ferme hétérogène, pseudonodulaire
+
+ Grossesse : 
+ - complication mère : HTA, prééclampsie, fausse couche, hémorragie post-partum
+ - complications foetus : troubles developpement neuro-intellectuel, hypotrophie
+ - 1er trimestre : TSH \dec, T4L limite sup. Puis TSH normale, T4L basses
+   (physiologique !)
+
+ Anomalies bio :
+ - hémato : anémie normocytaire normochrome (si macrocytose, penser anémie de
+   Biermer) troubles de coagulation,hémostase
+ - hypercholestérolémie, \inc CPK, hyponatrémie dilution
+
+*** Étiologies
+**** Hypothyroïdie primaire
+ Auto-immunes :
+ - Thyroïdite d'Hashimoto : 
+   - goitre ferme, irégulier, Ac anti-TPO. 
+   - infiltration lymphocytaire du parenchyme thyroïdien. Facteurs environnementaux,
+     terrain génétique.
+   - penser à lymphome si \inc rapide du goitre
+   - écho thyroïdiennes : hypoéchogène, hétérogène, vasc hétérogène (scint
+     inutile)
+ - Thyroïdite atrophique : pas de goitre, Ac anti-thyroidiens moins
+   élevés. Souvent une évolution d'Hashimoto, > 50 ans. 
+ - Thyroïdite du post-partum : idem, petit goitre. Normalement résolutif dans
+   l'année. 5% des grossesses
+ Non auto-immune :
+ - thyroïdite subaigüe de De Quervain : inflammation du parenchyme. Phase de
+   thyrotoxicose puis hypothyroïdie
+ - thyroïdite sans Ac
+ - thyroïdite iatrogène : interferon++, amiodarone, ATS, iode131, radiothérapie
+   cervicale, lithium, ttt anti-tyrosine kinase (cancéro)
+ Autres : carences iodées (endémie++), hypothyroïdie congénitale (dépistage à
+ naissance + 72h[fn:endocrino21])
+
+**** Démarche diagnostique
+ TSH puis (T4L (profondeur) et Ac anti-TPO, échographie pour étiologie)
+**** Insuffisance thyréotrope
+ - compression région hypothalamo-hypophysaire (HH) par tumeur (adénome hypophysaire
+   souvent)
+ - séquelle post-chir, post-radio des tumeurs de la région HH
+ - séquelles méningite, trauma crânien, hémorragie méningée
+ - génétiques (rare) 
+
+ IRM systématique !
+
+*** Traitement
+ Lévothyroxine (T4) 
+ - hypothyroïdie patente : L-T4 50 à 150 \mu{}g/j. Si coronarien : \inc progressivement
+   de 12.5 à 25\mu{}g/j. \danger Surveillance ! (ECG hebdo si grave, hospit si coronarien
+   récent, sinon patient doit consulter si douleurs thoraciques)
+ - hypothyroïdie frustre : 3 cas
+   - TSH > 10mUI/L ou Ac anti-TPO : ttt
+   - TSH < 10mUI/L et pas d'Ac anti-TPO : surveillance
+   - si grossesse : dès TSH \ge 3mUI/L
+   - à discuter sinon
+
+ Suivi
+ - hypothyroïdie primaire : objectif : TSH $\in [0.5, 2.5]$ mUI/L (\approx 10mUI/L pour âgé, et < 2.5mUI/L pour femme eceinte)
+ - insuf thyréotrope : suivi sur T4L seulement
+  
+ Situations particulières:
+ - grossesse : \inc posologie dès diagnostic grossesse
+ - \inc si interférence avec l'absorption intestinale{sulfate de fer, carbonate de calcium, hydroxyde
+   d'alimunie, cholestyramine}, la clairance {phénobabrital, carbamazépinex, rifampicine,
+   phénytoïne, sertraline, chlooriqune}, oestrogenes
+ - néonatale : L-T4 à vie
+  
+*** Dépistage ?
+ - Adulte : si risque : signes clinique, goitre, hypercholestérolémie, ATCD
+   thyroïdiens, auto-immunité thyroïdienne, irradiation cervicale, {amiodarone,
+   lithium, interféron, cytokines}
+ - Femme enceinte : si signes, contexte thyroïdien (perso/familial), auto-immunité
+
+** 242 : Adénome hypophysaire
+*** Sd tumoral
+ Clinique : 
+ - céphalées : rétro-orbitaire, localisése
+ - trouble visuels : "voile", par compression des voies optiques. Fond d'oeil,
+   acuité visuelle OK. Quadra-/hémi-anopsie temporale (sup si quadra)
+ - apoplexie hypophysaire (rare) brutal : céphalées violentes, sd méningé sd
+   confusionnel, troubles visuel.\\
+  Imagerie en urgence \danger : adénome en nécrose/hémorragie \skull
+
+ IRM = examen de référence :
+ - microadénome : arrondi, homogène, hypo-T1, hypointense  après injection,
+   signes indirects
+ - macroadénome :  > 10mm, iso-T1 et hyperintension après injection. Regarder
+   expansion vers chiasma optique et sinus (sphénoïdal, cavernux)
+ - DD : craniopharyngiome intra-sellaire (hétérogène, hyperT2), méningiome
+   intra-sellaire (dure-mère spiculée)
+  
+*** Sd d'hypersécrétion
+**** Hyperprolactinémie[fn:endocrino19]
+ Fréquente \thus cherche adénome hypophysaire (même si majorité = médicament)
+ Signes :
+ - \female : galactorrhée (pas forcément causée par prolactine ! mais chercher
+   quand même), troubles du cycle menstruel (doser !)
+ - \male : galactorrhée, gynécomastie (rare), troubles sexuels. Hypogonadisme
+   \thus doser prolactine 
+ - 2 sexes : risque d'ostéoporose
+
+ \begin{tcolorbox}
+ Diagnostique d'hyperprolactinémie
+ \begin{enumerate}
+ \item  Vérifier hyperprolactinémie (kits, agrégats)
+ \item  Écarter grossesse, médicaments, hypothyroïdie périphérique, insuf rénale
+ \item  IRM : 
+ \begin{itemize}
+   \item microadénome ?
+   \item sinon différentier macroadénome à prolactine VS autre tumeur associée à 
+ hyperprolactinémie : régression sous agoniste dopaminergique si macrodénome
+ \end{itemize}
+ \end{enumerate}
+ \end{tcolorbox}
+
+**** Acromégalie (excès de gls:GH)
+ Clinique :
+ - Sd dysmorphique : extrémités élargies, visage (nez élargi, front bombé, lèvres épaisses, tendance prognathisme}
+ - Signes fonctionnels : sueurs, céphalées, paresthésies des mains, douleurs articulaires, asthénie fréquente, HTA (50%)
+
+ Complications :
+ - CV : hypertrophie myocardite (écho), débit \inc. Puis insuf cardiaque
+   congestive
+ - arthropathie périphérique : grosses articulations, radio (interligne \inc,
+   ostéophite), rachis (spondylose d'Erdheim)
+ - diabète/intolérance glucose, SAS, goitre, polypes du colons
+
+ \begin{tcolorbox}
+ Diagnostic d'acromégalie : absence de freinage de la GH pendant hyperglycémie provoquée
+   orale (GH > 0.4ng/mL), \inc IGF-1\footnotemark
+ \end{tcolorbox}
+ \footnotetext{La GH stimule la production d'IGF-1.}
+
+ Puis bilan tumoral, retentissement fonctionnel hypophysaire, retentissement
+ acromégalie
+
+**** Sd de Cushing (excès de glucocorticoïdes)
+ Excès de glucocorticoïdes : causes iatrogènes ou adénomes hypophysaires
+ corticotropes
+
+ Clinique :
+ - anomalies acquises. Amyotrophie ceinture et abdomen, lenteur cicatrisation,
+   peu amincie (mains), ecchymoses au moindre choc, vergétures cutanée (flancs,
+   racine des membres, mammaire, péri-ombilic), visage érythrosique, congestif,
+   varicosité
+ - moins spécifique : +10kg, graisse facio-tronculaire (visage arrondi), bosse de
+   bison, hyperandrogénie, OMI
+ - autres : ostéoporose (asymptomatique), spanioménorrhée, \dec libido, HTA,
+   troubles psy
+ Bio : intolérance glucide
+
+ \begin{tcolorbox}
+ Diagnostic d'hypercorticisme :\\
+   Si (\acrshort{CLU} \inc, réponse anormale au freinage minute\footnotemark, cortisol minuit > 72ng/mL) :
+ \begin{enumerate}
+   \item Confirmation par freinage standard\footnotemark
+   \item Dosage ACTH : 
+   \begin{itemize}
+     \item Si bas, scanner surrénales pour adénome\footnotemark
+     \item Sinon IRM hypophysaire, freinage fort, test CRH, 
+     test métopirone \thus sécrétion ectopique (normal) ou maladie de Cushing
+     \end{itemize}
+ \end{enumerate}
+ \end{tcolorbox}
+
+ \footnotetext{Freinage minute = cortisolémie matin après 1mg dexaméthasone à 23h  (rétrocontrole négatif en théorie des glucocorticoïdes sur cortisol)}
+ \footnotetext{Freinage standard/faible : urines sur 48h puis idem après 0.5mg  dexméthasone. On vérifie également le rétrocontrôle négatif}
+ \footnotetext{ACTH stimule la production de glucocorticoïdes (via surrénales). Un excès de cortisol est censé diminuer la production d'ACTH. Si   oui, atteinte surrénale !}
+
+ DD : stress intense, dépression sévère, psychose, alcoolisme (CLU modéré,
+   freinage minute anormal) \thus épreuve du temps 
+  
+*** Insuffisance antéhypophysaire
+ Clinique : face pâle, "veillot", dépigmentation aréole mammaire et OGE,
+ dépilation complète aisselles pubis
+
+ Signes des déficits hypophysaires :
+ - gonadotrope : \male = {\dec libido, pilosité visage \dec, petits
+   testicules mou, infertile}, \female = {aménorrhée, dyspareunie}, ostéoporose,
+   (retard pubertaire)
+ - corticotrope : asthénie, hypotension, amaigrissement, pas de déficit
+   aldostérone ! (hyponatrémie de dilution). Risque de collapsus CV
+ - hypothyroïdie modérée
+ - somatotrope : adulte = {\dec masse et force musc, adiposité abdo}, enfant =
+   retard croissance, accidents hypoglycémiques
+  
+**** Bilan hypophysaire
+
+
+ - Déficit corticotrope : test Métopirone, cortisol < 200ng/mL si hypoglycémie (<
+   0.49g/L), autres test (cortisolémie, synacthone, CRH)
+ - Déficit thyréotrope  : \dec{} T4L sans augmentation de TSH
+ - Déficit gonadotrope : 
+   - \female{} préménopause : aménorrhée, oestradiol \dec, gonadotrophines
+     normales
+   - \female{} postménopause  : gonadotrophines basses[fn:endocrino66]
+   - \male{} : troubles sexuels \dec testostérone
+ - Déficit somatotrope : déficit GH enfant++ (retard croissance, pas de réponse
+   à stimulation GH) ou adulte (faire au moins 2 tests stimulation)
+ - Prolactine normale/élevée
+
+ IRM si déficit hypophysaire
+** 243 : Insuffisance surrénale
+*** Insuffisance surrénale lente
+ Rare mais grave \skull
+
+ Physiopatho :
+ - cortisol [fn:endocrino67]) : hyperglycémiant, stimule = {catabolisme protidique, lipogenèse, SNC, tonus vasculaire}, inhibe
+   = {hormone antidiurétique}, anti-inflammatoire et antipyrétique,
+   minéralocorticoïde\\
+   Minimum 0-2h, maximum 7-9h
+ - aldostérone : réabsportion Na+ et Cl-, excrète K+
+ - androgènes surrénalien (stimulé par ACTH)
+  
+ #+caption: Insuffisance surrénale primaire (maladie d'Addison)/secondaire : clinique
+ | Primaire (surrénale)                               | Secondaire (hypophysaire) |
+ |----------------------------------------------------+---------------------------|
+ | Fatigue, dépression, anorexie, nausées             |                           |
+ | \dec poids, hypotension, hypotension orthostatique |                           |
+ | Hyperpigmentation                                  | Pâleur                    |
+ | HyperK, hypoNa (manque sel)                        | HypoNa (dilution)         |
+
+**** Diagnostic
+ \danger ne pas attendre résultats pour commencer traitment \skull
+
+ #+caption: Insuffisance surrénale : diagnostic
+ |                   | Primaire                         | Secondaire           |
+ |-------------------+----------------------------------+----------------------|
+ | cortisolémie à 8h | basse                            | basse                |
+ | ACTH              | haute                            | basse                |
+ | aldostérone       | basse                            | N                    |
+ | rénine            | haute                            | N                    |
+ | Synacthène        | réponse insuffisante du cortisol | réponse insuffisante |
+
+ Positif 
+ - cortisolémie : à compléter avec tests dynamiques si valeurs "intermédiaires"
+ - primaire ou secondaire ? ACTH \inc{} si primairei, rénine \inc si primaire
+ - test Synacthène (+ Métopirone ou hypoglycémie insulinique si doute)
+
+ NB : femme enceinte = {\inc seuil, faisceau d'args}, enfant : répéter dosages
+ voire ttt probabiliste
+
+**** Étiologies de l' acrshort:IS primaire
+ - Auto-immune (80% adulte, 20% enfant) : 
+   - /polyendocrinopathie de type 1/ (mutation facteur de transcription AIRE) 
+   - ou /type 2/ (IS + 1 parmi {thyroïdite d'Hashimoto+++, Basedow, diabète 1}
+   - \thus autoAc anti-21-hydroxylase, scanner (surrénales atrophiques)
+ - /tuberculose bilatérale surrénale/ (10%) : transplanté ou ID avec TCD tuberculose
+   \thus scanner surrénales (\inc puis atrophie et calcification). Bilan des
+   localisation tuberculose
+ - /VIH/ (stade avancé) : iatrogène, infection opportuniste (CMV++), atteinte de
+   l'hypophyse (lymphome, CMV), corticoïde anti-inflammatoire et ritonavir
+ \danger dénutrition \thus spécialiste
+ - autres : /iatrogènes/[fn:endocrino22], /métastases bilatérales/[fn:endocrino23], lymphomes, maladies
+   infiltratives, causes vasculaires
+ - enfant : génétiques surtout = bloc enzymatique++ (dépistage obligatoire), adrénoleucodystrophie
+
+**** Étiologies de l'IS secondaire 
+ - /interruption corticothérapie prolongée/ surtout (> 7mg prednisone)
+ - autres[fn:endocrino24] : tumeur région hypothalamo-hypophysaire, hypophysite (auto-immune),
+   granulomatose, trauma, chir hypophysaire, radiothérapie, sd de Sheehan 
+
+**** Prise en charge
+ Ttt substitutif :
+ - glucocorticoïdes (hydrocortisone) 15-25mg/j
+ - minéralocorticoïde (fludrocortisone) 50-150\mu{}g/j si IS primaire
+
+ TTT cause
+
+ Éducation du patient : 
+ - avoir carte, hydrocortisone (comprimés et injection), régime normosodé
+ - pas de laxatifs, diurétiques, millepertuis, réglisse, jus de pamplemousse
+ - ttt à vie
+ - hydrocortisone en SC si > 2 vomissement/diarrhées en < 1/2 journée
+ - adapter à chaleur, exercice, voyage
+
+ Surveillance clinique :
+ - fatigue, poids, PA
+ - surdosage en hydrocortisone (gonflement/rougeur visage, \inc poids, HTA, os,
+   métabolisme, CV)
+ - surdosage en fludrocortisone
+ - cortisolémie et ACTH inutile !!
+  
+*** Insuffisance surrénale aigüe
+**** Y penser
+ - déshydratation extracellullaire avec pli cutané, hypotension
+ - confusion, crises convulsives
+ - troubles digestifs
+ - douleurs (musc, céphalées)
+ - fièvre
+ Biologie : 
+ - hémoconcentration, insuf rénale fonctionnelle++
+ - hypoNa, hyperK++
+ - hypoglycémie, acidose métabolique, anémie, hyperlymphocytose,
+   hyperéosinophilie, natriurèse conservée
+
+**** Confirmation
+ Si diagnostic *non* posé : dosage cortisol (\dec\dec), ATCH (\inc si primitive, N ou \dec
+ si secondaire). 
+ Ne pas attendre les résultats \skull
+
+**** Causes 
+ - Insuf surrénale chronique décompensée++
+ - D'emblée si bloc enzymatique surrénalien (21-hydroxylase) complet (néonatale)
+   ou hémorragie bilat surrénale ou apoplexie hypophysaire
+ - Décompensation par n'importe quelle patho intercurrente
+
+**** PEC
+ \danger Urgence extrème \skull
+ - Domicile : 100mg hydrocortisone (IV, IM, SC) puis transport
+ - Hopital : réa puis 
+   - perfusion NaCL (et G30% si hypoglycémie)
+   - ttt facteur déclenchant
+   - surveiller : PA, FC, FR, oxymétrie de pouls, diurèse, T, glycémie, CS, ECG
+     si hyperK
+
+ Ttt préventif : patient doit \inc ses doses, médecin traitant au courant
+
+*** Arrêt d'une corticothérapie
+    Expose au rebond de la maladie causale, insuf surrénale secondaire
+    (corticotrope), sd de sevrage
+
+ À risque : (ttt \ge 3 semaines par \ge 20mg prednisone) ou (corticoïdes et inhib enzymatique du
+ cytochromie P450 (ritonavir)) ou sd Cushing iatrogène
+** 244 : Gynécomastie
+   Hyperplasie tissue glandulaire mammaire, fréquente. Dû à oestrogène \inc{} et testostérone \dec{}. Regarder aussi TeBG,
+   SHBG
+*** Démarche
+ - Clinique : palpation = ferme/rugueux, mobile arrondi, centré par le mamelon (rien si adipomastie)
+ - Mammographie si doute : opacité nodulaire/triangulaire (rien si adipomastie). Élimine cancer du sein (rare) 
+ - Physiologique ? 
+   - 2/3 des nouveaux-nés
+   - pubertaire : de 13 jusque 20 ans, rétrocède . Palper testicule pour atrophie testiculaire/tumeur
+   - fréquente > 65 ans. Palpation testiculaire
+*** Étiologie 
+ \begin{tcolorbox}
+ Causes fréquentes : médic, idiopathique, cirrhose, insuf testiculaire/gonadotrope, (tumoral)
+ \end{tcolorbox}
+ Évidente :
+ - insuf rénale chronique, cirrhose, médicaments (surtout spironolactone,
+   antiandrogène, kétoconazole, neuroleptiques, ATB antirétroviraux, antiulcéreux)
+ Sinon exploration hormonale : T4L, TSH, hCG, testostérone totale, LH, FSH,
+ prolactine, oestradiol
+
+ Causes endocriniennes :
+ - hyperthyroïdie
+ - insuffisance testiculaire/hypogonadisme périphérique (8%) : sd de Klinefelter
+   le plus fréquent
+ - hypogonadisme d'origine hypothalamique/hypophysaire: testostérone basse, LH,
+   FSH normales/abaissées \thus imagerie hypophysaire, dosage
+   prolactine. Hyperprolactinémie ou tumorale
+ - tumeur sécrétant oestrogène : oestradiol \inc, testostérone \dec \thus tumeur
+   testiculaire (ou surrénalienne rarement) \thus echo testiculaire ou scanner
+   abdo
+ - tumeur sécrétant hCG : \inc hCG \thus écho testiculaire, scanner
+   cérébrales. Dans les bronches ou le foie parfois. Chimio.
+ - Résistance androgènes (exceptionnelle) : testostérone \inc, LH \inc
+ - idiopathique (25%)
+
+*** Traitement
+ Traiter la cause. Sinon
+ - Pubertaire : ne rien faire
+ - Idiopathique : androgènes non aromatisables 3 mois. Si inefficace, chir
+   plastique possible
+** 245 : Diabète
+   \begin{tcolorbox}
+ Définition : glycémie à jeun \ge 1.26g/L (2 reprises) ou aléatoire \ge 2g/L \footnotemark
+ \end{tcolorbox}
+ \footnotetext{Normale à jeûn < 1.10g/L}
+
+ Caractéristiques diabète 1 (le diabète 2 s'y oppose) : 
+ - ATCD familiaux rares
+ - < 25 ans
+ - début rapide explosif
+ - symptomatologie bruyante
+ - poids normal ou \dec
+ - hyperglycémie majeure > 23g/L
+ - souvent cétose
+ - pas de complications dégénératives
+ - mortalité par insuf rénale (CV pour diabète 2)
+
+*** Diabète 1
+    Prévalence : 1/200 000 (10% des diabétiques). Peut survenir à tout âge. \inc
+    incidence. Sex-ratio = 1
+
+**** Physiopathologie
+ Carence en insuline par destruction cellules beta du pancréas. Soit auto-immun
+ (fréquent), soit idiopathique
+
+ Prédisposition génétique (Ag HLA, VNTR, CTLA-4, PTP-N22), facteurs
+ environnementaux.
+
+ Processus auto-immuns : au moins un Ac parmi les suivants dans 97% : Ac
+ anti-{ICA, GAD, IA2, insuline, ZnT8}
+
+ Diabète \in sd polyendocrinien auto-immun : 10% d'autres maladies auto-immunes =
+ thyroïdopathies (Basedow, thyroïdite), Addison, atrophie gastrique de Biermer,
+ maladie coeliaque, vitiligo 
+ - doser Ac anti-TPO ou TSH (thyroïdite), anti-surrénale (Addison), anti-transglutaminase \pm anti-endomysium (coeliaque), anti-paroi gastrique, anti-facteur intrinsèque (Biermer)
+ - si positif : surveillance annuelle
+
+**** Clinique
+ \begin{tcolorbox}
+ Diabète 1 : \{polyuro-polydipsie, amaigrissement, polyphagie\}, glycémie $> 2g/L$ \pm cétonurie
+ \end{tcolorbox}
+ Habituel : début rapide/explosif, sd cardinal = polyuro-polydispsie,
+ amaigrissement, polyphagie, troubles visuels transitoires, examen pauvre (fonte
+ musc, signes d'acidose[fn:endocrino26], glycémie veineuse, cétonurie (acidocétose
+ inaugurale)
+
+ Formes
+ - Diabète 1 lent (LADA[fn:endocrino27]) : début tardif, progessif, Ac positif. Insulinothérapie en 2-10 ans
+ - Révélé par acidocétose : fréquente chez enfants, ne devrait plus être vues
+ - Non insulinodépendantes : 3 auto-Ac positifs \thus 100% d'avoir diabète 1 dans
+   5 ans. Rémission de quelques mois possibles.
+ - cétosique du sujet noir d'origine africaine : mécanisme
+   auto-immun. Décompensation cétosique. Auto-Ac spécifique du diabète 1
+   nésgatifs.
+
+ Affirmer type 1 :
+ - clinique : triade maigreur/amaigrissement, cétose, < 35 ans
+ - sinon auto-Ac
+ - sinon :
+   - hérédité dominante : MODY, mutation SUR1/KIR6-2 (si diabète néonatal)
+   - symptômes inhabituels : sd de Wolfram (atrophie optique, surdité, diabète
+     insipide < 20 ans), mitochondropathie (surdité, dystrophie maculaire,
+     cardiomyopathie transmission par la mère)
+   - secondaire : cancer pancréas (amaigrissement), pancréatite chronique,
+     mucoviscidose, hémochromatose, médicaments
+    
+**** Évolution
+ Schéma théorique : phase préclinique (destruction cellules beta), clinique (85% détruites), clinique séquellaire
+
+ Diabète instable : 
+ - itérations de cétoacidoses ou hypoglycémies sévères, psycho. 
+ - DD : gastroparésie, déficit systèmes contra-insuliniques, Ac anti-insuline
+
+**** PEC
+ Patient : contrôle glycémie, injection d'insuline, prévenir complications
+ métaboliques et vasculaires, adapter ttt, contrôle de l'alimentation \thus
+ éducation thérapeutiques
+
+ Objectifs : HbA1c < 7% (enfants : entre 7.5 et 8.5, complication/sujet âgé : 8%)
+
+ Autosurveillance : urinaire rare, glycémique 4/jour [fn:endocrino28], (glucose en SC si
+ objectifs thérapeutiques non remplis) :
+
+ Surveillance :
+ - HbA1c : en pourcentage Hb totale, aucun sens si modif durée de vie moyenne des globules rouges[fn:endocrino29]
+ - diabétologue/pédiatre endocrinologue 3/an
+ - {lipides, créat, microalbuminurie}
+ - ophtalmo, cardiologie 1/an (sympto/âgé,compliqué), dentiste 1/an
+
+ Traitement insulinique (Table [[insuline]] ): palliatif à vie
+
+ #+name: insuline
+ #+caption: Traitement insulinique du diabète 1
+ | Type                          | Injection  | Durée  | Utilisation              |
+ |-------------------------------+------------+--------+--------------------------|
+ | insuline humaine recombinante | IV, IM, SC | 7-8    | Prandiale, hyperglycémie |
+ | analogue rapide de l'insuline | IV, IM, SC | 4-6h   | Pompe                    |
+ | forme lente                   | SC         | 9-16h  |                          |
+ | analogue lents                |            | 16-40h |                          |
+
+ Injection :
+ - Résorption SC \inc si injection dans muscle, chaleur, vasodilatition, selon zone et dose, 
+ - Stylo à insuline (pompe si échec)
+ - Schéma : analogue lent (1-2/j) et analogue rapide (3-4)
+ - dose "pour vivre", "pour manger", "pour traiter", activité physique \thus
+   éducation nutritionnelle
+
+ Effets secondaires : hypoglycémie, prise de poids légère, allergie rarissime,
+ lipoatrophie insulinique (immuno), lipohypertrophie si piqûres au même endroit
+
+ Non insulinique : accompagnement, alimentation variée sans interdits, exercice physique
+
+**** Cas particuliers
+ Enfant/ado : 
+ - cétoacidoses fréquentes (risque d'oedème cérébral \inc si réa).
+ - difficile à équilibrer et accepter chez l'ado
+ - pompe chez très petit enfant
+
+ Femme :
+ - dépister diabète 1 pendant grossesse
+ - contraception à discuter : pilule oestrogestative possible si \female{} jeune,
+   sans complication, non fumeuses, diabète bien équilibré
+ - grossesse : pronostic quasi normal si équilibre dès conception
+   jusqu'accouchement et non compliqué. Analogue de l'insuline. \\
+   \danger{} HbA1c \dec , \inc besoin fin grossesse et \dec post-partum, aggravation rétinopathie
+   et néphropatie
+ - CI absolue : insuf coronaire instable
+ - HbA1c < 6.5%, glycémie jeun < 0.9g/L
+  
+ Ménopause : hormonothérapie seulement si médicalement indiqué
+
+ Jeûne : 
+ - si intolérance gastrique : pas d'arrêt insuline, collations liquide/hospit. Vérifier cétonurie
+ - pour examen à jeun : laisser agir analogue lent, surveiller glycémie
+ - prolongé/stress : soluté glucosé et insuline en IV
+  
+*** Diabète 2
+ 90% de diabète. Prévalence 4%. À risque : obèse, anomalie métabolisme
+ glucidique, ATCD familiaux diabète 2, ethnie noire/hispanique.
+ Age adulte.
+
+**** Physiopatho
+ Insuline n'arrive pas à avoir une réponse amximale : défaut de captation
+ musculaire du glucose, \inc production hépatique du glucose, lipolyse \inc acides gras
+ libres circulants \thus (aggrave \dec insulinosécrétion et utilisation du glucose)
+
+ Insuf de sécrétion d'insuline, s'aggrave avec l'âge et la durée
+
+ Facteurs génétique. Hyperglycémie aggrave insulinosécrétion,
+ insulino-résistance. \dec sécrétion adiopkines
+
+**** Cliniques
+ Signes secondaires hyperglycémie, souvent inaperçus. Décompression sévères \thus
+ polyurie, polydispie, amaigrissement, prurit vulvaire/balanite, infections
+ récidivantes
+
+ Dépistage : si
+ - glycémie veineuse à jeun pour : signes cliniques de diabètes, > 45 ans (tous les 3 ans), \ge 1 FR
+ - non caucasien/migrant, \glslink{sdMetabolique}{sd métabolique}
+ 
+ DD : diabète 1 lent (LADA) (minceur, 0 ATCD, IA2 et GAD positifs), génétique
+ (MODY2, mitochondrial), secondaire (pancréatopathie, hémochromatose,
+ mucoviscidose, médicaments)
+
+ Évolution : insulinopénie -> insulinoréquerant. Pronostic selon complications.
+
+**** Traitement 
+ Objectifs : normalisation HbA1c (< 6.5%), améliorer glycémie, insulinosensibilité
+
+ Moyens  : activité physique, régime (hypocalorique si surpoids) sans sucres
+ rapides, traitement oraux, analogues GLP-1, insuline
+
+ Ttt oral :
+ - biguanide (Metformine)+++ : 
+   - ES = digestif. 
+   - CI = insuf rénale (?), hépatique, respiratoire
+ - autres sulfamides, glinides, inhibiteurs DPP-4, inhibiteurs \alpha-glucosidase
+  
+ Surveillance glycémique :
+ - HbA1c essentielle : < 7% pour plupart des patients (8% si comorbidité grave,
+   âgé fragile, ATCD complication macrovasc, insuf rénale chronique sévère, 9% si
+   agé dépendante)
+ - autosurveillance glycémique : pas systématique si ttt oral (1-3 cycles/j),
+   nécessaire si insuline
+
+ Hygiéno-diététique
+ - Activité physique 
+   - avantages : \dec incidence diabète 2, \inc insulinorésistance, \inc TA
+     effort, \inc masse maigre, \dec masse grasse
+   - intensité modérée  \ge 30min et intense (> 60% $VO_{2max}$) de 20min
+   - 30min/jour, 3-5/semaine
+   - CI : insuf coronarienne, rétinopathie proliférante non stabilisée
+   - surveiller si risque hypoglycémie (reprise, intensité/durée
+     inhabituelle). \danger{} pieds ! 
+ - Alimentation : 
+   - hypocalorique si surpoids, équilibrée[fn:endocrino31], sans sucres rapides. 
+   - objectif : -5 à 10% du poids
+
+ Traitement médicamenteux :
+ - oral : metformine (sinon sulfamide, puis inhibiteurs DPP-4 ou inhibiteurs
+   \alpha-glucosidase)
+ - insulinothérapie 
+   - quand : insulinorequérance (amaigrissement, asthénie, amyotrophie), observance thérapeutique, HbA1c > objectfis, CI oraux,
+   affections intercurrentes
+   - combiné = insuline intermédiaire/analogue lent + hypoglycémiant oraux si
+     insulinorequérance partielles. 0.2 U/kg/j à adapter
+   - exclusive : autosurveillance glycémique quotidienne, même gestion que
+     diabète 1. 
+   - CI au renouvellement permis poids lourds
+
+*** Complications
+ Souffrance vasculaire : micro- (rein, oeil, nef) et macro-angiopathie (\inc
+ athérosclérose). AOMI x6-10
+
+**** Physiopatho
+ Excès de glucose entre dans les cellules endothéliales, musculaire lisses, péricytes.
+ Glycolyse : voies mineures \inc, systèmes de protection de la mitochondrie
+ débordés \\
+ \thus stress oxydant dans la cellule.
+
+ Autres causes d'agression: inflammation, activation rénine-angiotensine, voies profibrosantes,
+ induites par l'hypoxies. Systèmes de protection moins efficaces : antioxydants,
+ anti-inflammatoire, cellules progénitrices vasculaires, angio-, artério-genèse
+
+ Conséquences : épaississement des membranes basales, troubles perméabilité
+ vasculaire, spécifiques = {profil vasculaire (rétine), fibrose (rein)}
+
+**** Rétinopathie diabétique
+***** Déf
+ diabète = risque d'une rétinopathie. Complications dont on peut éviter la
+ cécité ! \thus examen ophtalmo et surveillance annuelle, contrôler glycémie et
+ HTA, laser (si (pré-)proliférante), laser ou injection anti-VEGF (maculopathie
+ oedémateuse)
+
+***** Épidémio 
+ 90% de rétinopathie après 30 ans de diabète, dont 30% menaçant pronostic
+ visuel. Diabète = 1ere cause de cécité acquise en France chez < 50 ans. FR =
+ durée et intensité de l'hyperglycémie
+
+***** Physiopatho 
+ anomalie vasculaire (microanévrisme, trouble perméabilité capillaire) \thus soit
+ oedème (dangereux si maculaire), soit (ischémie puis angiogenèse[fn:endocrino32] puis rétinopathie proliférante)
+
+***** Examens 
+ cécité possible du jour au lendemain \skull \thus dépistage tous les 2 ans
+ (annuel si diabète/TA mal contrôlé, {avant, trimestre, post-partum} pour femme
+ enceinte)
+
+ Surveillance par examen ophtalmo, photo au rétinographe(dépistage seulement), tomographie de
+ cohérence optique
+
+***** Gravité
+ - au fond d'oeil : 
+   - microanévrisme < exsudats < nodules blancs cotonneux, irrégularités \diameter{} veines, capillaires dilatés (préproliférante) < néovaisseaux (proliférante) < décollement rétine, hémorragies, glaucome néovasculaire
+   - maculopathie : exsudat, oedème maculaire, ischémie
+ - \dec acuité visuelle car hémorragie intravitréenne, décollementd rétine,
+   glaucome néovasculaire, maculopathie diabétique
+ - complémentaire : angiographie fluorescéine, tomographie cohérence optique
+   (oedème maculaire), écho en mode B
+ - risque d'évolution rapide : ado, puberté, grossesse, intensification de
+   l'insuline, chir cataracte, \inc TA, dégradation fonction rénale
+
+***** Traitement
+ équilibre glycémie et TA++, laser[fn:endocrino33] (+ injection intraoculaire
+ d'inhibiteurs VEGF)
+
+ Autres complications : cataracte (+ freq), glaucome néovasculaire (redoutable),
+ paralysie oculomotrice (régresse spontanément qq mois)
+
+**** Néphropathie
+ Diabète = 1ere cause d'insuf rénale terminale. Diabète 2 = $\frac{3}{4}$
+ diabétiques dyalisé. Risque CV x10 (D1), x3 (D2). Décès insuf rénale terminale
+ 30% (D1), 5% (D2)
+
+ Physiopatho : \inc pression intra-glomérulaire \thus dilatation des
+ glomérules. Filtration améliorée puis décroît (sclérose) avec \inc
+ albumine[fn:endocrino34]. Et toxicité directe glucose.
+
+***** Dépistage 
+ 1/an par BU (protéinurie, hématurie, infection urinaire),
+ rapport albuminurie/créatinurie (excrétion urinaire) et vérif à 6 mois
+
+***** Diagnostic
+ Signes cliniques tardifs (HTA si protéinurie, oedème si protéinurie et insuf
+ rénale)
+
+ \danger{} faux positifs pour microalbuminurie : orthostatisme prolongé, activité
+ physique intense, \Delta PA, tabac, fièvre, \inc insuf cardiaque, hyperglycémie,
+ infection urinaire
+
+ Signes associés : 
+ - rétinopathie (surtout D1). FR CV : microalbuminurie, DFG \dec. 
+ - Penser sténose des artères rénale (surtout D2) si HTA résistante ou \dec\dec
+   rein. 
+ - Hyperkaliémie (\inc si IEC, sartans) \thus surveiller
+  
+ Diagnostic histologique :
+ - pas besoin si {rétinopathie (hyperglycémie prolongé), excrétion urinaire d'albumine \inc répétée et croissante} 
+ - biopsie seulement si 0 rétinopathie, < 10 ans après diagnostic, aggravation rapide, hématurie HTA sévère, signes extra-rénaux
+ - diabète 1 : hypertrophie mésangiale, glomérulaire < épaississement membrane basale, dépôts
+   mésangiaux < hyalinose artériolaire < glomérulosclérose nodulaire
+ - diabète 2 : 1/3 typique, 1/3 vasculaire, 1/3 non néphropatie diabétique
+
+ Classification en 5 stades : 
+ 4. [@4] Néphropathie incipiens : microalbuminurie[fn:endocrino35]
+ 5. Néphropathie : PA élevée, DFG \dec de 10mL/min/an, nodule de sclérose,
+    hyalinose artériolaire
+ 6. Insuffisance rénale
+
+***** Traitement
+ Prévention 
+ - primaire (diabète, FR HTA)
+ - si microalbuminurie : HbA1c < 7%, PA < 140/85, IEC ou sartans, FR, régime
+   hypoprotidique, sel < 6g/j
+ - si macroalbuminurie : contrôle tension++ < 140/85mmHg. (IEC ou sartan) et
+   diurétique thiazidique. Protéinurie < 0.5g
+ - si insuf rénale : 
+   - si DFG < 30mL/min/1.73m^2, HbA1c < 8% et seuls autorisé : insuline, répaglinide, inhib \alpha-glucosidase, 
+   - surveiller glycémie (HbA1c souvent pertubrée si IR chronique)
+   - PAs < 130mmHg
+   - traiter anomalies phosphocalciques, anémie arégénérative, préparer suppléance rénale
+    
+ Éviter AINS. Si nécessaire, pas d'IEC/sartan. Limiter produits contrastes iodés
+
+ Néphrologue si : doute diagnostique, DFG < 45mL/min/1.73m^2, protéinurie brutale.
+
+ IEC, sartans : se méfier d'une sténose des artères rénales : doser kaliémie, créatininémie
+
+ Infections urinaires : $\times 3$ dont 90% asymptomatique (basses)
+ - Risque = contamination du haut appareil urinaire (pyélonéphrite, nécrose papillaire,
+ pyélonéphrite emphysémateuse), aggravation néphropathie glomérulaire.
+ - Ttt : oui si symptomatique. Sinon pas de consensus
+  
+**** Neuropathie
+ - Autonome : tardive
+ - Périphérique : 50% des diabètes à 20 ans. FR : grande taille, tabac, âge,
+   AOMI, carences nutritionnelles/vitaminiques, alcool, insuf rénale
+  
+ Atteinte métabolique et vasculaire.
+
+ Dépistage sur examen clinique et interrogatoire (+ examens complémentaires si
+ autonome)
+
+ Si débutante, souvent silencieuse ! Examen des pieds !
+
+***** Sensorimotrice 
+ Fibres les plus longues en premier ("chaussettes" puis "gants")[fn:endocrino36]. Examen
+ clinique pour perte de sensibilité, interrogatoire pour douleur
+
+ - Polynévrite symétrique distale : fréquente (40% diabétiques après 25 ans) avec
+   - hypoesthésie pression/tact/thermique/proprioceptique ignorée
+   - parfois paresthésies distales, douleurs "arc électrique"
+   - ROT achilléen aboli (puis rotulien)
+   - voûte plantaire se creuse (tardivement)
+   - complication : neuroarthropathie (pied "cubique" de Charcot)
+   - rares : mononeuropathies avec signes moteurs déficitaires, douleurs à
+     exacerbation nocturne
+ - Polynévrite asymétrique proximale : beaucoup plus rare. L2, L3
+   (L4). Fatigabilité et amyotrophie douloureuse proximale
+ - Polyradiculopathie thoracique : rare, douleurs abdo aux niveaux T4-12
+ - Mononévrite : 5-10%, asymétrique. Souvent nerfs crâniens. Si MS
+   : compressive. Si MI : sensitif
+ - Multinévrite : DD = vascularite
+  
+***** Autonome
+ Diabète ancien, mal équilibré \thus nerfs vagues, système sympathique
+ lésés. Régression rare
+
+ - CV : {tachycardie sinusale quasi-permanente, (bradycardie permanente),
+   allongement QT}
+ - Vasomotrice : hypotension orthostatique /sans/ accélération du pouls, troubles
+   microcirculation périphérique[fn:endocrino37]
+ - Troubles sudation : sécheresse cutanée MI, parfois hypersudation partie
+   supérieure. Prurit possible
+ - Digestive gastro-intestinale : {parésie tractus digestif, dysphagie, gastroparésie (fréq), diarrhée banale/motrice capricieuse (diag d'élimination ![fn:endocrino38], constipation, incontinence fécale (rare)}
+ - Vésicale : pas de perception de la vessie pleine, hypoactavité détrusor et
+   favorisé par polyurie de l'hyperglycémie. Résidu post-miction \thus
+   incontinence, rétention, infection urinaire \thus clinique, écho
+   (prostate, vessie)
+ - Dysfonction érectile : psychogène, sd de Leriche[fn:endocrino39] (rare). À rechercher
+   /systématiquement/. \\
+   DD : examen génital, testostérone, prolactinémie. Traitement efficace presque toujours.
+  
+
+ Examen 
+ - clinique : interrogatoire (hypotension OS, diarrhée...), inspection pieds, ROT abolis au niveau des troubles sensitifs, monofilament, sensibilité épicritique, thermoalgique, vibratoire[fn:endocrino40], proprioceptiques[fn:endocrino40]
+ - ECG annuel, EMG si atypique
+ - chercher dénervation cardiaque parasympathique : variation de la FC entre
+   inspiration et expiration[fn:endocrino41], rapport RR long/court pendant épreuve de
+   Valsalva, variation FC de couché à debout
+
+ DD : neuropathies métaboliques (insuf rénale, amylose, hypothyroïdie), toxiques
+ (alcool, tabac, iatrogène), paranéoplasiques, carentielles, inflammatoire,
+ infectieuse (Lyme, lèpre), autre (Charcot-Marie-Tooth, péri-artérite noueuse)
+
+ Traitement : 
+ - préventif = glycémie. FR : alcool, tabac, insuf rénale, carence
+   vitamines B, médicaments. 
+ - Si installées, stabiliser et éviter les complications
+   (mal perforant plantaire++)
+ - Antalgiques, hydratation peau
+
+**** Macroangiopathie
+ \diameter > 200 \mu{}m. Plus fréquente et sévère. Artères visibles sur radio.
+
+ Prévention CV = *problème majeur* des diabétiques 2 : $\frac{3}{4}$ DC d'une cause
+ CV. 
+
+ Risque CV \times{}2-3 (\times{}3-4 chez \female). Risque coronarien \times{}2-4, AV ischémique
+ \times{}2, AOMI \times{}5-10 !
+
+***** Dépistage
+ Risque > 1% = élevé[fn:endocrino25]
+
+ /FR/ :
+ - CV : > 50 ans \male (> 60 \female), diabète > 10 ans, ATCD IDM/mort subite (< 55
+   ans \male, < 65 ans \female) ATCD AVC constitué < 45 ans, tabac, HTA
+   permanente, HDLc < 0.4g/L, microalbuminurie > 30mg/24h
+ - autres : obésité abdominale (> 102cm \male, > 88cm \female) ou IMC >
+   30k/m^2, sédentarité, > 3 verres vin/j (2 si \female), pyschosociaux
+
+ Montrer atteinte artérielle : 
+ - coronaropathie : ECG repos annuel, scinti avec épreuve d'effort ou coronarographie
+ - carotides ? auscultation \thus écho si AIT possible
+ - AOMI ? pieds, pouls, claudication, IPS cheville/bras < 0.7 ? Écho-doppler
+
+***** Diagnostic
+ Ischémie myocardique silencieuse fréquente ! Y penser si troubles digestifs,
+ asthénie à l'effort, troubles du rythme cardiaque, déséquilibre inexpliqué du
+ diabète, \dec PA \thus dépistage systématique si risque
+
+ Risque extrême : diabète et microangiopathie sévère (glomérulopathie et
+ protéinurie > 1g/L), atteinte vasculaire
+
+ AOMI : fréquemment avec neuropathie. 1/3 proximale (HTA), 1/3 distale sous
+ genou (glycémie, tabac), 1/3 proximale et distale. Pouls pédieux = bon pronostic
+
+***** Traitement
+ Revascularisation : stents par défaut (risque de resténose) et chir si atteinte
+ 3 coronaires.
+
+ - Glycémie : Objectif 6.5% si jeune et prévention primaire, 7% si âgé ou plus à
+   risque. Metformine systématique
+ - Activité physique systématique
+ - Contrôle lipidique : LDL < 1.3g/L (1.0 si risque CV élevée ou
+   néphropatie). Statines (simvastatine, pravastatine, atorvastatine) ou fibrates[fn:endocrino42] 
+ - PAs \in [130, 139] et PAd < 90mmHg. Hygiéno-diététique et antihypertenseurs si
+   échec
+ - Prévention thrombose si \ge 1 FR : aspirine 75-150mg
+ - Poids : IMC < 25kg/m^2, tour taille < 94cm \male, 80cm
+   \female. Hygiéno-diététique
+ - Arrêt tabac : substituts nicotiniques (bupropion sinon). Anticiper polyphagie
+   réactionnelle et modification transitoire sensibilité insuline !
+
+**** Pied diabétique
+ 1 patient sur 10 à risque d'1 amputation d'orteils. Éviter les plaies pour prévenir l'amputation
+ \skull
+
+ Mal perforant plantaire, plaie ischémie d'orteil/membre
+
+ À risque : diabète et pouls faible, neuropathie et trouble statique pied,
+ troubles sensibilité {algique, vibratoire, thermique, profonde}, ulcération
+ pieds
+
+***** Mal perforant plantaire (MPP)
+ Neuropathies entraîne hypoesthésie et déformations
+ ostéoarticulaires \thus durillons puis fissure et infection \thus
+ dermo-hypodermite.
+
+ Révélé par : pus, fonte purulente localisé tisseux adipeux
+
+***** Autres
+ - Ischémie/nécrose : si oblitération/sténose artères de moyen-petit calibre. Peau
+   froide, fine, dépilée, livedo. \danger nécrose peut arriver en qq heures \thus
+   revasculariser en urgence \skull
+ - Combinaison nécrose et MPP
+ - Dermo-hypodermite nécrosante : très rare, urgence vitale \skull. {Teinte gris,
+   hémodynamique altérée, plaie odeur fétide} \thus débrider en urgence, ATB. \\
+   Cas particulier : gangrène gazeuse à \bact{perfringens} (crépitations à la
+   palpation, clartés parties moelles} \thus urgence vitale \danger
+
+***** CAT
+ - Dater l'apparition, neuropathie ou artériopathie. Plaie : localisation, couleur,
+   signes de diffusion, {fièvre, frisson, teint gris}, douleur.
+ - Contact : orthopédiste si drain d'une infection purulente. Chir vasculaire si
+   doute sur l'ischémie. Réanimateur si tableau sévère.
+ - Radio pieds bilatérale (ostéite ?), si infection : NFS, iono, CRP
+ - Surveillance si état clinique
+ - TTT : 
+   - décharge (chaussure, arrêt de travail), excision kératose à domicile : peut
+     suffire
+   - anticoagulation si alitement, antalgique, 
+   - réhydratation, équilibrer glycémie si besoin
+   - anti-escarre si ischémie, vaccin anti-tétanos ! 
+   - si infection : parage et drainage, ATB (cocci G+ si récent, sinon bacille G-)
+   - revascularisation si plaie artériopathique
+
+ Ostéite : grave mais pas une urgence. Basé sur radio. Ttt . résection
+ chirurgicale ou ATB 6-12semaine et sans l'appui
+
+**** Autres
+ Peau : 
+ - nécrobiose lipoïdique (rare, ttt mal codifié)
+ - dermopathie diabétique (fréquente, cicatrices brunâtre, régresse spontanément)
+ - bullose diabétique (cicatrise spontanément)
+ - lipodystrophie (hypertrophie le plus souvent, dû à des injections trop souvent
+   au même endroit)
+ - acanthosis nigricans (placards cutanés brunâtres, cou/aisselles, plis inguinaux)
+ - vitiligo (taches achromiques)
+ - xanthomatose éruptives (nodules rouge/jeun si grande hypertriglycéridémies)
+ Infections : bactériennes plus nombreuses, fonction polynucléaires altérée
+ - otite nécrosante : écoulement auriculaire, douleur intense et insomniante,
+   inflammation conduit auditif externe avec granulome/nécrose du plancher du
+   conduit \thus \danger urgence, ORL spécialisé
+ - mucormycose : rhino-cérébro-orbitale, destruction osseuse, nécrose muqueuse
+   paroi des sinus. Fièvre, obstruction et écoulement nasal, oedème jugal et
+   palpébral \thus urgence \skull
+ Foie : hépatologue dès anomalie transaminases ou \gamma-GT
+
+ Articulations : 
+ - capsulite rétractile : douleur diffuse des épaules, limitations
+   mouvements actifs et passifs, frequence \times{}4. Ttt : antalgiques, corticoïdes locaux,
+   physiothérapie
+ - Maladie de Dupuytren : sclérose réractile de l'aponévrose palmaire moyenne
+ - Chéiroarthropathie : raideur des doigts, peau épaissie et cireuse, signe de la
+   prière
+ - Arthrose : fréquente diabétique 2
+
+ Dents : maladie parodontale 
+ - car {plus de plaque dentaire, \inc production
+   toxine, matrice extracellullaire altérée, vasculairisation gencive aussi}
+ - contrôle diabète, brossage, fil dentaire, soins dentaires prévention
+ - signes : dents branlantes, saignements gencive brossage/mastication
+   \thus dentiste tous 6 mois
+
+ *Suivi diabète* : 
+ - complications oculaires, rénales, neuro, cv
+ - fond d'oeil annuel, ECG repos annuel, bilan cardio approfondi si risque CV
+   \inc, écho-doppler MI (si > 40 ans, diabète > 20 ans) tous 5 ans
+ - bio : HbA1c 4/an, glycémie veineuse, lipides 1/an, microalbuminurie 1/an,
+   créatininémie jeun, clairance créat 1/an, TSH
+
+**** Complications métaboliques
+ Coma cétoacidosique
+ - acétonurie, glycosurie, glycémie 2.5g/L, pH veineux < 7.25, bicarbonate <
+   15mEg/L
+ - cause : déficit insuline absolu/relatif, inconnue
+ - évolution : cétose puis cétoacidose (Kussmaul, stupeur, déshydratation mixte)
+ - gravité : âgé, ph < 7, kaliémie 4-6 mmol/L, coma profond, TA instable, pas de
+   diurèse après 3h, vomissements incoercibles
+ - DD : urgence abdo, coma hyperosmolaire
+ - Régression sous ttt en 24-48h. Complication iatrogène : oedème cérébral,
+   surcharge hydrosodée
+ - ttt :
+   - éducation : si cétose, maintenir injections, supplément insuline rapide,
+     acétonurie si glycémie > 2.5g/L
+   - curatif : insuline rapide IV, recharge volumique, apport potassimu, glucose
+     si besoin, facteur déclenchant
+
+ Coma hyperosmolaire :
+ - glycémie > 6g/L, osmolalité > 350mmol/kg, natrémie corrigée > 155mmol/L, pas
+   de cétose ni d'acidose
+ - FR : > 80 ans, infection aigüe, diurétique, pas d'accès aux boissons, corticothérapie
+ - ttt : réhydratation prudente, lente, insuline IV, surveillance, héparine
+   préventive, ttt causal, soins yeux/bouche/aérosols/aspiration bronchique
+
+ Hypoglycémie : inévitable 
+ - mais pas mortelle, pas séquelle au cerveaux, ne déclenche pas d'accident vasculaire/cardiaque.
+ - peur chez diabiétique, déstabilise diabète, attention si âgé ou alcoolique
+ - favorisé par : hypoglycémie mineure répétées ignorées, neuropathie végétative
+ - cause : repas insuffisants, effort physique, erreur d'injection
+** 249 : Amaigrissement
+ Fréquent
+
+*** Interrogatoire 
+ - Histoire pondérale, conditions, de vie, psychologique, activité physique excessive et apports alimentaires insuffisants
+ - Anorexie, {troubles digestifs, palpitations, sd polyuro-polydipsie}, troubles
+   libido/érection, amnénorrhée (anorexie mentale ou hypothalamique
+   fonctionnelle), médicaments (nausée, anorexie), dépression masquée++
+
+*** Examens :
+ Clinique : poids, taille, IMC, pli cutané, fonte musculaire, carences vitamines,
+ pâleur cutanéomuqueuse
+
+ Complémentaires :
+ - bio : NFS (anémie), VS/CRP (inflammatoire), iono (hyponatrémie \thus insuf
+   surrénale), BU (glycosurie), calcémie, {transaminase, \gamma-GT}(foie), TSH
+   (hyperthyroïdie), {B12, folates, TP, albuminémie}, graisses fécales ?
+   (pancréatite chronique calcifiante), dénutrition[fn:endocrino43]
+ - Radio thoracique (tuberculose), écho abdo (abcès/tumeur), fibro (obstacle),
+   DEXA (composition corporelles)
+
+*** Étiologie
+ - Poids stables, apports nutritionnels normaux, examens normaux :  maigreur
+   constitutionnelle
+ - Si perte de poids confirmée, éliminer anorexie mentale, maladies digestives,
+   iatrogène, cancer extradigestif, maladies infectieuses, neuro, grande
+   défaillance cardiaque/rénale/respi/hépatique, alcool
+ - Sinon, causes endocrines :
+   - diabète 1 ou 2 : glycémie, HbA1C
+   - hyperthyroïdie : TSH \dec\dec, hormones thyroïdiennes \inc
+   - hypercalcémie : si gls:PTH inadaptée, hyperparathyroïdie primaire
+   - insuf surrénalienne : cortisol, ACTH plasmatique
+   - panhypopituitarisme[fn:endocrino68] : cortisol \dec
+   - phéochromocytomes : (nor)métanéphrines dans urines 24h, imagerie surrénales
+** 251 : Obésité
+*** Adulte
+ Surpoids = IMC \in [25, 29.9]kg/m^2. Obésité :
+ - grade 1 : IMC \in [30, 34.9]kg/m^2.
+ - grade 2 : IMC \in [35, 39.9]kg/m^2.
+ - grade 3 : IMC \ge 40kg/m^2.
+
+ Limites : sous-estimé chez asiatiques. Seulement pour [18,65] ans
+
+ Phases : prise de poids, constituée, perte, rechutes
+
+ Localisation : viscéral (scanner, IRM), sous-cutanée, ectopique (muscle, foie)
+
+ Épidémio : +27.5% 1980-2013 (monde). France : de plus en plus jeune, \inc chez >
+ 65 ans
+
+ Étiologie :
+ - génétique: envisager si précoce (naissance +24 mois), troubles du
+   comportement alimentaire
+ - obésités communes liées à des facteurs environementaux (majorité) : surtout
+   déséquilibre apport caloriques- dépense
+   - antipsychotiques, glucocorticoïdes, antidépresseurs,
+     antiépileptiques, antidiabétiques
+   - arrêt du tabac, privation de sommeil (?), hypothalamique (rare)
+
+ Complications : \inc RR mortalité, métabolique, CV, respi, ostéoarticulaire,
+ digestive, rénale, gynéco, cutanée, néoplasiques, psychosociale
+
+**** Clinique
+ - Interrogatoire : 
+   - ATCD familiaux d'obésité, poids naissance, âge surpoids,
+     poids max et min, circonstances déclenchantes, tentatives antérieures, phases
+   - Comportement alimentaire (carnet), évaluation dépense énergétique, pyscho-comportementale
+   - Complications (SAS)
+ - Examen : poids, taille, PA, tour de taille[fn:endocrino44], obésité secondaire
+ - Complémentaires : glycémie à jeune, lipides, hépatique, uricémie, ECG repos
+  
+**** Traitement
+ - Diététique, activité physique (\forall IMC)
+ - Psychologique
+ - Médicaments (IMC \ge 30 ou (\ge 27 et comorbidités)) : orlistat
+ - Chir bariatrique :  {anneau gastrique ajustable, sleeve gastrectomie},
+   {court-circuit gastrique, dérivation biliopancréatique} : < 65 ans. Prise en
+   charge 6 mois avant et post-op à vie (carences vitaminiques)[fn:endocrino45]
+*** Enfant/ado
+ \danger{} évolutivité. Surpoids : IMC > 25. Obésité 
+ - grade 1 : > 30kg/m^2
+ - grade 2 : > 35kg/m^2
+ - grade 3: > 40kg/m^2
+
+ Épidémio : stabilisation mais obésités sévères \times{}4
+
+**** Étiologies
+ - génétiques : mutation sur récepteur de la mélanocortine type 4 = 2.5-5%
+ - communes (majorité) : facteurs environnementaux et prédisposition génétique
+   - repond d'adiposité à 6 ans. Risque d'obésité \propto précocité du rebond
+   - tour de taille/taille > 0.62 = forte valeur prédictive
+   - FR : surpoids parent, poids excessif/tabac pendant grossesse, anomalie de
+     croissance foetale, \inc\inc poids à naissance + 2ans, difficulté
+     socio-éoc, manque d'activité physique, troubles sommeil, psychopatho
+ - secondaires (rare) : ralentissement de la vitesse de croissance naturelle
+
+**** Complications 
+ - HTA : > 97e percentile + 10mmHg
+ - Insulinorésistance avec glycémie normale fréquente
+ - \inc TG et \dec HDL
+ - Stéatose hépatique non alcoolique
+ - Rachialgies, gonalgies, troubles statique vertébrales. Penser à l'épiphysiolyse
+   de la tête fémorale : garçons [10,15] ans avec douleur mécanique de hanche
+   \thus radio de profil
+ - Psychologique
+  
+**** Clinique
+ Interrogatoire : 
+ - ATCD familaux, 
+ - personnels : poids, taille naissance, âge d'appartition, changements environnementaux, tentatives antérieures, troubles des règles 
+ - comportement alimentaire (difficile)
+ Examen clinique :
+ - poids, taille, PA, tour de taille, pli-cutané (masse grasse < 20% après 5 ans), courbes de
+   croissance (ralentissement = pathologique !), dermato (acanthosis nigricans =
+   insulinorésistance, vergétures= hypercorticisme, intertrigo, mycose)
+ Pas d'examens complémentaires !
+
+**** Traitement	
+ Prévention surtout. Modifier style de vie (efficacité faible). Chir possible
+ avec équipes spécialisées
+** 252 : Diabète gestationnel
+ Physio chez femme enceinte selon moitié:
+ - non diabétique : (\inc insulinéme, insulinosensibilité) puis (insulinorésistance
+   \thus hyperinsulinisme ou diabète gestationnel)
+ - à risque de diabète : (hypoglycémie, cétose) puis (insulinosécrétion
+   postprandiale insuffisante)
+  
+*** PEC du diabète pré-gestationnel
+ Grossesse à risque mais fécondité normale (sauf si sd ovaires polykystiques).
+
+ \danger{} Normalisation glycémie préconception \rightarrow accouchement
+ - HbA1c \le 6.5%
+ - glycémie à jeun \in [0.6, 0.9]g/L
+ - glycémie repas + 1h < 1.40g/L et +2h 1.20g/L
+  
+**** Risque foetus
+ - Fausses couches spontanées \times{}2, \propto hémoglobine glycquée
+ - Malformation congénitales \times{}2, constituée pendant 8 premières semaines :
+   cardiaque, neuro, rénale \thus \inc fausses couches spontanées, mortalité
+   foeatale/néonatale, malfomations
+ - 2e trimestre : macrosomie, hypoxie tissulaire, retard maturation pulmonaire,
+   hypertrophie cardiaque septale
+ - 3e trimestre : mort foetale
+ - Accouchement : \inc prématurés, césariennes. Danger : trauma foetal,
+   hypoglycémie sévère, hypocalcémie, hyperbilirubinémie/polyglobulie, détresse
+   respi transitoire, maladie des membranes hyalines
+ - Long terme : surpoids/obésité et diabète 2
+**** Risque mère
+ - HTA (30%) : si > 20 SAc, risque de toxémie gradivique. \times{}5 si
+   diabète 1. Risque vital \skull
+ - Rétinopathie : ttt préalable si rétinopathie proliférative. CI : rétinopathie
+   proliférative floride non traitée
+ - Néphropathie : 
+   - FR = {HTA, déséquilibre glycémique, rétinopathie évoluée dès
+     départ, diabète ancien, insuf rénale, hydramnios, correction trop rapide d'une
+     hyperglycémie chronique}. 
+   - Insuf rénale \thus hypotrophie foetale, prééclampsie. Si IR préexistante : 50%
+     mortalité foeatale *in utero*
+   - dépistage : créat plasmatique, microalbuminurie, protéinurie
+   - IEC contre-indiqués
+ - Coronaropathie : exceptionnelle mais gravissime. Dépister si diabète ancien et
+   complications microvasculaire (ECG, effort)
+ - Infection urinaire \inc, risque pyélonéphrite, décompensation diabétique
+ - Diabète 1 : \inc risque dysfonction thyroïdiennes
+
+**** PEC
+ - Avant grossesse : glycémie \in [0.7, 1.20] préprandial, \in [1, 1.4]
+   postprandial et HbA1c < 7%
+   - diabète 1 : \inc insuline
+   - diabète 2 : insuline si régime ne suffit pas/arrêt ttt oral
+ - Pendant    
+   - équilibre glycémique++ (6 glycémies capillaires/jour)
+     - \danger variations physiologiques : insuline \dec puis \inc puis \dec\dec
+     - cétonémie/cétonurie si glycémie > 2g/L
+   - \ge 1600kcal/j 2eme et 3eme tri
+   - surveiller poids, PA, créat plasmatique, microalbuminurie, protéinurie, FO,
+     BU, protéinurie 
+   - surveillance obstétricale : dater++ (12-14SA), malformations (22-24), placenta et liquide
+     amniotique (32-34SA), cardiomyopathie hypertrophique (32-34SA), bien-être
+     foetal
+   - pas de bêtamimétique si prématuré 
+**** (Post)partum
+ Accouchement programmé souvent, facilité si rétinopathie sévère, insuline
+   SC/IV et glucosé avec surveillance horaire
+
+ Puis : insuline selon besoin pré-grossesse (D1) ou arrêt (D2)
+
+*** Diabète gestationnel
+ Si lié à la grossesse, apparait en 2eme partie. Risque : pré-éclampsie,
+ césarienne (\propto hyperglycémie matenrelle). FR : surpoids 
+
+ Même complications liées à l'hyperinsulinisme que pré-gestationnel
+
+**** Dépistage
+ Si FR seulement : 
+ - \ge 35ans
+ - IMC \ge 25kg/m^2
+ - ATCD : diabète gestationnel, macrosomie, diabète chez parents 1er degré
+ Diagnostic :
+ - début de grossesse si glycémie jeun \ge 0.92g/L \thus PEC immédiate
+ - sinon à 24-28SA et (glycémie jeun < 0.92g/L ou non faite) : hyperglycémie
+   provoquée oralement
+
+**** Traitement
+ - Diététique (30-35kcal/kg [25 si surpoids]), activité physique, antidiabétique
+   CI \skull, insuline si régime ne suffit pas après 8 jours
+ - Surveillance : glycémie (6/jour puis 4/jour), cétonurie (si glycémie > 2g/L),
+   HTA
+ - Objectif : glycémie jeun < 0.95g/L et postprandiale +2h < 1.20g/L
+
+ Post-partum : arrêt insuline et surveillance glycémie (diabète antérieur
+ ?). Vérifier glycorégulation à 3 mois. Risque de récidive si grossesse
+** 253 : Nutrition chez le sportif
+*** Examen d'aptitude
+ Dépister les pathologies induisant un risque vital/fonctionnel grave : mort
+ subite (1-4/100 000 après 35 ans)
+ Obligation légale si compétition (licencié ou non)[fn:endocrino47]
+
+ Examen :
+ - ATCD sportif, médicaux familiaux (CV, hypercholestérolémie familiale),
+   conduites à risque, alimentaire, ttt, toxiques
+ - Clinique : 
+   - poids, taille, IMC, (courbe de croissance)
+   - maturation pubertaire
+   - ostéoarticulaire, cardiorespiratoire, test dynamique sous-maximal
+     (Ruffier-Dickson)
+ - Complémentaire : ECG repos[fn:endocrino48], CV
+
+*** Bénéfices/inconvénients 
+ Adulte :
+ - Bénéfices :
+   - maintien santé : \dec mortalité prématurée, \inc qualité de vie, \inc
+     autonomie (âgé), régule poids
+   - prévention : cancers (colon, sein), CV, métabolique, ostéoporose \female
+   - ttt : anxiété, cardiomyopathie ischémique, BPCO, obésité, diabète 2, neuro,
+     rhumatismales, dégénératives
+ - Surveillance : dépistage d'insuf coronarienne > 40 ans, \danger nutrition et
+   hydratation si > 3h/semaine
+ - Recommandation : 150min/semaine (modéré) ou 75min/semaine (soutenu). Idéal : x2
+
+ Enfant : 
+ - Bénéfices :
+   - dev psychosocial : \dec stress, anxiété, \inc intégration sociale, \inc
+     confiance en soi
+   - dev psychomoteur : concentration, coordination, équilibre
+   - \inc masse maigre, \inc densité osseuse
+   - prévention : sd métabolique, surpoids, CV
+ - Surveillance : nutrition (éviter retards de croissance/pubertaire), attitude
+   alimentaires restrictives
+ - Recommandation : 60min/jour (modéré-soutenu) et renforcement musculaire,
+   osseux 3x/semaine
+  
+*** Besoins nutritionnels
+
+ | Intensité     | durée     | Energie                      | Limitation |
+ |---------------+-----------+------------------------------+------------|
+ | Très intense  | secondes  | ATP, P-Cr                    |            |
+ | Intense       | minutes   | Glycogène musculaire         | Lactate    |
+ | Faible-élevée | prolongée | glycogène musculaire/lipides | VO_2 max   |
+
+ Macronutriments :
+ - Glucides : détermine l'épuisement si endurance \thus index glycémique faible à
+   distance, IG élevé juste avant. Pendant : maintenir glycémie. Après :
+   reconstituer les stocks de glycogène
+ - Lipides à limiter si intensité élevé/compétition
+ - Protides : endurance 1.2-1.4g/kg/j, force : 1.3-1.5g/kg/j si maintien masse, sinon jusque 2.5g-kg/j
+
+ Hydrosodé : avant = 500ml en 2h (prévention). Pendant : NaCl si \ge 1h selon
+ intensité (jusque 1.5L/h). Après : 150% perte pondérale.
+
+ Minéraux, vitamines:
+ - attention situation à risque : déficit en fer, contrainte de poids,
+   alimentation glucidiques mais faible densité nutritionnelle, exclusion de
+   groupes d'aliments
+ - endurance : vit B énergétiques[fn:endocrino49] , vit. "antioxydantes"[fn:endocrino50]
+ - force : \inc vit B6, \inc "antioxydantes"
+
+**** Enfant
+  Apport insuffisants \thus retard croissance staturo-pondéral ou pubertaire,
+  \dec masse musculaire, déminéralisation osseuse, déficit immunitaire.
+
+ Surveiller calcium, vit D, fer.
+
+** 265 : Hypocalcémie, dyskaliémie, hyponatrémie
+ 
+*** Hypocalcémie (hypoCa)
+ Éliminer fausses hypoCa dues à l'hypoalbuminémie[fn:endocrino69].
+ Calcémie = équilibre absorption intenstinale, résorption osseuse, excrétion
+ rénale. Régulé par PTH, calcitriol
+
+ Clinique : 
+ - hyperexcitabilité neuromusc : paresthésie main, pieds, péribuccales
+   (spontanées/effort), signe de Trousseau ("main d'accoucheur"), signe de
+   Chvosteck (peu spécifique), crises de tétanie (paresthésie, fasciculation
+   pouvant entraîner arrêt respi)
+ - chronique : sd de Fahr[fn:endocrino51] \thus signes extrapyramidaux, crises comitiales
+ - \inc QTc \thus troubles du rythmes
+ - dans l'enfance : musc, neuro, cardiaques
+  
+**** Principales causes
+ - Hypoparathyroïdes : anamnèse et {hypoCa, PTH \dec, phosphatémie
+   normale/haute}.
+   - post-chir++ : parathyroïdectomie totale
+   - congénitale : sd Di George++[fn:endocrino52]
+ - Pseudoparathyroïdies : génétiques : résistance à la PTH \thus PTH
+   \inc. Chondrodysplasie possible
+ - Anomalie vitamine D
+   - carence vit D = 1ere cause hypoCa chez nourrisson \thus rachitisme
+     carentiel. Chez l'adulte, seulement si déficit prolongé et profond
+   - malabsorption digestive, insuf rénale chronique, cirrhose
+
+**** TTt
+ - Aigüe = urgence \skull \thus calcium IV lente (2-3x10ml). Suspension des ttt qui \inc
+   QTc, réduction digoxine
+ - Chronique : vit D (ou dérivés actifs) et calcium per os
+
+*** Hyper-/hypo-kaliémie, 
+ Retentissement cardiaque \thus vital \skull
+
+**** HyperK 
+ Principales causes
+ - Acidose (sort K+ de la cellule) et insulinopénie (réduit entrée K+) : ttt par
+   insuline à risque d'hypoK \danger \thus apport K+ dès normokaliémie
+ - Hypoaldostéronisme
+   - insuf surrénale périphérique
+   - secondaire : chez > 65 ans, diabétiques. Risque = aggravation si IEC ou ARA II
+ - Pseudo-hypoaldostéronisme : résistance à l'aldostérone (génétique)
+  
+**** HypoK 
+ - Dénutrition sévère : anorexique, post-chir bariatrique sans suivi
+ - Insulinothérapie : si cétoacidose et troubles digestifs majeurs \thus
+   insulinothérapie seulement après normokaliémie, sinon arrêt cardiocirculatoire \skull
+ - \inc activité \beta{}adrénergique
+ - Paralysie périodique famililiale : exceptionnelle, paralysie brutale
+   transitoire des 4 membres
+ - Hyperaldostéronisme ou hypercorticisme : y penser si HTA (non constante) et hypoK avec
+   kaliurèse \inc
+ - Polyurie : hyperglycémie \inc
+ - Hypomagnésémie : si Mg \dec, malabsorption, pertes digestives causées par
+   IPP. Sinon : pertes urinaires acquises/génétique
+ - Bloc 11-\beta{}hydroxystéroïde déshydrogénase : tableau similaire à
+   hyperaldostéronisme primaire mais avec aldostérone \dec. Si HTA et hypoK,
+   vérifier réglisse et pastis (glycyrrhizine)
+
+*** Hyponatrémie endocrinienne
+
+ HypoNa = anomalie électrolytique la plus commune chez hospitalisés
+
+ Osmolarité (mosm/L) : 2\times{}([Na+] + [K+]) + glycémie + urée
+
+ #+BEGIN_EXPORT latex
+ \begin{figure}[htpb]
+   \centering
+   \resizebox{0.9\linewidth}{!}{
+     \tikz \graph [
+   % Labels at the middle 
+       edge quotes mid,
+   % Needed for multi-lines
+       nodes={align=center},
+       sibling distance=3cm,
+       level distance=1.5cm,
+       edges={nodes={fill=white}}, 
+     layered layout]
+     {
+       Osmolalité -> {
+         Augmentée -> "Hyperglycémie";
+         Normale -> "HyperTG\\Hyperprotidémie";
+         Diminuée -> Volémie -> {
+	   "Augmentée\\(hyperhydrat. extracell)" -> "Insuf cardiaque\\Cirrhose\\Sd néphrotique"
+	   -> "Sérum salé\\isotonique";
+	   "Normal\\(hyperhydrat intracell)" -> "Hypothyroïdie\\Insuf corticotrope\\SIADH"
+           -> "Sérum salé\\hypertonique";
+	   "Diminué\\(déshydrat extracell)" -> "Perte digestives\\rénales, cérébrales\\Insuf corticosurrénales aigüe"
+           -> "Restriction hydrosodée";
+	 };
+       };
+     };
+   }
+   \caption{Démarche diagnostique et ttt devant une hyponatrémie}
+ \end{figure}
+ #+END_EXPORT
+
+ Physiopatho : hormone anti-diurétique (ADH) : répond au stimulus osmotique,
+ volémique et stress etc. Action vasoconstrictive, corticotrope (stress),
+ antidiurétique
+
+**** SIADH
+ PA et FC normale, pas de pli cutané, (déshydratation extra-cellulaire) ni
+ d'oedème (hyperhydratation extra-cellulaire)
+
+ DD : cf figure. Si hyponatrémie hypoosmolaire normovolémique :
+ - insuf corticotrope : cortisolémie et ACTH
+ - insuf surrénale aigüe
+ - hyporthyroïdie proto-thyroïdienne : TSH \inc
+ - hypopituitarisme antérieure : cortisolémie, TSH, T4L
+
+ Étioliogies :
+ - iatrogènes : neuroleptiques, antidépresseurs, chimio, carbamazépine,
+   desmopressine
+ - quasi toutes affections neuro, notament intervention trans-sphénoïdale
+   (adénome corticotrope)
+ - pulmonaires
+ - tumeurs malignes : cancer bronchique à petites cellules++
+ - rares : mutation récepteur V2 ADH, marathonien, VIH
+ - Intoxication aigüe à l'eau
+
+**** Traitement
+ Urgence si < 115mmol/L ou {délire, coma, convulsion} \skull \thus sérum salé
+ hypertonique jusque Natrémie = 120mmol/L (puis restriction hydrique).
+
+  \danger{} < 12mmol/24h sinon tableau d'AVC (myélinolysie centropontine) !! \skull
+
+ Thérapeutique :
+ - restriction hydrique : mal tolérée
+ - déméclocycline : induit diabète inspidie néphrogénique
+ - aquarétique (tolvaptan)
+  
+ Indications :
+ - symptômes cliniques sévères/récent : sérum salé hypertonique
+ - symptômes plus modérés : sérum et tolvaptan
+ - sinon restriction hydrique et tolvaptan (ou déméclocycline)
+** 266 : Hypercalcémie
+ Diagnostic = double dosage calcémie. Étiologie selon parathormone (PTH)
+
+ Physio : calcémie régulée par PTH et calcitriol
+ - PTH: \inc absorption intestinale du calcium et phosphore, \inc résorption
+   osseuse, \dec réabsorption phoshpore et \inc absorption calcium (rein)
+ - PTH régulée par récepteur sensible au calcium (CaSR)
+  
+ Bio : calcémie totale = {calcium ionisé, calcium lié = {lié à l'albumine,
+ complexé aux anions}}. Calcium ionisé \approx 50% calcium total[fn:endocrino53]
+
+ Clinique : asthénie, {polyuro-polydipsie, lithiases rénales}, {anorexie,
+ constipation, nausées}, {apathie, somnolence, confusion, psychose, coma}, {HTA,
+ \dec QT}
+
+ \danger hyperglycémie maligne = urgence \skull{} avec déshydratation, {confusion,
+ coma, insuf rénale} et risques de troubles du rythme cardiaque, bradycardie avec asystolie
+
+*** Étiologies
+**** Hypercalcémie PTH dépendante (PTH N ou \inc) 
+ - *Hyperparathyroïdie[fn:endocrino70] primaire* (55%) : lésion parathyroïde. 
+   - Signes cliniques précédents avec rénaux, osseux (clinique et radio[fn:endocrino54]) \thus créatinine
+    plasmatique, scénal rénal non injecté
+   - Surtout densité osseuse (tier distal du radius)
+   - Bio : hypercalcémie et PTH non adaptée (N ou \inc). 
+     - \danger corriger déficit vitamine D avant doser calcémie. 
+     - \danger DD : sd hypercalcémie-hypocalciurie familiale,
+       hyperparathormonémie avec ttt au lithium
+     - calcémie et phosphorémie n'ont de sens qu'avec une fonction rénale normale
+     - calciurie : si augmentée, enlève les DD précédents
+   - imagerie : bio primaire mais sert si indication opératoire seulement (écho, scinti)
+   - étiologie :
+     - majorité : sporadique, isolé
+     - NEM1[fn:endocrino55] (1%) : hyperparathyroïdie primaire = 95%. Recherche tumeurs
+       endocrines pancréas et duodenum, adénomes hypophysaires 
+     - NEM2 : cancer médullaire de thyroïde puis phéochromocytome bilat et
+       hyperparathyroïdie primaire avec atteinte multiglandulaire
+     - \danger hyperparathyroïdie primaire chez jeune = suspicion transimission
+       génétiques
+     - hyperparathyroïdie /secondaire/ : adaptation à hypocalcémie (chercher chez
+       insuf rénaux chronqiue)
+     - hyperparathyroïdie /tertaire/ : insuf rénaux chronique
+ - *hypercalcémie-hypocalciurie familiale bénigne* : hypercalcémie,
+   hypophosphorémie, (hypermagnésémie), calciurie \dec\dec{}, PTH inadaptées
+   (N ou \inc)
+ - Lithium
+
+**** hypercalcémie PTH-indépendante
+ - *Hypercalcémie des affections malignes* (30%) : PTH \dec\dec{}. 
+   - Tumeurs : poumon, sein, rein, tractus digestif
+   - Production tumorale de PTHrp (mime PTH)
+ - Autres : 
+   - granulomatose : hyperphosphorémie, PTH \dec
+   - iatrogènes : vitamine D (hypercalcémie, hyperphosphorémie, PTH passe),
+     vitamine A (asthénie sévère, douleurs musc et osseuse, alopécie des
+     sourcils, chéilite fissuraire), diurétiques thiazidique, buveurs de laits
+     (plutôt fortes doses d'antiacide ou carbonate de calcium)
+
+*** Traitement
+ Hypoparathyroïdie primitive : guérison par ablation des adénome(s) par chir
+ conventionnelle ou mini-invasive (faire imagerie avant !)
+
+ Sinon, traitement palliatif : bisphosphonates (inhibe résorption osseuse),
+ calcimimétiques (\dec PTH), 
+
+ \danger Hypercalcémie = urgence \skull{} : 
+ - sérum phy
+ - bisphosphonate en perf lente ou corticothérapide IV (myélome/hémopathie) ou dialyse (maligne)
+** 303 : Tumeurs de l'ovaire (hormono-sécrétante)
+*** Sécrétant des oestrogènes
+ Tumeurs de la granulosa : 
+ - malignes, les plus fréquentes des tumeurs des cordons sexuels et du stroma. 
+ - plutôt femmes [30,50] ans
+ - jeune fille : pseudo-puberté précoce. Femme :
+   aménorrhées/ménométrorragie. Ménopausée : saignement vaginal dû à hyperplasie
+   endométriale[fn:endocrino56] 
+ - ttt : ovariectomie unilatérale mais récidives 10-33%
+
+ Thécomes : 
+ - très rare, surtout péri-/post-ménopause
+ - Tumeurs solides, bénignes \thus exérèse = guérison
+ Sd Peutz-Jeghers (très très rare)
+
+*** Sécrétant des androgènes
+ Tumeurs à cellules de Sertoli-Leydig 
+ - sécrète testostérone
+ - rare. Y penser si hirsutisme récent avec signes de virilisation
+ - DD : corticosurrénalome (faire scanner surrénales), sd Cushing (faire freinage
+   minute), block 21-hydroxylase (doser 17-hydroxyprogestérone)
+ - femme 30-40ans
+ - détecté à l'écho ovarienne vaginale ou IRM pelvienne
+ - si < 5 cm, bon pronostic \thus ttt conservateur chez femme jeune
+
+ Tumeurs à cellules de Leydig
+ - cristaux de Reinke (caractéristique)
+ - typiquement : virilisantes chez ménopausée
+ - petite taille, bénigne \thus ovariectomie bilatérale
+
+ Tumeurs germinales sécrétantes
+ - tumeur ovarienne sécrétant de l'hCG : chez femme jeune, aménorrhée, douleurs
+   abdo/métrorragie. Tttt : conservateur si jeune, chimio si étendu
+ - gonadoblastome : chez sd de Turner avec mosaïque et chromosome Y (risque
+   7-20%) \thus gonadectomie préventive
+ - autres : sécrétant hCG, T4, sérotonine
+
+** 305 Tumeurs du pancréas (endocrine)
+ Rare, concerne pancréas et duodénome. Diagnostic histologique, compléteté par
+ immunohistochimie
+
+ Pronostic péjoratif : > 2 cm, invasion vasculaire, dissémination métastase
+
+ #+caption: Caractéristiques des tumeurs endocrines duodéno-pancréatiques
+ | Sécrétion | Clinique                                                          |
+ |-----------+-------------------------------------------------------------------|
+ | Insuline  | Hypoglycémie organiques                                           |
+ | Gastrine  | Ulcère oestro-gastro-duodénaux, diarrhées                                                 |
+ | ACTH      | Cushing                                                          |
+ | Glucagon  | Diabète, érythème migrateur, diarrhée, amaigrissement, thromboses |
+ | VIP       | Diarrhée hydroélectrolytique profuse, hypokaliémie                |
+ | GHRH      | Acromégalie                                                       |
+
+ Imagerie : scanner spiralé TAP \pm IRM abdo
+
+ Formes familiales : NEM1, neurofibromatose 1, von Hippel-Lindau
+
+** 310 : Tumeurs du testicule (aspects endocriniens)
+
+ Prévalence : 9/100 000, ado/adulte jeune
+
+*** Tumeurs stromales
+ Cellules de Leydig. Unilatérales, bénignes
+ - Garçon < 9 ans : pseudo-puberté précoce \thus testostérone plasmatique, écho
+   testiculaire
+ - Adulte : féminisation, infertilité \thus oestradiol \inc, testostérone N ou \dec
+  
+ Cellules de Sertoli : rares (enfant) ou exceptionnelles
+ (adulte). Féminisation/pseudo-puberté précoce à 50%. Testostérone/oestradial
+ \inc, LH et FSH \dec, inhibine B \inc.[fn:endocrino58]
+
+*** Autres
+ - Tumeurs germinales : fréquentes, écho testiculaire
+   - séminomateuses : fréquentes, pronostic bon
+   - non séminomateuses : pronostic réservé
+ - Inclusion surrénaliennes : par excès ACTSH. Marqueur : 17-hydroxyprogestérone
+
+*** PEC 
+ Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimio si métastases pulmonaires/ganglionnaires.
+
+
+ \printglossaries
+
+** Annexes
+*** Hormones
+
+
+ \begin{figure}[htpb]
+   \centering
+   \resizebox{!}{5cm}{
+     \tikz \graph [decision]
+     {
+       ht/hypothalamus[organ] -> ["CRH"] hh/hypophyse[organ] -> ["ACTH"] cs/corticosurrénale[organ];
+       cs -> cort/cortisol;
+       cort ->[bend left=60, "-"] ht;
+       cs -- ["+"] hh;
+       hh --["+"] ht;
+     };
+   }
+ \resizebox{0.4\linewidth}{!}{
+     \tikz \graph [decision]
+     {
+       ht/hypothalamus[organ] -> ["GnRH"] hh/hypophyse[organ] -> "FSH, LH" -> {
+         testicules[organ] -> test/testosterone;
+         ovaires[organ] -> est/estrogène;
+       };
+       test -> [bend left=70, "-"] ht;
+       test -> [bend left=60, "-"] hh;
+       est -> [bend right=70, "-"] ht;
+     };
+ }
+ \resizebox{!}{5cm}{
+     \tikz \graph [decision, layer distance=1.5cm]
+     {
+       ht/hypothalamus[organ] -> ["TRH"] hh/antéhypophyse[organ]
+       ->["TSH"] th/thyroide[organ] -> "T4, T3";
+       th -> [bend left=60, "-"] hh;
+       th -> [bend left=70, "-"] ht;
+     };
+ }
+ \resizebox{!}{5cm}{
+     \tikz \graph [decision, layer distance=1.5cm]
+     {
+       ht/hypothalamus[organ] -> ["GHRH"] hh/hypophyse[organ] -> Foie[organ] -> "IGF-1" -> {
+         os;
+	 muscle;
+	 graisse..;      
+       }
+     };
+ }
+ \end{figure}
+
+ #+caption: Hormones produite par les surrénales (du moins au plus profond)
+ | Zone de la surrénale    | Hormones                          |
+ |-------------------------+-----------------------------------|
+ | corticale (glomerusa)   | minéralocorticoïdes (aldostérone) |
+ | corticale (fasciculata) | glucocorticoïdes (cortisol)       |
+ | corticale (reticularis) | androgènes                        |
+ | médullaire              | épinephrine, norepinéphrine       |
+
+*** Syndromes génétiques
+ |                  | Klinefelter                  | Turner                     | Kallmann                              |
+ |------------------+------------------------------+----------------------------+---------------------------------------|
+ | Sexe             | \male                        | \female                    | \male{}, \female                      |
+ | Frequence        | 1/500                        | 1/2000 \female             | 1/30 000 \male{}, 1/250 000 \female{} |
+ | Caryotype        | 46 XX,Y                      | genes manquants            |                                       |
+ |                  |                              | sur bras court d'un chr. X |                                       |
+ | Caractéristiques | Hypogonadisme, infertilité   | Petite taille              | Anosmie                               |
+ |                  | gynécomastie                 | Aménorrhée                 | \male : Micropénis, cryptorchidie     |
+ |                  | trouble apprentissage, comm. | Pas de seins ?             | Pas de dev. sexuel secondaire         |
+ |                  |                              |                            |                                       |
+
+
+ \printglossaries
 
 * Maladies infectieuses
 #+BEGIN_EXPORT latex
 \input maladies_infectieuses
 #+END_EXPORT 
 
+* Neurologie (ébauche)
+\input neurologie
 * Pneumologie
 \input pneumologie
-
 
 * Ophtalmo
 ** 1 Sémiologie oculaire
@@ -1343,7 +4654,7 @@
       anti-HBe
    4. hépatite B résolue : Ac anti-HBs
  - 40% de mutation
- - gls:IS = risque de réactivation \skull
+ - Immunosuppresseurs = risque de réactivation \skull
  - CHC possible sans cirrhose \danger
 
 **** Traitement (chronique)
@@ -2535,6 +5846,186 @@
  - cholangiographie percutanée transhépatique [fn:hge38] : si échec CPRE mais risque
    hémopéritoien, bilio-péritoine, angiocholite
 * Footnotes
+
+[fn:endocrino70] La PTH est produite par la parathyroïde...
+
+[fn:endocrino69] Une partie du calcium est lié à l'albumine
+
+[fn:endocrino68] Insuffisance antéhypophysaire complète
+
+[fn:endocrino25] Calcul par les études UKPDS ou SCORE (mais \times{}2-4 pour ce dernier)
+
+[fn:endocrino67] Stimulé par ACTH, rétrocontrole nég. sur ACTH
+
+[fn:endocrino66] Ou dans les valeurs des femmes jeunes
+
+[fn:endocrino19] Prolactine est sécrétée par l'hypophyse
+
+[fn:endocrino65] [T4] n'est à l'équilibre que +5 semaines après modification de T4
+
+[fn:endocrino64] Physiologique = minimal à minuit, donc mesure à minuit. Mesure salivaire possible.
+
+[fn:endocrino63] 1mg de dexaméthasone à minuit. Action de rétrocontrôle négative du
+cortisol donc on vérifie le cortisol plasmatique le lendemain à 8h.
+
+[fn:endocrino62] Atteinte poumon évocatrice, \inc{} ACE, pas de tuberculose, granulome
+non caséeux (histologie)
+
+[fn:endocrino61] Souvent aussi extr supérieure du fémur et vertèbres.
+
+[fn:endocrino60] Efficace si stimulation sexuelle (même chez diabétique)
+
+[fn:endocrino2] Hypothalamus n'arrive pas à libérer la GnRH au bon rythme. 
+
+[fn:endocrino59] Dilatation variqueuse des veines du cordon spermatique 
+
+[fn:endocrino58] Peut appartenir à : complexe Carney, sd Petuz-Jeghers
+
+
+
+[fn:endocrino56] Tumeurs souvent > 10cm, kystique, multiloculaire, unlatérale
+
+[fn:endocrino55] Néoplasie endocirinienne multiple de type 1 
+
+[fn:endocrino54] Ostéite fibrokystique de von Recklinhausen, exceptionnelle.
+
+[fn:endocrino53] Sauf si acidose, hyperprotidémie, \inc phosphore/sulfate sériques 
+
+[fn:endocrino52] Hypoplasie des parathyroïdes et du thymus, dysmorphie faciale, anomalies cardiaques
+
+[fn:endocrino51] Cataracte sous-capsulaire, calcification des noyaux gris centraux 
+
+[fn:endocrino50] Vit C, E, \beta{xcarotène
+
+[fn:endocrino49] Thiamine, riboflavine, niacine, B6
+
+[fn:endocrino48] Pour 1er certificat puis tous les 3 ans puis tous les 5
+  ans jusque 35 ans
+
+[fn:endocrino47] Médecin qualifé pour : alpinisme, armes à feu, mécaniques, aériens, sous-marins, de combat
+avec HS
+
+[fn:endocrino46] 12-24SA
+
+[fn:endocrino45] CI : troubles cognitifs sévères, troubles sévères non stabilisés du
+comportement alimentaire, dépendances à l'alcool / substances psychoactives, pas
+de PEC médicale, pronostic vital mis en jeu, CI à l'anesthésie générale,
+incapacité à faire un suivi médical prolongé
+
+[fn:endocrino44] Obésité abdominale : > 88cm \female, > 102cm \male
+
+[fn:endocrino43] (Pré-)Albumine, IGF-1, ferritine sérique
+
+[fn:endocrino42] Pas en association ! 
+
+[fn:endocrino41] Sensible mais pas interprétable > 60 ans ou patho bronchorespiratoire
+
+[fn:endocrino40] Grosses fibres
+
+[fn:endocrino39] Thrombus bloquant l'aorte abdominale avant bifurcation
+
+[fn:endocrino38] maladie coeliaque, pullulation microbienne, endocrine
+
+[fn:endocrino37] Hyperémie, rougeur, oedème
+
+[fn:endocrino36] Exceptionnellement, douleurs abdominales
+
+[fn:endocrino35] 30-300mg/24h ou 20-200mg/L
+
+[fn:endocrino34] Microalbuminurie, macro quand détectable à la BU 
+
+[fn:endocrino33] \dec de 50% risque de cécité, \dec néovascularisation dans 90%. Danger
+si oedème maculaire, traite seulement l'exsudat
+
+[fn:endocrino32] Risques : saignement entre rétine et vitré, traction sur rétine,
+hypertonie oculaire 
+
+[fn:endocrino31] 50% glucides, 30% lipides, 20% protides. Légumes et féculents pour \inc
+absorption des glucides
+
+
+
+[fn:endocrino29] Hémoglobinopathie, anémie hémolytique, urémie, EPO, saignées
+
+[fn:endocrino28] De temps en temps 3h matin, postprandial
+
+[fn:endocrino27] Latent Autoimmune Diabetes in the Adult
+
+[fn:endocrino26] Dyspnée de Kussmaul, haleine acétonique
+
+
+[fn:endocrino24] S'associe souvent à d'autres insuffisances de l'axe hypothalamo-hypophysaire
+
+[fn:endocrino23] \danger éliminer phéochromocytomes avant biopsie surrénale
+
+[fn:endocrino22] Surrénalectomie bilatére, anticortisolique de synthèse, nécrose hémorragique 
+
+[fn:endocrino1] $\frac{N}{N_e/10}\times 100$ avec N = nb grossesses
+accidentelles, $N_e$ nombres de mois d'exposition
+
+[fn:endocrino3] Séborrhéee, acné, hirsutisme, \inc testostérone
+
+[fn:endocrino4] Transmission mère-fils. Expansion instable des triplets CGG jusqu'à
+l'absence de transcript de FMR1 (Fragile X Mental Retardation 1). \\
+\danger Risque d'IOP pour la pré-mutation seulement \thus dépister chez
+\female + IOP < 40 ans par PCR et Southern Blot
+
+[fn:endocrino5] \danger Testostérone, FSH, LH interprétables [6mois, puberté]
+
+[fn:endocrino6] Percutané, transdermique : limite \inc facteur de coagulation.
+
+[fn:endocrino7] Baisse libido, testostérone totale < 3 ng/mL
+
+[fn:endocrino8] Marathon, danse classique, demi-fond, triathlon, gymnastique, cyclisme
+
+[fn:endocrino9] Oestrogènes, raloxifène, bisphosphonates
+
+[fn:endocrino10] Cinacalcet
+
+[fn:endocrino11] Faire bilan hormonal : natrémie, testostérone totale et libre/ostradiol,
+FSH, LH, T4L, TSH, prolactine
+
+[fn:endocrino12] adénome hypophysaire 90%, méningiome, craniopharyngiome, patho
+inflammatoires infiltratives
+
+[fn:endocrino13] Coefficient de saturation de la transferrine
+
+[fn:endocrino15] -5mmHg si automesure. -10mmHg si MAPA sur 14h
+
+[fn:endocrino16] Antagonistes des récepteurs de l'angiotensine II
+
+[fn:endocrino17] Adénopathie
+
+[fn:endocrino18] Thyroglobuline
+
+[fn:endocrino20] Asthénie, somnolence, hypothermie, frilosité, constipation, bradycardie,
+prise poids modeste
+
+[fn:endocrino21] Clinique discrète : ictère prolongé, constipation, hypotonie, pleurs
+rauques, difficulté succin, fontanelles larges, hypothermie
+
+[fn:endocrino14] Hépatomégali stéatosique, douleurs abdo, xanthomatose éruptive, lipémie rétinienne
+
+[fn:douleur9] R0 = normale, R3 = pauses/apnée
+
+[fn:douleur8] 0 = éveillé, 3 = très somnolent, éveillable par stimulation tactile. 
+
+[fn:douleur7] Y enser si HTA, douleurs abdo, agitation inhabituelle
+ 
+[fn:douleur6] Si 0 selles : bithérapie laxative, lavement rectal, antagoniste
+morphinique périph
+
+[fn:douleur5] Inhibiteurs de la monoamine oxydase
+
+[fn:douleur4] Toutes 4-6h
+
+[fn:douleur3] 1 prise/j, 24h si 2 prises/j
+
+[fn:douleur2] NB : coxibs \dec probabilité de développer un ulcère simple/compliqué
+mais retard circatrisation d'un ulcère gastrique ...
+
+[fn:douleur1] Donc toujours prendre avec de l'eau, debout et sans être à jeun !
+
 
 [fn:ophtalmo1] Plus de voie afférente  \thus gls:RPM direct et consensuel aboli pour l'\oe{}il atteint
 

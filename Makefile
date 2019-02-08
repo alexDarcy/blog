@@ -19,9 +19,7 @@ NOTES_ORG= $(wildcard ${MED}/*.org)
 # Some note are still in latex
 NOTES_TEX= \
 ${MED}/afgsu.tex\
-${MED}/maladies_infectieuses.tex\
 ${MED}/nutrition.tex\
-${MED}/pneumologie.tex\
 ${MED}/neurologie.tex\
 $(NOTES_ORG:.org=.tex)
 
