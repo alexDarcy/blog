@@ -20,7 +20,6 @@ NOTES_ORG= $(wildcard ${MED}/*.org)
 NOTES_TEX= \
 ${MED}/afgsu.tex\
 ${MED}/nutrition.tex\
-${MED}/neurologie.tex\
 $(NOTES_ORG:.org=.tex)
 
 NOTES_PDF=$(NOTES_TEX:.tex=.pdf) 

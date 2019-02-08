@@ -1,16 +1,20 @@
 
 ## Medecine
-Fiches  
-[AFGSU](medecine/afgsu.pdf)  
-[Cardiologie](medecine/cardiologie.pdf)  
-[Douleur](medecine/douleur.pdf)  
-[HGE](medecine/hge.pdf)  
-[Maladies infectieuses](medecine/maladies_infectieuses.pdf)  
-[Neurologie](medecine/neurologie.pdf) (ébauche)   
-[Nutrition](medecine/nutrition.pdf) (ébauche)  
-[Pneumologie](medecine/pneumologie.pdf)  
-[Ophtalmologie](medecine/ophtalmo.pdf)  
-[Superfiche](medecine/superfiche.pdf)
+[Fiches](medecine/externat.pdf) : ce fichier contient
+
+- Cardiologie
+- Douleur (ébauche)
+- Endocrinologie
+- HGE
+- Maladies infectieuses
+- Neurologie
+- Pneumologie
+- Ophtalmologie
+
+Une version suprasynthétique [est ici](medecine/superfiche.pdf)
+
+Autres : [nutrition](medecine/nutrition.pdf) (ébauche)  
+
 
 ## Histoire
 
