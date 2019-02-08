@@ -307,8 +307,30 @@ Diag = IDR/IFN \gamma si primo infection. Sinon bacille de Kock sur prélèvemen
 Ttt : isoniazide (6M), rifampicine (6M), ethambutol (2M), pyranizamide (2M)
 Vaccination !
 ** 180 : Accidents du travail
+Asthme (10-15%), BPCO (10-20%), K (mésothéliome ou bronchique primitif), PID
+(hypersensibilité, silicose, bérylliose, sidérose, asbestose)
+
+Amiante : K ou pleural
+
+Idemnité : assurance maladie ou FIVA
 ** 182 : Hypersensibilités et allergies respiratoires
+Allergie : le plus souvent médiée par IgE. Asthme et rhinite (cf item 184)
+
+Diag = prick test (\diameter \ge 3 mm/témoin)
+
+Ttt : éviction, {antihistaminique (rhinite seulement), corticoïdes[fn:23],
+(adrénaline si choc)}, immunothérapie spécifique
 ** 184 : Asthme, rhinite
+Asthme :
+- suspicion sur clinique : dyspnée, gêne, respi, siflement /variable et versible/
+- diag[fn:24] : (TVO (VEMS/CVF < 0.7) réversible aux BDCA (\ge +200mL et \ge +12%)
+- ttt de fond [fn:25]= corticostéroïdes inhalés (voire anti-leucotriènes, voire cortico
+  oraux) et symptomatique = \beta2-mimétique courte durée
+- \skull{} exacerbation grave : SAMU + \beta_2-mimétique \rightarrow \faHospitalO : \beta_2-mimétique nébulisé, corticoïdes
+  oraux, $O_2$
+Rhinite : 
+- PAREO : Prurit, Anosmie, Rhinorrhée, Éternuement, Obstruction ansale
+- ttt : antihistaminiques/corticoïdes nasaux
 ** 188, 189 : Pathologies auto-immunes
 ** 199 : Dyspnée aigüe et chronique (à compléter)
 Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
@@ -368,6 +390,12 @@ Diagnostic : ETT et cathétérisme cardiaque droit
 ** 356 : Pneumothorax
 
 * Footnotes
+
+[fn:25] Jusqu'au contrôle 
+
+[fn:24] Obstruction des voies aérienne variable
+
+[fn:23] Systémique en cas d'urgence.
 
 [fn:22] Pas d'isolement ! 
 
