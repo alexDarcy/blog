@@ -359,12 +359,19 @@ Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
 | \oe{}dème de Quincke |                                      | OAP (crépitants, expector mousseuse) |
 |                      |                                      |                                      |
 #+caption: Étiologies de dyspnée chroniques
-| Sibilants               | CrépitantsRestrictif    | Auscult normale             |
-|-------------------------+-------------------------+-----------------------------|
-| BPCO                    | PID                     | EP                          |
-| asthme                  | Insuf cardiaque gauche) | Neuromusc                   |
+| Sibilants              | Crépitants              | Auscult normale             |
+|------------------------+-------------------------+-----------------------------|
+| BPCO                   | PID                     | EP                          |
+| asthme                 | Insuf cardiaque gauche) | Neuromusc                   |
 | Insuf cardiaque gauche |                         | Parétiale, hyperventilation |
 ** 200 : Toux chronique
+Diagnostic principaux :rhinorrée chronique, RGO, asthme, tabac, médicaments (IEC)[fn:26], coqueluche
+
+Pas d'orientation (dans l'odre) : test rhinorrée post chronique, EFR (asthme),
+RGO, sinon antitussif[fn:27]/kiné respi
+
+Penser bronchectasies si toux productive quotidienne, hémoptysies RX normale
+\thus diag = TDM , ttt = drainage $\pm$ ATB si exacerbation
 ** 201 : Hémoptysie
 ** 202 : Épanchement pleural
 ** 203 : Opacités et masses thoraciques
@@ -408,6 +415,10 @@ Diagnostic : ETT et cathétérisme cardiaque droit
 ** 356 : Pneumothorax
 
 * Footnotes
+
+[fn:27] Toux sèche, invalidande
+
+[fn:26] Ou ARA II, \beta-bloquants
 
 [fn:25] Jusqu'au contrôle 
 
