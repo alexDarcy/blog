@@ -351,17 +351,19 @@ Cf Table [[tab:auto-immune]]
 ** 199 : Dyspnée aigüe et chronique (à compléter)
 Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
 #+caption: Étiologies de dyspnée aigüe
-| Inspiratoire            | Expiratoire  | Les 2                    |
-|-------------------------+--------------+--------------------------|
-| enfant : corps étranger | asthme, BPCO | OAP (crépitants), EP     |
-| , laryngite, épiglotite |              | pneumopathie infectieuse |
-|                         |              | pleurésie, pneumothorax  |
-|                         |              | tamponnade               |
+| Inspiratoire         | Expiratoire                          | Sinon                                |
+|----------------------+--------------------------------------+--------------------------------------|
+| corps étranger (E)   | asthme (sibilants)                   | EP (ascul. normale)                  |
+| épiglottite (E)      | BPCO (ATCD, sibilants)               | pneumothorax, épanchement pleural    |
+| laryngite (E)        | OAP (crépitants, expector mousseuse) | pneumopathie infectieuse             |
+| \oe{}dème de Quincke |                                      | OAP (crépitants, expector mousseuse) |
+|                      |                                      |                                      |
 #+caption: Étiologies de dyspnée chroniques
-| Obstructif   | Restrictif | Cardio-vasc                |
-|--------------+------------+----------------------------|
-| BPCO, asthme | PID        | HTAP                       |
-|              |            | IC, constriction péricarde |
+| Sibilants               | CrépitantsRestrictif    | Auscult normale             |
+|-------------------------+-------------------------+-----------------------------|
+| BPCO                    | PID                     | EP                          |
+| asthme                  | Insuf cardiaque gauche) | Neuromusc                   |
+| Insuf cardiaque gauche |                         | Parétiale, hyperventilation |
 ** 200 : Toux chronique
 ** 201 : Hémoptysie
 ** 202 : Épanchement pleural

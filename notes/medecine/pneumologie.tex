@@ -672,10 +672,12 @@ Granumolatose éosinophilique avec polyangéite :  hyperéosinophilie, pneumopat
 
 Polyangéite microscopique : sd hémorragique alvéolaire
 
-\section{199 : Dyspnée aigüe et chronique (x2)}
+\section{199 : Dyspnée aigüe et chroniques}
 \label{sec:199_dyspnee_aigue_et_chronique}
+Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
 
-Aigüe = quelques heures/jours
+\subsection{Aigüe}
+= quelques heures/jours
 
 Détresses respi aigüe :
 \begin{itemize}
@@ -694,128 +696,72 @@ Hémodynamique :
 \end{itemize}
 Urgence !!
 
-\begin{figure}[htpb]
-  \centering
-  \resizebox{\linewidth}{!}{
-    \tikz \graph [
-    % Labels at the middle 
-    edge quotes mid,
-    % Needed for multi-lines
-    nodes={align=center},
-    sibling distance=3cm,
-    level distance=2cm,
-    edges={nodes={fill=white}}, 
-    layered layout]
-    {
-      Anomalie respi ? -> 
-      {
-        "Inspiration\\(VAS)" -> {
-          Enfant -> {
-            "\textbf{Corps étranger}";
-            "\textbf{Laryngite}";
-          };
-          Adulte -> {
-            "\textbf{Oedeme de Quincke}\\
-            Terrain allergie";
-          };
-        };
-        "expiration\\(bronches)" -> {
-          "\textbf{Asthme}\\
-          Allergie\\
-          Facteur\\
-          Médic\\
-          Hyposodé";
-          "\textbf{OAP}\\
-          Orthopnée\\
-          Expect. mousseuses\\
-          Médic\\
-          Hyposodé";
-          "\textbf{EBPCO}\\
-          Tabac\\
-          Bronchite aigüe";
-        };
-        non -> {
-          douleur -> {
-            "\textbf{Infectieux}\\
-            Sd infectieux\\
-            Toux\\
-            Expect. purul";
-            "\textbf{Pneumothorax}\\
-            Sd pleural\\
-            Brutal";
-            "\textbf{EP/vasculaire}\\
-            Alitement\\
-            Voyage\\
-            Phlébite";
-          };
-          sans douleur ->  
-          "\textbf{OAP}\\
-          Agé\\
-          Orthopnée\\
-          Expect. mousseuses\\
-          Nocturne\\
-          Crépitants";
-        };
-      };
-    };
-  }
-  \caption{Dyspnée aigüe}
-\end{figure}
-\begin{figure}[htpb]
-  \centering
-  \resizebox{\linewidth}{!}{
-    \tikz \graph [
-    % Labels at the middle 
-    edge quotes mid,
-    % Needed for multi-lines
-    nodes={align=center},
-    sibling distance=3cm,
-    level distance=2cm,
-    edges={nodes={fill=white}}, 
-    layered layout]
-    {
-      Sibilants -> {
-        "\textbf{Asthme}\\
-        Jeune\\
-        Atopie\\
-        Variable\\
-        Nocturne";
-        "\textbf{BPCO}\\
-        Tabac\\
-        Toux, expect.";
-        "\textbf{Insuf cardiaque G}\\
-        ATCD\\
-        Orthopnée\\
-        Toux\\
-        Nocturne";
-      };
-      Crépitants -> {
-        "\textbf{Insuf cardiaque G}\\
-        ATCD\\
-        Orthopnée\\
-        Toux\\
-        Nocturne";
-        "\textbf{PID}\\
-        Toux sèche\\
-        Maladie systémique";
-      };
-      Normal -> {
-        "\textbf{EP/vasc.}\\
-        ATCD\\
-        Phlébite";
-        "\textbf{Neuromusc.}\\
-        Orthopnée\\
-        Respi. paradoxale\\
-        Neuro";
-        "\textbf{Sd hyperventil}\\
-        Non lié effort\\
-        Vertiges\\
-        Paresthésies";
-      };
-    };
-  }
-  \caption{Dyspnée chronique}
-\end{figure}
+Voir table~\ref{tab:dyspnee_aigue}. Autres :
+\begin{itemize}
+\item cardiaque : tamponnade\footnote{orthopnée, tachy, assourdissement bruits,
+  ascult pulmonaire normale, turgescence jugulaire, pouls paradoxal}, troubles
+(supra)-ventriculaire, choc cardiogénique
+\item pulmonaire : SDRA, décompensation aigüe, atélectasies, trauma
+\end{itemize}
+
+\begin{table}[htbp]
+\caption{Étiologies de dyspnée aigüe}
+\label{tab:dyspnee_aigue}
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lll}
+\toprule
+Inspiratoire & Expiratoire & Sinon\\
+\midrule
+corps étranger (enfant) & asthme (jeune, allergie, sibilants) & EP
+                                                                (ascul. normale,
+                                                                douleur
+                                                                thoracique, phlébite)\\
+épiglottite (enfant) & BPCO (tabac, bronchite aigüe, sibilants) & pneumothorax,
+                                                                  épanchement
+                                                                  pleural (sd
+                                                                  pleural,
+                                                                  douleur thoracique)\\
+laryngite (enfant) & OAP (âgée, crépitants, expector mousseuse) & pneumopathie
+                                                                  infectieuse
+                                                                  (sd
+                                                                  infectieux,
+                                                                  douleur thoracique)\\
+\oe{}dème de Quincke (terrain)&  & OAP (âgé, orthopnée, crépitants, expector mousseuse)\\
+ &  & \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\subsection{Chronique}
+cf table~\ref{tab:dyspnee_chronique}.
+Autres :
+\begin{itemize}
+\item Cardiaque:constriction péricardique
+\item Pulmonaire : (restrictif) pneumoconioses, post-tuberculose, paralysie phrénique, cyphoscoliose, obésité morbide
+\item HTAP
+\item HT pulmonaire post-embolique
+\end{itemize}
+
+\begin{table}[htbp]
+\caption{Étiologies de dyspnée chroniques}
+\label{tab:dyspnee_chronique}
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lll}
+\toprule
+Sibilants & Crépitants & Auscult normale\\
+\midrule
+BPCO& PID (toux sèche, maladie systémique) & EP/maladie vasculaire pulmonaire \\
+asthme& Insuf cardiaque gauche & Neuromusc \tablefootnote{signe neuro, orthopnée, respi abbdo paradoxale} \\
+Insuf cardiaque gauche (ATCD cardiaque, orthopnée, toux) &  & Parétiale
+                                                              (obésité, scoliose)\\
+          && Hyperventilation\tablefootnote{C normal, vertige, $\ne$ effort, paresthésie}\\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
 Quantification : échelle Borg [0-10] (aigüe) ou MRC [0-4] (chronique)
 \section{200 - Toux chronique}
 \label{sec:200_toux_chronique}
@@ -2516,3 +2462,8 @@ plèvre), pression transpulmonaire = $P_{ip} - P_{alv}$.
 
 \end{figure}
 
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
