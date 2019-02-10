@@ -348,7 +348,7 @@ Cf Table [[tab:auto-immune]]
 | Granulomatose éosinophile avec polyangéite | Asthme, pneumopathie à éosinophiles                                           |
 | Polyangéite microscopique                  | Sd hémorragique alvéolaire                                                    |
 
-** 199 : Dyspnée aigüe et chronique (à compléter)
+** 199 : Dyspnée aigüe et chronique 
 Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
 #+caption: Étiologies de dyspnée aigüe
 | Inspiratoire         | Expiratoire                          | Sinon                                |
@@ -373,7 +373,25 @@ RGO, sinon antitussif[fn:27]/kiné respi
 Penser bronchectasies si toux productive quotidienne, hémoptysies RX normale
 \thus diag = TDM , ttt = drainage $\pm$ ATB si exacerbation
 ** 201 : Hémoptysie
+Étiologies : tumeurs bronchopulomaires, bronchectasies, tuberculose,
+idiopathique, (EP, ICG)
+
+PEC : confirmer hémoptysie, angio-scanner (ou RX thorax)
+
+Ttt 1ere intention : \faHospitalO : $O_2$, terlipressine, protection voie aériennes[fn:28]
 ** 202 : Épanchement pleural
+Clinique : douleur toracique, toux sèche + sd pleural[fn:29] 
+
+RX (opacité dense, homogène, concave) et ponction (sauf ICG) !
+| Transsudat                               | Exsudat                                           |
+| (prot < 25g/L, liquide clair: mécanique) | (prot > 35g/L, aspect variable : inflammatoire, ) |
+|------------------------------------------+---------------------------------------------------|
+| /ICG/                                    | /Tumorale/ : K bronchique, mésothéliome pleural   |
+| cirrhose                                 | /Tuberculose/                                     |
+| sd néphrotique                           | bactérienne, virale                               |
+|                                          | EP                                                |
+Si abondant/purulent/à germe : ttt anti-infectieux + évacuation du luqide
+pleural 
 ** 203 : Opacités et masses thoraciques
 ** 204 : Insuffisance respiratoire chronique
 ** 205 : BPCO
@@ -415,6 +433,10 @@ Diagnostic : ETT et cathétérisme cardiaque droit
 ** 356 : Pneumothorax
 
 * Footnotes
+
+[fn:29] Silence auscult, matité, 0 transmission cordes vocales, souffle pleurétique
+
+[fn:28] Risque = asphyxie
 
 [fn:27] Toux sèche, invalidande
 
