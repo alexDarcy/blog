@@ -3391,7 +3391,7 @@ Neuropsy :
 
  \printglossaries
 
-* Maladies infectieuses                                              :export:
+* Maladies infectieuses                                             p
 #+BEGIN_EXPORT latex
 \input maladies_infectieuses
 #+END_EXPORT 

@@ -465,7 +465,7 @@ Complémentaire : ECG, RX thorax, EFR, gaz du sang normaux
 
 Diagnostic : ETT et cathétérisme cardiaque droit
 
-** 224 : Thrombose veineuse profonde et embolie pulmonaire (à compléter)
+** 224 : Thrombose veineuse profonde et embolie pulmonaire 
 *** TVP 
     Probabilité : score de Wells (unilatéral : OMI, douleur trajet veineux...)
 
@@ -488,8 +488,34 @@ Diagnostic : ETT et cathétérisme cardiaque droit
     - thrombolyse si EP grave
     - contention si TVP ou EP + TVP
 ** 228 : Douleur thoracique aigüe et chronique
+Examens : ECG, $SpO_2$, RX thorax
+
+1. Urgences vitales : SCA++, EP, tamponnade, dissection aortique, pneumothorax oppressif
+2. Sinon : 
+   - rythmée par la respiration : pneumothorax, infectieuses, péricardite,
+     pariétales, EP, trachéobronchites
+   - non rythmée par la respiration : SCA, dissection aortique, RGO++, psychogène
+Chronique : paroi thoracique, plèvre
 ** 306 : Tumeurs du poumon
+K bronchique : 1ere cause de DC par K en France (17% survie 5 ans). Cause = tabac !
+
+Y penser si SF respi chez tabagique > 40 ans, AEG chez tabagique. Toux souvent révélatrice
+
+2 types :
+- non à petites cellules (80%) : chir/radio/chimio
+- à petite cellule (15%) : mauvais pronostic, chimio \pm radio (pas de chir)
+  
+Diagnostique = histologique (fibroscopie). Extension = TDM
 ** 333 : Oedème de Quincke et anaphylaxie
+Réaction anaphylactique médiée par IgE ou non
+Diag = clinique + contexte. Toujours doser tryptase sérique
+- fortement probable : gêne respi "haute" ou asthme aigü ou choc impliquant PV,
+  {rash, urticaire, angioedème}, début brutal et progression rapide
+\skull Urgence (atteinte multiviscérale menaçant la vie) : adrénaline _IM_
+0.01mg/kg toutes 5min, arrêt agent, allongé/PLS 
+
+Sinon : antihistaminique + corticoïdes
+
 ** 354 : Corps étranger des voies aériennes
 ** 354 : Détresse respiratoire aigüe
 ** 356 : Pneumothorax
