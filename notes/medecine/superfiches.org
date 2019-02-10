@@ -390,7 +390,7 @@ RX (opacité dense, homogène, concave) et ponction (sauf ICG) !
 | cirrhose                                 | /Tuberculose/                                     |
 | sd néphrotique                           | bactérienne, virale                               |
 |                                          | EP                                                |
-Si abondant/purulent/à germe : ttt anti-infectieux + évacuation du luqide
+Si abondant/purulent/à germe : ttt anti-infectieux + évacuation du liquide
 pleural 
 ** 203 : Opacités et masses thoraciques : tab. [[tab:masses_thorax]]
 #+name: tab:masses_thorax
@@ -417,7 +417,30 @@ Table [[tab:etio_IRC]]
 TTT : arrêt tabac, $O_2$ longue durée (si /obstructif et PaO_2 < 55 mmHG ou
    restrictif et < 60mmHg/) ou ventilation long cours (restrictif)
 ** 205 : BPCO
+
+Clinique : tabac++, dyspnée, toux, expectoration \pm distension thoracique 
+
+Diag = VEMS/CV < 0.70 /non réversible/
+
+Ttt : 
+- broncho-dilatateur courte durée/longue durée si exacerbation. + corticoïdes
+  inhalés si besoin. 
+- Arrêt tabac, kiné respi, vaccins grippe, pneumocoque
+  
+Exacerbation BPCO : déclenché par infection
+- diag : BPCO connu, \inc dyspnée, toux ou expectoration
+- ttt : bronchodilatateur courte durée (nébulisé) + amox-acide clav [fn:31]si
+  aggravation/\inc purulence
 ** 206 : Pneumopathies infiltrantes diffuses
+Clinique : dyspnée d'effort (apparition progressive)
+   Orientation = scanner thoracique++
+
+PID aigüe : éliminer \oe{}dème cardiognéqiue puis LBA. Si fièvre ATB
+probab. (pneumocoque \pm pneumocystose, tuberculose)
+
+PID subaigüe/chronique : 
+- interrogatoire, LBA (fibro), scanner thoracique 1ere intention
+- sarcoïdose , insuf cardiaque gauche , médicaments , fibrose pulmonaire idiopathique lymphangite carcinomateuse
 ** 207 : Sarcoidose
 ** 222 : HTA pulmonaire artérielle (à compléter)
 HTAP = PAP moyenne \ge 25mmHg et PAPO \le 15mmHg (pré-capillaire)
@@ -455,6 +478,8 @@ Diagnostic : ETT et cathétérisme cardiaque droit
 ** 356 : Pneumothorax
 
 * Footnotes
+
+[fn:31] Ou macrolides, pristinamycine
 
 [fn:30] spiculés, polylobé, irrégulier 
 
