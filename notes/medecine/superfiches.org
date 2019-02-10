@@ -517,8 +517,36 @@ Diag = clinique + contexte. Toujours doser tryptase sérique
 Sinon : antihistaminique + corticoïdes
 
 ** 354 : Corps étranger des voies aériennes
+Pics : enfant, âgé
+
+Y penser si symptôme respiratoire chronique/récidivant dans même territoire
+
+Clinique : mobile (sd pénétration, suffocation), expulsé (pétéchies), enclavement
+
+CAT : Toux/Heimlich/réa. Extraction bronchoscopie/centré spé (enfant)
 ** 354 : Détresse respiratoire aigüe
+PEC : $O_2$, VNI/VI et investigation
+
+Diagnostic 
+- RX thorax anormale : urgence = pneumonie infectieuse, \oe{}dème pulmonaire
+  aigu, pneumothorax. Puis SDR, exacerbation path. infiltrative
+- Sinon clinique + gaz du sang : asthme aigü grave, EP, BPCO, anomalie paroi,
+  neuromusc, pneumothorax
+
+SDRA : détresse respi < 7j + anomalie RX (opacités alvéolaire bilat diffuse)
+sans défaillance cardiaque
 ** 356 : Pneumothorax
+Primaire (jeune, longiligne, 0 patho, fumeur) VS secondaire (âgé, patho connue)
+
+Clinique : douleur pleurale (\inc inspiration et otux)
+
+Diag = RX face.
+
+Ttt : sevrage tabac
+- urgence si compressif (aiguille simple). 
+- Sinon (mal toléré/grande taille) : exsufflation ou drain.
+
+Prévention récidive : pleurodèse 
 
 * Footnotes
 

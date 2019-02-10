@@ -111,10 +111,7 @@
 #+OPTIONS: H:4
 
 
-* Cardiologie                                                             :export:
-\input{bacteries-header}
-\input cardiologie
-
+* Cardiologie                                                             
 * Douleur (ébauche)
 ** Divers 
 - Douleurs par excès de nociception : anti-inflammatoires, opioïdes en pratique
@@ -3391,14 +3388,14 @@ Neuropsy :
 
  \printglossaries
 
-* Maladies infectieuses                                             p
+* Maladies infectieuses                                             
 #+BEGIN_EXPORT latex
 \input maladies_infectieuses
 #+END_EXPORT 
 
 * Neurologie (ébauche)
 \input neurologie
-* Pneumologie                                                        :export:
+* Pneumologie                                                        
 \input pneumologie
 
 * Ophtalmo
