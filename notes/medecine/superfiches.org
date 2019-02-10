@@ -465,15 +465,12 @@ Complémentaire : ECG, RX thorax, EFR, gaz du sang normaux
 
 Diagnostic : ETT et cathétérisme cardiaque droit
 
-
 ** 224 : Thrombose veineuse profonde et embolie pulmonaire (à compléter)
 *** TVP 
     Probabilité : score de Wells (unilatéral : OMI, douleur trajet veineux...)
 
     Diagnostic : (D-dimère si proba faible puis) Écho-doppler veineux MI
    
-    Ttt : HPMC curatif, relais AVK J1, contention, lever
-
     Étiologies : congénitale ("thrombophilie") ou acquise (K, alitement,
     contraception, chir...)
     
@@ -484,8 +481,12 @@ Diagnostic : ETT et cathétérisme cardiaque droit
     Diagnostic : (D-dimère si proba faible puis) scanner (ETT en attendant). Si
     scanner toujours non disponible et patient à haut risque, traiter !
 
-    Ttt : thrombolyse si EP grave. HBPM/fondaparinux/nv anticoag avec relais AVK
-    précoce \ge 3 mois (EP)
+*** Ttt (TVP + EP)
+    Ttt : 
+    - HBPM/fondaparinux + relais AVK ou nv anticoag 3 mois (1ere EP, TVP
+      proximale provoquée) ou 6 mois
+    - thrombolyse si EP grave
+    - contention si TVP ou EP + TVP
 ** 228 : Douleur thoracique aigüe et chronique
 ** 306 : Tumeurs du poumon
 ** 333 : Oedème de Quincke et anaphylaxie

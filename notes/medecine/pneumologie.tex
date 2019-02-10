@@ -1705,6 +1705,20 @@ Scanner (parenchyme), écho hépatiques (shunt porto-cave)
 \gls{MTEV} = \{\gls{EP}, \gls{TVP}\}
 
 Maladie fréquente (1 cas /10 000 si < 40 ans, 1/100 si > 75 ans) et grave.
+3eme cause de DC en france.
+
+TVP : obstruction thrombotique d'un tronc veineux profond. EP : idem mais
+artères pulmonaires ou leurs branches (secondaires TVP à 70\%)
+
+\paragraph{Physiopatho} stase veineuse, lésions pariétales, anomalies de l'hémostase \thus
+obstruction/lyse. Si migre dans les artères pulmonaires : symptômes si
+obstruction à 30-50\% \thus anomalie hémodynamique \thus insuf respi
+
+\paragraph{Évolution}
+TVP distales asymptomatique (postop) : 20\% deviennent proximales\\
+TVP distales symptomatique : récidive (9\% si ttt anticoagulant)\\
+TVP proximal symptomatique : risque important !\\
+EP : TVP + 3/7 jours, mortelle dans l'heure à 10\%
 
 Facteurs de risque :
 \begin{itemize}
@@ -1729,6 +1743,16 @@ Conséquence :
 \end{itemize}
 
 \subsection{Diagnostic de l'embolie pulmonaire}
+
+\paragraph{Clinique} pas spécifique : dyspnée, douleur thoracique, syncope,
+crachats hémoptoïques, asymptomatique
+
+Radio thoracique, ECG : élimine les DD
+
+Gaz du sang : hypoxie-hypocapnie
+
+\thus score probablitié (Genève, Wells)
+
 \begin{figure}[htpb]
   \centering
   \resizebox{0.3\linewidth}{!}{
@@ -1758,14 +1782,6 @@ Conséquence :
 \end{figure}
 
 
-\paragraph{Suspicion}
-Clinique : douleur thoracique (type pleurale) ou dyspnée isolée (ascult.
-normale !) ou état de choc
-
-Radio thoracique, ECG : élimine les DD
-
-Probabilité clinique : important, suivant des scores (Wells, Genève)
-
 \paragraph{Examens}
 Voir la figure~\ref{fig:ep-diag} avec \texttt{examen} = angioscanner.
 
@@ -1775,26 +1791,81 @@ CI à l'angioscan : insuf. rénale sévère (< 30ml/min) $\implies$ scintigraphi
 
 Si angioscan ou scintigraphie négatif : pas d'EP !
 
-\danger{} si EP grave (état de choc) : angioscan immédiatement ou échographie
-cardiaque en attendant. Traitement après écho si pas d'accès à l'angioscan
-\skull\\
+\begin{tcolorbox}
+\danger{} si EP grave (état de choc) : angioscan immédiatement ou ETT en
+attendant.
+
+\skull{} Thrombolyse/embolectomie après écho si pas d'accès à l'angioscan
+\end{tcolorbox}
+
 Sur l'écho, chercher dilatation cavité D, HTP, septum paradoxal
 
 \textit{Si grossesse}  : D-dimères $\implies$ écho. veineuse $\implies$ angioscanner
 (prévenir le pédiatre \skull)
 
+\paragraph{Évolution} favorable. Complications : choc cardiogénique réfractaire
+(DC), rédicive, HTAP chronique post-embolique (rare mais grave)
+
 \subsection{Diagnostic de TVP}
+\paragraph{Clinique} = orientation\\
+Douleur du MI, oedème unilatéral, signes inflammatoires, dilatation veines
+superficielles ou asymptomatique
+
+\textit{DD}  : \{traumatisme, claquage musc\}, kyste synovial, \{SPT, insuf veineuse
+primaire\}, \{sciatique, compression extrinsèque\}, \{érysipèle, lymphangite,
+cellulite\}, lymphoedeme, insuf cardiaque droite/rénale/hépatique
+
+Score de probablitié clinique : Wells (faible/interm/forte)
+
+\paragraph{Diagnostic}
 Voir la figure~\ref{fig:ep-diag} avec \texttt{examen} = échographie veineuse
 des MI
 
-\subsection{Traitement}
+\paragraph{Étiologies}
+\begin{itemize}
+  \item FR transitoire (chir, fracture < 3 mois, immobilisation > 3 j) ? Sinon, "non
+provoquée"
+\item Recherche de thrombophilie si
+  \begin{itemize}
+  \item 1er épisode :  (non provoqué < 60 ans) ou (femme âge procrééer)
+  \item ou récidive : (MTEV proximale) ou (TVP distale non provoquée)
+  \end{itemize}
+  \thus 1ere intention : \gls{AT}, prot. C et S, mutation G20210A,
+  homocysténiméie, Ac antiphospholipides
+\item Recherche cancer : > 40 ans ou bilan thrombophilie négatif
+\end{itemize}
+
+Formes particulières :
+\begin{itemize}
+  \item thromboses veineuse superficielles : (sur trajet saphène, douloureux,
+    rouge, inflammatoire, cordon induré \thus écho-doppler
+  \item TVP pelvienne
+  \item thrombose veine cave inférieure
+  \item phlébite bleue : très rare mais grave
+\end{itemize}
+
+Si grossesse : bilan thrombophilie si ATCD familaux/personnels MTEV
+
+Si cancer : HBPM long cours
+
+\paragraph{Évolution} : favorable si bien conduit mais récidive toujours
+possible. Complications : 
+\begin{itemize}
+  \item SPT : lourdeur de jambes, oedeme de cheville, dilat veineuses
+    superficielles, troubles trophiques sans ulcère, ulcères sus-malléolaires
+  \item EP
+\end{itemize}
+
+
+
+\subsection{Traitement (TVP + EP)}
 \paragraph{Principes}
 Urgence \skull $\implies$ anticoagulant
 
 CI : coagulopathie sévère, hémorragie intracrânienne spontanée, hémorragie
 active difficilement contrôlable, chir récente, (thrombopénie à l'héparine)
 
-q\paragraph{Types de traitement}\mbox{}\\
+\paragraph{Types de traitement}\mbox{}\\
 Option 1 : Héparines + relais AVK dès injection IV
 \begin{itemize}
 \item HBPM, fondaparinux > HNF, sauf si IR sévère (< 30ml/min)
@@ -1823,7 +1894,7 @@ Autres :
 Score sPESI = \texttt{90 100 110 C C}\footnote{sat < 90\%, PAS < 100 mmHg, FC >
 110/min, Cancer, insuf Cardiaque chronique}:
 
-Risque faible (sPESI = 0) : \faHospitalO{} < 48h, anticoagulation\\
+Risque faible (sPESI = 0) : \faHospitalO{} courte < 48h, anticoagulation\\
 Risque intermédiaire (sPESI > 0)
 \begin{itemize}
 \item dysfonction VD ou élévation biomarqueurs\footnote{BNP, NT-pro-BNP,
@@ -1854,7 +1925,7 @@ hémorragique élevée. 6 mois ou plus sinon
 Chercher cancer occulte dans tous les cas (clinique, radio poumon, NFS VS,
 dépistage globux)
 
-Bilan coga : {antithrombine, prot C, S}, mutation {Leiden, prothrombine}, sd
+Bilan coag : {antithrombine, prot C, S}, mutation {Leiden, prothrombine}, sd
 antiphospholipides
 
 \paragraph{Prophylaxie}
@@ -1865,6 +1936,27 @@ antiphospholipides
 
 \end{itemize}
 
+\paragraph{Cas particuliers}
+\begin{itemize}
+  \item 
+TVP distale : symptomatique : anticoagulement 6 semaines seulement si premier épisode. Dans tous les cas,
+compression $\ge 2$ ans
+\item \gls{TVS} : \textbf{pas} d'AINS, antiocoagulants en curatif, chirurgie
+\item cancer : HBPM, arrêt si plaquettes < 50g/L
+\end{itemize}
+Prévention : 
+\begin{itemize}
+  \item risque modéré : HBPM/HNF/fondaparinux, compression
+  \item risque élevé : idem sans HNF
+\end{itemize}
+
+Nouveau anticoagulant oraux (rivaroxaban) :
+\begin{itemize}
+  \item prévention chir hanche-genou
+  \item curatif TVP, EP
+  \item pas si insuf rénale sévère ou insuf hépatique
+  \item pas de surveillance bio
+\end{itemize}
 
 \section{228 - Douleur thoracique aigüe et chronique}%
 \label{sec:228_douleur_thoracique_aigue_et_chronique}
