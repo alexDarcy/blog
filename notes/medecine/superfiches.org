@@ -442,14 +442,30 @@ PID subaigüe/chronique :
 - interrogatoire, LBA (fibro), scanner thoracique 1ere intention
 - sarcoïdose , insuf cardiaque gauche , médicaments , fibrose pulmonaire idiopathique lymphangite carcinomateuse
 ** 207 : Sarcoidose
-** 222 : HTA pulmonaire artérielle (à compléter)
-HTAP = PAP moyenne \ge 25mmHg et PAPO \le 15mmHg (pré-capillaire)
+Manifestations: 
+- respi : RX thorax 4 stades[fn:32]
+- oculaire (uvéite), peau (sarcoïdes), ADNP (superficielles), foie (cholestase non ictérique)
+ 
+Diag : clinique + histologie (sans granulomes sans nécrose caséuse) + élimination
+autres granumolatose (ou sd Löfgren typique[fn:33])
 
-Clinique : dyspnée avec EC normal
+Pronostic favorable 80%
+
+Ttt : corticoïdes > 1 an 
+** 222 : HTA pulmonaire artérielle
+Classification : HTAP, HTP cardiopathies gauches (/post-capillaire/), HTP respiratoires chroniques, HTP
+post-embolique chroniques, HTP multi-factorielle
+
+HTAP = PAP moyenne \ge 25mmHg (=HTP) et PAPO \le 15mmHg
+(pré-capillaire). Pronostic sombre
+
+Clinique : dyspnée à l'effort
 
 Complémentaire : ECG, RX thorax, EFR, gaz du sang normaux
 
 Diagnostic : ETT et cathétérisme cardiaque droit
+
+
 ** 224 : Thrombose veineuse profonde et embolie pulmonaire (à compléter)
 *** TVP 
     Probabilité : score de Wells (unilatéral : OMI, douleur trajet veineux...)
@@ -478,6 +494,11 @@ Diagnostic : ETT et cathétérisme cardiaque droit
 ** 356 : Pneumothorax
 
 * Footnotes
+
+[fn:33] Fièvre, arthalgie, érythmèe noueux MI, ADP médiastinale 
+
+[fn:32] I = ADP médiastin brchoniques hilaires bilat, symétriques non
+compressives. II = idem + parenchyme. III = parenchyme seulement. IV = fibrose
 
 [fn:31] Ou macrolides, pristinamycine
 
