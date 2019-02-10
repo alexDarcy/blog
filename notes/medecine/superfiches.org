@@ -392,8 +392,30 @@ RX (opacité dense, homogène, concave) et ponction (sauf ICG) !
 |                                          | EP                                                |
 Si abondant/purulent/à germe : ttt anti-infectieux + évacuation du luqide
 pleural 
-** 203 : Opacités et masses thoraciques
+** 203 : Opacités et masses thoraciques : tab. [[tab:masses_thorax]]
+#+name: tab:masses_thorax
+#+caption: Opacités et masses thoraciques
+| Nodules (\diameter < 3 cm)                                                   | Masses (\diameter > 3cm) médiastinales              |
+|------------------------------------------------------------------------------+-----------------------------------------------------|
+| - malin si terrain, > 1cm, morphologie[fn:30], fixe TEP, \inc récente taille | - antérieur : goître, K thyroïdes, lymome, lymphome |
+| - chez 1 gros fumeur sur 2 et cancéreux 1 sur 10                             | - moyen : lymphome                                  |
+| - scanner, TEP-FDG. Diag = ponction transpariétale                           | - postérieur : neurogène                            |
+| - malignes : métastates (pulmonaires), primitif (bronchopulmonaire)          |                                                     |
 ** 204 : Insuffisance respiratoire chronique
+   Clinique : dyspnée, hypoxémie (PaO_2 < 70mmHg)
+
+Examens : EFR, RX thorax, écho cardiaque
+Table [[tab:etio_IRC]]
+  
+#+name: tab:etio_IRC 
+#+caption: Étiologies IRC 
+| Obstructive | Restrictive | Mixte         | Non |
+|-------------+-------------+---------------+-----|
+| BPCO        | PID         | DDB           | HTP |
+| asthme      | Obésité     | Mucoviscidose |     |
+
+TTT : arrêt tabac, $O_2$ longue durée (si /obstructif et PaO_2 < 55 mmHG ou
+   restrictif et < 60mmHg/) ou ventilation long cours (restrictif)
 ** 205 : BPCO
 ** 206 : Pneumopathies infiltrantes diffuses
 ** 207 : Sarcoidose
@@ -433,6 +455,8 @@ Diagnostic : ETT et cathétérisme cardiaque droit
 ** 356 : Pneumothorax
 
 * Footnotes
+
+[fn:30] spiculés, polylobé, irrégulier 
 
 [fn:29] Silence auscult, matité, 0 transmission cordes vocales, souffle pleurétique
 
