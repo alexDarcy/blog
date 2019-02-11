@@ -441,7 +441,7 @@ probab. (pneumocoque \pm pneumocystose, tuberculose)
 PID subaigüe/chronique : 
 - interrogatoire, LBA (fibro), scanner thoracique 1ere intention
 - sarcoïdose , insuf cardiaque gauche , médicaments , fibrose pulmonaire idiopathique lymphangite carcinomateuse
-** 207 : Sarcoidose
+** 207 : Sarcoïdose
 Manifestations: 
 - respi : RX thorax 4 stades[fn:32]
 - oculaire (uvéite), peau (sarcoïdes), ADNP (superficielles), foie (cholestase non ictérique)
@@ -641,7 +641,24 @@ Ttt
 - hypogonadisme confirmé : androgènes (CI nodule prostatique, PSA > 3ng/mL)
 - 1ere intention : inhibiteurs phosphodiéstérase type 5 (Viagra) + stimulation
 ** 124 : Ostéopathies
-** 207 : Sarcoidose
+Ostéoporose secondaires de \female{} : endocrino++ (Table
+[[tab:osteoporose]]). \male{} : y penser si hypogonadisem, hypercortisolisme
+#+name: tab:osteoporose
+#+caption: Causes endocriniennes d'ostéoporose chez \female
+| Cause                         | Sous-cause                | Ttt                                                  |
+|-------------------------------+---------------------------+------------------------------------------------------|
+| Hypogonadisme                 | Anorexie mentale          | Pilule \oe{}stroprogestative                         |
+|                               | Activité physique intense | Si aménorrhée, \dec activité ou \oe{}stroprogestatif |
+|                               | Patho. hypophysaire       | \OE{}Strogènes                                       |
+|                               | Iatrogène                 | Bisphosphonates                                      |
+|                               | Sd Turner                 | \OE{}Strogène + GH ou (adulte) \oe{}stroprogestatif  |
+| Hyperthyroïdie                |                           | Surveillance (ttt supressif) \pm bisphosphonate      |
+| Hypercortisolisme/corticoïdes |                           | Vitaminocalcique, bisphosphonates                    |
+
+** 207 : Sarcoidose 
+Penser à sarcoïdose hypothalamo-hypophysaire si diabète insipide.
+Diag = défici endocrinien + infiltration HH à l'imagerie si sarcoïdose
+connue. Sinon arguments de sarcoïdose (cf [[207 : Sarcoïdose][item de pneumo]])
 ** 215 : Hémochromatose
 ** 219, 220 :  Facteurs de risque CV, dyslipidémies
 ** 221 : HTA, causes endocriniennes

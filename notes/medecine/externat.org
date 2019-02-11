@@ -1043,7 +1043,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
 
 ** 124 : Ostéopathies
  Ostéoporose : fragilité excessive du squelette (\dec minéraux osseux, modif
- microarchitecture). T-score < -2.5 DS valeur moyenne par DXA
+ microarchitecture). T-score < -2.5 DS de la valeur moyenne par DXA
 
  Dominance \female. Primaire ou secondaire :
  - endocrino : hypogonadisme, sd Cushing, hyperthyroïdie, hyperparathyroïdie, diabète
