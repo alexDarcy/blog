@@ -549,7 +549,7 @@ Ttt : sevrage tabac
 Prévention récidive : pleurodèse 
 
 * Endocrinologie - Nutrition
-** 35 : Contraception
+** 35 : Contraception (gynéco)
    |            | \oe{}stroprogestatif                        | Micro/macroprogestatifs     |
    |------------+---------------------------------------------+-----------------------------|
    |            | 1ère intention (Minidril), le plus efficace | 2eme intention              |
@@ -558,13 +558,26 @@ Prévention récidive : pleurodèse
    | Surveiller | chostérole, TG, glycémie                    | spotting                    |
 
 Urgence : lévonorgestrel < 72h
-** 37 : Stérilité du couple
+** 37 : Stérilité du couple (gynéco)
 Infertilité : 0 conception à 1 an. Stérilité = définitif
 
 - \female : anovulation (courbe de température), bilan hormonal, écho ovarienne, hystérographie. 
 - \male : volume testiculaire, testostérone, spermogramme. Hormonal si oligo/azoospermie
 
 ** 40 : Aménorrhée
+Primaire
+- pas dév. pubertaire :
+  - FSH, LH \dec : tumeur H-H, sd de Kallmann
+  - FSH, LH \inc : sd de Turner (45X)
+  - retard pubertaire simple (diag élimination)
+- examen gynéco + écho : hyperplasie congénitale des surrénales, anomalie
+  utéro-vaginale, anomalie sensibilité androne
+Secondaire :
+1. hCG pour éliminer grossesse
+2. prolactine \inc : médicaments, IRM H-H (adénome prolactine, tumeur/infiltration)
+3. LH \inc : écho ovaires (sd ovaires polykystiques) 
+4. estradiol, LH, FSH \dec (déficit gonadotrope) : tumeur/infiltration H-H(IRM) ou nutrition
+5. \inc testostérone (insuffisance ovarienne) : scanner surrénales, écho ovarienne
 ** 47 : Puberté
 ** 48 : Cryptorchidie
 ** 51 : Retard de croissance

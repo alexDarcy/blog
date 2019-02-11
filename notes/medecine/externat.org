@@ -544,7 +544,7 @@ Neuropsy :
  \begin{tabular}{llllll}
  \toprule
  hCG & prolactine \inc & FSH \inc & estradiol& testostérone \inc & sinon\\
- & & & LH, FSH àdec & & \\
+ & & & LH, FSH \dec & & \\
  \midrule
  grossesse & médicaments & \acrshort{IOP} & tumeur H-H & tumeur surrénales & \gls{SOPK}\\
   & adénome à prolactine &  & nutrition & tumeur ovarienne sécrét. & \\
