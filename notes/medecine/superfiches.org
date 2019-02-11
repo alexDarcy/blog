@@ -548,6 +548,52 @@ Ttt : sevrage tabac
 
 Prévention récidive : pleurodèse 
 
+* Endocrinologie - Nutrition
+** 35 : Contraception
+   |            | \oe{}stroprogestatif                        | Micro/macroprogestatifs     |
+   |------------+---------------------------------------------+-----------------------------|
+   |            | 1ère intention (Minidril), le plus efficace | 2eme intention              |
+   | CI         | K sein, HTA non contrôlée, thrombose        | K sein, accident TEV récent |
+   |            | hépatopathie sévère, diabète                |                             |
+   | Surveiller | chostérole, TG, glycémie                    | spotting                    |
+
+Urgence : lévonorgestrel < 72h
+** 37 : Stérilité du couple
+Infertilité : 0 conception à 1 an. Stérilité = définitif
+
+- \female : anovulation (courbe de température), bilan hormonal, écho ovarienne, hystérographie. 
+- \male : volume testiculaire, testostérone, spermogramme. Hormonal si oligo/azoospermie
+
+** 40 : Aménorrhée
+** 47 : Puberté
+** 48 : Cryptorchidie
+** 51 : Retard de croissance
+** 78 : Dopage
+** 120 : Ménopause et andropause
+** 122 : Troubles de l'érection 
+** 124 : Ostéopathies
+** 207 : Sarcoidose
+** 215 : Hémochromatose
+** 219, 220 :  Facteurs de risque CV, dyslipidémies
+** 221 : HTA, causes endocriniennes
+** 238 : Hypoglycémie
+** 239 : Goitre, nodules thyroïdiens, cancers thyroïdiens
+** 240 : Hyperthyroïdie
+** 241 : Hypothyroïdie
+** 242 : Adénome hypophysaire
+** 243 : Insuffisance surrénale
+** 244 : Gynécomastie
+** 245 : Diabète
+** 249 : Amaigrissement
+** 251 : Obésité
+** 252 : Diabète gestationnel
+** 253 : Nutrition chez le sportif
+** 265 : Hypocalcémie, dyskaliémie, hyponatrémie
+** 266 : Hypercalcémie
+** 303 : Tumeurs de l'ovaire (hormono-sécrétante)
+** 305 Tumeurs du pancréas (endocrine)
+** 310 : Tumeurs du testicule (aspects endocriniens)
+*
 * Footnotes
 
 [fn:33] Fièvre, arthalgie, érythmèe noueux MI, ADP médiastinale 

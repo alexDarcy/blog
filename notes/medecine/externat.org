@@ -1,7 +1,7 @@
 #+title: Fiches
 #+author: Alexis Praga
 #+latex_class: book-noparts
-#+options: tags:nil
+#+OPTIONS: tags:nil
 
 #+latex_header: \input{header}
 #+latex_header_extra: \usepackage{adjustbox}
@@ -111,7 +111,10 @@
 #+OPTIONS: H:4
 
 
-* Cardiologie                                                             
+* Cardiologie                                                        :export:
+  \input cardiologie
+  \input{ bacteries-header
+
 * Douleur (ébauche)
 ** Divers 
 - Douleurs par excès de nociception : anti-inflammatoires, opioïdes en pratique
@@ -336,7 +339,7 @@ Neuropsy :
 - confusion : neuroleptique (éviter benzodiazepine !)
 - anxiété : benzodiazepine, hydroxine. Si échec neuroleptique
 
-* Endocrinologie
+* Endocrinologie                                                     :export:
 ** 35 : Contraception
 *** Contraception hormonale
  Oestroprogestatifs
