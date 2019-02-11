@@ -660,6 +660,14 @@ Penser à sarcoïdose hypothalamo-hypophysaire si diabète insipide.
 Diag = défici endocrinien + infiltration HH à l'imagerie si sarcoïdose
 connue. Sinon arguments de sarcoïdose (cf [[207 : Sarcoïdose][item de pneumo]])
 ** 215 : Hémochromatose
+Suspicion clinique : Asthénie, Arthalgie, \inc ALAT (3 A)
+
+Atteinte : foie (cirrhose++), diabète sucré++, hypogonadisme, chondrocalcilnose
+articulaire, c\oe{}ur
+
+Diag : CST \inc et ferritine \inc : chercher mutation C282Y sur HFE
+
+Ttt dès CST \inc : saignées jusque ferritine < 50g/L. Dépistage parents 1er degré
 ** 219, 220 :  Facteurs de risque CV, dyslipidémies
 ** 221 : HTA, causes endocriniennes
 ** 238 : Hypoglycémie

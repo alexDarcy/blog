@@ -112,8 +112,8 @@
 
 
 * Cardiologie                                                        :export:
+  \input{bacteries-header}
   \input cardiologie
-  \input{ bacteries-header
 
 * Douleur (ébauche)
 ** Divers 
@@ -1224,138 +1224,6 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  Résultats en 3-6 mois sur été générale. 
 
  Bilan ferrique (stade 0,1) ferritinémie, hémoglobine (stade 2 à 4)
-
-** 219, 220 :  Facteurs de risque CV, dyslipidémies
- Rappel : FR = causalité et {relation forte, \propto dose, indépendant des autres
- FR, plusieurs étude, exposition précède maladie, plausible, réversible++}
-
- Risque absolu = un individu. Relatif = $\frac{R_{\text{exposé}}}{R_{\text{non exposé}}}$
-
- Prévention : primaire (avant accident), secondaire (éviter nouvel), tertaire
- (traiter séquelles}
-
-*** FR
- - Non modifiable : âgé (> 50A \male, > 60A \female), ATCD familiaux IDM/mort
-   subite < 55A \male, 65A \female)
- - Modifiable : tabagisme, LDL \inc, HDL < 0.40g/L, diabète, insuf rénale
-   chronique
-
- Estimation : Étude Framingham, SCORE. En pratique : 
- - interrogatoire  : ATCD familiaux CV, personnels, FR
- - examen : athérome asymptomatique (pouls périphérique, souffle vasculaire),
-   symptomatique (ECG)
-  
-*** Tabac 
- 30% adulte, 25% femmes enceintes
-
- \inc rapide du risque après sevrage (mécanisme prothrombotique du tabac). 
-
- RR = 3 de maladie coronarienne, = 5 d'IDM/mort subite, = 2-7 d'AOMI, = 2 d'AVC.
-
- \danger tabac - contraception oestroprogestative
-
-*** Hyperlipidémie
- \hyphenation{hyper-cho-lesté-ro-lé-mie}
- \showhyphens{hyperholestérolémie}
-
-**** Étiologies  
- Secondaire
- - Bilan selon contexte : TSH, glycémie, créat, protéinurie, BU
- - Comorbidité : 
-   - hypocholestérolémie : hypothyroïdie, (cholestase, anorexie mentale)
-   - mixtes : sd néphrotique, grossesse
-   - hypertriglycéridémie : insuf rénale chronique, alcoolisme, (obésité, diabète
-     avec sd métabolique)
- - Iatrogène : ciclosporine, corticoïdes, oestrogènes oraux, rétinoïdes,
-   IFN-\alpha, certains antétroviraux, neuroleptiques, diurétiques thiazidiques, betabloquant
- Primaire
- - Hypercholestérolémies familiales monogéniques
-   - mutation du gène du récepteur LDL++ : hétérozygote (xanthomes tendineux,
-     complications CV précoces) ou homozygote (rare, DC vers 20 ans)
-   - mutation du gène de l'apoliporotéine B
-   - mutation du gène PCSK9
- - Hypercholestérolémies polygéniques : fréquent, complications CV tardives
- - Hyperlipidémies combinées familiales : fréquent++, pas de xanthèmes,
-   complicastions CV suivant intensité
- - Dysbetalipoprotéinémie : xanthomes pathognomoniques
- - Hypertriglycéridémie familiale : rare, pas de xanthomes
- - Hyperchylomicronémie primitive : souvent hypertriglycéridémies majeurs
-
-*** HTA et risque CV
- PAs \ge 140, PAd \ge 90mmHg (3 consultations à 3 mois)[fn:endocrino15]   
-
- 40% adulte. Proba \inc si sd métabolique. Aggravé par acrshort:HVG, glomérulopathie
-
- Clinique, bio, ECG
-
-*** Diabète et risque CV
- Complications coronariennes ischémique : RR \female{} > \male.
-
- AOMI : RR \times 5, AVC RR \times 2.
-
- Diabète 2 : maladie coronarienne peut précéder diabète ! \thus dépistage
-
-*** PEC
- Dépistage familial si pathologie métaboblique \inc risque vasc
-**** Sevrage tabac
- Évaluer dépendance nicotine
- Poids + 5kg en moyenne
-
- Substituts nicotinique (6sem-6mois) : n'aggrave pas maladie
- coronarienne/troubles rythmes
-
- Varéniclide, bupropion = dernière ligne (8 semaines)
-**** Activité physique
- - \dec insulino-résistance, \dec triglycéridémie, \inc HDL
- - \dec PA repos, \inc périmètre marche AOMI, \inc pronostic complications coronariennes ischémiques
-
- 3x45min à 75% $O_2$
-
-**** Diététique
- - Lipides : graisses < 35%, \dec gras saturés, \inc mono-insaturés, {poisson gras, noix, \Omega_3}, \dec cholestérol
- -  Autres : \inc fruits, légumes, {noix, noisettes, amandes}, sel < 6g/j, alcool
-   < 3 verres vin, \dec sucres simples, -20% calories
-  
- Hypertriglycéridémie : 
- - modérées : -20% calories ++, \inc activité physique
- - majeur : arrêt alcool, régime hypo- (si obèse) ou iso-calorique avec < 30g
-   lipides (si obèse) ou 20g
-  
-**** Hypolipémiants :
- Statines :
- - \dec LDL, \dec TG \inc HDL
- - ES : myalgies, \inc CPK, \inc transaminases, \inc risque diabète 2
- - CI : HS, grossesse, allaitement
-**** Traitement hypercholestérolémies
- En primaire si LDL reste élèvé à +6 mois traitement. En secondaire si complication ischémique
-
- Objectifs :
- - primaire : 
-   - LDL < 1.3g/L si risque CV faible (pop générale, diabète ou hypercholestérolémie familale)
-   - LDL < 1g/L sinon
- - secondaire : systématique
-  
- Molécules
- - hypercholestérolémies : statines
- - hypertriglycéridémies : diététique si TG > 2g/L, statines si TG < 4g/L et HDL
-   bas, fibrate sinon
-
- Augmenter doses progressivtement puis suivi : 2-3 mois tant que objectifs non
- atteints puis 1-2/an
-
-*** Antihypertenseurs
- Diurétiques, betabloquant, inhibiteurs calcique, IEC, ARA II[fn:endocrino16]
-
- Monoprise, monothérapie en 1ere intention
-
- Objectif : [130, 139] et < 90mmHg. Visites mensuelles jusque l'objectif
-
- Suivi : pas d'hypotension orthostatique, {iono, créat, DFG} +15j après
- chaquement changement, suspension diurétiques et ARA si déshydratation
-
-*** Antiagrégants plaquettaire
- Prévention secondaire : systématique. Clipodigrel-aspirine systématique à +1 mois
- après stent, +1 ans après stent actif
 
 ** 221 : HTA, causes endocriniennes
  Déf: \ge 140/90 mmHg.
