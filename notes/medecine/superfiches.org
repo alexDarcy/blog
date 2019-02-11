@@ -668,8 +668,29 @@ articulaire, c\oe{}ur
 Diag : CST \inc et ferritine \inc : chercher mutation C282Y sur HFE
 
 Ttt dès CST \inc : saignées jusque ferritine < 50g/L. Dépistage parents 1er degré
-** 219, 220 :  Facteurs de risque CV, dyslipidémies
-** 221 : HTA, causes endocriniennes
+** 221 : HTA : hyperaldostorénonisme primaire, sd de Cushing
+Contraception \oe{}stroprogestative, corticoïdes, réglisse
+
+Hyperminéralocorticisme primaire : 
+- suspicion : HTA (\pm résistante) + hypokaliémie
+- diag : aldostérone \inc et rénine \dec [fn:38]
+- TDM ou IRM : 
+  - adénome de Conn[fn:39] \thus chir 
+  - idiopathique \thus spironolactone, antihypertenseurs
+
+Phéochromocytomes[fn:40]
+- dépistage : HTA paroxystique, "triade de Ménard" = céphalées + sueurs +
+  palpitations, NEM1, NF1
+- diag : métanéphrine \inc
+- Imagerie puis chir
+Sd de Cushing
+- clinique : obésité androïde et graisses facio-tronculaire + vergétures,
+  ostéoporose + hyperandrogénie[fn:37]
+- diag = cortisolurie 24h \inc, test freinage minute négatif à DXM
+- étiologie :
+  - ACTH \dec \thus adénome surrénalien, cortico-surrénalome malin
+  - sinon : test de freinage fort à DXM, test de stimulation ACTH \thus maladie
+    de Cushing (positif) ou sd paranéoplasique (négatif)
 ** 238 : Hypoglycémie
 ** 239 : Goitre, nodules thyroïdiens, cancers thyroïdiens
 ** 240 : Hyperthyroïdie
@@ -689,6 +710,15 @@ Ttt dès CST \inc : saignées jusque ferritine < 50g/L. Dépistage parents 1er d
 ** 310 : Tumeurs du testicule (aspects endocriniens)
 *
 * Footnotes
+
+[fn:40] Tumeur de la médullo-surrénale 
+
+[fn:39] Nodule de la cortico-surrénale 
+
+[fn:38] Si aldostérone \inc et rérine \inc, hyperaldostéronisme secondaire
+(sténose des artères rénale++)
+
+[fn:37] Hirsutisme, acné
 
 [fn:36] Ou si testostérone \in [2.3, 3.2] et SHBG et index T libre bas
 
