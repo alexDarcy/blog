@@ -564,10 +564,10 @@ Infertilité : 0 conception à 1 an. Stérilité = définitif
 - \female : anovulation (courbe de température), bilan hormonal, écho ovarienne, hystérographie. 
 - \male : volume testiculaire, testostérone, spermogramme. Hormonal si oligo/azoospermie
 
-** 40 : Aménorrhée
+** 40 : Aménorrhée (gynéco)
 Primaire
 - pas dév. pubertaire :
-  - FSH, LH \dec : tumeur H-H, sd de Kallmann
+  - FSH, LH \dec : tumeur H-H[fn:35], sd de Kallmann
   - FSH, LH \inc : sd de Turner (45X)
   - retard pubertaire simple (diag élimination)
 - examen gynéco + écho : hyperplasie congénitale des surrénales, anomalie
@@ -578,7 +578,26 @@ Secondaire :
 3. LH \inc : écho ovaires (sd ovaires polykystiques) 
 4. estradiol, LH, FSH \dec (déficit gonadotrope) : tumeur/infiltration H-H(IRM) ou nutrition
 5. \inc testostérone (insuffisance ovarienne) : scanner surrénales, écho ovarienne
-** 47 : Puberté
+** 47 : Puberté (pédia)
+Retard : pas de seins > 13 ans ou pas de règle > 15 (\female), volume testicule
+< 4mL après 14 ans(\male)
+- hormonal (hypogonadotrope)
+  - FSH, LH \dec [fn:34] : IRM H-H (infiltratif, tumoral), nutrition, sport, sd Kallmann
+  - FSH, LH \inc : caryotype (sd Turner si \female, Klinefelter \male)
+- retard pubertaire simple
+Précoce < 8 ans \female{}, < 9.5 ans \male. Table [[tab:puberte]]
+#+name: tab:puberte
+#+begin_table
+#+LATEX: \centering
+#+LATEX: \caption{Puberté précoce}
+#+LATEX: \adjustbox{max width=\linewidth}{
+#+ATTR_LATEX: :center nil
+| Type         | Diagnostic   | Étiologie                            | Examens                               |
+|--------------+--------------+--------------------------------------+---------------------------------------|
+| centrale     | FSH, LH \inc | ovaire/testicule, surrénale          | écho pelvien/testic., test syancthène |
+| périphérique | FSH, LH \dec | idiopathique, atteinte SNC (tumeurs) | imagerie cérébrale                    |
+#+LATEX: }
+#+end_table
 ** 48 : Cryptorchidie
 ** 51 : Retard de croissance
 ** 78 : Dopage
@@ -608,6 +627,10 @@ Secondaire :
 ** 310 : Tumeurs du testicule (aspects endocriniens)
 *
 * Footnotes
+
+[fn:35] Hypothalamo-hypophysaire 
+
+[fn:34] "Cassure" courbe croissance 
 
 [fn:33] Fièvre, arthalgie, érythmèe noueux MI, ADP médiastinale 
 
