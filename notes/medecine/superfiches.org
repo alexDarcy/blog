@@ -631,7 +631,15 @@ Andropause : si testostérone < 2.3ng/mL[fn:36] :
 - FSH, LH \inc = insuf testiculaire primitive (sd Klinefelter)
 - sinon hypogonadisme hypogonadotrope \thus IRM H-H pour adénome hypophysaire
 
-** 122 : Troubles de l'érection 
+** 122 : Troubles de l'érection  (uro)
+Étiologies factorielles !
+- psychogène (érections nocturnes) : rassurer, psychothérapie
+- diabète++, hypogonadisme++, hyperprolactinémie
+- vasculaire (HTA), chir pelvienne, anti-hypertenseur, neuro dégénératif, trauma médullaire
+Bilan bio : glycémie jeun, testostéronémie \pm prolactine, hormones thyroïdiennes
+Ttt 
+- hypogonadisme confirmé : androgènes (CI nodule prostatique, PSA > 3ng/mL)
+- 1ere intention : inhibiteurs phosphodiéstérase type 5 (Viagra) + stimulation
 ** 124 : Ostéopathies
 ** 207 : Sarcoidose
 ** 215 : Hémochromatose
