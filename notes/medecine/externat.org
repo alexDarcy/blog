@@ -741,7 +741,7 @@ Neuropsy :
   Localisation anormale et inaboutie du testicule. Très fréquente : 3%
   nouveaux-nés, 20% préma. 2/3 descendent spontanément à 1 an de vie
 
-  Clinique : checher micropénis (< 2cm, hypospadias, autres)
+  Clinique : chercher micropénis (< 2cm, hypospadias, autres)
 
   Explorations : endocrinienne pour toute cryptorchidie \danger
   - bilatérale : doser 17-hydroxyprogestérone chez \female{} virilisée pour éliminer hyperplasie
@@ -862,8 +862,10 @@ Neuropsy :
  avants.
 
 **** Diagnostic
- Clinique seulement \danger : bouffées de chaleur, \female > 50 ans. Bio
- seulement si hystérectomie \thus \dec oestradiol et \inc FSH
+ Clinique seulement !! : plus de reglèe \ge 1 an, sd climatérique (bouffées de chaleur, troubles du
+ sommeil et humeur, sueurs nocturnes, sécheresse vaginal), \female > 50 ans. 
+
+Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
 
  En pratique : progestatif seul 10j/mois x3 \thus pas de saignement à l'arrêt =
  diagnostic
@@ -871,8 +873,7 @@ Neuropsy :
  Aménorrhée < 40 ans = pathologique !
 
 **** Conséquences
- Court terme : bouffées de chaleur, trouble sommeil/humeur, \dec sécrétions
- vaginales
+ Court terme : sd climatérique
 
  Moyen terme : douleurs ostéoarticulaires, \inc perte osseuse (selon ATCD d'insuf
  ovarienne prématurée, fractures non traumatiques, médicaments, calcium/vit D)

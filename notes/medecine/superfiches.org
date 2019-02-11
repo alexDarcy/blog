@@ -598,10 +598,39 @@ Précoce < 8 ans \female{}, < 9.5 ans \male. Table [[tab:puberte]]
 | périphérique | FSH, LH \dec | idiopathique, atteinte SNC (tumeurs) | imagerie cérébrale                    |
 #+LATEX: }
 #+end_table
-** 48 : Cryptorchidie
-** 51 : Retard de croissance
+** 48 : Cryptorchidie (pédia)
+Exploration : c. de Leydig, c. de Sertoli, FSH, LH + 17-hydroxyprogestérone si
+bilatérale
+
+Ttt chir (sinon = infertilité, hypogonadisme, K testiculaire)(
+** 51 : Retard de croissance (pédia)
+Définition : taille < -2DS ou ralentissement croissance ou << parents
+
+Cf table [[tab:retard_croissance]] + bilainVS, NFS, foie, rein.
+#+name: tab:retard_croissance
+#+caption: Retards de croissance
+   | Cause                            | Exploration                               |
+   |----------------------------------+-------------------------------------------|
+   | Constitutionnelle++             |                                           |
+   | RCIU                             |                                           |
+   | Déficit en GH, hypothyroïdie     | GH, {TSH, T4L}                            |
+   | Maladie coeliaque, mucoviscidose | {IgA, IgA anti-transglutamase},test sueur |
+   | Os                               | radio                                     |
+   | Retard pubertaire simple         |                                           |
 ** 78 : Dopage
-** 120 : Ménopause et andropause
+   /Stéroïdes anabolisant/, testostérone (\inc masse musculaire, puissance)
+
+   Autres : GH (\inc masse musculaire), IGF-1. Glucocorticoïdes, ACTH (antalgique, psychostimulant)
+** 120 : Ménopause et andropause (gynéco, uro)
+Ménopause :
+- diag clinique : sd climatérique, aménorrhée \ge 1 an (bio si doute FSH \inc, oestradiol \inc)
+- ttt hormonale = \oe{}strogène et progestatif. Surveiller et réévaluation annuelle
+  - bénéfice : ttt sd climatérique, prévention ostéoporose
+  - risque : \inc incidence K sein, \inc accidents TE veineux \thus _CI_
+Andropause : si testostérone < 2.3ng/mL[fn:36] :
+- FSH, LH \inc = insuf testiculaire primitive (sd Klinefelter)
+- sinon hypogonadisme hypogonadotrope \thus IRM H-H pour adénome hypophysaire
+
 ** 122 : Troubles de l'érection 
 ** 124 : Ostéopathies
 ** 207 : Sarcoidose
@@ -627,6 +656,8 @@ Précoce < 8 ans \female{}, < 9.5 ans \male. Table [[tab:puberte]]
 ** 310 : Tumeurs du testicule (aspects endocriniens)
 *
 * Footnotes
+
+[fn:36] Ou si testostérone \in [2.3, 3.2] et SHBG et index T libre bas
 
 [fn:35] Hypothalamo-hypophysaire 
 
