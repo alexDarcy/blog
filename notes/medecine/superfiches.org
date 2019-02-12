@@ -786,11 +786,24 @@ Hypersécrétion par l'hypophyse :
 Insuffisance hypophysaire : table [[tab:insuf_hypophyse]]
 #+name: tab:insuf_hypophyse
 #+caption: Insuffisance hypophysaire
-| gonadotrope  | oestradiol/testostérone \dec ou FSH, LH \dec         |
-| corticotrope | cortisol \dec : synacthène, hypoglycémie insulinique |
-| thyréotrope  | T4l \dec mais TSH normale...                         |
-| somatotrope  | GH) : stimulation GH négative                        |
+| gonadotrope  | oestradiol/testostérone \dec ou FSH, LH \dec          |
+| corticotrope | cortisolémie \dec, synacthène (aldostérone normale !) |
+| thyréotrope  | T4l \dec mais TSH normale...                          |
+| somatotrope  | GH) : stimulation GH négative                         |
 ** 243 : Insuffisance surrénale
+Chronique : 
+- clinique = asthénie, anorexie, hypotension. Hyperk, hypoNa[fn:49] mélanodermie
+  (surrénale), pâleur (hypophyse)
+- ttt sans attendre diag : hydrocortisone], fludrocortisone [fn:50] + cause
+- diag : cortisol \dec, ACTH \inc si primaire
+- étiologies : 
+  - primaire (surrénale) = /autoimmune/ 80%[fn:51], /tuberculose/ des surrénale 
+10%[fn:52]), VIH, iatrogène, métastasesbilatérales
+  - secondaire (hypophyse) = interruption corticothérapie prolongé
+IS aigüe = urgence \skull
+- déshydratation extracellulaire, confusion, fièvre. Bio : hémoconcentration,
+  hypoNa, hyperK, hypoglycémie
+- hydrocortisone 100mg puis \faHospitalO : NaCL et facteur déclenchant (IS chronique++)
 ** 244 : Gynécomastie
 ** 245 : Diabète
 ** 249 : Amaigrissement
@@ -804,6 +817,14 @@ Insuffisance hypophysaire : table [[tab:insuf_hypophyse]]
 ** 310 : Tumeurs du testicule (aspects endocriniens)
 *
 * Footnotes
+
+[fn:52] Calcifications aux scanner
+
+[fn:51] Doser Ac anti-21 hydroxylase
+
+[fn:50] Glucocorticoïdes et minéralocorticoïdes respectivement.
+
+[fn:49] Aldostérone : réabsorption Na+ et écrétion K+
 
 [fn:48] Élargissement extrémité, visage (prognathisme)
 

@@ -1890,7 +1890,7 @@ sulfonylurée : glucose en perfusion)
  Rare mais grave \skull
 
  Physiopatho :
- - cortisol [fn:endocrino67]) : hyperglycémiant, stimule = {catabolisme protidique, lipogenèse, SNC, tonus vasculaire}, inhibe
+ - cortisol [fn:endocrino67] : hyperglycémiant, stimule = {catabolisme protidique, lipogenèse, SNC, tonus vasculaire}, inhibe
    = {hormone antidiurétique}, anti-inflammatoire et antipyrétique,
    minéralocorticoïde\\
    Minimum 0-2h, maximum 7-9h
@@ -1919,7 +1919,7 @@ sulfonylurée : glucose en perfusion)
 
  Positif 
  - cortisolémie : à compléter avec tests dynamiques si valeurs "intermédiaires"
- - primaire ou secondaire ? ACTH \inc{} si primairei, rénine \inc si primaire
+ - primaire ou secondaire ? ACTH \inc{} si primaire, rénine \inc si primaire
  - test Synacthène (+ Métopirone ou hypoglycémie insulinique si doute)
 
  NB : femme enceinte = {\inc seuil, faisceau d'args}, enfant : répéter dosages
