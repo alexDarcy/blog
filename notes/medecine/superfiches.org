@@ -867,8 +867,26 @@ Neuropathies
 - autonome : digestiv (gastroparésie), dysfonction érectile, parésie vésicale
 - dépistage : examen neuro (pied !!), ECG annuel
 - ttt : préventif++ (glycémie, alcool, tabac...)
-Macroangiopathie
-
+Macroangiopathie : 2/3 DC pour cause CV
+- ischémie myocardite silencieuse !!, AOMI 
+- prévention : glycémie (metformine), activité physique, LDL (statines),
+  aspirine, anti-hypertenseurs, poids, 0 tabac
+Mal perforant plantaire : creux autour d'hyperkératose
+- examen réguliers des pieds et chaussures quotidien
+- ttt : décharge, excision kératose / parage et drainage + ATB si infection \pm
+  revascularisation si nécrose
+- risque d'ostéite
+Autres : 
+- infections \thus examen cutané++, stomato, uro-génital, respi
+- dentiste tous 6 mois
+Complications métabolique :
+- coma cétoacidosique 
+  - diag= cétonémie, cétonurie
+  - ttt insuline rapide IV, recharge volumique, K+ \pm glucose, cause
+- coma hyperosmolaire : 
+  - diag = glycosurie, cétonurie (BU) et hyperglycémie (dextro)
+  - ttt : réhydratation lente, insuline IV, héparine, cause
+- hypoglycémie : inévitable, non mortelle. Cf [[238 : Hypoglycémie][item 238]]
 ** 249 : Amaigrissement
 ** 251 : Obésité
 ** 252 : Diabète gestationnel
