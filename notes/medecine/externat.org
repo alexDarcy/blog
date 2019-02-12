@@ -1359,14 +1359,14 @@ sulfonylurée : glucose en perfusion)
 
  #+name: jeûne
  #+caption: Diagnostic d'hypoglycémie (jeûne) avec DD
- |              | Diagnostic positif     | Insuline cachée | Sulfonylurée cachée |
+ |              | Insulinome             | Insuline cachée | Sulfonylurée cachée |
  |--------------+------------------------+-----------------+---------------------|
  | Glycémie     | basse                  | basse           | basse               |
  | Signes       | neuroglucopénie        |                 |                     |
  | Insulinémie  | normale mais inadaptée | dosable         | dosable             |
- | Peptide C    | bas                    | dosable         | indosable           |
- | Sulfamides   | 0                      |                 |                     |
- | pro-insuline | élevée                 |                 | indosable           |
+ | Peptide C    | augmenté               | /basse/         | augmenté            |
+ | Sulfamides   | 0                      | 0               | /oui/               |
+ | pro-insuline | augmenté               | basse           |                     |
 
  Scanner en coupe fine du pancréas et écho-endoscopie si médecin habitué
 
@@ -2049,7 +2049,7 @@ sulfonylurée : glucose en perfusion)
    plastique possible
 ** 245 : Diabète
    \begin{tcolorbox}
- Définition : glycémie à jeun \ge 1.26g/L (2 reprises) ou aléatoire \ge 2g/L \footnotemark
+ Définition : glycémie à jeun \ge 1.26g/L (2 reprises) ou (aléatoire \ge 2g/L et signes hyperglycémie)\footnotemark
  \end{tcolorbox}
  \footnotetext{Normale à jeûn < 1.10g/L}
 
@@ -2103,7 +2103,7 @@ sulfonylurée : glucose en perfusion)
    nésgatifs.
 
  Affirmer type 1 :
- - clinique : triade maigreur/amaigrissement, cétose, < 35 ans
+ - clinique : hyperglycémie + triade (maigreur/amaigrissement, cétose, < 35 ans)
  - sinon auto-Ac
  - sinon :
    - hérédité dominante : MODY, mutation SUR1/KIR6-2 (si diabète néonatal)
@@ -2189,7 +2189,7 @@ sulfonylurée : glucose en perfusion)
  Age adulte.
 
 **** Physiopatho
- Insuline n'arrive pas à avoir une réponse amximale : défaut de captation
+ Insuline n'arrive pas à avoir une réponse maximale : défaut de captation
  musculaire du glucose, \inc production hépatique du glucose, lipolyse \inc acides gras
  libres circulants \thus (aggrave \dec insulinosécrétion et utilisation du glucose)
 
@@ -2274,48 +2274,8 @@ sulfonylurée : glucose en perfusion)
  Conséquences : épaississement des membranes basales, troubles perméabilité
  vasculaire, spécifiques = {profil vasculaire (rétine), fibrose (rein)}
 
-**** Rétinopathie diabétique
-***** Déf
- diabète = risque d'une rétinopathie. Complications dont on peut éviter la
- cécité ! \thus examen ophtalmo et surveillance annuelle, contrôler glycémie et
- HTA, laser (si (pré-)proliférante), laser ou injection anti-VEGF (maculopathie
- oedémateuse)
-
-***** Épidémio 
- 90% de rétinopathie après 30 ans de diabète, dont 30% menaçant pronostic
- visuel. Diabète = 1ere cause de cécité acquise en France chez < 50 ans. FR =
- durée et intensité de l'hyperglycémie
-
-***** Physiopatho 
- anomalie vasculaire (microanévrisme, trouble perméabilité capillaire) \thus soit
- oedème (dangereux si maculaire), soit (ischémie puis angiogenèse[fn:endocrino32] puis rétinopathie proliférante)
-
-***** Examens 
- cécité possible du jour au lendemain \skull \thus dépistage tous les 2 ans
- (annuel si diabète/TA mal contrôlé, {avant, trimestre, post-partum} pour femme
- enceinte)
-
- Surveillance par examen ophtalmo, photo au rétinographe(dépistage seulement), tomographie de
- cohérence optique
-
-***** Gravité
- - au fond d'oeil : 
-   - microanévrisme < exsudats < nodules blancs cotonneux, irrégularités \diameter{} veines, capillaires dilatés (préproliférante) < néovaisseaux (proliférante) < décollement rétine, hémorragies, glaucome néovasculaire
-   - maculopathie : exsudat, oedème maculaire, ischémie
- - \dec acuité visuelle car hémorragie intravitréenne, décollementd rétine,
-   glaucome néovasculaire, maculopathie diabétique
- - complémentaire : angiographie fluorescéine, tomographie cohérence optique
-   (oedème maculaire), écho en mode B
- - risque d'évolution rapide : ado, puberté, grossesse, intensification de
-   l'insuline, chir cataracte, \inc TA, dégradation fonction rénale
-
-***** Traitement
- équilibre glycémie et TA++, laser[fn:endocrino33] (+ injection intraoculaire
- d'inhibiteurs VEGF)
-
- Autres complications : cataracte (+ freq), glaucome néovasculaire (redoutable),
- paralysie oculomotrice (régresse spontanément qq mois)
-
+**** Rétinopathie diabétique 
+Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 **** Néphropathie
  Diabète = 1ere cause d'insuf rénale terminale. Diabète 2 = $\frac{3}{4}$
  diabétiques dyalisé. Risque CV x10 (D1), x3 (D2). Décès insuf rénale terminale
@@ -3269,7 +3229,7 @@ sulfonylurée : glucose en perfusion)
 * Pneumologie                                                        
 \input pneumologie
 
-* Ophtalmo
+* Ophtalmo                                                           :export:
 ** 1 Sémiologie oculaire
 *** Globe
  Membranes (d'avant en arrière)
@@ -4199,14 +4159,21 @@ sulfonylurée : glucose en perfusion)
  - non artéritique : pas de ttt efficace
   
 ** 21 Rétinopathie diabétique
+ Diabète = défini par risque d'une rétinopathie. Complications dont on peut éviter la
+ cécité !
+
  30% diabétique en ont une. Diabète 1 : 90% après 20 ans. Diabète 2 : 60% à 15
  ans
+
+FR = durée et intensité de l'hyperglycémie
 
  Physiopatho : hyperglycémie \thus {accumulation sorbitol, glycation, stress
  oxydatif} \thus {inflammation, activation rénine-angiotensine, modif flux
  sanguin rétinien, production VEGF} puis 
  - occlusion capillaire et néovascularisation
  - \oe{}dème maculaire
+
+ Cécité possible du jour au lendemain \skull
   
 *** Diagnostic
  Photographie du FO = référence et dépistage
@@ -4263,6 +4230,11 @@ sulfonylurée : glucose en perfusion)
  - photocoagulation au laser si exsudats lipidiques ou liquides
  - injection anti-VEGF mensuelle. Dexaméthasone retard possible mais cataracte,
    risque d'hypertonie oculaire (30%)
+*** Autres complications 
+cataracte (+ freq), glaucome néovasculaire (redoutable),
+ paralysie oculomotrice (régresse spontanément qq mois)
+
+
 ** 22 Orbitopathie dysthyroïdienne
  Surtout maladie de Basedow (ou thyroïdite auto-immune d'Hashimoto
 

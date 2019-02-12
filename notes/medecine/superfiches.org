@@ -794,7 +794,7 @@ Insuffisance hypophysaire : table [[tab:insuf_hypophyse]]
 Chronique : 
 - clinique = asthénie, anorexie, hypotension. Hyperk, hypoNa[fn:49] mélanodermie
   (surrénale), pâleur (hypophyse)
-- ttt sans attendre diag : hydrocortisone], fludrocortisone [fn:50] + cause
+- ttt sans attendre diag : hydrocortisone, fludrocortisone [fn:50] + cause
 - diag : cortisol \dec, ACTH \inc si primaire
 - étiologies : 
   - primaire (surrénale) = /autoimmune/ 80%[fn:51], /tuberculose/ des surrénale 
@@ -805,7 +805,70 @@ IS aigüe = urgence \skull
   hypoNa, hyperK, hypoglycémie
 - hydrocortisone 100mg puis \faHospitalO : NaCL et facteur déclenchant (IS chronique++)
 ** 244 : Gynécomastie
-** 245 : Diabète
+Palpation : ferme, mobile, centré mamelon. Si doute, mammographie pour élimiter
+K et adipomastie
+
+Physiologique : NN, ado (< 20 ans), > 65A (palper testicules !)
+
+Étiologies : médicaments, idiopathique (25%), cirrhose, insuf
+testiculaire/gonadotrope (8%), tumoral (rare).
+- bilan hormonal si non évident
+
+Ttt : cause. Androgène si idiopathique voire chir plastique
+** 245 : Diabète sucré
+Glycémie jeun \ge 1.26 g/L \time 2 ou (\ge 2g/L + signes d'hyperglycémie)
+*** Diabète 1 
+insulinopénie (destruction c. \beta pancréas) auto-immun++ ou idiopathique
+
+Début brutal, sujet jeune, sd cardinal (polyuro-polydipsie, amaigrissement,
+polyphagie}, acidocétose (cétonurie)
+
+Diagnostic : hyperglycémie + triade {cétonurie, < 35 ans} ou auto-Ac
+
+PEC : 
+- insuline à vie : lent et rapide (3-4)
+- objectif HbA1c < 7%
+- surveillance : glycémie 4/jour
+- CS : ophtalmo 1/an, dentiste 1/an, diabétologique 3/an \pm cardio 1/an
+  si sympto/âgé/compliqué
+
+Dépistage pendant grossesse !
+
+*** Diabète 2 (90 %)
+Insulinorésistance _et_ déficit insulinosécrétoire
+
+Découverte fortuite (asymptomatique longtemps). 
+Dépistage : clinique d'hyperglycémie, sd métabolique[fn:53]
+
+PEC :
+- objectif HbA1c < 7%
+- activité physique [fn:54], alimentation équilibrée sans sucres rapides
+- metformine (sinon sulfamide, inhibiteurs DPP-4, inhibiteurs
+  \alpha-glucosidase)
+- + insuline et HGO si insulinorequérance
+
+*** Complications
+\OE{}il : voir [[sec:retinopathie_diabetique][partie ophtalmo]]
+
+Rein : diabète = 1ere cause d'IR terminale. 
+- dépistage 1/an chez D2 : BU (protéinure), albuminure/créatinurie
+- ttt : prévention : diabète, HTA. Puis cf tab [[tab:ttt_nephro_diabete]]
+#+name: tab:ttt_nephro_diabete
+#+caption: 2 premiers stade de néphro diabètes = asymptomatique
+| Stade | type                            | Ttt                                              |
+|-------+---------------------------------+--------------------------------------------------|
+|     3 | microalbuminurie                | Obj: HBA1c < 7%, PA < 140/85 mmHg                |
+|     4 | macroalbuminurie                | IEC/sart + diurétique thiazidique                |
+|     5 | IR avec DFG < 30/mL/min/1.73m^2 | insuline, répaglinide, inhib. \alpha-glucosidase |
+
+Neuropathies
+- sensorimotrice : polynévrite symétrique distale++ (hypoesthéie, 0 ROT achiléean, bilat , douleur
+  neurogène)
+- autonome : digestiv (gastroparésie), dysfonction érectile, parésie vésicale
+- dépistage : examen neuro (pied !!), ECG annuel
+- ttt : préventif++ (glycémie, alcool, tabac...)
+Macroangiopathie
+
 ** 249 : Amaigrissement
 ** 251 : Obésité
 ** 252 : Diabète gestationnel
@@ -816,7 +879,22 @@ IS aigüe = urgence \skull
 ** 305 Tumeurs du pancréas (endocrine)
 ** 310 : Tumeurs du testicule (aspects endocriniens)
 *
+* Ophtalmo
+** Rétinopathie diabétique 
+<<sec:retinopathie_diabetique>>
+ 1ère cause de cécité chez < 50 ans. 30% des diabétique
+ - maculopathie diabétique
+ - rétinopathie diabétique : non proliférante (hémorragies rétiniennes dans 4
+   quadrans/dilatations veineuses 2 quadrants/AMIR 1 quadrant) puis proliférante (néovaisseaux)
+ - dépistage annuel FO, OCT
+ - ttt : équilibre glycémie et TA++. Photocoagulation panrétinienne, anti-VEGF
+
 * Footnotes
+
+[fn:54] Sauf insuf. coronarien, rétinopathie proliférante non stabilisée
+
+[fn:53] IMC > 28 kg/m^2, HTA, HDL < 0.35g/L ou TG > 2g/L ou dyslipidémie, ATCD
+diabète (familiale, gestationnel)
 
 [fn:52] Calcifications aux scanner
 
