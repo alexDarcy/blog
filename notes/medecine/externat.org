@@ -1561,7 +1561,7 @@ sulfonylurée : glucose en perfusion)
 *** Étiologies (fréquence \dec)
 **** Auto-immunes
  /Maladie de Basedow/\\
- 1% population. Auto-immune, sur terrai génétique. Poussées puis rémissions
+ 1% population. Auto-immune, sur terrain génétique. Poussées puis rémissions
 
  Clinique : 
  - goitre diffus homogène, élastique, souffle
@@ -1575,9 +1575,9 @@ sulfonylurée : glucose en perfusion)
  - dermopathie (exceptionnelle) placard rouge, surélevé, induré, face ant jambes
   
  Diagnostic : manif oculaire suffit. sinon : écho (hypoéchogène, vascularisé),
- (scinti), Ac anti-récepteur TSH
+ (scinti), Ac anti-récepteur TSH\\
 
- /Autres auto-immune/\\
+ /Autres auto-immune/
  - Thyroïdite post-partum (5%) : hyperthyroïdie transitoire puis hypothyroïdie. Ac
    anti-TPO mais pas Ac anti-récepteur TSH
  - Thyroïdite d'Hashimoto : goitre irrégulier, très ferme. Écho :

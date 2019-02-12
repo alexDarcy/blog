@@ -728,6 +728,27 @@ Cancers thyroïdiens :
 - si médullaire : chercher autres lésions NEM2[fn:43]
 
 ** 240 : Hyperthyroïdie
+Clinique : sd thyrotoxicose = asthénie, amaigrissement, sueurs, CV (tachycardie)
+
+Diagnosic : TSH \dec puis T4L \inc
+
+#+caption: Étiologies 
+| Étiologie                       | Clinique                       | Diagnostic                                                                        |
+|---------------------------------+--------------------------------+-----------------------------------------------------------------------------------|
+| /maladie de Basedow/            | goitre, oculaire (exophtalmie) | oculaire                                                                          |
+|                                 |                                | ou écho + Ac anti récepteur TSH \tablefootnote{Scinti: fixation homogène diffuse} |
+| /goître multinodulaire toxique/ |                                | Scinti: en damier                                                                 |
+| /adénome toxique/               |                                | Scinti: hyperfixation (reste = "froid")                                           |
+| De quervain                     | virale, goitre dur, douloureux | clinique                                                                          |
+
+Ttt :
+- \beta-bloquants, contraception, /anti-thyroidiens de synthèse/ (\danger
+  agranulocytose[fn:44])
+- spécifique : 
+  - cardiothyréose = proanolol, anticoag, ATS, chir/radio-iode
+  - Crise aigüe thyrotoxique \skull ATS, pronanolol, corticoïdes puis iode
+  - Obritopathie : pas d'ATS, ni d'iode !
+  - enceinte : surveillance/ATS/thyroïdectomie selon
 ** 241 : Hypothyroïdie
 ** 242 : Adénome hypophysaire
 ** 243 : Insuffisance surrénale
@@ -744,6 +765,8 @@ Cancers thyroïdiens :
 ** 310 : Tumeurs du testicule (aspects endocriniens)
 *
 * Footnotes
+
+[fn:44] Arrêt si neutrophiles < 1G/L
 
 [fn:43] Phéochromocytome, hyperparathyroïdie
 
