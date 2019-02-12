@@ -315,8 +315,6 @@ Douleurs chroniques :
 - neuropathiques, lombalgie, céphalée : amitriptyline
 - fibromyalgie : duloxétine, milnacipran
 
-\printglossaries
-
 ** Grands syndromes
 Pneumo 
 - Dyspnée : morphinique, benzodiazepine \pm O_2 (en phase terminale ?)
@@ -1664,8 +1662,8 @@ sulfonylurée : glucose en perfusion)
    - soit T4L N : hypothyroïdie frustre
    - soit T4L \dec : hypothyroïdie patente
  - Ou hypothalamo-hypophysaire : T4L \dec et 
+   - soit TSH légèrement \inc : hypothalamus
    - soit TSH \dec ou N : hypophysaire
-   - soit TSH légèrement /inc : hypothalamus
   
 *** Sémiologie
  Général :
@@ -3261,9 +3259,6 @@ sulfonylurée : glucose en perfusion)
  |                  | trouble apprentissage, comm. | Pas de seins ?             | Pas de dev. sexuel secondaire         |
  |                  |                              |                            |                                       |
 
-
- \printglossaries
-
 * Maladies infectieuses                                             
 #+BEGIN_EXPORT latex
 \input maladies_infectieuses
@@ -4338,7 +4333,7 @@ sulfonylurée : glucose en perfusion)
  - artériosclérose : I (croisement), II (idem plus rétrécissement marqué), III
    (idem plus occlusion de branche)
 
- \printglossaries
+
 
 * HGE
 ** 74 : Addiction à l'alcool
@@ -4847,7 +4842,7 @@ sulfonylurée : glucose en perfusion)
  forcément normalisation Fe !!
 
 
- \printglossaries
+
 ** 248 : Dénutrition
  Référence nutritionnelle pour la population (couvre besoin). Sinon : apport
  satisfaisant (apport moyen d'une population)
@@ -5720,6 +5715,8 @@ sulfonylurée : glucose en perfusion)
  - gls:CPRE [fn:hge38] (\danger pancréatite aigüe) : pas en diagnostic
  - cholangiographie percutanée transhépatique [fn:hge38] : si échec CPRE mais risque
    hémopéritoien, bilio-péritoine, angiocholite
+
+ \printglossaries
 * Footnotes
 
 [fn:endocrino70] La PTH est produite par la parathyroïde...

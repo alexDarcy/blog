@@ -742,7 +742,7 @@ Diagnosic : TSH \dec puis T4L \inc
 | De quervain                     | virale, goitre dur, douloureux | clinique                                                                          |
 
 Ttt :
-- \beta-bloquants, contraception, /anti-thyroidiens de synthèse/ (\danger
+- \beta-bloquants, contraception, /anti-thyroidiens de synthèse/ [Neomercazole] (\danger
   agranulocytose[fn:44])
 - spécifique : 
   - cardiothyréose = proanolol, anticoag, ATS, chir/radio-iode
@@ -750,6 +750,21 @@ Ttt :
   - Obritopathie : pas d'ATS, ni d'iode !
   - enceinte : surveillance/ATS/thyroïdectomie selon
 ** 241 : Hypothyroïdie
+Clinique : sd myxoedemateux[fn:46], hypométabolisme[fn:45]
+
+Diag = TSH \inc. Puis doser T4. Étio : Ac anti-TPO, échographie
+
+Étiologies :
+- atteinte thyroïde
+  - thyroïdite d'Hashimoto : Ac anti-TPO. Écho = hypoéchogène, hétérogène
+  - thyroïdite atrophique (pas de goitre), du post-partum
+  - carence iode (endémie), iatrogène (interfééron)
+- atteinte hypothalamo-hypophysaire \thus IRM
+
+Complications : insuf cardiaque, coma myxoedemateux \skull 
+
+Ttt : lévothyroxine [fn:47]. Surveiller TSH (primaire) ou T4L (atteinte H-H) !
+
 ** 242 : Adénome hypophysaire
 ** 243 : Insuffisance surrénale
 ** 244 : Gynécomastie
@@ -765,6 +780,12 @@ Ttt :
 ** 310 : Tumeurs du testicule (aspects endocriniens)
 *
 * Footnotes
+
+[fn:47] Obj: TSH \in [0.5, 2.5]mUI/L.
+
+[fn:46] Faciès "lunaire", voix rauque, macroglossie, hypoacousie
+
+[fn:45] Asthénie, somnolence, hypothermie
 
 [fn:44] Arrêt si neutrophiles < 1G/L
 
