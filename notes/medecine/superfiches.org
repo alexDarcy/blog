@@ -913,6 +913,17 @@ articulaire, psycho
 
 Interrogatoire + EC. Ttt = prévention
 ** 252 : Diabète gestationnel
+Pré-gestationnel
+- risque f\oe{}tus : fausses couches, malformations congénitales, mort f\oe{}tales,
+- risque mère : HTA ++, rétinopathie, néphropathie
+- avant grossesse : HbA1c < 7%, glycémie \in [0.7, 1.20] préprandial et [1,
+  1.14] en post (\inc insuline si D1, +insuline si D2
+- pendant : 6 glycémie/jour pour équilibre )
+Dépister diabète gestationnel ssi FR : {\ge 35 ans, IMC \ge 25 kg/m^2, ATCD DG,
+D. parents 1er degr}
+- PEC si glycémie jeun \ge 0.92g/L (début), sinon teste 24-28SA avec HGO
+- ttt : diét., *pas* d'antidiabétique, surveillance
+
 ** 253 : Nutrition chez le sportif
 ** 265 : Hypocalcémie, dyskaliémie, hyponatrémie
 ** 266 : Hypercalcémie
