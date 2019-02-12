@@ -888,7 +888,30 @@ Complications métabolique :
   - ttt : réhydratation lente, insuline IV, héparine, cause
 - hypoglycémie : inévitable, non mortelle. Cf [[238 : Hypoglycémie][item 238]]
 ** 249 : Amaigrissement
+Vérifier l'amaigrissement !
+
+Causes endocrino : insuf. surrénale (primaire/secondaire)diabète, hyperthyroïdie, hypercalcémie
 ** 251 : Obésité
+IMC \ge 30 kg/m^2 (grade 1 si < 35, grade 3 si \ge 40)
+
+Étiologie : génétique, communes++ (déséquilibre apport-dépense).
+
+Complications : \inc RR mortablité, métabolique, CV, respi, ostéoarticulaire, digestive, rénale,
+gynéco, cutanée, néoplasique, psyhoscoliase
+
+Interrogatoire. Ttt = diététique, activité physique, psychologique + orlistat si
+IMC \ge 30 (ou 27 et comobridité). Chir bariatrique en 2eme intention.
+
+*** Enfant/ado
+IMC > 25 kg/m^2
+
+Étiologie : commune++ (facteur env., prédisposition génétiuqe), génétique,
+secondaire
+
+Complication : HTA, insulinorésistance, stéatose hépatique non alcoolique,
+articulaire, psycho
+
+Interrogatoire + EC. Ttt = prévention
 ** 252 : Diabète gestationnel
 ** 253 : Nutrition chez le sportif
 ** 265 : Hypocalcémie, dyskaliémie, hyponatrémie
