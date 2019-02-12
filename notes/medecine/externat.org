@@ -1346,7 +1346,11 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
    pâleur, tachycardie
 
 *** Causes 
- Diabétique : traité par insulines, hypoglycémiants oraux
+****  Diabétique 
+Si traité par insulines, hypoglycémiants oraux
+
+Ttt : sucre (3 morceaux) si CS, sinon glucagon 1mg par IM/SC (CI si
+sulfonylurée : glucose en perfusion)
 
 **** Insulinome 
  1ere cause tumorale (mais rare). Maligne dans 10%, < 2cm (90%)
@@ -1409,7 +1413,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  organes de voisinages, cancerisation (5%)
 
 **** PEC
- - Ado : levothyroxine (1 à 1.5 $\mu{}$g/kg/j) jusque V normal. Vérifier TSH
+ - Ado : levothyroxine (1 à 1.5 \mu{}g/kg/j) jusque V normal. Vérifier TSH
  - Adulte/agé : si multinodulaire non malin, surveillance. Si symptomatique,
    thyroïdectomie totale
  - Goitre ancien, négligé : iode 131

@@ -1,6 +1,5 @@
 #+title: Superfiches
 #+author: Alexis Praga
-
 #+latex_header: \input{header}
 #+latex_header_extra: \usepackage{adjustbox}
 * Cardiologie
@@ -692,7 +691,42 @@ Sd de Cushing
   - sinon : test de freinage fort à DXM, test de stimulation ACTH \thus maladie
     de Cushing (positif) ou sd paranéoplasique (négatif)
 ** 238 : Hypoglycémie
+Diag : neuroglucopénie[fn:42] et glycémie < 0.50g/L et correction à normalisation[fn:41]
+
+Cause : 
+- surdosag insuline++ chez diabétique \thus sucre si CS, sinon glucagon IM/SC
+  (ou perf glucose)
+- insulinome : diag par épreuve de jeune \thus chir
 ** 239 : Goitre, nodules thyroïdiens, cancers thyroïdiens
+Goître (hypertrophie thyroïdie) : évolue en multinodulaire (complications ?)
+- étiologie : tabac, déficience iode
+- diag : TSH  et T4  (si TSH \inc: Ac anti-TPO et anti-TG  (auto-immunité))
+- ttt : ado = correction par levothyroxine , adulte = surveillance. Chir chez l'adulte si symptomatique, hyperfonctionnel,
+  morphologie suspecte (ou iode 131 si âgé)
+Nodules (hypertrophie localisée thyroïdie) : doser TSH 
+- si signes : hématocèle (brutal + douleur), thyroïdite subaigüe (douleur +
+  fièvre), cancer (compressif + ADP), toxique (hyperthyroïdie), thyroïdite
+  lymphocytaire (hypothyroïdie)
+- nodule isolé cf [[tab:nodule_isole]]. Selon cytologie : surveillance si bénin, chir
+#+name: tab:nodule_isole
+#+caption: Orientation pour nodule isolé
+| TSH \inc            | TSH N           | TSH \inc      | 
+|---------------------+-----------------+---------------+
+| nodule hyperfonct ? | tumeurs         | thyroiidite ? | 
+| scint               | écho, cytologie | Ac anti-TPO   | 
+
+Cancers thyroïdiens : 
+
+- types : 
+  - différencié d'origine vésiculaire = Papillaire (85%, excellent
+    pronostic), Vésiculaire (5%, très/moins bon pronostic), Anaplasique (1%, 15%
+    survie 1 an)
+  - Medullaire (5%, 80% survie 5 an)
+- ttt = thyroïdectomie totale \pm curage ganglionnaire
+- si origine vésiculaire : iode 131 (après thyroïdectomie totale si haut risque),
+  L-T4 (si récidive)
+- si médullaire : chercher autres lésions NEM2[fn:43]
+
 ** 240 : Hyperthyroïdie
 ** 241 : Hypothyroïdie
 ** 242 : Adénome hypophysaire
@@ -710,6 +744,13 @@ Sd de Cushing
 ** 310 : Tumeurs du testicule (aspects endocriniens)
 *
 * Footnotes
+
+[fn:43] Phéochromocytome, hyperparathyroïdie
+
+[fn:42] Faim brutale, trouble concentration, moteurs, sensitifs, visuels,
+convulsion, confusion
+
+[fn:41] Coma hypoglycémique possible
 
 [fn:40] Tumeur de la médullo-surrénale 
 
