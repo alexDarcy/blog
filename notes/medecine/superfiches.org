@@ -668,6 +668,7 @@ Diag : CST \inc et ferritine \inc : chercher mutation C282Y sur HFE
 
 Ttt dès CST \inc : saignées jusque ferritine < 50g/L. Dépistage parents 1er degré
 ** 221 : HTA : hyperaldostorénonisme primaire, sd de Cushing
+<<sec:Cushing>>
 Contraception \oe{}stroprogestative, corticoïdes, réglisse
 
 Hyperminéralocorticisme primaire : 
@@ -766,6 +767,29 @@ Complications : insuf cardiaque, coma myxoedemateux \skull
 Ttt : lévothyroxine [fn:47]. Surveiller TSH (primaire) ou T4L (atteinte H-H) !
 
 ** 242 : Adénome hypophysaire
+Découverte : sd tumoral = céphalée, hémianopsie bi-temporale, apoplexie
+hypophysaire (rare mais urgence !)
+
+IRM (référence) : microadénome (hypointense, non rehaussé à l'injection) ou
+macroadénome (> 10mm, rehaussé injection)
+
+Hypersécrétion par l'hypophyse :
+- prolactine : galactorrhée, spanioménorrhée. Diagnosic = 
+  - vérifier hyperprolactinémie, éliminer grossesse,  médicaments, hypothyroïdie
+    préphi, insuf rénale
+  - microadénome : positif. Sinon, test agoniste dopaminergique
+- GH (acromégalie) : sd dysmorphique[fn:48], HTA
+  - complication : insuf cardiaque !, diabète
+  - diagnostic : pas de freinage de GH à l'HGO et \inc{} IGF-1
+- glucocorticoïdes (indirectement) : cf [[sec:Cushing][HTA et Cushing]]
+
+Insuffisance hypophysaire : table [[tab:insuf_hypophyse]]
+#+name: tab:insuf_hypophyse
+#+caption: Insuffisance hypophysaire
+| gonadotrope  | oestradiol/testostérone \dec ou FSH, LH \dec         |
+| corticotrope | cortisol \dec : synacthène, hypoglycémie insulinique |
+| thyréotrope  | T4l \dec mais TSH normale...                         |
+| somatotrope  | GH) : stimulation GH négative                        |
 ** 243 : Insuffisance surrénale
 ** 244 : Gynécomastie
 ** 245 : Diabète
@@ -780,6 +804,8 @@ Ttt : lévothyroxine [fn:47]. Surveiller TSH (primaire) ou T4L (atteinte H-H) !
 ** 310 : Tumeurs du testicule (aspects endocriniens)
 *
 * Footnotes
+
+[fn:48] Élargissement extrémité, visage (prognathisme)
 
 [fn:47] Obj: TSH \in [0.5, 2.5]mUI/L.
 

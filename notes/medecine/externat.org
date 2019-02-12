@@ -1873,7 +1873,7 @@ sulfonylurée : glucose en perfusion)
 
 
  - Déficit corticotrope : test Métopirone, cortisol < 200ng/mL si hypoglycémie (<
-   0.49g/L), autres test (cortisolémie, synacthone, CRH)
+   0.49g/L), autres test (cortisolémie, synacthène, CRH)
  - Déficit thyréotrope  : \dec{} T4L sans augmentation de TSH
  - Déficit gonadotrope : 
    - \female{} préménopause : aménorrhée, oestradiol \dec, gonadotrophines
@@ -3230,7 +3230,7 @@ sulfonylurée : glucose en perfusion)
  \resizebox{!}{5cm}{
      \tikz \graph [decision, layer distance=1.5cm]
      {
-       ht/hypothalamus[organ] -> ["GHRH"] hh/hypophyse[organ] -> Foie[organ] -> "IGF-1" -> {
+       ht/hypothalamus[organ] -> ["GHRH"] hh/hypophyse[organ] -> ["GH"] Foie[organ] -> "IGF-1" -> {
          os;
 	 muscle;
 	 graisse..;      
