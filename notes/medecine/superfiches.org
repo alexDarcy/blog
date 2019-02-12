@@ -887,7 +887,7 @@ Complications métabolique :
   - diag = glycosurie, cétonurie (BU) et hyperglycémie (dextro)
   - ttt : réhydratation lente, insuline IV, héparine, cause
 - hypoglycémie : inévitable, non mortelle. Cf [[238 : Hypoglycémie][item 238]]
-** 249 : Amaigrissement
+** 249 : Amaigrissement (à compléter)
 Vérifier l'amaigrissement !
 
 Causes endocrino : insuf. surrénale (primaire/secondaire)diabète, hyperthyroïdie, hypercalcémie
@@ -925,7 +925,42 @@ D. parents 1er degr}
 - ttt : diét., *pas* d'antidiabétique, surveillance
 
 ** 253 : Nutrition chez le sportif
+Examen d'aptitude : ATCD familaiaux (CV),  EC complet, ECG d'effort
+
+Bénéficices du sport : 150min/semaine (ou 75min si intense) chez
+l'adulte. 60min/jour chez l'enfant + renforcement
+- adulte : 
+  - prévention = K (colon, sein), CV, métabolique, ostéoporose \female,
+  - maintien = \dec mortalité prématuré, \inc autonomie
+  - traite = cardiomyopathie, ischém, BPCO, obésité, diabète 2 neuro,
+    rhumatismal, dégénératif
+- enfant : dev psychosocial, dev psychomotoeur, prévient sd métabolique,
+  surpoids, CV, \inc masse maigre et densité osseuse
+
+Bseoins :
+- glucides (50%) : IG faible à distance, élevé juste avant. reconstituer stocks après
+- lipides (30%) à limiter si compétition
+- protéines (20%)
+- calcium 1g/j, Fer 10-15mg/j, vit D 5 \mu{}g/j \thus surveiller chez l'enfant
 ** 265 : Hypocalcémie, dyskaliémie, hyponatrémie
+Hypocalcémie :
+- clinique : troubles du rythme, parésthésie, tétanie
+- causes hypoparathyroïdie, anomalie vitamine D (carence, malabsorption...)
+- ttt : aigü \skull calcium IV lente. Chronique : vitamine D et calcium
+Hyperkaliémie (risque cardiaque \skull)
+- étiologies : hypoaldostéronisme (IS) , acidose  métabolique [fn:55]
+Hypokaliémie (risque cardiaque \skull)
+- étiologie : excès d'insuline, hyperaldostéronisme, dénutrition sévère
+Hyponatrémie endocrinienne (hospitalisé++)
+- étiologie selon osmolalité : si \inc, hyperglycémie, si N, hyperTG,
+  hyperprotidémie. Si \dec, "vraie" hyponatrémie : table [[tab:hyponatremie]]
+#+name: tab:hyponatremie
+#+caption: hyponatrémie "vraie"
+  | volémie \inc | IC, cirrhose, sd néphrotique                          | Sérum isotonique   |
+  | volémie R    | hypothyroïdie, insuf corticotrope, SIADH              | Sérum hypertonique |
+  | volémie \dec | perte digestive, rénale, insuf corticosurrénale aigüe | Restriction hydrosodée |
+
+
 ** 266 : Hypercalcémie
 ** 303 : Tumeurs de l'ovaire (hormono-sécrétante)
 ** 305 Tumeurs du pancréas (endocrine)
@@ -942,6 +977,8 @@ D. parents 1er degr}
  - ttt : équilibre glycémie et TA++. Photocoagulation panrétinienne, anti-VEGF
 
 * Footnotes
+
+[fn:55] par \dec élimination rénale, par sortie du K+ de la cellule respectivement.
 
 [fn:54] Sauf insuf. coronarien, rétinopathie proliférante non stabilisée
 
