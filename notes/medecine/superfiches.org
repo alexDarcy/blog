@@ -962,6 +962,14 @@ Hyponatrémie endocrinienne (hospitalisé++)
 
 
 ** 266 : Hypercalcémie
+Étiologie :
+- PTH \inc ou N
+  - hyperparathyroïdie primaire (55%) : ttt = chir conventionnelle
+  - hypercalcémie-hypocalciurie familiale bénigne
+- PTH \dec
+  - maligne (30%)
+  - iatrogène, granulomatose
+Ttt (hors hyperparathyroïdie primaire) : bsiphosphonates, calcimimétique
 ** 303 : Tumeurs de l'ovaire (hormono-sécrétante)
 ** 305 Tumeurs du pancréas (endocrine)
 ** 310 : Tumeurs du testicule (aspects endocriniens)

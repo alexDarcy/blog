@@ -3058,13 +3058,13 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
      (plutôt fortes doses d'antiacide ou carbonate de calcium)
 
 *** Traitement
- Hypoparathyroïdie primitive : guérison par ablation des adénome(s) par chir
+ Hyperparathyroïdie primitive : guérison par ablation des adénome(s) par chir
  conventionnelle ou mini-invasive (faire imagerie avant !)
 
  Sinon, traitement palliatif : bisphosphonates (inhibe résorption osseuse),
  calcimimétiques (\dec PTH), 
 
- \danger Hypercalcémie = urgence \skull{} : 
+ \danger Hypercalcémie maligne = urgence \skull{} : 
  - sérum phy
  - bisphosphonate en perf lente ou corticothérapide IV (myélome/hémopathie) ou dialyse (maligne)
 ** 303 : Tumeurs de l'ovaire (hormono-sécrétante)
