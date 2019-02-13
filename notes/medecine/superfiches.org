@@ -1059,16 +1059,16 @@ Sans BAV, sans douleur :
 #+LATEX: \centering
 #+LATEX: \adjustbox{max width=\linewidth}{
 #+ATTR_LATEX: :center nil
-| Type                    | Symptômes                                                                 | Étiologie                  | Ttt                                                                               |
-|-------------------------+---------------------------------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------|
-| Glaucome aigu par FA    | Douleur++, "bille de verre"                                               |                            | acétazolamide\tablefootnote{inhib. anhydrase carbonique}, solutés hyperosmolaires |
-|                         |                                                                           |                            | hypotoniques, myotique (collyre)                                                  |
-| Uvéite antérieure aigǜe | Synéchies iridocristaliniennes                                            | inconnue (50%)             |                                                                                   |
-|                         | Tyndall\tablefootnote{Protéines, c. inflammatoires dans l'humeur aqueuse} | Spondylarthrie ankylosante |                                                                                   |
-|                         | précipités rétro-cornéens                                                 | herpès, sarcoïdose         | mydriatiques, corticoïdes (collyre)                                               |
-| Kératite aigüe          | Ulcération (à la fluorescine)                                             | Herpès, bactéries          |                                                                                   |
-| Glaucome NV             | Néovaisseaux sur l'iris                                                   |                            | Hypotonisants, photocoag/anti-VEGF                                                |
-| Endophtalmie post-op    | \oe{}dème palpébral, hyalite\tablefootnote{Inflammation du corps vitré}   |                            |                                                                                   |
+| Type                    | Symptômes                                                                 | Étiologie                  | Ttt                                                  |
+|-------------------------+---------------------------------------------------------------------------+----------------------------+------------------------------------------------------|
+| Glaucome aigu par FA    | Douleur++, "bille de verre"                                               |                            | inhib. anhydrase carbonique, solutés hyperosmolaires |
+|                         |                                                                           |                            | hypotoniques, myotique (collyre)                     |
+| Uvéite antérieure aigǜe | Synéchies iridocristaliniennes                                            | inconnue (50%)             |                                                      |
+|                         | Tyndall\tablefootnote{Protéines, c. inflammatoires dans l'humeur aqueuse} | Spondylarthrie ankylosante |                                                      |
+|                         | précipités rétro-cornéens                                                 | herpès, sarcoïdose         | mydriatiques, corticoïdes (collyre)                  |
+| Kératite aigüe          | Ulcération (à la fluorescine)                                             | Herpès, bactéries          |                                                      |
+| Glaucome NV             | Néovaisseaux sur l'iris                                                   |                            | Hypotonisants, photocoag/anti-VEGF                   |
+| Endophtalmie post-op    | \oe{}dème palpébral, hyalite\tablefootnote{Inflammation du corps vitré}   |                            |                                                      |
 #+LATEX: }
 #+end_table
 Sans BAV, non douloureux
@@ -1107,11 +1107,46 @@ BAV, \oe{}il blanc indolore :
 | FO visible normale             | névrite optique rétrobulbaire             | scotome central                   |
 | Cécité monoculaire transitoire |                                           |                                   |
 ** 9 Prélèvement de cornée
+Faire sérologies HIV, HTLV, VHB, VHC, syphilis
+
+CI : locale, infectieuses (sida, rage, Creutzfeld-Jakob, hépatite), neuro
+inexpliqué, démence
 ** 10 Greffe de cornée
+Transfixiantes ou juste endothelium. 
+
+Indications : trauma, kératocône, kératite herpétiques/infectieuse
 ** 11 Traumatismes oculaires
+Globe ouvert, corps étranger : si doute TDM (\danger pas d'IRM si corps
+étranger)
+
+Chir en urgence : recherche/suture plaie du globe, extraction CE intraoculaire,
+plaie du cristallin
 ** 12 Brûlures oculaires
+Brûlures basiques = grave \danger
+
+Ttt urgence = lavage 20min au sérum phys puis collyre corticoïdes 
 ** 13 Cataracte
+Opacification du cristallin.
+
+Diag clinique : BAV progressive en vision de loin, lampe à fente
+
+Étiologies : âge, diabète, crorticoïdes, traumatique
+
+Ttt = chir (extraction par phacoémulsification puis implant en chambre
+postérieure)
+
+Complications : endophtalmie (ATB !), décollement rétine, \oe{}dème maculaire
 ** 14 Glaucome chronique
+
+Glaucome primitif à pression élevée (\approx occidentaux), ou pression _normale_
+(\approx asiatique)
+
+FR: âge, hypertonie oculaire. Physio : perte accélée des fibres optiques.
+
+Caractéristiques : \inc excavation papille, altération CV
+
+Ttt à vie : prostaglandine ou \beta-bloquants[fn:57] (collyre), laser
+(trabéculoplastie) ou chir (trabéculectomie) possible
 ** 15 Dégénérescence maculaire liée à l'âge
 ** 16 Occlusions artérielles rétiniennes
 ** 17 Occlusions veineuses rétiniennes
@@ -1131,6 +1166,8 @@ BAV, \oe{}il blanc indolore :
 
 
 * Footnotes
+
+[fn:57]  \inc élimination humeur aqueuse et \dec sécrétion respectivement.
 
 [fn:56] Si sécrète hCG : ttt = conservateur/chimie, si sd
 Turner : ttt = gonadectomie préventive

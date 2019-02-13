@@ -3816,7 +3816,11 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 
  Complications (si intraoculaire) : endophtalmie (grave++), DR, cataracte traumatique
 
- Complications tardives : ophtalmie sympathique [fn:ophtalmo22], sidérose (fer), chalcose (cuivre)
+ Complications tardives : ophtalmie sympathique [fn:ophtalmo22], sidérose (fer),
+ chalcose (cuivre)
+
+Chir en urgence : recherche/suture plaie du globe, extraction CE intraoculaire,
+plaie du cristallin
 ** 12 Brûlures oculaires
  Accident industriels (graves), domestiques, aggression
 
