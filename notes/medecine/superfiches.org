@@ -1074,7 +1074,38 @@ Sans BAV, sans douleur :
 Sans BAV, non douloureux
 
 ** 7 Altération de la fonction visuelle
+BAV progressive
+- transparence anormale : cataracte (ttt = chir), cornée, vitré
+- sinon : 
+  - atteinte nerf optique : glaucome chronique à AO (ttt = hypotonisants,
+    chir), neuropathies toxiques
+  - atteinte rétine = rétinopathies pigmentaires, ou macula = DMLA,
+    maculopathies héréditaires, \oe{}dème maculaire, antipaludéens, séparation vitré/macula
+Altération CV
+- ateinte rétine (scotomes centrau, déficits périph)
+- atteinte nerf optique : SEP, NOIA, toxique
+- atteinte chiasma optique : adénome hypophysaire
+- atteinte rétrochiasmatique : vasc, tumoral, trauma
 ** 8 Anomalies de la vision d'apparition brutale
+BAV, \oe{}il rouge douloureux : cf [[6 \OE{}il rouge/douloureux][chap 6]]
+
+BAV, \oe{}il blanc indolore :
+
+| FO non visible                 | hémorragie intra-vitréenne                | Écho B                            |
+|                                | uvéite du vitré                           |                                   |
+| FO visible anormale            | occlusion artère centrale rétine          | mydriase aréflexique              |
+|                                |                                           | macula rouge cerise               |
+|                                |                                           | (urgence si Horton)               |
+|                                | occlusion veine centrale rétine           | \oe{}dème papillaire              |
+|                                |                                           | hémorragie rétiniennes dissémines |
+|                                |                                           | nodules cotonneux                 |
+|                                | DMLA                                      | métamorphopsies brutale           |
+|                                | décollement rétine rhegmatogène           | myodésopsies, phosphène           |
+|                                |                                           | (semi-urgence)                    |
+|                                | neuropathie optique ischémique antérieure | \dec RPM direct                   |
+|                                |                                           | \oe{}dème papillaire              |
+| FO visible normale             | névrite optique rétrobulbaire             | scotome central                   |
+| Cécité monoculaire transitoire |                                           |                                   |
 ** 9 Prélèvement de cornée
 ** 10 Greffe de cornée
 ** 11 Traumatismes oculaires
