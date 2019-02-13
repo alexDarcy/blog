@@ -1052,7 +1052,6 @@ Sans BAV, sans douleur :
 - conjonctivite (bactérienne : collyre antiseptiqu)
 - hémorragie sous-conjonctivale (HTA, trouble coag ?)
 
-
 #+name: tab:oeil_bav_douloureux
 #+begin_table
 #+LATEX: \caption{Avec BAV, douloureux: étiologies}
@@ -1148,9 +1147,67 @@ Caractéristiques : \inc excavation papille, altération CV
 Ttt à vie : prostaglandine ou \beta-bloquants[fn:57] (collyre), laser
 (trabéculoplastie) ou chir (trabéculectomie) possible
 ** 15 Dégénérescence maculaire liée à l'âge
+1ere cause de malvoyance après 50 ans.
+
+Diag = AV, FO, OCT (cf tab [[tab:dmla]])
+#+name: tab:dmla
+#+begin_table
+#+LATEX: \caption{Formes de DMLA}
+#+LATEX: \centering
+#+LATEX: \adjustbox{max width=\linewidth}{
+#+ATTR_LATEX: :center nil
+| Forme                   | Clinique                      | FO                                                       | Ttt                                 |
+|-------------------------+-------------------------------+----------------------------------------------------------+-------------------------------------|
+| Débutante               |                               | /drusen/\tablefootnote{Petites lésions profondes jaunes} | vit E, C, zinc, lutéine, zéaxantine |
+| Atrophique              | BAV sévère, scotome central   | atrophile épith. pigment.                                | \emptyset                           |
+| Exsudative              | BAV, métamorphopsies brutales | \oe{}dème intrarétienne                                  | anti-VEGF                           |
+| (néovaisseux ss rétine) |                               | décollement maculaire exsudatif                          |                                     |
+#+LATEX: }
+#+end_table
 ** 16 Occlusions artérielles rétiniennes
+Artère centrale de la rétine 
+- Diag = 
+  - BAV brutale, \oe{}il blanc indolore, mydriase aréflective
+  - FO : macula "rouge cerise"
+- Étiologie : embolies (athémore carotidien), maladie de horton = urgence \skull
+- CAT = urgence \skull. Très mauvais pronostic fonctionnel
+  - ttt de l'étio (antiagrégant/anti vit-K)
+- Branche de l'ACR : pronostic visuel bon (amputation), pas d'Horton
 ** 17 Occlusions veineuses rétiniennes
+Veine centrale de la rétine
+- Diag (facile) : BAV brutale, FO = dilatation veineuse, nodules cotonneux,
+     hémorragies disséminées, \oe{}dème papillaire
+- FR : > 50 ans avec FR vasc, hypertonie oculaire
+- 2 formes (angiographie fluorescine) 
+
+#+name: tab:ovr
+#+begin_table
+#+LATEX: \caption{Formes d'OVR}
+#+LATEX: \centering
+#+LATEX: \adjustbox{max width=\linewidth}{
+#+ATTR_LATEX: :center nil
+| Forme          | Évolution                  | TTT                                               |
+|----------------+----------------------------+---------------------------------------------------|
+| non ischémique | normalisation              | anti-VEGF, surveillance mensuelle                 |
+|                | ou ischémique              |                                                   |
+| ischémiques    | pas de récupération fonct. | PPR\tablefootnote{Photocoagulation panrétinienne} |
+|                | glaucome NV \danger        | PPR en urgence                                    |
+|                |                            |                                                   |
+#+latex: }
+#+end_table
+
+- Branche veineuse rétinienne : évolution favorable / hémorragie du vitré (pas
+  de GNV !)
 ** 18 Pathologies des paupières
+Cf [[tab:paupieres]]
+
+Autres : entropion (sénile/paralysie VII), ectropion, ptosis (penser anévrisme
+IC \skull), lagophtalmie
+
+#+name: tab:paupieres
+| Orgelet   | follicule du cil | infection bactérienne | ATB 8 j    |
+| Chalazion | glande Meibomius | inflammation          | corticoïde |
+Tumeurs malignes : carcinome basocellulaire/épidermoide, mélanique, carcinomes sébacés
 ** 19 SEP
 ** 20 Neuropathie optique ischémique antérieure
 ** 21 Rétinopathie diabétique

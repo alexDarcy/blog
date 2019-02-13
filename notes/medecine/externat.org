@@ -3973,7 +3973,7 @@ plaie du cristallin
  - débutante : vitamine E, C, zinc, lutéine, zéaxantine
  - atrophique : \emptyset
  - exsudative : injection d'anti-VEGF : ranibizumab, 
-   aflibercet, bévacizumab. Stoppent néovaisseux, font régresser l'\oe{}dème. 40%
+   aflibercet, bévacizumab. Stoppent néovaisseaux, font régresser l'\oe{}dème. 40%
    ont amélioration visuelle à 2 ans. 
  Laser possible mais risque thrombose
 ** 16 Occlusions artérielles rétiniennes
