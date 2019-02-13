@@ -4132,7 +4132,7 @@ plaie du cristallin
  - ne pas confondre avec neuromyélite de Devic ! Inflammation (\ne auto-immune) du
    SNC, BAV profonde rapide. IRM : pas d'inflammation cérébrale mais médullaire 
  - ttt : corticothérapie  parentérale 3-5j (1g/j) puis oral court (11 j). Retarde
-   un nouvel épisde. Si SEP, ttt de fond (immunomodulateur [interférons, acétate
+   un nouvel épisode. Si SEP, ttt de fond (immunomodulateur [interférons, acétate
    de glatiramère] ou natalizumab, fingolimod)
  - pronostic fonctionnel souvent favorable
  - DD : autres neuropathies optiques
@@ -4263,7 +4263,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
  - trouble oculomoteur : myosite \thus diplopie
   
  Complications :
- - cornée : kératite, peforation
+ - cornée : kératite, perforation
  - neuropathie optique compressive (3%) \thus méthylprednisolone forte dose ou
    décompression rapide \skull !
 

@@ -1000,11 +1000,11 @@ Ttt = chir (glucocorticoïdes si inclusions surrénaliennes)
 ** 1 Sémiologie oculaire
 Anatomie 
 - Membrane externe (cornée, conjonctive, sclère), uvée (iris, corps ciliaire,
-choroïde), rétine 
+  choroïde), rétine 
 - Contenu : humeur aqueuse (chambre antérieure), cristallin, corps vitré
-(postérieur)
+  (postérieur)
 - Voie optique : nerf optique - chiasma - bandelettes - corps genouillés
-externes - radiations optiques - cortex occipital
+  externes - radiations optiques - cortex occipital
 - Nerfs oculomoteurs : IV = oblique sup, VI = droit externe et les autres = III
 Examens :
 - AV (Parinaud = près, Monoyer = loin)
@@ -1209,7 +1209,21 @@ IC \skull), lagophtalmie
 | Chalazion | glande Meibomius | inflammation          | corticoïde |
 Tumeurs malignes : carcinome basocellulaire/épidermoide, mélanique, carcinomes sébacés
 ** 19 SEP
+20% inaugurant SEP. 50% de SEP à 15 ans. Formes :
+- neuropathie optique : 
+  - BAV variable, douleurs rétro-oculaire, pupille Marcus-gunn
+  - scotome (caeco) central, dyschromatopsie d'aexe rouge-vert
+  - IRM 
+  - Ttt = corticoïdes + (SEP) interféron
+- paralysie du VI, nystagmus, périphlébite rétinienne
 ** 20 Neuropathie optique ischémique antérieure
+Diag = BAV brutale indolore
+- FO : \oe{}dème papillaire. Examen CV ++ (déficit alditudinal)
+
+Étiologies
+- artériosclérose (freq) : FR. Pas de ttt efficaces
+- maladie de Horton = urgence \skull. Bio = VS \inc, CRP \inc \thus
+  corticothérapie générale forte dose
 ** 21 Rétinopathie diabétique
 <<sec:retinopathie_diabetique>>
  1ère cause de cécité chez < 50 ans. 30% des diabétique
@@ -1219,7 +1233,24 @@ Tumeurs malignes : carcinome basocellulaire/épidermoide, mélanique, carcinomes
  - dépistage annuel FO, OCT
  - ttt : équilibre glycémie et TA++. Photocoagulation panrétinienne, anti-VEGF
 ** 22 Orbitopathie dysthyroïdienne
+Maladie de Basedow++, thyroïdite d'Hashimoto
+
+Manif = exophtalmie (bilatérale, axile, non pulsatile, indolore), rétraction
+paupière, diplopie
+
+TSH effondrée, scanner, IRM, {CV, couleurs, PEV}
+Ttt 
+- médical : hyperthyroïdes, anti-inflammatoire si score CAS \ge 3
+- si grave : corticothérapie générale, chir
 ** 23 Rétinopathie et choroïdopathie hypertensive
+Rétinopathie hypertensive : si HTA sévère.
+- hémorragie en flammèches superficielles, \oe{}dème maculaire
+- hémorragies profondes, rondes, nodules cotonneuxs
+- pas BAV
+Choroïdopathie hypertensive : nécrose de l'épithelium pigmentaire, cicatrices
+(décollement de rétine exsudatif si sévère)
+
+Artériosclérose : asymptomatique, irréversibles. Signe du croisement, \inc reflet artériolaire
 
 
 * Footnotes
