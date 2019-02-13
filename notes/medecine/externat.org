@@ -338,6 +338,7 @@ Neuropsy :
 - anxiété : benzodiazepine, hydroxine. Si échec neuroleptique
 
 * Endocrinologie                                                     :export:
+** 32 : Allaitement maternel
 ** 35 : Contraception
 *** Contraception hormonale
  Oestroprogestatifs
@@ -823,6 +824,7 @@ Neuropsy :
  - GF-1, T4L, TSH
  - Radio
 
+** 69 : Troubles des conduites alimentaires (à compléter)
 ** 78 : Dopage
 *** Substances augmentant la testostérone 
  - Stéroïdes anabolisant, testostérone : \inc masse musc, puissance
@@ -1223,6 +1225,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
 
  Bilan ferrique (stade 0,1) ferritinémie, hémoglobine (stade 2 à 4)
 
+** 220 Dylipidémie
 ** 221 : HTA, causes endocriniennes
  Déf: \ge 140/90 mmHg.
 
@@ -2047,7 +2050,7 @@ sulfonylurée : glucose en perfusion)
  - Pubertaire : ne rien faire
  - Idiopathique : androgènes non aromatisables 3 mois. Si inefficace, chir
    plastique possible
-** 245 : Diabète
+** 245 : Diabète (à compléter)
    \begin{tcolorbox}
  Définition : glycémie à jeun \ge 1.26g/L (2 reprises) ou (aléatoire \ge 2g/L et signes hyperglycémie)\footnotemark
  \end{tcolorbox}
@@ -2578,6 +2581,9 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - peur chez diabiétique, déstabilise diabète, attention si âgé ou alcoolique
  - favorisé par : hypoglycémie mineure répétées ignorées, neuropathie végétative
  - cause : repas insuffisants, effort physique, erreur d'injection
+** 246 : Prévention par la nutrition
+** 247 : Modifications thérapeutiques du mode de vie
+** 248 : Dénutrition (à compléter)
 ** 249 : Amaigrissement
  Fréquent
 
@@ -2612,7 +2618,8 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
    - insuf surrénalienne : cortisol, ACTH plasmatique
    - panhypopituitarisme[fn:endocrino68] : cortisol \dec
    - phéochromocytomes : (nor)métanéphrines dans urines 24h, imagerie surrénales
-** 251 : Obésité
+** 250 : Troubles nutritionnels chez sujet âgé (à compléter)
+** 251 : Obésité(à compléter)
 *** Adulte
  Surpoids = IMC \in [25, 29.9]kg/m^2. Obésité :
  - grade 1 : IMC \in [30, 34.9]kg/m^2.
@@ -2698,7 +2705,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 **** Traitement	
  Prévention surtout. Modifier style de vie (efficacité faible). Chir possible
  avec équipes spécialisées
-** 252 : Diabète gestationnel
+** 252 : Diabète gestationnel + nutrition et grossesse (à compléter)
  Physio chez femme enceinte selon moitié:
  - non diabétique : (\inc insulinéme, insulinosensibilité) puis (insulinorésistance
    \thus hyperinsulinisme ou diabète gestationnel)
@@ -3229,7 +3236,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 * Pneumologie                                                        
 \input pneumologie
 
-* Ophtalmo                                                           :export:
+* Ophtalmologie                                                      :export:
 ** 1 Sémiologie oculaire
 *** Globe
  Membranes (d'avant en arrière)
@@ -3249,7 +3256,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - mydriase "sensorielle"[fn:ophtalmo1] vs "paralytique"[fn:ophtalmo2]
  - voie efférente sympathique : si atteinte, sd Claude-Bernard-Horner (myosis, ptosis)
  Annexes
- - oculomoteur : nerf IV = {oblique supérieur}, VI = {droit externe} et III =
+ - oculomoteur : nerf IV = {oblique supérieur[fn:1]}, VI = {droit externe} et III =
    {droit sup, droit inf, droit médial, oblique inf}
  - protection : paupière (muscle orbiculaire, tarse), conjonctive (face interne
    paupière, globe antérieur), film lacrymal
@@ -3290,8 +3297,8 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
    - sensibilité lumineuse \dec périphérie, papille = zone aveugle
    - périmétrie cinétique (Goldman : trace isoptères) ou statique (dépistage glaucome)
  - Vision des couleurs : si dépistage anomalie congénitale (planches colorées) ou
- affection acquise (Farnsworth = classer couleurs). Utile pour antipaludéens de
- synthèse ou {éthambutal, isoniazide}
+   affection acquise (Farnsworth = classer couleurs). Utile pour antipaludéens de
+   synthèse ou {éthambutal, isoniazide}
 
  Angiographie du fond d'\oe{}ils : fluorescine ou vert d'indocyanine (gls:DMLA++)
 
@@ -4233,7 +4240,6 @@ FR = durée et intensité de l'hyperglycémie
 *** Autres complications 
 cataracte (+ freq), glaucome néovasculaire (redoutable),
  paralysie oculomotrice (régresse spontanément qq mois)
-
 
 ** 22 Orbitopathie dysthyroïdienne
  Surtout maladie de Basedow (ou thyroïdite auto-immune d'Hashimoto
@@ -5690,6 +5696,8 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
  \printglossaries
 * Footnotes
+
+[fn:1] S'attache côté médial
 
 [fn:endocrino70] La PTH est produite par la parathyroïde...
 

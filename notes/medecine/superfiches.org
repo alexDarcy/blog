@@ -548,6 +548,7 @@ Ttt : sevrage tabac
 Prévention récidive : pleurodèse 
 
 * Endocrinologie - Nutrition
+** 32 : Allaitement maternel
 ** 35 : Contraception (gynéco)
    |            | \oe{}stroprogestatif                        | Micro/macroprogestatifs     |
    |------------+---------------------------------------------+-----------------------------|
@@ -616,6 +617,7 @@ Cf table [[tab:retard_croissance]] + bilainVS, NFS, foie, rein.
    | Maladie coeliaque, mucoviscidose | {IgA, IgA anti-transglutamase},test sueur |
    | Os                               | radio                                     |
    | Retard pubertaire simple         |                                           |
+** 69 : Troubles des conduites alimentaires (à compléter)
 ** 78 : Dopage
    /Stéroïdes anabolisant/, testostérone (\inc masse musculaire, puissance)
 
@@ -667,6 +669,7 @@ articulaire, c\oe{}ur
 Diag : CST \inc et ferritine \inc : chercher mutation C282Y sur HFE
 
 Ttt dès CST \inc : saignées jusque ferritine < 50g/L. Dépistage parents 1er degré
+** 220 Dylipidémie
 ** 221 : HTA : hyperaldostorénonisme primaire, sd de Cushing
 <<sec:Cushing>>
 Contraception \oe{}stroprogestative, corticoïdes, réglisse
@@ -887,11 +890,15 @@ Complications métabolique :
   - diag = glycosurie, cétonurie (BU) et hyperglycémie (dextro)
   - ttt : réhydratation lente, insuline IV, héparine, cause
 - hypoglycémie : inévitable, non mortelle. Cf [[238 : Hypoglycémie][item 238]]
+** 246 : Prévention par la nutrition
+** 247 : Modifications thérapeutiques du mode de vie
+** 248 : Dénutrition (à compléter)
 ** 249 : Amaigrissement (à compléter)
 Vérifier l'amaigrissement !
 
 Causes endocrino : insuf. surrénale (primaire/secondaire)diabète, hyperthyroïdie, hypercalcémie
-** 251 : Obésité
+** 250 : Troubles nutritionnels chez sujet âgé (à compléter)
+** 251 : Obésité (à compléter)
 IMC \ge 30 kg/m^2 (grade 1 si < 35, grade 3 si \ge 40)
 
 Étiologie : génétique, communes++ (déséquilibre apport-dépense).
@@ -912,7 +919,7 @@ Complication : HTA, insulinorésistance, stéatose hépatique non alcoolique,
 articulaire, psycho
 
 Interrogatoire + EC. Ttt = prévention
-** 252 : Diabète gestationnel
+** 252 : Diabète gestationnel + nutrition et grossesse (à compléter)
 Pré-gestationnel
 - risque f\oe{}tus : fausses couches, malformations congénitales, mort f\oe{}tales,
 - risque mère : HTA ++, rétinopathie, néphropathie
@@ -971,11 +978,69 @@ Hyponatrémie endocrinienne (hospitalisé++)
   - iatrogène, granulomatose
 Ttt (hors hyperparathyroïdie primaire) : bsiphosphonates, calcimimétique
 ** 303 : Tumeurs de l'ovaire (hormono-sécrétante)
-** 305 Tumeurs du pancréas (endocrine)
+Sécrète des \oe{}strogènes : tumeurs de la granulosa++ : 
+- sympto : pseudo-puberté précoce ou aménorrhée/ménométrorragie ou saignement vaginal
+- ttt = ovariectomie unilatérale
+Sécrète des androgènes : tumeurs à c. de sertoli-Leydig (Hirsutisme, ttt
+conservateur), à c. de Leydig (virilisante, ttt = ovariectomie bilat),
+germinales sécrétantes [fn:56]
+** 305 : Tumeurs du pancréas (endocrine)
+Clinique selon sécrétion (insuline, gastrine, ACTH, glucagon, VIP, GHRH)
 ** 310 : Tumeurs du testicule (aspects endocriniens)
-*
+Clinique : pseudo-puberté précoce/gynécomastie
+
+Sécrète testostérone/\oe{}stradiol ou gonadotrophine chorionique/hCGA (tumeurs
+germinales)
+
+Diag = palpation testiculaire + écho
+
+Ttt = chir (glucocorticoïdes si inclusions surrénaliennes)
+
 * Ophtalmo
-** Rétinopathie diabétique 
+** 1 Sémiologie oculaire
+Anatomie 
+- Membrane externe (cornée, conjonctive, sclère), uvée (iris, corps ciliaire,
+choroïde), rétine 
+- Contenu : humeur aqueuse (chambre antérieure), cristallin, corps vitré
+(postérieur)
+- Voie optique : nerf optique - chiasma - bandelettes - corps genouillés
+externes - radiations optiques - cortex occipital
+- Nerfs oculomoteurs : IV = oblique sup, VI = droit externe et les autres = III
+Examens :
+- AV (Parinaud = près, Monoyer = loin)
+- lampe à fente (segment antérieur), gonioscopie (angle iridocornéen)
+- pression intraoculaire par tonomètre à pair pulsé (hypertonie si \ge 22mHg)
+- FO
+Complémentaires
+- CV (périmétrie statique = dépistage glaucome), couleurs
+- angiographie (DMLA)
+- électrorétinogramme, potentiels évoqués visuels (SEP), électro-oculogramme
+- écho (mode A = longeur, mode B = décollement rétine)
+- OCT (glaucome chronique, macula : DLMA)
+** 2 Réfraction
+\OE{}il = 60 dioptries (42 cornée, 20 cristallin).
+
+Myope = trop convergent \thus verre concave/chir. Hypermétrope = pas assez convergent
+\thus verre convexe/chir. Astigmate \thus verres cylindriques/chir
+** 3 Suivi d'un nourisson
+** 4 Strabisme de l'enfant
+** 5 Diplopie (binoculaire)
+** 6 \OE{}il rouge/douloureux
+** 7 Altération de la fonction visuelle
+** 8 Anomalies de la vision d'apparition brutale
+** 9 Prélèvement de cornée
+** 10 Greffe de cornée
+** 11 Traumatismes oculaires
+** 12 Brûlures oculaires
+** 13 Cataracte
+** 14 Glaucome chronique
+** 15 Dégénérescence maculaire liée à l'âge
+** 16 Occlusions artérielles rétiniennes
+** 17 Occlusions veineuses rétiniennes
+** 18 Pathologies des paupières
+** 19 SEP
+** 20 Neuropathie optique ischémique antérieure
+** 21 Rétinopathie diabétique
 <<sec:retinopathie_diabetique>>
  1ère cause de cécité chez < 50 ans. 30% des diabétique
  - maculopathie diabétique
@@ -983,8 +1048,14 @@ Ttt (hors hyperparathyroïdie primaire) : bsiphosphonates, calcimimétique
    quadrans/dilatations veineuses 2 quadrants/AMIR 1 quadrant) puis proliférante (néovaisseaux)
  - dépistage annuel FO, OCT
  - ttt : équilibre glycémie et TA++. Photocoagulation panrétinienne, anti-VEGF
+** 22 Orbitopathie dysthyroïdienne
+** 23 Rétinopathie et choroïdopathie hypertensive
+
 
 * Footnotes
+
+[fn:56] Si sécrète hCG : ttt = conservateur/chimie, si sd
+Turner : ttt = gonadectomie préventive
 
 [fn:55] par \dec élimination rénale, par sortie du K+ de la cellule respectivement.
 
