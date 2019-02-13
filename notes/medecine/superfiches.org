@@ -1023,7 +1023,13 @@ Complémentaires
 Myope = trop convergent \thus verre concave/chir. Hypermétrope = pas assez convergent
 \thus verre convexe/chir. Astigmate \thus verres cylindriques/chir
 ** 3 Suivi d'un nourisson
+Dépister enter 9 et 12 mois : réfraction, strabisme + réfraction après
+cycloplégie (amblyopie).
 ** 4 Strabisme de l'enfant
+= symptôme !
+
+Examen motilié (paralytique vs motilité normale)
+Ttt : correction optique \pm occlusion \oe{}il si amblyopie (chir si persistance)
 ** 5 Diplopie (binoculaire)
 ** 6 \OE{}il rouge/douloureux
 ** 7 Altération de la fonction visuelle

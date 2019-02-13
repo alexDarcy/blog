@@ -3374,9 +3374,9 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  Développement :
  - 1ere semaine : réflexe lumière, RPM
  - 2-4e semaine : reflexe de poursuite
- - 4-12e semaine : reflexe de poursuite
+ - 4-12e semaine : reflexe de fusion-coordination
  - 3e mois : vision des formes
- - 4-5e mois : coordinatio \oe{}il-tête-main
+ - 4-5e mois : coordination \oe{}il-tête-main
  - > 2 ans : AV mesurable
  Examens obligatoires pour {strabisme, nystagmus, anomalie organique, trouble
  comportement visuel}: /dépistage anténal - S1 - 4M - 9M - 2A - 3 à 6A/
