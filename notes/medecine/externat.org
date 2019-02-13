@@ -337,7 +337,7 @@ Neuropsy :
 - confusion : neuroleptique (éviter benzodiazepine !)
 - anxiété : benzodiazepine, hydroxine. Si échec neuroleptique
 
-* Endocrinologie                                                     :export:
+* Endocrinologie
 ** 32 : Allaitement maternel
 ** 35 : Contraception
 *** Contraception hormonale
@@ -3438,9 +3438,9 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
   
 *** Diagnostic
  - Signes fonctionnels : dédoublement toujours même direction[fn:ophtalmo13], disparaît à
- l'occlusion
+   l'occlusion
  - Interrogatoire : terrain, circonstance, brutal/progressif, {douleurs, vertiges,
- céphalées, nausées}, {horizontale, verticale, oblique}, moment journée
+   céphalées, nausées}, {horizontale, verticale, oblique}, moment journée
  - Attitude vicieuse ? Chercher déviation en position primaire par reflets
    cornéens
 
@@ -3513,12 +3513,12 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 *** Étiologies
 
  #+caption: Étiologies résumées d'\oe{}il rouge
- | Non douloureux sans BAV     | Douloureux avec BAV                           |
- |-----------------------------+-----------------------------------------------|
- | hémorragie ss-conjonctivale | kératite aigüe                                |
- | conjonctivite               | uvéite antérieure aigüe |
- | (épi)sclérite               | crise aigüe de glaucome par fermeture d'angle |
- |                             | glaucome néovasculaire                        |
+ | Non douloureux sans BAV     | Douloureux sans BAV | Douloureux avec BAV                           |
+ |-----------------------------+---------------------+-----------------------------------------------|
+ | hémorragie ss-conjonctivale | épisclérite         | kératite aigüe                                |
+ | conjonctivite               | sclérite            | uvéite antérieure aigüe                       |
+ | (épi)sclérite               |                     | crise aigüe de glaucome par fermeture d'angle |
+ |                             |                     | glaucome néovasculaire                        |
 
 **** \OE{}il rouge, non douloureux, sans BAV
  - /hémorragie sous-conjonctivale spontanée/ : chercher HTA, trouble
@@ -3528,7 +3528,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
    matin). Germe Gram+. 
  \ttt hygiène des mains, lavage sérum phy, collyre antiseptique (pas forcément ATB !!)
 
- \OE{}il rouge unilatéral, douloureux, sans BAV
+**** \OE{}il rouge unilatéral, douloureux, sans BAV
  - /épisclérite/ (sous conjonctive) : rougeur disparaissant avec collyre
    vasoconstricteur. 
  \ttt corticothérapie locale
@@ -3577,8 +3577,8 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - /Uvéite antérieure/ : cercle périkératique, transparence cornée OK, myosis,
    (synéchies iridocristalliniennes ou iridocornéennes), Tyndall, précipités
    rétro-cornéens. FO systématique ! 
-   - Causes : inconnue, spondylarthrite ankylosante (diag = {sacro-iléite, rachis,
-     Ag HLA B27), uvéite herpétique, arthrite juvénile idiopathique, sarcoïdose,
+   - Causes : inconnue (50%), spondylarthrite ankylosante (diag = {sacro-iléite, rachis,
+     Ag HLA B27}), uvéite herpétique, arthrite juvénile idiopathique, sarcoïdose,
      Behçet, lupus erythémateux disséminé.
  \ttt collyre mydriatique, collyres corticoïdes
  - /Glaucome aigu par fermeture de l'angle/ : rare, pronostic sévère.

@@ -1031,7 +1031,48 @@ cycloplégie (amblyopie).
 Examen motilié (paralytique vs motilité normale)
 Ttt : correction optique \pm occlusion \oe{}il si amblyopie (chir si persistance)
 ** 5 Diplopie (binoculaire)
+Clinique : dédoublement même direction, disparaît à l'occlusion d'un \oe{}il
+
+Exament : motilité, cover-test, verre rouge, Lancaster
+
+Étiologie :
+- anévrisme intracrânien++ (jeune, céphalée, 0 FR vasc),
+- tumeur (25%), SEP (10%) révélee, myasthénie
+- autres : accidents vasculaires ischémique/hémorragiques
 ** 6 \OE{}il rouge/douloureux
+BAV, douloureux : cf [[tab:oeil_bav_douloureux]].
+
+Sans BAV, douloureux : 
+- épisclérite (ttt = corticoïdes)
+- sclérite (étio = polyarthrite rhumatoïde)
+- conjonctivite : allergique (collyre), virale++ (ttt =0)
+- sd sec oculaire++ (ttt = substituts lacrymaux)
+
+Sans BAV, sans douleur : 
+- conjonctivite (bactérienne : collyre antiseptiqu)
+- hémorragie sous-conjonctivale (HTA, trouble coag ?)
+
+
+#+name: tab:oeil_bav_douloureux
+#+begin_table
+#+LATEX: \caption{Avec BAV, douloureux: étiologies}
+#+LATEX: \centering
+#+LATEX: \adjustbox{max width=\linewidth}{
+#+ATTR_LATEX: :center nil
+| Type                    | Symptômes                                                                 | Étiologie                  | Ttt                                                                               |
+|-------------------------+---------------------------------------------------------------------------+----------------------------+-----------------------------------------------------------------------------------|
+| Glaucome aigu par FA    | Douleur++, "bille de verre"                                               |                            | acétazolamide\tablefootnote{inhib. anhydrase carbonique}, solutés hyperosmolaires |
+|                         |                                                                           |                            | hypotoniques, myotique (collyre)                                                  |
+| Uvéite antérieure aigǜe | Synéchies iridocristaliniennes                                            | inconnue (50%)             |                                                                                   |
+|                         | Tyndall\tablefootnote{Protéines, c. inflammatoires dans l'humeur aqueuse} | Spondylarthrie ankylosante |                                                                                   |
+|                         | précipités rétro-cornéens                                                 | herpès, sarcoïdose         | mydriatiques, corticoïdes (collyre)                                               |
+| Kératite aigüe          | Ulcération (à la fluorescine)                                             | Herpès, bactéries          |                                                                                   |
+| Glaucome NV             | Néovaisseaux sur l'iris                                                   |                            | Hypotonisants, photocoag/anti-VEGF                                                |
+| Endophtalmie post-op    | \oe{}dème palpébral, hyalite\tablefootnote{Inflammation du corps vitré}   |                            |                                                                                   |
+#+LATEX: }
+#+end_table
+Sans BAV, non douloureux
+
 ** 7 Altération de la fonction visuelle
 ** 8 Anomalies de la vision d'apparition brutale
 ** 9 Prélèvement de cornée
