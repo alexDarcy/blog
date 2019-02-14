@@ -111,7 +111,7 @@
 #+OPTIONS: H:4
 
 
-* Cardiologie                                                        :export:
+* Cardiologie
   \input{bacteries-header}
   \input cardiologie
 
@@ -542,7 +542,7 @@ Neuropsy :
  \begin{table}
  \begin{tabular}{llllll}
  \toprule
- hCG & prolactine \inc & FSH \inc & estradiol& testostérone \inc & sinon\\
+ hCG & prolactine \inc & FSH \inc & estradiol& testostérone > 1.5ng/mL & sinon\\
  & & & LH, FSH \dec & & \\
  \midrule
  grossesse & médicaments & \acrshort{IOP} & tumeur H-H & tumeur surrénales & \gls{SOPK}\\
@@ -3236,7 +3236,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 * Pneumologie                                                        
 \input pneumologie
 
-* Ophtalmologie                                                      :export:
+* Ophtalmologie
 ** 1 Sémiologie oculaire
 *** Globe
  Membranes (d'avant en arrière)
