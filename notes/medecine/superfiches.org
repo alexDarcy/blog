@@ -30,18 +30,18 @@ Ttt : hypercholestorémie, hyperlipidémies mixtes : statines. Hypertriglycérid
 #+LATEX: \centering
 #+LATEX: \adjustbox{max width=\linewidth}{
 #+ATTR_LATEX: :center nil
-| Type         | douleur            | PEC                    | Ttt                                   |
-|--------------+--------------------+------------------------+---------------------------------------|
-| Angor stable | angineuse          | ECG d'effort           | Dérivés nitrés (crise)                |
-|              | à l'effort         |                        | Aspirine, \beta-bloquants             |
-|              | trinitro-sensible  |                        |                                       |
-| SCA sans ST  | angineuse          | \faHospitalO{} urgente | Aspirine, inhib PY12                  |
-|              | spontanée > 20min  | ECG, troponine         | , héparine, \beta-bloquants, statines |
-|              |                    |                        | Angioplastie percut.                  |
-| SCA ST+      | angineuse          | ECG                    | Angioplastie si < 120min              |
-|              | repos > 30min/jour |                        | Sinon FIV                             |
-|              | trinitro-sensible  |                        | Morphine, $O_2$, aspirine             |
-|              |                    |                        | , inhib P2Y12, héparine (crise)       |
+| Type         | douleur             | PEC                    | Ttt                                   |
+|--------------+---------------------+------------------------+---------------------------------------|
+| Angor stable | angineuse           | ECG d'effort           | Dérivés nitrés (crise)                |
+|              | à l'effort          |                        | Aspirine, \beta-bloquants             |
+|              | trinitro-sensible   |                        |                                       |
+| SCA sans ST  | angineuse           | \faHospitalO{} urgente | Aspirine, inhib PY12                  |
+|              | spontanée > 20min   | ECG, troponine         | , héparine, \beta-bloquants, statines |
+|              |                     |                        | Angioplastie percut.                  |
+| SCA ST+      | angineuse           | ECG                    | Angioplastie si < 120min              |
+|              | repos > 30min/jour  |                        | Sinon FIV                             |
+|              | trinitro-résistante |                        | Morphine, $O_2$, aspirine             |
+|              |                     |                        | , inhib P2Y12, héparine (crise)       |
 #+LATEX: }
 #+end_table
 ST- : sous-ST pendant la douleur \ge 1 mm dans 2 dérivations contigües

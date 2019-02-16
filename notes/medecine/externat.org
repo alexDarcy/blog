@@ -516,7 +516,7 @@ Neuropsy :
    - Si basses, tumeur hypothalamo-hypophysaire, dénutrition ou génétique : {sd
      de Kalmann (anosmie), mutation récepteur GnRH (rare), atteinte
      gonadotrophines (exceptionnels), mutation LH}
-   - Si hautes : sd de Turner (caryotipe 45, X0),
+   - Si hautes : sd de Turner (caryotype 45, X0),
  - Examen gynéco, écho pelvienne
    - Pas d'utérus : sd de Rokitanski, tissu testiculaire dans les canaux
      inguinaux (ex: acrshort:CAIS)
@@ -581,7 +581,7 @@ Neuropsy :
 
  Diagnostic :
  - 2 parmi : {hyperandrogénie clinique[fn:endocrino3], oligo-/a-novulation, hypertrophie
-   ovarienne (écho)}
+   ovarienne/folliculaire[fn:2] (écho)}
  - exclure bloc 21-hydroxylase, tumeur de l'ovaire, sd Cushing
  - exclure hyperprolactinémie
 
@@ -5700,6 +5700,8 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
  \printglossaries
 * Footnotes
+
+[fn:2] V > 10mL, \ge 19 follucule par ovaires
 
 [fn:1] S'attache côté médial
 
