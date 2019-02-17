@@ -35,7 +35,7 @@ Ttt : hypercholestorémie, hyperlipidémies mixtes : statines. Hypertriglycérid
 | Angor stable | angineuse           | ECG d'effort           | Dérivés nitrés (crise)                |
 |              | à l'effort          |                        | Aspirine, \beta-bloquants             |
 |              | trinitro-sensible   |                        |                                       |
-| SCA sans ST  | angineuse           | \faHospitalO{} urgente | Aspirine, inhib PY12                  |
+| SCA sans ST  | angineuse           | \faHospitalO{} urgente | Aspirine, inhib P2Y12                 |
 |              | spontanée > 20min   | ECG, troponine         | , héparine, \beta-bloquants, statines |
 |              |                     |                        | Angioplastie percut.                  |
 | SCA ST+      | angineuse           | ECG                    | Angioplastie si < 120min              |

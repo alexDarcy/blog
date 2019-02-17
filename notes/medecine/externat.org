@@ -68,7 +68,7 @@
 #+latex_header_extra: \newacronym{PGG}{PGG}{Paragangliomes}
 #+latex_header_extra: \newacronym{QCD}{QCD}{Questionnaire Concis de la Douleur}
 #+latex_header_extra: \newacronym{QDSA}{QDSA}{Questionnaire Douleur Saint-Antonne}
-#+latex_header_extra: \newacronym{RCT}{RCT}{Rapport cardiothor}
+#+latex_header_extra: \newacronym{RCT}{RCT}{Rapport cardiothoracique}
 #+latex_header_extra: \newacronym{RGO}{RGO}{Reflux gastro-oesophagien}
 #+latex_header_extra: \newacronym{RPM}{RPM}{Réflexe photomoteur}
 #+latex_header_extra: \newacronym{SAS}{SAS}{Syndrome d'apnée du sommeil}
