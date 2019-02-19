@@ -532,7 +532,7 @@ Neuropsy :
  Examen clinique : 
  - poids et taille (carence nutritionnelle)
  - hyperandrogénie : gls:SOPK, déficit 21-hydroxylase, (sd Cushing)
- - carence oestrogénique : pas de glaire +2 semainesa après saignement \thus
+ - carence oestrogénique : pas de glaire +2 semaines après saignement \thus
    anovulation
  - pas de signe d'appel : enquête nutritionnelle
 
@@ -616,7 +616,7 @@ Neuropsy :
 **** 4. Anomalie utérine
 ***** Congénitales 
  Si dév pubertaire normal :
- - et douleurs pelviennes cycliques :  imperforation hyménéale/malformation vaginale \thus examen gynéco.\\
+ - et douleurs pelviennes cycliques :  imperforation hyménéale/malformation vaginale \thus examen gynéco.
  - ou sans douleurs \thus agénésie utérus ?
 
  Difficulté : différence agénésie mullérienne isolée (46,XX)- anomalies androgènes
@@ -651,10 +651,10 @@ Neuropsy :
  \item FSH, LH N ou \dec : problème hypothalamo-hypophysaire\footnotemark (hypogonadotrope = secondaire)
  \end{itemize}
  \end{tcolorbox}
- \footnotetext{Chez \male{}, manque de testostérone}
+ \footnotetext{Chez \male, manque de testostérone}
  \footnotetext{Rappel : LH entraîne la production de testostérone}
 
- - centrale : congénital (pas de cassure de croissance, micropénis,
+ - centrale : congénital (pas de cassure de croissance, ni micropénis, ni
    cryptorchidie), acquis (tumeur ?), "fonctionnel" (maladie générale, trouble
    comportement alimentaire), isolé
  - périphérique : sd de Turner chez \female, sd Klinefelter \male
@@ -686,7 +686,7 @@ Neuropsy :
  - sport intense
  - maladies endocriniennes
  Hypergonadotropes
- - congénitaux : sd Turner, sd Klinefelter, autres atteintes primitevs
+ - congénitaux : sd Turner, sd Klinefelter, autres atteintes primitives
  - acquis : castration, trauma, oreillons, chimio/radio
 
 ****  Traitement
