@@ -862,7 +862,7 @@ Neuropsy :
  avants.
 
 **** Diagnostic
- Clinique seulement !! : plus de reglèe \ge 1 an, sd climatérique (bouffées de chaleur, troubles du
+ Clinique seulement !! : plus de règles \ge 1 an, sd climatérique (bouffées de chaleur, troubles du
  sommeil et humeur, sueurs nocturnes, sécheresse vaginal), \female > 50 ans. 
 
 Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
@@ -905,7 +905,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
 ***** Mise en route
  - Interrogatoire : ATCD {cancer, métabolique, vasculaire}, carence oestrogénique
  - Examen physique : poids, PA, palpation seins, gynéco, frottis cervico-vaginal
- - Mammograhpie !
+ - Mammographie !
  - Cholestérol, triglycérides, glycémie
 
 ***** En pratique 
@@ -934,7 +934,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
   - Examen clinique : IMC, virilisation, gynécomastie, palper testicules
   - Mesure de testostérone totale :
     - > 3.2ng/mL = normale \thus étiologies non endocrino
-    - \in [2.3, 3.2] : doser SHBG, calculer index de T libre, si bas, chercher cause
+    - \in [2.3, 3.2] : doser SHBG[fn:3], calculer index de T libre, si bas, chercher cause
     - < 2.3 ng/mL : chercher cause
 **** Étiologie
  Si FSH, LH élevée, /insuf testiculaire primitive/ 
@@ -947,7 +947,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  - tumeur région hypothalamo-hypophysaire : craniopharyngiome, adénome
    hypophysaire++, autres
  - infiltratif : sarcoïdose, hémochromatose
- - chir, radiothérapie, traumau
+ - chir, radiothérapie, trauma
  - hyperprolactinémie, carence nutritionnelle, Cushing, tumeur testiculaire
 
 ** 122 : Troubles de l'érection 
@@ -1015,7 +1015,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  Physiopatho : neuropathie autonomie, microangiopathie \thus défaut relaxation
  musculaire. Macroangiopathie \thus ischémie organes érectiles
 
- \danger facteurs psychogènes hyportants !
+ \danger facteurs psychogènes prédominent !
 
  Diabète et TE \thus mesure testostérone systématique (hypogonadisme ?)
 
@@ -1181,7 +1181,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
    - hypogonadisme+ : impuissance \male, aménorrhée \female, \dec libdio,
      ostéoporose
    - insuf thyriodienne exceptionnelle
- - articulaire : arthrite chronique ("poignée de main"), chrondocalcinose
+ - articulaire : arthrite chronique ("poignée de main douloureuse"), chrondocalcinose
  - cutané : mélanodermie (tardive)
 
 
@@ -1221,11 +1221,10 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  - Symptomatique
 
 *** Suivi
- Résultats en 3-6 mois sur été générale. 
+ Résultats en 3-6 mois sur état générale. 
 
  Bilan ferrique (stade 0,1) ferritinémie, hémoglobine (stade 2 à 4)
 
-** 220 Dylipidémie
 ** 221 : HTA, causes endocriniennes
  Déf: \ge 140/90 mmHg.
 
@@ -1281,7 +1280,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
 *** Phéochromocytomes, paragangliomes fonctionnels
     gls:PCC : médullosurrénale. gls:PGG fonctionnels : autres    ganglions sympathiques
    
- PCC : spontanément mortel. Dépistage :
+ \skull{} PCC : spontanément mortel. Dépistage :
  - HTA avec céphalées, sueurs, palpitations, HTA paroxystiques/diabète sans
    surpoids
  - sd familial : gls:NF1, gls:VHL, gls:NEM2, sd phéochromocytomes-paragangliomes familiaux
@@ -5701,7 +5700,9 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
  \printglossaries
 * Footnotes
 
-[fn:2] V > 10mL, \ge 19 follucule par ovaires
+[fn:3] Se fixe à la testostérone, estradiol
+
+[fn:2] V > 10mL, \ge 19 follicule par ovaires
 
 [fn:1] S'attache côté médial
 
