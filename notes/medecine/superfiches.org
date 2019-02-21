@@ -277,7 +277,8 @@ Autres : sd d'apnée centrale[fn:20] (IC cardiaque sévère !), insuf respi chro
 hypoventilation alvéolaire, sd obésite hypoventilation (ttt = VNI)
 
 ** 151 : Infections broncho-pulmonaires communautaires
-Bronchite aigüe : virale++, diag clinique (épidémie, toux, expectoration muqueuse/purulente), ttt symptomatique
+Bronchite aigüe : virale++, diag clinique (épidémie, toux, expectoration, pas de
+crépitants), ttt symptomatique
 
 Exacerbation BPCO (cf item 205)
 
@@ -288,22 +289,30 @@ Pneumonie aigüe communautaires : grave. Cf table [[tab:pac]]
 #+caption: PAC
 | Pneumocoque\tablefootnote{Pas de transmission interhumaine} | Légionellose\tablefootnote{Pas d'isolement} | Atypiques                          |
 |-------------------------------------------------------------+---------------------------------------------+------------------------------------|
-| fréquent++                                                  | progressif                                  | virale \thus inhib neuramidases   |
+| fréquent++                                                  | progressif                                  | virale \thus inhib neuramidases    |
 | début brutal, fièvre                                        | myalgies                                    | /Mycoplasmia pneumoniae/           |
-| RX: condensation, systématisée                              | macrolides                                  | /Chlamydia pneumoniae/, /psitacci/ |
+| RX: condensation systématisée                               | macrolides                                  | /Chlamydia pneumoniae/, /psitacci/ |
 | amoxicilline                                                |                                             | \thus macrolides                   |
+|                                                             |                                             | RX: opacités multifocales          |
 
 ** 151 : Tuberculose
-Diag = IDR/IFN \gamma si primo infection. Sinon bacille de Kock sur prélèvement
+Diag = IDR/IFN \gamma si primo infection. Sinon bacille de Koch sur prélèvement
+Cf table [[tab:tuberculose]].
+
+Diag = ED ou culture Löwenstein \thus granulome épithélioïde gigantocellulaire
+avec nécrose caséeuse
+
+#+name: tab:tuberculose
 #+caption: Formes pulmonaires 
-| Forme       | pulmonaire                    | miliaire                                 |
-|-------------+-------------------------------+------------------------------------------|
-| Clinique    | AEG, fièvre, sueurs nocturnes | idem, VIH !                              |
-| RX          | nodules, infiltrats, cavernes | sd interstitiel                          |
-| Prélèvement | crachat/tubage/fibro          | biopsie                                  |
-| Diag        | ED ou culture Löwenstein      | granulome épithélioïde gigantocellulaire |
-|             |                               | avec nécrose caséeuse                    |
-Ttt : isoniazide (6M), rifampicine (6M), ethambutol (2M), pyranizamide (2M)
+| Forme       | pulmonaire                    | miliaire            |
+|-------------+-------------------------------+---------------------|
+| Clinique    | AEG, fièvre, sueurs nocturnes | idem, VIH !         |
+| RX          | nodules, infiltrats, cavernes | sd interstitiel     |
+| Prélèvement | crachat/tubage/fibro          | biopsie             |
+| Diag        | sécrétions/tubages            | LCS, hémoc, biopsie |
+
+
+Ttt (PERI) : isoniazide (6M), rifampicine (6M), ethambutol (2M), pyranizamide (2M).
 Vaccination !
 ** 180 : Accidents du travail
 Asthme (10-15%), BPCO (10-20%), K (mésothéliome ou bronchique primitif), PID
@@ -321,18 +330,18 @@ Ttt : éviction, {antihistaminique (rhinite seulement), corticoïdes[fn:23],
 (adrénaline si choc)}, immunothérapie spécifique
 ** 184 : Asthme, rhinite
 Asthme :
-- suspicion sur clinique : dyspnée, gêne, respi, siflement /variable et versible/
-- diag[fn:24] : (TVO (VEMS/CVF < 0.7) réversible aux BDCA (\ge +200mL et \ge +12%)
+- suspicion sur clinique : dyspnée, gêne, respi, siflement /variable et réversible/
+- diag[fn:24] : TVO (VEMS/CVF < 0.7) réversible aux BDCA (\ge +200mL et \ge +12%)
 - ttt de fond [fn:25]= corticostéroïdes inhalés (voire anti-leucotriènes, voire cortico
   oraux) et symptomatique = \beta2-mimétique courte durée
 - \skull{} exacerbation grave : SAMU + \beta_2-mimétique \rightarrow \faHospitalO : \beta_2-mimétique nébulisé, corticoïdes
   oraux, $O_2$
 Rhinite : 
-- PAREO : Prurit, Anosmie, Rhinorrhée, Éternuement, Obstruction ansale
+- PAREO : Prurit, Anosmie, Rhinorrhée, Éternuement, Obstruction nasale
 - ttt : antihistaminiques/corticoïdes nasaux
 ** 188, 189 : Pathologies auto-immunes
 Si ttt pour connectivite, vascularite,
-penser 1. infenciton 2. médicament 3. manifestation maladie 4. manifestation
+penser 1. infenction 2. médicament 3. manifestation maladie 4. manifestation
 indépendante
 
 Cf Table [[tab:auto-immune]]
@@ -349,22 +358,27 @@ Cf Table [[tab:auto-immune]]
 
 ** 199 : Dyspnée aigüe et chronique 
 Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
-#+caption: Étiologies de dyspnée aigüe
+
+Étiologies : cf Tab [[tab:dyspnee_aigue]], [[tab:dyspnee_chronique]]
+#+name: tab:dyspnee_aigue
+#+caption: Étiologies de dyspnée aigüe (E = enfant)
 | Inspiratoire         | Expiratoire                          | Sinon                                |
 |----------------------+--------------------------------------+--------------------------------------|
-| corps étranger (E)   | asthme (sibilants)                   | EP (ascul. normale)                  |
+| corps étranger (E)   | asthme (sibilants)                   | EP (ascult normale)                  |
 | épiglottite (E)      | BPCO (ATCD, sibilants)               | pneumothorax, épanchement pleural    |
 | laryngite (E)        | OAP (crépitants, expector mousseuse) | pneumopathie infectieuse             |
 | \oe{}dème de Quincke |                                      | OAP (crépitants, expector mousseuse) |
 |                      |                                      |                                      |
+#+name: tab:dyspnee_chronique
 #+caption: Étiologies de dyspnée chroniques
 | Sibilants              | Crépitants              | Auscult normale             |
 |------------------------+-------------------------+-----------------------------|
 | BPCO                   | PID                     | EP                          |
 | asthme                 | Insuf cardiaque gauche) | Neuromusc                   |
-| Insuf cardiaque gauche |                         | Parétiale, hyperventilation |
+| Insuf cardiaque gauche |                         | Pariétale, hyperventilation |
+
 ** 200 : Toux chronique
-Diagnostic principaux :rhinorrée chronique, RGO, asthme, tabac, médicaments (IEC)[fn:26], coqueluche
+Diagnostic principaux : rhinorrée chronique, RGO, asthme, tabac, médicaments (IEC)[fn:26], coqueluche
 
 Pas d'orientation (dans l'odre) : test rhinorrée post chronique, EFR (asthme),
 RGO, sinon antitussif[fn:27]/kiné respi
@@ -379,7 +393,7 @@ PEC : confirmer hémoptysie, angio-scanner (ou RX thorax)
 
 Ttt 1ere intention : \faHospitalO : $O_2$, terlipressine, protection voie aériennes[fn:28]
 ** 202 : Épanchement pleural
-Clinique : douleur toracique, toux sèche + sd pleural[fn:29] 
+Clinique : douleur thoracique, toux sèche + sd pleural[fn:29] 
 
 RX (opacité dense, homogène, concave) et ponction (sauf ICG) !
 | Transsudat                               | Exsudat                                           |
@@ -399,7 +413,7 @@ pleural
 | - malin si terrain, > 1cm, morphologie[fn:30], fixe TEP, \inc récente taille | - antérieur : goître, K thyroïdes, lymome, lymphome |
 | - chez 1 gros fumeur sur 2 et cancéreux 1 sur 10                             | - moyen : lymphome                                  |
 | - scanner, TEP-FDG. Diag = ponction transpariétale                           | - postérieur : neurogène                            |
-| - malignes : métastates (pulmonaires), primitif (bronchopulmonaire)          |                                                     |
+| - malignes : métastates (pulmon), primitif (bronchopulmon)                   |                                                     |
 ** 204 : Insuffisance respiratoire chronique
    Clinique : dyspnée, hypoxémie (PaO_2 < 70mmHg)
 
@@ -1028,7 +1042,7 @@ cycloplégie (amblyopie).
 ** 4 Strabisme de l'enfant
 = symptôme !
 
-Examen motilié (paralytique vs motilité normale)
+Examen motilité (paralytique vs motilité normale)
 Ttt : correction optique \pm occlusion \oe{}il si amblyopie (chir si persistance)
 ** 5 Diplopie (binoculaire)
 Clinique : dédoublement même direction, disparaît à l'occlusion d'un \oe{}il
@@ -1070,7 +1084,6 @@ Sans BAV, sans douleur :
 | Endophtalmie post-op    | \oe{}dème palpébral, hyalite\tablefootnote{Inflammation du corps vitré}   |                            |                                                      |
 #+LATEX: }
 #+end_table
-Sans BAV, non douloureux
 
 ** 7 Altération de la fonction visuelle
 BAV progressive
@@ -1159,7 +1172,7 @@ Diag = AV, FO, OCT (cf tab [[tab:dmla]])
 | Forme                   | Clinique                      | FO                                                       | Ttt                                 |
 |-------------------------+-------------------------------+----------------------------------------------------------+-------------------------------------|
 | Débutante               |                               | /drusen/\tablefootnote{Petites lésions profondes jaunes} | vit E, C, zinc, lutéine, zéaxantine |
-| Atrophique              | BAV sévère, scotome central   | atrophile épith. pigment.                                | \emptyset                           |
+| Atrophique              | BAV sévère, scotome central   | atrophie épith. pigment.                                 | \emptyset                           |
 | Exsudative              | BAV, métamorphopsies brutales | \oe{}dème intrarétienne                                  | anti-VEGF                           |
 | (néovaisseux ss rétine) |                               | décollement maculaire exsudatif                          |                                     |
 #+LATEX: }
@@ -1172,7 +1185,7 @@ Artère centrale de la rétine
 - Étiologie : embolies (athémore carotidien), maladie de horton = urgence \skull
 - CAT = urgence \skull. Très mauvais pronostic fonctionnel
   - ttt de l'étio (antiagrégant/anti vit-K)
-- Branche de l'ACR : pronostic visuel bon (amputation), pas d'Horton
+Branche de l'ACR : pronostic visuel bon (amputation), pas d'Horton
 ** 17 Occlusions veineuses rétiniennes
 Veine centrale de la rétine
 - Diag (facile) : BAV brutale, FO = dilatation veineuse, nodules cotonneux,
@@ -1196,15 +1209,16 @@ Veine centrale de la rétine
 #+latex: }
 #+end_table
 
-- Branche veineuse rétinienne : évolution favorable / hémorragie du vitré (pas
+Branche veineuse rétinienne : évolution favorable / hémorragie du vitré (pas
   de GNV !)
 ** 18 Pathologies des paupières
-Cf [[tab:paupieres]]
+Cf Table [[tab:paupieres]]
 
 Autres : entropion (sénile/paralysie VII), ectropion, ptosis (penser anévrisme
 IC \skull), lagophtalmie
 
 #+name: tab:paupieres
+#+caption: Pathologies des paupières
 | Orgelet   | follicule du cil | infection bactérienne | ATB 8 j    |
 | Chalazion | glande Meibomius | inflammation          | corticoïde |
 Tumeurs malignes : carcinome basocellulaire/épidermoide, mélanique, carcinomes sébacés
@@ -1218,7 +1232,7 @@ Tumeurs malignes : carcinome basocellulaire/épidermoide, mélanique, carcinomes
 - paralysie du VI, nystagmus, périphlébite rétinienne
 ** 20 Neuropathie optique ischémique antérieure
 Diag = BAV brutale indolore
-- FO : \oe{}dème papillaire. Examen CV ++ (déficit alditudinal)
+- FO : \oe{}dème papillaire. Examen CV ++ (déficit altidudinal)
 
 Étiologies
 - artériosclérose (freq) : FR. Pas de ttt efficaces
