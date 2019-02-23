@@ -4,7 +4,7 @@
 #+latex_header_extra: \usepackage{adjustbox}
 #+latex_header_extra: \usepackage{tabularx}
 * Cardiologie
-** 218 : Athérome
+** 218 Athérome
 1ere cause mortalité dans monde.
 
 Prévention : aspirine, statines, antihypertenseurs
@@ -15,17 +15,17 @@ Localisations : coronaires, aorte, carotides, artères MI
 
 Prévention secondaire : aspirine/clopidogrel, statines, IEC/ARA II
 
-** 219 : Facteur de risques cardio-vasculaires
+** 219 Facteur de risques cardio-vasculaires
 FR : LDL > 1.6G/L, HDL < 0.4g/L, tabac[fn:1], âge[fn:2], tension \ge 140/90, diabète, ATCD
 coronaires familiaux[fn:3]
 
 Objectifs : tension < 140/90, LDL < 1g/L
-** 220 : Dyslipidémies
+** 220 Dyslipidémies
 Haut risque : maladie vasculaire/coronaire, diabète 2 et atteinte rénale,
 $p(\text{evt coronaire à 10 ans}) > 0.2$
 
 Ttt : hypercholestorémie, hyperlipidémies mixtes : statines. Hypertriglycéridémie : fibrate si TG > 4g/L
-** 334 : Syndromes coronariens aigüs
+** 334 Syndromes coronariens aigüs
 #+begin_table
 #+LATEX: \caption{SCA}
 #+LATEX: \centering
@@ -49,7 +49,7 @@ ST- : sous-ST pendant la douleur \ge 1 mm dans 2 dérivations contigües
 
 ST+ : sus-ST \ge 2mm ($V_1$ à $V_6$) ou \ge 1mm (autres) dans 2 dérivations contigües
 
-** 228 : Douleur thoracique aigüe
+** 228 Douleur thoracique aigüe
 Examens sytématiques : ECG 12 dérivation, RX pulmonaire, troponines
 
 #+caption: 4 urgences = PIED
@@ -61,7 +61,7 @@ Examens sytématiques : ECG 12 dérivation, RX pulmonaire, troponines
 | Dissection aortique      | douleur déchirement, irradie dans dos                                                                     | echo cardio et ETO              |
 |                          |                                                                                                           |                                 |
 Non CV : 4P = pneumonie, pleurésie, pneumothorax, pancréatite
-** 223 : Artériopathie oblitérante (aorte, MI)
+** 223 Artériopathie oblitérante (aorte, MI)
 AOMI : pronostic grave !
 - asymptom. - claudication intermittente - douleur ischémique de repos -
   ulcération/gangrène
@@ -76,7 +76,7 @@ Ischémie aigüe des membres inférieurs = urgence \skull (embolie/thrombose)
 - diag : douleur brutale, intense, broiement avec impotence fonctionnelle et membre froid, livide, douleur palpation musc
 - ttt : anticoagulant, antalgique niv. 3, $O_2$ et revasc. chir
 
-** 231 : Rétrécissement aortique
+** 231 Rétrécissement aortique
 Pronostic vital mis en jeu si symptômes !
 
 Auscult : souffle systolique éjectionnel au foyer aortique
@@ -85,7 +85,7 @@ Diag : ETT = $V_{max} > 4m/s$, gradient moyen > 40mmHg, surface aortique <
 1$cm^2$
 
 Ttt : chir si symptomatique = valve mécanique ou bio
-** 231 : Insuffisance mitrale
+** 231 Insuffisance mitrale
 Classif. de Carpentier (I à III)
 
 Auscult : souffle apexo-axillaire holosytolique de régurgitation dès B1
@@ -93,7 +93,7 @@ Auscult : souffle apexo-axillaire holosytolique de régurgitation dès B1
 Examen : ETT \pm ETO
 
 Ttt : chir = reconstruction valve ou prothèse (bio/méca)[fn:4]
-** 231 : Insuffisance aortique
+** 231 Insuffisance aortique
 Formes : dystrophiques (valves normales mais non jointive), bicuspidie aortique
 
 Auscult : souffle diastolique. ETT = diagnostic
@@ -102,12 +102,12 @@ Opérer :
 - urgence si chronique volumineuse symptomatique ou aigüe volumineuse
 - si dystrophie et aorte dilatée[fn:5], si chronique volumineuse asymptomatique et (aorte
   dilatée, FEVG < 50%...)
-** 150 : Surveillance des porteurs de valves, prothèses vasculaires
+** 150 Surveillance des porteurs de valves, prothèses vasculaires
 Complications : embolie, thromboses[fn:6], désinsertion, EI \skull,
 dégénérescence[fn:7], ttt anticoagulant
 
 INR \in [2.5, 4] à vie pour prothèse mécanique
-** 149 : Endocardite infectieuse
+** 149 Endocardite infectieuse
 Diag = ETO. Critères de Duke : 2 majeur/1 majeur et 3 mineurs/5mineurs
 - majeurs : 
   - hémoc = typique sur 2HC ou positive > 12h ou /C. burnetii/
@@ -118,19 +118,19 @@ Complications : insuf cardiqaue \skull, embolie septiques, neuro , rénale
 Ttt :
 - streptocoques (oraux/groupe D) : amoxicilline + gentamicine
 - staphylocoques : cloxacilline si sensible (sinon vancomycine)
-** 236 : Souffle cardiaque chez l'enfant
+** 236 Souffle cardiaque chez l'enfant
 Néonatale : coarctation aortique préductale (chir urgente \skull), transposition des gros vaissaux,
 malformations complexes
 
 Nourisson (2M - marche) : shunt gauche-droite (communication intraventricul), tétralogie de Fallot
 
 2A-16A : souffles fonctionnels[fn:8]
-** 337 : Malaise, perte de connaissance
+** 337 Malaise, perte de connaissance
 - Éliminer épilepsie
 - Éliminer urgence (SCA, EP....)
 - ECG, clinique : cause évidente = mécanique[fn:9], électrique[fn:10], hypotensive[fn:11] ?
 - Sinon chercher cardiopathie  (échocardio)
-** 230 : Fibrillation atriale
+** 230 Fibrillation atriale
 ECG indispensable : pas de P, QRS irréguliers
 
 Risques = insuf cardiqaue, thromboemolique artériel systémique
@@ -143,7 +143,7 @@ Ttt
 - FA permanente[fn:13] : bradycardisants (\beta-bloquants)
 - FA paroxystique : anti-arythmique et bradycardisants
 
-** 234 : Troubles de la conduction intracardiaque
+** 234 Troubles de la conduction intracardiaque
 Bradychardie grave = urgence \skull
 
 Ttt : tachycardisants (atropine, catécholamine)
@@ -156,7 +156,7 @@ Ttt : tachycardisants (atropine, catécholamine)
 | BAV                  | hyperkaliémie      | ECG +                       | BAV II symptom.     |
 |                      |                    | si paroxystique: Holter/EEP | BAV III non curable |
 | BdB                  | dégénérative       | ECG + EEG                   | Si symptômes        |
-** 229 : ECG
+** 229 ECG
 | Hypertrophie atriale       | gauche : P > 0.12s (largeur)               | droite : P > 2.5mm (hauteur) |
 | Hypertrophie ventriculaire | gauche : $SV_1 + rV_5 > 35$ mm             | droite +110$^\circ$          |
 |----------------------------+--------------------------------------------+------------------------------|
@@ -171,13 +171,13 @@ tachy. jonctionnelle, extrasystole
 
 Troubles ventriculaires : tachy. ventricale, fibrillation ventricalure (\skull
 absolue), torsade de pointe
-** 235 : Palpitations
+** 235 Palpitations
 Éliminer urgences immédiates (tachy à QRS large !!)
 
 Fréquents : fibrillation/flutters atriaux, tachy jonctionnelle
 
 Tachy sinusale (grossesse, hyperthyroïde, SAS, alcoolisme) 
-** 232 : Insuffisance cardiaque
+** 232 Insuffisance cardiaque
 Grave : 50% de DC à 5 ans
 
 EC : dypnée d'effort, signes d'IC droite[fn:14]
@@ -194,7 +194,7 @@ saumon", crépitants \thus PEC immédiate \skull
 | IC à FE conservée | mal définie (idem ?)                                                                                |
 | OAP               | assis, furosémide, dérivés nitrés, HBPM                                                             |
 
-** 221 : Hypertension artérielle
+** 221 Hypertension artérielle
 3 catégories. Étiologies :
 - Essentielles (90%) 
 - Secondaire : néphropathie parenchym., HTA rénovasc., phéochromocytome, sd Conn,
@@ -205,7 +205,7 @@ Examens : glycémie, cholestérol, kaliémie, créat, BU, ECG
 Complications : rein, neuro, CV
 
 Ttt : objectif < 140/90 \thus hygiéno-diét et {IEC, diurétiques thiazidiques, \beta-bloquants, ARA II
-** 225 : Insuffisance veineuse chronique
+** 225 Insuffisance veineuse chronique
 FR : varices = âge, ATC, obésité, grossesse; MTEV = immobilisation, K, anomalies hémostase
 
 Clinique : jambes lourdes[fn:17], dermite ocre, varices
@@ -213,7 +213,7 @@ Clinique : jambes lourdes[fn:17], dermite ocre, varices
 Examen : echo-doppler veinux des MI   
 
 Ttt (non curatif) : contention, hygiène de vie, invasif
-** 233 : Péricardite aigüe
+** 233 Péricardite aigüe
 Douleur : thoracique, trinitro-résistant, \inc inspiration, \dec assis en avant
 
 Examens : ECG (4 phases[fn:18]), marqueurs de nécrose cardio, sd inflammatoire, /échocardio/
@@ -223,7 +223,7 @@ Examens : ECG (4 phases[fn:18]), marqueurs de nécrose cardio, sd inflammatoire,
 Ttt : AINS, colchicine
 
 Complications : tamponnade = urgence \skull (drainage/ponction)
-** 327 : Arrêt cardiocirculatoire
+** 327 Arrêt cardiocirculatoire
    ABCD : maintien voies Aéoriennes, assistance respi (B), massage Cardiqaue,
    Défibrillation et Drogues
 
@@ -232,7 +232,7 @@ Complications : tamponnade = urgence \skull (drainage/ponction)
    Ventilation, hypothermie
    
    Étio : FA, bradyc, asystolie
-** 264 : Diurétiques
+** 264 Diurétiques
 #+caption: Diurétiques
 | Type                   | Molécule               | Indication                | ES                    |
 |------------------------+------------------------+---------------------------+-----------------------|
@@ -241,7 +241,7 @@ Complications : tamponnade = urgence \skull (drainage/ponction)
 | thiazidique            | hydrochlorothiazidique | HTA                       | hypoK                 |
 | épargnant le potassium | spironolactone         | Insuf cardiaque, HTA      | hyperK, IR            |
 
-** 326 : Antithrombotiques
+** 326 Antithrombotiques
 #+begin_table
 #+LATEX: \caption{Antithrombotiques}
 #+LATEX: \centering
@@ -262,13 +262,13 @@ Complications : tamponnade = urgence \skull (drainage/ponction)
 #+end_table
 
 * Pneumologie
-** 73 : Addiction au tabac
+** 73 Addiction au tabac
 16 millions de fumeurs en France. 1 fumeur sur 2 décède d'une malaide liée au
 tabac.
 Cause 90% K bronchopulomaire (25% si passif)
 
 Sevrage : TCC, éducation thérapeutique, substituts nicotiniques.
-** 108 : Troubles du sommeil de l'adulte
+** 108 Troubles du sommeil de l'adulte
 Sd d'apnée obstructive du sommeil : 
 - diagnostic : {ronflement, pause respi, nycturie et somnolence diurne} et
   polysomnographie[fn:19]
@@ -277,7 +277,7 @@ Sd d'apnée obstructive du sommeil :
 Autres : sd d'apnée centrale[fn:20] (IC cardiaque sévère !), insuf respi chronique avec
 hypoventilation alvéolaire, sd obésite hypoventilation (ttt = VNI)
 
-** 151 : Infections broncho-pulmonaires communautaires
+** 151 Infections broncho-pulmonaires communautaires
 Bronchite aigüe : virale++, diag clinique (épidémie, toux, expectoration, pas de
 crépitants), ttt symptomatique
 
@@ -296,7 +296,7 @@ Pneumonie aigüe communautaires : grave. Cf table [[tab:pac]]
 | amoxicilline                                                |                                             | \thus macrolides                   |
 |                                                             |                                             | RX: opacités multifocales          |
 
-** 151 : Tuberculose
+** 151 Tuberculose
 Diag = IDR/IFN \gamma si primo infection. Sinon bacille de Koch sur prélèvement
 Cf table [[tab:tuberculose]].
 
@@ -315,21 +315,21 @@ avec nécrose caséeuse
 
 Ttt (PERI) : isoniazide (6M), rifampicine (6M), ethambutol (2M), pyranizamide (2M).
 Vaccination !
-** 180 : Accidents du travail
+** 180 Accidents du travail
 Asthme (10-15%), BPCO (10-20%), K (mésothéliome ou bronchique primitif), PID
 (hypersensibilité, silicose, bérylliose, sidérose, asbestose)
 
 Amiante : K ou pleural
 
 Idemnité : assurance maladie ou FIVA
-** 182 : Hypersensibilités et allergies respiratoires
+** 182 Hypersensibilités et allergies respiratoires
 Allergie : le plus souvent médiée par IgE. Asthme et rhinite (cf item 184)
 
 Diag = prick test (\diameter \ge 3 mm/témoin)
 
 Ttt : éviction, {antihistaminique (rhinite seulement), corticoïdes[fn:23],
 (adrénaline si choc)}, immunothérapie spécifique
-** 184 : Asthme, rhinite
+** 184 Asthme, rhinite
 Asthme :
 - suspicion sur clinique : dyspnée, gêne, respi, siflement /variable et réversible/
 - diag[fn:24] : TVO (VEMS/CVF < 0.7) réversible aux BDCA (\ge +200mL et \ge +12%)
@@ -357,7 +357,7 @@ Cf Table [[tab:auto-immune]]
 | Granulomatose éosinophile avec polyangéite | Asthme, pneumopathie à éosinophiles                                           |
 | Polyangéite microscopique                  | Sd hémorragique alvéolaire                                                    |
 
-** 199 : Dyspnée aigüe et chronique 
+** 199 Dyspnée aigüe et chronique 
 Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
 
 Étiologies : cf Tab [[tab:dyspnee_aigue]], [[tab:dyspnee_chronique]]
@@ -378,7 +378,7 @@ Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
 | asthme                 | Insuf cardiaque gauche) | Neuromusc                   |
 | Insuf cardiaque gauche |                         | Pariétale, hyperventilation |
 
-** 200 : Toux chronique
+** 200 Toux chronique
 Diagnostic principaux : rhinorrée chronique, RGO, asthme, tabac, médicaments (IEC)[fn:26], coqueluche
 
 Pas d'orientation (dans l'odre) : test rhinorrée post chronique, EFR (asthme),
@@ -386,14 +386,14 @@ RGO, sinon antitussif[fn:27]/kiné respi
 
 Penser bronchectasies si toux productive quotidienne, hémoptysies RX normale
 \thus diag = TDM , ttt = drainage $\pm$ ATB si exacerbation
-** 201 : Hémoptysie
+** 201 Hémoptysie
 Étiologies : tumeurs bronchopulomaires, bronchectasies, tuberculose,
 idiopathique, (EP, ICG)
 
 PEC : confirmer hémoptysie, angio-scanner (ou RX thorax)
 
 Ttt 1ere intention : \faHospitalO : $O_2$, terlipressine, protection voie aériennes[fn:28]
-** 202 : Épanchement pleural
+** 202 Épanchement pleural
 Clinique : douleur thoracique, toux sèche + sd pleural[fn:29] 
 
 RX (opacité dense, homogène, concave) et ponction (sauf ICG) !
@@ -410,7 +410,7 @@ Selon liquide, voir Tab. [[tab:epanchement_pleural]]
 |                                          | EP                                                |
 Si abondant/purulent/à germe : ttt anti-infectieux + évacuation du liquide
 pleural 
-** 203 : Opacités et masses thoraciques : tab. [[tab:masses_thorax]]
+** 203 Opacités et masses thoraciques : tab. [[tab:masses_thorax]]
 #+name: tab:masses_thorax
 #+caption: Masses thoraciques
 #+ATTR_LATEX: :environment tabularx :width \textwidth :align XX
@@ -420,7 +420,7 @@ pleural
 | - chez 1 gros fumeur sur 2 et cancéreux 1 sur 10                             | - moyen : lymphome                                   |
 | - scanner, TEP-FDG. Diag = ponction transpariétale                           | - postérieur : neurogène                             |
 | - malignes : métastates (pulmon), primitif (bronchopulmon)                   |                                                      |
-** 204 : Insuffisance respiratoire chronique
+** 204 Insuffisance respiratoire chronique
    Clinique : dyspnée, hypoxémie (PaO_2 < 70mmHg)
 
 Examens : EFR, RX thorax, écho cardiaque.
@@ -436,7 +436,7 @@ Examens : EFR, RX thorax, écho cardiaque.
 
 TTT : arrêt tabac, $O_2$ longue durée (si /obstructif et PaO_2 < 55 mmHG ou
    restrictif et < 60mmHg/) ou ventilation long cours (restrictif)
-** 205 : BPCO
+** 205 BPCO
 
 Clinique : tabac++, dyspnée, toux, expectoration \pm distension thoracique 
 
@@ -451,7 +451,7 @@ Exacerbation BPCO : déclenché par infection
 - diag : BPCO connu, \inc dyspnée, toux ou expectoration
 - ttt : bronchodilatateur courte durée (nébulisé) + amox-acide clav [fn:31]si
   aggravation/\inc purulence
-** 206 : Pneumopathies infiltrantes diffuses
+** 206 Pneumopathies infiltrantes diffuses
 Clinique : dyspnée d'effort (apparition progressive)
    Orientation = scanner thoracique++
 
@@ -461,7 +461,7 @@ probabilist (sur pneumocoque \pm pneumocystose, tuberculose)
 PID subaigüe/chronique : 
 - interrogatoire, LBA (fibro), scanner thoracique 1ere intention
 - sarcoïdose , insuf cardiaque gauche , médicaments , fibrose pulmonaire idiopathique lymphangite carcinomateuse
-** 207 : Sarcoïdose
+** 207 Sarcoïdose
 Manifestations: 
 - respi : RX thorax 4 stades[fn:32]
 - oculaire (uvéite), peau (sarcoïdes), ADNP (superficielles), foie (cholestase non ictérique)
@@ -472,7 +472,7 @@ autres granulomatose (ou sd Löfgren typique[fn:33])
 Pronostic favorable 80%
 
 Ttt : corticoïdes > 1 an 
-** 222 : HTA pulmonaire artérielle
+** 222 HTA pulmonaire artérielle
 Classification : HTAP, HTP cardiopathies gauches (/post-capillaire/), HTP respiratoires chroniques, HTP
 post-embolique chroniques, HTP multi-factorielle
 
@@ -485,7 +485,7 @@ Complémentaire : ECG, RX thorax, EFR, gaz du sang normaux
 
 Diagnostic : ETT et cathétérisme cardiaque droit
 
-** 224 : Thrombose veineuse profonde et embolie pulmonaire 
+** 224 Thrombose veineuse profonde et embolie pulmonaire 
 *** TVP 
     Probabilité : score de Wells (unilatéral : OMI, douleur trajet veineux...)
 
@@ -507,7 +507,7 @@ Diagnostic : ETT et cathétérisme cardiaque droit
       proximale provoquée) ou 6 mois
     - thrombolyse si EP grave
     - contention si TVP ou EP + TVP
-** 228 : Douleur thoracique aigüe et chronique
+** 228 Douleur thoracique aigüe et chronique
 Examens : ECG, $SpO_2$, RX thorax
 
 1. Urgences vitales : SCA++, EP, tamponnade, dissection aortique, pneumothorax oppressif
@@ -516,7 +516,7 @@ Examens : ECG, $SpO_2$, RX thorax
      pariétales, EP, trachéobronchites
    - non rythmée par la respiration : SCA, dissection aortique, RGO++, psychogène
 Chronique : paroi thoracique, plèvre
-** 306 : Tumeurs du poumon
+** 306 Tumeurs du poumon
 K bronchique : 1ere cause de DC par K en France (17% survie 5 ans). Cause = tabac !
 
 Y penser si SF respi chez tabagique > 40 ans, AEG chez tabagique. Toux souvent révélatrice
@@ -526,7 +526,7 @@ Y penser si SF respi chez tabagique > 40 ans, AEG chez tabagique. Toux souvent r
 - à petite cellule (15%) : mauvais pronostic, chimio \pm radio (pas de chir)
   
 Diagnostique = histologique (fibroscopie). Extension = TDM
-** 333 : Oedème de Quincke et anaphylaxie
+** 333 Oedème de Quincke et anaphylaxie
 Réaction anaphylactique médiée par IgE ou non
 Diag = clinique + contexte. Toujours doser tryptase sérique
 - fortement probable : gêne respi "haute" ou asthme aigü ou choc impliquant PV,
@@ -536,7 +536,7 @@ Diag = clinique + contexte. Toujours doser tryptase sérique
 
 Sinon : antihistaminique + corticoïdes
 
-** 354 : Corps étranger des voies aériennes
+** 354 Corps étranger des voies aériennes
 Pics : enfant, âgé
 
 Y penser si symptôme respiratoire chronique/récidivant dans même territoire
@@ -544,7 +544,7 @@ Y penser si symptôme respiratoire chronique/récidivant dans même territoire
 Clinique : mobile (sd pénétration, suffocation), expulsé (pétéchies), enclavement
 
 CAT : Toux/Heimlich/réa. Extraction bronchoscopie/centré spé (enfant)
-** 354 : Détresse respiratoire aigüe
+** 354 Détresse respiratoire aigüe
 PEC : $O_2$, VNI/VI et investigation
 
 Diagnostic 
@@ -555,7 +555,7 @@ Diagnostic
 
 SDRA : détresse respi < 7j + anomalie RX (opacités alvéolaire bilat diffuse)
 sans défaillance cardiaque
-** 356 : Pneumothorax
+** 356 Pneumothorax
 Primaire (jeune, longiligne, 0 patho, fumeur) VS secondaire (âgé, patho connue)
 
 Clinique : douleur pleurale (\inc inspiration et otux)
@@ -569,8 +569,8 @@ Ttt : sevrage tabac
 Prévention récidive : pleurodèse 
 
 * Endocrinologie - Nutrition
-** 32 : Allaitement maternel
-** 35 : Contraception (gynéco)
+** 32 Allaitement maternel
+** 35 Contraception (gynéco)
    |            | \oe{}stroprogestatif                        | Micro/macroprogestatifs     |
    |------------+---------------------------------------------+-----------------------------|
    |            | 1ère intention (Minidril), le plus efficace | 2eme intention              |
@@ -579,13 +579,13 @@ Prévention récidive : pleurodèse
    | Surveiller | chostérole, TG, glycémie                    | spotting                    |
 
 Urgence : lévonorgestrel < 72h
-** 37 : Stérilité du couple (gynéco)
+** 37 Stérilité du couple (gynéco)
 Infertilité : 0 conception à 1 an. Stérilité = définitif
 
 - \female : anovulation (courbe de température), bilan hormonal, écho ovarienne, hystérographie. 
 - \male : volume testiculaire, testostérone, spermogramme. Hormonal si oligo/azoospermie
 
-** 40 : Aménorrhée (gynéco)
+** 40 Aménorrhée (gynéco)
 Primaire
 - pas dév. pubertaire :
   - FSH, LH \dec : tumeur H-H[fn:35], sd de Kallmann
@@ -599,7 +599,7 @@ Secondaire :
 3. LH \inc : écho ovaires (sd ovaires polykystiques) 
 4. estradiol, LH, FSH \dec (déficit gonadotrope) : tumeur/infiltration H-H(IRM) ou nutrition
 5. \inc testostérone (insuffisance ovarienne) : scanner surrénales, écho ovarienne
-** 47 : Puberté (pédia)
+** 47 Puberté (pédia)
 Retard : pas de seins > 13 ans ou pas de règle > 15 (\female), volume testicule
 < 4mL après 14 ans(\male)
 - hormonal (hypogonadotrope)
@@ -608,24 +608,19 @@ Retard : pas de seins > 13 ans ou pas de règle > 15 (\female), volume testicule
 - retard pubertaire simple
 Précoce < 8 ans \female{}, < 9.5 ans \male. Table [[tab:puberte]]
 #+name: tab:puberte
-#+begin_table
-#+LATEX: \centering
-#+LATEX: \caption{Puberté précoce}
-#+LATEX: \adjustbox{max width=\linewidth}{
-#+ATTR_LATEX: :center nil
-| Type         | Diagnostic   | Étiologie                            | Examens                               |
-|--------------+--------------+--------------------------------------+---------------------------------------|
-| centrale     | FSH, LH \inc | ovaire/testicule, surrénale          | écho pelvien/testic., test syancthène |
-| périphérique | FSH, LH \dec | idiopathique, atteinte SNC (tumeurs) | imagerie cérébrale                    |
-#+LATEX: }
-#+end_table
-** 48 : Cryptorchidie (pédia)
+#+caption: Puberté précoce
+#+ATTR_LATEX: :environment tabularx :width \textwidth :align ccXX
+| Type         | Diagnostic   | Étiologie                   | Examens                                     |
+|--------------+--------------+-----------------------------+---------------------------------------------|
+| centrale     | FSH, LH \inc | ovaire/testicule, surrénale | écho pelvien/testic., test stimulation GnRH |
+| périphérique | FSH, LH \dec | idiopathique, tumeurs SNC   | imagerie cérébrale                          |
+** 48 Cryptorchidie (pédia)
 Exploration : c. de Leydig, c. de Sertoli, FSH, LH + 17-hydroxyprogestérone si
 bilatérale
 
-Ttt chir (sinon = infertilité, hypogonadisme, K testiculaire)(
-** 51 : Retard de croissance (pédia)
-Définition : taille < -2DS ou ralentissement croissance ou << parents
+Ttt chir (sinon = infertilité, hypogonadisme, K testiculaire)
+** 51 Retard de croissance (pédia)
+Définition : taille < -2DS ou ralentissement croissance ou $<<$ parents
 
 Cf table [[tab:retard_croissance]] + bilainVS, NFS, foie, rein.
 #+name: tab:retard_croissance
@@ -638,12 +633,12 @@ Cf table [[tab:retard_croissance]] + bilainVS, NFS, foie, rein.
    | Maladie coeliaque, mucoviscidose | {IgA, IgA anti-transglutamase},test sueur |
    | Os                               | radio                                     |
    | Retard pubertaire simple         |                                           |
-** 69 : Troubles des conduites alimentaires (à compléter)
-** 78 : Dopage
+** 69 Troubles des conduites alimentaires (à compléter)
+** 78 Dopage
    /Stéroïdes anabolisant/, testostérone (\inc masse musculaire, puissance)
 
    Autres : GH (\inc masse musculaire), IGF-1. Glucocorticoïdes, ACTH (antalgique, psychostimulant)
-** 120 : Ménopause et andropause (gynéco, uro)
+** 120 Ménopause et andropause (gynéco, uro)
 Ménopause :
 - diag clinique : sd climatérique, aménorrhée \ge 1 an (bio si doute FSH \inc, oestradiol \inc)
 - ttt hormonale = \oe{}strogène et progestatif. Surveiller et réévaluation annuelle
@@ -653,16 +648,17 @@ Andropause : si testostérone < 2.3ng/mL[fn:36] :
 - FSH, LH \inc = insuf testiculaire primitive (sd Klinefelter)
 - sinon hypogonadisme hypogonadotrope \thus IRM H-H pour adénome hypophysaire
 
-** 122 : Troubles de l'érection  (uro)
+** 122 Troubles de l'érection  (uro)
 Étiologies factorielles !
 - psychogène (érections nocturnes) : rassurer, psychothérapie
 - diabète++, hypogonadisme++, hyperprolactinémie
 - vasculaire (HTA), chir pelvienne, anti-hypertenseur, neuro dégénératif, trauma médullaire
 Bilan bio : glycémie jeun, testostéronémie \pm prolactine, hormones thyroïdiennes
+
 Ttt 
 - hypogonadisme confirmé : androgènes (CI nodule prostatique, PSA > 3ng/mL)
 - 1ere intention : inhibiteurs phosphodiéstérase type 5 (Viagra) + stimulation
-** 124 : Ostéopathies
+** 124 Ostéopathies
 Ostéoporose secondaires de \female{} : endocrino++ (Table
 [[tab:osteoporose]]). \male{} : y penser si hypogonadisem, hypercortisolisme
 #+name: tab:osteoporose
@@ -671,17 +667,17 @@ Ostéoporose secondaires de \female{} : endocrino++ (Table
 |-------------------------------+---------------------------+------------------------------------------------------|
 | Hypogonadisme                 | Anorexie mentale          | Pilule \oe{}stroprogestative                         |
 |                               | Activité physique intense | Si aménorrhée, \dec activité ou \oe{}stroprogestatif |
-|                               | Patho. hypophysaire       | \OE{}Strogènes                                       |
+|                               | Patho. hypophysaire       | \OE{}strogènes                                       |
 |                               | Iatrogène                 | Bisphosphonates                                      |
 |                               | Sd Turner                 | \OE{}Strogène + GH ou (adulte) \oe{}stroprogestatif  |
 | Hyperthyroïdie                |                           | Surveillance (ttt supressif) \pm bisphosphonate      |
 | Hypercortisolisme/corticoïdes |                           | Vitaminocalcique, bisphosphonates                    |
 
-** 207 : Sarcoidose 
+** 207 Sarcoidose 
 Penser à sarcoïdose hypothalamo-hypophysaire si diabète insipide.
 Diag = défici endocrinien + infiltration HH à l'imagerie si sarcoïdose
-connue. Sinon arguments de sarcoïdose (cf [[207 : Sarcoïdose][item de pneumo]])
-** 215 : Hémochromatose
+connue. Sinon arguments de sarcoïdose (cf [[207 Sarcoïdose][item de pneumo]])
+** 215 Hémochromatose
 Suspicion clinique : Asthénie, Arthalgie, \inc ALAT (3 A)
 
 Atteinte : foie (cirrhose++), diabète sucré++, hypogonadisme, chondrocalcilnose
@@ -690,10 +686,9 @@ articulaire, c\oe{}ur
 Diag : CST \inc et ferritine \inc : chercher mutation C282Y sur HFE
 
 Ttt dès CST \inc : saignées jusque ferritine < 50g/L. Dépistage parents 1er degré
-** 220 Dylipidémie
-** 221 : HTA : hyperaldostorénonisme primaire, sd de Cushing
+** 221 HTA : hyperaldostorénonisme primaire, sd de Cushing
 <<sec:Cushing>>
-Contraception \oe{}stroprogestative, corticoïdes, réglisse
+Iatrogène : \oe{}stroprogestatifs, corticoïdes, réglisse
 
 Hyperminéralocorticisme primaire : 
 - suspicion : HTA (\pm résistante) + hypokaliémie
@@ -704,7 +699,7 @@ Hyperminéralocorticisme primaire :
 
 Phéochromocytomes[fn:40]
 - dépistage : HTA paroxystique, "triade de Ménard" = céphalées + sueurs +
-  palpitations, NEM1, NF1
+  palpitations, NEM2, NF1
 - diag : métanéphrine \inc
 - Imagerie puis chir
 Sd de Cushing
@@ -715,14 +710,14 @@ Sd de Cushing
   - ACTH \dec \thus adénome surrénalien, cortico-surrénalome malin
   - sinon : test de freinage fort à DXM, test de stimulation ACTH \thus maladie
     de Cushing (positif) ou sd paranéoplasique (négatif)
-** 238 : Hypoglycémie
+** 238 Hypoglycémie
 Diag : neuroglucopénie[fn:42] et glycémie < 0.50g/L et correction à normalisation[fn:41]
 
 Cause : 
 - surdosag insuline++ chez diabétique \thus sucre si CS, sinon glucagon IM/SC
   (ou perf glucose)
 - insulinome : diag par épreuve de jeune \thus chir
-** 239 : Goitre, nodules thyroïdiens, cancers thyroïdiens
+** 239 Goitre, nodules thyroïdiens, cancers thyroïdiens
 Goître (hypertrophie thyroïdie) : évolue en multinodulaire (complications ?)
 - étiologie : tabac, déficience iode
 - diag : TSH  et T4  (si TSH \inc: Ac anti-TPO et anti-TG  (auto-immunité))
@@ -735,10 +730,10 @@ Nodules (hypertrophie localisée thyroïdie) : doser TSH
 - nodule isolé cf [[tab:nodule_isole]]. Selon cytologie : surveillance si bénin, chir
 #+name: tab:nodule_isole
 #+caption: Orientation pour nodule isolé
-| TSH \inc            | TSH N           | TSH \inc      | 
-|---------------------+-----------------+---------------+
-| nodule hyperfonct ? | tumeurs         | thyroiidite ? | 
-| scint               | écho, cytologie | Ac anti-TPO   | 
+| TSH \dec            | TSH N           | TSH \inc      |
+|---------------------+-----------------+---------------|
+| nodule hyperfonct ? | tumeurs         | thyroiidite ? |
+| scinti              | écho, cytologie | Ac anti-TPO   |
 
 Cancers thyroïdiens : 
 
@@ -752,7 +747,7 @@ Cancers thyroïdiens :
   L-T4 (si récidive)
 - si médullaire : chercher autres lésions NEM2[fn:43]
 
-** 240 : Hyperthyroïdie
+** 240 Hyperthyroïdie
 Clinique : sd thyrotoxicose = asthénie, amaigrissement, sueurs, CV (tachycardie)
 
 Diagnosic : TSH \dec puis T4L \inc
@@ -770,11 +765,11 @@ Ttt :
 - \beta-bloquants, contraception, /anti-thyroidiens de synthèse/ [Neomercazole] (\danger
   agranulocytose[fn:44])
 - spécifique : 
-  - cardiothyréose = proanolol, anticoag, ATS, chir/radio-iode
+  - cardiothyréose = propranolol, anticoag, ATS, chir/radio-iode
   - Crise aigüe thyrotoxique \skull ATS, pronanolol, corticoïdes puis iode
-  - Obritopathie : pas d'ATS, ni d'iode !
+  - Orbitopathie : pas d'ATS, ni d'iode !
   - enceinte : surveillance/ATS/thyroïdectomie selon
-** 241 : Hypothyroïdie
+** 241 Hypothyroïdie
 Clinique : sd myxoedemateux[fn:46], hypométabolisme[fn:45]
 
 Diag = TSH \inc. Puis doser T4. Étio : Ac anti-TPO, échographie
@@ -783,14 +778,14 @@ Diag = TSH \inc. Puis doser T4. Étio : Ac anti-TPO, échographie
 - atteinte thyroïde
   - thyroïdite d'Hashimoto : Ac anti-TPO. Écho = hypoéchogène, hétérogène
   - thyroïdite atrophique (pas de goitre), du post-partum
-  - carence iode (endémie), iatrogène (interfééron)
+  - carence iode (endémie), iatrogène (interféron)
 - atteinte hypothalamo-hypophysaire \thus IRM
 
 Complications : insuf cardiaque, coma myxoedemateux \skull 
 
 Ttt : lévothyroxine [fn:47]. Surveiller TSH (primaire) ou T4L (atteinte H-H) !
 
-** 242 : Adénome hypophysaire
+** 242 Adénome hypophysaire
 Découverte : sd tumoral = céphalée, hémianopsie bi-temporale, apoplexie
 hypophysaire (rare mais urgence !)
 
@@ -814,7 +809,7 @@ Insuffisance hypophysaire : table [[tab:insuf_hypophyse]]
 | corticotrope | cortisolémie \dec, synacthène (aldostérone normale !) |
 | thyréotrope  | T4l \dec mais TSH normale...                          |
 | somatotrope  | GH) : stimulation GH négative                         |
-** 243 : Insuffisance surrénale
+** 243 Insuffisance surrénale
 Chronique : 
 - clinique = asthénie, anorexie, hypotension. Hyperk, hypoNa[fn:49] mélanodermie
   (surrénale), pâleur (hypophyse)
@@ -828,7 +823,7 @@ IS aigüe = urgence \skull
 - déshydratation extracellulaire, confusion, fièvre. Bio : hémoconcentration,
   hypoNa, hyperK, hypoglycémie
 - hydrocortisone 100mg puis \faHospitalO : NaCL et facteur déclenchant (IS chronique++)
-** 244 : Gynécomastie
+** 244 Gynécomastie
 Palpation : ferme, mobile, centré mamelon. Si doute, mammographie pour élimiter
 K et adipomastie
 
@@ -839,7 +834,7 @@ testiculaire/gonadotrope (8%), tumoral (rare).
 - bilan hormonal si non évident
 
 Ttt : cause. Androgène si idiopathique voire chir plastique
-** 245 : Diabète sucré
+** 245 Diabète sucré
 Glycémie jeun \ge 1.26 g/L \time 2 ou (\ge 2g/L + signes d'hyperglycémie)
 *** Diabète 1 
 insulinopénie (destruction c. \beta pancréas) auto-immun++ ou idiopathique
@@ -910,16 +905,16 @@ Complications métabolique :
 - coma hyperosmolaire : 
   - diag = glycosurie, cétonurie (BU) et hyperglycémie (dextro)
   - ttt : réhydratation lente, insuline IV, héparine, cause
-- hypoglycémie : inévitable, non mortelle. Cf [[238 : Hypoglycémie][item 238]]
-** 246 : Prévention par la nutrition
-** 247 : Modifications thérapeutiques du mode de vie
-** 248 : Dénutrition (à compléter)
-** 249 : Amaigrissement (à compléter)
+- hypoglycémie : inévitable, non mortelle. Cf [[238 Hypoglycémie][item 238]]
+** 246 Prévention par la nutrition
+** 247 Modifications thérapeutiques du mode de vie
+** 248 Dénutrition (à compléter)
+** 249 Amaigrissement (à compléter)
 Vérifier l'amaigrissement !
 
 Causes endocrino : insuf. surrénale (primaire/secondaire)diabète, hyperthyroïdie, hypercalcémie
-** 250 : Troubles nutritionnels chez sujet âgé (à compléter)
-** 251 : Obésité (à compléter)
+** 250 Troubles nutritionnels chez sujet âgé (à compléter)
+** 251 Obésité (à compléter)
 IMC \ge 30 kg/m^2 (grade 1 si < 35, grade 3 si \ge 40)
 
 Étiologie : génétique, communes++ (déséquilibre apport-dépense).
@@ -940,7 +935,7 @@ Complication : HTA, insulinorésistance, stéatose hépatique non alcoolique,
 articulaire, psycho
 
 Interrogatoire + EC. Ttt = prévention
-** 252 : Diabète gestationnel + nutrition et grossesse (à compléter)
+** 252 Diabète gestationnel + nutrition et grossesse (à compléter)
 Pré-gestationnel
 - risque f\oe{}tus : fausses couches, malformations congénitales, mort f\oe{}tales,
 - risque mère : HTA ++, rétinopathie, néphropathie
@@ -952,7 +947,7 @@ D. parents 1er degr}
 - PEC si glycémie jeun \ge 0.92g/L (début), sinon teste 24-28SA avec HGO
 - ttt : diét., *pas* d'antidiabétique, surveillance
 
-** 253 : Nutrition chez le sportif
+** 253 Nutrition chez le sportif
 Examen d'aptitude : ATCD familaiaux (CV),  EC complet, ECG d'effort
 
 Bénéficices du sport : 150min/semaine (ou 75min si intense) chez
@@ -970,7 +965,7 @@ Bseoins :
 - lipides (30%) à limiter si compétition
 - protéines (20%)
 - calcium 1g/j, Fer 10-15mg/j, vit D 5 \mu{}g/j \thus surveiller chez l'enfant
-** 265 : Hypocalcémie, dyskaliémie, hyponatrémie
+** 265 Hypocalcémie, dyskaliémie, hyponatrémie
 Hypocalcémie :
 - clinique : troubles du rythme, parésthésie, tétanie
 - causes hypoparathyroïdie, anomalie vitamine D (carence, malabsorption...)
@@ -989,7 +984,7 @@ Hyponatrémie endocrinienne (hospitalisé++)
   | volémie \dec | perte digestive, rénale, insuf corticosurrénale aigüe | Restriction hydrosodée |
 
 
-** 266 : Hypercalcémie
+** 266 Hypercalcémie
 Étiologie :
 - PTH \inc ou N
   - hyperparathyroïdie primaire (55%) : ttt = chir conventionnelle
@@ -998,16 +993,16 @@ Hyponatrémie endocrinienne (hospitalisé++)
   - maligne (30%)
   - iatrogène, granulomatose
 Ttt (hors hyperparathyroïdie primaire) : bsiphosphonates, calcimimétique
-** 303 : Tumeurs de l'ovaire (hormono-sécrétante)
+** 303 Tumeurs de l'ovaire (hormono-sécrétante)
 Sécrète des \oe{}strogènes : tumeurs de la granulosa++ : 
 - sympto : pseudo-puberté précoce ou aménorrhée/ménométrorragie ou saignement vaginal
 - ttt = ovariectomie unilatérale
 Sécrète des androgènes : tumeurs à c. de sertoli-Leydig (Hirsutisme, ttt
 conservateur), à c. de Leydig (virilisante, ttt = ovariectomie bilat),
 germinales sécrétantes [fn:56]
-** 305 : Tumeurs du pancréas (endocrine)
+** 305 Tumeurs du pancréas (endocrine)
 Clinique selon sécrétion (insuline, gastrine, ACTH, glucagon, VIP, GHRH)
-** 310 : Tumeurs du testicule (aspects endocriniens)
+** 310 Tumeurs du testicule (aspects endocriniens)
 Clinique : pseudo-puberté précoce/gynécomastie
 
 Sécrète testostérone/\oe{}stradiol ou gonadotrophine chorionique/hCGA (tumeurs

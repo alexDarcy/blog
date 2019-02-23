@@ -169,7 +169,7 @@
 #+BEGIN_EXPORT latex
 
 \def\arrow{$\rightarrow$}
-\section{218 - Athérome}%
+\section{218 - Athérome}
 \label{sec:1_atherome}
 
 Épidémio : 1ere cause de mortalité dans le monde. 
@@ -227,7 +227,7 @@ PEC spécifique : chirurgie anévrisme ($\diameter \ge 5.5cm$), endartériectomi
 (sténose carotide > 60\%), revasc. myocardique (sd coronaire aigü $\wedge$
 sténose coronaires > 70\%)
 
-\section{219 - Facteur de risques cardio-vasculaires}%
+\section{219 - Facteur de risques cardio-vasculaires}
 \label{sec:219_facteur_de_risques_cardio_vasculaires}
 
 Facteur de risque (FR) : causalité avec la maladie $\neq$ marqueur de risque
@@ -364,7 +364,7 @@ Voir table~\ref{tab:cholesterol}.
   \caption{PEC du patient dyslipidémique}
   \label{tab:cholesterol}
 \end{table}
-\section{220 - Dyslipidémies}%
+\section{220 - Dyslipidémies}
 \label{sec:220_dyslipidemies}
 
 Risques : maladies CV athéromateuses
@@ -466,7 +466,7 @@ Statines surtout
  Augmenter doses progressitement puis suivi : 2-3 mois tant que objectifs non
  atteints puis 1-2/an
 
-\section{334 - Syndromes coronariens aigüs}%
+\section{334 - Syndromes coronariens aigüs}
 \label{sec:334_syndromes_coronariens_aigus}
 
 Sd coronaire aigü (SCA) : lésions athérothrombotiques aigües
@@ -766,7 +766,7 @@ remplacement valvulaire.
 \end{itemize}
 Éventuellement DAI
 
-\section{228 - Douleur thoracique aigüe}%
+\section{228 - Douleur thoracique aigüe}
 \label{sec:228_douleur_thoracique_aigue}
 
 \subsection{CAT}
@@ -869,7 +869,7 @@ Urgences moyennes : 4 P = \{pneumothorax, pleurésie,
 pneumonies, pancréatite\}, ulcère gastrique/duodénale, cholécystite, douleurs
 radiculaires
 
-\section{223 - Artériopathie oblitérante (aorte, MI)}%
+\section{223 - Artériopathie oblitérante (aorte, MI)}
 \label{sec:223_arteriopathie_obliterante_aorte_mi_}
 \subsection{AOMI\footnote{Artériopathie oblitérante des membres inférieurs}}
 
@@ -1007,7 +1007,7 @@ $\pm$ angioplastie, aponévrotomie. Amputation possible
 Surveiller acidose métabolique, hyperK, insuf rénale : diurèse, iono, urée,
 créat.
 
-\section{231 - Rétrécissement aortique}%
+\section{231 - Rétrécissement aortique}
 \label{sec:231_retrecissement_aortique}
 Obstruction à l'éjection du VG\footnote{Ventricule gauche}, ici au niveau de la
 valve aortique
@@ -1071,7 +1071,7 @@ Si symptomatique, opérer. Sinon (et FEVG normale), test d'effort.
 NB : si FE < 35\%, échocardio de stress sous dobutamine pour risque opératoire
 
 
-\section{231 - Insuffisance mitrale}%
+\section{231 - Insuffisance mitrale}
 \label{sec:231_insuffisance_mitrale}
 Reflux de sang depuis le VG vers l'OG pendant la systole.
 
@@ -1169,7 +1169,7 @@ Médical :
     atriale)
 \end{itemize}
 
-\section{231 - Insuffisance aortique}%
+\section{231 - Insuffisance aortique}
 \label{sec:231_insuffisance_aortique}
 Régurgitation de sang vers VG en diastole.
 
@@ -1268,7 +1268,7 @@ Quand faire la chir ?
   \item aigüe volumineuse : urgence
 \end{itemize}
 
-\section{150 - Surveillance des porteurs de valves, prothèses vasculaires}%
+\section{150 - Surveillance des porteurs de valves, prothèses vasculaires}
 \label{sec:150_surveillance_des_porteurs_de_valves_protheses_vasculaires}
 
 \begin{itemize}
@@ -1328,7 +1328,7 @@ contraste spontané dense OG, sténose mitrale, FE < 35\%, hypercoagulabilité
 Ne pas interrompre AVK sauf pronostic vital !. Si chir extracardiaque : HNF
 pendant l'arrêt AVK
 
-\section{149 - Endocardite infectieuse}%
+\section{149 - Endocardite infectieuse}
 \label{sec:149_endocardite_infectieuse}
 Infections des valves cardiaque ou de l'endocarde pariétal. Dominées par les
 staphylocoques
@@ -1434,7 +1434,7 @@ ATBprophylaxie : amoxicilline (clindamycine si allergie) avant geste (région
 apical/gingivale, perforation muqueuse orale ou (extraction dentaire et haut
 risque))
 
-\section{236 - Souffle cardiaque chez l'enfant}%
+\section{236 - Souffle cardiaque chez l'enfant}
 \label{sec:236_souffle_cardiaque_chez_l_enfant}
 Très fréquent.
 
@@ -1512,7 +1512,7 @@ cardiaque (rare)
     faible intensité, (intensité varie avec position), doux. Ne rien faire
 \end{itemize}
 
-\section{337 - Malaise, perte de connaissance}%
+\section{337 - Malaise, perte de connaissance}
 \label{sec:337_malaise_perte_de_connaissance}
 \begin{itemize}
   \item Syncope : trouble de conscience, hypotonie, début brutal/rapide, souvent
@@ -1614,7 +1614,7 @@ hyperréflexie sinocartidienne, ECG implantable
     ventriculaire++. Diagnostic = étude électrophysiologique endocavitaire
 \end{itemize}
 
-\section{230 - Fibrillation atriale}%
+\section{230 - Fibrillation atriale}
 \label{sec:230_fibrillation_atriale}
 
 Tachycardie irrégulière due à une activité anarchique des oreillettes
@@ -1716,7 +1716,7 @@ Si FA valvulaire : seuls AVK
 HTA, risque d'embole cérébrale, effets secondaire amiodarone (hyperthyroïdie,
 photosensibilisation, dépôts cornéens)
 
-\section{234 - Troubles de la conduction intracardiaque}%
+\section{234 - Troubles de la conduction intracardiaque}
 \label{sec:234_troubles_de_la_conduction_intracardiaque}
 Fréquences d'échappement :
 \begin{itemize}
@@ -1726,7 +1726,7 @@ Fréquences d'échappement :
 \end{itemize}
 Dysfonction sinusale et BAV peuvent être symptomatiques. Les BAV isolé non.
 
-\subsection{ECG}%
+\subsection{ECG}
 \paragraph{Dysfonction sinusale}
 Arrêt par le noeud sinusal ou non-transmission à l'atrium.
 
@@ -1872,7 +1872,7 @@ Stimulateur pour
 \end{itemize}
 Toujours traiter cause
 
-\section{229 - ECG}%
+\section{229 - ECG}
 \label{sec:229_ecg}
 Normales : FC $\in [60, 100]$ battements/min, P < 120ms
 
@@ -1974,7 +1974,7 @@ Maladie coronaires : sus-ST
 \end{itemize}
 Ondes Q de nécrose : +6h, > 1/3 du QRS
 
-\section{235 - Palpitations}%
+\section{235 - Palpitations}
 \label{sec:235_palpitations}
 Sensation que le c\oe{}ur bat trop fort/vite/irrégulièrement
 
@@ -2025,7 +2025,7 @@ gravité.
 
 Névrose cardiaque = élimination
 
-\section{232 : Insuffisance cardiaque}%
+\section{232 : Insuffisance cardiaque}
 \label{sec:insuffisance_cardiaque}
 Déf clinique : symptômes d'\gls{IC} (dyspnée, oedèmes
 chevilles, fatigue...) et signes d'IC (crépitant, turgescence jugulaire...)
@@ -2194,7 +2194,7 @@ Choc cardiogénique : sonde urinaire++, inotropes (ex: dobutamine)
 
 
 
-\section{221 - Hypertension artérielle}%
+\section{221 - Hypertension artérielle}
 \label{sec:221_hypertension_arterielle}
 Grades (\gls{PAS}/\gls{PAD})):
 \begin{itemize}
@@ -2336,7 +2336,7 @@ Autres :
     ttt : diurétique, calcium bloqueurs
   \item Urgence : éviter baisse brutale tension et hypotension \skull
 \end{itemize}
-\section{225 - Insuffisance veineuse chronique}%
+\section{225 - Insuffisance veineuse chronique}
 \label{sec:225_insuffisance_veineuse_chronique}
 
 Rappel : réseau superficiel = veine saphène interne, saphène externe\\
@@ -2381,7 +2381,7 @@ Examens : \textit{écho-doppler} veineux des MI
 \end{itemize}
 NB : CI à la chir = sd obstructif veineux profond
 
-\section{233 - Péricardite aigüe}%
+\section{233 - Péricardite aigüe}
 \label{sec:233_pericardite_aigue}
 
 \subsection{Diagnostic}
@@ -2448,7 +2448,7 @@ colchicine (CI si insuf rénale sévère)
 
 Tamponnade : urgence \skull, remplissage, ponction/drainage
 
-\section{327 : Arrêt cardiocirculatoire}%
+\section{327 : Arrêt cardiocirculatoire}
 \label{sec:327_arret_cardiocirculatoire}
 
 Mort subite : aigüe, après symptômes < 1h. Arrêt cardiorespi (ACR) : plus d'activité
@@ -2512,7 +2512,7 @@ Cerveau :
   \item hypothermie à 34 degré
 \end{itemize}
 
-\section{264 - Diurétiques}%
+\section{264 - Diurétiques}
 \label{sec:264_diuretiques}
 
 \subsection{Modes d'actions}
@@ -2572,7 +2572,7 @@ Autres :
   \item interaction : lithium, hypokaliémiant, AINS
 \end{itemize}
 
-\section{326 - Antithrombotiques}%
+\section{326 - Antithrombotiques}
 \label{sec:326_antithrombotiques}
 % ???
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2621,7 +2621,7 @@ CI absolue : prasugrel si ATCD accident cérébral.
   \item Anti-GPIIb-IIIa : voie veineuse, courtes périodes, conditions très particulières
 \end{itemize}
 
-\subsection{Héparines}%
+\subsection{Héparines}
 \begin{itemize}
   \item HNF : IV, effet immédiat. Antidote : sulfate de protamine. 80 UI/kg puis
     18 UI/kg/h \\
@@ -2787,7 +2787,7 @@ Hémorragiques :
 |                     | gls:QCD              |
 | Âgé non communicant | Doloplus (chronique) |
 |                     | Algoplus (aigüe)       |
-** 132 : Antalgiques
+** 132 Antalgiques
 *** Palier 1 et AINS
 **** Paracétamol
  1ere intention, surtout douleur chronique
@@ -2977,8 +2977,8 @@ Neuropsy :
 - anxiété : benzodiazepine, hydroxine. Si échec neuroleptique
 
 * Endocrinologie
-** 32 : Allaitement maternel
-** 35 : Contraception
+** 32 Allaitement maternel
+** 35 Contraception
 *** Contraception hormonale
  Oestroprogestatifs
  - Contient {oestrogène, progestatif (gen 1,2 ou 3), autres progestatif}
@@ -3078,7 +3078,7 @@ Neuropsy :
  - lévonorgestrel ASAP < 72h
  - ulipristal acétate ASAP < 120h mais 3x plus cher
 
-** 37 : Stérilité du couple
+** 37 Stérilité du couple
  Infertile : 0 grossesse après 1 an de rapports non protégés. Stérilité si
  définitif.
 
@@ -3135,7 +3135,7 @@ Neuropsy :
      confirmée par plusieurs spermogrammes, bilan génétique
  - /oligo-asthéno-térato-spermie/ : \dec nombre et mobilité, \inc formes anormales
    \thus caryotype, brang long Y. Traitement = assistance médicale procréation
-** 40 : Aménorrhée
+** 40 Aménorrhée
  Déf: absence de cycle menstruel après 16 ans (primaire) ou interruption chez
  femme réglée (secondaire). Physiologique : grossesse, lactation, ménopause
 
@@ -3263,7 +3263,7 @@ Neuropsy :
 
 ***** Secondaires 
  Synéchies utérines (trauma de l'utérus), tuberculose utérine
-** 47 : Puberté
+** 47 Puberté
 *** Normale
  ~4 ans, acquisition de la taille définitive, fonction de
  reproduction. Classification de Tanner (5 stades)
@@ -3374,7 +3374,7 @@ Neuropsy :
    surrénales (\inc 17-hydroxyprogestérone, stimulation ACTH), prémature pubarche
    (élimination !)
 
-** 48 : Cryptorchidie
+** 48 Cryptorchidie
 *** Enfant
   Localisation anormale et inaboutie du testicule. Très fréquente : 3%
   nouveaux-nés, 20% préma. 2/3 descendent spontanément à 1 an de vie
@@ -3401,7 +3401,7 @@ Neuropsy :
  - Examen clinique : scrotum, gynécomastie, signes d'hypogonadisme
  - Complémentaire : {FSH, LH, testostérone}, hCG si tumeur à la palpation, écho
    scrotale, spermogramme
-** 51 : Retard de croissance
+** 51 Retard de croissance
  \danger Ne pas passer à côté de pathologies sévères
 
  Phases : 
@@ -3463,8 +3463,8 @@ Neuropsy :
  - GF-1, T4L, TSH
  - Radio
 
-** 69 : Troubles des conduites alimentaires (à compléter)
-** 78 : Dopage
+** 69 Troubles des conduites alimentaires (à compléter)
+** 78 Dopage
 *** Substances augmentant la testostérone 
  - Stéroïdes anabolisant, testostérone : \inc masse musc, puissance
  - Risque : thrombotique, rupture musculo-tendineuse, trouble personnalité, foie, trouble libido, adénome/cancer de la prostate
@@ -3491,7 +3491,7 @@ Neuropsy :
    oedème, rupture ligament/tendon
  \danger arrêt brutal = dangereux \skull
 
-** 120 : Ménopause et andropause
+** 120 Ménopause et andropause
  \label{sec:120}
 *** Ménopause
  Déf: plus de règle > 1 an \pm sd climatérique, lié à une carence
@@ -3589,7 +3589,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  - chir, radiothérapie, trauma
  - hyperprolactinémie, carence nutritionnelle, Cushing, tumeur testiculaire
 
-** 122 : Troubles de l'érection 
+** 122 Troubles de l'érection 
  Nécessite : réseau vasculaire, appareil musculaire lisse, retour veineux, signal  nerveux,
  appareil hormonal et psychisme fonctionnels
 
@@ -3680,7 +3680,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  - 2eme intention : drogue vasoactive = efficace mais douleurs peniennes, priapisme
  - Prothèses péniennes = dernier recours, par chirurgien spécialisé
 
-** 124 : Ostéopathies
+** 124 Ostéopathies
  Ostéoporose : fragilité excessive du squelette (\dec minéraux osseux, modif
  microarchitecture). T-score < -2.5 DS de la valeur moyenne par DXA
 
@@ -3782,7 +3782,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  Ostéoporoses secondaires plus fréquentes chez l'homme : hypercorticisme,
  hypogonadisme congénital/acquis/iatrogène, alcoolisme, hypercalciurie
  idiopathiques, génétique
-** 207 : Sarcoidose
+** 207 Sarcoidose
    Atteinte hypothalamo-hypophysaire exceptionnelle. Conséquences : diabète
    inspide central, insufisance gonadotrope
 
@@ -3798,7 +3798,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
 
  Traitement : sarcoïdose et déficits hormonaux
 
-** 215 : Hémochromatose
+** 215 Hémochromatose
  Hémochromatose primitive : génétique, surcharge en fer. 5 pour 1 000 !
 
  Physiopatho : 
@@ -3864,7 +3864,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
 
  Bilan ferrique (stade 0,1) ferritinémie, hémoglobine (stade 2 à 4)
 
-** 221 : HTA, causes endocriniennes
+** 221 HTA, causes endocriniennes
  Déf: \ge 140/90 mmHg.
 
  Dépistage d'une HTA secondaire : doit être systématique mais économe...
@@ -3965,7 +3965,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
     
 *** Causes rare
     Tumeurs à rénine, acromégalie
-** 238 : Hypoglycémie
+** 238 Hypoglycémie
  Diagnostic : neuroglucopénie et glycémie < 0.50g/L (0.60 chez diabétique) et correction symptômes
  à normalisation (triade de Whipple)
 
@@ -4019,7 +4019,7 @@ sulfonylurée : glucose en perfusion)
  \end{tcolorbox}
  \footnotetext{Spontanément/jeûne}
 
-** 239 : Goitre, nodules thyroïdiens, cancers thyroïdiens
+** 239 Goitre, nodules thyroïdiens, cancers thyroïdiens
  Besoins en iode quotidiens (synthèse hormones thyroïdiennes) :  \approx 150 \mu{}g/jour (ado,
    adulte, \times 2 chez enceinte)
 
@@ -4158,7 +4158,7 @@ sulfonylurée : glucose en perfusion)
 
  Étude génétique dans tous les cas : positif \thus chercher phéochromocytome,
  hyperparathyroïdie + enquêtes apparentés
-** 240 : Hyperthyroïdie
+** 240 Hyperthyroïdie
  \begin{tcolorbox}
  Examen en 1ere intention : TSHus (puis T4L !)
  \end{tcolorbox}
@@ -4294,7 +4294,7 @@ sulfonylurée : glucose en perfusion)
    importante : ATS faible dose. Si formes grave, chir (2eme trimestre) possible)
  \thus surveillance avant et après accouchement  
 
-** 241 : Hypothyroïdie
+** 241 Hypothyroïdie
  \begin{tcolorbox}
  Rappel : TRH (hypothalamus) stimule la production de TSH (hypophyse) qui stimule la thyroïde
  \end{tcolorbox}
@@ -4397,7 +4397,7 @@ sulfonylurée : glucose en perfusion)
    lithium, interféron, cytokines}
  - Femme enceinte : si signes, contexte thyroïdien (perso/familial), auto-immunité
 
-** 242 : Adénome hypophysaire
+** 242 Adénome hypophysaire
 *** Sd tumoral
  Clinique : 
  - céphalées : rétro-orbitaire, localisése
@@ -4526,7 +4526,7 @@ sulfonylurée : glucose en perfusion)
  - Prolactine normale/élevée
 
  IRM si déficit hypophysaire
-** 243 : Insuffisance surrénale
+** 243 Insuffisance surrénale
 *** Insuffisance surrénale lente
  Rare mais grave \skull
 
@@ -4648,7 +4648,7 @@ sulfonylurée : glucose en perfusion)
 
  À risque : (ttt \ge 3 semaines par \ge 20mg prednisone) ou (corticoïdes et inhib enzymatique du
  cytochromie P450 (ritonavir)) ou sd Cushing iatrogène
-** 244 : Gynécomastie
+** 244 Gynécomastie
    Hyperplasie tissue glandulaire mammaire, fréquente. Dû à oestrogène \inc{} et testostérone \dec{}. Regarder aussi TeBG,
    SHBG
 *** Démarche
@@ -4688,7 +4688,7 @@ sulfonylurée : glucose en perfusion)
  - Pubertaire : ne rien faire
  - Idiopathique : androgènes non aromatisables 3 mois. Si inefficace, chir
    plastique possible
-** 245 : Diabète (à compléter)
+** 245 Diabète (à compléter)
    \begin{tcolorbox}
  Définition : glycémie à jeun \ge 1.26g/L (2 reprises) ou (aléatoire \ge 2g/L et signes hyperglycémie)\footnotemark
  \end{tcolorbox}
@@ -5219,10 +5219,10 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - peur chez diabiétique, déstabilise diabète, attention si âgé ou alcoolique
  - favorisé par : hypoglycémie mineure répétées ignorées, neuropathie végétative
  - cause : repas insuffisants, effort physique, erreur d'injection
-** 246 : Prévention par la nutrition
-** 247 : Modifications thérapeutiques du mode de vie
-** 248 : Dénutrition (à compléter)
-** 249 : Amaigrissement
+** 246 Prévention par la nutrition
+** 247 Modifications thérapeutiques du mode de vie
+** 248 Dénutrition (à compléter)
+** 249 Amaigrissement
  Fréquent
 
 *** Interrogatoire 
@@ -5256,8 +5256,8 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
    - insuf surrénalienne : cortisol, ACTH plasmatique
    - panhypopituitarisme[fn:endocrino68] : cortisol \dec
    - phéochromocytomes : (nor)métanéphrines dans urines 24h, imagerie surrénales
-** 250 : Troubles nutritionnels chez sujet âgé (à compléter)
-** 251 : Obésité(à compléter)
+** 250 Troubles nutritionnels chez sujet âgé (à compléter)
+** 251 Obésité(à compléter)
 *** Adulte
  Surpoids = IMC \in [25, 29.9]kg/m^2. Obésité :
  - grade 1 : IMC \in [30, 34.9]kg/m^2.
@@ -5343,7 +5343,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 **** Traitement	
  Prévention surtout. Modifier style de vie (efficacité faible). Chir possible
  avec équipes spécialisées
-** 252 : Diabète gestationnel + nutrition et grossesse (à compléter)
+** 252 Diabète gestationnel + nutrition et grossesse (à compléter)
  Physio chez femme enceinte selon moitié:
  - non diabétique : (\inc insulinéme, insulinosensibilité) puis (insulinorésistance
    \thus hyperinsulinisme ou diabète gestationnel)
@@ -5435,7 +5435,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 
  Post-partum : arrêt insuline et surveillance glycémie (diabète antérieur
  ?). Vérifier glycorégulation à 3 mois. Risque de récidive si grossesse
-** 253 : Nutrition chez le sportif
+** 253 Nutrition chez le sportif
 *** Examen d'aptitude
  Dépister les pathologies induisant un risque vital/fonctionnel grave : mort
  subite (1-4/100 000 après 35 ans)
@@ -5506,7 +5506,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 
  Surveiller calcium, vit D, fer.
 
-** 265 : Hypocalcémie, dyskaliémie, hyponatrémie
+** 265 Hypocalcémie, dyskaliémie, hyponatrémie
  
 *** Hypocalcémie (hypoCa)
  Éliminer fausses hypoCa dues à l'hypoalbuminémie[fn:endocrino69].
@@ -5644,7 +5644,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - symptômes cliniques sévères/récent : sérum salé hypertonique
  - symptômes plus modérés : sérum et tolvaptan
  - sinon restriction hydrique et tolvaptan (ou déméclocycline)
-** 266 : Hypercalcémie
+** 266 Hypercalcémie
  Diagnostic = double dosage calcémie. Étiologie selon parathormone (PTH)
 
  Physio : calcémie régulée par PTH et calcitriol
@@ -5712,7 +5712,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  \danger Hypercalcémie maligne = urgence \skull{} : 
  - sérum phy
  - bisphosphonate en perf lente ou corticothérapide IV (myélome/hémopathie) ou dialyse (maligne)
-** 303 : Tumeurs de l'ovaire (hormono-sécrétante)
+** 303 Tumeurs de l'ovaire (hormono-sécrétante)
 *** Sécrétant des oestrogènes
  Tumeurs de la granulosa : 
  - malignes, les plus fréquentes des tumeurs des cordons sexuels et du stroma. 
@@ -5769,7 +5769,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 
  Formes familiales : NEM1, neurofibromatose 1, von Hippel-Lindau
 
-** 310 : Tumeurs du testicule (aspects endocriniens)
+** 310 Tumeurs du testicule (aspects endocriniens)
 
  Prévalence : 9/100 000, ado/adulte jeune
 
@@ -5811,8 +5811,8 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
        hh --["+"] ht;
      };
    }
- \resizebox{0.4\linewidth}{!}{
-     \tikz \graph [decision]
+ \resizebox{!}{5cm}{
+     \tikz \graph [decision, layer distance=1.5cm]
      {
        ht/hypothalamus[organ] -> ["GnRH"] hh/hypophyse[organ] -> "FSH, LH" -> {
          testicules[organ] -> test/testosterone;
@@ -5827,7 +5827,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
      \tikz \graph [decision, layer distance=1.5cm]
      {
        ht/hypothalamus[organ] -> ["TRH"] hh/antéhypophyse[organ]
-       ->["TSH"] th/thyroide[organ] -> "T4, T3";
+       ->["TSH"] th/thyroide[organ] -> ["T4"] "foie,muscles" -> "T3";
        th -> [bend left=60, "-"] hh;
        th -> [bend left=70, "-"] ht;
      };
@@ -5871,7 +5871,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 
 * Neurologie (ébauche)
 \input neurologie
-* Pneumologie                                                        :export:
+* Pneumologie
 ** 73 - Addiction au tabac
 3 fumées : courant primaire (inspiré), secondaire (tabagisme passif++), tertiaire (exhalé)\\
 Produits :
@@ -6111,7 +6111,7 @@ Indemnité\footnote{Pour l'amiante : caisse d'assurance malaide ou FIVA}
   (> 10%), rentre et autres (> 40%)
 
 
-** 182 - Hypersensibilités et allergies respiratoires%
+** 182 - Hypersensibilités et allergies respiratoires
 \label{sec:182_hypersensibilites_et_allergies_respiratoires}
 
 \begin{figure}[htpb]
@@ -6138,7 +6138,7 @@ Indemnité\footnote{Pour l'amiante : caisse d'assurance malaide ou FIVA}
   }
   \caption{Hypersensibilité}
 \end{figure}
-*** Définitions%
+*** Définitions
 Atopie : prédisposition héréditaires à IgE face à des allergènes.\\
 Allergie : réaction d'HS par mécanismes immunologiques\\
 Sensibilisation : test cutané positif à un allergène\\
@@ -6390,7 +6390,7 @@ TDM
 Ttt : laval nasal, allergie, antihistaminique/corticoïdes nasaux, tabac, stress
 
 
-** 188, 189 : Pathologies auto-immunes%
+** 188, 189 Pathologies auto-immunes
 \label{sec:pathologies_auto_immunes}
 
 Manifestations respi. viennent de (par priorité décroissante) :
@@ -6474,7 +6474,7 @@ Granumolatose éosinophilique avec polyangéite :  hyperéosinophilie, pneumopat
 
 Polyangéite microscopique : sd hémorragique alvéolaire
 
-** 199 : Dyspnée aigüe et chroniques
+** 199 Dyspnée aigüe et chroniques
 \label{sec:199_dyspnee_aigue_et_chronique}
 Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
 
@@ -6565,7 +6565,7 @@ Insuf cardiaque gauche (ATCD cardiaque, orthopnée, toux) &  & Parétiale
 \end{adjustbox}
 \end{table}
 Quantification : échelle Borg [0-10] (aigüe) ou MRC [0-4] (chronique)
-** 200 - Toux chronique
+** 200 Toux chronique
 \label{sec:200_toux_chronique}
 
 \danger Éliminer toux post-infectieuse (< 3 semaines)
@@ -6651,20 +6651,18 @@ Traitement symptomatique : arrêt tabagisme. Éviter si possible
 - si toux productive : mucomodificateurs, kiné
 
 
-*** Bronchectasies
+*** Bronchectasies (DDB)
 \label{sub:bronchectasies}
 Types : bronchectasies (élargissement $\diameter$), bronchocèle (pus), "par
 traction" (NB: pas des vraies bronchectasies)
 
-
-Étiologie : 
+Étiologie :
 
 - infection respi sévères : coqueluche, tuberculose (virales respi enfant,
   pneumonie bact, suppuration suite sténose)
 - mucoviscidose
 - non infectieux (poumon radique, aspergillose allergique, SDRA,
   systémique, déficit immunitaire)
-
 
 Évolution : colonisation bactérienne, hémoptysie, TVO (car dilatation seulement
 proximale), insuffisance respi
@@ -6673,6 +6671,7 @@ Clinique :
 
 - toux productive quotidienne depuis l'enfance
 - hémoptysie
+- EC : (râles bulleux à l'auscult), (hippocratisme digital)
 - infections à {\bact{influenzae}, \bact{pneumocoque}} puis {\bact{dore},
   \bact{aeruginosa}++}
 
@@ -6684,7 +6683,7 @@ opacités tubulées
 Traitement : ATB si exacerbation, complications parenchymateuses. Macrolides
 pour l'inflammation. Chir si très local + compliqué.
 
-** 201 - Hémoptysie%
+** 201 Hémoptysie
 \label{sec:201_hemoptysie}
 
 Urgence \skull
@@ -6731,7 +6730,7 @@ Embolisation artérielle bronchique
 
 Chir si localisé, fonction respi OK et "à froid"
 
-** 202 : Épanchement pleural
+** 202 Épanchement pleural
 \label{sec:epanchement_pleural}
 
 *** Diagnostic
@@ -6847,7 +6846,7 @@ pleuraux/sérique > 0.6)} faux
 \end{table}
 
 
-** 203 - Opacités et masses thoraciques%
+** 203 Opacités et masses thoraciques
 \label{sec:203_opacites_et_masses_thoraciques}
 
 
@@ -6957,7 +6956,7 @@ Diagnostic :
 
 NB : urgence si jeune et suspicion de tumeur germinale non séminomateuses
 
-** 204 - Insuffisance respiratoire chronique
+** 204 Insuffisance respiratoire chronique
 \label{sec:org6d633b6}
 *** Mécanismes
 \label{sec:org47f478d}
@@ -7061,7 +7060,7 @@ Irréversible, risque = insuf. respi aigüe (surtout causée par insuf. respi. b
 cardiaque G, EP)
 
 
-** 205 - BPCO\footnote{Bronchopneumopathie chronique obstructive}
+** 205 BPCO\footnote{Bronchopneumopathie chronique obstructive}
 \label{sec:205-bpco}
 
 *** Définitions
@@ -7178,7 +7177,7 @@ ATB : majoration purulence : amox + acide clav si FR, sinon amox-acide
 clav/pristinamycine/macrolides\\
 Autres \faHospitalO : oxygénothérapie, kiné, HBPM, (assistance ventilatoire)
 
-** 206 - Pneumopathies infiltrantes diffuses
+** 206 Pneumopathies infiltrantes diffuses
 *** Présentation
 Clinique : dyspnée d'effort prgorsessive.\\
 EFR : \gls{TVR} ( CPT < 80% et VEMS/CVL >
@@ -7316,10 +7315,10 @@ Diagnostic : biopsies des éperons\\
 Carcinome lépidique : verre dépoli. 
 
 
-** 207 - Sarcoidose
+** 207 Sarcoidose
 Maladie : systémique, cause inconnue, hétérogène, ubiquitaire. Début 25-45ans
 dans 2/3\\
-Atteinte médiastino-pulmonaire 90%
+Atteinte médiastino-pulmonaire 90
 
 *** Expression
 \label{sec:org39048da}
@@ -7405,7 +7404,7 @@ Atteinte respi : pas de ttt si sd de Löfgren ou stade I asymptomatique\\
 - 3eme intention : cyclophsamide, anti-TNF-\(\alpha\)
 
 
-** 222 - Hypertension artérielle pulmonaire%
+** 222 Hypertension artérielle pulmonaire
 \label{sec:hypertension_arterielle_pulmonaire}
 
 Circulation : (basse pression, faible résistante) $\implies$ forte résistance
@@ -7494,7 +7493,7 @@ Scanner (parenchyme), écho hépatiques (shunt porto-cave)
 
 
 
-** 224 - Embolie pulmonaire et thrombose veineuse profonde
+** 224 Embolie pulmonaire et thrombose veineuse profonde
 \label{sec:224_embolie_pulmonaire_et_thrombose_veineuse_profonde}
 \gls{MTEV} = {\gls{EP}, \gls{TVP}}
 
@@ -7683,16 +7682,13 @@ Autres :
 - contention veineuse (sauf si EP sans TVP)
 - lever +1h
 
-
 **** Stratégie
-Score sPESI = \texttt{90 100 110 C C}\footnote{sat < 90%, PAS < 100 mmHg, FC >
-110/min, Cancer, insuf Cardiaque chronique}:
+Score sPESI = \texttt{90 100 110 C C} [fn:4]:
 
 Risque faible (sPESI = 0) : \faHospitalO{} courte < 48h, anticoagulation\\
 Risque intermédiaire (sPESI > 0)
 
-- dysfonction VD ou élévation biomarqueurs\footnote{BNP, NT-pro-BNP,
-    troponine} : \faHospitalO{}
+- dysfonction VD ou élévation biomarqueurs\footnote{eBNP, NT-pro-BNP, troponine} : \faHospitalO{}
   médecine, anticoagulation
 - dysfonction VD $\wedge$ élévation biomarqueurs : urgence \danger{}
   $\implies$ USI
@@ -7752,7 +7748,7 @@ Nouveau anticoagulant oraux (rivaroxaban) :
   - pas de surveillance bio
 
 
-** 228 - Douleur thoracique aigüe et chronique
+** 228 Douleur thoracique aigüe et chronique
 \label{sec:228_douleur_thoracique_aigue_et_chronique}
 
 *** Signes de gravité
@@ -7827,7 +7823,7 @@ Non rythmées :
 - psychogènes
 
 
-** 306 - Tumeurs du poumon
+** 306 Tumeurs du poumon
 \label{sec:306_tumeurs_du_poumon}
 
 *** Épidémiologie, étiologies
@@ -7970,7 +7966,7 @@ Diagnostic : clinique,
 - ancien : métastases 10 ans plus tard possibles
 
 
-** 333 - Oedème de Quincke et anaphylaxie
+** 333 Oedème de Quincke et anaphylaxie
 \label{sec:333_oedeme_de_quincke_et_anaphylaxie}
 
 *** Définition, épidémiologie
@@ -8070,7 +8066,7 @@ Trousse avec adrénaline si (absolument) :
   plus sévère que cutanéomuqueux (enfant)
 
 
-** 354 - Corps étranger des voies aériennes
+** 354 Corps étranger des voies aériennes
 \label{sec:354_corps_etranger_des_voies_aeriennes}
 
 Pics = 
@@ -8133,7 +8129,7 @@ endobronchique (90%)
 **** Extraction
 Bronchoscopie rigide (ou souple). Chez l'enfant, centre spécialisé !
 
-** 354 - Détresse respiratoire aigüe
+** 354 Détresse respiratoire aigüe
 \label{sec:354_detresse_respiratoire_aigue}
 
 Définition : Inadéquation charge - capacité de l'appareil respiratoire
@@ -8253,7 +8249,7 @@ Mécanisme = oedème lésionnel.
 - endogènes : réponse inflammatoire systémique
 
 
-** 356 - Pneumothorax
+** 356 Pneumothorax
 
 *** Définitions
 Air dans l'espace pleural $\implies$ collapsus 
@@ -9479,7 +9475,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 
 * HGE
-** 74 : Addiction à l'alcool
+** 74 Addiction à l'alcool
 *** Définition
  - Non-usage
  - Usage simple
@@ -9597,7 +9593,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
  - maintien abstinence : acamprosate ou naltrexone (ou disulfirame, baclofène)
 
  Autre : PEC comorbidités psy, addictive (tabac, cannabais++), non psy, sociale
-** 163 : Hépatites virales
+** 163 Hépatites virales
  Définition : processus inflammatoire du foie. Chronique si > 6 mois.
 
  Causes :
@@ -9740,7 +9736,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
  Chez l'ID, chercher ARN pour diagnostic
 
-** 168 : Parasitoses digestives
+** 168 Parasitoses digestives
 
 *** Téniasis : cf Tab [[taenia_table]]
  #+name: taenia_table
@@ -9865,7 +9861,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
  Ttt : chir (albendazole seul sinon)
 
  Prév : chien, mesures sanitaires
-** 197 : Transplantation d'organes
+** 197 Transplantation d'organes
  Indication num. 1 de greffe hépatique : CHC
 
  Complications :
@@ -9877,7 +9873,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
  Score "foie" pour défaillance chronique
 
  Consentement présumé, gratuité du don, anonymat donneur-receveur
-** 215 : Pathologies du fer
+** 215 Pathologies du fer
 
  Absoprtion par les entérocytes du duodénum et jéjunum proximal. Puis stocké par
  ferritine ou exporté par ferroportine dans le plasma. Il y est alors transporté
@@ -9986,7 +9982,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 
 
-** 248 : Dénutrition
+** 248 Dénutrition
  Référence nutritionnelle pour la population (couvre besoin). Sinon : apport
  satisfaisant (apport moyen d'une population)
 
@@ -10056,7 +10052,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
  Privilégier nutrition entérale
 
-** 268 : Douleurs abdominales/lombaires aigües
+** 268 Douleurs abdominales/lombaires aigües
 
 **** Clinique 
   Irradiation : pointe omoplate droite (hépatobiliaire), épigastrique
@@ -10224,7 +10220,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    impérieuse d'uriner abondamment
  - Douleurs rachidiennes projetées : zona, sd de Cyriax (compression du nerf intercostal)
 
-** 268 : Reflux gastro-\oe{}sophagien
+** 268 Reflux gastro-\oe{}sophagien
 
  gls:RGO = passage à travers le cardia d'une partie du contenu gastrique hors
  effort. Pathologique = symptômes/lésions d'oesophagite
@@ -10281,7 +10277,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 **** Chirurgie
  Fundoplicature complète (Nissen)
 
-** 269 : Ulcère gastrique et duodénal
+** 269 Ulcère gastrique et duodénal
 
 *** Ulcère gastrique et duodénal
  Déf: perte de substance en profondeur (jusque musculeuse). Chronique si socle
@@ -10421,7 +10417,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    - sd de Zollinger-Ellison
  - Gastropathie radique (> 45 Gy) : multiples biopsies, chronicité possible
 
-** 270 : Dysphagie
+** 270 Dysphagie
  Déf : sensation de gêne/obstacle à la progression du bol alimentaire
  (déglutition). \ne odynophagie, striction cervicale (anxiété), anorexie, satiété
  précoce
@@ -10484,7 +10480,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
      hypercontractile
    - RGO et clairance oesophage \dec : péristaltisme inefficace ou absent 
 
-** 271 : Vomissements
+** 271 Vomissements
  Nausées et vomissement : souvent activation des SN sympathiques et
  parasympathiques
 
@@ -10586,7 +10582,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    - métopimazine (\in phénothiazines)
  - chimio : anti-5-HT3, aprépitant, corticoïdes, métoclopramide, alizapride
 
-** 273 : Hépatomégalie, masse abdo
+** 273 Hépatomégalie, masse abdo
 
 *** gls:HMG
  Projection ligne médio-claviculaire > 12cm[fn:hge10]. Écho abdominable si besoin.
@@ -10689,7 +10685,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
  Ubiquitaire : tuméfaction pariétale, nodules de carcinose péritonéale, ADP, corps étranger
 
-** 274 : Lithiases biliaires
+** 274 Lithiases biliaires
  Fréquence : 20% (Occident) et 60% après 80 ans.
 
  3 types :
@@ -10757,7 +10753,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
  - Pancrétite aigüe biliaire : si angiocholite aigüe en plus, ATB et extraction
    calculs < 24h
 
-** 275 : Ictère
+** 275 Ictère
  Coloration jaune quand bilirubinémie > 40$\mu$mol/L
 
  Physiopatho : 
@@ -10861,6 +10857,8 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
  \printglossaries
 * Footnotes
+
+[fn:4] Sat < 90%, PAS < 100 mmHg, FC > 110/min, Cancer, insuf Cardiaque chronique
 
 [fn:3] Se fixe à la testostérone, estradiol
 
