@@ -9,6 +9,7 @@
 #+latex_header_extra: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 #+latex_header_extra: \usepackage{enumitem}
 #+latex_header_extra: \def\ttt{\hspace*{1cm}Ttt: }
+#+latex_header_extra: \usepackage{adjustbox}
 
 #+latex_header_extra: \newacronym{ADP}{ADP}{Adénopathie}
 #+latex_header_extra: \newacronym{ARA II}{ARA II}{Antagonistes des récepteurs de l'angiotensine}
@@ -16,6 +17,7 @@
 #+latex_header_extra: \newacronym{AT}{AT}{Antithrombine}
 #+latex_header_extra: \newacronym{BAV}{BAV}{Bloc auriculoventriculaire}
 #+latex_header_extra: \newacronym{BBG}{BBG}{Bloc de branche gauche}
+#+latex_header_extra: \newacronym{BD}{BD}{Bronchodilatateur}
 #+latex_header_extra: \newacronym{BGT}{BGT}{bilirubine glucoronide-transférase}
 #+latex_header_extra: \newacronym{BSA}{BSA}{Bloc sinuso-atrial}
 #+latex_header_extra: \newacronym{CAIS}{CAIS}{Complete Androgen Insensitivity Syndrome}
@@ -24,6 +26,7 @@
 #+latex_header_extra: \newacronym{CPRE}{CPRE}{Cholangio-pancréatographie rétrograde endoscopique}
 #+latex_header_extra: \newacronym{CST}{CST}{Coefficient de saturation de la transferrine}
 #+latex_header_extra: \newacronym{DAI}{DAI}{Défibrillateur automatique implantable}
+#+latex_header_extra: \newacronym{DIP}{DIP}{Pneumopathie Interstitielle Desquamante}
 #+latex_header_extra: \newacronym{DMLA}{DMLA}{Dégénérescence maculaire liée à l'âge}
 #+latex_header_extra: \newacronym{DO}{DO}{Déclaration obligatoire}
 #+latex_header_extra: \newacronym{DT}{DT}{Delirium tremens}
@@ -35,8 +38,10 @@
 #+latex_header_extra: \newacronym{EVS}{EVS}{Echelle verbale simple}
 #+latex_header_extra: \newacronym{FA}{FA}{Fibrillation atriale}
 #+latex_header_extra: \newacronym{FE}{FE}{Fraction d'ejection}
+#+latex_header_extra: \newacronym{FIVA}{FIVA}{Fonds d'indemnisation des victimes de l'amiante}
 #+latex_header_extra: \newacronym{FIV}{FIV}{Fibrinolyse intra-veineuse}
 #+latex_header_extra: \newacronym{FO}{FO}{Fond d'oeil}
+#+latex_header_extra: \newacronym{FPI}{FPI}{Fibrose Pulmonaire Idiopathique}
 #+latex_header_extra: \newacronym{GH}{GH}{Hormone de croissance (Growth hormone)}
 #+latex_header_extra: \newacronym{GNV}{GNV}{Glaucome néovasculaire}
 #+latex_header_extra: \newacronym{GPAO}{GPAO}{Glaucome primitif à angle ouvert}
@@ -50,22 +55,26 @@
 #+latex_header_extra: \newacronym{IOP}{IOP}{Insuffisance ovarienne primitive}
 #+latex_header_extra: \newacronym{IPC}{IPC}{Intervention coronaire percutanée}
 #+latex_header_extra: \newacronym{IS}{IS}{Insuffisance surrénale}
+#+latex_header_extra: \newacronym{ITK}{ITK}{Inhibiteur de tyrosine kinase}
 #+latex_header_extra: \newacronym{IVA}{IVA}{Artère intraventriculaire antérieure}
 #+latex_header_extra: \newacronym{JPDC}{JPDC}{Jusqu'à preuve du contraire}
-#+latex_header_extra: \newacronym{MTEV}{MTEV}{Maladie thromboemolique veineuse}
+#+latex_header_extra: \newacronym{LBA}{LBA}{Lavage Broncho-Alvéolaire}
+#+latex_header_extra: \newacronym{MTEV}{MTEV}{Maladie Thrombo-Embolique Veineuse}
 #+latex_header_extra: \newacronym{NEM2}{NEM2}{Néoplasie endocrinienne multiple 2}
 #+latex_header_extra: \newacronym{NOIA}{NOIA}{Neuropathie optique ischémique antérieure}
 #+latex_header_extra: \newacronym{OCA}{OCA}{Occlusion coronaire aigüe}
 #+latex_header_extra: \newacronym{OGD}{OGD}{Oestro-gastro-duodénale}
 #+latex_header_extra: \newacronym{OGE}{OGE}{Organes génitaux externes}
 #+latex_header_extra: \newacronym{OG}{OG}{Oreillette gauche}
+#+latex_header_extra: \newacronym{OMI}{OMI}{Oedème des membres inférieurs}
 #+latex_header_extra: \newacronym{PAD}{PAD}{Pression artérielle diastolique}
-#+latex_header_extra: \newacronym{PAPO}{PAPO}{Pression artérielle pulmonaire d'occlusion, $\approx$ pression oreillette G} 
 #+latex_header_extra: \newacronym{PAPm}{PAPm}{Pression de l'artère pulmonaire moyenne}
 #+latex_header_extra: \newacronym{PAS}{PAS}{Pression artérielle systolique}
 #+latex_header_extra: \newacronym{PA}{PA}{Pression artérielle}
 #+latex_header_extra: \newacronym{PEV}{PEV}{Potentiels évoqués visuels}
 #+latex_header_extra: \newacronym{PGG}{PGG}{Paragangliomes}
+#+latex_header_extra: \newacronym{PINS}{PINS}{Pneumonpathie Interstitielle Non Spécifique}
+#+latex_header_extra: \newacronym{POC}{POC}{Pneuompathie organisée cryptogénique}
 #+latex_header_extra: \newacronym{QCD}{QCD}{Questionnaire Concis de la Douleur}
 #+latex_header_extra: \newacronym{QDSA}{QDSA}{Questionnaire Douleur Saint-Antonne}
 #+latex_header_extra: \newacronym{RCT}{RCT}{Rapport cardiothoracique}
@@ -78,10 +87,14 @@
 #+latex_header_extra: \newacronym{TAVI}{TAVI}{Transcatheter Aortic Valve Implantation}
 #+latex_header_extra: \newacronym{TG}{TG}{Tryglycérides}
 #+latex_header_extra: \newacronym{TIH}{TIH}{Thrombopénie induite par l'héparine}
+#+latex_header_extra: \newacronym{TVO}{TVO}{Troubles Ventilatoires Obstructifs}
 #+latex_header_extra: \newacronym{TVP}{TVP}{Thrombose veineuse profonde}
+#+latex_header_extra: \newacronym{TVR}{TVR}{Troubles Ventilatoires Restrictif}
 #+latex_header_extra: \newacronym{TVS}{TVS}{Thrombose veineuse superficielle}
+#+latex_header_extra: \newacronym{VAS}{VAS}{Voies Aériennes Supérieures}
 #+latex_header_extra: \newacronym{VBP}{VBP}{Voie biliaire principale}
 #+latex_header_extra: \newacronym{VG}{VG}{Ventricule gauche}
+
 #+latex_header_extra: \newglossaryentry{Leydigcell}{name={cellule de Leydig},description={Produit de la testostérone. Localisé près des tubules séminifères (testicules)}. Activé par LH}
 #+latex_header_extra: \newglossaryentry{NF1}{name=NF1, description={Neurofibromatose 1. Tâches café au lait, neurofibromes (cutanées, nodulaires [le long d'un trajet d'un nerf] ou plexiformes [K possible]), nodules de Lisch sur l'iris.}}
 #+latex_header_extra: \newglossaryentry{PCC}{name={Phéochromocytomes}, description={Tumeur de la médullo-surrénale}}
@@ -91,8 +104,6 @@
 #+latex_header_extra: \newglossaryentry{TPO}{name={Thyroid peroxydase (TPO)},description={Enzyme de la thyroïde servant à générer la thyroxine (T4) et triiodothyroine (T3)}}
 #+latex_header_extra: \newglossaryentry{VHL}{name={von Hippel-Lindau}, description={Hémangioblastome du cervelet/moelle épinière, de la rétine, phéochromocytome}}
 #+latex_header_extra: \newglossaryentry{trophozoïtes}{name={Trophozoïtes},description={Formes végétatives mobiles}}
-#+latex_header_extra: \usepackage{adjustbox}
-
 #+latex_header_extra: \newglossaryentry{sdMetabolique}{name={Syndrome métabolique}, 
 #+latex_header_extra:   description={IMC > 28 kg/$m^2$, HTA, 
 #+latex_header_extra:     (HDL < 0.35g/L ou TG > 2g/L ou dyslipidémie traitée), 
@@ -108,13 +119,2642 @@
 #+latex_header_extra:     PAs $\ge 130$ mmHg ou PAd $\ge 85$ mmHg, glycémie jeun $\ge$ 1 g/L
 #+latex_header_extra: }}
 
+#+latex_header_extra: \newglossaryentry{VEMS}
+#+latex_header_extra: {
+#+latex_header_extra:   name={VEMS}, 
+#+latex_header_extra:   description={volume expiratoire maximal en 1s (après inspiration maximale)}
+#+latex_header_extra: }
+#+latex_header_extra: \newglossaryentry{CV}
+#+latex_header_extra: { name = Capacité Vitale,
+#+latex_header_extra:   description = volume total mobilisable maximal = VC + VRI + VRE
+#+latex_header_extra: }
+#+latex_header_extra: \newglossaryentry{VC}
+#+latex_header_extra: { name=Volume courant,
+#+latex_header_extra:   description={volume mobilisé pendant une respiration normale}
+#+latex_header_extra: }
+#+latex_header_extra: \newglossaryentry{VRI}
+#+latex_header_extra: { name = Volume de réserve inspiratoire,
+#+latex_header_extra:   description = volume supplémentaire (par rapport au VC) avec
+#+latex_header_extra:     une inspiration forcé
+#+latex_header_extra: }
+#+latex_header_extra: \newglossaryentry{VRE}
+#+latex_header_extra: { name = Volume de réserve expiratoire,
+#+latex_header_extra:   description = idem VRI mais en expiration forcée
+#+latex_header_extra: }
+#+latex_header_extra: \newglossaryentry{VR}
+#+latex_header_extra: { name = Volume résiduel,
+#+latex_header_extra:   description = volume restant (impossible à expirer)
+#+latex_header_extra: }
+#+latex_header_extra: \newglossaryentry{CVF}
+#+latex_header_extra: { name = Capacité Vitale Forcée,
+#+latex_header_extra:   description = volume expulsé avec force (CPT - VR)
+#+latex_header_extra: }
+#+latex_header_extra: \newglossaryentry{CVL}
+#+latex_header_extra: { name = Capacité Vitale Lente,
+#+latex_header_extra:   description = idem CVF mais lentement
+#+latex_header_extra: }  
+#+latex_header_extra: \newglossaryentry{CPT}
+#+latex_header_extra: { name = {Capacité Pulmonaire Totale},
+#+latex_header_extra:   description = {Capacité Vitale + volume résiduel}
+#+latex_header_extra: }
+#+latex_header_extra: \newglossaryentry{PAPO}{
+#+latex_header_extra:   name = PAPO,
+#+latex_header_extra:   description = Pression artérielle pulmonaire occluse $\approx$ pression
+#+latex_header_extra:   capillaire pulmonaire
+#+latex_header_extra: }
+
 #+OPTIONS: H:4
 
-
 * Cardiologie
-  \input{bacteries-header}
-  \input cardiologie
+ \input{bacteries-header}
+#+BEGIN_EXPORT latex
 
+\def\arrow{$\rightarrow$}
+\section{218 - Athérome}%
+\label{sec:1_atherome}
+
+Épidémio : 1ere cause de mortalité dans le monde. 
+
+En France : incidence \male = 5$\times$\female. 
+
+Mortalité $\searrow$ mais prévalence $\nearrow$
+
+\subsection{Mécanisme}
+Contient centre lipidique, cellules \{spumeuses, inflammatoire\} +
+chape fibreuse + support musculaire (migration vers l'endothelium)
+
+Évolution de la plaque :
+\begin{itemize}
+  \item rupture (plus probable si plaque jeune !)
+  \item progression par poussées
+  \item hémorragie intraplaque
+  \item régression ?
+\end{itemize}
+Remodelage
+
+Anévrismes
+
+\paragraph{Localisations}
+Surtout : carotides (AVC), coronaires (cardiopathies ischémiques), membre inférieure
+(AOMI), aorte (anévrysme)
+
+\paragraph{Évolution} Aggravation par étapes silencieuses. \danger gravité pas
+toujours proportionnelle à l'ancienneté/étendue
+
+FDR : tabagisme, HTA, dyslipidémie, diabète
+
+\paragraph{Thérapeutiques}
+\begin{itemize}
+\item Prévention : FR, statine, aspirine, hypertenseur
+\item Rupture de plaque : antiplaquettaires, héparines
+\item PEC des sténoses, complications CV
+\item Angioplastie, chir
+\end{itemize}
+\subsection{Polyathéromateux}
+
+$\ge 2$ territoire artériels différents
+
+Évaluer FdR, bilan des lésions
+
+Thérapeutiques :
+\begin{itemize}
+  \item arrêt tabac, diététique, activité physique
+  \item aspirine en systématique (colpidogrel si intolérance)
+  \item statines en prévention secondaire
+  \item \gls{IEC}, \gls{ARA II}
+\end{itemize}
+
+PEC spécifique : chirurgie anévrisme ($\diameter \ge 5.5cm$), endartériectomie
+(sténose carotide > 60\%), revasc. myocardique (sd coronaire aigü $\wedge$
+sténose coronaires > 70\%)
+
+\section{219 - Facteur de risques cardio-vasculaires}%
+\label{sec:219_facteur_de_risques_cardio_vasculaires}
+
+Facteur de risque (FR) : causalité avec la maladie $\neq$ marqueur de risque
+(simple témoin)
+ Risque absolu = un individu. Relatif = $\frac{R_{\text{exposé}}}{R_{\text{non exposé}}}$
+
+ Prévention : primaire (avant accident), secondaire (éviter nouvel), tertaire
+ (traiter séquelles)
+
+
+\subsection{FR}
+Non modifiables : 10 ans + tôt chez \male, hérédité = plutôt environnement
+familial
+
+Modifiables : 
+\begin{itemize}
+  \item risque : {tabagisme, hypercholestérolémie, HTA, diabète, obésité abdo,
+    psychosociaux}
+  \item protecteur : {fruit et légumes, activité physique, alcool modéré}
+\end{itemize}
+
+\paragraph{Tabac}
+1ère cause de mortalité évitable.
+30\% adulte, 25\% femmes enceintes
+
+\dec rapide du risque après sevrage (mécanisme prothrombotique du tabac). 
+
+RR = 3 de maladie coronarienne, = 5 d'IDM/mort subite, = 2-7 d'AOMI, = 2 d'AVC.
+
+\danger tabac - contraception oestroprogestative
+
+Conséquence : \dec HDL, \inc risque thrombose, altère vasomotricité artérielles,
+\inc [CO]
+
+2eme FR de l'IDM : $\propto$ consommation, $\forall$ tabac, sujet jeune, tabagisme passif
+
+Rôle : AOMI, anévrisme aorte abdo, AVC
+
+\paragraph{Hypercholestérolémie}
+40\% adulte. Proba \inc si sd métabolique. Aggravé par \acrshort{HVG}, glomérulopathie
+
+Clinique, bio, ECG
+
+3eme FR IDM : \inc LDL et \dec HDL = mauvais signe $\implies$ exploration d'une
+anomalie lipidique à jeun
+
+Majorité = alimentaire mais génétique possible (hétérozygote/homozygote)
+
+\paragraph{HTA}
+Voir table~\ref{tab:hta_stades}.
+\begin{table}
+  \centering
+  \begin{tabular}{cc}
+      Stade 1 & [140-159]/[90-99] mmHg\\
+Stade 2 & [160-179]/[100-109] mmHg\\
+Stade 3 & > 180/110 mmHg
+  \end{tabular}
+  \caption{Stades d'HTA}
+  \label{tab:hta_stades}
+\end{table}
+
+Silencieuse. Impact c\oe{}ur (insuf. coronaire, cardiaque), cerveau (AVC), rein (IR)
+
+Augmente avec l'âge.
+
+3 mesure espacées d'1 semaine
+
+\paragraph{Diabète}
+90\% de diabète 2 (résistance insuline). Déf :
+\begin{itemize}
+  \item diabète si glycémie à jeun > 1.26g/L
+  \item hyperglycémie non diab : glycémie jeun $\in [1.10, 1.26]$ g/L
+  \item intolérance hydrates de carbones : < 1.26 (jeun), $\ge 2$ (provoquée)
+    puis $\in [1.40, 2]$
+\end{itemize}
+Hérédité. Complications microvasc, macrovasc
+\begin{itemize}
+\item coronariennes ischémique : RR \female{} > \male.
+\item AOMI : RR \times 5, AVC RR \times 2.
+\end{itemize}
+
+Diabète 2 : maladie coronarienne peut précéder diabète ! \thus dépistage
+
+\paragraph{Surpoids}
+IMC $\in [25, 29.9]$ = surpoids, IMC $\ge 30$ = obésité. 
+
+Obésité centrale = (\diameter{} abdo $\ge 94 $cm (\male) ou $\ge 80$cm (\female))
+et 2 FR
+
+
+\subsection{Évaluation}
+\label{subsec:fr}
+Score
+\begin{itemize}
+  \item +1 si {arrêt tabac $\le 3$ ans, LDL > 1.6g/L, HTA, diabète, HDL < 0.40g/L, âge > 50
+(\male) ou 60 (\female), ATCD coronaires}
+  \item  -1 si HDL $\ge 0.60$
+\end{itemize}
+
+ATD personnels CV
+
+\subsection{Prévention}
+\paragraph{Secondaire}
+\label{subsec:basic_prev}        
+BASIC : $\beta$bloquants, Antiagrégants, Statine, Inhibiteurs de l'enzyme de
+conversion, Contrôle des FR
+
+\begin{itemize}
+  \item statine pour LDL < 1g/L
+\item sevrage tabac : substituts nicotinique, (bupropion, varénicline en
+  dernière ligne),
+  anxiété/dépression, TCG. Évaluer dépendance nicotine. Poids + 5kg en moyenne
+
+  \item pression artérielle : hygiénodiététique (échec à 3 mois : médic)
+  \item contrôle glycémie (diabète)
+  \item activité physique régulière : 3x45min à 75\% $O_2$
+    \begin{itemize}
+    \item \dec insulino-résistance, \dec triglycéridémie, \inc HDL
+    \item  \dec PA repos, \inc périmètre marche AOMI, \inc pronostic complications coronariennes ischémiques
+    \end{itemize}
+  \item enquête familiale
+\end{itemize}
+
+\paragraph{Primaire}
+Voir table~\ref{tab:cholesterol}.
+
+\begin{table}
+  \centering
+  \begin{tabular}{cc}
+    Risque faible/modéré & LDL < 1.15g/L \\
+    Haut risque & LDL < 1g/L \\
+    Très haut risque & LDL < 0.7g/L \\
+  \end{tabular}
+  \caption{PEC du patient dyslipidémique}
+  \label{tab:cholesterol}
+\end{table}
+\section{220 - Dyslipidémies}%
+\label{sec:220_dyslipidemies}
+
+Risques : maladies CV athéromateuses
+
+LDL = total - HDL - \gls{TG}
+
+Bilan normal : \begin{itemize}
+  \item LDL  < 1.6g/L
+  \item HDL  > 0.4g/L
+  \item TG  < 1.5g/L
+\end{itemize}
+
+ Secondaire
+ \begin{itemize}
+ \item Bilan selon contexte : TSH, glycémie, créat, protéinurie, BU
+ \item Comorbidité : 
+   \begin{itemize}
+   \item hypocholestérolémie : hypothyroïdie, (cholestase, anorexie mentale)
+   \item mixtes : sd néphrotique, grossesse
+   \item hypertriglycéridémie : insuf rénale chronique, alcoolisme, (obésité, diabète
+     avec sd métabolique)
+   \end{itemize}
+ \item Iatrogène : ciclosporine, corticoïdes, oestrogènes oraux, rétinoïdes,
+   IFN-\alpha, certains antétroviraux, neuroleptiques, diurétiques thiazidiques, betabloquant
+ \end{itemize}
+
+ Primaire
+ \begin{itemize}
+ \item Hypercholestérolémies familiales monogéniques
+   \begin{itemize}
+   \item mutation du gène du récepteur LDL++ : hétérozygote (xanthomes tendineux,
+     complications CV précoces) ou homozygote (rare, DC vers 20 ans)
+   \item mutation du gène de l'apoliporotéine B
+   \item mutation du gène PCSK9
+   \end{itemize}
+ \item Hypercholestérolémies polygéniques : fréquent, complications CV tardives
+ \item Hyperlipidémies combinées familiales : fréquent++, pas de xanthèmes,
+   complicastions CV suivant intensité
+ \item Dysbetalipoprotéinémie : xanthomes pathognomoniques
+ \item Hypertriglycéridémie familiale : rare, pas de xanthomes
+ \item Hyperchylomicronémie primitive : souvent hypertriglycéridémies majeurs
+ \end{itemize}
+
+\paragraph{Risque} faible (0 FR), intermédiaire ($\ge 1$ FR), haut (ATCD)
+
+FR semblables au~\hyperref[subsec:fr]{score précédent} : tabac $\le 3$ ans, HTA, diabète, HDL < 0.40g/L, âge > 50
+(\male) ou 60 (\female), ATCD familiaux IDM ou mort subite
+
+\subsection{Traitement}
+
+\paragraph{Diététique}
+\begin{itemize}
+  \item lipides < 40\%
+  \item graisses saturées < 12\%
+  \item plutôt mono- et polyinsaturées
+  \item cholestérol alimentaire < 300mg/j
+  \item 5 fruits ou légumes/j
+  \item sodium < 6g/j
+  \item diminuer excès pondéral
+\end{itemize}
+Si hypertriglycéridémie (HTG) : \dec poids, alcool, sucres simples
+
+\paragraph{Hypertriglycéridémie}
+\begin{itemize}
+\item modérées : -20\% calories ++, \inc activité physique
+\item  majeur : arrêt alcool, régime hypo- (si obèse) ou iso-calorique avec < 30g
+   lipides (si obèse) ou 20g
+\end{itemize}
+  
+\paragraph{Hypolipémiants}
+Statines surtout
+\begin{itemize}
+  \item \dec LDL, \dec TG \inc HDL
+ \item ES : myalgies, \inc CPK, \inc transaminases, \inc risque diabète 2
+ \item CI : HS, \textit{grossesse}, allaitement
+\end{itemize}
+
+\paragraph{Hypercholestérolémies}
+ En primaire si LDL reste élèvé à +6 mois traitement. En secondaire si complication ischémique
+
+ Objectifs :
+ \begin{itemize}
+   \item  primaire : 
+     \begin{itemize}
+     \item LDL < 1.3g/L si risque CV faible (pop générale, diabète ou hypercholestérolémie familale)
+     \item LDL < 1g/L sinon
+     \end{itemize}
+ 
+   \item secondaire : systématique
+ \end{itemize}
+  
+ Molécules
+ \begin{itemize}
+ \item hypercholestérolémies : statines
+ \item  hypertriglycéridémies : diététique si TG > 2g/L, statines si TG < 4g/L et HDL
+   bas, fibrate sinon
+ \end{itemize}
+
+ Augmenter doses progressitement puis suivi : 2-3 mois tant que objectifs non
+ atteints puis 1-2/an
+
+\section{334 - Syndromes coronariens aigüs}%
+\label{sec:334_syndromes_coronariens_aigus}
+
+Sd coronaire aigü (SCA) : lésions athérothrombotiques aigües
+
+Angor stable à l'effort : lésions fibro-athéromateuses
+
+\subsection{Angine de poitrine (angor) stable}
+Ici : pas de thrombus
+
+Inadéquation besoin/apport $O_2$ : 95\% sténoses athéromateuses coronariennes
+serrées (parfois : spasme coronaire, \inc besoins, "à coronaires saines")
+
+Donc le myocarde s'adapte en vasodilatant (pour apport $O_2$)\footnote{Surtout par
+sécrétion monoxyde d'azode par l'endothélium}
+
+Donc cascade ischémique : \dec perfusion myocarde [scinti] \thus altération
+contractilité [écho stress] \thus signes ECG \thus douleur (pas toujours)
+
+Athérome : risque = fracture de plaque \thus (thrombose) mort subite/IDM, angor
+instable
+
+\paragraph{Diagnostic}
+Douleur angineuse\footnote{Classes de 1 à 4}
+\begin{itemize}
+  \item typique : rétrosternal en barre horizontale, irradiant (épaules,
+    avant-bras, poignet, machoîres), constrictive, angoissante, \textbf{à
+    l'effort}, \underline{sensible à trinitrine}
+  \item atypique ou silencieuse possible
+\end{itemize}
+Exaen clinique souvent négatif mais chercher souffle aortique, souffle vasc, HTA
+
+\paragraph{Examens}
+\begin{itemize}
+  \item ECG : intercritique = normal, percritique : (sus/sous)-décalage
+    ST, ondes T (négatives symétriques, amples positives symétrique)
+  \item ECG d'effort : \textit{1ere intention} . Positive si douleur thoracique ou
+    sous-decalage ST
+  \item Tomoscintigraphie myocardique de perfusion d'effort ou injection
+    vasodilatateur (dipyridamole) : segment normal/ischémie/nécrotique.
+    \textit{Lorsque valeur prédictive ECG insuffisante}. Coûteux. Éviter si \gls{BBG}
+  \item Échocardiographie d'effort ou dobutamine. \textit{Mêmes indication que
+    scinti} 
+  \item IRM de stress : rare
+  \item Coronarographie (parfois + ventriculographie) : sténose si > 70\%
+    lumière. Invasif, complications rare. \textit{Si angor suspecté et examen
+    d'ischémie positif}\footnote{Examens complémentaires : test Méthergin pour
+      forcer un spasme, FFR (fraction flow reserve) pour vérifier sténose}
+  \item Scanner coronaire : non recommandé
+\end{itemize}
+
+\danger CI des épreuves de stress : angor instable, troubles rythme ventriculaire
+graves, fibrillation auriculaire rapide, HTA repos > 220/120mmHg
+
+\paragraph{Mauvais pronostic} : 
+\begin{itemize}
+  \item angor classe 3/4
+  \item ischémie pour charge/fréquence cardiaque faible, baisse PA à l'effort
+  \item plusieurs segments ischémique, fraction d'éjection <
+    40\%\footnote{Normale si > 55\%}
+  \item lésions pluritronculaires, tronc coronaire G, \gls{IVA} proximale
+\end{itemize}
+
+\paragraph{PEC}
+\begin{enumerate}
+\item Crise : arrêt effort, dérivés nitrés.
+\item Correction FR (tabac, hypolipides, activité physique, HTA, diabètes, statine,
+IEC)
+\item aspirine\footnote{Anti-agrégant plaquettaire} 75mg/j (ou
+  clopidogrel\footnote{Idem mais inhibiteur des récepteurs P2Y12} 75mg) +
+  $\beta$-bloquant (anticalcique/ivabradine si intolérance) $\pm$ {dérivés nitrés, molsidomine,
+nicorandil}
+\item Revascularisation si échec médicament ou pour améliorer le pronostic vital
+  : \gls{IPC} (stent) ou pontage coronaire
+\end{enumerate}
+
+\paragraph{Angor de Prinzmetal} Vasospastique = douleur sensible à la trinitrine
+et, soit:
+\begin{itemize}
+  \item au repos, 2eme partie de nuit, récupération d'effort = angor de Prinzmetal
+  \item sur un effort = angor surimposé à une sténose
+\end{itemize}
+Diagnostic : coronarographie \thus test provocation spasme (pendant coronaro)
+
+Ttt : inhibiteurs calcique (2 molécules).
+Bon pronostic si traité
+
+\subsection{SCA sans sus-décalage ST}
+
+= \{angor instable, IDM sans sus-décalage ST persistant \}. Ici thrombus non
+occlusif
+
+\begin{figure}[htpb]
+  \centering
+  \resizebox{0.6\linewidth}{!}{
+    \tikz \graph [
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    sibling distance=3cm,
+    layer distance=2cm,
+    edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      "SCA sans sus-décalage ST" ->{
+        Angor instable [>"tropo=0"];
+        "IDM ST-"[>"tropo +"];
+      };
+      "SCA avec sus-décalage ST" -> "IDM ST+"[>"tropo +"];
+    };
+  }
+  \caption{Classification des SCA (hor}
+\end{figure}
+
+\paragraph{Diagnostic}
+Même douleur que l'angor stable mais 
+\begin{itemize}
+  \item \textbf{spontané > 20min}, régressant spontanément ou non à trinitrine
+  \item angor d'effort récent (2-3)
+  \item aggravation d'un angor stable
+  \item IDM + 1mois
+\end{itemize}
+Examen clinique normal mais chercher /râles crépitants/, galop
+
+ECG en urgence \skull puis +6h
+\begin{itemize}
+  \item percritique : sous-décalage ST (rarement sus), (grandes T négatives ou
+    repositivation T). Si normal, diagnostic peu probable
+  \item post-critique (être très prudent !) : sous-décalage ST, T négative
+    profonde
+\end{itemize}
+
+\paragraph{PEC}
+\begin{enumerate}
+\item USIC en urgence ! Avec ECG, dosage troponine, créatinine, glycémie, NFS
+  \begin{itemize}
+  \item aspirine
+  \item +
+    $\begin{cases}
+      \text{clopidogrel + fondaparinux si bas risque}\footnotemark\\
+      \addtocounter{footnote}{-1}
+\text{ticagrelor/prasugrel + HNF/HBPM (+ anti-GPIIb/IIIa) si haut risque}\footnotemark
+
+\end{cases}$
+\footnotetext{Anti-agrégant plaquettaire et anticoagulant respectivement}
+  \item + $\beta$-bloquant + statine $\pm$ dérivé nitré $\pm$ inhibiteur
+    calcique\footnote{Anti-ischémiques}
+  \end{itemize}
+\item si (risque élevé et Grace > 140) ou (risque faible mais élevé à +6/12h) :
+  poursuite médic + coronarographie + angioplastie
+\item sinon, tests non invasifs
+\end{enumerate}
+
+Notes :
+\begin{itemize}
+\item Doser troponine ssi suspicion !
+\item Échocardiographie pour DD
+\item Coronarographie suivant le risque :
+\begin{itemize}
+  \item très haut risque : en urgence !
+  \item haut risque : < 24h (score GRACE > 140) ou < 72 (GRACE $\in [109, 140]$)
+  item bas risque (GRACE < 109)  à discuter 
+\end{itemize}
+\end{itemize}
+
+\subsection{IDM}
+
+Ici, obstruction par thrombus
+
+5 catégories : 1 à 5. Type 1 (spontané) =
+\begin{itemize}
+  \item sus-ST : désobstruer ASAP
+  \item sans sus-ST : prévenir
+\end{itemize}
+\danger urgence ! \skull
+
+Physiopatho : accident vasculaire coronaire athérothrombotique occlusif ou
+occlusion coronaire aigüe (segmente : nécrose totale à 12h, akinésie)
+
+\paragraph{Diagnostic}
+Douleur précordiale : angineuse \textbf{au repos > 30min},
+\underline{trinitrorésistante} (la douleur peut manquer !)
+
+Examen clinique normal
+
+ECG : sus-décalage ST $\ge 1$ (frontal) ou $\ge 2$mm ($V_1-V_6$)  sur $\ge 2$ dérivations contiguës. Donne la topographie
+(antérieur/latéral, inférieur/postérieur).
+Parfois en miroir
+
+\fbox{(Douleur thoracique > 30min) et ECG = IDM ST} 
+
+\paragraph{Évolution}
+Sd de reperfusion : \dec douleur, négativation ondes T, T = $38^{\circ}$
+à +6h
+
+Onde Q de nécrose (diagnostic a posteriori)
+
+Marqueur = troponine (ASAP, +6h, +12h), éventuellement myoglobine (rapide++) ou
+CPK-MB si récidive
+
+\paragraph{DD} 
+Douleur thoracique : péricardite aigüe, EP, dissection aortique, sous-diaphragme (cholécystite aigüe,
+ulcère perforé, pancréatite aigüe).
+
+Simule IDM : Penser à mycocardite aigüe (IRM), cardiomyopathie de stress
+(coronarographie)
+
+\paragraph{Complications précoces}
+Rythme/conduction : 
+\begin{itemize}
+  \item rythme ventriculaire : extrasystole < tachycardie < fibrillation
+    ventriculaire (FV = plupart des morts subites ! Besoin d'un choc électrique)
+  \item supra-ventriculaire : décompensation hémodynamique, accidents emboliques
+  \item \gls{BAV} (transitoire/définitif) ou
+    hypervagotonie\footnote{Bradycardie, hypotension} (Ttt : atropine, remplissage
+    macromoléculaire)
+\end{itemize}
+
+Hémodynamiques
+\begin{itemize}
+  \item insuf. ventriculaire G : grave, faire échocardio vite (4 stades)
+  \item choc cardiogénique : diagnostic si hypotension artérielle mal tolérée,
+    ne répond pas au remplissage macromoléculaire. Souvent \gls{OCA} + 24/48h.
+    Mortalité > 70\%
+  \item infarctus ventricule D : hypotension, champs pulmonaires clairs,
+    turgescence jugulaire. Regarder dérivations droites (!) : sus-ST.
+    Échocardiographie
+\end{itemize}
+Mécaniques :
+\begin{itemize}
+  \item rupture paroi libre ventricule G : rapidement fatal
+  \item rupture septale : +24-48h. Échocardiographie doppler. Forte mortalité
+  \item insuf mitrale : fuite par prolapsus valvulaire. Ttt chir
+\end{itemize}
+Thrombotique : thrombus intra-VG, embolies systémique : échocardio. (Thrombose
+veineuse, EP)
+
+Péricardite : sd inflammatoire, souvent asymptomatique.
+
+Récidive ischémique \thus récidive IDM. Épreuve d'effort à  +5 jours.
+
+\paragraph{Complications tardives}
+Péricardite à +3 semaines (sd de Dressler)
+
+Dysfonction ventricule G : scinti/échocardio de stress/IRM cardiaque. Évolue en
+dilatation VG/anévrisme
+
+Troubles rythmes ventriculaires sévères : \gls{DAI}
+
+\subsection{PEC}
+Reperfusion !!
+\begin{enumerate}
+\item Si angioplastie faisable < 120min ou CI à la \gls{FIV} : salle de cathétérisme +
+  angioplastie
+\item sinon FIV par TNK-tPA. Si échec, angioplastie de sauvetage
+\item \textbf{en même temps } 
+  \begin{itemize}
+  \item antalgique $\pm O_2$
+  \item + aspirine + (clopidogrel (si fibronolyse) ou prasugrel ou ticagrelor)
+  \item + (HNF ou énoxaparine ou bivalirudine [\danger{} pas si FIV]
+  \item + $\beta$-bloquant (avec prudence)
+  \item + IEC dans 24h
+  \item + éplérénone précocement (si FEVG < 40\% ou insuf cardiaque)
+\end{itemize}
+\end{enumerate}
+  
+Efficacité : reperfusion dans 90min (50\%). Sd reperfusion
+
+Complications : AVC, réocclusion (surtout si ttt antiagrégant interrompu)
+
+\paragraph{Tttt des complications}
+Troubles rythmes ventriculaire : amiodarone
+
+Troubles rythmes supra-ventriculaire : AVK si mal toléré (hémodynamique)
+
+BAV transitoire : atropine.
+
+BAV après IDM antérieur : sonde d'entraînement électrosystoliques.
+
+Insuf ventriculaire G : diurétique, IEC, épléronone
+
+Choc cardiogénique : lutter contre {hypovolémie, troubles rythme}, sidération
+(dobutamine). Assistance circulatoire/cardiaque/cardiocirculation,
+revascularisation
+
+Mécanique : rupture paroi libre = mortelle, septale = suture chir, mitrale =
+remplacement valvulaire.
+
+\subsection{Suivi} BASIC (cf section~\ref{subsec:basic_prev}).
+\begin{itemize}
+  \item $\beta$-bloquant : si infarctus
+\item antiagrégants plaquettaires : aspirine + clopidogrel (sauf si angor
+    stable : aspirine)
+  \item statines : si SCA/angor stable
+  \item IEC si coronariens post-infact
+  \item éplérénone : IDM étendu FEVG < 40à%
+\end{itemize}
+Éventuellement DAI
+
+\section{228 - Douleur thoracique aigüe}%
+\label{sec:228_douleur_thoracique_aigue}
+
+\subsection{CAT}
+Détresse vitale ?
+\begin{itemize}
+  \item respi : FR < 10 ou > 30/min, tirage, sueurs, cyanose, $SpO_2$ < 90\%
+  \item hémodynamique : arrêt circulatoire, choc, c\oe{}ur pulmonaire, pouls
+    paradoxal
+  \item trouble conscience
+\end{itemize}
+
+4 urgences vasculaire : PIED (péricardite, infarctus, embolie pulmonaire,
+dissection)
+
+Examens : ECG 12 + 5 dérivations, radio poumon, troponinémie
+
+Transfert USIC
+
+\subsection{Urgences}
+
+\paragraph{Sd coronarien aigü}
+\begin{itemize}
+  \item FR, ATCD
+  \item douleur spontanée de repos > 20min : constriction, pesanteur, brûlure,
+    rétrosternale, irradie  cou/épaule/avant-bras/tête. \danger présentation
+    \textbf{atypique} possible
+  \item examen clinique, radio normale
+  \item ECG : sus/sous décalage ST
+  \item doser myoglobine (< 6h) ou troponine
+\end{itemize}
+
+\paragraph{Dissection aortique}
+\begin{itemize}
+  \item Favorisé par : HTA ancienne, sd de Marfan, maladie de Turner
+  \item Douleur aigüe, prolongée, intense, déchirement, irradie dans dos, descend
+    vers lombes
+  \item Clinique : $\Delta$PAS > 20mmHg (entre 2 bras), abolition 1 pouls, souffle
+    insuffisance aortique, déficit neuro
+  \item ECG : normal ou SCA
+  \item Radio : élargissement médiastin
+  \item \textit{Échocardio et (ETO ou scanner)} 
+  \item Chir en urgence, contrôle pression artérielle
+\end{itemize}
+
+\paragraph{Embolie pulmonaire} Y penser si douleur thoracique, dyspnée, radio
+normale \skull
+\begin{itemize}
+  \item Terrain
+  \item 2 tableaux
+    \begin{itemize}
+      \item infarctus pulmonaire : douleur basithoracique, hémoptysie noire
+      \item c\oe{}ur pulmonaire aigü\footnote{Insuffisance ventricule D suite à
+          une augmentation brutale de sa post-charge} : dyspnée, défaillance ventriculaire
+    \end{itemize}
+  \item EC : parfois thrombose veineuse
+  \item radio normale
+  \item ECG : c\oe{}ur pulmonaire droit
+  \item \textit{D-Ddimère \thus doppler veineux MI, angioscan ou scinti}. HBPM sans
+    attendre !
+\end{itemize}
+
+\paragraph{Péricardite aigüe}
+Tamponnade\footnote{Accumulation de liquide dans le péricarde} péricardite = urgence \skull
+\begin{itemize}
+  \item douleur thoracique, dyspnée, polypnée \thus orthopnée, toux
+  \item turgescence jugulaire, reflux hépatojugulaire
+  \item Choc : tachycardie, PAS < 90mmHg
+  \item Pouls paradoxal
+  \item ECG . microvoltage
+  \item radio : cardiomégalie
+  \item \textit{échocardio}  (compression VG par VD)
+\end{itemize}
+
+Péricardite non compliquée (plus bénin des urgences) :
+\begin{itemize}
+  \item terrain
+  \item douleur thoracique augmente inspiration, decubitus. Calmée par
+    antéflexion
+  \item ECG : sus-ST diffus, sous-PQ, microvoltage
+  \item \textit{échocardio, troponine} 
+\end{itemize}
+
+\paragraph{Myopéricardite}
+Douleur type péricardite mais \textbf{peut simuler SCA} .
+
+Échocardio + (coronarographie normale)
+
+\subsection{Chroniques cardiaque}
+Angor stable
+
+Douleur d'angor : d'effort du rétrécissement aortique serré, fonction des
+tachycardies chroniques
+
+Douleur d'effort de myoacardiopathie obstructives.
+
+(HTA pulmonaire)
+
+\subsection{Extra-cardiaques}
+Urgences moyennes : 4 P = \{pneumothorax, pleurésie,
+pneumonies, pancréatite\}, ulcère gastrique/duodénale, cholécystite, douleurs
+radiculaires
+
+\section{223 - Artériopathie oblitérante (aorte, MI)}%
+\label{sec:223_arteriopathie_obliterante_aorte_mi_}
+\subsection{AOMI\footnote{Artériopathie oblitérante des membres inférieurs}}
+
+Épidémio : \male > \female. Pic = 60-75 (\male), 70-80 (\female). Prévalence :
+1-2\%
+
+\paragraph{Clinique}
+Classif de Rutherford : 
+\begin{enumerate}[label=\Roman*]
+  \item asymptomatique 
+  \item claudication légère/modérée/sévère
+  \item douleur ischémique de repos 
+  \item perte de substance faible/majeur(ulcère/gangrène)
+\end{enumerate}
+
+Claudication intermittente : douleur "crampe" au mollet après $x$m de marche.
+Disparaît en 5min. Sévère si $x < 200$m. \danger{} Sévère $\neq$ symptomatique
+
+Puis au repos : 
+\begin{itemize}
+  \item douleurs de décubitus : brûlure orteils, avant-pied. Amélioré par
+    déclivité
+  \item trouble trophiques : peau mince, fragile, perte pilosité. Puis plaies,
+    ulcères, gangrène
+  \item ischémie permanente : douleur > 10 j, antalgique résisntant. Critique si
+    PF\footnote{Pression de perfusion} < 50mmHg (cheville) ou 30mmHg (gros
+    orteil) !
+\end{itemize}
+Physique : 
+\begin{itemize}
+  \item inspection : pâle, cyanosé. Interdigitaux++
+  \item palpation : froid, douleur à palpation musc si sévère, pouls, temps recoloration cutané, anévrisme
+abdo, poplité
+  \item auscult : souffle
+  \end{itemize}
+\begin{tcolorbox}
+AOMI si IPS\footnote{Index de pression systolique = pression systolique
+cheville/bras} < 0.70\footnote{sévére si < 0.60}. + écho-doppler artériel MI
+\end{tcolorbox}
+  
+\paragraph{Paraclinique}
+\begin{itemize}
+  \item Test de marche (6min ou tapis roulant) : -30mmHG ou -20\% évoque AOMI
+  \item Transcutané de la $PO_2$ : hypoxie si < 35mmHg, critique si < 10mmHg
+  \item Si revascularisation : angioscanner des MI, angiographie par RM,
+    artériographie des MI
+\end{itemize}
+
+\paragraph{DD} 
+\begin{itemize}
+  \item Douleurs hanches : neuro, rhumato, veineuse, musc
+  \item Douleurs de décubitus : neuropathie sensorielle, sd régionaux douloureux
+    complexes, compression radiculaire
+  \item Ulcères : veineux, microcirculatoire, neuropathie, trauma...
+\end{itemize}
+
+\paragraph{Étiologie} : atteinte athéromateuse = 95\%. Sinon : arthériopathies
+inflammatoires, dysplasie fibromusculaire, coarctation de l'aorte, atteinte
+post-radique ou post-trauma, toxique, gelures, compressions extrinsèques,
+atteinte de l'artère poplitée
+    
+\paragraph{Traitement}
+Général : FR, antiagrégant plaquettaire (risque CV), statine (LDL), IEC (PA) $\pm$
+$\beta$-bloquants si coronaire
+
+Local : arrêt tabac, marche. Éventuellement statine (périmètre de marche),
+prostaglandine (ischémie critique non revasc.)
+
+Revascularisation si ischémie permanente : endovasc. (stent) ou chir (pontage).
+Association possible. Parfois endartériectomie ou amputation
+
+\paragraph{Pronostic} : grave, espérance de vie -10 ans
+
+\subsection{Anévrismes}
+Dilatation du \diameter{} > 50\%. Artères cérébrales, aorte, artères poplitées, iliaques
+
+\paragraph{Aorte abdominale}
+FR : tabac, ATCD familiaux, âge. Risque de rupture > \female. Haut risque CV
+
+90\% des cas : si maladie athéromateuses. Associés à athérosclérose (90\%).
+Formes familiales, évolution aortite.
+
+Clinique : 
+\begin{itemize}
+  \item asymptomatique : dépister si FR
+  \item symptomatique : douleur abdo/lombaire $\pm$ choc hémorragique. Risque de
+    rupture imminente \thus scanner en urgence \skull
+  \item autre : complication embolique, compression, sd inflammatoire
+\end{itemize}
+Paraclinique : écho abdo (dépistage), scanner abdo-pelvien ou IRM = réf
+
+\paragraph{PEC}
+Asymptomatique : surveillance si \diameter < 50cm sinon chir (pontage) ou
+endoprothèse (si haut risque chir)
+
+Symptomatique : \danger anévrisme rompu = urgence chir \danger. Ne pas attendre
+résultat
+
+Suivi : écho-doppler si prothèse viasc, scanner/écho si endoprothèse.
+
+\paragraph{Anévrisme poplité}
+Découvert par masse battante/écho-doppler. Opéré si > 20mm
+Complication = embolie (ou ischémie) ici !
+
+\subsection{Ischémie aigüe des MI}
+\danger urgence vasculaire !
+
+Chronologie : +2h cellules nerveuses, +6h rhabdomyolyse, +24h nécrose. Sd des
+loges.
+
+Reperfusion : sd de reperfusion ou troubles métaboliques, insuf. rénale (ou
+choc)
+
+\paragraph{Diagnostic} Clinique, ne pas retarder la chirurgie \danger
+
+Douleur brutale, intense, broiement, impotence fonctionnelle. 
+
+Membre livide et froid, douleur à palpation musc, pouls abolis en aval, anesthésie, paralysie
+
+\paragraph{Étiologie} 2 tableaux (qui peuvent se mélanger) :
+\begin{itemize}
+  \item thrombose artérielle in situ (surtout AOMI)
+  \item embolie sur artères saines (surtout cardiaque : fibrillation atriale)
+\end{itemize}
+Donc ascultation cardiaque, ECG, palpation abdo, bilan coagulation
+
+Évaluer état général, fonction cardiaque, comorbidité
+
+\paragraph{Traitement}
+Médical : HNF, antalgique niveau 3, oxygène, soins locaux.
+
+revascularisation : chirurgie (embolectomie par sonde Fogarty) voire fibrinolyse
+$\pm$ angioplastie, aponévrotomie. Amputation possible
+
+Surveiller acidose métabolique, hyperK, insuf rénale : diurèse, iono, urée,
+créat.
+
+\section{231 - Rétrécissement aortique}%
+\label{sec:231_retrecissement_aortique}
+Obstruction à l'éjection du VG\footnote{Ventricule gauche}, ici au niveau de la
+valve aortique
+
+\paragraph{Étiologies} 
+\begin{itemize}
+  \item bicuspidie < 65 ans
+  \item dégénératif après (rarement post-rhumatismal)
+\end{itemize}
+
+Physiopatho: \inc pression \thus hypertrophie pariétale (compense un temps
+l'élévation de pression) \thus dysfonction systolique \thus dysfonction
+diastolique (altération compliance)
+
+\paragraph{Complication}
+Insuf cardiaque, fibrillation auriculaire, troubles conduction, mort subite++
+
+\subsection{Clinique}
+
+Pronostic vital mis en jeu si symptômes ! \skull
+
+Dyspnée d'effort, angor d'effort, syncope (d'effort ?), (hémorragie digestive)
+
+Examen : 
+\begin{itemize}
+  \item auscultation : \{souffle mésosystolique éjectionnel, rude, râpeux\},
+    abolition B2 si calcifié
+  \item frémissement palpatoire (foyer aortique), (choc de point dévié en bas à
+    gauche) 
+\end{itemize}
+
+\subsection{Explorations}
+Radio thorax : dilatation VG ?, surcharge pulmonaire
+
+ECG : souvent hypertrophie VG et auriculaire G, troubles conduction/rythme
+
+Cathétérisme : pas habituellement mais coronarographie pour pré-op si \male > 40 ans, FR, angor d'effort ou insuf
+cardiaque
+
+Scanner cardiaque : pré-op si \gls{TAVI}
+
+\paragraph{Échocardiographie-doppler transthoracique} : examen clé. Critères
+\begin{itemize}
+  \item V max > 4m/s
+  \item gradient moyen > 40 mmHg
+  \item surface aortique < 1 $\text{cm}^2$
+\end{itemize}
+Évalue conséquences sur VG, débit cardiaque, pressions droites
+
+Examiner taille aorte, valve mitrale, tricuspide
+
+\subsection{Traitement}
+\begin{itemize}
+  \item valve chirurgical : mécanique si jeune mais AVK à vie, sinon prothèse bio (> 65
+    ans)
+  \item valvulopathie percutanée abandonnée
+  \item implantation percutanée d'une valve aortique (TAVI)
+\end{itemize}
+Si symptomatique, opérer. Sinon (et FEVG normale), test d'effort.
+
+NB : si FE < 35\%, échocardio de stress sous dobutamine pour risque opératoire
+
+
+\section{231 - Insuffisance mitrale}%
+\label{sec:231_insuffisance_mitrale}
+Reflux de sang depuis le VG vers l'OG pendant la systole.
+
+Classif de Carpentier
+\begin{enumerate}[label=\Roman*]
+  \item Valves restent dans le plan de l'anneau (perforations)
+  \item Au moins une valve au-dessus du plan de l'anneau (prolapsus)
+  \item Au moins une valve sous le plan de l'anneau
+\end{enumerate}
+
+\paragraph{Étiologies}
+\begin{itemize}
+  \item Rhumatismale (rare) : type III
+  \item Dystrophique (fréquente++) : type II. Soit "dégénerescences myxoïdes"
+    (trop de tissu, trop de mobilité), soit dégénerescences fibroélastiques
+    (rupture de cordage)
+  \item Sur endocardite : type I (perforations) ou II (rupture de cordage)
+  \item Ischémique : soit aigüe (rupture de pilier, urgence \skull !), soit
+    chronique (type III)
+  \item Fonctionnelle : souvent une évolution de cardiopathie avec dilatation VG
+    et atteinte systolique
+\end{itemize}
+
+Causes des insuf. mitrales aigües : rupture de cordage ou de pilier, dysfonction
+de pilier ischémique, perforation par endocardite.
+
+Tableau hémodynamique \thus urgence vitale \danger 
+
+Conséquences hémodynamiques : altération contractilité VG (aval), HTAP pouvant
+être importante si aigü (amont)
+
+
+\subsection{Diagnostic}
+\danger{} peut être asymptomatique
+
+Dyspnée : d'effort (lente et progressif), de repos, orthopnée, paroxystique
+nocturne, OAP
+
+Examen : 
+\begin{itemize}
+  \item palpation : frémissement systolique apex, (déviation et abaissement choc
+    de pointe)
+  \item auscultation : souffle systolique de régurgitation, en "jet de vapeur",
+    souffle holosystolique de B1 à post-B2, irradie vers l'aisselle ou la base
+  \item (autres : galop B3, roulement mésodiastolique, éclat B2, souffle
+    d'insuf. tricuspide)
+  \item poumon : râles de stase
+\end{itemize}
+
+Para clinique
+\begin{itemize}
+  \item ECG longtemps normal. hypertrophie OG, VG, VD, fibrillation atriale, 
+  \item Radio thorax : normale si $\le$ modérée. cardiomégalie, dilatation OG,
+    HTAP
+  \item \textit{ETT} référence (et ETO). Sévérité côtée en 4 grades\footnote{Selon
+      la Surface de l'orifice régurgitant, Volume régurgité} (Vérifier la
+    tricuspide)
+  \item Cathétérisme : coronarographie seulement en pré-op si \male > 40 ans ou
+    \female{} monopausée avec FR
+  \item Épreuve d'effort, échocardio d'effort
+\end{itemize}
+
+Évolution : si constitué, bien toléré pendant longtemps. Si brutal : évolue vers
+oedème pulmonaire. Complication : endocardite infectieuse, fibrillation/flutter
+atrial, insuf cardiaque, complications thromboembolique
+
+\subsection{Prolapsus valvulaire mitral}
+Primitif ou associé. \female. Formes familiales.
+
+Signes fonctionnels absents ou ceux IM.
+
+Clinique : clic méso-/télésystoliques, souffle d'IM.
+
+Examen : échocardio.
+
+Évolution bénigne ou complication
+
+\subsection{Traitement}
+\begin{itemize}
+  \item aigüe mal tolérée : chir urgence 
+  \item chronique III ou IV symptomatique : chir
+  \item chronique III ou IV asymptomatique : chir si retentissement VG ou
+    surveillance échodoppler 6 mois (chir si symptômes, retentissement, troubles
+    rythmes supraventriculaire)
+\end{itemize}
+
+Chirurgie : idéalement plastie reconstructicie, sinon remplacement valvulaire
+(mécanique si jeune mais anticoag à vie, bioprothèse si > 65 ans)
+
+Médical :
+\begin{itemize}
+  \item IM aigüe : ttt OAP ou choc, chir en urgence
+  \item poussée insuf. cardiaque : diurétiques de l'anse, vasodilatateurs,
+    digitalique (fibrillation atriale), anticoagulant oraux (fibrillation
+    atriale)
+\end{itemize}
+
+\section{231 - Insuffisance aortique}%
+\label{sec:231_insuffisance_aortique}
+Régurgitation de sang vers VG en diastole.
+
+\paragraph{Physiopatho} 
+\begin{itemize}
+  \item Chronique
+surcharge volume et pression. Aorte : \inc
+PA systolique, \dec PA diastoliques. 
+Hypertrophie compense (parfois pendant des années !!) puis fibrose
+\item Aigüe : surtout \gls{EI}, surcharge brutale,
+  \inc pression puis oedème pulmonaire
+\end{itemize}
+
+\subsection{Étiologies}
+Chronique :
+\begin{itemize}
+  \item dystrophique(freq++) : annulo-ectasiante (valves normale mais anneau
+    dilaté), sd des valves flasques
+  \item EI qui perfore les valvules
+  \item malformative (bicuspidie aortique)
+  \item rhumatismale (rare)
+  \item inflammatoire, infectieuses, médicamenteuse
+\end{itemize}
+Aigü : EI, dissection aortique, rupture d'anévrisme d'un sinus de Valsalva,
+traumatique
+
+Prothèse : désinsertion partielle, dysfonction
+
+\subsection{Clinique}
+Fonctionnel : dyspnée d'effort, (angor d'effort ,), insuf cardiaque (rare,
+tardive)
+
+Physique : 
+\begin{itemize}
+  \item ascult : souffle diastolique++\footnote{Holosystolique si IA importante}, "doux, lointain, humé, aspiratif",
+    souffle systolique éjectionnel d'accompagnement, roulement de Flint
+    apexien/galop
+  \item palpation : choc de pointe étalé, en bas à gauche
+  \item hyperpulsatilité artérielle périphérique (pouls++), \dec PA
+    diastolique++
+\end{itemize}
+
+ECG : normal ou \gls{HVG} diastolique, (ou HVG systolique)
+
+Radio : \inc index cardiothoracique si volumineuse chronique
+
+\textit{Échocardio-doppler (ETT)} = confirmer, quantifie dilatation VG 
+
+Coronarographie : pré-op, \male > 40 ans ou \female monopausée, FR
+
+IRM/scanner : dimension aorte, surveillance
+
+\paragraph{DD} 
+\begin{itemize}
+  \item souffle diastolique : insuf pulmonaire
+  \item double souffle (rupture sinus Valsalva), souffle continu, frottement
+    péricardique
+\end{itemize}
+\paragraph{Évolution}
+\begin{itemize}
+  \item Chronique : si volumineuses, sévère dès les symptômes \thus surveillance
+\danger, opération même si asympto. \danger dystrophique, bicuspidies
+  \item Aigu : OAP, mort subite \thus chir précoce
+\end{itemize}
+
+Complications : EI ++, insuf cardiaque (tardive), rupture aortique, (mort subite)
+   
+\paragraph{Surveillance} 
+Chronique : 1-2/an si fuite importante, sinon tous 2-3ans
+
+Aigü : chir rapidement
+
+\subsection{Traitement}
+Médical : 
+\begin{itemize}
+  \item si volumineuse et IVG : IEC, diurétique et chir rapidement
+  \item dilatation de l'aorte : beta-bloquant, losartan
+\end{itemize}
+Hygiène dentaire, examen tous 6 mois pour prévenir EI
+
+Chirurgie : 
+\begin{itemize}
+  \item remplacement valvulaire si IA isolée
+  \item valve + aorte si dystrophique ou (bicuspidie et dilatation aortique)
+\end{itemize}
+
+Quand faire la chir ?
+\begin{itemize}
+  \item chronique volumineuse
+    \begin{itemize}
+      \item  symptomatique : urgent \danger
+      \item asymptomatique : si FEVG < 50\%, dilatation aorte $\ge 55$mm, diamètre
+        VG télédiastolique > 70mm, télésystolique > 50mm
+    \end{itemize}
+  \item dystrophique et dilatation aorte asc : dès $\ge 55$mm
+  \item aigüe volumineuse : urgence
+\end{itemize}
+
+\section{150 - Surveillance des porteurs de valves, prothèses vasculaires}%
+\label{sec:150_surveillance_des_porteurs_de_valves_protheses_vasculaires}
+
+\begin{itemize}
+  \item Prothèses mécaniques : double ailette, à vie, anticoagulant à vie
+    (risque thrombose)
+  \item Biologiques : pas d'anticoagulant, chez > 65 ans (aortique) ou > 70
+    (mitrale) [faible durée de vie\footnote{40\% durent 15 ans}].
+\end{itemize}
+Risque majeur d'EI $\forall$ prothèse !
+
+\subsection{Complications}
+\begin{itemize}
+  \item Thromboemboliques (freq++) : surtout mécanique, surtout prothèses mitrale,
+    anciennes, fibrillation atriale
+    \begin{itemize}
+      \item Embolie systémiques : souvent cérébrales
+      \item Thromboses de prothèse mécanique : accidents brutaux (OAP, syncope,
+        choc, mort subite). Diagnostic difficile : apparition d'un
+        souffle/roulement. Diagnostic : \textit{ETT, ETO} \\
+        Chir d'urgence possible
+        \danger DD avec EI parfois difficile
+    \end{itemize}
+  \item Désinsertions de prothèses (5\%) : spontané, EI. À évoquer si apparition d'un
+    souffle, anémie hémolytique, insuf. cardiaque. Confirmé par ETT, ETO(++)
+
+  \item Infectieuses
+    \begin{itemize}
+      \item médiastinie post-op (1\%)
+      \item Endocardite infectieuses : \textbf{redoutable} \skull\\
+        Précoce (50\%) ou tardive. Diagnostic : ETT, ETO++\\
+        Prévention/traitement de tout foyer infectieux (ORL, dentaire)\\
+        Hémocultures systémiques devant fièvre inexpliquée
+    \end{itemize}
+  \item Traitement anticoagulant : risque hémorragique 1.2\% patients-années
+  \item Dégénérescence bioprothèses
+\end{itemize}
+
+\subsection{Surveillance}
+Post-op : AVK (à vie si mécanique, 3 mois si bio). ETT à +3mois (référence !)
+
+Puis : 1/mois puis tous les 3 mois. Cardiologue à +3 mois puis 1-2/an.
+
+Clinique : 
+\begin{itemize}
+  \item surveiller symptômes, dyspnée, insuf cardiaque
+  \item ascult : attention à \dec intensité bruits (ou variables), \inc
+    intensité d'un souffle, bruit diastolique surajouté
+\end{itemize}
+Radio, ECG mais surtout ETT, ETO
+
+\textit{Biologie} ++ : équilibre AVK parfait, à vie \thus INR tous les mois $\in
+[2.5, 4]$.
+
+FR : valve non aortique, ATCD, fibrillation atriale, \diameter OG > 50mm,
+contraste spontané dense OG, sténose mitrale, FE < 35\%, hypercoagulabilité
+
+Ne pas interrompre AVK sauf pronostic vital !. Si chir extracardiaque : HNF
+pendant l'arrêt AVK
+
+\section{149 - Endocardite infectieuse}%
+\label{sec:149_endocardite_infectieuse}
+Infections des valves cardiaque ou de l'endocarde pariétal. Dominées par les
+staphylocoques
+
+\subsection{Physiopatho}
+Bactéries adhèrent sur une lésion préexistante \thus
+\begin{itemize}
+  \item insuffisance valvulaire, souffle, risque de défaillance cardiaque
+  \item végétations \thus embolies septiques, lésions de vascularite, anévrisme
+    "mycotique"
+\end{itemize}
+
+Cardiopathies à haut risque : prothèses valvulaires, cardiopathies congénitales
+cyanogènes, ATCD EI
+
+50\% des EI sur c\oe{}ur présumé sain !
+
+Hémocultures positives (90\%)
+\begin{itemize}
+  \item streptocoques oraux, streptocoques du groupe D
+  \item staphylocoques : blanc, coagulase négative
+\end{itemize}
+Hémocultures négatives :
+\begin{itemize}
+   \item ATB
+   \item croissante lente : HACEK\footnote{Haemophilus, Actinobacillus,
+       Cardiobacterium, Capnocytophaga, Eikenella, Kingella}, Brucella, champignons
+   \item intra-cellulaire : \bact{burnetii}, Chlamydia, Bartonella,
+     \bact{whipplei}
+\end{itemize}
+
+\subsection{Clinique}
+\danger Manif trompeuses. Y penser si souffle cardiaque et fébrile, AVC,
+purpura, lombalgies fébriles
+
+\begin{itemize}
+  \item Sd infectieux : fièvre, AEG, splénomégalie
+  \item Apparition/modif souffle, insuf cardiaque
+  \item cutané (nodosité d'Osler !), respi, ophtalmo, rhumato (freq), neuro,
+    rénale
+\end{itemize}
+
+Diagnostic : hémoculture, échocardio
+
+Autres : NFS, \{CRP, électrophorèse\}, complexes immuns circulants, \{urée,
+créat\}, BNP
+
+Classif de Duke : 2 majeurs ou (1 majeur et 3 mineurs) ou (5 mineurs)
+\begin{itemize}
+  \item majeurs
+    \begin{itemize}
+      \item Hémocultures : (micro-org typique d'une EI sur $\ge 2$ HC) ou (HC
+        positives sur > 12h) ou (une HC positive à \bact{burnetii})
+      \item (Échocardio avec végétation, abcès, désinsertion prothétique) ou (nouveau souffle de régurgitation valvulaire)
+    \end{itemize}
+  \item mineurs
+    \begin{itemize}
+      \item cardiopathie à risque/toxicomanie
+      \item $\ge 38^{\circ}$
+      \item complication vasc\footnote{Cérébrale, EP septique, anévrisme mycotique...}
+      \item immunologique\footnote{Glomérulonéphrite, faux panaris d'Osler,
+          taches de Roth...}
+      \item hémoc/séro positive
+    \end{itemize}
+\end{itemize}
+
+\paragraph{Évolution}
+Complications : insuf cardiaque (1ere cause DC), neuro (2eme cause DC), embolies (septiques,
+cérébrales, splénique, rénales, coronaires), infarctus splénique, arythmies et
+troubles de conduction
+
+Penser à scanner cérébral et abdo-pelvien !
+
+Pronostic : 
+\begin{itemize}
+  \item sur aortique : chir
+  \item staph ou prothèse : mortalité++
+  \item pneumocoque, bacilles Gram négatif : destruction valvulaire graves
+  \item levure : grosse végétations
+\end{itemize}
+
+\subsection{Traitement}
+Bithérapie IV
+
+Fonction rénale pour aminosides et vancomycine !
+
+\begin{itemize}
+  \item Strepto oraux/groupe D : amoxicilline et gentamicine (2 semaine bi, 4
+    semaines mono) [vancomycine + gentamicine si allergie]
+  \item entérocoques : idem
+  \item staph : si sensible : cloxacilline (+gentamicine + rifampicine si sur
+    prothèse). Sinon vancomycine (+gentamicine + rifampicine)
+  \item hémoc négative :  amox + acide clavulanique + gentamicine en attendant
+\end{itemize}
+
+Chirurgie : valve native si possible. Intervention si insuf cardiaque ou sd
+infectieux non contrôlé
+
+\paragraph{Prévention}
+Hémoc avant antibio \danger
+
+ATBprophylaxie : amoxicilline (clindamycine si allergie) avant geste (région
+apical/gingivale, perforation muqueuse orale ou (extraction dentaire et haut
+risque))
+
+\section{236 - Souffle cardiaque chez l'enfant}%
+\label{sec:236_souffle_cardiaque_chez_l_enfant}
+Très fréquent.
+
+Malformation congénitale (1\%), souffle fonctionnel, cardiomyopathie/myocardite
+aigüe (rarement), acquises (exceptionnelles)
+
+\paragraph{Auscultation chez l'enfant} Rythme rapide, irrégulier.
+
+B2 dédoublé : anormal si large et fixe.
+
+Éclat B2 : HTA pulmonaire, malposition des gros vaisseaux
+
+B3 physiologique (apex)
+
+Clic possible
+
+\subsection{Clinique}
+Fonctionnel : souvent absent, dyspnée d'effort. \danger douleur thoraciques =
+rarement cardiaques !
+
+Souffle :
+\begin{itemize}
+  \item varie en temps et position : innocent
+  \item bruyant, irradiant largement : organique
+  \item diastolique : organique
+  \item frémissant : organique
+  \item holosystolique, de régurgitation : organique
+  \item Localisation probables : cou et sus-sternal $\approx$ aortique ;
+    dos $\approx$ pulmonaire ; irradiant $\approx$ 
+    communication intra-V
+\end{itemize}
+Associés : 
+\begin{itemize}
+  \item regarder $SaO_2$
+  \item troubles alimentaires, dyspnée, sueur, retard staturopondéral : large
+    shunt
+  \item HTA, pas de pouls fémoraux : coarctation aortique
+\end{itemize}
+
+\paragraph{Complémentaire}
+Radio thorax : cardiomégalie (\danger "fausses")
+\begin{itemize}
+  \item saillie arc moyen G : shunt gauche-droite
+  \item arc moyen G concave : hypoplasie voie pulmonaire
+\end{itemize}
+
+ECG : fréquence diminue avec l'âge. Ondes T < 0 de $V_1$ à $V_4$
+
+\textit{Échocardio} = examen clé
+
+Autres : effort, holter ECG, IRM cardiaque, scanner multibarettes, cathétérisme
+cardiaque (rare)
+
+\subsection{Cardiopathies}
+\paragraph{[Naissance, +2 mois]}
+\begin{itemize}
+  \item Souffle isolé : examen clinique, ECG, radio pulmonaire, échocardio
+  \item Insuf cardiaque : coarctation préductale \thus chir urgente
+  \item Cyanose : transposition des gros vaissaux \thus chir avant N\footnote{Naissance}+15 jours
+\end{itemize}
+
+\paragraph{[N+2 mois, marche]}
+\begin{itemize}
+  \item Insuf cardiaque : shunts gauche-droite surtout (\thus opérer avant 1 an
+    si large !!), communication intra-V
+    large, persistance canal artériel, canal atrioventriculaire
+  \item cyanose : tétralogie de Fallot\footnote{Communication intra-V,
+      hypertrophie ventriculaire D, sténose pulmonaire, dextroposition de
+    l'aorte}
+\end{itemize}
+\paragraph{2 à 16 ans}
+\begin{itemize}
+  \item Malformatives : rares, bien tolérées
+  \item Souffles "innocents" (1/3) : asymptomatique, systolique, éjectionnels,
+    faible intensité, (intensité varie avec position), doux. Ne rien faire
+\end{itemize}
+
+\section{337 - Malaise, perte de connaissance}%
+\label{sec:337_malaise_perte_de_connaissance}
+\begin{itemize}
+  \item Syncope : trouble de conscience, hypotonie, début brutal/rapide, souvent
+    bref. Comportement, orientation normaux après retour conscience
+  \item Lipoythmie : sensation de perte de connaissance
+  \item Stokes-Adams : syncope à l'emporte-pièce
+  \item Autres : coma, confusion mentale, crise comitiale, AVC, cataplexie,
+    narcolepsie
+\end{itemize}
+
+\paragraph{Physiopatho}
+Hypoperfusion de la substance réticulée du tronc cérébral (< 60 mmHg ou arrêt >
+6 secondes) \thus perte conscience, tonus, myclonies si > 30s
+
+\subsection{Étiologies}
+Cause cardiaques mécaniques
+\begin{itemize}
+  \item rétrécissement aortique : à l'effort
+  \item cardiomyopathies hypertrophiques obstructives : génétique, à l'effort ou
+    post-effort immédiat. Auscult : souffle systolique sternum gauche, ECG :
+    hypertrophie VG
+  \item EP massive
+  \item tamponnade brutale
+\end{itemize}
+
+Cause cardiaques électriques :
+\begin{itemize}
+  \item tachycardie
+  \item BAV
+  \item dysfonction sinusale
+  \item défaillance stimulateur cardiaque
+\end{itemize}
+
+Hypotension :
+\begin{itemize}
+  \item avec tachycardie sinusale : iatrogènes, orthostatique
+  \item avec bradycardie sinusale : hypotension réflexe, vasovagale
+\end{itemize}
+
+\paragraph{DD} : 
+\begin{itemize}
+  \item métaboliques (hypoglycémie, hypoxie-hypercapnie,
+encéphalopathie hépatique)
+\item toxiques (toxico, médical, alcool++, CO++)
+\item psy (trouble de conversion, attaque de panique, simulation)
+\item neuro (vasc) : infarctus cérébraux, AIT, insuf. vertébrobasilaire,
+  drop-attacks
+\end{itemize}
+
+\subsection{PEC}
+\begin{algorithm}
+  \caption{PEC des malaises}
+   Perte de connaissance brève, pas de crise comitale ? Si non : \textit{épilepsie,
+    AVC/AIT, coma, intoxication, céphalée, SAS} \faHandStopO\;
+   Syncope. Signe de gravité ? Si oui : urgence = SCA, EP... \faHandStopO\;
+   Interrogatoire, cliinque, ECG ? Si cause évidente (méca, électrique,
+    hypotension) \faHandStopO\;
+   Cardiopathie sous-jacente ? Si oui : holter, électrophysio\;
+   Sinon probablement neurocardiogénique
+\end{algorithm}
+
+Interrogatoire :
+\begin{itemize}
+  \item âge, ATCD : mort subite (famille), cardiopathie si âgé, médicaments
+  \item prodrome, postures, activité
+  \item mouvements anormaux, durée, réveil, courbature
+\end{itemize}
+Examen neuro (déficit), CV (pression artérielle)
+
+ECG : diagnostic si bradycardie < 40/min, tachycardie (supra)ventriculaire, BAV
+complet ou 2eme degré, défaillance stimulateur cardiaque
+
+\paragraph{Paraclinique}
+Éliminer cardiopathie sous-jacente : \textit{échochardio} , test d'effort, BNP,
+troponine
+
+Autres : Holter-ECG (dysfonction sinusale, trouble conduction AV). Sinon
+étude électrophysiologique endocavitaire\footnote{Déclenche tachycardie
+ventriculaire}, test d'inclinaison\footnote{Déclenche syncope vasovagale},
+hyperréflexie sinocartidienne, ECG implantable
+
+\paragraph{Gravité}
+\begin{itemize}
+  \item Trouble du rythme ventriculaire/de conduction supposé
+  \item syncope inexpliquée chez cardiaque
+  \item suspicion maladie génétique chez jeune
+  \item syncope et trauma grave
+  \item syncope d'effort
+  \item syncope de décubitus
+\end{itemize}
+
+\paragraph{Formes typiques}
+\begin{itemize}
+  \item syncope neurocardiogénique : vasovagale (debout, vue du sang,
+    \textbf{jeune} ), réflexe
+    (miction), hyperréflexie sinocarotidienne (rasage, \textbf{âgé} )
+  \item hypotension artériel : âgé, iatrogène, debout prolongé
+  \item troubles du rythme/conduction : tachycardie
+    ventriculaire++. Diagnostic = étude électrophysiologique endocavitaire
+\end{itemize}
+
+\section{230 - Fibrillation atriale}%
+\label{sec:230_fibrillation_atriale}
+
+Tachycardie irrégulière due à une activité anarchique des oreillettes
+(400-600/min) > 30 secondes.
+
+Noeud AV filtre à 130-180/min \thus tachy irrégulière \thus risque
+d'insuffisance cardiaque et thromboembolique (stase). Évolue : fibrose
+oreillettes, dilatation atriale
+
+Fréquente chez âgé
+
+\paragraph{Classification}
+\begin{itemize}
+  \item Premier épisode
+  \item Paroxystique : retour en sinusal < 7 j
+  \item Persistante :  retour en sinusal > 7 j ou après cardioversion
+  \item Permanente : échec cardioversion/non tentée
+\end{itemize}
+
+\subsection{Diagnostic}
+Signes usuels : palpitations, dyspnée d'effort, angor fonctionnel, asthénie
+inexpliquée...
+
+Auscul : bruits irréguliers, rythme $\pm$ rapide
+
+\textit{ECG} : indispensable \danger
+\begin{itemize}
+  \item usuel : petites mailles, pas de P, QRS fins
+  \item QRS lents réguliers possibles
+  \item dysfonction sinusale à l'arrêt de \gls{FA} (brady-tachy)
+\end{itemize}
+
+Autres : \{iono, créat, TSHus, NFS\}, radio thorax, echocardio
+
+\paragraph{Étiologies}
+\begin{enumerate}
+  \item HTA (âgé)
+  \item Valvulopathie (mitrale)
+  \item Autres : respi (SAS !), cardiomyopathies, SCA, hyperthyroïdie (y penser
+    !), péricardites, chir cardiaque récente, cardiopathies congénitales,
+    phéochromocytome
+\end{enumerate}
+
+\paragraph{Tableaux cliniques}\mbox{}\\
+\textit{FA isolé, c\oe{}ur normal} : quinqua, palpitation nocturnes $\pm$ (angor
+fonctionnel ou dypsnée d'effort). Échocardio normale. Exclure SAS et HTA !\\
+\hspace*{10pt}\thus seulement anti-arythmique (flécaïnide)
+
+\textit{FA avec insuf cardiaque} : souvent séquelle infarctus sévère ou
+cardiomyopathie dilatée à coronaires saines. OAP/ décompensation cardiaque
+globale.\\
+\hspace*{10pt}\thus antiocoagulants oraux \arrow{} cardioversion (parfois urgence) \arrow{}
+anticoag. au long cours, amiodarone\footnote{Maintien rythme sinusal}
+
+\textit{FA valvulaire post-rhumatismale}  : persistante/permanente sur maladie
+mitrale. \\
+\hspace*{10pt}\thus à discuter, AVK au long cours
+
+\textit{Embolie artérielle systémique} : souvent cérébrale. FA méconnue chez
+\female{} âgée avec FR embolique (HTA, diabète). Écarter SCA (tropo, ECG)\\
+\hspace*{10pt}\thus aigü : (thrombolyse), aspirine \arrow{} AVK, héparine
+
+\textit{Maladie de l'oreillette}  : alternance FA paroxystique rapide-brady\\
+\hspace*{10pt}\thus stimulateur cardiaque définitif
+
+\subsection{Traitement}
+\paragraph{Risque thromboembolique}
+Cardioversion : à risque par défaut ! Donc héparine ou anticoag. oral. 
+Si risque très élevée, vérifier l'absence de thrombus atrial G
+
+Chronique :
+\begin{itemize}
+  \item FA valvulaire : risque très élevé
+  \item FA isolé sur c\oe{}ur sain : risque faible
+  \item sinon score CHADS2 \danger{} pas si FA valvulaire !!! : \texttt{Congestion +1,
+    Hypertension artérielle +1, Âge > 75 ans +1, Diabète +1, Stroke +2}\\
+    anticoag si CHADS2 > 1
+\end{itemize}
+
+\paragraph{FA persistante ou premier accès < 7 j}
+\begin{itemize}
+  \item Prévention thromboembolique par HNF IV (AVK/nouveau anticoag
+    directement si bien toléré et pas à haut risque)
+  \item Cardioversion : antiocoag orale -3 semaine et + 4 semaines. Choc
+    électrique sous anesthésie générale ou médicament (amiodarone). Rarement en
+    urgence.
+\end{itemize}
+
+\paragraph{Entretien (toutes les FA)}
+\begin{itemize}
+  \item Anticoagulant selon terrain : AVK (INR !), inhib trombine (dabigatran), inhib
+facteur X (rivaroxaban, apixaban, edoxaban)\\
+Si FA valvulaire : seuls AVK
+\item respect FA et seul contrôle FC (oui) ou contrôle FA (paroxystique,
+  persistante)
+\end{itemize}
+
+\paragraph{Éducation du patient}
+HTA, risque d'embole cérébrale, effets secondaire amiodarone (hyperthyroïdie,
+photosensibilisation, dépôts cornéens)
+
+\section{234 - Troubles de la conduction intracardiaque}%
+\label{sec:234_troubles_de_la_conduction_intracardiaque}
+Fréquences d'échappement :
+\begin{itemize}
+  \item noeud AV : 40-50/min
+  \item faisceau de His : 35-45/min
+  \item branches et ventricules : < 30/min
+\end{itemize}
+Dysfonction sinusale et BAV peuvent être symptomatiques. Les BAV isolé non.
+
+\subsection{ECG}%
+\paragraph{Dysfonction sinusale}
+Arrêt par le noeud sinusal ou non-transmission à l'atrium.
+
+\begin{itemize}
+  \item Tracé plat sans P bloqué (!)
+  \item BSA II si pause après P = plusieurs cycles normaux
+  \item Si arrêt sinusal ou BSA complet : asystolie ou bradycardie
+  \item Bradycardie sinusale inappropriée (éveil)
+\end{itemize}
+
+\paragraph{Blocs atrioventriculaires}
+Dans le faisceau de His ou infra : rythme très lent donc grave \skull
+\begin{itemize}
+  \item BAV I : PR constant mais > 0.2s\footnote{1 mm = 0.04s}
+  \item BAV II Wenckebach : allongement PR progressif puis bloqué (souvent QRS
+    < 0.12s)
+  \item BAV II Möbitz : PR normal, multiple P bloqué\footnote{Wenckebach 2:1 ou
+    Möbitz 2:1 ne peuvent être différenciés sur l'ECG}
+  \item BAV III : aucun P ne passe, ventricule à leur rythme, plus lent.
+    \danger{} DC possible (torsade de pointes)
+  \item BAV III + FA : bradycardie (!), rythme
+    régulier (!)
+\end{itemize}
+
+\paragraph{Blocs de branches}
+\danger{} BdB gauche gêne le diagnostic d'infarctus !!
+\begin{itemize}
+  \item Droit : QRS > 0.12s et RsR' en V1 
+  \item Gauche : QRS > 0.12s et R exclusif en V6 
+  \item Hémi-bloc\footnote{Hémibloc : forcément de la branche gauche qui se
+    divise en faisceau antérieur et postérieur} antérieur : déviation axiale
+  gauche, QRS < 0.12s, $Q_1S_3$ et $S_3 > S_2$
+  \item Hémi-bloc postérieur : déviation axiale droite, QRS < 0.12s, $S_1Q_3$
+
+\end{itemize}
+
+\subsection{Clinique}
+\paragraph{Dysfonction sinusale}
+Asymptomatique, lipothymie, syncopes...
+
+Fréquent si âgé
+
+Étiologies :
+\begin{itemize}
+\item médic (bradycardisant)
+\item hypertonie vagale
+\item cardiaque : dégénerative idiopathique liée à l'âge
+\item  maladies systémiques, neuromusculaire,
+post-chir, HTIC, hypothermie, (septicémies), ictères rétentionnels sévères,
+\{hypoxie,hypercapnie, acidose sévère\}, hypothyroïdie.
+\end{itemize}
+
+Diagnostic : \textit{ECG} ! 
+\begin{itemize}
+  \item bradycardie en éveil, pas d'accélération à l'effort
+  \item pauses P sans ondes > 3 s
+  \item BSA II
+  \item bradycardie avec rythme d'échappement atrial/jonctionnel
+  \item sd bradycardie-tachycardique
+\end{itemize}
+
+Cliniques usuelles :
+\begin{itemize}
+  \item dégénérative liée à l'âge : \female, multiple médicaments. Souvent + FA
+    $\pm$ troubles conductif sur noeud AV. Traiter !
+  \item hypervagotonie : sportif. ECG : brady < 50/min en éveil. Test
+    atropine/d'effort normalise. Ne pas traiter.
+\end{itemize}
+
+\paragraph{BAV}
+Cf dysfonction sinusale. Peut avoir fibrillation ventriculaire suite à torsade
+de pointe. Fréquent si âgé
+
+Étiologies :
+\begin{itemize}
+\item hyperkaliémie+++ 
+\item fibrose, rétrécissement aortique dégénératif, causes ischémiques
+du SCA (mauvais pronostic si (infra)-hissien !), infectieux, \{médic, vagal\},
+systémiques, neuromusculaire, post-chir, postcathétérisme, postradiothérapie,
+néoplasique, congénital
+\end{itemize}
+
+Diagnostic : préciser degré, paroxistique/permanent, siège++ 
+\begin{itemize}
+  \item nodaux : souvent BAV I, BAV II Wenckebach, BAV III à QRS fins \thus
+   Holter
+  \item (infra)hissiens : sur des BdB ou BAV II Möbitz. \skull{} si complet DC
+    possible !\\
+    \thus étude endocavitaire
+\end{itemize}
+
+Cliniques usuelles :
+\begin{itemize}
+  \item BAV complet sur infarctus antérieur : régressif sous 15 j(sinon stimulateur ?),
+    sensible à l'atropine
+  \item BAV dégénératif (âgé)
+  \item BAV congénital (risque = insuf cardiaque, DC)
+\end{itemize}
+
+\paragraph{BdB}
+Toujours asymptomatique si isolé. Grave si lipoythimie/syncope \danger \thus
+étude endocavitaire
+
+Étiologies :
+\begin{itemize}
+  \item Droit : peut être bénin. Surtout dans patho pulmonaires
+  \item gauche : jamais bénin ! (dégénératif ou cardiopathie). SCA de cause
+    ischémique possible \skull
+\end{itemize}
+
+Diagnostic : incomplèt si QRS < 120ms, complet sinon. Droit/gauche/ bi- ou
+trifasculaire. Chercher cardiopathie sous-jacente
+
+\subsection{PEC}
+\begin{itemize}
+  \item 
+Dysfonction sinusale : Confirmer l'ECG par Holter (à répéter éventuellement).
+Si vagal possible, test d'inclinaison. Si âgé, on peut chercher une
+hyperréflectivité sinocarotidienne.
+\item BAV : médicament, SCA (territoire inférieur), myocardite ? \\
+  Bloc permanent ? ECG suffit. Sinon enregistrement Holter \\
+  Si suspicion infra-hissien, étude endocavitaire possible.\\
+  Échocardio et troponine dans tous les cas
+\item BdB : HTA ou cardiopathie ?\\
+  Droit chez jeune asymptomatique $\approx$ variante normale\\
+  si syncope sur cardiopathie : cherche tachycardie ventriculaire
+\end{itemize}
+
+\subsection{Traitement}
+Bradycardie grave = urgence ! (rea) \skull
+
+Brady avec BAV III plus grave que brady par dysfonction sinusale
+
+Médicaments tachycardisants (atropine, catécholamine), stimulation cardiaque
+temporaire (percutanée, transthoracique)
+
+Stimulateur pour 
+\begin{itemize}
+  \item dysfonction sinusale symptomatique seulement
+  \item BAV III si non curable
+  \item BAV II si infra-hissiens ou symptomatiques
+  \item BdB avec symptômes et BAV paroxistique (sinon non !)
+\end{itemize}
+Toujours traiter cause
+
+\section{229 - ECG}%
+\label{sec:229_ecg}
+Normales : FC $\in [60, 100]$ battements/min, P < 120ms
+
+\subsection{Hypertrophies}
+
+Atriales
+\begin{itemize}
+  \item droite : P > 2.5mm en D2 ou > 2 mm en $V_1$ ou $V_2$
+  \item gauche : P > 0.12s
+\end{itemize}
+Ventriculaires
+\begin{itemize}
+  \item gauche : Sokolov : S$V_1$ + r$V_5$ > 35mm. \danger{} QS ou sus-ST peut
+    mimer un infarctus !
+  \item droite : +110$^{\circ}$
+\end{itemize}
+
+\subsection{Troubles de conduction}
+BdB :
+\begin{itemize}
+  \item droit : QRS > 0.12s, RsR' en $V_1$ 
+  \item gauche : QRS > 0.12s et rS ou QS en $V_1$
+\end{itemize}
+Hémibloc : 
+\begin{itemize}
+  \item antérieur: -30$^{\circ}$, $S_3$ > $S_2$, S en $V_6$
+  \item postérieur : +90 $^{\circ}$, $S_1 Q_3$
+\end{itemize}
+Bifasciculaire : BdB droit + (un des hémibloc)\\
+Trifasciculaire \skull : (alterne BdB droit et gauche) ou (BdB droit et
+alternance hémiblocs)
+
+BAV
+\begin{itemize}
+  \item I : PR constant > 200ms
+  \item II : PR croissant jusque P bloqué ou un seul P sur plusieurs
+  \item III : aucun P, QRS réguliers lents
+\end{itemize}
+
+Dysfonction sinusale : asystole, bloc sino-atrial II
+
+\subsection{Troubles du rythme supraventriculaire}
+Man\oe{}uvres vagales : Valsalva, (jeune : compression carotidienne unilat) sinon
+vagomimétique
+
+Fibrillation atriale : 
+\begin{itemize}
+  \item 100-200/min, QRS irréguliers, atriale = mailles amples ou fines.
+  \item \danger{} : BAV III, brady-tachy ou BdB possibles !
+\end{itemize}
+Flutters atriaux : (souvent + FA)
+\begin{itemize}
+  \item 300/min avec "dents de scie" en $D_1$, $D_3$ aVF
+  \item ventriculaire : rapide (pas toujours), régulières (pas toujours).
+    Ralentie par man\oe{}uvre vagale !
+\end{itemize}
+Tachycardie atriale : (moins fréq)
+\begin{itemize}
+  \item 120-200/min
+  \item tachy régulières à QRS fin, souvent coupés de retours en rythme sinusal
+\end{itemize}
+Tachycardies jonctionnelles (fréq++)
+\begin{itemize}
+  \item 130-260/min
+  \item pas d'activité atriale, retour en sinusal à man\oe{}uvre vagale
+\end{itemize}
+Extrasystole (freq, physio). Si un battement sur 2, bigéminisme
+
+\subsection{Troubles du rythme ventriculaire}
+\fbox{Toute tachycardie à QRS larges est une tachycardie ventriculaire
+  \gls{JPDC} qui dégénere en fibrillation ventriculaire \skull}
+
+Tachycardies ventriculaires 
+\begin{itemize}
+  \item > 100/min
+  \item QRS > 0.12s pendant $\ge 3$ battements
+\end{itemize}
+Fibrillation ventriculaire : \textbf{urgence absolue}  \skull massage cardiaque
++ choc
+
+Torsade de pointe : si allongement QT, bradycardie
+
+Extrasystoles ventriculaires : banales, sur c\oe{}ur sain, regarder étiologie
+
+\subsection{Autres}
+\begin{itemize}
+  \item Hypokaliémie : T plates/négative, sous-ST, QRS normale, allongement QT
+  \item Hyperkaliémie : T ample pointe, allongement PR, élargissement QRS
+  \item Péricardites : 4 phases = 1. (microvoltage, sus-ST, sous-PQ), 2. (T plate), 3. (T
+    négative), 4. (retour à la normale)
+  \item Sd Wolf-Parkinson-White : PR < 0.12s, "empâtement" QRS
+\end{itemize}
+
+Maladie coronaires : sus-ST
+\begin{itemize}
+  \item chercher miroir, +2mm en précordial, +1 mm en frontal
+  \item sur au moins 2 dérivations
+  \item BdB gauche complet suffit !
+\end{itemize}
+Ondes Q de nécrose : +6h, > 1/3 du QRS
+
+\section{235 - Palpitations}%
+\label{sec:235_palpitations}
+Sensation que le c\oe{}ur bat trop fort/vite/irrégulièrement
+
+Interrogatoire : 
+\begin{itemize}
+  \item fréquence, effort, durée
+  \item \danger{} douleur thoracique, perte de connaissance, dyspnée
+\end{itemize}
+Gravité ?
+\begin{itemize}
+  \item ATCD personnels : post-infarctus, HTA, troubles du rythme, stimulateur,
+    médic
+  \item ATCD familiaux : mort subite < 35 ans
+  \item clinique : pouls > 150 /min, hypotension artérielle, angor, insuf
+    cardiaque, neuro
+  \item ECG : tachy à QRS large = urgence absolue \skull\\
+    autres : anomalie repolarisation (SCA ?), BAV II ou III (rare), tachy à QRS
+    fins + clinique
+\end{itemize}
+Diagnostic : chercher cardiopathie sous-jacente, ECG concomitant
+\begin{itemize}
+  \item interrogatoire : alcool++, fièvre++, déshydratation, SAS,
+    hyperthyroïdie, grossesse
+  \item ECG, echocardio, ECG d'effort
+\end{itemize}
+
+\paragraph{Étiologies fréquentes}\mbox{}\\
+Extrasystoles : cherche (extra) cardiaque :
+\begin{itemize}
+  \item alcool, électrocution, pneumopathie, hyperthyroïdie, anomalie
+    électrolytique, anxiété, grossesse, SAS
+  \item \danger{} obèse/diabétique : bien vérifier si fibrillation atriale !
+\end{itemize}
+Tachycardie sinusale :
+\begin{itemize}
+  \item cardio (avec dyspnée) : insuf cardiaque, EP, épanchement péricarde...
+  \item extra : fièvre, anémie, hypoxie, hyperthyroïde, grossesse, alcool,
+    hypotension artérielle, SAS...
+\end{itemize}
+Troubles supra-ventriculaires
+\begin{itemize}
+  \item flutters/tachy atriale
+  \item tachycardie jonctionnelle : jeune, coeur normal, polyurie en fin d'accès,
+    arrêt par manoeuvre vagale
+\end{itemize}
+Troubles ventriculaires : rares, plutôt syncope. Sur cardiopathi et signes
+gravité.
+
+Névrose cardiaque = élimination
+
+\section{232 : Insuffisance cardiaque}%
+\label{sec:insuffisance_cardiaque}
+Déf clinique : symptômes d'\gls{IC} (dyspnée, oedèmes
+chevilles, fatigue...) et signes d'IC (crépitant, turgescence jugulaire...)
+et anomalie de structure/fonction du coeur
+
+Prévalence : 1-2\%, augmente avec l'âge
+
+Adaptation :
+\begin{itemize}
+  \item cardiaque : remodelage (dilatation ventriculaire, hypertrophie), \inc
+    inotropie\footnote{Force de contractation musculaire}, tachycardie
+  \item extra-cardiaque : vasoconstriction, rétention hydrosodée, activation
+    neurohormonale
+\end{itemize}
+Si IC non réversible et non curable, la fonction systolique est :
+\begin{itemize}
+  \item soit diminuée (défaut contraction donc dilatation)
+  \item soit préservée (parois épaissies)
+\end{itemize}
+
+\subsection{Diagnostic}
+Fonctionnels :
+\begin{itemize}
+  \item respi : dyspnée d'effort (cf NYHA\footnote{I = 0 dyspnée, II = marche
+      rapide, III = marche terrain plat, IV = au repos}, orthopnée, dyspnée paroxystique nocturne
+  \item \danger{} y penser si : asthme, toux à l'effort, hémoptysie  
+  \item autres : fatigue (repos/effort), faiblesse musculaire, palpitations
+  \item si sévère : respi, neuro, digestif
+  \item IC droite : hépatalgie
+\end{itemize}
+Physique : pauvre donc des signes sont facteur de gravité
+\begin{itemize}
+  \item cardiaque : palpation : choc de pointe en bas à gauche\\
+    auscult : tachy, galop B3, éclat B2 en pulmonaire, souffle d'insuf
+    mitrale/tricuspide, souffle de valvulopathie
+  \item pulmonaire : râles (sous-)crépitants, épanchement pleural
+  \item artériel : pouls rapide. si PAS < 100mHg, facteur de gravité
+  \item \textbf{signes périphériques dIC droite} : turgescence jugulaire, reflux
+    hépatojugulaire, hépatomégalie, oedèmes périph, ascite
+\end{itemize}
+
+\textit{ECG}  peu contributif.
+
+\textit{RX thorax}  :
+\begin{itemize}
+  \item cardiomégalie (\gls{RCT} > 0.5)
+  \item stase pulmonaire :
+    \begin{itemize}
+      \item redistribution vasc de la base vers sommets
+      \item oèdème interstitiel (ligne B de Kerley, gros vaisseaux hilaires flou,
+        réticulo-nodulaire aux base)
+      \item oedème alvéolaire ("ailes de papillons")
+    \end{itemize}
+  \item épanchement pleural
+\end{itemize}
+
+Bio : Na+, K+, créat, bilan hépatique, TSH us, NFS, fer
+
+\textit{Dosage (NT-pro)BNP}  : intéressant si normaux ou très élevés
+
+\textit{ETT} : indispensable ! Peut orienter : ischémique, valvulopathie,
+hypertrophie
+
+Autres :
+\begin{itemize}
+  \item coronarographie : important ! Revasc ou peut orienter vers cardiomyopathie
+    dilatée
+  \item IRM cardiaque : peut compléter échocardio (mesure \gls{FE})
+  \item scintigraphie : mesure FE
+  \item Holter : troubles du rythme ventriculaire ou supra-ventriculaire
+  \item Épreuve d'effort
+  \item Cathétérisme : mesure pression pulmonaires, débit cardiaque
+\end{itemize}
+
+\subsection{Étiologies}
+Toute patho cardiaque peut donner une IC....
+
+\begin{itemize}
+  \item \textit{Cardiopathies ischémique} : 1ere cause ! Souvent plusieurs IDM
+  \item \textit{HTA} \thus hypertrophie, IDM/atteinte petites coronaires
+  \item \textit{Cardiomyopathies} : dilatées (25\% familiale), hypertrophique (surtout
+    familiable), restrictive (rare)
+  \item Valvulopathies : gauche
+  \item Troubles rythme (supra)-ventriculaire
+  \item Péricarde
+  \item IC droit : conséquence IC gauche ou isolé (patho pulmonaire, HTA
+    pulmonaire...)
+  \item À débit augmenté
+\end{itemize}
+
+\subsection{Formes cliniques}
+\paragraph{ Insuf aigüe}
+OAP sutout : détresse respi aigüe (inondation alvéolaire) 
+\begin{itemize}
+  \item polypnée, orthopnée
+  \item sueurs, anxiété, cyanose, grésillement laryngé, toux + expect mousseuse
+    rose saumon
+  \item râles crépitant
+\end{itemize}
+\thus PEC immédiate \skull
+   
+Choc cardiogénique possible : < 85mmHg, extrémités froides, marbrures, oligurie
+
+Toujours chercher facteurs favorisants : rupture traitement, surinfection
+bronchique, troubles du rythme, anémie, EP, dysthyroïdes, iatrogène, poussée
+hyppertensive
+
+\paragraph{Autres} : chronique, à fonction systolique préservée (50\%)
+
+\paragraph{Complications}
+\begin{itemize}
+  \item DC : 50\% à 5 ans
+  \item IC aigüe avec hospit
+  \item troubles rythme (supra)ventriculaire
+  \item thromboemboliques
+  \item hypotension artérielle
+  \item troubles hydroélectrolytiques, insuf rénale
+  \item anémie, carence martiale
+\end{itemize}
+
+\subsection{Traitement IC chronique}
+\paragraph{Étiologie}
+FR, revasc
+
+\paragraph{Hygiène}
+< 5g de sel, conserver poids, pas de tabac, diminuer alcool, activité physique,
+pas d'efforts importants au travail, vaccins : grippe (âgé), pneumocoque,
+contraception pour éviter grossesse
+
+\paragraph{Médicaments si FE < 40\%}
+\begin{enumerate}
+  \item Diurétiques \footnote{congestion} + IEC \footnote{diminue angiotensine II} + betabloquants
+    (\skull pas immédiatement si crise aigüe \danger{}) $\pm$ antagonistes des
+    récepteurs aux minéralo-corticoïdes (diurétiques)
+  \item Si échec : + ivabradine \footnote{diminue FC}
+  \item Si échec : défibrillateur automatique (+ resynchronisation si QRS >
+    120ms)
+  \item si échec : digoxine \footnote{n'améliore pas la survie} ou nitrés \footnote{vasodilatateur}, voire greffe/assistance
+\end{enumerate}
+
+\paragraph{Autres si FE < 40\%}
+\begin{itemize}
+\item Pacemaker triple chambre : IC stade III ou IV avec FE $\le 35\%$ et QRS $\ge 120$ ms
+\item Défibrillateur automatique implantable : prévention secondaire (arrêt
+  cardiaque) ou primaire (stade II à IV avec FE $\le 35\%$ après revasc ou IDM ou
+  cardiopathie non ischémique)
+\item Transplantation cardique : IC sévère (invalidant, mauvais pronostic, 0
+  alternative)
+\item Assistance ventriculaire
+\end{itemize}
+\paragraph{Médicaments si FE conservée}
+ Mal codifié\footnote{Bloquer régine-angiotensine (IEC/ARA II), ralentir FC
+($\beta$-bloquants), diurétiques (thiazidiques/inhib de l'anse de Henlé)}.
+
+\paragraph{Traitement IC aigüe}
+OAP : 
+\begin{itemize}
+  \item domicile : assis, furosémide IV, dérivés nitrés, SAMU (?)
+  \item hôpital : assis, apport IV G5\%, $O_2$, furosémide, dérivés nitrés si
+    PAS < 100 mmHg, (morphine), HPBM systémique !
+\end{itemize}
+Poussée sans OAP franc : (hôpital), diurétique VI, rééquilibration traitement,
+cause ??
+
+Choc cardiogénique : sonde urinaire++, inotropes (ex: dobutamine)
+
+
+
+\section{221 - Hypertension artérielle}%
+\label{sec:221_hypertension_arterielle}
+Grades (\gls{PAS}/\gls{PAD})):
+\begin{itemize}
+  \item 1 : 140/90 - 159/99
+  \item 2 : 160/100 - 759/109
+  \item 3 : > 180/110
+  \item systolique isolé : > 140 et < 90
+\end{itemize}
+
+HTA modérée = plus fréquente\\
+\inc avec l'âge. Plus fréquent chez femmes, noirs, obèse, consommation sel,
+défavorisé. Génétique 30\%.
+
+Risque estimé par PAS, PAD (Après 60 ans, utiliser la PAS et Pression pulsée = PAS - PAD)
+
+\paragraph{Physiopatho}
+Régulation :
+\begin{itemize}
+  \item court terme : sympathique 
+  \item moyen : rénine-angiotensine-aldostérone et peptide natriurétique (ANP,
+    BNP)
+  \item long : natriurièse de pression, arginine-vasopressine
+\end{itemize}
+
+90\% sont essentielles.
+
+\subsection{Évolution}
+\paragraph{Complications}
+\begin{itemize}
+  \item 
+\textit{Neuro}  : AVC ischémique, hémorragie cérébrale/méningée, encéphalopathie
+hypertensive, lacune cérébrale, démence vasculaire, rétinopathie hypertensive
+\item \textit{CV}  : insuf cardiaque systolique, insuf VG (anomalie de
+  \textit{remplissage}), cardiopathie ischémique, FA, arythmie
+  ventriculaire, complications artérielles. Mortalité CV $\times 5$ (\male) ou
+  $\times 3$ (\female)
+\item \textit{rénales} : évolution vers l'insuf rénale par néphroangioscélose,
+  sténose athéromateuse de l'artère rénale, diurétiques, IEC
+\end{itemize}
+
+\paragraph{Urgences hypertensives} : HTA sévère et atteinte aigüe des organes
+\begin{itemize}
+  \item Urgences : SCA, insuf VG, dissection aortique, encéphalopathie
+    hypertensivee, hémorragie méningée/AVC, phéochromocytome, \{amphétamines, 
+    LSD, cocaïne\}, péri-op, (pré)éclampise, sd hémolytique et urémique
+  \item examens : bio, ECG, radiothorax, échocardio, \gls{FO},
+    scanner cérébral, imagerie aortique
+\end{itemize}
+
+\paragraph{HTA maligne} rare. Hypovolémie (natriurèse). \\
+Tableau : PAD > 130mmHg, oèdeme papillaire au FO, insuf VG, insuf rénale
+aigüe++. \\
+Évolution en quelques mois++
+
+\subsection{Bilan inital}
+Mesure de la pression : 
+\begin{itemize}
+  \item ascult (attention : effet bouse blanche, HTA masquée, rigidité des
+    artères si âgé)
+  \item MAPA (ambulatoire 24h, toutes 15min), obj < 130/80 en 24h
+  \item automesure à domicile
+\end{itemize}
+Évaluation :
+\begin{itemize}
+  \item interrogatoire : \{ancienneté, FR, organes (cerveaux, yeux, coeur rein,
+    artères)\}, \{secondaire (médica : contraceptifs oraux++, AINS++...)\}
+  \item clinique : atteinte des organes, secondaire, obésité
+  \item complémentaires : glycémie, cholestérol (total, HDL, tryglycérides, LDL),
+kaliémie, créat, BU, ECG repos)
+\end{itemize}
+Atteintes spécifiques :
+\begin{itemize}
+  \item coeur : ECG (HVG, hypertrophie atriale G), échocardio (HVG = masse VG >
+    125g/$m^2$ (110 chez \female)
+  \item écho carotides (AOMI : IPS < 0.9)
+  \item rein : \inc créat ou \dec clairance créat
+  \item FO : stade 3 (hémorragie, exsudats), 4 (oedème papillaire)
+\end{itemize}
+
+\paragraph{Calcul du risque}
+Élevé si grade 3 ou ((grade 1 ou grade 2) et $\ge 3$ FR)\\
+FR : âge, tabac, ATCD familaux d'accident CV précoce, diabète, dyslipidémie
+
+\subsection{HTA secondaire}
+Dépistage si point d'appel, grade 3, < 30 ans, HTA résistante
+
+\begin{itemize}
+  \item néphropathie parenchymateuse : palpation de masses abdo bilat \thus écho
+    abdo et créat, protéinurie, sédiment urinaire
+  \item HTA rénovasculaire : clinique (souffle abdo lat, OAP récidivant sans
+    explication), bio (hypoK et hyperaldostéronisme ou insuf rénale). Diag
+    écho, confirmé par angio-IRM. \\
+    Ttt : hygiénodiététique, aspirine, statine, antihypertenseurs
+  \item phéochromocytome : triade de Ménard (céphalée, sueurs, palpitations).
+    Dosage urinaire métanéphrines, catécholamines\\
+    Localisation tumeur (IRM), $\alpha$ et $\beta$ bloqueurs, exérèse chir
+  \item Sd de Conn : dépisté par kaliémie. \inc aldostérone/rénine. Localisation
+    tumeur scanner/IRM\\
+    Chir éventuelle
+  \item Coarctation aortique (enfant, adulte jeune) : clinique, confirmée IRM.
+    Ttt chir ou endoluminal
+  \item SAS : obèse, si HTA résistante. Diag par polysomnographie
+  \item Médicaments : cocaïne, amphétamines, AINS, corticoïdes, ciclosporine,
+    contraceptifs oraux, réglisse
+  \item HTA gravidique : 16-22 SA. Primipare, noires ou obèses.\\
+    DD : HTA > 20 SA, grossesse chez hypertendue, prééclampsie\\
+    Complications : éclampsie++, rénale, cardiaque, RCIU, HELLP\\
+    \textbf{Pas} régime sans sel, ni IEC, ARA II, diurétiques
+\end{itemize}
+
+\subsection{Traitement (Si grade 3 ou (grade 1/2 et $\ge 3$FR)}
+Objectif : < 140/90
+
+Hygiénodiététique, traitement FR, éducation.
+
+\paragraph{Médicaments}
+\begin{itemize}
+  \item inhibiteurs calciques
+  \item IEC
+  \item antagonistes récepteurs angiotensine II
+  \item beta-bloquants
+  \item diurétiques thiazidique
+\end{itemize}
+\danger : pas de beta-bloquants ni diurétiques si FR métaboliques.\\
+
+En association la plupart du temps
+
+Éventuellement :
+\begin{itemize}
+  \item antiagrégant : aspirine 75mg/j si ATCD CV ou créat ou risque CV élevé
+  \item hypolipidémiant : diabétique 2 ou maladie CV ou haut risque CV
+\end{itemize}
+
+Autres :
+\begin{itemize}
+  \item HTA résistante si $\ge 3$ classes médicaments dont 1 diurétiques
+  \item âgé : \danger{} hypotension orthostatique, \textbf{pas} régime sans sel,
+    $\ge 3$ médic, objectif : PAS < 150\\
+    ttt : diurétique, calcium bloqueurs
+  \item Urgence : éviter baisse brutale tension et hypotension \skull
+\end{itemize}
+\section{225 - Insuffisance veineuse chronique}%
+\label{sec:225_insuffisance_veineuse_chronique}
+
+Rappel : réseau superficiel = veine saphène interne, saphène externe\\
+Insuffisance veineuse quand dysfonction du retour, soit par valvules, soit par
+péristaltisme (contraction musculaire, écrasement voûte plantaire)
+
+\begin{itemize}
+  \item reflux dans le réseau superficiel = \textit{varices}  (>
+    3mm\footnote{$\neq$ télangiectasies < 1mm}) : essentielles ou
+    secondaires
+  \item \textit{post-thrombotique} : reflux (destruction valvulaire) ou obstruction par thrombose. 
+  \item \textit{Insuf valvulaire profonde primitive} : rare
+  \item \textit{Déficience pompe musculaire mollet} 
+\end{itemize}
+
+\paragraph{FR} Varices : âge, ATCD, obésité, grossesse, \female\\
+MTEV : immobilisation, cancer, anomalies hémostase
+
+\paragraph{Symptômes} jambes lourdes, aggravé par station debout prolongée,
+fatigue vespérale, chaleur. Calmée par le froid, marche, surélévation
+
+\paragraph{Clinique}
+\begin{itemize}
+  \item dermite ocre
+  \item télangiectasies, veines réticulaires (plantaire, malléole)
+  \item oedème cheville
+  \item lipodermatosclérose
+  \item atrophie blanche
+  \item varices
+  \item ulcère veineux (stade ultime) : périmalléolaire, oval, peu algique, peu
+    creusant, non nécrotique, exsudatif
+\end{itemize}
+NB : classif CEAP (clinique, étio, anat, physiopatho)
+
+Examens : \textit{écho-doppler} veineux des MI
+
+\subsection{Traitement}
+\begin{itemize}
+  \item Compression élastique (bas, bandes) : à vie si chronique. Attention CI si AOMI
+  \item Hygiène de vie
+  \item Invasif : sclérothérapie, traitement endoveineux, chirurgie (conservatrice/exérèse), (recanalisation)
+\end{itemize}
+NB : CI à la chir = sd obstructif veineux profond
+
+\section{233 - Péricardite aigüe}%
+\label{sec:233_pericardite_aigue}
+
+\subsection{Diagnostic}
+2 parmi
+\begin{itemize}
+  \item douleur thoracique : résistant trinitrine, majorée décubitus, calmée par
+    l'antéflexion
+  \item frottement péricardique
+  \item ECG typique : 4 stades = \{ sus-ST, T plates, T négatives,
+    normalisation\}. Aussi : sous-PQ, tachycardie sinusale, microvoltage
+  \item épanchement péricardique
+\end{itemize}
+$\pm$ fièvre modérée, dyspnée, épanchement pleural
+
+Examens complémentaires (hors ECG) :
+\begin{itemize}
+  \item bio : inflammation, nécrose, iono, urée, créat, hémoc si fièvre
+  \item radiothorax normale (rectitude gauche ou cardiomégalie)
+  \item échocardio : épanchement péricardique, masse péricardique
+\end{itemize}
+Parfois : IRM (2eme intention), ponction ou drainage
+
+Hospit ? si étiologie ou risque (symptôme > plusieurs jours)
+
+\paragraph{Étiologies} 90\% virale ou inconnue
+\begin{itemize}
+  \item aigüe virale : fréq++, sérologie inutile si typique sans gravité.
+    Évolution favorable\footnote{Tamponnade/constriction péricardique rare}.\\
+    Fréquent pendant VIH
+  \item purulente : rare mais grave. Immunodéprimé, infections sévère.\\
+    Évolue vers tamponnade/constriction péricardique\\
+    ATB
+  \item tuberculeuse : AEG, fièvre modéré persistante. Sujet tuberculeux, âgé,
+    greffé, VIH, alcoolique.\\
+    BK, PCR\\
+    Évolue vers tamponnade/constriction péricardique\\
+    ATB
+  \item néoplasique : souvent métastase. Échocardio\\
+    Ponction/biopsie essentielle. Récidive fréquente
+  \item systémique auto-immunes : lupus, polyarthrite rhumatoïde, sclérodermie,
+    pérartérite noueuse, dermatomyosite
+  \item IDM : précoce (5j) : favorable $\ne$ tardive (2-16sem) : sd Dressler
+  \item insuf rénale chronique : urémique $\ne$ dialysée au long cours
+  \item sd post-péricardotomie : post chir ou greff cardiaque.
+\end{itemize}
+
+\subsection{Complications}
+\begin{itemize}
+  \item Tamponnade : compression des cavités D par épanchement.\\
+    Clinique : douleur thoracique, signes droits, choc, bruits coeur assourdis,
+    pouls paradoxal. \\
+    ECG, radiothorax, échocardio ("swining heart")
+  \item Myocardite : insuf cardiaque fébrile. Échocardio, IRM+++
+  \item Péricardite récidivante : ttt = colchicine ?
+  \item Péricardite chronique > 3 mois : souvent néoplasique
+  \item Péricardite chronique constrictive : adiastolie avec égalisation
+    pression télédiastoliques\\
+    Insuf cardiaque droite et gauche. Diago écho. Chir ?
+\end{itemize}
+
+\subsection{Traitement}
+Bénigne : hospit, repos, douleur, AINS ou aspirine, protection gastrique,
+colchicine (CI si insuf rénale sévère)
+
+Tamponnade : urgence \skull, remplissage, ponction/drainage
+
+\section{327 : Arrêt cardiocirculatoire}%
+\label{sec:327_arret_cardiocirculatoire}
+
+Mort subite : aigüe, après symptômes < 1h. Arrêt cardiorespi (ACR) : plus d'activité
+mécanique cardiaque\\
+"No flow" : intervalle sans rénimation = \textbf{important}. 
+"Low flow" : intervalle sans rétablissement HD
+
+Chaîne de survie : alerte, réa (RCP), défibrillation, RCP spécialisée
+
+Si > 10 min de fibrillation ou d'arrêt : < 5\% de récupérations
+
+\subsection{Étiologies}
+Fibrillation ventriculaire puis brady extrême puis asystolies.
+Autres :
+\begin{itemize}
+  \item SCA inauguraux (40-77\%)
+  \item autres CV : troubles rythme sur ischémie ancienne, hypertrophique,
+    trouble du rythme/conduction indépendant, tamponnade, dissection aortique...
+  \item non vasc : toxique, traumatique, insuf respi aigüe, noyades
+\end{itemize}
+
+\paragraph{Diagnostic} ne bouge plus, ne réagit plus, ne respire plus, plus de
+pouls
+
+\subsection{CAT}
+ABCD : maintien voies Aériennes, assistance respi (B), Circulation (massage
+cardiaque), Défibrillation et Drogue
+
+\paragraph{Médicaments}
+\begin{itemize}
+  \item Adrénaline (vasoconstricteur) : 1mg/4min, avant 2eme choc
+  \item Antiarythmique (après 2eme choc): amiodarone 300mg dans 30mL de sérum
+    salé isotonique (lidocaïne sinon), (sulfate
+    de magnésium)
+  \item Bradycardie : atropine (isoprénaline)
+  \item (bicarbonate de sodium équimolaire pour alcaliniser)
+  \item (thrombolyse)
+\end{itemize}
+
+Survie -10\% par minute sans réa
+
+Asystolie = marque arrêt ancien (FV peut évoluer en asystolie)
+
+\paragraph{PEC}
+3 phases :
+\begin{itemize}
+  \item < 12h : acidoses, radicaux libres, enzymes musc
+  \item 12h - 3eme jour : atteinte organes
+  \item  > 3 j : sd septique
+\end{itemize}
+
+Cardiaque : dobutamine (trouble contractilité), monitoring échocardio $\pm$
+coronaro/angioplastie
+
+Cerveau :
+\begin{itemize}
+  \item $O_2$, ventilation importants ! (éviter hypertension intracrânienne
+    fatale)
+  \item sédation 24-49h
+  \item éviter hyperglycémie !
+  \item hypothermie à 34 degré
+\end{itemize}
+
+\section{264 - Diurétiques}%
+\label{sec:264_diuretiques}
+
+\subsection{Modes d'actions}
+\paragraph{Diurétiques de l'anse} Furosémide [Lasilix]
+
+Inhibe réabsorption Na+, K+, Cl- branche ascendante anse de Henlé
+
+Action rapide et courte. Vasodilatation veineuse (utile pour OAP)
+
+\paragraph{Thiazidiques} Hydrochlorothiazide
+
+Inhibe réabsorption NaCl au segment proximal du tube contourné distal. Augment
+excrétion $K^+$, $Cl^-$ mais diminue $Ca^{2+}$.
+
+Inefficace si insuf rénale sévère
+
+\paragraph{Épargnant le potassium} spironolactone
+
+Diminue excrétion $K^+$, $Cl^-$ au tube contourné distal. Effet inférieur au 2
+autres
+
+\subsection{Indications}
+HTA : 
+\begin{itemize}
+  \item toujours un diurétique
+  \item doses faibles
+  \item spironolactone seulement si hyperaldostéronisme primaire
+  \item si insuf rénale sévère seulement diurétique de l'anse
+\end{itemize}
+Insuf cardiaque :
+\begin{itemize}
+  \item furosémide++
+  \item dose minimale efficace
+  \item aigü : diurétique de l'anse 
+\end{itemize}
+
+\subsection{Prescription}
+Toujours régime hydrosodé
+
+\paragraph{Effets secondaires}
+Hydroélectriques 
+\begin{itemize}
+  \item déshydratation : âgé, peut entrainer IR aigue
+  \item hyponatrémie 
+  \item hypokaliémie : fréquente, modérée, surveillance, apport alimentaires
+    !
+  \item hyperkaliémie : dangereuse \danger{} bradycardie sévères, troubles
+    rythme ventriculaire. Favorisé par IEC, ARA II, insuf rénale
+  \item hypovolémie : parfois hypotension orthostatique
+\end{itemize}
+Autres : 
+\begin{itemize}
+  \item hyperglycémie, hyperuricémie (anse, thiazidiques)
+  \item augmentation cholestérol (thiazidique)
+  \item gynécomastie (spironolactone)
+  \item ototoxicité (anse)
+  \item interaction : lithium, hypokaliémiant, AINS
+\end{itemize}
+
+\section{326 - Antithrombotiques}%
+\label{sec:326_antithrombotiques}
+% ???
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cliniques usuelles :                                                          %
+% \begin{itemize}                                                               %
+%   \item Bifasciculaire du sujet âgé avec perte de conaissance : BdB droite et %
+%     hémibloc antérieur gauche. Chercher cardiopathie sous-jacente. souvent    %
+%     endocavitaire.                                                            %
+%   \item BdB gauche de l'infarctus antérieur                                   %
+%   \item Bloc alternant : (BdB droit III et gauche III) ou (alternance         %
+%     entre les 2 hémibloc avec BdB droit III)                                  %
+% \end{itemize}                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Antiagrégants plaquettaires}
+\paragraph{Aspirine}
+Inhibe Cox1. Irréversible. Effets antalgique, anti-inflammatoires (doses plus
+fortes), anticancéreux
+
+Posologie : 300mg + 75mg/j.
+
+Indications : 
+\begin{itemize}
+  \item prev. secondaire : coronaropathie, artériopathie des MI, AVC (à
+vie)
+\item  prev. primaire : coronaropathie, AVC
+\end{itemize}
+
+EI : saignements, intolérances gastriques (d'où IPP)
+
+Situations à risque : attendre 6 semaines/3-6 mois tout acte invasif à risque
+hémorragique. Si risque très important, arrêt 5 j seulement.
+
+\paragraph{Thiénopyridines, ticagrelor}
+Bloque récepteur P2Y12
+\begin{itemize}
+  \item Clopidogrel : 300-600mg + 75mg/j. SCA et post-angioplastie coronaire
+    (avec aspirine)
+  \item Prasugrel : 60mg + 10mg/j. SCA post-angioplastie 
+  \item Ticagrelor : 180mg + 90x2mg/j. SCA 
+\end{itemize}
+
+CI absolue : prasugrel si ATCD accident cérébral.
+
+\paragraph{Autres\footnote{Dipyridamole : n'est plus utilisé}}
+\begin{itemize}
+  \item Anti-GPIIb-IIIa : voie veineuse, courtes périodes, conditions très particulières
+\end{itemize}
+
+\subsection{Héparines}%
+\begin{itemize}
+  \item HNF : IV, effet immédiat. Antidote : sulfate de protamine. 80 UI/kg puis
+    18 UI/kg/h \\
+    \textbf{Surveiller TCA !} \danger
+  \item HPBM : demi-vie plus longue. Attention au rein !!. 100 I/kg x2/j
+  \item fondaparinux : demi-vie plus longue. Attention au rein !!
+\end{itemize}
+
+Indications : pour anticoag urgente = thromboses veineuses profondes, EP,
+troubles du rythmes, SCA.
+
+EI : complications hémorragiques, \gls{TIH}
+
+Apparentés :
+\begin{itemize}
+  \item danaparoïde : anticoag si ATCD de TIH
+  \item bivalirudine : pour angioplastie coronaire
+\end{itemize}
+
+\subsection{Anti-vitamines K}
+Agit sur facteurs dépendant de vitamine K. Oral, traitement longue durée.
+
+Coumadine (ref), fluindione (Previscan)\footnote{N'est plus prescrit en
+  initiation depuis 10/2018} = demi-vie longue. Acénocoumarole = demi-vie courte.
+
+Héparine puis AVK en relais avec 4-5j de chevauchement et 2 INR efficaces à 24h
+
+\textbf{Surveiller INR}  1/mois \danger. Cible : INR $\in [2,3]$
+
+Antidotes : PPSB, vitamine K
+
+Indications : FA, TVP, EP, valve cardiaque mécanique,
+complications de l'IDM/insuf cardiaque
+
+Situations à risque très hémorragique :
+\begin{itemize}
+  \item arrêt 3-4j avant
+  \item ou arrêt 4-5 j avant et relais héparine (pour TVP, EP > 3 mois, FA
+    à risque embolique élevée, valves mécaniques)
+\end{itemize}
+
+\subsection{Nouveau anticoagulants oraux}
+Dabigatran [Pradaxa], rivaroxaban [Xarelto], apixaban [Eliquis]. Inhibe facteur II ou X.
+
+Action rapide (2h) mais pas d'antidote
+
+CI : dabigatran si fonction rénale altérée. Suivre rein pour tous !!!
+
+\subsection{Thrombolytiques}
+Active la fibrinolyse physio. Suffixes : -kinase, -téplase
+
+Indications spécifiques (IV) : 
+\begin{itemize}
+  \item IDM < 6-12h
+  \item AVC < 4h30
+  \item EP grave
+\end{itemize}
+
+\subsection{Accident anticoagulants}
+\paragraph{Héparines}
+Hémorragique : 
+\begin{itemize}
+  \item 1-4\%.
+  \item clinique : TCA > 3 témoin, asymptomatique, anémie microcytaire
+    ferriprive, hématome
+  \item respecter prescription (CI si insuf rénale sévère)
+  \item si accident majeur : continuer ? Antidote ? Remplissage IV dans tous les
+    cas
+\end{itemize}
+Thrombopénies induites par les héparines : 
+\begin{itemize}
+  \item type I = bénin, non immun. Type II = grave, immun, +7/10jours.
+  \item mécanisme thrombotique (!)
+  \item clinique : plaquettes < 100G/L, thromboses veineuses/artérielles,
+    résistance héparine, thrombose/thrombopénie juste après arrêt héparine
+  \item CAT : confirmer, éliminer causes infectieuses, médicam, test ELISA
+  \item puis arrêt héparine, danaparoïde sodique à la place (éventuellement
+    AVK), NFS tous les jours, déclaration \textbf{obligatoire} 
+  \item prévention : relais AVK, remplacer par HBPM ou fondaparinux
+\end{itemize}
+
+\paragraph{AVK}
+Hémorragiques : 
+\begin{itemize}
+  \item AVK = 1ere cause d'hospit iatrogène !
+  \item hémorragie grave : extériorisé non contrôlable, instabilité
+    hémodynamique, geste hémostatique, transfusion de culots globulaires,
+    pronostic vital/fonctionnelle
+  \item CAT (si grave) : arrêt AVK, INR urgence et vitamine K + CCP (antidote),
+    surveillance biologique
+\end{itemize}
+
+\section{Annexe}
+ \resizebox{\linewidth}{!}{           
+\begin{tikzpicture}
+    \graph [
+    % Labels at the middle 
+    %edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    % right-angle arrow
+    skip loop/.style = {to path={-- ++(0,#1) |- (\tikztotarget)}},
+    vh path/.style = {to path={ |- (\tikztotarget)}},
+    hv path/.style = {to path={ -| (\tikztotarget)}},
+    medic/.style = {rectangle, draw=red},
+    %sibling distance=6cm,
+    %layer distance=1.5cm,
+    %edges={nodes={fill=white}}, 
+    branch down=9mm,
+   grow right sep]
+   % Ugly hack : using "above" should not be used with "right
+    {
+      at/angiotensinogène -- p1 [coordinate] -> at1/"Angiotensine I" 
+      -- p2 [coordinate] -> at2/"Angiotensine II" 
+      -- p3 [coordinate] -> "+" -> [vh path, "lol"] {
+        "Système sympathique";
+        "Réabsorption Na+ et Cl-\\Excrétion K+";
+        "Aldostérone\\(cortex surrénalien)";
+        "Vasoconstriction artérioles";
+        adh/"ADH (hypophyse)";
+      }
+      --[hv path] p4 [coordinate] -> rt/"Rétention hydrosodée\\Augmentation volémie";
+      Rein[above=-1mm of p1];
+      Foie[above=6cm of at];
+      Foie -> at;
+      rt -- [vh path] neg/"-"[below=-6cm of adh] -> Rein ->["+"] p1;
+      p1 --["Rénine"] Rein;
+      IEC[above=8cm of p2, medic] ->["-"] p2;
+    };
+\end{tikzpicture}
+}
+#+END_EXPORT
 * Douleur (ébauche)
 ** Divers 
 - Douleurs par excès de nociception : anti-inflammatoires, opioïdes en pratique
@@ -3232,8 +5872,2531 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 
 * Neurologie (ébauche)
 \input neurologie
-* Pneumologie                                                        
-\input pneumologie
+* Pneumologie
+** 73 - Addiction au tabac
+3 fumées : courant primaire (inspiré), secondaire (tabagisme passif++), tertiaire (exhalé)\\
+Produits :
+
+- nicotine = dépendance
+- fumée de tabac = 0.3 \mu{}m, pénètre partout !
+- goudrons = cancérigène
+- CO = hypoxie, risque ischémie, marqueur tabagisme des dernières heures
+
+16 millions de fumeurs en 2013 (France). Éducation et cat. sociale faible = plus
+tabagiques
+*** Pathologies liées au tabac
+K :
+
+- 90% des cancers broncho-pulmonaires (tabagisme actif), 25% (passif) 
+- voies aérodigestives sup, vessie, pancréas, rein, col de l'utérus
+
+Respiratoires : BPCO, asthme\\
+Cardio-vasc : 
+
+- cardiopathies ischémiques
+- artérite
+- HTA
+- cérébro-vasculaires
+- relation tabac-athérome, maladie coronaire
+
+Autres : digestives, kératites, retard consolidation os, agueusie, anosmie\\
+Passif :
+
+- +25% risque cancer bronchique
+- +25% maladies CV
+- aggrave asthme, BPCO
+- nourrisson : RCIU\footnote{Retard croissance intra-utérin}, \(\nearrow\) risque
+  infections respi, mort-subite (1ere cause identifiée)
+
+*** Prise en charge
+Évaluer : consommation (paquets/années), dépendance, autres (alcool = déclencheur,
+cannabis), motivation, comorbidités (psy, CV, respi)
+*** Traitement
+Conseil, motivationnel, traitement (substitut nicotinique, varénicline [\danger
+suivi], bupropion), thérapies cognitivo-comportementales, cigarette
+électronique\\
+Sevrage : réussi si \(\ge 1\) an
+
+
+** 108 - Troubles du sommeil
+*** Définitions
+\danger Sd d'apnées hypopnées obstructives du sommeil (SAOS) = profil "en peigne"\\
+Sd d'apnées centrales = désat profondes et soutenus
+
+Apnée : 
+
+- obstructive : arrêt débit \(\ge\) 10s + efforts ventilatoires
+- centrale : idem, sans efforts ventilatoires
+- mixte = obstructive et centrale
+
+Hypopnée = (diminution ventilation \(\ge\) 10 s) et ((débit -50%) ou (désat
+transcut \(\ge\) 3%) \textpm{} microéveil)
+
+SAOS = (somnolence diurne non expliquée ou (2 parmi : ronflements, étouffement,
+éveils répétés, sommeil non réparateur, fatigue diurne, trble concentration,
+nycturie)) \(\wedge{}\)  IAH\footnote{Index d'Apnées et Hypopnées (nb par heure)} \(\ge\) 5\\
+Sévère si IAH \(\ge\) 30.
+*** Épidémiologie
+2 millions en France.
+FR : obésité, homme, âge, anomalie voie aériennes supérieures. 
+Comorbidités :
+
+- neuropsy + accidents (risque x2)
+- CV : HTA, insuf. coronaire, cardiaque, ACFA
+- sd métabolique\footnote{Obésité abdo et (2 parmi : HTA, glycémie \(\ge\) 5.6 mmol/L,
+    HDL bas, hypertriglycéridémie)}
+- diabète
+- dyslipidémie
+
+
+NB : obstruction \gls{VAS} dûe à {réduction \diameter, \nearrow{} collapsibilité,
+  \searrow{} efficacité muscles dilatateurs}
+*** Diagnostic
+**** Clinique :
+
+- nocturne = ronflements, pause respi, étouffement, nycturie
+- diurne = somnolence excessive (questionnaire d'Epworth)
+
+DD : hypersomnie diurne (insomnie, sd dépressif, sédatif, hygiène de sommeil,
+neuro)
+**** Examen
+
+- IMC, obésité abdo (\(\ge\) 94 cm \male, 80cm \female)
+- ORL
+- CV, respi
+
+**** Complémentaire
+(EFR et imagerie optionnels)
+Saturation transcut en O\(_{\text{2}}\) possible.\\
+Référence = enregistrement polygraphique ventilatoire (ou polysomnographique
+mais cher++)
+*** Traitement
+Général : PEC\footnote{prise en charge} surpoids, éviction {benzodiazépines,
+myorelaxants, morphiniques}, PEC CV
+
+Spécifique :
+
+- Pression positive continue = 1ere intention
+- Orthèse d'avancée mandibulaire = 2eme
+- Autres : orthèse anti-décubitus dorsal, chirurgie = {vélo-amygdalienne,
+  avancée maxillo-mandibulaire (lourd++), nasale}
+
+*** Autres
+
+- Sd d'apnée de type central : cause = {insuf. cardiaque sévère (traitement !),
+    atteinte tronc cérébral, séjour altitude, morphiniques}
+- Hypoventilation alvéolaire : aggravation de l'état de veille. Traitement =
+  VNI\footnote{ventilation non invasive}
+- Sd obésité hypoventilation : (PaCO\(_{\text{2}}\) > 45 mmHg) et (PaO\(_{\text{2}}\) < 70 mmFg) et
+  (IMC > 30 kg/\(m^2\)), pas d'autre cause. Traitement = VNI
+
+
+** 151 - Infections broncho-pulmonaires communautaires
+*** Bronchite aigue
+Très fréquente, virale 90%. \\
+Diagnostic clinique : épidémie, toux sèche \(\to\) productive, expectorations,
+pas de crépitants.\\
+Ttt symptomatique seulement !
+
+*** EBPCO
+
+*** Pneumonie aigue communautaire
+Clinique : {toux, expect purulentes, dyspnée} + {fièvre, asthénie} +
+crépitants\\
+Radio !\\
+Si \faHospitalO : hémocultures, ECBC, antigenurie pneumocoque (\pm PCR,
+antigenurie légionelle)\\
+\faHospitalO : signes de gravité (score CRB65\footnote{Confusion, fréquence
+  Respiratoire \ge 30min, (Blood) PAs < 90mmHg ou PAd \ge 60mmg, Age \ge 65 ans}
+\(\ge 1\)) / incertitude / échec domicile / comorbidité / inobservance
+
+\begin{table}[htpb]
+  \centering
+  \label{Orientation clinique (non discriminant !)}
+  \begin{tabular}{llll}
+    \toprule
+    & Pneumocoque & Atypique & Légionellose\\
+    \midrule
+    Début & Brutal & Progressif & Rapidement progressif\\
+    Signes & Thoraciques & Extra-thoraciques & Myalgie, digestif\\
+    Biologie &  & Anémie hémolytique & Hyponatrémie, rhabdomyolyse\\
+    Microbio & CG+ chainettes/Ag pneumocoque + &  & Ag légionelle +\\
+    RX thorax & condensation systématisée & Opacités multifocales & CS ou OM\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+
+- Pneumocoque : fréquent+++. Pas de transmission interhumaine
+- Atypique : \bact{mpneumoniae}, \bact{cpneumoniae}, \bact{psitacci}
+- Legionnella : pas d'isolement. DO
+- Pneumonie virale : signes respi + sd grippal. Grippale = diagnostic PCR, traitement = inihbiteur neuramidase \danger \bact{dore}
+
+**** Traitement
+Oral, 7j (8-14 si légionellose, 21j si légionelles graves/ID)
+
+Urgent, probabiliste, réévalué 48-72h
+
+Ambulatoire :Amoxicilline ou macrolide \(\to\) switch
+
+\faHospitalO  Amoxicilline \(\to\) réévaluation
+
+Réa : C3G IV + macrolide IV / FQ pour pneumocoque
+
+**** Échecs
+
+- Compliquée : épanchement pleural, abcès, obstacle
+- Observance, pharmacocinétique, hors spectre
+- Diagnostic :
+  
+  - focalisé : embolie pulmonaire
+  - diffuse : cf pneumopathies interstitielles diffuses aigües
+  - excavée : cancer, tuberculose pulmonaires, infarctus pulmonaire, vascularite\ldots{}
+  
+
+
+**** Prévention
+Vaccin : 2 doses + rappel enfant, 2 doses adulte (ID, comorbidité)
+
+**** Immunodéprimé
+Pneumocystose pulmonaire : 
+
+- RX : sd interstitiel diffus bilatéral symétrique.
+- ATB cotrimoxazole 21j
+
+
+
+** 180 - Accidents du travail
+Maladie professionnelle = lente, prolongée (\(\neq\) accident du travail)
+*** Maladies
+**** Asthmes
+10-15% des asthmes. On a
+
+- asthme professionnel : (avec latence [immunologique]) ou (sans latence
+  [exposition unique])
+- asthme aggravé par le travail
+
+Métiers : boulangers, santé, coiffeurs, peintres pistolets, bois, nettoyage\\
+Diagnostic : de novo, profession, rythme
+**** BPCO
+\gls{TVO} lente progressive + inflammation
+poumons. Facteurs professionnels = 10-20% BPCO\\
+Métiers : mines, BTP, fonderie, textile, agricole
+**** Cancers
+
+- mésothéliome : 2/100 000habi/an, amiante++, DO
+- K bronchique primitif
+
+**** Pneumopathie interstitielle diffuse (PID)
+
+- Pneumopathie d'hypersensibilité : agricole
+- Silicose (+cancer bronchique primitif)
+- Bérylliose : adénopathies médiastinales, sd infiltrant parenchymateux
+- Sidérose : fumées d'oxyde de fer, micronodule \textpm{} emphysème
+- Asbestose : fibrose
+
+**** Liées à l'amiante
+
+- Cancer : mésothéliome, cancer bronchique primitif
+- Pleural (plaques, épaississements, pleurésies), parenchyme (fibrose)
+
+*** Reconnaissance
+3 conditions : médicale, administrative, professionnelle. 
+
+Déclaration à la CPAM (employeur si AT, sinon victime)
+
+Indemnité\footnote{Pour l'amiante : caisse d'assurance malaide ou FIVA}
+
+- 60% salaire si < 28 jours, 80% sinon
+- si séquelles, selon taux incapacité permanente : capital (< 10%), rente
+  (> 10%), rentre et autres (> 40%)
+
+
+** 182 - Hypersensibilités et allergies respiratoires%
+\label{sec:182_hypersensibilites_et_allergies_respiratoires}
+
+\begin{figure}[htpb]
+  \centering
+  \resizebox{0.5\linewidth}{!}{
+    \tikz \graph [
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    sibling distance=3cm,
+    edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      HS non allergique;
+      HS allergique -> {
+        Non IgE;
+        IgE -> {
+          atopique -> "insectes\\helminthes\\médicaments";
+          non atopique -> "rhinite\\asthme\\alimentaire\\professionelles";
+        };
+      };
+    };
+  }
+  \caption{Hypersensibilité}
+\end{figure}
+*** Définitions%
+Atopie : prédisposition héréditaires à IgE face à des allergènes.\\
+Allergie : réaction d'HS par mécanismes immunologiques\\
+Sensibilisation : test cutané positif à un allergène\\
+Allergène : capable d'induire une réaction d'HS = pneumallergènes (aéroportés),
+trophallergènes (alimentaires), professionnels, recombinants
+
+Hypersensibilité :
+
+- type 1 (immédiate) : la plus fréquente, IgE. Rhinite, asthme
+- type 2 : complément et phagocytose. Réactions médicament.
+- type 3 : complexes immuns. Pneumonies d'HS
+- type 4 : LT, cytotoxiques 48-72h. Granulome épithélioïde gigantocellulaire.
+  Dermato.
+
+
+\paragraph{Asthme et rhinite allergique}
+Polygénique.\\
+Environnement : infections virales, sensibilitations pneumallergènes, tabac dès
+conception, pollution air intérieur. 
+
+\paragraph{Anomalies voies aériennes (asthme)}
+Remodelage bronchique : épaississement (membrane basale et muscle lisse $\wedge$ oedème
+bronchique) et obstruction $\diameter$ (mucus)
+
+\paragraph{Réaction IgE}
+
+- Sensibilisation : synthèse IgE spécifiques (lymphocytes B)
+- effectrice : fixation de l'allergène $\implies$ activation (histamine,
+  cytokines) $\implies$ cascade allergique
+
+
+*** Épidémiologie
+Atopie = 30-40% population. HS médicament = 7% pop. Allergie alimentaire : 2%
+des 9-11 ans
+
+FR : 
+
+- génétique (enfants à risque)
+- environnement : fréq $\nearrow$ temps, alimentaires, tabagisme passif
+  maternel, allergènes, pollution atmosphérique \danger niveau de preuve 
+
+Morbidité forte, mortalité encore forte pour l'asthme.
+
+*** Diagnostic
+Clinique : asthme, rhinite, conjonctivite
+
+\paragraph{Diagnostic}
+Unité de temps, lieu et action (perannuels [acariens,
+blattes, phanères d'animaux, végétaux d'intérieur, moisissures] ou saisonniers
+[pollens]) $\wedge$ IgE spécifiques
+
+Prick-test = référence.
+
+- $\diameter \ge 3$mm / témoin
+- acariens, pollens, phanères d'animaux, blatte, moisissures chez l'adulte
+- arachide, blanc d'oeuf, poisson, lait de vache si < 3 ans
+- CI : antihistaminiques, $\beta$-bloquants, eczéma, grossesse si
+  allergie médic
+
+
+Autres tests : dosage IgE spécifique (moins sensible), multiallergénique (sensible mais
+pas quantitatif)
+
+\paragraph{Professionnelles} boulangers, santé, coiffeurs, peintres pistolets, bois, nettoyage\\
+
+\paragraph{Autres}
+
+- Test de provocation = certitude mais dangereux
+- Très sécifique : dosage IgE totale, dosage éosinophiles sanguin, dosage tryptage sérique
+
+
+*** Traitement
+\paragraph{Éviction allergènes} Toujours.
+
+\paragraph{Symptomatiques}
+
+- antihistaminiques : rhinite, conjonctivite, prurit
+- corticoïdes : systématique si urgence (prednisone, prednisolone), local
+  si traitement fond
+
+
+\paragraph{Immunthérapie spécifique}
+Faibles doses croissantes d'allergènes :
+
+- Sous-cutanées/sub-linguale : acariens, pollens, hyménoptères
+- orale : pollen
+
+CI : maladies allergiques, dysimmunités, grosses (induction), asthme sévère non
+contrôlé, mastocytoses, $\beta$-bloquants
+
+ES : 
+
+- syndromique (asthme, rhinite, urticaire) = alerte
+- générale (hypotensions, bronchospasme, choc anaphylactique) =
+  interruption
+
+
+
+** 184 - Asthme, rhinite
+Asthme 6%, mortalité 1000 DC/an, en baisse. Morbidité en hausse
+
+Rhinite allergique 24%.
+*** Définitions
+Asthme : 
+
+- inflammation chronique modifiant les VAS avec symptômes respi et obstruction voies aériennes réversible
+- interaction gènes-environement, déclencheurs : exercice, HS aspirine/AINS,
+  irritants inhalés
+
+
+TVO : 
+
+- \gls{VEMS}/CVF < 0.7
+- réversible si +200mL et +12% après BDCA\footnote{Broncho-dilatateurs à courte durée
+    d'action}
+
+
+Hyperréactivité bronchique : -20%VEMS après métacholine/air sec (VPP = 100%)
+
+Débit expiratoire de pointe (pour urgence)
+
+*** Diagnostic
+\paragraph{Asymptomatique}
+Diagnostic :
+
+- symptômes caractéristiques (20 min, réversible, variable)
+  
+    - plusieurs parmi {gêne respiratoire, dyspnée,
+        sifflements, oppression thoraciques}
+    - $\nearrow$ nuit/réveil, variable,réversibles, déclenché par {rire, exercice
+      virus, allergènes, irritants}
+    
+- \textbf{et} obstruction bronchique : sibilant, TVO réversible ou apparaît avec métacholine
+
+Sévérité évaluée à 6 mois
+\paragraph{Exacerbation}
+\nearrow{} symptômes > 2 jours, non calmée, sans retour état habituel
+
+Signes de sévérité :
+
+- mots (au lieu de phrases), assis en avant, agité
+- FR > 30/min
+- muscles respi annexes
+- FC > 120/min, SpO\(_{\text{2}}\) < 90%
+- DEP < 50%
+- silence auscultatoire \skull
+- respi paradoxale \skull
+- troubles conscience, bradycardie, collapsus \skull
+
+\paragraph{DD}
+Sans TVO : cordes vocales, sd hyperventilation
+
+TVO non réversible : {BPCO, bronchectasies, mucoviscidose, bronchiolites
+constrictives}, autres (corps étranger, tumeur, insuf. cardiaque)
+\paragraph{Bilan}
+Facteurs favorisants, radio thorax, EFR (+test métacholine)
+
+*** Traitement
+
+\paragraph{Long cours}
+Ttt de fond : cf Table~\ref{tab:ttt_asthme}
+
+\begin{table}
+  \centering
+  \begin{tabular}{ccccc}
+    \toprule
+    Palier 1 & Palier 2 & Palier 3 & Palier 4 & Palier 5 \\
+    \midrule
+    CSI faible & ALT & CSI moyen/fort & triotropium & CSO faible\\
+             & & ou (CSI faible et ALT) & ou (CSI fort et ALT) &\\
+  \bottomrule                                                              
+  \end{tabular}
+  \caption{Ttt de fond de l'asthme (\textbf{BDCA à la demande}).\\
+    CSI = Corticostéroïdes inhalés. ALT =
+    anti-leucotriènes. CSO = Corticostéroïdes oraux}
+  \label{tab:ttt_asthme}
+\end{table}
+
+Autre : 
+
+- activité physique (sauf plongée)
+- facteurs favorisants : rhinite, allergie, tabac, \(\beta\)-bloquant
+  (aspirine/AINS), RGO, comorbidités
+- vaccins grippe (pneumocoque si asthme sévère)
+
+Efficace ?
+
+- symptômes contrôlés (diurnes < 2/sem, pas de réveil nocture, BDCA < 2/sem, pas
+  limitation d'activité)
+- exacerbations < 2 corticostéroïdes systém./an
+- VEMS/CV > 0.7 et VEMS \(\ge\) 80 %
+
+Si non contrôlé
+
+- CSI faible + BDLA\footnote{Broncho-dilatateur à longue durée d'action} < CSI
+  moyen/fort + BDLA < centre spécialisé
+
+Suivi : périodique, +3mois si changement ttt, mensuel si grossesse
+
+\paragraph{Urgence} cf figure~\ref{fig:asthme_urgence}.
+
+\begin{figure}[htpb]
+  \centering
+  \tikz \graph [
+  % Labels at the middle 
+  edge quotes mid,
+  % Needed for multi-lines
+  nodes={align=center},
+  sibling distance=3cm,
+  edges={nodes={fill=white}}, 
+  layered layout]
+  {
+    "Évaluation" -> {
+      "Exacerbation\\
+      sans signes de gravite" -> 
+      "\(\beta_2\) mimétique forte doses\\
+      chambre inhalation\\
+      \textbf{Corticothérapie orale}  7j" [draw]
+      -> Réévaluation 1H;
+      "Exacerbation \\
+      avec signes de gravite" -> 
+      "\(\beta_2\)-mimétique forte dose" [level distance=2cm] -> {
+        "O\(_2\)\\
+        \(\beta_2\) mimétique nébulisés (5mg/20min)\\
+        $\pm$ ipratropium\\
+        \textbf{Corticothérapie orale} " [>"\faHospitalO", draw];
+      };
+      Perte de contrôle ->
+      "\(\beta_2\) mimétique" [draw] -> Réévaluation 1H;
+    };
+  };
+  \caption{Asthme : traitement d'urgence}
+\end{figure}
+
+Pas d'ATB sauf si suspicion bactérienne. Adrénaline seulement pour choc anaphylactique
+\danger pas de BDLA 
+
+*** Rhinite allergique
+Diagnostic :
+
+- PAREO : prurit, anosmie, rhinorrhée, éternuement, obstruction nasale
+- fosses nasales au speculum inflammées
+- allergique (argumenter !!)
+
+Sévère si persistant (> 4 semaines/an) et retentissement qualité de vie
+
+TDM
+
+Ttt : laval nasal, allergie, antihistaminique/corticoïdes nasaux, tabac, stress
+
+
+** 188, 189 : Pathologies auto-immunes%
+\label{sec:pathologies_auto_immunes}
+
+Manifestations respi. viennent de (par priorité décroissante) :
+
+- infectieuse (favorisé par ttt)
+- toxicité médicamenteuse
+- spécicifique
+- indépendant
+
+
+*** Complications infectieuses
+Immunodépression :
+
+- corticoïdes forte dose > 1 mois
+- méthotrexate
+- cyclophosphamide
+- anti-TNF$\alpha$ (infliximab)
+
+Tuberculose : 
+
+- clinique semblable à l'ID = 50% extrapulmonaire, 25% disséminé
+- prévention si TNF-$\alpha$ : INH 9 mois ou INH-RMP 3 mois
+
+Pneumocystose : si corticoïdes forte dose ou méthotrexate ou
+cyclophosphamide
+
+- clinique : début brutal, insuf. respi, mortalité élevée
+- radio thorax : condensation alvéolaire/verre dépoli bilat
+- penser co-infections
+
+*** Médicaments
+Méthotrexate : plus fréquent, pneumopathie d'HS (opacités diffuses), \gls{LBA}
+lymphocytaire. Évolution favorable à l'arrêt + corticothérapie
+
+Inhibiteurs TNF-$\alpha$ : PID/granulomatoses, anaphylactique
+
+*** Connectivites
+Polyarthrite rhumatoide
+
+- PID\footnote{Pneumopathie interstitielle diffuse} : radio =
+  réticulations, rayons de miels, bronchectasies. Surveillance seulement
+- pleurésie rhumatoïde : unilatérale, peu abondante, exsudative. Évolution
+  favorable
+- nodules pulmonaires rhumatoïdes. 
+- bronchiolite oblitérante
+
+Sclérodermie systémique : CREST (Calcinose, Raynaud, dyskinésie oEsophagienne,
+Sclérodactyie, Télangiectasie), Ac anti-nucléraires
+
+- PID : semblable à PINS\footnote{Pneumopathie interstitielle non
+    spécifique} : opacités en verre dépoli, bronchectasies par traction. Survie
+  85% à 5 ans
+- HTA pulmonaire : dyspnée. Echo. cardiaque +
+  cathéterisme cardiaque
+
+Lupus érythémateux disséminé 
+
+- pleurésie lupique : peu abondant, svt bilatéral, svt + péricardite
+- infectieux, sd hémorragie alvéolaire
+
+Dermato-, polymyosite
+
+- PID chronique : 1ere cause DC, opacités verre dépoli, \gls{LBA} lymphocytaire.
+  Ttt : corticothérapie + IS
+- PID (sub)aigüe
+
+Sd de Gougerot-Sjögren
+
+- bronchite lymphocytaire chronique : toux sèche chronique
+- PID, lymphome pulmonaire primitif
+
+
+*** Vascularites
+Granulomatose avec polyangéite : 40-50ans, début ORL+ poumon (+ rein)
+
+- radio : nodules s'excavant, opacités verre dépoli
+- Ttt urgent = corticothérapie, cyclophosphamide
+
+Granumolatose éosinophilique avec polyangéite :  hyperéosinophilie, pneumopathie
+éosino.
+
+Polyangéite microscopique : sd hémorragique alvéolaire
+
+** 199 : Dyspnée aigüe et chroniques
+\label{sec:199_dyspnee_aigue_et_chronique}
+Examens : ECG, RX thorax, gaz du sang, D-dimère, BNP, NFS a minima
+
+*** Aigüe
+= quelques heures/jours
+
+Détresses respi aigüe :
+
+- cyanose
+- sueur
+- FR > 30/min ou < 10/min
+- tirage, muscle respi accessoires
+- respi abdo paradoxale
+
+Hémodynamique :
+
+- FC > 110/min
+- choc (marbrures, oligurie, angoisse, extr. froides)
+- PAS < 80 mmHg
+- insuf. ventriculaire droite (turgescence jug, OMI, signe Harzer)
+
+Urgence !!
+
+Voir table~\ref{tab:dyspnee_aigue}. Autres :
+
+- cardiaque : tamponnade\footnote{orthopnée, tachy, assourdissement bruits,
+  ascult pulmonaire normale, turgescence jugulaire, pouls paradoxal}, troubles
+(supra)-ventriculaire, choc cardiogénique
+- pulmonaire : SDRA, décompensation aigüe, atélectasies, trauma
+
+
+\begin{table}[htbp]
+\caption{Étiologies de dyspnée aigüe}
+\label{tab:dyspnee_aigue}
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lll}
+\toprule
+Inspiratoire & Expiratoire & Sinon\\
+\midrule
+corps étranger (enfant) & asthme (jeune, allergie, sibilants) & EP
+                                                                (ascul. normale,
+                                                                douleur
+                                                                thoracique, phlébite)\\
+épiglottite (enfant) & BPCO (tabac, bronchite aigüe, sibilants) & pneumothorax,
+                                                                  épanchement
+                                                                  pleural (sd
+                                                                  pleural,
+                                                                  douleur thoracique)\\
+laryngite (enfant) & OAP (âgée, crépitants, expector mousseuse) & pneumopathie
+                                                                  infectieuse
+                                                                  (sd
+                                                                  infectieux,
+                                                                  douleur thoracique)\\
+\oe{}dème de Quincke (terrain)&  & OAP (âgé, orthopnée, crépitants, expector mousseuse)\\
+ &  & \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+*** Chronique
+cf table~\ref{tab:dyspnee_chronique}.
+Autres :
+
+- Cardiaque:constriction péricardique
+- Pulmonaire : (restrictif) pneumoconioses, post-tuberculose, paralysie phrénique, cyphoscoliose, obésité morbide
+- HTAP
+- HT pulmonaire post-embolique
+
+
+\begin{table}[htbp]
+\caption{Étiologies de dyspnée chroniques}
+\label{tab:dyspnee_chronique}
+\centering
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lll}
+\toprule
+Sibilants & Crépitants & Auscult normale\\
+\midrule
+BPCO& PID (toux sèche, maladie systémique) & EP/maladie vasculaire pulmonaire \\
+asthme& Insuf cardiaque gauche & Neuromusc \tablefootnote{signe neuro, orthopnée, respi abbdo paradoxale} \\
+Insuf cardiaque gauche (ATCD cardiaque, orthopnée, toux) &  & Parétiale
+                                                              (obésité, scoliose)\\
+          && Hyperventilation\tablefootnote{C normal, vertige, $\ne$ effort, paresthésie}\\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+Quantification : échelle Borg [0-10] (aigüe) ou MRC [0-4] (chronique)
+** 200 - Toux chronique
+\label{sec:200_toux_chronique}
+
+\danger Éliminer toux post-infectieuse (< 3 semaines)
+
+Signes de gravité : 
+
+- AEG, sd infectieux
+- dyspnée d'effort, hémoptysie
+- modification toux chez fumeur
+- dysphonie, dysphagie, fausses routes
+- adénopathies cervicales suspectes
+- anomalies cardiopulmonaires
+
+
+\begin{figure}[htpb]
+  \centering
+  \caption{PEC initiale d'une toux chronique}
+  \resizebox{0.6\linewidth}{!}{
+    \tikz \graph [
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    level distance=40pt,
+    sibling distance=3cm,
+    edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      Signe de gravité -> {
+        Exploration ["oui"];
+        "Médicaments ?" ["non"] -> {
+          Test d'éviction ["oui"];
+          "Coqueluche ?" ["non"] -> {
+            Test diagnostique ["oui"];
+            "Radio thorax anormale ?" -> {
+              Bilan spécialisé ["oui"];
+              "cf~\nameref{subsec:toux_orientation}" ["non"];
+            };
+          };
+        };
+      };
+    };
+  }
+\end{figure}
+
+*** Orientation diagnostique
+\label{subsec:toux_orientation}
+\textbf{ORL}  
+
+- rhinosinusiens : sd rhinorrée postérieur++, obstruction nasale chronique
+- carrefour aérodigestif : diverticule de Zenker, laryngite chronique
+
+
+\textbf{Respiratoire} 
+
+- Asthme : TVO réversible/hyperréactivité bronchique
+- BPCO : TVO non réversible
+- Cancer bronchique, tumeurs, bronchectasise (cf
+  \nameref{sub:bronchectasies})
+
+
+\textbf{RGO} : pyrosis. Endoscopie digestive si FR, pHmétrie des 24h
+
+\textbf{Allergique} 
+
+\textbf{Systémique} : sd Gougerot-Sjögren, polychondrite atrophiante, maladie
+de Horton, granulomatose avec polyangéite, rectocolite hémorr., maladie de
+Crohn.
+
+\textbf{Comportement} : dernière étiologie
+
+\paragraph{Traitement d'épreuve} (ordre d'échec):
+1. RGO : bromphéniramine + pseudoéphédrine 3 sem
+1. asthme si TVO réversible, corticoïdes inhalés ou bronchodilatateurs inhalés si
+  hyperréactivité bronchique
+1. avis spé
+
+Traitement symptomatique : arrêt tabagisme. Éviter si possible
+
+- si toux sèche : opiacés, antihistaminique anticholinergique, non
+  antihistaminique non opiacés
+- si toux productive : mucomodificateurs, kiné
+
+
+*** Bronchectasies
+\label{sub:bronchectasies}
+Types : bronchectasies (élargissement $\diameter$), bronchocèle (pus), "par
+traction" (NB: pas des vraies bronchectasies)
+
+
+Étiologie : 
+
+- infection respi sévères : coqueluche, tuberculose (virales respi enfant,
+  pneumonie bact, suppuration suite sténose)
+- mucoviscidose
+- non infectieux (poumon radique, aspergillose allergique, SDRA,
+  systémique, déficit immunitaire)
+
+
+Évolution : colonisation bactérienne, hémoptysie, TVO (car dilatation seulement
+proximale), insuffisance respi
+
+Clinique :
+
+- toux productive quotidienne depuis l'enfance
+- hémoptysie
+- infections à {\bact{influenzae}, \bact{pneumocoque}} puis {\bact{dore},
+  \bact{aeruginosa}++}
+
+
+Diagnostic : TDM (certitude) = $\diameter_\text{bronche}$ > $\diameter_\text{artère}$, lumière
+bronchique > 1/3 parenchyme, pas de réduction du $\diameter$, grappes de kystes,
+opacités tubulées
+
+Traitement : ATB si exacerbation, complications parenchymateuses. Macrolides
+pour l'inflammation. Chir si très local + compliqué.
+
+** 201 - Hémoptysie%
+\label{sec:201_hemoptysie}
+
+Urgence \skull
+
+1. Est-ce une hémoptysie ? Hématémèse ou ORL possibles
+1. Gravité ? Suivant abondance, terrain, persistance $\implies$ risque = hématose et asphyxie
+
+*** Étiologies
+
+- Tumeurs bronchopulmonaires++
+- Bronchectasies++
+- Tuberculose (évolutive/séquelles)++
+- Idiopathique++
+- Infections : aspergillaires, pneumopathie infectieuses nécrosante
+- Vasc : embolie pulmonaire, HT pulmonaire, anévrysmes/malformations
+- Hémorragie alvéolaires : insuf. cardiaque gauches, médicaments/toxiques,
+  vascularites, collagénose, sd Goodpasture
+
+
+*** Diagnostic
+Localisation (important !)
+
+Interrogatoire : ATCD respi, cardiaque, histoire médicale
+
+Examens 
+
+- clinique : {$SpO_2$, tension, pouls}, mauvaise tolérance respi, gêne
+  latéralisée, hippocratisme digital
+- radio thorax pour siège (verre dépoli/sd alvéolaire), lésion
+- scanner plus précis : nature, localisation, carto. vasc.
+- (endoscopie : hématémèse, multiples lésions, tumeur proximale)
+- (artériographie bronchique : ttt par embolisation)
+- autres : gaz du sang, dosage Hb, bilan coagulation, groupe sanguin, {BK,
+    ECG} si suspicion OAP hémorragique
+
+
+\danger BPCO $\centernot\implies$ hémoptysie
+
+*** Traitement
+$O_2$ + vasconstriction IV, protection voies aériennes (décubitus latéral,
+ventilation mécanique)
+
+Embolisation artérielle bronchique
+
+Chir si localisé, fonction respi OK et "à froid"
+
+** 202 : Épanchement pleural
+\label{sec:epanchement_pleural}
+
+*** Diagnostic
+Suspicion clinique :
+
+- douleur thoracique, dyspnée, toux sèche, hyperthermie
+- sd pleural liquidien (silence auscult, matité, $\emptyset$ transmission
+  corde vocales, souffle pleurétique)
+
+Signes de gravité : détresse respi, choc septique, choc hémorragique
+
+Confirmation imagerie
+
+- radio : opacité dense, homogène, non sytématisé, limité par ligne
+  concave (DD atélectasie : médiastin dévié vers l'opacité). \\
+  Cas difficiles : profil, sous pulmonaire, cloisonnés
+- échographie : cloisonné, différencie pleurésie et collapus, guide ponction
+- TDM en urgence si embolie pulmonaire ou hémothorax
+
+
+*** Causes
+\paragraph{Transsudats (protides < 25g/L)}
+
+- insuf. cardiaque G
+- cirrhose
+- sd néphrotique
+- atélectasie
+- embolie pulmonaire
+
+
+\paragraph{Exsudats (protides > 35 g/L)}\mbox{}\\
+\textit{Néoplasiques} 
+
+- métastatique : liquide sérohématique/rosé/citrin, cytodiagnostic +
+  biopsie (aveugle/vue) sauf si cancer connu
+- mésothéliome 
+  
+  - exposition amiante
+  - imagerie : épaississement pleural diffus, circonférentiel
+  - liquide citrin/sérohématique
+  - biopsie sous thorascopie++
+  
+
+
+\textit{Infectieux} 
+
+- parapneumoniques (=bactérien) 
+  
+  - non compliqués (liquide clair, pas de germe) : ATB
+  - compliqué : ATB + évacuation liquide
+  
+- virale
+- tuberculeuse : progressif, fièvre modérée, amaigrissement. Exsudat riche
+  en proténie. Biopsie++ (aveugle/vue)
+
+
+\textit{Autres}  :
+
+- embolie pulmonaire
+- bénigne liée à l'amiante (exclusion++)
+- post trauma, rupture oesophagienne, sous-diaphragme
+- systémique : lupus, polyarthrite rhumatoide
+
+
+*** Ponction
+Qui ? Majorité sauf si peu abondant et insuf cardiaque G (sauf si
+unilat/asymétrique ou douleur pleurale/fièvre ou traitement insuffisant)
+
+Quand ? Urgence si fébrile, hémothorax ou mauvaise tolérance
+
+Tout le liquide ? Si étiologique ou non cloisonné
+
+\paragraph{Biologie}
+1ère intention :
+
+- biochimie
+  
+  - transsudat si protide < 25g/L ou critère de Light\footnote{
+(LDH > 200 UI/L) ou (protides pleuraux/sérique > 0.5) ou (LDH
+pleuraux/sérique > 0.6)} faux
+  - exsudat si protide > 35g/L ou critère de Light vrais
+  
+- cytologie (cf tableau)
+- recherche germes pygènes, mycobactéries
+
+
+2eme intention :
+
+- trauma $\wedge$ hématocrite pleural/sanguin > 0.5 $\implies$ probable
+  hémothorax (urgence \danger)
+- amylase pleurale si pancréatique et sous-phrénique
+- si triglycéride > 1.1g/L $\implies$ chylothorax
+
+
+\begin{table}[htpb]
+  \centering
+  \caption{Épanchements pleuraux avec exsudats : étiologies}
+  \label{tab:label}
+  \begin{tabular}{lllll}
+    \toprule
+    & Cellules tumorales & Neutrophiles & Lymphocytes & Éosinophiles\\
+    \midrule
+    Néoplasique & Métastasique &  & Cancer & Cancer\\
+    & Mésothéliome &  & Lymphome & \\
+    & Hémopathies malignes &  &  & \\
+    \midrule
+    Infectieux &  & Parapneumonique & Tuberculose & Parasitose\\
+    \midrule
+    Autres &  & Embolie pulmonaire & Sarcoïdose & Hémothorax\\
+    &  & Pancréatite & Chylothorax & Pneumothorax\\
+    &  & Sous-phrénique & PR, lupus & Embolie pulmonaire\\
+    &  & Oesophage &  & Asbestosique bénigne\\
+    &  &  &  & Médicament\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+
+** 203 - Opacités et masses thoraciques%
+\label{sec:203_opacites_et_masses_thoraciques}
+
+
+- < 3mm : micronodules
+- $[3,30]$mm : nodules
+- > 30mm : masses
+
+
+*** Nodules
+Origine maligne probable si :
+
+- homme, > 50 ans, fumeur
+- carcinogènes professionnels, > 1cm (> 3cm ++)
+- contours spiculés, polylobés, irrégulier
+- attire structures proches
+- augmente de taille
+- pas de calcifications
+- fixe TED-FDG
+
+Certitude = histologie (ponction transpariétale à l'aiguille)
+
+\textbf{Tumeurs malignes}  
+
+- cancers bronchopulmonaires primitifs : > 50 ans, fumeur, souvent nodule
+  solitaire
+- secondaires (métastases) : opacités rondes régulières
+
+
+\textbf{Tumeurs bénignes} 
+
+- Hamartochondrome (freq++) : "pop-corn", pathognomonique
+- Tumeurs  carcinoïdes
+
+
+\textbf{Non tumorales}
+
+- infectieux 
+  
+  - abcès à pyogène (contexte aigü fébrile)
+  - bactérie filamenteuse crossance lente
+  - tuberculome ($\implies$ prélèvements)
+  - kytes hydatiques ("membrane flottante")
+  - aspergillome (opacité ronde + croissant gazeux)
+  
+- granumolatose avec polyangéite
+- nodules rhumatoïdes
+- atélectasies
+- masses pseudo-tumorale silicotiques (micronodules, confluents ?)
+- malformations artérioveineuses
+
+
+\paragraph{Examens}
+
+- TDM et TEP
+- Fibroscopie pronchique systématique
+- Ponction transpariétale sous TDM (sauf insuffisance respi)
+- Autres : thoracotomie, médiastinoscopie si ADP médiastinales fixant en TEP-FDG
+
+Prélevement si solide, > 8mm, hypermétabolique. Sinon surveillance TDM (sauf non solide et image résolutive à 6 semaines)
+
+*** Masses/tumeurs du médiastin
+Diagnostic : opacité avec limite externe nette, raccord pente douce, limite interne non
+visible, tonalité hydrique
+
+DD: intraparenchymateux, pariétal $\implies$ TMD
+
+\paragraph{Médiastin antérieur}
+
+- Supérieur : goître plongeant $\implies$ TMD : continuité glande thyroïde
+- Moyen : 
+  
+  - tumeurs thymiques : épithéliales (thymomes, carcinomes thymiques),
+    lymphomes thymiques, kystes, tumeurs bénignes
+  - Tumeurs germinales : bénignes, séminomateuses, non séminomateuses
+    (carcinomes embryonnaires, vitellines, choriocarcinomes)
+  
+- Inférieur : kystes pleuropéricardiques
+
+
+\paragraph{Médiastin moyen}
+
+- Tumoral : cancer bronchopulmonaires, lymphomes, LLC, cancers
+  extra-thoraciques
+- Non tumoral : sarcoïdose, tuberculose, silicose, infections
+  parenchymateuses chroniques, histoplasmose (Amérique du Nord)
+- Autres : insuf. cardiaque gauche
+
+
+\paragraph{Médiastin postérieur} "neurogènes"
+
+Diagnostic :
+
+- médiastin antérieur : 
+  
+  - $\alpha$-foetoprotéine (tumeurs vitellines), HCG\footnote{Hormone gonadotrophine chorionique} (choriocarcinomes)
+  - ponction transpariétale
+  - médiastinotomie
+  - chir si complète et peu mutilante
+  
+- médiastin moyen : médiastinoscopie ou ponction transbronchique
+- médiastin postérieur : 
+  
+  - ponction transpariétale, transoesophagienne
+  - chir si complète et peu mutilante
+  
+
+
+NB : urgence si jeune et suspicion de tumeur germinale non séminomateuses
+
+** 204 - Insuffisance respiratoire chronique
+\label{sec:org6d633b6}
+*** Mécanismes
+\label{sec:org47f478d}
+Hypoxémie
+
+- Inadéquation ventilation/perfusion :
+  
+  - effet shunt (mauvaise ventilation) => $O_2$ corrige
+  - shunt vrai (communication anat. ou non ventilé) => $O_2$ ne corrige
+  pas
+  
+- Hypoventilation alvéolaire : pure (commande, neuromusc) ou effet "espace mort"
+
+(mauvaise perfusion)
+
+- Atteinte de la surface d'échange
+
+Hypercapnie : hypoventilation alvéolaire (pompe ventilatoire/commande centrale
+ou effet espace mort)
+
+*** Conséquences
+\label{sec:orgf6b3986}
+Hypoxémie : Polyglobulie, rétention hydrosodée (fréquente), hypertension pulmonaire
+
+Hypercapnie : compensée par le rein
+
+*** Étiologies
+\label{sec:org5310651}
+Hypoxémie si PaO\(_{\text{2}}\) < 70mmHg (arbitraire). Voir table~\ref{tab:etio_irc}.
+\begin{table}
+\begin{center}
+  \begin{tabular}{llllll}
+    \toprule
+    TV ? & Obstructif & Restrictif & Restrictif & Mixte & Non\\
+         &            &  $\frac{T_{LCO}}{V_a}$ bas & $\frac{T_{LCO}}{V_a}$ normal & & \\
+    \midrule
+    Patho. & BPCO & Interstitielles & Sd obésité-hypoventil & DDB & HTP\\
+       & asthme &  & Atteinte cage thoracique & Muscoviscidose & \\
+       & bronchiolite &  & &  & \\
+    Mécanisme & $\frac{V_a}{Q}$ & Surf d'échange & Hypoventilation & $\frac{V_a}{Q}$ & Surf d'échange\\
+    Atteinte & échangeur & échangeur & pompe/central & échangeur & vasculaire\\
+    \bottomrule
+  \end{tabular}
+\end{center}
+\caption{Insuffisance respiratoire chronique : diagnostic simplifié (selon
+  EFR). $V_a$ ventilation alvéolaire, $Q$ débit sanguin, $T_{LCO}$ capacité de
+transfert du CO}
+\label{tab:etio_irc}
+\end{table}
+
+
+*** Diagnostic
+\label{sec:orgf8776e2}
+**** Symptômes
+\label{sec:org35a8cf3}
+IRC = dyspnée (sous-évaluée), neuropsy + patho initiale
+
+Physique : 
+
+- IRC : cyanose, insuf. cardiaque D (turgescence jugulaire, oedeme MI, reflux
+  hépato-jugulaire)
+- patho : 
+  
+  - obstructive : distension thoracique, dimin. bilat murmure vésicul
+  - restrictive : râle crépitant des bases, hippocratisme digital
+  
+
+
+**** Diagnostic
+\label{sec:org7599c0f}
+PaO\(_{\text{2}}\) < 70 mmHg (gaz du sang : hypercapnie)
+
+Étiologie :
+
+- EFR donne TVO (VEMS/CVF < 70% => BPCO), TVR (échangeur/pompe) ou
+mixte (DDB, mucov)
+-  Radio thorax
+- Autres : NFS (polyglobulie), ECG (dextrorotation, BDB droite, repolarisation),
+écho cardiaque systématique (éval. ventricule D, dépistage du G)
+
+
+*** Traitement
+\label{sec:org870a2d5}
+Cause, arrêt tabac, vaccins (grippe, pneumocoque), réhabilitation respi.
+
+Oxygénothérapie de longue durée : indiquée si 2 mesures à 2 semaines avec
+
+- obstructive = PaO\(_{\text{2}}\) < 55mmHG ou ( \(\in\) [55, 60] mmHG et hypoxie
+  tissulaire\footnote{Ht > 55%, HTP, insuf. ventricule D, SpO\(_{\text{2}}\) nocturne \(\le\) 88%})
+- restrictive = PaO\(_{\text{2}}\) < 60 mmHg
+
+Efficace si  IRC après BPCO, 15h/jour, $O_2$ gazeux ou liquide
+
+Ventilation long cours : IRC restrictive, la nuit.
+
+Chir rare (200/an)
+
+*** Pronostic
+\label{sec:org2ec66b4}
+Irréversible, risque = insuf. respi aigüe (surtout causée par insuf. respi. basse, dysfonction
+cardiaque G, EP)
+
+
+** 205 - BPCO\footnote{Bronchopneumopathie chronique obstructive}
+\label{sec:205-bpco}
+
+*** Définitions
+BPCO = {toux, dyspnée, expectorations, infections respi basses} récurrentes et
+TVO (VEMS/CVF < 0.7)
+\textbf{persistant}
+
+Exacerbation aigùe = aggravation \(\ge 2\) jours
+
+Inclus dans BPCO \textbf{si TVO} : 
+
+- bronchite chronique (toux productive quotidienne \(\ge 3\) mois/an et \(\ge 2\) ans),
+- emphysème (élargissement espaces aériens distaux + destructions parois
+alvéolaires) inclus dans BPCO
+
+
+\begin{table}[htbp]
+  \caption{Différences asthme-BPCO}
+  \centering
+  \begin{tabular}{ll}
+    \toprule
+    Asthme & BPCO\\
+    \midrule
+    Obstructive non réversible & Obstructive réversible\\
+    Jeune, atopique & Fumeur, > 40 ans\\
+    Survient \textasciitilde{}40 ans & Enfance\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Sévérité : 
+
+- obstruction : GOLD (stade 1 (VEMS $\ge 80\%$) à 4 (VEMS < 30%))
+- dyspnée : échelle MRC (0 (effort important) à 4 (habiller))
+- fréquences exacerbations ($\ge 2$/an = grave)
+
+
+Épidémio: en augmentation dans le monde. \\
+FR : {tabac++, aérocontaminants professionnels}, \(\alpha{}1\) antitrypsine
+
+Évolution : perte fonction respi, exacerbations, handicap respi, risque
+d'insuffisance respi, comorbidité CV = 1ere cause de mortalité\\
+Score BODE\footnote{Body mass index, Obstruction, Dispnea, Exercice} pour la prédiction.
+
+*** Diagnostic
+Signes fonctionnels : dyspnée++, toux, expectorations.\\
+Signes physiques (après apparition TVO) : \(\nearrow\) temps expiratoire,
+\(\searrow\) murmure vésiculaire, $\searrow$ bruits coeur, distension thoracique
+
+**** EFR
+
+- spirométrie : TVO (VEMS/CVF < 0.7) persistante après bronchodilateur
+- pléthysmographie (identifie distension pulmonaire)
+- $T_{LCO} < 70\%$ = pathologique
+- si VEMS < 50% ou $SpO_2< 90$% : gaz du sang, test d'exercice
+
+
+**** Autres
+(TDM), ECG si VEMS < 50%, NFS (polyglobulie, anémie), (dosage \(\alpha1\) antitrypsine)
+
+*** Traitement
+\begin{figure}[htpb]
+  \centering
+ \resizebox{0.5\linewidth}{!}{
+  \tikz \graph [
+  % Labels at the middle 
+  edge quotes mid,
+  % Needed for multi-lines
+  nodes={align=center},
+  sibling distance=4cm,
+  level distance=2cm,
+  edges={nodes={fill=white}}, 
+  layered layout]
+  {
+    Dyspnée/exacerbations -> {
+      BD longue durée[>"oui", draw]-> 
+      {
+        "2 BD longue durée" [draw, >"dyspnée"] -> "Cortico. inhalé\\+ 2 BD longue durée"[draw, >"exacerb"];
+        "Cortico. inhalé\\
+        + BD longue durée"[draw, >"exacerbation"]-> "Cortico. inhalé\\+ 2 BD longue durée"[draw,
+        >"insuffisant"]
+        -> "Réévaluation";
+        "2 BD longue durée" [draw] -> "Réévaluation"[>"dyspnée"];
+        ;
+      };
+      BD courte durée [>"non", draw];
+    }
+  };
+  }
+  \caption{Traitement BPCO}
+\end{figure}
+
+Arrêt tabac++, vaccins grippe et pneumocoques, réhabilitation respiratoire, oxygénothérapie, chirurgie possibles
+
+*** Exacerbations BPCO
+\label{subsec:ebpco}
+**** Diagnostic :
+
+- BPCO connu : \(\nearrow\) dyspnée, toux/expect.
+- sinon : cf détresse respi
+
+
+Déclenchants : majorité = infectieux mais souvent pas de facteur précis
+(\bact{influenzae}, \bact{pneumocoque}, \bact{catarrhalis})
+
+DD : PAC, dysfonction cardiaque gauche, embolie pulmonaires, pneumothorax, médicaments CI, trauma/chir thoracique, insuffisance cardiaque gauche aigüe.
+
+**** Explorations
+Imagerie thorax, ECG, NFS, CRP, iono, créat, gazométrie
+
+**** Traitement
+Bronchodilatateurs $\beta2$ agonistes courte-durée.\\
+ATB : majoration purulence : amox + acide clav si FR, sinon amox-acide
+clav/pristinamycine/macrolides\\
+Autres \faHospitalO : oxygénothérapie, kiné, HBPM, (assistance ventilatoire)
+
+** 206 - Pneumopathies infiltrantes diffuses
+*** Présentation
+Clinique : dyspnée d'effort prgorsessive.\\
+EFR : \gls{TVR} ( CPT < 80% et VEMS/CVL >
+70% ) et TLCO < 70%, hypoxémie, désaturation\\
+Radio : opacités parenchymateuse non systématisées bilatérales
+
+*** PID aigüe
+**** Étiologies
+Causes connues : lymphangite carcinomateuse, insuf. cardiaque gauche, médicamenteuse\\
+Causes inconnues : sarcoïdose, fibrose plumonaire idiopathique
+**** Démarche
+
+- Contexte (ATCD, ID, exposition)
+- ECG, BNP, echo cardiaque
+- LBA si possible
+- PEC thérapeutique (réa si détresse respi, \(O_2\), ATB probabiliste si fièvre, arrêt de médic. pneumotoxiques)
+
+
+*** PID subaigüe/chronique
+**** Démarches
+Interrogatoire++ : terrain (sarcoïdose=25-45 ans, \gls{FPI} si > 60 ans), tabac (histiocytose langerhansienne, \gls{DIP}), toxico, médic, ATCD radio, exposition
+
+Clinique : état général, signes de connectivite
+
+\begin{table}[htbp]
+  \caption{Biologie PID subaigüe}
+  \centering
+  \begin{tabular}{ll}
+    \toprule
+    Examen & Maladie\\
+    \midrule
+    NFS, CRP & Sd inflammatoire\\
+           & Hyperéosinophilie, lymphopénie\\
+    BNP & Insuf. cardiaque\\
+    Créat & Insuf. rénale\\
+    Précipitines sériques & Hypersensib. (si contexte)\\
+    CEA, calcémie, calciurie & Sarcoïdose\\
+    Facteur rhumatoïdes etc & Connectivites\\
+    ANCA & Vascularite\\
+    Séro VIH & Opportuniste\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+  \caption{LBA PID subaigüe}
+  \centering
+  \begin{tabular}{ll}
+    \toprule
+    Normal & 80\% macrophages\\
+           & < 15\% lymphocytes\\
+           & < 5\% PNN\\
+           & < 2\% PNE\\
+    \midrule
+    Alvéolite & Hypercellularité totale\\
+    Histiocytose langerhansienne & Macrophage\\
+    Sarcoïdose, PHS & Lymphocytaire\\
+    P. à éosinophiles & Éosinophilique\\
+    \gls{POC} & Panachées\\
+    Hémorragie alvéolaire & Rosé\\
+    Protéinose alvéolaire primitive & Laiteux\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Examens complémentaires :
+1. fibro et LBA (+ biopsie bronchique)
+2. soit biopsie pulmonaire chir (pas de diagnostic), soit biopsie
+  transbronchique et ADP médiastinales
+
+**** Oedème pulmonaire
+Mécanisme : Surcharge hémodynamique\\
+Clinique : HTA, coronaropathie, valvulopathie mitrale\\
+Diagnostic : ECG, BNP, écho coeur\\
+Imagerie : Péri-hilaire
+
+**** Tuberculose
+Mécanisme : BK\\
+Clinique : Contage, AEG, hémoptysie\\
+Diagnostic : Expectorations (ED, culture, biopsie transbronchique)\\
+Imagerie : 
+
+- pulmonaire = nodules, infiltrats, excavations
+- miliaire = micronodules diffus
+
+
+**** Médicaments
+Imagerie : condensations, verre dépoli, épanchement pleural
+
+**** Pneumopathies d'hypersensibilité
+Mécanisme : Ag organiques\\
+Clinique : 
+
+- aigüe : sd peudo-grippal quelques heurs
+- subaigüe : semaines/mois avec toux, fébricule, râles crépitants, squeaks
+- chronique : dyspnée, toux sèche
+
+Diagnostic : Sérologie, LBA\\
+Imagerie : Micronodules centrolobulaires flous, verre dépoli (lobes supérieurs)\\
+Traitement : éviction Ag
+
+**** Pneumoconioses
+Mécanisme : Amiante, silice\\
+Clinique : Exposition\\
+Imagerie : 
+
+- silicose : opacités micronodulaires diffuses \(\implies\) masses pseudotumorales. Peut donner un cancer bronchique
+- asbestose : opacités linéaires non septales des bases \(\parallel\) ou \(\bot\) plèvre, réticulations et rayons de miels comme FPI. Évolue vers insuf respi chronique.
+
+
+**** Sarcoïdose
+Mécanisme : Signes extra-respiratoires\\
+Diagnostic : anapath : extra-pulmonaire, biopsie éperons bronchiques et transbronchique. ADP médiastinales \\
+Imagerie : Nodules, micronodules (ditribution lymphatique), adénopathie, hyperdensités, distorsions bronchiques
+
+**** Fibrose pulmonaire idiopathique
+Clinique : Dyspnée d'effort progressive, toux sèche, hippocratisme digital, crépitants sec base\\
+EFR : TVR, diminution TLCO\\
+Imagerie : Réticulations, bronchectasies, rayons de miel. Domine sous-pleural et bases
+
+**** Connectivites
+Mécanisme : Dysimmunitaire\\
+Clinique : Extra-respi (polyarthrite rhumatoide, sclérodermie, lupus, vascularite)\\
+Diagnostic : Ac spécifiques\\
+Imagerie : Réticulations, hyperdensités, bronchectasies
+
+**** Pneumopathie interstitielle non spécifique
+Origine : connectivite, médicaments (idiopathique)\\
+Imagerie : verre dépoli, réticulations, bronchectasies (sauf extrême périphérie du poumon)
+
+**** Proliférations tumorales
+Lymphangite carcinomateuse : toux sèche, rebelle. \\
+Radio : épaississements nodulaires des septas intralobulaires.\\
+Diagnostic : biopsies des éperons\\
+Carcinome lépidique : verre dépoli. 
+
+
+** 207 - Sarcoidose
+Maladie : systémique, cause inconnue, hétérogène, ubiquitaire. Début 25-45ans
+dans 2/3\\
+Atteinte médiastino-pulmonaire 90%
+
+*** Expression
+\label{sec:org39048da}
+**** Pulmonaire
+\label{sec:org4ec1d7e}
+Toux (dyspnée)
+Radio : 4 stades
+
+- I : adénopathies hilaires bilatérales symétriques
+- II : + atteinte parenchyme (micronodulaire diffus, parties moyennes supérieures)
+- III : atteinte parenchyme isolée
+- IV : fibrose = opacités parenchymateuses rétractiles + ascension hiles, distorsion bronchovasc (sup et post)
+
+TDM : atteinte parenchyme = micronodule selon lymphatiques. Utile pour : formes atypiques ou détection précoce (fibrose, complications [greffe aspergillaire])\\
+EFR : sd restrictif, DLCO $\searrow$\\
+(Endoscopie bronchique : normal/muqueuse en "fond d'oeil".)\\
+Biopsie : {éperons, LBA} > {ponction ganglions médiastinaux, transbronchique} > médistanoscopie\\
+Formes atypiques : TVO, cavitaires, pseudonodulaires/alvéolaires
+
+**** Extra-pulmonaire
+\label{sec:org316c190}
+
+- Oeil : uvéite antérieure aigue (toujours cherche uvéite postérieure)
+- Peau : nodules cutanés, lupus pernio, érythème noueux
+- ADP
+- Foie
+- Moins fréquentes : nerveux (sd méningé, paires craniennes), ORL (obstruction
+  nasale,
+
+sd Mikulicz, sd Heerfordt), ostéo-articulaire (bi-arthrite cheville =
+spécfique++), 
+coeur (BAV, bloc branche droit), rein (\(\nearrow\) créatininémie)
+
+- Généraux : asthénie (pas de fièvre sauf sd de Löfgren)
+
+Sd de Löfgren = érythème noueux + ADP hilaires médiastinales (+ fièvre)
+**** Biologie
+\label{sec:orgbfe5d87}
+
+- Hypercalciurie
+- Lymphopénie CD4
+- Hypergammaglobulinémie
+- Enzyme de conversion de l'angiotensine sérique (ECA)
+
+*** Diagnostic
+\label{sec:org6670330}
+Clinique + radio + lésions granulomateuses tuberculoides sans nécrose caséeuse +
+élimination DD
+*** Évolution
+\label{sec:org707f9ea}
+< 2 ans : évolution favorable sans traitement.\\
+Chronique > 2 ans : attention au vital/fonctionnel \\
+Suivi : 3-6 mois\\
+Pronostic : 80% favorable sans traitement, 10% séquelles, 5% DC
+
+\begin{table}[htbp]
+  \caption{Pronostic de la sarcoidose}
+  \centering
+  \begin{tabular}{ll}
+    \toprule
+    Négatif & Positif\\
+    \midrule
+    > 40 ans & Érythème noueux\\
+    Chronicité & Forme aigüe\\
+    Stade III, IV & Stade 1 asymptomatique\\
+    Extra-respi grave & \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Atteintes :
+
+- pulmonaire : insuf. respir chronique, principace cause DC
+- extra-thoracique : attention fonctionnel/vital
+
+
+*** Traitement
+\label{sec:orgc05b9f6}
+Atteinte respi : pas de ttt si sd de Löfgren ou stade I asymptomatique\\
+
+- 1ère intention : Corticoïdes > 12 mois à 0.5mg/kg (décroissance par 6-12 semaines)
+- 2eme intention : hydroxychloroquine, méthotrexate, azathioprine
+- 3eme intention : cyclophsamide, anti-TNF-\(\alpha\)
+
+
+** 222 - Hypertension artérielle pulmonaire%
+\label{sec:hypertension_arterielle_pulmonaire}
+
+Circulation : (basse pression, faible résistante) $\implies$ forte résistance
+
+Critère : \gls{PAPm} $\ge 25$ mmHG et
+
+$\begin{cases}
+  \text{\gls{PAPO}} \le 15 & \text{mmHG si précapillaire} \\
+  \text{PAPO} > 15 & \text{mmHG si postcapillaire}
+\end{cases}$
+
+
+Classification internationale : 5 groupes
+1. hypertension artérielle pulmonaire (HTAP)\footnote{Idiopathique,
+    héritable, médicaments, maladie veino-occlusive, hémangiomatose capillaire
+    pulmonaire, HTP persistante du nouveu-né}: pré-capillaire
+1. \textbf{cardiopathie gauche}  : post-capillaire (fréq+++)
+1. HTP maladie \textbf{respiratoire chronique}  : pré-capillaire (freq++)
+1. HTP post-embolique chronique : pré-capillaire
+1. HTP multi-factorielles : pré-capillaire
+
+\paragraph{Pronostic}
+6 cas/million (idiopathique), femme.
+
+Survie avec ttt : 58% à 3 ans
+
+*** Diagnostic
+Découverte : dyspnée, dépistage
+
+Interrogatoire : ATCD, anorexigènes, toxiques, maladie (sclérodermie : sd de
+Raynaud, dysphagie, dyspepsie)
+
+
+Détection :
+
+- fonctionnel : dyspnée d'effort+++ progressive (lipothymie à l'effort,
+  syncope, asthénie, douleurs angineuses, palpitations, hémoptysies)
+- physique : 
+  
+  - HTP (signe de Carvallo\footnote{Souffle holosystolique
+    d'insuf. tricuspid majoré à l'inspiration}, éclat B2, souffle diastolytique
+  d'insuf pulmonaire)
+  - insuf cardiaque D (tachy, galop, turgescence jugulaire, reflux
+  hépato-jugulaire, HMG, OMI, anasarque)
+  
+- imagerie thorax : dilatation artères pulmonaires, élargissement coeur
+  D. RX normale possible
+- ECG : hypertrophie D, trouble rythme
+
+Y penser si clinique normale !
+
+\textit{Écho cardiaque transthoracique} = non invasif de référence. \\
+Diagnostig par \textit{cathétérisme cardiaque D} avec \textbf{PAPm $\ge 25$ mmHg}
+
+\paragraph{Démarche}
+Si écho cardiaque compatible avec HTP :
+
+- Cardiopathies G, maladies respi + exams pour groupe 2 et 3. Si confirmé
+  : \faHandStopO
+- Sinon regarder signes thrombo-embolie chronique (scinti, angioscan) : Si
+  groupe 4, \faHandStopO
+- Sinon confirmer HTP précapillaire 
+- Si confirmée, tester pour groupe 1 (connectivites, médicaments, VIH,
+  cardiopathie congénitale, HT portale, schistosomiase) ou groupe 5
+
+
+
+*** Enfant
+
+Augmentation du débit ou des résistances
+
+\paragraph{Clinique}
+Nouveau-né : cyanose réfractaire à l'\(O_2\), détresse respi/circ \thus échocardio en
+urgence \danger
+
+Enfant : signes tardifs : dyspnée d'effort, syncope, fatigue
+\thus dépistage si cardiopathie congénitale, patho. respi. chronique, maladie de
+systèmes, ATCD familiaux
+
+\paragraph{Examens}
+Radio thorax, ECG aspécifiques.
+
+Échocardio : diagnosic (+ cherche cardioapathie), confirmé par cathétérisme 
+
+Scanner (parenchyme), écho hépatiques (shunt porto-cave)
+
+
+
+** 224 - Embolie pulmonaire et thrombose veineuse profonde
+\label{sec:224_embolie_pulmonaire_et_thrombose_veineuse_profonde}
+\gls{MTEV} = {\gls{EP}, \gls{TVP}}
+
+Maladie fréquente (1 cas /10 000 si < 40 ans, 1/100 si > 75 ans) et grave.
+3eme cause de DC en france.
+
+TVP : obstruction thrombotique d'un tronc veineux profond. EP : idem mais
+artères pulmonaires ou leurs branches (secondaires TVP à 70%)
+
+\paragraph{Physiopatho} stase veineuse, lésions pariétales, anomalies de l'hémostase \thus
+obstruction/lyse. Si migre dans les artères pulmonaires : symptômes si
+obstruction à 30-50% \thus anomalie hémodynamique \thus insuf respi
+
+\paragraph{Évolution}
+TVP distales asymptomatique (postop) : 20% deviennent proximales\\
+TVP distales symptomatique : récidive (9% si ttt anticoagulant)\\
+TVP proximal symptomatique : risque important !\\
+EP : TVP + 3/7 jours, mortelle dans l'heure à 10%
+
+Facteurs de risque :
+
+- acquis : majeurs = chir < 3mois, trauma MI\footnote{Membres inférieurs},
+  \faHospitalO{} aigü, cancer en cours  ttt, sd antiphospholipide, sd
+  néphrotique
+- constit : rare = déficit (antithrombine, prot. C, S), fréq = (mutation {Leiden,
+    prothrombine}, facteur VIII > 150%)
+
+Complications : DC, récidive (mortelle ou non), séquelle (HTP thrombo-embolique
+chronique si EP, sd post-phlébite si TVP)
+
+Risque de récidive dépend de la clinique : élevé si (non provoqué par facteur
+majeur ou modéré) ou (\og facteur persistant)
+
+Conséquence :
+
+- hémodynamique : $\nearrow$ pression artérielle pulmonaire, dilatation
+  VD\footnote{Ventricule droit}, compression VG
+- respiratoire : hypoxémie (effet espace mort (non perfusé) $\implies$ effet shunt
+  (ventil/perfusion diminué))
+
+
+*** Diagnostic de l'embolie pulmonaire
+
+\paragraph{Clinique} pas spécifique : dyspnée, douleur thoracique, syncope,
+crachats hémoptoïques, asymptomatique
+
+Radio thoracique, ECG : élimine les DD
+
+Gaz du sang : hypoxie-hypocapnie
+
+\thus score probablitié (Genève, Wells)
+
+\begin{figure}[htpb]
+  \centering
+  \resizebox{0.3\linewidth}{!}{
+    \tikz \graph [
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    level distance=2cm,
+    sibling distance=3cm,
+    edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      "Proba. clinique" -> {
+        "D-dimères" [>"faible", draw] -> {
+          "Pas de ttt" [>"négatif"];
+          "\texttt{\$examen}" [>"positif", draw];
+        };
+        "\texttt{\$examen}" [>"forte", draw] -> {
+          Ttt [>"positif"];
+        };
+      };
+    };
+  }
+  \caption{Diagnostic général pour l'EP, TVP}
+  \label{fig:ep-diag}
+\end{figure}
+
+
+\paragraph{Examens}
+Voir la figure~\ref{fig:ep-diag} avec \texttt{examen} = angioscanner.
+
+D-dimère positifs = $\max(\text{âge}, 50) \times 10 \mu{}$g/L
+
+CI à l'angioscan : insuf. rénale sévère (< 30ml/min) $\implies$ scintigraphie
+
+Si angioscan ou scintigraphie négatif : pas d'EP !
+
+\begin{tcolorbox}
+\danger{} si EP grave (état de choc) : angioscan immédiatement ou ETT en
+attendant.
+
+\skull{} Thrombolyse/embolectomie après écho si pas d'accès à l'angioscan
+\end{tcolorbox}
+
+Sur l'écho, chercher dilatation cavité D, HTP, septum paradoxal
+
+\textit{Si grossesse}  : D-dimères $\implies$ écho. veineuse $\implies$ angioscanner
+(prévenir le pédiatre \skull)
+
+\paragraph{Évolution} favorable. Complications : choc cardiogénique réfractaire
+(DC), rédicive, HTAP chronique post-embolique (rare mais grave)
+
+*** Diagnostic de TVP
+\paragraph{Clinique} = orientation\\
+Douleur du MI, oedème unilatéral, signes inflammatoires, dilatation veines
+superficielles ou asymptomatique
+
+\textit{DD}  : {traumatisme, claquage musc}, kyste synovial, {SPT, insuf veineuse
+primaire}, {sciatique, compression extrinsèque}, {érysipèle, lymphangite,
+cellulite}, lymphoedeme, insuf cardiaque droite/rénale/hépatique
+
+Score de probablitié clinique : Wells (faible/interm/forte)
+
+\paragraph{Diagnostic}
+Voir la figure~\ref{fig:ep-diag} avec \texttt{examen} = échographie veineuse
+des MI
+
+\paragraph{Étiologies}
+
+  - FR transitoire (chir, fracture < 3 mois, immobilisation > 3 j) ? Sinon, "non
+provoquée"
+- Recherche de thrombophilie si
+  
+  - 1er épisode :  (non provoqué < 60 ans) ou (femme âge procrééer)
+  - ou récidive : (MTEV proximale) ou (TVP distale non provoquée)
+  
+  \thus 1ere intention : \gls{AT}, prot. C et S, mutation G20210A,
+  homocysténiméie, Ac antiphospholipides
+- Recherche cancer : > 40 ans ou bilan thrombophilie négatif
+
+
+Formes particulières :
+
+  - thromboses veineuse superficielles : (sur trajet saphène, douloureux,
+    rouge, inflammatoire, cordon induré \thus écho-doppler
+  - TVP pelvienne
+  - thrombose veine cave inférieure
+  - phlébite bleue : très rare mais grave
+
+
+Si grossesse : bilan thrombophilie si ATCD familaux/personnels MTEV
+
+Si cancer : HBPM long cours
+
+\paragraph{Évolution} : favorable si bien conduit mais récidive toujours
+possible. Complications : 
+
+  - SPT : lourdeur de jambes, oedeme de cheville, dilat veineuses
+    superficielles, troubles trophiques sans ulcère, ulcères sus-malléolaires
+  - EP
+
+
+
+
+*** Traitement (TVP + EP)
+\paragraph{Principes}
+Urgence \skull $\implies$ anticoagulant
+
+CI : coagulopathie sévère, hémorragie intracrânienne spontanée, hémorragie
+active difficilement contrôlable, chir récente, (thrombopénie à l'héparine)
+
+\paragraph{Types de traitement}\mbox{}\\
+Option 1 : Héparines + relais AVK dès injection IV
+
+- HBPM, fondaparinux > HNF, sauf si IR sévère (< 30ml/min)
+- arrêt si 5 jours d'AVK et IV (ensemble) $\wedge$ INR $\in [2,3]$ à 24h
+
+Option 2 : Anticoagulants oraux directs : rivaroxaban, apixaban (France)
+
+- rapide, demi-vie courte
+- facteur X
+- CI : IR sévère, grossesse, interaction médic (cytochrome 3A4 ou
+  P-glycoprroténie)
+
+Éucation thérapeutique\\
+Autres :
+
+- filtre cave (si CI absolu aux anti-coagulant ou EP récidivant)
+- fibrinolyse (si EP + choc, sauf si hémorragie active,
+  AIC\footnote{Accident ischémique cérébral}< 2 mois,
+  hémorragie intracrânienne)
+- embolectomie (très rare)
+- contention veineuse (sauf si EP sans TVP)
+- lever +1h
+
+
+\paragraph{Stratégie}
+Score sPESI = \texttt{90 100 110 C C}\footnote{sat < 90%, PAS < 100 mmHg, FC >
+110/min, Cancer, insuf Cardiaque chronique}:
+
+Risque faible (sPESI = 0) : \faHospitalO{} courte < 48h, anticoagulation\\
+Risque intermédiaire (sPESI > 0)
+
+- dysfonction VD ou élévation biomarqueurs\footnote{BNP, NT-pro-BNP,
+    troponine} : \faHospitalO{}
+  médecine, anticoagulation
+- dysfonction VD $\wedge$ élévation biomarqueurs : urgence \danger{}
+  $\implies$ USI
+  
+  - $O_2$, scope
+  - anticoag : HNF/HBPM puis AVK/AOP à 48-72h\\
+  (trombolyse si choc)
+    
+
+
+Haut risque (choc : PAS < 90mmHG ou -40mmHg) : urgence \skull $\implies$ réa
+
+- $O_2$ (ventilation méca.), scope
+- anticoag HNF (!)
+- thrombolyse avec arrêt HNF tant que TCA > 2x témoin
+- (embolectomie)
+
+
+\paragraph{Durée}
+3 mois si 1ere EP/TVP provoqué par facteur majeur transitoire ou risque
+hémorragique élevée. 6 mois ou plus sinon
+
+\paragraph{Étiologie}
+Chercher cancer occulte dans tous les cas (clinique, radio poumon, NFS VS,
+dépistage globux)
+
+Bilan coag : {antithrombine, prot C, S}, mutation {Leiden, prothrombine}, sd
+antiphospholipides
+
+\paragraph{Prophylaxie}
+
+- Post-op : (chir et > 40 ans) ou (chir hanche/genou/caricinologique, anomalie
+  coag, (> 40 ans et ATCD MTEV))
+- polytrauma ou ({rhumato, inflammatoire intestin, infectin} + 1 FR)
+
+
+
+\paragraph{Cas particuliers}
+
+  - 
+TVP distale : symptomatique : anticoagulement 6 semaines seulement si premier épisode. Dans tous les cas,
+compression $\ge 2$ ans
+- \gls{TVS} : \textbf{pas} d'AINS, antiocoagulants en curatif, chirurgie
+- cancer : HBPM, arrêt si plaquettes < 50g/L
+
+Prévention : 
+
+  - risque modéré : HBPM/HNF/fondaparinux, compression
+  - risque élevé : idem sans HNF
+
+
+Nouveau anticoagulant oraux (rivaroxaban) :
+
+  - prévention chir hanche-genou
+  - curatif TVP, EP
+  - pas si insuf rénale sévère ou insuf hépatique
+  - pas de surveillance bio
+
+
+** 228 - Douleur thoracique aigüe et chronique
+\label{sec:228_douleur_thoracique_aigue_et_chronique}
+
+*** Signes de gravité
+
+- Respi : cyanose, tachypnée, lutte avec tirage, balancement thoraco-abdominal
+- CV : pâleur, tachycardie, hypotension, choc (marbrures, extrémités
+  froides)
+- neuro : lipothymie/syncope, agitation/trble vigilance, général (sudation)
+
+
+\danger arrêt cardio-respi ! Y penser si bradypnée, (bradycardie et choc et troubles vigilance)
+
+*** Examens
+Fréquence respi, $SpO_2$, radio thorax, ECG.
+Si {brady, tachy}pnée ou $SpO_2 < 95\%$, gaz du sang
+
+*** Urgences vitales
+Cf table~\ref{tab:urgences_douleur_thoraciques}
+
+  \begin{table}
+    \centering
+    \begin{tabular}{ll}
+      \toprule
+      Urgence & Orientation\\
+      \midrule
+      Syndrome coronaire aigü (fréquent++ 1/3) & ECG + troponines\\
+      Embolie pulmonaire (fréquent) & Suspicion si douleur thorax, pas d'anomalie ascult\\
+              & RX thorax "normale" \textit{surtout}  si hypoxémie + FR\\
+              & Dyspnée ou douleur thoracique aigüe chez TVP = EP\\
+      dissection aortique (exceptionnelle) & Échocardio + angioscanner\\
+      Tamponnade (peu fréq) & suspicion (hypotension réfractaire, insuf. cardiaque D
+                              aigüe,\\
+              & microvoltage + alternance ECG) $\implies$ echo cardiaque\\
+      Pneumothorax & ATCD (!), radio thorax \\
+      pneumomédiastin (rare) & scanner\\
+      \bottomrule
+    \end{tabular}
+    \caption{Urgences vitales pour douleur thoraciques}
+    \label{tab:urgences_douleur_thoraciques}
+  \end{table}
+
+- Embolie pulmonaire (fréquent) : suspicion si douleur thorax, pas
+  d'anomalie ascult, RX thorax "normale" \textit{surtout}  si hypoxémie +
+  facteurs de risque\\
+  Dyspnée ou douleur thoracique aigüe chez TVP = EP
+- dissection aortique (exceptionnelle) : échocardio + angioscanner
+- Tamponnade (peu fréq) : suspicion (hypotension réfractaire, insuf.
+  cardiaque D aigüe, microvoltage + alternance ECG) $\implies$ echo cardiaque
+- Pneumothorax : ATCD (!), radio thorax \\
+  pneumomédiastin (rare) : scanner
+
+
+*** Non urgent
+Rythmées par respiration :
+
+- post-traumatique
+- pneumonie infectieuses : radio thorax
+- épanchement pleural (douleur latéral-base, majorée inspiration, toux)
+- infarctus pulmonaire (douleur basithoracique, faible hémoptysie)
+- trachéobronchite aigüe
+- musculosquelettique, nerfs : tumeurs costales, lésions vertèbres,
+  névralgies cervicobrachiales
+
+Non rythmées :
+
+- angor d'effort stable (calmée 2-5min post-effort)
+- péricardite (viral si aigü, tuberculose/néoplasie sinon)
+- cocaïne (fréquente) : SCA, myopéricardite,pneumothorax
+- zona thoracique (brûlures, hyperesthésie 24h avant)
+- digestives : reflux gastro-oesophagen, spasmes oesophagiens. Exclure SCA
+  \skull
+- psychogènes
+
+
+** 306 - Tumeurs du poumon
+\label{sec:306_tumeurs_du_poumon}
+
+*** Épidémiologie, étiologies
+1ere cause de mortalité par cancer en France (\male : constante, \female
+$\nearrow$)
+
+Tabac : 90% (âge de début et durée) pour actif, 25% passif
+
+Professionel : 15%
+
+\paragraph{Histologie}
+
+- "Non à petites cellules" (CBNPC) (80%) : adénocarcinomes (périphérie),
+  carcinomes épidermoïdes (proximal), indifférenciés à grandes cellules
+- neuro-endocrine "à petites cellules" (CBPC) (proximal, médiastin)
+
+
+*** Manifestations
+\textbf{Y penser si (AEG et tabagique) ou (symptôme fonctionnel respiratoire
+  chez tabagique > 40A)}
+
+\textit{Respiratoires}  : toux (souvent révélatrice, sèche, quinteuse), hémoptysie (<
+10%), bronchorrée (propre), dyspnée, pneumonie/bronchite (\danger{} si récidive
+dans même territoire), douleur thoracique 
+
+\textit{Locorégionales}  : pleurésies, dysphonies, sd cave supérieur, douleurs thoraciques
+(fixes, tenaces), sd de Pancoast-Tobias\footnote{Névralgie cervicobrachiale avec
+  douleurs radiculaire C8-D1, sd Claude-Bernard-horner}, paralysie phrénique
+
+\textit{Extrathoracique}  : thromboses inexpliquées (y penser !), métastase (SNC,
+foie, os, surrénales)
+
+\textit{Sd paranéoplasiques} (à distance, réapparition $\implies$ rechute) :
+hippocratisme digital, hypercalcémie, hyponatrémie, sd de Cushing, neurologique
+(pseudomyasthénie de Lamert Eaton, neuropathies périph, encéphalopathies)
+
+*** Imagerie
+Initial = radio thorax chez fumeur > 40 ans
+\paragraph{Radiothorax}
+
+- projection (juxta-)hilaires
+- atélectasies
+- opacités arrondies intraparenchymateuses
+- cavitaires néoplasiques
+
+% Normal $\centernot\implies$ pas de cancer
+
+\paragraph{TDM injection}
+Stade N0 sans adénopathie, N1 si hilaire, N2 si médiastin homolatéral, N3 si médiastin
+controlatéral
+
+\paragraph{TEP au 18-FDG}
+Pas dans le cerveau !
+
+Faux positifs : ganglions inflammatoires, infectieux
+
+Faux négatifs : < 1 cm, non solide (verre dépoli)
+
+*** Diagnostic histologique
+
+- lésion centrale : fibroscopie bronchique
+- périphérique : ponction transpariétale
+- entre les 2 : fibro ou ponction ou thoracotomie
+
+Chercher mutations EGFR, réarrangements ALK, ROS1
+
+*** Bilan préthérapeutique
+\textit{Extension}  : T(tumeur) = locale, N (node) = ganglionnaire, M
+(métastase) = à distance. \\
+si M : TDM abdo, IRM cérébrale, TEP-TDM
+
+État général (Performance Status de 0 à 4), nutritionnel (-5% en 1 mois ou
+-10% en 6 mois = \frownie{})
+
+\textit{Cardiorespiratoire} : ECG, écho cardio, épreuve d'effort, doppler artériel des MI/cou,
+coronarographie.\\
+Règle : 1 lobe = -25% de VEMS. Opération ssi VEMS post-op > 30%
+*** Traitement
+\paragraph{CBPNC}
+
+- localisé (stade I, II) : local (lobectomie ou radiothérapie)
+- localement avancé (stade III) : systémique (chimio) + local (radio ou
+  chir)
+- disséminé (stade IV) : systémique = 
+#+BEGIN_EXPORT latex
+$\left \{
+  \begin{array}{lr}
+    \text{\gls{ITK} si altération moléculaire ciblable} & \text{Médiane > 2 ans}\\
+    \text{chimio IV et 3e génération sinon} & \text{Médiane 12 mois}\\
+  \end{array}
+\right.$
+#+END_EXPORT
+\paragraph{CBPC\footnote{Chimiosensible rechutes fréquentes et rapides}}
+Pas de chir !
+#+BEGIN_EXPORT latex
+$
+\left \{
+  \begin{array}{l}
+    \text{radio + chimio (+ irradiation encéphale) si limitée}\\
+    \text{chimio sinon}
+  \end{array}
+\right.
+$
+#+END_EXPORT
+\paragraph{Symptomatique}
+\textit{Douleur}  : Antalgiques, radiothérapie, chir, AINS, vertébroplastie
+
+\textit{Dyspnée}  : lymphangite carcinomateuses (difficile), obstruction bronchique
+(bronchoscopie), pleurésie exsudative (pleuroscopie), sd cave supérieur
+(anticoag, corticoïdes)
+
+\paragraph{Plan cancer}
+Réunion de concertation pluridisciplinaire, consultation d'annonce, plan
+personnalisé de soin
+\paragraph{Suivi}
+CBNPC : arrêt tabac, TDM 2-3 mois, clinique, bio (rein, NFS, hypercalcémie,
+hyopnatrémie)
+
+CBPC : médiane de survie = 16-20 mois si limitée, 8-12 mois si métastatique
+*** Cancers secondaires
+Clinique : pauvre (dyspnée, toux, douleur thoracique, généraux), chercher extension ganglionnaire
+
+Imagerie : 
+
+- lâcher de ballons ou miliaire
+- épanchement pleural
+- interstitiel (lymphangite carcinomateuses)
+
+
+Diagnostic : clinique, 
+
+- inconnu : chercher accessibles à ttt spécifique, TEP. Sinon :
+  
+  - épidermoïde, adénocarcinome
+  - sinon : \female{} = {gynéco, mammo}, \male{} = {PSA, TR, écho prostate}
+  
+- connu : radio peut suffir
+- ancien : métastases 10 ans plus tard possibles
+
+
+** 333 - Oedème de Quincke et anaphylaxie
+\label{sec:333_oedeme_de_quincke_et_anaphylaxie}
+
+*** Définition, épidémiologie
+HS systémique immédiate sévère. 2 types :
+
+- allergique : production IgE spécifiques. Libération de médiateurs par
+  mastocytes et basophiles $\implies$ vasodilatation, bronchoconstriction
+- non-allergique : pas d'exposition préalable, moins sévère 
+
+Déf : symptômes CV, respi, cutané/digestif mettant en
+jeu le pronostic vital immédiatement après contact
+
+\paragraph{Épidémiologie}
+35 DC (alimentaire), 40 DC (piqûre) / an\\
+Agents :
+
+- aliments (90% enfant) : arachide++, protéine oeuf/lait, fruits exotiques
+- médicaments (15-20%)
+- venin hyménoptères (15-20%)
+- autres : latex, effort
+
+
+*** Clinique
+Délai < 1h (5min si médic. IV, 15 si piqûre, 30 si alimentaire).
+Manifestations :
+
+- CV : PAS < 100mmFg (ou -30%), tachycardie, pâleur, hypotonie, malaise,
+  perte connaissance, trouble rythme/conduction, ischémie myocardique
+- respi : de la toux à l'asthme (mortalité $\nearrow$ si asthme mal
+  contrôlé)
+- cutanées, muqueuses : prurit, rash cutané érythémateux, urticaire et
+  surtout 
+  
+  - angioedeme : gonflement mal limité ferme, non érythémateux, sans
+    prurit
+  - oedème de Quincke : angioedeme larynx et cou : gêne respi haute
+    (dysphonie++, dysphagie++). \\
+    Clinique : gonflement langue, luette, paupière lèvre ou face\\
+    Possiblement létal \skull
+  
+- digestives
+
+\textbf{Hautement probable}  si 
+
+- gêne respi haute ou asthme ou choc
+  mettent en jeu le pronostic vital
+- cutanéomuqueux
+- début brutal, progression rapide
+
+Sévérité
+I. cutanéomuqeux généralisé
+II. multiviscérale modérée
+III. multiviscérale sévère
+IV. arrêt respiratoire
+V. DC
+
+
+\paragraph{Diagnostic}
+Clinique + contexte.
+
+Doser systématiquement tryptase sérique (confirmation) : H+0, H+1, H+24
+
+Étiologie : interrogatoire, {prick-tests, IDR}, dosage IgE
+
+DD : 
+
+- choc anaphylactique : choc {vagal, septique, cardiogénique}, hypoglycémie, mastocytose
+- Oedeme de Quincke : sd cave sup, érysipèle du visage, angi-eodeme à
+  bradykinine, inhalation de corps étranger (toujours y penser !!)
+
+
+*** Traitement
+\paragraph{Urgence}
+Adrénaline : 0.01mg/kg (< 0.5mg) adulte à \faHospitalO{} ou  0.3mg
+auto-injection $\rightarrow$ répéter /5 min jusque stabilisation\\
+Voie IM (pas de SC ou d'IV \danger{})
+
+Remplissage vasc : 50-100mL adulte
+
+$O_2$, libérer voie aériennes, bronchodilatateurs (courte durée)
+
+Glucagon si adrénaline ne fonctionne pas. 
+
+\paragraph{Hors urgence}
+Anithistaminique, corticoïdes, arrêt agent.
+
+NB : alerter, allongé jambes relevées (pas vertical \danger{} \skull), PLS si
+inconscient
+
+\paragraph{Préventif}
+Trousse avec adrénaline si (absolument) :
+
+- anaphylaxie antérieure (aliment, insecte ou latex), induite par l'effort
+  ou idiopathique
+- allergie alimentaire et asthme persistant modéré non contrôlé
+- allergie hyménoptères avec réaction systémique antérieure (adulte) ou
+  plus sévère que cutanéomuqueux (enfant)
+
+
+** 354 - Corps étranger des voies aériennes
+\label{sec:354_corps_etranger_des_voies_aeriennes}
+
+Pics = 
+
+- < 3 ans : graines d'oléagineux avec symétrie G-D
+- âgé si troubles déglutition, mauvaise dentition. 2 tableaux : asphyxie
+  aigüe (viande) ou pneumonie à répétition/suppuration bronchique
+- rarement chez l'adulte/ado : trauma facial (dents), bricolage, trouble
+  de conscience. Plutôt à droite
+
+
+*** Diagnostic
+\paragraph{Clinique et radio}
+Dans les heures post-inhalation :
+
+- CE mobile (sd de pénétration) : toux quinteuse, suffocation avec tirage,
+  cornage, cyanose. Résolutif en qq secondes
+- soit CE expulsé (pétéchies visage/tronc ou bouche/conjonctive)
+- plus rarement enclavement 
+  
+  - proximal (enfant) : diminution murmure vésiculaire, wheezing
+  - distal (adulte) : asymptomatique
+  - exceptionnellement : oropharynx, larynx, lumière trachéale
+  
+
+Radio : le plus souvent normale. Sinon : atélectasie, hyperclarté $\nearrow$
+expiration
+
+Mois/années post-inhalation : à évoquer si respi chronique/récidivante ne
+répondant pas au tt ou anomalies radio persistantes dans même territoire
+
+\paragraph{DD}
+(sub)aigü : 
+
+- détresse respi aigüe à début brutal, tirage, cornage : épiglottite aigüe
+  (fièvre, modif voix, hypersaliv)
+- infection respi basse : PAC, bronchite sifflante (< 3 ans)
+
+Chronique/récidive :
+
+- trouble ventilation persistant : tumeur bronchique obstructive, sténose
+  bronchique
+- infection respi même territoire : tumeur bronchique obstructive, foyer
+  bronchectasies
+
+
+*** CAT
+\paragraph{Asphyxie aigüe}
+Toux ou Heimlich (si conscient) ou réanimation. Si < 2 ans, tapes dos puis
+pressions sternum.
+\paragraph{Sd pénétration non régressif}
+Supposer que CE toujours présent !! (sauf confirmation entourage). 
+
+Clinique : dimination unilat murmure, wheezing, persistance {toux, dyspnée,
+  cornage, tirage}
+
+RX  : piégage (expiration) $\wedge$ diminution unilatérale murmure $\implies$ CE
+endobronchique (90%)
+
+\paragraph{Extraction}
+Bronchoscopie rigide (ou souple). Chez l'enfant, centre spécialisé !
+
+** 354 - Détresse respiratoire aigüe
+\label{sec:354_detresse_respiratoire_aigue}
+
+Définition : Inadéquation charge - capacité de l'appareil respiratoire
+
+*** Dianostic
+Signes de luttes
+
+- polypnée superficielle
+- recrutemente muscles (scalènes $\wedge$ intercostaux), abdominaux,
+  dilatateurs des voies aériennes supérieures (très petit enfant)
+
+Signes de faillite
+
+- respi abdo paradoxale \skull{} défaillance court terme
+- cyanose (hypoxémie profonde) $\implies$ $O_2$ ASAP
+- neuro : astérixis, altérations comportement/vigilance. Glasgow < 9
+  $\implies$ assitance ventilatoire
+
+Appareil circulatoire
+
+- coeur pulmonaire aigu\footnote{Turgescence jugulaire, reflux
+    hépato-jugulaire, hépatomégalie douleureuse, signe de Harzer}
+- pouls paradoxal
+- hypercapnie : {céphalées, hypervasc des conjonctives}, {tremblements
+    sueurs, tachy, hypotension}
+
+État de choc 
+
+- peau froide, marbrures, $\nearrow$ temps recoloration cutanée
+- PAs < 90 mmHg ou -50mmHg
+- tachy > 120min, FR > 25-30/min
+- oligurie
+- confusion, altération vigilance
+
+
+*** PEC
+Surveillance, $O_2$, voie veineuse gros calibre, assistance ventilatoire,
+ventilation (non)invasive
+
+Pour l'étiologie : radiothorax, ECG, prélèvement (gaz du sang, NFS, iono, urée,
+créat, acide lactique)
+
+*** Diagnostic
+
+\begin{figure}[htpb]
+  \centering
+  \resizebox{0.8\linewidth}{!}{
+    \tikz \graph [
+    % Labels at the middle 
+    edge quotes mid,
+    % Needed for multi-lines
+    nodes={align=center},
+    sibling distance=3cm,
+    edges={nodes={fill=white}}, 
+    layered layout]
+    {
+      "Obstruction VAS ?" ->["non"]  Radiothorax -> {
+        Anormale -> {
+          Atélectasies [draw];
+          "Anomalies\\pleurales" ->
+          "Épanchement\\
+          pleural compressif\\
+          Pneumothorax" [draw];
+          "Opacités\\parenchyme" -> 
+          "Pneumonie infect\\
+          OAP\\
+          Patho. infiltrative" [draw];
+        };
+        Normale -> {
+          "Asthme\\
+          aigu grave\\
+          EP" [draw];
+          "BPCO\\
+          Anomalie paroi\\
+          Neuromusc" [draw];
+        }
+      };
+    };
+  }
+  \caption{Diagnostic détresse respiratoire aigǜe}
+  \label{fig:diag_detresse_respi}
+\end{figure}
+
+Précision de la figure~\ref{fig:diag_detresse_respi}
+
+1. \textit{Obstruction}  : corps étranger, laryngite, oedème de Quincke, sténose
+  trachée, tumeur laryngées
+1. \textit{Anomalie radio} Priorité = pneumonie inf, OAP,
+  PTX\footnote{Pneumothorax} sous
+  tension\\
+  Indication =
+  
+  - OAP : {ATCD = insuf. cardiaque}, {expectoration mousseuse, orthopnée},
+    {opacités bilat diffuses, périhilaire}
+  - Pneumonie infectieuse : {début brutal}, {expector. purulente}, {sd
+      inflammatoire}
+  
+1. \textit{Radio normale} de novo = EP, PTX compressif, asthme. Si
+  chronique, dans l'ordre BPCO, paroi thoracique (obésité, déformation),
+  neuromusc\\
+  Orientation :
+  
+  - EP : fébricule, turgescence jugul, radio normale
+  - Pneumothorax : {longiligne}, {pas de vibration vocale}, murmure vésicul,
+    {hyperclarté}
+  - asthme : ATDS, toux purulente, râles ou silence
+
+*** SDRA
+Détresse respi < 7 jours sans défaillance cardiaque, sans surcharge volémique
+avec opacités radio bilat diffuses
+
+Mécanisme = oedème lésionnel.
+
+Étiologies :
+
+- exogène = infectieuse, toxique
+- endogènes : réponse inflammatoire systémique
+
+
+** 356 - Pneumothorax
+
+*** Définitions
+Air dans l'espace pleural $\implies$ collapsus 
+
+\paragraph{Spontané}
+Primaire = poumon sain, sujet jeune, non grave
+
+Secondaire = patho, > 40 ans, peut décompenser
+
+
+- Blebs (< 1 cm, plutôt primaires)
+- bulles d'emphysème : à la corticalité, tabagismes
+- lésions kystiques
+- cataménial
+
+
+\paragraph{Traumatique}
+Femé (côte fracturée) ou ouverts
+
+\paragraph{Épidémiologie}
+Spontané primaire : < 35 ans, masculin, longiligne et de grande taille, fumeur !
+
+Spontané secondaire : BPCO (plus rarement asthme, mucoviscidose)
+
+facteurs favorisants : $\Delta P_{atm}$, vols aérien, plongée subaquatique,
+tabagisme actif (PAS
+efforts physiques)
+
+*** Diagnostic
+Clinique : 
+
+- fonctionnel : douleur thoracique (brutale, homolatérale, latérale,
+  augmente toux), toux sèche irrit
+- physique : diminution murmure vésicul, pas de vibration vocales,
+  tympanisme percusion
+
+Radio : pas en expiration ! 3 catégorise : apical, axillaire, complet
+
+Grave si dyspnée sévère ou collapsus tensionnel (! pas déviation médiastin) 
+
+$\implies$ le plus souvent (pneumothorax compressif secondaire à fistule à
+soupape) ou (PTX avec réserve ventilatoire réduite)
+
+\paragraph{Atypique}
+Récidive : 30% (premier épisode), 50% (second épisode)
+
+Rarement avec pneumomédiastin
+
+Sous ventilation mécanique : y penser si $\nearrow$ brutal pression
+d'insufflation, collapsus brutal, plaie plèvre
+
+\paragraph{DD}
+Facile : douleur thoracique "respiro-dépendante".
+
+Difficile : Dyspnée aigüe sans sd pleural 
+
+*** Traitement
+
+- Rien si décollement < 2cm
+- PTX compressif = urgence $\implies$ aiguille simple + immédiat
+- Pneumotthorax spontané primaire (bien ou mal toléré ) :
+  exsufflation(petit cathéter sur voie thoracique antérieur) puis drain
+  si échec
+- Pour tous les autres : drain
+
+
+Prévention récidive par pleurodèse (accolement des feuillets) : si récidive
+homolat, PTX persistant 5 jours, compliqué ou bilat
+
+Sevrage tabac !!
+
+Attention altitude si PNO existant (seulement existant)
+
+VIH: traitement aussi pneumocystose
+
+
+** Gaz du sang
+\label{appendix:gds}
+Le pH est déterminé par l'équilibre entre les bicarbonates (\ch{HCO_3-}) et
+$PCO_2$ :
+\begin{equation}
+  pH = K_1 + log\frac{[\ch{HCO_3-]}}{K_2 p_{CO_2}}
+\end{equation}
+avec $K_1$, $K_2$ constante.
+
+Un déséquilibre sur un terme induit une compensation sur l'autre. Si le
+déséquilibre n'est pas compensé, on aboutit à une acidose ou une alcose.
+
+\begin{table}[htpb]
+  \centering
+  \caption{Gaz du sang artériel}
+  \label{tab:gds}
+  \begin{tabular}{ll}
+    \toprule
+    \(PO_2\) & [80, 100] mmHg\\
+    \(SaO_2\) & [95, 98] \%\\
+    \(PCO_2\) & [35, 45] mmHg\\
+    \ch{HCO_3^-} & [22, 29] mmol/L\\
+    pH & [7.38, 7.42]\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Interprétation :
+1. Déterminer si acidose ou alcolose selon le pH
+1. Respiratoire ou métabolique ? Si $PCO_2$ essaie de compenser (en sens
+  inverse du pH), c'est respiratoire. Sinon métabolique.
+
+NB : la compensation ne normalise pas le pH!
+NB : 
+
+- acidose pulmonaire : hypoventilation alvéolaire
+- alcalose pulmonaire : hyperventilation alvéolaire
+- alcalose métabolique : pertes digestives [vomissements]
+
+
+** Physiologie
+
+$P_{alv}$ = pression alvéolaire, $P_{ip}$ = pression interpleurale (dans la
+plèvre), pression transpulmonaire = $P_{ip} - P_{alv}$.
+
+\begin{figure}[htpb]
+  \centering
+  \caption{Inspiration (gauche), expiration (droite)}
+  \tikz \graph [ nodes={align=center}, layered layout]
+  {
+    Contraction diaphragme -> Expansion thorax -> "$P_{ip} < P_{atm}$"
+    -> Hausse pression transpulmonaire -> Expansion poumons 
+    -> "$P_{alv} < P_{atm}$"
+    -> Arrivée d'air dans les alvéoles;
+  };
+  \tikz \graph [ nodes={align=center}, layered layout]
+  {
+    "Arrêt contraction\\ diaphragme et intercostaux" -> Rétraction thorax 
+    -> "Valeur initiale de $P_{ip}$"
+    -> Valeur initiale pression transpulmonaire 
+    -> Rétraction poumons 
+    -> "$P_{alv} > P_{atm}$"
+    -> Expulsion d'air depuis les alvéoles;
+  };
+
+\end{figure}
 
 * Ophtalmologie
 ** 1 Sémiologie oculaire

@@ -2,6 +2,7 @@
 #+author: Alexis Praga
 #+latex_header: \input{header}
 #+latex_header_extra: \usepackage{adjustbox}
+#+latex_header_extra: \usepackage{tabularx}
 * Cardiologie
 ** 218 : Athérome
 1ere cause mortalité dans monde.
@@ -396,6 +397,10 @@ Ttt 1ere intention : \faHospitalO : $O_2$, terlipressine, protection voie aérie
 Clinique : douleur thoracique, toux sèche + sd pleural[fn:29] 
 
 RX (opacité dense, homogène, concave) et ponction (sauf ICG) !
+
+Selon liquide, voir Tab. [[tab:epanchement_pleural]]
+#+name: tab:epanchement_pleural
+#+caption: Types d'épanchement pleural
 | Transsudat                               | Exsudat                                           |
 | (prot < 25g/L, liquide clair: mécanique) | (prot > 35g/L, aspect variable : inflammatoire, ) |
 |------------------------------------------+---------------------------------------------------|
@@ -407,25 +412,27 @@ Si abondant/purulent/à germe : ttt anti-infectieux + évacuation du liquide
 pleural 
 ** 203 : Opacités et masses thoraciques : tab. [[tab:masses_thorax]]
 #+name: tab:masses_thorax
-#+caption: Opacités et masses thoraciques
-| Nodules (\diameter < 3 cm)                                                   | Masses (\diameter > 3cm) médiastinales              |
-|------------------------------------------------------------------------------+-----------------------------------------------------|
-| - malin si terrain, > 1cm, morphologie[fn:30], fixe TEP, \inc récente taille | - antérieur : goître, K thyroïdes, lymome, lymphome |
-| - chez 1 gros fumeur sur 2 et cancéreux 1 sur 10                             | - moyen : lymphome                                  |
-| - scanner, TEP-FDG. Diag = ponction transpariétale                           | - postérieur : neurogène                            |
-| - malignes : métastates (pulmon), primitif (bronchopulmon)                   |                                                     |
+#+caption: Masses thoraciques
+#+ATTR_LATEX: :environment tabularx :width \textwidth :align XX
+| Nodules (\diameter < 3 cm)                                                   | Masses (\diameter > 3cm) médiastinales               |
+|------------------------------------------------------------------------------+------------------------------------------------------|
+| - malin si terrain, > 1cm, morphologie[fn:30], fixe TEP, \inc récente taille | - antérieur : goître, K thyroïdes, thymome, lymphome |
+| - chez 1 gros fumeur sur 2 et cancéreux 1 sur 10                             | - moyen : lymphome                                   |
+| - scanner, TEP-FDG. Diag = ponction transpariétale                           | - postérieur : neurogène                             |
+| - malignes : métastates (pulmon), primitif (bronchopulmon)                   |                                                      |
 ** 204 : Insuffisance respiratoire chronique
    Clinique : dyspnée, hypoxémie (PaO_2 < 70mmHg)
 
-Examens : EFR, RX thorax, écho cardiaque
-Table [[tab:etio_IRC]]
+Examens : EFR, RX thorax, écho cardiaque.
+
+Étiologies : table [[tab:etio_IRC]]
   
 #+name: tab:etio_IRC 
-#+caption: Étiologies IRC 
-| Obstructive | Restrictive | Mixte         | Non |
-|-------------+-------------+---------------+-----|
-| BPCO        | PID         | DDB           | HTP |
-| asthme      | Obésité     | Mucoviscidose |     |
+#+caption: Étiologies IRC selon TV
+| Obstructive | Restrictive | Mixte         | Pas de TV |
+|-------------+-------------+---------------+-----------|
+| BPCO        | PID         | DDB           | HTP       |
+| asthme      | Obésité     | Mucoviscidose |           |
 
 TTT : arrêt tabac, $O_2$ longue durée (si /obstructif et PaO_2 < 55 mmHG ou
    restrictif et < 60mmHg/) ou ventilation long cours (restrictif)
@@ -448,8 +455,8 @@ Exacerbation BPCO : déclenché par infection
 Clinique : dyspnée d'effort (apparition progressive)
    Orientation = scanner thoracique++
 
-PID aigüe : éliminer \oe{}dème cardiognéqiue puis LBA. Si fièvre ATB
-probab. (pneumocoque \pm pneumocystose, tuberculose)
+PID aigüe : éliminer \oe{}dème cardiogénique puis LBA. Si fièvre, ATB
+probabilist (sur pneumocoque \pm pneumocystose, tuberculose)
 
 PID subaigüe/chronique : 
 - interrogatoire, LBA (fibro), scanner thoracique 1ere intention
@@ -459,8 +466,8 @@ Manifestations:
 - respi : RX thorax 4 stades[fn:32]
 - oculaire (uvéite), peau (sarcoïdes), ADNP (superficielles), foie (cholestase non ictérique)
  
-Diag : clinique + histologie (sans granulomes sans nécrose caséuse) + élimination
-autres granumolatose (ou sd Löfgren typique[fn:33])
+Diag : clinique + histologie (granulomes sans nécrose caséuse) + élimination
+autres granulomatose (ou sd Löfgren typique[fn:33])
 
 Pronostic favorable 80%
 
