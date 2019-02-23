@@ -166,7 +166,6 @@
 #+OPTIONS: H:4
 
 * Cardiologie
- \input{bacteries-header}
 #+BEGIN_EXPORT latex
 
 \def\arrow{$\rightarrow$}
@@ -5872,7 +5871,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 
 * Neurologie (ébauche)
 \input neurologie
-* Pneumologie
+* Pneumologie                                                        :export:
 ** 73 - Addiction au tabac
 3 fumées : courant primaire (inspiré), secondaire (tabagisme passif++), tertiaire (exhalé)\\
 Produits :
@@ -6155,16 +6154,16 @@ Hypersensibilité :
   Dermato.
 
 
-\paragraph{Asthme et rhinite allergique}
+**** Asthme et rhinite allergique
 Polygénique.\\
 Environnement : infections virales, sensibilitations pneumallergènes, tabac dès
 conception, pollution air intérieur. 
 
-\paragraph{Anomalies voies aériennes (asthme)}
+**** Anomalies voies aériennes (asthme)
 Remodelage bronchique : épaississement (membrane basale et muscle lisse $\wedge$ oedème
 bronchique) et obstruction $\diameter$ (mucus)
 
-\paragraph{Réaction IgE}
+**** Réaction IgE
 
 - Sensibilisation : synthèse IgE spécifiques (lymphocytes B)
 - effectrice : fixation de l'allergène $\implies$ activation (histamine,
@@ -6186,7 +6185,7 @@ Morbidité forte, mortalité encore forte pour l'asthme.
 *** Diagnostic
 Clinique : asthme, rhinite, conjonctivite
 
-\paragraph{Diagnostic}
+**** Diagnostic
 Unité de temps, lieu et action (perannuels [acariens,
 blattes, phanères d'animaux, végétaux d'intérieur, moisissures] ou saisonniers
 [pollens]) $\wedge$ IgE spécifiques
@@ -6203,25 +6202,24 @@ Prick-test = référence.
 Autres tests : dosage IgE spécifique (moins sensible), multiallergénique (sensible mais
 pas quantitatif)
 
-\paragraph{Professionnelles} boulangers, santé, coiffeurs, peintres pistolets, bois, nettoyage\\
+**** Professionnelles 
+Boulangers, santé, coiffeurs, peintres pistolets, bois, nettoyage
 
-\paragraph{Autres}
-
+**** Autres
 - Test de provocation = certitude mais dangereux
 - Très sécifique : dosage IgE totale, dosage éosinophiles sanguin, dosage tryptage sérique
 
-
 *** Traitement
-\paragraph{Éviction allergènes} Toujours.
+**** Éviction allergènes Toujours.
 
-\paragraph{Symptomatiques}
+**** Symptomatiques
 
 - antihistaminiques : rhinite, conjonctivite, prurit
 - corticoïdes : systématique si urgence (prednisone, prednisolone), local
   si traitement fond
 
 
-\paragraph{Immunthérapie spécifique}
+**** Immunthérapie spécifique
 Faibles doses croissantes d'allergènes :
 
 - Sous-cutanées/sub-linguale : acariens, pollens, hyménoptères
@@ -6262,7 +6260,7 @@ Hyperréactivité bronchique : -20%VEMS après métacholine/air sec (VPP = 100%)
 Débit expiratoire de pointe (pour urgence)
 
 *** Diagnostic
-\paragraph{Asymptomatique}
+**** Asymptomatique
 Diagnostic :
 
 - symptômes caractéristiques (20 min, réversible, variable)
@@ -6275,7 +6273,7 @@ Diagnostic :
 - \textbf{et} obstruction bronchique : sibilant, TVO réversible ou apparaît avec métacholine
 
 Sévérité évaluée à 6 mois
-\paragraph{Exacerbation}
+**** Exacerbation
 \nearrow{} symptômes > 2 jours, non calmée, sans retour état habituel
 
 Signes de sévérité :
@@ -6289,17 +6287,17 @@ Signes de sévérité :
 - respi paradoxale \skull
 - troubles conscience, bradycardie, collapsus \skull
 
-\paragraph{DD}
+**** DD
 Sans TVO : cordes vocales, sd hyperventilation
 
 TVO non réversible : {BPCO, bronchectasies, mucoviscidose, bronchiolites
 constrictives}, autres (corps étranger, tumeur, insuf. cardiaque)
-\paragraph{Bilan}
+**** Bilan
 Facteurs favorisants, radio thorax, EFR (+test métacholine)
 
 *** Traitement
 
-\paragraph{Long cours}
+**** Long cours
 Ttt de fond : cf Table~\ref{tab:ttt_asthme}
 
 \begin{table}
@@ -6339,8 +6337,9 @@ Si non contrôlé
 
 Suivi : périodique, +3mois si changement ttt, mensuel si grossesse
 
-\paragraph{Urgence} cf figure~\ref{fig:asthme_urgence}.
+**** Urgence cf figure~[[fig:asthme_urgence]]
 
+#+name: fig:asthme_urgence
 \begin{figure}[htpb]
   \centering
   \tikz \graph [
@@ -6580,7 +6579,6 @@ Signes de gravité :
 - adénopathies cervicales suspectes
 - anomalies cardiopulmonaires
 
-
 \begin{figure}[htpb]
   \centering
   \caption{PEC initiale d'une toux chronique}
@@ -6614,13 +6612,15 @@ Signes de gravité :
 
 *** Orientation diagnostique
 \label{subsec:toux_orientation}
-\textbf{ORL}  
+\begin{tcolorbox}
+Rhinorrhée chronique, RGO, asthme, tabac, médicaments\footnote{IEC, inhib angiotensine II, \beta{}-bloquants}, coqueluche
+\end{tcolorbox}
+*ORL*
 
 - rhinosinusiens : sd rhinorrée postérieur++, obstruction nasale chronique
 - carrefour aérodigestif : diverticule de Zenker, laryngite chronique
 
-
-\textbf{Respiratoire} 
+*Respiratoire* 
 
 - Asthme : TVO réversible/hyperréactivité bronchique
 - BPCO : TVO non réversible
@@ -6628,17 +6628,17 @@ Signes de gravité :
   \nameref{sub:bronchectasies})
 
 
-\textbf{RGO} : pyrosis. Endoscopie digestive si FR, pHmétrie des 24h
+*RGO* : pyrosis. Endoscopie digestive si FR, pHmétrie des 24h
 
-\textbf{Allergique} 
+*Allergique* 
 
-\textbf{Systémique} : sd Gougerot-Sjögren, polychondrite atrophiante, maladie
+*Systémique* : sd Gougerot-Sjögren, polychondrite atrophiante, maladie
 de Horton, granulomatose avec polyangéite, rectocolite hémorr., maladie de
 Crohn.
 
-\textbf{Comportement} : dernière étiologie
+*Comportement* : dernière étiologie
 
-\paragraph{Traitement d'épreuve} (ordre d'échec):
+**** Traitement d'épreuve (ordre d'échec):
 1. RGO : bromphéniramine + pseudoéphédrine 3 sem
 1. asthme si TVO réversible, corticoïdes inhalés ou bronchodilatateurs inhalés si
   hyperréactivité bronchique
@@ -6753,7 +6753,7 @@ Confirmation imagerie
 
 
 *** Causes
-\paragraph{Transsudats (protides < 25g/L)}
+**** Transsudats (protides < 25g/L)
 
 - insuf. cardiaque G
 - cirrhose
@@ -6761,22 +6761,19 @@ Confirmation imagerie
 - atélectasie
 - embolie pulmonaire
 
-
-\paragraph{Exsudats (protides > 35 g/L)}\mbox{}\\
-\textit{Néoplasiques} 
+**** Exsudats (protides > 35 g/L)
+/Néoplasiques/
 
 - métastatique : liquide sérohématique/rosé/citrin, cytodiagnostic +
   biopsie (aveugle/vue) sauf si cancer connu
-- mésothéliome 
+- mésothéliome
   
   - exposition amiante
   - imagerie : épaississement pleural diffus, circonférentiel
   - liquide citrin/sérohématique
   - biopsie sous thorascopie++
   
-
-
-\textit{Infectieux} 
+/Infectieux/ 
 
 - parapneumoniques (=bactérien) 
   
@@ -6788,7 +6785,7 @@ Confirmation imagerie
   en proténie. Biopsie++ (aveugle/vue)
 
 
-\textit{Autres}  :
+/Autres/  :
 
 - embolie pulmonaire
 - bénigne liée à l'amiante (exclusion++)
@@ -6804,7 +6801,7 @@ Quand ? Urgence si fébrile, hémothorax ou mauvaise tolérance
 
 Tout le liquide ? Si étiologique ou non cloisonné
 
-\paragraph{Biologie}
+**** Biologie
 1ère intention :
 
 - biochimie
@@ -6872,20 +6869,20 @@ Origine maligne probable si :
 
 Certitude = histologie (ponction transpariétale à l'aiguille)
 
-\textbf{Tumeurs malignes}  
+*Tumeurs malignes*  
 
 - cancers bronchopulmonaires primitifs : > 50 ans, fumeur, souvent nodule
   solitaire
 - secondaires (métastases) : opacités rondes régulières
 
 
-\textbf{Tumeurs bénignes} 
+*Tumeurs bénignes* 
 
 - Hamartochondrome (freq++) : "pop-corn", pathognomonique
 - Tumeurs  carcinoïdes
 
 
-\textbf{Non tumorales}
+*Non tumorales*
 
 - infectieux 
   
@@ -6902,7 +6899,7 @@ Certitude = histologie (ponction transpariétale à l'aiguille)
 - malformations artérioveineuses
 
 
-\paragraph{Examens}
+**** Examens
 
 - TDM et TEP
 - Fibroscopie pronchique systématique
@@ -6917,7 +6914,7 @@ visible, tonalité hydrique
 
 DD: intraparenchymateux, pariétal $\implies$ TMD
 
-\paragraph{Médiastin antérieur}
+**** Médiastin antérieur
 
 - Supérieur : goître plongeant $\implies$ TMD : continuité glande thyroïde
 - Moyen : 
@@ -6930,7 +6927,7 @@ DD: intraparenchymateux, pariétal $\implies$ TMD
 - Inférieur : kystes pleuropéricardiques
 
 
-\paragraph{Médiastin moyen}
+**** Médiastin moyen
 
 - Tumoral : cancer bronchopulmonaires, lymphomes, LLC, cancers
   extra-thoraciques
@@ -6939,7 +6936,7 @@ DD: intraparenchymateux, pariétal $\implies$ TMD
 - Autres : insuf. cardiaque gauche
 
 
-\paragraph{Médiastin postérieur} "neurogènes"
+**** Médiastin postérieur "neurogènes"
 
 Diagnostic :
 
@@ -7070,11 +7067,11 @@ cardiaque G, EP)
 *** Définitions
 BPCO = {toux, dyspnée, expectorations, infections respi basses} récurrentes et
 TVO (VEMS/CVF < 0.7)
-\textbf{persistant}
+*persistant*
 
 Exacerbation aigùe = aggravation \(\ge 2\) jours
 
-Inclus dans BPCO \textbf{si TVO} : 
+Inclus dans BPCO *si TVO* : 
 
 - bronchite chronique (toux productive quotidienne \(\ge 3\) mois/an et \(\ge 2\) ans),
 - emphysème (élargissement espaces aériens distaux + destructions parois
@@ -7425,12 +7422,12 @@ Classification internationale : 5 groupes
 1. hypertension artérielle pulmonaire (HTAP)\footnote{Idiopathique,
     héritable, médicaments, maladie veino-occlusive, hémangiomatose capillaire
     pulmonaire, HTP persistante du nouveu-né}: pré-capillaire
-1. \textbf{cardiopathie gauche}  : post-capillaire (fréq+++)
-1. HTP maladie \textbf{respiratoire chronique}  : pré-capillaire (freq++)
+1. *cardiopathie gauche*  : post-capillaire (fréq+++)
+1. HTP maladie *respiratoire chronique*  : pré-capillaire (freq++)
 1. HTP post-embolique chronique : pré-capillaire
 1. HTP multi-factorielles : pré-capillaire
 
-\paragraph{Pronostic}
+**** Pronostic
 6 cas/million (idiopathique), femme.
 
 Survie avec ttt : 58% à 3 ans
@@ -7460,10 +7457,10 @@ Détection :
 
 Y penser si clinique normale !
 
-\textit{Écho cardiaque transthoracique} = non invasif de référence. \\
-Diagnostig par \textit{cathétérisme cardiaque D} avec \textbf{PAPm $\ge 25$ mmHg}
+/Écho cardiaque transthoracique/ = non invasif de référence. \\
+Diagnostig par /cathétérisme cardiaque D/ avec *PAPm $\ge 25$ mmHg*
 
-\paragraph{Démarche}
+**** Démarche
 Si écho cardiaque compatible avec HTP :
 
 - Cardiopathies G, maladies respi + exams pour groupe 2 et 3. Si confirmé
@@ -7480,7 +7477,7 @@ Si écho cardiaque compatible avec HTP :
 
 Augmentation du débit ou des résistances
 
-\paragraph{Clinique}
+**** Clinique
 Nouveau-né : cyanose réfractaire à l'\(O_2\), détresse respi/circ \thus échocardio en
 urgence \danger
 
@@ -7488,7 +7485,7 @@ Enfant : signes tardifs : dyspnée d'effort, syncope, fatigue
 \thus dépistage si cardiopathie congénitale, patho. respi. chronique, maladie de
 systèmes, ATCD familiaux
 
-\paragraph{Examens}
+**** Examens
 Radio thorax, ECG aspécifiques.
 
 Échocardio : diagnosic (+ cherche cardioapathie), confirmé par cathétérisme 
@@ -7507,11 +7504,11 @@ Maladie fréquente (1 cas /10 000 si < 40 ans, 1/100 si > 75 ans) et grave.
 TVP : obstruction thrombotique d'un tronc veineux profond. EP : idem mais
 artères pulmonaires ou leurs branches (secondaires TVP à 70%)
 
-\paragraph{Physiopatho} stase veineuse, lésions pariétales, anomalies de l'hémostase \thus
+**** Physiopatho stase veineuse, lésions pariétales, anomalies de l'hémostase \thus
 obstruction/lyse. Si migre dans les artères pulmonaires : symptômes si
 obstruction à 30-50% \thus anomalie hémodynamique \thus insuf respi
 
-\paragraph{Évolution}
+**** Évolution
 TVP distales asymptomatique (postop) : 20% deviennent proximales\\
 TVP distales symptomatique : récidive (9% si ttt anticoagulant)\\
 TVP proximal symptomatique : risque important !\\
@@ -7541,7 +7538,7 @@ Conséquence :
 
 *** Diagnostic de l'embolie pulmonaire
 
-\paragraph{Clinique} pas spécifique : dyspnée, douleur thoracique, syncope,
+**** Clinique pas spécifique : dyspnée, douleur thoracique, syncope,
 crachats hémoptoïques, asymptomatique
 
 Radio thoracique, ECG : élimine les DD
@@ -7579,7 +7576,7 @@ Gaz du sang : hypoxie-hypocapnie
 \end{figure}
 
 
-\paragraph{Examens}
+**** Examens
 Voir la figure~\ref{fig:ep-diag} avec \texttt{examen} = angioscanner.
 
 D-dimère positifs = $\max(\text{âge}, 50) \times 10 \mu{}$g/L
@@ -7597,28 +7594,28 @@ attendant.
 
 Sur l'écho, chercher dilatation cavité D, HTP, septum paradoxal
 
-\textit{Si grossesse}  : D-dimères $\implies$ écho. veineuse $\implies$ angioscanner
+/Si grossesse/  : D-dimères $\implies$ écho. veineuse $\implies$ angioscanner
 (prévenir le pédiatre \skull)
 
-\paragraph{Évolution} favorable. Complications : choc cardiogénique réfractaire
+**** Évolution favorable. Complications : choc cardiogénique réfractaire
 (DC), rédicive, HTAP chronique post-embolique (rare mais grave)
 
 *** Diagnostic de TVP
-\paragraph{Clinique} = orientation\\
+**** Clinique = orientation
 Douleur du MI, oedème unilatéral, signes inflammatoires, dilatation veines
 superficielles ou asymptomatique
 
-\textit{DD}  : {traumatisme, claquage musc}, kyste synovial, {SPT, insuf veineuse
+/DD/  : traumatisme, claquage musc/, kyste synovial, {SPT, insuf veineuse
 primaire}, {sciatique, compression extrinsèque}, {érysipèle, lymphangite,
 cellulite}, lymphoedeme, insuf cardiaque droite/rénale/hépatique
 
 Score de probablitié clinique : Wells (faible/interm/forte)
 
-\paragraph{Diagnostic}
+**** Diagnostic
 Voir la figure~\ref{fig:ep-diag} avec \texttt{examen} = échographie veineuse
 des MI
 
-\paragraph{Étiologies}
+**** Étiologies
 
   - FR transitoire (chir, fracture < 3 mois, immobilisation > 3 j) ? Sinon, "non
 provoquée"
@@ -7645,7 +7642,7 @@ Si grossesse : bilan thrombophilie si ATCD familaux/personnels MTEV
 
 Si cancer : HBPM long cours
 
-\paragraph{Évolution} : favorable si bien conduit mais récidive toujours
+**** Évolution : favorable si bien conduit mais récidive toujours
 possible. Complications : 
 
   - SPT : lourdeur de jambes, oedeme de cheville, dilat veineuses
@@ -7656,13 +7653,13 @@ possible. Complications : 
 
 
 *** Traitement (TVP + EP)
-\paragraph{Principes}
+**** Principes
 Urgence \skull $\implies$ anticoagulant
 
 CI : coagulopathie sévère, hémorragie intracrânienne spontanée, hémorragie
 active difficilement contrôlable, chir récente, (thrombopénie à l'héparine)
 
-\paragraph{Types de traitement}\mbox{}\\
+**** Types de traitement
 Option 1 : Héparines + relais AVK dès injection IV
 
 - HBPM, fondaparinux > HNF, sauf si IR sévère (< 30ml/min)
@@ -7687,7 +7684,7 @@ Autres :
 - lever +1h
 
 
-\paragraph{Stratégie}
+**** Stratégie
 Score sPESI = \texttt{90 100 110 C C}\footnote{sat < 90%, PAS < 100 mmHg, FC >
 110/min, Cancer, insuf Cardiaque chronique}:
 
@@ -7714,18 +7711,18 @@ Haut risque (choc : PAS < 90mmHG ou -40mmHg) : urgence \skull $\implies$ réa
 - (embolectomie)
 
 
-\paragraph{Durée}
+**** Durée
 3 mois si 1ere EP/TVP provoqué par facteur majeur transitoire ou risque
 hémorragique élevée. 6 mois ou plus sinon
 
-\paragraph{Étiologie}
+**** Étiologie
 Chercher cancer occulte dans tous les cas (clinique, radio poumon, NFS VS,
 dépistage globux)
 
 Bilan coag : {antithrombine, prot C, S}, mutation {Leiden, prothrombine}, sd
 antiphospholipides
 
-\paragraph{Prophylaxie}
+**** Prophylaxie
 
 - Post-op : (chir et > 40 ans) ou (chir hanche/genou/caricinologique, anomalie
   coag, (> 40 ans et ATCD MTEV))
@@ -7733,12 +7730,12 @@ antiphospholipides
 
 
 
-\paragraph{Cas particuliers}
+**** Cas particuliers
 
   - 
 TVP distale : symptomatique : anticoagulement 6 semaines seulement si premier épisode. Dans tous les cas,
 compression $\ge 2$ ans
-- \gls{TVS} : \textbf{pas} d'AINS, antiocoagulants en curatif, chirurgie
+- \gls{TVS} : *pas* d'AINS, antiocoagulants en curatif, chirurgie
 - cancer : HBPM, arrêt si plaquettes < 50g/L
 
 Prévention : 
@@ -7798,7 +7795,7 @@ Cf table~\ref{tab:urgences_douleur_thoraciques}
   \end{table}
 
 - Embolie pulmonaire (fréquent) : suspicion si douleur thorax, pas
-  d'anomalie ascult, RX thorax "normale" \textit{surtout}  si hypoxémie +
+  d'anomalie ascult, RX thorax "normale" /surtout/  si hypoxémie +
   facteurs de risque\\
   Dyspnée ou douleur thoracique aigüe chez TVP = EP
 - dissection aortique (exceptionnelle) : échocardio + angioscanner
@@ -7841,7 +7838,7 @@ Tabac : 90% (âge de début et durée) pour actif, 25% passif
 
 Professionel : 15%
 
-\paragraph{Histologie}
+**** Histologie
 
 - "Non à petites cellules" (CBNPC) (80%) : adénocarcinomes (périphérie),
   carcinomes épidermoïdes (proximal), indifférenciés à grandes cellules
@@ -7849,27 +7846,29 @@ Professionel : 15%
 
 
 *** Manifestations
-\textbf{Y penser si (AEG et tabagique) ou (symptôme fonctionnel respiratoire
-  chez tabagique > 40A)}
+\begin{tcolorbox}
+Y penser si (AEG et tabagique) ou (symptôme fonctionnel respiratoire
+  chez tabagique > 40A)
+\end{tcolorbox}
 
-\textit{Respiratoires}  : toux (souvent révélatrice, sèche, quinteuse), hémoptysie (<
+/Respiratoires/  : toux (souvent révélatrice, sèche, quinteuse), hémoptysie (<
 10%), bronchorrée (propre), dyspnée, pneumonie/bronchite (\danger{} si récidive
 dans même territoire), douleur thoracique 
 
-\textit{Locorégionales}  : pleurésies, dysphonies, sd cave supérieur, douleurs thoraciques
+/Locorégionales/  : pleurésies, dysphonies, sd cave supérieur, douleurs thoraciques
 (fixes, tenaces), sd de Pancoast-Tobias\footnote{Névralgie cervicobrachiale avec
   douleurs radiculaire C8-D1, sd Claude-Bernard-horner}, paralysie phrénique
 
-\textit{Extrathoracique}  : thromboses inexpliquées (y penser !), métastase (SNC,
+/Extrathoracique/  : thromboses inexpliquées (y penser !), métastase (SNC,
 foie, os, surrénales)
 
-\textit{Sd paranéoplasiques} (à distance, réapparition $\implies$ rechute) :
+/Sd paranéoplasiques/ (à distance, réapparition $\implies$ rechute) :
 hippocratisme digital, hypercalcémie, hyponatrémie, sd de Cushing, neurologique
 (pseudomyasthénie de Lamert Eaton, neuropathies périph, encéphalopathies)
 
 *** Imagerie
 Initial = radio thorax chez fumeur > 40 ans
-\paragraph{Radiothorax}
+**** Radiothorax
 
 - projection (juxta-)hilaires
 - atélectasies
@@ -7878,11 +7877,11 @@ Initial = radio thorax chez fumeur > 40 ans
 
 % Normal $\centernot\implies$ pas de cancer
 
-\paragraph{TDM injection}
+**** TDM injection
 Stade N0 sans adénopathie, N1 si hilaire, N2 si médiastin homolatéral, N3 si médiastin
 controlatéral
 
-\paragraph{TEP au 18-FDG}
+**** TEP au 18-FDG
 Pas dans le cerveau !
 
 Faux positifs : ganglions inflammatoires, infectieux
@@ -7898,18 +7897,18 @@ Faux négatifs : < 1 cm, non solide (verre dépoli)
 Chercher mutations EGFR, réarrangements ALK, ROS1
 
 *** Bilan préthérapeutique
-\textit{Extension}  : T(tumeur) = locale, N (node) = ganglionnaire, M
+/Extension/  : T(tumeur) = locale, N (node) = ganglionnaire, M
 (métastase) = à distance. \\
 si M : TDM abdo, IRM cérébrale, TEP-TDM
 
 État général (Performance Status de 0 à 4), nutritionnel (-5% en 1 mois ou
 -10% en 6 mois = \frownie{})
 
-\textit{Cardiorespiratoire} : ECG, écho cardio, épreuve d'effort, doppler artériel des MI/cou,
+/Cardiorespiratoire/ : ECG, écho cardio, épreuve d'effort, doppler artériel des MI/cou,
 coronarographie.\\
 Règle : 1 lobe = -25% de VEMS. Opération ssi VEMS post-op > 30%
 *** Traitement
-\paragraph{CBPNC}
+**** CBPNC
 
 - localisé (stade I, II) : local (lobectomie ou radiothérapie)
 - localement avancé (stade III) : systémique (chimio) + local (radio ou
@@ -7923,7 +7922,7 @@ $\left \{
   \end{array}
 \right.$
 #+END_EXPORT
-\paragraph{CBPC\footnote{Chimiosensible rechutes fréquentes et rapides}}
+**** CBPC\footnote{Chimiosensible rechutes fréquentes et rapides}
 Pas de chir !
 #+BEGIN_EXPORT latex
 $
@@ -7935,17 +7934,17 @@ $
 \right.
 $
 #+END_EXPORT
-\paragraph{Symptomatique}
-\textit{Douleur}  : Antalgiques, radiothérapie, chir, AINS, vertébroplastie
+**** Symptomatique
+/Douleur/  : Antalgiques, radiothérapie, chir, AINS, vertébroplastie
 
-\textit{Dyspnée}  : lymphangite carcinomateuses (difficile), obstruction bronchique
+/Dyspnée/  : lymphangite carcinomateuses (difficile), obstruction bronchique
 (bronchoscopie), pleurésie exsudative (pleuroscopie), sd cave supérieur
 (anticoag, corticoïdes)
 
-\paragraph{Plan cancer}
+**** Plan cancer
 Réunion de concertation pluridisciplinaire, consultation d'annonce, plan
 personnalisé de soin
-\paragraph{Suivi}
+**** Suivi
 CBNPC : arrêt tabac, TDM 2-3 mois, clinique, bio (rein, NFS, hypercalcémie,
 hyopnatrémie)
 
@@ -7984,7 +7983,7 @@ HS systémique immédiate sévère. 2 types :
 Déf : symptômes CV, respi, cutané/digestif mettant en
 jeu le pronostic vital immédiatement après contact
 
-\paragraph{Épidémiologie}
+**** Épidémiologie
 35 DC (alimentaire), 40 DC (piqûre) / an\\
 Agents :
 
@@ -8014,7 +8013,7 @@ Manifestations :
   
 - digestives
 
-\textbf{Hautement probable}  si 
+*Hautement probable*  si 
 
 - gêne respi haute ou asthme ou choc
   mettent en jeu le pronostic vital
@@ -8029,7 +8028,7 @@ IV. arrêt respiratoire
 V. DC
 
 
-\paragraph{Diagnostic}
+**** Diagnostic
 Clinique + contexte.
 
 Doser systématiquement tryptase sérique (confirmation) : H+0, H+1, H+24
@@ -8044,7 +8043,7 @@ DD :
 
 
 *** Traitement
-\paragraph{Urgence}
+**** Urgence
 Adrénaline : 0.01mg/kg (< 0.5mg) adulte à \faHospitalO{} ou  0.3mg
 auto-injection $\rightarrow$ répéter /5 min jusque stabilisation\\
 Voie IM (pas de SC ou d'IV \danger{})
@@ -8055,13 +8054,13 @@ $O_2$, libérer voie aériennes, bronchodilatateurs (courte durée)
 
 Glucagon si adrénaline ne fonctionne pas. 
 
-\paragraph{Hors urgence}
+**** Hors urgence
 Anithistaminique, corticoïdes, arrêt agent.
 
 NB : alerter, allongé jambes relevées (pas vertical \danger{} \skull), PLS si
 inconscient
 
-\paragraph{Préventif}
+**** Préventif
 Trousse avec adrénaline si (absolument) :
 
 - anaphylaxie antérieure (aliment, insecte ou latex), induite par l'effort
@@ -8084,7 +8083,7 @@ Pics =
 
 
 *** Diagnostic
-\paragraph{Clinique et radio}
+**** Clinique et radio
 Dans les heures post-inhalation :
 
 - CE mobile (sd de pénétration) : toux quinteuse, suffocation avec tirage,
@@ -8103,7 +8102,7 @@ expiration
 Mois/années post-inhalation : à évoquer si respi chronique/récidivante ne
 répondant pas au tt ou anomalies radio persistantes dans même territoire
 
-\paragraph{DD}
+**** DD
 (sub)aigü : 
 
 - détresse respi aigüe à début brutal, tirage, cornage : épiglottite aigüe
@@ -8119,10 +8118,10 @@ Chronique/récidive :
 
 
 *** CAT
-\paragraph{Asphyxie aigüe}
+**** Asphyxie aigüe
 Toux ou Heimlich (si conscient) ou réanimation. Si < 2 ans, tapes dos puis
 pressions sternum.
-\paragraph{Sd pénétration non régressif}
+**** Sd pénétration non régressif
 Supposer que CE toujours présent !! (sauf confirmation entourage). 
 
 Clinique : dimination unilat murmure, wheezing, persistance {toux, dyspnée,
@@ -8131,7 +8130,7 @@ Clinique : dimination unilat murmure, wheezing, persistance {toux, dyspnée,
 RX  : piégage (expiration) $\wedge$ diminution unilatérale murmure $\implies$ CE
 endobronchique (90%)
 
-\paragraph{Extraction}
+**** Extraction
 Bronchoscopie rigide (ou souple). Chez l'enfant, centre spécialisé !
 
 ** 354 - Détresse respiratoire aigüe
@@ -8220,9 +8219,9 @@ créat, acide lactique)
 
 Précision de la figure~\ref{fig:diag_detresse_respi}
 
-1. \textit{Obstruction}  : corps étranger, laryngite, oedème de Quincke, sténose
+1. /Obstruction/  : corps étranger, laryngite, oedème de Quincke, sténose
   trachée, tumeur laryngées
-1. \textit{Anomalie radio} Priorité = pneumonie inf, OAP,
+1. /Anomalie radio/ Priorité = pneumonie inf, OAP,
   PTX\footnote{Pneumothorax} sous
   tension\\
   Indication =
@@ -8232,7 +8231,7 @@ Précision de la figure~\ref{fig:diag_detresse_respi}
   - Pneumonie infectieuse : {début brutal}, {expector. purulente}, {sd
       inflammatoire}
   
-1. \textit{Radio normale} de novo = EP, PTX compressif, asthme. Si
+1. /Radio normale/ de novo = EP, PTX compressif, asthme. Si
   chronique, dans l'ordre BPCO, paroi thoracique (obésité, déformation),
   neuromusc\\
   Orientation :
@@ -8259,7 +8258,7 @@ Mécanisme = oedème lésionnel.
 *** Définitions
 Air dans l'espace pleural $\implies$ collapsus 
 
-\paragraph{Spontané}
+**** Spontané
 Primaire = poumon sain, sujet jeune, non grave
 
 Secondaire = patho, > 40 ans, peut décompenser
@@ -8271,10 +8270,10 @@ Secondaire = patho, > 40 ans, peut décompenser
 - cataménial
 
 
-\paragraph{Traumatique}
+**** Traumatique
 Femé (côte fracturée) ou ouverts
 
-\paragraph{Épidémiologie}
+**** Épidémiologie
 Spontané primaire : < 35 ans, masculin, longiligne et de grande taille, fumeur !
 
 Spontané secondaire : BPCO (plus rarement asthme, mucoviscidose)
@@ -8298,7 +8297,7 @@ Grave si dyspnée sévère ou collapsus tensionnel (! pas déviation médiastin)
 $\implies$ le plus souvent (pneumothorax compressif secondaire à fistule à
 soupape) ou (PTX avec réserve ventilatoire réduite)
 
-\paragraph{Atypique}
+**** Atypique
 Récidive : 30% (premier épisode), 50% (second épisode)
 
 Rarement avec pneumomédiastin
@@ -8306,7 +8305,7 @@ Rarement avec pneumomédiastin
 Sous ventilation mécanique : y penser si $\nearrow$ brutal pression
 d'insufflation, collapsus brutal, plaie plèvre
 
-\paragraph{DD}
+**** DD
 Facile : douleur thoracique "respiro-dépendante".
 
 Difficile : Dyspnée aigüe sans sd pleural 
