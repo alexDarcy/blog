@@ -793,9 +793,9 @@ IRM (référence) : microadénome (hypointense, non rehaussé à l'injection) ou
 macroadénome (> 10mm, rehaussé injection)
 
 Hypersécrétion par l'hypophyse :
-- prolactine : galactorrhée, spanioménorrhée. Diagnosic = 
+- prolactine : galactorrhée, spanioménorrhée. Diagnostic = 
   - vérifier hyperprolactinémie, éliminer grossesse,  médicaments, hypothyroïdie
-    préphi, insuf rénale
+    périph, insuf rénale
   - microadénome : positif. Sinon, test agoniste dopaminergique
 - GH (acromégalie) : sd dysmorphique[fn:48], HTA
   - complication : insuf cardiaque !, diabète
@@ -808,7 +808,7 @@ Insuffisance hypophysaire : table [[tab:insuf_hypophyse]]
 | gonadotrope  | oestradiol/testostérone \dec ou FSH, LH \dec          |
 | corticotrope | cortisolémie \dec, synacthène (aldostérone normale !) |
 | thyréotrope  | T4l \dec mais TSH normale...                          |
-| somatotrope  | GH) : stimulation GH négative                         |
+| somatotrope  | (GH) stimulation GH négative                           |
 ** 243 Insuffisance surrénale
 Chronique : 
 - clinique = asthénie, anorexie, hypotension. Hyperk, hypoNa[fn:49] mélanodermie
@@ -817,12 +817,13 @@ Chronique :
 - diag : cortisol \dec, ACTH \inc si primaire
 - étiologies : 
   - primaire (surrénale) = /autoimmune/ 80%[fn:51], /tuberculose/ des surrénale 
-10%[fn:52]), VIH, iatrogène, métastasesbilatérales
+    10%[fn:52]), VIH, iatrogène, métastases bilatérales
   - secondaire (hypophyse) = interruption corticothérapie prolongé
 IS aigüe = urgence \skull
 - déshydratation extracellulaire, confusion, fièvre. Bio : hémoconcentration,
   hypoNa, hyperK, hypoglycémie
 - hydrocortisone 100mg puis \faHospitalO : NaCL et facteur déclenchant (IS chronique++)
+** 
 ** 244 Gynécomastie
 Palpation : ferme, mobile, centré mamelon. Si doute, mammographie pour élimiter
 K et adipomastie
@@ -881,7 +882,7 @@ Rein : diabète = 1ere cause d'IR terminale.
 |     5 | IR avec DFG < 30/mL/min/1.73m^2 | insuline, répaglinide, inhib. \alpha-glucosidase |
 
 Neuropathies
-- sensorimotrice : polynévrite symétrique distale++ (hypoesthéie, 0 ROT achiléean, bilat , douleur
+- sensorimotrice : polynévrite symétrique distale++ (hypoesthéie, 0 ROT achilléen, bilat , douleur
   neurogène)
 - autonome : digestiv (gastroparésie), dysfonction érectile, parésie vésicale
 - dépistage : examen neuro (pied !!), ECG annuel
@@ -920,7 +921,7 @@ IMC \ge 30 kg/m^2 (grade 1 si < 35, grade 3 si \ge 40)
 Étiologie : génétique, communes++ (déséquilibre apport-dépense).
 
 Complications : \inc RR mortablité, métabolique, CV, respi, ostéoarticulaire, digestive, rénale,
-gynéco, cutanée, néoplasique, psyhoscoliase
+gynéco, cutanée, néoplasique, psychosociale
 
 Interrogatoire. Ttt = diététique, activité physique, psychologique + orlistat si
 IMC \ge 30 (ou 27 et comobridité). Chir bariatrique en 2eme intention.
@@ -940,15 +941,15 @@ Pré-gestationnel
 - risque f\oe{}tus : fausses couches, malformations congénitales, mort f\oe{}tales,
 - risque mère : HTA ++, rétinopathie, néphropathie
 - avant grossesse : HbA1c < 7%, glycémie \in [0.7, 1.20] préprandial et [1,
-  1.14] en post (\inc insuline si D1, +insuline si D2
-- pendant : 6 glycémie/jour pour équilibre )
+  1.14] en post (\inc insuline si DT1, +insuline si DT2
+- pendant : 6 glycémie/jour pour équilibre
 Dépister diabète gestationnel ssi FR : {\ge 35 ans, IMC \ge 25 kg/m^2, ATCD DG,
-D. parents 1er degr}
+DT parents 1er degr}
 - PEC si glycémie jeun \ge 0.92g/L (début), sinon teste 24-28SA avec HGO
 - ttt : diét., *pas* d'antidiabétique, surveillance
 
 ** 253 Nutrition chez le sportif
-Examen d'aptitude : ATCD familaiaux (CV),  EC complet, ECG d'effort
+Examen d'aptitude : ATCD familiaux (CV),  EC complet, ECG d'effort
 
 Bénéficices du sport : 150min/semaine (ou 75min si intense) chez
 l'adulte. 60min/jour chez l'enfant + renforcement
@@ -1289,7 +1290,7 @@ diabète (familiale, gestationnel)
 
 [fn:50] Glucocorticoïdes et minéralocorticoïdes respectivement.
 
-[fn:49] Aldostérone : réabsorption Na+ et écrétion K+
+[fn:49] Aldostérone : réabsorption Na+ et sécrétion K+
 
 [fn:48] Élargissement extrémité, visage (prognathisme)
 
