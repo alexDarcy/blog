@@ -163,10 +163,14 @@
 #+latex_header_extra:   description = Pression artérielle pulmonaire occluse $\approx$ pression
 #+latex_header_extra:   capillaire pulmonaire
 #+latex_header_extra: }
+#+latex_header_extra: \newacronym{MDPH}{MDPH}{Maison département des personnes handicapées}
+#+latex_header_extra: \newacronym{CNSA}{CNSA}{Caisse nationale de solidarité pour l'autonomie}
+#+latex_header_extra: \newacronym{AAH}{AAH}{Allocation aux Adultes Handicapés}
+#+latex_header_extra: \newacronym{CDAPH}{CDAPH}{Commission des droits et de l'autonomie des personnes handicapées (départemental)}
 
 #+OPTIONS: H:4
 
-* Cardiologie                                                        :export:
+* Cardiologie
 \def\arrow{$\rightarrow$}
 ** 218 - Athérome
 
@@ -2693,6 +2697,54 @@ Hémorragiques :
 }
 #+END_EXPORT
 
+* Handicap (ébauche)                                                 :export:
+#+caption: Organismes
+| Organismes     | Mission                                                |
+|----------------+--------------------------------------------------------|
+| acrshort:CDAPH | Aptitude au travail, Qualité de travailleur handicappé |
+|                | Alloue AAH, complément de ressources                   |
+| acrshort:MDPH  | information                                            |
+| acrshort:CNSA  | finance aide + expertise/information                   |
+
+#+caption: Aides financières. Si > 60A, pas grand-chose...
+| Pension d'invalidité                   | Sécu            | Ayant travaillé et < 60A  |
+| Allocation adulte handicapé            | MDPH            | Jamais travaillé et < 60A |
+| Prestation de compensation du handicap | MDPH            | < 60A (aide technique !!) |
+| Allocation logement                    | CAF             |                           |
+| Assurance privée                       |                 |                           |
+| Allocation personnalisée d'autonomie   | Conseil général | > 60A                     |
+
+#+caption: Handicap 
+| Type                         | Exemple      | Échelles                                |
+|------------------------------+--------------+-----------------------------------------|
+| Déficiences                  | Paralysie MI | score d'Ashworth (hypertonie spastique) |
+|                              |              | NIHSS (neuro)                           |
+|                              |              | EVA (douleur), AGIR (APA chez > 60A)    |
+| Limitation d'activités       | Marche       | Rankin (AVC), Barthel (hémiplégies)     |
+|                              |              | Borg (respiratoire)                     |
+| Restriction de participation | Logement     |                                         |
+
+Enfant handicapé : orientation par MDPH (via CDAPH)
+- scolarisation (normal/CNED) ou adapté (CLIS/ULIS, SEGPA, EREA)
+- + complément : SESSAD, SSAD,..., CMPP, CMP (psychiatrie)
+- ou bien en remplacement IEM (moteur), IES (sensoriel), ITEP (troubles
+  comportement), IME  (troubles fonctions cognitives)
+
+#+caption: ASIA pour lésions de la moelle épinière 
+| Grade    | A         | B           | C                    | D               | E   |
+|----------+-----------+-------------+----------------------+-----------------+-----|
+| Sensitif | 0 (S4-S5) | oui (S4-S5) | oui                  | oui             | oui |
+| Moteur   | 0         | 0           | sous-lésion mais < 3 | sous-lésion > 3 | oui |
+
+#+caption: Sauvegarde de juste, curatelle, tutelle
+| Type                  | Demande           | Effets                                                                              | Durée           |
+|-----------------------+-------------------+-------------------------------------------------------------------------------------+-----------------|
+| Sauvegarde de justice | médecin           | conserve ses droits                                                                 | 1 an            |
+|                       | proche (via juge) | mais contestation possible                                                          | renouvelable 1x |
+| Curatelle             | proche (via juge) | doit être assistée pour actes de disposition\tablefootnote{Vendre bien immobilire}/ | 5 ans max       |
+|                       |                   | gestion importante\tablefootnote{Ex: emprunt}                                       | renouvelable    |
+| tutelle               | idem              | ne lui reste que les décisions                                                      | 5 ans max       |
+|                       |                   | relatives à sa personne\tablefootnote{Choisir résidence, relations perso}           | renouvellable   |
 * Douleur (ébauche)
 ** Divers 
 - Douleurs par excès de nociception : anti-inflammatoires, opioïdes en pratique
@@ -8429,6 +8481,13 @@ plèvre), pression transpulmonaire = $P_{ip} - P_{alv}$.
 
  Examen : réfractomètres automatiques \thus réfraction, kératométrie[fn:ophtalmo7]. [fn:ophtalmo8]
 
+\begin{tcolorbox}
+Correction optique : de loin = \pm A (- B à C), de près = add + D avec 
+- A = myopie (si -)/hypermétropie (si +) en dioptries
+- B = degré d'astigmatisme en dioptries, C = axe de l'astigmatisme en degrés
+- D = correction presbytie en dioptries
+\end{tcolorbox}
+
 **** Myopie 
  \OE{}il trop convergent. \approx 20% population occidentale. PR à distance finie,
  PP plus proche.
@@ -9290,7 +9349,7 @@ FR = durée et intensité de l'hyperglycémie
  - signes d'ischémie : hémorragies intrarétiniennes "en taches" ou en flammèche, anomalies
    microvasculaire intrarétinienne, dilatations veineuses "en chapelet",
    néovaisseaux prérétiniens et précapillaires, hémorragie prérétiniennes/intravitréennes
- - complications : hémorragie intravitréenne, décollement de la rétine /par
+ - _complications_ : hémorragie intravitréenne, décollement de la rétine /par
    traction/, néovascularisation irienne (\thus glaucome néovasculaire !)
  - signes maculaires : \oe{}dème maculaire (cystoïde), exsudats lipidiques
    (souvent en couronne)
@@ -9313,7 +9372,7 @@ FR = durée et intensité de l'hyperglycémie
   
  Classification :
  - \emptyset RD
- - RD non proliférante : minime, modérée, sévère (hémorragie rétiniennes dans 4
+ - RD non proliférante : minime, modérée, sévère (si hémorragie rétiniennes dans 4
    quadrants ou dilatations veineuses 2 quadrants ou AMIR 1 quadrant)
  - RD proliférante (néovaisseaux): minime, sévère, compliquée (décollement de
    rétine par traction, gls:GNV)
