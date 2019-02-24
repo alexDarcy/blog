@@ -61,7 +61,6 @@
 #+latex_header_extra: \newacronym{JPDC}{JPDC}{Jusqu'à preuve du contraire}
 #+latex_header_extra: \newacronym{LBA}{LBA}{Lavage Broncho-Alvéolaire}
 #+latex_header_extra: \newacronym{MTEV}{MTEV}{Maladie Thrombo-Embolique Veineuse}
-#+latex_header_extra: \newacronym{NEM2}{NEM2}{Néoplasie endocrinienne multiple 2}
 #+latex_header_extra: \newacronym{NOIA}{NOIA}{Neuropathie optique ischémique antérieure}
 #+latex_header_extra: \newacronym{OCA}{OCA}{Occlusion coronaire aigüe}
 #+latex_header_extra: \newacronym{OGD}{OGD}{Oestro-gastro-duodénale}
@@ -96,6 +95,10 @@
 #+latex_header_extra: \newacronym{VBP}{VBP}{Voie biliaire principale}
 #+latex_header_extra: \newacronym{VG}{VG}{Ventricule gauche}
 
+#+latex_header_extra: \newglossaryentry{NEM1}{name={NEM1},
+#+latex_header_extra:   description={Néoplasie endocrinienne multiple 1. 3 "P" : hyperParathyroïdie primaire, adénome hyPophysaire, tumeur neuro-endocrine du Pancreas. Voir aussi NEM2}}
+#+latex_header_extra: \newglossaryentry{NEM2}{name={NEM2},
+#+latex_header_extra:   description={Néoplasie endocrinienne multiple 2. Cancer médullaire de la thyroïde et phéochromocytome. Voir aussi \gls{NEM1}}}
 #+latex_header_extra: \newglossaryentry{Leydigcell}{name={cellule de Leydig},description={Produit de la testostérone. Localisé près des tubules séminifères (testicules)}. Activé par LH}
 #+latex_header_extra: \newglossaryentry{NF1}{name=NF1, description={Neurofibromatose 1. Tâches café au lait, neurofibromes (cutanées, nodulaires [le long d'un trajet d'un nerf] ou plexiformes [K possible]), nodules de Lisch sur l'iris.}}
 #+latex_header_extra: \newglossaryentry{PCC}{name={Phéochromocytomes}, description={Tumeur de la médullo-surrénale}}
@@ -2697,7 +2700,7 @@ Hémorragiques :
 }
 #+END_EXPORT
 
-* Handicap (ébauche)                                                 :export:
+* Handicap (ébauche)
 #+caption: Organismes
 | Organismes     | Mission                                                |
 |----------------+--------------------------------------------------------|
@@ -3937,7 +3940,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  > 105mmHg, vergetures pourpres
 
  Étiologies :
- - maladie de Cushing (adénome corticotrope) à 66%
+ - maladie de Cushing (adénome hypophysaire) à 66%
  - tumeur non hypophysaire (15%) : adénome sécrétant surrénalien ou
    corticosurrénalome
 
@@ -4035,7 +4038,7 @@ sulfonylurée : glucose en perfusion)
  Facteurs : \female, tabac, déficience iodée
 
 **** Évolution
- Constitution à l'adolescence (cliniquement latente) puis plurirondulaire : gêne
+ Constitution à l'adolescence (cliniquement latente) puis plurinodulaire : gêne
  cervicale \thus TSH, écho, ponction, scintigraphie
  \danger cherche caractère plongeant sur radio !
 
@@ -4047,7 +4050,7 @@ sulfonylurée : glucose en perfusion)
  - Adulte/agé : si multinodulaire non malin, surveillance. Si symptomatique,
    thyroïdectomie totale
  - Goitre ancien, négligé : iode 131
- \inc iode, notamment grossesse
+ Dans tous les cas, \inc iode (grossesse)
 
 **** Autres pathologies responsables
  - Maladie de Basedow
@@ -4135,7 +4138,7 @@ sulfonylurée : glucose en perfusion)
       +6sem-2mois (pas avant !)
     - surveillance : 80% des récidives à 5 ans \thus écho cervicale, rhTSH,
       Tg[fn:endocrino18] à 6-12mois : cytoponction puis imagerie si Tg > seuil. Sinon \dec LT4
-    - traitement récidives : chir si cervicale. Plus compliqué si métastates
+    - traitement récidives : chir si cervicale. Plus compliqué si métastases
       (iode131 si fixant sinon ttt local ou molécules ciblées). Maintenir LT4
      
  /Cancers anaplasiques/\\
