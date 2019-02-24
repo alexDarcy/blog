@@ -1325,8 +1325,7 @@ Hémocultures positives (90%)
 Hémocultures négatives :
 
    - ATB
-   - croissante lente : HACEK\footnote{Haemophilus, Actinobacillus,
-       Cardiobacterium, Capnocytophaga, Eikenella, Kingella}, Brucella, champignons
+   - croissante lente : HACEK[fn:21], Brucella, champignons
    - intra-cellulaire : \bact{burnetii}, Chlamydia, Bartonella,
      \bact{whipplei}
 
@@ -2652,6 +2651,8 @@ Hémorragiques :
 
 
 ** Annexe
+#+BEGIN_EXPORT latex
+
  \resizebox{\linewidth}{!}{           
 \begin{tikzpicture}
     \graph [
@@ -2690,7 +2691,7 @@ Hémorragiques :
     };
 \end{tikzpicture}
 }
-
+#+END_EXPORT
 
 * Douleur (ébauche)
 ** Divers 
@@ -10795,6 +10796,9 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
  \printglossaries
 * Footnotes
+
+[fn:21] Haemophilus, Actinobacillus,
+Cardiobacterium, Capnocytophaga, Eikenella, Kingella
 
 [fn:20] N'est plus prescrit en initiation depuis 10/2018
 

@@ -113,8 +113,8 @@ Diag = ETO. Critères de Duke : 2 majeur/1 majeur et 3 mineurs/5mineurs
   - hémoc = typique sur 2HC ou positive > 12h ou /C. burnetii/
   - végétation/abcès/désinsertion (écho) ou nv souffle régurgitation valvulaire
 - mineurs : cardiopathie à risque, > 38$^\circ$, complication vasc,
-  immonologique
-Complications : insuf cardiqaue \skull, embolie septiques, neuro , rénale
+  immunologique
+Complications : insuf cardiaque \skull, embolie septiques, neuro , rénale
 Ttt :
 - streptocoques (oraux/groupe D) : amoxicilline + gentamicine
 - staphylocoques : cloxacilline si sensible (sinon vancomycine)
@@ -133,7 +133,7 @@ Nourisson (2M - marche) : shunt gauche-droite (communication intraventricul), t�
 ** 230 Fibrillation atriale
 ECG indispensable : pas de P, QRS irréguliers
 
-Risques = insuf cardiqaue, thromboemolique artériel systémique
+Risques = insuf cardiaque, thromboembolique artériel systémique
 
 Étiologie : HTA, valvulopathies
 
@@ -149,23 +149,24 @@ Bradychardie grave = urgence \skull
 Ttt : tachycardisants (atropine, catécholamine)
 
 #+caption: EEP  = étude électrophysiologique endocavitaire
-| Type                 | Causes             | Diagnostic                  | Pacemaker           |
-|----------------------+--------------------+-----------------------------+---------------------|
-| Dysfonction sinusale | dégénérative       | ECG + Holter                | Si symptomes        |
-|                      | médicaments, vagal |                             |                     |
-| BAV                  | hyperkaliémie      | ECG +                       | BAV II symptom.     |
-|                      |                    | si paroxystique: Holter/EEP | BAV III non curable |
-| BdB                  | dégénérative       | ECG + EEG                   | Si symptômes        |
+| Type        | Causes             | Diagnostic         | Pacemaker           |
+|-------------+--------------------+--------------------+---------------------|
+| Dysfonction | dégénérative       | ECG + Holter       | Si symptomes        |
+| sinusale    | médicaments, vagal |                    |                     |
+| BAV         | hyperkaliémie      | ECG \pm Holter/EEP | BAV II symptom.     |
+|             |                    | si paroxystique    | BAV III non curable |
+| BdB         | dégénérative       | ECG + EEP          | Si symptômes        |
 ** 229 ECG
-| Hypertrophie atriale       | gauche : P > 0.12s (largeur)               | droite : P > 2.5mm (hauteur) |
-| Hypertrophie ventriculaire | gauche : $SV_1 + rV_5 > 35$ mm             | droite +110$^\circ$          |
-|----------------------------+--------------------------------------------+------------------------------|
-| BdB                        | gauche: QRS > 0.12s et (rS ou QS en $V_1$) | droite : QRS > 0.12s et RsR' |
-| Hémibloc                   | antérieur : $S_3 > S_2$                    | postérieur : $S_1Q_3$        |
-| BAV                        | I : PR > 0.2s , II : \inc PR               | III : aucun P                |
-| Angor                      | sous-ST                                    |                              |
-| IDM                        | sus-ST convexe (vers le haut)              |                              |
-| Péricardite aigüe          | sus-ST concave                             |                              |
+| Hypertrophie atriale       | gauche : P > 0.12s (largeur)   | droite : P > 2.5mm (hauteur) |
+| Hypertrophie ventriculaire | gauche : $SV_1 + rV_5 > 35$ mm | droite +110$^\circ$          |
+|----------------------------+--------------------------------+------------------------------|
+| BdB                        | gauche: QRS > 0.12s )          | droite : QRS > 0.12s         |
+|                            | et (rS ou QS en V_1)         | et RsR' en V_1               |
+| Hémibloc                   | antérieur : $S_3 > S_2$        | postérieur : $S_1Q_3$        |
+| BAV                        | I : PR > 0.2s , II : \inc PR   | III : aucun P                |
+| Angor                      | sous-ST                        |                              |
+| IDM                        | sus-ST convexe (vers le haut)  |                              |
+| Péricardite aigüe          | sus-ST concave                 |                              |
 Troubles supraventriculaire : FA (100-200/min), flutter atrial (300/min), tachy. atriale,
 tachy. jonctionnelle, extrasystole
 
@@ -180,7 +181,7 @@ Tachy sinusale (grossesse, hyperthyroïde, SAS, alcoolisme)
 ** 232 Insuffisance cardiaque
 Grave : 50% de DC à 5 ans
 
-EC : dypnée d'effort, signes d'IC droite[fn:14]
+EC : dyspnée d'effort, signes d'IC droite[fn:14]
 
 Examens : ECG, RX thorax, dosage BNP, /ETT/
 
@@ -190,15 +191,17 @@ IC aigüe \approx OAP : polypnée, sueurs, cyanose, expectorations "mousseuses
 saumon", crépitants \thus PEC immédiate \skull
 
 #+caption: Ttt insuffisance cardiaque
-| IC à FE < 40%     | diurétiques + IEC + \beta-bloquants[fn:15]. Si échec : ivabradine puis défibrillateur auto   |
-| IC à FE conservée | mal définie (idem ?)                                                                                |
-| OAP               | assis, furosémide, dérivés nitrés, HBPM                                                             |
+| IC à FE < 40%     | diurétiques + IEC + \beta-bloquants\footnotemark. |
+|                   | Si échec : ivabradine puis défibrillateur auto    |
+| IC à FE conservée | mal définie (idem ?)                              |
+| OAP               | assis, furosémide, dérivés nitrés, HBPM           |
+\footnotetext{Pas si crise aigüe ! \danger}
 
 ** 221 Hypertension artérielle
 3 catégories. Étiologies :
 - Essentielles (90%) 
-- Secondaire : néphropathie parenchym., HTA rénovasc., phéochromocytome, sd Conn,
-  coarctation aortiques, SAS, médicemants, HTA gravidique
+- Secondaire : néphropathie parenchym., HTA rénovasculaire, phéochromocytome, sd Conn,
+  coarctation aortiques, SAS, médicaments, HTA gravidique
 
 Examens : glycémie, cholestérol, kaliémie, créat, BU, ECG
 
@@ -210,7 +213,7 @@ FR : varices = âge, ATC, obésité, grossesse; MTEV = immobilisation, K, anomal
 
 Clinique : jambes lourdes[fn:17], dermite ocre, varices
 
-Examen : echo-doppler veinux des MI   
+Examen : echo-doppler veineux des MI   
 
 Ttt (non curatif) : contention, hygiène de vie, invasif
 ** 233 Péricardite aigüe
@@ -218,13 +221,13 @@ Douleur : thoracique, trinitro-résistant, \inc inspiration, \dec assis en avant
 
 Examens : ECG (4 phases[fn:18]), marqueurs de nécrose cardio, sd inflammatoire, /échocardio/
 
-Étiologie Péricardite aigüe virale, népolasiques, tuberculeuse surtout
+Étiologie : péricardite aigüe virale, néoplasiques, tuberculeuse surtout
 
 Ttt : AINS, colchicine
 
 Complications : tamponnade = urgence \skull (drainage/ponction)
 ** 327 Arrêt cardiocirculatoire
-   ABCD : maintien voies Aéoriennes, assistance respi (B), massage Cardiqaue,
+   ABCD : maintien voies Aéoriennes, assistance respi (B), massage Cardiaque,
    Défibrillation et Drogues
 
    Ttt : adrénaline 1mg/4min et après 2eme choc amiodarone (300mg dans 30mL)
@@ -247,17 +250,17 @@ Complications : tamponnade = urgence \skull (drainage/ponction)
 #+LATEX: \centering
 #+LATEX: \adjustbox{max width=\linewidth}{
 #+ATTR_LATEX: :center nil
-| Type              | Action                                                                | Indication                 | Dangers                         |
-|-------------------+-----------------------------------------------------------------------+----------------------------+---------------------------------|
-| Antiagrégants     | aspirine                                                              | AVC, coronaropathie        |                                 |
-|                   | /clopidogrel, prasugrel, ticagrelor/\tablefootnote{Inhibiteurs P2Y12} | SCA, post-angio coronaires | hémorr. cérébrale (prasugrel)   |
+| Type              | Action                                                                | Indication                 | Dangers                          |
+|-------------------+-----------------------------------------------------------------------+----------------------------+----------------------------------|
+| Antiagrégants     | aspirine                                                              | AVC, coronaropathie        |                                  |
+|                   | /clopidogrel, prasugrel, ticagrelor/\tablefootnote{Inhibiteurs P2Y12} | SCA, post-angio coronaires | hémorr. cérébrale (prasugrel)    |
 | Héparines         | HNF, HBPM, /fondaparinux/                                             | urgence : TVP, EP, SCA     | \danger hémorragie, thrompopénie |
-| Anti-vit. K       | Oral, relais héparine                                                 | FA, TVP, EP                | \danger hémorragie              |
-|                   |                                                                       | valve cardiaque            |                                 |
-| Nv anticoag oraux | /dabigatran, rivaroxaban, apixaban/                                   |                            | Surv. rein                      |
-|                   | rapide, 0 antidote                                                    |                            |                                 |
-| Thrombolytique    |                                                                       | EP grave, AVC < 6h30       |                                 |
-|                   |                                                                       | IDM < 6-12h                |                                 |
+| Anti-vit. K       | Oral, relais héparine                                                 | FA, TVP, EP                | \danger hémorragie               |
+|                   |                                                                       | valve cardiaque            |                                  |
+| Nv anticoag oraux | /dabigatran, rivaroxaban, apixaban/                                   |                            | Surv. rein                       |
+|                   | rapide,                                                               |                            | 0 antidote                       |
+| Thrombolytique    | /-kinase/, /-téplase/                                                 | EP grave, AVC < 6h30       |                                  |
+|                   |                                                                       | IDM < 6-12h                |                                  |
 #+LATEX: }
 #+end_table
 
@@ -1357,11 +1360,9 @@ compressives. II = idem + parenchyme. III = parenchyme seulement. IV = fibrose
 
 [fn:18] sus-ST concave, T plates, T négatives, normales
 
-[fn:17] Calmé par froid, surélévation, march
+[fn:17] Calmé par froid, surélévation, marche
 
 [fn:16] Hypoxie-hypocapnie
-
-[fn:15] Pas si crise aigüe ! \danger
 
 [fn:14] Turgescence jugulaire, reflux hépatojugulaire, HMG, \oe{}dème périph, ascite
 
