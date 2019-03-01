@@ -1,3 +1,5 @@
-Endocrino
+* Endocrino
 Acromégalie : test de freinage au glucose. Si diabétique, suivre cycle de GH sur
 3 ans (\ne gold standard, simplement un argument !)
+
+Acanthosis nigricans : monte insulino-résistance
