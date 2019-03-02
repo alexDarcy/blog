@@ -176,6 +176,7 @@
 #+latex_header_extra: \newacronym{CNSA}{CNSA}{Caisse nationale de solidarité pour l'autonomie}
 #+latex_header_extra: \newacronym{AAH}{AAH}{Allocation aux Adultes Handicapés}
 #+latex_header_extra: \newacronym{CDAPH}{CDAPH}{Commission des droits et de l'autonomie des personnes handicapées (départemental)}
+#+latex_header_extra: \newacronym{PAF}{PAF}{Polypose adénomateuse familiale}
 
 #+OPTIONS: H:5
 
@@ -7244,6 +7245,87 @@ Ttt : [[tab:hemorroïdes]]
 |              | , maladie trop importante | anopexie, ligatures sous Doppler | séquelles fonctionelles               |
 |              |                           |                                  |                                       |
 \footnotetext{Saignement++, douleur++fièvre, rétention urinaire } 
+** 286 Hernie pariétale
+Hernies inguinales ou crurales. Congénitale (enfant++) = obliques externes ou
+acquises = directes ou obliques externes
+
+***** Diagnostic
+Clinique = tuméfaction indolore, impulsive et expansive à la toux, /réductive/
+
+DD : lipomes, ADP inguinales, éventration, hydrocèles/kystel du cordon
+
+***** Complication
+Hernie étranglée = urgence chir \skull \: douleur brutale de l'aine,
+permenante et /irréductible/
+
+***** Ttt
+Chirurgie : si crurales, inguinale chez l'enfant [fn:27] ou
+douloureuse. Complications : hématome , infection \danger. 5% récidive
+
+** 287q 298 : Tumeurs du côlon, rectum
+*** Tumeurs bénignes
+***** Définition
+Polype = petite tumeur faisant saillie. Allure = sessile, pédiculé ou
+plan. Bénin ou malin. 
+
+Histologie : /polype adénomateux/ (cancer !), /lésion festonnées/ (cancer !), polypes
+  juvéniles, pseudo-polypes inflammatoires
+
+***** Évolution  
+Risque de K \inc si adénomes \ge 3, \ge 1 cm, dysplasie haut grade
+
+***** Diagnostic
+Coloscopie totale
+
+***** CAT
+Ablation (polypectomie endoscopique ou mucosectomie), sinon exérèse
+chir. Surveiller à 3 ans si adénomes
+
+***** Polyposes[fn:28] 
+- acrshort:PAF : 1% des CCR, mutation gène APC, 50% risque pour descendants. \ge
+  100 polypes. Prévention par colectomie totale (!). Adénome duodénaux fréquents
+- Polypose familale atténuée : pas transmission descendance, chir à discuter
+- Autres (rare++) : sd Peutz-Jeghers, sd Cowden, polypose juvénile
+*** Cancers (tumeurs adénocarcinomateuses ici)
+***** Épidémiologie
+3eme K le plus fréquent[fn:29], 2eme cause DC par K[fn:30]. 5% de la
+population. 40% rectum, 60% côlon. Âge du diagnostic 70ans.
+
+Survie : 90% stade I à 5 ans, 10% stade IV
+
+***** Dépistage
+Cf [[tab:depistage_CCR]]
+FR : alcool, tabac, sédantarité, 0 AP, surpoids, manque fibres`
+
+#+name: tab:depistage_CCR
+| Risque      | Critères                         | Dépistage               |
+|-------------+----------------------------------+-------------------------|
+| moyen       | > 50 ans                         | Test immunologique      |
+| élevé       | ATCD perso/familiaux adénome/CCR | Coloscopie tous 3-5ans  |
+|             | MICI, acromégalie                |                         |
+| très élevée | PAF, sd Lynch                    | Coloscopie tous 1-2 ans |
+
+_Sd Lynch_ : 3% des CCR. Chercher instabilité microsatellite, inactivation
+MMR. Risque cumulé de CCR 40-70% (\male et 20-50% homme), K endomètre possible
+
+NB : y penser si douleurs abdo/trouble transit intestinal récent, anémie
+ferriprive, méléna, rectorragie, AEG, tumeur abdo palable, HMG hétérogène,
+complication, endocardite àgremes digestifs, suspicion sigmoïdite
+
+***** Bilan pré-ttt
+Chercher autres lésions rectum et côlon, métastases viscérale (scanner TAP), Ag
+carcinoembryonnaire \pm TR et échoendoscopie rectale et IRM pelvienne si K rectum
+
+Classification TNM Chercher mutation RAS si métastase (chimio !)
+
+***** Ttt
+Sans métastases : 
+- K colon . exérèse \pm chimio
+- K rectum : conservatrice ou amputation rectum et anus \pm radiochimio preop
+Avec métastases : chimio puis chir ou chimio seule
+
+Suivi : {EC, écho abdo et ACE} tous 3 mois (pendant 2 ans) et RX pulmonaire
+annuelle (5 ans) et coloscopie (2 ans puis tous 5 ans)
 * Maladies infectieuses                                             
 #+BEGIN_EXPORT latex
 \input maladies_infectieuses
@@ -10861,6 +10943,14 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 
 * Footnotes
+
+[fn:30] Après poumon.
+
+[fn:29] Après sein et prostate.
+
+[fn:28] > 10 polypes
+
+[fn:27] > 6 mois
 
 [fn:26] Au bout de quelques années : douleurs quotidiennes, saignement abondant, procidence permanent
 
