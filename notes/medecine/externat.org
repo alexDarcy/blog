@@ -7213,6 +7213,37 @@ cf Tab [[tab:diverticulite_autres]]
  - étiologie (endoscopie digestive haute + rectosigmoïdoscopie) et diag
    (coloscopie totale/angioscanner). 
  - Ttt = hémostase/embolisation/chir
+** 285 Pathologie hémorroïdaire
+***** Épidémiologie
+1/3 des adultes. FR = 3e trimestre grossess, (post-)partum, troubles transit
+intestinal
+
+***** Diagnostic
+= symptômes[fn:25] + examen clinique seulement
+- symptômes (si précoce[fn:26]): 
+  - douleur : gêne, crise hémorroïdaire (2-4j, aspect congestif), thrombose
+    (douleurs++, thuméafction, 5-15j)
+  - hémorragies (per-/post défécation)
+  - procidence (4 stades)
+- EC : périanal, endoscope
+
+\danger : si symptômes isolés, penser aux DD : fissure anale, abcès, fécalome, herpès, proctalgie fugace
+
+Ttt : [[tab:hemorroïdes]]
+#+name: tab:hemorroïdes
+#+caption: Ttt des hémorroïdes
+| Ttt          | Quand ?                   | Technique                        | Suivi                                 |
+|--------------+---------------------------+----------------------------------+---------------------------------------|
+| local        |                           | HD : fibres, laxatif doux        |                                       |
+|              |                           | topiques anti-inflammatoires     |                                       |
+|              |                           | veineuxtoniques                  |                                       |
+| endoscopique | hémorragie++              | ligature++                       | \danger signes d'urgence\footnotemark |
+|              | procidence                |                                  |                                       |
+|              | retentissement général    |                                  |                                       |
+| chirurgical  | échec, maladies générale  | hémorroïdectomie pédiculaire++   | \danger idem                 |
+|              | , maladie trop importante | anopexie, ligatures sous Doppler | séquelles fonctionelles               |
+|              |                           |                                  |                                       |
+\footnotetext{Saignement++, douleur++fièvre, rétention urinaire } 
 * Maladies infectieuses                                             
 #+BEGIN_EXPORT latex
 \input maladies_infectieuses
@@ -10830,6 +10861,10 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 
 * Footnotes
+
+[fn:26] Au bout de quelques années : douleurs quotidiennes, saignement abondant, procidence permanent
+
+[fn:25] Non proportionnels à la gravité ! 
 
 [fn:24] Ne rien faire si non compliquée !
 
