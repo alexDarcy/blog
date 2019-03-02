@@ -6601,145 +6601,87 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
 **** Chirurgie
  Fundoplicature complète (Nissen)
 
-** 269 \dagger Ulcère gastrique et duodénal
-
+** 269 Ulcère gastrique et duodénal
 *** Ulcère gastrique et duodénal
- Déf: perte de substance en profondeur (jusque musculeuse). Chronique si socle
- scléro-inflammatoire
- - ulcères gastriques = altération des mécanismes de défense 
- - ulcères duodénaux = altération des mécanismes de défense ou hypersécrétion
+***** Déf
+perte de substance profonde. Altération des mécanismes de défense (G, D) ou hypersécrétion (D)
 
-**** Types
- - \bact{helicobacter} : 
-   - oro-orale/féco-orale, pendant l'enfance
-   - pays en voie de développement. Incidence \dec dans pays développés. 
-   - Gastrite aigüe \thus chronique. Complications (rare) : ulcère G ou D,
-     (adénocarcinome gastrique, lymphome)
- - AINS (inhibition de COX-1), aspirine faible dose
- - Sd Zollinger-Ellison : sécrétion tumorale de gastrine (exceptionnel)
- - Autre (20%) :  gastrotoxique, tabac, Chron, vascularite
- Autre facteur : génétique possible mais pas de stress, ni facteurs psycho
+***** Étiologies[fn:37] 
+- \bact{helicobacter} : transmission oro-orale/féco-orale, enfance,
+  pays voie dev++. Gastrite aigüe puis chronique. Complications rares (ulcère G ou D)
+- AINS aspirine faible dose
+- Autre (20%) : Sd Zollinger-Ellison, gastrotoxique, tabac, Crohn, vascularite
 
- Épidémio : 0.2% en France. Sex ratio H/F = 2 (UD) ou 1 (UG). 10% de mortalité
- des complications. 1/3 liés à l'aspirine/AINS
+***** Épidémio 
+0.2% en France. Sex ratio H/F = 2 (UD) ou 1 (UG). 10% de mortalité des complications. 1/3 liés à l'aspirine/AINS
 
-**** Diagnostic
- Symptômes :
- - typique : douleur épigastrique sans irradiation, crampe/faim. Calmée par
-   aliments/anti-acides. Rythmée par repas. Poussées de qq semaines avec périodes asymptomatiques
- - atypique (+ fréquent) : sous-costal/postérieur, hyperalgique/frustre, non
-   rythmé par l'alimentation
- - asymptomatique
- - complication inaugurale
+***** Diagnostic
+Symptômes typique : douleur épigastrique sans irradiation, crampe/faim. Calmée par
+   aliments/anti-acides. Rythmée par repas. 
+   
+\danger atypique fréquent, asymptomatique
 
- EC normal (si pas de complications)
-
- Endoscopie digestive haute[fn:hge17] :
- - perte de substance profonde, branchâtre, ovalaire, à bords régulieurs
- - gastrique : surtout antre. Biopsies systématiques
- - duodénal : buble, pas de biopsie de l'ulcère
+ Diag = /endoscopie digestive haute/[fn:hge17] (perte de substance profonde, blanchâtre, ovalaire, bords réguliers)
 
  \begin{tcolorbox}
- Quelque soit l'ulcère, biopsie de l'antre, angle et fundus pour \bact{helicobacter}
+ Quelque soit l'ulcère, toujours biopsie de l'antre, angle et fundus pour \bact{helicobacter}
  \end{tcolorbox}
 
- Recherche de \bact{helicobacter} :
- - biopsie gastrique = référence
- - autre : teste respiratoire à l'urée = contrôle d'éradication hors endoscopie
+ Recherche de \bact{helicobacter} : biopsie gastrique = référence
 
-
-**** DD
- - avant endoscopie : adénocarcinome/lymphome gastrique, douleur
+***** DD
+ - adénocarcinome/lymphome gastrique, douleur
    pancréatique/biliaire, insuffisance coronarien, péricardite, ischémie
    mésentérique, douleur vertébrale projetée, dypepsie non ulcéreuse
- - endoscopie : adénocarcinome, lymphome, Crohn
- - ulcère de stresse : en réa avec \ge 1 défaillance viscérale
+ - adénocarcinome, lymphome, Crohn
+ - ulcère de stress (réa)
 
-**** Complication
- - hémorragie digestive (fréquente) : à bas bruit ou aigüe, mortalité 10% \thus
-   endocscopie \pm hémostase
- - perforation ulcéreuse : plutôt en péritoine libre : douleur épigastrique en "coup de
-   poignard", choc, contracture épig. puis généralisée, cul-de-sac de Douglas
-   douloureux au TR, pneumopéritoine au scanner. CI à l'endoscopie \danger
- - sténose ulcéreuse (exceptionnelle) : clapotage gastrique à jeun, ondes
-   péristaltiques \thus évacuer stase puis diagnostic sur endoscopie
- - gastrite aigüe - atropie / métaplasie - dysplasie - cancer invasif
+***** Complications 
+- /hémorragie digestive/ (fréquente) : mortalité 10% \thus
+   endoscopie \pm hémostase
+- perforation ulcéreuse [fn:31] CI à l'endoscopie \danger
+- sténose ulcéreuse (exceptionnelle) : évac stase, troubles hydroélectriques, IPP[fn:36] 
+- gastrite aigüe - atropie / métaplasie - dysplasie - cancer invasif
 
+***** Traitement UGD non compliqué
+- \bact{helicobacter}
+  - éradication : 10j avec IPP + amoxicilline + clarithromycine[fn:32] si
+    sensible, sinon quadrithérapie[fn:33] 
+  - IPP en curatif avant éradication \pm 6 semaines en curatif après si besoin
+  - _Surveillance à +4 semaines_ par test respiratoire (UD) ou biopsie gastrique
+    (UG)[fn:34] 
+  - Chir exceptionnelle (vagotomie \pm hémostase)
 
-**** Traitement UGD non compliqué
- Associé à H. pylori 
- - éradication : 
-   - si sensibilité : IPP matin et soir et amoxicilline 10j et clarithromycine (ou
-     lévoflaxicine si résistance)
-   - sinon métronidazole, tétracycline, sous-citrate de bismuth et oméprazole
- - IPP en curatif avant éradication /et/ (6 semaines en curatif si ulcère ou AINS
-   ou persistance des douleur ou ulcèse GD compliqué) /et/ 6 semaines en préventif
- - Surveillance à +4 esmaines par teste respiratoire (UD) ou biopsie gastrique
-   (UG). 
-   - Si réussite : pas d'IPP long cours
-   - Si échec : quadrithérapie ou endoscopie et ABTgramme. Si échec : IPP long
-     cours
- - Chir exceptionnelle : ()éliminer sd Zollinger-Ellison) vagotomie \pm hémostase
-
- Induite par AINS/aspirine
- - curatif : 4 semaines (UD) ou 8 (UG). Maintenir IPP si AINS/aspirine
-   continué. Contrôle endoscopique
- - préventif si FR = > 6) ans, ATCD UGD, AINS avec antiagrégant/corticoïdes/anticoagulants
- Autre
- - éliminer Zollinger-Ellison, Crohn, lymphome, K gastrique
- - UD = IPP 4 semaines \pm IPP long cours
- - UG = IPP 4-8 semaines \pm IPP voire chir si échec
-
-
-**** Traitement UGD compliqué :
- - Hémorragique, perforcé : ch chap "Hémorragie digestive", "Péritonite aigüe"
- - Sténose ulcéreuse pylorobulbaire :
-   - évacuer stage, correction torubles hydroélectriques, IPP
-   - si échec : dilatation sténose et endoscopie. Si échec : chir
+- Induite par AINS/aspirine
+  - curatif : IPP 4 semaines (UD) ou 8 (UG). Maintenir IPP si besoin _Contrôle endoscopique_
+  - préventif si FR = > 65 ans, ATCD UGD, AINS avec antiagrégant/corticoïdes/anticoagulants
+- Autre[fn:35] 
+  - UD = IPP 4 semaines \pm IPP long cours
+  - UG = IPP 4-8 semaines \pm IPP voire chir si échec
 
 *** Gastrite
- Définition : atteinte inflammatoire
+***** Définition 
+Atteinte inflammatoire. Pas de corrélation histologie - symptômes
 
- Pas de corrélation histologie - symptômes
+***** Chronique à \bact{helicobacter}++
+20-50% population. 
 
-**** Chronique à \bact{helicobacter}
- 20-50% population. Évolution selon :
- - sujet hypersécréteur : gastrite antrale, risque UD
- - sujet hyposécréteur : pangastrite, risque UG, adénocarcinem gastrique
- - lymphome gastrique MALT
- Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
+Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
 
-**** Chronique de mécanisme immunitaire
- - Auto-immune : si atrophie fundique sévère : 
-   - carence facteur intrinsuqèe \thus
-     anémie macrocytaire arégénérative, glossite, neuro
-   - carence martiale
-   - risque adénocarcinome, tumeurs endocrine \thus surveillance 3 ans si < 70
-     ans et bon état général
-   - corriger carence B12 et fer
- - Lymphocytaire : souvent asymptomatique
- - Granulomateuse : granulomes épithélioïdes
- - À éosinophiles
- - Avec maladie de Crohn (30% des atteints)
+ Évolution : gastrite antrale/UD (si hypersécrétion) ou pangastrite/UG/adénocarcinome gastrique (si hyposécréteur) ou lymphome gastrique MALT
 
-**** Gastrite aigüe
- - \bact{helicobacter}
-   - immédiatement après contaminale, souvent asymptomatique, lésions de l'antre.
-   - Diag = biopsie : \bact{helicobacter}, PNN
- - Phlegmoneuse : exceptionnelle, ID
- - Virale : ID
+***** Chronique de mécanisme immunitaire
+ - Auto-immune : possible carence facteur intrinsèque[fn:38]/martiale,
+   adénocarcinome/tumeurs endocrine \thus corriger carence B12 et fer
+ - Autres : lymphocytaire, granulomateuse, à éosinophiles, avec maladie de Crohn 
 
+***** Gastrite aigüe
+ - \bact{helicobacter} : diag = biopsie (bact{helicobacter}, PNN)
+ - Autres : phlegmoneuse, virale (ID)
 
-**** DD
- - Gastropathie induite par AINS
- - Gastropathie chimique : excès d'alcool, post-gastrectomie (reflux)
- - Gastropathie congestive : hypertension portale ou ectasies vasculaires
-   atnrales
- - Gastropathies hypertrophiques : échoendoscoie si muqueuse épaissie
-   - maladie de ménétrie (exceptionnelle, étiologie inconnue) : exsudative, sd
-     \oe{}démateux
-   - sd de Zollinger-Ellison
- - Gastropathie radique (> 45 Gy) : multiples biopsies, chronicité possible
+***** DD
+     AINS, alcool, hypertension portale (congestion), hypertrophiques, radiques
+
 
 ** 270 \dagger Dysphagie
  Déf : sensation de gêne/obstacle à la progression du bol alimentaire
@@ -10943,6 +10885,24 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 
 * Footnotes
+
+[fn:38] \thus anémie macrocytaire arégénérative, glossite, neuro
+
+[fn:37] Génétique possible mais pas de stress, ni facteurs psycho
+
+[fn:36] Dilatation voir chir si besoin
+
+[fn:35] Après avoir éliminé Zollinger-Ellison, Crohn, lymphome, K gastrique
+
+[fn:34] Si échec, quadrithérapie /ATBgramme. Si échec : IPP long cours
+
+[fn:33] Métronidazole, tétracycline, sous-citrate de bismuth et oméprazole
+
+[fn:32] Ou lévoflaxicine
+
+[fn:31] Plutôt en péritoine libre : douleur épigastrique en "coup de
+   poignard", choc, contracture épig. puis généralisée, cul-de-sac de Douglas
+   douloureux au TR, pneumopéritoine au scanner. 
 
 [fn:30] Après poumon.
 
