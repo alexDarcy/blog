@@ -4919,7 +4919,7 @@ sulfonylurée : glucose en perfusion)
  vasculaire, spécifiques = {profil vasculaire (rétine), fibrose (rein)}
 
 **** Rétinopathie diabétique 
-Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
+Cf [[retinopathie_diabetique][chap 21 d'ophtalmo]]
 **** Néphropathie
  Diabète = 1ere cause d'insuf rénale terminale. Diabète 2 = $\frac{3}{4}$
  diabétiques dyalisé. Risque CV x10 (D1), x3 (D2). Décès insuf rénale terminale
@@ -5867,7 +5867,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  |                  | trouble apprentissage, comm. | Pas de seins ?             | Pas de dev. sexuel secondaire         |
  |                  |                              |                            |                                       |
 
-* HGE                                                                :export:
+* HGE                                                                
 ** 74 Addiction à l'alcool
  Non-usage, usage simple, mésusage (/risque/, /nocif/, /dépendance/): 
 
@@ -7322,8 +7322,7 @@ suivi], bupropion), thérapies cognitivo-comportementales, cigarette
 électronique\\
 Sevrage : réussi si \(\ge 1\) an
 
-
-** 108 - Troubles du sommeil                                 :export:
+** 108 - Troubles du sommeil                                 
 ***** Définitions
 SAOS =
 - somnolence diurne non expliquée 
@@ -7344,6 +7343,7 @@ Suspicion clinique, confirmation par polygraphie
   somnolence excessive (questionnaire d'Epworth)
 - examen : IMC, obésité abdo (\(\ge\) 94 cm \male, 80cm \female), ORL[fn:194], CV, respi
 - polygraphie [fn:195] ou polysomnographie[fn:196] (cher++)
+- faire aussi EFR (dépistage BPCO) et gaz du sang (complications BPCO + SAOS)
 DD : hypersomnie diurne (insomnie, sd dépressif, sédatif, hygiène de sommeil, neuro)
 ***** Traitement
 - Général : PEC\footnote{prise en charge} surpoids, éviction {benzodiazépines, myorelaxants, morphiniques}, PEC CV
@@ -7353,7 +7353,6 @@ DD : hypersomnie diurne (insomnie, sd dépressif, sédatif, hygiène de sommeil,
 - Sd d'apnée de type central : IC sévère, atteinte tronc cérébral, séjour altitude, morphiniques
 - Hypoventilation alvéolaire : Traitement = VNI
 - Sd obésité hypoventilation[fn:197] : Traitement = VNI
-
 
 ** 151 \dagger - Infections broncho-pulmonaires communautaires
 *** Bronchite aigue
@@ -7429,7 +7428,6 @@ Pneumocystose pulmonaire :
 - ATB cotrimoxazole 21j
 
 
-
 ** 180 \dagger - Accidents du travail
 Maladie professionnelle = lente, prolongée (\(\neq\) accident du travail)
 *** Maladies
@@ -7474,7 +7472,6 @@ Indemnité\footnote{Pour l'amiante : caisse d'assurance malaide ou FIVA}
 - 60% salaire si < 28 jours, 80% sinon
 - si séquelles, selon taux incapacité permanente : capital (< 10%), rente
   (> 10%), rentre et autres (> 40%)
-
 
 ** 182 \dagger - Hypersensibilités et allergies respiratoires
 \label{sec:182_hypersensibilites_et_allergies_respiratoires}
@@ -7598,7 +7595,6 @@ ES :
 - syndromique (asthme, rhinite, urticaire) = alerte
 - générale (hypotensions, bronchospasme, choc anaphylactique) =
   interruption
-
 
 
 ** 184 \dagger - Asthme, rhinite
@@ -7753,7 +7749,6 @@ Sévère si persistant (> 4 semaines/an) et retentissement qualité de vie
 TDM
 
 Ttt : laval nasal, allergie, antihistaminique/corticoïdes nasaux, tabac, stress
-
 
 ** 188 \dagger, 189 Pathologies auto-immunes
 \label{sec:pathologies_auto_immunes}
@@ -8095,121 +8090,63 @@ Embolisation artérielle bronchique
 
 Chir si localisé, fonction respi OK et "à froid"
 
-** 202 \dagger Épanchement pleural
-\label{sec:epanchement_pleural}
-
-*** Diagnostic
-Suspicion clinique :
-
-- douleur thoracique, dyspnée, toux sèche, hyperthermie
-- sd pleural liquidien (silence auscult, matité, $\emptyset$ transmission
+** 202 Épanchement pleural                                   :export:
+***** Diagnostic 
+Suspicion clinique, confirmé par imagerie
+- douleur thoracique /dépendant de la respiration/, dyspnée, toux sèche /au
+  changement de position/, hyperthermie
+- examen : sd pleural liquidien (silence auscult, matité, $\emptyset$ transmission
   corde vocales, souffle pleurétique)
+- \danger Signes de gravité : détresse respi, choc septique, choc hémorragique
+Imagerie
+- RX : opacité dense, homogène, non sytématisé, limité par ligne concave[fn:198] 
+- échographie pleurale (différencie pleurésie et collapus, guide ponction)
+- TDM : en urgence si embolie pulmonaire ou hémothorax
 
-Signes de gravité : détresse respi, choc septique, choc hémorragique
+***** Causes
 
-Confirmation imagerie
+/Transsudats (protides < 25g/L)/ : IC G, cirrhose, sd néphrotique, atélectasie (EP)
 
-- radio : opacité dense, homogène, non sytématisé, limité par ligne
-  concave (DD atélectasie : médiastin dévié vers l'opacité). \\
-  Cas difficiles : profil, sous pulmonaire, cloisonnés
-- échographie : cloisonné, différencie pleurésie et collapus, guide ponction
-- TDM en urgence si embolie pulmonaire ou hémothorax
+/Exsudats (protides > 35 g/L)/[fn:200] 
+Cf tab [[tab:pleural_exsudat]]
+#+name: tab:pleural_exsudat
+#+caption: Étiologies des exsudats (néoplasique, infectieux)
+| Catégorie    | Cause                    |                                            | CAT                                                                                                                        |
+|--------------+--------------------------+--------------------------------------------+----------------------------------------------------------------------------------------------------------------------------|
+| Néoplasiques | pleurésie métastatique++ | poumon, sein, \oe{}sophage, colon          | scanner, biopsie aveugle/vue                                                                           biopsie aveugle/vue |
+|              | mésothéliome             | exposition amiante                         | biopsie++ (thorascopie++)                                                                                                  |
+|              |                          | RX: épaississement pleural circonférentiel |                                                                                                                            |
+|              |                          | , rétraction hémithorax                    |                                                                                                                            |
+| Infectieux   | bactérien                |                                            | ATB \pm évacuation si compliqué\tablefootnote{Épanchement abondant, germes, liquide purulent}                              |
+|              | virale                   |                                            |                                                                                                                            |
+|              | tuberculose              | progressif, amaigrissement                 | biopsie pleurale++                                                                                                         |
 
-
-*** Causes
-**** Transsudats (protides < 25g/L)
-
-- insuf. cardiaque G
-- cirrhose
-- sd néphrotique
-- atélectasie
-- embolie pulmonaire
-
-**** Exsudats (protides > 35 g/L)
-/Néoplasiques/
-
-- métastatique : liquide sérohématique/rosé/citrin, cytodiagnostic +
-  biopsie (aveugle/vue) sauf si cancer connu
-- mésothéliome
-  
-  - exposition amiante
-  - imagerie : épaississement pleural diffus, circonférentiel
-  - liquide citrin/sérohématique
-  - biopsie sous thorascopie++
-  
-/Infectieux/ 
-
-- parapneumoniques (=bactérien) 
-  
-  - non compliqués (liquide clair, pas de germe) : ATB
-  - compliqué : ATB + évacuation liquide
-  
-- virale
-- tuberculeuse : progressif, fièvre modérée, amaigrissement. Exsudat riche
-  en proténie. Biopsie++ (aveugle/vue)
+Autres : EP, bénigne liée à l'amiante (exclusion++), post trauma (rupture
+oesophagienne, sous-diaphragme), systémique (lupus, polyarthrite rhumatoide)
 
 
-/Autres/  :
+***** Ponction 
+En majorité (sauf si peu abondant et insuf cardiaque G[fn:199] ). En urgence si
+fébrile, hémothorax ou mauvaise tolérance. Tout évacuer seulement si étiologique ou non cloisonné
 
-- embolie pulmonaire
-- bénigne liée à l'amiante (exclusion++)
-- post trauma, rupture oesophagienne, sous-diaphragme
-- systémique : lupus, polyarthrite rhumatoide
+***** Biologie 1ere intention
+Biochimie (trans- ou exsudat), cytologie (cf [[tab:etio_exsudat]]), recherche germes pygènes, mycobactéries
 
-
-*** Ponction
-Qui ? Majorité sauf si peu abondant et insuf cardiaque G (sauf si
-unilat/asymétrique ou douleur pleurale/fièvre ou traitement insuffisant)
-
-Quand ? Urgence si fébrile, hémothorax ou mauvaise tolérance
-
-Tout le liquide ? Si étiologique ou non cloisonné
-
-**** Biologie
-1ère intention :
-
-- biochimie
-  
-  - transsudat si protide < 25g/L ou critère de Light\footnote{
-(LDH > 200 UI/L) ou (protides pleuraux/sérique > 0.5) ou (LDH
-pleuraux/sérique > 0.6)} faux
-  - exsudat si protide > 35g/L ou critère de Light vrais
-  
-- cytologie (cf tableau)
-- recherche germes pygènes, mycobactéries
-
-
-2eme intention :
-
-- trauma $\wedge$ hématocrite pleural/sanguin > 0.5 \thus probable
-  hémothorax (urgence \danger)
-- amylase pleurale si pancréatique et sous-phrénique
-- si triglycéride > 1.1g/L \thus chylothorax
-
-
-\begin{table}[htpb]
-  \centering
-  \caption{Épanchements pleuraux avec exsudats : étiologies}
-  \label{tab:label}
-  \begin{tabular}{lllll}
-    \toprule
-    & Cellules tumorales & Neutrophiles & Lymphocytes & Éosinophiles\\
-    \midrule
-    Néoplasique & Métastasique &  & Cancer & Cancer\\
-    & Mésothéliome &  & Lymphome & \\
-    & Hémopathies malignes &  &  & \\
-    \midrule
-    Infectieux &  & Parapneumonique & Tuberculose & Parasitose\\
-    \midrule
-    Autres &  & Embolie pulmonaire & Sarcoïdose & Hémothorax\\
-    &  & Pancréatite & Chylothorax & Pneumothorax\\
-    &  & Sous-phrénique & PR, lupus & Embolie pulmonaire\\
-    &  & Oesophage &  & Asbestosique bénigne\\
-    &  &  &  & Médicament\\
-    \bottomrule
-  \end{tabular}
-\end{table}
-
+#+name: etio_exsudat
+#+caption: Épanchements pleuraux avec exsudats : étiologies
+|             | Cellules tumorales   | Neutrophiles       | Lymphocytes | Éosinophiles         |
+|-------------+----------------------+--------------------+-------------+----------------------|
+| Néoplasique | Métastasique         |                    | Cancer      | Cancer               |
+|             | Mésothéliome         |                    | Lymphome    |                      |
+|             | Hémopathies malignes |                    |             |                      |
+|-------------+----------------------+--------------------+-------------+----------------------|
+| Infectieux  |                      | Parapneumonique    | Tuberculose | Parasitose           |
+|-------------+----------------------+--------------------+-------------+----------------------|
+| Autres      |                      | Embolie pulmonaire | Sarcoïdose  | Hémothorax           |
+|             |                      | Pancréatite        | Chylothorax | Pneumothorax         |
+|             |                      | Sous-phrénique     | PR, lupus   | Embolie pulmonaire   |
+|             |                      | Oesophage          |             | Asbestosique bénigne |
+|             |                      |                    |             | Médicament           |
 
 ** 203 \dagger Opacités et masses thoraciques
 \label{sec:203_opacites_et_masses_thoraciques}
@@ -8425,7 +8362,7 @@ Irréversible, risque = insuf. respi aigüe (surtout causée par insuf. respi. b
 cardiaque G, EP)
 
 
-** 205 BPCO :export:
+** 205 BPCO 
 
 ***** Épidémio
 \inc dans le monde. 
@@ -9467,7 +9404,7 @@ endobronchique (90%)
 **** Extraction
 Bronchoscopie rigide (ou souple). Chez l'enfant, centre spécialisé !
 
-** 354 \dagger Détresse respiratoire aigüe                           :export:
+** 354 \dagger Détresse respiratoire aigüe                           
 <<detresse_respiratoire>>
 
 Définition : Inadéquation charge - capacité de l'appareil respiratoire
@@ -10672,6 +10609,7 @@ plaie du cristallin
  - non artéritique : pas de ttt efficace
   
 ** 21 \dagger Rétinopathie diabétique
+<<retinopathie_diabetique>>
  Diabète = défini par risque d'une rétinopathie. Complications dont on peut éviter la
  cécité !
 
@@ -10818,6 +10756,13 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:200] Ou critère de Light : (LDH > 200 UI/L) ou (protides pleuraux/sérique > 0.5) ou (LDH
+pleuraux/sérique > 0.6)
+
+[fn:199] Sauf si unilat/asymétrique ou douleur pleurale/fièvre ou traitement insuffisant)
+
+[fn:198] DD atélectasie : médiastin dévié vers l'opacité
 
 [fn:197] (PaCO_2 > 45 mmHg) et PaO_2 < 70 mmFg) et (IMC > 30 kg/m^2 sans d'autre cause. 
 

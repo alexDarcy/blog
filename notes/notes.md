@@ -5,16 +5,11 @@
 - Cardiologie
 - Douleur (ébauche)
 - Endocrinologie
-- HGE
+- HGE (en cours)
 - Maladies infectieuses
 - Neurologie
 - Pneumologie
 - Ophtalmologie
-
-Une version suprasynthétique [est ici](medecine/superfiche.pdf)
-
-Autres : [nutrition](medecine/nutrition.pdf) (ébauche)  
-
 
 ## Histoire
 
