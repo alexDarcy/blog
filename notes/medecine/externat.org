@@ -178,6 +178,7 @@
 #+latex_header_extra: \newacronym{CDAPH}{CDAPH}{Commission des droits et de l'autonomie des personnes handicapées (départemental)}
 #+latex_header_extra: \newacronym{PAF}{PAF}{Polypose adénomateuse familiale}
 #+latex_header_extra: \newacronym{BPCO}{BPCO}{Bronchopneumopathie chronique obstructive}
+#+latex_header_extra: \newacronym{VNI}{VNI}{Ventilation non invasive}
 
 #+OPTIONS: H:5
 
@@ -7322,77 +7323,36 @@ suivi], bupropion), thérapies cognitivo-comportementales, cigarette
 Sevrage : réussi si \(\ge 1\) an
 
 
-** 108 \dagger - Troubles du sommeil
-*** Définitions
-\danger Sd d'apnées hypopnées obstructives du sommeil (SAOS) = profil "en peigne"\\
-Sd d'apnées centrales = désat profondes et soutenus
+** 108 - Troubles du sommeil                                 :export:
+***** Définitions
+SAOS =
+- somnolence diurne non expliquée 
+- /ou/ 2 parmi {ronflements, étouffement, éveils répétés, sommeil non réparateur, fatigue diurne, trble concentration, nycturie)}
+- /et/ IAH[fn:191] \ge 5 [fn:192] 
+NB: Apnée obstructive (arrêt débit), centrale (idem, _sans_ efforts ventilatoires) ou mixte
 
-Apnée : 
+***** Épidémiologie
+2% des \female, 4% des \male.
 
-- obstructive : arrêt débit \(\ge\) 10s + efforts ventilatoires
-- centrale : idem, sans efforts ventilatoires
-- mixte = obstructive et centrale
-
-Hypopnée = (diminution ventilation \(\ge\) 10 s) et ((débit -50%) ou (désat
-transcut \(\ge\) 3%) \textpm{} microéveil)
-
-SAOS = (somnolence diurne non expliquée ou (2 parmi : ronflements, étouffement,
-éveils répétés, sommeil non réparateur, fatigue diurne, trble concentration,
-nycturie)) \(\wedge{}\)  IAH\footnote{Index d'Apnées et Hypopnées (nb par heure)} \(\ge\) 5\\
-Sévère si IAH \(\ge\) 30.
-*** Épidémiologie
-2 millions en France.
 FR : obésité, homme, âge, anomalie voie aériennes supérieures. 
-Comorbidités :
 
-- neuropsy + accidents (risque x2)
-- CV : HTA, insuf. coronaire, cardiaque, ACFA
-- sd métabolique\footnote{Obésité abdo et (2 parmi : HTA, glycémie \(\ge\) 5.6 mmol/L,
-    HDL bas, hypertriglycéridémie)}
-- diabète
-- dyslipidémie
+Comorbidités : /somnolence diurne excessive/, HTA, AVC, maladie coronaire, sd
+métabolique [fn:193], diabète, dylipidémie
+***** Diagnostic
+Suspicion clinique, confirmation par polygraphie 
+- clinique : nuit = {ronflements, pause respi, étouffement, nycturie}, journée =
+  somnolence excessive (questionnaire d'Epworth)
+- examen : IMC, obésité abdo (\(\ge\) 94 cm \male, 80cm \female), ORL[fn:194], CV, respi
+- polygraphie [fn:195] ou polysomnographie[fn:196] (cher++)
+DD : hypersomnie diurne (insomnie, sd dépressif, sédatif, hygiène de sommeil, neuro)
+***** Traitement
+- Général : PEC\footnote{prise en charge} surpoids, éviction {benzodiazépines, myorelaxants, morphiniques}, PEC CV
+- /Pression positive continue/. Sinon : orthèse d'avancée mandibulaire, voire chir
 
-
-NB : obstruction \gls{VAS} dûe à {réduction \diameter, \nearrow{} collapsibilité,
-  \searrow{} efficacité muscles dilatateurs}
-*** Diagnostic
-**** Clinique :
-
-- nocturne = ronflements, pause respi, étouffement, nycturie
-- diurne = somnolence excessive (questionnaire d'Epworth)
-
-DD : hypersomnie diurne (insomnie, sd dépressif, sédatif, hygiène de sommeil,
-neuro)
-**** Examen
-
-- IMC, obésité abdo (\(\ge\) 94 cm \male, 80cm \female)
-- ORL
-- CV, respi
-
-**** Complémentaire
-(EFR et imagerie optionnels)
-Saturation transcut en O\(_{\text{2}}\) possible.\\
-Référence = enregistrement polygraphique ventilatoire (ou polysomnographique
-mais cher++)
-*** Traitement
-Général : PEC\footnote{prise en charge} surpoids, éviction {benzodiazépines,
-myorelaxants, morphiniques}, PEC CV
-
-Spécifique :
-
-- Pression positive continue = 1ere intention
-- Orthèse d'avancée mandibulaire = 2eme
-- Autres : orthèse anti-décubitus dorsal, chirurgie = {vélo-amygdalienne,
-  avancée maxillo-mandibulaire (lourd++), nasale}
-
-*** Autres
-
-- Sd d'apnée de type central : cause = {insuf. cardiaque sévère (traitement !),
-    atteinte tronc cérébral, séjour altitude, morphiniques}
-- Hypoventilation alvéolaire : aggravation de l'état de veille. Traitement =
-  VNI\footnote{ventilation non invasive}
-- Sd obésité hypoventilation : (PaCO\(_{\text{2}}\) > 45 mmHg) et (PaO\(_{\text{2}}\) < 70 mmFg) et
-  (IMC > 30 kg/\(m^2\)), pas d'autre cause. Traitement = VNI
+***** Autres
+- Sd d'apnée de type central : IC sévère, atteinte tronc cérébral, séjour altitude, morphiniques
+- Hypoventilation alvéolaire : Traitement = VNI
+- Sd obésité hypoventilation[fn:197] : Traitement = VNI
 
 
 ** 151 \dagger - Infections broncho-pulmonaires communautaires
@@ -10858,6 +10818,21 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:197] (PaCO_2 > 45 mmHg) et PaO_2 < 70 mmFg) et (IMC > 30 kg/m^2 sans d'autre cause. 
+
+[fn:196] Enregistre en plus EEG, électro-oculogramme, EMG muscles houppe du menton 
+
+[fn:195] Flux naso-buccal, mouvement thoraco-abdominaux, capteur de son, SpO_2, ECG 
+
+[fn:194] Rétrognathisme, macroglossie, hypertrophie du palais mou ou des
+amygdales, obstruction nasale 
+
+[fn:193] Obésité abdo et (2 parmi : HTA, glycémie \(\ge\) 5.6 mmol/L, HDL bas, hypertriglycéridémie)
+
+[fn:192] Sévère si IAH \(\ge\) 30.
+
+[fn:191] Index d'Apnées et Hypopnées (nb par heure)
 
 [fn:190] Mais souvent pas de facteur précis
 
