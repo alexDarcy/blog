@@ -177,6 +177,7 @@
 #+latex_header_extra: \newacronym{AAH}{AAH}{Allocation aux Adultes Handicapés}
 #+latex_header_extra: \newacronym{CDAPH}{CDAPH}{Commission des droits et de l'autonomie des personnes handicapées (départemental)}
 #+latex_header_extra: \newacronym{PAF}{PAF}{Polypose adénomateuse familiale}
+#+latex_header_extra: \newacronym{BPCO}{BPCO}{Bronchopneumopathie chronique obstructive}
 
 #+OPTIONS: H:5
 
@@ -497,7 +498,7 @@ Athérome : risque = fracture de plaque \thus (thrombose) mort subite/IDM, angor
 instable
 
 **** Diagnostic
-Douleur angineuse[fn:7]
+Douleur angineuse[fn:2]
 
   - typique : rétrosternal en barre horizontale, irradiant (épaules,
     avant-bras, poignet, machoîres), constrictive, angoissante, *à l'effort*, 
@@ -518,7 +519,7 @@ Exaen clinique souvent négatif mais chercher souffle aortique, souffle vasc, HT
   - Échocardiographie d'effort ou dobutamine. /Mêmes indication que scinti/ 
   - IRM de stress : rare
   - Coronarographie (parfois + ventriculographie) : sténose si > 70%
-    lumière. Invasif, complications rare. /Si angor suspecté et examen d'ischémie positif/[fn:8]
+    lumière. Invasif, complications rare. /Si angor suspecté et examen d'ischémie positif/[fn:3]
   - Scanner coronaire : non recommandé
 
 
@@ -529,7 +530,7 @@ graves, fibrillation auriculaire rapide, HTA repos > 220/120mmHg
 
   - angor classe 3/4
   - ischémie pour charge/fréquence cardiaque faible, baisse PA à l'effort
-  - plusieurs segments ischémique, fraction d'éjection < 40%[fn:cardio_1]
+  - plusieurs segments ischémique, fraction d'éjection < 40%[fn:4]
   - lésions pluritronculaires, tronc coronaire G, \gls{IVA} proximale
 
 
@@ -814,7 +815,7 @@ Y penser si douleur thoracique, dyspnée, radio normale \skull
   - 2 tableaux
     
       - infarctus pulmonaire : douleur basithoracique, hémoptysie noire
-      - c\oe{}ur pulmonaire aigü[fn:9] : dyspnée, défaillance ventriculaire
+      - c\oe{}ur pulmonaire aigü[fn:7] : dyspnée, défaillance ventriculaire
     
   - EC : parfois thrombose veineuse
   - radio normale
@@ -1115,7 +1116,7 @@ Para clinique
   - ECG longtemps normal. hypertrophie OG, VG, VD, fibrillation atriale, 
   - Radio thorax : normale si $\le$ modérée. cardiomégalie, dilatation OG,
     HTAP
-  - /ETT/ référence (et ETO). Sévérité côtée en 4 grades[fn:10] (Vérifier la
+  - /ETT/ référence (et ETO). Sévérité côtée en 4 grades[fn:8] (Vérifier la
     tricuspide)
   - Cathétérisme : coronarographie seulement en pré-op si \male > 40 ans ou
     \female{} monopausée avec FR
@@ -1261,7 +1262,7 @@ Quand faire la chir ?
   - Prothèses mécaniques : double ailette, à vie, anticoagulant à vie
     (risque thrombose)
   - Biologiques : pas d'anticoagulant, chez > 65 ans (aortique) ou > 70
-    (mitrale) [faible durée de vie[fn:cardio_2]].
+    (mitrale) [faible durée de vie[fn:9]].
 
 Risque majeur d'EI $\forall$ prothèse !
 
@@ -1339,7 +1340,7 @@ Hémocultures positives (90%)
 Hémocultures négatives :
 
    - ATB
-   - croissante lente : HACEK[fn:21], Brucella, champignons
+   - croissante lente : HACEK[fn:10], Brucella, champignons
    - intra-cellulaire : \bact{burnetii}, Chlamydia, Bartonella,
      \bact{whipplei}
 
@@ -2815,10 +2816,10 @@ Enfant handicapé : orientation par MDPH (via CDAPH)
  OS, injectable (limiter à 48h !) ou pommade/gel
 
  Effets indésirables :
- - digestif [fn:douleur2]: 
+ - digestif [fn:21]: 
    - mineur : nausées, vomissements, gastralgies, douleurs abdo
    - grave : ulcère, perforation digestive, hémorragie
-   - autres : ulcère oesophagien[fn:douleur1], aggravation diverticulose,
+   - autres : ulcère oesophagien[fn:22], aggravation diverticulose,
      anorectites/brûlures anales
    - FR : { > 65 ans, ATCD ulcère/hémorragie dig, infection \bact{helicobacter},
      maladie générale sévère}, {+ AINS, + corticoïdes, +anticoag/agrégants,
@@ -2854,7 +2855,7 @@ Enfant handicapé : orientation par MDPH (via CDAPH)
  - 1-2 comprimés toutes 6-8h
   
  Tramadol : 
- - seul, libération prolongée (LP) sur 12h [fn:douleur3] ou immédiate (LI)[fn:douleur4]
+ - seul, libération prolongée (LP) sur 12h [fn:23] ou immédiate (LI)[fn:24]
  - max 400mg/j.
  - IV lente seulement en hôpital
 
@@ -2862,7 +2863,7 @@ Enfant handicapé : orientation par MDPH (via CDAPH)
 
  Contre-indications : insuf respiratoire, asthme grave, insuf hépatocellulaire
  sévère, enfants < 12 ans [codéine] ou 3 ans [tramadol], allaitement, épilepsie
- non contrôlé [tramadol], +(ant)agoniste morphinique, +IMAO[fn:douleur5] [tramadol].
+ non contrôlé [tramadol], +(ant)agoniste morphinique, +IMAO[fn:25] [tramadol].
 
  Effets indésirables :
  - ceux des opioïdes = sédation, vertige, {constipation, nausées, vomissements},
@@ -2901,21 +2902,21 @@ Enfant handicapé : orientation par MDPH (via CDAPH)
  - Constipation (fréquent !):
   - préventif = laxatif oral systématique, hygiéno-diététique, oxycodone et
     naloxone
-  - curatif : \inc laxatif, fécalome ?, ttt rectal.[fn:douleur6] 
+  - curatif : \inc laxatif, fécalome ?, ttt rectal.[fn:26] 
  - Nausées, vomisseements(fréquent !):
   - préventif : anti-émétique
   - curatif : neuroleptique action centrale, corticoïdes, sétrons, droperidol
  - Somnolence : \dec dose ou rotation
  - Dépression respi (FR < 10min) : réa et naloxone
  - Trouble s confusionnels, cognitifs : \dec doses, rotation
- - Dysurie, rétention :[fn:douleur7] \dec doses, sondage, chercher médicaments favorisants
+ - Dysurie, rétention :[fn:27] \dec doses, sondage, chercher médicaments favorisants
  - Prurit : antihsistaminique, rotation
   
  Dépendance : pyschologique (recherche compulsvie), physique (sd sevrage)
 
 **** Surdosage
  Somnolence, respi irrégulière, FR < 10/min
- Échelle de sédation (0 à 3)[fn:douleur8], de qualité de respiration (R0 à R3)[fn:douleur9]
+ Échelle de sédation (0 à 3)[fn:28], de qualité de respiration (R0 à R3)[fn:29]
 
  Réat et injection narcan (naloxone) : 0.4mg par dose de 0.04mg/2min jusque R1/R0
 
@@ -3019,7 +3020,7 @@ Neuropsy :
  (Minidril)
 
 *** Efficacité
- Indice de Pearl[fn:endocrino1] < 0.07% pour oestroprogestatif
+ Indice de Pearl[fn:30] < 0.07% pour oestroprogestatif
  (< 2% pour les microprogestatifs)
 
  Attention : certains inducteurs enzymatiques réduisens l'efficacité (ou
@@ -3098,7 +3099,7 @@ Neuropsy :
    galactorrhé provoqué, gynéco.
    - Si anovulation (a/oligo-ménorrhée) : hyperprolactinémie, hyperandrogénie,
      troubles comportement alimentaire, bouffées chaleur
- - \male : IMC, pilosité, hypoandrisme, cicatrice chir, varicocèle[fn:endocrino59],
+ - \male : IMC, pilosité, hypoandrisme, cicatrice chir, varicocèle[fn:31],
    gynécomastie, gynoïde/enuchoïde
    - volume testiculaire++, palpation cordospermatiques
 
@@ -3198,7 +3199,7 @@ Neuropsy :
 
 **** 1. Déficit gonadotrope organique/fonctionnel
 
-***** Prolactine normale [fn:endocrino2]
+***** Prolactine normale [fn:32]
  - Atteintes organiques : tumeur/infiltration \thus IRM
    - macroadénomes hypophysaires, craniopharyngiomes
    - chercher hyperprolactinémie, insuf antéhypophysaire associé
@@ -3220,8 +3221,8 @@ Neuropsy :
  Irrégularité menstruelles, puis aménorrhées avec acné, hirsutisme
 
  Diagnostic :
- - 2 parmi : {hyperandrogénie clinique[fn:endocrino3], oligo-/a-novulation, hypertrophie
-   ovarienne/folliculaire[fn:2] (écho)}
+ - 2 parmi : {hyperandrogénie clinique[fn:33], oligo-/a-novulation, hypertrophie
+   ovarienne/folliculaire[fn:34] (écho)}
  - exclure bloc 21-hydroxylase, tumeur de l'ovaire, sd Cushing
  - exclure hyperprolactinémie
 
@@ -3250,7 +3251,7 @@ Neuropsy :
  Causes :
  - chir, chimio, radiothérapie
  - anomalie caryotype (sd Turner)
- - anomalie gènes /FMR1/ (sd X fragile)[fn:endocrino4]
+ - anomalie gènes /FMR1/ (sd X fragile)[fn:35]
  - auto-immune
 
 **** 4. Anomalie utérine
@@ -3385,7 +3386,7 @@ Neuropsy :
   Explorations : endocrinienne pour toute cryptorchidie \danger
   - bilatérale : doser 17-hydroxyprogestérone chez \female{} virilisée pour éliminer hyperplasie
     congénitale des surrénales
-  - testostérone, gls:Leydigcell (INSL3), gls:Sertolicell (AMH, inhibine B sérique), FSH, LH mesurée jusque 4-6mois[fn:endocrino5]
+  - testostérone, gls:Leydigcell (INSL3), gls:Sertolicell (AMH, inhibine B sérique), FSH, LH mesurée jusque 4-6mois[fn:36]
   - si bilatéral, écho (vérifier l'absence de dérivés mülleriens)
 
   Étiologie
@@ -3533,7 +3534,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  - \inc AVC ischémique, lithiase bilaires
 
 ***** Thérapeutique 
- - oestrogène (17\beta-oestradiol) oral/percutané/transdermique[fn:endocrino6] 25 jours/mois
+ - oestrogène (17\beta-oestradiol) oral/percutané/transdermique[fn:37] 25 jours/mois
  - *et* progestatif (au moins les 12 derniers jours) per os/transdermique
  \danger hémorragie de privation possible. Si pendant le traitement, faire écho
  pelvienne, hystéroscopie
@@ -3574,7 +3575,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
   - Examen clinique : IMC, virilisation, gynécomastie, palper testicules
   - Mesure de testostérone totale :
     - > 3.2ng/mL = normale \thus étiologies non endocrino
-    - \in [2.3, 3.2] : doser SHBG[fn:3], calculer index de T libre, si bas, chercher cause
+    - \in [2.3, 3.2] : doser SHBG[fn:38], calculer index de T libre, si bas, chercher cause
     - < 2.3 ng/mL : chercher cause
 **** Étiologie
  Si FSH, LH élevée, /insuf testiculaire primitive/ 
@@ -3668,14 +3669,14 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  Ttt étiologie seulement pour : trouble psychogène pur, chir possible, endocrino
 
 **** Trouble endocrinien
- - Si hypogonadisme confirmé par bio[fn:endocrino7] : androgène oraux/intramusc/transderm
+ - Si hypogonadisme confirmé par bio[fn:39] : androgène oraux/intramusc/transderm
  - CI : nodule prostatique palpable, PSA > 3ng/mL
  - Surveiller prostate, foie, hématocrite
   
 **** Pharmacologique
  - FR, Hb glyquée < 7%, psycho/sexologique
  - 1ere intention 
-   - inhibiteurs des phosphodiésterases type 5[fn:endocrino60]
+   - inhibiteurs des phosphodiésterases type 5[fn:40]
    - Sinon apomorphine, yohimbine = peu efficace
    - "Pompe" = efficace mais résistance psycho
  - 2eme intention : drogue vasoactive = efficace mais douleurs peniennes, priapisme
@@ -3707,7 +3708,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
 **** Activité physique intensive
  Hypoestrogénie hypothalamique
 
- Facteur : activité[fn:endocrino8], troubles menstruels, apports alimentaires
+ Facteur : activité[fn:41], troubles menstruels, apports alimentaires
 
  Résorption généralisée (rachis++), \inc fractures de fatigue
 
@@ -3769,11 +3770,11 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  systématique par DXA
 
  Production continue PTH : \inc résorption os cortical (tiers proximal radius,
- fémur)[fn:endocrino61]
+ fémur)[fn:42]
 
  Diminution limitée (10%). Souvent favorable post-parathyroïdectomie.
 
- Traitement : chir si T-score < -2:5. Sinon anti-ostéoclastiques[fn:endocrino9], calcimimétique[fn:endocrino10]
+ Traitement : chir si T-score < -2:5. Sinon anti-ostéoclastiques[fn:43], calcimimétique[fn:44]
 
 *** Chez l'homme
     Pas de T-score reconnu. 
@@ -3793,9 +3794,9 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
 
  DD : tuberculose, histiocytose, lymphome, autres tumeurs de la région 
 
- Si patient avec sarcoïdose connue : diagnostic = déficit endocrinien et imagerie[fn:endocrino11]
+ Si patient avec sarcoïdose connue : diagnostic = déficit endocrinien et imagerie[fn:45]
 
- Sinon : atteinte rare[fn:endocrino12], diag = radio et arguments sarcoïdose[fn:endocrino62].
+ Sinon : atteinte rare[fn:46], diag = radio et arguments sarcoïdose[fn:47].
 
  Traitement : sarcoïdose et déficits hormonaux
 
@@ -3826,7 +3827,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
 
 
 *** Diagnostic
- - Si CS-Tf[fn:endocrino13] < 45% : si ferritine \inc, cherche hépatosidérose dysmétabolique,
+ - Si CS-Tf[fn:48] < 45% : si ferritine \inc, cherche hépatosidérose dysmétabolique,
    acéruléoplasminémie, mutation gène de la ferroportine 1
  - Sinon, CS-Tf > 45% : 
    - si C282Y/C282Y ou C282Y/H63D : diagnostic
@@ -3957,7 +3958,7 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  glucocorticoïdes (surrénale)
  \end{tcolorbox}
 
- - Diagnostic positif : cortisol plasmatique [fn:endocrino64], cortisolurie (sur 24h), test de freinage rapide[fn:endocrino63]
+ - Diagnostic positif : cortisol plasmatique [fn:49], cortisolurie (sur 24h), test de freinage rapide[fn:50]
 
  - Diagnostic étiologique selon ACTH :
    - ATCH diminuée \thus adénome, corticosurrénalome, hyperplasie bilatérale
@@ -4144,7 +4145,7 @@ sulfonylurée : glucose en perfusion)
     - hormonal : L-T4 si haut risque ou échec traitement initial. Puis mesurer TSH à
       +6sem-2mois (pas avant !)
     - surveillance : 80% des récidives à 5 ans \thus écho cervicale, rhTSH,
-      Tg[fn:endocrino18] à 6-12mois : cytoponction puis imagerie si Tg > seuil. Sinon \dec LT4
+      Tg[fn:51] à 6-12mois : cytoponction puis imagerie si Tg > seuil. Sinon \dec LT4
     - traitement récidives : chir si cervicale. Plus compliqué si métastases
       (iode131 si fixant sinon ttt local ou molécules ciblées). Maintenir LT4
      
@@ -4171,7 +4172,7 @@ sulfonylurée : glucose en perfusion)
 
  Physiopatho :
  - TSH, gls:TPO et Tg peuvent être des auto-antigènes
- - thyroïde produit surtout thyroxine (T4[fn:endocrino65]), convertie en T3 par foie, muscle
+ - thyroïde produit surtout thyroxine (T4[fn:52]), convertie en T3 par foie, muscle
    squelette. 
  - effet : 
    - \inc production chaleur, \inc production énergie, \inc consommation $O_2$
@@ -4309,7 +4310,7 @@ sulfonylurée : glucose en perfusion)
   
 *** Sémiologie
  Général :
- - sd d'hypométabolisme[fn:endocrino20]
+ - sd d'hypométabolisme[fn:53]
  - peau pâle/jaune, sèche, squameuse, dépilée; cheveux secs cassants
  - myxoedeme cutanéomuqueux : faciès "lunaire", voix rauque, hypoacousie,
    macroglossie
@@ -4357,7 +4358,7 @@ sulfonylurée : glucose en perfusion)
  - thyroïdite iatrogène : interferon++, amiodarone, ATS, iode131, radiothérapie
    cervicale, lithium, ttt anti-tyrosine kinase (cancéro)
  Autres : carences iodées (endémie++), hypothyroïdie congénitale (dépistage à
- naissance + 72h[fn:endocrino21])
+ naissance + 72h[fn:54])
 
 **** Démarche diagnostique
  TSH puis (T4L (profondeur) et Ac anti-TPO, échographie pour étiologie)
@@ -4417,7 +4418,7 @@ sulfonylurée : glucose en perfusion)
    intra-sellaire (dure-mère spiculée)
   
 *** Sd d'hypersécrétion
-**** Hyperprolactinémie[fn:endocrino19]
+**** Hyperprolactinémie[fn:55]
  Fréquente \thus cherche adénome hypophysaire (même si majorité = médicament)
  Signes :
  - \female : galactorrhée (pas forcément causée par prolactine ! mais chercher
@@ -4520,7 +4521,7 @@ sulfonylurée : glucose en perfusion)
  - Déficit gonadotrope : 
    - \female{} préménopause : aménorrhée, oestradiol \dec, gonadotrophines
      normales
-   - \female{} postménopause  : gonadotrophines basses[fn:endocrino66]
+   - \female{} postménopause  : gonadotrophines basses[fn:56]
    - \male{} : troubles sexuels \dec testostérone
  - Déficit somatotrope : déficit GH enfant++ (retard croissance, pas de réponse
    à stimulation GH) ou adulte (faire au moins 2 tests stimulation)
@@ -4532,7 +4533,7 @@ sulfonylurée : glucose en perfusion)
  Rare mais grave \skull
 
  Physiopatho :
- - cortisol [fn:endocrino67] : hyperglycémiant, stimule = {catabolisme protidique, lipogenèse, SNC, tonus vasculaire}, inhibe
+ - cortisol [fn:57] : hyperglycémiant, stimule = {catabolisme protidique, lipogenèse, SNC, tonus vasculaire}, inhibe
    = {hormone antidiurétique}, anti-inflammatoire et antipyrétique,
    minéralocorticoïde\\
    Minimum 0-2h, maximum 7-9h
@@ -4578,13 +4579,13 @@ sulfonylurée : glucose en perfusion)
  - /VIH/ (stade avancé) : iatrogène, infection opportuniste (CMV++), atteinte de
    l'hypophyse (lymphome, CMV), corticoïde anti-inflammatoire et ritonavir
  \danger dénutrition \thus spécialiste
- - autres : /iatrogènes/[fn:endocrino22], /métastases bilatérales/[fn:endocrino23], lymphomes, maladies
+ - autres : /iatrogènes/[fn:58], /métastases bilatérales/[fn:59], lymphomes, maladies
    infiltratives, causes vasculaires
  - enfant : génétiques surtout = bloc enzymatique++ (dépistage obligatoire), adrénoleucodystrophie
 
 **** Étiologies de l'IS secondaire 
  - /interruption corticothérapie prolongée/ surtout (> 7mg prednisone)
- - autres[fn:endocrino24] : tumeur région hypothalamo-hypophysaire, hypophysite (auto-immune),
+ - autres[fn:60] : tumeur région hypothalamo-hypophysaire, hypophysite (auto-immune),
    granulomatose, trauma, chir hypophysaire, radiothérapie, sd de Sheehan 
 
 **** Prise en charge
@@ -4732,11 +4733,11 @@ sulfonylurée : glucose en perfusion)
  \end{tcolorbox}
  Habituel : début rapide/explosif, sd cardinal = polyuro-polydispsie,
  amaigrissement, polyphagie, troubles visuels transitoires, examen pauvre (fonte
- musc, signes d'acidose[fn:endocrino26], glycémie veineuse, cétonurie (acidocétose
+ musc, signes d'acidose[fn:61], glycémie veineuse, cétonurie (acidocétose
  inaugurale)
 
  Formes
- - Diabète 1 lent (LADA[fn:endocrino27]) : début tardif, progessif, Ac positif. Insulinothérapie en 2-10 ans
+ - Diabète 1 lent (LADA[fn:62]) : début tardif, progessif, Ac positif. Insulinothérapie en 2-10 ans
  - Révélé par acidocétose : fréquente chez enfants, ne devrait plus être vues
  - Non insulinodépendantes : 3 auto-Ac positifs \thus 100% d'avoir diabète 1 dans
    5 ans. Rémission de quelques mois possibles.
@@ -4769,11 +4770,11 @@ sulfonylurée : glucose en perfusion)
 
  Objectifs : HbA1c < 7% (enfants : entre 7.5 et 8.5, complication/sujet âgé : 8%)
 
- Autosurveillance : urinaire rare, glycémique 4/jour [fn:endocrino28], (glucose en SC si
+ Autosurveillance : urinaire rare, glycémique 4/jour [fn:63], (glucose en SC si
  objectifs thérapeutiques non remplis) :
 
  Surveillance :
- - HbA1c : en pourcentage Hb totale, aucun sens si modif durée de vie moyenne des globules rouges[fn:endocrino29]
+ - HbA1c : en pourcentage Hb totale, aucun sens si modif durée de vie moyenne des globules rouges[fn:64]
  - diabétologue/pédiatre endocrinologue 3/an
  - {lipides, créat, microalbuminurie}
  - ophtalmo, cardiologie 1/an (sympto/âgé,compliqué), dentiste 1/an
@@ -4884,7 +4885,7 @@ sulfonylurée : glucose en perfusion)
    - surveiller si risque hypoglycémie (reprise, intensité/durée
      inhabituelle). \danger{} pieds ! 
  - Alimentation : 
-   - hypocalorique si surpoids, équilibrée[fn:endocrino31], sans sucres rapides. 
+   - hypocalorique si surpoids, équilibrée[fn:65], sans sucres rapides. 
    - objectif : -5 à 10% du poids
 
  Traitement médicamenteux :
@@ -4925,7 +4926,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 
  Physiopatho : \inc pression intra-glomérulaire \thus dilatation des
  glomérules. Filtration améliorée puis décroît (sclérose) avec \inc
- albumine[fn:endocrino34]. Et toxicité directe glucose.
+ albumine[fn:66]. Et toxicité directe glucose.
 
 ***** Dépistage 
  1/an par BU (protéinurie, hématurie, infection urinaire),
@@ -4953,7 +4954,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - diabète 2 : 1/3 typique, 1/3 vasculaire, 1/3 non néphropatie diabétique
 
  Classification en 5 stades : 
- 4. [@4] Néphropathie incipiens : microalbuminurie[fn:endocrino35]
+ 4. [@4] Néphropathie incipiens : microalbuminurie[fn:67]
  5. Néphropathie : PA élevée, DFG \dec de 10mL/min/an, nodule de sclérose,
     hyalinose artériolaire
  6. Insuffisance rénale
@@ -4995,7 +4996,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  Si débutante, souvent silencieuse ! Examen des pieds !
 
 ***** Sensorimotrice 
- Fibres les plus longues en premier ("chaussettes" puis "gants")[fn:endocrino36]. Examen
+ Fibres les plus longues en premier ("chaussettes" puis "gants")[fn:68]. Examen
  clinique pour perte de sensibilité, interrogatoire pour douleur
 
  - Polynévrite symétrique distale : fréquente (40% diabétiques après 25 ans) avec
@@ -5020,24 +5021,24 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - CV : {tachycardie sinusale quasi-permanente, (bradycardie permanente),
    allongement QT}
  - Vasomotrice : hypotension orthostatique /sans/ accélération du pouls, troubles
-   microcirculation périphérique[fn:endocrino37]
+   microcirculation périphérique[fn:69]
  - Troubles sudation : sécheresse cutanée MI, parfois hypersudation partie
    supérieure. Prurit possible
- - Digestive gastro-intestinale : {parésie tractus digestif, dysphagie, gastroparésie (fréq), diarrhée banale/motrice capricieuse (diag d'élimination ![fn:endocrino38], constipation, incontinence fécale (rare)}
+ - Digestive gastro-intestinale : {parésie tractus digestif, dysphagie, gastroparésie (fréq), diarrhée banale/motrice capricieuse (diag d'élimination ![fn:70], constipation, incontinence fécale (rare)}
  - Vésicale : pas de perception de la vessie pleine, hypoactavité détrusor et
    favorisé par polyurie de l'hyperglycémie. Résidu post-miction \thus
    incontinence, rétention, infection urinaire \thus clinique, écho
    (prostate, vessie)
- - Dysfonction érectile : psychogène, sd de Leriche[fn:endocrino39] (rare). À rechercher
+ - Dysfonction érectile : psychogène, sd de Leriche[fn:71] (rare). À rechercher
    /systématiquement/. \\
    DD : examen génital, testostérone, prolactinémie. Traitement efficace presque toujours.
   
 
  Examen 
- - clinique : interrogatoire (hypotension OS, diarrhée...), inspection pieds, ROT abolis au niveau des troubles sensitifs, monofilament, sensibilité épicritique, thermoalgique, vibratoire[fn:endocrino40], proprioceptiques[fn:endocrino40]
+ - clinique : interrogatoire (hypotension OS, diarrhée...), inspection pieds, ROT abolis au niveau des troubles sensitifs, monofilament, sensibilité épicritique, thermoalgique, vibratoire[fn:72], proprioceptiques[fn:72]
  - ECG annuel, EMG si atypique
  - chercher dénervation cardiaque parasympathique : variation de la FC entre
-   inspiration et expiration[fn:endocrino41], rapport RR long/court pendant épreuve de
+   inspiration et expiration[fn:73], rapport RR long/court pendant épreuve de
    Valsalva, variation FC de couché à debout
 
  DD : neuropathies métaboliques (insuf rénale, amylose, hypothyroïdie), toxiques
@@ -5061,7 +5062,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  \times{}2, AOMI \times{}5-10 !
 
 ***** Dépistage
- Risque > 1% = élevé[fn:endocrino25]
+ Risque > 1% = élevé[fn:74]
 
  /FR/ :
  - CV : > 50 ans \male (> 60 \female), diabète > 10 ans, ATCD IDM/mort subite (< 55
@@ -5094,7 +5095,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
    risque. Metformine systématique
  - Activité physique systématique
  - Contrôle lipidique : LDL < 1.3g/L (1.0 si risque CV élevée ou
-   néphropatie). Statines (simvastatine, pravastatine, atorvastatine) ou fibrates[fn:endocrino42] 
+   néphropatie). Statines (simvastatine, pravastatine, atorvastatine) ou fibrates[fn:75] 
  - PAs \in [130, 139] et PAd < 90mmHg. Hygiéno-diététique et antihypertenseurs si
    échec
  - Prévention thrombose si \ge 1 FR : aspirine 75-150mg
@@ -5240,7 +5241,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - bio : NFS (anémie), VS/CRP (inflammatoire), iono (hyponatrémie \thus insuf
    surrénale), BU (glycosurie), calcémie, {transaminase, \gamma-GT}(foie), TSH
    (hyperthyroïdie), {B12, folates, TP, albuminémie}, graisses fécales ?
-   (pancréatite chronique calcifiante), dénutrition[fn:endocrino43]
+   (pancréatite chronique calcifiante), dénutrition[fn:76]
  - Radio thoracique (tuberculose), écho abdo (abcès/tumeur), fibro (obstacle),
    DEXA (composition corporelles)
 
@@ -5255,7 +5256,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
    - hyperthyroïdie : TSH \dec\dec, hormones thyroïdiennes \inc
    - hypercalcémie : si gls:PTH inadaptée, hyperparathyroïdie primaire
    - insuf surrénalienne : cortisol, ACTH plasmatique
-   - panhypopituitarisme[fn:endocrino68] : cortisol \dec
+   - panhypopituitarisme[fn:77] : cortisol \dec
    - phéochromocytomes : (nor)métanéphrines dans urines 24h, imagerie surrénales
 ** 250 \dagger Troubles nutritionnels chez sujet âgé (à compléter)
 ** 251 \dagger Obésité(à compléter)
@@ -5292,7 +5293,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
      poids max et min, circonstances déclenchantes, tentatives antérieures, phases
    - Comportement alimentaire (carnet), évaluation dépense énergétique, pyscho-comportementale
    - Complications (SAS)
- - Examen : poids, taille, PA, tour de taille[fn:endocrino44], obésité secondaire
+ - Examen : poids, taille, PA, tour de taille[fn:78], obésité secondaire
  - Complémentaires : glycémie à jeune, lipides, hépatique, uricémie, ECG repos
   
 **** Traitement
@@ -5301,7 +5302,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - Médicaments (IMC \ge 30 ou (\ge 27 et comorbidités)) : orlistat
  - Chir bariatrique :  {anneau gastrique ajustable, sleeve gastrectomie},
    {court-circuit gastrique, dérivation biliopancréatique} : < 65 ans. Prise en
-   charge 6 mois avant et post-op à vie (carences vitaminiques)[fn:endocrino45]
+   charge 6 mois avant et post-op à vie (carences vitaminiques)[fn:79]
 *** Enfant/ado
  \danger{} évolutivité. Surpoids : IMC > 25. Obésité 
  - grade 1 : > 30kg/m^2
@@ -5440,7 +5441,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 *** Examen d'aptitude
  Dépister les pathologies induisant un risque vital/fonctionnel grave : mort
  subite (1-4/100 000 après 35 ans)
- Obligation légale si compétition (licencié ou non)[fn:endocrino47]
+ Obligation légale si compétition (licencié ou non)[fn:80]
 
  Examen :
  - ATCD sportif, médicaux familiaux (CV, hypercholestérolémie familiale),
@@ -5450,7 +5451,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
    - maturation pubertaire
    - ostéoarticulaire, cardiorespiratoire, test dynamique sous-maximal
      (Ruffier-Dickson)
- - Complémentaire : ECG repos[fn:endocrino48], CV
+ - Complémentaire : ECG repos[fn:81], CV
 
 *** Bénéfices/inconvénients 
  Adulte :
@@ -5498,7 +5499,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - attention situation à risque : déficit en fer, contrainte de poids,
    alimentation glucidiques mais faible densité nutritionnelle, exclusion de
    groupes d'aliments
- - endurance : vit B énergétiques[fn:endocrino49] , vit. "antioxydantes"[fn:endocrino50]
+ - endurance : vit B énergétiques[fn:82] , vit. "antioxydantes"[fn:83]
  - force : \inc vit B6, \inc "antioxydantes"
 
 **** Enfant
@@ -5510,7 +5511,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 ** 265 \dagger Hypocalcémie, dyskaliémie, hyponatrémie
  
 *** Hypocalcémie (hypoCa)
- Éliminer fausses hypoCa dues à l'hypoalbuminémie[fn:endocrino69].
+ Éliminer fausses hypoCa dues à l'hypoalbuminémie[fn:84].
  Calcémie = équilibre absorption intenstinale, résorption osseuse, excrétion
  rénale. Régulé par PTH, calcitriol
 
@@ -5519,7 +5520,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
    (spontanées/effort), signe de Trousseau ("main d'accoucheur"), signe de
    Chvosteck (peu spécifique), crises de tétanie (paresthésie, fasciculation
    pouvant entraîner arrêt respi)
- - chronique : sd de Fahr[fn:endocrino51] \thus signes extrapyramidaux, crises comitiales
+ - chronique : sd de Fahr[fn:85] \thus signes extrapyramidaux, crises comitiales
  - \inc QTc \thus troubles du rythmes
  - dans l'enfance : musc, neuro, cardiaques
   
@@ -5527,7 +5528,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - Hypoparathyroïdes : anamnèse et {hypoCa, PTH \dec, phosphatémie
    normale/haute}.
    - post-chir++ : parathyroïdectomie totale
-   - congénitale : sd Di George++[fn:endocrino52]
+   - congénitale : sd Di George++[fn:86]
  - Pseudoparathyroïdies : génétiques : résistance à la PTH \thus PTH
    \inc. Chondrodysplasie possible
  - Anomalie vitamine D
@@ -5654,7 +5655,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - PTH régulée par récepteur sensible au calcium (CaSR)
   
  Bio : calcémie totale = {calcium ionisé, calcium lié = {lié à l'albumine,
- complexé aux anions}}. Calcium ionisé \approx 50% calcium total[fn:endocrino53]
+ complexé aux anions}}. Calcium ionisé \approx 50% calcium total[fn:87]
 
  Clinique : asthénie, {polyuro-polydipsie, lithiases rénales}, {anorexie,
  constipation, nausées}, {apathie, somnolence, confusion, psychose, coma}, {HTA,
@@ -5665,8 +5666,8 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
 
 *** Étiologies
 **** Hypercalcémie PTH dépendante (PTH N ou \inc) 
- - *Hyperparathyroïdie[fn:endocrino70] primaire* (55%) : lésion parathyroïde. 
-   - Signes cliniques précédents avec rénaux, osseux (clinique et radio[fn:endocrino54]) \thus créatinine
+ - *Hyperparathyroïdie[fn:88] primaire* (55%) : lésion parathyroïde. 
+   - Signes cliniques précédents avec rénaux, osseux (clinique et radio[fn:89]) \thus créatinine
     plasmatique, scénal rénal non injecté
    - Surtout densité osseuse (tier distal du radius)
    - Bio : hypercalcémie et PTH non adaptée (N ou \inc). 
@@ -5678,7 +5679,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
    - imagerie : bio primaire mais sert si indication opératoire seulement (écho, scinti)
    - étiologie :
      - majorité : sporadique, isolé
-     - NEM1[fn:endocrino55] (1%) : hyperparathyroïdie primaire = 95%. Recherche tumeurs
+     - NEM1[fn:90] (1%) : hyperparathyroïdie primaire = 95%. Recherche tumeurs
        endocrines pancréas et duodenum, adénomes hypophysaires 
      - NEM2 : cancer médullaire de thyroïde puis phéochromocytome bilat et
        hyperparathyroïdie primaire avec atteinte multiglandulaire
@@ -5720,7 +5721,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  - plutôt femmes [30,50] ans
  - jeune fille : pseudo-puberté précoce. Femme :
    aménorrhées/ménométrorragie. Ménopausée : saignement vaginal dû à hyperplasie
-   endométriale[fn:endocrino56] 
+   endométriale[fn:91] 
  - ttt : ovariectomie unilatérale mais récidives 10-33%
 
  Thécomes : 
@@ -5782,7 +5783,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
   
  Cellules de Sertoli : rares (enfant) ou exceptionnelles
  (adulte). Féminisation/pseudo-puberté précoce à 50%. Testostérone/oestradial
- \inc, LH et FSH \dec, inhibine B \inc.[fn:endocrino58]
+ \inc, LH et FSH \dec, inhibine B \inc.[fn:92]
 
 *** Autres
  - Tumeurs germinales : fréquentes, écho testiculaire
@@ -5879,8 +5880,8 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
  Souvent + conduite addictive (tabac, benzodiazépine).
 
  50% DC prématurés = pas de dépendance !
-***** Dépistage [fn:hge1]
- Questionnaires : AUDIT-C, FACE. Biologie [fn:hge2] non utile.
+***** Dépistage [fn:93]
+ Questionnaires : AUDIT-C, FACE. Biologie [fn:94] non utile.
 ***** Clinique
     | Type                           | Diagnostic                                      | risque                     |
     |--------------------------------+-------------------------------------------------+----------------------------|
@@ -5897,7 +5898,7 @@ Cf [[21 Rétinopathie diabétique][chap 21 d'ophtalmo]]
    épilepsie, Gayez-Wernicke, encéphalopathie hépatique, gls:DT, infection
    cérébroméningée si fièvre
 
-***** Complications somatiques[fn:22] 
+***** Complications somatiques[fn:95] 
 Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetus, Dysfonctions sexuelles
 
 *** PEC
@@ -6003,7 +6004,7 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
 
  Indications :
  - ADN VHB > 2 000 UI/mL et transaminases > N ou fibrose hépatique modérée ou
-   activité modérée[fn:hge19]
+   activité modérée[fn:96]
  - ADN > 20 000 UI/mL et transaminases > 2N
  - cirrhose et ADN VHB
  - ACTD familiale de cirrhose/CHC ou atteinte extrahépatique
@@ -6034,7 +6035,7 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
  - Ac anti-VHC à +12semaines
 
  Chronique : (sérologie positive, ARN détectable) > 6 mois. 
- - \danger ponction biopside non recommandée [fn:hge20]\thus Fibrotest, Fibromètre Fibroscan
+ - \danger ponction biopside non recommandée [fn:97]\thus Fibrotest, Fibromètre Fibroscan
 
 **** Traitement (chronique)
  Cherche cirrhose (cf VHB).
@@ -6081,13 +6082,13 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
 
 
 
-*** Ascaridiose[fn:hge25]
+*** Ascaridiose[fn:98]
 
  Pays tropicaux hygène insuffisante
 
  Ingestion \oe{}ufs
 
- Phase de migration : signes allergiques, sd de Löffler[fn:hge3]. Phase d'état :
+ Phase de migration : signes allergiques, sd de Löffler[fn:99]. Phase d'état :
  troubles digestifs
 
  Complications : appendicite, angiocholite, pancréatite, occlusion intestinale
@@ -6098,7 +6099,7 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
 
  Prév: lavage mains, fruits, crudités, péril fécal
 
-*** Oxyurose [fn:hge26]
+*** Oxyurose [fn:100]
 
  Fréquent (enfants âge scolaire)
 
@@ -6108,7 +6109,7 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
 
  Ttt : flubendazole, albendazole, pyrantel. Traiter toute la communaute !
 
-*** Giardiose[fn:hge27]
+*** Giardiose[fn:101]
 
  Ingestion eau, aliments contaminés, féco-oral
 
@@ -6125,11 +6126,11 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
 
  Prév : hygiène eau, boisson, aliments
 
-*** Am\oe{}bose[fn:hge28]
+*** Am\oe{}bose[fn:102]
 
  Une des parasitoses les	plus fréquentes. Kyste ou trophozoïtes.
 
- Cont: féco-orale[fn:hge4]
+ Cont: féco-orale[fn:103]
 
  Dissémination par voie sanguine depuis tube digestif : atteinte intestinale
  (tous âges) ou foie (\male{} 20-50 ans), poumons, cerveau
@@ -6209,7 +6210,7 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
 
 *** Exploration
  - Ferritine = 1ere intention : si \dec, carence en fer, si \inc, pas forcément
-   un excès...[fn:hge5]
+   un excès...[fn:104]
  - gls:CST = transport du fer. Montre surcharge mais sans la quantifié. \dec si
    sd inflammatoire, \inc insuf hépatocellulaire, sd néphrotique, sd
    inflammatoire
@@ -6218,7 +6219,7 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
 *** Anémie par carence martiale
 **** Mécanisme
  - Saignement : occulte. Digestif ou gynéco si femme non ménopausée
- - Malabsorption : hypochlorhydrie franche[fn:hge6], altération muqueuse
+ - Malabsorption : hypochlorhydrie franche[fn:105], altération muqueuse
    duodénojéjunale, court-circuit duodénojéjunal. Maladie c\oe{}liaque ++
  - Carence d'apportA : 1mg/j (\male) ou 2 mg (\female). \inc besoins ou régime
    végétarien très strict
@@ -6330,11 +6331,11 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
    - épreuve du tabouret, \oe{}dèmes délives, peau, ongles, cheveux, lèvre,
      langue, faciès, masse musculaire
    - poids vs poinds antérieur et idéal. IMC $\in [18.5, 25] kg/m^2$ si < 70 ans
-     et $[21, 25] kg/m^2$ après[fn:hge7]
+     et $[21, 25] kg/m^2$ après[fn:106]
    - épaisseur cutanées tricipitale, périmètre bras au milieu
  - Biologie : 
    - créatinine urinaire sur 24h (\approx masse musculaire)
-   - albuminémie ($t_{1/2} = 20$ j) : \dec si malnutrition, fuite rénale/digestive[fn:hge8]
+   - albuminémie ($t_{1/2} = 20$ j) : \dec si malnutrition, fuite rénale/digestive[fn:107]
    - transthyrétine ($t_{1/2} = 2$ j !)
  Evaluation : protéino-énergétique ou protéique, aigüe ou chronique, grave ?
 
@@ -6353,7 +6354,7 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
    - Maldigestion, malabsorption intestinale
  - Hypermétabolisme : affection septiques, néoplasique, inflammatoire
    grave/étendues
- - Perte protéique anormale : cutanées, urinaires[fn:hge9]
+ - Perte protéique anormale : cutanées, urinaires[fn:108]
 
  Conséquence : sévère et épuisement des réserves lipidiques \thus pronostiv vital
  !
@@ -6460,13 +6461,13 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
  - soulagée par antéflexion, aspirine
  - examen : douleur provoquée épigastrique/périombilicale
  - causes : pancréatite aigüe/chronique, K pancréas
- Ischémie intestinale aigüe = urgence avec pronostic vital \skull [fn:hge11]
+ Ischémie intestinale aigüe = urgence avec pronostic vital \skull [fn:109]
  - y penser si terrain vasculaire
  - /douleur abdo/ : inaugurale aigǜe ou angor mésentérique puis diffuse rapidement
    à tout l'abdomen. Intensite \inc{} sans répit
  - et /terrain à risque/
  - angioscanner multibarretes en urgence
- Ischémie intestinale chronique [fn:hge11]
+ Ischémie intestinale chronique [fn:109]
  - artérite oblitérante, athéromateuse++, inflammoire/radique
  - angor mésentérique avec douleurs abdo chroniques diffuses postprandiales
    précoces 1-3h
@@ -6478,7 +6479,7 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
  Douleur épigastriques : 
  - ulcère (hyperalgique, perforation), pancréatite aigüe
  - biliaire (colique hépatique, migration lithiase, cholécystite)
- - autres : aorte [fn:hge12], cardiaque [fn:hge13], pulmonaire [fn:hge14], digestive [fn:hge15]
+ - autres : aorte [fn:110], cardiaque [fn:111], pulmonaire [fn:112], digestive [fn:113]
 
  Douleur de l'hypochondre droite :
  - hépatobilaire : colique hépatique, cholécystite, angiocholite, tumeur/abcès du
@@ -6559,7 +6560,7 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
  Signes fonctionnels :
  - pyrosis, régurgitations = quasi pathognomonique
  - extra-digestifs (pulmonaire, ORL, cardiaque)
- - RGO compliqué[fn:hge16] : ulcérations du bas \oe{}sophage (étendues,
+ - RGO compliqué[fn:114] : ulcérations du bas \oe{}sophage (étendues,
    confluentes/circonférentielles) \thus risque = hémorragi digestive, sténose
    \oe{}sophagienne
 
@@ -6606,7 +6607,7 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
 ***** Déf
 perte de substance profonde. Altération des mécanismes de défense (G, D) ou hypersécrétion (D)
 
-***** Étiologies[fn:37] 
+***** Étiologies[fn:115] 
 - \bact{helicobacter} : transmission oro-orale/féco-orale, enfance,
   pays voie dev++. Gastrite aigüe puis chronique. Complications rares (ulcère G ou D)
 - AINS aspirine faible dose
@@ -6621,7 +6622,7 @@ Symptômes typique : douleur épigastrique sans irradiation, crampe/faim. Calmé
    
 \danger atypique fréquent, asymptomatique
 
- Diag = /endoscopie digestive haute/[fn:hge17] (perte de substance profonde, blanchâtre, ovalaire, bords réguliers)
+ Diag = /endoscopie digestive haute/[fn:116] (perte de substance profonde, blanchâtre, ovalaire, bords réguliers)
 
  \begin{tcolorbox}
  Quelque soit l'ulcère, toujours biopsie de l'antre, angle et fundus pour \bact{helicobacter}
@@ -6639,23 +6640,23 @@ Symptômes typique : douleur épigastrique sans irradiation, crampe/faim. Calmé
 ***** Complications 
 - /hémorragie digestive/ (fréquente) : mortalité 10% \thus
    endoscopie \pm hémostase
-- perforation ulcéreuse [fn:31] CI à l'endoscopie \danger
-- sténose ulcéreuse (exceptionnelle) : évac stase, troubles hydroélectriques, IPP[fn:36] 
+- perforation ulcéreuse [fn:117] CI à l'endoscopie \danger
+- sténose ulcéreuse (exceptionnelle) : évac stase, troubles hydroélectriques, IPP[fn:118] 
 - gastrite aigüe - atropie / métaplasie - dysplasie - cancer invasif
 
 ***** Traitement UGD non compliqué
 - \bact{helicobacter}
-  - éradication : 10j avec IPP + amoxicilline + clarithromycine[fn:32] si
-    sensible, sinon quadrithérapie[fn:33] 
+  - éradication : 10j avec IPP + amoxicilline + clarithromycine[fn:119] si
+    sensible, sinon quadrithérapie[fn:120] 
   - IPP en curatif avant éradication \pm 6 semaines en curatif après si besoin
   - _Surveillance à +4 semaines_ par test respiratoire (UD) ou biopsie gastrique
-    (UG)[fn:34] 
+    (UG)[fn:121] 
   - Chir exceptionnelle (vagotomie \pm hémostase)
 
 - Induite par AINS/aspirine
   - curatif : IPP 4 semaines (UD) ou 8 (UG). Maintenir IPP si besoin _Contrôle endoscopique_
   - préventif si FR = > 65 ans, ATCD UGD, AINS avec antiagrégant/corticoïdes/anticoagulants
-- Autre[fn:35] 
+- Autre[fn:122] 
   - UD = IPP 4 semaines \pm IPP long cours
   - UG = IPP 4-8 semaines \pm IPP voire chir si échec
 
@@ -6671,7 +6672,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
  Évolution : gastrite antrale/UD (si hypersécrétion) ou pangastrite/UG/adénocarcinome gastrique (si hyposécréteur) ou lymphome gastrique MALT
 
 ***** Chronique de mécanisme immunitaire
- - Auto-immune : possible carence facteur intrinsèque[fn:38]/martiale,
+ - Auto-immune : possible carence facteur intrinsèque[fn:123]/martiale,
    adénocarcinome/tumeurs endocrine \thus corriger carence B12 et fer
  - Autres : lymphocytaire, granulomateuse, à éosinophiles, avec maladie de Crohn 
 
@@ -6725,7 +6726,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
    - anneaux de Schatzki (aspect de diaphragme)
    - sd de Plummer-Vinson/Kelly-Paterson
    - compression extrinsèque (ADP, anomalie artérielle)
- - \OE{}sophagite sans sténoe : médicaments, à éosinophiles[fn:hge18], infectieuses
+ - \OE{}sophagite sans sténoe : médicaments, à éosinophiles[fn:124], infectieuses
    (ID)
  - Diverticule de Zenker
 
@@ -6762,7 +6763,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
  Complications :
  - troubles hydroélectriques : déshydratation puis IR, hypochlorémie, alcalose
    métabolique, hypoK
- - sd de Mallory-Weiss[fn:hge21] : vomissement puis hématémèse
+ - sd de Mallory-Weiss[fn:125] : vomissement puis hématémèse
  - rupture de la paroi de l'\oe{}sophage : exceptionnel, urgence \skull. Dyspnée,
    emphysème SC, odynophagie \thus diag par TDM thoracique
  - inhalation bronchique avec pneumopathie
@@ -6808,10 +6809,10 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
   - médic
   - neuro : vestibulaire, migraine, trauma cérébral, méningite, HTIC, hémorragie
     méningée
-  - métabolique : acidocétose diabétique, IR aigüe[fn:hge22], hyperCa, hypoglycémie/malaise
+  - métabolique : acidocétose diabétique, IR aigüe[fn:126], hyperCa, hypoglycémie/malaise
     vagal, insuf. surrénale aigüe, hypoNa, hyperthyroïdie
-  - autre : /grossesse/, postop, mal des transports, glaucome aigue[fn:hge22], IDM
-    inférieur[fn:hge22], radiothérapie, psychogène
+  - autre : /grossesse/, postop, mal des transports, glaucome aigue[fn:126], IDM
+    inférieur[fn:126], radiothérapie, psychogène
 
 **** Vomissements chronique
  - Digestif supérieur : 
@@ -6824,7 +6825,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
    - fonctionnelle 
  - SNC : HTIC, épilepsie
  - Psychogène
- - Autres : cataméniaux[fn:hge23], sd des vomissements cyclique[fn:hge24], sd d'hyperemesis aux cannabinoïdes
+ - Autres : cataméniaux[fn:127], sd des vomissements cyclique[fn:128], sd d'hyperemesis aux cannabinoïdes
  Grossesse
  - 1er trimestre : fréquents, physiologique si pas d'AEG. Hyperemesis gravidarum
    (forme grave) : anomalies disparaissent à l'arrêt
@@ -6851,7 +6852,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
 ** 273 \dagger Hépatomégalie, masse abdo
 
 *** gls:HMG
- Projection ligne médio-claviculaire > 12cm[fn:hge10]. Écho abdominable si besoin.
+ Projection ligne médio-claviculaire > 12cm[fn:129]. Écho abdominable si besoin.
 
  DD : tumeur du rein/angle colique droit/estomac/pancreas => mobile avec
  respiration échographie
@@ -6873,7 +6874,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
 ***** Clinique
  ATCD, symptômes, FR maladie du foie. Et :
  - foie douloureux, sd inflammaatoire
- - angiomes stellaires, hypertension portale[fn:hge29]
+ - angiomes stellaires, hypertension portale[fn:130]
  - reflux hépatojugulaire, expansion systolique du foie
  NB foie cirrhotique = dur
 
@@ -6883,9 +6884,9 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
 
 ***** Autres :
  - hémogrammes, {transaminases, phosphatases alcalines, \gamma-GT, TP,
-   bilirubinémie, électrophorèse des protéines plasmatique[fn:hge30]
+   bilirubinémie, électrophorèse des protéines plasmatique[fn:131]
  - écho Doppler/contraste, TDM, IRM, écho cardiaque si besoin
- - ponction-biopsie hépatique si cause introuvable [fn:hge31]
+ - ponction-biopsie hépatique si cause introuvable [fn:132]
 
 **** Démarche : HMG hétérogène
  1. Maladie chronique du foie ?
@@ -6907,7 +6908,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
  forme, contours, consistante, mobile, percussion, auscultation (souffe).
  Cherche métastase
 
- Imagerie : écho abdo en 1ere intention. /TDM = examen clé/ [fn:hge32]
+ Imagerie : écho abdo en 1ere intention. /TDM = examen clé/ [fn:133]
 
 *** Hypothèses
  Épigastre :
@@ -6918,7 +6919,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
  - pseudo-kyste du pancréas : contexte pancréatite
  Hypochondre droit
  - HMG
- - Grosse vésicule [fn:hge33] : tumeur maligne pancréatique (ictère précédé d'un
+ - Grosse vésicule [fn:134] : tumeur maligne pancréatique (ictère précédé d'un
    prurit, hydrocholécyste (écho = diag), cholécystite aigüe (fébrile), tumeur
    maligne d la vésicule (masse dure, fixée, irrégulière)
  - Autre : lésion angle colique D, rein D, surrénale D
@@ -6975,7 +6976,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
 
 *** Lithiase vésiculaire compliquée
 
-**** Cholécystite aigüe[fn:hge34]
+**** Cholécystite aigüe[fn:135]
  Sd infectieux, douleur hypochondre droit _> 6h_ (> 24h), frissons \pm défense,
  contracture (= grave)
 
@@ -6986,7 +6987,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
  Complications : 
  - gangrène paroi vésiculaire \thus perforation dans le foie ou
    péritoine
- - ileus biliaire[fn:hge35], sd Mirizzi[fn:hge36], K vésiculaire
+ - ileus biliaire[fn:136], sd Mirizzi[fn:137], K vésiculaire
 
 
 **** Migration lithiasique
@@ -7066,7 +7067,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
 
 *** Étiologies 
  - Ictère à bilirubinie non conjugée
-   - hémolyse, dysérythropoïèse[fn:hge37]
+   - hémolyse, dysérythropoïèse[fn:138]
    - \dec conjugaisons par la BGT
      - sd de Gilbert : bénin, fréquent \thus diagnostic = ictère non persistant,
        tests hépatiques /normaux/ et élimination autres causes
@@ -7118,13 +7119,13 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
  - Échographie : diagnostic pour lithiase biliaire, obstruction VBP (et siège de l'obstacle)
  - TDM : plus sensible que l'écho pour pancréas
  - cholangio-pancréatio-oRM
- - échoendoscopie [fn:hge38]: litihase VBP++
- - gls:CPRE [fn:hge38] (\danger pancréatite aigüe) : pas en diagnostic
- - cholangiographie percutanée transhépatique [fn:hge38] : si échec CPRE mais risque
+ - échoendoscopie [fn:139]: litihase VBP++
+ - gls:CPRE [fn:139] (\danger pancréatite aigüe) : pas en diagnostic
+ - cholangiographie percutanée transhépatique [fn:139] : si échec CPRE mais risque
    hémopéritoien, bilio-péritoine, angiocholite
 
 ** 284 Diverticulose, diverticulite aigüe du sigmoïde
-**** Diverticulite compliquée [fn:24]
+**** Diverticulite compliquée [fn:140]
 ***** Forme classique
  Si clinique et sd inflammatoire bio, TDM abdo-pelvienne /en urgence/
  - clinique = douleur et défense fosse iliaque G, constipation, fièvre, douleur
@@ -7133,7 +7134,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
  - diagnostic sur TDM = diverticule, paroie > 4mm, infiltration graisse péricolique
 
  Ttt : 
- - amoxicilline + acide clavulanique [fn:23](PO si ambulatoire, Iv si hospit)
+ - amoxicilline + acide clavulanique [fn:141](PO si ambulatoire, Iv si hospit)
  - alimentation no restrictivue
 ***** Autres  
 cf Tab [[tab:diverticulite_autres]]
@@ -7162,8 +7163,8 @@ cf Tab [[tab:diverticulite_autres]]
 intestinal
 
 ***** Diagnostic
-= symptômes[fn:25] + examen clinique seulement
-- symptômes (si précoce[fn:26]): 
+= symptômes[fn:142] + examen clinique seulement
+- symptômes (si précoce[fn:143]): 
   - douleur : gêne, crise hémorroïdaire (2-4j, aspect congestif), thrombose
     (douleurs++, thuméafction, 5-15j)
   - hémorragies (per-/post défécation)
@@ -7201,7 +7202,7 @@ Hernie étranglée = urgence chir \skull \: douleur brutale de l'aine,
 permenante et /irréductible/
 
 ***** Ttt
-Chirurgie : si crurales, inguinale chez l'enfant [fn:27] ou
+Chirurgie : si crurales, inguinale chez l'enfant [fn:144] ou
 douloureuse. Complications : hématome , infection \danger. 5% récidive
 
 ** 287q 298 : Tumeurs du côlon, rectum
@@ -7223,14 +7224,14 @@ Coloscopie totale
 Ablation (polypectomie endoscopique ou mucosectomie), sinon exérèse
 chir. Surveiller à 3 ans si adénomes
 
-***** Polyposes[fn:28] 
+***** Polyposes[fn:145] 
 - acrshort:PAF : 1% des CCR, mutation gène APC, 50% risque pour descendants. \ge
   100 polypes. Prévention par colectomie totale (!). Adénome duodénaux fréquents
 - Polypose familale atténuée : pas transmission descendance, chir à discuter
 - Autres (rare++) : sd Peutz-Jeghers, sd Cowden, polypose juvénile
 *** Cancers (tumeurs adénocarcinomateuses ici)
 ***** Épidémiologie
-3eme K le plus fréquent[fn:29], 2eme cause DC par K[fn:30]. 5% de la
+3eme K le plus fréquent[fn:146], 2eme cause DC par K[fn:147]. 5% de la
 population. 40% rectum, 60% côlon. Âge du diagnostic 70ans.
 
 Survie : 90% stade I à 5 ans, 10% stade IV
@@ -8464,68 +8465,42 @@ Irréversible, risque = insuf. respi aigüe (surtout causée par insuf. respi. b
 cardiaque G, EP)
 
 
-** 205 \dagger BPCO\footnote{Bronchopneumopathie chronique obstructive}
-\label{sec:205-bpco}
+** 205 BPCO :export:
 
-*** Définitions
-BPCO = {toux, dyspnée, expectorations, infections respi basses} récurrentes et
-TVO (VEMS/CVF < 0.7)
-*persistant*
+***** Épidémio
+\inc dans le monde. 
 
-Exacerbation aigùe = aggravation \(\ge 2\) jours
+FR : {tabac++, aérocontaminants professionnels}, génétique: \alpha-1 antitrypsine
 
-Inclus dans BPCO *si TVO* : 
+***** Diagnostic [fn:187] 
+Évoqué sur la clinique, confirmé par EFR
+- dyspnée/, toux, expectorations.
+- Signes physiques  : \nearrow temps expiratoire, \searrow murmure vésiculaire, $\searrow$ bruits coeur, distension thoracique
+- EFR: _TVO (VEMS/CVF < 0.7) persistante_ après bronchodilateur
 
-- bronchite chronique (toux productive quotidienne \(\ge 3\) mois/an et \(\ge 2\) ans),
-- emphysème (élargissement espaces aériens distaux + destructions parois
-alvéolaires) inclus dans BPCO
+Voir tab [[tab:bpco_asthme]]
 
+#+name: tab:bpco_asthme
+#+caption: Différences asthme-BPCO
+| Asthme                           | BPCO                   |
+|----------------------------------+------------------------|
+| Obstructive non réversible       | Obstructive réversible |
+| Jeune, atopique                  | Fumeur, > 40 ans       |
+| Survient \textasciitilde{}40 ans | Enfance                |
 
-\begin{table}[htbp]
-  \caption{Différences asthme-BPCO}
-  \centering
-  \begin{tabular}{ll}
-    \toprule
-    Asthme & BPCO\\
-    \midrule
-    Obstructive non réversible & Obstructive réversible\\
-    Jeune, atopique & Fumeur, > 40 ans\\
-    Survient \textasciitilde{}40 ans & Enfance\\
-    \bottomrule
-  \end{tabular}
-\end{table}
+Sévérité : échelle GOLD[fn:188], MRC[fn:189], fréquences exacerbations (\ge 2 /an = grave)
 
-Sévérité : 
+***** Complémentaire
+ECG si VEMS < 50%, NFS, \alpha-1 antitrypsine si besoin
+***** Évolution 
+Perte fonction respi, exacerbations, handicap respi, risque
+d'insuffisance respi, comorbidité CV = 1ere cause de mortalité
 
-- obstruction : GOLD (stade 1 (VEMS $\ge 80\%$) à 4 (VEMS < 30%))
-- dyspnée : échelle MRC (0 (effort important) à 4 (habiller))
-- fréquences exacerbations ($\ge 2$/an = grave)
-
-
-Épidémio: en augmentation dans le monde. \\
-FR : {tabac++, aérocontaminants professionnels}, \(\alpha{}1\) antitrypsine
-
-Évolution : perte fonction respi, exacerbations, handicap respi, risque
-d'insuffisance respi, comorbidité CV = 1ere cause de mortalité\\
 Score BODE\footnote{Body mass index, Obstruction, Dispnea, Exercice} pour la prédiction.
-
-*** Diagnostic
-Signes fonctionnels : dyspnée++, toux, expectorations.\\
-Signes physiques (après apparition TVO) : \(\nearrow\) temps expiratoire,
-\(\searrow\) murmure vésiculaire, $\searrow$ bruits coeur, distension thoracique
-
-**** EFR
-
-- spirométrie : TVO (VEMS/CVF < 0.7) persistante après bronchodilateur
-- pléthysmographie (identifie distension pulmonaire)
-- $T_{LCO} < 70\%$ = pathologique
-- si VEMS < 50% ou $SpO_2< 90$% : gaz du sang, test d'exercice
-
-
-**** Autres
-(TDM), ECG si VEMS < 50%, NFS (polyglobulie, anémie), (dosage \(\alpha1\) antitrypsine)
-
-*** Traitement
+***** Traitement 
+Cf fig~\ref{fig:ttt_bpco}. 
+/Arrêt tabac/, vaccins grippe et pneumocoques, réhabilitation respiratoire, O_2, chirurgie possibles
+#+BEGIN_EXPORT latex
 \begin{figure}[htpb]
   \centering
  \resizebox{0.5\linewidth}{!}{
@@ -8539,47 +8514,46 @@ Signes physiques (après apparition TVO) : \(\nearrow\) temps expiratoire,
   edges={nodes={fill=white}}, 
   layered layout]
   {
-    Dyspnée/exacerbations -> {
+    "Dyspnée/exacerbations" -> {
       BD longue durée[>"oui", draw]-> 
       {
-        "2 BD longue durée" [draw, >"dyspnée"] -> "Cortico. inhalé\\+ 2 BD longue durée"[draw, >"exacerb"];
-        "Cortico. inhalé\\
-        + BD longue durée"[draw, >"exacerbation"]-> "Cortico. inhalé\\+ 2 BD longue durée"[draw,
-        >"insuffisant"]
-        -> "Réévaluation";
-        "2 BD longue durée" [draw] -> "Réévaluation"[>"dyspnée"];
-        ;
+        cBD/"Cortico. inhalé\\ + BD longue durée"[draw, >"exacerbation"]
+	-> ["insuffisant"] c2BD/"Cortico. inhalé\\+ 2 BD longue durée"[draw]
+	-> reeval/"Réévaluation"[>"dyspnée"];
+        2BD/"2 BD longue durée" [draw, >"dyspnée"] -> {
+	  c2BD[draw, >"exacerb"];
+	  reeval[>"dyspnée"];
+        };
       };
       BD courte durée [>"non", draw];
     }
   };
   }
   \caption{Traitement BPCO}
+  \label{fig:ttt_bpco}
 \end{figure}
-
-Arrêt tabac++, vaccins grippe et pneumocoques, réhabilitation respiratoire, oxygénothérapie, chirurgie possibles
+#+END_EXPORT
 
 *** Exacerbations BPCO
-\label{subsec:ebpco}
-**** Diagnostic :
+Exacerbation aigüe = aggravation \(\ge 2\) jours
+***** Diagnostic 
+Soit BPCO connu avec \inc dyspnée, toux/expect, soit voir section [[detresse_respiratoire][item 354]]
 
-- BPCO connu : \(\nearrow\) dyspnée, toux/expect.
-- sinon : cf détresse respi
-
-
-Déclenchants : majorité = infectieux mais souvent pas de facteur précis
+Déclenchants : /infectieux/[fn:190] 
 (\bact{influenzae}, \bact{pneumocoque}, \bact{catarrhalis})
 
-DD : PAC, dysfonction cardiaque gauche, embolie pulmonaires, pneumothorax, médicaments CI, trauma/chir thoracique, insuffisance cardiaque gauche aigüe.
+DD : PAC, dysfonction cardiaque gauche, EP, pneumothorax, médicaments CI, trauma/chir thoracique, insuffisance cardiaque gauche aigüe.
 
-**** Explorations
+***** Explorations (si sévère) 
 Imagerie thorax, ECG, NFS, CRP, iono, créat, gazométrie
 
-**** Traitement
-Bronchodilatateurs $\beta2$ agonistes courte-durée.\\
-ATB : majoration purulence : amox + acide clav si FR, sinon amox-acide
-clav/pristinamycine/macrolides\\
-Autres \faHospitalO : oxygénothérapie, kiné, HBPM, (assistance ventilatoire)
+***** Traitement
+/Bronchodilatateurs \beta-2 agonistes courte-durée/ 
+- \pm ATB 5-7 jours (si expectoration
+   purulente ou gravité ou BPCO sévère) 
+  - amox + acide clav/CG3/fluoroquinolones si FR
+  - amox \pm acide clav/pristinamycine/macrolides sans FR
+- \faHospitalO : oxygénothérapie, kiné, HBPM, (assistance ventilatoire)
 
 ** 206 \dagger Pneumopathies infiltrantes diffuses
 *** Présentation
@@ -9087,7 +9061,7 @@ Autres :
 - lever +1h
 
 **** Stratégie
-Score sPESI = \texttt{90 100 110 C C} [fn:4]:
+Score sPESI = \texttt{90 100 110 C C} [fn:149]:
 
 Risque faible (sPESI = 0) : \faHospitalO{} courte < 48h, anticoagulation\\
 Risque intermédiaire (sPESI > 0)
@@ -9533,8 +9507,8 @@ endobronchique (90%)
 **** Extraction
 Bronchoscopie rigide (ou souple). Chez l'enfant, centre spécialisé !
 
-** 354 \dagger Détresse respiratoire aigüe
-\label{sec:354_detresse_respiratoire_aigue}
+** 354 \dagger Détresse respiratoire aigüe                           :export:
+<<detresse_respiratoire>>
 
 Définition : Inadéquation charge - capacité de l'appareil respiratoire
 
@@ -9814,10 +9788,10 @@ plèvre), pression transpulmonaire = $P_{ip} - P_{alv}$.
  - corps vitré : 4/5e cavité oculaire \thus segment antérieur vs postérieur
  Voies optiques : 
  - nerf optique - chiasma - bandelettes optiques - corps genouillés externes - radiations optiques - cortex occipital
- - mydriase "sensorielle"[fn:ophtalmo1] vs "paralytique"[fn:ophtalmo2]
+ - mydriase "sensorielle"[fn:150] vs "paralytique"[fn:151]
  - voie efférente sympathique : si atteinte, sd Claude-Bernard-Horner (myosis, ptosis)
  Annexes
- - oculomoteur : nerf IV = {oblique supérieur[fn:ophtalmo3]}, VI = {droit externe} et III =
+ - oculomoteur : nerf IV = {oblique supérieur[fn:152]}, VI = {droit externe} et III =
    {droit sup, droit inf, droit médial, oblique inf}
  - protection : paupière (muscle orbiculaire, tarse), conjonctive (face interne
    paupière, globe antérieur), film lacrymal
@@ -9833,10 +9807,10 @@ plèvre), pression transpulmonaire = $P_{ip} - P_{alv}$.
 
  Segment antérieur : "lampe à fente"
  - conjonctive : rougeur (diffuse/localisée/culs-de-sac inférieure/avec
-   sécrétions/cercle périkératique/paupière), chemosis[fn:ophtalmo3]
+   sécrétions/cercle périkératique/paupière), chemosis[fn:152]
  - cornée (transparence)
  - iris : myosis/mydriase
- - chambre antérieure : inflammation (Tyndall[fn:ophtalmo4], précipités rétro-cornéens,
+ - chambre antérieure : inflammation (Tyndall[fn:153], précipités rétro-cornéens,
    synéchies iridocristaliniennes), hypopion (pus), hyphéma (sang)
  Pression intraoculaire par tonomètre à air pulsé. Hypertonie si \ge 22 mmHg
 
@@ -9847,8 +9821,8 @@ plèvre), pression transpulmonaire = $P_{ip} - P_{alv}$.
  - aspect : pôle postérieur = {papille, vaisseaux rétitiens, macula}, rétine
    périphérique (si besoin)
  - lésions : microanévrisme (points rouges), hémorragie (intravitréennes,
-   prérétiniennes, sous-rétiniennes, intra-rétiniennes[fn:ophtalmo5]), nodules cotonneux,
-   exsudats profonds, \oe{}dème papillaire[fn:ophtalmo6]
+   prérétiniennes, sous-rétiniennes, intra-rétiniennes[fn:154]), nodules cotonneux,
+   exsudats profonds, \oe{}dème papillaire[fn:155]
 
  Oculomotricité
 
@@ -9892,7 +9866,7 @@ plèvre), pression transpulmonaire = $P_{ip} - P_{alv}$.
 *** Anomalies de la réfraction
  Différencier maladie de l'\oe{}il/voie optique et anomalie réfraction !
 
- Examen : réfractomètres automatiques \thus réfraction, kératométrie[fn:ophtalmo7]. [fn:ophtalmo8]
+ Examen : réfractomètres automatiques \thus réfraction, kératométrie[fn:156]. [fn:157]
 
 \begin{tcolorbox}
 Correction optique : de loin = \pm A (- B à C), de près = add + D avec 
@@ -9916,7 +9890,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
 
  Correction : verres sphériques concaves.
 
- Chirurgie par photoablation au laser excited dimer[fn:ophtalmo9]. Chirurgie du cristallin
+ Chirurgie par photoablation au laser excited dimer[fn:158]. Chirurgie du cristallin
  possible.
 
 **** Hypermétropie
@@ -9928,7 +9902,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
  principaux \bot{}.
 
  1 point à l'infini = 2 droite perpendiculaire (= focales) \thus myopique,
- hypermétropique ou mixtes[fn:ophtalmo10]
+ hypermétropique ou mixtes[fn:159]
 
  Correction par verres cylindriques convexes/concaves, lentilles ou chir
 
@@ -9936,7 +9910,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
  Déficits mineurs (amétropie, strabisme) ou sévères (grave !) (milieux transparents,
    malformation, rétinopathie, atteintes neuro centrales)
 
- 20% d'enfant < 6 ans avec anomalie visuelle. Si non traitée, amblyopie[fn:ophtalmo11] ,
+ 20% d'enfant < 6 ans avec anomalie visuelle. Si non traitée, amblyopie[fn:160] ,
  définitive après 6ans !
 
  Développement :
@@ -9983,7 +9957,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
 
  Chir si angle résiduel avec correction. Correction optique après opération
 ** 5 \dagger Diplopie (binoculaire)
- Binoculaire : disparaît à l'occlusion d'un \oe{}il[fn:ophtalmo12]. Souvent une urgence
+ Binoculaire : disparaît à l'occlusion d'un \oe{}il[fn:161]. Souvent une urgence
  \danger
 
  Noyaux des nefs oculomoteurs \in tronc cérébral - racine - troncs -
@@ -10005,7 +9979,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
  - si correspondance rétinienne anormale (yeux non \parallel) : diplopie
   
 *** Diagnostic
- - Signes fonctionnels : dédoublement toujours même direction[fn:ophtalmo13], disparaît à
+ - Signes fonctionnels : dédoublement toujours même direction[fn:162], disparaît à
    l'occlusion
  - Interrogatoire : terrain, circonstance, brutal/progressif, {douleurs, vertiges,
    céphalées, nausées}, {horizontale, verticale, oblique}, moment journée
@@ -10060,7 +10034,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
  Examen à lampe à fente (bilatéral) :
  - acuité visuelle
  - conjonctive : rougeur en nappe hémorragique (hémorragie
-   sous-conjonctivale[fn:ophtalmo14], diffuse (conjonctivite), secteur (épisclérite),
+   sous-conjonctivale[fn:163], diffuse (conjonctivite), secteur (épisclérite),
    cercle (kératite aigüe, uvéite antérieure)
    périkératique
  - cornée : perte de transparence, dépôts rétro-cornéens
@@ -10109,7 +10083,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
  - /conjonctivite virale/ : fréq++, contagieux. Sécrétion claires, ADP prétragienne
    douloureuses à palpation. 
  \ttt inutile
- - /conjonctivite allergique/ : terrain, prurit, chemosis[fn:ophtalmo15], sécrétion claire,
+ - /conjonctivite allergique/ : terrain, prurit, chemosis[fn:164], sécrétion claire,
    volumineuses papilles. 
  \ttt bilan allergique, éviction, collyre antiallergique
  - /conjonctivite à \bact{chlamydia}/ : tiers-monde++
@@ -10152,13 +10126,13 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
  - /Glaucome aigu par fermeture de l'angle/ : rare, pronostic sévère.
    - prédisposition anatomique, pendant une mydriase
    - humeur aqueuse ne peut plus passer dans la chambre antérieure, s'accumule
-     dans chambre postérieure et bloque le trabeculum[fn:ophtalmo16].
+     dans chambre postérieure et bloque le trabeculum[fn:165].
    - signes fonctionnels .: douleurs profondes++ irradiant dans trijumeau,
      souvent nausées, vomissement, BAV
    - examen : douleurs intenses, \oe{}il rouge, transparence cornée \dec diffuse,
      semi-mydriase aréflexique, angle iridocornéen fermé, hypertonie oculaire++
    - cécité en qq jours sans ttt \danger 
- \ttt antalgique, inhibiteurs de l'anhydrase carbonique [fn:ophtalmo17]\skull, solutés hyperosmolaires[fn:ophtalmo18], collyre hypotonisants,
+ \ttt antalgique, inhibiteurs de l'anhydrase carbonique [fn:166]\skull, solutés hyperosmolaires[fn:167], collyre hypotonisants,
      collyres myotiques\\
    post-crise : iridotomie périphérique sur *les deux yeux* (laser ou chir)
  - /Glaucome néovasculaire/ : VEGF crée néovaisseux qui empêche la résorption de
@@ -10181,7 +10155,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
  Examen ophtalmo : AV (avec correction), RPM, segment antérieur, tonus oculaire,
  {cristallin, vitré, rétine, vaisseaux, nerf optique}
 
-*** BAV progressive [fn:ophtalmo19]
+*** BAV progressive [fn:168]
  Si améliorée par correction optique, trouble de réfraction. Sinon :
 
 **** Transparence anormale
@@ -10277,7 +10251,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
    - /hémorragie intravitréenne/ : précédée d'une "pluie de cendre", BAV
      variable. Écho. B pour éliminer un décollement de la rétine. Causes :
      rétinopathie diabétique proliférante, occlusions ischémique de la veine
-     centrale de la rétine, déchirure rétinienne, sd de Terson[fn:ophtalmo20], plaie
+     centrale de la rétine, déchirure rétinienne, sd de Terson[fn:169], plaie
      perforante
    - /uvéite intermédiaire/ (dans le vitré) : cellules inflammatoires
  - FO visible anormal
@@ -10352,7 +10326,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
    - conjonctive : plaie ou hémorragie sous-conjonctivale. Toujours chercher plaie
      sclérale, corps étranger
    - chambre antérieure : hyphéma. Résorption spontanée
-   - iris : iridodyalise [fn:ophtalmo21], rupture sphincter irien, mydriase post-trauma
+   - iris : iridodyalise [fn:170], rupture sphincter irien, mydriase post-trauma
    - cristallin : (sub)luxation, cataracte contusive (plusieurs mois après...)
    - hypertonie oculaire : si lésions de l'angle iridocornée, hyphéma, luxation
      antérieure du cristallin
@@ -10384,7 +10358,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
 
  Complications (si intraoculaire) : endophtalmie (grave++), DR, cataracte traumatique
 
- Complications tardives : ophtalmie sympathique [fn:ophtalmo22], sidérose (fer),
+ Complications tardives : ophtalmie sympathique [fn:171], sidérose (fer),
  chalcose (cuivre)
 
 Chir en urgence : recherche/suture plaie du globe, extraction CE intraoculaire,
@@ -10444,7 +10418,7 @@ plaie du cristallin
  - congénitales
 
 *** Traitement = chir
- Anesthésique topique/locorégionale[fn:ophtalmo23], en ambulatoire. Sous dilatation
+ Anesthésique topique/locorégionale[fn:172], en ambulatoire. Sous dilatation
  pupillaire. 
 
  Technique = extraction extracapsulaire automatique par phacoémulsification. Puis
@@ -10459,7 +10433,7 @@ plaie du cristallin
 
  Complications :
  - opacification de la capsule postérieure
- - endophtalmie[fn:ophtalmo24] : à J2-J7. Ttt : ATB local, intravitréenne et générale
+ - endophtalmie[fn:173] : à J2-J7. Ttt : ATB local, intravitréenne et générale
  - décollement de la rétine
  - \oe{}dème maculaire : semaines/mois. ttt : anti-inflammatoire
    (local/locorégional)
@@ -10499,7 +10473,7 @@ plaie du cristallin
 
  Médicaments :
  - à vie 
- - 1ere intention : collyre à base de prostaglandines [fn:ophtalmo25](\inc élimination humeur
+ - 1ere intention : collyre à base de prostaglandines [fn:174](\inc élimination humeur
    aqueuse) ou collyre betabloquant
    (\dec sécrétion humeur aqueuse)
  - association possible mais \le 3
@@ -10600,7 +10574,7 @@ plaie du cristallin
    hémorragies sur la surface rétitienne, nodules cotonneux}
  - formes non ischémiques (freq) : AV > 2/10, hémorragies en flammèches, ischémie
    peu étendue
- - formes ischémiques[fn:ophtalmo26] : AV < 1/10, réflexe pupillaire direct diminué, hémorragies
+ - formes ischémiques[fn:175] : AV < 1/10, réflexe pupillaire direct diminué, hémorragies
    plus volumineuses, en tache
 
  \begin{tcolorbox}
@@ -10696,7 +10670,7 @@ plaie du cristallin
    - dyschromatopsie d'axe rouge-vert
    - IRM encéphalique systématique (SEP)
  - régression en 3-6 mois. Risque de SEP = 50% à 15 ans (75% si lésions
-   encéphaliques à l'IRM). Phénomène d'Uhthoff possible[fn:ophtalmo27]
+   encéphaliques à l'IRM). Phénomène d'Uhthoff possible[fn:176]
  - ne pas confondre avec neuromyélite de Devic ! Inflammation (\ne auto-immune) du
    SNC, BAV profonde rapide. IRM : pas d'inflammation cérébrale mais médullaire 
  - ttt : corticothérapie  parentérale 3-5j (1g/j) puis oral court (11 j). Retarde
@@ -10706,7 +10680,7 @@ plaie du cristallin
  - DD : autres neuropathies optiques
 
  Autres :
- - oculomotrice : paralysie du VI, internucléaire (penser SEP si bilatérale chez jeune)[fn:ophtalmo28]
+ - oculomotrice : paralysie du VI, internucléaire (penser SEP si bilatérale chez jeune)[fn:177]
  - nystagmus : 1/3 patient avec SEP > 5 ans
  - périphlibite rétiniennes (5%)
 ** 20 \dagger Neuropathie optique ischémique antérieure
@@ -10820,7 +10794,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
  thermophobie, {amaigrissement, fatigue}
 
  Classification :
- - gravité = NOSPECS[fn:ophtalmo29]
+ - gravité = NOSPECS[fn:178]
  - inflammation = CAS (clinical activity score)
 
  Manifestation :
@@ -10873,7 +10847,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 *** Artériosclérose
  Lésions chroniques irréversibles mais asymptomatiques :
  - accentuation du reflet artériolaire
- - signe du croisement[fn:ophtalmo30]
+ - signe du croisement[fn:179]
   
 
  Classification de Kirkendall 
@@ -10883,421 +10857,426 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
  - artériosclérose : I (croisement), II (idem plus rétrécissement marqué), III
    (idem plus occlusion de branche)
 
-
 * Footnotes
 
-[fn:38] \thus anémie macrocytaire arégénérative, glossite, neuro
+[fn:190] Mais souvent pas de facteur précis
 
-[fn:37] Génétique possible mais pas de stress, ni facteurs psycho
+[fn:189] Pour dyspnée : 0 = efforimportant, 1 = à plat, 2 = doit s'arrêter pour
+marche à plat, 3 = qq minutes à plat, 4= pour s'habiller
 
-[fn:36] Dilatation voir chir si besoin
+[fn:188] Pour l'obstruction : stade 1 (VEMS $\ge 80\%$) à 4 (VEMS < 30%)
 
-[fn:35] Après avoir éliminé Zollinger-Ellison, Crohn, lymphome, K gastrique
+[fn:187] On peut inclure dans BPCO *si TVO* : bronchite chronique (toux
+productive quotidienne \ge 3 mois/an et \ge 2 ans), emphysème (élargissement espaces aériens distaux + destructions parois
+alvéolaires) inclus dans BPCO
 
-[fn:34] Si échec, quadrithérapie /ATBgramme. Si échec : IPP long cours
+[fn:1] Surtout par sécrétion monoxyde d'azode par l'endothélium
 
-[fn:33] Métronidazole, tétracycline, sous-citrate de bismuth et oméprazole
+[fn:2] Classes de 1 à 4
 
-[fn:32] Ou lévoflaxicine
+[fn:3] Examens complémentaires : test Méthergin pour forcer un spasme, FFR (fraction flow reserve) pour vérifier sténose
 
-[fn:31] Plutôt en péritoine libre : douleur épigastrique en "coup de
-   poignard", choc, contracture épig. puis généralisée, cul-de-sac de Douglas
-   douloureux au TR, pneumopéritoine au scanner. 
+[fn:4] Normale si > 55%
 
-[fn:30] Après poumon.
+[fn:5] Anti-agrégant plaquettaire
 
-[fn:29] Après sein et prostate.
+[fn:6] Idem mais inhibiteur des récepteurs P2Y12
 
-[fn:28] > 10 polypes
+[fn:7] Insuffisance ventricule D suite à une augmentation brutale de sa post-charge
 
-[fn:27] > 6 mois
+[fn:8] Selon la Surface de l'orifice régurgitant, Volume régurgité
 
-[fn:26] Au bout de quelques années : douleurs quotidiennes, saignement abondant, procidence permanent
+[fn:9] 40% durent 15 ans
 
-[fn:25] Non proportionnels à la gravité ! 
-
-[fn:24] Ne rien faire si non compliquée !
-
-[fn:23] Ou, si hospit, C3G (céfotaxime) + nitro-imidazolé 
-
-[fn:22]  5 arguments pour rapporter une pathologie à l'alcool : consommation à risque,
-  complication connue, tableau évocateur, pas d'autre cause, s'améliore avec le sevrage/réduction
-
-[fn:21] Haemophilus, Actinobacillus,
+[fn:10] Haemophilus, Actinobacillus,
 Cardiobacterium, Capnocytophaga, Eikenella, Kingella
 
-[fn:20] N'est plus prescrit en initiation depuis 10/2018
+[fn:11] Cérébrale, EP septique, anévrisme mycotique...
 
-[fn:19] Bloquer régine-angiotensine (IEC/ARA II), ralentir FC
-($\beta$-bloquants), diurétiques (thiazidiques/inhib de l'anse de Henlé)
-
-[fn:18] I = 0 dyspnée, II = marche
-rapide, III = marche terrain plat, IV = au repos
-
-[fn:17] Hémibloc : forcément de la branche gauche qui se
-divise en faisceau antérieur et postérieur
-
-[fn:16] Wenckebach 2:1 ou Möbitz 2:1 ne peuvent être différenciés sur l'ECG
-
-[fn:15] Déclenche syncope vasovagale
-
-[fn:14] Déclenche tachycardie ventriculaire
+[fn:12] Glomérulonéphrite, faux panaris d'Osler, taches de Roth...
 
 [fn:13] Communication intra-V, hypertrophie ventriculaire D, sténose pulmonaire, dextroposition de
 l'aorte
 
-[fn:12] Glomérulonéphrite, faux panaris d'Osler, taches de Roth...
+[fn:14] Déclenche tachycardie ventriculaire
 
-[fn:11] Cérébrale, EP septique, anévrisme mycotique...
+[fn:15] Déclenche syncope vasovagale
 
-[fn:10] Selon la Surface de l'orifice régurgitant, Volume régurgité
+[fn:16] Wenckebach 2:1 ou Möbitz 2:1 ne peuvent être différenciés sur l'ECG
 
-[fn:9] Insuffisance ventricule D suite à une augmentation brutale de sa post-charge
+[fn:17] Hémibloc : forcément de la branche gauche qui se
+divise en faisceau antérieur et postérieur
 
-[fn:8] Examens complémentaires : test Méthergin pour forcer un spasme, FFR (fraction flow reserve) pour vérifier sténose
+[fn:18] I = 0 dyspnée, II = marche
+rapide, III = marche terrain plat, IV = au repos
 
-[fn:7] Classes de 1 à 4
+[fn:19] Bloquer régine-angiotensine (IEC/ARA II), ralentir FC
+($\beta$-bloquants), diurétiques (thiazidiques/inhib de l'anse de Henlé)
 
-[fn:6] Idem mais inhibiteur des récepteurs P2Y12
+[fn:20] N'est plus prescrit en initiation depuis 10/2018
 
-[fn:5] Anti-agrégant plaquettaire
+[fn:21] NB : coxibs \dec probabilité de développer un ulcère simple/compliqué
+mais retard circatrisation d'un ulcère gastrique ...
 
-[fn:1] Surtout par sécrétion monoxyde d'azode par l'endothélium
+[fn:22] Donc toujours prendre avec de l'eau, debout et sans être à jeun !
 
-[fn:cardio_2] 40% durent 15 ans
+[fn:23] 1 prise/j, 24h si 2 prises/j
 
-[fn:cardio_1] Normale si > 55%
+[fn:24] Toutes 4-6h
 
-[fn:4] Sat < 90%, PAS < 100 mmHg, FC > 110/min, Cancer, insuf Cardiaque chronique
+[fn:25] Inhibiteurs de la monoamine oxydase
 
-[fn:3] Se fixe à la testostérone, estradiol
+[fn:26] Si 0 selles : bithérapie laxative, lavement rectal, antagoniste
+morphinique périph
 
-[fn:2] V > 10mL, \ge 19 follicule par ovaires
+[fn:27] Y enser si HTA, douleurs abdo, agitation inhabituelle
 
-[fn:ophtalmo3] S'attache côté médial
+[fn:28] 0 = éveillé, 3 = très somnolent, éveillable par stimulation tactile.
 
-[fn:endocrino70] La PTH est produite par la parathyroïde...
+[fn:29] R0 = normale, R3 = pauses/apnée
 
-[fn:endocrino69] Une partie du calcium est lié à l'albumine
-
-[fn:endocrino68] Insuffisance antéhypophysaire complète
-
-[fn:endocrino25] Calcul par les études UKPDS ou SCORE (mais \times{}2-4 pour ce dernier)
-
-[fn:endocrino67] Stimulé par ACTH, rétrocontrole nég. sur ACTH
-
-[fn:endocrino66] Ou dans les valeurs des femmes jeunes
-
-[fn:endocrino19] Prolactine est sécrétée par l'hypophyse
-
-[fn:endocrino65] [T4] n'est à l'équilibre que +5 semaines après modification de T4
-
-[fn:endocrino64] Physiologique = minimal à minuit, donc mesure à minuit. Mesure salivaire possible.
-
-[fn:endocrino63] 1mg de dexaméthasone à minuit. Action de rétrocontrôle négative du
-cortisol donc on vérifie le cortisol plasmatique le lendemain à 8h.
-
-[fn:endocrino62] Atteinte poumon évocatrice, \inc{} ACE, pas de tuberculose, granulome
-non caséeux (histologie)
-
-[fn:endocrino61] Souvent aussi extr supérieure du fémur et vertèbres.
-
-[fn:endocrino60] Efficace si stimulation sexuelle (même chez diabétique)
-
-[fn:endocrino2] Hypothalamus n'arrive pas à libérer la GnRH au bon rythme. 
-
-[fn:endocrino59] Dilatation variqueuse des veines du cordon spermatique 
-
-[fn:endocrino58] Peut appartenir à : complexe Carney, sd Petuz-Jeghers
-
-
-
-[fn:endocrino56] Tumeurs souvent > 10cm, kystique, multiloculaire, unlatérale
-
-[fn:endocrino55] Néoplasie endocirinienne multiple de type 1 
-
-[fn:endocrino54] Ostéite fibrokystique de von Recklinhausen, exceptionnelle.
-
-[fn:endocrino53] Sauf si acidose, hyperprotidémie, \inc phosphore/sulfate sériques 
-
-[fn:endocrino52] Hypoplasie des parathyroïdes et du thymus, dysmorphie faciale, anomalies cardiaques
-
-[fn:endocrino51] Cataracte sous-capsulaire, calcification des noyaux gris centraux 
-
-[fn:endocrino50] Vit C, E, \beta{xcarotène
-
-[fn:endocrino49] Thiamine, riboflavine, niacine, B6
-
-[fn:endocrino48] Pour 1er certificat puis tous les 3 ans puis tous les 5
-  ans jusque 35 ans
-
-[fn:endocrino47] Médecin qualifé pour : alpinisme, armes à feu, mécaniques, aériens, sous-marins, de combat
-avec HS
-
-[fn:endocrino46] 12-24SA
-
-[fn:endocrino45] CI : troubles cognitifs sévères, troubles sévères non stabilisés du
-comportement alimentaire, dépendances à l'alcool / substances psychoactives, pas
-de PEC médicale, pronostic vital mis en jeu, CI à l'anesthésie générale,
-incapacité à faire un suivi médical prolongé
-
-[fn:endocrino44] Obésité abdominale : > 88cm \female, > 102cm \male
-
-[fn:endocrino43] (Pré-)Albumine, IGF-1, ferritine sérique
-
-[fn:endocrino42] Pas en association ! 
-
-[fn:endocrino41] Sensible mais pas interprétable > 60 ans ou patho bronchorespiratoire
-
-[fn:endocrino40] Grosses fibres
-
-[fn:endocrino39] Thrombus bloquant l'aorte abdominale avant bifurcation
-
-[fn:endocrino38] maladie coeliaque, pullulation microbienne, endocrine
-
-[fn:endocrino37] Hyperémie, rougeur, oedème
-
-[fn:endocrino36] Exceptionnellement, douleurs abdominales
-
-[fn:endocrino35] 30-300mg/24h ou 20-200mg/L
-
-[fn:endocrino34] Microalbuminurie, macro quand détectable à la BU 
-
-[fn:endocrino33] \dec de 50% risque de cécité, \dec néovascularisation dans 90%. Danger
-si oedème maculaire, traite seulement l'exsudat
-
-[fn:endocrino32] Risques : saignement entre rétine et vitré, traction sur rétine,
-hypertonie oculaire 
-
-[fn:endocrino31] 50% glucides, 30% lipides, 20% protides. Légumes et féculents pour \inc
-absorption des glucides
-
-
-
-[fn:endocrino29] Hémoglobinopathie, anémie hémolytique, urémie, EPO, saignées
-
-[fn:endocrino28] De temps en temps 3h matin, postprandial
-
-[fn:endocrino27] Latent Autoimmune Diabetes in the Adult
-
-[fn:endocrino26] Dyspnée de Kussmaul, haleine acétonique
-
-
-[fn:endocrino24] S'associe souvent à d'autres insuffisances de l'axe hypothalamo-hypophysaire
-
-[fn:endocrino23] \danger éliminer phéochromocytomes avant biopsie surrénale
-
-[fn:endocrino22] Surrénalectomie bilatére, anticortisolique de synthèse, nécrose hémorragique 
-
-[fn:endocrino1] $\frac{N}{N_e/10}\times 100$ avec N = nb grossesses
+[fn:30] $\frac{N}{N_e/10}\times 100$ avec N = nb grossesses
 accidentelles, $N_e$ nombres de mois d'exposition
 
-[fn:endocrino3] Séborrhéee, acné, hirsutisme, \inc testostérone
+[fn:31] Dilatation variqueuse des veines du cordon spermatique
 
-[fn:endocrino4] Transmission mère-fils. Expansion instable des triplets CGG jusqu'à
+[fn:32] Hypothalamus n'arrive pas à libérer la GnRH au bon rythme.
+
+[fn:33] Séborrhéee, acné, hirsutisme, \inc testostérone
+
+[fn:34] V > 10mL, \ge 19 follicule par ovaires
+
+[fn:35] Transmission mère-fils. Expansion instable des triplets CGG jusqu'à
 l'absence de transcript de FMR1 (Fragile X Mental Retardation 1). \\
 \danger Risque d'IOP pour la pré-mutation seulement \thus dépister chez
 \female + IOP < 40 ans par PCR et Southern Blot
 
-[fn:endocrino5] \danger Testostérone, FSH, LH interprétables [6mois, puberté]
+[fn:36] \danger Testostérone, FSH, LH interprétables [6mois, puberté]
 
-[fn:endocrino6] Percutané, transdermique : limite \inc facteur de coagulation.
+[fn:37] Percutané, transdermique : limite \inc facteur de coagulation.
 
-[fn:endocrino7] Baisse libido, testostérone totale < 3 ng/mL
+[fn:38] Se fixe à la testostérone, estradiol
 
-[fn:endocrino8] Marathon, danse classique, demi-fond, triathlon, gymnastique, cyclisme
+[fn:39] Baisse libido, testostérone totale < 3 ng/mL
 
-[fn:endocrino9] Oestrogènes, raloxifène, bisphosphonates
+[fn:40] Efficace si stimulation sexuelle (même chez diabétique)
 
-[fn:endocrino10] Cinacalcet
+[fn:41] Marathon, danse classique, demi-fond, triathlon, gymnastique, cyclisme
 
-[fn:endocrino11] Faire bilan hormonal : natrémie, testostérone totale et libre/ostradiol,
+[fn:42] Souvent aussi extr supérieure du fémur et vertèbres.
+
+[fn:43] Oestrogènes, raloxifène, bisphosphonates
+
+[fn:44] Cinacalcet
+
+[fn:45] Faire bilan hormonal : natrémie, testostérone totale et libre/ostradiol,
 FSH, LH, T4L, TSH, prolactine
 
-[fn:endocrino12] adénome hypophysaire 90%, méningiome, craniopharyngiome, patho
+[fn:46] adénome hypophysaire 90%, méningiome, craniopharyngiome, patho
 inflammatoires infiltratives
 
-[fn:endocrino13] Coefficient de saturation de la transferrine
+[fn:47] Atteinte poumon évocatrice, \inc{} ACE, pas de tuberculose, granulome
+non caséeux (histologie)
 
-[fn:endocrino15] -5mmHg si automesure. -10mmHg si MAPA sur 14h
+[fn:48] Coefficient de saturation de la transferrine
 
-[fn:endocrino16] Antagonistes des récepteurs de l'angiotensine II
+[fn:49] Physiologique = minimal à minuit, donc mesure à minuit. Mesure salivaire possible.
 
-[fn:endocrino17] Adénopathie
+[fn:50] 1mg de dexaméthasone à minuit. Action de rétrocontrôle négative du
+cortisol donc on vérifie le cortisol plasmatique le lendemain à 8h.
 
-[fn:endocrino18] Thyroglobuline
+[fn:51] Thyroglobuline
 
-[fn:endocrino20] Asthénie, somnolence, hypothermie, frilosité, constipation, bradycardie,
+[fn:52] [T4] n'est à l'équilibre que +5 semaines après modification de T4
+
+[fn:53] Asthénie, somnolence, hypothermie, frilosité, constipation, bradycardie,
 prise poids modeste
 
-[fn:endocrino21] Clinique discrète : ictère prolongé, constipation, hypotonie, pleurs
+[fn:54] Clinique discrète : ictère prolongé, constipation, hypotonie, pleurs
 rauques, difficulté succin, fontanelles larges, hypothermie
 
-[fn:endocrino14] Hépatomégali stéatosique, douleurs abdo, xanthomatose éruptive, lipémie rétinienne
+[fn:55] Prolactine est sécrétée par l'hypophyse
 
-[fn:douleur9] R0 = normale, R3 = pauses/apnée
+[fn:56] Ou dans les valeurs des femmes jeunes
 
-[fn:douleur8] 0 = éveillé, 3 = très somnolent, éveillable par stimulation tactile. 
+[fn:57] Stimulé par ACTH, rétrocontrole nég. sur ACTH
 
-[fn:douleur7] Y enser si HTA, douleurs abdo, agitation inhabituelle
- 
-[fn:douleur6] Si 0 selles : bithérapie laxative, lavement rectal, antagoniste
-morphinique périph
+[fn:58] Surrénalectomie bilatére, anticortisolique de synthèse, nécrose hémorragique
 
-[fn:douleur5] Inhibiteurs de la monoamine oxydase
+[fn:59] \danger éliminer phéochromocytomes avant biopsie surrénale
 
-[fn:douleur4] Toutes 4-6h
+[fn:60] S'associe souvent à d'autres insuffisances de l'axe hypothalamo-hypophysaire
 
-[fn:douleur3] 1 prise/j, 24h si 2 prises/j
+[fn:61] Dyspnée de Kussmaul, haleine acétonique
 
-[fn:douleur2] NB : coxibs \dec probabilité de développer un ulcère simple/compliqué
-mais retard circatrisation d'un ulcère gastrique ...
+[fn:62] Latent Autoimmune Diabetes in the Adult
 
-[fn:douleur1] Donc toujours prendre avec de l'eau, debout et sans être à jeun !
+[fn:63] De temps en temps 3h matin, postprandial
 
+[fn:64] Hémoglobinopathie, anémie hémolytique, urémie, EPO, saignées
 
-[fn:ophtalmo1] Plus de voie afférente  \thus gls:RPM direct et consensuel aboli pour l'\oe{}il atteint
+[fn:65] 50% glucides, 30% lipides, 20% protides. Légumes et féculents pour \inc
+absorption des glucides
 
-[fn:ophtalmo2] Plus de voie efférente \thus \oe{}il atteint : RPM direct aboli. \OE{}il sain : RPM consensuel aboli
+[fn:66] Microalbuminurie, macro quand détectable à la BU
 
-[fn:ophtalmo3] \OE{}dème conjonctival
+[fn:67] 30-300mg/24h ou 20-200mg/L
 
-[fn:ophtalmo4] Cellules inflammatoires, protéines dans l'humeur aqueuse
+[fn:68] Exceptionnellement, douleurs abdominales
 
-[fn:ophtalmo5] Punctiformes, flammèches, profondes
+[fn:69] Hyperémie, rougeur, oedème
 
-[fn:ophtalmo6] Si BAV, vasculaire probable. Sinon HTIC
+[fn:70] maladie coeliaque, pullulation microbienne, endocrine
 
-[fn:ophtalmo7] Courbure de la cornée
+[fn:71] Thrombus bloquant l'aorte abdominale avant bifurcation
 
-[fn:ophtalmo8] Chez l'enfant, cycloplégique
+[fn:72] Grosses fibres
 
-[fn:ophtalmo9] Abrasion épithelium cornéen ou volet dans cornée.
+[fn:73] Sensible mais pas interprétable > 60 ans ou patho bronchorespiratoire
 
-[fn:ophtalmo10] Focales en avant/arrière/des 2 côtes de la rétine resp.
+[fn:74] Calcul par les études UKPDS ou SCORE (mais \times{}2-4 pour ce dernier)
 
-[fn:ophtalmo11] BAV par altération précoce de l'expérience visuelle.
+[fn:75] Pas en association !
 
-[fn:ophtalmo12] Monoculaire : disparaît à l'occlusion de l'oeil /atteint/. Cause cornéenne, irienne, cristalinienne $\ne$ urgence.
+[fn:76] (Pré-)Albumine, IGF-1, ferritine sérique
 
-[fn:ophtalmo13] \danger méconnu si ptosis/\oe{}dème palpébral
+[fn:77] Insuffisance antéhypophysaire complète
 
-[fn:ophtalmo14] Cherche plaie conjonctivale !
+[fn:78] Obésité abdominale : > 88cm \female, > 102cm \male
 
-[fn:ophtalmo15] \OE{}dème conjonctival
+[fn:79] CI : troubles cognitifs sévères, troubles sévères non stabilisés du
+comportement alimentaire, dépendances à l'alcool / substances psychoactives, pas
+de PEC médicale, pronostic vital mis en jeu, CI à l'anesthésie générale,
+incapacité à faire un suivi médical prolongé
 
-[fn:ophtalmo16] Entre la cornée et l'iris !
+[fn:80] Médecin qualifé pour : alpinisme, armes à feu, mécaniques, aériens, sous-marins, de combat
+avec HS
 
-[fn:ophtalmo17] \dec production d'humeur aqueuse. Acétazolamide IV + potassium.
+[fn:81] Pour 1er certificat puis tous les 3 ans puis tous les 5
+  ans jusque 35 ans
 
-[fn:ophtalmo18]  Déshydratation du vitré
+[fn:82] Thiamine, riboflavine, niacine, B6
 
-[fn:ophtalmo19] Cf chapitre suivant pour BAV brutale
+[fn:83] Vit C, E, \beta{xcarotène
 
-[fn:ophtalmo20] Hémorragie intravitréenne uni-/bi-latérale et hémorragie méningée par
-rupture d'anévrisme intracrânien
+[fn:84] Une partie du calcium est lié à l'albumine
 
-[fn:ophtalmo21] Désinsertion de la base de l'iris
+[fn:85] Cataracte sous-capsulaire, calcification des noyaux gris centraux
 
-[fn:ophtalmo22] Uvéite auto-immune sévère
+[fn:86] Hypoplasie des parathyroïdes et du thymus, dysmorphie faciale, anomalies cardiaques
 
-[fn:ophtalmo23] Voire générale
+[fn:87] Sauf si acidose, hyperprotidémie, \inc phosphore/sulfate sériques
 
-[fn:ophtalmo24] Infection intraoculaire sévère.
+[fn:88] La PTH est produite par la parathyroïde...
 
-[fn:ophtalmo25] EI : rougeur, irrit. oculaire. Puis iris plus sombre, \inc pousse cils.
+[fn:89] Ostéite fibrokystique de von Recklinhausen, exceptionnelle.
 
-[fn:ophtalmo26] Différence avec l'angiographie fluorescinique
+[fn:90] Néoplasie endocirinienne multiple de type 1
 
-[fn:ophtalmo27] BAV transitoire quand température \inc
+[fn:91] Tumeurs souvent > 10cm, kystique, multiloculaire, unlatérale
 
-[fn:ophtalmo28] Pas d'adduction de l'\oe{}il atteint mais adduction des yeux OK à la
-convergence. Nystagmus pendulaire en abduction de l'\oe{}il sain !
+[fn:92] Peut appartenir à : complexe Carney, sd Petuz-Jeghers
 
-[fn:ophtalmo29] No sign, Only lid retraction, Soft tissues, Proptosis \ge
-  3mm, Extraocular muscle, Corneal
+[fn:93] 20-30% adultes en CS ont un problème avec l'alcool
+ 1 verre = 10g d'alcool pur
 
-[fn:ophtalmo30] Veine "écrasée" sur le croisement avec l'artère, dilatée en amont
+[fn:94] Alcoolémie, \gamma-GT, VGM, transferrine désialylée
 
+[fn:95]  5 arguments pour rapporter une pathologie à l'alcool : consommation à risque,
+  complication connue, tableau évocateur, pas d'autre cause, s'améliore avec le sevrage/réduction
 
-[fn:hge38] Anesthésie générale
-
-[fn:hge37] Destruction intra-médullaire des nouvelles hématies :
-
-[fn:hge36] Gros calcul dans le collet vésiculaire/canal cystique. Ictère,
-dilatation voies biliaires, perturbation bilan hépatique
-
-[fn:hge35] Fistule biliodigestive \thus occlusion tube digestif par le calcul
-
-[fn:hge34] Infection aigüe de la vésicule (ici par obstruction prolongée !)
-
-[fn:hge33] Non palpable à l'état normal
-
-[fn:hge32] Éliminer grossesse !
-
-[fn:hge31] Pas pas voie transpariétale/transcapulaire si troubles de l'hémostase
-non corrigés/dilatation diffues des voies biliaires intra-hépatiques/ascite
-
-[fn:hge30] Et si besoin : hépatetites virales/auto-immunes, surcharge en fere,
-amibiases (abcès), hydatidose (kyste)
-
-[fn:hge29] Maladie chronique du foie
-
-[fn:hge10] Entre limite supérieure (percussion) et bord inférieur (palpation)
-
-[fn:hge28] /Entamoeba histolytica/
-
-[fn:hge27] /Giardia intestinalis/
-
-[fn:hge26] /Enterobius vermicularis/
-
-[fn:hge25] /Ascaris lumbricoides/
-
-[fn:hge24]  Sans organicité ni toxiques
-
-[fn:hge23] Pendant menstruations
-
-[fn:hge22] Piège !
-
-[fn:hge21] Déchirurge longitudinale du cardia
-
-[fn:hge20] Sans comorbidités
-
-[fn:hge19] Avec le score Metavir : activité \ge A2 et fibrose \ge F2 (entre 0 et 3,
+[fn:96] Avec le score Metavir : activité \ge A2 et fibrose \ge F2 (entre 0 et 3,
 entre 0 et 4 respectivement)
 
-[fn:hge18] Endoscopie peut être normale !
+[fn:97] Sans comorbidités
 
-[fn:hge17] Anesthésie locale pharyngée/générale. Morbidité et mortalité faibles
+[fn:98] /Ascaris lumbricoides/
 
-[fn:hge16] Sévérité des symptômes indépendantes de l'intensité des lésions !
+[fn:99] Fièvre, toux, dyspnée, infiltration radio fugace, hyperéosinophilie
 
-[fn:hge12] Dissection/anévrisme
+[fn:100] /Enterobius vermicularis/
 
-[fn:hge13] Péricardite, infarctus postéro-inf
+[fn:101] /Giardia intestinalis/
 
-[fn:hge14] Pneumopathie infeciteuse, pleurésie
+[fn:102] /Entamoeba histolytica/
 
-[fn:hge15] Gastrite, \oe{}sophagite, appendicite aigüe
+[fn:103] Ou sexuelles oro-anales
 
-[fn:hge11] Diagnostic difficile
-
-[fn:hge9] Perte de plasma et protéines \thus hypoalbuminémie, \oe{}dèmes rapides
-
-[fn:hge8] Ou hémodiluton, insuffisance hépatocellulaire, sd infectieux/inflammatoire
-
-[fn:hge7] \danger Obésité sarcopéniques
-
-[fn:hge6] Acide chlorhydrique garde Fe sous forme soluble
-
-[fn:hge5] Lyse cellulaire, sd inflammatoire, alcool, sd métabolique, sd
+[fn:104] Lyse cellulaire, sd inflammatoire, alcool, sd métabolique, sd
 paranéoplasique, hyperthyroïde
 
-[fn:hge4] Ou sexuelles oro-anales
+[fn:105] Acide chlorhydrique garde Fe sous forme soluble
 
-[fn:hge3] Fièvre, toux, dyspnée, infiltration radio fugace, hyperéosinophilie
+[fn:106] \danger Obésité sarcopéniques
 
-[fn:hge2] Alcoolémie, \gamma-GT, VGM, transferrine désialylée
+[fn:107] Ou hémodiluton, insuffisance hépatocellulaire, sd infectieux/inflammatoire
 
-[fn:hge1] 20-30% adultes en CS ont un problème avec l'alcool
- 1 verre = 10g d'alcool pur
+[fn:108] Perte de plasma et protéines \thus hypoalbuminémie, \oe{}dèmes rapides
+
+[fn:109] Diagnostic difficile
+
+[fn:110] Dissection/anévrisme
+
+[fn:111] Péricardite, infarctus postéro-inf
+
+[fn:112] Pneumopathie infeciteuse, pleurésie
+
+[fn:113] Gastrite, \oe{}sophagite, appendicite aigüe
+
+[fn:114] Sévérité des symptômes indépendantes de l'intensité des lésions !
+
+[fn:115] Génétique possible mais pas de stress, ni facteurs psycho
+
+[fn:116] Anesthésie locale pharyngée/générale. Morbidité et mortalité faibles
+
+[fn:117] Plutôt en péritoine libre : douleur épigastrique en "coup de
+   poignard", choc, contracture épig. puis généralisée, cul-de-sac de Douglas
+   douloureux au TR, pneumopéritoine au scanner.
+
+[fn:118] Dilatation voir chir si besoin
+
+[fn:119] Ou lévoflaxicine
+
+[fn:120] Métronidazole, tétracycline, sous-citrate de bismuth et oméprazole
+
+[fn:121] Si échec, quadrithérapie /ATBgramme. Si échec : IPP long cours
+
+[fn:122] Après avoir éliminé Zollinger-Ellison, Crohn, lymphome, K gastrique
+
+[fn:123] \thus anémie macrocytaire arégénérative, glossite, neuro
+
+[fn:124] Endoscopie peut être normale !
+
+[fn:125] Déchirurge longitudinale du cardia
+
+[fn:126] Piège !
+
+[fn:127] Pendant menstruations
+
+[fn:128]  Sans organicité ni toxiques
+
+[fn:129] Entre limite supérieure (percussion) et bord inférieur (palpation)
+
+[fn:130] Maladie chronique du foie
+
+[fn:131] Et si besoin : hépatetites virales/auto-immunes, surcharge en fere,
+amibiases (abcès), hydatidose (kyste)
+
+[fn:132] Pas pas voie transpariétale/transcapulaire si troubles de l'hémostase
+non corrigés/dilatation diffues des voies biliaires intra-hépatiques/ascite
+
+[fn:133] Éliminer grossesse !
+
+[fn:134] Non palpable à l'état normal
+
+[fn:135] Infection aigüe de la vésicule (ici par obstruction prolongée !)
+
+[fn:136] Fistule biliodigestive \thus occlusion tube digestif par le calcul
+
+[fn:137] Gros calcul dans le collet vésiculaire/canal cystique. Ictère,
+dilatation voies biliaires, perturbation bilan hépatique
+
+[fn:138] Destruction intra-médullaire des nouvelles hématies :
+
+[fn:139] Anesthésie générale
+
+[fn:140] Ne rien faire si non compliquée !
+
+[fn:141] Ou, si hospit, C3G (céfotaxime) + nitro-imidazolé
+
+[fn:142] Non proportionnels à la gravité !
+
+[fn:143] Au bout de quelques années : douleurs quotidiennes, saignement abondant, procidence permanent
+
+[fn:144] > 6 mois
+
+[fn:145] > 10 polypes
+
+[fn:146] Après sein et prostate.
+
+[fn:147] Après poumon.
+
+[fn:148] Toux productive quotidienne \(\ge 3\) mois/an et \(\ge 2\) ans
+
+[fn:149] Sat < 90%, PAS < 100 mmHg, FC > 110/min, Cancer, insuf Cardiaque chronique
+
+[fn:150] Plus de voie afférente  \thus gls:RPM direct et consensuel aboli pour l'\oe{}il atteint
+
+[fn:151] Plus de voie efférente \thus \oe{}il atteint : RPM direct aboli. \OE{}il sain : RPM consensuel aboli
+
+[fn:152] S'attache côté médial
+
+[fn:153] Cellules inflammatoires, protéines dans l'humeur aqueuse
+
+[fn:154] Punctiformes, flammèches, profondes
+
+[fn:155] Si BAV, vasculaire probable. Sinon HTIC
+
+[fn:156] Courbure de la cornée
+
+[fn:157] Chez l'enfant, cycloplégique
+
+[fn:158] Abrasion épithelium cornéen ou volet dans cornée.
+
+[fn:159] Focales en avant/arrière/des 2 côtes de la rétine resp.
+
+[fn:160] BAV par altération précoce de l'expérience visuelle.
+
+[fn:161] Monoculaire : disparaît à l'occlusion de l'oeil /atteint/. Cause cornéenne, irienne, cristalinienne $\ne$ urgence.
+
+[fn:162] \danger méconnu si ptosis/\oe{}dème palpébral
+
+[fn:163] Cherche plaie conjonctivale !
+
+[fn:164] \OE{}dème conjonctival
+
+[fn:165] Entre la cornée et l'iris !
+
+[fn:166] \dec production d'humeur aqueuse. Acétazolamide IV + potassium.
+
+[fn:167]  Déshydratation du vitré
+
+[fn:168] Cf chapitre suivant pour BAV brutale
+
+[fn:169] Hémorragie intravitréenne uni-/bi-latérale et hémorragie méningée par
+rupture d'anévrisme intracrânien
+
+[fn:170] Désinsertion de la base de l'iris
+
+[fn:171] Uvéite auto-immune sévère
+
+[fn:172] Voire générale
+
+[fn:173] Infection intraoculaire sévère.
+
+[fn:174] EI : rougeur, irrit. oculaire. Puis iris plus sombre, \inc pousse cils.
+
+[fn:175] Différence avec l'angiographie fluorescinique
+
+[fn:176] BAV transitoire quand température \inc
+
+[fn:177] Pas d'adduction de l'\oe{}il atteint mais adduction des yeux OK à la
+convergence. Nystagmus pendulaire en abduction de l'\oe{}il sain !
+
+[fn:178] No sign, Only lid retraction, Soft tissues, Proptosis \ge
+  3mm, Extraocular muscle, Corneal
+
+[fn:179] Veine "écrasée" sur le croisement avec l'artère, dilatée en amont
+
+[fn:180] Hépatomégali stéatosique, douleurs abdo, xanthomatose éruptive, lipémie rétinienne
+
+[fn:181] Adénopathie
+
+[fn:182] Antagonistes des récepteurs de l'angiotensine II
+
+[fn:183] -5mmHg si automesure. -10mmHg si MAPA sur 14h
+
+[fn:184] Risques : saignement entre rétine et vitré, traction sur rétine,
+hypertonie oculaire
+
+[fn:185] \dec de 50% risque de cécité, \dec néovascularisation dans 90%. Danger
+si oedème maculaire, traite seulement l'exsudat
+
+[fn:186] 12-24SA
+
+
