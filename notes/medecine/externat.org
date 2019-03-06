@@ -7206,7 +7206,7 @@ permenante et /irréductible/
 Chirurgie : si crurales, inguinale chez l'enfant [fn:144] ou
 douloureuse. Complications : hématome , infection \danger. 5% récidive
 
-** 287q 298 : Tumeurs du côlon, rectum
+** 287, 298 : Tumeurs du côlon, rectum                               :export:
 *** Tumeurs bénignes
 ***** Définition
 Polype = petite tumeur faisant saillie. Allure = sessile, pédiculé ou
@@ -7270,6 +7270,34 @@ Avec métastases : chimio puis chir ou chimio seule
 
 Suivi : {EC, écho abdo et ACE} tous 3 mois (pendant 2 ans) et RX pulmonaire
 annuelle (5 ans) et coloscopie (2 ans puis tous 5 ans)
+Adénocaricnome gastrique = 90% (sauf Formes particulières)
+** 300 Tumeurs de l'estomac                                          :export:
+***** Épidémiologie
+Fréquent, grave, en \dec{} 2eme cause de DC par cancer dans le monde
+Âge moyen : 70 ans. Survie à 5 ans = 15%
+***** FR
+- \bact{helicobacter}++ mais < 1% auront un K gastrique
+- génétique : adénoK gastriques diffugs héréditaire[fn:201], cancer de
+  l'estomac, sd de Lynch, acrshort:PAF
+- env : tabac, sel, bas niveau socio-éco, faible consommation fruits, légume, surpoids
+- lésions :  maladie Biermer, ulcère gastrique, polypes gastriques adénomateux
+***** Diagnostic
+FOGD avec biopsies multiple
+- découverte sur sd ulcéreux/dyspeptiuqe/obstructif, AEG, hémorragie digestive
+  occulte, métastase, sd paranéoplasique[fn:202] 
+- clinique pauvre : HMG, ascite, méléna, carcinose péritonéale (TR)
+***** Ttt
+- Extension avec scanner TAP + échoendoscopie \thus score TNM
+- endoscopie interventionnelle (si muqueuse seulement/préK, sinon exérèse chir[fn:203] +
+  curage ganglionnaire \pm chimio
+- survie à 5 ans = 60% (sans métastases), 35% (stade N1), 10% (N2)
+***** Formes particulières
+- adénoK du cardia
+- adénoK superficiel
+- linit gastrique (10%) : gros plis rigide sans lésion d'ulcère
+- lymphomes gastriques : MALT (70% régression) ou grandes cellules (RCP...)
+- tumeurs stromales gastro-intestinales : diag = FOGD, échoendoscopie, TDM. Ttt = exérèse chir
+- tumeurs endocrines : terrain = maladie de Biermer ou sd Zollinger-Ellison
 * Maladies infectieuses                                             
 #+BEGIN_EXPORT latex
 \input maladies_infectieuses
@@ -8090,7 +8118,7 @@ Embolisation artérielle bronchique
 
 Chir si localisé, fonction respi OK et "à froid"
 
-** 202 Épanchement pleural                                   :export:
+** 202 Épanchement pleural
 ***** Diagnostic 
 Suspicion clinique, confirmé par imagerie
 - douleur thoracique /dépendant de la respiration/, dyspnée, toux sèche /au
@@ -10756,6 +10784,12 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:203] Gastrectomie partielle ou totale ! 
+
+[fn:202] Phlébite, fièvre, acanthosis nigricans
+
+[fn:201] Dépistage si apparentés avec 2 cas d'adénoK dont 1 < 50 ans.
 
 [fn:200] Ou critère de Light : (LDH > 200 UI/L) ou (protides pleuraux/sérique > 0.5) ou (LDH
 pleuraux/sérique > 0.6)
