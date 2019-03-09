@@ -1,6 +1,12 @@
 ## Desserts 
-- Galette des rois [de Conticini]()https://www.youtube.com/watch?v=ETkk7QXbtlw
-Diviser quantité de crème par 2. Tester avec pâte feuilletée inversée
+- Cinnamon rolls [de Babish](https://www.bingingwithbabish.com/recipes/cinnamonrolls?rq=cinnamon)
+Le glacage est trop lourd (et seulement testé avec fromage frais + sucre) en soi ! 
+Soit réessayer la recette de babish (en petite quantités), soit simplement nature.
+
+- Galette des rois [de Conticini](https://www.youtube.com/watch?v=ETkk7QXbtlw)
+Diviser quantité de crème par 2. Pâte feuilletée inversée plus intéressante que
+la simple...
+Encore travailler la crème, pas assez goutue la dernière fois
 
 - Mille-feuille [de Conticini](https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse)
 - Brioche ([Enviedebienmanger](http://www.enviedebienmanger.fr/fiche-recette/recette-brioche-pur-beurre)) : bonne consistance et bon aspect. Attention, 30min est un maximum.
