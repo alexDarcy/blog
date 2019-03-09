@@ -3706,31 +3706,33 @@ Marqueurs : résorption (Tx, NTx), formation osseuse : ostéocalcine, phosphatas
 | Sd Turner           | \dec ontinue à l'adolescence                     | \inc fracture (adulte)         | Estrogénisation + GH                |
 |                     |                                                  |                                | Oestroprogestatif                   |
 
-
-***** Hyperthyroïdie/hormones thyroïdiennes
- Fréquent, /dosage systématique TSH/. \inc remodelage (os cortical++) 
-
-PEC : densitométrie \pm prévention (bisphosphonates si âgé, surveillance si ttt suppressif de fonction thyroïdienne)
-
-***** Hypercortisolisme/ corticothérapie
-/Prévention systématique/. \dec formation osseuse, \inc résorbtion. Trabéculaire (fractures vertébrales fréquentes !), rapide. 
-
- Traitement : 
- - pré-corticothérapie : évaluer status osseux, FR
- - supplément vitaminocalcique \pm bisphosphonates/tériparatide [fn:208]
-
-***** Hyperparathyroïdie primitive
- Fréquent (ménopausée++). /Dépistage systématique/ par DXA
-
- Production continue PTH stimule ésorption os (cortical)
-
- Traitement : chir si T-score < -2.5. Sinon anti-ostéoclastiques[fn:43], calcimimétique[fn:44]
+***** Non hypogonadique
+Tab [[tab:osteoporose_autres]]
+#+name: tab:osteoporose_autres
+#+caption: Autres ostéoporoses secondaires endocrino
+| Type                   | Systématiquement | Physio                  | Atteinte  | PEC                                                                               |
+|------------------------+------------------+-------------------------+-----------+-----------------------------------------------------------------------------------|
+| Hyperthyroïdie         | /doser TSH/      | \inc remodelage         | Cortical  | densitométrie \pm bisphosphonates (âgé)                                           |
+| hormones thyroïdiennes |                  |                         |           | surveillance (ttt suppressif)                                                     |
+| Hypercortisolisme      | /Prévention/     | \dec formation osseuse, | Vertébres | vitamine + calcium                                                                |
+| corticothérapie        |                  | \inc résorbtion.        |           | \pm bisphosphonates \tablefootnote{si prednison > 7.5mg/j et T-score \le -1.5)}   |
+| Hyperparathyroïdie     | /Dépistage/  DXA | PTH \inc résorption     | Cortical  | chir si T-score < -2.5.                                                           |
+| primitive              | (ménopausée++)   |                         |           | Sinon anti-ostéoclastiques\tablefootnote{oestrogènes,aloxifène, bisphosphonates}, |
+|                        |                  |                         |           | calcimimétique\tablefootnote{cinacalcet}                                          |
 
 ***** Chez l'homme
     Pas de T-score reconnu. 
 
  Surtout : hypercorticisme, hypogonadisme congénital/acquis/iatrogène, alcoolisme, hypercalciurie
  idiopathiques, génétique
+
+\begin{tcolorbox}
+\begin{itemize}
+\item bisphosphonates (prévention ostéoporose cortisonique++) sinon dénosumbab 
+\item raloxifène (si faible risque fractures périphériques)
+\item tériparatide (si \ge 2 fractures vertébrales)
+\end{itemize}
+\end{tcolorbox}
 
 ** 207 \dagger Sarcoidose
    Atteinte hypothalamo-hypophysaire exceptionnelle. Conséquences : diabète
@@ -10710,7 +10712,6 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 * Footnotes
 
-[fn:208] Si prednison > 7.5mg/j et T-score \le -1.5
 
 [fn:207] Secondaires autres : digestives, générale, génétique, médicaments,
 autres. Il existe aussi des ostéoporoses primaires
@@ -10852,10 +10853,6 @@ l'absence de transcript de FMR1 (Fragile X Mental Retardation 1). \\
 [fn:40] Efficace si stimulation sexuelle (même chez diabétique)
 
 [fn:41] Marathon, danse classique, demi-fond, triathlon, gymnastique, cyclisme
-
-[fn:43] Oestrogènes, raloxifène, bisphosphonates
-
-[fn:44] Cinacalcet
 
 [fn:45] Faire bilan hormonal : natrémie, testostérone totale et libre/ostradiol,
 FSH, LH, T4L, TSH, prolactine
