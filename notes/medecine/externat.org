@@ -7061,7 +7061,7 @@ permenante et /irréductible/
 Chirurgie : si crurales, inguinale chez l'enfant [fn:145] ou
 douloureuse. Complications : hématome , infection \danger. 5% récidive
 
-** 287, 298 : Tumeurs du côlon, rectum                               :export:
+** 287, 298 : Tumeurs du côlon, rectum
 *** Tumeurs bénignes
 ***** Définition
 Polype = petite tumeur faisant saillie. Allure = sessile, pédiculé ou
@@ -7126,7 +7126,7 @@ Avec métastases : chimio puis chir ou chimio seule
 Suivi : {EC, écho abdo et ACE} tous 3 mois (pendant 2 ans) et RX pulmonaire
 annuelle (5 ans) et coloscopie (2 ans puis tous 5 ans)
 Adénocaricnome gastrique = 90% (sauf Formes particulières)
-** 300 Tumeurs de l'estomac                                          :export:
+** 300 Tumeurs de l'estomac
 ***** Épidémiologie
 Fréquent, grave, en \dec{} 2eme cause de DC par cancer dans le monde
 Âge moyen : 70 ans. Survie à 5 ans = 15%
@@ -7153,6 +7153,65 @@ FOGD avec biopsies multiple
 - lymphomes gastriques : MALT (70% régression) ou grandes cellules (RCP...)
 - tumeurs stromales gastro-intestinales : diag = FOGD, échoendoscopie, TDM. Ttt = exérèse chir
 - tumeurs endocrines : terrain = maladie de Biermer ou sd Zollinger-Ellison
+** 301 Tumeurs du foie
+#+BEGIN_EXPORT latex
+ \begin{figure}[htpb]
+   \centering
+   \resizebox{0.5\linewidth}{!}{
+      \tikz \graph [
+     % Labels at the middle 
+     edge quotes mid,
+     % Needed for multi-lines
+     nodes={align=center},
+     edges={nodes={fill=white, align=center}}, 
+     level distance=1.5cm,
+     layered layout]
+     {
+       "Maladie chronique du foie" ->  {
+         a/"IRM/TDM"[>"oui"] -> "CHC\\Autre tumeur";
+         "Tumeur totalement liquidienne ?"[>"non"] -> {
+	   b/"IRM/TDM"[>"non"] -> {
+	     "Hémangiome\\Métastase\\Abcès\\Hyperplasie nodulaire focale\\CHC\\Adénome";
+	     "Biopsie";
+	   };
+	   "Kyste bilaire"[>"oui"];
+         };
+       };
+     };
+   }
+   \caption{Démarche diagnostique pour une tumeur du foie}
+ \end{figure}
+#+END_EXPORT
+
+***** Tumeurs du foie non malignes
+#+caption: Tumeurs du foi non malignes. NB: sérologie ne permet pas de distinguer Echinoccous multilocularis de E. granulosus...
+| Type                         | Malignité   | Imagerie                          | Diagnostic                                                                                  | PEC                               |
+|------------------------------+-------------+-----------------------------------+---------------------------------------------------------------------------------------------+-----------------------------------|
+| Kyste biliaire simple        | Bénin       | liquidien pure, paroi non visible | Imagerie                                                                                    | \emptyset                         |
+|                              |             | hyperT2                                  |                                                                                             |                                   |
+| Hémangiome bénin             | Bénin       | réhaussement en "mottes",         | Écho                                                                                        | \emptyset                         |
+|                              |             | hypo-1T, hyper-T2                 |                                                                                             |                                   |
+| Hyperplasie nodulaire focale | Bénin       | Caractéristique                   | Imagerie                                                                                    | \emptyset                         |
+| Adénome hépatocellulaire     | Bénin       | Hypervasculaire                   | Biopsie                                                                                     | Arrêt \oe{}strogène \pm résection |
+| Abcès amibien/bactérien      | Infectieux  | hypo puis rehaussement périph     | Imagerie + sérologie                                                                        | ATB                               |
+|                              |             |                                   | + contact chien (endémie\tablefootnote{Afrique Nord, Sud France}                            |                                   |
+| Kyste hydatique              | Parasitaire | typique = membrane décollée       | Ponction guidée                                                                             |                                   |
+| Échinococcose alvéolaire     | Parasitaire | hypo puis rehaussement périph     | Imagerie                                                                                    |                                   |
+|                              |             |                                   | + épidémio \tablefootnote{Franche-comét, Alpes, Massif central, Vosges, Ardennes}/sérologie |                                   |
+
+***** Tumeurs du foie malignes
+Métastases hépatique
+- (freq \dec) adénoK tube digestif/pancréas, K sein, carcinome anaplasique,
+  mélanomes malins, tumeurs endocrines
+- Pas de biopsie si tumeur connue récente, nodules après diag, aspect compatible 
+CHC
+- dépister si cirrhose \danger                                                                                                   
+- FR : 90% sur maladie chronique du foie. FR chez cirrhose = \male, âge, durée
+  maladie, sd métabolique, maladie non contrôlée
+- Imagerie : wash-in (temps artériel), wash-out (temps portal)
+- diagnostic = ponction-biopsie (\danger CI : saignement, ascite, ...
+- ttt curatif = ablation percutanée, résection chir, transplantation hépatique
+Carcinome cholangiocellulaire : résection ou chimio
 * Maladies infectieuses                                             
 #+BEGIN_EXPORT latex
 \input maladies_infectieuses
