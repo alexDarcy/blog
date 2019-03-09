@@ -3683,108 +3683,55 @@ Bio seulement si hystérectomie \thus \dec oestradiol et \inc FSH
  - 2eme intention : drogue vasoactive = efficace mais douleurs peniennes, priapisme
  - Prothèses péniennes = dernier recours, par chirurgien spécialisé
 
-** 124 \dagger Ostéopathies
- Ostéoporose : fragilité excessive du squelette (\dec minéraux osseux, modif
- microarchitecture). T-score < -2.5 DS de la valeur moyenne par DXA
-
- Dominance \female. Primaire ou secondaire :
- - endocrino : hypogonadisme, sd Cushing, hyperthyroïdie, hyperparathyroïdie, diabète
- - digestives, générale, génétique, médicaments, autres
+** 124 Ostéopathies secondaires endocrines [fn:207]                          :export:
+ Ostéoporose : -score < -2.5 DS de la valeur moyenne par DXA
+ 
+Marqueurs : résorption (Tx, NTx), formation osseuse : ostéocalcine, phosphatases alcalines osseuses
   
-*** Hypogonadisme
- Carence oestrogénique \inc ostéoclastogénèse. Aggravé par la précocité,
- déminéralisation
-**** Anorexie mentale
- Biochimie : marqueurs de formation \dec (isoenzyme des phosphastales alcalines,
- ostéocalcine), marqueurs de résorption normaux (CTx, NTx) 
+***** Hypogonadisme
+ Carence oestrogénique \inc ostéoclastogénèse. Tab [[tab:osteoporose_hypogonadisme]]
 
- Aggravé par troubles nutritionnels. Hypercortisolisme hypothalamique réversible
+#+name: tab:osteoporose_hypogonadisme
+#+caption: Types d'ostéoporose dûes à un hypogonadisme
+| Type                |                                                  | Conséquences                   | Ttt                                 |
+|---------------------+--------------------------------------------------+--------------------------------+-------------------------------------|
+| Anorexie mentale    | Formation os \dec, résorption N                  | Risque de fractures $\times 7$ | Multidisciplinaire                  |
+|                     |                                                  |                                | + oestroprégestatif                 |
+| AP intensive        | Origine hypothalamique                           | \inc résorption os,            | \dec activité ou oestroprogestatifs |
+|                     |                                                  | \inc fractures de fatigue      |                                     |
+| Lésion hypophysaire | Doit impacter l'axe gonadotrope                  | Perte osseuse rapide           | \oe{}strogènes                      |
+| Iatrogène           | Agonistes GnRH\tablefootnote{patho utérines},    |                                | Arrêt                               |
+|                     | inhibiteurs aromatase\tablefootnote{cancer sein} |                                | \pm isphosphonates, denosumab       |
+|                     |                                                  |                                |                                     |
+| Sd Turner           | \dec ontinue à l'adolescence                     | \inc fracture (adulte)         | Estrogénisation + GH                |
+|                     |                                                  |                                | Oestroprogestatif                   |
 
- Ostéoporose fréquente, risque de fractures $\times 7$
 
- Traitement 
- - multidisciplinaire
- - pilule oestroprégestative en pratique (limite perte osseuse)
+***** Hyperthyroïdie/hormones thyroïdiennes
+ Fréquent, /dosage systématique TSH/. \inc remodelage (os cortical++) 
 
-**** Activité physique intensive
- Hypoestrogénie hypothalamique
+PEC : densitométrie \pm prévention (bisphosphonates si âgé, surveillance si ttt suppressif de fonction thyroïdienne)
 
- Facteur : activité[fn:41], troubles menstruels, apports alimentaires
-
- Résorption généralisée (rachis++), \inc fractures de fatigue
-
- Traitement : si aménorrhées, \dec activité ou oestroprogestatifs
-
-**** Pathologies hypophysaires
- Prolactinomes, adénome corticotrope influent remodelage osseux
-
- Perte osseuse rapide (8% par an), récupération variable.
-
- Traitement : \female{} non ménopausée : oestrogénothérapie
-
-**** Iatrogènes
- Agonistes GnRH (patho utérines), inhibiteurs aromatase (cancer sein)
-
- Réversible à l'arrêt (moins bien si âgée)
-
- Traitement : bisphosphonates, denosumab
-
-**** Dysgénésies gonadique 
- Sd Turner = plus fréquent (1/2500 à naissance)
-
- \dec masses osseuse, continue à l'adolescence. \inc risque fracture chez
- l'adulte.
-
- Traitement : oestrogénisation (hypogonadisme) et hormone de croissance. Adulte :
- oestroprogestatif
-
-*** Hyperthyroïdie, traitement par hormones thyroïdiennes
- Cause fréquente d'ostéoporose secondaire \thus dosage systématique TSH
-
- Hormones thyroïdiennes \inc remodelage : résorption sur l'os cortical++ et trabéculaire
-
- En pratique, rarement évolution jusque l'atteinte osseuse (ttt
- rapide). Adapter posologie hormones thyroïdiennes au cancer thyroïdien.
-
- Prévention :
- - densitométrie
- - bisphosphonates sujet âgé ou risque extrémité supérieure du fémur
- - surveillance si ttt suppressif de fonction thyroïdienne
-
-*** Hypercortisolisme, corticothérapie
-
- \dec ostéoblastes, \inc activité ostéoclaste. \dec absorption intestinale
- calcium, \inc pertes urinaires calcium, hyperparathyroïdisme
-
- Surtout trabéculaire (vertèbres, côtes, radius). Aggravé si prépubertaire, hypogonadisme
-
- Fractures vertébrales fréquentes, surtout sd Cushing avec adénome corticotrope/surrénalien
+***** Hypercortisolisme/ corticothérapie
+/Prévention systématique/. \dec formation osseuse, \inc résorbtion. Trabéculaire (fractures vertébrales fréquentes !), rapide. 
 
  Traitement : 
- - pré-corticothérapie : status osseux, FR
- - supplément vitaminocalcique
- - bisphosphonates, tériparatide si corticothérapie > 3 mois, prednisone > 7.5mg/j
-   et T-score $\ge -1.5$
+ - pré-corticothérapie : évaluer status osseux, FR
+ - supplément vitaminocalcique \pm bisphosphonates/tériparatide [fn:208]
 
-*** Hyperparathyroïdie primitive
- Fréquent, notamment chez femme ménopausée. Ostéoporose fréquente \thus dépistage
- systématique par DXA
+***** Hyperparathyroïdie primitive
+ Fréquent (ménopausée++). /Dépistage systématique/ par DXA
 
- Production continue PTH : \inc résorption os cortical (tiers proximal radius,
- fémur)[fn:42]
+ Production continue PTH stimule ésorption os (cortical)
 
- Diminution limitée (10%). Souvent favorable post-parathyroïdectomie.
+ Traitement : chir si T-score < -2.5. Sinon anti-ostéoclastiques[fn:43], calcimimétique[fn:44]
 
- Traitement : chir si T-score < -2:5. Sinon anti-ostéoclastiques[fn:43], calcimimétique[fn:44]
-
-*** Chez l'homme
+***** Chez l'homme
     Pas de T-score reconnu. 
 
- Fracture radius distal plus rares.
-
- Ostéoporoses secondaires plus fréquentes chez l'homme : hypercorticisme,
- hypogonadisme congénital/acquis/iatrogène, alcoolisme, hypercalciurie
+ Surtout : hypercorticisme, hypogonadisme congénital/acquis/iatrogène, alcoolisme, hypercalciurie
  idiopathiques, génétique
+
 ** 207 \dagger Sarcoidose
    Atteinte hypothalamo-hypophysaire exceptionnelle. Conséquences : diabète
    inspide central, insufisance gonadotrope
@@ -10763,6 +10710,11 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 * Footnotes
 
+[fn:208] Si prednison > 7.5mg/j et T-score \le -1.5
+
+[fn:207] Secondaires autres : digestives, générale, génétique, médicaments,
+autres. Il existe aussi des ostéoporoses primaires
+
 [fn:206] Dyspnée, emphysème SC, odynophagie 
 
 [fn:205] Remontée volontaire
@@ -10900,8 +10852,6 @@ l'absence de transcript de FMR1 (Fragile X Mental Retardation 1). \\
 [fn:40] Efficace si stimulation sexuelle (même chez diabétique)
 
 [fn:41] Marathon, danse classique, demi-fond, triathlon, gymnastique, cyclisme
-
-[fn:42] Souvent aussi extr supérieure du fémur et vertèbres.
 
 [fn:43] Oestrogènes, raloxifène, bisphosphonates
 
