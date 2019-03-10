@@ -3,3 +3,54 @@ Acromégalie : test de freinage au glucose. Si diabétique, suivre cycle de GH s
 3 ans (\ne gold standard, simplement un argument !)
 
 Acanthosis nigricans : monte insulino-résistance
+
+** Examen clinique
+*** ATCD
+chir, med, gynéco, familial, perso
+*** Ttt
+habituel, allergies (dernier repas)
+*** MDV
+- profession, main dominante, sport
+- toxiques, alcool, tabac, viral
+- conditions de vie, autonome
+*** HDM
+- anamnèse: déclenché par ? favorisé par ?
+- clinique : quantifier, signes
+- complications, retentissement, fièvre, AEG
+*** Examen physique
+- constantes : TA, températeure, FR, FC, sat, poids, diurèse, CS
+- hémodynamique,
+- repi
+- neuro
+- infectieux
+*** Endocrino 
+- poids, taille, IMC, tour taille
+- visag, répartition graisses, xanthome
+- thyroïde, profil + face, tour cou, palpation
+*** Diabétique
+**** Clinique
+- fonctionnel : angor, AIT, claudication HTA, vision
+- FR CV : ATCD, tabac, obésité
+- PA couché et debout
+- pieds : pouls, cutané, TRC, réflexe achilléen, sensibilité superficiell,
+  monofilament
+- neuro
+- pouls, souffle vasc
+- bouches, sinus
+**** Histoire
+- découverte ?
+- histoire du traitement
+- DG (macrosome > 4kg)
+- suivi des complications : ophtalmo (FO), cardio (doppler MI, TSA), rein
+- poids, alim
+- demander carnet glycémie, si autonome
+
+*** CS pré-chir bariatrique,
+- ATCD, ttt, allergie,
+- Grossesse, DG (macrosome > 4kg, ttt)
+- ATCD familiaux
+- Histoire du poids
+- Activié physique
+- Comportement alimentaire (régimes précédents)
+- SAOS
+- Acanthosis nigricans

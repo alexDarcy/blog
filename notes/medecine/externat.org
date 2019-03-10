@@ -178,6 +178,7 @@
 #+latex_header_extra: \newacronym{PAF}{PAF}{Polypose adénomateuse familiale}
 #+latex_header_extra: \newacronym{BPCO}{BPCO}{Bronchopneumopathie chronique obstructive}
 #+latex_header_extra: \newacronym{VNI}{VNI}{Ventilation non invasive}
+#+latex_header_extra: \newacronym{TIPMP}{TIPMP}{Tumeurs intracanalaires papillaire mucineuses pancréatiques}
 
 #+OPTIONS: H:5
 
@@ -7163,7 +7164,12 @@ permenante et /irréductible/
 Chirurgie : si crurales, inguinale chez l'enfant [fn:145] ou
 douloureuse. Complications : hématome , infection \danger. 5% récidive
 
+
 ** 287, 298 : Tumeurs du côlon, rectum
+\begin{tcolorbox}
+Classement des cancers: 1. colorectal, 2. pancréas 3. estomac, 4. \oe{}sophage
+\end{tcolorbox}
+
 *** Tumeurs bénignes
 ***** Définition
 Polype = petite tumeur faisant saillie. Allure = sessile, pédiculé ou
@@ -7314,6 +7320,58 @@ CHC
 - diagnostic = ponction-biopsie (\danger CI : saignement, ascite, ...
 - ttt curatif = ablation percutanée, résection chir, transplantation hépatique
 Carcinome cholangiocellulaire : résection ou chimio
+** 302 Tumeurs de l'\oe{}sophage
+Maligne > 99% : épidermoïde ou adénoK
+
+***** Épidémiologie 
+Hommes, adénoK > 50% et \dec épidermoïde
+
+Pronostic : 15% survie à 5 ans
+
+***** Prévention
+- FR : tabac alcool (épidermoïde), RGO et endobrachy\oe{}phage, surpoids, homme,
+  tabac (adénocarcinome)
+- Prévention : tabac, alcool
+- Dépistage : surveillance EBO tous 2-5 ans
+***** Diagnostic
+Suspicion clinique, confirmation par FOGD (8 biopsies)
+- asymptomatique si précoce, dysphagie + perte de poids à stade avancé
+- chercher hépatopathie alcoolique, K synchrone (ORL, pneumo)
+
+***** PEC
+- Bilan : scan TAP + TEP scan et endo-endoscopie si pas de métastase
+- Ttt : endoscopique (stade I), chir (stade II), radiochimio (stade III), chimio
+  (stade IV)
+** 305 Tumeurs du pancreans
+***** Épidémiologie
+- Adénocarcinome (90% : 60-70 ans, incidence \inc, survie : 6-9 mois avec métastase, 18-24 mois si réesction
+
+Pronostic : 5% de survie à 5 ans !
+***** Prévention :
+FR : tabac, parent 1er degré, pancréatite chronique héréditaire
+
+_Pas_ de dépistage
+***** Diagnostic
+\begin{tcolorbox}
+Y peser si aggravation diabète chez \male{} > 40 ans, phlébite "spontanée"
+\end{tcolorbox}
+
+Suspicion clinique, confirmation par scanner (injection)
+- clinique : tête pancréas = {ictère, douleur "solaire", amaigrissement++} (rarement 3)
+- doser \gamm-GT, phosphatases alcaline, diabète
+- confirmation histologique si radio/chimio \danger 
+
+***** PEC
+Résection (curatif) [fn:211] mais > 80% ne seront pas opéré (chimi, prothèses si
+obstacles, sténose)
+
+***** Autres 
+- Tumeurs neuroendocrines (5-10%) : diag si sd hormonal, sd de masse, bilan pour
+  NEM1, fortuite. Doser chromographinine A. /Scanner/ ou /échoendo/ si petite
+  taille + IRM pour extension
+- crshort:TIPMP (15% de population) : précancereuse, faire scanner, IRM
+  bibliopancréatique, échoendo
+
 * Maladies infectieuses                                             
 #+BEGIN_EXPORT latex
 \input maladies_infectieuses
@@ -10800,6 +10858,8 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:211] Duodéno-pancréatectomie céphalique (tête) ou spléno-pancréatectomie
 
 [fn:210] Cirrhose = vasodilatation. Sd néphrotique = \dec pression oncotique,
 hypovolémie. IC droite : \dec FC
