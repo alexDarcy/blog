@@ -7031,7 +7031,52 @@ encéphalopathie/hémorragie digestive chronique
 - Dépistage CHC : écho tous 6 mois
 - Score Child-Pug de A à C selon encéphalopathie, ascite, \inc bilirubine, \dec albumine,
   \dec TP
-** Ascite
+** 277 Ascite
+***** Définition
+Épanchement liquidien péritonéal non sanglant
+
+***** Clinique 
+- Suspicion : \inc volume abdo, matité abdo déclive, mobilisable, concave en haut
+- DD : globe vésical, kyste volumineux, accumulation stercorale du colôn
+- Chercher : cirrhose, maladie cardiaque/bronchopulmonaire, K de l'appareil
+  digestif/génital/lymphome, tuberculose, sd néphrotique, ATCD trauma abdo,
+  amiante
+
+***** Physiopatho
+Plus courant = excès de production par réabsorption rénale excessive de Na+ et
+d'eau. 3 mécanismes[fn:210] qui vont stimuler {rénine-angiotensine-aldostérone,
+cathécholamine, ADH}
+***** Examen du liquide d'ascite
+- Prot totale, lipase, TG
+- Hématies, PNN, lymphocytes, 
+- Hémocultures, ED, ensemencement
+
+***** Diagnostics les plus courants
+Clinique + analyse du liquide + _écho_ suffit 
+| Clinique                       | Liquide d'ascite  | Diagnostic      | Physiopatho      |
+|--------------------------------+-------------------+-----------------+------------------|
+| Veines hépatiques non dilatées | Pauvre protéines  | Cirrhose        | Excès production |
+| protéinurie < 3g/24h           | Pauvre leucocytes |                 |                  |
+| \pm OMI                        |                   |                 |                  |
+| Veines hépatiques dilatées     | Prot > 25g/L      | IC droite       | Excès production |
+| pas signes de cirrhose,        | Pauvre leucocyte  |                 |                  |
+| protéinurie < 3g/24h           |                   |                 |                  |
+| Signes de cancer               | Prot > 25g/L      | K (Carcinose    | Gêne résorption  |
+|                                | Cellules          | , mésothéliome) |                  |
+***** Autres diagnostics
+| Clinique             | Liquide d'ascite       | Complémentaire      | Diagnostic              | Physiopatho              |
+|----------------------+------------------------+---------------------+-------------------------+--------------------------|
+| Protéinurie > 3g/24h | Pauvre protéines       |                     | Sd néphrotique          | Excès production         |
+| hypoalbuminémie      | Pauvre leucocytes      |                     |                         |                          |
+| Pancréatite          | Lipases                | TDM/IRM             | Ascite pancréatique     |                          |
+|                      | TG                     |                     | Ascite chyleuse         | Rutpure canal            |
+|                      |                        |                     |                         | lymphatique mésentérique |
+| ATCD                 | Protéines > 25g/L      | biopsie péritonéale | Tuberculose | Gêne résorption          |
+|                      | Leucocytes > 1000/mm^3 | sous coelioscopie   | péritonéale                         |                          |
+***** Complications
+- Infections du liquide d'ascite \skull : C3G proabiliste (car monomicrobe) + albumine 
+- dyspnée (ponction en urgenke \danger), hernie pariétale (si rupture, chir en
+  urgence \skull)
 ** Pancréatite chronique
 ** MICI
 ** Constipation
@@ -10755,6 +10800,9 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:210] Cirrhose = vasodilatation. Sd néphrotique = \dec pression oncotique,
+hypovolémie. IC droite : \dec FC
 
 [fn:209] Dilatation voies biliaire intra-hépatique = CI absolue
 
