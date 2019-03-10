@@ -1,4 +1,3 @@
-#+title: Fiches
 #+author: Alexis Praga
 #+latex_class: book-noparts
 #+OPTIONS: tags:nil
@@ -6184,7 +6183,6 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
  forcément normalisation Fe !!
 
 
-
 ** 248 \dagger Dénutrition
  Référence nutritionnelle pour la population (couvre besoin). Sinon : apport
  satisfaisant (apport moyen d'une population)
@@ -6560,7 +6558,6 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
 
 ***** DD
      AINS, alcool, hypertension portale (congestion), hypertrophiques, radiques
-
 
 ** 270 \dagger Dysphagie
  Déf : sensation de gêne/obstacle à la progression du bol alimentaire
@@ -6980,6 +6977,66 @@ Chimio : aigü (< 24h), retardés, anticiéps
  - cholangiographie percutanée transhépatique [fn:140] : si échec CPRE mais risque
    hémopéritoien, bilio-péritoine, angiocholite
 
+** 276 Cirrhose
+***** Diagnostic
+Clinique + biologie + échographie + tests non invasifs 
+\marginpar{\danger clinique et bio peuvent être N}
+- /clinique/ : insuf hépatocellulaire[fn:207], hypertension portale[fn:208], foie dur à bord tranchant
+- /bio/ : \inc modérée \gamma-GT, transaminases, thrombopénie
+- /Fibroscan/ (élasticité hépatique) < 12.5kPa
+- biopsie (très rare !) : certitude[fn:209] 
+- écho: dépistage CHC (si nodule: TDM/IRM injection)
+- endoscopie si risque de varice (plaquettes < 150 ou élasticité hépatique < 20kPa)
+
+***** Urgences
+Tab [[tab:cirrhose_urgences]]
+#+name: tab:cirrhose_urgences
+#+caption: Urgences de la cirrhose
+| Type             | Clinique                         | Diagnostic             | PEC                                                                                                                             |
+|------------------+----------------------------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------|
+| Hémorragie       | Hématémèse, méléna, rectorragies | Gastroscopie urgente ! | Vasoactif 2-5j puis \beta-bloquant                                                                                              |
+| digestive        | Pâleur cutanée + muqueuse        |                        | Quinolone/C3G 7j                                                                                                                |
+|                  | tachycardie                      |                        | Endoscopie (diag/curatif)                                                                                                       |
+| Encéphalopathie  | Astérix                          | Hyperammoniémie        | Traiter facteur déclenchant\tablefootnote{Infection bactérienne, hémorragie digestive, sédatif, IR, hyponatrémie, constipation} |
+|                  | Confusion/coma                   |                        |                                                                                                                                 |
+| Infection du     |                                  | Ponction d'ascite      | Céfotaxime + albumine 5-7j                                                                                                      |
+| liquide d'ascite |                                  | et PNE > 250/mm^3      | Vérifier < 250/mm^3 à 48h                                                                                                       |
+| Sd hépatorénal   | Oligurie, \inc créat et urée     |                        | Terlipressine + albumine                                                                                                        |
+|                  | \dec \dec natriurèse             |                        | Tranplantation hépatique                                                                                                                                                                                                                                        |
+***** PEC
+Cf Tab [[tab:cirrhose_etiologies]]. 
+
+Ascite : ponction (si tendue), régime désodé et spironolactone 75mg/j. Si
+réfractaire : ponctions, TIPS. Si hernie ombilicale : chir
+
+Transplantation : IH sévère, ascite réfractaire, infection d'ascie, CHC,
+encéphalopathie/hémorragie digestive chronique
+
+#+name: tab:cirrhose_etiologies
+#+caption: Étiologies de la cirrhose et PEC
+| /Cirrhose alcoolique/       | arrêt alcool et biopsie hépatique + corticoïdes si score Maddrey > 32 |
+| /Hépatite chronique/      | ténofovir/entécavir (B), antiviraux direct (C)                        |
+| /Stéatopathie non alcoolique/ | contrôle surpoids, diabète, dyslipidémie                              |
+| Cirrhose biliaire primitive | acide ursodésoxycholique                                              |
+| Aut-immune                  | corticoïdes, azathioprine                                             |
+| Hémochromatose              | saignée                                                               |
+| Sd Budd-Chiarri             | anticoagulant                                                         |
+| Maladie de Wilson           | chélateur du cuivre   
+
+***** PEC long cours 
+- Prévention des hémorragies digestives : endoscopie digestive si décompensée,
+  répétée à 3-2 ans. En secondaire = propranolol/ligature 
+- Contrôle de ascite (régime pauvre sodium)
+- Prévention encéphalopathie
+- Dépistage CHC : écho tous 6 mois
+- Score Child-Pug de A à C selon encéphalopathie, ascite, \inc bilirubine, \dec albumine,
+  \dec TP
+** Ascite
+** Pancréatite chronique
+** MICI
+** Constipation
+** Diarrhée chronique
+** Diarrhée aigue 
 ** 284 Diverticulose, diverticulite aigüe du sigmoïde
 **** Diverticulite compliquée [fn:141]
 ***** Forme classique
@@ -10699,6 +10756,11 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 * Footnotes
 
+[fn:209] Dilatation voies biliaire intra-hépatique = CI absolue
+
+[fn:208] Ascite, dilatation veines SC abdominales, splénomégalie
+
+[fn:207] Signes cutanés++ (angiomes stellaire, érythrose palmaire, ongles blancs), ictère conjonctival/cutané, astérixis
 
 [fn:206] Céphalées violentes, sd méningé sd confusionnel, troubles visuel.
 
