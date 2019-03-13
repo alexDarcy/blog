@@ -3,7 +3,11 @@ Acromégalie : test de freinage au glucose. Si diabétique, suivre cycle de GH s
 3 ans (\ne gold standard, simplement un argument !)
 
 Acanthosis nigricans : monte insulino-résistance
+** Traitement DT2
+1ere intention : metformine
+2eme intention metformine + glinides ou victoza (GLP1) NB: les sulfamides hypoglycémiants sont recommandé par la HAS car moins cher
 
+Basal bolus ou novomix (semilente + rapide) 2x / jour selon les services
 ** Examen clinique
 *** ATCD
 chir, med, gynéco, familial, perso

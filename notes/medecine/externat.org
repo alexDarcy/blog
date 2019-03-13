@@ -7026,7 +7026,7 @@ encéphalopathie/hémorragie digestive chronique
 
 ***** PEC long cours 
 - Prévention des hémorragies digestives : endoscopie digestive si décompensée,
-  répétée à 3-2 ans. En secondaire = propranolol/ligature 
+  répétée à 3-2 ans. Si varices = propranolol/ligature 
 - Contrôle de ascite (régime pauvre sodium)
 - Prévention encéphalopathie
 - Dépistage CHC : écho tous 6 mois
@@ -7078,7 +7078,32 @@ Clinique + analyse du liquide + _écho_ suffit
 - Infections du liquide d'ascite \skull : C3G proabiliste (car monomicrobe) + albumine 
 - dyspnée (ponction en urgenke \danger), hernie pariétale (si rupture, chir en
   urgence \skull)
-** Pancréatite chronique
+** 278 Pancréatite chronique
+Inflammation \thus fibrose àthus destruction de la glande pancréatique. \male =
+4 \female, 
+
+***** Cause
+- /Alcool/ (80%), obstructive[fn:212], auto-immune, hypercalcémie,
+      génétique, idiopathique (10%)
+- Tabac = FR
+***** Diagnostic
+Suspicion sur clinique, confirmation sur scanner avec + sans injection
+- clinique : douleur épigastrique transfixante, déclenchée par l'alcool +
+  amaigrissement. Pancréatite aigüe
+- diag formel = calcifications/anomalies canalaires/insuf pancréatique exocrine
+- diag probable : pancréatite aigüe répéte/douleurs chronique sur alcool
+  excessif, 40 ans
+***** Traitement
+- sevrage alcool, tabac
+- antalgique, anti-inflammatoire \pm chir
+- insuf pancréatique exocrine : extrait pancréatique (si amaigrissement/stéatorréhe)
+***** Complications
+Pseudo-kystes, compression VBP, compression duodénemu, hémorragies digestives
+(10%), insuf pancréatique exocrine[fn:213], diabète (inéluctable), complication
+alcoolol-tabagisme (DC+++)
+***** Évolution
+Douleurs disparaissent \approx 1* ans. Diabète et insuf pacréatique
+exocrine après 15 ans
 ** MICI
 ** Constipation
 ** Diarrhée chronique
@@ -7358,7 +7383,7 @@ Y peser si aggravation diabète chez \male{} > 40 ans, phlébite "spontanée"
 
 Suspicion clinique, confirmation par scanner (injection)
 - clinique : tête pancréas = {ictère, douleur "solaire", amaigrissement++} (rarement 3)
-- doser \gamm-GT, phosphatases alcaline, diabète
+- doser \gamma-GT, phosphatases alcaline, diabète
 - confirmation histologique si radio/chimio \danger 
 
 ***** PEC
@@ -10858,6 +10883,10 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:213] Diag : stéatorrhée suffi 
+
+[fn:212] Sténose du canal de Wirsung, tumeur.
 
 [fn:211] Duodéno-pancréatectomie céphalique (tête) ou spléno-pancréatectomie
 
