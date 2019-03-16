@@ -7135,7 +7135,26 @@ DD : colite, rectosigmoïdite aigüe
 Poussées, rémissions. Complications : colite aigüe grave, K colorectal
 ***** Ttt
 Dérivés 5-amino-alicylés puis dérivés 5-amino-alicylés + azathioprine
-** Constipation
+** 280 Constipation
+***** Diagnostic
+\marginpar{Chronique si > 6 mois} Clinique : selles < 3 semaines ou difficultés ou les 2
+- TR, examen proctologique \pm neuro
+***** Épidémiologie
+15-20%, surtout \female
+***** Étiologies
+- Occasionnelle (grosses, voyage)
+- Secondaire : obstruction mécanique, neuro, métabolique (diabète,
+  hypothyroïdie, hypercalcémie)
+- Idiopathique : ralentissement du transit, dyschésie [fn:215]
+***** Complémentaire 
+- Bio seulement si persistant [fn:216]
+- Coloscopie totale (si suspicion organique ou > 50ans)
+- Temps de transit colique (constipation de transit)
+- Manométrie anorectale (distale)
+- Défécographie
+***** Traitement
+Cause si organique. Sinon règles hygiénodiététiques + laxatifs osmotiques. Si
+échec laxatif rectaux/rééduc périnale
 ** Diarrhée chronique
 ** Diarrhée aigue 
 ** 284 Diverticulose, diverticulite aigüe du sigmoïde
@@ -10950,6 +10969,11 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:216] Glycémie, calcémie, créatinine, TSH, NFS, CRP 
+
+[fn:215] rectocèle, procidence
+  rectale interne, sd périnée descendant, mégarectum, hyposensisibilité rectale
 
 [fn:214] {Aphtes buccaux, ériythème noueux}, arthite, uvéite
 
