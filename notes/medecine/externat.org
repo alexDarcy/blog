@@ -7106,7 +7106,35 @@ alcoolol-tabagisme (DC+++)
 ***** Évolution
 Douleurs disparaissent \approx 1* ans. Diabète et insuf pacréatique
 exocrine après 15 ans
-** MICI
+** 279 MICI
+*** Crohn 
+***** Diagnostic
+Suspicion clique + confirmation endoscopie, histologie, radiologie
+- clinique : diarrhée et douleurs abdo chroniques, lésions procto, EG, signes inflammoitres extradig [fn:214]
+- endoscopie OGD + iléocoloscopie : ulcération \pm intervalles sains
+- histologie : granulomes épithélioïdes gigantocellulaires /sans/ nécrose
+  caséeseuse
+- TDM/IRM : épaissemment inflammatoires parois, signe du peigne
+  
+DD : iléocolite, iléite aigüe isolée, tubeurculose, néoplasie ulcées,
+rectocolite hémorragique
+***** Évolution
+Poussées, rémissions. Complications : occlusions, fistules, abcès/perforations,
+colite aigüe grave
+***** Ttt 
+Corticoïdes + nutrition + Ac anti-TNF-\alpha puis immunsuppresseur/anti TNF-\alpha
+
+*** Rectocolite hémorragique
+***** Diagnostic 
+Suspicion clinique + confirmation endoscopie, histologie
+- sd rectal, sd dysentérique chronique, manif extra-dig
+- endoscopie : inflammation rectocolique, sans intervalle sain
+
+DD : colite, rectosigmoïdite aigüe
+***** Évolution
+Poussées, rémissions. Complications : colite aigüe grave, K colorectal
+***** Ttt
+Dérivés 5-amino-alicylés puis dérivés 5-amino-alicylés + azathioprine
 ** Constipation
 ** Diarrhée chronique
 ** Diarrhée aigue 
@@ -10922,6 +10950,8 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:214] {Aphtes buccaux, ériythème noueux}, arthite, uvéite
 
 [fn:213] Diag : stéatorrhée suffi 
 
