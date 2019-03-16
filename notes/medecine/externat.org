@@ -5819,10 +5819,6 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
  - dans tous les cas : CI médicaments hépatotoxiques, neurosédatifs, éviter
    contamination (VHA, VHE)
 
-
-
-
-
  #+begin_table
  #+LATEX: \caption{Hépatites virales, résumé}
  #+LATEX: \label{tab:my-table}
@@ -7426,8 +7422,9 @@ FR : tabac, parent 1er degré, pancréatite chronique héréditaire
 
 _Pas_ de dépistage
 ***** Diagnostic
+
 \begin{tcolorbox}
-Y peser si aggravation diabète chez \male{} > 40 ans, phlébite "spontanée"
+Y pesner si aggravation diabète chez \male{} > 40 ans, phlébite "spontanée"
 \end{tcolorbox}
 
 Suspicion clinique, confirmation par scanner (injection)
@@ -7483,6 +7480,43 @@ Tab. \ref{tab:sd_occlusif}
 |               |                        |              | sd d'Olgivie           | opacification   | exsufflation             |
 #+LATEX: }
 #+end_table
+** 350 Hémorragie digestive
+***** Épidémiologie
+Plutôt \male, vers 70 ans. DC : 3-10% si HD haute, 2-8% si HD basse
+
+_FR_ : AINS, antiagrégant/anticoagulant (aspirine !), sérotoninergiques, \bact{helicobacter}
+***** Diagnostic
+Interrogatoire + clinique + complémentaire : Tab.~\ref{tab:hemorragie_digestive}
+
+#+begin_table
+#+LATEX: \caption{Démarche diagnostique pour HD}
+#+LATEX: \label{tab:hemorragie_digestive}
+#+LATEX: \centering
+#+LATEX: \adjustbox{max width=\linewidth}{
+#+ATTR_LATEX: :center nil
+| Signes       | Localisation  | Étiologies                                 | Clinique     | Examens                   |
+|--------------+---------------+--------------------------------------------+--------------+---------------------------|
+| Hématémèse   | Haute         | Ulcère GD                                  | Cirrhose ?   | Endoscopie OGD sous 24h ! |
+| Méléna       | Amont angle   | Varices oesophagiennes                     |              | \pm angioscanner          |
+|              | colique droit | Érosions GD                                |              |                           |
+|              |               | Sd Mallory-Weiss                           |              |                           |
+|--------------+---------------+--------------------------------------------+--------------+---------------------------|
+| Hématochézie | Basse         | Hémorroïdes                                | Masse abdo ? | Coloscopie                |
+|              | haute massive | K colorectal, diverticulose sigmoïdienne   |              |                           |
+|              |               | Angiodysplasiques coliques                 |              |                           |
+|              |               | MICI, colites infectieuse                  |              |                           |
+|              |               | Grêle : diverticule Meckel, angiodysplasie |              |                           |
+#+LATEX: }
+#+end_table
+***** PEC : \faHospitalO
+1. Évaluer gravité : FC, PA, choc ?
+2. Hémostase, NFS, plaquettes, groupe sg-RAI
+3. 2 VVP avec remplissave vasc, transfusion [fn:217], \pm SNG. Surveillance paramètres
+4. Si HD haute, ttt présomptif : vasoactif (terlipressine) + IPP
+
+- _Ulcère GD_ : IPP IV dès l'admission, hémostase endoscopique
+- _Hypertension portale_: vasoactif veineux, ATB prophylactique, laxatifs osmotiques forte doses
+
 * Maladies infectieuses                                             
 #+BEGIN_EXPORT latex
 \input maladies_infectieuses
@@ -10969,6 +11003,8 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:217] Objectifs : PAs > 100, FC < 100, Hg \in [7,9]g/dL
 
 [fn:216] Glycémie, calcémie, créatinine, TSH, NFS, CRP 
 
