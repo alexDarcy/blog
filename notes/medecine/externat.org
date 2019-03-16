@@ -3,6 +3,7 @@
 #+OPTIONS: tags:nil
 #+TAGS: export(e)  
 
+:DRAWER:
 #+latex_header: \input{header}
 #+latex_header_extra: \usepackage{adjustbox}
 #+latex_header_extra: \usepackage{multirow, makecell}
@@ -181,6 +182,7 @@
 #+latex_header_extra: \newacronym{TIPMP}{TIPMP}{Tumeurs intracanalaires papillaire mucineuses pancréatiques}
 
 #+OPTIONS: H:5
+:END:
 
 * Cardiologie
 \def\arrow{$\rightarrow$}
@@ -7367,7 +7369,7 @@ Suspicion clinique, confirmation par FOGD (8 biopsies)
 - Bilan : scan TAP + TEP scan et endo-endoscopie si pas de métastase
 - Ttt : endoscopique (stade I), chir (stade II), radiochimio (stade III), chimio
   (stade IV)
-** 305 Tumeurs du pancreans
+** 305 Tumeurs du pancreas
 ***** Épidémiologie
 - Adénocarcinome (90% : 60-70 ans, incidence \inc, survie : 6-9 mois avec métastase, 18-24 mois si réesction
 
@@ -7397,6 +7399,43 @@ obstacles, sténose)
 - crshort:TIPMP (15% de population) : précancereuse, faire scanner, IRM
   bibliopancréatique, échoendo
 
+** 349 Syndrome occlusif
+***** Diagnostic
+Clinique + scanner
+- clinique = /arrêt des gaz/douleur abdo, arrêt des matières,
+  nausées/vomissements, météorisme 
+
+***** Localisation 
+- Haute : douleurs, vomissement abodant, AEG, déshydratation, niveaux
+  hydroaériques larges 
+- Basse : arrêt des matières, météorisme++, tympatnisme, niveaux hydroaériques
+  hauts
+***** Évaluation
+- Obstruction : hypovolémie, hypoNa, alcalose/acidose métabolique ?
+- idem + nécrose intestinale ? douleur, défense abdo, choc, IR, hyperK, ischémie
+  (scanner) 
+***** Traitement
+Tab. \ref{tab:sd_occlusif}
+#+begin_table
+#+LATEX: \caption{Mécanismes et traitement des syndromes occlusifs}
+#+LATEX: \centering
+#+LATEX: \adjustbox{max width=\linewidth}{
+#+LATEX: \label{tab:sd_occlusif}
+#+ATTR_LATEX: :center nil
+| Mécanisme     | Symptômes              | Localisation | Étiologie              | Confirmation    | Traitement               |
+|---------------+------------------------+--------------+------------------------+-----------------+--------------------------|
+| Strangulation | brutal                 | haute        | 1. bride/volvulus      |                 | chir urgente/médic       |
+|               | douleurs++             |              | 2. étranglement hernie |                 | chir urgente             |
+|               |                        | basse        | volvus côlon pelvien   | opacification   | détorsion                |
+|               |                        |              | volvus du c\ae{}cum    | opacification   | colectomie               |
+| Obstruction   | grêle: sd K\oe{}nig    | haute        | 1. sténoses bénignes   | scanner/IRM     | médical                  |
+|               | colique : constipation |              | 2. tumeurs du grêle    | scanner ?       | résection chir           |
+|               | météorisme diffus      |              | 3. iélus bilaire       | scanner ?       | entérotomie              |
+|               |                        | basse        | K colique              | scanner injecté | colectomie urgente/médic |
+|               |                        |              | fécalome               |                 | manuel                   |
+|               |                        |              | sd d'Olgivie           | opacification   | exsufflation             |
+#+LATEX: }
+#+end_table
 * Maladies infectieuses                                             
 #+BEGIN_EXPORT latex
 \input maladies_infectieuses
