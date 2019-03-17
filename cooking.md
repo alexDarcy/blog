@@ -2,7 +2,8 @@
 - Cinnamon rolls [de Babish](https://www.bingingwithbabish.com/recipes/cinnamonrolls?rq=cinnamon)
 Le glacage est trop lourd (et seulement testé avec fromage frais + sucre) en soi ! 
 Soit réessayer la recette de babish (en petite quantités), soit simplement nature.
-
+- Paris-Brest (PPAP) : crème au beurre toujours un peu trop liquide. Vient du
+  praliné "maison" (loupé par ailleurs) ?
 - Galette des rois [de Conticini](https://www.youtube.com/watch?v=ETkk7QXbtlw)
 Diviser quantité de crème par 2. Pâte feuilletée inversée plus intéressante que
 la simple...
@@ -38,16 +39,13 @@ Encore travailler la crème, pas assez goutue la dernière fois
     + lait concentré sucré
     + chocolat noir
 - Guimauve ([jujube-en-cuisine](http://www.jujube-en-cuisine.fr/marshmallow-ou-guimauve-maison/)): trop sucré mais bonne texture
-- Croissants [(750g)](http://www.750g.com/croissants-maison-r96776.htm) pour 6 croissants
-    + 200g de beurre
-    + 1 oeuf
-    + 28 cl de lait
-    + 10g de levure de boulanger fraîche
-    + 2 c à c de sel fin
-    + 40g de sucre semoule
-    + 500g de farine
-NB: préchauffer à 250, puis cuire 20min à 180. Laisser refroidir.
-Retenter recette de PPAP
+- Croissants (PPAP). Remarques après plusieurs essais :
+    + 45min à 190° = trop !!  pas assez cuits à l'intérieur mais un peu trop à
+      l'extérieur. 180° était trop, essayer 160° ? Changer la position dans le
+      four ?
+    + Bien laisser pousser avant d'enfourner (45min n'est pas assez !)
+    + Beurre qui s'échappe = pâte trop malmenée ? 
+- Gaufres : pas assez cuite. Problème de gaufrier ?	
 - Biscuit de Savoie ( [meilleur du chef](https://www.meilleurduchef.com/cgi/mdc/l/fr/recette/biscuit-savoie.html)) : cuire vraiment plus longtemps en bas du four. Bien beurrer et fariner.
 - Clafoutis aux pommes ([ptitecuisinedepauline](http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html)). Avec un peu plus de farine, on a un clafoutis bien compact.
 - Pâte à chou (Patisserie, Leçons pas-à-pas) : 45-50min de cuisson

@@ -7151,13 +7151,57 @@ Dérivés 5-amino-alicylés puis dérivés 5-amino-alicylés + azathioprine
 ***** Traitement
 Cause si organique. Sinon règles hygiénodiététiques + laxatifs osmotiques. Si
 échec laxatif rectaux/rééduc périnale
-** Diarrhée chronique
-** Diarrhée aigue 
 ** 281 Colopathie fonctionnelle
 
 *****  Définition
 ***** Diagnostic
 ***** Traitement
+** 282 Diarrhée chronique
+> 1 mois
+
+DD : polyéxonération du sd rectal, incontinence anale, fausse diarrhée du constipé
+***** Explorations
+- systématiques : NFS (anémie carentielle), CRP, troubles hydroélectriques,
+  ferritinémie, vitamine B12, temps Quick, électrophorèse des protéine
+  (hypoalbuminémie), TSH, EPS
+- endoscopie digestive haute + biopsie, iléo-coloscopie + biopsie
+- si besoin : poids des selles, fécalogramme (stéa
+
+***** Étiologies : Tab [[tab:etio_diarrhee_chronique]], [[tab:orient_diarrhee_chronique]]
+#+name: tab:etio_diarrhee_chronique
+#+caption: Étiologies de diarrhées chronique
+| Type          | Causes                             | Clinique                         | Examen                         |
+|---------------+------------------------------------+----------------------------------+--------------------------------|
+| Motrice++     | Colopathie fonctionnelle++         | Selles impérieuses post-prandial | Tps transit rouge carmin \inc  |
+|               | hyperthyroïdies !                 | pas d'AEG ni malabsorption       |                                |
+| Malabsorption | Maladie c\oe{}liaque               | Amaigrissement                   | Biopsie duodénale              |
+|               | Insuffisance pancréatique exocrine | Selles grasses, carence vit.     |                                |
+| Osmotique     | Laxatifs, déficit lactase          | pas d'AEG ni malabsorption       |                                |
+| Exsudative    | Lymphangiectaises                  |                                  | Clairance \alpha1-antitrypsine |
+| /lésionnelle  | Tumeurs, colites inflammatoire     |                                  |                                |
+| Sécrétoire    | Colites (microscopique)            | Selles abondantes, hypoK         |                                |
+|               | Sd Zollinger-Ellison               | Ne cède pas aux jeunes           | Gastrinémie                    |
+|               | VIPome                             |                                  |                                |
+
+#+name: tab:orient_diarrhee_chronique
+#+caption: Orientation pour diarrhées chronique
+| Aspect                                                    | Démarche              |
+|-----------------------------------------------------------+-----------------------|
+| Sujet jeune                                               | Éliminer c\oe{}liaque |
+| Modérée ancienne, motrice, jeune, sans AEG, sans anomalie | \emptyset             |
+| Retour voyage                                             | Éliminer parasitose   |
+| Modéré, âge tardif, pas ATCD intestin irritable           | Éliminer K            |
+| Soudaine, femme > 50 ans, auto-immun/rhumato + AINS       | Colite microscopique ? |
+
+***** Malabsorption
+- Maladie c\oe{}liaque : auto-immune, intélorance gluten, \female
+   - preuve histologique : atrophie villositaire, lymphocytose intra-épithéliale
+   - confirmé par Ac anti-transglutaminase IgA (+ IgG si déficit)
+   - Ttt = régime sans gluten (\danger mauvaise observance)
+- Maladie de Crohn
+- rare : pullulation microbienne chronique (diag = test respi glucose), maladie
+  de Whipple (/Tropheryma whipplei/)
+** Diarrhée aigue 
 ** 284 Diverticulose, diverticulite aigüe du sigmoïde
 **** Diverticulite compliquée [fn:141]
 ***** Forme classique
