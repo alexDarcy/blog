@@ -180,6 +180,8 @@
 #+latex_header_extra: \newacronym{BPCO}{BPCO}{Bronchopneumopathie chronique obstructive}
 #+latex_header_extra: \newacronym{VNI}{VNI}{Ventilation non invasive}
 #+latex_header_extra: \newacronym{TIPMP}{TIPMP}{Tumeurs intracanalaires papillaire mucineuses pancréatiques}
+#+latex_header_extra: \newacronym{FID}{FID}{Fossie Iliaque droite}
+#+latex_header_extra: \newacronym{FIG}{FIG}{Fossie illiaque gauche}
 
 #+OPTIONS: H:5
 :END:
@@ -7173,7 +7175,7 @@ DD : polyéxonération du sd rectal, incontinence anale, fausse diarrhée du con
 | Type          | Causes                             | Clinique                         | Examen                         |
 |---------------+------------------------------------+----------------------------------+--------------------------------|
 | Motrice++     | Colopathie fonctionnelle++         | Selles impérieuses post-prandial | Tps transit rouge carmin \inc  |
-|               | hyperthyroïdies !                 | pas d'AEG ni malabsorption       |                                |
+|               | hyperthyroïdies !                  | pas d'AEG ni malabsorption       |                                |
 | Malabsorption | Maladie c\oe{}liaque               | Amaigrissement                   | Biopsie duodénale              |
 |               | Insuffisance pancréatique exocrine | Selles grasses, carence vit.     |                                |
 | Osmotique     | Laxatifs, déficit lactase          | pas d'AEG ni malabsorption       |                                |
@@ -7567,7 +7569,6 @@ Interrogatoire + clinique + complémentaire : Tab.~\ref{tab:hemorragie_digestive
 - _Hypertension portale_: vasoactif veineux, ATB prophylactique, laxatifs osmotiques forte doses
 
 ** 351 Appendicite
-
 Urgence chir la plus fréquente. Surtou ado et adulte 20-30ans.
 
 Obstruction \thus infiltrat inflammatoire
@@ -7599,6 +7600,32 @@ anatomapatholigique
   - plastron appendiculaire : ATB puis appendicectomie à 2-4mois
   - abcès appendiculaire : chir ou (si volumineux) drainage + ATB puis appendicectomie à 2-4mois
   - péritonite appendiculaire = urgence \skull ATB puis appendicectomie
+** 352 Péritonite aigüe
+Urgence chir
+***** Diagnostic
+Clinique le plus souvent
+- douleur abdo intense, généralisée, \pm signes infectieux[fn:219] 
+- chercher signes de choc ! Sinon : bio, scanner abdo pour préciser
+***** Causes 
+#+caption: Causes et ttt des péritonites
+| Type         | Causes                                   | Ttt                                             |
+|--------------+------------------------------------------+-------------------------------------------------|
+| Primaire     | Infection ascite (cirrhotique)           | \faHospitalO ATB proba                          |
+|              | infection à staph. (dialyse péritonéale) | si infection ascite : ATB entérobact + albumine |
+|              | spontanée à pneumocoque                  |                                                 |
+| Secondaire++ | Infection/perforation intra-abdo         | Hémoc, NFS, RAI, hémostase, trouble hydroélec.  |
+|              | post-op, post-trauma                     | Amox-acide cl. + aminoside                      |
+|              |                                          | chir urgence                                    |
+| Tertiaire    | Résistant ttt                            | Difficile, 30% DC, chir impossible              |
+
+#+caption: Types de péritonite secondaires
+|                          | Appendiculaire | Perforation ulcère | Perforation de         |
+|                          |                |                    | diverticule sigmoïdien |
+|--------------------------+----------------+--------------------+------------------------|
+| Début                    | Progressif     | Brutal             | Progressif             |
+| Signes                   | acrshort:FID   | Épigastre          | acrshort:FIG           |
+| Fièvre, hyperleucocytose | Oui            | Pas au début       | Oui                    |
+| Pneumopéritoine          | Non            | Oui                | Oui                    |
 * Neurologie (ébauche)
 \input neurologie
 * Pneumologie
@@ -11080,6 +11107,8 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:219] \danger chez âgé/dénutri 
 
 [fn:218] Iléus prolongé, hématome, abcès cul-de-sac de Douglas
 
