@@ -7153,6 +7153,11 @@ Cause si organique. Sinon règles hygiénodiététiques + laxatifs osmotiques. S
 échec laxatif rectaux/rééduc périnale
 ** Diarrhée chronique
 ** Diarrhée aigue 
+** 281 Colopathie fonctionnelle
+
+*****  Définition
+***** Diagnostic
+***** Traitement
 ** 284 Diverticulose, diverticulite aigüe du sigmoïde
 **** Diverticulite compliquée [fn:141]
 ***** Forme classique
@@ -7517,11 +7522,39 @@ Interrogatoire + clinique + complémentaire : Tab.~\ref{tab:hemorragie_digestive
 - _Ulcère GD_ : IPP IV dès l'admission, hémostase endoscopique
 - _Hypertension portale_: vasoactif veineux, ATB prophylactique, laxatifs osmotiques forte doses
 
-* Maladies infectieuses                                             
-#+BEGIN_EXPORT latex
-\input maladies_infectieuses
-#+END_EXPORT 
+** 351 Appendicite
 
+Urgence chir la plus fréquente. Surtou ado et adulte 20-30ans.
+
+Obstruction \thus infiltrat inflammatoire
+
+***** Clinique
+Douleur torsion/crampe FID non irradiante \inc intensité. + 37.5-38.5$^{\circ}$,
+vomissement, constipation/diarrhées.
+
+NB : formes pelvienne, sous-hépatique, rétrocaecale, mésocoeliaque
+
+\danger Formes trompeuses : nourrisson, âgé, femme enceinte après 1er trimestre
+***** Diagnostic
+Selon la triade "Défense en fosse iliaque droite - leucocytose > 10G/L et CRP > 8mg/L"
+- si tous les éléments, oui \thus appendicectomie
+- aucun des éléments, peu probable \thus surveillance
+- sinon
+  - BU et \beta-HCG pour éilimenter grossesse et IU
+  - diag = échographie, ou scanner si négative (scanner directement si âgé)
+    
+DD : 
+- femme = salpingite, torsion d'annexe, GEU, endométriose, pyélonéphrite
+- adénolymphite mésentérique (enfant++), torsion frange épiploïque,
+  gastroentérite, diverticule de Meckel, maladie de Crohn
+***** PEC 
+- Aigüe non compliquée : laparotomie/c\oe{}lioscopie + ATB per-op et
+anatomapatholigique
+- Complication post-op rare[fn:218] 
+- Compliquée : 
+  - plastron appendiculaire : ATB puis appendicectomie à 2-4mois
+  - abcès appendiculaire : chir ou (si volumineux) drainage + ATB puis appendicectomie à 2-4mois
+  - péritonite appendiculaire = urgence \skull ATB puis appendicectomie
 * Neurologie (ébauche)
 \input neurologie
 * Pneumologie
@@ -11003,6 +11036,8 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:218] Iléus prolongé, hématome, abcès cul-de-sac de Douglas
 
 [fn:217] Objectifs : PAs > 100, FC < 100, Hg \in [7,9]g/dL
 
