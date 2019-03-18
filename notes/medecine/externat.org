@@ -7626,6 +7626,44 @@ Clinique le plus souvent
 | Signes                   | acrshort:FID   | Épigastre          | acrshort:FIG           |
 | Fièvre, hyperleucocytose | Oui            | Pas au début       | Oui                    |
 | Pneumopéritoine          | Non            | Oui                | Oui                    |
+** 353 Pancréatite aigüe
+***** Diagnostic
+Douleur typique + lipasémie > 3N
+- douleur abdo épigastrique, transifixant, s'aggravant quelques heures, se
+  terminant lentement, irrandiant dos en inhibant la respiration \thus chien de
+  fusil.
+- scanner si doute (attendre qq jours)
+
+DD : ulcère perforé, infarctus mésentère, péritonie biliaire, IDM, rupture
+d'anévrisme aorte abdo
+***** Gravité
+80% bénigne - 20% nécrosante (20% de DC !)
+
+Clinique 
+- défaillance viscérale,  SDRA, IR
+- infectieuses (freq, 80% DC) : translocation bactérienne, surinfection coulées nécroses
+- rares : pseudo-anévrrysme, rutpure organe, ulcération de stresse, fistule interne
+- troubles confusionnel, désorientation
+- tardif : pseudo-kystes
+
+Marqueur : CRP > 150mg/L
+
+Imagerie : score de Balthazar[fn:220]
+
+***** Étiologies : Tab [[tab:pancreatite_aigue]]
+#+name: tab:pancreatite_aigue
+#+caption: Étiologies de pancréatite aigüe
+| Fréquence | Étiologie                                       | Caractéristique              | PEC                |
+|-----------+-------------------------------------------------+------------------------------+--------------------|
+| Freq      | /alcul biliaire dans VBP/                       | Pic hypertransaminases < 48h | Écho+ ttt lithiase |
+|           | Consommation chronique d'alcool/                | > 10 ans, > 10verres /jour   |                    |
+| Rare      | hyperTG, hyperCa                                |                              | oui                |
+|           | tumorale, médic, pancréatite aigüe infectieuses |                              | non                |
+
+***** Tttt
+Symptomatique 
+- bénigne : jeun, soluté hydroélectrolytiques, antalgiques
+- sévère : jeun, antalgique \pm SNG.
 * Neurologie (ébauche)
 \input neurologie
 * Pneumologie
@@ -11107,6 +11145,8 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:220] Entre 0 et 10, grave si \ge 4
 
 [fn:219] \danger chez âgé/dénutri 
 
