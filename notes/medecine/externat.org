@@ -5803,26 +5803,29 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
  acamprosate/naltrexone pour maintenir l'abstinence
 
  Autre : PEC comorbidités psy, addictive (tabac, cannabais++), non psy, sociale
-** 163 \dagger Hépatites virales
- Définition : processus inflammatoire du foie. Chronique si > 6 mois.
+** 163 \dagger Hépatites virales                                     :export:
 
- Causes :
- - \inc{} forte des transaminases : 
-   - *médicaments, virale* = {VHA, VHB, VHC, VHE et Herpes (EBV, HSV, CMV, VZV)}
-   - migration lithiasique, hépatite auto-immune, maladie de Wilson
- - \inc{} modérée des transaminases : 
-   - *alcool, sd métabolique, VHB, VHC*
-   - VHE si gls:ID, médicaments, hépatite auto-imune, hémochromatose, maladie de
-     Wilson, déficit \alpha-1-antitrypsine
-   - DD : maladie coeliaque, myopathie, effort violent, hémolys
+Définition : processus inflammatoire du foie. Chronique si > 6 mois.
 
- Diagnostic: 
+***** Diagnostic
+Contage + \inc transaminases (DD Table [[tab:transaminases]]) + sérologie/génome viral
  - souvent asymptomatiques, ictère peut manquer (symptômes + 7 à 10j)
- - chercher signes de gravité : 
-   - TP < 50% = hépatite sévère \thus centre spécialisé
-   - encéphalopathie \thus hospit en urgence \skull
- - dans tous les cas : CI médicaments hépatotoxiques, neurosédatifs, éviter
-   contamination (VHA, VHE)
+ - chercher signes de gravité : TP < 50%, encéphalopathie \skull
+ - CI médicaments hépatotoxiques, neurosédatifs, éviter contamination (VHA, VHE)
+
+#+name: tab:transaminases
+#+caption: Étiologies pour \inc transaminases
+| \inc{} transaminases |                      Étiologies                           |
+|---------------------+----------------------------------------------------------------|
+| forte               | /médicaments/                                                  |
+|                     | /hépatites aigües A, B, C, E/                                  |
+|                     | /herpès/                                                       |
+|                     | migration lithiasique, hépatite auto-immune, maladie de Wilson |
+| modérée             | /alcool/, /sd métabolique/                                     |
+|                     | /Hépatite chronique B, C, E/                                   |
+|                     | médicaments, hépatite auto-imune, hémochromatose, maladie de   |
+|                     | Wilson, déficit \alpha-1-antitrypsine                          |
+|                     | maladie coeliaque, myopathie, effort violent, hémolys          |
 
  #+begin_table
  #+LATEX: \caption{Hépatites virales, résumé}
@@ -5830,37 +5833,41 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
  #+LATEX: \centering
  #+LATEX: \adjustbox{max width=\linewidth}{
  #+ATTR_LATEX: :center nil
- |              | VHA                   | VHB                  | VHC             | VHD                | VHE           |
- |--------------+-----------------------+----------------------+-----------------+--------------------+---------------|
- |              | ARN simple brin       | ADN double brin      | ARN simple brin | ARN simple brin    | ARN           |
- |              | Sans enveloppe        | Enveloppe            |                 | Enveloppe          | monocaténaire |
- | Famille      | /Hepatovirus/         | /Hepadnavirus/       | /Flavirus/      |                    |               |
- | Transmission | Féco-orale, \acs{HSH} | périnatale, sexuelle | parentéral      | sang, sexuelle     |               |
- |              |                       | sang, contact        |                 |                    |               |
- | Diagnostic   | IgM anti-VHA          | Ag HBs               | Ac antiVHC      | IgM/IgG anti-delta | IgM antiVHE   |
- |              |                       |                      | \pm ARN         | ARN                |               |
- |              | \acs{DO}              | DO (aigüe)           |                 |                    |               |
+ |              | VHA                   | VHB                    | VHC             | VHD                | VHE               |
+ |--------------+-----------------------+------------------------+-----------------+--------------------+-------------------|
+ |              | ARN simple brin       | ADN double brin        | ARN simple brin | ARN simple brin    | ARN               |
+ |              | Sans enveloppe        | Enveloppe              |                 | Enveloppe          | monocaténaire     |
+ | Famille      | /Hepatovirus/         | /Hepadnavirus/         | /Flavirus/      |                    |                   |
+ |--------------+-----------------------+------------------------+-----------------+--------------------+-------------------|
+ | Transmission | Féco-orale, \acs{HSH} | périnatale, sexuelle   | parentéral      | sang, sexuelle     |                   |
+ |              |                       | sang, contact          |                 |                    |                   |
+ | Diagnostic   | IgM anti-VHA          | Ag HBs                 | Ac antiVHC      | IgM/IgG anti-delta | IgM antiVHE       |
+ |              |                       |                        | \pm ARN         | ARN                |                   |
+ |--------------+-----------------------+------------------------+-----------------+--------------------+-------------------|
+ | Guérison     | 100%                  | 90% adulte, 5% enfant  | 15-30%          | si +VHB            | si IC             |
+ | Fulminante   | < 5\textperthousand   | 1%                     | exceptionnelle  | 5%                 | 5\textperthousand |
+ | Chronique    | non                   | 10% adulte, 95% enfant | 80%             | si surinfection    | si ID             |
+ |              | \acs{DO}              | DO (aigüe)             |                 |                    |                   |
+ | Incubation   | 2-6sem                | 6 sem-4 mois (aigü)    | 7-8 sem         | 3-8 sem            |                   |
+ |--------------+-----------------------+------------------------+-----------------+--------------------+-------------------|
+ | Fréquence    | Fréquent              | 2 millard porteurs     |                 |                    |                   |
+ | Caract.      | Asymptomatique, bénin |                        | Asymptomatique  |                    |                   |
+ | Vaccin       | efficace              | obligatoire NN         | non             |                    |                   |
  #+LATEX: }
  #+end_table
 
-*** VHA
- Incubation 2-6 semaines
+\begin{tcolorbox}
+Urgence = hépatite fulminante \skull : sd hémorragique + signes d'encéphalite
+(confusion, inversion rythme nycthéméral, somnolence, astérixis)
+\end{tcolorbox}
 
- Pas d'infection chronique !
- Vaccin efficace.
 
- Fréquent. Asymptotique et bénigne le plus souvent
-
-*** VHB
- 2 milliards porteurs d'une infection (résolue ou non). 
-
- Hépatite aigüe B :
- - incubation 6 sem. - 4 mois
- - Morbidité/mortalité : risque de cirrhose (20%) ou gls:CHC
+***** VHB
+Hépatite aigüe B :
+ - risque de cirrhose (20%) ou gls:CHC
  - \danger recherche VIH, IST, coinfection VHD.
- - chronique dans 5-10%
 
- Hépatite chronique B : Ag HBs positif > 6mois. 
+Hépatite chronique B : diag = Ag HBs positif > 6mois. 
  - asymptomatique jusqu'à cirrhose, CHC
  - 4 phases :
    1. tolérance immunitaire (réplication virale, hépatite peu active) : AgHBe
@@ -5871,76 +5878,46 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
  - 40% de mutation
  - Immunosuppresseurs = risque de réactivation \skull
  - CHC possible sans cirrhose \danger
+ - ALD, PEC 100%
 
-**** Traitement (chronique)
- ALD, PEC 100%
+***** VHC
+ Cirrhose dans 10-20% à 20 ans. CHC 1-4% par an. Manifestations extrahépatiques
 
- Chercher cirrhose : hypertension portable (endoscopie \gls{OGD}), prévention
- hémorragies digestives, dépistage CHC (écho abdo tous 6 mois)
+Aigüe : 
+- ARN à +1 semaine, Ac anti-VHC à +12semaines.
+- guérison spontanée 15-25%
 
- 2 traitements :
- - à vie : analogues nucléosidiques/nucléotidiques (entécavir, ténofovir) =
-   antiviral
- - 1 an : antiviral + immunomodulateur (plus rare)
+Chronique : diag = (sérologie positive, ARN détectable) > 6 mois. 
+- \danger pas de ponction biopsie non recommandée [fn:95]\thus Fibrotest, Fibromètre Fibroscan
 
- Indications :
- - ADN VHB > 2 000 UI/mL et transaminases > N ou fibrose hépatique modérée ou
-   activité modérée[fn:94]
- - ADN > 20 000 UI/mL et transaminases > 2N
- - cirrhose et ADN VHB
- - ACTD familiale de cirrhose/CHC ou atteinte extrahépatique
- - ISN
- Pas indiqué en phase de "tolérance immunitaire" ou "non réplicative"
+***** VHD
+ \danger toujours chercher VHD chez VHB : Co/sur-infection. 
 
- Élasticité hépatique (Fibroscan) :
- - < 7kPa : cirrhose peu probable
- - > 17kPa : cirrhose très probable
+Risque : cirrhose, CHC
 
- Vaccination :
- - obligatoire nourrison (hexavalent) : sinon rattrapage jusque 15 ans (2 inj. à
-   6 mois d'écart)
- - dépistage chez femme enceinte avant 10 SA : si positive, sérovaccination à la
-   naissance
- - professionnels de santé
- - sujet exposé
- - IgG anti-HBs seulement si contage accidentel chez non vacciné
+***** VHE
+Guérison sans séquelles en 1 mois souvent. Formes graves : hépatite fulminante, décompensation
 
-*** VHC
- Pas de vaccin !
+Chez l'ID, chercher ARN pour diagnostic
 
- Chronique dans 75-85%, cirrhose dans 10-20% à 20 ans. CHC 1-4% par an. Manifestations extrahépatiques
+***** Traitement 
 
- Aigüe : 
- - incubation très variable (7-8 sem), souvent asymptomatique
- - ARN à +1 semaine
- - Ac anti-VHC à +12semaines
+Hépatite B chronique
+- Chercher cirrhose : FOGD, dépistage CHC fibroscan[fn:222] 
+- À vie : antécavir, ténofovir [fn:221] à vie
+- Pas indiqué en phase de "tolérance immunitaire" ou "non réplicative"
+Hépatite C chronique
+- Cherche cirrhose (cf VHB).
+- Combinaison d'antiviraux (hors interféron, ribavirine)
+- danger continuer dépistage CHC
+Hépatite D chronique : interféron pégylé, peu efficace
+ 
+***** Vaccination 
+Hépatite B   
+- chez femme enceinte, dépistage avant 10 SA (vaccination naissance)
+- exposé, professionnels de santé
+- IgG anti-HBs seulement si contage accidentel chez non vacciné
 
- Chronique : (sérologie positive, ARN détectable) > 6 mois. 
- - \danger ponction biopside non recommandée [fn:95]\thus Fibrotest, Fibromètre Fibroscan
-
-**** Traitement (chronique)
- Cherche cirrhose (cf VHB).
-
- Guérison virologique.
-
- Pas d'interféron, ni ribavirine.
-
- Régression des lésions hépatiques si pas de cirrhose. \danger continuer
- dépistage CHC
-
-*** VHD
- Dépend du VHB !
- \danger toujours cherche VHD chez VHB
-
- Co/sur-infection. Risque : cirrhose, CHC
-
- Ttt (chronique) : interféron pégylé, peu efficace
-
-*** VHE
- Incubation 3-8semaines, 3-4 jours pré-ictériques.
- Guérison sans séquelles en 1 mois souvent. Formes graves : hépatite fulminante, décompensation
-
- Chez l'ID, chercher ARN pour diagnostic
 
 ** 168 \dagger Parasitoses digestives
 
@@ -9802,7 +9779,8 @@ les selles (10j). Clinique : vésicules fesses, pieds, bouche, lèvre
 
 \paragraph{Pustuleuses} Poxviridae, variole
 
-*** Bulleux Erythème polymorphe (lésion en cocarde). Toxidermies bulleuses :~sd de
+*****  Bulleux 
+Erythème polymorphe (lésion en cocarde). Toxidermies bulleuses :~sd de
 Stevens-Johnson, sd de Lyell
 
 ** 161 :~Oreillons
@@ -9931,105 +9909,6 @@ Antigrippal = inhibiteurs de la neuramidase (oseltamivir, zanamivir)
   \item curatif : < 48h !
   \item prophylaxie (pré- ou post-exposition)
 \end{itemize}
-
-** 163 : Hépatites virales
-
-\begin{figure}[htpb]
-  \begin{subfigure}{0.49\textwidth}
-    \resizebox{\textwidth}{!}{
-      \begin{tabular}{*{5}{c}}
-        \toprule
-        & Orofécale & Parentérale & Sexuelle & Maternofoetale\\
-        \midrule
-        A             & +         & (+)         & (+)      & \\
-        B             &           & +           & +        & + \\
-        C             &           & +           & (+)      & (+) \\
-        D             &           & +           & (+)      & (+) \\
-        E             & +         & (+)         &          & \\
-        \bottomrule
-      \end{tabular}
-    }
-    \caption{Transmission}
-  \end{subfigure}
-  \begin{subfigure}{0.49\textwidth}
-    \resizebox{\textwidth}{!}{
-      \begin{tabular}{*{5}{c}}
-        \toprule
-        & Guérison             & Fulminante          & Chronique \\
-        \midrule
-        A    & 100\%                & < 5\textperthousand & non\\
-        B    & 90\% (adulte)        & 1\%                 & 10\% \\
-        & 5\% (petite enfance) &                     & 95\% \\
-        C    & 15-30\%              & Exceptionelle       & 70-85\% \\
-        D    & si co-infection VHB  & 5\%                 & si surinfection\\
-        E    & si IC                & < 5\textperthousand & si ID \\
-        \bottomrule
-      \end{tabular}
-    }
-    \caption{Évolution}
-  \end{subfigure}
-  \caption{Hépatites virales}
-\end{figure}
-
-*** Diagnostic%
-Élévation transaminases $\pm$ clinique (asthénie, anorexie, hépatalgie)\\
-
-\paragraph{Aigüe} \danger Y penser si fébrile aigüe + ictère/hypertransaminasémie
-
-1ère intention : VHA, VHB.\\
-Si négative : VHC si risque, VHE si zone tropicale ou porc, sd mononucléosique,
-dengue/arboviroses si zone tropicale
-
-\paragraph{Chronique} VHB, VHC si risque
-
-\begin{table}[htpb]
-  \centering
-  \caption{Suivi}
-  \label{tab:suivi}
-  \begin{tabular}{*{4}{c}}
-  \toprule
-      & Aigüe                       & Chronique         & Guérison \\
-  \midrule
-  A   & Augmentation T.             & non               & normalisation T.\\
-      & IgM                         &                   & \\
-  \midrule
-  B   & Augmentation T.             & Ag HBs+ > 6 mois, & normalisation T. \\
-      & Ag HBs +, Ac anti-HBc +     & Ac anti-HBs-      & Ac anti-HBs+\\
-      & IgM anti-HBc+, Ac anti HBs- &                   &\\
-      & PCR élevée                  &                   & \\
-  \midrule
-  C   & Augmentation T.             &                   & normalisation T. \\
-      & IgG anti-VHC+ \danger       & idem              & PCR neg.\\
-      & PCR élevée                  & \\
-  \midrule
-  D   & Augmentation T.             &                   & PCR nég. \\
-      & IgM                         & IgG               & \\
-  \midrule
- E    & Augmentation T. ?           & idem              & normalisation T. \\
-      & IgM                         &                   & PCR neg.\\
-  \bottomrule
-  \end{tabular}
-\end{table}
-
-*** Prise en charge
-Symptomatique : pas de paracétamol, AINS, alcool
-
-Urgence = hépatite fulminante \skull : sd hémorragique + signes d'encéphalite
-(confusion, inversion rythme nycthéméral, somnolence, astérixis)
-
-\paragraph{VHB+VHC} bilan biologique, histologique (sauf cirrhose évidente)
-directe (score METAVIR) ou indirecte, imagerie (échographie abdo puis IRM),
-fibro (varices oeosphage/cardia)
-
-\paragraph{VHB} Interférons pégylée $\alpha{}2a$, $\alpha{}2b$ (tolérance
-médiocre), analogue nucléosidique (entécavir [toxicité musculaire]), nucléotidique (ténéfovir
-[tox. rénale].
-
-\paragraph{VHC} si fibrose $\ge F2$, manif. extra-hépatique. Ribavirine ou
-antiviraux d'action directe (++).
-
-*** Prévention
-Hygiène, vaccination VHA (autour d'un cas), VHB
 
 ** 164 - Infections à herpès virus du sujet immunocompétent
 \label{sec:item164}
@@ -14512,6 +14391,10 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:222] > 17kPa : cirrhose très probable
+
+[fn:221] Analogues nucléosidiques/nucléotidiques
 
 [fn:220] Entre 0 et 10, grave si \ge 4
 
