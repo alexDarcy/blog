@@ -186,6 +186,8 @@
 #+latex_header_extra: \newacronym{FID}{FID}{Fossie Iliaque droite}
 #+latex_header_extra: \newacronym{FIG}{FIG}{Fossie illiaque gauche}
 #+latex_header_extra: \newacronym{TFI}{TFI}{Troubles fonctionnels intestinaux}
+#+latex_header_extra: \newglossaryentry{PET1}{name={Polyendocrinopathie auto-immune de type 1},description={Hypoparathyroïdie, candidose, insuf. surrénale}}
+#+latex_header_extra: \newglossaryentry{PET2}{name={Polyendocrinopathie auto-immune de type 2},description={insuf. surrénale + 1 maladie autoimmune parmi thyroïdite d'Hashimoto, maladie de Basedow, diabète type 1}}
 
 #+OPTIONS: H:5
 :END:
@@ -2987,7 +2989,7 @@ Neuropsy :
 - confusion : neuroleptique (éviter benzodiazepine !)
 - anxiété : benzodiazepine, hydroxine. Si échec neuroleptique
 
-* Endocrinologie
+* Endocrinologie                                                     :export:
 ** 32 \dagger Allaitement maternel
 ** 35 \dagger Contraception
 *** Contraception hormonale
@@ -4418,15 +4420,15 @@ Suspicion sur clinique, confirmé par IRM
 *** Insuffisance surrénale lente
  Rare mais grave \skull
 
- Physiopatho :
- - cortisol [fn:55] : hyperglycémiant, stimule = {catabolisme protidique, lipogenèse, SNC, tonus vasculaire}, inhibe
-   = {hormone antidiurétique}, anti-inflammatoire et antipyrétique,
-   minéralocorticoïde\\
+Surrénales sécrètent :
+ - glucocorticoïdes \approx cortisol [fn:55] : hyperglycémiant, \inc catabolisme protidique et tonus vasculaire, \dec
+   ADH, anti-inflammatoire et antipyrétique,
    Minimum 0-2h, maximum 7-9h
- - aldostérone : réabsportion Na+ et Cl-, excrète K+
+ - minéralocorticoïde \approx aldostérone : réabsportion Na+ et Cl-, excrète K+
  - androgènes surrénalien (stimulé par ACTH)
-  
- #+caption: Insuffisance surrénale primaire (maladie d'Addison)/secondaire : clinique
+
+#+name: tab:insuf_surrenale_clinique  
+#+caption: Insuffisance surrénale primaire (maladie d'Addison)/secondaire : clinique
  | Primaire (surrénale)                               | Secondaire (hypophysaire) |
  |----------------------------------------------------+---------------------------|
  | Fatigue, dépression, anorexie, nausées             |                           |
@@ -4434,10 +4436,11 @@ Suspicion sur clinique, confirmé par IRM
  | Hyperpigmentation                                  | Pâleur                    |
  | HyperK, hypoNa (manque sel)                        | HypoNa (dilution)         |
 
-**** Diagnostic
- \danger ne pas attendre résultats pour commencer traitment \skull
-
- #+caption: Insuffisance surrénale : diagnostic
+***** Diagnostic
+Cortisol + ACTH \danger ne pas attendre résultats pour commencer traitment \skull
+- clinique : [[tab:insuf_surrenale_clinique]]
+#+name: tab:insuf_surrenale_diag
+#+caption: Insuffisance surrénale : diagnostic
  |                   | Primaire                         | Secondaire           |
  |-------------------+----------------------------------+----------------------|
  | cortisolémie à 8h | basse                            | basse                |
@@ -4446,83 +4449,53 @@ Suspicion sur clinique, confirmé par IRM
  | rénine            | haute                            | N                    |
  | Synacthène        | réponse insuffisante du cortisol | réponse insuffisante |
 
- Positif 
- - cortisolémie : à compléter avec tests dynamiques si valeurs "intermédiaires"
- - primaire ou secondaire ? ACTH \inc{} si primaire, rénine \inc si primaire
- - test Synacthène (+ Métopirone ou hypoglycémie insulinique si doute)
+- cortisolémie (max = 8h) puis : ACTH \inc{} si primaire, rénine \inc si primaire
+- test Synacthène[fn:108] (+ Métopirone ou hypoglycémie insulinique si doute)
 
  NB : femme enceinte = {\inc seuil, faisceau d'args}, enfant : répéter dosages
  voire ttt probabiliste
 
-**** Étiologies de l' acrshort:IS primaire
- - Auto-immune (80% adulte, 20% enfant) : 
-   - /polyendocrinopathie de type 1/ (mutation facteur de transcription AIRE) 
-   - ou /type 2/ (IS + 1 parmi {thyroïdite d'Hashimoto+++, Basedow, diabète 1}
-   - \thus autoAc anti-21-hydroxylase, scanner (surrénales atrophiques)
+***** Étiologies de l' acrshort:IS primaire
+ - Auto-immune (80% adulte, 20% enfant) : gls:PET1, gls:PET2 \thus autoAc anti-21-hydroxylase, scanner (surrénales atrophiques)
  - /tuberculose bilatérale surrénale/ (10%) : transplanté ou ID avec TCD tuberculose
-   \thus scanner surrénales (\inc puis atrophie et calcification). Bilan des
-   localisation tuberculose
+   \thus scanner surrénales 
  - /VIH/ (stade avancé) : iatrogène, infection opportuniste (CMV++), atteinte de
    l'hypophyse (lymphome, CMV), corticoïde anti-inflammatoire et ritonavir
  \danger dénutrition \thus spécialiste
  - autres : /iatrogènes/[fn:56], /métastases bilatérales/[fn:57], lymphomes, maladies
    infiltratives, causes vasculaires
- - enfant : génétiques surtout = bloc enzymatique++ (dépistage obligatoire), adrénoleucodystrophie
+ - enfant : génétiques surtout = /bloc enzymatique/ (dépistage obligatoire), adrénoleucodystrophie
 
-**** Étiologies de l'IS secondaire 
+***** Étiologies de l'IS secondaire 
  - /interruption corticothérapie prolongée/ surtout (> 7mg prednisone)
  - autres[fn:58] : tumeur région hypothalamo-hypophysaire, hypophysite (auto-immune),
    granulomatose, trauma, chir hypophysaire, radiothérapie, sd de Sheehan 
 
-**** Prise en charge
- Ttt substitutif :
+***** Prise en charge
+ Ttt cause et ttt substitutif :
  - glucocorticoïdes (hydrocortisone) 15-25mg/j
  - minéralocorticoïde (fludrocortisone) 50-150\mu{}g/j si IS primaire
 
- TTT cause
+ Éducation du patient : régime normosodé, pas de laxatif, ttt à vie, hydrocortisone en SC si > 2 vomissement/diarrhées en < 1/2 journée
 
- Éducation du patient : 
- - avoir carte, hydrocortisone (comprimés et injection), régime normosodé
- - pas de laxatifs, diurétiques, millepertuis, réglisse, jus de pamplemousse
- - ttt à vie
- - hydrocortisone en SC si > 2 vomissement/diarrhées en < 1/2 journée
- - adapter à chaleur, exercice, voyage
-
- Surveillance clinique :
- - fatigue, poids, PA
- - surdosage en hydrocortisone (gonflement/rougeur visage, \inc poids, HTA, os,
-   métabolisme, CV)
- - surdosage en fludrocortisone
- - cortisolémie et ACTH inutile !!
+ Surveillance clinique : surdosage en hydrocortisone/fludocortisone, cortisolémie et ACTH inutile !!
   
 *** Insuffisance surrénale aigüe
-**** Y penser
- - déshydratation extracellullaire avec pli cutané, hypotension
- - confusion, crises convulsives
- - troubles digestifs
- - douleurs (musc, céphalées)
- - fièvre
- Biologie : 
- - hémoconcentration, insuf rénale fonctionnelle++
- - hypoNa, hyperK++
- - hypoglycémie, acidose métabolique, anémie, hyperlymphocytose,
-   hyperéosinophilie, natriurèse conservée
+ 
+***** Diagnostic
+ Si diagnostic *non* posé : cortisol + ATCH. Ne pas attendre les résultats \skull
+- clinique : déshydratation extracellullaire[fn:109] , confusion, trouble dig, douleurs musc, fièvre
+- biologie : IR, fonctionnelle++, hypoNa, hyperK++
 
-**** Confirmation
- Si diagnostic *non* posé : dosage cortisol (\dec\dec), ATCH (\inc si primitive, N ou \dec
- si secondaire). 
- Ne pas attendre les résultats \skull
-
-**** Causes 
+***** Causes 
  - Insuf surrénale chronique décompensée++
  - D'emblée si bloc enzymatique surrénalien (21-hydroxylase) complet (néonatale)
    ou hémorragie bilat surrénale ou apoplexie hypophysaire
  - Décompensation par n'importe quelle patho intercurrente
 
-**** PEC
+***** PEC
  \danger Urgence extrème \skull
- - Domicile : 100mg hydrocortisone (IV, IM, SC) puis transport
- - Hopital : réa puis 
+ - 100mg hydrocortisone (IV, IM, SC) \thus \faHospitalO (réa)
    - perfusion NaCL (et G30% si hypoglycémie)
    - ttt facteur déclenchant
    - surveiller : PA, FC, FR, oxymétrie de pouls, diurèse, T, glycémie, CS, ECG
@@ -4531,8 +4504,7 @@ Suspicion sur clinique, confirmé par IRM
  Ttt préventif : patient doit \inc ses doses, médecin traitant au courant
 
 *** Arrêt d'une corticothérapie
-    Expose au rebond de la maladie causale, insuf surrénale secondaire
-    (corticotrope), sd de sevrage
+Risque = ebond de la maladie causale, insuf surrénale secondaire (corticotrope), sd de sevrage
 
  À risque : (ttt \ge 3 semaines par \ge 20mg prednisone) ou (corticoïdes et inhib enzymatique du
  cytochromie P450 (ritonavir)) ou sd Cushing iatrogène
@@ -14058,7 +14030,7 @@ plaie du cristallin
    1mg/kg/j
  - non artéritique : pas de ttt efficace
   
-** 21 \dagger Rétinopathie diabétique
+** 21 \dagger Rétinopathie diabétique                                :export:
 <<retinopathie_diabetique>>
  Diabète = défini par risque d'une rétinopathie. Complications dont on peut éviter la
  cécité !
@@ -14206,6 +14178,10 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:109] Pli cutané, hypotension 
+
+[fn:108] Analogue de l'ACTH 
 
 [fn:225] 1ere intention si diverticulite sigmoïdienne, occlusion par obstruction, sd péritonéal
 
