@@ -185,6 +185,7 @@
 #+latex_header_extra: \newacronym{TIPMP}{TIPMP}{Tumeurs intracanalaires papillaire mucineuses pancréatiques}
 #+latex_header_extra: \newacronym{FID}{FID}{Fossie Iliaque droite}
 #+latex_header_extra: \newacronym{FIG}{FIG}{Fossie illiaque gauche}
+#+latex_header_extra: \newacronym{TFI}{TFI}{Troubles fonctionnels intestinaux}
 
 #+OPTIONS: H:5
 :END:
@@ -6093,24 +6094,23 @@ IMC,perte de poids de 2% (1 semaine) ou 5% (1 mois) ou 10% (6 mois), albuminémi
      (nuit++)
 - nutrition parentérale : \danger septicémie (5-20%). Si patho digestive, alimentation orale impossible/insuffisante, pré-opératoire si dénutri
 
-** 268 \dagger Douleurs abdominales/lombaires aigües
+** 268 Douleurs abdominales/lombaires aigües
 
 **** Clinique 
-  Irradiation : pointe omoplate droite (hépatobiliaire), épigastrique
-  (bilio-pancréatique), OGE (urologique)
+-  Irradiation : pointe omoplate droite (hépatobiliaire), épigastrique
+  (bilio-pancréatique), OGE (uro)
 
-  Installation : brutale (perforation, embolie, rupture), rapide (obstacle,
+-  Installation : brutale (perforation, embolie, rupture), rapide (obstacle,
   ischémie, torsion), progressive (inflamation, infection, obstruction)
 
-  Exacerbé par marche, inspiration et calmée par décubitus : inflammation
-  intra-abdominale), soulagement par l'alimentation (ulcère), antéflexion
-  (pancréas), vomissement (obstruction, occlusion intestinale)
+-  Exacerbé par : marche, inspiration (inflammation intra-abdominale)
 
-  Déclenché par : alcool (pancréatite, hépatique alcoolique), médicaments (AINS,
+- Soulagé par : alimentation (ulcère), antéflexion (pancréas), vomissement (obstruction, occlusion intestinale)
+
+-  Déclenché par : alcool (pancréatite, hépatique alcoolique), médicaments (AINS,
   aspirine), voyage récent
 
-  Terrain :
-  - signes généraux/organe
+-  Terrain :
   - \female{} penser grossesse extra-utérine, gynéco
   - médicaments : AINS, aspirine (ulcère, gastrite aigüe), anticoagulant
     (hématomes des muscle [paroi abdo. antérieure, psoas, paroi tube digestif),
@@ -6124,142 +6124,112 @@ IMC,perte de poids de 2% (1 semaine) ou 5% (1 mois) ou 10% (6 mois), albuminémi
   - Fièvre, FC, PA, choc
   - Ictère, pâleur, cyanose, cicatrice abdo++, hernie ballonnement, 0 mouvement
     respi
-  - palpation++
-  - percussion : matité déclive/globe vésical/tympanisme (occlusion ou
-    pneumopéritoine)
-  - auscultation : silence, bruits hydroaériques, souffle abdo (anévrisme de
-    l'aorte)
- NB : irritation péritonéale : douleur à la décompression, défense/contracture
- abdo, douleur toucher pelvien
+  - palpation++, percussion, auscultation
 
 
 **** Examens complémentaires
  \begin{tcolorbox}
- Aux urgences, penser : BU, \beta-HCG, ECG (IDM, péricardite)
+ Aux urgences, penser : BU, \beta-HCG, ECG (IDM, péricardite)\\
+ lipasémie > 3N \thus pancréatite aigüe
  \end{tcolorbox}
 
-  - Biologie : NFS, CRP, iono, hémoc si fièvre, lipasémie, {transaminases, \gamma-GT,
-    phosphatases alcalines, bilirubine totale} si clinique, BU, \beta-HCG,
-    {hypercalcémie, acidocétose diabétique, insuf. surrénale aigüe}, TP-TCA et
-    Rh-RAI si hémorragie digestive
-  - ECG : infarctus antérieur, péricardite
-  - RX pulmonaire si cause pleurale, pulmonaire
-  - Echo si suspicion bilio-pancréatique, gynéco, urinaire, infection sous-abdo
-  - /Scanner abdo/ : 1ere intention si diverticulite sigmoïdienne, occlusion par
-    obstruction, sd péritonéal
+  - Biologie : NFS, CRP, iono, lipasémie
+  - \pm hémoc si fièvre, 
+  - \pm {transaminases, \gamma-GT, phosphatases alcalines, bilirubine totale} si
+    clinique,
+  - \pm {hypercalcémie, acidocétose diabétique, insuf. surrénale aigüe}, TP-TCA et Rh-RAI si hémorragie digestive
+  - \pm RX pulmonaire \pm écho[fn:224] 
+  - /Scanner abdo/ si inexpliqué [fn:225] 
 
-*** Principaux tableaux
- Douleur biliaire ou colique hépatique
- - épigastre/hypochrondre droit (irradie épaule/omoplate droite)
- - forte intensité, plusieurs heures
- - aggravée par inspiration
- - signe de Murphy
- - causes : /complications lithiase bilaire/, K vésicule/voie biliaire
-   principale, parasite, hémobilie
- Douleur gastrique ou duodénale
- - épigastre, torsion sans irradiation
- - parfois très intense, 30min à plusieurs heures
- - calmée par aliments, anti-acides, pansements gastrique
- - EC normal ou douleur provoquée du creux épigastrique
- - causes : maladie ulcéreuse gastrique/duodénale, K gastrique, dyspepsie fonctionnelle
- Douleur colique
- - épigastre/en cadre/fosses illiaque,/hypogastre (irradie le long du cadre
-   colique)
- - qq minutes-qq heures
- - calmée par selles/gaz++, antispasmodique
- - examen : douleur en cadre (colique)
- - causes : troubles fonctionnels intestinaux, K côlon, colites
-   inflammatoires/infectieuses/ischémiques
- Douleur pancréatique
- - épigastre/sus-ombilical, crampe (irradie dos)
- - très intense, "coup de poignants", pluiseurs heures
- - déclenchée par repas gras, alcool
- - soulagée par antéflexion, aspirine
- - examen : douleur provoquée épigastrique/périombilicale
- - causes : pancréatite aigüe/chronique, K pancréas
+*** Principaux tableaux [[tab:douleur_abdo]]
+#+name: tab:douleur_abdo
+#+caption: Principales douleurs abdo
+|              | Biliaire/colique hépatique | Gastrique/duodénale | Colique       | Pancréatique      |
+|--------------+----------------------------+---------------------+---------------+-------------------|
+| Localisation | épigastre/HD               | Épigastre           | Trajet        | Épigastre         |
+| Intensité    | forte                      | (très intense)      |               | très intensé      |
+| Calmé        | aggravée par inspiration   | Aliments            | /Gaz/, selles | antéflexion       |
+| EC           | signe de Murphy            | Normal              | douleur cadre | douleur provoquée |
+| Causes       | /lithiase bilaire/         | ulcère              | acrshort:TFI  | pancréatite    |
+|              | K vésicule/VBP             | K gastrique         | K colôn       | K pancréas        |
+|              | parasite                   |                     | colites       |                   |
  Ischémie intestinale aigüe = urgence avec pronostic vital \skull [fn:107]
  - y penser si terrain vasculaire
- - /douleur abdo/ : inaugurale aigǜe ou angor mésentérique puis diffuse rapidement
-   à tout l'abdomen. Intensite \inc{} sans répit
+ - /douleur abdo/ : inaugurale aigüe uis rapidement à tout l'abdomen, intense++
  - et /terrain à risque/
  - angioscanner multibarretes en urgence
  Ischémie intestinale chronique [fn:107]
  - artérite oblitérante, athéromateuse++, inflammoire/radique
- - angor mésentérique avec douleurs abdo chroniques diffuses postprandiales
-   précoces 1-3h
+ - angor mésentérique avec douleurs abdo chroniques diffuses postprandiales précoces 1-3h
  - peur alimentaire
  - perte poids
  - âgé, terrain CV
 
 *** Grandes causes
- Douleur épigastriques : 
- - ulcère (hyperalgique, perforation), pancréatite aigüe
- - biliaire (colique hépatique, migration lithiase, cholécystite)
- - autres : aorte [fn:108], cardiaque [fn:109], pulmonaire [fn:110], digestive [fn:111]
-
- Douleur de l'hypochondre droite :
- - hépatobilaire : colique hépatique, cholécystite, angiocholite, tumeur/abcès du
-   foie, affections héaptique
- - ulcère perforé, appendicite sous-hépatique, abcès sous-phrénique,
-   pulmonaire, urinaire
-
- Douleurs de l'hypochondre gauche (rare)
- - queue du pancréas, ulcère gastrique, gastrite aigǜe
- - sd de l'intestin irritable, diverticulite de l'angle colique gauche
- - splénique, pleuropulmonaire, urologique, abcès sous-phrénique
-
- Douleurs de l'hypogastre :
- - gynéco, urologique, colique
- - appendicite pelvienne, diverticule de Meckel, sd de l'intestin irritable
-
- Douleurs de la fosse illiaque droite :
- - chirurgicale : appendicite, diverticule de Meckel, diverticulite (côlon
-   droit/sigmoïde), hernie étranglée, grossesse extra-utérine, torsion
-   d'annexe/fibrome utérin, anévrisme artériel iliaque
- - médicale : sd de l'intestin irritable, adénolymphite mésentérique, torsion de
-   frange épiploïque, iléite, salpingite, kyste ovarien, cystite, colique
-   néphrétique, abcès/hématome du psoas/grand droit
- Douleurs de la fosse iliaque gauche
- - sd de l'intestin irritable, colite diverticulaire, colite, K côlon gauche
-   compliqué, fécalome
- - grossesse extra-utérine, torsion d'annexe/fibrome, salpingite, colique
-   néphrétique, pyélonéphrite, cystite
- - anévrisme artérial iliaque, abcès/hématome du psoas/grand droit
- Douleurs lombaires : 
+| Hypochondre droite                  | Epigastre                    | Hypochondre gauche (rare)               |
+|-------------------------------------+------------------------------+-----------------------------------------|
+| Bilaire :                           | Ulcère                       | Queue du pancréas                       |
+| - colique hépatique                 | Pancréatite aigüe            | Ulcère gastrique                        |
+| - cholécystite                      | Biliaire                     | Gastrite aigǜe                          |
+| - angiocholite,                     | - colique hépatique          | Intestin irritable                      |
+| Foie (tumeur/abcès/autre)           | - migration lithiase         | Diverticulite de l'angle colique gauche |
+| Ulcère perforé                      | - cholécystite)              | Splénique                               |
+| Appendicite sous-hépatique          | Dissection/anévrysme aorte   | Pleuropulmonaire                        |
+| Abcès sous-phrénique,               | IDM, péricardite             | Urologique                              |
+| Pulmonaire                          | Pneumopathie inf., pleurésie | Abcès sous-phrénique                    |
+| Urinaire                            | Gastrite                     |                                         |
+|                                     | Appendicicite                |                                         |
+|-------------------------------------+------------------------------+-----------------------------------------|
+| Fosse illiaque droite               | Hypogastre :                 | Fosse iliaque gauche                    |
+|-------------------------------------+------------------------------+-----------------------------------------|
+| intestin irritable                  | intestin irritable           | sd de l'intestin irritable              |
+| appendicite                         | Urologique                   | colite                                  |
+| diverticule de Meckel               | Colique                      |                                         |
+| diverticulite                       | appendicite pelvienne        | K côlon gauche                          |
+| hernie étranglée                    | diverticule de Meckel        | fécalome                                |
+| Gynéco                              | Gynéco                       | Gynéco                                  |
+| anévrisme artériel iliaque          | 			     | anévrisme artérial iliaque              |
+| adénolymphite mésentérique          | 			     | colique néphrétique                     |
+| torsion de frange épiploïque        | 			     | pyélonéphrite                           |
+| iléite                              | 			     | cystite                                 |
+| cystite                             | 			     | abcès/hématome du psoas/grand droit     |
+| colique néphrétique                 |                              |                                         |
+| abcès/hématome du psoas/grand droit |                              |                                         |
+Gynéco = GUE, salpingite, endométrie, torsion d'annexe, fibrome
+Lombaires : 
  - urologique, appendicite rétrocaecale, abcès/hématome psoas, fissuration anévrisme de l'aorte, douleur rachis
 
- Douleurs abdominales diffuses 
+Douleurs abdominales diffuses 
  - péritonite, occlusion, ischémie/infarctus mésentérique, médicales (cf supra)
-
 
 *** Douleurs pièges
  - IDM : douleur épigastrique, FR coronaire \thus ECG
- - Insuffisance surrénale : contexte, douleurs intenses diffuse, abdo souple, TR
+ - /Insuffisance surrénale/ : contexte, douleurs intenses diffuse, abdo souple, TR
    indolore. HyperK, hypoglycémie. Urgence \skull
- - Hypercalcémie : urgence \skull
- - Acidocétose diabétique : diabète connu/situation révélatrice. Sd
+ - /Hypercalcémie/ : urgence \skull
+ - /Acidocétose diabétique/: diabète connu/situation révélatrice. Sd
    polyuropolydipsique/trouble neur/Kussmau et haleine cétosique \thus
    hyperglycémie, cétonurie, acidose
- - Acidocétose alcoolique : alcool et jeûne. Acidose métabolique, \inc corps
-   cétoniques, glycémie \dec
- - Maladie périodique (fièvre méditerranéenne) : jeune, ACTD crises. Sd
+# - Acidocétose alcoolique : alcool et jeûne. Acidose métabolique, \inc corps
+#   cétoniques, glycémie \dec
+ - /Maladie périodique/ (fièvre méditerranéenne) : jeune, ACTD crises. Sd
    inflammatoire bio \thus mutation gène de la marénostrine
- - TRAPS sd \thus mutation gène TNFRSF1A
- - Sd hyper-IgD \thus doser IgD
- - Périhépatite : femme, péritonique, vénérienne. Sd inflammatoire, écho
-   hépatobiliaire normale.
- - Porphyrie hépatique aigüe intermittente : femme jeune avec
+# - TRAPS sd \thus mutation gène TNFRSF1A
+# - Sd hyper-IgD \thus doser IgD
+# - Périhépatite : femme, péritonique, vénérienne. Sd inflammatoire, écho
+#   hépatobiliaire normale.
+ - /Porphyrie hépatique/ aigüe intermittente : femme jeune avec
    infection/médic. Urine rouge porto \thus doser acide delta aminolévulinique et PBG
- - Oedème angioneurotique : \oe{}dème récidivant dans l'enfants \thus diag = \dec
+ - /Oedème angioneurotique/ : \oe{}dème récidivant dans l'enfants \thus diag = \dec
    inhibiteur C1-estérase, C4, C3 normal
- - Sevrage opiacés, ingestion teoxiques, amphétamines, dérivés ergo de seigle,
-   intoxication au plomb
- - Purpura rhumatoïde 
- - Autre vascularite : y penser si purpura
- - Drépanocytose : stress, effort physique, soleil. Anémie, hyperleucocytose
- - Phéochromocytome : crise brutale avec douleurs montantes et se finit par envie
-   impérieuse d'uriner abondamment
- - Douleurs rachidiennes projetées : zona, sd de Cyriax (compression du nerf intercostal)
+# - Sevrage opiacés, ingestion teoxiques, amphétamines, dérivés ergo de seigle,
+#   intoxication au plomb
+ - /Purpura rhumatoïde/
+# - Autre vascularite : y penser si purpura
+ - /Drépanocytose/ : stress, effort physique, soleil. Anémie, hyperleucocytose
+# - /Phéochromocytome/ : crise brutale avec douleurs montantes et se finit par envie
+#   impérieuse d'uriner abondamment
+# - Douleurs rachidiennes projetées : zona, sd de Cyriax (compression du nerf intercostal)
 
 ** 268 \dagger Reflux gastro-\oe{}sophagien
 
@@ -14214,6 +14184,10 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 * Footnotes
 
+[fn:225] 1ere intention si diverticulite sigmoïdienne, occlusion par obstruction, sd péritonéal
+
+[fn:224] Si suspicion bilio-pancréatique, gynéco, urinaire, infection sous-abdo
+
 [fn:223] nasogastrique, gastrostomie, jéjunostomie. 
 
 [fn:101] (\approx masse musculaire)
@@ -14542,11 +14516,6 @@ paranéoplasique, hyperthyroïde
 
 [fn:107] Diagnostic difficile
 
-[fn:108] Dissection/anévrisme
-
-[fn:109] Péricardite, infarctus postéro-inf
-
-[fn:110] Pneumopathie infeciteuse, pleurésie
 
 [fn:111] Gastrite, \oe{}sophagite, appendicite aigüe
 
