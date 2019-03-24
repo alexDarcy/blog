@@ -7012,7 +7012,43 @@ DD : polyéxonération du sd rectal, incontinence anale, fausse diarrhée du con
 - Maladie de Crohn
 - rare : pullulation microbienne chronique (diag = test respi glucose), maladie
   de Whipple (/Tropheryma whipplei/)
-** Diarrhée aigue 
+** 283 Diarrhée aigue 
+Diarrhée = \ge 3 selles très molles/jour. Aigüe si < 2 semaines.
+Sd dysentérique : évacuation glaireuses, sanglantes \pm épreintes, ténesme
+
+***** Épidémiologie
+3millions cas/an. Infectieuses et bénignes pour la plupart
+
+Chercher signes de gravité : sd septicémique (T > 39, hypothermie, frissons),
+choc septique , perte de poids, déshydratation extracellullaire/globale
+
+***** Examens complémentaires
+Si hémorragique/sd dysentérique, sd septicémique, déshydratation majeur, >_3
+jours, vulnérable :
+- NFS, CRP, iono, coproculture, parasitologie selles
+- + recto-sigmoïdoscopie si sanglant/sd dysentérique
+
+Diarrhée des antibiotiques : plupart régressent à l'arrêt. Sinon :
+- fièvre/signes de colite : recherche \bact{difficile} et de ses toxines
+- fièvre ou prolongée sans signes de \bact{difficile} : coproculture
+- hémorragique : recherche \bact{oxytoca}
+
+Diarrhée nosocomiale (admission + 3 jours)
+- recherche de \bact{difficile}, EPS, coproculture
+
+***** Traitement
+
+Général
+- Hygiène, réhydratation (boisson + sel + glucose)
+- ralentisseurs du transit(Imodium), antisécréteur(Tiorfan), + symptômes 
+
+Vérifier que non médicamenteuse, régression < 5 jours pour la plupart.
+
+\skull Urgence si sd septicémique/déshydratition sévère : ciprofloxacine 3-5j (puis
+adapté), IV (eau, Na+, K+)
+
+Antibiotique : plupart régressent à l'arrêt. Sinon
+- métronidazole 10j si \bact{difficile} 
 ** 284 Diverticulose, diverticulite aigüe du sigmoïde
 **** Diverticulite compliquée [fn:141]
 ***** Forme classique
