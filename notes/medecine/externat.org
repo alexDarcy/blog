@@ -6231,62 +6231,49 @@ Douleurs abdominales diffuses
 #   impérieuse d'uriner abondamment
 # - Douleurs rachidiennes projetées : zona, sd de Cyriax (compression du nerf intercostal)
 
-** 268 \dagger Reflux gastro-\oe{}sophagien
+** 268 Reflux gastro-\oe{}sophagien
 
- gls:RGO = passage à travers le cardia d'une partie du contenu gastrique hors
- effort. Pathologique = symptômes/lésions d'oesophagite
+20-40% des adultes ont un pyrosis
 
- 20-40% des adultes ont un pyrosis
-
- Mécanismes :
+***** Mécanismes :
  - défaillance du sphincter inférieur de l'\oe{}sophage
  - hyper pression abdo, stase gastrique
  - hernie hiatale = glissement ou roulement mais pas de lien avec RGO
 
- Signes fonctionnels :
- - pyrosis, régurgitations = quasi pathognomonique
- - extra-digestifs (pulmonaire, ORL, cardiaque)
- - RGO compliqué[fn:112] : ulcérations du bas \oe{}sophage (étendues,
-   confluentes/circonférentielles) \thus risque = hémorragi digestive, sténose
-   \oe{}sophagienne
 
- Endobrachy\oe{}sophage : épithelium normal de l'\oe{}sophage remplacé par épithelium
+***** Complications
+- Ulcérations du bas \oe{}sophage  \thus risque = hémorragie digestive, sténose
+   \oe{}sophagienne
+- Endobrachy\oe{}sophage : épithelium normal remplacé par épithelium
  métaplastique intestinal \thus surveillance régulière (risque d'ulcère,
  dysplasie, adénocarcinome)
 
-**** CAT
- Interrogatoire : éliminer sd de rumination (pas de brûlure, nausée,
- vomissement).
-
- < 50 ans, pyrosis ou régurgitation, 0 dysphagie, 0 amaigrissement, 0 anémie :
- pas d'examen complémentaire
-
- Sinon : endoscopie OGD 
- - 1ere intention > 50 ans ou atypique
- - affirme diagnostic si perte de substance épithéliale, peu profonde
- - sans anomalies et (pré-chirurge ou persistance ou extradigestive), faire
-   ph-métrie des 24h
- Autres : impédancemétrie \oe{}sophagienne (reflux persistant), manométrie
+***** Diagnostic
+Typique = < 50 ans, pyrosis ou régurgitation, sans dysphagie, ni amaigrissement, ni
+anémie. Sinon examens
+- clinique : éliminer sd de rumination (pas de brûlure, nausée, vomissement).
+- NB: extra-digestifs possibles (pulmonaire, ORL, cardiaque)
+- endoscopie OGD 
+ - sans anomalies et (pré-chirurge ou persistance ou extradigestive) \thus ph-métrie des 24h
+- Autres : impédancemétrie \oe{}sophagienne (reflux persistant), manométrie
  \oe{}sophagienne (si opération)
 
-**** Traitement
- Anti-acides, inhibiteurs de la sécrétion gastrique (IPP), protection de la muqueuse
- \oe{}sophagienne (alginates)
-
+***** Traitement
  \dec{} poids, arrêt tabac et alcool, tête de lit à 45$^{\circ}$, 3h entre diner
- et coucher
+ et coucher. Puis [[tab:rgo_ttt]]
 
- - RGO sans \oe{}sophagite: anti-acides/alginates/anti-H2 si < 1/semaine. Sinon
-   IPP demi-dose puis long cours
- - RGO avec \oe{}sophagite : IPP demi dose (ou pleine si sévère) 4 semaines
-   (ou 8) puis long cours
- - RGO principalement extra-digestif : pas d'IPP
- - RGO résistants IPP : non acide, erreur diag, \inc dose. Sinon chir
- - Sténose peptique : IPP pleine dose
- - Endobrachy\oe{}sophage : IPP si symptomatique ou \oe{}sophagite
+#+name: tab:rgo_ttt
+#+caption: Traitement médicamenteux de la RGO
+ | RGO sans \oe{}sophagite           | anti-acides/alginates/anti-H2 si < 1/semaine.       |
+ |                                   | Sinon IPP demi-dose puis long cours                 |
+ | RGO avec \oe{}sophagite           | IPP demi dose 4 semaines puis long cours            |
+ |                                   | Si sévère IPP pleine doses 8 semain puis long cours |
+ | RGO principalement extra-digestif | pas d'IPP                                           |
+ | RGO résistants IPP                | non acide, erreur diag, \inc dose. Sinon chir       |
+ | Sténose peptique                  | IPP pleine dose                                     |
+ | Endobrachy\oe{}sophage            | IPP si symptomatique ou \oe{}sophagite              |
 
-**** Chirurgie
- Fundoplicature complète (Nissen)
+Chirurgie: Fundoplicature complète (Nissen)
 
 ** 269 Ulcère gastrique et duodénal
 *** Ulcère gastrique et duodénal
