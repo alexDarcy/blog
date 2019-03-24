@@ -5751,7 +5751,7 @@ Cf [[retinopathie_diabetique][chap 21 d'ophtalmo]]
  |                  | trouble apprentissage, comm. | Pas de seins ?             | Pas de dev. sexuel secondaire         |
  |                  |                              |                            |                                       |
 
-* HGE                                                                
+* HGE                                                                :export:
 ** 74 Addiction à l'alcool
  Non-usage, usage simple, mésusage (/risque/, /nocif/, /dépendance/): 
 
@@ -5803,7 +5803,7 @@ Cancer, Digestif, SN, CV, Rhumato, Trauma, Hémato, Métabo, Dermato, Psy, Foetu
  acamprosate/naltrexone pour maintenir l'abstinence
 
  Autre : PEC comorbidités psy, addictive (tabac, cannabais++), non psy, sociale
-** 163 \dagger Hépatites virales                                     :export:
+** 163 Hépatites virales
 
 Définition : processus inflammatoire du foie. Chronique si > 6 mois.
 
@@ -5919,132 +5919,67 @@ Hépatite B
 - IgG anti-HBs seulement si contage accidentel chez non vacciné
 
 
-** 168 \dagger Parasitoses digestives
+** 168 Parasitoses digestives
+Protozoaires (unicellulaires) : amoebose, giardiose
 
-*** Téniasis : cf Tab [[taenia_table]]
- #+name: taenia_table
- #+caption: Caractéristiques des /Taenia/
- |            | /saginata/                                       | /solium/                                                                                                                        | /hymenolepsis/       | /Diphyllobothrium/   |
- |            |                                                  |                                                                                                                                 | /nana/               | /latum/              |
- |------------+--------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+----------------------+----------------------|
- | Caract     | Anneaux, 4-10m,                                  | \danger{} cysticercose\tablefootnote{Larves dans tissus SC, muscle, oeil, cerveau (HTIC, épilepsie !), moelle épinière \danger} | Petit                | 10-15m, 10 ans       |
- |            | intestin grêle                                   |                                                                                                                                 |                      |                      |
- | Contam.    | Boeuf mal cuit                                   | Porc mal cuit                                                                                                                   |                      | Poisson mal cuit     |
- | Clinique   | Latent                                           |                                                                                                                                 |                      |                      |
- | Diagnostic | Anneaux selles/vêtement                          | Sérologie                                                                                                                       | \OE{}ufs dans selles | \OE{}ufs dans selles |
- |            | EPS                                              | \pm biopsie-exérèse                                                                                                             |                      |                      |
- | Ttt        | Niclosamide                                      | Albendazole                                                                                                                     | Niclosamidel         | Niclosamide          |
- |            | praziquantel                                     | praziquantel                                                                                                                    | praziquantel         | praziquantel         |
- |            |                                                  | (+cortico si cérébral)                                                                                                          |                      |                      |
- | Prévention | Cuisson/congélateur\tablefootnote{> qq semaines} |                                                                                                                                 | hygiène des main     | Cuisson              |
+Helmintes (pluricellulaires) :
+ - plathelminthes = téniasis, cysticercose, hydatidose, 
+ - nemathelminthes = asciridiose, oxyurose
+Traitement : métronidazole pour protozoaires, albendazole pour helmintes
+
+En france : giardiose, oxyurose
+
+Transmission féco-orale sauf téniasis
+
+Tab [[tab:teniasis]], [[tab:parasitoses]], [[tab:amoebose]]
+#+name: tab:teniasis
+#+caption: Caractéristiques des /Taenia/
+|            | /saginata/                                       | /solium/                                                                                                                        | /hymenolepsis/       | /Diphyllobothrium/   |
+|            |                                                  |                                                                                                                                 | /nana/               | /latum/              |
+|------------+--------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+----------------------+----------------------|
+| Contam.    | Boeuf mal cuit                                   | Porc mal cuit                                                                                                                   |                      | Poisson mal cuit     |
+| Clinique   | Latent                                           |                                                                                                                                 |                      |                      |
+| Diagnostic | Anneaux selles/vêtement                          | Sérologie                                                                                                                       | \OE{}ufs dans selles | \OE{}ufs dans selles |
+|            | EPS                                              | \pm biopsie-exérèse                                                                                                             |                      |                      |
+| Ttt        | Niclosamide                                      | Albendazole                                                                                                                     | Niclosamidel         | Niclosamide          |
+|            | praziquantel                                     | praziquantel                                                                                                                    | praziquantel         | praziquantel         |
+|            |                                                  | (+cortico si cérébral)                                                                                                          |                      |                      |
+| Prévention | Cuisson/congélateur\tablefootnote{> qq semaines} |                                                                                                                                 | hygiène des main     | Cuisson              |
 
 
+#+name: tab:parasitoses
+#+caption: Ascaridiose (/Ascaris lumbricoides/), giardiose (/Giardia intestinalis/), hydatidose, oxyurose ( /Enterobius vermicularis/ )
+|          | Ascaridiose                                                                                      | *Giardiose*                                                                                 | Hydatidose                | *Oxyurose*                * |
+|----------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------+-----------------------------|
+| Contam.  | Ingestion \oe{}ufs                                                                               | Eau, aliments, féco-oral                                                                    | Chien/aliment             |                             |
+| Clinique | Signes allergiques                                                                               | asymptomatique\tablefootnote{atypique : brutal, selles nbs liquide, douleurs épigastriques} | Asymptomatique            | Prurit anal                 |
+|          | sd de Löffler\tablefootnote{Fièvre, toux, dyspnée, infiltration radio fugace, hyperéosinophilie} |                                                                                             |                           | asymptomatique              |
+|          | troubles digestifs                                                                               |                                                                                             |                           |                             |
+| Diag     | Selles: \oe{}ufs                                                                                 | EPS: kystes                                                                                 | Sérologie (90% foie)      | Selles: vers blancs         |
+|          |                                                                                                  | /gls:trophozoïtes                                                                           | , 70% poumons)            | scotch test                 |
+| Ttt      | Flubendazole                                                                                     | Métronidazole                                                                               | Chir/albendazole          | Flubendazole                |
+|          | Albendazole                                                                                      |                                                                                             |                           | albendazole                 |
+|          |                                                                                                  |                                                                                             |                           | pyrantel (communauté !)     |
+| Prév     | Hygiène mains, fruits                                                                            | Hygiène boisson, aliments                                                                   | chien, mesures sanitaires |                             |
+|          | crudités, péril fécal                                                                            |                                                                                             |                           |                             |
 
-*** Ascaridiose[fn:96]
+#+name: tab:amoebose
+#+caption: Am\oe{}bose (/Entamoeba histolytica/) : forme intestinale, hépatique
+|            | Intestinale                                                                                               | Hépatique                                             |
+|------------+-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------|
+| Fréquence  | fréquente                                                                                                 | rare                                                  |
+| Contam     | féco-orale                                                                                                | idem                                                  |
+| Clinique   | diarrhée non hémorragiques                                                                                | fièvre, frissons, douleur HD                          |
+|            | douleurs abdo                                                                                             | HMG douloureux                                        |
+|            | sans fièvre, sans AEG\tablefootnote{Urgence si dysentérique aigüe, fébrile, colite aigüe grave amibienne} | hyperleucoPNN                                         |
+| Diagnostic | EPS : kyste (confusion /E.histolycita/ et /dispar/ )                                                      | sérologie                                             |
+|            | endoscopie : "boutons de chemise"                                                                         | + clinique                                            |
+|            | sérologies (sur biopsie)                                                                                  | + écho typique                                        |
+|            |                                                                                                           | DD : abcès du foie à pyogènes, tumeur maligne nécrose |
+| Ttt        | métronidazole 10 j                                                                                        | imidazolé                                             |
+|            | puis tiliquinol 10j                                                                                       | puis tiliquinol                                       |
 
- Pays tropicaux hygène insuffisante
-
- Ingestion \oe{}ufs
-
- Phase de migration : signes allergiques, sd de Löffler[fn:97]. Phase d'état :
- troubles digestifs
-
- Complications : appendicite, angiocholite, pancréatite, occlusion intestinale
-
- Diag: \oe{}ufs dans selles (+2 mois)
-
- Ttt : flubendazole, albendazole
-
- Prév: lavage mains, fruits, crudités, péril fécal
-
-*** Oxyurose [fn:98]
-
- Fréquent (enfants âge scolaire)
-
- Clinique : prurit anal/asymptomatique
-
- Diag : vers blancs mobiles dans selles/Scotch test
-
- Ttt : flubendazole, albendazole, pyrantel. Traiter toute la communaute !
-
-*** Giardiose[fn:99]
-
- Ingestion eau, aliments contaminés, féco-oral
-
- Clinique : 
- - asymptomatique
- - atypique : {brutal, selles nbs liquide, douleurs épigastriques}
- - subaigu/chronique (mois/année)
- - malabsorption et dénutrition si déficit immunitaire
-
- Diag : kystes/gls:trophozoïtes à l'EPS. \times{} 3 si besoin. Biopsie duodénale
- si chronique
-
- Ttt : métronidazole (contrôle + 1mois)
-
- Prév : hygiène eau, boisson, aliments
-
-*** Am\oe{}bose[fn:100]
-
- Une des parasitoses les	plus fréquentes. Kyste ou trophozoïtes.
-
- Cont: féco-orale[fn:101]
-
- Dissémination par voie sanguine depuis tube digestif : atteinte intestinale
- (tous âges) ou foie (\male{} 20-50 ans), poumons, cerveau
-
- Forme intestinale 
- - (sub)Aigue, diarrhée non hémorragiques, douleurs abdo, sans fièvre ni AEG
- - Autres formes : dysentérique aigüe, fébrile, colite aigüe grave amibienne
-   = urgence \skull
-
- Forme hépatique : rare, collection purulente, après am\oe{}bose intestinale
- - qq jours, fièvre élevée, frissons, douleur hypochondre droit/scapula droit
- - foie volumineux, douleureux palpation
- - hyperleucocytose à PNN, légère \inc{} transaminases, phosphatases,
-   bilirubinémie
- - DD : abcès du foie à pyogènes, tumeur maligne nécrose
- - complications rares, graves
-
-**** Diagnostic
- Intestinale
- - EPS : seulement kyste, et confusion /Entamoeba histolycita/ et /dispar/ (non
-   patho)
- - endoscopie : "boutons de chemise", sérologies (sur biopsie)
- Hépatique
- - sérologie et clinique et écho typique \approx certittude
- - répéter si séro négative. Si négative et sans argument : ponction avec écho
-
-**** Traitement
- Intestinale : curatif/probabiliste: métronidazole 10 j puis am\oe{}bicide de
- contact 10j (tiliquinol)
-
- Hépatique : imidazolé et am\oe{}bicide de contact. Ponction seulement si abcès superficiels au bord
- de la rupture
-
-*** Hydatidose
- Parasite adlute (anneaux), hydatide (larve).
-
- Cycle : intestin grêle du chien -> \oe{}ufs -> mammifères herbivores : hydatide
- dans foie/poumon -> ingestion de protoscolex par le chien. Homme = accident
-
- Clinique : asymptomatique, lent (années)
- - hépatique : 
-   - fréquent, 10-15ans. HMG isolée, indolore, bien toléré. \skull pas
-     de ponction !
-   - complications : compression voie biliaires ou veineux porte/cave,
-     fissuration/ruputre (réaction allergiques, hydatidose secondaire),
-     infection après fissure
-   - IRM hépatique
- - autres : radio thorax suspectes, même complications. N'importe quel
-   endroit. Os = mauvais pronostic
-  
- Diag: sérologie (90% hépatique, 70% pulmonaire). Pas de ponction !!
-
- Ttt : chir (albendazole seul sinon)
-
- Prév : chien, mesures sanitaires
-** 197 \dagger Transplantation d'organes
+** 197 Transplantation d'organes
  Indication num. 1 de greffe hépatique : CHC
 
  Complications :
@@ -6056,113 +5991,61 @@ Hépatite B
  Score "foie" pour défaillance chronique
 
  Consentement présumé, gratuité du don, anonymat donneur-receveur
-** 215 \dagger Pathologies du fer
+** 215 Pathologies du fer
 
- Absoprtion par les entérocytes du duodénum et jéjunum proximal. Puis stocké par
- ferritine ou exporté par ferroportine dans le plasma. Il y est alors transporté
- par transferrine.
-
- Régulation : hepcidine influence l'absorption.
-
- Réserve de fer : ferritine (foie, moelle osseuse, rate)
-
-*** Exploration
- - Ferritine = 1ere intention : si \dec, carence en fer, si \inc, pas forcément
-   un excès...[fn:102]
- - gls:CST = transport du fer. Montre surcharge mais sans la quantifié. \dec si
-   sd inflammatoire, \inc insuf hépatocellulaire, sd néphrotique, sd
-   inflammatoire
- - récepteur soluble de transferrine = 2eme intention
+Physio: ferritine = stockage (foie, moelle osseuse, rate), transferrine = transport.
 
 *** Anémie par carence martiale
-**** Mécanisme
- - Saignement : occulte. Digestif ou gynéco si femme non ménopausée
- - Malabsorption : hypochlorhydrie franche[fn:103], altération muqueuse
-   duodénojéjunale, court-circuit duodénojéjunal. Maladie c\oe{}liaque ++
- - Carence d'apportA : 1mg/j (\male) ou 2 mg (\female). \inc besoins ou régime
-   végétarien très strict
-**** Diagnostic
- Pâleur, asthénie. Chercher signes de gravité.
- Diagnostic biologique : anémie hypochrome microcytaire 
- - 1ere intention : ferritine \inc
+***** Mécanisme
+ Saignement occulte (digestif ou gynéco), malabsorption (maladie c\oe{}liaque
+ ++), carence d'apport (10-15mg/jour)
+***** Diagnostic
+Anémie hypochrome microcytaire + ferritine \dec
+ - clinique : Pâleur, asthénie. Chercher signes de gravité.
  - différencier d'un sd inflammatoire et thalassémie (cf encadré)
-
- \begin{tcolorbox}
- Carence en fer = ferritine \dec, fer sérique \dec, CST \dec et transferrine \inc
- \end{tcolorbox}
-
-**** Étiologie
- Clinique : ATCD, médic, gynéco, régles, troubles dig. Chercher masse tumorale,
- méléna
-
- Examens :
- - 1ere intention : gynéco, endoscopie gls:OGD et coloscopie :
-   - NB: > 5 Ans : coloscopie systématique (K colique) \danger
-   - pas de lésion à l'endoscopie \thus biopsie duodénale \pm gastrique
-   - **pas** des causes : hernie hiatale sans érosion, polype colique non ulcéré
-     < 15mm
- - 2eme intention : vidéocapsule endoscopie (sauf sis sténose), entéroscopie (biopsie),
+ - DD : sd inflammatoire, \beta-thalassémie
+***** Étiologie
+Clinique + gynéco + acrshort:OGD + coloscopie totale
+- clinique : ATCD, médic, gynéco, régles, troubles dig. Chercher masse tumorale, méléna
+- OGD : biopsie si pas de lésions
+- 2eme intention : vidéocapsule endoscopie (sauf sis sténose), entéroscopie (biopsie),
    scanner spiralé (tumeurs du grêles), scintigraphie au pertechnétate-99m
    (diverticule de Meckel)
- - Si exploration négatives : supplémentation Fe
+- Si exploration négatives : supplémentation Fe
 
-**** Traitement
- Cause si possible.
-
- Martial : voie orale 150 à 300mg/j hors repas (selles noires, interactions
- possibles). IV si intolérance. Contrôle ! Traiter jusque normalisation ferritinémie
-
-
-
+***** Traitement
+ Cause, sinon fer par vooie orale 150 à 300mg/j hors repas jusque normalisation
+ferritinémie [fn:96] 
 
 *** Surcharge en fer
- Diagnostic = 
- - CST < 45% \thus *pas* origine génétique. si Ferritine \inc, hépatosidérose
-   métabolique (\in sd métabolique)
- - CST > 45%, répéter test. Si positif et pas d'autres causes, chercher mutation C2V2Y du gène HFE : si
-   oui, diagnostic positif
- - \pm IRm hépatique
- DD : surcharge d'apport, malade chronique du foie, porphyrie cutanée, hémopathie
+***** Diagnostic 
+- CST < 45% et ferritine \inc, hépatosidérose métabolique (freq++)
+- CST > 45% _2 fois_, chercher mutation C282Y du gène HFE (hémochromatose)
+- DD : surcharge d'apport, malade chronique du foie, porphyrie cutanée, hémopathie
 
-**** Hémochromatose
- 10 à 20% des homozygotes ont des symptômes. 4 phases :
+***** Hémochromatose
+4 phases :
  1. asymptomatique
- 2. surcharge Fe biologique : CST > 45%, ferritine normale
- 3. symptômes clinique (30 ans)
+ 2. ST > 45%, ferritine normale
+ 3. symptômes clinique (30 ans) : asthénie, mélanodermie,
+    ostéoarticulaire[fn:97], hépatique (HMG), diabète (tarif), hypogondasime
+    hypogonadotrope, cardiaque
  4. lésions viscérales (40-60 ans)
 
- Clinique : 
- - asthénie
- - mélanodermie, dépilation et cheveux fins et cassants
- - ostéoarticulaire : petite articulations de la main. RX : athropathie sous
-   chondrale
- - HMG : risque CHC élevé
- - diabète tardif, hypogonadisme hypogonadotrope, cardiqaque
+Risque de CHC ! biopsie hépatique si point d'appel[fn:98] 
 
- Si stade \ge 2, chercher atteinte pancréas, foie, coeur, gonades, os
+Diagnostic génétique : individuel (cf supra) ou familal (apparenté 1er degré)
 
- Diagnostic des lésions hépatiques : biopsie hépatique \pm IRM hépatique
-
- Diagnostic génétique : individuel (cf supra) ou familal (apparenté 1er degré)
-
- Traitement : 
- - soustractions sanguines : 7mL/kg/semaine \ge 550mL tous les 7-10j puis 1-3
+Traitement : soustractions sanguines[fn:99] : 7mL/kg/semaine \ge 550mL tous les 7-10j puis 1-3
    mois. Contrôle : PA, pouls, NFS. \danger arrêt si Hg < 11g/dL
- - chélateurs du fer sinon
- Suivi des complications cirrhose si besoin
 
- Pronostic \approx population générale avant cirrhose.
+Pronostic \approx population générale avant cirrhose.
 
 **** Hépatosidérose métabolique++
  gls:sdmetabolique et surcharge en fe
 
- Ferritinémie \inc, CST normal \thus IRM hépatique.
-
- surcharge modérées mais les atteintes peuvent évoluer. 
-
  PEC : troubles lipidiques, HTA, diabète, activité physique, équilbre alim. Pas
  forcément normalisation Fe !!
-
 
 ** 248 \dagger Dénutrition
  Référence nutritionnelle pour la population (couvre besoin). Sinon : apport
@@ -7644,7 +7527,7 @@ Imagerie : score de Balthazar[fn:220]
 Symptomatique 
 - bénigne : jeun, soluté hydroélectrolytiques, antalgiques
 - sévère : jeun, antalgique \pm SNG.
-* Maladies infectieuses                                              :export:
+* Maladies infectieuses
 
 ** Définitions
 
@@ -10330,43 +10213,6 @@ Porteur de \bact{typhus}, \bact{tranchees}, \bact{recurrente}
     \item Cuir chevelu : enfants. Clinique = prurit diurne, nocturne sur
       cheveux. Lentes visibles. Ttt = malathion ou dimeticone. Décontamination
       \item Pubien : clinique = lésions de gratage. Déister IST !. Ttt = pyréthrinoïde
-\end{itemize}
-
-** 168 - Parasitoses digestives
-Protozoaires (unicellulaires) : amoebose, giardiose\\
-Helmintes (pluricellulaires) : 
-\begin{itemize}
-  \item plathelminthes = téniasis, cysticercose, hydatidose, 
-  \item nemathelminthes = asciridiose, oxyurose
-\end{itemize}
-Traitement : métronidazole pour protozoaires, albendazole pour helmintes\\
-En france : giardiose, oxyurose\\
-Transmission féco-orale sauf téniasis
-
-\paragraph{Giardiose} Formes : végétatives/kystique. \\
-Souvent asymptomatique. EPS (biopsie jéjunale si végétative)\\
-Controle EPS. Hygiène
-
-\paragraph{Téniasis} \bact{saginata} (boeuf) et \bact{solium} (porc).\\
-  Adulte ou cysticercose (enkystement)\\
-  Diagnostic = 
-  \begin{itemize}
-    \item adultes : anneaux dans les selles, EPS
-    \item cysticercose : épidémio, scanner, calcifications musculaires
-  \end{itemize}
-
-\paragraph{Ascaridiose} fréquent pays en développement. Souvent asymptomatique.
-Diagnostic : EPS
-
-\paragraph{Oxyurose} Asymptomatique, prurit anal nocture. Diagnostic : oeil nu,
-scotch test. Contrôle par EPS
-
-\paragraph{Amoebose} 
-\begin{itemize}
-  \item intestinale aigüe : diag = pas de fièvre, sd dysentérique (subaigüe
-    souvent). 3 EPS. Rectoscopie éventuelle : ulcérations en "boutons de chemise"
-  \item hépatique : diag = fièvre, douleur hypochondre droit, hépatomégalie.
-    Radio, échographie éhaptique. Sérologie Ac anti-amibiens
 \end{itemize}
 
 ** 169 - Zoonoses
@@ -14392,6 +14238,14 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 * Footnotes
 
+[fn:99] Chélateurs du fer si CI 
+
+[fn:98] HMG, ASAT non normale, ferritémie > 1000\mu{}g/L 
+
+[fn:97] Petites articulations de la main
+
+[fn:96] Selles noires, interactions possibles). IV si intolérance. Contrôle ! 
+
 [fn:222] > 17kPa : cirrhose très probable
 
 [fn:221] Analogues nucléosidiques/nucléotidiques
@@ -14692,18 +14546,6 @@ avec HS
 entre 0 et 4 respectivement)
 
 [fn:95] Sans comorbidités
-
-[fn:96] /Ascaris lumbricoides/
-
-[fn:97] Fièvre, toux, dyspnée, infiltration radio fugace, hyperéosinophilie
-
-[fn:98] /Enterobius vermicularis/
-
-[fn:99] /Giardia intestinalis/
-
-[fn:100] /Entamoeba histolytica/
-
-[fn:101] Ou sexuelles oro-anales
 
 [fn:102] Lyse cellulaire, sd inflammatoire, alcool, sd métabolique, sd
 paranéoplasique, hyperthyroïde

@@ -1,5 +1,7 @@
 * Endocrino
-Acromégalie : test de freinage au glucose. Si diabétique, suivre cycle de GH sur
+** Cortisol
+- minimal à minuit, max à 8h. Idem pour ACTH
+- Acromégalie : test de freinage au glucose. Si diabétique, suivre cycle de GH sur
 3 ans (\ne gold standard, simplement un argument !)
 
 Acanthosis nigricans : monte insulino-résistance
@@ -11,11 +13,20 @@ Acanthosis nigricans : monte insulino-résistance
 NB : inhib de DPP-4 et analogue de GLP1 sont redondants ! Ne pas combiner...
 
 ** Insuline
-asal bolus ou novomix (semilente + rapide) 2x / jour selon les services
+- 50% basal 50% en rapide (sur les 3 repas) avec total = 0.5*poids si DT2, 0.8*poids si DT1
+- Basal bolus ou novomix (semilente + rapide) 2x / jour selon les services
+** Complications
+3 stages (par gravité croissante) : hyperglycémique, cétosique, acido-cétosique
+
+TTT : insuline par IV avec contrôle gylcémie toutes les heures, contrôle cétoné
+Adaptation l'insuline sur la cétonémie+++ (pas la glycémie qui est trop rapide à se corriger)
+Seuil : > 3mmol/L = insuilen IV. Patho si > 0.5mmol/L
+Si besoin, ajouter glucose (si glycémie basse)
 
 ** Objectifs 
-- standards : 0.8-1.3g/L avan repas et 1.3-1.8
-- élarges :  1-1.5 avantrepas, 1.5-2g/L sinon
+- standards : 0.8-1.3g/L avan repas et 1.3-1.8 => risque d'hypo mais évite
+  complications long terme => sujet jeunes
+- élargies :  1-1.5 avantrepas, 1.5-2g/L sinon
 ** Notes
 Si coronaropathie, important de baisser le diabète (athérome)
 ** Examen clinique
