@@ -3826,11 +3826,8 @@ Tab [[tab:osteoporose_autres]]
 
  Bilan ferrique (stade 0,1) ferritinémie, hémoglobine (stade 2 à 4)
 
-** 221 \dagger HTA, causes endocriniennes
+** 221 HTA, causes endocriniennes
  Déf: \ge 140/90 mmHg.
-
- Dépistage d'une HTA secondaire : doit être systématique mais économe...
-
  Enquête :
  - initiale : ATCD familiaux HTA, souffle para-ombilical, rein/masse abdo à la
    palpation, signe d'hypercortisolisme/acromégalie, bio \thus
@@ -3838,92 +3835,72 @@ Tab [[tab:osteoporose_autres]]
  - si résistance malgré 3 antihypertenseurs (dont 1 diurétique), chercher toutes
    les cause d'HTA
 
- HTA curables : 3-5%. Cf les catégories ci-dessous !
+
+***** Épidémiologie
+10% des HTA sont secondaires et 5% sont guéries \thus hyperaldostéronisme
+primaire, phéochromocytomes, sd Cushing
 
 *** Hyperminéralocorticisme primaire (HAP)
  Physiopatho : aldostérone, cortisol, désoxycorticostérone \thus rétention sodée
- \thus HTA et inhibe sécrétion de rénine.
+ \thus HTA et inhibe sécrétion de rénine[fn:110].
 
- Penser à HAP si hypokaliémie (< 3.5mmol/L) ou HTA résistante
-
- \begin{tcolorbox}
- Si la surrénale produit plus d'aldostérone : régulation négative par la rénine (en théorie)
- \end{tcolorbox}
-
+***** Diagnostic
+Aldostérone \inc (plasma/urine) et urine basse
+- suspicion : hypokaliémie (< 3.5mmol/L) ou HTA résistante
+- confirmation : \ref{algo:HAP}  
  \begin{algorithm}
    \caption{Explorations des HAP}
+   \label{algo:HAP}
    Arrêt diurétiques\;
    Vérifier natriurèse+, kaliurèse > 20mmol/j\;
    \If{aldostérine/rénine \times 2}{
-   Si aldo \inc et rénine \dec : HAP\;
-   Si aldo \inc et rénine \inc : hyperaldo. secondaire\;
-   Sinon aldo \dec et rénine \dec : autre minéralocorticisme\;
+   aldo \inc et rénine \dec : HAP\;
+   aldo \inc et rénine \inc : hyperaldo. secondaire\;
+   aldo \dec et rénine \dec : autre minéralocorticisme\;
    }
  \end{algorithm}
 
- Tests dynamiques possibles : stimulation (recherche un défaut de), freination
- (recherche une freination)
+***** Ttt selon étiologie
+Adénome de Conn : ndule unilatéral hypodense \in [10, 20] mm au scanner
+- prouver sécrétion aldostérone par cathétérisme si scanner douteux/patient jeune/HTA résistante
+- chir possible (mais tumeur bénigne, risque récidive)
+Hyperplasies idiopathique: spironolactone à vie (hypoK) + contrôle PA
 
-**** Adénome de Conn 
- Forme généralement curable
- - imagerie : nodule unilatéral > 10mm au scanner.
- \danger il faut prouver une sécrétion unilatérale d'aldostérone \thus
- cathétérisme si scanner douteux/patient jeune/HTA résistante
- - chir possible (mais tumeur bénigne, risque récidive)
- - si autre HAP : médicaments en continus
-
-**** Hyperminéralocorticismes familiaux 
+***** Hyperminéralocorticismes familiaux 
  Lié à l'aldostérone, désoxycorticostérone, cortisol
 
 *** HTA endocrines iatrogènes
  Contraception oestroprogestative, corticostéroides, réglisse
 
 *** Phéochromocytomes, paragangliomes fonctionnels
-    gls:PCC : médullosurrénale. gls:PGG fonctionnels : autres    ganglions sympathiques
-   
- \skull{} PCC : spontanément mortel. Dépistage :
- - HTA avec céphalées, sueurs, palpitations, HTA paroxystiques/diabète sans
+***** Physiopatho
+gls:PCC : médullosurrénale. gls:PGG fonctionnels : autres    ganglions sympathiques
+ \skull{} PCC : spontanément mortel. 
+
+***** Dépistage :
+ - HTA avec céphalées, sueurs, palpitations (triade de Ménard), HTA paroxystiques/diabète sans
    surpoids
  - sd familial : gls:NF1, gls:VHL, gls:NEM2, sd phéochromocytomes-paragangliomes familiaux
 
- Diagnostic : métanéphrines \inc.
+***** Diagnostic 
+\inc métanéphrines
 
- Puis imagerie : 
- - PCC : uniques, ~5cm. 
- - PGG siègent dans l'organe de Zuckerkandl, vessie, hiles rénaux, médiastin postérieur, péricarde, cou.
+***** PEC
+- Scanner/IRM/écho : PCC = uniques, ~5cm, PCC siègent dans l'organe de Zuckerkandl, vessie...
+- Médicine nucléaire
+- Traitement chir mais surveillance long terme
 
- Puis médecine nucléaire
+*** Sd de Cushing (hypersécrétion de cortisol)
 
- Toujours dépistage :
- - clinique : taches "café-au-lait", neurofibromatomes, nodules de Lish (NF1),
-   hémangioblastomes (VHL)
- - génétique : NEM2, VHL
-  
- Toujours traitement chir mais surveillance long terme
-
-*** Sd de Cushing
- Correspond hypersécrétion de cortisol
-
- Signes : acné, ecchymoses, faiblesse musc, hirsutisme, oedèmes, ostéoporose, PAd
+***** Diagnostic
+Suspicion clinique + cortisol plasmatique [fn:46], cortisolurie 24h, test de freinage rapide[fn:47]
+- clinique: acné, ecchymoses, faiblesse musc, hirsutisme, oedèmes, ostéoporose, PAd
  > 105mmHg, vergetures pourpres
 
- Étiologies :
- - maladie de Cushing (adénome hypophysaire) à 66%
- - tumeur non hypophysaire (15%) : adénome sécrétant surrénalien ou
-   corticosurrénalome
-
-**** Démarche
- \begin{tcolorbox}
- CRH (hypothalamus) stimule ACTH (hypophyse) qui stimule la production de
- glucocorticoïdes (surrénale)
- \end{tcolorbox}
-
- - Diagnostic positif : cortisol plasmatique [fn:46], cortisolurie (sur 24h), test de freinage rapide[fn:47]
-
- - Diagnostic étiologique selon ACTH :
-   - ATCH diminuée \thus adénome, corticosurrénalome, hyperplasie bilatérale
-   - ATCH normale ou \inc \thus test CRH. si positif : tumeur ectopique ou
-     maladie de Cushing  
+*****  Étiologie 
+- ATCH diminuée \thus adénome, corticosurrénalome, hyperplasie bilatérale
+- ATCH normale ou \inc \thus test CRH, test freinage fort[fn:226]. si positif : tumeur ectopique ou
+  maladie de Cushing  (adénome hypophysaire)
     
 *** Causes rare
     Tumeurs à rénine, acromégalie
@@ -14179,6 +14156,10 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 * Footnotes
 
+[fn:226] 8mg au lieu de 2mg pour DXM et pendant 2 jours au lieu d'un
+
+[fn:110] Si la surrénale produit plus d'aldostérone : régulation négative par la rénine (en théorie)
+
 [fn:109] Pli cutané, hypotension 
 
 [fn:108] Analogue de l'ACTH 
@@ -14394,8 +14375,8 @@ non caséeux (histologie)
 
 [fn:46] Physiologique = minimal à minuit, donc mesure à minuit. Mesure salivaire possible.
 
-[fn:47] 1mg de dexaméthasone à minuit. Action de rétrocontrôle négative du
-cortisol donc on vérifie le cortisol plasmatique le lendemain à 8h.
+[fn:47] 1mg de dexaméthasone à minuit Action de rétrocontrôle négative du
+cortisol donc on vérifie que le cortisol plasmatique le lendemain à 8h a bien diminué
 
 [fn:48] Thyroglobuline
 
