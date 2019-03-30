@@ -8,7 +8,6 @@ Soit réessayer la recette de babish (en petite quantités), soit simplement nat
 Diviser quantité de crème par 2. Pâte feuilletée inversée plus intéressante que
 la simple...
 Encore travailler la crème, pas assez goutue la dernière fois
-
 - Mille-feuille [de Conticini](https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse)
 - Brioche ([Enviedebienmanger](http://www.enviedebienmanger.fr/fiche-recette/recette-brioche-pur-beurre)) : bonne consistance et bon aspect. Attention, 30min est un maximum.
     + 250 g de beurre gastronomique (+30 g pour beurrer les moules)
@@ -20,13 +19,21 @@ Encore travailler la crème, pas assez goutue la dernière fois
     + 1 jaune d'oeuf
     + 12 g de sel (+ 1 pincée)
 - Pain au lait [(750g](https://www.youtube.com/watch?v=wAKaJRl3Ieg)) : bon mais levée sur la nuit semble préférable
-- Brownie aux noix de pecan: ([750g](https://www.youtube.com/watch?v=wVtG4g77fMM)) : très bien
-    + 200g de chocolat noir
-    + 150g de noix de pécan
-    + 125g de beurre roux
-    + 150g de sucre en poudre
-    + 3 oeufs
-    + 70g de farine
+- Brownie : [(meilleure recette pour
+l'instant)(https://tasty.co/recipe/ultimate-brownies)). 
+	+ Diminuer 1/3 le sucre fonctionne. 
+	+ café sous forme liquide : non senti, tester version en poudre
+    + 2 ½ sticks unsalted butter, plus more, softened, for greasing
+    + 8 oz good-quality semisweet chocolate, or bittersweet chocolate, 60-70% cacao, roughly chopped
+    + ¾ cup unsweetened dutch process cocoa powder, divided
+    + 1 tablespoon espresso powder
+    + 2 cups granulated sugar
+    + ½ cup dark brown sugar, packed
+    + 2 teaspoons vanilla extract
+    + 2 teaspoons kosher salt
+    + 6 large eggs
+    + 1 cup all-purpose flour
+    + flaky sea salt, for sprinkling
 - Tarte au chocolat : ([750g](https://www.youtube.com/watch?v=ZISKki8AcE0)) : pas mal mais plus avec une texture de mousse au chocolat
     + 1 pâte sablée
     + 300g de chocolat pâtissier

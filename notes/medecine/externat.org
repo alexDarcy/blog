@@ -387,106 +387,52 @@ Voir table~\ref{tab:cholesterol}.
   \caption{PEC du patient dyslipidémique}
   \label{tab:cholesterol}
 \end{table}
-** 220 \dagger - Dyslipidémies
+** 220 Dyslipidémies
 
 Risques : maladies CV athéromateuses
 
-LDL = total - HDL - \gls{TG}
+Bilan normal : LDL  < 1.6g/L, HDL  > 0.4g/L, TG  < 1.5g/L
 
-Bilan normal : 
-  - LDL  < 1.6g/L
-  - HDL  > 0.4g/L
-  - TG  < 1.5g/L
-
-
- Secondaire
- 
- - Bilan selon contexte : TSH, glycémie, créat, protéinurie, BU
- - Comorbidité : 
-   
-   - hypocholestérolémie : hypothyroïdie, (cholestase, anorexie mentale)
-   - mixtes : sd néphrotique, grossesse
-   - hypertriglycéridémie : insuf rénale chronique, alcoolisme, (obésité, diabète
-     avec sd métabolique)
-   
- - Iatrogène : ciclosporine, corticoïdes, oestrogènes oraux, rétinoïdes,
-   IFN-\alpha, certains antétroviraux, neuroleptiques, diurétiques thiazidiques, betabloquant
- 
-
- Primaire
- 
- - Hypercholestérolémies familiales monogéniques
-   
-   - mutation du gène du récepteur LDL++ : hétérozygote (xanthomes tendineux,
-     complications CV précoces) ou homozygote (rare, DC vers 20 ans)
-   - mutation du gène de l'apoliporotéine B
-   - mutation du gène PCSK9
-   
- - Hypercholestérolémies polygéniques : fréquent, complications CV tardives
- - Hyperlipidémies combinées familiales : fréquent++, pas de xanthèmes,
-   complicastions CV suivant intensité
- - Dysbetalipoprotéinémie : xanthomes pathognomoniques
- - Hypertriglycéridémie familiale : rare, pas de xanthomes
- - Hyperchylomicronémie primitive : souvent hypertriglycéridémies majeurs
- 
-
+#+caption: Hyperlipidémies
+#+name: tab:hyperlipidémies
+| Secondaire : étiologies                                | Primaire (classif)                    | Spéc.                  |
+|--------------------------------------------------------+---------------------------------------+------------------------|
+| Selon contexte : TSH, glycémie, créat, protéinurie, BU | Cholestérol                           |                        |
+| Comorbidité                                            | - familiales :                        | CV, xanthomes          |
+| - hypocholestérolémie : hypothyroïdie                  | + /récepteur LDL/                     |                        |
+| - mixtes : sd néphrotique, grossesse                   | + apolipoprotéine B, PCSK9            |                        |
+| - hyperTG : IR chronique, alcoolisme,                  | - polygéniques                        | pas d'hérédité         |
+| (obésité, diabète + sd métabolique)                    | Mixtes                                |                        |
+| Iatrogène : ciclosporine, corticoïdes                  | - /combinées familiales/++            | CV, _pas_ de xanthomes |
+| oestrogènes oraux, rétinoïdes,                         | - dysbetalipoprotéinémie              | xanthomes              |
+| IFN-\alpha, antétroviraux, neuroleptiques              | TG :                                  |                        |
+| diurétiques thiazidiques, \beta{}bloquant              | - familiale                           | xanthomes              |
+|                                                        | -  hyperlipidémie combinée familiable |                        |
+|                                                        | - hyperchylomicronémie                |                        |
 **** Risque faible (0 FR), intermédiaire (\ge 1 FR), haut (ATCD)
 
 FR semblables au~\hyperref[subsec:fr]{score précédent} : tabac \le 3 ans, HTA, diabète, HDL < 0.40g/L, âge > 50
 (\male) ou 60 (\female), ATCD familiaux IDM ou mort subite
 
-*** Traitement
+***** Traitement
 
-**** Diététique
-
-  - lipides < 40%
-  - graisses saturées < 12%
-  - plutôt mono- et polyinsaturées
+Diététique
+  - lipides < 40%, graisses saturées < 12%, plutôt mono- et polyinsaturées
   - cholestérol alimentaire < 300mg/j
-  - 5 fruits ou légumes/j
-  - sodium < 6g/j
-  - diminuer excès pondéral
-
-Si hypertriglycéridémie (HTG) : \dec poids, alcool, sucres simples
-
-**** Hypertriglycéridémie
-
-- modérées : -20% calories ++, \inc activité physique
--  majeur : arrêt alcool, régime hypo- (si obèse) ou iso-calorique avec < 30g
-   lipides (si obèse) ou 20g
-
-  
-**** Hypolipémiants
-Statines surtout
-
-  - \dec LDL, \dec TG \inc HDL
+  - 5 fruits ou légumes/j, sodium < 6g/j, \dec poids
+- 
+  - Si hypertriglycéridémie (HTG) : \dec poids, alcool, sucres simples
+Hypertriglycéridémie
+ - modérées : -20% calories ++, \inc activité physique
+-  majeur : arrêt alcool, régime hypocalorique avec < 30g lipides (obèse)
+Hypolipémiants: statine ++ 
+ - \dec LDL, \dec TG \inc HDL
  - ES : myalgies, \inc CPK, \inc transaminases, \inc risque diabète 2
  - CI : HS, /grossesse/, allaitement
-
-
-**** Hypercholestérolémies
- En primaire si LDL reste élèvé à +6 mois traitement. En secondaire si complication ischémique
-
- Objectifs :
- 
-   -  primaire : 
-     
-     - LDL < 1.3g/L si risque CV faible (pop générale, diabète ou hypercholestérolémie familale)
-     - LDL < 1g/L sinon
-     
- 
-   - secondaire : systématique
- 
-  
- Molécules
- 
+Hypercholestérolémies : primaire si LDL élèvé à ttt+6 mois, secondaire si complication ischémique
+ - Objectifs LDL < 0.7g/L si risque très élevé, < 1g/L si élevé, < 1.15g/L sinon
  - hypercholestérolémies : statines
- -  hypertriglycéridémies : diététique si TG > 2g/L, statines si TG < 4g/L et HDL
-   bas, fibrate sinon
- 
-
- Augmenter doses progressitement puis suivi : 2-3 mois tant que objectifs non
- atteints puis 1-2/an
+ - hypertriglycéridémies : diététique \pm statines si TG > 2g/L (fibrates si échec)
 
 ** 334 \dagger - Syndromes coronariens aigüs
 
@@ -4393,7 +4339,7 @@ Suspicion sur clinique, confirmé par IRM
 | Somatotrope  | adulte = {\dec masse et force musc, adiposité abdo} | stimulation GH $\times 2$                               |
 |              | enfant = retard croissance, hypoglycémies           | stimulation GH                                          |
 
-** 243 \dagger Insuffisance surrénale
+** 243 Insuffisance surrénale
 *** Insuffisance surrénale lente
  Rare mais grave \skull
 
