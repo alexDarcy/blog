@@ -188,6 +188,7 @@
 #+latex_header_extra: \newacronym{TFI}{TFI}{Troubles fonctionnels intestinaux}
 #+latex_header_extra: \newglossaryentry{PET1}{name={Polyendocrinopathie auto-immune de type 1},description={Hypoparathyroïdie, candidose, insuf. surrénale}}
 #+latex_header_extra: \newglossaryentry{PET2}{name={Polyendocrinopathie auto-immune de type 2},description={insuf. surrénale + 1 maladie autoimmune parmi thyroïdite d'Hashimoto, maladie de Basedow, diabète type 1}}
+#+latex_header_extra: \newacronym{SPUPD}{SPUPD}{Syndrome polyuro-polydipsique}
 
 #+OPTIONS: H:5
 :END:
@@ -4472,18 +4473,14 @@ Risque = ebond de la maladie causale, insuf surrénale secondaire (corticotrope)
  - Idiopathique : androgènes non aromatisables 3 mois. Si inefficace, chir
    plastique possible
 ** 245 \dagger Diabète (à compléter)
-   \begin{tcolorbox}
+\begin{tcolorbox}
  Définition : glycémie à jeun \ge 1.26g/L (2 reprises) ou (aléatoire \ge 2g/L et signes hyperglycémie)\footnotemark
- \end{tcolorbox}
+\end{tcolorbox}
  \footnotetext{Normale à jeûn < 1.10g/L}
 
  Caractéristiques diabète 1 (le diabète 2 s'y oppose) : 
- - ATCD familiaux rares
- - < 25 ans
- - début rapide explosif
- - symptomatologie bruyante
- - poids normal ou \dec
- - hyperglycémie majeure > 23g/L
+ - ATCD familiaux rares, < 25 ans, début rapide explosif avec symptomatologie bruyante
+ - poids normal ou \dec, hyperglycémie majeure > 23g/L
  - souvent cétose
  - pas de complications dégénératives
  - mortalité par insuf rénale (CV pour diabète 2)
@@ -4492,120 +4489,65 @@ Risque = ebond de la maladie causale, insuf surrénale secondaire (corticotrope)
     Prévalence : 1/200 000 (10% des diabétiques). Peut survenir à tout âge. \inc
     incidence. Sex-ratio = 1
 
-**** Physiopathologie
- Carence en insuline par destruction cellules beta du pancréas. Soit auto-immun
- (fréquent), soit idiopathique
+***** Physiopathologie
+ Carence en insuline par destruction cellules beta du pancréas. Auto-immun++ ou idiopathique.
 
- Prédisposition génétique (Ag HLA, VNTR, CTLA-4, PTP-N22), facteurs
- environnementaux.
+ Prédisposition génétique, facteurs environnementaux.
 
- Processus auto-immuns : au moins un Ac parmi les suivants dans 97% : Ac
- anti-{ICA, GAD, IA2, insuline, ZnT8}
+\danger 10% d'autres maladies auto-immunes \thus doser Ac anti-TPO (Basedow,
+thyroïdite), anti-surrénale (Addison), anti-transglutaminase \pm anti-endomysium
+(coeliaque), anti-paroi gastrique, anti-facteur intrinsèque (Biermer)
 
- Diabète \in sd polyendocrinien auto-immun : 10% d'autres maladies auto-immunes =
- thyroïdopathies (Basedow, thyroïdite), Addison, atrophie gastrique de Biermer,
- maladie coeliaque, vitiligo 
- - doser Ac anti-TPO ou TSH (thyroïdite), anti-surrénale (Addison), anti-transglutaminase \pm anti-endomysium (coeliaque), anti-paroi gastrique, anti-facteur intrinsèque (Biermer)
- - si positif : surveillance annuelle
-
-**** Clinique
- \begin{tcolorbox}
- Diabète 1 : \{polyuro-polydipsie, amaigrissement, polyphagie\}, glycémie $> 2g/L$ \pm cétonurie
- \end{tcolorbox}
- Habituel : début rapide/explosif, sd cardinal = polyuro-polydispsie,
- amaigrissement, polyphagie, troubles visuels transitoires, examen pauvre (fonte
- musc, signes d'acidose[fn:59], glycémie veineuse, cétonurie (acidocétose
- inaugurale)
-
- Formes
- - Diabète 1 lent (LADA[fn:60]) : début tardif, progessif, Ac positif. Insulinothérapie en 2-10 ans
- - Révélé par acidocétose : fréquente chez enfants, ne devrait plus être vues
- - Non insulinodépendantes : 3 auto-Ac positifs \thus 100% d'avoir diabète 1 dans
-   5 ans. Rémission de quelques mois possibles.
- - cétosique du sujet noir d'origine africaine : mécanisme
-   auto-immun. Décompensation cétosique. Auto-Ac spécifique du diabète 1
-   nésgatifs.
-
- Affirmer type 1 :
- - clinique : hyperglycémie + triade (maigreur/amaigrissement, cétose, < 35 ans)
- - sinon auto-Ac
- - sinon :
+***** Diagnostic
+Clinique =  glycémie $> 2g/L$, maigrissement, cétonurie \pm acrshort:SPUPD
+- NB : signes d'acidose[fn:59] possibles
+- /si doute/ : Ac anti-GAD (\pm anti-ilôtsq anti-IA2, anti-insuline, anti-ZnT8)
+- /si négatif/ :
    - hérédité dominante : MODY, mutation SUR1/KIR6-2 (si diabète néonatal)
-   - symptômes inhabituels : sd de Wolfram (atrophie optique, surdité, diabète
-     insipide < 20 ans), mitochondropathie (surdité, dystrophie maculaire,
-     cardiomyopathie transmission par la mère)
-   - secondaire : cancer pancréas (amaigrissement), pancréatite chronique,
-     mucoviscidose, hémochromatose, médicaments
-    
-**** Évolution
- Schéma théorique : phase préclinique (destruction cellules beta), clinique (85% détruites), clinique séquellaire
+   - sd de Wolfram [fn:228], mitochondropathie[fn:229] 
+   - secondaire : cancer pancréas, pancréatite chronique, mucoviscidose, hémochromatose, médicaments
+Formes : diabète 1 lent (LADA[fn:60]), (révélé par acidocétose), non insulinodépendantes, cétosique du sujet noir d'origine africaine : mécanisme
+   auto-immun
+     
+***** Évolution
+ Schéma théorique : estruction cellules \beta, clinique (85% détruites), séquellaire
 
  Diabète instable : 
  - itérations de cétoacidoses ou hypoglycémies sévères, psycho. 
  - DD : gastroparésie, déficit systèmes contra-insuliniques, Ac anti-insuline
 
-**** PEC
- Patient : contrôle glycémie, injection d'insuline, prévenir complications
- métaboliques et vasculaires, adapter ttt, contrôle de l'alimentation \thus
+***** PEC
+ Insuline à vie (Table [[insuline]] ) + alimentation variée sans interdits, exercice physique
+ - Stylo à insuline (pompe si échec) :analogue lent (1-2/j) et analogue rapide (3-4) \thus
+   éducation nutritionnelle
+ - ES : hypoglycémie, lipoatrophie (immuno), lipohypertrophie (piqûres au même endroit)
+
+Objectifs : HbA1c < 7% (enfants : entre 7.5 et 8.5, complication/sujet âgé : 8%)
+- 4 glycémies/jour, injection d'insuline, adapter ttt, contrôle de l'alimentation \thus
  éducation thérapeutiques
-
- Objectifs : HbA1c < 7% (enfants : entre 7.5 et 8.5, complication/sujet âgé : 8%)
-
- Autosurveillance : urinaire rare, glycémique 4/jour [fn:61], (glucose en SC si
- objectifs thérapeutiques non remplis) :
-
- Surveillance :
- - HbA1c : en pourcentage Hb totale, aucun sens si modif durée de vie moyenne des globules rouges[fn:62]
- - diabétologue/pédiatre endocrinologue 3/an
- - {lipides, créat, microalbuminurie}
- - ophtalmo, cardiologie 1/an (sympto/âgé,compliqué), dentiste 1/an
-
- Traitement insulinique (Table [[insuline]] ): palliatif à vie
+- Surveillance :
+  - HbA1c 
+  - diabétologue/pédiatre endocrinologue 3/an
+  - {lipides, créat, microalbuminurie}
+  - ophtalmo, cardiologie 1/an (sympto/âgé,compliqué), dentiste 1/an
 
  #+name: insuline
  #+caption: Traitement insulinique du diabète 1
- | Type                          | Injection  | Durée  | Utilisation              |
- |-------------------------------+------------+--------+--------------------------|
- | insuline humaine recombinante | IV, IM, SC | 7-8    | Prandiale, hyperglycémie |
- | analogue rapide de l'insuline | IV, IM, SC | 4-6h   | Pompe                    |
- | forme lente                   | SC         | 9-16h  |                          |
- | analogue lents                |            | 16-40h |                          |
+ | Type                                         | Injection  | Durée  | Utilisation              |
+ |----------------------------------------------+------------+--------+--------------------------|
+ | insuline humaine recombinante (Actrapid)     | IV, IM, SC | 7-8    | Prandiale, hyperglycémie |
+ | analogue rapide (Humalog, Novorapid, Apidra) | IV, IM, SC | 4-6h   | Pompe                    |
+ | forme lente (NPH)                            | SC         | 9-16h  |                          |
+ | analogue lents (Lantus)                      |            | 16-40h |                          |
 
- Injection :
- - Résorption SC \inc si injection dans muscle, chaleur, vasodilatation, selon zone et dose, 
- - Stylo à insuline (pompe si échec)
- - Schéma : analogue lent (1-2/j) et analogue rapide (3-4)
- - dose "pour vivre", "pour manger", "pour traiter", activité physique \thus
-   éducation nutritionnelle
 
- Effets secondaires : hypoglycémie, prise de poids légère, allergie rarissime,
- lipoatrophie insulinique (immuno), lipohypertrophie si piqûres au même endroit
-
- Non insulinique : accompagnement, alimentation variée sans interdits, exercice physique
-
-**** Cas particuliers
- Enfant/ado : 
- - cétoacidoses fréquentes (risque d'oedème cérébral \inc si réa).
- - difficile à équilibrer et accepter chez l'ado
- - pompe chez très petit enfant
-
- Femme :
- - dépister diabète 1 pendant grossesse
- - contraception à discuter : pilule oestrogestative possible si \female{} jeune,
-   sans complication, non fumeuses, diabète bien équilibré
- - grossesse : pronostic quasi normal si équilibre dès conception
-   jusqu'accouchement et non compliqué. Analogue de l'insuline. \\
-   \danger{} HbA1c \dec , \inc besoin fin grossesse et \dec post-partum, aggravation rétinopathie
-   et néphropatie
+***** Cas particuliers
+- Enfant/ado : \danger cétoacidoses 
+- Femme (cf Sec. [[sec:diabete_gestationnel]]
+ - oestrogestatif à discuter
+ - grossesse : équilibre dès conception !! par analogue de l'insuline. 
  - CI absolue : insuf coronaire instable
- - HbA1c < 6.5%, glycémie jeun < 0.9g/L
-  
- Ménopause : hormonothérapie seulement si médicalement indiqué
-
- Jeûne : 
- - si intolérance gastrique : pas d'arrêt insuline, collations liquide/hospit. Vérifier cétonurie
- - pour examen à jeun : laisser agir analogue lent, surveiller glycémie
- - prolongé/stress : soluté glucosé et insuline en IV
+- Pas d'arrêt de l'insuline (lent si examen à jeun)
   
 *** Diabète 2
  90% de diabète. Prévalence 4%. À risque : obèse, anomalie métabolisme
@@ -5127,6 +5069,7 @@ Cf [[retinopathie_diabetique][chap 21 d'ophtalmo]]
  Prévention surtout. Modifier style de vie (efficacité faible). Chir possible
  avec équipes spécialisées
 ** 252 \dagger Diabète gestationnel + nutrition et grossesse (à compléter)
+<<sec:diabete_gestationnel>>
  Physio chez femme enceinte selon moitié:
  - non diabétique : (\inc insulinéme, insulinosensibilité) puis (insulinorésistance
    \thus hyperinsulinisme ou diabète gestationnel)
@@ -14101,6 +14044,12 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:229] Surdité, dystrophie maculaire, cardiomyopathie transmission par la mère
+
+[fn:228] Atrophie optique, surdité, diabète insipide < 20 ans
+
+[fn:227] Polyuro-polydispsie, amaigrissement, polyphagie,
 
 [fn:226] 8mg au lieu de 2mg pour DXM et pendant 2 jours au lieu d'un
 
