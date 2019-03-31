@@ -4550,133 +4550,66 @@ Objectifs : HbA1c < 7% (enfants : entre 7.5 et 8.5, complication/sujet âgé : 8
 - Pas d'arrêt de l'insuline (lent si examen à jeun)
   
 *** Diabète 2
- 90% de diabète. Prévalence 4%. À risque : obèse, anomalie métabolisme
- glucidique, ATCD familiaux diabète 2, ethnie noire/hispanique.
- Age adulte.
+90% de diabète. Prévalence 4%. 
 
-**** Physiopatho
- Insuline n'arrive pas à avoir une réponse maximale : défaut de captation
- musculaire du glucose, \inc production hépatique du glucose, lipolyse \inc acides gras
- libres circulants \thus (aggrave \dec insulinosécrétion et utilisation du glucose)
+FR = obèse, anomalie métabolisme glucidique, ATCD familiaux diabète 2, ethnie noire/hispanique.
 
- Insuf de sécrétion d'insuline, s'aggrave avec l'âge et la durée
+***** Physiopatho
+ Insulinorésistance : causée par la génétique, sédentarité, excès pondéral. Au niveau du muscle, foie, lipolyse
 
- Facteurs génétique. Hyperglycémie aggrave insulinosécrétion,
- insulino-résistance. \dec sécrétion adiopkines
+/Et/ déficit insulinosécrétion. 
 
-**** Cliniques
- Signes secondaires hyperglycémie, souvent inaperçus. Décompression sévères \thus
- polyurie, polydispie, amaigrissement, prurit vulvaire/balanite, infections
- récidivantes
-
- Dépistage : si
- - glycémie veineuse à jeun pour : signes cliniques de diabètes, > 45 ans (tous les 3 ans), \ge 1 FR
- - non caucasien/migrant, \glslink{sdMetabolique}{sd métabolique}
+***** Dépistage
+Signes cliniques de diabètes, > 45 ans (tous les 3 ans), \ge 1 FR. 
+ Non caucasien/migrant, \glslink{sdMetabolique}{sd métabolique}
  
- DD : diabète 1 lent (LADA) (minceur, 0 ATCD, IA2 et GAD positifs), génétique
- (MODY2, mitochondrial), secondaire (pancréatopathie, hémochromatose,
+ DD : diabète 1 lent, génétique (MODY2, mitochondrial), secondaire (pancréatopathie, hémochromatose,
  mucoviscidose, médicaments)
 
- Évolution : insulinopénie -> insulinoréquerant. Pronostic selon complications.
+***** Évolution  
+Insulinopénie \thus insulinoréquerant. Pronostic selon complications.
 
 **** Traitement 
- Objectifs : normalisation HbA1c (< 6.5%), améliorer glycémie, insulinosensibilité
-
- Moyens  : activité physique, régime (hypocalorique si surpoids) sans sucres
- rapides, traitement oraux, analogues GLP-1, insuline
-
- Ttt oral :
- - biguanide (Metformine)+++ : 
-   - ES = digestif. 
-   - CI = insuf rénale (?), hépatique, respiratoire
- - autres sulfamides, glinides, inhibiteurs DPP-4, inhibiteurs \alpha-glucosidase
-  
- Surveillance glycémique :
- - HbA1c essentielle : < 7% pour plupart des patients (8% si comorbidité grave,
-   âgé fragile, ATCD complication macrovasc, insuf rénale chronique sévère, 9% si
-   agé dépendante)
+- Activité physique 3-5/semaine: intensité modérée \ge 30min/j et intense (> 60% $VO_{2max}$) de 20min
+   - CI : insuf coronarienne, rétinopathie proliférante non stabilisée
+   - surveiller risque hypoglycémie, pieds ! 
+- Alimentation : équilibrée, objectif = poids -5 à 10%
+- Metformine++[fn:230] en oral \pm sulfamide/glinides/inhibiteurs
+  DPP-4/inhibiteurs \alpha-glucosidase/analogues GLP-1[fn:232]
+- \pm insulinothérapie quand insulinorequérance, mal équilibré(cf diabète 1)
+Objectifs : HbA1c < 7%[fn:231] (8% si grave, 9% si agé dépendante)
  - autosurveillance glycémique : pas systématique si ttt oral (1-3 cycles/j),
    nécessaire si insuline
-
- Hygiéno-diététique
- - Activité physique 
-   - avantages : \dec incidence diabète 2, \inc insulinorésistance, \inc TA
-     effort, \inc masse maigre, \dec masse grasse
-   - intensité modérée  \ge 30min et intense (> 60% $VO_{2max}$) de 20min
-   - 30min/jour, 3-5/semaine
-   - CI : insuf coronarienne, rétinopathie proliférante non stabilisée
-   - surveiller si risque hypoglycémie (reprise, intensité/durée
-     inhabituelle). \danger{} pieds ! 
- - Alimentation : 
-   - hypocalorique si surpoids, équilibrée[fn:63], sans sucres rapides. 
-   - objectif : -5 à 10% du poids
-
- Traitement médicamenteux :
- - oral : metformine (sinon sulfamide, puis inhibiteurs DPP-4 ou inhibiteurs
-   \alpha-glucosidase)
- - insulinothérapie 
-   - quand : insulinorequérance (amaigrissement, asthénie, amyotrophie), observance thérapeutique, HbA1c > objectfis, CI oraux,
-   affections intercurrentes
-   - combiné = insuline intermédiaire/analogue lent + hypoglycémiant oraux si
-     insulinorequérance partielles. 0.2 U/kg/j à adapter
-   - exclusive : autosurveillance glycémique quotidienne, même gestion que
-     diabète 1. 
-   - CI au renouvellement permis poids lourds
 
 *** Complications
  Souffrance vasculaire : micro- (rein, oeil, nef) et macro-angiopathie (\inc
  athérosclérose). AOMI x6-10
 
-**** Physiopatho
- Excès de glucose entre dans les cellules endothéliales, musculaire lisses, péricytes.
- Glycolyse : voies mineures \inc, systèmes de protection de la mitochondrie
- débordés \\
- \thus stress oxydant dans la cellule.
-
- Autres causes d'agression: inflammation, activation rénine-angiotensine, voies profibrosantes,
- induites par l'hypoxies. Systèmes de protection moins efficaces : antioxydants,
- anti-inflammatoire, cellules progénitrices vasculaires, angio-, artério-genèse
+***** Physiopatho
+ Excès de glucose \thus aggression des vaisseaux (endothélial++), inhibition des
+ mécanismes de défense cellulaires
 
  Conséquences : épaississement des membranes basales, troubles perméabilité
- vasculaire, spécifiques = {profil vasculaire (rétine), fibrose (rein)}
+ vasculaire, prolif vasculaire (rétine), fibrose (rein)
 
-**** Rétinopathie diabétique 
+***** Rétinopathie diabétique 
 Cf [[retinopathie_diabetique][chap 21 d'ophtalmo]]
 **** Néphropathie
- Diabète = 1ere cause d'insuf rénale terminale. Diabète 2 = $\frac{3}{4}$
- diabétiques dyalisé. Risque CV x10 (D1), x3 (D2). Décès insuf rénale terminale
- 30% (D1), 5% (D2)
+- Diabète = 1ere cause d'IR terminale. Risque CV x10 chez DT1, 30% DC IR terminale
+ chez DT1 (5% chez DT2)
 
- Physiopatho : \inc pression intra-glomérulaire \thus dilatation des
- glomérules. Filtration améliorée puis décroît (sclérose) avec \inc
- albumine[fn:64]. Et toxicité directe glucose.
+***** Physiopatho 
+\inc pression intra-glomérulaire \thus dilatation des glomérules. Puis sclérose) avec \inc albumine[fn:64].
 
 ***** Dépistage 
- 1/an par BU (protéinurie, hématurie, infection urinaire),
- rapport albuminurie/créatinurie (excrétion urinaire) et vérif à 6 mois
-
+ 1 BU/an protéinurie, hématurie, infection urinaire), albuminurie/créatinurie 
 ***** Diagnostic
- Signes cliniques tardifs (HTA si protéinurie, oedème si protéinurie et insuf
- rénale)
-
- \danger{} faux positifs pour microalbuminurie : orthostatisme prolongé, activité
- physique intense, \Delta PA, tabac, fièvre, \inc insuf cardiaque, hyperglycémie,
- infection urinaire
-
- Signes associés : 
- - rétinopathie (surtout D1). FR CV : microalbuminurie, DFG \dec. 
- - Penser sténose des artères rénale (surtout D2) si HTA résistante ou \dec\dec
-   rein. 
- - Hyperkaliémie (\inc si IEC, sartans) \thus surveiller
-  
- Diagnostic histologique :
- - pas besoin si {rétinopathie (hyperglycémie prolongé), excrétion urinaire d'albumine \inc répétée et croissante} 
- - biopsie seulement si 0 rétinopathie, < 10 ans après diagnostic, aggravation rapide, hématurie HTA sévère, signes extra-rénaux
- - diabète 1 : hypertrophie mésangiale, glomérulaire < épaississement membrane basale, dépôts
-   mésangiaux < hyalinose artériolaire < glomérulosclérose nodulaire
- - diabète 2 : 1/3 typique, 1/3 vasculaire, 1/3 non néphropatie diabétique
-
- Classification en 5 stades : 
+Rétinopathie , plusieurs excrétions urinaire d'albumine \inc 
+- si doute : ponction-biopsie rénale : 
+  - diabète 1 : hypertrophie mésangiale/glomérulaire < épaississement membrane basale, dépôts
+    mésangiaux < hyalinose artériolaire < glomérulosclérose nodulaire
+  - diabète 2 : 1/3 typique...
+- 5 stades : 
  4. [@4] Néphropathie incipiens : microalbuminurie[fn:65]
  5. Néphropathie : PA élevée, DFG \dec de 10mL/min/an, nodule de sclérose,
     hyalinose artériolaire
@@ -4685,26 +4618,23 @@ Cf [[retinopathie_diabetique][chap 21 d'ophtalmo]]
 ***** Traitement
  Prévention 
  - primaire (diabète, FR HTA)
- - si microalbuminurie : HbA1c < 7%, PA < 140/85, IEC ou sartans, FR, régime
-   hypoprotidique, sel < 6g/j
- - si macroalbuminurie : contrôle tension++ < 140/85mmHg. (IEC ou sartan) et
-   diurétique thiazidique. Protéinurie < 0.5g
- - si insuf rénale : 
-   - si DFG < 30mL/min/1.73m^2, HbA1c < 8% et seuls autorisé : insuline, répaglinide, inhib \alpha-glucosidase, 
-   - surveiller glycémie (HbA1c souvent pertubrée si IR chronique)
-   - PAs < 130mmHg
-   - traiter anomalies phosphocalciques, anémie arégénérative, préparer suppléance rénale
-    
- Éviter AINS. Si nécessaire, pas d'IEC/sartan. Limiter produits contrastes iodés
+- secondaire : Tab [[tab:nephro_diabete]]. Surveiller glycémie !! Éviter AINS,
+  produits contrastes iodés
+#+name: tab:nephro_diabete
+#+caption: tab:nephro_diabete
+| Stade              | Objectifs                 | Moyens                                                                            |
+|--------------------+---------------------------+-----------------------------------------------------------------------------------|
+| microalbuminurie   | : HbA1c < 7%, PA < 140/85 | _IEC/sartans_\tablefootnote{\danger sténose artère rénales : doser K+, créat}, FR |
+|                    |                           | /et/ PEC tabac, régime hypoprotidique, sel < 6g/j                                 |
+| macroalbuminurie   | PA < 140/85mmHg           | IEC/sartan + diurétique thiazidique.                                              |
+|                    | Protéinurie < 0.5g        |                                                                                   |
+| IR                 | PAs < 130mmHg             |                                                                                   |
+| - DFG \in [30, 60] |                           | adapter poso                                                                      |
+| - DFG < 30mL/min   | HbA1c < 8%                | autorisé : insuline, répaglinide, inhib \alpha-glucosidase,                       |
+| - DFG < 25         |                           | autorisé : inhib DPP4                                                             |
 
- Néphrologue si : doute diagnostique, DFG < 45mL/min/1.73m^2, protéinurie brutale.
-
- IEC, sartans : se méfier d'une sténose des artères rénales : doser kaliémie, créatininémie
-
- Infections urinaires : $\times 3$ dont 90% asymptomatique (basses)
- - Risque = contamination du haut appareil urinaire (pyélonéphrite, nécrose papillaire,
- pyélonéphrite emphysémateuse), aggravation néphropathie glomérulaire.
- - Ttt : oui si symptomatique. Sinon pas de consensus
+NB : infections urinaires : $\times 3$ dont 90% asymptomatique (basses) \thus
+ttt si symptomatique. Risque = contamination du haut appareil urinaire  aggravation néphropathie glomérulaire.
   
 **** Neuropathie
  - Autonome : tardive
@@ -14044,6 +13974,13 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:232] 1ere intention = metformine. Si besoin, +sulfamide. Si besoin : DPP4 si
+écart < 1% sinon insuline (ou GLP-1 si IMC > 30)
+
+[fn:231] < 6.5% si découverte 
+
+[fn:230] ES = diarrhées. CI = insuf rénale (?), hépatique, respiratoire
 
 [fn:229] Surdité, dystrophie maculaire, cardiomyopathie transmission par la mère
 
