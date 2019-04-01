@@ -4487,7 +4487,7 @@ Risque = ebond de la maladie causale, insuf surrénale secondaire (corticotrope)
  - Pubertaire : ne rien faire
  - Idiopathique : androgènes non aromatisables 3 mois. Si inefficace, chir
    plastique possible
-** 245 \dagger Diabète (à compléter)
+** 245 Diabète 
 \begin{tcolorbox}
  Définition : glycémie à jeun \ge 1.26g/L (2 reprises) ou (aléatoire \ge 2g/L et signes hyperglycémie)\footnotemark
 \end{tcolorbox}
@@ -4658,210 +4658,118 @@ ttt si symptomatique. Risque = contamination du haut appareil urinaire  aggravat
   
  Atteinte métabolique et vasculaire.
 
- Dépistage sur examen clinique et interrogatoire (+ examens complémentaires si
- autonome)
-
- Si débutante, souvent silencieuse ! Examen des pieds !
+***** Diagnostic
+Examen clinique et interrogatoire (+ complémentaires si autonome)
 
 ***** Sensorimotrice 
- Fibres les plus longues en premier ("chaussettes" puis "gants")[fn:66]. Examen
- clinique pour perte de sensibilité, interrogatoire pour douleur
-
- - Polynévrite symétrique distale : fréquente (40% diabétiques après 25 ans) avec
+En "chaussettes" puis en "gants")
+ - Polynévrite symétrique distale++ :
    - hypoesthésie pression/tact/thermique/proprioceptique ignorée
-   - parfois paresthésies distales, douleurs "arc électrique"
+   - \pm paresthésies distales, douleurs "arc électrique"
    - ROT achilléen aboli (puis rotulien)
    - voûte plantaire se creuse (tardivement)
-   - complication : neuroarthropathie (pied "cubique" de Charcot)
-   - rares : mononeuropathies avec signes moteurs déficitaires, douleurs à
-     exacerbation nocturne
- - Polynévrite asymétrique proximale : beaucoup plus rare. L2, L3
-   (L4). Fatigabilité et amyotrophie douloureuse proximale
- - Polyradiculopathie thoracique : rare, douleurs abdo aux niveaux T4-12
- - Mononévrite : 5-10%, asymétrique. Souvent nerfs crâniens. Si MS
-   : compressive. Si MI : sensitif
- - Multinévrite : DD = vascularite
+   - complication : pied "cubique" de Charcot
+ - Plus rare : polynévrite asymétrique proximale, polyradiculopathie
+   thoracique, mononévrite, multinévrite 
   
 ***** Autonome
- Diabète ancien, mal équilibré \thus nerfs vagues, système sympathique
- lésés. Régression rare
-
- - CV : {tachycardie sinusale quasi-permanente, (bradycardie permanente),
-   allongement QT}
- - Vasomotrice : hypotension orthostatique /sans/ accélération du pouls, troubles
-   microcirculation périphérique[fn:67]
- - Troubles sudation : sécheresse cutanée MI, parfois hypersudation partie
-   supérieure. Prurit possible
- - Digestive gastro-intestinale : {parésie tractus digestif, dysphagie, gastroparésie (fréq), diarrhée banale/motrice capricieuse (diag d'élimination ![fn:68], constipation, incontinence fécale (rare)}
- - Vésicale : pas de perception de la vessie pleine, hypoactavité détrusor et
-   favorisé par polyurie de l'hyperglycémie. Résidu post-miction \thus
-   incontinence, rétention, infection urinaire \thus clinique, écho
-   (prostate, vessie)
- - Dysfonction érectile : psychogène, sd de Leriche[fn:69] (rare). À rechercher
-   /systématiquement/. \\
-   DD : examen génital, testostérone, prolactinémie. Traitement efficace presque toujours.
-  
+ - CV : tachycardie sinusale, bradycardie, allongement QT
+ - Vasomotrice : hypotension orthostatique /sans/ accélération du pouls
+ - Troubles sudation : sécheresse cutanée MI
+ - Digestive : parésie, dysphagie, gastroparésie (fréq), diarrhée, constipation
+ - Vésicale : résidu post-miction \thus IU \thus clinique, écho (prostate, vessie)
+ - Dysfonction érectile : psychogène, (sd de Leriche[fn:69]). DD : examen génital, testostérone, prolactinémie. 
 
  Examen 
- - clinique : interrogatoire (hypotension OS, diarrhée...), inspection pieds, ROT abolis au niveau des troubles sensitifs, monofilament, sensibilité épicritique, thermoalgique, vibratoire[fn:70], proprioceptiques[fn:70]
+ - interrogatoire , inspection pieds, ROT abolis (niveau troubles sensitifs), monofilament, sensibilité épicritique, thermoalgique, vibratoire[fn:70], proprioceptiques[fn:70]
  - ECG annuel, EMG si atypique
- - chercher dénervation cardiaque parasympathique : variation de la FC entre
-   inspiration et expiration[fn:71], rapport RR long/court pendant épreuve de
-   Valsalva, variation FC de couché à debout
+ - \Delta FC inspiration - expiration[fn:71], rapport RR long/court pendant épreuve de
+   Valsalva, \Delta FC couché - debout
 
  DD : neuropathies métaboliques (insuf rénale, amylose, hypothyroïdie), toxiques
  (alcool, tabac, iatrogène), paranéoplasiques, carentielles, inflammatoire,
  infectieuse (Lyme, lèpre), autre (Charcot-Marie-Tooth, péri-artérite noueuse)
 
  Traitement : 
- - préventif = glycémie. FR : alcool, tabac, insuf rénale, carence
-   vitamines B, médicaments. 
- - Si installées, stabiliser et éviter les complications
-   (mal perforant plantaire++)
+ - préventif = glycémie. FR : alcool, tabac, insuf rénale, carence vitamines B, médicaments. 
+ - Si installées, stabiliser et éviter les complications (mal perforant plantaire++)
  - Antalgiques, hydratation peau
 
 **** Macroangiopathie
  \diameter > 200 \mu{}m. Plus fréquente et sévère. Artères visibles sur radio.
 
  Prévention CV = *problème majeur* des diabétiques 2 : $\frac{3}{4}$ DC d'une cause
- CV. 
-
- Risque CV \times{}2-3 (\times{}3-4 chez \female). Risque coronarien \times{}2-4, AV ischémique
- \times{}2, AOMI \times{}5-10 !
+ CV. Risque CV \times{}2-3 (\times{}3-4 chez \female). 
 
 ***** Dépistage
  Risque > 1% = élevé[fn:72]
 
- /FR/ :
- - CV : > 50 ans \male (> 60 \female), diabète > 10 ans, ATCD IDM/mort subite (< 55
-   ans \male, < 65 ans \female) ATCD AVC constitué < 45 ans, tabac, HTA
-   permanente, HDLc < 0.4g/L, microalbuminurie > 30mg/24h
- - autres : obésité abdominale (> 102cm \male, > 88cm \female) ou IMC >
-   30k/m^2, sédentarité, > 3 verres vin/j (2 si \female), pyschosociaux
+1. /FR/ :
+ - CV : âge > 50 ans \male [fn:235], diabète > 10 ans, ATCD IDM/mort
+   subite[fn:67], ATCD AVC [fn:234],  tabac, HTA permanente, HDLc < 0.4g/L, microalbuminurie > 30mg/24h
+ - autres : obésité abdominale [fn:66], IMC > 30k/m^2, sédentarité, > 3 verres vin/j, pyschosociaux
 
- Montrer atteinte artérielle : 
+2. Montrer atteinte artérielle : 
  - coronaropathie : ECG repos annuel, scinti avec épreuve d'effort ou coronarographie
  - carotides ? auscultation \thus écho si AIT possible
  - AOMI ? pieds, pouls, claudication, IPS cheville/bras < 0.7 ? Écho-doppler
 
 ***** Diagnostic
- Ischémie myocardique silencieuse fréquente ! Y penser si troubles digestifs,
- asthénie à l'effort, troubles du rythme cardiaque, déséquilibre inexpliqué du
- diabète, \dec PA \thus dépistage systématique si risque
-
- Risque extrême : diabète et microangiopathie sévère (glomérulopathie et
- protéinurie > 1g/L), atteinte vasculaire
-
- AOMI : fréquemment avec neuropathie. 1/3 proximale (HTA), 1/3 distale sous
- genou (glycémie, tabac), 1/3 proximale et distale. Pouls pédieux = bon pronostic
+- /Ischémie myocardique/ silencieuse fréquente ! \thus dépistage systématique si
+  trouble dig, asthénie effort...
+- AOMI : 1/3 proximale (HTA), 1/3 distale sous genou (glycémie, tabac), 1/3 proximale et distale
+- \skull : diabète + microangiopathie sévère, diabète + atteinte vasculaire
 
 ***** Traitement
- Revascularisation : stents par défaut (risque de resténose) et chir si atteinte
- 3 coronaires.
-
- - Glycémie : Objectif 6.5% si jeune et prévention primaire, 7% si âgé ou plus à
-   risque. Metformine systématique
- - Activité physique systématique
- - Contrôle lipidique : LDL < 1.3g/L (1.0 si risque CV élevée ou
-   néphropatie). Statines (simvastatine, pravastatine, atorvastatine) ou fibrates[fn:73] 
- - PAs \in [130, 139] et PAd < 90mmHg. Hygiéno-diététique et antihypertenseurs si
-   échec
- - Prévention thrombose si \ge 1 FR : aspirine 75-150mg
- - Poids : IMC < 25kg/m^2, tour taille < 94cm \male, 80cm
-   \female. Hygiéno-diététique
- - Arrêt tabac : substituts nicotiniques (bupropion sinon). Anticiper polyphagie
-   réactionnelle et modification transitoire sensibilité insuline !
+Objectif HbA1c < 6.5% (7% si âgé ou à risque.
+- Activité physique 
+- LDL < 1.3g/L (1.0 si risque CV élevée ou néphropatie) : statines _ou_ fibrates
+- PAs \in [130, 139] et PAd < 90mmHg.
+- Poids : IMC < 25kg/m^2
+- Arrêt tabac, 
+- Prévention thrombose si \ge 1 FR : aspirine 75-150mg
+Si revascularisation : stents par défaut  et chir si atteinte 3 coronaires.
 
 **** Pied diabétique
  1 patient sur 10 à risque d'1 amputation d'orteils. Éviter les plaies pour prévenir l'amputation
  \skull
-
- Mal perforant plantaire, plaie ischémie d'orteil/membre
-
- À risque : diabète et pouls faible, neuropathie et trouble statique pied,
- troubles sensibilité {algique, vibratoire, thermique, profonde}, ulcération
- pieds
-
 ***** Mal perforant plantaire (MPP)
- Neuropathies entraîne hypoesthésie et déformations
- ostéoarticulaires \thus durillons puis fissure et infection \thus
- dermo-hypodermite.
+ Neuropathies \thus hypoesthésie, déformations ostéoarticulaires \thus durillons
+ puis fissure et infection \thus dermo-hypodermite.
 
- Révélé par : pus, fonte purulente localisé tisseux adipeux
+Autres
+ - Ischémie/nécrose : peau froide, fine, dépilée, livedo. \thus revasculariser en urgence \skull
+ - Nécrose + MPP
+ - Dermo-hypodermite nécrosante : très rare, \thus débrider en urgence, ATB. 
+   Cas particulier : gangrène gazeuse à \bact{perfringens} \thus urgence vitale \danger
 
-***** Autres
- - Ischémie/nécrose : si oblitération/sténose artères de moyen-petit calibre. Peau
-   froide, fine, dépilée, livedo. \danger nécrose peut arriver en qq heures \thus
-   revasculariser en urgence \skull
- - Combinaison nécrose et MPP
- - Dermo-hypodermite nécrosante : très rare, urgence vitale \skull. {Teinte gris,
-   hémodynamique altérée, plaie odeur fétide} \thus débrider en urgence, ATB. \\
-   Cas particulier : gangrène gazeuse à \bact{perfringens} (crépitations à la
-   palpation, clartés parties moelles} \thus urgence vitale \danger
-
-***** CAT
- - Dater l'apparition, neuropathie ou artériopathie. Plaie : localisation, couleur,
-   signes de diffusion, {fièvre, frisson, teint gris}, douleur.
- - Contact : orthopédiste si drain d'une infection purulente. Chir vasculaire si
-   doute sur l'ischémie. Réanimateur si tableau sévère.
+CAT
  - Radio pieds bilatérale (ostéite ?), si infection : NFS, iono, CRP
- - Surveillance si état clinique
- - TTT : 
-   - décharge (chaussure, arrêt de travail), excision kératose à domicile : peut
-     suffire
-   - anticoagulation si alitement, antalgique, 
-   - réhydratation, équilibrer glycémie si besoin
-   - anti-escarre si ischémie, vaccin anti-tétanos ! 
-   - si infection : parage et drainage, ATB (cocci G+ si récent, sinon bacille G-)
-   - revascularisation si plaie artériopathique
-
- Ostéite : grave mais pas une urgence. Basé sur radio. Ttt . résection
- chirurgicale ou ATB 6-12semaine et sans l'appui
+ - décharge, excision kératose à domicile si suffit 
+ - réhydratation \pm équilibre glycémie, anticoag, accin anti-tétanos ! 
+ - si infection : parage et drainage, ATB (cocci G+ si récent, sinon bacille G-)
+ - si artério : revascularisation 
+ - si ostéite : résection chirurgicale ou ATB 6-12semaine et sans l'appui
 
 **** Autres
- Peau : 
- - nécrobiose lipoïdique (rare, ttt mal codifié)
- - dermopathie diabétique (fréquente, cicatrices brunâtre, régresse spontanément)
- - bullose diabétique (cicatrise spontanément)
- - lipodystrophie (hypertrophie le plus souvent, dû à des injections trop souvent
-   au même endroit)
- - acanthosis nigricans (placards cutanés brunâtres, cou/aisselles, plis inguinaux)
- - vitiligo (taches achromiques)
- - xanthomatose éruptives (nodules rouge/jeun si grande hypertriglycéridémies)
- Infections : bactériennes plus nombreuses, fonction polynucléaires altérée
- - otite nécrosante : écoulement auriculaire, douleur intense et insomniante,
-   inflammation conduit auditif externe avec granulome/nécrose du plancher du
-   conduit \thus \danger urgence, ORL spécialisé
- - mucormycose : rhino-cérébro-orbitale, destruction osseuse, nécrose muqueuse
-   paroi des sinus. Fièvre, obstruction et écoulement nasal, oedème jugal et
-   palpébral \thus urgence \skull
- Foie : hépatologue dès anomalie transaminases ou \gamma-GT
+ - Peau : nécrobiose lipoïdique (rare), dermopathie diabétique (fréquente),
+   lipodystrophie, acanthosis nigricans, vitiligo, xanthomatose éruptives
+ - Infections : otite nécrosante (urgence !), mucormycose (urgence !)
+ - Foie : hépatologue dès anomalie transaminases ou \gamma-GT
+ - Articulations : capsulite rétractile, maladie de Dupuytren[fn:73], Chéiroarthropathie, arthrose
+ - Dents : maladie parodontale \thus dentiste tous 6 mois
 
- Articulations : 
- - capsulite rétractile : douleur diffuse des épaules, limitations
-   mouvements actifs et passifs, frequence \times{}4. Ttt : antalgiques, corticoïdes locaux,
-   physiothérapie
- - Maladie de Dupuytren : sclérose réractile de l'aponévrose palmaire moyenne
- - Chéiroarthropathie : raideur des doigts, peau épaissie et cireuse, signe de la
-   prière
- - Arthrose : fréquente diabétique 2
-
- Dents : maladie parodontale 
- - car {plus de plaque dentaire, \inc production
-   toxine, matrice extracellullaire altérée, vasculairisation gencive aussi}
- - contrôle diabète, brossage, fil dentaire, soins dentaires prévention
- - signes : dents branlantes, saignements gencive brossage/mastication
-   \thus dentiste tous 6 mois
-
- *Suivi diabète* : 
- - complications oculaires, rénales, neuro, cv
- - fond d'oeil annuel, ECG repos annuel, bilan cardio approfondi si risque CV
-   \inc, écho-doppler MI (si > 40 ans, diabète > 20 ans) tous 5 ans
- - bio : HbA1c 4/an, glycémie veineuse, lipides 1/an, microalbuminurie 1/an,
+\begin{tcolorbox}
+\begin{itemize}
+ \item annuel : FO, ECG repos 
+ \item tous les 5 ans : écho-doppler MI (si > 40 ans, diabète > 20 ans) tous 5 ans
+ \item bio : HbA1c 4/an, glycémie veineuse, lipides 1/an, microalbuminurie 1/an,
    créatininémie jeun, clairance créat 1/an, TSH
+\end{itemize}
+\end{tcolorbox}
 
 **** Complications métaboliques
- Coma cétoacidosique
+***** Coma cétoacidosique
  - acétonurie, glycosurie, glycémie 2.5g/L, pH veineux < 7.25, bicarbonate <
    15mEg/L
  - cause : déficit insuline absolu/relatif, inconnue
@@ -4869,26 +4777,21 @@ ttt si symptomatique. Risque = contamination du haut appareil urinaire  aggravat
  - gravité : âgé, ph < 7, kaliémie 4-6 mmol/L, coma profond, TA instable, pas de
    diurèse après 3h, vomissements incoercibles
  - DD : urgence abdo, coma hyperosmolaire
- - Régression sous ttt en 24-48h. Complication iatrogène : oedème cérébral,
-   surcharge hydrosodée
- - ttt :
+ - Régression sous ttt en 24-48h : 
    - éducation : si cétose, maintenir injections, supplément insuline rapide,
      acétonurie si glycémie > 2.5g/L
-   - curatif : insuline rapide IV, recharge volumique, apport potassimu, glucose
+   - curatif : insuline rapide IV, recharge volumique, K+, glucose
      si besoin, facteur déclenchant
 
- Coma hyperosmolaire :
+***** Coma hyperosmolaire :
  - glycémie > 6g/L, osmolalité > 350mmol/kg, natrémie corrigée > 155mmol/L, pas
    de cétose ni d'acidose
- - FR : > 80 ans, infection aigüe, diurétique, pas d'accès aux boissons, corticothérapie
+ - FR : > 80 ans, infection aigüe, diurétique, _pas d'accès aux boissons_, corticothérapie
  - ttt : réhydratation prudente, lente, insuline IV, surveillance, héparine
-   préventive, ttt causal, soins yeux/bouche/aérosols/aspiration bronchique
+   préventive, ttt causal
 
- Hypoglycémie : inévitable 
- - mais pas mortelle, pas séquelle au cerveaux, ne déclenche pas d'accident vasculaire/cardiaque.
- - peur chez diabiétique, déstabilise diabète, attention si âgé ou alcoolique
- - favorisé par : hypoglycémie mineure répétées ignorées, neuropathie végétative
- - cause : repas insuffisants, effort physique, erreur d'injection
+***** Hypoglycémie 
+Inévitable  mais pas mortelle
 ** 246 \dagger Prévention par la nutrition
 ** 247 \dagger Modifications thérapeutiques du mode de vie
 ** 248 \dagger Dénutrition (à compléter)
@@ -13990,6 +13893,16 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 * Footnotes
 
+[fn:73] Sclérose réractile de l'aponévrose palmaire moyenne
+
+[fn:235] > 60 \female
+
+[fn:234] < 45 ans
+
+[fn:67] < 55 ans \male, < 65 ans \female 
+
+[fn:66] > 102cm \male, > 88cm \female 
+
 [fn:233] ES : myalgies, \inc CPK, \inc transaminases, \inc risque diabète 2
 CI : HS, /grossesse/, allaitement
 
@@ -14265,10 +14178,6 @@ absorption des glucides
 
 [fn:65] 30-300mg/24h ou 20-200mg/L
 
-[fn:66] Exceptionnellement, douleurs abdominales
-
-[fn:67] Hyperémie, rougeur, oedème
-
 [fn:68] maladie coeliaque, pullulation microbienne, endocrine
 
 [fn:69] Thrombus bloquant l'aorte abdominale avant bifurcation
@@ -14278,8 +14187,6 @@ absorption des glucides
 [fn:71] Sensible mais pas interprétable > 60 ans ou patho bronchorespiratoire
 
 [fn:72] Calcul par les études UKPDS ou SCORE (mais \times{}2-4 pour ce dernier)
-
-[fn:73] Pas en association !
 
 [fn:74] (Pré-)Albumine, IGF-1, ferritine sérique
 
