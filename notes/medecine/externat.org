@@ -388,52 +388,67 @@ Voir table~\ref{tab:cholesterol}.
   \caption{PEC du patient dyslipidémique}
   \label{tab:cholesterol}
 \end{table}
-** 220 Dyslipidémies
-
-Risques : maladies CV athéromateuses
+** 220 Dyslipidémies                                                 :export:
+***** Diagnostic
+Clinique :
+- hypercholestérolémie : arc cornéen (< 50A), xanthélasmas, xanthomes
+  tendineux/fesses ou mains/coudes
+- hyperTG : HMG stéatosique, SMG, xanthomes cutanés éruptifs
+Bio 
+- lipides = hypercholestérolémie : CT/TG > 2.5, hyperTG : TG/CT > 2.5, mixte sinon
+- sérum clair/limpide si hypercholestérolémie, lactescent sinon
 
 Bilan normal : LDL  < 1.6g/L, HDL  > 0.4g/L, TG  < 1.5g/L
 
-#+caption: Hyperlipidémies
-#+name: tab:hyperlipidémies
-| Secondaire : étiologies                                | Primaire (classif)                    | Spéc.                  |
-|--------------------------------------------------------+---------------------------------------+------------------------|
-| Selon contexte : TSH, glycémie, créat, protéinurie, BU | Cholestérol                           |                        |
-| Comorbidité                                            | - familiales :                        | CV, xanthomes          |
-| - hypocholestérolémie : hypothyroïdie                  | + /récepteur LDL/                     |                        |
-| - mixtes : sd néphrotique, grossesse                   | + apolipoprotéine B, PCSK9            |                        |
-| - hyperTG : IR chronique, alcoolisme,                  | - polygéniques                        | pas d'hérédité         |
-| (obésité, diabète + sd métabolique)                    | Mixtes                                |                        |
-| Iatrogène : ciclosporine, corticoïdes                  | - /combinées familiales/++            | CV, _pas_ de xanthomes |
-| oestrogènes oraux, rétinoïdes,                         | - dysbetalipoprotéinémie              | xanthomes              |
-| IFN-\alpha, antétroviraux, neuroleptiques              | TG :                                  |                        |
-| diurétiques thiazidiques, \beta{}bloquant              | - familiale                           | xanthomes              |
-|                                                        | -  hyperlipidémie combinée familiable |                        |
-|                                                        | - hyperchylomicronémie                |                        |
+***** Classification
+Tab [[tab:hyperlipidémies_primaire]], [[tab:hyperlipidémies_secondaire]]
+#+caption: Hyperlipidémies primaires
+#+name: tab:hyperlipidémies_primaire
+ | Impact      | Classif | Type                           | Fréquence | Dépôts     | Risque               |
+ |-------------+---------+--------------------------------+-----------+------------+----------------------|
+ | Cholestérol | IIa     | familale monogénique           |           | oui        | CV                   |
+ |             |         | - hétérozygote                 | freq      | parfois    |                      |
+ |             |         | - homozygote                   | très rare | fréquents  |                      |
+ |             |         | - mutation apoB                | freq      |            |                      |
+ |             |         | polygénique                    | freq++    | rare       |                      |
+ | TG          | IV      | familiale                      | rare      | rare       |                      |
+ |             | I, V    | hypercholymicronémie primitive | très rare | inconstant | \danger TG > 10g/L ! |
+ |             |         |                                |           |            | pancréatite aigüe    |
+ | Mixte       | IIb     | familiale combinée             | freq      | rares      |                      |
+ |             | III     | dys\beta{}lipoprotéinémie      | rare      | inconstant |                      |
+
+#+caption: Hyperlipidémies secondaire
+#+name: tab:hyperlipidémies_secondaire
+| Cause                                     | Diagnostic                       | Impact                                    |
+|-------------------------------------------+----------------------------------+-------------------------------------------|
+| Hypothyroïdie                             | TSH                              | cholestérol, mixte                        |
+| Sd néphrotique, grossesse                 | protéinurie, \oe{}dème           | cholestérol                               |
+| Cholestase                                | Bilirubine, phosphatase alcaline | cholestérol                               |
+| IR chronique,                             | créatinine                       | TG, mixte                                 |
+| Alcoolisme                                | interrogatoire                   | TG                                        |
+| Diabète                                   | glycémie                         | TG                                        |
+|-------------------------------------------+----------------------------------+-------------------------------------------|
+| Iatrogène : ciclosporine, corticoïdes     | oestrogènes oraux, rétinoïdes,   | IFN-\alpha, antétroviraux, neuroleptiques |
+| diurétiques thiazidiques, \beta{}bloquant |                                  |                                           |
+
 **** Risque faible (0 FR), intermédiaire (\ge 1 FR), haut (ATCD)
 
 FR semblables au~\hyperref[subsec:fr]{score précédent} : tabac \le 3 ans, HTA, diabète, HDL < 0.40g/L, âge > 50
 (\male) ou 60 (\female), ATCD familiaux IDM ou mort subite
 
 ***** Traitement
-
-Diététique
-  - lipides < 40%, graisses saturées < 12%, plutôt mono- et polyinsaturées
-  - cholestérol alimentaire < 300mg/j
-  - 5 fruits ou légumes/j, sodium < 6g/j, \dec poids
-- 
-  - Si hypertriglycéridémie (HTG) : \dec poids, alcool, sucres simples
-Hypertriglycéridémie
- - modérées : -20% calories ++, \inc activité physique
--  majeur : arrêt alcool, régime hypocalorique avec < 30g lipides (obèse)
-Hypolipémiants: statine ++ 
- - \dec LDL, \dec TG \inc HDL
- - ES : myalgies, \inc CPK, \inc transaminases, \inc risque diabète 2
- - CI : HS, /grossesse/, allaitement
 Hypercholestérolémies : primaire si LDL élèvé à ttt+6 mois, secondaire si complication ischémique
  - Objectifs LDL < 0.7g/L si risque très élevé, < 1g/L si élevé, < 1.15g/L sinon
- - hypercholestérolémies : statines
- - hypertriglycéridémies : diététique \pm statines si TG > 2g/L (fibrates si échec)
+ - hypercholestérolémies : _statines_[fn:233] (sinon ézétimibe)
+ - hypertriglycéridémies : _diététique_ \pm statines si TG > 2g/L (fibrates si échec)
+
+Diététique
+  - lipides < 40%, graisses : mono- et polyinsaturées, cholestérol alimentaire < 300mg/j
+  - 5 fruits ou légumes/j, sodium < 6g/j, \dec poids
+  - HyperTG : 
+    - modérées : -20% calories ++, \inc activité physique
+    - majeur : arrêt alcool, régime hypocalorique avec < 30g lipides (obèse)
+ 
 
 ** 334 \dagger - Syndromes coronariens aigüs
 
@@ -13974,6 +13989,9 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:233] ES : myalgies, \inc CPK, \inc transaminases, \inc risque diabète 2
+CI : HS, /grossesse/, allaitement
 
 [fn:232] 1ere intention = metformine. Si besoin, +sulfamide. Si besoin : DPP4 si
 écart < 1% sinon insuline (ou GLP-1 si IMC > 30)
