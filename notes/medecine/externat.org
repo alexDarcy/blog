@@ -5438,7 +5438,7 @@ Inévitable  mais pas mortelle
  |                  | trouble apprentissage, comm. | Pas de seins ?             | Pas de dev. sexuel secondaire         |
  |                  |                              |                            |                                       |
 
-* HGE                                                                :export:
+* HGE
 ** 74 Addiction à l'alcool
  Non-usage, usage simple, mésusage (/risque/, /nocif/, /dépendance/): 
 
@@ -10413,49 +10413,34 @@ TPE si
 
 * Neurologie (ébauche)
 \input neurologie
-* Pneumologie
-** 73 \dagger - Addiction au tabac
-3 fumées : courant primaire (inspiré), secondaire (tabagisme passif++), tertiaire (exhalé)\\
-Produits :
-
-- nicotine = dépendance
-- fumée de tabac = 0.3 \mu{}m, pénètre partout !
-- goudrons = cancérigène
-- CO = hypoxie, risque ischémie, marqueur tabagisme des dernières heures
+* Pneumologie                                                        :export:
+** 73 Addiction au tabac
+Tabagisme : primaire (inspiré), secondaire (passif++), tertiaire (exhalé)
+Produits : nicotine (dépendance), fumée de tabac (0.3 \mu{}m), goudrons
+(cancérigène), CO (hypoxie, risque ischémie)
 
 16 millions de fumeurs en 2013 (France). Éducation et cat. sociale faible = plus
 tabagiques
-*** Pathologies liées au tabac
-K :
+***** Pathologies liées au tabac
+- K : /broncho-pulmonaires/ (90% dû à actif, 25% au passif). Voies aérodigestives sup, vessie, pancréas, rein, col de l'utérus
+- Respiratoires : BPCO, asthme
+- CV: cardiopathies ischémiques, artérite, HTA, cérébro-vasculaires, athérome,
+maladie coronaire
+- Autres : digestives, kératites, retard consolidation os, agueusie, anosmie
 
-- 90% des cancers broncho-pulmonaires (tabagisme actif), 25% (passif) 
-- voies aérodigestives sup, vessie, pancréas, rein, col de l'utérus
-
-Respiratoires : BPCO, asthme\\
-Cardio-vasc : 
-
-- cardiopathies ischémiques
-- artérite
-- HTA
-- cérébro-vasculaires
-- relation tabac-athérome, maladie coronaire
-
-Autres : digestives, kératites, retard consolidation os, agueusie, anosmie\\
 Passif :
-
-- +25% risque cancer bronchique
-- +25% maladies CV
-- aggrave asthme, BPCO
+- +25% risque cancer bronchique, +25% maladies CV, aggrave asthme, BPCO
 - nourrisson : RCIU\footnote{Retard croissance intra-utérin}, \(\nearrow\) risque
   infections respi, mort-subite (1ere cause identifiée)
 
-*** Prise en charge
+***** Prise en charge
 Évaluer : consommation (paquets/années), dépendance, autres (alcool = déclencheur,
 cannabis), motivation, comorbidités (psy, CV, respi)
-*** Traitement
-Conseil, motivationnel, traitement (substitut nicotinique, varénicline [\danger
-suivi], bupropion), thérapies cognitivo-comportementales, cigarette
-électronique\\
+***** Traitement
+Conseil, motivationnel.
+
+Substitut nicotinique, varénicline [\danger suivi], bupropion), TCC, cigarette électronique
+
 Sevrage : réussi si \(\ge 1\) an
 
 ** 108 - Troubles du sommeil                                 
@@ -10483,7 +10468,7 @@ Suspicion clinique, confirmation par polygraphie
 DD : hypersomnie diurne (insomnie, sd dépressif, sédatif, hygiène de sommeil, neuro)
 ***** Traitement
 - Général : PEC\footnote{prise en charge} surpoids, éviction {benzodiazépines, myorelaxants, morphiniques}, PEC CV
-- /Pression positive continue/. Sinon : orthèse d'avancée mandibulaire, voire chir
+- /Pression positive continue/[fn:236]. Sinon : orthèse d'avancée mandibulaire, voire chir
 
 ***** Autres
 - Sd d'apnée de type central : IC sévère, atteinte tronc cérébral, séjour altitude, morphiniques
@@ -11268,7 +11253,7 @@ fébrile, hémothorax ou mauvaise tolérance. Tout évacuer seulement si étiolo
 ***** Biologie 1ere intention
 Biochimie (trans- ou exsudat), cytologie (cf [[tab:etio_exsudat]]), recherche germes pygènes, mycobactéries
 
-#+name: etio_exsudat
+#+name: tab:etio_exsudat
 #+caption: Épanchements pleuraux avec exsudats : étiologies
 |             | Cellules tumorales   | Neutrophiles       | Lymphocytes | Éosinophiles         |
 |-------------+----------------------+--------------------+-------------+----------------------|
@@ -13892,6 +13877,8 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:236] Remboursement si IAH > 30/h (ou IAH > 10/h sur polysomnographie)
 
 [fn:73] Sclérose réractile de l'aponévrose palmaire moyenne
 
