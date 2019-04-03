@@ -5621,17 +5621,17 @@ Transmission féco-orale sauf téniasis
 Tab [[tab:teniasis]], [[tab:parasitoses]], [[tab:amoebose]]
 #+name: tab:teniasis
 #+caption: Caractéristiques des /Taenia/
-|            | /saginata/                                       | /solium/                                                                                                                        | /hymenolepsis/       | /Diphyllobothrium/   |
-|            |                                                  |                                                                                                                                 | /nana/               | /latum/              |
-|------------+--------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+----------------------+----------------------|
-| Contam.    | Boeuf mal cuit                                   | Porc mal cuit                                                                                                                   |                      | Poisson mal cuit     |
-| Clinique   | Latent                                           |                                                                                                                                 |                      |                      |
-| Diagnostic | Anneaux selles/vêtement                          | Sérologie                                                                                                                       | \OE{}ufs dans selles | \OE{}ufs dans selles |
-|            | EPS                                              | \pm biopsie-exérèse                                                                                                             |                      |                      |
-| Ttt        | Niclosamide                                      | Albendazole                                                                                                                     | Niclosamidel         | Niclosamide          |
-|            | praziquantel                                     | praziquantel                                                                                                                    | praziquantel         | praziquantel         |
-|            |                                                  | (+cortico si cérébral)                                                                                                          |                      |                      |
-| Prévention | Cuisson/congélateur\tablefootnote{> qq semaines} |                                                                                                                                 | hygiène des main     | Cuisson              |
+|            | /saginata/                                       | /solium/               | /hymenolepsis/       | /Diphyllobothrium/   |
+|            |                                                  |                        | /nana/               | /latum/              |
+|------------+--------------------------------------------------+------------------------+----------------------+----------------------|
+| Contam.    | Boeuf mal cuit                                   | Porc mal cuit          |                      | Poisson mal cuit     |
+| Clinique   | Latent                                           |                        |                      |                      |
+| Diagnostic | Anneaux selles/vêtement                          | Sérologie              | \OE{}ufs dans selles | \OE{}ufs dans selles |
+|            | EPS                                              | \pm biopsie-exérèse    |                      |                      |
+| Ttt        | Niclosamide                                      | Albendazole            | Niclosamidel         | Niclosamide          |
+|            | praziquantel                                     | praziquantel           | praziquantel         | praziquantel         |
+|            |                                                  | (+cortico si cérébral) |                      |                      |
+| Prévention | Cuisson/congélateur\tablefootnote{> qq semaines} |                        | hygiène des main     | Cuisson              |
 
 
 #+name: tab:parasitoses
@@ -10477,78 +10477,62 @@ DD : hypersomnie diurne (insomnie, sd dépressif, sédatif, hygiène de sommeil,
 
 ** 151 \dagger - Infections broncho-pulmonaires communautaires
 *** Bronchite aigue
-Très fréquente, virale 90%. \\
-Diagnostic clinique : épidémie, toux sèche \(\to\) productive, expectorations,
-pas de crépitants.\\
-Ttt symptomatique seulement !
+Très fréquente, virale 90%. 
 
-*** EBPCO
+Diagnostic clinique : épidémie, toux sèche \(\to\) productive, expectorations,
+_pas_ de crépitants.\\
+
+Ttt symptomatique seulement ! (pas d'ATB, ni corticoïdes...)
+
+*** EBPCO (cf chap BPCO)
 
 *** Pneumonie aigue communautaire
-Clinique : {toux, expect purulentes, dyspnée} + {fièvre, asthénie} +
-crépitants\\
-Radio !\\
+    
+***** Diagnostic
+Radio
+- Clinique : {toux, expect purulentes, dyspnée} + {fièvre, asthénie} + crépitants
+
+***** PEC
 Si \faHospitalO : hémocultures, ECBC, antigenurie pneumocoque (\pm PCR,
 antigenurie légionelle)\\
-\faHospitalO : signes de gravité (score CRB65\footnote{Confusion, fréquence
-  Respiratoire \ge 30min, (Blood) PAs < 90mmHg ou PAd \ge 60mmg, Age \ge 65 ans}
-\(\ge 1\)) / incertitude / échec domicile / comorbidité / inobservance
+\faHospitalO : signes de gravité (score CRB65[fn:241] ge  ) / incertitude / échec domicile / comorbidité / inobservance
 
-\begin{table}[htpb]
-  \centering
-  \label{Orientation clinique (non discriminant !)}
-  \begin{tabular}{llll}
-    \toprule
-    & Pneumocoque & Atypique & Légionellose\\
-    \midrule
-    Début & Brutal & Progressif & Rapidement progressif\\
-    Signes & Thoraciques & Extra-thoraciques & Myalgie, digestif\\
-    Biologie &  & Anémie hémolytique & Hyponatrémie, rhabdomyolyse\\
-    Microbio & CG+ chainettes/Ag pneumocoque + &  & Ag légionelle +\\
-    RX thorax & condensation systématisée & Opacités multifocales & CS ou OM\\
-    \bottomrule
-  \end{tabular}
-\end{table}
-
-
+***** Étiologies (Tab [[tab:etio_pneumopathies]]
+#+caption:  Orientation clinique (non discriminant !)
+#+name: tab:etio_pneumopathies
+    |           | Pneumocoque                     | Atypique              | Légionellose                |
+    |-----------+---------------------------------+-----------------------+-----------------------------|
+    | Début     | Brutal                          | Progressif            | Rapidement progressif       |
+    | Signes    | Thoraciques                     | Extra-thoraciques     | Myalgie, digestif           |
+    | Biologie  |                                 | Anémie hémolytique    | Hyponatrémie, rhabdomyolyse |
+    | Microbio  | CG+ chainettes/Ag pneumocoque + |                       | Ag légionelle +             |
+    | RX thorax | condensation systématisée       | Opacités multifocales | CS ou OM                    |
 - Pneumocoque : fréquent+++. Pas de transmission interhumaine
 - Atypique : \bact{mpneumoniae}, \bact{cpneumoniae}, \bact{psitacci}
 - Legionnella : pas d'isolement. DO
 - Pneumonie virale : signes respi + sd grippal. Grippale = diagnostic PCR, traitement = inihbiteur neuramidase \danger \bact{dore}
 
-**** Traitement
-Oral, 7j (8-14 si légionellose, 21j si légionelles graves/ID)
+***** Traitement
+Urgent, probabiliste. Oral, 7j[fn:242]  Réévalué 48-72h
 
-Urgent, probabiliste, réévalué 48-72h
+- Ambulatoire : /Amoxicilline/ ou /macrolide/ \(\to\) switch
+- \faHospitalO  /Amoxicilline/ \(\to\) réévaluation
+- Réa : /C3G IV + macrolide IV/ / /FQ/ pour pneumocoque
 
-Ambulatoire :Amoxicilline ou macrolide \(\to\) switch
+Échecs : 
+- épanchement pleural, abcès, obstacle
+- observance, pharmacocinétique, hors spectre
+- diagnostic (EP, PID aigǜes, K, tuberculose pulmonaires, infarctus pulmonaire, vascularite\ldots{})
 
-\faHospitalO  Amoxicilline \(\to\) réévaluation
-
-Réa : C3G IV + macrolide IV / FQ pour pneumocoque
-
-**** Échecs
-
-- Compliquée : épanchement pleural, abcès, obstacle
-- Observance, pharmacocinétique, hors spectre
-- Diagnostic :
-  
-  - focalisé : embolie pulmonaire
-  - diffuse : cf pneumopathies interstitielles diffuses aigües
-  - excavée : cancer, tuberculose pulmonaires, infarctus pulmonaire, vascularite\ldots{}
-  
-
-
-**** Prévention
+***** Prévention
 Vaccin : 2 doses + rappel enfant, 2 doses adulte (ID, comorbidité)
 
-**** Immunodéprimé
+***** Immunodéprimé
 Pneumocystose pulmonaire : 
 
 - RX : sd interstitiel diffus bilatéral symétrique.
 - ATB cotrimoxazole 21j
-
-
+  
 ** 180 \dagger - Accidents du travail
 Maladie professionnelle = lente, prolongée (\(\neq\) accident du travail)
 *** Maladies
@@ -10716,7 +10700,6 @@ ES :
 - syndromique (asthme, rhinite, urticaire) = alerte
 - générale (hypotensions, bronchospasme, choc anaphylactique) =
   interruption
-
 
 ** 184 \dagger - Asthme, rhinite
 Asthme 6%, mortalité 1000 DC/an, en baisse. Morbidité en hausse
@@ -11710,7 +11693,6 @@ Radio : épaississements nodulaires des septas intralobulaires.\\
 Diagnostic : biopsies des éperons\\
 Carcinome lépidique : verre dépoli. 
 
-
 ** 207 \dagger Sarcoidose
 Maladie : systémique, cause inconnue, hétérogène, ubiquitaire. Début 25-45ans
 dans 2/3\\
@@ -11799,14 +11781,13 @@ Atteinte respi : pas de ttt si sd de Löfgren ou stade I asymptomatique\\
 - 2eme intention : hydroxychloroquine, méthotrexate, azathioprine
 - 3eme intention : cyclophsamide, anti-TNF-\(\alpha\)
 
-
 ** 222 \dagger Hypertension artérielle pulmonaire
-\label{sec:hypertension_arterielle_pulmonaire}
 
+***** Physiopatho
 Circulation : (basse pression, faible résistante) \thus forte résistance
 
-Critère : \gls{PAPm} $\ge 25$ mmHG et
-
+***** Définition
+acrshort:PAPm $\ge 25$ mmHG et
 #+BEGIN_EXPORT latex
 $\begin{cases}
   \text{\gls{PAPO}} \le 15 & \text{mmHG si précapillaire} \\
@@ -11814,81 +11795,51 @@ $\begin{cases}
 \end{cases}$
 #+END_EXPORT
 
-
-Classification internationale : 5 groupes
-1. hypertension artérielle pulmonaire (HTAP)\footnote{Idiopathique,
-    héritable, médicaments, maladie veino-occlusive, hémangiomatose capillaire
-    pulmonaire, HTP persistante du nouveu-né}: pré-capillaire
+5 groupes :
+1. HT _A_ P[fn:237] :  pré-capillaire
 1. *cardiopathie gauche*  : post-capillaire (fréq+++)
 1. HTP maladie *respiratoire chronique*  : pré-capillaire (freq++)
 1. HTP post-embolique chronique : pré-capillaire
 1. HTP multi-factorielles : pré-capillaire
 
-**** Pronostic
-6 cas/million (idiopathique), femme.
+***** Pronostic
+6 cas/million (idiopathique), femme. Survie avec ttt : 58% à 3 ans
 
-Survie avec ttt : 58% à 3 ans
-
-*** Diagnostic
-Découverte : dyspnée, dépistage
-
-Interrogatoire : ATCD, anorexigènes, toxiques, maladie (sclérodermie : sd de
-Raynaud, dysphagie, dyspepsie)
-
-
-Détection :
-
-- fonctionnel : dyspnée d'effort+++ progressive (lipothymie à l'effort,
+***** Diagnostic
+Cathétérisme cardiaque D/ avec *PAPm $\ge 25$ mmHg*. Découvert sur dyspnée, dépistage
+- Interrogatoire : ATCD, anorexigènes, toxiques, maladie (sclérodermie : sd de
+  Raynaud, dysphagie, dyspepsie)
+- dyspnée d'effort+++ progressive (lipothymie à l'effort,
   syncope, asthénie, douleurs angineuses, palpitations, hémoptysies)
-- physique : 
-  
-  - HTP (signe de Carvallo\footnote{Souffle holosystolique
-    d'insuf. tricuspid majoré à l'inspiration}, éclat B2, souffle diastolytique
-  d'insuf pulmonaire)
-  - insuf cardiaque D (tachy, galop, turgescence jugulaire, reflux
-  hépato-jugulaire, HMG, OMI, anasarque)
-  
-- imagerie thorax : dilatation artères pulmonaires, élargissement coeur
-  D. RX normale possible
+- HTP (signe de Carvallo[fn:238], éclat B2, souffle diastolytique d'insuf pulmonaire), insuf cardiaque D[fn:239] 
+- RX thorax normale ou dilatation artères pulmonaires, élargissement coeur D
 - ECG : hypertrophie D, trouble rythme
+- /Écho cardiaque transthoracique/ = non invasif de référence. 
 
-Y penser si clinique normale !
-
-/Écho cardiaque transthoracique/ = non invasif de référence. \\
-Diagnostig par /cathétérisme cardiaque D/ avec *PAPm $\ge 25$ mmHg*
-
-**** Démarche
+***** Démarche
 Si écho cardiaque compatible avec HTP :
 
-- Cardiopathies G, maladies respi + exams pour groupe 2 et 3. Si confirmé
-  : \faHandStopO
+- Cardiopathies G, maladies respi + exams pour groupe 2 et 3. Si confirmé : \faHandStopO
 - Sinon regarder signes thrombo-embolie chronique (scinti, angioscan) : Si
   groupe 4, \faHandStopO
 - Sinon confirmer HTP précapillaire 
 - Si confirmée, tester pour groupe 1 (connectivites, médicaments, VIH,
   cardiopathie congénitale, HT portale, schistosomiase) ou groupe 5
 
-
-
 *** Enfant
 
+***** Physiopatho
 Augmentation du débit ou des résistances
 
-**** Clinique
-Nouveau-né : cyanose réfractaire à l'\(O_2\), détresse respi/circ \thus échocardio en
+***** Clinique
+- Nouveau-né : cyanose réfractaire à l'\(O_2\), détresse respi/circ \thus échocardio en
 urgence \danger
-
-Enfant : signes tardifs : dyspnée d'effort, syncope, fatigue
-\thus dépistage si cardiopathie congénitale, patho. respi. chronique, maladie de
-systèmes, ATCD familiaux
-
-**** Examens
-Radio thorax, ECG aspécifiques.
-
-Échocardio : diagnosic (+ cherche cardioapathie), confirmé par cathétérisme 
+- Enfant : dépistage si cardiopathie congénitale, patho. respi. chronique, maladie de
+systèmes, ATCD familiaux (signes tardifs ![fn:240] )
+***** Diagnostic
+Échocardio, confirmé par cathétérisme 
 
 Scanner (parenchyme), écho hépatiques (shunt porto-cave)
-
 
 
 ** 224 \dagger Embolie pulmonaire et thrombose veineuse profonde
@@ -12145,7 +12096,6 @@ Nouveau anticoagulant oraux (rivaroxaban) :
   - pas si insuf rénale sévère ou insuf hépatique
   - pas de surveillance bio
 
-
 ** 228 \dagger Douleur thoracique aigüe et chronique
 \label{sec:228_douleur_thoracique_aigue_et_chronique}
 
@@ -12219,7 +12169,6 @@ Non rythmées :
 - digestives : reflux gastro-oesophagen, spasmes oesophagiens. Exclure SCA
   \skull
 - psychogènes
-
 
 ** 306 \dagger Tumeurs du poumon
 \label{sec:306_tumeurs_du_poumon}
@@ -12361,7 +12310,6 @@ Diagnostic : clinique,
 - connu : radio peut suffir
 - ancien : métastases 10 ans plus tard possibles
 
-
 ** 333 \dagger Oedème de Quincke et anaphylaxie
 \label{sec:333_oedeme_de_quincke_et_anaphylaxie}
 
@@ -12460,7 +12408,6 @@ Trousse avec adrénaline si (absolument) :
 - allergie alimentaire et asthme persistant modéré non contrôlé
 - allergie hyménoptères avec réaction systémique antérieure (adulte) ou
   plus sévère que cutanéomuqueux (enfant)
-
 
 ** 354 \dagger Corps étranger des voies aériennes
 \label{sec:354_corps_etranger_des_voies_aeriennes}
@@ -13877,6 +13824,19 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem plus occlusion de branche)
 
 * Footnotes
+
+[fn:242] (8-14 si légionellose, 21j si légionelles graves/ID)
+
+[fn:241] Confusion, fréquence Respiratoire \ge 30min, (Blood) PAs < 90mmHg ou PAd \ge 60mmg, Age \ge 65 ans
+
+[fn:240] Dyspnée d'effort, syncope, fatigue 
+
+[fn:239] Tachy, galop, turgescence jugulaire, reflux hépato-jugulaire, HMG, OMI, anasarque
+
+[fn:238] Souffle holosystolique d'insuf. tricuspid majoré à l'inspiration
+
+[fn:237] Idiopathique, héritable, médicaments, maladie veino-occlusive, hémangiomatose capillaire
+    pulmonaire, HTP persistante du nouveu-né
 
 [fn:236] Remboursement si IAH > 30/h (ou IAH > 10/h sur polysomnographie)
 
