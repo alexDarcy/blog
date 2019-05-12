@@ -25,7 +25,7 @@ $(NOTES_ORG:.org=.tex)
 NOTES_PDF=$(NOTES_TEX:.tex=.pdf) 
 
 .PHONY: notes
-.PHONY: ${NOTES_TEX} 
+# .PHONY: ${NOTES_TEX} 
 notes: ${NOTES_PDF} 
 	mkdir -p _site/notes/medecine
 	cp $^ _site/notes/medecine
@@ -43,9 +43,11 @@ debug: generate update
 update:
 	WID=`xdotool search --name "Mozilla Firefox" | head -1` ; xdotool windowactivate $$WID ; xdotool key F5
 
+MNG-EXE=${HOME}/.local/bin/mng
+
 mng:
-	mng export movie -o _site/misc
-	mng export comic -o _site/misc
+	${MNG-EXE} export movie -o _site/misc
+	${MNG-EXE} export comic -o _site/misc
 
 # -z flags avoid to upload identical files !
 deploy: 

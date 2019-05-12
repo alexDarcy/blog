@@ -2,85 +2,73 @@
 - Biscuit cuiller (Patisserie, Leçons pas-à-pas) : 12min environ
 
 - Biscuit de Savoie ( [meilleur du chef](https://www.meilleurduchef.com/cgi/mdc/l/fr/recette/biscuit-savoie.html)) : cuire vraiment plus longtemps en bas du four. Bien beurrer et fariner.
-
 - Bounty ([750g](http://www.750g.com/bounty-maison-r97803.htm)) : prendre du bon
-    chocolat
-    + noix de coco
-    + lait concentré sucré
-    + chocolat noir
+  chocolat
+  + noix de coco
+  + lait concentré sucré
+  + chocolat noir
 
 - Brioche ([Enviedebienmanger](http://www.enviedebienmanger.fr/fiche-recette/recette-brioche-pur-beurre)) : bonne consistance et bon aspect. Attention, 30min est un maximum.
-    + 250 g de beurre gastronomique (+30 g pour beurrer les moules)
-    + 10 cl de lait entier
-    + 500 g de farine T45
-    + 18 g de levure fraîche
-    + 100 g de sucre
-    + 4 oeufs
-    + 1 jaune d'oeuf
-    + 12 g de sel (+ 1 pincée)
-        
-- Brownie : [(meilleure recette pour
-l'instant)(https://tasty.co/recipe/ultimate-brownies)). 
-	+ Diminuer 1/3 le sucre fonctionne. 
-	+ café sous forme liquide : non senti, tester version en poudre
-    + 2 ½ sticks unsalted butter, plus more, softened, for greasing
-    + 8 oz good-quality semisweet chocolate, or bittersweet chocolate, 60-70% cacao, roughly chopped
-    + ¾ cup unsweetened dutch process cocoa powder, divided
-    + 1 tablespoon espresso powder
-    + 2 cups granulated sugar
-    + ½ cup dark brown sugar, packed
-    + 2 teaspoons vanilla extract
-    + 2 teaspoons kosher salt
-    + 6 large eggs
-    + 1 cup all-purpose flour
-    + flaky sea salt, for sprinkling
+  + 250 g de beurre gastronomique (+30 g pour beurrer les moules)
+  + 10 cl de lait entier
+  + 500 g de farine T45
+  + 18 g de levure fraîche
+  + 100 g de sucre
+  + 4 oeufs
+  + 1 jaune d'oeuf
+  + 12 g de sel (+ 1 pincée)
+
+- Brownie : [(meilleure recette pour l'instant)(https://tasty.co/recipe/ultimate-brownies)). 
+  + Diminuer 1/3 le sucre fonctionne. 
+  + café sous forme liquide : non senti, tester version en poudre
+  + 2 ½ sticks unsalted butter, plus more, softened, for greasing
+  + 8 oz good-quality semisweet chocolate, or bittersweet chocolate, 60-70% cacao, roughly chopped
+  + ¾ cup unsweetened dutch process cocoa powder, divided
+  + 1 tablespoon espresso powder
+  + 2 cups granulated sugar
+  + ½ cup dark brown sugar, packed
+  + 2 teaspoons vanilla extract
+  + 2 teaspoons kosher salt
+  + 6 large eggs
+  + 1 cup all-purpose flour
+  + flaky sea salt, for sprinkling
 
 - Cinnamon rolls [de Babish](https://www.bingingwithbabish.com/recipes/cinnamonrolls?rq=cinnamon)
-  Le glacage est trop lourd (et seulement testé avec fromage frais + sucre) en soi ! 
-  Soit réessayer la recette de babish (en petite quantités), soit simplement nature.
+  + Le glacage est trop lourd (et seulement testé avec fromage frais + sucre) en soi ! 
+  + Soit réessayer la recette de babish (en petite quantités), soit simplement nature.
 
-- Clafoutis aux pommes ([ptitecuisinedepauline](http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html)). Avec un peu plus de farine, on a un clafoutis bien compact.
+- Clafoutis aux pommes ([ptitecuisinedepauline](http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html)). 
+  + Avec un peu plus de farine, on a un clafoutis bien compact.
 
 - Cornbread (salé) [Seriouseats](https://www.seriouseats.com/recipes/2015/11/southern-unsweetened-cornbread-recipe.html)
   Bien moelleux mais très mietteux. Probablement pas assez mélangé
 
 - Croissants (PPAP). Pas encore ça... Remarques après plusieurs essais :
-    + 45min à 190° = trop !!  pas assez cuits++ à l'intérieur mais un peu trop à
-      l'extérieur. 180° était trop, essayer 160° ? Changer la position dans le
-      four ?
-    + Bien laisser pousser avant d'enfourner (45min n'est pas assez !)
-    + Beurre qui s'échappe = pâte trop malmenée ? 
+  + 45min à 190° = trop !!  pas assez cuits++ à l'intérieur mais un peu trop à
+    l'extérieur. 180° était trop, essayer 160° ? Changer la position dans le
+    four ?
+  + Bien laisser pousser avant d'enfourner (45min n'est pas assez !)
+  + Beurre qui s'échappe = pâte trop malmenée ? 
+  + essayer cette recette : https://www.weekendbakery.com/posts/classic-french-croissant-recipe/
 
 - Galette des rois [de Conticini](https://www.youtube.com/watch?v=ETkk7QXbtlw) 
   + Problème de la quantité : diviser quantité de crème par 2 : donne
-    2 petites galettes de 20cm ? Mais la dernière fois : manque de
-    frangipane => ne pas hésiter à en mettre quand même (sans abuser,
-    cf vidéo)
+  2 petites galettes de 20cm ? Mais la dernière fois : manque de
+  frangipane => ne pas hésiter à en mettre quand même (sans abuser,
+  cf vidéo)
   + Pâte feuilletée inversée plus intéressante que la simple => prendre la recette de PPAP
   + Attention à la pâte feuilletée : trop dure s'il manque de l'eau (impossible à
   étaler ou se déchire un peu...)
   + Frangipane sortie de la galette (alors qu'il en manquait) =>
-    causes possibles : abaisses de pâtes qui se recoupent, chiquetage
-    mal fait
+  causes possibles : abaisses de pâtes qui se recoupent, chiquetage
+  mal fait
 
 - Gaufres : pas de souci de cuisson avec [cette recette](https://www.hervecuisine.com/recette/gaufres-croustillantes-ultra-legeres/). Temps de repos qui fait la différence ? (Souvent pas assez cuite dans les essais précédents)
 
-- Mille-feuille [de Conticini](https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse)
-
-- Pain au lait [(750g](https://www.youtube.com/watch?v=wAKaJRl3Ieg)) : bon mais levée sur la nuit semble préférable
-
-- Paris-Brest (PPAP) : crème au beurre toujours un peu trop liquide. Vient du
-  praliné "maison" (loupé par ailleurs) ?
-
-- Tarte au chocolat : ([750g](https://www.youtube.com/watch?v=ZISKki8AcE0)) : pas mal mais plus avec une texture de mousse au chocolat
-    + 1 pâte sablée
-    + 300g de chocolat pâtissier
-    + 500g de crème fraîche liquide
-    + lait ? (donne plus une )
-    + 2 oeufs
 - Guimauve ([jujube-en-cuisine](http://www.jujube-en-cuisine.fr/marshmallow-ou-guimauve-maison/)): trop sucré mais bonne texture
 
-- Pâte à chou (Patisserie, Leçons pas-à-pas) : 45-50min de cuisson
+- Mille-feuille [de Conticini](https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse)
+
 - Mousse au chocolate de [Philippe Conticini]() : éviter une ganache trop liquide. Ne pas lésiner sur les blancs. Pour 5 parts :
    + 37 g de sucre roux
    + 250 g de blancs d’oeuf
@@ -89,8 +77,25 @@ l'instant)(https://tasty.co/recipe/ultimate-brownies)).
    + 180 g de chocolat noir (68%)
    + 60 g de chocolat au lait
 
+- Pain au lait [(750g](https://www.youtube.com/watch?v=wAKaJRl3Ieg)) : bon mais levée sur la nuit semble préférable
 
-## Plat principal
+- Paris-Brest (PPAP) : crème au beurre toujours un peu trop liquide. Vient du
+  praliné "maison" (loupé par ailleurs) ?
+
+- Pâte à chou (Patisserie, Leçons pas-à-pas) : 45-50min de cuisson
+
+- Tarte au chocolat : ([750g](https://www.youtube.com/watch?v=ZISKki8AcE0)) : pas mal mais plus avec une texture de mousse au chocolat
+  + 1 pâte sablée
+  + 300g de chocolat pâtissier
+  + 500g de crème fraîche liquide
+  + lait ? (donne plus une )
+  + 2 oeufs
+
+- Yaourt à la yaourtière : 5 yaourts = 1L de lait entier + 1 yaourt (avec ferments). 
+  + Un peu liquide au fond => essayer avec du lait entier en poudre
+  + tester yaourt au chèvre
+  
+## Plat principal
 - Kluski na parze ([recette](http://lespolonais.forumpro.fr/t133-les-kluski-na-parze  vb))
 - Falafels (traditionnels) : bien, bien mixer la pâte et mettre au frais pour
     éviter qu'ils ne se détachent dans la friture
