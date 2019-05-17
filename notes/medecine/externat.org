@@ -193,7 +193,7 @@
 #+OPTIONS: H:5
 :END:
 
-* Cardiologie
+* Cardiologie                                                             :export: 
 \def\arrow{$\rightarrow$}
 ** 218 \dagger - Athérome
 
@@ -449,7 +449,6 @@ Diététique
     - modérées : -20% calories ++, \inc activité physique
     - majeur : arrêt alcool, régime hypocalorique avec < 30g lipides (obèse)
  
-
 ** 334 \dagger - Syndromes coronariens aigüs
 
 Sd coronaire aigü (SCA) : lésions athérothrombotiques aigües
@@ -737,101 +736,45 @@ remplacement valvulaire.
 Éventuellement DAI
 
 ** 228 \dagger - Douleur thoracique aigüe
+\begin{tcolorbox}
+Urgences vasculaire : PIED (péricardite, infarctus, embolie pulmonaire,
+dissection)
+\end{tcolorbox}
 
 *** CAT
 Détresse vitale ?
-
   - respi : FR < 10 ou > 30/min, tirage, sueurs, cyanose, $SpO_2$ < 90%
   - hémodynamique : arrêt circulatoire, choc, c\oe{}ur pulmonaire, pouls
     paradoxal
   - trouble conscience
 
-
-4 urgences vasculaire : PIED (péricardite, infarctus, embolie pulmonaire,
-dissection)
-
-Examens : ECG 12 + 5 dérivations, radio poumon, troponinémie
-
-Transfert USIC
+ECG 12 + 5 dérivations, radio poumon, troponinémie \thus USIC
 
 *** Urgences
 
-**** Sd coronarien aigü
-
-  - FR, ATCD
-  - douleur spontanée de repos > 20min : constriction, pesanteur, brûlure,
-    rétrosternale, irradie  cou/épaule/avant-bras/tête. \danger présentation
-    \textbf{atypique} possible
-  - examen clinique, radio normale
-  - ECG : sus/sous décalage ST
-  - doser myoglobine (< 6h) ou troponine
-
-
-**** Dissection aortique
-
-  - Favorisé par : HTA ancienne, sd de Marfan, maladie de Turner
-  - Douleur aigüe, prolongée, intense, déchirement, irradie dans dos, descend
-    vers lombes
-  - Clinique : $\Delta$PAS > 20mmHg (entre 2 bras), abolition 1 pouls, souffle
-    insuffisance aortique, déficit neuro
-  - ECG : normal ou SCA
-  - Radio : élargissement médiastin
-  - /Échocardio et (ETO ou scanner)/ 
-  - Chir en urgence, contrôle pression artérielle
-
-
-**** Embolie pulmonaire 
-\begin{tcolorbox}
-Y penser si douleur thoracique, dyspnée, radio normale \skull
-\end{tcolorbox}
-  - Terrain
-  - 2 tableaux
-    
-      - infarctus pulmonaire : douleur basithoracique, hémoptysie noire
-      - c\oe{}ur pulmonaire aigü[fn:7] : dyspnée, défaillance ventriculaire
-    
-  - EC : parfois thrombose veineuse
-  - radio normale
-  - ECG : c\oe{}ur pulmonaire droit
-  - /D-Ddimère \thus doppler veineux MI, angioscan ou scinti/. HBPM sans
-    attendre !
-
-
-**** Péricardite aigüe
-Tamponnade\footnote{Accumulation de liquide dans le péricarde} péricardite = urgence \skull
-
-  - douleur thoracique, dyspnée, polypnée \thus orthopnée, toux
-  - turgescence jugulaire, reflux hépatojugulaire
-  - Choc : tachycardie, PAS < 90mmHg
-  - Pouls paradoxal
-  - ECG . microvoltage
-  - radio : cardiomégalie
-  - /échocardio/  (compression VG par VD)
-
-
-Péricardite non compliquée (plus bénin des urgences) :
-
-  - terrain
-  - douleur thoracique augmente inspiration, decubitus. Calmée par
-    antéflexion
-  - ECG : sus-ST diffus, sous-PQ, microvoltage
-  - /échocardio, troponine/ 
-
-
-**** Myopéricardite
-Douleur type péricardite mais \textbf{peut simuler SCA} .
-
-Échocardio + (coronarographie normale)
+|             | Terrain | Douleur          | Clinique              | ECG              | RX             | CAT               |
+|-------------+---------+------------------+-----------------------+------------------+----------------+-------------------|
+| SCA         | FR CV   | repos > 20min    |                       | sous/sus-ST      | N              | Myoglobine, tropo |
+|-------------+---------+------------------+-----------------------+------------------+----------------+-------------------|
+| DA          | HTA     | déchirement,     | 0 pouls               |                  |                | Échocardio        |
+|             | Turner  | irradie dos      | Souffle HTA           |                  |                | + ETO/scanner     |
+|             | Marfan  |                  | \Delta PAS > 20mmHg   | N ou SCA         | \inc médiastin | Chir \skull       |
+|-------------+---------+------------------+-----------------------+------------------+----------------+-------------------|
+| EP          |         | Basithoracique   | Dys/polypnée          | CPD\footnotemark | N              | D-dimères         |
+|             |         |                  | Toux (hémoptysie)     |                  |                | Doppleur veineux  |
+|             |         |                  | Tachycardie           |                  |                | /angioscan/scinti |
+|             |         |                  | TVP                   |                  |                | HBPM \skull       |
+|-------------+---------+------------------+-----------------------+------------------+----------------+-------------------|
+| Péricardite | Jeune   | \inc inspiration | Turgescence jugulaire | sous-PQ          | CMG            | Échocardio        |
+| aigüe       | Fièvre  | \dec antéflexion | Reflux HJ             | sus-ST           |                |                   |
+|             |         |                  | Choc (PAS < 90mmHg)   |                  |                |                   |
 
 *** Chroniques cardiaque
-Angor stable
-
-Douleur d'angor : d'effort du rétrécissement aortique serré, fonction des
+- Angor stable
+- Douleur d'angor : d'effort du rétrécissement aortique serré, fonction des
 tachycardies chroniques
-
-Douleur d'effort de myoacardiopathie obstructives.
-
-(HTA pulmonaire)
+- Douleur d'effort de myoacardiopathie obstructives.
+- (HTA pulmonaire)
 
 *** Extra-cardiaques
 Urgences moyennes : 4 P = {pneumothorax, pleurésie,
@@ -1034,7 +977,6 @@ Examiner taille aorte, valve mitrale, tricuspide
 Si symptomatique, opérer. Sinon (et FEVG normale), test d'effort.
 
 NB : si FE < 35%, échocardio de stress sous dobutamine pour risque opératoire
-
 
 ** 231 \dagger - Insuffisance mitrale
 Reflux de sang depuis le VG vers l'OG pendant la systole.
@@ -2951,7 +2893,7 @@ Neuropsy :
 - confusion : neuroleptique (éviter benzodiazepine !)
 - anxiété : benzodiazepine, hydroxine. Si échec neuroleptique
 
-* Endocrinologie                                                     :export:
+* Endocrinologie
 ** 32 \dagger Allaitement maternel
 ** 35 \dagger Contraception
 *** Contraception hormonale
@@ -13991,7 +13933,6 @@ alvéolaires) inclus dans BPCO
 
 [fn:6] Idem mais inhibiteur des récepteurs P2Y12
 
-[fn:7] Insuffisance ventricule D suite à une augmentation brutale de sa post-charge
 
 [fn:8] Selon la Surface de l'orifice régurgitant, Volume régurgité
 

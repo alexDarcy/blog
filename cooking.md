@@ -91,7 +91,7 @@
   + lait ? (donne plus une )
   + 2 oeufs
 
-- Yaourt à la yaourtière : 5 yaourts = 1L de lait entier + 1 yaourt (avec ferments). 
+- Yaourt à la yaourtière : 5 yaourts = 1L de lait entier + 1 yaourt (avec ferments) avec 10h
   + Un peu liquide au fond => essayer avec du lait entier en poudre
   + tester yaourt au chèvre
   
