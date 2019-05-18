@@ -893,14 +893,14 @@ créat.
 Obstruction à l'éjection du acrshort:VG (au niveau de la valve aortique)
 
 #+caption:  Rétrécissement aortique
-| Étiologies        | bicuspidie < 65 ans                                                   |
-|                   | dégénératif après (rarement post-rhumatismal)                         |
+| Étiologies        | Congénital : bicuspidie < 65 ans                                      |
+|                   | Dégénératif après (Möckeberg)                                         |
 |-------------------+-----------------------------------------------------------------------|
 | Complication      | acrshort:IC, acrshort:FA, troubles conduction, mort subite++          |
 |-------------------+-----------------------------------------------------------------------|
 | Clinique          | \hl Dyspnée d'effort, angor d'effort, syncope/ (d'effort ?)           |
-| Auscultation      | {souffle mésosystolique éjectionnel, rude, râpeux} \pm abolition B2   |
-|                   | Frémissement palpatoire (foyer aortique)                              |
+| Auscultation      | Souffle mésosystolique éjectionnel, max. foyer aortique               |
+|                   | irradiant vaisesaux cou                                               |
 |-------------------+-----------------------------------------------------------------------|
 | RX                | dilatation VG ?, surcharge pulmonaire                                 |
 | ECG               | hypertrophie VG et A G, troubles conduction/rythme                    |
@@ -917,65 +917,38 @@ Obstruction à l'éjection du acrshort:VG (au niveau de la valve aortique)
 Reflux de sang depuis le VG vers l'OG pendant la systole.
 
 Classif de Carpentier
-  - Valves restent dans le plan de l'anneau (perforations)
-  - Au moins une valve au-dessus du plan de l'anneau (prolapsus)
-  - Au moins une valve sous le plan de l'anneau
+  I. Valves restent dans le plan de l'anneau (perforations)
+  II. Au moins une valve au-dessus du plan de l'anneau (prolapsus)
+  III. Au moins une valve sous le plan de l'anneau (post-rhumatismal, IM ischémique)
 
+| Étiologies       | *Dystrophique*                                                             |
+|                  | *Fonctionnelle* (cardiopathie + dilatation vG)                             |
+|                  | Sur endocardite                                                          |
+|                  | Ischémique (aigüe = rare/chronique)                                      |
+|                  | Rhumatismale (rare)                                                      |
+|------------------+--------------------------------------------------------------------------|
+| Causes           | Rupture de cordage/pilier                                                |
+|                  | Perforation par endocardite.                                             |
+|                  | Dysfonction de pilier ischémique                                         |
+|------------------+--------------------------------------------------------------------------|
+| Clinique         | Dyspnée d'effort, orthopnée, paroxystique nocturne, OAP                  |
+| Auscultation     | Souffle systolique en "jet de vapeur", max. apex, irradiant aisselle     |
+|                  | Frémissement systolique apex                                             |
+|------------------+--------------------------------------------------------------------------|
+| ECG              | normal/hypertrophie OG, VG, VD, acrshort:FA                              |
+| HX               | normale cardiomégalie, dilatation OG, HTAP                               |
+| \hl *ETT*          | 4 grades de sévérités                                                    |
+| Cathétérisme     | pré-op si \male > 40 ans ou \female{} monopausée avec FR                 |
+| Épreuve d'effort |                                                                          |
+|------------------+--------------------------------------------------------------------------|
+| Complications    | EI, fibrillation/flutter, IC, thromboembolique                           |
+|------------------+--------------------------------------------------------------------------|
+| Chirurgie        | Indications : III/IV symptomatique ou asymptomatique avec HVG/FEVG < 60% |
+|                  | Plastie ou rempacement valvulaire                                        |
+| Ttt médical      | IM aigüe : ttt OAP ou choc, chir en urgence                              |
+|                  | poussée IC : diurétiques de l'anse, vasodilatateurs,                     |
+|                  | FA: digitalique anticoagulant oraux                                      |
 
-**** Étiologies
-
-  - Rhumatismale (rare) : type III
-  - Dystrophique (fréquente++) : type II. Soit "dégénerescences myxoïdes"
-    (trop de tissu, trop de mobilité), soit dégénerescences fibroélastiques
-    (rupture de cordage)
-  - Sur endocardite : type I (perforations) ou II (rupture de cordage)
-  - Ischémique : soit aigüe (rupture de pilier, urgence \skull !), soit
-    chronique (type III)
-  - Fonctionnelle : souvent une évolution de cardiopathie avec dilatation VG
-    et atteinte systolique
-
-
-Causes des insuf. mitrales aigües : rupture de cordage ou de pilier, dysfonction
-de pilier ischémique, perforation par endocardite.
-
-Tableau hémodynamique \thus urgence vitale \danger 
-
-Conséquences hémodynamiques : altération contractilité VG (aval), HTAP pouvant
-être importante si aigü (amont)
-
-
-*** Diagnostic
-\danger{} peut être asymptomatique
-
-Dyspnée : d'effort (lente et progressif), de repos, orthopnée, paroxystique
-nocturne, OAP
-
-Examen : 
-
-  - palpation : frémissement systolique apex, (déviation et abaissement choc
-    de pointe)
-  - auscultation : souffle systolique de régurgitation, en "jet de vapeur",
-    souffle holosystolique de B1 à post-B2, irradie vers l'aisselle ou la base
-  - (autres : galop B3, roulement mésodiastolique, éclat B2, souffle
-    d'insuf. tricuspide)
-  - poumon : râles de stase
-
-
-Para clinique
-
-  - ECG longtemps normal. hypertrophie OG, VG, VD, fibrillation atriale, 
-  - Radio thorax : normale si $\le$ modérée. cardiomégalie, dilatation OG,
-    HTAP
-  - /ETT/ référence (et ETO). Sévérité côtée en 4 grades[fn:8] (Vérifier la
-    tricuspide)
-  - Cathétérisme : coronarographie seulement en pré-op si \male > 40 ans ou
-    \female{} monopausée avec FR
-  - Épreuve d'effort, échocardio d'effort
-
-
-Évolution : si constitué, bien toléré pendant longtemps. Si brutal : évolue vers
-oedème pulmonaire. Complication : endocardite infectieuse, fibrillation/flutter
-atrial, insuf cardiaque, complications thromboembolique
 
 *** Prolapsus valvulaire mitral
 Primitif ou associé. \female. Formes familiales.
@@ -987,27 +960,6 @@ Clinique : clic méso-/télésystoliques, souffle d'IM.
 Examen : échocardio.
 
 Évolution bénigne ou complication
-
-*** Traitement
-
-  - aigüe mal tolérée : chir urgence 
-  - chronique III ou IV symptomatique : chir
-  - chronique III ou IV asymptomatique : chir si retentissement VG ou
-    surveillance échodoppler 6 mois (chir si symptômes, retentissement, troubles
-    rythmes supraventriculaire)
-
-
-Chirurgie : idéalement plastie reconstructicie, sinon remplacement valvulaire
-(mécanique si jeune mais anticoag à vie, bioprothèse si > 65 ans)
-
-Médical :
-
-  - IM aigüe : ttt OAP ou choc, chir en urgence
-  - poussée insuf. cardiaque : diurétiques de l'anse, vasodilatateurs,
-    digitalique (fibrillation atriale), anticoagulant oraux (fibrillation
-    atriale)
-
-
 ** 231 \dagger - Insuffisance aortique
 Régurgitation de sang vers VG en diastole.
 
