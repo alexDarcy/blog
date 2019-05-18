@@ -93,7 +93,7 @@
 
 - Yaourt à la yaourtière : 5 yaourts = 1L de lait entier + 1 yaourt (avec ferments) avec 10h
   + Un peu liquide au fond => essayer avec du lait entier en poudre
-  + tester yaourt au chèvre
+  + lait de brebis : 1L + 3 CC de lait en poudre + 12h de fermentation = bien ferme. Diminuer lait en poudre 
   
 ## Plat principal
 - Kluski na parze ([recette](http://lespolonais.forumpro.fr/t133-les-kluski-na-parze  vb))

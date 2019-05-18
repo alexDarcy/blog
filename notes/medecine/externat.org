@@ -508,13 +508,13 @@ graves, fibrillation auriculaire rapide, HTA repos > 220/120mmHg
 
 
 **** PEC
-- Crise : arrêt effort, dérivés nitrés.
-- Correction FR (tabac, hypolipides, activité physique, HTA, diabètes, statine,
+- \hl{Arrêt effort, dérivés nitrés}
+- \hl{Correction FR} (tabac, hypolipides, activité physique, HTA, diabètes, statine,
 IEC)
-- aspirine[fn:5] 75mg/j (ou clopidogrel[fn:6] 75mg) +
-  \beta-bloquant (anticalcique/ivabradine si intolérance) \pm {dérivés nitrés, molsidomine,
-nicorandil}
-- Revascularisation si échec médicament ou pour améliorer le pronostic vital : \gls{IPC} (stent) ou pontage coronaire
+- \hl{aspirine} [fn:5] 75mg/j (ou clopidogrel[fn:6] 75mg) +
+  \hl{\beta-bloquant} (anticalcique/ivabradine si intolérance) \pm {dérivés nitrés, molsidomine,
+  nicorandil}
+- Revascularisation si échec médicament ou pour améliorer le pronostic vital : acrshort:IPC (stent) ou pontage coronaire
 
 **** Angor de Prinzmetal
 Vasospastique = douleur sensible à la trinitrien et, soit:
@@ -574,23 +574,23 @@ ECG en urgence \skull puis +6h
 
 
 **** PEC
-- USIC en urgence ! Avec ECG, dosage troponine, créatinine, glycémie, NFS
-  
-  - aspirine + 
-#+BEGIN_EXPORT latex
+USIC \skull : ECG, dosage troponine, créatinine, glycémie, NFS
+#+BEGIN_EXPORT latex 
+\begin{itemize}
+\item \hl{aspirine} + 
     $\begin{cases}
-      \text{clopidogrel + fondaparinux si bas risque}\footnotemark\\
+      \colorbox{blue!10}{clopidogrel + fondaparinux si bas risque}\footnotemark\\
       \addtocounter{footnote}{-1}
-\text{ticagrelor/prasugrel + HNF/HBPM (+ anti-GPIIb/IIIa) si haut risque}\footnotemark
+\colorbox{blue!10}{ticagrelor/prasugrel + HNF/HBPM (+ anti-GPIIb/IIIa) si haut risque}\footnotemark
 \end{cases}$
 \footnotetext{Anti-agrégant plaquettaire et anticoagulant respectivement}
+\item + \colorbox{blue!10}{\beta-bloquant + statine} \pm dérivé nitré \pm inhibiteur calcique\footnote{Anti-ischémiques}
+\end{itemize}
 #+END_EXPORT
-  - + \beta-bloquant + statine \pm dérivé nitré \pm inhibiteur
-    calcique\footnote{Anti-ischémiques}
   
-- si (risque élevé et Grace > 140) ou (risque faible mais élevé à +6/12h) :
+Si (risque élevé et Grace > 140) ou (risque faible mais élevé à +6/12h) :
   poursuite médic + coronarographie + angioplastie
-- sinon, tests non invasifs
+Sinon, tests non invasifs
 
 Notes :
 
@@ -668,18 +668,14 @@ dilatation VG/anévrisme
 
 Troubles rythmes ventriculaires sévères : \gls{DAI}
 
-*** PEC
-Reperfusion !!
-- angioplastie si faisable < 120min ou CI à la acrshort:FIV 
-- sinon FIV par TNK-tPA. Si échec, angioplastie de sauvetage
-- \textbf{en même temps } 
-  
-  - antalgique \pm O_2
-  - + aspirine + clopidogrel[si FIV]/prasugrel/ticagrelor
-  - + anticoag: HNF/énoxaparine
-  - + \beta-bloquant (prudence)
-  - + IEC dans 24h
-  - + éplérénone précocement (si FEVG < 40% ou insuf cardiaque)
+**** PEC
+#+caption: PEC des IDM
+| *angioplastie* si < 120min ou CI à la acrshort:FIV | \hlc antalgique \pm O_2                                        |
+| - sinon FIV par TNK-tPA                          | \hlc aspirine + clopidogrel[si FIV]/prasugrel/ticagrelor       |
+| . Si échec, angioplastie de sauvetage            | \hlc anticoag: HNF/énoxaparine                                 |
+|                                                  | \hlc \beta-bloquant (prudence)                                 |
+|                                                  | \hlc IEC dans 24h                                              |
+|                                                  | \hlc éplérénone précocement (si FEVG < 40% ou insuf cardiaque) |
   
 Efficacité : reperfusion dans 90min (50%). Sd reperfusion
 
@@ -898,22 +894,22 @@ Obstruction à l'éjection du acrshort:VG (au niveau de la valve aortique)
 |-------------------+-----------------------------------------------------------------------|
 | Complication      | acrshort:IC, acrshort:FA, troubles conduction, mort subite++          |
 |-------------------+-----------------------------------------------------------------------|
-| Clinique          | \hl Dyspnée d'effort, angor d'effort, syncope/ (d'effort ?)           |
+| Clinique          | \hlc Dyspnée d'effort, angor d'effort, syncope/ (d'effort ?)           |
 | Auscultation      | Souffle mésosystolique éjectionnel, max. foyer aortique               |
-|                   | irradiant vaisesaux cou                                               |
+|                   | irradiant vaisseaux cou \pm abolition B_2                             |
 |-------------------+-----------------------------------------------------------------------|
 | RX                | dilatation VG ?, surcharge pulmonaire                                 |
 | ECG               | hypertrophie VG et A G, troubles conduction/rythme                    |
 | Cathétérisme      | pré-op si \male > 40 ans, FR, angor d'effort ou IC                    |
 | Scanner cardiaque | pré-op si \acrshort{TAVI}                                             |
-| *ETT*               | \hl - V max > 4m/s                                                    |
-|                   | \hl - gradient moyen > 40 mmHg                                        |
-|                   | \hl - surface aortique < 1 cm^2                                       |
+| *ETT*               | \hlc - V max > 4m/s                                                    |
+|                   | \hlc - gradient moyen > 40 mmHg                                        |
+|                   | \hlc - surface aortique < 1 cm^2                                       |
 |-------------------+-----------------------------------------------------------------------|
 | Traitement        | symptomatique :  valve mécanique (jeune), bio (65 ans), acrshort:TAVI |
 |                   | asymptomatique : test d'effort + surveillance                         |
 
-** 231 \dagger - Insuffisance mitrale
+** 231 Insuffisance mitrale
 Reflux de sang depuis le VG vers l'OG pendant la systole.
 
 Classif de Carpentier
@@ -937,7 +933,7 @@ Classif de Carpentier
 |------------------+--------------------------------------------------------------------------|
 | ECG              | normal/hypertrophie OG, VG, VD, acrshort:FA                              |
 | HX               | normale cardiomégalie, dilatation OG, HTAP                               |
-| \hl *ETT*          | 4 grades de sévérités                                                    |
+| \hlc *ETT*          | 4 grades de sévérités                                                    |
 | Cathétérisme     | pré-op si \male > 40 ans ou \female{} monopausée avec FR                 |
 | Épreuve d'effort |                                                                          |
 |------------------+--------------------------------------------------------------------------|
