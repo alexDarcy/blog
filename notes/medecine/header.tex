@@ -14,6 +14,7 @@
 \usepackage[margin=2.5cm, marginparwidth=2cm]{geometry}
 \usepackage{latexsym}
 \usepackage{subcaption}
+\usepackage[table]{xcolor} % Color in tables, must be called before tikz !
 % -------------------------------------------------------------------------------
 % For graphs
 \usepackage{tikz}
@@ -152,5 +153,7 @@
 \def\inc{$\nearrow{}$}
 \def\thus{$\implies$}
 
+% Hightlight cell
+\def\hl{\cellcolor{blue!10}}
 
 \input bacteries-header

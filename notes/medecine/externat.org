@@ -5,191 +5,191 @@
 #+TAGS: export(e)  
 
 :DRAWER:
-#+latex_header: \input{header}
-#+latex_header_extra: \usepackage{adjustbox}
-#+latex_header_extra: \usepackage{multirow, makecell}
-#+latex_header_extra: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
-#+latex_header_extra: \usepackage{enumitem}
-#+latex_header_extra: \def\ttt{\hspace*{1cm}Ttt: }
-#+latex_header_extra: \usepackage{adjustbox}
-#+latex_header_extra: \usepackage{titlesec}
-#+latex_header_extra: \graphicspath{{../../pictures/medecine/}}
+#+LATEX_HEADER: \input{header}
+#+LATEX_HEADER: \usepackage{adjustbox}
+#+LATEX_HEADER: \usepackage{multirow, makecell}
+#+LATEX_HEADER: \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \def\ttt{\hspace*{1cm}Ttt: }
+#+LATEX_HEADER: \usepackage{adjustbox}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \graphicspath{{../../pictures/medecine/}}
 
-#+latex_header_extra: \usetikzlibrary{quotes}
+#+LATEX_HEADER: \usetikzlibrary{quotes}
 
-#+latex_header_extra: \titlespacing{\paragraph}{%
-#+latex_header_extra:  0pt}{%              left margin
-#+latex_header_extra:  0.5\baselineskip}{% space before (vertical)
-#+latex_header_extra:  1em}%               space after (horizontal)
+#+LATEX_HEADER: \titlespacing{\paragraph}{%
+#+LATEX_HEADER:  0pt}{%              left margin
+#+LATEX_HEADER:  0.5\baselineskip}{% space before (vertical)
+#+LATEX_HEADER:  1em}%               space after (horizontal)
 
-#+latex_header_extra: \newacronym{ADP}{ADP}{Adénopathie}
-#+latex_header_extra: \newacronym{ARA II}{ARA II}{Antagonistes des récepteurs de l'angiotensine}
-#+latex_header_extra: \newacronym{ATS}{ATS}{Antithyroïdiens de synthèse}
-#+latex_header_extra: \newacronym{AT}{AT}{Antithrombine}
-#+latex_header_extra: \newacronym{BAV}{BAV}{Bloc auriculoventriculaire}
-#+latex_header_extra: \newacronym{BBG}{BBG}{Bloc de branche gauche}
-#+latex_header_extra: \newacronym{BD}{BD}{Bronchodilatateur}
-#+latex_header_extra: \newacronym{BGT}{BGT}{bilirubine glucoronide-transférase}
-#+latex_header_extra: \newacronym{BSA}{BSA}{Bloc sinuso-atrial}
-#+latex_header_extra: \newacronym{CAIS}{CAIS}{Complete Androgen Insensitivity Syndrome}
-#+latex_header_extra: \newacronym{CHC}{CHC}{Carcinome hépato-cellulaire}
-#+latex_header_extra: \newacronym{CLU}{CLU}{Cortisol libre urinaire}
-#+latex_header_extra: \newacronym{CPRE}{CPRE}{Cholangio-pancréatographie rétrograde endoscopique}
-#+latex_header_extra: \newacronym{CST}{CST}{Coefficient de saturation de la transferrine}
-#+latex_header_extra: \newacronym{DAI}{DAI}{Défibrillateur automatique implantable}
-#+latex_header_extra: \newacronym{DIP}{DIP}{Pneumopathie Interstitielle Desquamante}
-#+latex_header_extra: \newacronym{DMLA}{DMLA}{Dégénérescence maculaire liée à l'âge}
-#+latex_header_extra: \newacronym{DO}{DO}{Déclaration obligatoire}
-#+latex_header_extra: \newacronym{DT}{DT}{Delirium tremens}
-#+latex_header_extra: \newacronym{ECPA}{ECPA}{Echelle comportementale d'évaluation de la douleur chez la personne âgée}
-#+latex_header_extra: \newacronym{EI}{EI}{Endocardite infectieuse}
-#+latex_header_extra: \newacronym{EN}{EN}{Echelle numérique}
-#+latex_header_extra: \newacronym{EP}{EP}{Embolie pulmonaire}
-#+latex_header_extra: \newacronym{EVA}{EVA}{Echelle visuelle analogiqu}
-#+latex_header_extra: \newacronym{EVS}{EVS}{Echelle verbale simple}
-#+latex_header_extra: \newacronym{FA}{FA}{Fibrillation atriale}
-#+latex_header_extra: \newacronym{FE}{FE}{Fraction d'ejection}
-#+latex_header_extra: \newacronym{FIVA}{FIVA}{Fonds d'indemnisation des victimes de l'amiante}
-#+latex_header_extra: \newacronym{FIV}{FIV}{Fibrinolyse intra-veineuse}
-#+latex_header_extra: \newacronym{FO}{FO}{Fond d'oeil}
-#+latex_header_extra: \newacronym{FPI}{FPI}{Fibrose Pulmonaire Idiopathique}
-#+latex_header_extra: \newacronym{GH}{GH}{Hormone de croissance (Growth hormone)}
-#+latex_header_extra: \newacronym{GNV}{GNV}{Glaucome néovasculaire}
-#+latex_header_extra: \newacronym{GPAO}{GPAO}{Glaucome primitif à angle ouvert}
-#+latex_header_extra: \newacronym{HAD}{HAD}{Hospital Anxiety and Depression Scale}
-#+latex_header_extra: \newacronym{HMG}{HMG}{Hépatomégalie}
-#+latex_header_extra: \newacronym{HSH}{HSH}{Hommes ayant des relations sexuelles avec des hommes}
-#+latex_header_extra: \newacronym{HVG}{HVG}{Hypertrophie ventriculaire gauche}
-#+latex_header_extra: \newacronym{IC}{IC}{Insuffisance cardiaque} 
-#+latex_header_extra: \newacronym{ID}{ID}{Immunodéprimé}
-#+latex_header_extra: \newacronym{IEC}{IEC}{Inhibiteurs de l'enzyme de conversion}
-#+latex_header_extra: \newacronym{IOP}{IOP}{Insuffisance ovarienne primitive}
-#+latex_header_extra: \newacronym{IPC}{IPC}{Intervention coronaire percutanée}
-#+latex_header_extra: \newacronym{IS}{IS}{Insuffisance surrénale}
-#+latex_header_extra: \newacronym{ITK}{ITK}{Inhibiteur de tyrosine kinase}
-#+latex_header_extra: \newacronym{IVA}{IVA}{Artère intraventriculaire antérieure}
-#+latex_header_extra: \newacronym{JPDC}{JPDC}{Jusqu'à preuve du contraire}
-#+latex_header_extra: \newacronym{LBA}{LBA}{Lavage Broncho-Alvéolaire}
-#+latex_header_extra: \newacronym{MTEV}{MTEV}{Maladie Thrombo-Embolique Veineuse}
-#+latex_header_extra: \newacronym{NOIA}{NOIA}{Neuropathie optique ischémique antérieure}
-#+latex_header_extra: \newacronym{OCA}{OCA}{Occlusion coronaire aigüe}
-#+latex_header_extra: \newacronym{OGD}{OGD}{Oestro-gastro-duodénale}
-#+latex_header_extra: \newacronym{OGE}{OGE}{Organes génitaux externes}
-#+latex_header_extra: \newacronym{OG}{OG}{Oreillette gauche}
-#+latex_header_extra: \newacronym{OMI}{OMI}{Oedème des membres inférieurs}
-#+latex_header_extra: \newacronym{PAD}{PAD}{Pression artérielle diastolique}
-#+latex_header_extra: \newacronym{PAPm}{PAPm}{Pression de l'artère pulmonaire moyenne}
-#+latex_header_extra: \newacronym{PAS}{PAS}{Pression artérielle systolique}
-#+latex_header_extra: \newacronym{PA}{PA}{Pression artérielle}
-#+latex_header_extra: \newacronym{PEV}{PEV}{Potentiels évoqués visuels}
-#+latex_header_extra: \newacronym{PGG}{PGG}{Paragangliomes}
-#+latex_header_extra: \newacronym{PINS}{PINS}{Pneumonpathie Interstitielle Non Spécifique}
-#+latex_header_extra: \newacronym{POC}{POC}{Pneuompathie organisée cryptogénique}
-#+latex_header_extra: \newacronym{QCD}{QCD}{Questionnaire Concis de la Douleur}
-#+latex_header_extra: \newacronym{QDSA}{QDSA}{Questionnaire Douleur Saint-Antonne}
-#+latex_header_extra: \newacronym{RCT}{RCT}{Rapport cardiothoracique}
-#+latex_header_extra: \newacronym{RGO}{RGO}{Reflux gastro-oesophagien}
-#+latex_header_extra: \newacronym{RPM}{RPM}{Réflexe photomoteur}
-#+latex_header_extra: \newacronym{SAS}{SAS}{Syndrome d'apnée du sommeil}
-#+latex_header_extra: \newacronym{SMG}{SMG}{Splénomégalie}
-#+latex_header_extra: \newacronym{SOPK}{SOPK}{Syndrome des ovaires polymicrokystiques}
-#+latex_header_extra: \newacronym{SPT}{SPT}{Syndrome post-thrombotique}
-#+latex_header_extra: \newacronym{TAVI}{TAVI}{Transcatheter Aortic Valve Implantation}
-#+latex_header_extra: \newacronym{TG}{TG}{Tryglycérides}
-#+latex_header_extra: \newacronym{TIH}{TIH}{Thrombopénie induite par l'héparine}
-#+latex_header_extra: \newacronym{TVO}{TVO}{Troubles Ventilatoires Obstructifs}
-#+latex_header_extra: \newacronym{TVP}{TVP}{Thrombose veineuse profonde}
-#+latex_header_extra: \newacronym{TVR}{TVR}{Troubles Ventilatoires Restrictif}
-#+latex_header_extra: \newacronym{TVS}{TVS}{Thrombose veineuse superficielle}
-#+latex_header_extra: \newacronym{VAS}{VAS}{Voies Aériennes Supérieures}
-#+latex_header_extra: \newacronym{VBP}{VBP}{Voie biliaire principale}
-#+latex_header_extra: \newacronym{VG}{VG}{Ventricule gauche}
+#+LATEX_HEADER: \newacronym{ADP}{ADP}{Adénopathie}
+#+LATEX_HEADER: \newacronym{ARA II}{ARA II}{Antagonistes des récepteurs de l'angiotensine}
+#+LATEX_HEADER: \newacronym{ATS}{ATS}{Antithyroïdiens de synthèse}
+#+LATEX_HEADER: \newacronym{AT}{AT}{Antithrombine}
+#+LATEX_HEADER: \newacronym{BAV}{BAV}{Bloc auriculoventriculaire}
+#+LATEX_HEADER: \newacronym{BBG}{BBG}{Bloc de branche gauche}
+#+LATEX_HEADER: \newacronym{BD}{BD}{Bronchodilatateur}
+#+LATEX_HEADER: \newacronym{BGT}{BGT}{bilirubine glucoronide-transférase}
+#+LATEX_HEADER: \newacronym{BSA}{BSA}{Bloc sinuso-atrial}
+#+LATEX_HEADER: \newacronym{CAIS}{CAIS}{Complete Androgen Insensitivity Syndrome}
+#+LATEX_HEADER: \newacronym{CHC}{CHC}{Carcinome hépato-cellulaire}
+#+LATEX_HEADER: \newacronym{CLU}{CLU}{Cortisol libre urinaire}
+#+LATEX_HEADER: \newacronym{CPRE}{CPRE}{Cholangio-pancréatographie rétrograde endoscopique}
+#+LATEX_HEADER: \newacronym{CST}{CST}{Coefficient de saturation de la transferrine}
+#+LATEX_HEADER: \newacronym{DAI}{DAI}{Défibrillateur automatique implantable}
+#+LATEX_HEADER: \newacronym{DIP}{DIP}{Pneumopathie Interstitielle Desquamante}
+#+LATEX_HEADER: \newacronym{DMLA}{DMLA}{Dégénérescence maculaire liée à l'âge}
+#+LATEX_HEADER: \newacronym{DO}{DO}{Déclaration obligatoire}
+#+LATEX_HEADER: \newacronym{DT}{DT}{Delirium tremens}
+#+LATEX_HEADER: \newacronym{ECPA}{ECPA}{Echelle comportementale d'évaluation de la douleur chez la personne âgée}
+#+LATEX_HEADER: \newacronym{EI}{EI}{Endocardite infectieuse}
+#+LATEX_HEADER: \newacronym{EN}{EN}{Echelle numérique}
+#+LATEX_HEADER: \newacronym{EP}{EP}{Embolie pulmonaire}
+#+LATEX_HEADER: \newacronym{EVA}{EVA}{Echelle visuelle analogiqu}
+#+LATEX_HEADER: \newacronym{EVS}{EVS}{Echelle verbale simple}
+#+LATEX_HEADER: \newacronym{FA}{FA}{Fibrillation atriale}
+#+LATEX_HEADER: \newacronym{FE}{FE}{Fraction d'ejection}
+#+LATEX_HEADER: \newacronym{FIVA}{FIVA}{Fonds d'indemnisation des victimes de l'amiante}
+#+LATEX_HEADER: \newacronym{FIV}{FIV}{Fibrinolyse intra-veineuse}
+#+LATEX_HEADER: \newacronym{FO}{FO}{Fond d'oeil}
+#+LATEX_HEADER: \newacronym{FPI}{FPI}{Fibrose Pulmonaire Idiopathique}
+#+LATEX_HEADER: \newacronym{GH}{GH}{Hormone de croissance (Growth hormone)}
+#+LATEX_HEADER: \newacronym{GNV}{GNV}{Glaucome néovasculaire}
+#+LATEX_HEADER: \newacronym{GPAO}{GPAO}{Glaucome primitif à angle ouvert}
+#+LATEX_HEADER: \newacronym{HAD}{HAD}{Hospital Anxiety and Depression Scale}
+#+LATEX_HEADER: \newacronym{HMG}{HMG}{Hépatomégalie}
+#+LATEX_HEADER: \newacronym{HSH}{HSH}{Hommes ayant des relations sexuelles avec des hommes}
+#+LATEX_HEADER: \newacronym{HVG}{HVG}{Hypertrophie ventriculaire gauche}
+#+LATEX_HEADER: \newacronym{IC}{IC}{Insuffisance cardiaque} 
+#+LATEX_HEADER: \newacronym{ID}{ID}{Immunodéprimé}
+#+LATEX_HEADER: \newacronym{IEC}{IEC}{Inhibiteurs de l'enzyme de conversion}
+#+LATEX_HEADER: \newacronym{IOP}{IOP}{Insuffisance ovarienne primitive}
+#+LATEX_HEADER: \newacronym{IPC}{IPC}{Intervention coronaire percutanée}
+#+LATEX_HEADER: \newacronym{IS}{IS}{Insuffisance surrénale}
+#+LATEX_HEADER: \newacronym{ITK}{ITK}{Inhibiteur de tyrosine kinase}
+#+LATEX_HEADER: \newacronym{IVA}{IVA}{Artère intraventriculaire antérieure}
+#+LATEX_HEADER: \newacronym{JPDC}{JPDC}{Jusqu'à preuve du contraire}
+#+LATEX_HEADER: \newacronym{LBA}{LBA}{Lavage Broncho-Alvéolaire}
+#+LATEX_HEADER: \newacronym{MTEV}{MTEV}{Maladie Thrombo-Embolique Veineuse}
+#+LATEX_HEADER: \newacronym{NOIA}{NOIA}{Neuropathie optique ischémique antérieure}
+#+LATEX_HEADER: \newacronym{OCA}{OCA}{Occlusion coronaire aigüe}
+#+LATEX_HEADER: \newacronym{OGD}{OGD}{Oestro-gastro-duodénale}
+#+LATEX_HEADER: \newacronym{OGE}{OGE}{Organes génitaux externes}
+#+LATEX_HEADER: \newacronym{OG}{OG}{Oreillette gauche}
+#+LATEX_HEADER: \newacronym{OMI}{OMI}{Oedème des membres inférieurs}
+#+LATEX_HEADER: \newacronym{PAD}{PAD}{Pression artérielle diastolique}
+#+LATEX_HEADER: \newacronym{PAPm}{PAPm}{Pression de l'artère pulmonaire moyenne}
+#+LATEX_HEADER: \newacronym{PAS}{PAS}{Pression artérielle systolique}
+#+LATEX_HEADER: \newacronym{PA}{PA}{Pression artérielle}
+#+LATEX_HEADER: \newacronym{PEV}{PEV}{Potentiels évoqués visuels}
+#+LATEX_HEADER: \newacronym{PGG}{PGG}{Paragangliomes}
+#+LATEX_HEADER: \newacronym{PINS}{PINS}{Pneumonpathie Interstitielle Non Spécifique}
+#+LATEX_HEADER: \newacronym{POC}{POC}{Pneuompathie organisée cryptogénique}
+#+LATEX_HEADER: \newacronym{QCD}{QCD}{Questionnaire Concis de la Douleur}
+#+LATEX_HEADER: \newacronym{QDSA}{QDSA}{Questionnaire Douleur Saint-Antonne}
+#+LATEX_HEADER: \newacronym{RCT}{RCT}{Rapport cardiothoracique}
+#+LATEX_HEADER: \newacronym{RGO}{RGO}{Reflux gastro-oesophagien}
+#+LATEX_HEADER: \newacronym{RPM}{RPM}{Réflexe photomoteur}
+#+LATEX_HEADER: \newacronym{SAS}{SAS}{Syndrome d'apnée du sommeil}
+#+LATEX_HEADER: \newacronym{SMG}{SMG}{Splénomégalie}
+#+LATEX_HEADER: \newacronym{SOPK}{SOPK}{Syndrome des ovaires polymicrokystiques}
+#+LATEX_HEADER: \newacronym{SPT}{SPT}{Syndrome post-thrombotique}
+#+LATEX_HEADER: \newacronym{TAVI}{TAVI}{Transcatheter Aortic Valve Implantation.}
+#+LATEX_HEADER: \newacronym{TG}{TG}{Tryglycérides}
+#+LATEX_HEADER: \newacronym{TIH}{TIH}{Thrombopénie induite par l'héparine}
+#+LATEX_HEADER: \newacronym{TVO}{TVO}{Troubles Ventilatoires Obstructifs}
+#+LATEX_HEADER: \newacronym{TVP}{TVP}{Thrombose veineuse profonde}
+#+LATEX_HEADER: \newacronym{TVR}{TVR}{Troubles Ventilatoires Restrictif}
+#+LATEX_HEADER: \newacronym{TVS}{TVS}{Thrombose veineuse superficielle}
+#+LATEX_HEADER: \newacronym{VAS}{VAS}{Voies Aériennes Supérieures}
+#+LATEX_HEADER: \newacronym{VBP}{VBP}{Voie biliaire principale}
+#+LATEX_HEADER: \newacronym{VG}{VG}{Ventricule gauche}
 
-#+latex_header_extra: \newglossaryentry{NEM1}{name={NEM1},
-#+latex_header_extra:   description={Néoplasie endocrinienne multiple 1. 3 "P" : hyperParathyroïdie primaire, adénome hyPophysaire, tumeur neuro-endocrine du Pancreas. Voir aussi NEM2}}
-#+latex_header_extra: \newglossaryentry{NEM2}{name={NEM2},
-#+latex_header_extra:   description={Néoplasie endocrinienne multiple 2. Cancer médullaire de la thyroïde et phéochromocytome. Voir aussi \gls{NEM1}}}
-#+latex_header_extra: \newglossaryentry{Leydigcell}{name={cellule de Leydig},description={Produit de la testostérone. Localisé près des tubules séminifères (testicules)}. Activé par LH}
-#+latex_header_extra: \newglossaryentry{NF1}{name=NF1, description={Neurofibromatose 1. Tâches café au lait, neurofibromes (cutanées, nodulaires [le long d'un trajet d'un nerf] ou plexiformes [K possible]), nodules de Lisch sur l'iris.}}
-#+latex_header_extra: \newglossaryentry{PCC}{name={Phéochromocytomes}, description={Tumeur de la médullo-surrénale}}
-#+latex_header_extra: \newglossaryentry{PTH}{name={Parathyroide Hormone (PTH)},description={Stimule la résorbtion osseuse (ostéoclastes) pour libérer plus de calcium}}
-#+latex_header_extra: \newglossaryentry{SHBG}{name=SHBG,description={Sex Hormone-Binding Globulin. Diminue avec des androgènes, augmente avec les oestrogènes}}
-#+latex_header_extra: \newglossaryentry{Sertolicell}{name={cellule de Sertoli},description={Participe à la production du sperme. Localisé dans un tubule séminifère. Activé par FSH}}
-#+latex_header_extra: \newglossaryentry{TPO}{name={Thyroid peroxydase (TPO)},description={Enzyme de la thyroïde servant à générer la thyroxine (T4) et triiodothyroine (T3)}}
-#+latex_header_extra: \newglossaryentry{VHL}{name={von Hippel-Lindau}, description={Hémangioblastome du cervelet/moelle épinière, de la rétine, phéochromocytome}}
-#+latex_header_extra: \newglossaryentry{trophozoïtes}{name={Trophozoïtes},description={Formes végétatives mobiles}}
-#+latex_header_extra: \newglossaryentry{sdMetabolique}{name={Syndrome métabolique}, 
-#+latex_header_extra:   description={IMC > 28 kg/$m^2$, HTA, 
-#+latex_header_extra:     (HDL < 0.35g/L ou TG > 2g/L ou dyslipidémie traitée), 
-#+latex_header_extra:     ATCD diabète familial/gestionnel, temporairement induit. 
-#+latex_header_extra:     Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female), 
-#+latex_header_extra:     hyperglycémie (glycémie à jeun > 1g/L), 
-#+latex_header_extra:     dyslipidémie (TG > 1.5g/L et (HDL < 0.4g/L \male ou 0.5g/L \female)), 
-#+latex_header_extra:     HTA (> 130mmHg systole ou > 85mmHg diastole)}}
+#+LATEX_HEADER: \newglossaryentry{NEM1}{name={NEM1},
+#+LATEX_HEADER:   description={Néoplasie endocrinienne multiple 1. 3 "P" : hyperParathyroïdie primaire, adénome hyPophysaire, tumeur neuro-endocrine du Pancreas. Voir aussi NEM2}}
+#+LATEX_HEADER: \newglossaryentry{NEM2}{name={NEM2},
+#+LATEX_HEADER:   description={Néoplasie endocrinienne multiple 2. Cancer médullaire de la thyroïde et phéochromocytome. Voir aussi \gls{NEM1}}}
+#+LATEX_HEADER: \newglossaryentry{Leydigcell}{name={cellule de Leydig},description={Produit de la testostérone. Localisé près des tubules séminifères (testicules)}. Activé par LH}
+#+LATEX_HEADER: \newglossaryentry{NF1}{name=NF1, description={Neurofibromatose 1. Tâches café au lait, neurofibromes (cutanées, nodulaires [le long d'un trajet d'un nerf] ou plexiformes [K possible]), nodules de Lisch sur l'iris.}}
+#+LATEX_HEADER: \newglossaryentry{PCC}{name={Phéochromocytomes}, description={Tumeur de la médullo-surrénale}}
+#+LATEX_HEADER: \newglossaryentry{PTH}{name={Parathyroide Hormone (PTH)},description={Stimule la résorbtion osseuse (ostéoclastes) pour libérer plus de calcium}}
+#+LATEX_HEADER: \newglossaryentry{SHBG}{name=SHBG,description={Sex Hormone-Binding Globulin. Diminue avec des androgènes, augmente avec les oestrogènes}}
+#+LATEX_HEADER: \newglossaryentry{Sertolicell}{name={cellule de Sertoli},description={Participe à la production du sperme. Localisé dans un tubule séminifère. Activé par FSH}}
+#+LATEX_HEADER: \newglossaryentry{TPO}{name={Thyroid peroxydase (TPO)},description={Enzyme de la thyroïde servant à générer la thyroxine (T4) et triiodothyroine (T3)}}
+#+LATEX_HEADER: \newglossaryentry{VHL}{name={von Hippel-Lindau}, description={Hémangioblastome du cervelet/moelle épinière, de la rétine, phéochromocytome}}
+#+LATEX_HEADER: \newglossaryentry{trophozoïtes}{name={Trophozoïtes},description={Formes végétatives mobiles}}
+#+LATEX_HEADER: \newglossaryentry{sdMetabolique}{name={Syndrome métabolique}, 
+#+LATEX_HEADER:   description={IMC > 28 kg/$m^2$, HTA, 
+#+LATEX_HEADER:     (HDL < 0.35g/L ou TG > 2g/L ou dyslipidémie traitée), 
+#+LATEX_HEADER:     ATCD diabète familial/gestionnel, temporairement induit. 
+#+LATEX_HEADER:     Autre définition (NCEP III) : (\diameter abdo > 100cm \male ou 88cm \female), 
+#+LATEX_HEADER:     hyperglycémie (glycémie à jeun > 1g/L), 
+#+LATEX_HEADER:     dyslipidémie (TG > 1.5g/L et (HDL < 0.4g/L \male ou 0.5g/L \female)), 
+#+LATEX_HEADER:     HTA (> 130mmHg systole ou > 85mmHg diastole)}}
 
-#+latex_header_extra: \newglossaryentry{sdmetabolique}{name={Syndrome métabolique},
-#+latex_header_extra:    description={$\diameter \ge 94$ cm $\male{}$, 80 cm $\female{}$,
-#+latex_header_extra:    TG $\ge$ 1.7mmol/L, HDL < 1 mmol/L $\male{}$ ou 1.3mmol/L $\female{}$, 
-#+latex_header_extra:     PAs $\ge 130$ mmHg ou PAd $\ge 85$ mmHg, glycémie jeun $\ge$ 1 g/L
-#+latex_header_extra: }}
+#+LATEX_HEADER: \newglossaryentry{sdmetabolique}{name={Syndrome métabolique},
+#+LATEX_HEADER:    description={$\diameter \ge 94$ cm $\male{}$, 80 cm $\female{}$,
+#+LATEX_HEADER:    TG $\ge$ 1.7mmol/L, HDL < 1 mmol/L $\male{}$ ou 1.3mmol/L $\female{}$, 
+#+LATEX_HEADER:     PAs $\ge 130$ mmHg ou PAd $\ge 85$ mmHg, glycémie jeun $\ge$ 1 g/L
+#+LATEX_HEADER: }}
 
-#+latex_header_extra: \newglossaryentry{VEMS}
-#+latex_header_extra: {
-#+latex_header_extra:   name={VEMS}, 
-#+latex_header_extra:   description={volume expiratoire maximal en 1s (après inspiration maximale)}
-#+latex_header_extra: }
-#+latex_header_extra: \newglossaryentry{CV}
-#+latex_header_extra: { name = Capacité Vitale,
-#+latex_header_extra:   description = volume total mobilisable maximal = VC + VRI + VRE
-#+latex_header_extra: }
-#+latex_header_extra: \newglossaryentry{VC}
-#+latex_header_extra: { name=Volume courant,
-#+latex_header_extra:   description={volume mobilisé pendant une respiration normale}
-#+latex_header_extra: }
-#+latex_header_extra: \newglossaryentry{VRI}
-#+latex_header_extra: { name = Volume de réserve inspiratoire,
-#+latex_header_extra:   description = volume supplémentaire (par rapport au VC) avec
-#+latex_header_extra:     une inspiration forcé
-#+latex_header_extra: }
-#+latex_header_extra: \newglossaryentry{VRE}
-#+latex_header_extra: { name = Volume de réserve expiratoire,
-#+latex_header_extra:   description = idem VRI mais en expiration forcée
-#+latex_header_extra: }
-#+latex_header_extra: \newglossaryentry{VR}
-#+latex_header_extra: { name = Volume résiduel,
-#+latex_header_extra:   description = volume restant (impossible à expirer)
-#+latex_header_extra: }
-#+latex_header_extra: \newglossaryentry{CVF}
-#+latex_header_extra: { name = Capacité Vitale Forcée,
-#+latex_header_extra:   description = volume expulsé avec force (CPT - VR)
-#+latex_header_extra: }
-#+latex_header_extra: \newglossaryentry{CVL}
-#+latex_header_extra: { name = Capacité Vitale Lente,
-#+latex_header_extra:   description = idem CVF mais lentement
-#+latex_header_extra: }  
-#+latex_header_extra: \newglossaryentry{CPT}
-#+latex_header_extra: { name = {Capacité Pulmonaire Totale},
-#+latex_header_extra:   description = {Capacité Vitale + volume résiduel}
-#+latex_header_extra: }
-#+latex_header_extra: \newglossaryentry{PAPO}{
-#+latex_header_extra:   name = PAPO,
-#+latex_header_extra:   description = Pression artérielle pulmonaire occluse $\approx$ pression
-#+latex_header_extra:   capillaire pulmonaire
-#+latex_header_extra: }
-#+latex_header_extra: \newacronym{MDPH}{MDPH}{Maison département des personnes handicapées}
-#+latex_header_extra: \newacronym{CNSA}{CNSA}{Caisse nationale de solidarité pour l'autonomie}
-#+latex_header_extra: \newacronym{AAH}{AAH}{Allocation aux Adultes Handicapés}
-#+latex_header_extra: \newacronym{CDAPH}{CDAPH}{Commission des droits et de l'autonomie des personnes handicapées (départemental)}
-#+latex_header_extra: \newacronym{PAF}{PAF}{Polypose adénomateuse familiale}
-#+latex_header_extra: \newacronym{BPCO}{BPCO}{Bronchopneumopathie chronique obstructive}
-#+latex_header_extra: \newacronym{VNI}{VNI}{Ventilation non invasive}
-#+latex_header_extra: \newacronym{TIPMP}{TIPMP}{Tumeurs intracanalaires papillaire mucineuses pancréatiques}
-#+latex_header_extra: \newacronym{FID}{FID}{Fossie Iliaque droite}
-#+latex_header_extra: \newacronym{FIG}{FIG}{Fossie illiaque gauche}
-#+latex_header_extra: \newacronym{TFI}{TFI}{Troubles fonctionnels intestinaux}
-#+latex_header_extra: \newglossaryentry{PET1}{name={Polyendocrinopathie auto-immune de type 1},description={Hypoparathyroïdie, candidose, insuf. surrénale}}
-#+latex_header_extra: \newglossaryentry{PET2}{name={Polyendocrinopathie auto-immune de type 2},description={insuf. surrénale + 1 maladie autoimmune parmi thyroïdite d'Hashimoto, maladie de Basedow, diabète type 1}}
-#+latex_header_extra: \newacronym{SPUPD}{SPUPD}{Syndrome polyuro-polydipsique}
+#+LATEX_HEADER: \newglossaryentry{VEMS}
+#+LATEX_HEADER: {
+#+LATEX_HEADER:   name={VEMS}, 
+#+LATEX_HEADER:   description={volume expiratoire maximal en 1s (après inspiration maximale)}
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \newglossaryentry{CV}
+#+LATEX_HEADER: { name = Capacité Vitale,
+#+LATEX_HEADER:   description = volume total mobilisable maximal = VC + VRI + VRE
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \newglossaryentry{VC}
+#+LATEX_HEADER: { name=Volume courant,
+#+LATEX_HEADER:   description={volume mobilisé pendant une respiration normale}
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \newglossaryentry{VRI}
+#+LATEX_HEADER: { name = Volume de réserve inspiratoire,
+#+LATEX_HEADER:   description = volume supplémentaire (par rapport au VC) avec
+#+LATEX_HEADER:     une inspiration forcé
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \newglossaryentry{VRE}
+#+LATEX_HEADER: { name = Volume de réserve expiratoire,
+#+LATEX_HEADER:   description = idem VRI mais en expiration forcée
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \newglossaryentry{VR}
+#+LATEX_HEADER: { name = Volume résiduel,
+#+LATEX_HEADER:   description = volume restant (impossible à expirer)
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \newglossaryentry{CVF}
+#+LATEX_HEADER: { name = Capacité Vitale Forcée,
+#+LATEX_HEADER:   description = volume expulsé avec force (CPT - VR)
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \newglossaryentry{CVL}
+#+LATEX_HEADER: { name = Capacité Vitale Lente,
+#+LATEX_HEADER:   description = idem CVF mais lentement
+#+LATEX_HEADER: }  
+#+LATEX_HEADER: \newglossaryentry{CPT}
+#+LATEX_HEADER: { name = {Capacité Pulmonaire Totale},
+#+LATEX_HEADER:   description = {Capacité Vitale + volume résiduel}
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \newglossaryentry{PAPO}{
+#+LATEX_HEADER:   name = PAPO,
+#+LATEX_HEADER:   description = Pression artérielle pulmonaire occluse $\approx$ pression
+#+LATEX_HEADER:   capillaire pulmonaire
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \newacronym{MDPH}{MDPH}{Maison département des personnes handicapées}
+#+LATEX_HEADER: \newacronym{CNSA}{CNSA}{Caisse nationale de solidarité pour l'autonomie}
+#+LATEX_HEADER: \newacronym{AAH}{AAH}{Allocation aux Adultes Handicapés}
+#+LATEX_HEADER: \newacronym{CDAPH}{CDAPH}{Commission des droits et de l'autonomie des personnes handicapées (départemental)}
+#+LATEX_HEADER: \newacronym{PAF}{PAF}{Polypose adénomateuse familiale}
+#+LATEX_HEADER: \newacronym{BPCO}{BPCO}{Bronchopneumopathie chronique obstructive}
+#+LATEX_HEADER: \newacronym{VNI}{VNI}{Ventilation non invasive}
+#+LATEX_HEADER: \newacronym{TIPMP}{TIPMP}{Tumeurs intracanalaires papillaire mucineuses pancréatiques}
+#+LATEX_HEADER: \newacronym{FID}{FID}{Fossie Iliaque droite}
+#+LATEX_HEADER: \newacronym{FIG}{FIG}{Fossie illiaque gauche}
+#+LATEX_HEADER: \newacronym{TFI}{TFI}{Troubles fonctionnels intestinaux}
+#+LATEX_HEADER: \newglossaryentry{PET1}{name={Polyendocrinopathie auto-immune de type 1},description={Hypoparathyroïdie, candidose, insuf. surrénale}}
+#+LATEX_HEADER: \newglossaryentry{PET2}{name={Polyendocrinopathie auto-immune de type 2},description={insuf. surrénale + 1 maladie autoimmune parmi thyroïdite d'Hashimoto, maladie de Basedow, diabète type 1}}
+#+LATEX_HEADER: \newacronym{SPUPD}{SPUPD}{Syndrome polyuro-polydipsique}
 
 #+OPTIONS: H:5
 :END:
@@ -889,67 +889,29 @@ $\pm$ angioplastie, aponévrotomie. Amputation possible
 Surveiller acidose métabolique, hyperK, insuf rénale : diurèse, iono, urée,
 créat.
 
-** 231 \dagger - Rétrécissement aortique
-Obstruction à l'éjection du VG\footnote{Ventricule gauche}, ici au niveau de la
-valve aortique
+** 231 Rétrécissement aortique
+Obstruction à l'éjection du acrshort:VG (au niveau de la valve aortique)
 
-**** Étiologies 
-
-  - bicuspidie < 65 ans
-  - dégénératif après (rarement post-rhumatismal)
-
-
-Physiopatho: \inc pression \thus hypertrophie pariétale (compense un temps
-l'élévation de pression) \thus dysfonction systolique \thus dysfonction
-diastolique (altération compliance)
-
-**** Complication
-Insuf cardiaque, fibrillation auriculaire, troubles conduction, mort subite++
-
-*** Clinique
-
-Pronostic vital mis en jeu si symptômes ! \skull
-
-Dyspnée d'effort, angor d'effort, syncope (d'effort ?), (hémorragie digestive)
-
-Examen : 
-
-  - auscultation : {souffle mésosystolique éjectionnel, rude, râpeux},
-    abolition B2 si calcifié
-  - frémissement palpatoire (foyer aortique), (choc de point dévié en bas à
-    gauche) 
-
-
-*** Explorations
-Radio thorax : dilatation VG ?, surcharge pulmonaire
-
-ECG : souvent hypertrophie VG et auriculaire G, troubles conduction/rythme
-
-Cathétérisme : pas habituellement mais coronarographie pour pré-op si \male > 40 ans, FR, angor d'effort ou insuf
-cardiaque
-
-Scanner cardiaque : pré-op si \gls{TAVI}
-
-**** Échocardiographie-doppler transthoracique : examen clé. Critères
-
-  - V max > 4m/s
-  - gradient moyen > 40 mmHg
-  - surface aortique < 1 $\text{cm}^2$
-
-Évalue conséquences sur VG, débit cardiaque, pressions droites
-
-Examiner taille aorte, valve mitrale, tricuspide
-
-*** Traitement
-
-  - valve chirurgical : mécanique si jeune mais AVK à vie, sinon prothèse bio (> 65
-    ans)
-  - valvulopathie percutanée abandonnée
-  - implantation percutanée d'une valve aortique (TAVI)
-
-Si symptomatique, opérer. Sinon (et FEVG normale), test d'effort.
-
-NB : si FE < 35%, échocardio de stress sous dobutamine pour risque opératoire
+#+caption:  Rétrécissement aortique
+| Étiologies        | bicuspidie < 65 ans                                                   |
+|                   | dégénératif après (rarement post-rhumatismal)                         |
+|-------------------+-----------------------------------------------------------------------|
+| Complication      | acrshort:IC, acrshort:FA, troubles conduction, mort subite++          |
+|-------------------+-----------------------------------------------------------------------|
+| Clinique          | \hl Dyspnée d'effort, angor d'effort, syncope/ (d'effort ?)           |
+| Auscultation      | {souffle mésosystolique éjectionnel, rude, râpeux} \pm abolition B2   |
+|                   | Frémissement palpatoire (foyer aortique)                              |
+|-------------------+-----------------------------------------------------------------------|
+| RX                | dilatation VG ?, surcharge pulmonaire                                 |
+| ECG               | hypertrophie VG et A G, troubles conduction/rythme                    |
+| Cathétérisme      | pré-op si \male > 40 ans, FR, angor d'effort ou IC                    |
+| Scanner cardiaque | pré-op si \acrshort{TAVI}                                             |
+| *ETT*               | \hl - V max > 4m/s                                                    |
+|                   | \hl - gradient moyen > 40 mmHg                                        |
+|                   | \hl - surface aortique < 1 cm^2                                       |
+|-------------------+-----------------------------------------------------------------------|
+| Traitement        | symptomatique :  valve mécanique (jeune), bio (65 ans), acrshort:TAVI |
+|                   | asymptomatique : test d'effort + surveillance                         |
 
 ** 231 \dagger - Insuffisance mitrale
 Reflux de sang depuis le VG vers l'OG pendant la systole.
@@ -13741,6 +13703,8 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
  \printglossaries
 
 * Footnotes
+
+[fn:7] Pronostic vital mis en jeu si symptômes ! \skull
 
 [fn:242] (8-14 si légionellose, 21j si légionelles graves/ID)
 
