@@ -190,6 +190,7 @@
 #+LATEX_HEADER: \newglossaryentry{PET1}{name={Polyendocrinopathie auto-immune de type 1},description={Hypoparathyroïdie, candidose, insuf. surrénale}}
 #+LATEX_HEADER: \newglossaryentry{PET2}{name={Polyendocrinopathie auto-immune de type 2},description={insuf. surrénale + 1 maladie autoimmune parmi thyroïdite d'Hashimoto, maladie de Basedow, diabète type 1}}
 #+LATEX_HEADER: \newacronym{SPUPD}{SPUPD}{Syndrome polyuro-polydipsique}
+#+latex_header_extra: \newglossaryentry{IPS}{name={Index de pression systolique},description={Pression systolique cheville/bras}}
 
 #+OPTIONS: H:5
 :END:
@@ -750,103 +751,65 @@ Urgences moyennes : 4 P = {pneumothorax, pleurésie,
 pneumonies, pancréatite}, ulcère gastrique/duodénale, cholécystite, douleurs
 radiculaires
 
-** 223 \dagger - Artériopathie oblitérante (aorte, MI)
+** 223 Artériopathie oblitérante (aorte, MI)
 *** AOMI\footnote{Artériopathie oblitérante des membres inférieurs}
 
-Épidémio : \male > \female. Pic = 60-75 (\male), 70-80 (\female). Prévalence :
+Épidémio : \male > \female. Pic = 60-75 ans (\male), 70-80 ans (\female). Prévalence :
 1-2%
 
 **** Clinique
-Classif de Rutherford : 
-  I. asymptomatique 
-  I. claudication légère/modérée/sévère
-  I. douleur ischémique de repos 
-  I. perte de substance faible/majeur(ulcère/gangrène)
+Classif de Rutherford
+#+ATTR_LATEX: :environment enumerate
+#+ATTR_LATEX: :options [label=\Roman*]
+1. asymptomatique
+2. claudication légère/modérée/sévère
+3. douleur ischémique de repos
+4. perte de substance
 
-Claudication intermittente : douleur "crampe" au mollet après $x$m de marche.
-Disparaît en 5min. Sévère si $x < 200$m. \danger{} Sévère \neq symptomatique
-
-Puis au repos : 
-
-  - douleurs de décubitus : brûlure orteils, avant-pied. Amélioré par
-    déclivité
-  - trouble trophiques : peau mince, fragile, perte pilosité. Puis plaies,
-    ulcères, gangrène
-  - ischémie permanente : douleur > 10 j, antalgique résisntant. Critique si
-    PF\footnote{Pression de perfusion} < 50mmHg (cheville) ou 30mmHg (gros
-    orteil) !
-
-Physique : 
-
-  - inspection : pâle, cyanosé. Interdigitaux++
-  - palpation : froid, douleur à palpation musc si sévère, pouls, temps recoloration cutané, anévrisme
-abdo, poplité
-  - auscult : souffle
-  
 \begin{tcolorbox}
-AOMI si IPS\footnote{Index de pression systolique = pression systolique
-cheville/bras} < 0.70\footnote{sévére si < 0.60}. + écho-doppler artériel MI
+AOMI si gls:IPS < 0.70 (sévére si < 0.60) +
 \end{tcolorbox}
-  
-**** Paraclinique
 
-  - Test de marche (6min ou tapis roulant) : -30mmHG ou -20% évoque AOMI
-  - Transcutané de la $PO_2$ : hypoxie si < 35mmHg, critique si < 10mmHg
-  - Si revascularisation : angioscanner des MI, angiographie par RM,
-    artériographie des MI
+| Clinique   | claudication intermittente\tablefootnote{"crampe" au mollet après $x$ m de marche }                   |
+|            | douleur de décubitus : brûlures de l'avant-pied, insomnie++                                           |
+|            | ischémie > 15j résistante aux antalgiques                                                             |
+|            | troubles trophiques : peau mince, fragile - ulcère, gangrène                                          |
+|            | *gls:IPS < 0.70*                                                                                        |
+|------------+-------------------------------------------------------------------------------------------------------|
+| Examens    | *écho-doppler artériel MI*                                                                              |
+|            | Test de marche (6min ou tapis roulant) : -30mmHG ou -20% évoque AOMI                                  |
+|            | Transcutané de la $PO_2$ : hypoxie si < 35mmHg, critique si < 10mmHg                                  |
+|            | Si revascularisation : angioscanner des MI, angiographie par RM,                                      |
+|            | artériographie des MI                                                                                 |
+|------------+-------------------------------------------------------------------------------------------------------|
+| DD         | Douleurs hanches : neuro, rhumato, veineuse, musc                                                     |
+|            | Douleurs de décubitus : neuropathie sensorielle, sd régionaux douloureux                              |
+|            | complexes, compression radiculaire                                                                    |
+|            | Ulcères : veineux, microcirculatoire, neuropathie, trauma...                                          |
+|------------+-------------------------------------------------------------------------------------------------------|
+| Étiologie  | *Athéromateuse* (95%)\footnotemark                                                                      |
+|------------+-------------------------------------------------------------------------------------------------------|
+| Traitement | FR, antiagrégant plaquettaire , statine, IEC  $\pm$ \beta-bloquants si coronaire                      |
+|            | Arrêt tabac, marche \pm statine (périmètre de marche), prostaglandine (ischémie critique non revasc.) |
+|            | Si ischémie permanente : endovasc. (stent) ou chir (pontage).                                         |
+| Pronostic  | grave, espérance de vie -10 ans                                                                       |
 
-
-**** DD 
-
-  - Douleurs hanches : neuro, rhumato, veineuse, musc
-  - Douleurs de décubitus : neuropathie sensorielle, sd régionaux douloureux
-    complexes, compression radiculaire
-  - Ulcères : veineux, microcirculatoire, neuropathie, trauma...
-
-
-**** Étiologie : atteinte athéromateuse = 95%. Sinon : arthériopathies
-inflammatoires, dysplasie fibromusculaire, coarctation de l'aorte, atteinte
-post-radique ou post-trauma, toxique, gelures, compressions extrinsèques,
-atteinte de l'artère poplitée
-    
-**** Traitement
-Général : FR, antiagrégant plaquettaire (risque CV), statine (LDL), IEC (PA) $\pm$
-$\beta$-bloquants si coronaire
-
-Local : arrêt tabac, marche. Éventuellement statine (périmètre de marche),
-prostaglandine (ischémie critique non revasc.)
-
-Revascularisation si ischémie permanente : endovasc. (stent) ou chir (pontage).
-Association possible. Parfois endartériectomie ou amputation
-
-**** Pronostic : grave, espérance de vie -10 ans
-
+\footnotetext{Sinon : inflammatoire, dysplasie fibromusculaire, coarctation de l'aorte,                                     |
+ Post-radique ou post-trauma, toxique, gelures, compressions extrinsèques,                             |
+ Atteinte de l'artère poplitée}
 *** Anévrismes
 Dilatation du \diameter{} > 50%. Artères cérébrales, aorte, artères poplitées, iliaques
 
 **** Aorte abdominale
-FR : tabac, ATCD familiaux, âge. Risque de rupture > \female. Haut risque CV
-
-90% des cas : si maladie athéromateuses. Associés à athérosclérose (90%).
-Formes familiales, évolution aortite.
-
-Clinique : 
-
-  - asymptomatique : dépister si FR
-  - symptomatique : douleur abdo/lombaire $\pm$ choc hémorragique. Risque de
-    rupture imminente \thus scanner en urgence \skull
-  - autre : complication embolique, compression, sd inflammatoire
-
-Paraclinique : écho abdo (dépistage), scanner abdo-pelvien ou IRM = réf
-
-**** PEC
-Asymptomatique : surveillance si \diameter < 50cm sinon chir (pontage) ou
-endoprothèse (si haut risque chir)
-
-Symptomatique : \danger anévrisme rompu = urgence chir \danger. Ne pas attendre
-résultat
-
-Suivi : écho-doppler si prothèse viasc, scanner/écho si endoprothèse.
+| Épidémio     |                                                                                     |
+| Clinique     | longtemps asymptomatique                                                            |
+|              | terrain = \female > \male, > 60 ans, FR CV                                          |
+|              | masse expansive et battante para-ombilicale                                         |
+| Paraclinique | écho abdo (dépistage), scanner abdo-pelvien (pré-op)                                |
+|--------------+-------------------------------------------------------------------------------------|
+| PEC          | Asymptomatique : surveillance si \diameter < 50cm sinon chir (pontage/endoprothèse) |
+|              | Symptomatique : \danger anévrisme rompu = urgence chir \danger                      |
+| Suivi        | écho-doppler si prothèse viasc, scanner/écho si endoprothèse.                       |
 
 **** Anévrisme poplité
 Découvert par masse battante/écho-doppler. Opéré si > 20mm
@@ -861,29 +824,16 @@ loges.
 Reperfusion : sd de reperfusion ou troubles métaboliques, insuf. rénale (ou
 choc)
 
-**** Diagnostic Clinique, ne pas retarder la chirurgie \danger
-
-Douleur brutale, intense, broiement, impotence fonctionnelle. 
-
-Membre livide et froid, douleur à palpation musc, pouls abolis en aval, anesthésie, paralysie
-
-**** Étiologie 2 tableaux (qui peuvent se mélanger) :
-
-  - thrombose artérielle in situ (surtout AOMI)
-  - embolie sur artères saines (surtout cardiaque : fibrillation atriale)
-
-Donc ascultation cardiaque, ECG, palpation abdo, bilan coagulation
-
-Évaluer état général, fonction cardiaque, comorbidité
-
-**** Traitement
-Médical : HNF, antalgique niveau 3, oxygène, soins locaux.
-
-revascularisation : chirurgie (embolectomie par sonde Fogarty) voire fibrinolyse
-$\pm$ angioplastie, aponévrotomie. Amputation possible
-
-Surveiller acidose métabolique, hyperK, insuf rénale : diurèse, iono, urée,
-créat.
+| Diagnostic *clinique* ++++ | Douleur brutale, intense, broiement, impotence fonctionnelle. |
+|                        | Membre livide et froid, douleur à palpation musc              |
+|                        | , pouls abolis en aval, anesthésie, paralysie                 |
+| Étiologie              | - thrombose artérielle in situ (AOMI++)                       |
+|                        | - embolie sur artères saines (FA++)                           |
+|------------------------+---------------------------------------------------------------|
+| Traitement             | HNF, antalgique niveau 3, O_2, soins locaux.                  |
+|                        | Chirurgie : embolectomie / fibrinolyse                        |
+|                        | Amputation possible                                           |
+| Surveillane            | acidose métabolique, hyperK, IR (diurèse, iono, urée, créat)  |
 
 ** 231 Rétrécissement aortique
 Obstruction à l'éjection du acrshort:VG (au niveau de la valve aortique)
