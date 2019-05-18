@@ -1,3 +1,4 @@
+# -*- org-latex-tables-booktabs: t; -*-
 #+author: Alexis Praga
 #+latex_class: book-noparts
 #+OPTIONS: tags:nil
@@ -575,8 +576,7 @@ ECG en urgence \skull puis +6h
 **** PEC
 - USIC en urgence ! Avec ECG, dosage troponine, créatinine, glycémie, NFS
   
-  - aspirine
-  - + 
+  - aspirine + 
 #+BEGIN_EXPORT latex
     $\begin{cases}
       \text{clopidogrel + fondaparinux si bas risque}\footnotemark\\
@@ -647,38 +647,18 @@ Simule IDM : Penser à mycocardite aigüe (IRM), cardiomyopathie de stress
 (coronarographie)
 
 **** Complications précoces
-Rythme/conduction : 
-
-  - rythme ventriculaire : extrasystole < tachycardie < fibrillation
-    ventriculaire (FV = plupart des morts subites ! Besoin d'un choc électrique)
-  - supra-ventriculaire : décompensation hémodynamique, accidents emboliques
-  - \gls{BAV} (transitoire/définitif) ou
-    hypervagotonie\footnote{Bradycardie, hypotension} (Ttt : atropine, remplissage
-    macromoléculaire)
-
-
-Hémodynamiques
-
-  - insuf. ventriculaire G : grave, faire échocardio vite (4 stades)
-  - choc cardiogénique : diagnostic si hypotension artérielle mal tolérée,
-    ne répond pas au remplissage macromoléculaire. Souvent \gls{OCA} + 24/48h.
-    Mortalité > 70%
-  - infarctus ventricule D : hypotension, champs pulmonaires clairs,
-    turgescence jugulaire. Regarder dérivations droites (!) : sus-ST.
-    Échocardiographie
-
-Mécaniques :
-
-  - rupture paroi libre ventricule G : rapidement fatal
-  - rupture septale : +24-48h. Échocardiographie doppler. Forte mortalité
-  - insuf mitrale : fuite par prolapsus valvulaire. Ttt chir
-
-Thrombotique : thrombus intra-VG, embolies systémique : échocardio. (Thrombose
-veineuse, EP)
-
-Péricardite : sd inflammatoire, souvent asymptomatique.
-
-Récidive ischémique \thus récidive IDM. Épreuve d'effort à  +5 jours.
+#+caption: Complications précoces IDM
+| Rythme/conduction | ventriculaire : extrasystole < tachycardie < FV         |
+|                   | supra-v : décompensation HD, accidents emboliques       |
+|                   | acrshort:BAV, hypervagatonie                            |
+| Hémodynamiques    | IVG, choc cardiogénique (Souvent acrshort:OCA + 24/48h. |
+|                   | IVD                                                     |
+| Mécaniques        | rupture paroi libre ventricule G                        |
+|                   | rupture septale                                         |
+|                   | insuf mitrale                                           |
+| Thrombotique      | intra-VG, embolies systémique                           |
+| Péricardite       |                                                         |
+| Récidive          |                                                         |
 
 **** Complications tardives
 Péricardite à +3 semaines (sd de Dressler)
@@ -690,15 +670,14 @@ Troubles rythmes ventriculaires sévères : \gls{DAI}
 
 *** PEC
 Reperfusion !!
-- Si angioplastie faisable < 120min ou CI à la \gls{FIV} : salle de cathétérisme +
-  angioplastie
+- angioplastie si faisable < 120min ou CI à la acrshort:FIV 
 - sinon FIV par TNK-tPA. Si échec, angioplastie de sauvetage
 - \textbf{en même temps } 
   
   - antalgique \pm O_2
-  - + aspirine + (clopidogrel (si fibronolyse) ou prasugrel ou ticagrelor)
-  - + (HNF ou énoxaparine ou bivalirudine [\danger{} pas si FIV]
-  - + \beta-bloquant (avec prudence)
+  - + aspirine + clopidogrel[si FIV]/prasugrel/ticagrelor
+  - + anticoag: HNF/énoxaparine
+  - + \beta-bloquant (prudence)
   - + IEC dans 24h
   - + éplérénone précocement (si FEVG < 40% ou insuf cardiaque)
   
@@ -706,23 +685,18 @@ Efficacité : reperfusion dans 90min (50%). Sd reperfusion
 
 Complications : AVC, réocclusion (surtout si ttt antiagrégant interrompu)
 
-**** Tttt des complications
-Troubles rythmes ventriculaire : amiodarone
-
-Troubles rythmes supra-ventriculaire : AVK si mal toléré (hémodynamique)
-
-BAV transitoire : atropine.
-
-BAV après IDM antérieur : sonde d'entraînement électrosystoliques.
-
-Insuf ventriculaire G : diurétique, IEC, épléronone
-
-Choc cardiogénique : lutter contre {hypovolémie, troubles rythme}, sidération
-(dobutamine). Assistance circulatoire/cardiaque/cardiocirculation,
-revascularisation
-
-Mécanique : rupture paroi libre = mortelle, septale = suture chir, mitrale =
-remplacement valvulaire.
+#+caption: Tttt des complications de l'IDM
+#+name: IDM_complications
+| Troubles rythmes ventriculaire       | amiodarone                                               |
+| Troubles rythmes supra-ventriculaire | AVK si mal toléré (hémodynamique)                        |
+| BAV transitoire                      | atropine.                                                |
+| BAV après IDM antérieur              | sonde d'entraînement électrosystoliques.                 |
+| Insuf ventriculaire G                | diurétique, IEC, épléronone                              |
+| Choc cardiogénique                   | lutter contre {hypovolémie, troubles rythme}, sidération |
+|                                      | (dobutamine). Assistance CV, revasc                      |
+| Mécanique                            | rupture paroi libre : mortelle                           |
+|                                      | septale : suture chir                                    |
+|                                      | mitrale = remplacement valvulaire                        |
 
 *** Suivi : BASIC (cf section [[subsec:BASIC]])
 
@@ -735,7 +709,7 @@ remplacement valvulaire.
 
 Éventuellement DAI
 
-** 228 \dagger - Douleur thoracique aigüe
+** 228 Douleur thoracique aigüe
 \begin{tcolorbox}
 Urgences vasculaire : PIED (péricardite, infarctus, embolie pulmonaire,
 dissection)
@@ -751,7 +725,6 @@ Détresse vitale ?
 ECG 12 + 5 dérivations, radio poumon, troponinémie \thus USIC
 
 *** Urgences
-
 |             | Terrain | Douleur          | Clinique              | ECG              | RX             | CAT               |
 |-------------+---------+------------------+-----------------------+------------------+----------------+-------------------|
 | SCA         | FR CV   | repos > 20min    |                       | sous/sus-ST      | N              | Myoglobine, tropo |
@@ -5308,8 +5281,6 @@ Inévitable  mais pas mortelle
 *** PEC 
  Glucocorticoïdes si inclusion surrénaliennes. Sinon chir 1ere intention. Chimio si métastases pulmonaires/ganglionnaires.
 
-
- \printglossaries
 
 ** Annexes
 *** Hormones
@@ -13764,6 +13735,10 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
    (idem + \oe{}dème papillaire
  - artériosclérose : I (croisement), II (idem plus rétrécissement marqué), III
    (idem plus occlusion de branche)
+
+
+* Glossaire                                                                     :export:
+ \printglossaries
 
 * Footnotes
 
