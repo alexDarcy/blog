@@ -2120,21 +2120,18 @@ Parfois : IRM (2eme intention), ponction ou drainage
 
 Hospit ? si étiologie ou risque (symptôme > plusieurs jours)
 
-**** Étiologies 90% virale ou inconnue
+| Étiologie            | Clinique                       | Diagnostic              | Ttt                    | Évolution                 |
+|----------------------+--------------------------------+-------------------------+------------------------+---------------------------|
+| \hlc *Aigüe virale* ++ | Jeune, début brutal            | Sérologie inutile       | \emptyset              | favorable, récidive++     |
+|                      |                                | si typique sans gravité |                        |                           |
+| Purulente            | ID, infection sévère           |                         | ATB adapté             | Tamponnade                |
+|                      |                                |                         |                        | constriction péricardique |
+| Tuberculeuse         | AEG, fièvre modéré persistante |                         | Antitiberculeux        |                           |
+|                      | Tuberculeux/âgé,/greffé,       |                         |                        | Tamponnade, CP            |
+|                      | VIH, alcool                    |                         |                        |                           |
+| Néoplasique          | Métastates surtout             | Échocardio              | Ponction si tamponnade | Récidive                  |
 
-  - aigüe virale : fréq++, sérologie inutile si typique sans gravité.
-    Évolution favorable\footnote{Tamponnade/constriction péricardique rare}.\\
-    Fréquent pendant VIH
-  - purulente : rare mais grave. Immunodéprimé, infections sévère.\\
-    Évolue vers tamponnade/constriction péricardique\\
-    ATB
-  - tuberculeuse : AEG, fièvre modéré persistante. Sujet tuberculeux, âgé,
-    greffé, VIH, alcoolique.\\
-    BK, PCR\\
-    Évolue vers tamponnade/constriction péricardique\\
-    ATB
-  - néoplasique : souvent métastase. Échocardio\\
-    Ponction/biopsie essentielle. Récidive fréquente
+Autres étio
   - systémique auto-immunes : lupus, polyarthrite rhumatoïde, sclérodermie,
     pérartérite noueuse, dermatomyosite
   - IDM : précoce (5j) : favorable $\ne$ tardive (2-16sem) : sd Dressler
@@ -2142,25 +2139,20 @@ Hospit ? si étiologie ou risque (symptôme > plusieurs jours)
   - sd post-péricardotomie : post chir ou greff cardiaque.
 
 
-*** Complications
-
-  - Tamponnade : compression des cavités D par épanchement.\\
-    Clinique : douleur thoracique, signes droits, choc, bruits coeur assourdis,
-    pouls paradoxal. \\
-    ECG, radiothorax, échocardio ("swining heart")
-  - Myocardite : insuf cardiaque fébrile. Échocardio, IRM+++
-  - Péricardite récidivante : ttt = colchicine ?
-  - Péricardite chronique > 3 mois : souvent néoplasique
-  - Péricardite chronique constrictive : adiastolie avec égalisation
-    pression télédiastoliques\\
-    Insuf cardiaque droite et gauche. Diago écho. Chir ?
-
-
-*** Traitement
-Bénigne : hospit, repos, douleur, AINS ou aspirine, protection gastrique,
-colchicine (CI si insuf rénale sévère)
-
-Tamponnade : urgence \skull, remplissage, ponction/drainage
+| Complications | Tamponnade                         | Douleur thoracique, signes droits, choc,       |
+|               |                                    | bruits coeur assourdis, pouls paradoxal.                                               |
+|               |                                    | ECG, radiothorax, échocardio ("swining heart") |
+|---------------+------------------------------------+------------------------------------------------|
+|               | Myocardite                         | Échocardio, IRM+++                             |
+|               | Péricardite récidivante            | Fréquente. Colchicine en prévention ?          |
+|               | Péricardite chronique > 3 mois     | Néoplasie, tuberculose                         |
+|               | Péricardite chronique constrictive | IC droite et gauche. Échographie. Chir ?       |
+|---------------+------------------------------------+------------------------------------------------|
+| Traitement    | Bénigne                            | hospit, repos, douleur,                        |
+|               |                                    | ibuprofène/aspirine, protection gastrique,     |
+|               |                                    | colchicine (CI si IR sévère)                   |
+|               | Tamponnade \skull                  | remplissage, ponction/drainage                 |
+|               |                                    |                                                |
 
 ** 327 \dagger : Arrêt cardiocirculatoire
 
