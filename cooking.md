@@ -18,20 +18,14 @@
   + 1 jaune d'oeuf
   + 12 g de sel (+ 1 pincée)
 
-- Brownie : [(meilleure recette pour l'instant)(https://tasty.co/recipe/ultimate-brownies)). 
-  + Diminuer 1/3 le sucre fonctionne. 
-  + café sous forme liquide : non senti, tester version en poudre
-  + 2 ½ sticks unsalted butter, plus more, softened, for greasing
-  + 8 oz good-quality semisweet chocolate, or bittersweet chocolate, 60-70% cacao, roughly chopped
-  + ¾ cup unsweetened dutch process cocoa powder, divided
-  + 1 tablespoon espresso powder
-  + 2 cups granulated sugar
-  + ½ cup dark brown sugar, packed
-  + 2 teaspoons vanilla extract
-  + 2 teaspoons kosher salt
-  + 6 large eggs
-  + 1 cup all-purpose flour
-  + flaky sea salt, for sprinkling
+- Brownie : 2 recettes : 
+  + https://tasty.co/recipe/ultimate-brownies 
+    - -33% en sucre
+    - café liquide inutile, tester en poudre
+    - problème de cuisson : centre pas assez cuit. Brownie trop épais ?
+  + https://www.seriouseats.com/recipes/2018/02/bravetart-glossy-fudge-brownies.html.
+    - diviser quantité par 2 : brownie fin dans un plat à tarte. 
+    - 20-25min à 180 degré. Cuisson homogène
 
 - Cinnamon rolls [de Babish](https://www.bingingwithbabish.com/recipes/cinnamonrolls?rq=cinnamon)
   + Le glacage est trop lourd (et seulement testé avec fromage frais + sucre) en soi ! 
