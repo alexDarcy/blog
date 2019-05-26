@@ -195,7 +195,7 @@
 #+OPTIONS: H:5
 :END:
 
-* Cardiologie                                                             :export: 
+* Cardiologie
 \def\arrow{$\rightarrow$}
 ** 218 \dagger - Athérome
 
@@ -2718,7 +2718,7 @@ Neuropsy :
 - confusion : neuroleptique (éviter benzodiazepine !)
 - anxiété : benzodiazepine, hydroxine. Si échec neuroleptique
 
-* Endocrinologie
+* Endocrinologie                                                                :export:
 ** 32 \dagger Allaitement maternel
 ** 35 \dagger Contraception
 *** Contraception hormonale

@@ -33,6 +33,10 @@
   + 1 cup all-purpose flour
   + flaky sea salt, for sprinkling
 
+- Carrot cake : https://www.seriouseats.com/recipes/2017/10/carrot-cake-recipe.html 
+  + un peu trop trop humide
+  + glacage non fait (version rapide = beurre + cream cheese + sucre glace)
+
 - Cinnamon rolls [de Babish](https://www.bingingwithbabish.com/recipes/cinnamonrolls?rq=cinnamon)
   + Le glacage est trop lourd (et seulement testé avec fromage frais + sucre) en soi ! 
   + Soit réessayer la recette de babish (en petite quantités), soit simplement nature.
