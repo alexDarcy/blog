@@ -21,11 +21,14 @@
 - Brownie : 2 recettes : 
   + https://tasty.co/recipe/ultimate-brownies 
     - -33% en sucre
-    - café liquide inutile, tester en poudre
-    - problème de cuisson : centre pas assez cuit. Brownie trop épais ?
-  + https://www.seriouseats.com/recipes/2018/02/bravetart-glossy-fudge-brownies.html.
+    - café en poudre ok
+    - problème de cuisson : centre pas assez cuit. Brownie trop épais ? 
+    - 2eme essai : avec les temps recommandé, au milieu du four, trop cuit ! (comme un cake, trop épais) 
+    - => cuire moins+++ (30min), utiliser du chocolat à 70%, bien respecter la dose de cacao en poudre, bien battre++
+  + https://www.seriouseats.com/recipes/2018/02/bravetart-glossy-fudge-brownies.html
     - diviser quantité par 2 : brownie fin dans un plat à tarte. 
     - 20-25min à 180 degré. Cuisson homogène
+  + différences entre les 2 : un peu plus de beurre pour SE, un peu plus de chocolat (normal + poudre) pour tasty
 
 - Carrot cake : https://www.seriouseats.com/recipes/2017/10/carrot-cake-recipe.html 
   + un peu trop trop humide
