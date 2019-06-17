@@ -103,6 +103,7 @@
 - Porc fondant : oignon rouge, ail chemisé, curry, porc à braiser. Le tout cuit
     pendant 2h au moins avec couvercle
 - Couscous : [recette de semoule traditionnelle](http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html)
+- Quiche : bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits ! 
 
 ## Pains 
 Pour une croûte : augmenter la vapeur

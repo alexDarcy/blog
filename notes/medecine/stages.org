@@ -79,3 +79,45 @@ habituel, allergies (dernier repas)
 - Comportement alimentaire (régimes précédents)
 - SAOS
 - Acanthosis nigricans
+* Généraliste
+** TODO J4
+** TODO J5
+** Examen clinique
+*** Hygroma 
+    CLOSED: [2019-06-17 Mon 22:00]
+ - Genou++, coude : fréquent si sollicitation professionnelle
+ - Douleur local, aspect inflammatoire (chaud), épanchement liquidient palpation
+ - Repos, glace, anti-inflammatoire
+*** Réflexes archaïques (doivent avoir disparus à 4 mois)
+    - Moro: extension cervical (en arrière) rapide => extension + abduction des bras
+    - stimulation palmaire => agrippement
+    - frottement des pieds => ébauche de marche
+    - succion
+    - stimulation péribuccal => tête tournée vers stimulation
+    - allongement croisé : stimulation plante de pied => flexion et extension controlatérale
+*** Critères d'Ottawa      
+Radio de cheville si douleur malléolaire *et*
+- impossible de marcher > 4 pas immédiatement et à l'examen
+- *ou* sensibilité 6cm distaux tibia
+- *ou* sensibilité 6cm distaux fibula
+
+** Prévention risques foetaux
+- Toxoplasmose : sérologie *systématique* < 10SA => si négatif, contrôle *mensuel* !
+- Rubéole : sérologie *systématique* < 10SA
+- Syphilis : sérologie *systématique* < 10SA
+- VHB : sérologie *systématique* 6eme mois
+- VIH
+- streptocoque : prélèvement *systématique* 36-38SA
+
+** Médicaments
+Atarax = anxiolytique
+Bipreterax = périndopril (IEC) + indapamide (diurétique) : HTA
+Clindamycine = macrolide
+Coversyl = périndopril
+Lasilix (Furosémide) = diurétique de l'anse
+Lumirelax = relaxant musculaire
+Micardis = telmisartan (ARA II)
+Tanganil = antivertigineux
+Smecta = diosmectite : adsorbant intestinal (diarrhée)
+Spasfon : troubles fonctionnels digestifs
+Vogalène = métopimazine : antiémétique
