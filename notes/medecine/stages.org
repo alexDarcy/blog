@@ -80,8 +80,8 @@ habituel, allergies (dernier repas)
 - SAOS
 - Acanthosis nigricans
 * Généraliste
-** TODO J4
 ** TODO J5
+** TODO J6
 ** Examen clinique
 *** Hygroma 
     CLOSED: [2019-06-17 Mon 22:00]
@@ -109,15 +109,25 @@ Radio de cheville si douleur malléolaire *et*
 - VIH
 - streptocoque : prélèvement *systématique* 36-38SA
 
+** Suivi  
 ** Médicaments
+Acide fusidique : impétigo
 Atarax = anxiolytique
+Bilaska : rhino-conjonctivite allergique
 Bipreterax = périndopril (IEC) + indapamide (diurétique) : HTA
 Clindamycine = macrolide
 Coversyl = périndopril
+Ezetimibe : +statine pour hypecholestérolémie primaire
+Hamamélis : hémorroïdes, insuf. veinolymphatiques
+Ibufetum = AINS en gel
 Lasilix (Furosémide) = diurétique de l'anse
 Lumirelax = relaxant musculaire
 Micardis = telmisartan (ARA II)
+Norset = mirtazapine : épisodes dépressifs majeurs
+Prolia = dénosumab : ostéoporose (5 ans puis 1 an biphosphonates)
 Tanganil = antivertigineux
+Salbutamol : asthme, BPCO
 Smecta = diosmectite : adsorbant intestinal (diarrhée)
+Spedra : dysfonction érectile
 Spasfon : troubles fonctionnels digestifs
 Vogalène = métopimazine : antiémétique
