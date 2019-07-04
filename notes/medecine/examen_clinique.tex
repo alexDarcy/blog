@@ -1,0 +1,208 @@
+\documentclass[12pt,landscape]{article}
+\usepackage{multicol}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage[landscape]{geometry}
+\usepackage{hyperref}
+
+% To make this come out properly in landscape mode, do one of the following
+% 1.
+%  pdflatex latexsheet.tex
+%
+% 2.
+%  latex latexsheet.tex
+%  dvips -P pdf  -t landscape latexsheet.dvi
+%  ps2pdf latexsheet.ps
+
+
+% If you're reading this, be prepared for confusion.  Making this was
+% a learning experience for me, and it shows.  Much of the placement
+% was hacked in; if you make it better, let me know...
+
+
+% 2008-04
+% Changed page margin code to use the geometry package. Also added code for
+% conditional page margins, depending on paper size. Thanks to Uwe Ziegenhagen
+% for the suggestions.
+
+% 2006-08
+% Made changes based on suggestions from Gene Cooperman. <gene at ccs.neu.edu>
+
+
+% To Do:
+% \listoffigures \listoftables
+% \setcounter{secnumdepth}{0}
+
+
+% This sets page margins to .5 inch if using letter paper, and to 1cm
+% if using A4 paper. (This probably isn't strictly necessary.)
+% If using another size paper, use default 1cm margins.
+\ifthenelse{\lengthtest { \paperwidth = 11in}}
+        { \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
+        {\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+                {\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+                {\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+        }
+
+% Turn off header and footer
+\pagestyle{empty}
+
+
+% Redefine section commands to use less space
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%x
+                                {\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+                                {-1explus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%
+                                {\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {1ex plus .2ex}%
+                                {\normalfont\small\bfseries}}
+\makeatother
+
+% Define BibTeX command
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+% Don't print section numbers
+\setcounter{secnumdepth}{0}
+
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+
+
+% -----------------------------------------------------------------------
+
+\begin{document}
+
+\raggedright
+\footnotesize
+\begin{multicols}{3}
+
+
+% multicol parameters
+% These lengths are set only within the two main columns
+%\setlength{\columnseprule}{0.25pt}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+\begin{center}
+     \Large{\textbf{Examen clinique}} \\
+\end{center}
+
+\subsection{ATCD}
+\label{sec:org32b2aff}
+chir, med, gynéco, familial, perso
+\subsection{Ttt}
+\label{sec:orge6567b5}
+habituel, allergies (dernier repas)
+\subsection{MDV}
+ profession, main dominante, sport\\
+ toxiques, alcool, tabac, viral\\
+ conditions de vie, autonome
+\subsection{HDM}
+\label{sec:org13306b7}
+ anamnèse: déclenché par ? favorisé par ?\\
+ clinique : quantifier, signes\\
+ complications, retentissement, fièvre, AEG
+\subsection{Signes généraux}
+ SF\\
+ Température\\
+ Hydratation
+\subsection{Urgences}
+ Choc ?\\
+ Détresse respi aigüe ?\\
+ Confusion, coma ? (sd méningé, glycémie)
+\subsection{Vasculaire}
+ SF: douleur thoracique\\
+ Turgescence jug, oedème\\
+ Auscultation
+\subsection{Vasculaire artériel}
+ SF: AIT, HTA, ischémie\\
+ PA, FC, IPS\\
+ TRC, pouls, auscult vasc.
+\subsection{Veine}
+ SF: douleur, membre chaud\\
+ Troubles trophiques
+\subsection{Pulmonaire}
+ SF: dyspnée, expectoration, toux\\
+ FR, régularité\\
+ Thorax, cyanose, hippocratisme digital\\
+ Palpation, auscultation
+\subsection{Digestif}
+ SF: douleur, transite, hémorragie, rectal\\
+ Cicatrice, éventration, hernie, ictère, IHC\\
+ Palpation (HMG, point Mc Burney, sd péritonéal)\\
+ Percusion, auscultation\\
+ TR
+\subsection{Neuro}
+SF: céphalée, doeuler neuro, confusion/mémoire, 5 sens, équilibre\\
+droitier ?\\
+tremblements ?\\
+testing musculaire, ROT\\
+RCP\\
+sensibilitaté (tact, thermique, doigt-nez)\\
+nerf crâniers (II = AV, RPM; oculomotricité, trijumeau, VII=occlusion palpébrale, grimace, VII = Romberg, systagmus, IX et X = déglutation, XI: sterno-cléido-mastoïdien, XII: langue)\\
+Signe ménigé\\
+Doigts-nez, marionnettes\\
+Romberg, marche, ordres\\
+Fonction sup : langage, articulation, mémoire
+\subsection{Locomoteur}
+SF: douleur, raideur, blocaque, marche\\
+Rachis (épineuses, paravértébraux)\\
+Sacroiliqaue\\
+Articulation périhp : inflammation, déformation, mobilité passive/actives\\
+Genou :
+\begin{itemize}
+\item épanchement (choc rotulien), palpé rotulien, rabot, Zohlen (rotule bas, quadri contracté), ressaut rotulien
+  \item méniscal : palpation, grinding test
+    \item LCA (Lachman, tiroir), LCP,
+\end{itemize}
+Épaule : conflit sous-acromial (Neer, Yocum), coiffe (Jobe = supra, Patte  infa, belly = sous-scap)\\
+Poignet : Finkelsten (déviation ulaine -> tendinop. de De Quervain)
+
+Pied : interligne Chopart, Lisfranc, éversion/inversion
+
+Cheville : Ottawa (5eme métatarsion/naviculaire ; malléole +/6cm)
+
+\subsection{Uro}
+SF : douleur, brûlures, couleurs, érection\\
+Palpation (abdo, flanc, globe, bourse)\\
+Perscussion (fosse, globe)\\
+TR/TV
+
+\subsection{Gynéco}
+SF: douleur, écoulement, aménorrhée, prurit, urinaire, mammaire\\
+Abdo\\
+sein
+Périnée (prolapses)
+Spéculum, TV
+
+\subsection{Hémato}
+SF (asthénie, dyspnée)\\
+Hémorragique : épistaxis, purpuras\\
+Sd infectieux
+
+\subsection{Endocrino}
+Thyroïde\\
+Diabéte : SF (angor, AIT, vision), pied : cutané, pouls, TRC, réflexe, monofilament
+\subsection{ORL}
+Audition\\
+Équilibre\\
+Larynx\\
+Oropharynx\\
+Fosses nasales\\
+
+\subsection{Ophtalmo}
+SF: BAV, phosphène, diplopie, rougeau, prurit\\
+Inspectieus : paupière, glande, cornée, conjonctives, globe, pupille\\
+AV
+\end{multicols}
+\end{document}

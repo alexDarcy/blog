@@ -82,6 +82,10 @@ habituel, allergies (dernier repas)
 * Généraliste
 ** TODO J5
 ** TODO J6
+** TODO J7  à reprendre
+TVP : rupture de kyste poplité
+** TODO J8 
+TVP : rupture de kyste poplité
 ** Examen clinique
 *** Hygroma 
     CLOSED: [2019-06-17 Mon 22:00]
@@ -100,7 +104,10 @@ Radio de cheville si douleur malléolaire *et*
 - impossible de marcher > 4 pas immédiatement et à l'examen
 - *ou* sensibilité 6cm distaux tibia
 - *ou* sensibilité 6cm distaux fibula
-
+** Orientation
+- Sensation faiblesse persistante : cardio (rythme, conduction), infection, thyroïde, pulmonaire
+** Examens
+- Fracture de fatigue : scinti/TDM/IRM ou RX différée
 ** Prévention risques foetaux
 - Toxoplasmose : sérologie *systématique* < 10SA => si négatif, contrôle *mensuel* !
 - Rubéole : sérologie *systématique* < 10SA
@@ -130,4 +137,38 @@ Salbutamol : asthme, BPCO
 Smecta = diosmectite : adsorbant intestinal (diarrhée)
 Spedra : dysfonction érectile
 Spasfon : troubles fonctionnels digestifs
+Uvédose : carence vitamine d
 Vogalène = métopimazine : antiémétique
+* Médecine nucléaire
+** Cours
+Imagerie dite fonctionnelle
+https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/imagerie-mdicale
+
+Médicaments radiopharmaceutiques : constitués d'un radio-élement (émet le rayonnement) + un vecteur (se fixe aux organes)
+
+Choix du radio-élement
+- scintigraphie conventielle : photons gamma [fn:1]
+- TEP : positions (électrons avec charge positive). Quand ils s'annihilent avec un électron, cela génère une paire de photons gamma partant dans des directions opposés. Cette paire est déctectée par le TEP (avec des capteurs à 180 degrés)
+
+--- Corriger ---
+Choix du vecteur
+Possibilités : Iode 123, thallium 201, glucose FDG+fluor 18
+Traceurs : 
+- FDG (fluor radioctif ) = cancers (sauf prostate). TEP surtout
+- choline : cancers de la prostate
+- ?
+- iode
+Appareils :
+- TEP-scan : dispositif en couronne pour une image directement en 3D
+- caméra gamma : 
+Examens
+- scintigraphie osseuse
+- scintigraphie cardiaque : 
+- scintigraphie thyroïdienne : si hyperthyroïdes, 
+Principe :
+- scintigraphie osseuse : photon -> cristale -> photon lumineux -> active électron sur recepteur pour l'image
+--- Corriger ---
+
+* Footnotes
+
+[fn:1] Les rayonnements X proviennent d'un réarrangement des électrons, les rayonnements gamma viennent des transformations du noyau.
