@@ -168,7 +168,15 @@ Examens
 Principe :
 - scintigraphie osseuse : photon -> cristale -> photon lumineux -> active électron sur recepteur pour l'image
 --- Corriger ---
-
+* Gardes
+** Examen clinique
+- Genou : tiroir antérieur postérieur, laxité latéral, épanchement ? (bilatéral !!), Zohlen, amplitude passive
+** Enfant
+- examen de la bouche : bras en arrière de la tête
+- trauma crânien : si a pleuré, pas de perte de conscience !
+  Surveillance simple à domicile si pas de point d'appel. Les parents
+  doivent le réveiller régulièrement et surveiller : vomissements,
+  céphalées, troubles cognitifs....
 * Footnotes
 
 [fn:1] Les rayonnements X proviennent d'un réarrangement des électrons, les rayonnements gamma viennent des transformations du noyau.
