@@ -14,8 +14,9 @@ build:
 	${STACK} exec blog build
 
 MED=notes/medecine
-NOTES_ORG= $(wildcard ${MED}/*.org)
-
+ORG= $(wildcard ${MED}/*.org)
+ORG_WEB= $(wildcard ${MED}/livres_medecine.org)
+ORG_PDF=$(filter-out ${ORG_WEB}, ${ORG})
 # Some note are still in latex
 NOTES_TEX= \
 ${MED}/afgsu.tex\
@@ -23,18 +24,22 @@ ${MED}/nutrition.tex\
 $(NOTES_ORG:.org=.tex)
 
 NOTES_PDF=$(NOTES_TEX:.tex=.pdf) 
+NOTES_WEB=$(ORG_WEB:.org=.html) 
 
 .PHONY: notes
 # .PHONY: ${NOTES_TEX} 
-notes: ${NOTES_PDF} 
+notes: ${NOTES_PDF}  ${NOTES_WEB}
 	mkdir -p _site/notes/medecine
 	cp $^ _site/notes/medecine
 
 notes/medecine/%.pdf: notes/medecine/%.tex
 	latexmk -pdf -lualatex -cd $<
 
-${MED}/%.tex: ${MED}/%.org
+${MED}/%.tex: ${ORG_PDF}
 	emacs -u "$(id -un)" --batch $< --eval '(load user-init-file)' -f org-latex-export-to-latex
+
+${MED}/%.html: ${ORG_WEB}
+	emacs -u "$(id -un)" --batch $< --eval '(load user-init-file)' -f org-html-export-to-html
 
 debug: generate update
 
