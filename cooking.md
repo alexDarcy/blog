@@ -70,6 +70,14 @@
 
 - Mille-feuille [de Conticini](https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse)
 
+- Moka : Felder plutôt que PPAP : 
+   + le biscuit est plus simple chez Felder et plus aéré
+   + doubler la dose de crème... => au final, un gâteau avec une légère couche de crème donc pas trop lourd
+   + beaucoup trop de sirop dans la recette, diviser au moins par 3
+   + le plus difficile (dans les 2 recettes ) : bien gérer le beurre
+      * le prendre bien pommade
+      * quand on le mélange aux oeufs encore chaud, refroidir les oeufs avant ... et y aller par petite quantités avec le beurre (NB: possible de recongeler si c'est trop liquide mais éviter...)
+
 - Mousse au chocolate de [Philippe Conticini]() : éviter une ganache trop liquide. Ne pas lésiner sur les blancs. Pour 5 parts :
    + 37 g de sucre roux
    + 250 g de blancs d’oeuf

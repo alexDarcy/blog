@@ -80,12 +80,18 @@ habituel, allergies (dernier repas)
 - SAOS
 - Acanthosis nigricans
 * Généraliste
+** TODO J4
+   1ere page seulement
 ** TODO J5
 ** TODO J6
 ** TODO J7  à reprendre
 TVP : rupture de kyste poplité
 ** TODO J8 
 TVP : rupture de kyste poplité
+** Dépistage
+- Cancer colorectal : 
+  + risque modéré (> 50A, asymptomatique) = test immuno de sang dans le selles tous les 2 ans \pm coloscopie.  
+  + risque élevé : coloscopie tous les 3 à 5 ans selon ATCD
 ** Examen clinique
 *** Hygroma 
     CLOSED: [2019-06-17 Mon 22:00]
@@ -104,26 +110,19 @@ Radio de cheville si douleur malléolaire *et*
 - impossible de marcher > 4 pas immédiatement et à l'examen
 - *ou* sensibilité 6cm distaux tibia
 - *ou* sensibilité 6cm distaux fibula
-** Orientation
-- Sensation faiblesse persistante : cardio (rythme, conduction), infection, thyroïde, pulmonaire
 ** Examens
 - Fracture de fatigue : scinti/TDM/IRM ou RX différée
-** Prévention risques foetaux
-- Toxoplasmose : sérologie *systématique* < 10SA => si négatif, contrôle *mensuel* !
-- Rubéole : sérologie *systématique* < 10SA
-- Syphilis : sérologie *systématique* < 10SA
-- VHB : sérologie *systématique* 6eme mois
-- VIH
-- streptocoque : prélèvement *systématique* 36-38SA
-
-** Suivi  
 ** Médicaments
 Acide fusidique : impétigo
+Airomir : crise d'asthme
 Atarax = anxiolytique
+Auricularum = dexaméthasone + ATB (cycle, polypetitde, antifongique) : otite externe bactérienne, otite chronique
 Bilaska : rhino-conjonctivite allergique
 Bipreterax = périndopril (IEC) + indapamide (diurétique) : HTA
+Ciloxadex = ofloxacine + dexaméthasone : otite aigüe externe
 Clindamycine = macrolide
 Coversyl = périndopril
+Gibiter = corticoïde + BDLA pour l'asthme
 Ezetimibe : +statine pour hypecholestérolémie primaire
 Hamamélis : hémorroïdes, insuf. veinolymphatiques
 Ibufetum = AINS en gel
@@ -139,6 +138,17 @@ Spedra : dysfonction érectile
 Spasfon : troubles fonctionnels digestifs
 Uvédose : carence vitamine d
 Vogalène = métopimazine : antiémétique
+** Orientation
+- Sensation faiblesse persistante : cardio (rythme, conduction), infection, thyroïde, pulmonaire
+** Prévention risques foetaux
+- Toxoplasmose : sérologie *systématique* < 10SA => si négatif, contrôle *mensuel* !
+- Rubéole : sérologie *systématique* < 10SA
+- Syphilis : sérologie *systématique* < 10SA
+- VHB : sérologie *systématique* 6eme mois
+- VIH
+- streptocoque : prélèvement *systématique* 36-38SA
+
+** Suivi  
 * Médecine nucléaire
 ** Cours
 Imagerie dite fonctionnelle
