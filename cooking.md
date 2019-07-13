@@ -64,6 +64,13 @@
   causes possibles : abaisses de pâtes qui se recoupent, chiquetage
   mal fait
 
+- Gâteau au chocolat : essayer
+  (recette de Tasty)[https://tasty.co/recipe/the-ultimate-chocolate-cake] vs
+  (Blackout cake)[https://www.bonappetit.com/recipe/blackout-cake]
+  + Tasty : attention, bien cuire le gâteau et *bien* attendre qu'il soit froid
+   (sinon tombe en morceaux) !!
+   Pas de bière mais la moitié en eau chaude. Bien dilueer le café en poudre avant.
+   Pour le glacage, quantité de sucre divisée par 2, ok. Pas assez de glacage ?
 - Gaufres : pas de souci de cuisson avec [cette recette](https://www.hervecuisine.com/recette/gaufres-croustillantes-ultra-legeres/). Temps de repos qui fait la différence ? (Souvent pas assez cuite dans les essais précédents)
 
 - Guimauve ([jujube-en-cuisine](http://www.jujube-en-cuisine.fr/marshmallow-ou-guimauve-maison/)): trop sucré mais bonne texture
@@ -135,3 +142,7 @@ http://bakeryaddict.canalblog.com/archives/2012/07/24/24767223.html
     + 1h pour première levée, 1h (?) seconde levée : n'a pas assez levé
     + 30min premiere levée, retravaillé 10min après, 1h15 seconde levée, cuisson
         50min à 200° : pas levé, juste étalé.
+
+### Pizza
+Overnight pizza from "Flour, yeast, water, salt"
+Bonne pâte, difficulté est d'enfourner. Faire la pizza sur la pelle directement...

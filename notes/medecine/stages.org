@@ -81,7 +81,7 @@ habituel, allergies (dernier repas)
 - Acanthosis nigricans
 * Généraliste
 ** TODO J4
-   1ere page seulement
+   page 1 + 2 faite
 ** TODO J5
 ** TODO J6
 ** TODO J7  à reprendre
@@ -109,7 +109,11 @@ TVP : rupture de kyste poplité
 Radio de cheville si douleur malléolaire *et*
 - impossible de marcher > 4 pas immédiatement et à l'examen
 - *ou* sensibilité 6cm distaux tibia
-- *ou* sensibilité 6cm distaux fibula
+- *ou* sensibilité 6cm distaux
+*** Dorsalgie/cervicalgie
+Palper épineuses (signe de la sonnette), muscles paravertébreux
+*** Déchirure musculaire
+Douleur brutale \pm hématome, voussure palpation
 ** Examens
 - Fracture de fatigue : scinti/TDM/IRM ou RX différée
 ** Médicaments
@@ -117,27 +121,38 @@ Acide fusidique : impétigo
 Airomir : crise d'asthme
 Atarax = anxiolytique
 Auricularum = dexaméthasone + ATB (cycle, polypetitde, antifongique) : otite externe bactérienne, otite chronique
+Avodart = dutasteride : HBP
 Bilaska : rhino-conjonctivite allergique
 Bipreterax = périndopril (IEC) + indapamide (diurétique) : HTA
+Cerulyse = xylène : bouchons cérumène
+Ciclopirox = antifongique : intertrigo, onychomycoses...
 Ciloxadex = ofloxacine + dexaméthasone : otite aigüe externe
 Clindamycine = macrolide
 Coversyl = périndopril
-Gibiter = corticoïde + BDLA pour l'asthme
 Ezetimibe : +statine pour hypecholestérolémie primaire
+Flector = diclofénac : tendinite (AINS)
+Fluinidone = previscan (AVK)
+Flécaïne : TV
+Gibiter = corticoïde + BDLA pour l'asthme
 Hamamélis : hémorroïdes, insuf. veinolymphatiques
 Ibufetum = AINS en gel
+Izalgie = opium + paracétamol
 Lasilix (Furosémide) = diurétique de l'anse
 Lumirelax = relaxant musculaire
 Micardis = telmisartan (ARA II)
 Norset = mirtazapine : épisodes dépressifs majeurs
+Pradaxa = dabigatran
 Prolia = dénosumab : ostéoporose (5 ans puis 1 an biphosphonates)
-Tanganil = antivertigineux
 Salbutamol : asthme, BPCO
 Smecta = diosmectite : adsorbant intestinal (diarrhée)
-Spedra : dysfonction érectile
 Spasfon : troubles fonctionnels digestifs
+Spedra : dysfonction érectile
+Stresam : anxiolytique
+Tanganil = antivertigineux
+Ténormine = aténolol
 Uvédose : carence vitamine d
 Vogalène = métopimazine : antiémétique
+
 ** Orientation
 - Sensation faiblesse persistante : cardio (rythme, conduction), infection, thyroïde, pulmonaire
 ** Prévention risques foetaux
