@@ -50,11 +50,14 @@ Relance pour gynéco et dermato
   CLOSED: [2019-07-11 Thu 19:43]
 Demandé si dernière édition, probablement pas
 * WAITING https://www.leboncoin.fr/livres/1643345921.htm/
-  Dispo, négociation en cours
+  Dispo, négociation en cours. Relancé : toujours dispo
 * CANCELLED https://www.leboncoin.fr/autres/1643188675.htm/
 demandé pour collège d'hémato, éventuellement avec LCA (https://www.leboncoin.fr/livres/1643178982.htm/)
 Hémato non dispo
-* WAITING https://www.leboncoin.fr/livres/1645197336.htm/
+* CANCELLED https://www.leboncoin.fr/livres/1645197336.htm/
 SMS pour demander si dernières éditions pour hémato, rhumato, géria, gynéco
+=> Hémato, rhumato, gynco dernieres
+Négociations en cours
+=> pas de colis...
 * WAITING https://www.leboncoin.fr/livres/1645106032.htm/
 Gynéco et rhumato trop chers... Voir suivant réponse

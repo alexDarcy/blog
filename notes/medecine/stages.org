@@ -80,7 +80,7 @@ habituel, allergies (dernier repas)
 - SAOS
 - Acanthosis nigricans
 * Généraliste
-** TODO J4
+** DONE J4
    page 1 + 2 faite
 ** TODO J5
 ** TODO J6
@@ -114,45 +114,57 @@ Radio de cheville si douleur malléolaire *et*
 Palper épineuses (signe de la sonnette), muscles paravertébreux
 *** Déchirure musculaire
 Douleur brutale \pm hématome, voussure palpation
+*** Douleur pouce
+Tendinite de De Quervain ? Signe de DQ = pathognomonique
+Rhizarthrose
 ** Examens
 - Fracture de fatigue : scinti/TDM/IRM ou RX différée
 ** Médicaments
 Acide fusidique : impétigo
 Airomir : crise d'asthme
+Antadys : rhumatismes inflammatoires, dysménorrhées(AINS)
+Apranax = /naproxène/ : AINS
 Atarax = anxiolytique
-Auricularum = dexaméthasone + ATB (cycle, polypetitde, antifongique) : otite externe bactérienne, otite chronique
-Avodart = dutasteride : HBP
+Auricularum = /dexaméthasone/ + /ATB/ : otite externe bactérienne, otite chronique
+Avodart = /dutasteride/ : HBP
+Bedelix : symptomes des manifestation fonctionnelles intestinale
 Bilaska : rhino-conjonctivite allergique
-Bipreterax = périndopril (IEC) + indapamide (diurétique) : HTA
-Cerulyse = xylène : bouchons cérumène
+Bipreterax = /périndopril/ (IEC) + /indapamide/ (diurétique) : HTA
+Celebrex : arthrose, PR, spondylarthrite ankylosante
+Cerulyse = /xylène/ : bouchons cérumène
 Ciclopirox = antifongique : intertrigo, onychomycoses...
-Ciloxadex = ofloxacine + dexaméthasone : otite aigüe externe
-Clindamycine = macrolide
-Coversyl = périndopril
+Ciloxadex = /ofloxacine/ + /dexaméthasone/ : otite aigüe externe
+Clindamycine = /macrolide/
+Coversyl = /périndopril/
+Daily = contraceptif estroprogestatif
 Ezetimibe : +statine pour hypecholestérolémie primaire
-Flector = diclofénac : tendinite (AINS)
-Fluinidone = previscan (AVK)
+Flector = /diclofénac/ : tendinite (AINS)
+Fluinidone = /previscan/ (AVK)
 Flécaïne : TV
-Gibiter = corticoïde + BDLA pour l'asthme
+Gibiter = /corticoïde/ + /BDLA/ pour l'asthme
 Hamamélis : hémorroïdes, insuf. veinolymphatiques
+Hamamélis : hémorroidies, insuf. veinolymphatique (phytothérapie)
 Ibufetum = AINS en gel
-Izalgie = opium + paracétamol
-Lasilix (Furosémide) = diurétique de l'anse
+Izalgie = /opium/ + /paracétamol/ (> Lamaline)
+Kétoconazole =: antifongique  : dermite séborrhéqiue, candidoses
+Lasilix = /furosémide/ = diurétique de l'anse
 Lumirelax = relaxant musculaire
-Micardis = telmisartan (ARA II)
-Norset = mirtazapine : épisodes dépressifs majeurs
-Pradaxa = dabigatran
-Prolia = dénosumab : ostéoporose (5 ans puis 1 an biphosphonates)
+Micardis = /telmisartan/ (ARA II)
+Norset = /mirtazapine/ : épisodes dépressifs majeurs
+Norset = /mirtazapine/ : épisodes dépressifs majeurs
+Optimizette = contraceptif progestatif
+Pradaxa = /dabigatran/
+Prolia = /dénosumab/ : ostéoporose (5 ans puis 1 an biphosphonates)
 Salbutamol : asthme, BPCO
-Smecta = diosmectite : adsorbant intestinal (diarrhée)
+Smecta = /diosmectite/ : adsorbant intestinal (diarrhée)
 Spasfon : troubles fonctionnels digestifs
 Spedra : dysfonction érectile
 Stresam : anxiolytique
+Structocal = calcium + vitamine D3
 Tanganil = antivertigineux
-Ténormine = aténolol
+Ténormine = /aténolol/
 Uvédose : carence vitamine d
-Vogalène = métopimazine : antiémétique
-
+Vogalène = /métopimazine/ : antiémétique
 ** Orientation
 - Sensation faiblesse persistante : cardio (rythme, conduction), infection, thyroïde, pulmonaire
 ** Prévention risques foetaux
