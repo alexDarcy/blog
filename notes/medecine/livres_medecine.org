@@ -63,3 +63,5 @@ Négociations en cours
 Gynéco et rhumato trop chers... Voir suivant réponse
 * DONE https://www.leboncoin.fr/livres/1646225407.htm/
 Seulement dermato => passer demain
+* TODO https://www.leboncoin.fr/ar/success/conversations?id=1646899167
+Demandé gynéco, rhumato, hémato

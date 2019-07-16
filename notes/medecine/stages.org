@@ -206,9 +206,26 @@ Principe :
 - scintigraphie osseuse : photon -> cristale -> photon lumineux -> active électron sur recepteur pour l'image
 --- Corriger ---
 * Gardes
-** Examen clinique
+** 1. Urgences : ABCDE https://www.resus.org.uk/resuscitation-guidelines/abcde-approach/
+Éliminer les risques vitaux en 30s
+*** A : airway
+Peux parler ?
+  - oui : difficilement ? corps étranger, anaphylaxie
+  - non : dégager voies respi
+*** B : breathing
+Si respire : tirage, balancement thoraco-abdominal
+*** C : circulation
+Arrêt cardiaque, perfusion, saignement, traumatism
+*** D : disability => conscient ou non ?
+Glasgow, hypoglycémie, pupilel
+*** E : exposure
+Hypothermie, objects "constricteurs"
+
+** 2. Si non, reste de l'examen
+*** Examen clinique
 - Genou : tiroir antérieur postérieur, laxité latéral, épanchement ? (bilatéral !!), Zohlen, amplitude passive
-** Enfant
+- plaie : infectée, oedème, lymphangite (trainée rouge ?)
+*** Enfant
 - examen de la bouche : bras en arrière de la tête
 - trauma crânien : si a pleuré, pas de perte de conscience !
   Surveillance simple à domicile si pas de point d'appel. Les parents
