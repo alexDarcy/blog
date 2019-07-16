@@ -19,18 +19,18 @@ NB: une édition est “valable” 3 ans
 |          | +ORL+            | Masson            | 4eme (2017) |         | 2017 si occasion            |    37 |     35 |                                             |
 |          | +Maxillo-facial+ | Masson            | 4eme (2017) |         | 2017 si occasion neuf sinon |    38 |     36 |                                             |
 |----------+------------------+-------------------+-------------+---------+-----------------------------+-------+--------+---------------------------------------------|
-|        9 | Immunologie      | Masson            | 2eme (2018) |         | Occasion                    |       |        | Mets de côté, relancer dans 15j (leboncoin) |
+|        9 | Immunologie      | Masson            | 2eme (2018) |         | Occasion                    |       |  306.5 | Mets de côté, relancer dans 15j (leboncoin) |
 |          | Hématologie      | Masson            | 3eme (2018) |         | Neuf/occasion               |       |        |                                             |
-|          | Dermatologie     | Masson            | 7eme (2017) |         | Occasion ?                  |       |        | En discussion                               |
+|          | +Dermatologie+   | Masson            | 7eme (2017) |         | Occasion ?                  |    39 |     10 |                                             |
 |          | Rhumatologie     | Masson            | 6eme (2018) |         | Neuf/occasion               |       |        |                                             |
 |          | Gériatrie        | Masson            | 4eme (2018) |         | Neuf/occasion               |       |        |                                             |
 |----------+------------------+-------------------+-------------+---------+-----------------------------+-------+--------+---------------------------------------------|
-|       10 | Pédiatrie        | Masson            | 7eme (2017) |         | Occasion                    |       |        | Mets de côté, relancer dans 15j (leboncoin) |
+|       10 | Pédiatrie        | Masson            | 7eme (2017) |         | Occasion                    |       | #ERROR | Mets de côté, relancer dans 15j (leboncoin) |
 |          | Gynécologie      | Masson            | 4eme (2018) |         | Neuf                        |       |        |                                             |
 |          | +Orthopédie+     | Ellipse           |             |         | Occasion                    |    35 |     20 | avec frais de transport                     |
 |          | +Cancérologie+   | Medline           | 2017        |         | Occasion                    |    39 |     20 | avec frais de transport                     |
 |    Total |                  |                   |             |         |                             | 550.4 |  346.5 |                                             |
-#+TBLFM: $7=vsum(@2..@23)::$8=vsum(@2..@23)::@15$8=vsum(@2..@14)::@20$8=vsum(@<..@>)
+#+TBLFM: @15$8=vsum(@2..@14)::@20$8=vsum(@<..@>)
 
  Neuf : ANEM ou unitheque.com
  Occasion : bourse aux livres ECN Asso
@@ -49,7 +49,7 @@ Relance pour gynéco et dermato
 * CANCELLED https://www.leboncoin.fr/livres/1642577092.htm/
   CLOSED: [2019-07-11 Thu 19:43]
 Demandé si dernière édition, probablement pas
-* WAITING https://www.leboncoin.fr/livres/1643345921.htm/
+* CANCELLED https://www.leboncoin.fr/livres/1643345921.htm/
   Dispo, négociation en cours. Relancé : toujours dispo
 * CANCELLED https://www.leboncoin.fr/autres/1643188675.htm/
 demandé pour collège d'hémato, éventuellement avec LCA (https://www.leboncoin.fr/livres/1643178982.htm/)
@@ -59,5 +59,7 @@ SMS pour demander si dernières éditions pour hémato, rhumato, géria, gynéco
 => Hémato, rhumato, gynco dernieres
 Négociations en cours
 => pas de colis...
-* WAITING https://www.leboncoin.fr/livres/1645106032.htm/
+* CANCELLED https://www.leboncoin.fr/livres/1645106032.htm/
 Gynéco et rhumato trop chers... Voir suivant réponse
+* DONE https://www.leboncoin.fr/livres/1646225407.htm/
+Seulement dermato => passer demain
