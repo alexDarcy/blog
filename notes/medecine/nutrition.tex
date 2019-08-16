@@ -1,69 +1,45 @@
-\documentclass{article}
-
+% Created 2019-08-16 Fri 14:59
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
 \usepackage{hyperref}
-\input header
-\graphicspath{{../../pictures/medecine/}}
-\usegdlibrary{trees, layered, force}
-
-\title{Nutrition\\
-\large Fiches}
-\author{A. Praga}
-
+\date{\today}
+\title{État de l'art sur la nutrition}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={État de l'art sur la nutrition},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.2 (Org mode 9.2.4)}, 
+ pdflang={English}}
 \begin{document}
+
 \maketitle
-
-\section{Glucides}%
-\label{sec:glucides}
-
-\tikz \graph [
-  % Labels at the middle 
-  edge quotes mid,
-  % Needed for multi-lines
-  nodes={align=center},
-  sibling distance=3cm,
-  edges={nodes={fill=white}}, 
-layered layout]
-{
-  Glycolyse[draw] // [layered layout] {
-    glucose + ADP -> pyruvate + ATP;
-  };
-  Néoglucogenèse[draw] // [layered layout] {
-    acide aminés -> pyruvate;
-    "(triglycérides du foie)" -> glycérol -> "glucose-6-phosphate";
-    lactate -> pyruvate -> "glucose-6-phosphate" -> glucose;
-  };
-};
-
-\tikz \graph [
-  % Needed for multi-lines
-  nodes={align=center},
-  level distance=2cm,
-layered layout]
-{
-  "Glycolyse anaérobie"[draw] // [layered layout] {
-    glucose ->["muscles"] lactate ->["foie"] pyruvate;
-  };
-};
-
-\section{Lipides}%
-\label{sec:lipides}
-Lipides = triglycérides (95\%), choléstérol, phospholipides, ester vitamines
-solubles
+\tableofcontents
 
 
-\tikz \graph [
-  nodes={align=center},
-  layered layout
-  ]
-{
-  // [layered layout, grow=right, level distance=3cm] {
-    intestin [draw, circle] -> chylomicrons ->["LPL"] "remnants de\\chylomicrons" 
-    -> foie[draw, circle];
-  };
-  // [spring layout, node distance=2cm] {
-    foie -> VLDL -> IDL -> LDL -> "c. périphériques" -> HDL -> foie;
-  };
-};
-
-
+\section{WHO}
+\label{sec:org4485e2a}
+\subsection{Transfatty acids}
+\label{sec:orge4906f9}
+\begin{itemize}
+\item \cite{brouwer2016effectBrouwer}
+\begin{itemize}
+\item objectif : étudie le remplacement des acides transsaturés
+\item hypothèses : acides trans élèvés => augment lDL => risque CV élevé.
+\item méthodes : méta-analyses des articles entre 1990 et 2014. Régression linéaire
+\end{itemize}
+sur les données des articles
+\end{itemize}
 \end{document}

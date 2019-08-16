@@ -52,6 +52,10 @@
   + Beurre qui s'échappe = pâte trop malmenée ? 
   + essayer cette recette : https://www.weekendbakery.com/posts/classic-french-croissant-recipe/
 
+- Framboisier :
+  + Recette de PPAP : bon, pas assez de crème ?
+  + Felden : 2/3 seulement de dacquoise et de la crème seulement pour la moitié
+    ... Crème OK mais gâteau globablement un poil lourd mais bon.
 - Galette des rois [de Conticini](https://www.youtube.com/watch?v=ETkk7QXbtlw) 
   + Problème de la quantité : diviser quantité de crème par 2 : donne
   2 petites galettes de 20cm ? Mais la dernière fois : manque de
@@ -71,6 +75,9 @@
    (sinon tombe en morceaux) !!
    Pas de bière mais la moitié en eau chaude. Bien dilueer le café en poudre avant.
    Pour le glacage, quantité de sucre divisée par 2, ok. Pas assez de glacage ?
+  + Blackout cake : en séparant la cuisson en 2, 2 très petits gâteaux Possible
+    de les couper en deux mais avec soin. Trop de glacage dans la recette par
+    contre (50% en trop ?). Résultat OK
 - Gaufres : pas de souci de cuisson avec [cette recette](https://www.hervecuisine.com/recette/gaufres-croustillantes-ultra-legeres/). Temps de repos qui fait la différence ? (Souvent pas assez cuite dans les essais précédents)
 
 - Guimauve ([jujube-en-cuisine](http://www.jujube-en-cuisine.fr/marshmallow-ou-guimauve-maison/)): trop sucré mais bonne texture
@@ -120,6 +127,9 @@
 - Couscous : [recette de semoule traditionnelle](http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html)
 - Quiche : bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits ! 
 
+## Fermentation
+- Essayer les pickles d'Alton Brown
+
 ## Pains 
 Pour une croûte : augmenter la vapeur
 
@@ -144,5 +154,6 @@ http://bakeryaddict.canalblog.com/archives/2012/07/24/24767223.html
         50min à 200° : pas levé, juste étalé.
 
 ### Pizza
-Overnight pizza from "Flour, yeast, water, salt"
+- Overnight pizza from "Flour, yeast, water, salt"
 Bonne pâte, difficulté est d'enfourner. Faire la pizza sur la pelle directement...
+10min à 250 + 3 min gril !
