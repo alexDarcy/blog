@@ -83,7 +83,7 @@ habituel, allergies (dernier repas)
 ** DONE J4
    page 1 + 2 faite
 ** TODO J5
-** TODO J6
+** TODO J6 en cours
 ** TODO J7  à reprendre
 TVP : rupture de kyste poplité
 ** TODO J8 
@@ -137,6 +137,7 @@ Ciloxadex = /ofloxacine/ + /dexaméthasone/ : otite aigüe externe
 Clindamycine = /macrolide/
 Coversyl = /périndopril/
 Daily = contraceptif estroprogestatif
+Duplavin = aspirine + clopidogrel : prévention secondaire chez SCA ST-, IDM ST+
 Ezetimibe : +statine pour hypecholestérolémie primaire
 Flector = /diclofénac/ : tendinite (AINS)
 Fluinidone = /previscan/ (AVK)
@@ -162,6 +163,7 @@ Spedra : dysfonction érectile
 Stresam : anxiolytique
 Structocal = calcium + vitamine D3
 Tanganil = antivertigineux
+Tiorfan = /racecadtril/ : complément des diarrhées aigüe de l'adulte
 Ténormine = /aténolol/
 Uvédose : carence vitamine d
 Vogalène = /métopimazine/ : antiémétique
@@ -175,7 +177,16 @@ Vogalène = /métopimazine/ : antiémétique
 - VIH
 - streptocoque : prélèvement *systématique* 36-38SA
 
-** Suivi  
+** Suivi
+** Vaccins
+Diphtérie, tétanos, coqueluche, polio => 2M, 4M et rappel à 11M et 6A puis 11A
+(vaccin différent)
+  - Tétravac, Repevac (seulement après 3A)
+Haemophilus influenzae : 2M, 4M, 11M
+Pneumocoque, hépatite B : idem
+Ménigocoque : 5M et 12M
+Rougeole, oreillons, rubéole :12M et 16-18M
+
 * Médecine nucléaire
 ** Cours
 *** Médicaments radiopharmaceutiques : constitués d'un radio-élement (émet le rayonnement) + un vecteur (se fixe aux organes)
