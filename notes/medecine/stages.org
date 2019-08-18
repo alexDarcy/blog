@@ -178,33 +178,48 @@ Vogalène = /métopimazine/ : antiémétique
 ** Suivi  
 * Médecine nucléaire
 ** Cours
-Imagerie dite fonctionnelle
-https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/imagerie-mdicale
-
-Médicaments radiopharmaceutiques : constitués d'un radio-élement (émet le rayonnement) + un vecteur (se fixe aux organes)
+*** Médicaments radiopharmaceutiques : constitués d'un radio-élement (émet le rayonnement) + un vecteur (se fixe aux organes)
+  - technétium : scintigraphie++. Produit directement dans le service
+  - F18-fluorodésoxyglucose : grande sensibilité pour la détection de nombreux
+    cancers (sauf prostate), certaines maladies inflammatoires ou infectieuses
+  - analogues de la somatostatine + gallium 68 : certaines tumeurs endocrines
+  - bisphosphonates : métastases osseuses
+  - Radiothérapie : hyperthyroïdes, métatastes osseuses des adénomes prostatique
 
 Choix du radio-élement
-- scintigraphie conventielle : photons gamma [fn:1]
-- TEP : positions (électrons avec charge positive). Quand ils s'annihilent avec un électron, cela génère une paire de photons gamma partant dans des directions opposés. Cette paire est déctectée par le TEP (avec des capteurs à 180 degrés)
+  - scintigraphie : émissions de *photons \gamma*
+  - TEP : émissions de *positons* (électrons avec charge positive).
+*** Principe technique :
+**** Détection des photons \gamma
+1. Après émissions, ils arrivent sur un cristal. Leur énergie est transférée aux
+électrons du cristal, qui émet des photons lumineux ("scintillation") dans
+toutes les direction.
+2. Conversion en signal électrique et amplification dans des tubes photomultiplicateurs
+3. NB: Les premiers photons \gamma peuvent interagir avec les tissus biologiques et
+   diffuser d'autres photons (source d'erreur) => filtrage
+4. NB: Dans l'étape 1, comment savoir d'où vient le photon *lumineux* si émis
+   dans des direction aléatoire ? Le nombre de photons reçus est inversement
+   proportionnel à la distance de la source => comparaison des différents tubes
+/Comment retrouver la position du photon initial depuis le cristal ? Collimation physique (scinti) ou  électronique (TEP)/
 
---- Corriger ---
-Choix du vecteur
-Possibilités : Iode 123, thallium 201, glucose FDG+fluor 18
-Traceurs : 
-- FDG (fluor radioctif ) = cancers (sauf prostate). TEP surtout
-- choline : cancers de la prostate
-- ?
-- iode
-Appareils :
-- TEP-scan : dispositif en couronne pour une image directement en 3D
-- caméra gamma : 
-Examens
-- scintigraphie osseuse
-- scintigraphie cardiaque : 
-- scintigraphie thyroïdienne : si hyperthyroïdes, 
-Principe :
-- scintigraphie osseuse : photon -> cristale -> photon lumineux -> active électron sur recepteur pour l'image
---- Corriger ---
+**** Gamma caméra : collimation physique
+- canaux parallèle : filtre les photons arrivant perpendiculairement au cristal
+- "pinhole" : bonne résolution mais mauvaise sensibilité => Thyroïde
+- Il faut trouver un compromis entre résolution spatiale et sensibilité
+ - Acquisition planaire ou tomoscintgraphie (le détecteur tourne autour du
+   patient, 15min donc sur un seul organe...)
+**** TEP
+ - Annihilation d'un position génère une paire de photons gamma partant à 180°.
+ Grâce à des détecteurs en "couronne", détection simultanée (enfin presque,
+ fenêtre de 10ns)
+ - Contrairement à la scinti, plusieurs cristaux sur chaque récepteur
+ - Meilleure sensibilité et résolution spatiale que la scinti
+ - souvent combiné à une TDM en même temps
+**** Correction des biais de quantification
+Imprécise en tomoscintigraphie, meilleure en TEP
+**** Évolution
+- Cristaux semi-conducteur pour gamma-caméra : améliore sensibilité et résolution spatiale
+- Tube PM => photodiodes plus compact pour TEP
 * Gardes
 ** 1. Urgences : ABCDE https://www.resus.org.uk/resuscitation-guidelines/abcde-approach/
 Éliminer les risques vitaux en 30s
