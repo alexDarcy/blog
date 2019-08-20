@@ -231,6 +231,16 @@ Imprécise en tomoscintigraphie, meilleure en TEP
 **** Évolution
 - Cristaux semi-conducteur pour gamma-caméra : améliore sensibilité et résolution spatiale
 - Tube PM => photodiodes plus compact pour TEP
+** Stage
+Choline : adénome parathyroïdien
+*** Cancers
+**** Prostate
+- Scinti : bilan d'extension de K de la prostate
+- Classif selon PSA et score Gleason (histo), mais cinétique importante
+- Méta  = os, ganglions de l'abdomen et du bassin
+*** Lymphome
+Classif d'Ann Arbor : I= 1 territoire, II = N territoires du même côté, III =
+sus et sous-diaphragmatique, IV = viscérale
 * Gardes
 ** 1. Urgences : ABCDE https://www.resus.org.uk/resuscitation-guidelines/abcde-approach/
 Éliminer les risques vitaux en 30s
