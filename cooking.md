@@ -128,7 +128,9 @@
 - Quiche : bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits ! 
 
 ## Fermentation
-- Essayer les pickles d'Alton Brown
+- Levain :
+  + tentative 1 : J1 = 100g sarrasin, 150g eau de source. J2 = pousse ! On garde
+    70g, on ajoute 100g de sarrasin, 115g d'eau (robinet cette fois)
 
 ## Pains 
 Pour une croûte : augmenter la vapeur
