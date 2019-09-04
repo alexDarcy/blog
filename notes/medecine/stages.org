@@ -188,6 +188,21 @@ Ménigocoque : 5M et 12M
 Rougeole, oreillons, rubéole :12M et 16-18M
 
 * Médecine nucléaire
+Scinti
+| Isotope    | Vecteur              |                        |
+|------------+----------------------+------------------------|
+| Technetium | HDMP (diphosphonate) | os                     |
+| Technetium | albumine             | perfusion pulmonaire   |
+| Technetium | Technegas (carbone)  | ventilation pulmonaire |
+| Technetium | DMSA                 | rein                   |
+| Technetium | HMPAO                | cerveau                |
+|------------+----------------------+------------------------|
+| Iode       | 0                    | thyroïde               |
+TEP
+| 18-F | FDG           |
+| 18-F | FCH (choline) |
+| 18-F | FDOpa         |
+|      |               |
 ** Cours
 *** Médicaments radiopharmaceutiques : constitués d'un radio-élement (émet le rayonnement) + un vecteur (se fixe aux organes)
   - technétium : scintigraphie++. Produit directement dans le service
