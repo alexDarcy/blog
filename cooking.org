@@ -1,14 +1,14 @@
-## Desserts 
+* Desserts
 - Biscuit cuiller (Patisserie, Leçons pas-à-pas) : 12min environ
 
-- Biscuit de Savoie ( [meilleur du chef](https://www.meilleurduchef.com/cgi/mdc/l/fr/recette/biscuit-savoie.html)) : cuire vraiment plus longtemps en bas du four. Bien beurrer et fariner.
-- Bounty ([750g](http://www.750g.com/bounty-maison-r97803.htm)) : prendre du bon
+- Biscuit de Savoie ( [[https://www.meilleurduchef.com/cgi/mdc/l/fr/recette/biscuit-savoie.html)][meilleur du chef]] : cuire vraiment plus longtemps en bas du four. Bien beurrer et fariner.
+- Bounty ([[http://www.750g.com/bounty-maison-r97803.htm)][750g]] : prendre du bon
   chocolat
   + noix de coco
   + lait concentré sucré
   + chocolat noir
 
-- Brioche ([Enviedebienmanger](http://www.enviedebienmanger.fr/fiche-recette/recette-brioche-pur-beurre)) : bonne consistance et bon aspect. Attention, 30min est un maximum.
+- Brioche ([[http://www.enviedebienmanger.fr/fiche-recette/recette-brioche-pur-beurre)][Enviedebienmanger]] : bonne consistance et bon aspect. Attention, 30min est un maximum.
   + 250 g de beurre gastronomique (+30 g pour beurrer les moules)
   + 10 cl de lait entier
   + 500 g de farine T45
@@ -34,14 +34,14 @@
   + un peu trop trop humide
   + glacage non fait (version rapide = beurre + cream cheese + sucre glace)
 
-- Cinnamon rolls [de Babish](https://www.bingingwithbabish.com/recipes/cinnamonrolls?rq=cinnamon)
+- Cinnamon rolls [[https://www.bingingwithbabish.com/recipes/cinnamonrolls?rq=cinnamon][de Babish]]
   + Le glacage est trop lourd (et seulement testé avec fromage frais + sucre) en soi ! 
   + Soit réessayer la recette de babish (en petite quantités), soit simplement nature.
 
-- Clafoutis aux pommes ([ptitecuisinedepauline](http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html)). 
+- Clafoutis aux pommes ([[http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html)][ptitecuisinedepauline]].
   + Avec un peu plus de farine, on a un clafoutis bien compact.
 
-- Cornbread (salé) [Seriouseats](https://www.seriouseats.com/recipes/2015/11/southern-unsweetened-cornbread-recipe.html)
+- Cornbread (salé) [[https://www.seriouseats.com/recipes/2015/11/southern-unsweetened-cornbread-recipe.html][Seriouseats]]
   Bien moelleux mais très mietteux. Probablement pas assez mélangé
 
 - Croissants (PPAP). Pas encore ça... Remarques après plusieurs essais :
@@ -56,7 +56,7 @@
   + Recette de PPAP : bon, pas assez de crème ?
   + Felden : 2/3 seulement de dacquoise et de la crème seulement pour la moitié
     ... Crème OK mais gâteau globablement un poil lourd mais bon.
-- Galette des rois [de Conticini](https://www.youtube.com/watch?v=ETkk7QXbtlw) 
+- Galette des rois [[https://www.youtube.com/watch?v=ETkk7QXbtlw][de Conticini]]
   + Problème de la quantité : diviser quantité de crème par 2 : donne
   2 petites galettes de 20cm ? Mais la dernière fois : manque de
   frangipane => ne pas hésiter à en mettre quand même (sans abuser,
@@ -69,8 +69,8 @@
   mal fait
 
 - Gâteau au chocolat : essayer
-  (recette de Tasty)[https://tasty.co/recipe/the-ultimate-chocolate-cake] vs
-  (Blackout cake)[https://www.bonappetit.com/recipe/blackout-cake]
+  [[https://tasty.co/recipe/the-ultimate-chocolate-cake][recette de Tasty]] vs
+  [[https://www.bonappetit.com/recipe/blackout-cake][Blackout cake]]
   + Tasty : attention, bien cuire le gâteau et *bien* attendre qu'il soit froid
    (sinon tombe en morceaux) !!
    Pas de bière mais la moitié en eau chaude. Bien dilueer le café en poudre avant.
@@ -78,11 +78,11 @@
   + Blackout cake : en séparant la cuisson en 2, 2 très petits gâteaux Possible
     de les couper en deux mais avec soin. Trop de glacage dans la recette par
     contre (50% en trop ?). Résultat OK
-- Gaufres : pas de souci de cuisson avec [cette recette](https://www.hervecuisine.com/recette/gaufres-croustillantes-ultra-legeres/). Temps de repos qui fait la différence ? (Souvent pas assez cuite dans les essais précédents)
+- Gaufres : pas de souci de cuisson avec [[https://www.hervecuisine.com/recette/gaufres-croustillantes-ultra-legeres/). Temps de repos qui fait la différence ? (Souvent pas assez cuite dans les essais précédents][cette recette]]
 
-- Guimauve ([jujube-en-cuisine](http://www.jujube-en-cuisine.fr/marshmallow-ou-guimauve-maison/)): trop sucré mais bonne texture
+- Guimauve ([[http://www.jujube-en-cuisine.fr/marshmallow-ou-guimauve-maison/)][jujube-en-cuisine]]: trop sucré mais bonne texture
 
-- Mille-feuille [de Conticini](https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse)
+- Mille-feuille [[https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse][de Conticini]]
 
 - Moka : Felder plutôt que PPAP : 
    + le biscuit est plus simple chez Felder et plus aéré
@@ -100,14 +100,16 @@
    + 180 g de chocolat noir (68%)
    + 60 g de chocolat au lait
 
-- Pain au lait [(750g](https://www.youtube.com/watch?v=wAKaJRl3Ieg)) : bon mais levée sur la nuit semble préférable
+- Mousse de fruit : recette meilleur du chef
+- Pain au lait [[https://www.youtube.com/watch?v=wAKaJRl3Ieg)][(750g]] : bon mais levée sur la nuit semble préférable
 
+- Pancake : America test kitchen recipe
 - Paris-Brest (PPAP) : crème au beurre toujours un peu trop liquide. Vient du
   praliné "maison" (loupé par ailleurs) ?
 
 - Pâte à chou (Patisserie, Leçons pas-à-pas) : 45-50min de cuisson
 
-- Tarte au chocolat : ([750g](https://www.youtube.com/watch?v=ZISKki8AcE0)) : pas mal mais plus avec une texture de mousse au chocolat
+- Tarte au chocolat : ([[https://www.youtube.com/watch?v=ZISKki8AcE0)][750g]] : pas mal mais plus avec une texture de mousse au chocolat
   + 1 pâte sablée
   + 300g de chocolat pâtissier
   + 500g de crème fraîche liquide
@@ -118,44 +120,44 @@
   + Un peu liquide au fond => essayer avec du lait entier en poudre
   + lait de brebis : 1L + 3 CC de lait en poudre + 12h de fermentation = bien ferme. Diminuer lait en poudre 
   
-## Plat principal
-- Kluski na parze ([recette](http://lespolonais.forumpro.fr/t133-les-kluski-na-parze  vb))
+** Plat principal
+- Kluski na parze ([[http://lespolonais.forumpro.fr/t133-les-kluski-na-parze  vb)][recette]]
 - Falafels (traditionnels) : bien, bien mixer la pâte et mettre au frais pour
     éviter qu'ils ne se détachent dans la friture
 - Porc fondant : oignon rouge, ail chemisé, curry, porc à braiser. Le tout cuit
     pendant 2h au moins avec couvercle
-- Couscous : [recette de semoule traditionnelle](http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html)
+- Couscous : [[http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html][recette de semoule traditionnelle]]
 - Quiche : bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits ! 
 
-## Fermentation
+** Fermentation
 - Levain :
   + tentative 1 : J1 = 100g sarrasin, 150g eau de source. J2 = pousse ! On garde
     70g, on ajoute 100g de sarrasin, 115g d'eau (robinet cette fois)
 
-## Pains 
+** Pains
 Pour une croûte : augmenter la vapeur
 
-### Pain blanc
+*** Pain blanc
 - Recette du NYT "No-Knead" fonctionne bien, avec 1/2 CC de levure pour 500g
 
-### Pain au sarrasin 
+*** Pain au sarrasin
 - 1/3 sarassin, 2/3 farine complète : goût curieux, un peu lourd
 
-### Pain complet
+*** Pain complet
 http://bakeryaddict.canalblog.com/archives/2012/07/24/24767223.html
 - Sans moule, pas mal
-- [Breadeducation](http://www.abreaducation.com/wholewheat.php) lève mais un peu
+- [[http://www.abreaducation.com/wholewheat.php][Breadeducation]] lève mais un peu
     costaud 
     + seulement de la farine complète !
 
-### Pain de seigle
+*** Pain de seigle
 - Majoritairement farine de seigle, avec un peu de farine de blé au début +
     pendant processus
     + 1h pour première levée, 1h (?) seconde levée : n'a pas assez levé
     + 30min premiere levée, retravaillé 10min après, 1h15 seconde levée, cuisson
         50min à 200° : pas levé, juste étalé.
 
-### Pizza
+*** Pizza
 - Overnight pizza from "Flour, yeast, water, salt"
 Bonne pâte, difficulté est d'enfourner. Faire la pizza sur la pelle directement...
 10min à 250 + 3 min gril !

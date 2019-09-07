@@ -75,7 +75,7 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/post.html" defaultContext
             >>= relativizeUrls
 
-    match "cooking.md" $ do
+    match "cooking.org" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= saveSnapshot "content"
