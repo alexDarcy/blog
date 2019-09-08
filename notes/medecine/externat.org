@@ -566,7 +566,7 @@ Même douleur que l'angor stable mais
 
 Examen clinique normal mais chercher /râles crépitants/, galop
 
-ECG en urgence \skull puis +6h
+ECG en urgence \faBomb puis +6h
 
   - percritique : sous-décalage ST (rarement sus), (grandes T négatives ou
     repositivation T). Si normal, diagnostic peu probable
@@ -575,7 +575,7 @@ ECG en urgence \skull puis +6h
 
 
 **** PEC
-USIC \skull : ECG, dosage troponine, créatinine, glycémie, NFS
+USIC \faBomb : ECG, dosage troponine, créatinine, glycémie, NFS
 #+BEGIN_EXPORT latex 
 \begin{itemize}
 \item \hl{aspirine} + 
@@ -614,7 +614,7 @@ Ici, obstruction par thrombus
   - sus-ST : désobstruer ASAP
   - sans sus-ST : prévenir
 
-\danger urgence ! \skull
+\danger urgence ! \faBomb
 
 Physiopatho : accident vasculaire coronaire athérothrombotique occlusif ou
 occlusion coronaire aigüe (segmente : nécrose totale à 12h, akinésie)
@@ -728,12 +728,12 @@ ECG 12 + 5 dérivations, radio poumon, troponinémie \thus USIC
 |-------------+---------+------------------+-----------------------+------------------+----------------+-------------------|
 | DA          | HTA     | déchirement,     | 0 pouls               |                  |                | Échocardio        |
 |             | Turner  | irradie dos      | Souffle HTA           |                  |                | + ETO/scanner     |
-|             | Marfan  |                  | \Delta PAS > 20mmHg   | N ou SCA         | \inc médiastin | Chir \skull       |
+|             | Marfan  |                  | \Delta PAS > 20mmHg   | N ou SCA         | \inc médiastin | Chir \faBomb       |
 |-------------+---------+------------------+-----------------------+------------------+----------------+-------------------|
 | EP          |         | Basithoracique   | Dys/polypnée          | CPD\footnotemark | N              | D-dimères         |
 |             |         |                  | Toux (hémoptysie)     |                  |                | Doppleur veineux  |
 |             |         |                  | Tachycardie           |                  |                | /angioscan/scinti |
-|             |         |                  | TVP                   |                  |                | HBPM \skull       |
+|             |         |                  | TVP                   |                  |                | HBPM \faBomb       |
 |-------------+---------+------------------+-----------------------+------------------+----------------+-------------------|
 | Péricardite | Jeune   | \inc inspiration | Turgescence jugulaire | sous-PQ          | CMG            | Échocardio        |
 | aigüe       | Fièvre  | \dec antéflexion | Reflux HJ             | sus-ST           |                |                   |
@@ -1032,7 +1032,7 @@ Risque majeur d'EI $\forall$ prothèse !
   - Infectieuses
     
       - médiastinie post-op (1%)
-      - Endocardite infectieuses : \textbf{redoutable} \skull\\
+      - Endocardite infectieuses : \textbf{redoutable} \faBomb\\
         Précoce (50%) ou tardive. Diagnostic : ETT, ETO++\\
         Prévention/traitement de tout foyer infectieux (ORL, dentaire)\\
         Hémocultures systémiques devant fièvre inexpliquée
@@ -1462,7 +1462,7 @@ Arrêt par le noeud sinusal ou non-transmission à l'atrium.
 
 
 **** Blocs atrioventriculaires
-Dans le faisceau de His ou infra : rythme très lent donc grave \skull
+Dans le faisceau de His ou infra : rythme très lent donc grave \faBomb
 
   - BAV I : PR constant mais > 0.2s\footnote{1 mm = 0.04s}
   - BAV II Wenckebach : allongement PR progressif puis bloqué (souvent QRS
@@ -1535,7 +1535,7 @@ Diagnostic : préciser degré, paroxistique/permanent, siège++
 
   - nodaux : souvent BAV I, BAV II Wenckebach, BAV III à QRS fins \thus
    Holter
-  - (infra)hissiens : sur des BdB ou BAV II Möbitz. \skull{} si complet DC
+  - (infra)hissiens : sur des BdB ou BAV II Möbitz. \faBomb{} si complet DC
     possible !\\
     \thus étude endocavitaire
 
@@ -1556,7 +1556,7 @@ Toujours asymptomatique si isolé. Grave si lipoythimie/syncope \danger \thus
 
   - Droit : peut être bénin. Surtout dans patho pulmonaires
   - gauche : jamais bénin ! (dégénératif ou cardiopathie). SCA de cause
-    ischémique possible \skull
+    ischémique possible \faBomb
 
 
 Diagnostic : incomplèt si QRS < 120ms, complet sinon. Droit/gauche/ bi- ou
@@ -1578,7 +1578,7 @@ hyperréflectivité sinocarotidienne.
 
 
 *** Traitement
-Bradycardie grave = urgence ! (rea) \skull
+Bradycardie grave = urgence ! (rea) \faBomb
 
 Brady avec BAV III plus grave que brady par dysfonction sinusale
 
@@ -1623,7 +1623,7 @@ Hémibloc : 
   - postérieur : +90 $^{\circ}$, $S_1 Q_3$
 
 Bifasciculaire : BdB droit + (un des hémibloc)\\
-Trifasciculaire \skull : (alterne BdB droit et gauche) ou (BdB droit et
+Trifasciculaire \faBomb : (alterne BdB droit et gauche) ou (BdB droit et
 alternance hémiblocs)
 
 BAV
@@ -1665,7 +1665,7 @@ Extrasystole (freq, physio). Si un battement sur 2, bigéminisme
 *** Troubles du rythme ventriculaire
 \begin{tcolorbox}
 Toute tachycardie à QRS larges est une tachycardie ventriculaire
-  \gls{JPDC} qui dégénere en fibrillation ventriculaire \skull
+  \gls{JPDC} qui dégénere en fibrillation ventriculaire \faBomb
 \end{tcolorbox}
 
 Tachycardies ventriculaires 
@@ -1673,7 +1673,7 @@ Tachycardies ventriculaires
   - > 100/min
   - QRS > 0.12s pendant $\ge 3$ battements
 
-Fibrillation ventriculaire : \textbf{urgence absolue}  \skull massage cardiaque
+Fibrillation ventriculaire : \textbf{urgence absolue}  \faBomb massage cardiaque
 + choc
 
 Torsade de pointe : si allongement QT, bradycardie
@@ -1712,7 +1712,7 @@ Gravité ?
   - ATCD familiaux : mort subite < 35 ans
   - clinique : pouls > 150 /min, hypotension artérielle, angor, insuf
     cardiaque, neuro
-  - ECG : tachy à QRS large = urgence absolue \skull\\
+  - ECG : tachy à QRS large = urgence absolue \faBomb\\
     autres : anomalie repolarisation (SCA ?), BAV II ou III (rare), tachy à QRS
     fins + clinique
 
@@ -1845,7 +1845,7 @@ OAP sutout : détresse respi aigüe (inondation alvéolaire)
     rose saumon
   - râles crépitant
 
-\thus PEC immédiate \skull
+\thus PEC immédiate \faBomb
    
 Choc cardiogénique possible : < 85mmHg, extrémités froides, marbrures, oligurie
 
@@ -1877,7 +1877,7 @@ contraception pour éviter grossesse
 
 **** Médicaments si FE < 40%
   1. Diurétiques \footnote{congestion} + IEC \footnote{diminue angiotensine II} + betabloquants
-    (\skull pas immédiatement si crise aigüe \danger{}) $\pm$ antagonistes des
+    (\faBomb pas immédiatement si crise aigüe \danger{}) $\pm$ antagonistes des
     récepteurs aux minéralo-corticoïdes (diurétiques)
   1. Si échec : + ivabradine \footnote{diminue FC}
   1. Si échec : défibrillateur automatique (+ resynchronisation si QRS >
@@ -2050,7 +2050,7 @@ Autres :
   - âgé : \danger{} hypotension orthostatique, \textbf{pas} régime sans sel,
     $\ge 3$ médic, objectif : PAS < 150\\
     ttt : diurétique, calcium bloqueurs
-  - Urgence : éviter baisse brutale tension et hypotension \skull
+  - Urgence : éviter baisse brutale tension et hypotension \faBomb
 
 ** 225 \dagger - Insuffisance veineuse chronique
 
@@ -2151,7 +2151,7 @@ Autres étio
 | Traitement    | Bénigne                            | hospit, repos, douleur,                        |
 |               |                                    | ibuprofène/aspirine, protection gastrique,     |
 |               |                                    | colchicine (CI si IR sévère)                   |
-|               | Tamponnade \skull                  | remplissage, ponction/drainage                 |
+|               | Tamponnade \faBomb                  | remplissage, ponction/drainage                 |
 |               |                                    |                                                |
 
 ** 327 \dagger : Arrêt cardiocirculatoire
@@ -2541,7 +2541,7 @@ Enfant handicapé : orientation par MDPH (via CDAPH)
 
  Tolérance :
  - si surdosage : 
-   - hépatotoxique \thus urgence \skull \thus N-acétylcysténine
+   - hépatotoxique \thus urgence \faBomb \thus N-acétylcysténine
    - insuf rénale aigüe et nécrose tubulaire
    - thrombocytopénie
  - sinon bonne tolérance. Surveiller HTA, hypersensibilité
@@ -3166,7 +3166,7 @@ Neuropsy :
  - Si poids $\ge$ poids idéal : cf table [[retard statural]]. Précisions :
    - Test de stimulation de l'hormone de croissance (\danger si doute, IRM)
    - Ralentissement sévère \thus bilan en urgence (craniopharyngiome, thyroïdite de
-     Hashimoto) \skull
+     Hashimoto) \faBomb
    - [0, 3] ans : digestives pédiatrique (coeliaque, mucoviscidose), [3,puberté] :
      endoc constitutionnelle, à la puberté : déficit hormone, patho osseuse
    - Savoir différencier retard pubertaire simple d'un vrai retard
@@ -3231,7 +3231,7 @@ Neuropsy :
 *** Glucocorticoïdes, ACTH
  - Glucocorticoïdes : antalgiques, psychostimulants, combativité. ES : HTA,
    oedème, rupture ligament/tendon
- \danger arrêt brutal = dangereux \skull
+ \danger arrêt brutal = dangereux \faBomb
 
 ** 120 \dagger Ménopause et andropause
  \label{sec:120}
@@ -3604,7 +3604,7 @@ Hyperplasies idiopathique: spironolactone à vie (hypoK) + contrôle PA
 *** Phéochromocytomes, paragangliomes fonctionnels
 ***** Physiopatho
 gls:PCC : médullosurrénale. gls:PGG fonctionnels : autres    ganglions sympathiques
- \skull{} PCC : spontanément mortel. 
+ \faBomb{} PCC : spontanément mortel. 
 
 ***** Dépistage :
  - HTA avec céphalées, sueurs, palpitations (triade de Ménard), HTA paroxystiques/diabète sans
@@ -3799,7 +3799,7 @@ sulfonylurée : glucose en perfusion)
  - Chir en 1ere intention (anatomopatho pendant = certitude) : thyroïdectomie
    totale. Curage ganglionnaire si besoin (systémique si carcinome médullaire,
    si enfant/ado). \\
-   Complications : hémorragie postopératoire \skull,  hypoparathyroïdie (calcium + vit D), paralysie transitoire/définitive nerfs récurrents
+   Complications : hémorragie postopératoire \faBomb,  hypoparathyroïdie (calcium + vit D), paralysie transitoire/définitive nerfs récurrents
  \vspace*{10pt}
 
  /Cancers différenciés d'origine vésiculaire/
@@ -3928,7 +3928,7 @@ sulfonylurée : glucose en perfusion)
    cardiaque). Penser thyrotoxicose si troubles rythme/insuf cardiaque
   
 *** Traitement
- \skull{} Urgence : crise aigüe thyrotoxicose, cardiothyréose chez âgé/cardiqaue,
+ \faBomb{} Urgence : crise aigüe thyrotoxicose, cardiothyréose chez âgé/cardiqaue,
  orbitopathie maligne, cachexie vieillard, Basedow chez \female{} enceinte
 
  Repos, sédatifs, bêtabloquant, contraception
@@ -3936,7 +3936,7 @@ sulfonylurée : glucose en perfusion)
  gls:ATS :
  - -mazole (30-60mg/j), -thiouracile (300-600mg/j) : bloque TPO
  - ES : allergies cut, \inc enzymes hépatiques, neutropénie, agranulocytose++
-   (\skull !!)
+   (\faBomb !!)
  - surveillance : T4 libre jusque N puis T4L et TSH. NFS 10jours pendant 2 mois (agranulocytose)
   
  Chir : thyroidectomie totale sauf si adénome toxique (lobectomie)
@@ -4087,7 +4087,7 @@ Suspicion sur clinique, confirmé par IRM
 |--------------------+------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Acromégalie        | Sd dysmorphique \tablefootnote{Extrémités élargies, visage (nez élargi, front bombé, lèvres épaisses, tendance prognathisme} | Pas de freinage à HGPO                                                                                                                                         |
 | (acrshort:GH)      | Signes fonctionnels \tablefootnote{sueurs, céphalées, paresthésies mains, douleurs articulaires, asthénie fréquente, HTA}    | IGF-1 \inc                                                                                                                                                     |
-|                    | Hypertrophie myocarde (IC \thus DC \skull)                                                                                   |                                                                                                                                                                |
+|                    | Hypertrophie myocarde (IC \thus DC \faBomb)                                                                                   |                                                                                                                                                                |
 |                    | Diabète, SAOS                                                                                                                |                                                                                                                                                                |
 |                    | Goitres, polypes côlon                                                                                                       |                                                                                                                                                                |
 |--------------------+------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -4124,7 +4124,7 @@ Suspicion sur clinique, confirmé par IRM
 
 ** 243 Insuffisance surrénale
 *** Insuffisance surrénale lente
- Rare mais grave \skull
+ Rare mais grave \faBomb
 
 Surrénales sécrètent :
  - glucocorticoïdes \approx cortisol [fn:55] : hyperglycémiant, \inc catabolisme protidique et tonus vasculaire, \dec
@@ -4143,7 +4143,7 @@ Surrénales sécrètent :
  | HyperK, hypoNa (manque sel)                        | HypoNa (dilution)         |
 
 ***** Diagnostic
-Cortisol + ACTH \danger ne pas attendre résultats pour commencer traitment \skull
+Cortisol + ACTH \danger ne pas attendre résultats pour commencer traitment \faBomb
 - clinique : [[tab:insuf_surrenale_clinique]]
 #+name: tab:insuf_surrenale_diag
 #+caption: Insuffisance surrénale : diagnostic
@@ -4189,7 +4189,7 @@ Cortisol + ACTH \danger ne pas attendre résultats pour commencer traitment \sku
 *** Insuffisance surrénale aigüe
  
 ***** Diagnostic
- Si diagnostic *non* posé : cortisol + ATCH. Ne pas attendre les résultats \skull
+ Si diagnostic *non* posé : cortisol + ATCH. Ne pas attendre les résultats \faBomb
 - clinique : déshydratation extracellullaire[fn:109] , confusion, trouble dig, douleurs musc, fièvre
 - biologie : IR, fonctionnelle++, hypoNa, hyperK++
 
@@ -4200,7 +4200,7 @@ Cortisol + ACTH \danger ne pas attendre résultats pour commencer traitment \sku
  - Décompensation par n'importe quelle patho intercurrente
 
 ***** PEC
- \danger Urgence extrème \skull
+ \danger Urgence extrème \faBomb
  - 100mg hydrocortisone (IV, IM, SC) \thus \faHospitalO (réa)
    - perfusion NaCL (et G30% si hypoglycémie)
    - ttt facteur déclenchant
@@ -4485,7 +4485,7 @@ En "chaussettes" puis en "gants")
 - /Ischémie myocardique/ silencieuse fréquente ! \thus dépistage systématique si
   trouble dig, asthénie effort...
 - AOMI : 1/3 proximale (HTA), 1/3 distale sous genou (glycémie, tabac), 1/3 proximale et distale
-- \skull : diabète + microangiopathie sévère, diabète + atteinte vasculaire
+- \faBomb : diabète + microangiopathie sévère, diabète + atteinte vasculaire
 
 ***** Traitement
 Objectif HbA1c < 6.5% (7% si âgé ou à risque.
@@ -4499,13 +4499,13 @@ Si revascularisation : stents par défaut  et chir si atteinte 3 coronaires.
 
 **** Pied diabétique
  1 patient sur 10 à risque d'1 amputation d'orteils. Éviter les plaies pour prévenir l'amputation
- \skull
+ \faBomb
 ***** Mal perforant plantaire (MPP)
  Neuropathies \thus hypoesthésie, déformations ostéoarticulaires \thus durillons
  puis fissure et infection \thus dermo-hypodermite.
 
 Autres
- - Ischémie/nécrose : peau froide, fine, dépilée, livedo. \thus revasculariser en urgence \skull
+ - Ischémie/nécrose : peau froide, fine, dépilée, livedo. \thus revasculariser en urgence \faBomb
  - Nécrose + MPP
  - Dermo-hypodermite nécrosante : très rare, \thus débrider en urgence, ATB. 
    Cas particulier : gangrène gazeuse à \bact{perfringens} \thus urgence vitale \danger
@@ -4713,7 +4713,7 @@ Inévitable  mais pas mortelle
  - Long terme : surpoids/obésité et diabète 2
 **** Risque mère
  - HTA (30%) : si > 20 SAc, risque de toxémie gradivique. \times{}5 si
-   diabète 1. Risque vital \skull
+   diabète 1. Risque vital \faBomb
  - Rétinopathie : ttt préalable si rétinopathie proliférative. CI : rétinopathie
    proliférative floride non traitée
  - Néphropathie : 
@@ -4769,7 +4769,7 @@ Inévitable  mais pas mortelle
 
 **** Traitement
  - Diététique (30-35kcal/kg [25 si surpoids]), activité physique, antidiabétique
-   CI \skull, insuline si régime ne suffit pas après 8 jours
+   CI \faBomb, insuline si régime ne suffit pas après 8 jours
  - Surveillance : glycémie (6/jour puis 4/jour), cétonurie (si glycémie > 2g/L),
    HTA
  - Objectif : glycémie jeun < 0.95g/L et postprandiale +2h < 1.20g/L
@@ -4876,12 +4876,12 @@ Inévitable  mais pas mortelle
    - malabsorption digestive, insuf rénale chronique, cirrhose
 
 **** TTt
- - Aigüe = urgence \skull \thus calcium IV lente (2-3x10ml). Suspension des ttt qui \inc
+ - Aigüe = urgence \faBomb \thus calcium IV lente (2-3x10ml). Suspension des ttt qui \inc
    QTc, réduction digoxine
  - Chronique : vit D (ou dérivés actifs) et calcium per os
 
 *** Hyper-/hypo-kaliémie, 
- Retentissement cardiaque \thus vital \skull
+ Retentissement cardiaque \thus vital \faBomb
 
 **** HyperK 
  Principales causes
@@ -4895,7 +4895,7 @@ Inévitable  mais pas mortelle
 **** HypoK 
  - Dénutrition sévère : anorexique, post-chir bariatrique sans suivi
  - Insulinothérapie : si cétoacidose et troubles digestifs majeurs \thus
-   insulinothérapie seulement après normokaliémie, sinon arrêt cardiocirculatoire \skull
+   insulinothérapie seulement après normokaliémie, sinon arrêt cardiocirculatoire \faBomb
  - \inc activité \beta{}adrénergique
  - Paralysie périodique famililiale : exceptionnelle, paralysie brutale
    transitoire des 4 membres
@@ -4971,10 +4971,10 @@ Inévitable  mais pas mortelle
  - Intoxication aigüe à l'eau
 
 **** Traitement
- Urgence si < 115mmol/L ou {délire, coma, convulsion} \skull \thus sérum salé
+ Urgence si < 115mmol/L ou {délire, coma, convulsion} \faBomb \thus sérum salé
  hypertonique jusque Natrémie = 120mmol/L (puis restriction hydrique).
 
-  \danger{} < 12mmol/24h sinon tableau d'AVC (myélinolysie centropontine) !! \skull
+  \danger{} < 12mmol/24h sinon tableau d'AVC (myélinolysie centropontine) !! \faBomb
 
  Thérapeutique :
  - restriction hydrique : mal tolérée
@@ -5000,7 +5000,7 @@ Inévitable  mais pas mortelle
  constipation, nausées}, {apathie, somnolence, confusion, psychose, coma}, {HTA,
  \dec QT}
 
- \danger hyperglycémie maligne = urgence \skull{} avec déshydratation, {confusion,
+ \danger hyperglycémie maligne = urgence \faBomb{} avec déshydratation, {confusion,
  coma, insuf rénale} et risques de troubles du rythme cardiaque, bradycardie avec asystolie
 
 *** Étiologies
@@ -5050,7 +5050,7 @@ Inévitable  mais pas mortelle
  Sinon, traitement palliatif : bisphosphonates (inhibe résorption osseuse),
  calcimimétiques (\dec PTH), 
 
- \danger Hypercalcémie maligne = urgence \skull{} : 
+ \danger Hypercalcémie maligne = urgence \faBomb{} : 
  - sérum phy
  - bisphosphonate en perf lente ou corticothérapide IV (myélome/hémopathie) ou dialyse (maligne)
 ** 303 \dagger Tumeurs de l'ovaire (hormono-sécrétante)
@@ -5222,14 +5222,14 @@ Inévitable  mais pas mortelle
 ***** Clinique
     | Type                           | Diagnostic                                      | risque                     |
     |--------------------------------+-------------------------------------------------+----------------------------|
-    | Intoxications alcoolique aigüe | alcoolémie, régression de qq heures             | coma alcoolique \skull     |
+    | Intoxications alcoolique aigüe | alcoolémie, régression de qq heures             | coma alcoolique \faBomb     |
     | Coma alcoolique                | alcoolémie > 3 g/L                              |                            |
     |                                | coma calme, hypotonique)                        |                            |
     |                                | dépression respiratoire, hypoTA, hypertT        |                            |
     | Sevrage                        | anxiété, sueurs, tremblements, vomissement      |                            |
     |                                | (acrshort:DT, épilepsies chez 5%)               |                            |
     | Accidents du sevrage           | convulsions                                     | DT                         |
-    | DT                             | brutal/petits signes de sevrage/crise comitiale | Sd confusionnel, DC \skull |
+    | DT                             | brutal/petits signes de sevrage/crise comitiale | Sd confusionnel, DC \faBomb |
 
 \danger Si coma alcoolique, toujours chercher : hémorragie cérébroméningée, AVC, hématom sous/extra-durale,
    épilepsie, Gayez-Wernicke, encéphalopathie hépatique, gls:DT, infection
@@ -5262,7 +5262,7 @@ Définition : processus inflammatoire du foie. Chronique si > 6 mois.
 ***** Diagnostic
 Contage + \inc transaminases (DD Table [[tab:transaminases]]) + sérologie/génome viral
  - souvent asymptomatiques, ictère peut manquer (symptômes + 7 à 10j)
- - chercher signes de gravité : TP < 50%, encéphalopathie \skull
+ - chercher signes de gravité : TP < 50%, encéphalopathie \faBomb
  - CI médicaments hépatotoxiques, neurosédatifs, éviter contamination (VHA, VHE)
 
 #+name: tab:transaminases
@@ -5309,7 +5309,7 @@ Contage + \inc transaminases (DD Table [[tab:transaminases]]) + sérologie/géno
  #+end_table
 
 \begin{tcolorbox}
-Urgence = hépatite fulminante \skull : sd hémorragique + signes d'encéphalite
+Urgence = hépatite fulminante \faBomb : sd hémorragique + signes d'encéphalite
 (confusion, inversion rythme nycthéméral, somnolence, astérixis)
 \end{tcolorbox}
 
@@ -5328,7 +5328,7 @@ Hépatite chronique B : diag = Ag HBs positif > 6mois.
       anti-HBe
    4. hépatite B résolue : Ac anti-HBs
  - 40% de mutation
- - Immunosuppresseurs = risque de réactivation \skull
+ - Immunosuppresseurs = risque de réactivation \faBomb
  - CHC possible sans cirrhose \danger
  - ALD, PEC 100%
 
@@ -5604,7 +5604,7 @@ IMC,perte de poids de 2% (1 semaine) ou 5% (1 mois) ou 10% (6 mois), albuminémi
 | Causes       | /lithiase bilaire/         | ulcère              | acrshort:TFI  | pancréatite    |
 |              | K vésicule/VBP             | K gastrique         | K colôn       | K pancréas        |
 |              | parasite                   |                     | colites       |                   |
- Ischémie intestinale aigüe = urgence avec pronostic vital \skull [fn:107]
+ Ischémie intestinale aigüe = urgence avec pronostic vital \faBomb [fn:107]
  - y penser si terrain vasculaire
  - /douleur abdo/ : inaugurale aigüe uis rapidement à tout l'abdomen, intense++
  - et /terrain à risque/
@@ -5656,8 +5656,8 @@ Douleurs abdominales diffuses
 *** Douleurs pièges
  - IDM : douleur épigastrique, FR coronaire \thus ECG
  - /Insuffisance surrénale/ : contexte, douleurs intenses diffuse, abdo souple, TR
-   indolore. HyperK, hypoglycémie. Urgence \skull
- - /Hypercalcémie/ : urgence \skull
+   indolore. HyperK, hypoglycémie. Urgence \faBomb
+ - /Hypercalcémie/ : urgence \faBomb
  - /Acidocétose diabétique/: diabète connu/situation révélatrice. Sd
    polyuropolydipsique/trouble neur/Kussmau et haleine cétosique \thus
    hyperglycémie, cétonurie, acidose
@@ -5877,7 +5877,7 @@ Diag = biopsise de l'antre et du corps. Ttt = éradication (cf supra)
 - troubles hydroélectriques : déshydratation puis IR, hypochlorémie, alcalose
   métabolique, hypoK
 - sd de Mallory-Weiss[fn:125] : vomissement puis hématémèse
-- rupture de la paroi de l'\oe{}sophage : exceptionnel, urgence \skull [fn:126] \thus diag par TDM thoracique
+- rupture de la paroi de l'\oe{}sophage : exceptionnel, urgence \faBomb [fn:126] \thus diag par TDM thoracique
 - inhalation bronchique avec pneumopathie
 - \oe{}sophagite
 - hémorragie sous-conjonctivale, fracture de côte, dénutrition, interrution ttt
@@ -5934,7 +5934,7 @@ Si vomissements chronique : endoscopie EOG
 
 Grossesse :
 - 1er trimestre : fréquents, physiologique si pas d'AEG (forme grave =Hyperemesis gravidarum)
-- 3eme trimestre : urgence \skull si téatose aigüe gravidique, prééclampsie
+- 3eme trimestre : urgence \faBomb si téatose aigüe gravidique, prééclampsie
 
 Chimio : aigü (< 24h), retardés, anticiéps
 
@@ -6193,18 +6193,18 @@ Chimio : aigü (< 24h), retardés, anticiéps
 
 *** Urgences
  - Encéphalopathie bilirubinique du nouveau-né : séquelles cognitives/motrices
-   graves \thus ttt par UV/échanges pasma en urgence \skull
+   graves \thus ttt par UV/échanges pasma en urgence \faBomb
  - Angiocholite : cf table [[tab:angiocholite]]. Traitement :
    1. ATB ASAP (bactéries intestinales), corrections désordres généraux
    2. drainage endoscopique : sous 48h si aggravation ou en urgence si choc
-      septique \skull
+      septique \faBomb
  - Insuffisance hépatique :
    - cirrhose
    - K foie en phase terminale : confort du patient
    - insuf. hépatique aigüe : 
 	 Quick et facteur V < 50%
      - transaminases > 20N \thus diagnostic = \dec taux
-     - risque = insuf hépatique grave : 80% mortalité \skull
+     - risque = insuf hépatique grave : 80% mortalité \faBomb
      - chercher paracétamol systématiquement \thus N-acétylcystéine en urgence
      - si grave : transplantation 
 
@@ -6322,9 +6322,9 @@ Clinique + analyse du liquide + _écho_ suffit
 | ATCD                 | Protéines > 25g/L      | biopsie péritonéale | Tuberculose | Gêne résorption          |
 |                      | Leucocytes > 1000/mm^3 | sous coelioscopie   | péritonéale                         |                          |
 ***** Complications
-- Infections du liquide d'ascite \skull : C3G proabiliste (car monomicrobe) + albumine 
+- Infections du liquide d'ascite \faBomb : C3G proabiliste (car monomicrobe) + albumine 
 - dyspnée (ponction en urgenke \danger), hernie pariétale (si rupture, chir en
-  urgence \skull)
+  urgence \faBomb)
 ** 278 Pancréatite chronique
 Inflammation \thus fibrose àthus destruction de la glande pancréatique. \male =
 4 \female, 
@@ -6482,7 +6482,7 @@ Général
 
 Vérifier que non médicamenteuse, régression < 5 jours pour la plupart.
 
-\skull Urgence si sd septicémique/déshydratition sévère : ciprofloxacine 3-5j (puis
+\faBomb Urgence si sd septicémique/déshydratition sévère : ciprofloxacine 3-5j (puis
 adapté), IV (eau, Na+, K+)
 
 Antibiotique : plupart régressent à l'arrêt. Sinon
@@ -6561,7 +6561,7 @@ Clinique = tuméfaction indolore, impulsive et expansive à la toux, /réductive
 DD : lipomes, ADP inguinales, éventration, hydrocèles/kystel du cordon
 
 ***** Complication
-Hernie étranglée = urgence chir \skull : douleur brutale de l'aine,
+Hernie étranglée = urgence chir \faBomb : douleur brutale de l'aine,
 permanente et /irréductible/
 
 ***** Ttt
@@ -6882,7 +6882,7 @@ anatomapatholigique
 - Compliquée : 
   - plastron appendiculaire : ATB puis appendicectomie à 2-4mois
   - abcès appendiculaire : chir ou (si volumineux) drainage + ATB puis appendicectomie à 2-4mois
-  - péritonite appendiculaire = urgence \skull ATB puis appendicectomie
+  - péritonite appendiculaire = urgence \faBomb ATB puis appendicectomie
 ** 352 Péritonite aigüe
 Urgence chir
 ***** Diagnostic
@@ -7034,7 +7034,7 @@ Cathéter : changer 72h
   \end{tabular}
 \end{table}
 
-\paragraph{Autres} : paludisme [urgence \skull (quinine-artésunate IV)], IU, \bact{burnetii}
+\paragraph{Autres} : paludisme [urgence \faBomb (quinine-artésunate IV)], IU, \bact{burnetii}
 [pas de lait cru], parvovirus B19 [surveillance], vaginose [métronidazole],
 arbovirus
 ** 143 - Vaccination
@@ -7252,7 +7252,7 @@ cervicale sensible, atteinte amygdale. -1 point si $\ge 45$ ans.
 
 Examens : MNI-test et sérologie si négatif (IgM anti-VCA)
 
-\paragraph{Diphtérie} : rare mais urgence \skull
+\paragraph{Diphtérie} : rare mais urgence \faBomb
 
 Clinique : 
 \begin{itemize}
@@ -7305,7 +7305,7 @@ spécialiste
 \label{sub:otite_externe_necrosante}
 
 Bénigne : traitement local + antalgique\\
-Nécrosante chez immunodéprimé + polype $\to$ avis ORL en urgence \skull
+Nécrosante chez immunodéprimé + polype $\to$ avis ORL en urgence \faBomb
 
 *** Otite séromuqueuse%
 \label{sub:otite_seromuqueuse}
@@ -7977,7 +7977,7 @@ Diagnostic différentiel : dermo-hypodermite de {stase, nécrosante, à
 ATB : amoxicilline en 1ere intention, traitement de la porte d'entrée
 
 \paragraph{Dermohypodermite bactérienne nécrosante} urgence médico-chirurgicale
-\skull\\
+\faBomb\\
 Clinique : érysipèle + sepsis grave, douleur intense
 
 
@@ -8029,7 +8029,7 @@ Infection :
 *** Arthrite septique (os natif)
 Hématogène ou inoculation (morsure)\\
 Arthrite = septique par défaut. \\
-Urgence \skull : ponction articulaire, hémoculture puis ATB probabiliste
+Urgence \faBomb : ponction articulaire, hémoculture puis ATB probabiliste
 (penicilline M + gentamicine) puis ATB adaptée\\
 Complications : bactériémie, atteinte articulaire\\
 Échographie rapidement (radio pour référence, IRM/TDM si localisaion)\\
@@ -8099,7 +8099,7 @@ Défaillances d'organes (les + précoces) :
 Chercher porte d'entrée + localisation secondaire (echographie pour endocardite
 si agent, fond d'oeil si candidémie)
 
-\danger Bactériéme + sepsis = urgence \skull
+\danger Bactériéme + sepsis = urgence \faBomb
 
 Prélèvement $\rightarrow$ ATB probabiliste si suspicion de bactériémie + sepsis/grave/choc
 septique/neutropénie/asplénie
@@ -8125,7 +8125,7 @@ Traiter porte d'entrée \danger
 \vspace*{1cm}
 \bact{dore} :  avis spécialisé + echo (endocardite). Négativation hémoc à J3
 
-Fongémies (Candida) : souvent soin + terrain. Grave \skull.\\
+Fongémies (Candida) : souvent soin + terrain. Grave \faBomb.\\
 Localisation secondaire : fond d'eil, echo (endocardite), controle hémoc. 14j
 
 ** 155 - Tuberculose
@@ -8343,7 +8343,7 @@ Bactériurie : $\ge 10^3/ml$ ($10^4$ chez la femme pour bactéries autres que
 \bact{ecoli}, \bact{saprophyte})
 
 \danger Ne pas chercher/traiter de colonisation, sauf chez la femme enceinte
-\skull
+\faBomb
 
 *** Cystite%
 \label{sub:cystite}
@@ -9190,7 +9190,7 @@ Sd grippal :
   \item respiratoires
     \begin{itemize}
       \item surinfection bactérienne : OMA, sinusite aigüe, surtout pneumonie aigüe =
-        grippe maligne primaire (rare, $\skull$) et secondaire
+        grippe maligne primaire (rare, $\faBomb$) et secondaire
     \end{itemize}
   \item extra-respiratoire
 \end{itemize}
@@ -9368,7 +9368,7 @@ Traitement :
 \item ATB si surinfection cutanée, antiviral si formes graves/compliquées
 \item pas d'éviction scolaire
 \item vaccination : ado, \female en âge de procréer, contact avec ID, professionnel.
-  \skull pas la femme enceinte !
+  \faBomb pas la femme enceinte !
 \end{itemize}
 
 NB : toxicité rénale pour l'aciclovir
@@ -9889,7 +9889,7 @@ hémorragie/encéphalite. PCR puis sérologie
 
 \bigskip
 \danger Urgences : Déshydratation, sepsis gravie, sd pseudo-occlusif, diarrhée fébrile + retour
-endémie \skull
+endémie \faBomb
 
 *** Examens
 Coproculture : si diarrhée aigüe/TIAC fébrile $\rightarrow$ SSYC
@@ -10037,7 +10037,7 @@ Fièvre récurrente : infection canalaire, foyer infection profond, infection su
 
 ** 187 - Fièvre chez l'immunodéprimé
 \label{sec:org3e1654b}
-Fièvre aigüe chez l'ID = urgence \skull
+Fièvre aigüe chez l'ID = urgence \faBomb
 
 \begin{table}[htbp]
 \caption{Agents pour l'immunsuppression}
@@ -10054,7 +10054,7 @@ Déficits immunité cellulaire & VIH, IS\\
 \end{table}
 *** Fièvre chez neutropénique
 \label{sec:org077134a}
-Fièvre + PNN \(< 500/mm^3\) urgence \skull
+Fièvre + PNN \(< 500/mm^3\) urgence \faBomb
 Neutropénie = déficit phagocytose
 Fièvre = souvent seul facteur.
 Risque inversement proportionnel taux PNN, proportionnel durée
@@ -10079,7 +10079,7 @@ Autres : urgence diagnostique seulement
 \label{sec:orga164eae}
 \danger Purpura + fièvre = urgence 
 \danger Purpura avec 1 élements ecchymotique $\ge 3$ mm / nécrotique $\to$ C3G
-IV en urgence \skull
+IV en urgence \faBomb
 
 ** 213 - Syndrome mononucléosique
 \label{sec:syndrome_mononucleosique}
@@ -10513,9 +10513,9 @@ Signes de sévérité :
 - muscles respi annexes
 - FC > 120/min, SpO\(_{\text{2}}\) < 90%
 - DEP < 50%
-- silence auscultatoire \skull
-- respi paradoxale \skull
-- troubles conscience, bradycardie, collapsus \skull
+- silence auscultatoire \faBomb
+- respi paradoxale \faBomb
+- troubles conscience, bradycardie, collapsus \faBomb
 
 **** DD
 Sans TVO : cordes vocales, sd hyperventilation
@@ -10915,7 +10915,7 @@ pour l'inflammation. Chir si très local + compliqué.
 ** 201 \dagger Hémoptysie
 \label{sec:201_hemoptysie}
 
-Urgence \skull
+Urgence \faBomb
 
 1. Est-ce une hémoptysie ? Hématémèse ou ORL possibles
 1. Gravité ? Suivant abondance, terrain, persistance \thus risque = hématose et asphyxie
@@ -11702,13 +11702,13 @@ Si angioscan ou scintigraphie négatif : pas d'EP !
 \danger{} si EP grave (état de choc) : angioscan immédiatement ou ETT en
 attendant.
 
-\skull{} Thrombolyse/embolectomie après écho si pas d'accès à l'angioscan
+\faBomb{} Thrombolyse/embolectomie après écho si pas d'accès à l'angioscan
 \end{tcolorbox}
 
 Sur l'écho, chercher dilatation cavité D, HTP, septum paradoxal
 
 /Si grossesse/  : D-dimères \thus écho. veineuse \thus angioscanner
-(prévenir le pédiatre \skull)
+(prévenir le pédiatre \faBomb)
 
 **** Évolution favorable. Complications : choc cardiogénique réfractaire
 (DC), rédicive, HTAP chronique post-embolique (rare mais grave)
@@ -11767,7 +11767,7 @@ possible. Complications : 
 
 *** Traitement (TVP + EP)
 **** Principes
-Urgence \skull \thus anticoagulant
+Urgence \faBomb \thus anticoagulant
 
 CI : coagulopathie sévère, hémorragie intracrânienne spontanée, hémorragie
 active difficilement contrôlable, chir récente, (thrombopénie à l'héparine)
@@ -11813,7 +11813,7 @@ Risque intermédiaire (sPESI > 0)
     
 
 
-Haut risque (choc : PAS < 90mmHG ou -40mmHg) : urgence \skull \thus réa
+Haut risque (choc : PAS < 90mmHG ou -40mmHg) : urgence \faBomb \thus réa
 
 - $O_2$ (ventilation méca.), scope
 - anticoag HNF (!)
@@ -11932,7 +11932,7 @@ Non rythmées :
 - cocaïne (fréquente) : SCA, myopéricardite,pneumothorax
 - zona thoracique (brûlures, hyperesthésie 24h avant)
 - digestives : reflux gastro-oesophagen, spasmes oesophagiens. Exclure SCA
-  \skull
+  \faBomb
 - psychogènes
 
 ** 306 \dagger Tumeurs du poumon
@@ -12114,7 +12114,7 @@ Manifestations :
   - oedème de Quincke : angioedeme larynx et cou : gêne respi haute
     (dysphonie++, dysphagie++). \\
     Clinique : gonflement langue, luette, paupière lèvre ou face\\
-    Possiblement létal \skull
+    Possiblement létal \faBomb
   
 - digestives
 
@@ -12162,7 +12162,7 @@ Glucagon si adrénaline ne fonctionne pas.
 **** Hors urgence
 Anithistaminique, corticoïdes, arrêt agent.
 
-NB : alerter, allongé jambes relevées (pas vertical \danger{} \skull), PLS si
+NB : alerter, allongé jambes relevées (pas vertical \danger{} \faBomb), PLS si
 inconscient
 
 **** Préventif
@@ -12251,7 +12251,7 @@ Signes de luttes
 
 Signes de faillite
 
-- respi abdo paradoxale \skull{} défaillance court terme
+- respi abdo paradoxale \faBomb{} défaillance court terme
 - cyanose (hypoxémie profonde) \thus $O_2$ ASAP
 - neuro : astérixis, altérations comportement/vigilance. Glasgow < 9
   \thus assitance ventilatoire
@@ -12529,7 +12529,7 @@ plèvre), pression transpulmonaire = $P_{ip} - P_{alv}$.
 *** Examen
  Interrogatoire : 
  - baisse d'acuité visuelle (BAV), fatigue visuelle, myodésopsies, métamorphopsies, héméralopie, scotome/amputation champ visuel, 
- - mode d'installation : urgence si brutal \skull
+ - mode d'installation : urgence si brutal \faBomb
  - douleur superficielles/profondes
  - diplopie mono/bi-noculaire
  - évolution : aggration rapide = grave
@@ -12745,10 +12745,10 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
  - Vasculaires : AVC, insuf vertébrobasilaire, *anévrisme
    intrâcranien* (Y penser si atteinte partielle, signes
    pupillaires, sujet jeune, 0 FR vasc, céphalée \thus angioscanner urgence
-   \skull), fistule carotidocaverneuse
+   \faBomb), fistule carotidocaverneuse
  - Avec exophtalmie : Basedow, tumeurs de l'orbite
  - douleureuse : penser {anévrisme intracrânnien, dissection carotidienne, fistule
-   carotidocaverneuse} = urgences \skull. Maladie de Horton. Sd Tolosa-Hunt
+   carotidocaverneuse} = urgences \faBomb. Maladie de Horton. Sd Tolosa-Hunt
  - SEP : paralysie VI, ophtalmoplégie internucléaire
  - Myasthénie : diag = {test Prostigmine, Ac anti récepteur acétylcholine, électromyographie}
 
@@ -12834,7 +12834,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
    - /kératite herpétique/ : ulcération en "feuille de fougère". 
  \ttt
      valaciclovir \pm aciclovir en pommade. Jamais de corticothérapie locale
-     sans avoir éliminé une ulcération cornéenne \skull
+     sans avoir éliminé une ulcération cornéenne \faBomb
    - /kératite zostérienne/ : zona ophtalmique \thus (?) kératite superficielle ou
      neuroparalytique (grave). 
  \ttt valaciclovir et protecteurs locaux
@@ -12862,7 +12862,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
    - examen : douleurs intenses, \oe{}il rouge, transparence cornée \dec diffuse,
      semi-mydriase aréflexique, angle iridocornéen fermé, hypertonie oculaire++
    - cécité en qq jours sans ttt \danger 
- \ttt antalgique, inhibiteurs de l'anhydrase carbonique [fn:183]\skull, solutés hyperosmolaires[fn:184], collyre hypotonisants,
+ \ttt antalgique, inhibiteurs de l'anhydrase carbonique [fn:183]\faBomb, solutés hyperosmolaires[fn:184], collyre hypotonisants,
      collyres myotiques\\
    post-crise : iridotomie périphérique sur *les deux yeux* (laser ou chir)
  - /Glaucome néovasculaire/ : VEGF crée néovaisseux qui empêche la résorption de
@@ -13004,7 +13004,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
        \danger
    - /neuropathie optique ischémique antérieure/ : BAV unilatérale brutale, \dec
      RPM direct, \oe{}dème papillaire, déficit fasciculaire pour CV. Cause : surtout
-     artériosclérose mais penser à Horton (urgence \skull)
+     artériosclérose mais penser à Horton (urgence \faBomb)
  - FO visible normal
    - /névrite optique rétrobulbaire/ : BAV unilatérale progresse en qq jours (!),
      douleur \inc mouvement oculaires, RPM direct \dec, FO normal, scotome
@@ -13013,7 +13013,7 @@ Correction optique : de loin = \pm A (- B à C), de près = add + D avec
     
  Anomalies transitoire 
    - /cécité monoculaire transitoire/ (qq minute) = amarause. FO pour embole
-     rétinien. Urgence \skull. Chercher athérome carotidien, cardiopathie embolinogène
+     rétinien. Urgence \faBomb. Chercher athérome carotidien, cardiopathie embolinogène
    - insuf vertébrobasilaire, éclipses visuelle, scotome scintillant
 ** 9 \dagger Prélèvement de cornée
  Le médecine prélèveur \ne celui qui a fait le constat de mort
@@ -13193,7 +13193,7 @@ plaie du cristallin
    \emptyset neuropathie optique. Pas forcément de ttt.
  - glaucomes à angles ouvert secondaires
  - glaucomes par fermeture de l'angle
- - crise aigüe de fermeture de l'angle : douleur, urgence \skull
+ - crise aigüe de fermeture de l'angle : douleur, urgence \faBomb
  - neuropathie optiques non glaucomateuses
 
 *** Traitement
@@ -13239,7 +13239,7 @@ plaie du cristallin
    l'épithelium pigmentaire et choroïde. BAV sévère avec scotome centrale
  - exsudative (néovaisseaux sous rétine) : \oe{}dème intrarétinien, hémorragies,
    décollement maculaire exsudatif (BAV, métamorphopsies brutales). Sans ttt :
-   BAV sévère, scotome central définitif. BAV + drusen = urgence \skull
+   BAV sévère, scotome central définitif. BAV + drusen = urgence \faBomb
 
 *** Ttt
  - débutante : vitamine E, C, zinc, lutéine, zéaxantine
@@ -13266,13 +13266,13 @@ plaie du cristallin
  Étiologie : 
  - embolies : athérome carotidien++, cardiopathie embolinogène, ( fractures des os
    long ou emboles tumoraux)
- - thromboses : maladie de Horton (urgence \skull, à rechercher), (maladies de systèmes)
+ - thromboses : maladie de Horton (urgence \faBomb, à rechercher), (maladies de systèmes)
  - troubles coagulation : anomalie primitive, sd antiphospholipides, hyperhomocystéinémie
 
  /Très mauvais pronostic fonctionnel/ (régression \oe{}dème,
  atrophie rétine et papille)
 
- CAT : urgence \danger \skull (fonction visuelle et patho sous-jacente)
+ CAT : urgence \danger \faBomb (fonction visuelle et patho sous-jacente)
  - bilan étio : athérome, carotidien, cardiopathie embolinogène, dissection
    carotidienne (si jeune), horton
  - ttt décevant : hypotonisant (acétazolamide IV/per os), vasodilatateur,
@@ -13385,7 +13385,7 @@ plaie du cristallin
      (pigmentée) des paupières
    - carcinomes sébacés, lymphomes MALT
  Trauma : vérifier septum orbitaire, globe oculaire, canalicules lacrymaux
- arrachés (urgence \skull)
+ arrachés (urgence \faBomb)
 
 ** 19 \dagger SEP
  Névrite optique rétrobulbaire \in SEP (20% = inaugurale). Atteint adulte \in
@@ -13424,7 +13424,7 @@ plaie du cristallin
    angiographique du fond d'\oe{}il
 
  Étiologie : 
- - maladie de Horton = urgence \skull (cécité bilatérale définitive) \thus 
+ - maladie de Horton = urgence \faBomb (cécité bilatérale définitive) \thus 
    - signes systémique, modif artères temporale
    - signes oculaire : amaurose fugace, défaut de remplissage choroïdien (angiographie)
    - bio : VS \inc (non systématique), CRP \inc
@@ -13457,7 +13457,7 @@ FR = durée et intensité de l'hyperglycémie
  - occlusion capillaire et néovascularisation
  - \oe{}dème maculaire
 
- Cécité possible du jour au lendemain \skull
+ Cécité possible du jour au lendemain \faBomb
   
 *** Diagnostic
  Photographie du FO = référence et dépistage
@@ -13538,7 +13538,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
  Complications :
  - cornée : kératite, perforation
  - neuropathie optique compressive (3%) \thus méthylprednisolone forte dose ou
-   décompression rapide \skull !
+   décompression rapide \faBomb !
 
  Complémentaire : TSH effondrée (hyperthyroïdie), scanner et IRM pour conforter,
  {pupille, champ visuel, couleurs, PEV}
@@ -13594,7 +13594,7 @@ cataracte (+ freq), glaucome néovasculaire (redoutable),
 
 * Footnotes
 
-[fn:7] Pronostic vital mis en jeu si symptômes ! \skull
+[fn:7] Pronostic vital mis en jeu si symptômes ! \faBomb
 
 [fn:242] (8-14 si légionellose, 21j si légionelles graves/ID)
 

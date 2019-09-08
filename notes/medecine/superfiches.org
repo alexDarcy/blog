@@ -71,8 +71,8 @@ AOMI : pronostic grave !
 Anévrisme aorte abdominale : âge, tabac, ATCD familiaux
 - scanner abdopelvien/IRM = référence
 - asymptomatique : chir si \diameter \ge 50-55mm
-- symptomatique : urgence \skull
-Ischémie aigüe des membres inférieurs = urgence \skull (embolie/thrombose)
+- symptomatique : urgence \faBomb
+Ischémie aigüe des membres inférieurs = urgence \faBomb (embolie/thrombose)
 - diag : douleur brutale, intense, broiement avec impotence fonctionnelle et membre froid, livide, douleur palpation musc
 - ttt : anticoagulant, antalgique niv. 3, $O_2$ et revasc. chir
 
@@ -103,7 +103,7 @@ Opérer :
 - si dystrophie et aorte dilatée[fn:5], si chronique volumineuse asymptomatique et (aorte
   dilatée, FEVG < 50%...)
 ** 150 Surveillance des porteurs de valves, prothèses vasculaires
-Complications : embolie, thromboses[fn:6], désinsertion, EI \skull,
+Complications : embolie, thromboses[fn:6], désinsertion, EI \faBomb,
 dégénérescence[fn:7], ttt anticoagulant
 
 INR \in [2.5, 4] à vie pour prothèse mécanique
@@ -114,12 +114,12 @@ Diag = ETO. Critères de Duke : 2 majeur/1 majeur et 3 mineurs/5mineurs
   - végétation/abcès/désinsertion (écho) ou nv souffle régurgitation valvulaire
 - mineurs : cardiopathie à risque, > 38$^\circ$, complication vasc,
   immunologique
-Complications : insuf cardiaque \skull, embolie septiques, neuro , rénale
+Complications : insuf cardiaque \faBomb, embolie septiques, neuro , rénale
 Ttt :
 - streptocoques (oraux/groupe D) : amoxicilline + gentamicine
 - staphylocoques : cloxacilline si sensible (sinon vancomycine)
 ** 236 Souffle cardiaque chez l'enfant
-Néonatale : coarctation aortique préductale (chir urgente \skull), transposition des gros vaissaux,
+Néonatale : coarctation aortique préductale (chir urgente \faBomb), transposition des gros vaissaux,
 malformations complexes
 
 Nourisson (2M - marche) : shunt gauche-droite (communication intraventricul), tétralogie de Fallot
@@ -144,7 +144,7 @@ Ttt
 - FA paroxystique : anti-arythmique et bradycardisants
 
 ** 234 Troubles de la conduction intracardiaque
-Bradychardie grave = urgence \skull
+Bradychardie grave = urgence \faBomb
 
 Ttt : tachycardisants (atropine, catécholamine)
 
@@ -170,7 +170,7 @@ Ttt : tachycardisants (atropine, catécholamine)
 Troubles supraventriculaire : FA (100-200/min), flutter atrial (300/min), tachy. atriale,
 tachy. jonctionnelle, extrasystole
 
-Troubles ventriculaires : tachy. ventricale, fibrillation ventricalure (\skull
+Troubles ventriculaires : tachy. ventricale, fibrillation ventricalure (\faBomb
 absolue), torsade de pointe
 ** 235 Palpitations
 Éliminer urgences immédiates (tachy à QRS large !!)
@@ -188,7 +188,7 @@ Examens : ECG, RX thorax, dosage BNP, /ETT/
 Cause : ischémie, HTA, cardiomypathie
 
 IC aigüe \approx OAP : polypnée, sueurs, cyanose, expectorations "mousseuses
-saumon", crépitants \thus PEC immédiate \skull
+saumon", crépitants \thus PEC immédiate \faBomb
 
 #+caption: Ttt insuffisance cardiaque
 | IC à FE < 40%     | diurétiques + IEC + \beta-bloquants\footnotemark. |
@@ -225,7 +225,7 @@ Examens : ECG (4 phases[fn:18]), marqueurs de nécrose cardio, sd inflammatoire,
 
 Ttt : AINS, colchicine
 
-Complications : tamponnade = urgence \skull (drainage/ponction)
+Complications : tamponnade = urgence \faBomb (drainage/ponction)
 ** 327 Arrêt cardiocirculatoire
    ABCD : maintien voies Aéoriennes, assistance respi (B), massage Cardiaque,
    Défibrillation et Drogues
@@ -338,7 +338,7 @@ Asthme :
 - diag[fn:24] : TVO (VEMS/CVF < 0.7) réversible aux BDCA (\ge +200mL et \ge +12%)
 - ttt de fond [fn:25]= corticostéroïdes inhalés (voire anti-leucotriènes, voire cortico
   oraux) et symptomatique = \beta2-mimétique courte durée
-- \skull{} exacerbation grave : SAMU + \beta_2-mimétique \rightarrow \faHospitalO : \beta_2-mimétique nébulisé, corticoïdes
+- \faBomb{} exacerbation grave : SAMU + \beta_2-mimétique \rightarrow \faHospitalO : \beta_2-mimétique nébulisé, corticoïdes
   oraux, $O_2$
 Rhinite : 
 - PAREO : Prurit, Anosmie, Rhinorrhée, Éternuement, Obstruction nasale
@@ -534,7 +534,7 @@ Réaction anaphylactique médiée par IgE ou non
 Diag = clinique + contexte. Toujours doser tryptase sérique
 - fortement probable : gêne respi "haute" ou asthme aigü ou choc impliquant PV,
   {rash, urticaire, angioedème}, début brutal et progression rapide
-\skull Urgence (atteinte multiviscérale menaçant la vie) : adrénaline _IM_
+\faBomb Urgence (atteinte multiviscérale menaçant la vie) : adrénaline _IM_
 0.01mg/kg toutes 5min, arrêt agent, allongé/PLS 
 
 Sinon : antihistaminique + corticoïdes
@@ -769,7 +769,7 @@ Ttt :
   agranulocytose[fn:44])
 - spécifique : 
   - cardiothyréose = propranolol, anticoag, ATS, chir/radio-iode
-  - Crise aigüe thyrotoxique \skull ATS, pronanolol, corticoïdes puis iode
+  - Crise aigüe thyrotoxique \faBomb ATS, pronanolol, corticoïdes puis iode
   - Orbitopathie : pas d'ATS, ni d'iode !
   - enceinte : surveillance/ATS/thyroïdectomie selon
 ** 241 Hypothyroïdie
@@ -784,7 +784,7 @@ Diag = TSH \inc. Puis doser T4. Étio : Ac anti-TPO, échographie
   - carence iode (endémie), iatrogène (interféron)
 - atteinte hypothalamo-hypophysaire \thus IRM
 
-Complications : insuf cardiaque, coma myxoedemateux \skull 
+Complications : insuf cardiaque, coma myxoedemateux \faBomb 
 
 Ttt : lévothyroxine [fn:47]. Surveiller TSH (primaire) ou T4L (atteinte H-H) !
 
@@ -822,7 +822,7 @@ Chronique :
   - primaire (surrénale) = /autoimmune/ 80%[fn:51], /tuberculose/ des surrénale 
     10%[fn:52]), VIH, iatrogène, métastases bilatérales
   - secondaire (hypophyse) = interruption corticothérapie prolongé
-IS aigüe = urgence \skull
+IS aigüe = urgence \faBomb
 - déshydratation extracellulaire, confusion, fièvre. Bio : hémoconcentration,
   hypoNa, hyperK, hypoglycémie
 - hydrocortisone 100mg puis \faHospitalO : NaCL et facteur déclenchant (IS chronique++)
@@ -973,10 +973,10 @@ Bseoins :
 Hypocalcémie :
 - clinique : troubles du rythme, parésthésie, tétanie
 - causes hypoparathyroïdie, anomalie vitamine D (carence, malabsorption...)
-- ttt : aigü \skull calcium IV lente. Chronique : vitamine D et calcium
-Hyperkaliémie (risque cardiaque \skull)
+- ttt : aigü \faBomb calcium IV lente. Chronique : vitamine D et calcium
+Hyperkaliémie (risque cardiaque \faBomb)
 - étiologies : hypoaldostéronisme (IS) , acidose  métabolique [fn:55]
-Hypokaliémie (risque cardiaque \skull)
+Hypokaliémie (risque cardiaque \faBomb)
 - étiologie : excès d'insuline, hyperaldostéronisme, dénutrition sévère
 Hyponatrémie endocrinienne (hospitalisé++)
 - étiologie selon osmolalité : si \inc, hyperglycémie, si N, hyperTG,
@@ -1188,8 +1188,8 @@ Artère centrale de la rétine
 - Diag = 
   - BAV brutale, \oe{}il blanc indolore, mydriase aréflective
   - FO : macula "rouge cerise"
-- Étiologie : embolies (athémore carotidien), maladie de horton = urgence \skull
-- CAT = urgence \skull. Très mauvais pronostic fonctionnel
+- Étiologie : embolies (athémore carotidien), maladie de horton = urgence \faBomb
+- CAT = urgence \faBomb. Très mauvais pronostic fonctionnel
   - ttt de l'étio (antiagrégant/anti vit-K)
 Branche de l'ACR : pronostic visuel bon (amputation), pas d'Horton
 ** 17 Occlusions veineuses rétiniennes
@@ -1221,7 +1221,7 @@ Branche veineuse rétinienne : évolution favorable / hémorragie du vitré (pas
 Cf Table [[tab:paupieres]]
 
 Autres : entropion (sénile/paralysie VII), ectropion, ptosis (penser anévrisme
-IC \skull), lagophtalmie
+IC \faBomb), lagophtalmie
 
 #+name: tab:paupieres
 #+caption: Pathologies des paupières
@@ -1242,7 +1242,7 @@ Diag = BAV brutale indolore
 
 Étiologies
 - artériosclérose (freq) : FR. Pas de ttt efficaces
-- maladie de Horton = urgence \skull. Bio = VS \inc, CRP \inc \thus
+- maladie de Horton = urgence \faBomb. Bio = VS \inc, CRP \inc \thus
   corticothérapie générale forte dose
 ** 21 Rétinopathie diabétique
 <<sec:retinopathie_diabetique>>
