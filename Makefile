@@ -35,11 +35,12 @@ notes: ${NOTES_PDF}  ${NOTES_WEB}
 notes/medecine/%.pdf: notes/medecine/%.tex
 	latexmk -pdf -lualatex -cd $<
 
+# Compatible with doom emacs
 ${MED}/%.tex: ${ORG_PDF}
-	emacs -u "$(id -un)" --batch $< --eval '(load user-init-file)' -f org-latex-export-to-latex
+	emacs --batch $< -f org-latex-export-to-latex
 
 ${MED}/%.html: ${ORG_WEB}
-	emacs -u "$(id -un)" --batch $< --eval '(load user-init-file)' -f org-html-export-to-html
+	emacs --batch $< -f org-html-export-to-html
 
 debug: generate update
 
