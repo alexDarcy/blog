@@ -1,0 +1,187 @@
+#+TITLE: Reading list
+#+TODO: TOREAD(t) MAYBE(m) PENDING(p) READING(r) HOLD(h) | DONE(d)
+#+COLUMNS: %120ITEM %STATUS
+* Math
+** HOLD Differential topology
+http://www.uib.no/People/nmabd/dt/080627dt.pdf
+** Abstract thèse Hélène
+** Histoire des maths
+http://www-irma.u-strasbg.fr/~baumann/polyh.pdf  
+** HOLD Math MPSI
+Lu jusqu'à l'anneau des entiers relatifs
+** Les maths en tête (MP) : analyse, algèbre
+* READING Learn you a haskell for great good                                    :cs:haskell:
+Just began functors and applicative
+http://learnyouahaskell.com/functors-applicative-functors-and-monoids#functors-redux
+
+* READING Real World Haskell                                                   :cs:haskell:book:
+Chap 03
+cite:RWH
+
+*** READING 99 haskell                                                          :cs:haskell:exercises:
+    Ex 26
+* Slides GPU                                                                    :cs:
+ 1, OK
+httalcul.math.cnrs.fr/spip.php?article292
+* Lukas' papers                                                                 :cs:
+* Inpainting                                                                    :cs:maths:
+
+* TOREAD Davis, A., Rubinstein, M., Wadhwa, N., Mysore, G. J., Fr\'edo Durand, & Freeman, W. T. (2014): The Visual Microphone :cs:paper:sound:
+  :PROPERTIES:
+  :Custom_ID: davis-2014-sound-from-image
+  :END:
+
+* Cours d'histoire 1913                                                         :history:
+
+* DONE Magni, C. (2003): Les Olm\`eques: des origines au mythe                  :book:history:south_america:
+  CLOSED: [2019-06-02 Sun 09:35]
+  :PROPERTIES:
+  :Custom_ID: magni2003olmeques
+  :END:
+
+Intéressant pour l'intérprétation en histoire de l'art. Assez décevant en première approche pour découvrir la civilisation
+* DONE Herbert, A. J., Williams, A. G., Hennis, P. J., Erskine, R. M., Sale, C., Day, S. H., & Stebbings, G. K. (2018): The interactions of physical activity, exercise and genetics and their associations with bone mineral density: implications for injury risk in elite athletes :medecine:sport:
+  CLOSED: [2019-05-27 Mon 13:45]
+  :PROPERTIES:
+  :Custom_ID: herbert18_inter_physic_activ_exerc_genet
+  :END:
+
+* TOREAD Maldacena, J. (2015): The symmetry and simplicity of the laws of physics and the higgs boson :physics:paper:
+  :PROPERTIES:
+  :Custom_ID: maldacena2015symmetry
+  :END:
+
+** Summary IPCC
+** Cours psychologie L2
+** On food and cooking (McGee)
+
+* TOREAD Reinhart, A. (): Statistics done wrong                                 :site:math:stats:
+  :PROPERTIES:
+  :Custom_ID: statisticsdonewrong
+  :END:
+
+
+  L
+* TOREAD Knill, O. (2018): Some fundamental theorems in mathematics             :math:
+  :PROPERTIES:
+  :Custom_ID: knill18:some_fundam_theor_mathem
+  :END:
+
+* TOREAD Greenland, S., Senn, S. J., Rothman, K. J., Carlin, J. B., Poole, C., Goodman, S. N., & Altman, D. G. (2016): Statistical tests, p values, confidence intervals, and power: a guide to misinterpretations :math:stats:
+  :PROPERTIES:
+  :Custom_ID: greenland-2016-p-values
+  :END:
+
+* TOREAD Thomas, D. L. (2019): Global elimination of chronic hepatitis          :medecine:infectious:paper:
+  :PROPERTIES:
+  :Custom_ID: thomas19_global_elimin_chron_hepat
+  :END:
+
+* TOREAD Grenfell, B. T., Bjørnstad, O. N., & Finkenstädt, B. F. (2002): DYNAMICS OF MEASLES EPIDEMICS: SCALING NOISE, DETERMINISM, AND PREDICTABILITY WITH THE TSIR MODEL :medecine:infectious:modeling:paper:
+  :PROPERTIES:
+  :Custom_ID: Grenfell_2002
+  :END:
+Technique++ : modélisation stochastique
+
+* DONE Hamosh, P., & Cohn, J. N. (1970): Mechanism of the hepatojugular reflux test :medecine:paper:
+  CLOSED: [2019-06-01 Sat 15:34]
+  :PROPERTIES:
+  :Custom_ID: Hamosh_1970
+  :END:
+
+* READING Gowers, T. (2010): The princeton companion to mathematics             :book:math:
+  :PROPERTIES:
+  :Custom_ID: princetonCompanionMaths
+  :END:
+
+* READING Knuth, D. E. (1997): The art of computer programming, volume 1 : fundamental algorithms :book:cs:
+  :PROPERTIES:
+  :Custom_ID: taocp1
+  :END:
+
+* DONE Kaboudian, A., Cherry, E. M., & Fenton, F. H. (2019): Real-time interactive simulations of large-scale systems on personal computers and cell phones: toward patient-specific heart modeling and other applications :paper:medecine:modeling:
+  CLOSED: [2019-06-10 Mon 10:49]
+  :PROPERTIES:
+  :Custom_ID: kaboudian19_real_time_inter_simul_large
+  :END:
+  Numerical scheme : 2nd order. 
+  Uses GPU. 
+  Their library seems just a wrapper around webgl for ease of use.
+
+* TOREAD Jaulhac, B., Saunier, A., Caumes, E., ouiller, K., Gehanno, J., Rabaud, C., Perrot, S., … (2019): Lyme borreliosis and other tick-borne diseases. guidelines from the french scientific societies (ii). biological diagnosis, treatment, persistent symptoms after documented or suspected lyme borreliosis :medecine:infectious:
+  :PROPERTIES:
+  :Custom_ID: jaulhac19_lyme_borrel_other_tick_borne_diseas
+  :END:
+Dernières recos sur Lyme
+
+* TOREAD Figoni, J., Chirouze, C., Hansmann, Y., Lemogne, C., Hentgen, V., Saunier, A., Bouiller, K., … (2019): Lyme borreliosis and other tick-borne diseases. guidelines from the french scientific societies (i): prevention, epidemiology, diagnosis :medecine:infectious:
+  :PROPERTIES:
+  :Custom_ID: figoni19_lyme_borrel_other_tick_borne_diseas
+  :END:
+Dernières recos sur Lyme
+
+* DONE Bekkering, G. E., Agoritsas, T., Lytvyn, L., Heen, A. F., Feller, M., Moutzouri, E., Abdulazeem, H., … (2019): Thyroid hormones treatment for subclinical hypothyroidism: a clinical practice guideline :medecine:endoc:
+  CLOSED: [2019-06-13 Thu 12:55]
+  :PROPERTIES:
+  :Custom_ID: bekkering19_thyroid_hormon_treat_subcl_hypot
+  :END:
+Hypothyroidie frustre : ne pas traiter (sauf enceinte, < 30ans, sévère)
+
+* DONE Zheng, Y., Li, Y., Satija, A., Pan, A., Sotos-Prieto, M., Rimm, E., Willett, W. C., … (2019): Association of changes in red meat consumption with total and cause specific mortality among us women and men: two prospective cohort studies :medecine:nutrition:
+  CLOSED: [2019-06-16 Sun 16:59]
+  :PROPERTIES:
+  :Custom_ID: zheng19_assoc_chang_red_meat_consum
+  :END:
+
+  Association entre la consommation de viande rouge et l'augmentation de la mortalité chez infimières + professionnels de santé américain.
+Viande rouge transformée ou non. Pas de recommandation de seuil.
+
+* TOREAD Kaminski, J., Waller, B. M., Diogo, R., Hartstone-Rose, A., & Burrows, A. M. (2019): Evolution of facial muscle anatomy in dogs :paper:animals:
+  :PROPERTIES:
+  :Custom_ID: kaminski19_evolut_facial_muscl_anatom_dogs
+  :END:
+Observation : muscle présents chez les chiens mais pas les loups qui donne les
+"yeux de chiots"
+Hypothese : cela résolute d'une sélection selon une préférence humaine
+
+* TOREAD Fong, B., & Spivak, D. I. (2018): Seven sketches in compositionality: an invitation to applied category theory :book:math:
+  :PROPERTIES:
+  :Custom_ID: fong18_seven_sketc_compos
+  :END:
+
+
+* TOREAD Keehn, R. J. J., Iversen, J. R., Schulz, I., & Patel, A. D. (2019): Spontaneity and diversity of movement to music are not uniquely human :paper:animals:
+  :PROPERTIES:
+  :Custom_ID: keehn19_spont_diver_movem_to_music
+  :END:
+
+
+* DONE Chen, A. X., Leung, A. M., & Korevaar, T. I. (2019): Thyroid function and conception :paper:medecine:endoc:
+  CLOSED: [2019-07-11 Thu 11:26]
+  :PROPERTIES:
+  :Custom_ID: chen19_thyroid_funct_concep
+  :END:
+TSH normale mais Ac anti-TPO normale : traiter ou pas ? Recommandation de : surveillance rapprochées, traitement à petites doses de lévythyrox possibles
+
+* TOREAD Khuong, T. M., Wang, Q., Manion, J., Oyston, L. J., Lau, M., Towler, H., Lin, Y. Q., … (2019): Nerve injury drives a heightened state of vigilance and neuropathic sensitization in drosophila :animals:paper:
+  :PROPERTIES:
+  :Custom_ID: khuong19_nerve_injur_drives_heigh_state
+  :END:
+* TOREAD IPCC, 2019 : Summary for policymaker (draft) :book:climate:
+https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.pdf
+
+
+* DONE Brouwer, I. A., Organization, W. H., & others,  (2016): Effect of trans-fatty acid intake on blood lipids and lipoproteins: a systematic review and meta-regression analysis :paper:nutrition:
+  :PROPERTIES:
+  :Custom_ID: brouwer2016effect
+  :END:
+
+* TOREAD Amsterdam, V. U. (2018): Machine learning course :course:cs:
+  :PROPERTIES:
+  :Custom_ID: machinelearningVUUniv2018
+  :END:
+
+* READING Seibel, P. (2005): Practical Common Lisp :book:cs:
+  :PROPERTIES:
+  :Custom_ID: seibel05_collec
+  :END:

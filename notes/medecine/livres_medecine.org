@@ -19,24 +19,24 @@ NB: une édition est “valable” 3 ans
 |          | +ORL+            | Masson            | 4eme (2017) |         | 2017 si occasion            |    37 |     35 |                         |
 |          | +Maxillo-facial+ | Masson            | 4eme (2017) |         | 2017 si occasion neuf sinon |    38 |     36 |                         |
 |----------+------------------+-------------------+-------------+---------+-----------------------------+-------+--------+-------------------------|
-|        9 | Immunologie      | Masson            | 2eme (2018) |         | Occasion                    |    32 |        |                         |
-|          | Hématologie      | Masson            | 3eme (2018) |         | Neuf/occasion               |    38 |        |                         |
-|          | +Dermatologie+   | Masson            | 7eme (2017) |         | Occasion ?                  |    39 |     10 |                         |
-|          | Rhumatologie     | Masson            | 6eme (2018) |         | Neuf/occasion               |    39 |        |                         |
-|          | Gériatrie        | Masson            | 4eme (2018) |         | Neuf/occasion               |    32 |        |                         |
+|        9 | +Immunologie+    | Masson            | 2eme (2018) |         | Occasion                    |    32 |        | commandé                |
+|          | +Hématologie+    | Masson            | 3eme (2018) |         | Occasion                    |    38 |     20 |                         |
+|          | +Dermatologie+   | Masson            | 7eme (2017) |         | Occasion                    |    39 |     10 |                         |
+|          | +Rhumatologie+   | Masson            | 6eme (2018) |         | Occasion                    |    39 |     20 |                         |
+|          | +Gériatrie+      | Masson            | 4eme (2018) |         | Occasion (avant-dernière ?) |    32 |      0 | commandé                |
 |----------+------------------+-------------------+-------------+---------+-----------------------------+-------+--------+-------------------------|
-|       10 | Pédiatrie        | Masson            | 7eme (2017) |         | Occasion                    |    46 |        |                         |
+|       10 | Pédiatrie        | Masson            | 7eme (2017) |         | Occasion                    |    46 |      0 | Cadeau d'aurélien       |
 |          | Gynécologie      | Masson            | 4eme (2018) |         | Neuf                        |    42 |        |                         |
 |          | +Orthopédie+     | Ellipse           |             |         | Occasion                    |    35 |     20 | avec frais de transport |
 |          | +Cancérologie+   | Medline           | 2017        |         | Occasion                    |    39 |     20 | avec frais de transport |
 |    Total |                  |                   |             |         |                             | 781.4 |  351.5 |                         |
-#+TBLFM: $7=vsum(@3..@-1)::$8=vsum(@3..@-1)
+#+TBLFM:
 
  Neuf : ANEM ou unitheque.com
  Occasion : bourse aux livres ECN Asso
 
 
-* WAITING Pédiatrie : 25€ sur Nancy. Mathias Roulon, rue Mon Desért => aller chercher
+* CANCELLED Pédiatrie : 25€ sur Nancy. Mathias Roulon, rue Mon Desért => aller chercher
 * CANCELLED Pédiatrie surligné Marseille
 https://www.leboncoin.fr/livres/1660488290.htm/
 * CANCELLED https://www.leboncoin.fr/livres/1650328742.htm/
