@@ -6,7 +6,7 @@
 http://www.uib.no/People/nmabd/dt/080627dt.pdf
 ** Abstract thèse Hélène
 ** Histoire des maths
-http://www-irma.u-strasbg.fr/~baumann/polyh.pdf  
+http://www-irma.u-strasbg.fr/~baumann/polyh.pdf
 ** HOLD Math MPSI
 Lu jusqu'à l'anneau des entiers relatifs
 ** Les maths en tête (MP) : analyse, algèbre
@@ -104,8 +104,8 @@ Technique++ : modélisation stochastique
   :PROPERTIES:
   :Custom_ID: kaboudian19_real_time_inter_simul_large
   :END:
-  Numerical scheme : 2nd order. 
-  Uses GPU. 
+  Numerical scheme : 2nd order.
+  Uses GPU.
   Their library seems just a wrapper around webgl for ease of use.
 
 * TOREAD Jaulhac, B., Saunier, A., Caumes, E., ouiller, K., Gehanno, J., Rabaud, C., Perrot, S., … (2019): Lyme borreliosis and other tick-borne diseases. guidelines from the french scientific societies (ii). biological diagnosis, treatment, persistent symptoms after documented or suspected lyme borreliosis :medecine:infectious:
@@ -136,25 +136,25 @@ Hypothyroidie frustre : ne pas traiter (sauf enceinte, < 30ans, sévère)
   Association entre la consommation de viande rouge et l'augmentation de la mortalité chez infimières + professionnels de santé américain.
 Viande rouge transformée ou non. Pas de recommandation de seuil.
 
-* TOREAD Kaminski, J., Waller, B. M., Diogo, R., Hartstone-Rose, A., & Burrows, A. M. (2019): Evolution of facial muscle anatomy in dogs :paper:animals:
+* DONE Kaminski, J., Waller, B. M., Diogo, R., Hartstone-Rose, A., & Burrows, A. M. (2019): Evolution of facial muscle anatomy in dogs :paper:animals:
   :PROPERTIES:
   :Custom_ID: kaminski19_evolut_facial_muscl_anatom_dogs
   :END:
-Observation : muscle présents chez les chiens mais pas les loups qui donne les
-"yeux de chiots"
-Hypothese : cela résolute d'une sélection selon une préférence humaine
+
+Méthode : dissection anatomique (4 chien et 2 loups)+ observation (27 chiens, 9 loups)
+Observation : 1 muscle présent chez les chiens mais pas les loups qui permet
+d'élever les "sourcils". Particulièrement attractif pour les humains ("yeux de chiots")
+Hypothese : cela résulte d'une sélection selon une préférence humaine
 
 * TOREAD Fong, B., & Spivak, D. I. (2018): Seven sketches in compositionality: an invitation to applied category theory :book:math:
   :PROPERTIES:
   :Custom_ID: fong18_seven_sketc_compos
   :END:
 
-
 * TOREAD Keehn, R. J. J., Iversen, J. R., Schulz, I., & Patel, A. D. (2019): Spontaneity and diversity of movement to music are not uniquely human :paper:animals:
   :PROPERTIES:
   :Custom_ID: keehn19_spont_diver_movem_to_music
   :END:
-
 
 * DONE Chen, A. X., Leung, A. M., & Korevaar, T. I. (2019): Thyroid function and conception :paper:medecine:endoc:
   CLOSED: [2019-07-11 Thu 11:26]
@@ -170,7 +170,6 @@ TSH normale mais Ac anti-TPO normale : traiter ou pas ? Recommandation de : surv
 * TOREAD IPCC, 2019 : Summary for policymaker (draft) :book:climate:
 https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.pdf
 
-
 * DONE Brouwer, I. A., Organization, W. H., & others,  (2016): Effect of trans-fatty acid intake on blood lipids and lipoproteins: a systematic review and meta-regression analysis :paper:nutrition:
   :PROPERTIES:
   :Custom_ID: brouwer2016effect
@@ -184,4 +183,14 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
 * READING Seibel, P. (2005): Practical Common Lisp :book:cs:
   :PROPERTIES:
   :Custom_ID: seibel05_collec
+  :END:
+
+* TOREAD Steffen, J. H. (2008): Optimal boarding method for airline passengers :paper:cs:
+  :PROPERTIES:
+  :Custom_ID: steffen08_optim_board_method_airlin_passen
+  :END:
+
+* TOREAD Steffen, J. H., & Hotchkiss, J. (2012): Experimental test of airplane boarding methods
+  :PROPERTIES:
+  :Custom_ID: steffen12_exper_test_airpl_board_method
   :END:
