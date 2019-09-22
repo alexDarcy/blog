@@ -194,3 +194,12 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
   :PROPERTIES:
   :Custom_ID: steffen12_exper_test_airpl_board_method
   :END:
+
+* DONE Dasgupta, Q., & Black, L. D. (2019): A fresh slate for 3d bioprinting :paper:medecine:
+  :PROPERTIES:
+  :Custom_ID: dasgupta19_fresh_slate_biopr
+  :END:
+Perspective : impression 3D. 2 méthodes pour additive : extrusion (voxel par
+voxel) ou stérolithographie.
+
+Article de Lee : précision passée à 20micron pour des structures en collagène.
