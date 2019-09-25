@@ -189,20 +189,21 @@ Rougeole, oreillons, rubéole :12M et 16-18M
 
 * Médecine nucléaire
 Scinti
-| Isotope    | Vecteur              |                        |
-|------------+----------------------+------------------------|
-| Technetium | HDMP (diphosphonate) | os                     |
-| Technetium | albumine             | perfusion pulmonaire   |
-| Technetium | Technegas (carbone)  | ventilation pulmonaire |
-| Technetium | DMSA                 | rein                   |
-| Technetium | HMPAO                | cerveau                |
-|------------+----------------------+------------------------|
-| Iode       | 0                    | thyroïde               |
+| Isotope              | Vecteur              |                            |
+|----------------------+----------------------+----------------------------|
+| Technetium           | HDMP (diphosphonate) | os                         |
+| Technetium           | albumine             | perfusion pulmonaire       |
+| Technetium           | Technegas (carbone)  | ventilation pulmonaire     |
+| Technetium           | DMSA                 | masse rénale fonctionnelle |
+| Technetium           | HMPAO                | perfusion cérébrale        |
+|----------------------+----------------------+----------------------------|
+| Iode                 | 0                    | thyroïde                   |
+|----------------------+----------------------+----------------------------|
+| Indium  (Octréoscan) | Pentétréotide        | tumeurs neuroendocrines    |
 TEP
 | 18-F | FDG           |
 | 18-F | FCH (choline) |
 | 18-F | FDOpa         |
-|      |               |
 ** Cours
 *** Médicaments radiopharmaceutiques : constitués d'un radio-élement (émet le rayonnement) + un vecteur (se fixe aux organes)
   - technétium : scintigraphie++. Produit directement dans le service
@@ -248,6 +249,9 @@ Imprécise en tomoscintigraphie, meilleure en TEP
 - Tube PM => photodiodes plus compact pour TEP
 ** Stage
 Choline : adénome parathyroïdien
+Scinti : utile pour algodystrophie
+Ganglion sentinelle : opération du sein++, pour aider le chirurgien à repérer le
+ganglion (injection la veille/le jour même)
 *** Cancers
 **** Prostate
 - Scinti : bilan d'extension de K de la prostate
@@ -256,6 +260,16 @@ Choline : adénome parathyroïdien
 *** Lymphome
 Classif d'Ann Arbor : I= 1 territoire, II = N territoires du même côté, III =
 sus et sous-diaphragmatique, IV = viscérale
+*** Scinti thyroide
+- Basedow : diffus
+- De Quervain : pas de fixation
+- Hashimoto : hyperthyroïde puis hypothyroïde : fixation faible hétérogène
+*** Scinti cardiaque
+- Effort et repos, sans et avec correction à chaque fois (sert à corriger
+l'atténuation corporelle)
+- Déficit réversible = ischémie, sinon nécrose
+** ECNI
+Scinti thyroïdienne, éventuellement pulmonaire peuvent tomber
 * Gardes
 ** 1. Urgences : ABCDE https://www.resus.org.uk/resuscitation-guidelines/abcde-approach/
 Éliminer les risques vitaux en 30s
