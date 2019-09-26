@@ -36,3 +36,5 @@ soit t_m = t/12 (taux prortionnel) soit par t_m = \sqrt[12]{1+t}-1 (taux actuari
 
 Au final, la mensualité est
 M = \frac{C_0 t_m (1+t_m)^n}{(1+t_m)^n - 1}
+
+** C5

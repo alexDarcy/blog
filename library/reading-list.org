@@ -1,5 +1,5 @@
 #+TITLE: Reading list
-#+TODO: TOREAD(t) MAYBE(m) PENDING(p) READING(r) HOLD(h) | DONE(d)
+#+TODO: TOREAD(t) MAYBE(m) PENDING(p) READING(r) HOLD(h) SKIMMED(s) | DONE(d)
 #+COLUMNS: %120ITEM %STATUS
 * Math
 ** HOLD Differential topology
@@ -203,3 +203,16 @@ Perspective : impression 3D. 2 méthodes pour additive : extrusion (voxel par
 voxel) ou stérolithographie.
 
 Article de Lee : précision passée à 20micron pour des structures en collagène.
+
+* SKIMMED Burch, H. B. (2019): Drug effects on the thyroid   :paper:medicine:
+  :PROPERTIES:
+  :Custom_ID: burch19_drug_effec_thyroid
+  :END:
+
+- Dimminution de la thyrotropine  mais T4 normal: glucocorticoides, agoniste de la dopamine,
+analogues de la somatostatine, metformine
+
+- Augemntation de la thyroxine-binding globulin
+estrogen oraux, modulateurs du recepteurs à l'oestrogène, methadone, heroin, mitotane, fluorouracil
+
+  Amiodarine peut causer de l'hyperthyroïdisme par surcharge en iode.

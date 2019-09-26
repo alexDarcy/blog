@@ -271,20 +271,42 @@ l'atténuation corporelle)
 ** ECNI
 Scinti thyroïdienne, éventuellement pulmonaire peuvent tomber
 * Gardes
-** 1. Urgences : ABCDE https://www.resus.org.uk/resuscitation-guidelines/abcde-approach/
+** 1. Urgences : ABCDE
+https://www.resus.org.uk/resuscitation-guidelines/abcde-approach/
+[[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=12&ved=2ahUKEwjqre3gkezkAhWPohQKHWVxAygQFjALegQIBBAC&url=https%3A%2F%2Fwww.who.int%2Femergencycare%2Fpublications%2FBEC_ABCDE_Approach_2018a.pdf&usg=AOvVaw3Cu1L7fniTpCUwq9PwOeap][WHO]]
 Éliminer les risques vitaux en 30s
 *** A : airway
+_corps étranger, brûlure, anaphylaxis, trauma ?_
 Peux parler ?
-  - oui : difficilement ? corps étranger, anaphylaxie
+  - oui :
+    + difficilement ? cherche obstruction, fluide
+      * Corps étranger : si visible, enlever. Si toux, encourager. Sinon frappes
+        dans le dos (par 5)
+      * anaphylaxie : adrénalie IM
   - non : dégager voies respi
 *** B : breathing
-Si respire : tirage, balancement thoraco-abdominal
+_pneumothorax, overdose, asthme, BPCO ?_
+Très rapide, très lent ?
+Muscles accessoires, tirage, balancement thoraco-abdominal
 *** C : circulation
-Arrêt cardiaque, perfusion, saignement, traumatism
-*** D : disability => conscient ou non ?
-Glasgow, hypoglycémie, pupilel
+_0 pouls, chock, hémorragie sévère, tamponnande cardiaque ?_
+Perfusion : extrémités froides, TRC > 2s, hypotension, tachypnée, tachycardie,
+pas de pouls
+Saignement ? Poitrine, abdomen, fractures
+Tamponnade ? hypotension, veines du cous, bruits du coeur étouffés
+Pression sanguine
+*** D : disability
+_Hypoglycémie, HTIC, convulsion ?_
+Conscient ? Glasgow
+Hypoglycémie ?
+Pupille ?
+  - myosis :  opiodes ? => naloxone
+  - inégales : HTIC ? lever la tête
+  - sinon : trauma ?
+Convulsion ?
 *** E : exposure
-Hypothermie, objects "constricteurs"
+Autres blessures, réactions allergiques
+Protéger de l'hypothermie, enlever vêtements/bijous "constricteurs"
 
 ** 2. Si non, reste de l'examen
 *** Examen clinique
