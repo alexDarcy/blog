@@ -216,3 +216,11 @@ analogues de la somatostatine, metformine
 estrogen oraux, modulateurs du recepteurs à l'oestrogène, methadone, heroin, mitotane, fluorouracil
 
   Amiodarine peut causer de l'hyperthyroïdisme par surcharge en iode.
+
+* SKIMMED Mueller, P. A., & Oppenheimer, D. M. (2014): The pen is mightier than the keyboard
+  :PROPERTIES:
+  :Custom_ID: mueller14_pen_is_might_than_keyboar
+  :END:
+Notes papier + études > notes sans étude, PC avec étude et PC sans études
+Mais ça ne montre pas que les notes PC sont moins bonnes ?
+Par contre, les notes sous PC sont plus copiés-collées donc moins de réflexion
