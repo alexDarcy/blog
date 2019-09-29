@@ -34,6 +34,7 @@ main = hakyll $ do
 
     match "notes/*.md" processWithBib 
 
+    match "notes/*.org" processWithBib
 -- Painful to work with, so we use latex for notes instead
 {-    match "notes/medecine/*.md" $ do-}
         {-route   $ setExtension ".pdf"-}
