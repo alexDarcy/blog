@@ -92,6 +92,17 @@ essayer
 pas de souci de cuisson avec [[https://www.hervecuisine.com/recette/gaufres-croustillantes-ultra-legeres/). Temps de repos qui fait la différence ? (Souvent pas assez cuite dans les essais précédents][cette recette]]
 ** RETRY Guimauve
 [[http://www.jujube-en-cuisine.fr/marshmallow-ou-guimauve-maison/)][jujube-en-cuisine]]: trop sucré mais bonne texture
+** TODO Lebkuchen
+1er essai avec une recette de 750g il y a quelques années
+2eme essai avec cette recette :
+https://www.bbcgoodfood.com/recipes/1941/lebkuchen
+mais plusieurs modifications :
+Ajout : 1 oeufs, 25g sucre roux, orange confite, noisettes concassées
+Globalement : plus de farine que mentionné
+Glacage = 200g chocolat + huile de coco mais pas assez pour tous les gâteaux.
+Important : couper cuisson quand les bords commencent à brûnir (10min à 180% max)
+=> résultat : pas mal
+
 ** RETRY Mille-feuille [[https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse][
 de Conticini]]
 ** RETRY Moka
