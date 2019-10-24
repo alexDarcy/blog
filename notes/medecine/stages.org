@@ -270,6 +270,16 @@ l'atténuation corporelle)
 - Déficit réversible = ischémie, sinon nécrose
 ** ECNI
 Scinti thyroïdienne, éventuellement pulmonaire peuvent tomber
+
+* Gynéco
+- Diabète gestationnel :
+déclenchement pour éviter macrosomie et d'aggraver le diabète (à vérif)
+- HELLP (completer)
+- SHAG
+- GUE : methotrexate possible (sauf si à la base des trompes)
+
+
+
 * Gardes
 ** 1. Urgences : ABCDE
 https://www.resus.org.uk/resuscitation-guidelines/abcde-approach/

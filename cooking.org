@@ -163,6 +163,10 @@ OK avec ces 2 modifications !
 ** DONE Haricots blancs à la tomate : le secret semble être de bien cuire la sauce
 tomate 10min avant d'ajouter le reste
 https://www.thecookierookie.com/white-beans-recipe/
+** TODO Cornbread
+https://www.bonappetit.com/recipe/buttermilk-cornbread
+Bien moelleux mais quantité approximative de farine et de lait (+50% ?). Trop de
+levure (1 sachet) ?
 
 * Fermentation
 ** Levain :
