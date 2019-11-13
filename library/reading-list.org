@@ -224,3 +224,8 @@ estrogen oraux, modulateurs du recepteurs à l'oestrogène, methadone, heroin, m
 Notes papier + études > notes sans étude, PC avec étude et PC sans études
 Mais ça ne montre pas que les notes PC sont moins bonnes ?
 Par contre, les notes sous PC sont plus copiés-collées donc moins de réflexion
+
+* TOREAD Goupil, B., Fr\'ed\'eric Balusson, Naudet, F., Esvan, M., Bastian, B., Chapron, A., & Frouard, P. (2019): Association between gifts from pharmaceutical companies to french general practitioners and their drug prescribing patterns in 2016: retrospective study using the french transparency in healthcare and national health data system databases :paper:medecine:
+  :PROPERTIES:
+  :Custom_ID: goupil19_assoc_between_gifts_from_pharm
+  :END:
