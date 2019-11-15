@@ -229,3 +229,17 @@ Par contre, les notes sous PC sont plus copiés-collées donc moins de réflexio
   :PROPERTIES:
   :Custom_ID: goupil19_assoc_between_gifts_from_pharm
   :END:
+
+* DONE Christiansen, S. C., & Zuraw, B. L. (2019): Treatment of hypertension in patients with asthma
+  :PROPERTIES:
+  :Custom_ID: christiansen19_treat_hyper_patien_with_asthm
+  :END:
+** Pathophysiologie
+2 types d'asthmes = inflammatoire et peu inflammatoire. Le
+second groupe est plus susceptible d'être hypetendu.
+HTA exacerbe l'inflammation de type 1. Rôle de l'interleukine 17 et 6.
+** Traitements
+Attention avec les beta-bloquant chez patients instables/sévère
+IEC dangereux chez minorités de patients
+Bloqueurs de l'agiotensine semble être OK.
+** Régime, restriction sodée, diminution du stress, diminution du poids
