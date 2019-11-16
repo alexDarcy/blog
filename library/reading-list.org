@@ -243,3 +243,9 @@ Attention avec les beta-bloquant chez patients instables/sévère
 IEC dangereux chez minorités de patients
 Bloqueurs de l'agiotensine semble être OK.
 ** Régime, restriction sodée, diminution du stress, diminution du poids
+
+* READING Hall, J. (2016): Guyton and hall textbook of medical physiology
+  :PROPERTIES:
+  :Custom_ID: hall16_guyton_hall
+  :END:
+Chap. 61 en cours
