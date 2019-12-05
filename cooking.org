@@ -66,16 +66,13 @@ https://www.seriouseats.com/recipes/2017/10/carrot-cake-recipe.html
     ... Crème OK mais gâteau globablement un poil lourd mais bon.
 ** RETRY Galette des rois
 [[https://www.youtube.com/watch?v=ETkk7QXbtlw][de Conticini]]
-  + Problème de la quantité : diviser quantité de crème par 2 : donne
-  2 petites galettes de 20cm ? Mais la dernière fois : manque de
-  frangipane => ne pas hésiter à en mettre quand même (sans abuser,
-  cf vidéo)
+  + Problème de la quantité : avec 3/4 de la crème, léger surplus pour une
+    grosse galette ?
   + Pâte feuilletée inversée plus intéressante que la simple => prendre la recette de PPAP
-  + Attention à la pâte feuilletée : trop dure s'il manque de l'eau (impossible à
-  étaler ou se déchire un peu...)
-  + Frangipane sortie de la galette (alors qu'il en manquait) =>
-  causes possibles : abaisses de pâtes qui se recoupent, chiquetage
-  mal fait
+  + Attention à mettre suffisament d'eau dans la pâte feuilletée : trop dure
+    sinon (et se déchire)
+  + Frangipane sortie de la galette (alors qu'il en manquait) => réappuyer pour
+    souder après l'avoir retourné semble fontionner
 
 ** RETRY Gâteau au chocolat
 essayer

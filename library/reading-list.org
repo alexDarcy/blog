@@ -1,5 +1,5 @@
 #+TITLE: Reading list
-#+TODO: TOREAD(t) MAYBE(m) PENDING(p) READING(r) HOLD(h) SKIMMED(s) | DONE(d)
+#+TODO: TOREAD(t) MAYBE(m) PENDING(p) READING(r) HOLD(h) | SKIMMED(s)  DONE(d)
 #+COLUMNS: %120ITEM %STATUS
 * Math
 ** HOLD Differential topology
@@ -244,8 +244,22 @@ IEC dangereux chez minorités de patients
 Bloqueurs de l'agiotensine semble être OK.
 ** Régime, restriction sodée, diminution du stress, diminution du poids
 
-* READING Hall, J. (2016): Guyton and hall textbook of medical physiology
+* READING Hall, J. (2016): Guyton and hall textbook of medical physiology :book:medecine:physiology:
   :PROPERTIES:
   :Custom_ID: hall16_guyton_hall
   :END:
-Chap. 61 en cours
+** DONE Chap 61 en cours
+** DONE Chap 34
+
+* TOREAD Herring, W. (2020): Learning radiology : recognizing the basics :book:medecine:radiology:
+  :PROPERTIES:
+  :Custom_ID: herring20_learn
+  :END:
+** DONE Chap 3
+
+* SKIMMED Hausfather, Z., Drake, H. F., Abbott, T., & Schmidt, G. A. (2019): Evaluating the performance of past climate model projections
+  :PROPERTIES:
+  :Custom_ID: hausfather19_evaluat_perfor_past_climat_model_projec
+  :END:
+Comparaison de modèles de climat contre des observations pour la température
+moyenne : même des vieux modèles des années 70 sont précis.
