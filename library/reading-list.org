@@ -263,3 +263,9 @@ Bloqueurs de l'agiotensine semble être OK.
   :END:
 Comparaison de modèles de climat contre des observations pour la température
 moyenne : même des vieux modèles des années 70 sont précis.
+
+* SKIMMED Hegde, R. B., Prasad, K., Hebbar, H., & Sandhya, I. (2018): Peripheral blood smear analysis using image processing approach for diagnostic purposes: a review
+  :PROPERTIES:
+  :Custom_ID: hegde18_perip_blood_smear_analy_using
+  :END:
+  Pour référence d'un frottis sanguin + anomalies globules rouges
