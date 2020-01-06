@@ -153,7 +153,11 @@ America test kitchen recipe. Pas mal et pas prise de tête
   + Sabayon pas assez monté (oeufs pas assez chauds probablement)
   + mascarpone trop dense
   + problème avec la recette ?
-  => réessayer avec jaune + sucre + mascarpone, puis ajouter blanc en neige
+  Plusieurs possibilités :
+  1. réessayer sabayon avec seulemnt jaune + sucre + mascarpone, puis ajouter
+     blanc en neige. Selon Laure, incorporation risquées des blancs
+  2. Ne pas mettre de blancs (solution de Laure)
+  3. Utiliser de la crème fouettée à la place de blancs en neige
 ** RETRY Yaourt à la yaourtière
 5 yaourts = 1L de lait entier + 1 yaourt (avec ferments) avec 10h
   + Un peu liquide au fond => essayer avec du lait entier en poudre
