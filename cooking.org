@@ -22,7 +22,7 @@
   + 12 g de sel (+ 1 pincée)
 ** RETRY Brownie
 2 recettes :
-  + https://tasty.co/recipe/ultimate-brownies 
+  + https://tasty.co/recipe/ultimate-brownies
     ** -33% en sucre
     ** café en poudre ok
     ** problème de cuisson : centre pas assez cuit. Brownie trop épais ?
@@ -40,7 +40,7 @@ https://www.seriouseats.com/recipes/2017/10/carrot-cake-recipe.html
 
 ** RETRY Cinnamon rolls
 [[https://www.bingingwithbabish.com/recipes/cinnamonrolls?rq=cinnamon][de Babish]]
-  + Le glacage est trop lourd (et seulement testé avec fromage frais + sucre) en soi ! 
+  + Le glacage est trop lourd (et seulement testé avec fromage frais + sucre) en soi !
   + Soit réessayer la recette de babish (en petite quantités), soit simplement nature.
 
 ** RETRY Clafoutis aux pommes
@@ -57,7 +57,7 @@ https://www.seriouseats.com/recipes/2017/10/carrot-cake-recipe.html
     l'extérieur. 180° était trop, essayer 160° ? Changer la position dans le
     four ?
   + Bien laisser pousser avant d'enfourner (45min n'est pas assez !)
-  + Beurre qui s'échappe = pâte trop malmenée ? 
+  + Beurre qui s'échappe = pâte trop malmenée ?
   + essayer cette recette : https://www.weekendbakery.com/posts/classic-french-croissant-recipe/
 
 ** RETRY Framboisier :
@@ -100,14 +100,14 @@ Glacage = 200g chocolat + huile de coco mais pas assez pour tous les gâteaux.
 Important : couper cuisson quand les bords commencent à brûnir (10min à 180% max)
 => résultat : pas mal
 
-** RETRY Mille-feuille [[https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse][
-de Conticini]]
 ** RETRY Macarons
 Recette de LPAP = valeur sûre mais avec
 - un blanc d'oeuf en plus pour la "pâte d'amande"
 - éviter de faire 2 plaques en même temps (craquelures sur la plaque du bas)
   Recette de Felden avec du cacao en poudre : pâte d'amande trop épaisse mais
   résultant décevant malgré tout (plus un cookie) => des doutes à réessayer...
+** RETRY Mille-feuille [[https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse][
+de Conticini]]
 ** RETRY Moka
 Felder plutôt que PPAP :
    + le biscuit est plus simple chez Felder et plus aéré
@@ -146,6 +146,14 @@ America test kitchen recipe. Pas mal et pas prise de tête
   + lait ? (donne plus une )
   + 2 oeufs
 
+
+** RETRY Tiramisu
+- https://www.seriouseats.com/2017/06/how-to-make-the-best-tiramisu.html =>
+  échec, pâte trop liquide car :
+  + Sabayon pas assez monté (oeufs pas assez chauds probablement)
+  + mascarpone trop dense
+  + problème avec la recette ?
+  => réessayer avec jaune + sucre + mascarpone, puis ajouter blanc en neige
 ** RETRY Yaourt à la yaourtière
 5 yaourts = 1L de lait entier + 1 yaourt (avec ferments) avec 10h
   + Un peu liquide au fond => essayer avec du lait entier en poudre
