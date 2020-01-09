@@ -1,12 +1,13 @@
-\documentclass[a5paper,12pt,norsk]{article}
+\documentclass[a5paper,12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{babel,fouriernc,parskip,booktabs,array}
-\usepackage[margin=1mm,portrait]{geometry}
+\usepackage[margin=7mm,portrait]{geometry}
 \usepackage{enumitem}
 
 \usepackage{pgfpages}                                 % <— load the package
-  \pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm, landscape] % <— set options
+  \pgfpagesuselayout{4 on 1}[a4paper,border shrink=3mm] % <— set options
 
+\pagestyle{empty} % No page number
 
 \setlist{nolistsep}
 \renewcommand\labelitemi{--}
@@ -36,7 +37,6 @@
 \setlength{\parskip}{0pt plus 0.5ex}
 
 \begin{document}
-\thispagestyle{empty}
 
 \begin{center}
      \Large{\textbf{Examen clinique}} \\
@@ -44,7 +44,7 @@
 
 \subsection{ATCD}
 \label{sec:org32b2aff}
-chir, med, gynéco, familial, perso
+chir, med, gynéco ($G_{X}P_{Y}$), familial
 \subsection{Ttt}
 \label{sec:orge6567b5}
 habituel, allergies (dernier repas)
@@ -74,6 +74,7 @@ Terrain : âge, ATCD familiaux IDM, diabète, HTA, tabac, dyslipidémie, obési
  SF: douleur thoracique (coronale, pleural, péricardite, dissection aortique), dyspnée, lipothymie/syncope, palpitation\\
  Reflux abdomino-jugulaire
  Turgescence jug, oedème périph\\
+ Palpation
  Auscultation
 \subsection{Vasculaire artériel}
  SF: AIT (troubles paroles transitoire, déficit M/S, cécité transitoire), HTA
@@ -99,6 +100,35 @@ Terrain : âge, ATCD familiaux IDM, diabète, HTA, tabac, dyslipidémie, obési
  Palpation (point Mc Burney, sd péritonéal, HMG, SMG, masse )\\
  Percussion, auscultation\\
  TR
+\subsection{Uro}
+SF : douleur (rénale, vésicale, prostate, bourse), sd
+irritatif/obstructif/brûlures, couleurs, écoulement, érection\\
+Palpation (abdo, flanc, globe, bourse)\\
+Percussion (fosse, globe)\\
+TR/TV
+\newpage
+\subsection{Locomoteur}
+\emph{SF}: douleur (articulation, méca/infla), raideur, gonflement, craquement,
+blocage, marche (boîterie, claudication)\\
+\emph{Rachis} : courbures, épineuses (palpation, percussion), paravértébraux
+(sonnette) [NCB = sonnette, étirement bras, sciatique/cruralgie = sonnette,
+lasègue, Léri]\\
+\emph{Sacroiliaque} : interligne, écartement/rapportement, cisaillement H, V, trépied\\
+\emph{Articulation périph} : inflammation, palpation, déformation, mobilité passiv./act.\\
+Genou :
+\begin{itemize}
+\item épanchement (choc rotulien), palpé rotulien, rabot, Zohlen, ressaut rotulien
+\item méniscal : palpation, grinding test, Thessaly (monopoday + RI-RE)
+\item ligaments : LCA (Lachman , tiroir 60$^{\circ}$), LCP (60$^{\circ}$),
+    capsule (valg/valr ext.), coque (valg/valr 30$^{\circ}$)
+\end{itemize}
+Épaule : conflit sous-acromial (Neer, Hawkins, Yocum), coiffe (Jobe = supra,
+Patte = infra, belly-press= sous-scap)\\
+Poignet : Finkelsten (tendinop. de De Quervain)
+
+Pied : interligne Chopart, Lisfranc, éversion/inversion
+
+Cheville : Ottawa (5eme métatarsien/naviculaire ; malléole +/6cm; appui)
 \subsection{Neuro}
 SF: céphalée, douleur neuro, confusion/mémoire, 5 sens, équilibre, vertiges,
 déficit S/M, mouvements anormaux,, dificultés marche\\
@@ -114,35 +144,7 @@ Signe méningé (nuque, Brudzinksi, Kernig)\\
 Doigts-nez, marionnettes\\
 Romberg, marche, ordres\\
 Fonction sup : langage, articulation, mémoire
-\subsection{Locomoteur}
-\emph{SF}: douleur (articulation, méca/infla), raideur, gonflement, craquement,
-blocage, marche (boîterie, claudication)\\
-\emph{Rachis} : courbures, épineuses (palpation, percussion), paravértébraux
-(sonnette) [NCB = sonnette, étirement bras, sciatique/cruralgie = sonnette,
-lasègue, Léri]\\
-\emph{Sacroiliaque} : interligne, écartement/rapportement, cisaillement H, V, trépied\\
-\emph{Articulation périph} : inflammation, palpation, déformation, mobilité passive/actives\\
-Genou :
-\begin{itemize}
-\item épanchement (choc rotulien), palpé rotulien, rabot, Zohlen, ressaut rotulien
-\item méniscal : palpation, grinding test, Thessaly (monopoday + RI-RE)
-\item ligaments : LCA (Lachman , tiroir 60$^{\circ}$), LCP (60$^{\circ}$),
-    capsule (valg/valr ext.), coque (valg/valr 30$^{\circ}$)
-\end{itemize}
-Épaule : conflit sous-acromial (Neer, Hawkins, Yocum), coiffe (Jobe = supra,
-Patte = infra, belly-press= sous-scap)\\
-Poignet : Finkelsten (tendinop. de De Quervain)
 
-Pied : interligne Chopart, Lisfranc, éversion/inversion
-
-Cheville : Ottawa (5eme métatarsien/naviculaire ; malléole +/6cm; appui)
-
-\subsection{Uro}
-SF : douleur (rénale, vésicale, prostate, bourse), sd
-irritatif/obstructif/brûlures, couleurs, écoulement, érection\\
-Palpation (abdo, flanc, globe, bourse)\\
-Percussion (fosse, globe)\\
-TR/TV
 
 \subsection{Gynéco}
 SF: douleur (dyspareunie, cyclique), écoulement, aménorrhée, SFU, prurit, , mammaire\\
