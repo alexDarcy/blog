@@ -1,8 +1,12 @@
 #+TODO: TODO RETRY | DONE
 
 * Desserts
-** RETRY Biscuit cuiller
+** DONE Biscuit cuiller
 (Patisserie, Leçons pas-à-pas) : 12min environ
+3 blanc
+75g sucre
+55g farine37g fécule
+4 jaunes
 ** RETRY Biscuit de Savoie
 [[https://www.meilleurduchef.com/cgi/mdc/l/fr/recette/biscuit-savoie.html)][meilleur du chef]] : cuire vraiment plus longtemps en bas du four. Bien beurrer et fariner.
 ** RETRY Bounty
@@ -179,13 +183,22 @@ OK avec ces 2 modifications !
     pendant 2h au moins avec couvercle
 ** Couscous : [[http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html][recette de semoule traditionnelle]]
 ** Quiche : bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits !
-** DONE Haricots blancs à la tomate : le secret semble être de bien cuire la sauce
-tomate 10min avant d'ajouter le reste
+** DONE Haricots blancs à la tomate
+Bien cuire la sauce tomate 10min avant d'ajouter le reste
 https://www.thecookierookie.com/white-beans-recipe/
 ** TODO Cornbread
 https://www.bonappetit.com/recipe/buttermilk-cornbread
 Bien moelleux mais quantité approximative de farine et de lait (+50% ?). Trop de
 levure (1 sachet) ?
+** RETRY Vegan burger
+Pois chiches 500g + 1 oeuf + assaissonnement + 150g de farine de sarrasin =
+texture à la poêle OK. On peut probablement diminuer les doses de farine à 100g
+Le plus important est d'avoir une pôle qui n'attache pas.
+Source https://www.bbcgoodfood.com/recipes/chickpea-coriander-burgers
+Avec du yaourt grec : moins sec mais une petite amertume
+** RETRY Soupe maïs-lait de coco (Des soupes qui nous font du bien)
+Même en diminuant le ratio lait de coco/maïs à 40/60 au lieu de 60/40, encore
+très riche. Essayer 70/30
 
 * Fermentation
 ** Levain :
@@ -194,7 +207,6 @@ levure (1 sachet) ?
 
 * Pains
 Pour une croûte : augmenter la vapeur
-
 *** Pain blanc
 ** Recette du NYT "No-Knead" fonctionne bien, avec 1/2 CC de levure pour 500g
 
