@@ -152,20 +152,13 @@ America test kitchen recipe. Pas mal et pas prise de tête
 
 
 ** RETRY Tiramisu
-- https://www.seriouseats.com/2017/06/how-to-make-the-best-tiramisu.html =>
-  échec, pâte trop liquide car :
-  + Sabayon pas assez monté (oeufs pas assez chauds probablement)
-  + mascarpone trop dense
-  + problème avec la recette ?
-  Détendre le mascarpone avant ??
-  Plusieurs possibilités :
-  1. réessayer sabayon avec seulemnt jaune + sucre + mascarpone, puis ajouter
-     blanc en neige. Selon Laure, incorporation risquées des blancs
-     Selon 750g (https://www.youtube.com/watch?v=85aBJFLL1h8), incorporer au
-     fouet et attendre la prise au frigo
-  2. Ne pas mettre de blancs (solution de Laure)
-  3. Utiliser de la crème fouettée à la place de blancs en neige
-     => au final, crème fouettées avec mascarpone détendu.
+1. https://www.seriouseats.com/2017/06/how-to-make-the-best-tiramisu.html =>
+  échec, pâte trop liquide car
+2. Mieux avec
+   3 jaune + sucre en sabayon.
+   Ajouter 200g mascarpone battu au fouet et battre le tout.
+   Ajout 20cl crème fouettée délicatement.
+   => au final, pas de prise au frigo, consistence crème fouettée molle.
 ** RETRY Yaourt à la yaourtière
 5 yaourts = 1L de lait entier + 1 yaourt (avec ferments) avec 10h
   + Un peu liquide au fond => essayer avec du lait entier en poudre
