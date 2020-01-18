@@ -32,9 +32,9 @@
     ** problème de cuisson : centre pas assez cuit. Brownie trop épais ?
     ** 2eme essai : avec les temps recommandé, au milieu du four, trop cuit ! (comme un cake, trop épais)
     ** => cuire moins+++ (30min), utiliser du chocolat à 70%, bien respecter la dose de cacao en poudre, bien battre++
-  + Mais préférence pour celle-ci : https://www.seriouseats.com/recipes/2018/02/bravetart-glossy-fudge-brownies.html
+  + Préférence pour celle-ci : https://www.seriouseats.com/recipes/2018/02/bravetart-glossy-fudge-brownies.html
     ** diviser quantité par 2 : brownie fin dans un plat à tarte.
-    ** 20-25min à 180 degré. Cuisson homogène
+    ** 20-25min à 180 degré (30min = un peu trop cuit). Cuisson homogène
   + différences entre les 2 : un peu plus de beurre pour SE, un peu plus de chocolat (normal + poudre) pour tasty
 
 ** RETRY Carrot cake
@@ -54,7 +54,14 @@ https://www.seriouseats.com/recipes/2017/10/carrot-cake-recipe.html
 ** RETRY Cornbread (salé)
 [[https://www.seriouseats.com/recipes/2015/11/southern-unsweetened-cornbread-recipe.html][Seriouseats]]
   Bien moelleux mais très mietteux. Probablement pas assez mélangé
-
+** RETRY Crepes
+https://www.marmiton.org/recettes/recette_pate-a-crepes-simple_27121.aspx
+2.5 oeufs
+250 g de farine
+500g l de lait demi-écrémé
+1.5 cuillères à soupe d'huile
+1 cuillère à café de rhum
+=> décent
 ** RETRY Croissants
 (PPAP). Pas encore ça... Remarques après plusieurs essais :
   + 45min à 190° = trop !!  pas assez cuits++ à l'intérieur mais un peu trop à
@@ -110,6 +117,7 @@ Recette de LPAP = valeur sûre mais avec
 - éviter de faire 2 plaques en même temps (craquelures sur la plaque du bas)
   Recette de Felden avec du cacao en poudre : pâte d'amande trop épaisse mais
   résultant décevant malgré tout (plus un cookie) => des doutes à réessayer...
+Essayer avec meringue française
 ** RETRY Mille-feuille [[https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse][
 de Conticini]]
 ** RETRY Moka
@@ -150,7 +158,6 @@ America test kitchen recipe. Pas mal et pas prise de tête
   + lait ? (donne plus une )
   + 2 oeufs
 
-
 ** RETRY Tiramisu
 1. https://www.seriouseats.com/2017/06/how-to-make-the-best-tiramisu.html =>
   échec, pâte trop liquide car
@@ -165,31 +172,39 @@ America test kitchen recipe. Pas mal et pas prise de tête
   + lait de brebis : 1L + 3 CC de lait en poudre + 12h de fermentation = bien ferme. Diminuer lait en poudre 
   
 * Plat principal
-** Kluski na parze ([[http://lespolonais.forumpro.fr/t133-les-kluski-na-parze  vb)][recette]]
+** TODO Cornbread
+https://www.bonappetit.com/recipe/buttermilk-cornbread
+Bien moelleux mais quantité approximative de farine et de lait (+50% ?). Trop de
+levure (1 sachet) ?
+** Couscous : [[http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html][recette de semoule traditionnelle]]
 ** RETRY Falafels (traditionnels) :
 3 échecs successifs...
 Réssayer en
 - mixant bien, bien la pâte
 - mettre au frais pour éviter qu'ils ne se détachent dans la friture
 OK avec ces 2 modifications !
-** Porc fondant : oignon rouge, ail chemisé, curry, porc à braiser. Le tout cuit
-    pendant 2h au moins avec couvercle
-** Couscous : [[http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html][recette de semoule traditionnelle]]
-** Quiche : bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits !
 ** DONE Haricots blancs à la tomate
 Bien cuire la sauce tomate 10min avant d'ajouter le reste
 https://www.thecookierookie.com/white-beans-recipe/
-** TODO Cornbread
-https://www.bonappetit.com/recipe/buttermilk-cornbread
-Bien moelleux mais quantité approximative de farine et de lait (+50% ?). Trop de
-levure (1 sachet) ?
-** RETRY Vegan burger
+** Kluski na parze ([[http://lespolonais.forumpro.fr/t133-les-kluski-na-parze  vb)][recette]]
+** RETRY Lasagnes
+https://www.bonappetit.com/recipe/ba-best-lasagna => ok mais
++ bien saler béchamel et viande sinon un peu fade
++ cuisson avec 1h four et 1h à la cocotte => meilleur au four ?
++ NB : sauce = viande + un peu de liquide à côté. Je regrette de ne pas avoir
+  une texture plus crémeuse
++ on ne sent pas le parmesan
++ la couche supérieure de pâte n'a pas cuite malgré le papier alu => supprimer ?
+** Porc fondant : oignon rouge, ail chemisé, curry, porc à braiser. Le tout cuit
+    pendant 2h au moins avec couvercle
+** Quiche : bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits !
+** RETRY Soupe maïs-lait de coco (Des soupes qui nous font du bien)** RETRY Vegan burger
 Pois chiches 500g + 1 oeuf + assaissonnement + 150g de farine de sarrasin =
 texture à la poêle OK. On peut probablement diminuer les doses de farine à 100g
 Le plus important est d'avoir une pôle qui n'attache pas.
 Source https://www.bbcgoodfood.com/recipes/chickpea-coriander-burgers
 Avec du yaourt grec : moins sec mais une petite amertume
-** RETRY Soupe maïs-lait de coco (Des soupes qui nous font du bien)
+
 Même en diminuant le ratio lait de coco/maïs à 40/60 au lieu de 60/40, encore
 très riche. Essayer 70/30
 
