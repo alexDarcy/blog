@@ -112,6 +112,22 @@ Important : couper cuisson quand les bords commencent à brûnir (10min à 180% 
 => résultat : pas mal
 
 ** RETRY Macarons
+Pour 30 macarons
+Coque =
+- 125g poudre d'amandes
+- 125g sucre glace
+- 1.25 blanc
+Meringue
+- 125g sucre semoule
+- 35g eau
+- 1.5 blanc
+Ganache
+- 80g lait
+- 20g crème
+- 150g chocolat 64%
+- 30g beurre
+
+*** Notes
 Recette de LPAP = valeur sûre mais avec
 - un blanc d'oeuf en plus pour la "pâte d'amande"
 - éviter de faire 2 plaques en même temps (craquelures sur la plaque du bas)
