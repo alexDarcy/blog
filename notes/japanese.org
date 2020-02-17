@@ -1,6 +1,6 @@
 #+TITLE: Japonais
 ** Expressions
-@@html:ゆっくり<ruby>時間<rt>じかん</rt>を取る<rt>とる</rt></ruby>@@ : prendre son temps
+@@html:ゆっくり<ruby>時間<rt>じかん</rt></ruby>を<ruby>取<rt>と</rt></ruby>る@@ : prendre son temps
 
 ** Grammaire
 〜する @@html:<ruby>習慣<rt>しゅうかん</rt></ruby>@@がある: avoir l'habitude de 〜
