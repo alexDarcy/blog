@@ -1,0 +1,8 @@
+#+TITLE: Japonais
+** Expressions
+@@html:ゆっくり<ruby>時間<rt>じかん</rt>を取る<rt>とる</rt></ruby>@@ : prendre son temps
+
+** Grammaire
+〜する @@html:<ruby>習慣<rt>しゅうかん</rt></ruby>@@がある: avoir l'habitude de 〜
+
+@@html:〜と〜の<ruby>間<rt>あいだ</rt></ruby>@@ : entre 2 〜

@@ -30,10 +30,12 @@ main = hakyll $ do
 
     match "bibliography/*.bib" $ compile biblioCompiler
     match "bibliography/*.csl" $ compile cslCompiler
-    match "bibliography/*.md" processWithBib 
+    match "bibliography/*.md" processWithBib
+
+    match "notes/cooking.org" processPost
+    match "notes/japanese.org" processPost
 
     match "notes/*.md" processWithBib 
-
     match "notes/*.org" processWithBib
 -- Painful to work with, so we use latex for notes instead
 {-    match "notes/medecine/*.md" $ do-}
@@ -62,31 +64,10 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "posts/**/*" $ do
-        route $ setExtension "html"
-        compile $ pandocMathCompiler
-            >>= saveSnapshot "content"
-            >>= loadAndApplyTemplate "templates/post.html" defaultContext
-            >>= relativizeUrls
-
-    match "index.md" $ do
-        route $ setExtension "html"
-        compile $ pandocCompiler
-            >>= saveSnapshot "content"
-            >>= loadAndApplyTemplate "templates/post.html" defaultContext
-            >>= relativizeUrls
-
-    match "cooking.org" $ do
-        route $ setExtension "html"
-        compile $ pandocCompiler
-            >>= saveSnapshot "content"
-            >>= loadAndApplyTemplate "templates/post.html" defaultContext
-            >>= relativizeUrls
-
+    match "posts/**/*" processPost
+    match "index.md" processPost
     match "projects.html" $ createCategory "projects"
-
     match "computing.html" $ createCategory "computing"
-      
     match "templates/*" $ compile templateCompiler
 
   where
@@ -130,6 +111,13 @@ postCtx =
     defaultContext
 
 cslFile = "bibliography/chicago-light.csl"
+
+processPost = do
+  route $ setExtension "html"
+  compile $ pandocMathCompiler
+    >>= saveSnapshot "content"
+    >>= loadAndApplyTemplate "templates/post.html" defaultContext
+    >>= relativizeUrls
 
 -- Compile bibtex file
 bibtexCompiler :: String -> Compiler (Item String)

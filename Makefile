@@ -10,6 +10,12 @@ biblio:
 
 generate: build picture notes
 
+compile:
+	${STACK} build
+
+rebuild:
+	${STACK} exec blog rebuild
+
 build:
 	${STACK} exec blog build
 
