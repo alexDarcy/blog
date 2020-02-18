@@ -116,7 +116,7 @@ Pour 30 macarons
 Coque =
 - 125g poudre d'amandes
 - 125g sucre glace
-- 1.25 blanc
+- 1.5 blanc
 Meringue
 - 125g sucre semoule
 - 35g eau
@@ -128,14 +128,13 @@ Ganache
 - 30g beurre
 
 *** Notes
-Recette de LPAP = valeur sûre mais avec
-- un blanc d'oeuf en plus pour la "pâte d'amande"
-- éviter de faire 2 plaques en même temps (craquelures sur la plaque du bas)
-  Recette de Felden avec du cacao en poudre : pâte d'amande trop épaisse mais
+- Macaronage = mélanger jusqu'à pouvoir faire des "8"
+- Recette de LPAP = valeur sûre. Faisable avec 2 plaques mais celle du bas
+  (plaque pâtisserie) est moins jolie
+-  Recette de Felden avec du cacao en poudre : pâte d'amande trop épaisse mais
   résultant décevant malgré tout (plus un cookie) => des doutes à réessayer...
-Essayer avec meringue française
-Essai avec sucre roux et +0.5 blanc dans meringue + tant pour tant => echec :
-macarons plats sans collerette, trop cuits
+- Essayer avec meringue française
+- Pas de sucre roux !
 ** RETRY Mille-feuille [[https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse][
 de Conticini]]
 ** RETRY Moka
