@@ -128,7 +128,7 @@ Ganache
 - 30g beurre
 
 *** Notes
-- Macaronage = mélanger jusqu'à pouvoir faire des "8"
+- Le plus important = Macaronage => mélanger jusqu'à pouvoir faire des "8"
 - Recette de LPAP = valeur sûre. Faisable avec 2 plaques mais celle du bas
   (plaque pâtisserie) est moins jolie
 -  Recette de Felden avec du cacao en poudre : pâte d'amande trop épaisse mais
@@ -174,6 +174,9 @@ America test kitchen recipe. Pas mal et pas prise de tête
   + 500g de crème fraîche liquide
   + lait ? (donne plus une )
   + 2 oeufs
+** RETRY Tarte aux pommes
+Recette de la PPAP : pommes un peu crues, pâte ok. Mieux choisir les pomme la
+prochaine fois et couper *très* fin
 
 ** RETRY Tiramisu
 1. https://www.seriouseats.com/2017/06/how-to-make-the-best-tiramisu.html =>

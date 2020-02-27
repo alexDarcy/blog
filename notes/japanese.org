@@ -1,7 +1,11 @@
 #+TITLE: Japonais
 ** Expressions
-@@html:ゆっくり<ruby>時間<rt>じかん</rt></ruby>を<ruby>取<rt>と</rt></ruby>る@@ : prendre son temps
 
+@@html:<ruby>長時間<rt>ちょうじかん</rt></ruby>の<ruby>飛行<rt>ひこう</rt></ruby>@@ : un long trajet en avion
+
+@@html:それなりの<ruby>価値<rt>かち</rt></ruby>があります@@ : cela vaut le coup
+
+@@html:ゆっくり<ruby>時間<rt>じかん</rt></ruby>を<ruby>取<rt>と</rt></ruby>る@@ : prendre son temps
 ** Grammaire
 〜する @@html:<ruby>習慣<rt>しゅうかん</rt></ruby>@@がある: avoir l'habitude de 〜
 
