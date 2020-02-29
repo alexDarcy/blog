@@ -192,10 +192,22 @@ prochaine fois et couper *très* fin
   + lait de brebis : 1L + 3 CC de lait en poudre + 12h de fermentation = bien ferme. Diminuer lait en poudre 
   
 * Plat principal
-** TODO Cornbread
+** RETRY Cornbread
 https://www.bonappetit.com/recipe/buttermilk-cornbread
 Bien moelleux mais quantité approximative de farine et de lait (+50% ?). Trop de
 levure (1 sachet) ?
+** RETRY Cassoulet
+Recette http://www.confrerieducassoulet.com/la-recette.html
+Fait avec :
+- lard (gros morceaux)
+- canard non confit (erreur)
+- épaule de porc
+- 2 saucisses de toulouse
+Au final : 1h30 pour les haricots blancs (sans trempage) et 2h30 au four pour
+commencer à avoir une croûte à 170°.
+=> au final, le lard n'est pas tout à fait bien mélangé donc peut-être le faire
+fondre avant / couper en tout petit morceaux ?
+Sinon, pas mal mais bouillon un peu fade. Essayer https://foodwishes.blogspot.com/2016/03/cassoulet-worlds-most-complex-simple.html
 ** Couscous : [[http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html][recette de semoule traditionnelle]]
 ** RETRY Falafels (traditionnels) :
 3 échecs successifs...
