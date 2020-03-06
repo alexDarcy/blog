@@ -100,6 +100,13 @@ essayer
 pas de souci de cuisson avec [[https://www.hervecuisine.com/recette/gaufres-croustillantes-ultra-legeres/). Temps de repos qui fait la différence ? (Souvent pas assez cuite dans les essais précédents][cette recette]]
 ** RETRY Guimauve
 [[http://www.jujube-en-cuisine.fr/marshmallow-ou-guimauve-maison/)][jujube-en-cuisine]]: trop sucré mais bonne texture
+** TODO Ile flottante
+https://cooking.nytimes.com/recipes/1017447-ile-flottante-with-fresh-cherries
+Problèmes :
+- sauce trop liquide après qq minutes de cuisson et malgré 2h au frais après.
+  Goût un peu curieux avec la cardamone (diminuer dose ?)
+- meringue aplatie après la cuisson à la vapeur => au four la prochaine fois
+
 ** TODO Lebkuchen
 1er essai avec une recette de 750g il y a quelques années
 2eme essai avec cette recette :
@@ -189,13 +196,12 @@ prochaine fois et couper *très* fin
 ** RETRY Yaourt à la yaourtière
 5 yaourts = 1L de lait entier + 1 yaourt (avec ferments) avec 10h
   + Un peu liquide au fond => essayer avec du lait entier en poudre
-  + lait de brebis : 1L + 3 CC de lait en poudre + 12h de fermentation = bien ferme. Diminuer lait en poudre 
-  
+  + lait de brebis : 1L + 3 CC de lait en poudre + 12h de fermentation = bien ferme. Diminuer lait en poudre
+
 * Plat principal
-** RETRY Cornbread
-https://www.bonappetit.com/recipe/buttermilk-cornbread
-Bien moelleux mais quantité approximative de farine et de lait (+50% ?). Trop de
-levure (1 sachet) ?
+** RETRY Bolognaise
+https://cooking.nytimes.com/recipes/1015181-marcella-hazans-bolognese-sauce
+Pas mal (ajouté concentré de tomate + feuille basilic). Manque un peu de tomate à la fin ?
 ** RETRY Cassoulet
 Recette http://www.confrerieducassoulet.com/la-recette.html
 Fait avec :
@@ -208,7 +214,14 @@ commencer à avoir une croûte à 170°.
 => au final, le lard n'est pas tout à fait bien mélangé donc peut-être le faire
 fondre avant / couper en tout petit morceaux ?
 Sinon, pas mal mais bouillon un peu fade. Essayer https://foodwishes.blogspot.com/2016/03/cassoulet-worlds-most-complex-simple.html
-** Couscous : [[http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html][recette de semoule traditionnelle]]
+** RETRY Cornbread
+https://www.bonappetit.com/recipe/buttermilk-cornbread
+Bien moelleux mais quantité approximative de farine et de lait (+50% ?). Trop de
+levure (1 sachet) ?
+** RETRY Couscous : [[http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html][recette de semoule traditionnelle]]
+** RETRY Crevettes
+https://cooking.nytimes.com/recipes/1013144-yucatan-shrimp
+Pas mal, très rapide à faire. Je mets les crevettes dans la sauce directement
 ** RETRY Falafels (traditionnels) :
 3 échecs successifs...
 Réssayer en
@@ -227,9 +240,9 @@ https://www.bonappetit.com/recipe/ba-best-lasagna => ok mais
   une texture plus crémeuse
 + on ne sent pas le parmesan
 + la couche supérieure de pâte n'a pas cuite malgré le papier alu => supprimer ?
-** Porc fondant : oignon rouge, ail chemisé, curry, porc à braiser. Le tout cuit
+** RETRY Porc fondant : oignon rouge, ail chemisé, curry, porc à braiser. Le tout cuit
     pendant 2h au moins avec couvercle
-** Quiche : bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits !
+** RETRY Quiche : bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits !
 ** RETRY Soupe maïs-lait de coco (Des soupes qui nous font du bien)** RETRY Vegan burger
 Pois chiches 500g + 1 oeuf + assaissonnement + 150g de farine de sarrasin =
 texture à la poêle OK. On peut probablement diminuer les doses de farine à 100g

@@ -269,3 +269,16 @@ moyenne : même des vieux modèles des années 70 sont précis.
   :Custom_ID: hegde18_perip_blood_smear_analy_using
   :END:
   Pour référence d'un frottis sanguin + anomalies globules rouges
+
+* TOREAD Hastie, T., Tibshirani, R., & Friedman, J. (2009): The elements of statistical learning
+Texte de référence pour classification, machine learning etc. Semble intéressant
+NB :  An Introduction to Statistical Learning = version avec moins de maths.
+  :PROPERTIES:
+  :Custom_ID: hastie09_elemen_statis_learn
+  :END:
+* TOREAD Rudnicka, A. R. (2005): 2. essential medical statistics (2nd edn). betty r. kirkwood and jonathan a. c. sterne, blackwell science, oxford, 2003. no. of pages: 512. price: £22.95. isbn 0-86542-871-9
+  :PROPERTIES:
+  :Custom_ID: rudnicka05
+  :END:
+
+  Seems to answer my questions about stats in med school
