@@ -144,6 +144,11 @@ Ganache
 - Pas de sucre roux !
 ** RETRY Mille-feuille [[https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse][
 de Conticini]]
+** RETRY Millionaire short-bread / Twix familial
+- Ne pas trop étaler la pâte.
+- Quantité pour avoir autant de caramel de que shortbread... Peut-être diminuer un
+peu les doses de caramel ?
+- J'ai utilisé 250g de chocolat, un peu juste sinon
 ** RETRY Moka
 Felder plutôt que PPAP :
    + le biscuit est plus simple chez Felder et plus aéré
@@ -240,8 +245,13 @@ https://www.bonappetit.com/recipe/ba-best-lasagna => ok mais
   une texture plus crémeuse
 + on ne sent pas le parmesan
 + la couche supérieure de pâte n'a pas cuite malgré le papier alu => supprimer ?
-** RETRY Porc fondant : oignon rouge, ail chemisé, curry, porc à braiser. Le tout cuit
-    pendant 2h au moins avec couvercle
+** RETRY Porc fondant
+*** Oignon rouge, ail chemisé, curry, porc à braiser. Le tout cuit pendant 2h au moins avec couvercle
+*** Pulled pork
+https://cooking.nytimes.com/recipes/1020497-slow-cooker-bbq-pulled-pork
+6 heures à 160% avec "searing". Écrasé à la fourchette au bout de 3h pour
+permettre d'absorber le gras.
+Bien en burger avec sauce BBQ
 ** RETRY Quiche : bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits !
 ** RETRY Soupe maïs-lait de coco (Des soupes qui nous font du bien)** RETRY Vegan burger
 Pois chiches 500g + 1 oeuf + assaissonnement + 150g de farine de sarrasin =
