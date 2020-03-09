@@ -219,6 +219,9 @@ commencer à avoir une croûte à 170°.
 => au final, le lard n'est pas tout à fait bien mélangé donc peut-être le faire
 fondre avant / couper en tout petit morceaux ?
 Sinon, pas mal mais bouillon un peu fade. Essayer https://foodwishes.blogspot.com/2016/03/cassoulet-worlds-most-complex-simple.html
+** RETRY Choux de bruxelles frais rôtis
+45min à 195° = fondant mais trop cuit à l'extérieur
+Cuits entiers + huile + sel
 ** RETRY Cornbread
 https://www.bonappetit.com/recipe/buttermilk-cornbread
 Bien moelleux mais quantité approximative de farine et de lait (+50% ?). Trop de
@@ -252,8 +255,15 @@ https://cooking.nytimes.com/recipes/1020497-slow-cooker-bbq-pulled-pork
 6 heures à 160% avec "searing". Écrasé à la fourchette au bout de 3h pour
 permettre d'absorber le gras.
 Bien en burger avec sauce BBQ
-** RETRY Quiche : bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits !
-** RETRY Soupe maïs-lait de coco (Des soupes qui nous font du bien)** RETRY Vegan burger
+** RETRY Poulet glacage soja-miel-gingembre
+https://cooking.nytimes.com/recipes/1019804-honey-and-soy-glazed-chicken-thighs
+Cuisson à 1950 45min avec poulets non décongelés : ok, manque un peu de
+crispiness
+À ressayer avec du gingembre (oups
+** RETRY Quiche
+Bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits !
+** RETRY Soupe maïs-lait de coco (Des soupes qui nous font du bien)
+** RETRY Vegan burger
 Pois chiches 500g + 1 oeuf + assaissonnement + 150g de farine de sarrasin =
 texture à la poêle OK. On peut probablement diminuer les doses de farine à 100g
 Le plus important est d'avoir une pôle qui n'attache pas.
