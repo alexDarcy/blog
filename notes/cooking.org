@@ -46,6 +46,12 @@ https://www.seriouseats.com/recipes/2017/10/carrot-cake-recipe.html
 [[https://www.bingingwithbabish.com/recipes/cinnamonrolls?rq=cinnamon][de Babish]]
   + Le glacage est trop lourd (et seulement testé avec fromage frais + sucre) en soi !
   + Soit réessayer la recette de babish (en petite quantités), soit simplement nature.
+** RETRY Chocolate lavae cake
+https://cooking.nytimes.com/recipes/1019957-chocolate-lava-cake-for-two
+13min au four : très coulant à l'intérieur mais un petit goûte de pâte non
+cuite.
+- soit cuire 2min en plus
+- soit recette de John Favreau avec une ganache congelée à l'intérieur avant de cuire
 
 ** RETRY Clafoutis aux pommes
 [[http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html)][ptitecuisinedepauline]]
@@ -222,6 +228,10 @@ Sinon, pas mal mais bouillon un peu fade. Essayer https://foodwishes.blogspot.co
 ** RETRY Choux de bruxelles frais rôtis
 45min à 195° = fondant mais trop cuit à l'extérieur
 Cuits entiers + huile + sel
+** RETRY Coq au vin
+https://cooking.nytimes.com/recipes/1018529-coq-au-vin
+Testé avec rhum : pas senti.
+Sans le surplus de sauce, ni crouton. Bonne sauce mais riche.
 ** RETRY Cornbread
 https://www.bonappetit.com/recipe/buttermilk-cornbread
 Bien moelleux mais quantité approximative de farine et de lait (+50% ?). Trop de
