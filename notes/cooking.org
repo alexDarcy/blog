@@ -209,10 +209,109 @@ prochaine fois et couper *très* fin
   + Un peu liquide au fond => essayer avec du lait entier en poudre
   + lait de brebis : 1L + 3 CC de lait en poudre + 12h de fermentation = bien ferme. Diminuer lait en poudre
 
+** RETRY Peanut Butter Pie
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/1018635-peanut-butter-pie
+:servings: 8 to 10
+:prep-time:
+:cook-time:
+:ready-in: 50 minutes, plus chilling
+:END:
+*** Ingredients
+- 6 tablespoons/85 grams unsalted butter, melted, plus more for the pan
+- ¾ cup/150 grams granulated sugar
+- ¾ cup/75 grams unsweetened cocoa powder (not Dutch-processed)
+- ½ cup/60 grams all-purpose flour
+- ½ teaspoon kosher salt
+- 1 ¼ cups/300 milliliters heavy cream
+- 1 ½ cup/405 grams smooth, sweetened peanut butter, like Jif or Skippy
+- 1 8-ounce/226 grams block full-fat cream cheese, at room temperature
+- ⅔ cup/133 grams light brown sugar
+- 1 teaspoon pure vanilla extract
+- ½ teaspoon kosher salt
+- 2 ounces/57 grams semisweet chocolate, chopped (optional)
+- 1 tablespoon/14 grams unsalted butter (optional)
+*** Directions
+
+1. Make the crust: Heat the oven to 350 degrees. Have a nonstick standard 9-inch
+   pie plate ready, or generously butter a 9-inch standard pie plate. In a
+   medium bowl, whisk together the sugar, cocoa powder, flour and salt. Add
+   butter, stirring and mashing with a fork, until the crumbs are evenly
+   moistened.
+2. Transfer the crumbs to the prepared pan and press them evenly into the bottom
+   and sides until crust is about 1/4-inch thick. Bake crust until it looks dry
+   and set, 10 to 12 minutes. Transfer the pan to a rack to cool completely,
+   about 30 minutes.
+3. Make the filling: In a large bowl, whip the cream to stiff peaks using an
+   electric mixer at medium-high speed. Set aside. In another large bowl, beat
+   the peanut butter, cream cheese, brown sugar, vanilla and salt on medium
+   speed until fluffy, about 2 minutes. Use a large rubber spatula to gently
+   fold the whipped cream into the peanut butter mixture. Transfer the mixture
+   to the prepared pan and smooth the top. Chill uncovered for at least 4 to 6
+   hours, until filling is set.
+4. Make the topping, if using: In a microwave-safe bowl, melt the chocolate and
+   the butter together in short bursts, stirring often. Transfer the chocolate
+   mixture to a small plastic bag, and cut a 1/8-inch hole in one corner.
+   Drizzle the chocolate over the top to make a decorative pattern. (You may
+   have some left over depending on your taste.) Serve immediately.
+*** Modif
+- Pas de crème fouettée donc remplacée par une meringue française avec 4 blancs
+d'oeufs
+=> résultat correct mais pas aussi "fluffy" que sur la photo
+- Attention: la pâte à tarte ne durcira qu'à la sortie du four. 30min à 180% est
+  vraiment un maximum...
 * Plat principal
 ** RETRY Bolognaise
-https://cooking.nytimes.com/recipes/1015181-marcella-hazans-bolognese-sauce
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/1015181-marcella-hazans-bolognese-sauce
+:servings: 2 heaping cups, for about 6 and 1 1/2 pounds pasta
+:prep-time:
+:cook-time:
+:ready-in: At least 4 hours
+:END:
+*** Ingredients
+
+- 1 tablespoon vegetable oil
+- 3 tablespoons butter plus 1 tablespoon for tossing the pasta
+- ½ cup chopped onion
+- ⅔ cup chopped celery
+- ⅔ cup chopped carrot
+- ¾ pound ground beef chuck (or you can use 1 part pork to 2 parts beef)
+- Salt
+- Black pepper, ground fresh from the mill
+- 1 cup whole milk
+- Whole nutmeg
+- 1 cup dry white wine
+- 1 ½ cups canned imported Italian plum tomatoes, cut up, with their juice
+- 1 ¼ to 1 ½ pounds pasta
+- Freshly grated parmigiano-reggiano cheese at the table
+*** Directions
+
+1. Put the oil, butter and chopped onion in the pot and turn the heat on to
+   medium. Cook and stir the onion until it has become translucent, then add the
+   chopped celery and carrot. Cook for about 2 minutes, stirring vegetables to
+   coat them well.
+2. Add ground beef, a large pinch of salt and a few grindings of pepper. Crumble
+   the meat with a fork, stir well and cook until the beef has lost its raw, red
+   color.
+3. Add milk and let it simmer gently, stirring frequently, until it has bubbled
+   away completely. Add a tiny grating -- about 1/8 teaspoon -- of nutmeg, and
+   stir.
+4. Add the wine, let it simmer until it has evaporated, then add the tomatoes
+   and stir thoroughly to coat all ingredients well. When the tomatoes begin to
+   bubble, turn the heat down so that the sauce cooks at the laziest of simmers,
+   with just an intermittent bubble breaking through to the surface. Cook,
+   uncovered, for 3 hours or more, stirring from time to time. While the sauce
+   is cooking, you are likely to find that it begins to dry out and the fat
+   separates from the meat. To keep it from sticking, add 1/2 cup of water
+   whenever necessary. At the end, however, no water at all must be left and the
+   fat must separate from the sauce. Taste and correct for salt.
+5. Toss with cooked drained pasta, adding the tablespoon of butter, and serve
+   with freshly grated Parmesan on the side.
+
+*** Notes
 Pas mal (ajouté concentré de tomate + feuille basilic). Manque un peu de tomate à la fin ?
+
 ** RETRY Cassoulet
 Recette http://www.confrerieducassoulet.com/la-recette.html
 Fait avec :
@@ -229,17 +328,125 @@ Sinon, pas mal mais bouillon un peu fade. Essayer https://foodwishes.blogspot.co
 45min à 195° = fondant mais trop cuit à l'extérieur
 Cuits entiers + huile + sel
 ** RETRY Coq au vin
-https://cooking.nytimes.com/recipes/1018529-coq-au-vin
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/1018529-coq-au-vin
+:servings: 4
+:prep-time:
+:cook-time:
+:ready-in: 2 1/2 hours, plus marinating
+:END:
+*** Ingredients
+
+- 3 pounds chicken legs and thighs
+- 2 ½ teaspoons kosher salt, more as needed
+- ½ teaspoon freshly ground black pepper, more to taste
+- 3 cups hearty red wine, preferably from Burgundy
+- 1 bay leaf
+- 1 teaspoon chopped fresh thyme leaves
+- 4 ounces lardons, pancetta or bacon, diced into 1/4-inch pieces (about 1 cup)
+- 3 tablespoons extra-virgin olive oil, more as needed
+- 1 large onion, diced
+- 1 large carrot, peeled and diced
+- 8 ounces white or brown mushrooms, halved if large, and sliced (about 4 cups)
+- 2 garlic cloves, minced
+- 1 teaspoon tomato paste
+- 1 tablespoon all-purpose flour
+- 2 tablespoons brandy
+- 3 tablespoons unsalted butter
+- 8 ounces peeled pearl onions (about 12 to 15 onions)
+- Pinch sugar
+- 2 slices white bread, cut into triangles, crusts removed
+- ¼ cup chopped parsley, more for serving
+*** Directions
+
+1. Season chicken with 2 1/4 teaspoons salt and 1/2 teaspoon pepper. In a large
+   bowl, combine chicken, wine, bay leaf and thyme. Cover and refrigerate for at
+   least 2 hours or, even better, overnight.
+2. In a large Dutch oven or a heavy-bottomed pot with a tightfitting lid, cook
+   lardons over medium-low heat until fat has rendered, and lardons are golden
+   and crisp, 10 to 15 minutes. Using a slotted spoon, transfer lardons to a
+   paper-towel-lined plate, leaving rendered fat in pot.
+3. Remove chicken from wine, reserving the marinade. Pat chicken pieces with
+   paper towels until very dry. Heat lardon fat over medium heat until it’s just
+   about to smoke. Working in batches if necessary, add chicken in a single
+   layer and cook until well browned, 3 to 5 minutes per side. (Add oil if the
+   pot looks a little dry.) Transfer chicken to a plate as it browns.
+4. Add diced onion, carrot, half the mushrooms and the remaining 1/4 teaspoon
+   salt to pot. Cook until vegetables are lightly browned, about 8 minutes,
+   stirring up any brown bits from the pot, and adjusting heat if necessary to
+   prevent burning.
+5. Stir in garlic and tomato paste and cook for 1 minute, then stir in flour and
+   cook for another minute. Remove from heat, push vegetables to one side of
+   pot, pour brandy into empty side, and ignite with a match. (If you’re too
+   nervous to ignite it, just cook brandy down for 1 minute.) Once the flame
+   dies down, add reserved marinade, bring to a boil, and reduce halfway (to 1
+   1/2 cups), about 12 minutes. Skim off any large pockets of foam that form on
+   the surface.
+6. Add chicken, any accumulated juices and half the cooked lardons to the pot.
+   Cover and simmer over low heat for 1 hour, turning halfway through. Uncover
+   pot and simmer for 15 minutes to thicken. Taste and add salt and pepper, if
+   necessary.
+7. Meanwhile, melt 1 tablespoon butter and 2 tablespoons oil in a nonstick or
+   other large skillet over medium-high heat. Add pearl onions, a pinch of sugar
+   and salt to taste. Cover, reduce heat to low and cook for 15 minutes, shaking
+   skillet often to move onions around. Uncover, push onions to one side of
+   skillet, add remaining mushrooms, and raise heat to medium-high. Continue to
+   cook until browned, stirring mushrooms frequently, and gently tossing onions
+   occasionally, 5 to 8 minutes. Remove onions and mushrooms from skillet, and
+   wipe it out.
+8. In same skillet, melt 2 tablespoons butter and 1 tablespoon oil over medium
+   heat until bubbling. Add bread and toast on all sides until golden, about 2
+   minutes per side. (Adjust heat if needed to prevent burning.) Remove from
+   skillet and sprinkle with salt.
+9. To serve, dip croutons in wine sauce, then coat in parsley. Add pearl onions,
+   mushrooms and remaining half of the cooked lardons to the pot. Baste with
+   wine sauce, sprinkle with parsley and serve with croutons on top.
+
+*** Notes
 Testé avec rhum : pas senti.
 Sans le surplus de sauce, ni crouton. Bonne sauce mais riche.
 ** RETRY Cornbread
 https://www.bonappetit.com/recipe/buttermilk-cornbread
 Bien moelleux mais quantité approximative de farine et de lait (+50% ?). Trop de
 levure (1 sachet) ?
+
 ** RETRY Couscous : [[http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html][recette de semoule traditionnelle]]
 ** RETRY Crevettes
-https://cooking.nytimes.com/recipes/1013144-yucatan-shrimp
+*** Notes
 Pas mal, très rapide à faire. Je mets les crevettes dans la sauce directement
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/1013144-yucatan-shrimp
+:servings: 4
+:prep-time:
+:cook-time:
+:ready-in: 20 minutes
+:END:
+*** Ingredients
+
+- 4 tablespoons unsalted butter
+- 1 large clove garlic, minced
+- Juice of two large limes
+- 1 tablespoon Indonesian sambal (preferably sambal oelek, by Huy Fong, though
+  sriracha will work as well)
+- Kosher salt
+- freshly ground black pepper to taste
+- 1 pound large, fresh, shell-on shrimp
+- 1 teaspoon jalapeño, seeded and chopped (optional)
+- 2 tablespoons chopped cilantro
+*** Directions
+
+1. In a small saucepan set over low heat, melt 1 tablespoon of butter. Add the
+   garlic and cook, stirring for 2 minutes.
+2. Add remaining 3 tablespoons butter to saucepan. When it melts, stir in the
+   lime juice, chili sauce, salt and pepper. Turn off the heat and allow the
+   sauce to rest.
+3. Bring a large pot of well-salted water to a boil. Add the shrimp and cook for
+   2 minutes or until they are just firm and pink. Do not overcook. Drain into a
+   colander and shake over the sink to remove excess moisture.
+4. In a large bowl, toss the shrimp and chili sauce. Add jalapeño, if desired,
+   sprinkle with cilantro and toss again.
+
+
 ** RETRY Falafels (traditionnels) :
 3 échecs successifs...
 Réssayer en
@@ -261,15 +468,92 @@ https://www.bonappetit.com/recipe/ba-best-lasagna => ok mais
 ** RETRY Porc fondant
 *** Oignon rouge, ail chemisé, curry, porc à braiser. Le tout cuit pendant 2h au moins avec couvercle
 *** Pulled pork
-https://cooking.nytimes.com/recipes/1020497-slow-cooker-bbq-pulled-pork
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/1020497-slow-cooker-bbq-pulled-pork
+:servings: 6 to 8
+:prep-time:
+:cook-time:
+:ready-in: 8 to 10 hours, plus refrigeration
+:END:
+**** Ingredients
+
+- 1 tablespoon garlic powder
+- 1 tablespoon onion powder
+- 2 teaspoons hot or sweet smoked paprika
+- 2 teaspoons salt, plus more to taste
+- 1 teaspoon black pepper, plus more to taste
+- 3 to 4 pound boneless pork shoulder or pork butt, trimmed of most of its
+  excess fat
+- 2 tablespoons vegetable oil, plus additional for greasing
+- 1 yellow onion, chopped (optional)
+- 1 (12-ounce) can dark soda, like Dr Pepper, root beer, cola or birch beer
+- ½ to 1 ½ cups homemade or store-bought barbecue sauce
+- Hot sauce (optional)
+**** Directions
+
+1. In a small bowl, combine the garlic and onion powders, smoked paprika, salt
+   and black pepper. Rub the spice mixture all over the pork. If you have time,
+   cover with plastic wrap and refrigerate for 2 hours or up to overnight. If
+   you don’t, no worries; proceed to Step 2.
+2. Lightly grease the crock of a slow cooker. Heat 2 tablespoons vegetable oil
+   in a large skillet over medium-high. Sear the pork until golden brown on all
+   sides, about 2 minutes each side. Add onion, if using, to the slow cooker.
+   Add the pork on top of the onion. Pour soda over the pork and set the slow
+   cooker to low for 6 to 8 hours, until the meat has collapsed and shreds
+   easily.
+3. Drain most of the liquid from the slow cooker and shred the meat directly in
+   the pot. Add about 1/2 cup of the barbecue sauce and stir to combine. (At
+   this point, if you like crisp bits in your pulled pork, you can spread the
+   shredded pork on a sheet pan and place under a broiler for a couple minutes
+   then return to the slow cooker.) Taste and add more barbecue sauce, hot
+   sauce, salt or pepper, if desired. Serve with soft rolls and extra sauce on
+   the side.
+
+**** Notes
 6 heures à 160% avec "searing". Écrasé à la fourchette au bout de 3h pour
 permettre d'absorber le gras.
 Bien en burger avec sauce BBQ
+
 ** RETRY Poulet glacage soja-miel-gingembre
-https://cooking.nytimes.com/recipes/1019804-honey-and-soy-glazed-chicken-thighs
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/1019804-honey-and-soy-glazed-chicken-thighs
+:servings: 4
+:prep-time:
+:cook-time:
+:ready-in: 45 minutes
+:END:
+
+*** Notes
 Cuisson à 1950 45min avec poulets non décongelés : ok, manque un peu de
 crispiness
-À ressayer avec du gingembre (oups
+À ressayer avec du gingembre
+
+*** Ingredients
+- 2 tablespoons canola oil
+- 1 tablespoon minced garlic
+- 1 tablespoon minced ginger
+- 6 tablespoons low-sodium soy sauce (see tip)
+- 5 tablespoons mild honey, such as clover, acacia or orange blossom
+- 3 tablespoons unsalted butter
+- Kosher salt and black pepper
+- 8 bone-in, skin-on chicken thighs (about 3 pounds)
+- Lemon wedges, for serving
+*** Directions
+
+1. Heat the oven to 425 degrees. Heat 1 tablespoon oil in a small saucepan over
+   low heat. Add the garlic and ginger and cook, stirring occasionally, until
+   softened, 3 minutes. Add the soy sauce and honey and simmer, stirring
+   occasionally, until reduced and slightly thickened, about 10 minutes. Turn
+   off the heat then whisk in the butter. Season with salt and pepper.
+2. On an aluminum foil-lined rimmed baking sheet, season the chicken all over
+   with salt and pepper. Add half the glaze and the remaining 1 tablespoon oil
+   and toss the chicken to coat. Arrange in an even layer, skin side up, and
+   roast until browned, 15 minutes. Brush the chicken all over with 2
+   tablespoons of the remaining glaze. Roast until golden and cooked through,
+   about 10 minutes.
+3. Drizzle the chicken with the remaining glaze and serve with lemon wedges.
+
+
 ** RETRY Quiche
 Bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits !
 ** RETRY Soupe maïs-lait de coco (Des soupes qui nous font du bien)
