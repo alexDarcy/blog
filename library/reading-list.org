@@ -57,14 +57,14 @@ httalcul.math.cnrs.fr/spip.php?article292
   :PROPERTIES:
   :Custom_ID: hall16_guyton_hall
   :END:
-*** DONE Chap 61 en cours
-*** DONE Chap 34
+**** DONE Chap 61 en cours
+**** DONE Chap 34
 
 *** READING Herring, W. (2020): Learning radiology : recognizing the basics :book:medecine:radiology:
   :PROPERTIES:
   :Custom_ID: herring20_learn
   :END:
-*** DONE Chap 3
+**** DONE Chap 3
 
 ** Histoire :history:
 *** Cours d'histoire 1913 :history:
@@ -127,12 +127,6 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
   :END:
 
   Seems to answer my questions about stats in med school
-*** DONE Herbert, A. J., Williams, A. G., Hennis, P. J., Erskine, R. M., Sale, C., Day, S. H., & Stebbings, G. K. (2018): The interactions of physical activity, exercise and genetics and their associations with bone mineral density: implications for injury risk in elite athletes :sport:
-  CLOSED: [2019-05-27 Mon 13:45]
-  :PROPERTIES:
-  :Custom_ID: herbert18_inter_physic_activ_exerc_genet
-  :END:
-
 *** TOREAD Thomas, D. L. (2019): Global elimination of chronic hepatitis :infectious:
   :PROPERTIES:
   :Custom_ID: thomas19_global_elimin_chron_hepat
@@ -142,27 +136,6 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
   :Custom_ID: Grenfell_2002
   :END:
 Technique++ : modélisation stochastique
-
-*** DONE Hamosh, P., & Cohn, J. N. (1970): Mechanism of the hepatojugular reflux test
-  CLOSED: [2019-06-01 Sat 15:34]
-  :PROPERTIES:
-  :Custom_ID: Hamosh_1970
-  :END:
-
-*** SKIMMED Hegde, R. B., Prasad, K., Hebbar, H., & Sandhya, I. (2018): Peripheral blood smear analysis using image processing approach for diagnostic purposes: a review
-  :PROPERTIES:
-  :Custom_ID: hegde18_perip_blood_smear_analy_using
-  :END:
-  Pour référence d'un frottis sanguin + anomalies globules rouges
-
-*** DONE Kaboudian, A., Cherry, E. M., & Fenton, F. H. (2019): Real-time interactive simulations of large-scale systems on personal computers and cell phones: toward patient-specific heart modeling and other applications medecine:modeling:
-  CLOSED: [2019-06-10 Mon 10:49]
-  :PROPERTIES:
-  :Custom_ID: kaboudian19_real_time_inter_simul_large
-  :END:
-  Numerical scheme : 2nd order.
-  Uses GPU.
-  Their library seems just a wrapper around webgl for ease of use.
 
 *** TOREAD Jaulhac, B., Saunier, A., Caumes, E., ouiller, K., Gehanno, J., Rabaud, C., Perrot, S., … (2019): Lyme borreliosis and other tick-borne diseases. guidelines from the french scientific societies (ii). biological diagnosis, treatment, persistent symptoms after documented or suspected lyme borreliosis :infectious:
   :PROPERTIES:
@@ -176,88 +149,14 @@ Dernières recos sur Lyme
   :END:
 Dernières recos sur Lyme
 
-*** DONE Bekkering, G. E., Agoritsas, T., Lytvyn, L., Heen, A. F., Feller, M., Moutzouri, E., Abdulazeem, H., … (2019): Thyroid hormones treatment for subclinical hypothyroidism: a clinical practice guideline :endoc:
-  CLOSED: [2019-06-13 Thu 12:55]
-  :PROPERTIES:
-  :Custom_ID: bekkering19_thyroid_hormon_treat_subcl_hypot
-  :END:
-Hypothyroidie frustre : ne pas traiter (sauf enceinte, < 30ans, sévère)
-
-*** DONE Zheng, Y., Li, Y., Satija, A., Pan, A., Sotos-Prieto, M., Rimm, E., Willett, W. C., … (2019): Association of changes in red meat consumption with total and cause specific mortality among us women and men: two prospective cohort studies :nutrition:
-  CLOSED: [2019-06-16 Sun 16:59]
-  :PROPERTIES:
-  :Custom_ID: zheng19_assoc_chang_red_meat_consum
-  :END:
-
-  Association entre la consommation de viande rouge et l'augmentation de la mortalité chez infimières + professionnels de santé américain.
-Viande rouge transformée ou non. Pas de recommandation de seuil.
-
-*** DONE Kaminski, J., Waller, B. M., Diogo, R., Hartstone-Rose, A., & Burrows, A. M. (2019): Evolution of facial muscle anatomy in dogs animals:
-  :PROPERTIES:
-  :Custom_ID: kaminski19_evolut_facial_muscl_anatom_dogs
-  :END:
-
-Méthode : dissection anatomique (4 chien et 2 loups)+ observation (27 chiens, 9 loups)
-Observation : 1 muscle présent chez les chiens mais pas les loups qui permet
-d'élever les "sourcils". Particulièrement attractif pour les humains ("yeux de chiots")
-Hypothese : cela résulte d'une sélection selon une préférence humaine
-
-*** DONE Chen, A. X., Leung, A. M., & Korevaar, T. I. (2019): Thyroid function and conception medecine:endoc:
-  CLOSED: [2019-07-11 Thu 11:26]
-  :PROPERTIES:
-  :Custom_ID: chen19_thyroid_funct_concep
-  :END:
-TSH normale mais Ac anti-TPO normale : traiter ou pas ? Recommandation de : surveillance rapprochées, traitement à petites doses de lévythyrox possibles
-
 *** TOREAD Khuong, T. M., Wang, Q., Manion, J., Oyston, L. J., Lau, M., Towler, H., Lin, Y. Q., … (2019): Nerve injury drives a heightened state of vigilance and neuropathic sensitization in drosophila :animals
  * :PROPERTIES:
  * :Custom_ID: khuong19_nerve_injur_drives_heigh_state
  * :END:
-*** DONE Brouwer, I. A., Organization, W. H., & others,  (2016): Effect of trans-fatty acid intake on blood lipids and lipoproteins: a systematic review and meta-regression analysis nutrition:
-  :PROPERTIES:
-  :Custom_ID: brouwer2016effect
-  :END:
-
-*** DONE Dasgupta, Q., & Black, L. D. (2019): A fresh slate for 3d bioprinting medecine:
-  :PROPERTIES:
-  :Custom_ID: dasgupta19_fresh_slate_biopr
-  :END:
-Perspective : impression 3D. 2 méthodes pour additive : extrusion (voxel par
-voxel) ou stérolithographie.
-
-Article de Lee : précision passée à 20micron pour des structures en collagène.
-
-*** SKIMMED Burch, H. B. (2019): Drug effects on the thyroid medicine:
-  :PROPERTIES:
-  :Custom_ID: burch19_drug_effec_thyroid
-  :END:
-
-- Dimminution de la thyrotropine  mais T4 normal: glucocorticoides, agoniste de la dopamine,
-analogues de la somatostatine, metformine
-
-- Augemntation de la thyroxine-binding globulin
-estrogen oraux, modulateurs du recepteurs à l'oestrogène, methadone, heroin, mitotane, fluorouracil
-
-  Amiodarine peut causer de l'hyperthyroïdisme par surcharge en iode.
-
 *** TOREAD Goupil, B., Fr\'ed\'eric Balusson, Naudet, F., Esvan, M., Bastian, B., Chapron, A., & Frouard, P. (2019): Association between gifts from pharmaceutical companies to french general practitioners and their drug prescribing patterns in 2016: retrospective study using the french transparency in healthcare and national health data system databases medecine:
   :PROPERTIES:
   :Custom_ID: goupil19_assoc_between_gifts_from_pharm
   :END:
-
-*** DONE Christiansen, S. C., & Zuraw, B. L. (2019): Treatment of hypertension in patients with asthma
-  :PROPERTIES:
-  :Custom_ID: christiansen19_treat_hyper_patien_with_asthm
-  :END:
-**** Pathophysiologie
-2 types d'asthmes = inflammatoire et peu inflammatoire. Le
-second groupe est plus susceptible d'être hypetendu.
-HTA exacerbe l'inflammation de type 1. Rôle de l'interleukine 17 et 6.
-**** Traitements
-Attention avec les beta-bloquant chez patients instables/sévère
-IEC dangereux chez minorités de patients
-Bloqueurs de l'agiotensine semble être OK.
-**** Régime, restriction sodée, diminution du stress, diminution du poids
 
 ** Other
 *** SKIMMED Hausfather, Z., Drake, H. F., Abbott, T., & Schmidt, G. A. (2019): Evaluating the performance of past climate model projections :climate:
