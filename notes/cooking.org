@@ -2,13 +2,101 @@
 
 * Desserts
 ** DONE Biscuit cuiller
+
 (Patisserie, Leçons pas-à-pas) : 12min environ
 3 blanc
 75g sucre
 55g farine37g fécule
 4 jaunes
 ** RETRY Biscuit de Savoie
+
 [[https://www.meilleurduchef.com/cgi/mdc/l/fr/recette/biscuit-savoie.html)][meilleur du chef]] : cuire vraiment plus longtemps en bas du four. Bien beurrer et fariner.
+** RETRY Agneau Biryani
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/1020915-lamb-biryani
+:servings: 8
+:prep-time:
+:cook-time:
+:ready-in: 4 1/2 hours, plus overnight marinating
+:END:
+*** Ingredients
+
+- 4 green finger chiles (or serrano chiles), stems removed
+- 8 garlic cloves, peeled
+- 1 (4-inch) piece fresh ginger, peeled
+- 2 medium yellow onions, peeled and quartered
+- 2 Roma tomatoes, quartered
+- 1 cup full-fat yogurt
+- 1 cup fresh mint leaves
+- 1 cup fresh cilantro leaves
+- 1 tablespoon ground coriander
+- 1 tablespoon ground cumin
+- 1 teaspoon Kashmiri chile powder, plus more as needed
+- ½ teaspoon ground turmeric
+- 2 teaspoons kosher salt, plus more as needed
+- 2 ½ to 3 pounds lamb chops (or boneless or bone-in lamb shoulder pieces)
+- 3 (1/2-inch) Indian cinnamon sticks, or 1 large cinnamon stick
+- 12 whole black peppercorns
+- 6 cloves
+- 6 green cardamom pods
+- 1 tablespoon garam masala
+- 1 cup neutral oil, such as grapeseed or canola
+- 2 yellow onions, thinly sliced
+- ½ teaspoon kosher salt
+- Kosher salt
+- 3 cups basmati rice
+- 6 tablespoons whole milk
+- ½ teaspoon saffron threads
+- 2 cups mixed fresh cilantro and mint leaves
+- 6 tablespoons unsalted butter, sliced
+*** Directions
+
+1. Prepare the lamb marinade: Add the finger chiles, garlic and ginger to a food
+   processor and process until finely chopped. Add the onions and tomatoes,
+   process until smooth, and scrape into a bowl that will hold all the lamb and
+   fit in your fridge. Add the yogurt, mint, cilantro, coriander, cumin, chile
+   powder, turmeric and salt, and stir to combine. Add the lamb to the bowl and
+   toss to coat in the marinade, then cover and refrigerate overnight.
+2. Prepare the fried onions: In a Dutch oven or heavy pot, heat the oil over
+   medium. Add the onions, season with salt, and sauté until browned, stirring
+   occasionally, 25 to 30 minutes. Using a slotted spoon, transfer fried onions
+   to a paper towel-lined plate. Using your hands, pull apart the fried onions
+   to separate to prevent them from sticking together, and set aside.
+3. Add the cinnamon, peppercorns, cloves and cardamom to the remaining hot oil,
+   and fry over medium until fragrant, about 1 minute. Stir in the meat, its
+   marinade and 1 cup water, and bring to a simmer over medium heat. Cook,
+   stirring occasionally, until the meat is tender and the sauce is very thick
+   and dark, about 2 1/2 hours, adjusting the heat as needed to maintain a low
+   simmer. Stir in the garam masala and taste, adjusting with salt and chile
+   powder as needed. Set aside.
+4. Heat the oven to 350 degrees. Prepare the rice: Bring a large pot of lightly
+   salted water to a boil and add the rice. Stir well and cook for 3 minutes,
+   transfer to a colander in the sink to drain. Run some cool water on top to
+   cool the rice; set aside.
+5. Prepare the saffron milk for assembly: Warm the milk in a small saucepan over
+   medium heat just until it steams. Remove from heat and add the saffron,
+   crumbling it with your fingertips as you drop it into the milk. Set aside.
+6. In a large, heavy, lidded pot, add about a third of the meat mixture in an
+   even layer covering the bottom of the pot. Sprinkle the meat with a third of
+   the herbs and a third of the rice, assembling lightly without packing the
+   layers. Drizzle 2 tablespoons saffron milk over the rice and add about a
+   third of the fried onions. Build two more layers of meat, herbs, rice,
+   saffron milk and onions. Top with pats of butter and cover the pot with foil.
+7. Put the lid on the pot of rice, transfer to the oven and bake until piping
+   hot, about 1 hour. Let rest for about 10 minutes, then serve hot, digging all
+   the way to the bottom of the pot with the serving spoon. To reheat, warm the
+   biryani covered in the oven, or microwave.
+*** Notes
+- Pas de coriandre... Fais avec de la menthe et du basilic
+- Problème : que faire des clous de girofle + grains de poivre dans la sauce ?
+  Je les ai enlevé à la main mais pas pratique...
+- Couche supérieure de riz est un peu sèche et bien moins bonne que le fond (sauce++)
+- Fait sans le beurre (cf commentaires), ni les oignons frits
+- Temps de cuisson : 2h30 à la cocotte-minute pour 1kg700 d'épaule d'agneau
+  entière =
+  fondant. 1h au four + 10 min = riz cuit
+Au total: réessayer avec de la coriandre, hydrater plus la couche supérieur de riz
+
 ** RETRY Bounty
 [[http://www.750g.com/bounty-maison-r97803.htm)][750g]] : prendre du bon chocolat
   + noix de coco
@@ -446,13 +534,89 @@ Pas mal, très rapide à faire. Je mets les crevettes dans la sauce directement
 4. In a large bowl, toss the shrimp and chili sauce. Add jalapeño, if desired,
    sprinkle with cilantro and toss again.
 
-
 ** RETRY Falafels (traditionnels) :
 3 échecs successifs...
 Réssayer en
 - mixant bien, bien la pâte
 - mettre au frais pour éviter qu'ils ne se détachent dans la friture
 OK avec ces 2 modifications !
+
+** RETRY Lablabi (Tunisian Chickpea Soup)
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/1020874-lablabi-tunisian-chickpea-soup
+:servings: 6 to 8
+:prep-time:
+:cook-time:
+:ready-in: About 2 1/2 hours, plus overnight soaking
+:END:
+
+*** Ingredients
+
+- 1 ¾ cup cooked chickpeas, or 1 (15-ounce) can chickpeas, drained and rinsed
+- 2 teaspoons extra-virgin olive oil
+- ½ teaspoon kosher salt, plus more to taste
+- 1 teaspoon za’atar, plus more to taste
+- 1 ½ cups dried chickpeas, soaked overnight and drained
+- ¼ cup plus 3 tablespoons extra-virgin olive oil, plus more for serving
+- 2 bay leaves
+- 1 ½ teaspoon kosher salt, plus more to taste
+- ½ loaf hearty rustic bread (about 8 ounces)
+- 1 cup chopped onion, from 1 medium onion
+- 6 garlic cloves, minced or finely grated
+- 1 tablespoon ground cumin, plus more for serving
+- 1 tablespoon tomato paste
+- 1 tablespoon harissa paste, plus more for serving
+- 3 tablespoons fresh lemon juice
+- 1 tablespoon finely grated lemon zest, for serving
+- ½ cup chopped flat-leaf parsley, for serving
+
+*** Directions
+
+1. Prepare the crispy chickpeas: Transfer chickpeas to a rimmed baking sheet
+   lined with a clean dish towel or paper towels. Cover with another towel (or
+   paper towels) on top, rubbing gently to dry. Remove top towel and let air-dry
+   for at least 30 minutes and preferably 1 hour.
+2. As chickpeas dry, start preparing the soup: In a Dutch oven or heavy
+   stockpot, combine soaked chickpeas, 5 cups water, 1 tablespoon olive oil, bay
+   leaves and 1/2 teaspoon salt over high heat. Bring to a boil for 2 to 3
+   minutes, then reduce heat to a simmer, cover and cook until chickpeas are
+   tender, about 1 to 2 hours.
+3. Heat oven to 400 degrees. While chickpeas are cooking, cut bread into thick
+   slices, then tear slices into bite-size pieces. Place bread in one layer on
+   large rimmed baking sheet and toast until crisp and light brown, about 10
+   minutes. Let cool on pan and set aside.
+4. Finish the crunchy chickpeas: Raise oven temperature to 425 degrees. Remove
+   the towels from baking sheet with the chickpeas, and toss the chickpeas with
+   2 teaspoons olive oil, 1/2 teaspoon salt and za’atar until well coated. Roast
+   until golden and crispy, about 13 to 18 minutes, tossing halfway through.
+   When chickpeas are still hot, sprinkle lightly more salt. Taste and add more
+   salt or za’atar, or both, if you’d like.
+5. When the chickpeas for the soup are tender, discard bay leaves. Using a
+   slotted spoon, transfer 2 cups of chickpeas, 1/2 cup of chickpea cooking
+   liquid and 1/4 cup olive oil to a blender or food processor, and purée until
+   smooth. (Alternatively, you can use an immersion blender to blitz half the
+   chickpeas into a rough purée. Add the olive oil before puréeing. The broth
+   won’t be as silky as it would be puréed in a regular blender, but it will
+   taste just as good.)
+6. In a large skillet over medium-high, heat the remaining 2 tablespoons oil
+   until shimmering. Add the onion and cook, stirring occasionally, until
+   softened, about 5 minutes. Add garlic and cook until golden, about 2 minutes.
+   Add the remaining 1 teaspoon salt, 1 tablespoon cumin and tomato paste and
+   cook, stirring, until fragrant, 1 minute. Add a splash of the chickpea
+   cooking liquid to the pan, and bring to a simmer to deglaze, scraping up the
+   browned bits on the bottom of the pan. Turn off heat.
+7. Add chickpea purée and onion mixture to soup, along with harissa and lemon
+   juice, and stir well. Add a little water if soup seems too thick, and more
+   salt, if needed.
+8. To serve, divide toasted bread pieces among soup bowls, then ladle in soup.
+   Garnish with lemon zest, parsley, olive oil, more cumin and some of the
+   crispy chickpeas — you’ll have leftovers. Serve hot, with more harissa on the
+   side.
+
+*** Notes
+- version sans harissa et oublié le citron
+- J'ai utilisé le jus des pois chiches pour la cuisson => mauvaise idée
+- À refaire correctement
 ** DONE Haricots blancs à la tomate
 Bien cuire la sauce tomate 10min avant d'ajouter le reste
 https://www.thecookierookie.com/white-beans-recipe/
