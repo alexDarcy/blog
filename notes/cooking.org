@@ -717,12 +717,22 @@ crispiness
    about 10 minutes.
 3. Drizzle the chicken with the remaining glaze and serve with lemon wedges.
 
-
 ** RETRY Quiche
 Bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaitement cuits !
 ** RETRY Soupe maïs-lait de coco (Des soupes qui nous font du bien)
 Même en diminuant le ratio lait de coco/maïs à 40/60 au lieu de 60/40, encore
 très riche. Essayer 70/30
+** RETRY Tortilla
+Échec les 2 dernières fois avec recette : trop dure et pas assez cuite, sans bulles.
+Réessayer avec
+- poele chaude puis diminuer la température
+- tortilla très très fine (cf https://www.youtube.com/watch?v=uryKpTSxPF8)
+- pâte plus hydratées (cf https://www.youtube.com/watch?v=uryKpTSxPF8)
+- bulles ! (sinon = pas cuit, cf https://www.reddit.com/r/AskCulinary/comments/1euuvv/why_do_my_homemade_tortillas_get_brittlehard_so/)
+Autres recettes
+- https://cooking.nytimes.com/recipes/1019621-sonoran-style-flour-tortillas
+- https://www.seriouseats.com/recipes/2015/05/soft-chewy-flour-tortillas-recipe.html
+
 ** RETRY Vegan burger
 Pois chiches 500g + 1 oeuf + assaissonnement + 150g de farine de sarrasin =
 texture à la poêle OK. On peut probablement diminuer les doses de farine à 100g
