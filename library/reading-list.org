@@ -182,3 +182,16 @@ Par contre, les notes sous PC sont plus copiés-collées donc moins de réflexio
   :PROPERTIES:
   :Custom_ID: steffen12_exper_test_airpl_board_method
   :END:
+*** SKIMMED Dunson, D. B. (2002): Changes with age in the level and duration of fertility in the menstrual cycle :gyneco:
+  :PROPERTIES:
+  :Custom_ID: dunson02_chang_with_age_level_durat
+  :END:
+   Donne une idée de la baisse de la fertilité après 35 ans (-50% ??). Mais ils
+   mentionnent un grand intervalle interquatile... Sur la figure : ~50% -> ~30%
+
+*** SKIMMED Gnoth, C. (2003): Time to pregnancy: results of the german prospective study and impact on the management of infertility :gyneco:
+  :PROPERTIES:
+  :Custom_ID: gnoth03_time_to_pregn
+  :END:
+ Donne une idée du temps pour concevoir : 92% au bout de 12 cycles pour tous les
+ couples de l'étude.
