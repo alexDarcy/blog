@@ -723,13 +723,44 @@ Bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaiteme
 Même en diminuant le ratio lait de coco/maïs à 40/60 au lieu de 60/40, encore
 très riche. Essayer 70/30
 ** RETRY Tortilla
-Échec les 2 dernières fois avec recette : trop dure et pas assez cuite, sans bulles.
-Réessayer avec
-- poele chaude puis diminuer la température
-- tortilla très très fine (cf https://www.youtube.com/watch?v=uryKpTSxPF8)
-- pâte plus hydratées (cf https://www.youtube.com/watch?v=uryKpTSxPF8)
-- bulles ! (sinon = pas cuit, cf https://www.reddit.com/r/AskCulinary/comments/1euuvv/why_do_my_homemade_tortillas_get_brittlehard_so/)
-Autres recettes
+:PROPERTIES:
+:source-url: https://www.allrecipes.com/recipe/157642/homemade-flour-tortillas/
+:servings: 24
+:prep-time: 15  m
+:cook-time: 45  m
+:ready-in: 1  h
+:END:
+
+
+*** Ingredients
+
+- 4 cups all-purpose flour
+- 1 teaspoon salt
+- 2 teaspoons baking powder
+- 2 tablespoons lard
+- 1 1/2 cups water
+*** Directions
+
+1. Whisk the flour, salt, and baking powder together in a mixing bowl. Mix in
+   the lard with your fingers until the flour resembles cornmeal. Add the water
+   and mix until the dough comes together; place on a lightly floured surface
+   and knead a few minutes until smooth and elastic. Divide the dough into 24
+   equal pieces and roll each piece into a ball.
+2. Preheat a large skillet over medium-high heat. Use a well-floured rolling pin
+   to roll a dough ball into a thin, round tortilla. Place into the hot skillet,
+   and cook until bubbly and golden; flip and continue cooking until golden on
+   the other side. Place the cooked tortilla in a tortilla warmer; continue
+   rolling and cooking the remaining dough.
+*** Notes
+1er essai échec (recette de Chef John): trop dure, trop farineuse. Avec cette recette ok mais :
+- pâte bien hydratée++
+- important de chauffer fort la poêle mais de cuire à feu moyen. 30s par côté x2
+  donc 2min au total
+- étaler le plus fin possible
+- si bulles = OK
+- bulles !
+*** Misc
+- https://www.reddit.com/r/AskCulinary/comments/1euuvv/why_do_my_homemade_tortillas_get_brittlehard_so/)
 - https://cooking.nytimes.com/recipes/1019621-sonoran-style-flour-tortillas
 - https://www.seriouseats.com/recipes/2015/05/soft-chewy-flour-tortillas-recipe.html
 
