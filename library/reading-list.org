@@ -127,6 +127,7 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
   :END:
 
   Seems to answer my questions about stats in med school
+*** DONE Fang, Y., Zhang, H., Xie, J., Lin, M., Ying, L., Pang, P., & Ji, W. (2020): Sensitivity of chest ct for covid-19: comparison to rt-pcr :infectious::covid19:
 *** TOREAD Thomas, D. L. (2019): Global elimination of chronic hepatitis :infectious:
   :PROPERTIES:
   :Custom_ID: thomas19_global_elimin_chron_hepat
@@ -158,6 +159,11 @@ Dernières recos sur Lyme
   :Custom_ID: goupil19_assoc_between_gifts_from_pharm
   :END:
 
+*** DONE Doremalen, N. v., Bushmaker, T., Morris, D. H., Holbrook, M. G., Gamble, A., Williamson, B. N., Tamin, A., … (2020): Aerosol and surface stability of sars-cov-2 as compared with sars-cov-1 :infectious:covid19:
+  :PROPERTIES:
+  :Custom_ID: doremalen20_aeros_surfac_stabil_sars_cov
+  :END:
+  Viability : plastic + stainless steel = 72h, cardboard = 48h
 ** Other
 *** SKIMMED Hausfather, Z., Drake, H. F., Abbott, T., & Schmidt, G. A. (2019): Evaluating the performance of past climate model projections :climate:
   :PROPERTIES:
@@ -195,3 +201,9 @@ Par contre, les notes sous PC sont plus copiés-collées donc moins de réflexio
   :END:
  Donne une idée du temps pour concevoir : 92% au bout de 12 cycles pour tous les
  couples de l'étude.
+
+
+  :PROPERTIES:
+  :Custom_ID: fang20_sensit_chest_ct_covid
+  :END:
+Sensitivity of RT-PCR on swab = 71% vs 98 for chest CT-scan (51 patients)
