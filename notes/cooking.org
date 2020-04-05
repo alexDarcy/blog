@@ -778,27 +778,89 @@ Avec du yaourt grec : moins sec mais une petite amertume
 
 * Pains
 Pour une croûte : augmenter la vapeur
-*** Pain blanc
-** Recette du NYT "No-Knead" fonctionne bien, avec 1/2 CC de levure pour 500g
+** Pain blanc
+*** Recette du NYT "No-Knead" fonctionne bien, avec 1/2 CC de levure pour 500g
 
-*** Pain au sarrasin
-** 1/3 sarassin, 2/3 farine complète : goût curieux, un peu lourd
+** Pain au sarrasin
+*** 1/3 sarassin, 2/3 farine complète : goût curieux, un peu lourd
 
-*** Pain complet
+** Pain complet
 http://bakeryaddict.canalblog.com/archives/2012/07/24/24767223.html
-** Sans moule, pas mal
-** [[http://www.abreaducation.com/wholewheat.php][Breadeducation]] lève mais un peu
+*** Sans moule, pas mal
+*** [[http://www.abreaducation.com/wholewheat.php][Breadeducation]] lève mais un peu
     costaud 
     + seulement de la farine complète !
 
-*** Pain de seigle
-** Majoritairement farine de seigle, avec un peu de farine de blé au début +
+** Pain de seigle
+*** Majoritairement farine de seigle, avec un peu de farine de blé au début +
     pendant processus
     + 1h pour première levée, 1h (?) seconde levée : n'a pas assez levé
     + 30min premiere levée, retravaillé 10min après, 1h15 seconde levée, cuisson
         50min à 200° : pas levé, juste étalé.
 
-*** Pizza
-** Overnight pizza from "Flour, yeast, water, salt"
+** Pizza
+*** Overnight pizza from "Flour, yeast, water, salt"
 Bonne pâte, difficulté est d'enfourner. Faire la pizza sur la pelle directement...
 10min à 250 + 3 min gril !
+
+** Pain à burger
+:PROPERTIES:
+:source-url: https://www.allrecipes.com/recipe/233652/homemade-hamburger-buns/
+:servings: 8
+:prep-time: 20  m
+:cook-time: 15  m
+:ready-in: 3  h  45  m
+:END:
+*** Ingredients
+
+- 1 (.25 ounce) package active dry yeast (such as Fleischmann's ActiveDry
+  Yeast®)
+- 450g all-purpose flour, or as needed - divided
+- 260g warm water (105 degrees F/41 degrees C)
+- 1 large egg
+- 3 tablespoons butter, melted
+- 3 tablespoons white sugar
+- 1 1/4 teaspoons salt
+- 1 teaspoon olive oil
+- 1 egg, beaten
+- 1 tablespoon milk
+- 1 teaspoon sesame seeds, or as needed
+
+*** Directions
+
+1. Line a baking sheet with a silicone mat or parchment paper.
+2. Place yeast into bowl of a large stand mixer; whisk in 1/2 cup flour and warm
+   water until smooth. Let stand until mixture is foamy, 10 to 15 minutes.
+3. Whisk 1 egg, melted butter, sugar, and salt thoroughly into yeast mixture.
+   Add remaining flour (about 3 cups).
+4. Fit a dough hook onto stand mixer and knead the dough on low speed until soft
+   and sticky, 5 to 6 minutes. Scrape sides if needed. Poke and prod the dough
+   with a silicone spatula; if large amounts of dough stick to the spatula, add
+   a little more flour.
+5. Transfer dough onto a floured work surface; dough will be sticky and elastic
+   but not stick to your fingers. Form the dough lightly into a smooth, round
+   shape, gently tucking loose ends underneath.
+6. Wipe out stand mixer bowl, drizzle olive oil into the bowl, and turn dough
+   over in the bowl several times to coat surface thinly with oil. Cover bowl
+   with aluminum foil. Let dough rise in a warm place until doubled, about 2
+   hours.
+7. Transfer dough to a floured work surface and pat to flatten bubbles and form
+   into a slightly rounded rectangle of dough about 5x10 inches and about 1/2
+   inch thick. Dust dough lightly with flour if needed. Cut dough into 8 equal
+   pieces. Form each piece into a round shape, gently tucking ends underneath as
+   before.
+8. Use your hands to gently pat and stretch the dough rounds into flat disc
+   shapes about 1/2 inch thick. Arrange buns about 1/2 inch apart on prepared
+   baking sheet. Dust buns very lightly with flour. Drape a piece of plastic
+   wrap over the baking sheet (do not seal tightly). Let buns rise until
+   doubled, about 1 hour.
+9. Preheat oven to 375 degrees F (190 degrees C).
+10. Beat 1 egg with milk in a small bowl, using a fork, until mixture is
+    thoroughly combined. Very gently and lightly brush tops of buns with egg
+    wash without deflating the risen dough. Sprinkle each bun with sesame seeds.
+11. Bake in the preheated oven until lightly browned on top, 15 to 17 minutes.
+    Buns will stick together slightly where they touch. Let cool completely,
+    tear the buns apart, and slice in half crosswise to serve.
+*** Notes
+Bonne recette, rappelle la brioche.
+Levée dans un four tiède : 2h et 30min respectivement. Aurait pu gonfler plus ?
