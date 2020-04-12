@@ -42,7 +42,7 @@ notes/medecine/%.pdf: notes/medecine/%.tex
 	latexmk -pdf -lualatex -cd $<
 
 # Compatible with doom emacs
-${MED}/%.tex: ${ORG_PDF}
+${MED}/%.tex: ${MED}/%.org
 	emacs --batch $< -f org-latex-export-to-latex
 
 ${MED}/%.html: ${ORG_WEB}

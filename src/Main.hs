@@ -37,6 +37,7 @@ main = hakyll $ do
 
     match "notes/*.md" processWithBib 
     match "notes/*.org" processWithBib
+   
 -- Painful to work with, so we use latex for notes instead
 {-    match "notes/medecine/*.md" $ do-}
         {-route   $ setExtension ".pdf"-}
@@ -45,6 +46,7 @@ main = hakyll $ do
             {->>= writeXeTex-}
             {->>= loadAndApplyTemplate "templates/latex2.tex" defaultContext-}
             {->>= xelatex-}
+
 
     match "notes/**/*.md" $ do 
         route $ setExtension "html"
@@ -69,6 +71,7 @@ main = hakyll $ do
     match "projects.html" $ createCategory "projects"
     match "computing.html" $ createCategory "computing"
     match "templates/*" $ compile templateCompiler
+
 
   where
     pages = [ "projects.html", "computing.html"]
@@ -142,6 +145,16 @@ writeXeTex = traverse $ \pandoc ->
       case runPure (writeLaTeX def pandoc) of
           Left err -> fail $ show err
           Right x  -> return (T.unpack x)
+
+-- Does not work
+latex = match pattern rules
+  where
+    pattern = "notes/medecine/*.tex" .&&. (complement "notes/medecine/bacteries.tex")
+      .&&. (complement "notes/medecine/header.tex")
+      .&&. (complement "notes/medecine/bacteries-header.tex")
+    rules = do
+      route $ setExtension "pdf"
+      compile $ getResourceLBS >>= withItemBody (unixFilterLBS "latexmk" ["-pdf", "-lualatex", "-cd"])
 
 --------------------------------------------------------------------------------
 -- | Hacky.

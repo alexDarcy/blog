@@ -280,6 +280,22 @@ America test kitchen recipe. Pas mal et pas prise de tête
   + 500g de crème fraîche liquide
   + lait ? (donne plus une )
   + 2 oeufs
+*** NYT
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/9360-chocolate-caramel-tart
+:servings:
+:prep-time:
+:cook-time:
+:ready-in: 1 hour 15 minutes
+:END:
+**** Ingredients
+**** Directions
+**** Notes
+- Quantités pour 1 grande tarte + 2 tartelettes
+- La pâte a un peu attaché au papier cuisson
+- Au goût OK mais caramel trop liquide => ressayer en allant jusqu'au point ou
+  ça sent légèrement le cramé
+
 ** RETRY Tarte aux pommes
 Recette de la PPAP : pommes un peu crues, pâte ok. Mieux choisir les pomme la
 prochaine fois et couper *très* fin
@@ -617,6 +633,20 @@ OK avec ces 2 modifications !
 - version sans harissa et oublié le citron
 - J'ai utilisé le jus des pois chiches pour la cuisson => mauvaise idée
 - À refaire correctement
+
+** RETRY Beef Stroganoff
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/1020862-beef-stroganoff?action=click&module=Global%20Search%20Recipe%20Card&pgType=search&rank=1
+:servings:
+:prep-time:
+:cook-time:
+:ready-in: 1 hour
+:END:
+*** Ingredients
+*** Directions
+*** Notes
+Pas mal
+
 ** DONE Haricots blancs à la tomate
 Bien cuire la sauce tomate 10min avant d'ajouter le reste
 https://www.thecookierookie.com/white-beans-recipe/
@@ -864,4 +894,4 @@ Bonne pâte, difficulté est d'enfourner. Faire la pizza sur la pelle directemen
 *** Notes
 Bonne recette, rappelle la brioche.
 Levée dans un four tiède : 2h et 30min respectivement. Cuisson 35min à 190°
-Aurait pu gonfler plus ?
+Façonner plus "en boule" pour éviter qu'ils ne soient trop plats
