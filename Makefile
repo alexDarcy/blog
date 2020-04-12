@@ -19,22 +19,27 @@ rebuild:
 build:
 	${STACK} exec blog build
 
+clean:
+	${STACK} exec blog clean
+
 MED=notes/medecine
-ORG= $(wildcard ${MED}/*.org)
-ORG_WEB= $(wildcard ${MED}/livres_medecine.org)
-ORG_PDF=$(filter-out ${ORG_WEB}, ${ORG})
+ORG= $(filter-out ${MED}/livres_medecine.org, $(wildcard ${MED}/*.org))
+
+
 # Some note are still in latex
 NOTES_TEX= \
-${MED}/afgsu.tex\
-${MED}/nutrition.tex\
-$(NOTES_ORG:.org=.tex)
+${MED}/endocrino.tex \
+${MED}/examen_clinique.tex \
+${MED}/externat.tex \
+${MED}/hge.tex \
+${MED}/ophtalmo.tex \
+${MED}/reference.tex \
+${MED}/superfiches.tex
 
-NOTES_PDF=$(NOTES_TEX:.tex=.pdf) 
-NOTES_WEB=$(ORG_WEB:.org=.html) 
+NOTES_PDF=$(NOTES_TEX:.tex=.pdf) $(ORG:.org=.pdf)
 
 .PHONY: notes
-# .PHONY: ${NOTES_TEX} 
-notes: ${NOTES_PDF}  ${NOTES_WEB}
+notes: ${NOTES_PDF}
 	mkdir -p _site/notes/medecine
 	cp $^ _site/notes/medecine
 
@@ -42,11 +47,12 @@ notes/medecine/%.pdf: notes/medecine/%.tex
 	latexmk -pdf -lualatex -cd $<
 
 # Compatible with doom emacs
-${MED}/%.tex: ${MED}/%.org
+# We cannot use pandoc here
+notes/medecine/%.tex: notes/medecine/%.org
 	emacs --batch $< -f org-latex-export-to-latex
 
-${MED}/%.html: ${ORG_WEB}
-	emacs --batch $< -f org-html-export-to-html
+#${MED}/%.tex: ${MED}/%.org
+#	emacs --batch $< -f org-latex-export-to-latex
 
 debug: generate update
 

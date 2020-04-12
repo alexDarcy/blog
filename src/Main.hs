@@ -23,7 +23,6 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-
     match "pictures/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -32,22 +31,13 @@ main = hakyll $ do
     match "bibliography/*.csl" $ compile cslCompiler
     match "bibliography/*.md" processWithBib
 
-    match "notes/cooking.org" processPost
-    match "notes/japanese.org" processPost
+    -- Notes
+    match "notes/*.org" processPost
+    match "notes/medecine/livres_medecine.org" processPost
+    -- History notes
+    match "notes/*.md" processWithBib
 
-    match "notes/*.md" processWithBib 
-    match "notes/*.org" processWithBib
-   
--- Painful to work with, so we use latex for notes instead
-{-    match "notes/medecine/*.md" $ do-}
-        {-route   $ setExtension ".pdf"-}
-        {-compile $ do getResourceBody-}
-            {->>= readPandoc-}
-            {->>= writeXeTex-}
-            {->>= loadAndApplyTemplate "templates/latex2.tex" defaultContext-}
-            {->>= xelatex-}
-
-
+    -- posts
     match "notes/**/*.md" $ do 
         route $ setExtension "html"
         compile $ pandocCompiler
@@ -71,6 +61,16 @@ main = hakyll $ do
     match "projects.html" $ createCategory "projects"
     match "computing.html" $ createCategory "computing"
     match "templates/*" $ compile templateCompiler
+
+    -- latex
+-- Painful to work with, so we use latex for notes instead
+{-    match "notes/medecine/*.md" $ do-}
+        {-route   $ setExtension ".pdf"-}
+        {-compile $ do getResourceBody-}
+            {->>= readPandoc-}
+            {->>= writeXeTex-}
+            {->>= loadAndApplyTemplate "templates/latex2.tex" defaultContext-}
+            {->>= xelatex-}
 
 
   where
@@ -149,9 +149,7 @@ writeXeTex = traverse $ \pandoc ->
 -- Does not work
 latex = match pattern rules
   where
-    pattern = "notes/medecine/*.tex" .&&. (complement "notes/medecine/bacteries.tex")
-      .&&. (complement "notes/medecine/header.tex")
-      .&&. (complement "notes/medecine/bacteries-header.tex")
+    pattern = "notes/medecine/superfiches.tex"
     rules = do
       route $ setExtension "pdf"
       compile $ getResourceLBS >>= withItemBody (unixFilterLBS "latexmk" ["-pdf", "-lualatex", "-cd"])

@@ -1,6 +1,5 @@
 # -*- org-latex-tables-booktabs: t; -*-
 #+author: Alexis Praga
-#+latex_class: book-noparts
 #+OPTIONS: tags:nil
 #+TAGS: export(e)  
 
