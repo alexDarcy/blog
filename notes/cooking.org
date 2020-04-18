@@ -1,4 +1,4 @@
-#+TODO: TODO RETRY | DONE
+#+TODO: TODO(t) RETRY(r) | DONE(d) AVOID(a)
 
 * Desserts
 ** DONE Biscuit cuiller
@@ -149,6 +149,7 @@ cuite.
 [[https://www.seriouseats.com/recipes/2015/11/southern-unsweetened-cornbread-recipe.html][Seriouseats]]
   Bien moelleux mais très mietteux. Probablement pas assez mélangé
 ** RETRY Crepes
+*** Marmiton
 https://www.marmiton.org/recettes/recette_pate-a-crepes-simple_27121.aspx
 2.5 oeufs
 250 g de farine
@@ -156,6 +157,19 @@ https://www.marmiton.org/recettes/recette_pate-a-crepes-simple_27121.aspx
 1.5 cuillères à soupe d'huile
 1 cuillère à café de rhum
 => décent
+*** Raymon Oliver
+Mes modifs pour 11 crepes moyennement fines :
+- 1 pincées de sel
+- 10cl lait
+- 3 oeufs
+- 3 CS sucre
+- vanille
+- 30g beurre
+- 130g farine
+- bière 15cl (le double dans la recette a priori) brune 6%
+- rhum 50g
+Au final : addictives, très molles, odeur du rhum, petit arrière-goût de bière après-coup
+
 ** RETRY Croissants
 (PPAP). Pas encore ça... Remarques après plusieurs essais :
   + 45min à 190° = trop !!  pas assez cuits++ à l'intérieur mais un peu trop à
@@ -549,6 +563,10 @@ Pas mal, très rapide à faire. Je mets les crevettes dans la sauce directement
    colander and shake over the sink to remove excess moisture.
 4. In a large bowl, toss the shrimp and chili sauce. Add jalapeño, if desired,
    sprinkle with cilantro and toss again.
+** Haricots blancs
+*** AVOID NYT: haricots blancs crémeux
+  https://cooking.nytimes.com/recipes/1019385-creamy-white-beans-with-herb-oil
+  Citron et haricots blancs ne vont pas trop ensemble
 
 ** RETRY Falafels (traditionnels) :
 3 échecs successifs...
@@ -707,6 +725,9 @@ https://www.bonappetit.com/recipe/ba-best-lasagna => ok mais
 6 heures à 160% avec "searing". Écrasé à la fourchette au bout de 3h pour
 permettre d'absorber le gras.
 Bien en burger avec sauce BBQ
+*** RETRY Rouelle de porc
+Au four 160° 5h
+http://www.auxdelicesdemanue.com/-02
 
 ** RETRY Poulet glacage soja-miel-gingembre
 :PROPERTIES:
