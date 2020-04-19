@@ -564,9 +564,11 @@ Pas mal, très rapide à faire. Je mets les crevettes dans la sauce directement
 4. In a large bowl, toss the shrimp and chili sauce. Add jalapeño, if desired,
    sprinkle with cilantro and toss again.
 ** Haricots blancs
-*** AVOID NYT: haricots blancs crémeux
+*** RETRY NYT: haricots blancs crémeux
   https://cooking.nytimes.com/recipes/1019385-creamy-white-beans-with-herb-oil
-  Citron et haricots blancs ne vont pas trop ensemble
+  1 citron entier pour 1Kg haricots blancs : je trouve que le citron est trop
+  agressif et ne va pas avec...
+  Testé avec persil + menthe + basilic
 
 ** RETRY Falafels (traditionnels) :
 3 échecs successifs...
@@ -574,6 +576,24 @@ Réssayer en
 - mixant bien, bien la pâte
 - mettre au frais pour éviter qu'ils ne se détachent dans la friture
 OK avec ces 2 modifications !
+** RETRY Kebab
+*** Grilled Chicken Pita With Yogurt Sauce and Arugula
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/1020974-grilled-chicken-pita-with-yogurt-sauce-and-arugula
+:servings:
+:prep-time:
+:cook-time:
+:ready-in: 25 minutes
+:END:
+**** Ingredients
+**** Directions
+
+
+**** Notes
+Cuisse de poulet = mauvaise idée. Très long à couper et la flemm d'enlever les tendons...
+Et difficile à griller ?
+Sauce : crème fraîche + menthe + persil + olive : pas convaincu par les olives.
+À refaire proprement
 
 ** RETRY Lablabi (Tunisian Chickpea Soup)
 :PROPERTIES:
@@ -841,6 +861,19 @@ http://bakeryaddict.canalblog.com/archives/2012/07/24/24767223.html
 *** [[http://www.abreaducation.com/wholewheat.php][Breadeducation]] lève mais un peu
     costaud 
     + seulement de la farine complète !
+** Pain pita
+** Homemade Pita Bread
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/1016071-homemade-pita-bread
+:servings:
+:prep-time:
+:cook-time:
+:ready-in: About 2 hours
+:END:
+*** Ingredients
+*** Directions
+*** Notes
+Ne pas trop étaler sinon ne gonfle pas. Ok avec 3min + 3min de cuisson à 250° sur plaque à pizza
 
 ** Pain de seigle
 *** Majoritairement farine de seigle, avec un peu de farine de blé au début +
