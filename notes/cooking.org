@@ -253,10 +253,23 @@ Ganache
 ** RETRY Mille-feuille [[https://www.facebook.com/PhConticini/photos/a.108115932681384.17237.101025623390415/713491585477146/?type=3) : bien mettre un poids sur la pâte feuilletée pendant la cuisson. Trop de gélatine (crème un peu trop gélatineuse][
 de Conticini]]
 ** RETRY Millionaire short-bread / Twix familial
+:PROPERTIES:
+:source-url: https://cooking.nytimes.com/recipes/1019333-millionaires-shortbread?action=click&module=Global%20Search%20Recipe%20Card&pgType=search&rank=12
+:servings:
+:prep-time:
+:cook-time:
+:ready-in: 1 3/4 hours
+:END:
+*** Notes
 - Ne pas trop étaler la pâte.
 - Quantité pour avoir autant de caramel de que shortbread... Peut-être diminuer un
 peu les doses de caramel ?
 - J'ai utilisé 250g de chocolat, un peu juste sinon
+*** Ingredients
+*** Directions
+
+
+
 ** RETRY Moka
 Felder plutôt que PPAP :
    + le biscuit est plus simple chez Felder et plus aéré
@@ -674,21 +687,76 @@ Sauce : crème fraîche + menthe + persil + olive : pas convaincu par les olives
 
 ** RETRY Beef Stroganoff
 :PROPERTIES:
-:source-url: https://cooking.nytimes.com/recipes/1020862-beef-stroganoff?action=click&module=Global%20Search%20Recipe%20Card&pgType=search&rank=1
+:source-url: https://cooking.nytimes.com/recipes/1020862-beef-stroganoffard&pgType=search&rank=1
 :servings:
 :prep-time:
 :cook-time:
 :ready-in: 1 hour
 :END:
 *** Ingredients
+    Kosher salt and freshly ground black pepper
+    1 ½ pounds sirloin roast, or beef tenderloin, if you’re feeling fancy
+    2 tablespoons all-purpose flour
+    1 ½ teaspoons hot paprika
+    1 tablespoon neutral oil, such as canola or grapeseed
+    4 tablespoons unsalted butter
+    ½ pound button mushrooms, cleaned and cut into quarters
+    2 small shallots, thinly sliced
+    12 ounces wide egg noodles
+    ¼ cup dry white wine
+    1 cup heavy cream or crème fraîche
+    1 ½ teaspoons Worcestershire sauce
+    1 ½ teaspoons Dijon mustard
+    Chopped fresh parsley, for garnish
+
 *** Directions
+Preparation
+
+    Bring a large pot of salted water to a boil.
+    Cut the beef against the grain into 1/2-inch slices, pound lightly, then cut those slices into 1-inch-wide strips.
+    Add the flour, paprika, 1 1/2 teaspoons salt and 1 1/2 teaspoons pepper to a large shallow bowl and toss to combine. Dredge the strips of meat in the flour mixture, shake them to remove excess flour, then transfer them to a rimmed baking sheet.
+    Place a large skillet over high heat and swirl in the oil. When the oil begins to shimmer, sauté the beef slices, in two batches, until they are well browned on both sides but rare inside, 3 to 4 minutes per batch. Transfer the seared meat to the baking sheet. Turn the heat down slightly.
+    Add 1 tablespoon of the butter to the pan. When it has melted and started to foam, add the mushrooms, toss to coat them with the fat, and season with salt and pepper. Cook, stirring frequently, until the mushrooms have released their moisture and are a deep, dark brown, 12 to 15 minutes. About halfway into the process, add the sliced shallots and 1 tablespoon butter and stir to combine.
+    While the mushrooms cook, add the noodles to the boiling water, and cook until just done, about 10 minutes. Drain the noodles, and toss with the remaining 2 tablespoons butter. Set aside.
+    When the mushrooms and shallots are soft and caramelized, deglaze the pan with the wine, scraping at all the stuck-on bits on the pan’s surface. When the wine has reduced by about half, slowly stir in the cream, followed by the Worcestershire and mustard. Add the meat, along with any accumulated juices, and stir to combine. Cook, stirring occasionally, until the dish is hot and the beef is medium-rare, 2 to 3 minutes. Taste, and adjust the seasonings.
+    Serve the noodles under or alongside the stroganoff; sprinkle stroganoff with parsley.
+
+
 *** Notes
 Pas mal
 
 ** DONE Haricots blancs à la tomate
 Bien cuire la sauce tomate 10min avant d'ajouter le reste
 https://www.thecookierookie.com/white-beans-recipe/
-** Kluski na parze ([[http://lespolonais.forumpro.fr/t133-les-kluski-na-parze  vb)][recette]]
+** Kluski na parze
+:PROPERTIES:
+:source-url: http://lespolonais.forumpro.fr/t133-les-kluski-na-parze  vb)][recette]]
+:END:
+*** Ingrédients :
+
+500 g de farine
+1 verre de lait
+3 oeufs
+3 cuillères à soupe de beurre fondu
+30 gr de levure de boulangerie
+1 pincée de sel
+
+*** Préparation :
+
+Délayez la levure dans un peu de lait tiède. Mélangez la avec un peu de farine.
+Laissez reposer dans un endroit tiède.
+Quand elle a grossi de moitié, ajoutez la farine, le sel, les oeufs et le beurre.
+Pétrissez à la main. Remettez la pâte à lever dans un endroit tiède (couvrir d'un linge humide ) .
+Formez avec la pâte des boules ressemblant à de beignets.
+( un verre à moutarde peut servir d'emporte pièces pour découper la pate )
+Laissez à nouveau lever la pâte et pour la cuisson, prenez deux marmites,
+remplissez l' une à moitié d’eau, recouvrez-la d’un linge propre et
+serrez le linge autour des bords avec de la ficelle, portez l' eau à ébullition.
+Faites cuire les beignets à la vapeur sur le linge pendant 10 minutes en recouvrant d' une marmite de même diamètre.
+(Plus simple utiliser un couscoussier si vous en avez un... ou un cuit-vapeur en adaptant la durée de la cuisson)
+
+Les " kluski na parze "accompagnent un plat en sauce tel que des " Rolades " le tout servi avec du chou rouge .
+
 ** RETRY Lasagnes
 https://www.bonappetit.com/recipe/ba-best-lasagna => ok mais
 + bien saler béchamel et viande sinon un peu fade
