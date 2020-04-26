@@ -290,13 +290,36 @@ Philippe Conticini : éviter une ganache trop liquide. Ne pas lésiner sur les b
 
 ** RETRY Mousse de fruit
 Recette meilleur du chef
+** RETRY Napolitain
+*** Ingrédients
+Pour un gâteau de 16cm x 6.5cm x 8cm (longueur x largeur x hauteur)
+- Beurre 200g
+- Farine
+- Levure 1 sachet
+- 4 oeufs
+- 200g de sucre environ
+Ganache (diminuer les doses car il reste 1/4)
+- 150g chocolat
+- 100g crème 30%
+*** Instructions
+- Bien mélanger jaunes d'oeuf avec le sucre puis ajouter le beurre fondu
+- Ajouter la farine et levure en poudre
+- Séparer 2/3 et 1/3. Vanille dans le premier et poudre de cacao dans le second
+- Meringue française avec 50g de sucre puis mélanger au reste
+- 15min de cuisson à 180%
+- Montage
+
+
 ** RETRY Pain au lait
 [[https://www.youtube.com/watch?v=wAKaJRl3Ieg)][750g]] : bon mais levée sur la nuit semble préférable
 ** RETRY Pancake
 America test kitchen recipe. Pas mal et pas prise de tête
 ** RETRY Paris-Brest
-(PPAP) : crème au beurre toujours un peu trop liquide. Vient du
+*** PPAP
+crème au beurre toujours un peu trop liquide. Vient du
   praliné "maison" (loupé par ailleurs) ?
+*** Felden
+Sans praliné, crème se tient bien
 
 ** RETRY Pâte à chou
 (Patisserie, Leçons pas-à-pas) : 45-50min de cuisson
