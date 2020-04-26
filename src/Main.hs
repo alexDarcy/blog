@@ -32,6 +32,7 @@ main = hakyll $ do
     match "bibliography/*.md" processWithBib
 
     -- Notes
+    match "library/*.org" processPost
     match "notes/*.org" processPost
     match "notes/medecine/livres_medecine.org" processPost
     -- History notes
