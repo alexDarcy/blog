@@ -8,7 +8,7 @@ all: generate mng deploy
 biblio:
 	wget http://www.citeulike.org/bibtex/user/AlexisPraga -O bibliography/history.bib
 
-generate: build picture notes
+generate: build picture notes library
 
 compile:
 	${STACK} build
@@ -36,13 +36,21 @@ ${MED}/ophtalmo.tex \
 ${MED}/reference.tex \
 ${MED}/superfiches.tex
 
-LIBRARY = library/anime.html library/movies.html library/books.html library/papers.html
 NOTES_PDF=$(NOTES_TEX:.tex=.pdf) $(ORG:.org=.pdf)
 
 .PHONY: notes
 notes: ${NOTES_PDF}
 	mkdir -p _site/notes/medecine
 	cp $^ _site/notes/medecine
+
+.PHONY: library
+LIB=library
+library: ${LIB}/anime.html ${LIB}/movies.html ${LIB}/books.html ${LIB}/papers.html
+	mkdir -p _site/library
+	mv $^ _site/library
+
+${LIB}/%.html: library/%.org
+	emacs --batch $< -f org-html-export-to-html
 
 notes/medecine/%.pdf: notes/medecine/%.tex
 	latexmk -pdf -lualatex -cd $<
