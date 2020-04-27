@@ -1,373 +1,1672 @@
 #+TITLE: Movies
 #+TODO: TOWATCH(t) | WATCHED(w)
+#+OPTIONS: num:nil
+#+OPTIONS: toc:nil
+#+OPTIONS: prop:t
 
+* TOWATCH Au hasard Balthazard
+* TOWATCH Burning
+* TOWATCH Contact
+* TOWATCH Dallas Buyers Club
+* TOWATCH Darkest Hour
+* TOWATCH Dragon Ball Super: Broly
+* TOWATCH Dragon Ball Super: Resurrection F
+* TOWATCH Fences
+* TOWATCH Hidden Figures
+* TOWATCH High and low
+* TOWATCH If Beale Street could talk
+* TOWATCH I, Tonya
+* TOWATCH Little Women
+* TOWATCH Mandy
+* TOWATCH One Child Nation
+* TOWATCH Paterson
+* TOWATCH Room
+* TOWATCH Selma
+* TOWATCH Shaun the Sheep
+* TOWATCH Snowpiercer
+* TOWATCH Still Walking
+* TOWATCH Stray Doy
+* TOWATCH The Irishman
+* TOWATCH The Jungle Book
+* TOWATCH The lives of other
+* TOWATCH Three Billboards Outside Ebbing, Missouri
+* TOWATCH We, the Animals
+* WATCHED 101 Dalmatians
+:PROPERTIES:
+:rating:   3.5
+:year:     1961
+:END:
+* WATCHED 101 Dalmatians
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED 12 Angry Men
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED 12 Years a Slave
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED 2001: A Space Odyssey
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED 21 Grams
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED 300
+:PROPERTIES:
+:rating: 2.5
+:year: 2.5
+:END:
+* WATCHED 3:10 to Yuma
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED 47 ronins
+:PROPERTIES:
+:rating:   3.5
+:END:
+* WATCHED Abraham Lincoln: Vampire Hunter
+:PROPERTIES:
+:rating: 2
+:year: 2
+:END:
+* WATCHED A Bug's Life
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Airplane!
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Akahige
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Akira
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Aladdin
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Aliens
+:PROPERTIES:
+:rating:   4.5
+:END:
+* WATCHED Amadeus
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED American History X
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Anastasia
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Animal Kingdom
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Ant Man
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Antz
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Apocalypse Now
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED A Quiet Place
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED A Room with a view
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Arrival
+:PROPERTIES:
+:rating:   4.5
+:END:
+* WATCHED A Star is Born
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Asterix at the Olympic Games
+:PROPERTIES:
+:rating: 2.5
+:year: 2.5
+:END:
+* WATCHED Asterix & Obelix: Mission Cleopatra
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED Asterix & Obelix take on Caesar
+:PROPERTIES:
+:rating: 2
+:year: 2
+:END:
+* WATCHED A tale Of Two Sisters
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Avatar
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Avenger Endgame
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Avenger Infinity War
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Avengers: Age of Ultron
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Back to the Future
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Barton Fink
+:PROPERTIES:
+:year:     1991
+:rating:   4.5
+:END:
+* WATCHED Batman
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Beauty and the Beast
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Beetlejuice
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Birdman
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Birth of a Nation
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED BlacKkKlansman
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Black Swan
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Blade Runner
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Blindspotting
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Blood Diamond
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Bowling for Columbine
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Bram Stoker's Dracula
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Brave
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Buried
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Caché
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Call me by your name
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Captain America: civil war
+:PROPERTIES:
+:rating:   3.5
+:END:
+* WATCHED Captain Marvel
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Casablanca
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Casino Royale
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Centurion
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Cheap Thrills
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Children of Men
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Cinderella Man
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Citizenfour
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Clockwork Orange
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Coco
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Corpse Bride
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Crouching Tiger and Hidden Dragon
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Dawn of the Planet of the Apes
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Deadpool
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Die Hard 2
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Die Hard: With a Vengeance
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Don't Breathe
+:PROPERTIES:
+:rating:   4
+:END:
+* WATCHED Downfall
+:PROPERTIES:
+:year: 5
+:END:
+* WATCHED Dragon Ball Z: Battle of Gods
+:PROPERTIES:
+:rating:   3
+:END:
+* WATCHED Drive
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Dunkirk
+:PROPERTIES:
+:rating:   4
+:END:
+* WATCHED Edge of Tomorrow
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Edward Scissorhands
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Equilibrium
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED E.T.: The Extra-Terrestrial
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Everything You Always Wanted to Know About Sex* (*But Were Afraid to Ask)
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Ex Machina
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Fight Club
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Finding Nemo
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED First Man
+:PROPERTIES:
+:rating:   4
+:END:
+* WATCHED Forgetting Sarah Marshall
+:PROPERTIES:
+:rating: 2.5
+:year: 2.5
+:END:
+* WATCHED Forrest Gump
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Frozen
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Gangs of New York
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Ghostbusters
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Gladiator
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Godzilla
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Gran Torino
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Grave of the Fireflies
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Gravity
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Green Room
+:PROPERTIES:
+:rating:   4
+:END:
+* WATCHED Groundhog Day
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Guardians of the galaxy
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Guardians of the galaxy vol. 2
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Harakiri
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Hell or High Water
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+
+* WATCHED Her
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Hercules
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Hereditary
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Hero
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Hot Fuzz
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED House of Flying Daggers
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED How to Train Your Dragon
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED How to Train Your Dragon 2
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Ice Age
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED I Confess
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED I, Daniel Blake
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Inception
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Indiana Jones and the Last Crusade
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Indiana Jones and the Temple of Doom
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Inside Job
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Interstellar
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Ip Man
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Ip Man 2
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Iron Man 2
+:PROPERTIES:
+:rating: 3
+:END:
+* WATCHED Iron Man 3
+:PROPERTIES:
+:rating: 3
+:END:
+* WATCHED Iron Man
+:PROPERTIES:
+:rating: 3.5
+:END:
+* WATCHED Isle of Dogs
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED It follows
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED J. Edgar
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Jiro Dreams of Sushi
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
 * WATCHED Joker
 :PROPERTIES:
 :year:     2019
 :rating:   4
 :END:
-* Import
-| title                                                                     | rating | status  | year |
-| 101 Dalmatians                                                            |    3.5 | done    | 1961 |
-| 12 Angry Men                                                              |    4.5 | done    | 1957 |
-| 12 Years a Slave                                                          |      4 | done    | 2013 |
-| 2001: A Space Odyssey                                                     |      4 | done    | 1968 |
-| 21 Grams                                                                  |    3.5 | done    | 2003 |
-| 300                                                                       |    2.5 | done    | 2006 |
-| 3:10 to Yuma                                                              |    3.5 | done    | 2007 |
-| 47 ronins                                                                 |    3.5 | done    |      |
-| A Bug's Life                                                              |    3.5 | done    | 1998 |
-| A Quiet Place                                                             |    4.5 | done    | 2018 |
-| A Room with a view                                                        |      4 | done    | 1985 |
-| A Star is Born                                                            |      4 | done    | 2018 |
-| A tale Of Two Sisters                                                     |      4 | done    | 2003 |
-| Abraham Lincoln: Vampire Hunter                                           |      2 | done    | 2012 |
-| Airplane!                                                                 |    3.5 | done    | 1980 |
-| Akahige                                                                   |      4 | done    | 1965 |
-| Akira                                                                     |    4.5 | done    | 1988 |
-| Aladdin                                                                   |    4.5 | done    | 1992 |
-| Aliens                                                                    |    4.5 | done    |      |
-| Amadeus                                                                   |    3.5 | done    | 1984 |
-| American History X                                                        |    3.5 | done    | 1998 |
-| Anastasia                                                                 |    3.5 | done    | 1997 |
-| Animal Kingdom                                                            |      4 | done    | 2010 |
-| Ant Man                                                                   |      4 | done    | 2015 |
-| Antz                                                                      |    3.5 | done    | 1998 |
-| Apocalypse Now                                                            |    3.5 | done    | 1979 |
-| Arrival                                                                   |    4.5 | done    |      |
-| Asterix & Obelix take on Caesar                                           |      2 | done    | 1999 |
-| Asterix & Obelix: Mission Cleopatra                                       |      5 | done    | 2002 |
-| Asterix at the Olympic Games                                              |    2.5 | done    | 2008 |
-| Avatar                                                                    |      4 | done    | 2008 |
-| Avenger Endgame                                                           |      4 | done    | 2019 |
-| Avenger Infinity War                                                      |      4 | done    | 2018 |
-| Avengers: Age of Ultron                                                   |    3.5 | done    | 2015 |
-| Back to the Future                                                        |    3.5 | done    | 1985 |
-| Barton Fink                                                               |        | done    | 1991 |
-| Batman                                                                    |    3.5 | done    | 1989 |
-| Beauty and the Beast                                                      |    3.5 | done    | 1991 |
-| Beetlejuice                                                               |    3.5 | done    | 1988 |
-| Birdman                                                                   |      4 | done    | 2014 |
-| BlacKkKlansman                                                            |      4 | done    | 2018 |
-| Black Swan                                                                |      4 | done    | 2010 |
-| Blade Runner                                                              |    3.5 | done    | 1982 |
-| Blindspotting                                                             |    4.5 | done    | 2018 |
-| Blood Diamond                                                             |    3.5 | done    | 2006 |
-| Bowling for Columbine                                                     |      4 | done    | 2002 |
-| Bram Stoker's Dracula                                                     |      4 | done    | 1992 |
-| Brave                                                                     |    3.5 | done    | 2012 |
-| Buried                                                                    |    4.5 | done    | 2010 |
-| Caché                                                                     |    4.5 | done    | 2005 |
-| Call me by your name                                                      |    4.5 | done    | 2017 |
-| Captain America: civil war                                                |    3.5 | done    |      |
-| Captain Marvel                                                            |    3.5 | done    | 2019 |
-| Casablanca                                                                |      4 | done    | 1942 |
-| Casino Royale                                                             |    3.5 | done    | 2006 |
-| Centurion                                                                 |    3.5 | done    | 2010 |
-| Cheap Thrills                                                             |    4.5 | done    | 2013 |
-| Children of Men                                                           |    3.5 | done    | 2006 |
-| Cinderella Man                                                            |    3.5 | done    | 2005 |
-| Citizenfour                                                               |      4 | done    | 2014 |
-| Clockwork Orange                                                          |      4 | done    | 1971 |
-| Coco                                                                      |      4 | done    | 2018 |
-| Corpse Bride                                                              |      4 | done    | 2005 |
-| Crouching Tiger and Hidden Dragon                                         |      4 | done    | 2000 |
-| Dawn of the Planet of the Apes                                            |    3.5 | done    | 2014 |
-| Deadpool                                                                  |    3.5 | done    | 2016 |
-| Die Hard 2                                                                |    3.5 | done    | 1990 |
-| Die Hard: With a Vengeance                                                |      3 | done    | 1995 |
-| Don't Breathe                                                             |      4 | done    |      |
-| Downfall                                                                  |      5 | done    | 2004 |
-| Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb      |      3 | done    | 1964 |
-| Dragon Ball Z: Battle of Gods                                             |      3 | done    |      |
-| Drive                                                                     |    4.5 | done    | 2011 |
-| Dunkirk                                                                   |      4 | done    |      |
-| E.T.: The Extra-Terrestrial                                               |    3.5 | done    | 1982 |
-| Edge of Tomorrow                                                          |      4 | done    | 2014 |
-| Edward Scissorhands                                                       |      4 | done    | 1990 |
-| Equilibrium                                                               |    3.5 | done    | 2002 |
-| Everything You Always Wanted to Know About Sex* (*But Were Afraid to Ask) |      4 | done    | 1972 |
-| Ex Machina                                                                |      3 | done    | 2015 |
-| Fight Club                                                                |      4 | done    | 1999 |
-| Finding Nemo                                                              |      4 | done    | 2003 |
-| First	Man                                                             |      4 | done    | 2018 |
-| First Man                                                                 |      4 | done    |      |
-| Forgetting Sarah Marshall                                                 |    2.5 | done    | 2008 |
-| Forrest Gump                                                              |      4 | done    | 1994 |
-| Frozen                                                                    |    4.5 | done    | 2013 |
-| Gangs of New York                                                         |    3.5 | done    | 2002 |
-| Ghostbusters                                                              |    3.5 | done    | 1984 |
-| Gladiator                                                                 |      4 | done    | 2000 |
-| Godzilla                                                                  |      3 | done    | 2014 |
-| Gran Torino                                                               |      4 | done    | 2008 |
-| Grave of the Fireflies                                                    |    4.5 | done    | 1988 |
-| Gravity                                                                   |      4 | done    | 2013 |
-| Green Room                                                                |      4 | done    |      |
-| Groundhog Day                                                             |      4 | done    | 1993 |
-| Guardians of the galaxy                                                   |    3.5 | done    | 2014 |
-| Guardians of the galaxy vol. 2                                            |      4 | done    | 2017 |
-| Harakiri                                                                  |    4.5 | done    | 1962 |
-| Her                                                                       |    4.5 | done    | 2013 |
-| Hercules                                                                  |    3.5 | done    | 1997 |
-| Hereditary                                                                |      4 | done    | 2018 |
-| Hero                                                                      |    3.5 | done    | 2002 |
-| Hot Fuzz                                                                  |      4 | done    | 2007 |
-| House of Flying Daggers                                                   |    3.5 | done    | 2004 |
-| How to Train Your Dragon                                                  |      5 | done    | 2010 |
-| How to Train Your Dragon 2                                                |    4.5 | done    | 2014 |
-| I Confess                                                                 |    4.5 | done    | 1953 |
-| I, Daniel Blake                                                           |      4 | done    | 2016 |
-| Ice Age                                                                   |    3.5 | done    | 2002 |
-| Inception                                                                 |    3.5 | done    | 2010 |
-| Indiana Jones and the Last Crusade                                        |    3.5 | done    | 1989 |
-| Indiana Jones and the Temple of Doom                                      |    3.5 | done    | 1984 |
-| Inside Job                                                                |      4 | done    | 2010 |
-| Interstellar                                                              |      4 | done    | 2014 |
-| Ip Man                                                                    |      4 | done    | 2008 |
-| Ip Man 2                                                                  |    3.5 | done    | 2010 |
-| Iron Man                                                                  |    3.5 | done    |      |
-| Iron Man 2                                                                |      3 | done    |      |
-| Iron Man 3                                                                |      3 | done    |      |
-| Isle of Dogs                                                              |      4 | done    | 2018 |
-| It follows                                                                |      4 | done    | 2014 |
-| J. Edgar                                                                  |    3.5 | done    | 2011 |
-| Jiro Dreams of Sushi                                                      |    4.5 | done    | 2011 |
-| Jumanji                                                                   |    3.5 | done    | 1995 |
-| Jurassic Park                                                             |      4 | done    | 1993 |
-| Kill Bill: Vol. 1                                                         |      4 | done    | 2003 |
-| Kiss Kiss Bang Bang                                                       |      4 | done    | 2005 |
-| Knives Out                                                                |      4 | done    | 2019 |
-| Kung Fu Panda                                                             |    3.5 | done    | 2008 |
-| La La Land                                                                |      4 | done    |      |
-| Lara Croft: Tomb Raider                                                   |    2.5 | done    | 2001 |
-| Late Spring                                                               |    3.5 | done    | 1949 |
-| Le fabuleux destin d'Amelie Poulain                                       |      4 | done    | 2001 |
-| Le voyage dans la lune                                                    |      4 | done    | 1902 |
-| Les Misérables                                                            |      3 | done    | 2012 |
-| Let the Right One In                                                      |      4 | done    | 2008 |
-| Life of Pi                                                                |    4.5 | done    | 2012 |
-| Little Miss Sunshine                                                      |      4 | done    | 2006 |
-| Live Free or Die Hard                                                     |      3 | done    | 2007 |
-| Logan                                                                     |      4 | done    |      |
-| Looper                                                                    |      4 | done    |      |
-| Lord of War                                                               |      4 | done    | 2005 |
-| Lost in Translation                                                       |      3 | done    | 2003 |
-| Lucky Number Slevin                                                       |      4 | done    | 2006 |
-| Mad Max Fury Road                                                         |    4.5 | done    | 2015 |
-| Madagascar 3: Europe's Most Wanted                                        |    3.5 | done    | 2012 |
-| Man on Wire                                                               |    3.5 | done    | 2008 |
-| Manchester by the sea                                                     |      4 | done    |      |
-| Manchestera by the sea                                                    |      5 | done    | 2016 |
-| Mars Attacks!                                                             |    3.5 | done    | 1996 |
-| Mary Poppins                                                              |    3.5 | done    | 1964 |
-| Masquerade                                                                |      3 | done    | 2012 |
-| Master and Commander: The Far Side of the World                           |    4.5 | done    | 2003 |
-| Match Point                                                               |    3.5 | done    | 2005 |
-| Mission: Impossible                                                       |      4 | done    | 1996 |
-| Mission: Impossible II                                                    |      3 | done    | 2000 |
-| Mission: Impossible III                                                   |      3 | done    | 2006 |
-| Mission: Impossible – Ghost Protocol                                      |      3 | done    | 2011 |
-| Moana                                                                     |      4 | done    |      |
-| Monsters Inc.                                                             |    3.5 | done    | 2001 |
-| Monthy Python and the Holy Grail                                          |    3.5 | done    | 1975 |
-| Moonlight                                                                 |      4 | done    |      |
-| Moonrise Kingdom                                                          |    2.5 | done    | 2012 |
-| Mother                                                                    |      4 | done    |      |
-| Moulin Rouge!                                                             |      4 | done    | 2001 |
-| Munich                                                                    |    3.5 | done    | 2005 |
-| Naked Gun, The: From the Files of Police Squad!                           |    3.5 | done    | 1988 |
-| Nightcrawler                                                              |      4 | done    | 2014 |
-| No Country for Old Men                                                    |      4 | done    | 2007 |
-| North by Northwest                                                        |    3.5 | done    | 1959 |
-| Nosferatu                                                                 |    3.5 | done    | 1922 |
-| O Brother, Where Art Thou?                                                |      4 | done    | 2000 |
-| Office Space                                                              |    3.5 | done    | 1999 |
-| Oldboy                                                                    |    4.5 | done    | 2003 |
-| Pacific Rim                                                               |    3.5 | done    | 2013 |
-| Pan's Labyrinth                                                           |    4.5 | done    | 2006 |
-| Parasite                                                                  |    4.5 | done    | 2016 |
-| Pokemon Detective Pikachu                                                 |      3 | done    | 2019 |
-| Predator                                                                  |    3.5 | done    | 1987 |
-| Princess Mononoke                                                         |      5 | done    | 1997 |
-| Princess Mononoke                                                         |    4.5 | done    | 1997 |
-| Psycho                                                                    |    4.5 | done    | 1960 |
-| Pulp Fiction                                                              |      4 | done    | 1994 |
-| Quantum of Solace                                                         |    3.5 | done    | 2008 |
-| RRRrrrr!!!                                                                |      3 | done    | 2004 |
-| Rain Man                                                                  |      4 | done    | 1988 |
-| Ran                                                                       |    3.5 | done    | 1985 |
-| Rango                                                                     |    3.5 | done    | 2011 |
-| Rashomon                                                                  |    4.5 | done    | 1950 |
-| Ratatouille                                                               |    3.5 | done    | 2007 |
-| Requiem for a Dream                                                       |      4 | done    | 2000 |
-| Ringu                                                                     |      4 | done    | 1998 |
-| Rise of the Planet of the Apes                                            |    3.5 | done    |      |
-| Robin Hood                                                                |      4 | done    | 1973 |
-| Roma                                                                      |    4.5 | done    |      |
-| Rosemary's baby                                                           |    4.5 | done    | 1968 |
-| Schindler's List                                                          |      4 | done    | 1993 |
-| Scott Pilgrim vs. the World                                               |      4 | done    | 2010 |
-| Seven Samurai (七人の侍)                                                  |    4.5 | done    | 1954 |
-| Shaolin Soccer                                                            |    4.5 | done    | 2001 |
-| Shaun of the Dead                                                         |      4 | done    | 2004 |
-| Shazam!                                                                   |    3.5 | done    | 2019 |
-| Sherlock Holmes                                                           |      3 | done    | 2009 |
-| Shining, The                                                              |        | done    |      |
-| Shrek                                                                     |    3.5 | done    | 2001 |
-| Silence                                                                   |      4 | done    | 2016 |
-| Skyfall                                                                   |      4 | done    | 2012 |
-| Sleuth                                                                    |      5 | done    | 1972 |
-| Spectre                                                                   |    3.5 | done    | 2015 |
-| Speed                                                                     |      3 | done    | 1994 |
-| SpiderMan: Homecoming                                                     |      4 | done    | 2017 |
-| Spiderman Into the Spider-Verse                                           |      4 | done    | 2019 |
-| Spirited Away (Sen to Chihiro no kamikakushi)                             |        | done    |      |
-| Star Trek                                                                 |      4 | done    | 2009 |
-| Star Wars: Episode I - The Phantom Menace                                 |    3.5 | done    | 1999 |
-| Star Wars: Episode II - Attack of the Clones                              |    3.5 | done    | 2002 |
-| Star Wars: Episode III - Revenge of the Siths                             |    3.5 | done    | 2005 |
-| Star Wars: Episode IV - A New Hope                                        |      5 | done    | 1977 |
-| Star Wars: Episode V - The Empire Strikes Back                            |      5 | done    | 1980 |
-| Star Wars: Episode VI - Return of the Jedi                                |      5 | done    | 1983 |
-| Star Wars: Episode VIII - The Force Awakens                               |      4 | done    | 2015 |
-| Stardust                                                                  |      4 | done    | 2007 |
-| Sweeney Todd: The Demon Barber of Fleet Street                            |    3.5 | done    | 2007 |
-| Tangled                                                                   |      3 | done    | 2010 |
-| Teenage Mutant Ninja Turtles                                              |    1.5 | done    | 2014 |
-| The A-Team                                                                |    3.5 | done    | 2010 |
-| The Adventures of Tintin                                                  |    3.5 | done    | 2011 |
-| The Artist                                                                |      4 | done    | 2011 |
-| The Assassination of Jesse James by the Coward Robert Ford                |      4 | done    | 2007 |
-| The Avengers                                                              |    3.5 | done    | 2012 |
-| The Aviator                                                               |      4 | done    | 2004 |
-| The Babadook                                                              |    4.5 | done    | 2014 |
-| The Battle of Algiers                                                     |      4 | done    | 1966 |
-| The Bick Sick                                                             |      4 | done    | 2017 |
-| The Big Lebowski                                                          |    3.5 | done    | 1998 |
-| The Blair Witch Project                                                   |      4 | done    | 1999 |
-| The Bourne Identity                                                       |      4 | done    | 2002 |
-| The Bourne Supremacy                                                      |    3.5 | done    | 2004 |
-| The Bourne Ultimatum                                                      |    3.5 | done    | 2007 |
-| The Conjuring                                                             |      4 | done    | 2013 |
-| The Curious Case of Benjamin Button                                       |    3.5 | done    | 2008 |
-| The Curse of the Jade Scorpion                                            |    3.5 | done    | 2001 |
-| The Dark Knight                                                           |      4 | done    | 2008 |
-| The Disappearance of Alice Creed                                          |      4 | done    | 2009 |
-| The Emperor's new groove                                                  |    3.5 | done    | 2000 |
-| The Exorcist                                                              |      4 | done    | 1973 |
-| The Experiment                                                            |    3.5 | done    | 2010 |
-| The Fighter                                                               |    3.5 | done    | 2010 |
-| The Fugitive                                                              |    4.5 | done    | 1993 |
-| The Girl with the Dragon Tattoo                                           |    3.5 | done    | 2011 |
-| The Good, the Bad and the Ugly                                            |    4.5 | done    | 1966 |
-| The Good, the Bad, and the Ugly                                           |    4.5 | done    | 1966 |
-| The Grand Budapest Hotel                                                  |      4 | done    | 2014 |
-| The Grandmaster                                                           |      3 | done    | 2013 |
-| The Great Dictator                                                        |    3.5 | done    | 1940 |
-| The Great Train Robbery                                                   |    3.5 | done    | 1903 |
-| The Green Mile                                                            |      4 | done    | 1999 |
-| The Hangover                                                              |    3.5 | done    | 2009 |
-| The Hateful Eight                                                         |      4 | done    | 2015 |
-| The Hobbit: An Unexpected Journey                                         |      4 | done    | 2012 |
-| The Hobbit: The Desolation of Smaug                                       |      3 | done    | 2013 |
-| The Hours                                                                 |    3.5 | done    | 2002 |
-| The Hurt Locker                                                           |      4 | done    | 2008 |
-| The Illusionist                                                           |      4 | done    | 2006 |
-| The Imitation Game                                                        |    3.5 | done    | 2014 |
-| The Incredibles                                                           |    3.5 | done    | 2004 |
-| The Intouchables                                                          |      4 | done    | 2011 |
-| The Judge                                                                 |      4 | done    | 2014 |
-| The Jungle Book                                                           |      4 | done    | 1967 |
-| The Killer                                                                |    3.5 | done    | 1989 |
-| The Last King of Scotland                                                 |    3.5 | done    | 2006 |
-| The Last Samurai                                                          |    3.5 | done    | 2003 |
-| The Lego Movie                                                            |    3.5 | done    | 2014 |
-| The Lion King                                                             |    4.5 | done    | 1994 |
-| The Lone Ranger                                                           |      3 | done    | 2013 |
-| The Lord of the Rings: The Fellowship of the Ring                         |      5 | done    | 2001 |
-| The Lord of the Rings: The Return of the King                             |      5 | done    | 2003 |
-| The Lord of the Rings: The Two Towers                                     |      5 | done    | 2002 |
-| The Machinist                                                             |    4.5 | done    | 2004 |
-| The Maltese Falcon                                                        |      5 | done    | 1941 |
-| The Martian                                                               |      4 | done    | 2015 |
-| The Matrix                                                                |      5 | done    | 1999 |
-| The Miseducation of Cameron Post                                          |      4 | done    | 2018 |
-| The New World                                                             |    4.5 | done    | 2005 |
-| The Night of the Hunter                                                   |      4 | done    | 1955 |
-| The Pianist                                                               |      4 | done    | 2002 |
-| The Prestige                                                              |      4 | done    | 2006 |
-| The Princess Bride                                                        |    4.5 | done    | 1987 |
-| The Princess and the Frog                                                 |    3.5 | done    | 2009 |
-| The Raid 2                                                                |    3.5 | done    | 2014 |
-| The Royal Tenenbaums                                                      |      3 | done    | 2001 |
-| The Shape of Water                                                        |    4.5 | done    |      |
-| The Silence of the Lambs, The                                             |      4 | done    | 1991 |
-| The Social Network                                                        |      4 | done    | 2010 |
-| The Sword in the Stone                                                    |      4 | done    | 1963 |
-| The Tale of the Princess Kaguya                                           |      4 | done    | 2013 |
-| The Thing                                                                 |    3.5 | done    | 1982 |
-| The Three Burials of Melquiades Estrada                                   |      4 | done    | 2005 |
-| The Town                                                                  |      4 | done    | 2010 |
-| The Treasure of the Sierra Madre                                          |    4.5 | done    | 1948 |
-| The Trouble with Harry                                                    |    3.5 | done    | 1955 |
-| The Truman Show                                                           |      4 | done    | 1998 |
-| The Wave                                                                  |    4.5 | done    | 2008 |
-| The Wind Rises                                                            |    4.5 | done    | 2013 |
-| The Witch                                                                 |    4.5 | done    |      |
-| The Wrestler                                                              |      4 | done    | 2008 |
-| The hunt                                                                  |      4 | done    |      |
-| Thor: Dark World                                                          |    3.5 | done    | 2013 |
-| Titanic                                                                   |      4 | done    | 1997 |
-| Top Gun                                                                   |      4 | done    | 1986 |
-| Total Recall                                                              |    3.5 | done    | 1990 |
-| Touch of evil                                                             |      4 | done    | 1957 |
-| Toy Story                                                                 |      4 | done    | 1995 |
-| Treasure Planet                                                           |    3.5 | done    | 2002 |
-| True Grit                                                                 |      4 | done    | 2010 |
-| True Lies                                                                 |    3.5 | done    | 1994 |
-| Tucker and Dale vs Evil                                                   |      4 | done    | 2010 |
-| Up                                                                        |    3.5 | done    | 2009 |
-| Us and Them                                                               |      4 | done    | 2018 |
-| Vertigo                                                                   |      4 | done    | 1958 |
-| WALL-E                                                                    |    4.5 | done    | 2008 |
-| Wallace & Gromit: The Curse of the Were-Rabbit                            |    3.5 | done    | 2005 |
-| Wall·E                                                                    |    4.5 | done    | 2008 |
-| War for the Planet of the Apes                                            |      4 | done    | 2017 |
-| When Harry Met Sally                                                      |      5 | done    | 1989 |
-| When Marnie was here                                                      |      4 | done    |      |
-| Whiplash                                                                  |      4 | done    | 2014 |
-| Wolf Children                                                             |      5 | done    | 2012 |
-| Wonder Woman                                                              |      4 | done    |      |
-| Wreck-It Ralph                                                            |    3.5 | done    | 2012 |
-| You Were Never Really There                                               |    4.5 | done    | 2018 |
-| Zatoichi: The Blind Swordsman                                             |    3.5 | done    | 1989 |
-| Zero Dark Thirty                                                          |      4 | done    |      |
-| Birth of a Nation                                                         |    4.5 | done    | 1915 |
-| Au hasard Balthazard                                                      |        | towatch | 1966 |
-| Burning                                                                   |        | towatch | 2018 |
-| Contact                                                                   |        | towatch | 1997 |
-| Dallas Buyers Club                                                        |        | towatch | 2013 |
-| Darkest Hour                                                              |        | towatch |      |
-| Dragon Ball Super: Broly                                                  |        | towatch |      |
-| Dragon Ball Super: Resurrection F                                         |        | towatch |      |
-| Fences                                                                    |        | towatch |      |
-| Hell or High Water                                                        |    4.5 | done    | 2016 |
-| Hidden Figures                                                            |        | towatch |      |
-| High and low                                                              |        | towatch | 1963 |
-| I, Tonya                                                                  |        | towatch |      |
-| If Beale Street could talk                                                |        | towatch |      |
-| Little Women                                                              |        | towatch | 2019 |
-| Mandy                                                                     |        | towatch | 2018 |
-| One Child Nation                                                          |        | towatch |      |
-| Paterson                                                                  |        | towatch |      |
-| Room                                                                      |        | towatch | 2015 |
-| Selma                                                                     |        | towatch |      |
-| Shaun the Sheep                                                           |        | towatch | 2015 |
-| Snowpiercer                                                               |        | towatch |      |
-| Still Walking                                                             |        | towatch | 2010 |
-| Stray Doy                                                                 |        | towatch | 1963 |
-| The Irishman                                                              |        | towatch | 2019 |
-| The Jungle Book                                                           |        | towatch |      |
-| The lives of other                                                        |        | towatch | 2006 |
-| Three Billboards Outside Ebbing, Missouri                                 |        | towatch |      |
-| We, the Animals                                                           |        | towatch | 2018 |
+* WATCHED Jumanji
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Jurassic Park
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Kill Bill: Vol. 1
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Kiss Kiss Bang Bang
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Knives Out
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Kung Fu Panda
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED La La Land
+:PROPERTIES:
+:rating: 4
+:END:
+* WATCHED Lara Croft: Tomb Raider
+:PROPERTIES:
+:rating: 2.5
+:year: 2.5
+:END:
+* WATCHED Late Spring
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Le fabuleux destin d'Amelie Poulain
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Les Misérables
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Let the Right One In
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Le voyage dans la lune
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Life of Pi
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Little Miss Sunshine
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Live Free or Die Hard
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Logan
+:PROPERTIES:
+:rating: 4
+:END:
+* WATCHED Looper
+:PROPERTIES:
+:rating: 4
+:END:
+* WATCHED Lord of War
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Lost in Translation
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Lucky Number Slevin
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Madagascar 3: Europe's Most Wanted
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Mad Max Fury Road
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Manchestera by the sea
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED Manchester by the sea
+:PROPERTIES:
+:rating: 4
+:END:
+* WATCHED Man on Wire
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Mars Attacks!
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Mary Poppins
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Masquerade
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Master and Commander: The Far Side of the World
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Match Point
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Mission: Impossible
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Mission: Impossible – Ghost Protocol
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Mission: Impossible II
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Mission: Impossible III
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Moana
+:PROPERTIES:
+:rating: 4
+:END:
+* WATCHED Monsters Inc.
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Monthy Python and the Holy Grail
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Moonlight
+:PROPERTIES:
+:rating: 4
+:END:
+* WATCHED Moonrise Kingdom
+:PROPERTIES:
+:rating: 2.5
+:year: 2.5
+:END:
+* WATCHED Mother
+:PROPERTIES:
+:rating: 4
+:END:
+* WATCHED Moulin Rouge!
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Munich
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Naked Gun, The: From the Files of Police Squad!
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Nightcrawler
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED No Country for Old Men
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED North by Northwest
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Nosferatu
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED O Brother, Where Art Thou?
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Office Space
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Oldboy
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Pacific Rim
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Pan's Labyrinth
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Parasite
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Pokemon Detective Pikachu
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Predator
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Princess Mononoke
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED Psycho
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Pulp Fiction
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Quantum of Solace
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Rain Man
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Ran
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Rango
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Rashomon
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Ratatouille
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Requiem for a Dream
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Ringu
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Rise of the Planet of the Apes                                            |    3.5 |      |
+* WATCHED Robin Hood
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Roma                                                                      |    4.5 |      |
+* WATCHED Rosemary's baby
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED RRRrrrr!!!
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Schindler's List
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Scott Pilgrim vs. the World
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Seven Samurai (七人の侍)
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Shaolin Soccer
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Shaun of the Dead
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Shazam!
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Sherlock Holmes
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Shining, The                                                              |        |      |
+* WATCHED Shrek
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Silence
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Skyfall
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Sleuth
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED Spectre
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Speed
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED SpiderMan: Homecoming
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Spiderman Into the Spider-Verse
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Spirited Away (Sen to Chihiro no kamikakushi)                             |        |      |
+* WATCHED Stardust
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Star Trek
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Star Wars: Episode II - Attack of the Clones
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Star Wars: Episode III - Revenge of the Siths
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Star Wars: Episode I - The Phantom Menace
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Star Wars: Episode IV - A New Hope
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED Star Wars: Episode VIII - The Force Awakens
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Star Wars: Episode VI - Return of the Jedi
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED Star Wars: Episode V - The Empire Strikes Back
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED Sweeney Todd: The Demon Barber of Fleet Street
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Tangled
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED Teenage Mutant Ninja Turtles
+:PROPERTIES:
+:rating: 1.5
+:year: 1.5
+:END:
+* WATCHED The Adventures of Tintin
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Artist
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Assassination of Jesse James by the Coward Robert Ford
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The A-Team
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Avengers
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Aviator
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Babadook
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED The Battle of Algiers
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Bick Sick
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Big Lebowski
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Blair Witch Project
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Bourne Identity
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Bourne Supremacy
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Bourne Ultimatum
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Conjuring
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Curious Case of Benjamin Button
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Curse of the Jade Scorpion
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Dark Knight
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Disappearance of Alice Creed
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Emperor's new groove
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Exorcist
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Experiment
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Fighter
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Fugitive
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED The Girl with the Dragon Tattoo
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Good, the Bad and the Ugly
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED The Good, the Bad, and the Ugly
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED The Grand Budapest Hotel
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Grandmaster
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED The Great Dictator
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Great Train Robbery
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Green Mile
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Hangover
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Hateful Eight
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Hobbit: An Unexpected Journey
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Hobbit: The Desolation of Smaug
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED The Hours
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The hunt
+:PROPERTIES:
+:rating:   4
+:END:
+* WATCHED The Hurt Locker
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Illusionist
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Imitation Game
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Incredibles
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Intouchables
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Judge
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Jungle Book
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Killer
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Last King of Scotland
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Last Samurai
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Lego Movie
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Lion King
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED The Lone Ranger
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED The Lord of the Rings: The Fellowship of the Ring
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED The Lord of the Rings: The Return of the King
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED The Lord of the Rings: The Two Towers
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED The Machinist
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED The Maltese Falcon
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED The Martian
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Matrix
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED The Miseducation of Cameron Post
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The New World
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED The Night of the Hunter
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Pianist
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Prestige
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Princess and the Frog
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Princess Bride
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED The Raid 2
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Royal Tenenbaums
+:PROPERTIES:
+:rating: 3
+:year: 3
+:END:
+* WATCHED The Shape of Water
+:PROPERTIES:
+:rating: 4.5
+:END:
+* WATCHED The Silence of the Lambs, The
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Social Network
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Sword in the Stone
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Tale of the Princess Kaguya
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Thing
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Three Burials of Melquiades Estrada
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Town
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Treasure of the Sierra Madre
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED The Trouble with Harry
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED The Truman Show
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED The Wave
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED The Wind Rises
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED The Witch
+:PROPERTIES:
+:rating:   4.5
+:END:
+* WATCHED The Wrestler
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Thor: Dark World
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Titanic
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Top Gun
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Total Recall
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Touch of evil
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Toy Story
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Treasure Planet
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED True Grit
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED True Lies
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Tucker and Dale vs Evil
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Up
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Us and Them
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Vertigo
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Wallace & Gromit: The Curse of the Were-Rabbit
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED WALL-E
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Wall·E
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED War for the Planet of the Apes
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED When Harry Met Sally
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED When Marnie was here
+:PROPERTIES:
+:rating:   4
+:END:
+* WATCHED Whiplash
+:PROPERTIES:
+:rating: 4
+:year: 4
+:END:
+* WATCHED Wolf Children
+:PROPERTIES:
+:rating: 5
+:year: 5
+:END:
+* WATCHED Wonder Woman
+:PROPERTIES:
+:rating:   4
+:END:
+* WATCHED Wreck-It Ralph
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED You Were Never Really There
+:PROPERTIES:
+:rating: 4.5
+:year: 4.5
+:END:
+* WATCHED Zatoichi: The Blind Swordsman
+:PROPERTIES:
+:rating: 3.5
+:year: 3.5
+:END:
+* WATCHED Zero Dark Thirty
+:PROPERTIES:
+:rating:   4
+:END:

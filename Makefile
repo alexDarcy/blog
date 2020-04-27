@@ -36,6 +36,7 @@ ${MED}/ophtalmo.tex \
 ${MED}/reference.tex \
 ${MED}/superfiches.tex
 
+LIBRARY = library/anime.html library/movies.html library/books.html library/papers.html
 NOTES_PDF=$(NOTES_TEX:.tex=.pdf) $(ORG:.org=.pdf)
 
 .PHONY: notes

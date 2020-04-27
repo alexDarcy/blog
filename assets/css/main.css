@@ -38,6 +38,11 @@ h1 {
   margin: 20px 0 10px 0;
 }
 
+/* Show org mode properties (data attribute when exported by pandoc) */
+h2::after {
+  content: " (" attr(data-year) "): " attr(data-rating) "/5" ;
+}
+
 h2 {
   font-size:130%;
   font-weight: bold;
