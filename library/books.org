@@ -2,9 +2,10 @@
  #+OPTIONS: H:1
 #+TODO: TOREAD(t) MAYBE(m) PENDING(p) READING(r) HOLD(h) | SKIMMED(s)  DONE(d)
 #+COLUMNS: %120ITEM %STATUS
+#+TAGS: books
 
-* Math
-** READING [#A] Gowers, T. (2010): The princeton companion to mathematics :book:math:
+* Math :math:
+** READING [#A] Gowers, T. (2010): The princeton companion to mathematics
   :PROPERTIES:
   :Custom_ID: princetonCompanionMaths
   :END:
@@ -24,50 +25,41 @@ NB :  An Introduction to Statistical Learning = version avec moins de maths.
   :Custom_ID: hastie09_elemen_statis_learn
   :END:
 * CS :cs:
-** HOLD Seibel, P. (2005): Practical Common Lisp :book:cs:
+** HOLD Seibel, P. (2005): Practical Common Lisp
   :PROPERTIES:
   :Custom_ID: seibel05_collec
   :END:
 
-** READING [#A] Knuth, D. E. (1997): The art of computer programming, volume 1 : fundamental algorithms :book:cs:
+** READING [#A] Knuth, D. E. (1997): The art of computer programming, volume 1 : fundamental algorithms
   :PROPERTIES:
   :Custom_ID: taocp1
   :END:
-
-** HOLD Learn you a haskell for great good :cs:haskell:
+** HOLD Learn you a haskell for great good :haskell:
 Just began functors and applicative
 http://learnyouahaskell.com/functors-applicative-functors-and-monoids#functors-redux
 
-** HOLD Real World Haskell :cs:haskell:book:
+** HOLD Real World Haskell :haskell:
 Chap 03
 cite:RWH
 
 **** HOLD 99 haskell :cs:haskell:exercises:
     Ex 26
-** Slides GPU :cs:
- 1, OK
-httalcul.math.cnrs.fr/spip.php?article292
-** Lukas' papers :cs:
-** TOREAD Davis, A., Rubinstein, M., Wadhwa, N., Mysore, G. J., Fr\'edo Durand, & Freeman, W. T. (2014): The Visual Microphone :cs:paper:sound:
-  :PROPERTIES:
-  :Custom_ID: davis-2014-sound-from-image
-  :END:
 * Medecine
-** HOLD Hall, J. (2016): Guyton and hall textbook of medical physiology :book:medecine:physiology:
+** HOLD Hall, J. (2016): Guyton and hall textbook of medical physiology :physiology:
   :PROPERTIES:
   :Custom_ID: hall16_guyton_hall
   :END:
 *** DONE Chap 61 en cours
 *** DONE Chap 34
 
-** HOLD Herring, W. (2020): Learning radiology : recognizing the basics :book:medecine:radiology:
+** HOLD Herring, W. (2020): Learning radiology : recognizing the basics :radiology:
   :PROPERTIES:
   :Custom_ID: herring20_learn
   :END:
 *** DONE Chap 3
 
 * Histoire :history:
-** HOLD Cours d'histoire 1913 :history:
+** HOLD Cours d'histoire 1913
 ** DONE Magni, C. (2003): Les Olm\`eques: des origines au mythe :south_america:
   CLOSED: [2019-06-02 Sun 09:35]
   :PROPERTIES:
@@ -80,16 +72,79 @@ Intéressant pour l'intérprétation en histoire de l'art. Assez décevant en pr
 :Custom_ID: polybe03_histoir
 :END:
 * Science :science:others:
-** TOREAD IPCC, 2019 : Summary for policymaker (draft) :book:climate:
+** TOREAD IPCC, 2019 : Summary for policymaker (draft) :climate:
 https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.pdf
 
 
 * Fiction
+** DONE Eco, U. (1983): The name of the rose
+  :PROPERTIES:
+  :Custom_ID: eco83
+  :rating:   4
+  :END:
+** TOREAD Brecht, B. (2001): The resistible rise of arturo ui
+  :PROPERTIES:
+  :Custom_ID: brecht01_artur_ui
+  :END:
+** Fanfic
+*** Harry potter
+**** READ I Am Also Thy Brother (Sacrifices arc, #7)
+:PROPERTIES:
+:author:   Lightning on the Wave
+:rating:   5
+:year:     2007
+:END:
+**** READ A Song In Time of Revolution (Sacrifices arc, #6)
+:PROPERTIES:
+:author:   Lightning on the Wave
+:rating:   5
+:year:     2007
+:END:
+**** READ Wind That Shakes the Seas and Stars (Sacrifices Arc, #5)
+:PROPERTIES:
+:author:   Lightning on the Wave
+:rating:   5
+:year:     2006
+:END:
+**** READ No Mouth But Some Serpent's (Sacrifices Arc, #2)
+:PROPERTIES:
+:author:   Lightning on the Wave
+:rating:   5
+:year:     2005
+:END:
+**** READ Freedom And Not Peace (Sacrifices arc, #4)
+:PROPERTIES:
+:author:   Lightning on the Wave
+:rating:   5
+:year:     2006
+:END:
+**** READ Comes Out of Darkness Morn (Sacrifices Arc, #3)
+:PROPERTIES:
+:author:   Lightning on the Wave
+:rating:   5
+:year:     2005
+:END:
+**** READ Maze of Light (Sacrifices Arc, #3.5)
+:PROPERTIES:
+:author:   Lightning on the Wave
+:rating:   5
+:year:     2005
+:END:
+**** READ Harry Potter and the Methods of Rationality
+:PROPERTIES:
+:author:   Lightning on the Wave
+:rating:   5
+:year:     2015
+:END:
+**** READ Saving Connor (Sacrifices Arc, #1)
+:PROPERTIES:
+:author:   Lightning on the Wave
+:rating:   5
+:year:     2005
+:END:
 * Goodreads
 | Title                                                                                                      | Author                       | ISBN          | Rating | Year Published |
-| The Name of the Rose                                                                                       | Umberto Eco                  | ="0156001314" |      4 |           1994 |
 | The General of the Dead Army                                                                               | Ismail Kadare                | ="1566636841" |      0 |           2005 |
-| The Resistible Rise of Arturo Ui                                                                           | Bertolt Brecht               | ="1559705434" |      0 |           2001 |
 | The Origins of Totalitarianism                                                                             | Hannah Arendt                | =""           |      0 |           1973 |
 | The Horseman on the Roof                                                                                   | Jean Giono                   | ="086547060X" |      0 |           1982 |
 | The Bald Soprano and Other Plays                                                                           | Eugène Ionesco               | ="0802130798" |      0 |           1994 |
@@ -120,15 +175,6 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
 | History of the Peloponnesian War                                                                           | Thucydides                   | ="0140440399" |      0 |           1972 |
 | The Histories                                                                                              | Herodotus                    | ="0140449086" |      0 |           2003 |
 | Dubliners                                                                                                  | James Joyce                  | ="0192839993" |      4 |           2001 |
-| I Am Also Thy Brother (Sacrifices arc, #7)                                                                 | Lightning on the Wave        | =""           |      5 |           2007 |
-| A Song In Time of Revolution (Sacrifices arc, #6)                                                          | Lightning on the Wave        | =""           |      5 |           2006 |
-| Wind That Shakes the Seas and Stars (Sacrifices Arc, #5)                                                   | Lightning on the Wave        | =""           |      5 |           2006 |
-| No Mouth But Some Serpent's (Sacrifices Arc, #2)                                                           | Lightning on the Wave        | =""           |      5 |           2005 |
-| Freedom And Not Peace (Sacrifices arc, #4)                                                                 | Lightning on the Wave        | =""           |      5 |           2006 |
-| Comes Out of Darkness Morn (Sacrifices Arc, #3)                                                            | Lightning on the Wave        | =""           |      5 |           2005 |
-| Maze of Light (Sacrifices Arc, #3.5)                                                                       | Lightning on the Wave        | =""           |      4 |           2005 |
-| Harry Potter and the Methods of Rationality                                                                | Eliezer Yudkowsky            | =""           |      5 |           2015 |
-| Saving Connor (Sacrifices Arc, #1)                                                                         | Lightning on the Wave        | =""           |      5 |           2005 |
 | Plutarch's Lives: Volume I                                                                                 | Plutarch                     | ="0375756760" |      3 |           2001 |
 | Death's End (Remembrance of Earth’s Past #3)                                                               | Liu Cixin                    | ="0765377101" |      4 |           2016 |
 | Gödel, Escher, Bach: An Eternal Golden Braid                                                               | Douglas R. Hofstadter        | ="0465026567" |      0 |           1999 |
@@ -292,3 +338,4 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
 | Histoire Romaine                                                                                           | Marcel Le Glay               | ="2130550010" |      5 |           2011 |
 | Achilles in Vietnam: Combat Trauma and the Undoing of Character                                            | Jonathan Shay                | ="0684813211" |      0 |           1995 |
 | Histoire romaine, livres VI à X, la conquête de l'Italie                                                   | Livy                         | ="208070950X" |      5 |                |
+

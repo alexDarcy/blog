@@ -37,6 +37,14 @@
   :Custom_ID: steffen08_optim_board_method_airlin_passen
   :END:
 
+** TOREAD Davis, A., Rubinstein, M., Wadhwa, N., Mysore, G. J., Fr\'edo Durand, & Freeman, W. T. (2014): The Visual Microphone :cs:paper:sound:
+  :PROPERTIES:
+  :Custom_ID: davis-2014-sound-from-image
+  :END:
+** Lukas' papers :cs:
+** Slides GPU :cs:
+ 1, OK
+httalcul.math.cnrs.fr/spip.php?article292
 * Physics :physics:
 ** TOREAD Maldacena, J. (2015): The symmetry and simplicity of the laws of physics and the higgs boson
   :PROPERTIES:
