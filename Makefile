@@ -43,7 +43,6 @@ notes: ${NOTES_PDF}
 	mkdir -p _site/notes/medecine
 	cp $^ _site/notes/medecine
 
-.PHONY: library
 LIB=library
 library: ${LIB}/anime.html ${LIB}/movies.html ${LIB}/books.html ${LIB}/papers.html
 	mkdir -p _site/library

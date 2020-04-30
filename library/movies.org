@@ -31,1642 +31,321 @@
 * TOWATCH The lives of other
 * TOWATCH Three Billboards Outside Ebbing, Missouri
 * TOWATCH We, the Animals
-* WATCHED 101 Dalmatians
+* WATCHED 101 Dalmatians (1996)
 :PROPERTIES:
+:Director: Stephen Herek
+:Year: 1996
+:Actors: Glenn Close, Jeff Daniels, Joely Richardson, Joan Plowright
+:Genre: Adventure, Comedy, Crime, Family
+:Plot: An evil high-fashion designer plots to steal Dalmatian puppies in order to make an extravagant fur coat, but instead creates an extravagant mess.
+:Runtime: 103 min
 :rating:   3.5
-:year:     1961
 :END:
-* WATCHED 101 Dalmatians
+* WATCHED 12 Angry Men (1957)
 :PROPERTIES:
-:rating: 3.5
-:year: 3.5
+:Director: Sidney Lumet
+:Year: 1957
+:Actors: Martin Balsam, John Fiedler, Lee J. Cobb, E.G. Marshall
+:Genre: Drama
+:Plot: A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.
+:Runtime: 96 min
+:rating:   4.5
 :END:
-* WATCHED 12 Angry Men
+* WATCHED 12 Years a Slave (2013)
 :PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED 12 Years a Slave
-:PROPERTIES:
-:rating: 4
-:year: 4
+:Director: Steve McQueen
+:Year: 2013
+:Actors: Chiwetel Ejiofor, Dwight Henry, Dickie Gravois, Bryan Batt
+:Genre: Biography, Drama, History
+:Plot: In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.
+:Runtime: 134 min
+:rating:   4
 :END:
 * WATCHED 2001: A Space Odyssey
 :PROPERTIES:
 :rating: 4
-:year: 4
 :END:
-* WATCHED 21 Grams
+* WATCHED 47 Ronin (2013)
 :PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED 300
-:PROPERTIES:
-:rating: 2.5
-:year: 2.5
-:END:
-* WATCHED 3:10 to Yuma
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED 47 ronins
-:PROPERTIES:
+:Director: Carl Rinsch
+:Year: 2013
+:Actors: Keanu Reeves, Hiroyuki Sanada, Ko Shibasaki, Tadanobu Asano
+:Genre: Action, Drama, Fantasy
+:Plot: A band of samurai set out to avenge the death and dishonor of their master at the hands of a ruthless shogun.
+:Runtime: 128 min
 :rating:   3.5
 :END:
-* WATCHED Abraham Lincoln: Vampire Hunter
+* WATCHED Aliens (1986)
 :PROPERTIES:
-:rating: 2
-:year: 2
-:END:
-* WATCHED A Bug's Life
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Airplane!
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Akahige
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Akira
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Aladdin
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Aliens
-:PROPERTIES:
+:Director: James Cameron
+:Year: 1986
+:Actors: Sigourney Weaver, Carrie Henn, Michael Biehn, Paul Reiser
+:Genre: Action, Adventure, Sci-Fi, Thriller
+:Plot: Ellen Ripley is rescued by a deep salvage team after being in hypersleep for 57 years. The moon that the Nostromo visited has been colonized, but contact is lost. This time, colonial marines have impressive firepower, but will that be enough?
+:Runtime: 137 min
 :rating:   4.5
 :END:
-* WATCHED Amadeus
+* WATCHED Arrival (2016)
 :PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED American History X
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Anastasia
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Animal Kingdom
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Ant Man
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Antz
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Apocalypse Now
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED A Quiet Place
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED A Room with a view
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Arrival
-:PROPERTIES:
+:Director: Denis Villeneuve
+:Year: 2016
+:Actors: Amy Adams, Jeremy Renner, Forest Whitaker, Michael Stuhlbarg
+:Genre: Drama, Mystery, Sci-Fi, Thriller
+:Plot: A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.
+:Runtime: 116 min
 :rating:   4.5
 :END:
-* WATCHED A Star is Born
+* WATCHED Captain America: Civil War (2016)
 :PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Asterix at the Olympic Games
-:PROPERTIES:
-:rating: 2.5
-:year: 2.5
-:END:
-* WATCHED Asterix & Obelix: Mission Cleopatra
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED Asterix & Obelix take on Caesar
-:PROPERTIES:
-:rating: 2
-:year: 2
-:END:
-* WATCHED A tale Of Two Sisters
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Avatar
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Avenger Endgame
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Avenger Infinity War
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Avengers: Age of Ultron
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Back to the Future
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Barton Fink
-:PROPERTIES:
-:year:     1991
-:rating:   4.5
-:END:
-* WATCHED Batman
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Beauty and the Beast
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Beetlejuice
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Birdman
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Birth of a Nation
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED BlacKkKlansman
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Black Swan
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Blade Runner
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Blindspotting
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Blood Diamond
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Bowling for Columbine
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Bram Stoker's Dracula
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Brave
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Buried
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Caché
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Call me by your name
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Captain America: civil war
-:PROPERTIES:
+:Director: Anthony Russo, Joe Russo
+:Year: 2016
+:Actors: Chris Evans, Robert Downey Jr., Scarlett Johansson, Sebastian Stan
+:Genre: Action, Adventure, Sci-Fi
+:Plot: Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.
+:Runtime: 147 min
 :rating:   3.5
 :END:
-* WATCHED Captain Marvel
+* WATCHED Don't Breathe (2016)
 :PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Casablanca
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Casino Royale
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Centurion
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Cheap Thrills
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Children of Men
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Cinderella Man
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Citizenfour
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Clockwork Orange
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Coco
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Corpse Bride
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Crouching Tiger and Hidden Dragon
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Dawn of the Planet of the Apes
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Deadpool
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Die Hard 2
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Die Hard: With a Vengeance
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Don't Breathe
-:PROPERTIES:
+:Director: Fede Alvarez
+:Year: 2016
+:Actors: Stephen Lang, Jane Levy, Dylan Minnette, Daniel Zovatto
+:Genre: Crime, Horror, Thriller
+:Plot: Hoping to walk away with a massive fortune, a trio of thieves break into the house of a blind man who isn't as helpless as he seems.
+:Runtime: 88 min
 :rating:   4
 :END:
-* WATCHED Downfall
+* WATCHED Dragon Ball Z: Battle of Gods (2013)
 :PROPERTIES:
-:year: 5
-:END:
-* WATCHED Dragon Ball Z: Battle of Gods
-:PROPERTIES:
+:Director: Masahiro Hosoda
+:Year: 2013
+:Actors: Masako Nozawa, Hiromi Tsuru, RyÃ´ Horikawa, Masaharu SatÃ´
+:Genre: Animation, Action, Adventure, Comedy, Family, Fantasy, Sci-Fi
+:Plot: The Z-Fighters must contend with Lord Beerus, the God of Destruction, but only a God can fight a God, and none of them are Gods. However with the creation of the Super Saiyan God, will the Z-Fighters be able to defeat Lord Beerus?
+:Runtime: 85 min
 :rating:   3
 :END:
-* WATCHED Drive
+* WATCHED Dunkirk (2017)
 :PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Dunkirk
-:PROPERTIES:
+:Director: Christopher Nolan
+:Year: 2017
+:Actors: Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong
+:Genre: Action, Drama, History, Thriller, War
+:Plot: Allied soldiers from Belgium, the British Empire, and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.
+:Runtime: 106 min
 :rating:   4
 :END:
-* WATCHED Edge of Tomorrow
+* WATCHED First Man (2018)
 :PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Edward Scissorhands
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Equilibrium
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED E.T.: The Extra-Terrestrial
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Everything You Always Wanted to Know About Sex* (*But Were Afraid to Ask)
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Ex Machina
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Fight Club
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Finding Nemo
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED First Man
-:PROPERTIES:
+:Director: Damien Chazelle
+:Year: 2018
+:Actors: Ryan Gosling, Claire Foy, Jason Clarke, Kyle Chandler
+:Genre: Biography, Drama, History
+:Plot: A look at the life of the astronaut, Neil Armstrong, and the legendary space mission that led him to become the first man to walk on the Moon on July 20, 1969.
+:Runtime: 141 min
 :rating:   4
 :END:
-* WATCHED Forgetting Sarah Marshall
+* WATCHED Green Room (2015)
 :PROPERTIES:
-:rating: 2.5
-:year: 2.5
-:END:
-* WATCHED Forrest Gump
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Frozen
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Gangs of New York
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Ghostbusters
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Gladiator
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Godzilla
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Gran Torino
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Grave of the Fireflies
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Gravity
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Green Room
-:PROPERTIES:
+:Director: Jeremy Saulnier
+:Year: 2015
+:Actors: Anton Yelchin, Joe Cole, Alia Shawkat, Callum Turner
+:Genre: Horror, Music, Thriller
+:Plot: A punk rock band is forced to fight for survival after witnessing a murder at a neo-Nazi skinhead bar.
+:Runtime: 95 min
 :rating:   4
 :END:
-* WATCHED Groundhog Day
+* WATCHED Iron Man 2 (2010)
 :PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Guardians of the galaxy
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Guardians of the galaxy vol. 2
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Harakiri
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Hell or High Water
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-
-* WATCHED Her
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Hercules
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Hereditary
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Hero
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Hot Fuzz
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED House of Flying Daggers
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED How to Train Your Dragon
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED How to Train Your Dragon 2
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Ice Age
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED I Confess
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED I, Daniel Blake
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Inception
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Indiana Jones and the Last Crusade
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Indiana Jones and the Temple of Doom
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Inside Job
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Interstellar
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Ip Man
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Ip Man 2
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Iron Man 2
-:PROPERTIES:
+:Director: Jon Favreau
+:Year: 2010
+:Actors: Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, Scarlett Johansson
+:Genre: Action, Adventure, Sci-Fi
+:Plot: With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.
+:Runtime: 124 min
 :rating: 3
 :END:
-* WATCHED Iron Man 3
+* WATCHED Iron Man 3 (2013)
 :PROPERTIES:
+:Director: Shane Black
+:Year: 2013
+:Actors: Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, Guy Pearce
+:Genre: Action, Adventure, Sci-Fi
+:Plot: When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.
+:Runtime: 130 min
 :rating: 3
 :END:
-* WATCHED Iron Man
+* WATCHED Iron Man (2008)
 :PROPERTIES:
+:Director: Jon Favreau
+:Year: 2008
+:Actors: Robert Downey Jr., Terrence Howard, Jeff Bridges, Gwyneth Paltrow
+:Genre: Action, Adventure, Sci-Fi
+:Plot: After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.
+:Runtime: 126 min
 :rating: 3.5
 :END:
-* WATCHED Isle of Dogs
+* WATCHED La La Land (2016)
 :PROPERTIES:
+:Director: Damien Chazelle
+:Year: 2016
+:Actors: Ryan Gosling, Emma Stone, AmiÃ©e Conn, Terry Walters
+:Genre: Comedy, Drama, Music, Musical, Romance
+:Plot: While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.
+:Runtime: 128 min
 :rating: 4
-:year: 4
 :END:
-* WATCHED It follows
+* WATCHED Logan (2017)
 :PROPERTIES:
+:Director: James Mangold
+:Year: 2017
+:Actors: Hugh Jackman, Patrick Stewart, Dafne Keen, Boyd Holbrook
+:Genre: Action, Drama, Sci-Fi, Thriller
+:Plot: In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.
+:Runtime: 137 min
 :rating: 4
-:year: 4
 :END:
-* WATCHED J. Edgar
+* WATCHED Looper (2012)
 :PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Jiro Dreams of Sushi
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Joker
-:PROPERTIES:
-:year:     2019
-:rating:   4
-:END:
-* WATCHED Jumanji
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Jurassic Park
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Kill Bill: Vol. 1
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Kiss Kiss Bang Bang
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Knives Out
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Kung Fu Panda
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED La La Land
-:PROPERTIES:
-:rating: 4
-:END:
-* WATCHED Lara Croft: Tomb Raider
-:PROPERTIES:
-:rating: 2.5
-:year: 2.5
-:END:
-* WATCHED Late Spring
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Le fabuleux destin d'Amelie Poulain
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Les Misérables
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Let the Right One In
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Le voyage dans la lune
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Life of Pi
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Little Miss Sunshine
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Live Free or Die Hard
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Logan
-:PROPERTIES:
-:rating: 4
-:END:
-* WATCHED Looper
-:PROPERTIES:
-:rating: 4
-:END:
-* WATCHED Lord of War
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Lost in Translation
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Lucky Number Slevin
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Madagascar 3: Europe's Most Wanted
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Mad Max Fury Road
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Manchestera by the sea
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED Manchester by the sea
-:PROPERTIES:
-:rating: 4
-:END:
-* WATCHED Man on Wire
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Mars Attacks!
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Mary Poppins
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Masquerade
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Master and Commander: The Far Side of the World
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Match Point
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Mission: Impossible
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Mission: Impossible – Ghost Protocol
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Mission: Impossible II
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Mission: Impossible III
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Moana
-:PROPERTIES:
-:rating: 4
-:END:
-* WATCHED Monsters Inc.
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Monthy Python and the Holy Grail
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Moonlight
-:PROPERTIES:
-:rating: 4
-:END:
-* WATCHED Moonrise Kingdom
-:PROPERTIES:
-:rating: 2.5
-:year: 2.5
-:END:
-* WATCHED Mother
-:PROPERTIES:
-:rating: 4
-:END:
-* WATCHED Moulin Rouge!
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Munich
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Naked Gun, The: From the Files of Police Squad!
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Nightcrawler
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED No Country for Old Men
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED North by Northwest
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Nosferatu
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED O Brother, Where Art Thou?
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Office Space
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Oldboy
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Pacific Rim
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Pan's Labyrinth
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Parasite
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Pokemon Detective Pikachu
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Predator
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Princess Mononoke
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED Psycho
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Pulp Fiction
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Quantum of Solace
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Rain Man
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Ran
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Rango
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Rashomon
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Ratatouille
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Requiem for a Dream
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Ringu
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Rise of the Planet of the Apes                                            |    3.5 |      |
-* WATCHED Robin Hood
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Roma                                                                      |    4.5 |      |
-* WATCHED Rosemary's baby
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED RRRrrrr!!!
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Schindler's List
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Scott Pilgrim vs. the World
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Seven Samurai (七人の侍)
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Shaolin Soccer
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Shaun of the Dead
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Shazam!
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Sherlock Holmes
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Shining, The                                                              |        |      |
-* WATCHED Shrek
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Silence
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Skyfall
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Sleuth
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED Spectre
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Speed
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED SpiderMan: Homecoming
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Spiderman Into the Spider-Verse
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Spirited Away (Sen to Chihiro no kamikakushi)                             |        |      |
-* WATCHED Stardust
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Star Trek
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Star Wars: Episode II - Attack of the Clones
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Star Wars: Episode III - Revenge of the Siths
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Star Wars: Episode I - The Phantom Menace
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Star Wars: Episode IV - A New Hope
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED Star Wars: Episode VIII - The Force Awakens
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Star Wars: Episode VI - Return of the Jedi
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED Star Wars: Episode V - The Empire Strikes Back
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED Sweeney Todd: The Demon Barber of Fleet Street
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Tangled
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED Teenage Mutant Ninja Turtles
-:PROPERTIES:
-:rating: 1.5
-:year: 1.5
-:END:
-* WATCHED The Adventures of Tintin
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Artist
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Assassination of Jesse James by the Coward Robert Ford
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The A-Team
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Avengers
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Aviator
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Babadook
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED The Battle of Algiers
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Bick Sick
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Big Lebowski
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Blair Witch Project
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Bourne Identity
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Bourne Supremacy
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Bourne Ultimatum
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Conjuring
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Curious Case of Benjamin Button
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Curse of the Jade Scorpion
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Dark Knight
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Disappearance of Alice Creed
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Emperor's new groove
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Exorcist
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Experiment
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Fighter
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Fugitive
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED The Girl with the Dragon Tattoo
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Good, the Bad and the Ugly
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED The Good, the Bad, and the Ugly
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED The Grand Budapest Hotel
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Grandmaster
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED The Great Dictator
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Great Train Robbery
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Green Mile
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Hangover
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Hateful Eight
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Hobbit: An Unexpected Journey
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Hobbit: The Desolation of Smaug
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED The Hours
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The hunt
-:PROPERTIES:
-:rating:   4
-:END:
-* WATCHED The Hurt Locker
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Illusionist
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Imitation Game
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Incredibles
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Intouchables
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Judge
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Jungle Book
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Killer
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Last King of Scotland
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Last Samurai
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Lego Movie
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Lion King
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED The Lone Ranger
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED The Lord of the Rings: The Fellowship of the Ring
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED The Lord of the Rings: The Return of the King
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED The Lord of the Rings: The Two Towers
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED The Machinist
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED The Maltese Falcon
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED The Martian
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Matrix
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED The Miseducation of Cameron Post
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The New World
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED The Night of the Hunter
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Pianist
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Prestige
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Princess and the Frog
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Princess Bride
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED The Raid 2
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Royal Tenenbaums
-:PROPERTIES:
-:rating: 3
-:year: 3
-:END:
-* WATCHED The Shape of Water
-:PROPERTIES:
-:rating: 4.5
-:END:
-* WATCHED The Silence of the Lambs, The
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Social Network
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED The Sword in the Stone
-:PROPERTIES:
+:Director: Rian Johnson
+:Year: 2012
+:Actors: Joseph Gordon-Levitt, Bruce Willis, Emily Blunt, Paul Dano
+:Genre: Action, Adventure, Crime, Drama, Sci-Fi, Thriller
+:Plot: In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to 'close the loop' by sending back Joe's future self for assassination.
+:Runtime: 113 min
 :rating: 4
-:year: 4
 :END:
-* WATCHED The Tale of the Princess Kaguya
+* WATCHED Manchester by the Sea (2016)
 :PROPERTIES:
+:Director: Kenneth Lonergan
+:Year: 2016
+:Actors: Casey Affleck, Ben O'Brien, Kyle Chandler, Richard Donelly
+:Genre: Drama
+:Plot: A depressed uncle is asked to take care of his teenage nephew after the boy's father dies.
+:Runtime: 137 min
 :rating: 4
-:year: 4
-:END:
-* WATCHED The Thing
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
 :END:
-* WATCHED The Three Burials of Melquiades Estrada
+* WATCHED Moana (2016)
 :PROPERTIES:
+:Director: Ron Clements, John Musker, Don Hall(co-director), Chris Williams(co-director)
+:Year: 2016
+:Actors: Auli'i Cravalho, Dwayne Johnson, Rachel House, Temuera Morrison
+:Genre: Animation, Adventure, Comedy, Family, Fantasy, Musical
+:Plot: In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod to set things right.
+:Runtime: 107 min
 :rating: 4
-:year: 4
 :END:
-* WATCHED The Town
+* WATCHED Moonlight (2016)
 :PROPERTIES:
+:Director: Barry Jenkins
+:Year: 2016
+:Actors: Mahershala Ali, Shariff Earp, Duan Sanderson, Alex R. Hibbert
+:Genre: Drama
+:Plot: A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.
+:Runtime: 111 min
 :rating: 4
-:year: 4
-:END:
-* WATCHED The Treasure of the Sierra Madre
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
 :END:
-* WATCHED The Trouble with Harry
+* WATCHED Mother (2009)
 :PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED The Truman Show
-:PROPERTIES:
+:Director: Bong Joon Ho
+:Year: 2009
+:Actors: Hye-ja Kim, Won Bin, Goo Jin, Je-mun Yun
+:Genre: Crime, Drama, Thriller
+:Plot: A mother desperately searches for the killer who framed her son for a girl's horrific murder.
+:Runtime: 129 min
 :rating: 4
-:year: 4
-:END:
-* WATCHED The Wave
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
 :END:
-* WATCHED The Wind Rises
+* WATCHED Rise of the Planet of the Apes (2011)
 :PROPERTIES:
-:rating: 4.5
-:year: 4.5
+:Director: Rupert Wyatt
+:Year: 2011
+:Actors: Andy Serkis, Karin Konoval, Terry Notary, Richard Ridings
+:Genre: Action, Drama, Sci-Fi, Thriller
+:Plot: A substance designed to help the brain repair itself gives advanced intelligence to a chimpanzee who leads an ape uprising.
+:Runtime: 105 min
+:rating:   3.5
 :END:
-* WATCHED The Witch
+* WATCHED Roma (2018)
 :PROPERTIES:
+:Director: Alfonso CuarÃ³n
+:Year: 2018
+:Actors: Yalitza Aparicio, Marina de Tavira, Diego Cortina Autrey, Carlos Peralta
+:Genre: Drama
+:Plot: A year in the life of a middle-class family's maid in Mexico City in the early 1970s.
+:Runtime: 135 min
 :rating:   4.5
 :END:
-* WATCHED The Wrestler
+* WATCHED The Shining (1980)
 :PROPERTIES:
-:rating: 4
-:year: 4
+:Director: Stanley Kubrick
+:Year: 1980
+:Actors: Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers
+:Genre: Drama, Horror
+:Plot: A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.
+:Runtime: 146 min
+:rating:   4
 :END:
-* WATCHED Thor: Dark World
+* WATCHED Spirited Away (2001)
 :PROPERTIES:
-:rating: 3.5
-:year: 3.5
+:Director: Hayao Miyazaki
+:Year: 2001
+:Actors: Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takashi NaitÃ´
+:Genre: Animation, Adventure, Family, Fantasy, Mystery
+:Plot: During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.
+:Runtime: 125 min
+:rating:   4.5
 :END:
-* WATCHED Titanic
+* WATCHED The Hunt (2012)
 :PROPERTIES:
-:rating: 4
-:year: 4
+:Director: Thomas Vinterberg
+:Year: 2012
+:Actors: Mads Mikkelsen, Thomas Bo Larsen, Annika Wedderkopp, Lasse FogelstrÃ¸m
+:Genre: Drama
+:Plot: A teacher lives a lonely life, all the while struggling over his son's custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie.
+:Runtime: 115 min
+:rating:   4
 :END:
-* WATCHED Top Gun
+* WATCHED The Shape of Water (2017)
 :PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Total Recall
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Touch of evil
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Toy Story
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Treasure Planet
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED True Grit
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED True Lies
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Tucker and Dale vs Evil
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Up
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Us and Them
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Vertigo
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Wallace & Gromit: The Curse of the Were-Rabbit
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED WALL-E
-:PROPERTIES:
+:Director: Guillermo del Toro
+:Year: 2017
+:Actors: Sally Hawkins, Michael Shannon, Richard Jenkins, Octavia Spencer
+:Genre: Adventure, Drama, Fantasy, Romance, Thriller
+:Plot: At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.
+:Runtime: 123 min
 :rating: 4.5
-:year: 4.5
 :END:
-* WATCHED Wall·E
+* WATCHED The Witch (2015)
 :PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED War for the Planet of the Apes
-:PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED When Harry Met Sally
-:PROPERTIES:
-:rating: 5
-:year: 5
+:Director: Robert Eggers
+:Year: 2015
+:Actors: Anya Taylor-Joy, Ralph Ineson, Kate Dickie, Harvey Scrimshaw
+:Genre: Drama, Horror, Mystery
+:Plot: A family in 1630s New England is torn apart by the forces of witchcraft, black magic, and possession.
+:Runtime: 92 min
+:rating:   4.5
 :END:
 * WATCHED When Marnie was here
 :PROPERTIES:
 :rating:   4
 :END:
-* WATCHED Whiplash
+* WATCHED Wonder Woman (2017)
 :PROPERTIES:
-:rating: 4
-:year: 4
-:END:
-* WATCHED Wolf Children
-:PROPERTIES:
-:rating: 5
-:year: 5
-:END:
-* WATCHED Wonder Woman
-:PROPERTIES:
+:Director: Patty Jenkins
+:Year: 2017
+:Actors: Gal Gadot, Chris Pine, Connie Nielsen, Robin Wright
+:Genre: Action, Adventure, Fantasy, Sci-Fi, War
+:Plot: When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.
+:Runtime: 141 min
 :rating:   4
 :END:
-* WATCHED Wreck-It Ralph
+* WATCHED Zero Dark Thirty (2012)
 :PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED You Were Never Really There
-:PROPERTIES:
-:rating: 4.5
-:year: 4.5
-:END:
-* WATCHED Zatoichi: The Blind Swordsman
-:PROPERTIES:
-:rating: 3.5
-:year: 3.5
-:END:
-* WATCHED Zero Dark Thirty
-:PROPERTIES:
+:Director: Kathryn Bigelow
+:Year: 2012
+:Actors: Jason Clarke, Reda Kateb, Jessica Chastain, Kyle Chandler
+:Genre: Drama, Thriller
+:Plot: A chronicle of the decade-long hunt for al-Qaeda terrorist leader Osama bin Laden after the September 2001 attacks, and his death at the hands of the Navy S.E.A.L.s Team 6 in May 2011.
+:Runtime: 157 min
 :rating:   4
 :END:

@@ -1,8 +1,10 @@
 #+TITLE: Reading list
  #+OPTIONS: H:1
-#+TODO: TOREAD(t) MAYBE(m) PENDING(p) READING(r) HOLD(h) | SKIMMED(s)  DONE(d)
+#+TODO: TOREAD(t) READING(r) HOLD(h) | READ(d)
 #+COLUMNS: %120ITEM %STATUS
+#+OPTIONS: num:nil
 #+TAGS: books
+
 
 * Math :math:
 ** READING [#A] Gowers, T. (2010): The princeton companion to mathematics
@@ -49,18 +51,18 @@ cite:RWH
   :PROPERTIES:
   :Custom_ID: hall16_guyton_hall
   :END:
-*** DONE Chap 61 en cours
-*** DONE Chap 34
+*** READ Chap 61 en cours
+*** READ Chap 34
 
 ** HOLD Herring, W. (2020): Learning radiology : recognizing the basics :radiology:
   :PROPERTIES:
   :Custom_ID: herring20_learn
   :END:
-*** DONE Chap 3
+*** READ Chap 3
 
 * Histoire :history:
 ** HOLD Cours d'histoire 1913
-** DONE Magni, C. (2003): Les Olm\`eques: des origines au mythe :south_america:
+** READ Magni, C. (2003): Les Olm\`eques: des origines au mythe :south_america:
   CLOSED: [2019-06-02 Sun 09:35]
   :PROPERTIES:
   :Custom_ID: magni2003olmeques
@@ -77,7 +79,7 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
 
 
 * Fiction
-** DONE Eco, U. (1983): The name of the rose
+** READ Eco, U. (1983): The name of the rose
   :PROPERTIES:
   :Custom_ID: eco83
   :rating:   4
