@@ -313,7 +313,10 @@ Ganache (diminuer les doses car il reste 1/4)
 ** RETRY Pain au lait
 [[https://www.youtube.com/watch?v=wAKaJRl3Ieg)][750g]] : bon mais levée sur la nuit semble préférable
 ** RETRY Pancake
-America test kitchen recipe. Pas mal et pas prise de tête
+*** America test kitchen recipe. Pas mal et pas prise de tête
+*** https://www.kingarthurflour.com/recipes/classic-sourdough-waffles-or-pancakes-recipe
+Avec "restes" de levain. Pancake moelleux mais compliqués de cuire complètement l'intérieur (mettre à feu doux++)...
+
 ** RETRY Paris-Brest
 *** PPAP
 crème au beurre toujours un peu trop liquide. Vient du
@@ -942,6 +945,16 @@ Avec du yaourt grec : moins sec mais une petite amertume
 Pour une croûte : augmenter la vapeur
 ** Pain blanc
 *** Recette du NYT "No-Knead" fonctionne bien, avec 1/2 CC de levure pour 500g
+** Levain
+*** RETRY Overnight country blonde (Flour, water, salt, yeast)
+Mis plus d'eau que dans la recette et la pâte semblait trop hydratée.
+Temps de pousse : 2h au four mais pâte trop collante pour test au doigt.
+Au moment de la mettre dans la casserole, elle avait attaché au torchon malgré la farine donc le fond s'est déchiré.
+De plus, impossible de faire une ouverture.
+Au total, 55min de cuisson mais le pain semblait un peu humide même 30min après. Remis 15min à 250 mais une légère humidité était présente.
+Peut-être que la vapeur ne pouvait s'échapper ? Ou pâte trop hydratée ?
+En tout cas, le levain était actif
+=> respecter la recette et travailler la mise en place
 
 ** Pain au sarrasin
 *** 1/3 sarassin, 2/3 farine complète : goût curieux, un peu lourd
