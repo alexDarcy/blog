@@ -173,13 +173,11 @@ https://www.seriouseats.com/recipes/2017/10/carrot-cake-recipe.html
 - Levée pendant la cuisson (30%) mais retombé par la suite au niveau initial (voire moins sur un côté !)
 - Un peu d'eau a l'air d'être rentrée sous des coins du gâteau
 Conclusion
-  - Globablement bon mais attention à l'étanchéité !
-  - mieux mettre de papier d'alu pour l'étanchéité ?
-  - pas de beurre sur les côté du moule a priori
-  - mieux mélanger le beurre (très liquide dans la vidéo ci-dessous)
-  - Essayer d'autre méthode de cuisson ? (plus longtemps et moins fort)
-  - quel taille au final ? D'après https://www.youtube.com/watch?v=qyLLOctx7ZU, on revient à la taille initiale quand même, mais avec un dôme
-    => je pense qu'il s'est un peu dégonflé mais que le caractère inhomogène est plus problématique
+  - Globablement bon mais attention à l'étanchéité ! => mieux mettre de papier alu
+  - pas de beurre sur les côté du moule a priori (possibilité de mettre du papier sulfurisé : cf https://www.youtube.com/watch?v=adXmM-eqwz8)
+  - bien mélanger la pâte (cf les 2vidéos)
+  - idéalement, on veux un dôme et que le gâteau ne dégonfle pas en dessous de la taille initiale. La recette du NYT mentionne qu'un dégonflement est inévitable
+  - Essayer d'autre méthode de cuisson pour avoir un gâteau qui "tient" mieux ? (plus longtemps et moins fort)
 
 ** RETRY Chocolate lavae cake
 https://cooking.nytimes.com/recipes/1019957-chocolate-lava-cake-for-two
