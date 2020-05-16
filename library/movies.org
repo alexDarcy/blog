@@ -31,6 +31,15 @@
 * TOWATCH The lives of other
 * TOWATCH Three Billboards Outside Ebbing, Missouri
 * TOWATCH We, the Animals
+* WATCHED Mission: Impossible - Rogue Nation (2015)
+:PROPERTIES:
+:Director: Christopher McQuarrie
+:Year: 2015
+:Actors: Tom Cruise, Jeremy Renner, Simon Pegg, Rebecca Ferguson
+:Genre: Action, Adventure, Thriller
+:Plot: Ethan and his team take on their most impossible mission yet when they have to eradicate an international rogue organization as highly skilled as they are and committed to destroying the IMF.
+:Runtime: 131 min
+:END:
 * WATCHED 101 Dalmatians (1996)
 :PROPERTIES:
 :Director: Stephen Herek

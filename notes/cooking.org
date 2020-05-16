@@ -1,4 +1,4 @@
-#+TODO: TODO(t) RETRY(r) | DONE(d) AVOID(a)
+#+TODO: TODO(t) RETRY(r) | DONE(d) AVOID(a) MEH(m) LOVEIT(l) OK(o)
 
 * Desserts
 ** DONE Biscuit cuiller
@@ -202,7 +202,7 @@ https://www.marmiton.org/recettes/recette_pate-a-crepes-simple_27121.aspx
 1.5 cuillères à soupe d'huile
 1 cuillère à café de rhum
 => décent
-*** Raymon Oliver
+*** LOVEIT Raymond Oliver
 Mes modifs pour 11 crepes moyennement fines :
 - 1 pincées de sel
 - 10cl lait
@@ -214,7 +214,22 @@ Mes modifs pour 11 crepes moyennement fines :
 - bière 15cl (le double dans la recette a priori) brune 6%
 - rhum 50g
 Au final : addictives, très molles, odeur du rhum, petit arrière-goût de bière après-coup
-
+*** MEH Au levain (Epicurious)
+https://www.epicurious.com/recipes/food/views/sourdough-crepes
+- 6 Tbsp. (100 g) sourdough starter
+- 2 cups (250 g) all-purpose flour, divided
+- 2 large eggs
+- ¾ cup plus 1 Tbsp. (or more) milk
+- 3 Tbsp. granulated sugar
+- ½ tsp. baking soda
+- ½ tsp. kosher salt
+- 3 Tbsp. unsalted butter, melted, plus more room temperature
+- Grapeseed or vegetable oil (for pan)
+- Jam, crème fraîche, demerara sugar, and/or lox, (for serving; optional)
+**** Notes
+- On ne sent pas le goût du levain
+- Crêpes classiques, sans plus
+- Pâte trop épaisse
 ** RETRY Croissants
 (PPAP). Pas encore ça... Remarques après plusieurs essais :
   + 45min à 190° = trop !!  pas assez cuits++ à l'intérieur mais un peu trop à
@@ -932,6 +947,8 @@ Bien cuire le fond de tarte avant (15-20min). Les bords doivent être parfaiteme
 ** RETRY Soupe maïs-lait de coco (Des soupes qui nous font du bien)
 Même en diminuant le ratio lait de coco/maïs à 40/60 au lieu de 60/40, encore
 très riche. Essayer 70/30
+** OK Soupe haricots verts-aspergs
+Filtrer pour les fibres !
 ** RETRY Tortilla
 :PROPERTIES:
 :source-url: https://www.allrecipes.com/recipe/157642/homemade-flour-tortillas/
