@@ -31,15 +31,6 @@
 * TOWATCH The lives of other
 * TOWATCH Three Billboards Outside Ebbing, Missouri
 * TOWATCH We, the Animals
-* WATCHED Mission: Impossible - Rogue Nation (2015)
-:PROPERTIES:
-:Director: Christopher McQuarrie
-:Year: 2015
-:Actors: Tom Cruise, Jeremy Renner, Simon Pegg, Rebecca Ferguson
-:Genre: Action, Adventure, Thriller
-:Plot: Ethan and his team take on their most impossible mission yet when they have to eradicate an international rogue organization as highly skilled as they are and committed to destroying the IMF.
-:Runtime: 131 min
-:END:
 * WATCHED 101 Dalmatians (1996)
 :PROPERTIES:
 :Director: Stephen Herek
@@ -164,6 +155,16 @@
 :Runtime: 95 min
 :rating:   4
 :END:
+* WATCHED Iron Man (2008)
+:PROPERTIES:
+:Director: Jon Favreau
+:Year: 2008
+:Actors: Robert Downey Jr., Terrence Howard, Jeff Bridges, Gwyneth Paltrow
+:Genre: Action, Adventure, Sci-Fi
+:Plot: After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.
+:Runtime: 126 min
+:rating: 3.5
+:END:
 * WATCHED Iron Man 2 (2010)
 :PROPERTIES:
 :Director: Jon Favreau
@@ -183,16 +184,6 @@
 :Plot: When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.
 :Runtime: 130 min
 :rating: 3
-:END:
-* WATCHED Iron Man (2008)
-:PROPERTIES:
-:Director: Jon Favreau
-:Year: 2008
-:Actors: Robert Downey Jr., Terrence Howard, Jeff Bridges, Gwyneth Paltrow
-:Genre: Action, Adventure, Sci-Fi
-:Plot: After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.
-:Runtime: 126 min
-:rating: 3.5
 :END:
 * WATCHED La La Land (2016)
 :PROPERTIES:
@@ -233,6 +224,26 @@
 :Plot: A depressed uncle is asked to take care of his teenage nephew after the boy's father dies.
 :Runtime: 137 min
 :rating: 4
+:END:
+* WATCHED Mission: Impossible - Fallout (2018)
+:PROPERTIES:
+:Director: Christopher McQuarrie
+:Year: 2018
+:Actors: Tom Cruise, Henry Cavill, Ving Rhames, Simon Pegg
+:Genre: Action, Adventure, Thriller
+:Plot: Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.
+:Runtime: 147 min
+:rating:   4
+:END:
+* WATCHED Mission: Impossible - Rogue Nation (2015)
+:PROPERTIES:
+:Director: Christopher McQuarrie
+:Year: 2015
+:Actors: Tom Cruise, Jeremy Renner, Simon Pegg, Rebecca Ferguson
+:Genre: Action, Adventure, Thriller
+:Plot: Ethan and his team take on their most impossible mission yet when they have to eradicate an international rogue organization as highly skilled as they are and committed to destroying the IMF.
+:Runtime: 131 min
+:rating:   4
 :END:
 * WATCHED Moana (2016)
 :PROPERTIES:
@@ -284,16 +295,6 @@
 :Runtime: 135 min
 :rating:   4.5
 :END:
-* WATCHED The Shining (1980)
-:PROPERTIES:
-:Director: Stanley Kubrick
-:Year: 1980
-:Actors: Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers
-:Genre: Drama, Horror
-:Plot: A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.
-:Runtime: 146 min
-:rating:   4
-:END:
 * WATCHED Spirited Away (2001)
 :PROPERTIES:
 :Director: Hayao Miyazaki
@@ -323,6 +324,16 @@
 :Plot: At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.
 :Runtime: 123 min
 :rating: 4.5
+:END:
+* WATCHED The Shining (1980)
+:PROPERTIES:
+:Director: Stanley Kubrick
+:Year: 1980
+:Actors: Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers
+:Genre: Drama, Horror
+:Plot: A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.
+:Runtime: 146 min
+:rating:   4
 :END:
 * WATCHED The Witch (2015)
 :PROPERTIES:

@@ -1,4 +1,195 @@
 #+TITLE: title,serie,rating,status,year
+#+TODO: TOREAD(t) | READ(r)
+#+OPTIONS: num:nil
+#+OPTIONS: toc:nil
+#+OPTIONS: prop:t
+
+* DC
+** Batman
+*** READ Arkham Asylum
+**** READ A serious House
+:PROPERTIE
+:rating:
+:END:
+**** READ Living Hell
+:PROPERTIE
+:rating: 3
+:END:
+**** READ Madness
+:PROPERTIE
+:rating: 3
+:END:
+**** READ Tales of Madness
+:PROPERTIES:
+:rating:   3
+:END:
+*** READ Arkham City
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ Arkham City (Digital Exclusive)
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ Arkham City - End game
+:PROPERTIES:
+:rating:   4
+:END:
+*** READ Arkham Reborn
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ Bane of the Demon
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ Batman & Danger Girl
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ Batman & Tarzan : Claws of the Cat-Woman
+:PROPERTIES:
+:rating: 3.5:END:
+*** READ Batman - Batgirl 01 (1997)
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ Batman - The Man Who Laughs
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ Batman - Year One
+:PROPERTIES:
+:rating: 4.5
+:END:
+*** READ Batman Family (2002)
+:PROPERTIES:
+:rating:   4
+:END:
+*** READ Batman Huntress & Spoiler - Blunt Trauma
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ Batman and the Mad Monk
+:PROPERTIES:
+:rating:   3
+:END:
+*** READ Batman and the Monster Men
+:PROPERTIES:
+:rating: 3.5:END:
+*** READ Batman/Hellboy/Starman
+:PROPERTIES::rating: 3.5:END:
+*** READ Battle for the Cowl
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ Bruce - The road home
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ Catwoman - Follow the Money
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ Catwoman - Tail of the Gun
+:PROPERTIES:
+:rating:   4
+:END:
+*** READ Catwoman - When in Rome
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ Deathblow
+:PROPERTIES:
+:rating:   4
+:END:
+*** READ Huntress - Cry for blood
+:PROPERTIES:
+:rating: 3.5
+:END:
+*** READ The Dark Knight returns
+:PROPERTIES:
+:rating: 4.5
+:END:
+*** READ The Killing Joke
+:PROPERTIES:
+:rating: 4.5
+:END:
+*** READ The Long Halloween
+:PROPERTIES::rating: 4.5:END:
+*** TOREAD Batman & Robin : first arc (1-17)
+*** TOREAD Batman - Year Two
+*** TOREAD Batman : City of owls (8-12)
+*** TOREAD Batman : The court of owls (1-7)
+*** TOREAD Detective comic
+*** TOREAD Hush
+*** TOREAD Incorporated : The Demon Star (1-13)
+** Superman
+*** All Star Superman
+:PROPERTIES:
+ :rating: 4.5
+:END:
+*** Birthright
+:PROPERTIES:
+ :rating: 4.5
+:END:
+*** Brainiac
+:PROPERTIES:
+ :rating: 4.5
+:END:
+*** Earth One Vol. 1 and 2
+:PROPERTIES:
+ :rating: 3.5
+:END:
+*** Escape from Bizarro World
+:PROPERTIES:
+ :rating: 3.5
+:END:
+*** For All Seasons
+:PROPERTIES:
+ :rating: 4.5
+:END:
+*** For The Man Who Has Everything
+:PROPERTIES:
+ :rating: 4.5
+:END:
+*** Kingdom Come
+:PROPERTIES:
+ :rating: 4.5
+:END:
+*** Last Son
+:PROPERTIES:
+ :rating: 3.5
+:END:
+*** Peace on Earth
+:PROPERTIES:
+ :rating: 3.5
+:END:
+*** Red Son
+:PROPERTIES:
+ :rating: 3.5
+:END:
+*** Secret Identity
+:PROPERTIES:
+ :rating: 4.5
+:END:
+*** Superman and the Legion of Super Heroes
+:PROPERTIES:
+ :rating: 3.5
+:END:
+*** What's So Funny About Truth, Justice and the American Way?
+:PROPERTIES:
+ :rating: 3.5
+:END:
+*** Whatever Happened to the Man of Tomorrow?
+:PROPERTIES:
+ :rating: 4.5
+:END:
+
+
+
+* Marvel
+* Old Format
 | Hellboy                                                    |               |     | ?      |      |
 | Spiderman                                                  |               |     | ?      |      |
 | X-men                                                      |               |     | ?      |      |
@@ -11,59 +202,7 @@
 | Ronin                                                      |               | 3.5 | done   | 1983 |
 | The Watchmen                                               |               | 3.5 | done   |      |
 | V for Vendetta                                             |               |   4 | done   |      |
-| Arkham Asylum - A serious House                            | Batman        | 3.5 | done   |      |
-| Arkham Asylum - Living Hell                                | Batman        | 3.5 | done   |      |
-| Arkham Asylum - Madness                                    | Batman        | 3.5 | done   |      |
-| Arkham Asylum - Tales of Madness                           | Batman        |   3 | done   |      |
-| Arkham City                                                | Batman        | 3.5 | done   |      |
-| Arkham City (Digital Exclusive)                            | Batman        | 3.5 | done   |      |
-| Arkham City - End game                                     | Batman        |   4 | done   |      |
-| Arkham Reborn                                              | Batman        | 3.5 | done   |      |
-| Bane of the Demon                                          | Batman        | 3.5 | done   |      |
-| Batman & Danger Girl                                       | Batman        | 3.5 | done   | 2005 |
-| Batman & Tarzan : Claws of the Cat-Woman                   | Batman        | 3.5 | done   |      |
-| Batman - Batgirl 01 (1997)                                 | Batman        | 3.5 | done   |      |
-| Batman - Batgirl 01 (1998)                                 | Batman        | 3.5 | done   |      |
-| Batman - The Man Who Laughs                                | Batman        | 3.5 | done   |      |
-| Batman - Year One                                          | Batman        | 4.5 | done   |      |
-| Batman Family (2002)                                       | Batman        |   4 | done   |      |
-| Batman Huntress & Spoiler - Blunt Trauma                   | Batman        | 3.5 | done   | 1998 |
-| Batman and the Mad Monk                                    | Batman        |   3 | done   |      |
-| Batman and the Monster Men                                 | Batman        | 3.5 | done   |      |
-| Batman/Hellboy/Starman                                     | Batman        | 3.5 | done   |      |
-| Battle for the Cowl                                        | Batman        | 3.5 | done   | 2009 |
-| Bruce - The road home                                      | Batman        | 3.5 | done   |      |
-| Catwoman - Follow the Money                                | Batman        | 3.5 | done   |      |
-| Catwoman - Tail of the Gun                                 | Batman        |   4 | done   |      |
-| Catwoman - When in Rome                                    | Batman        | 3.5 | done   |      |
-| Deathblow                                                  | Batman        |   4 | done   |      |
-| Huntress - Cry for blood                                   | Batman        | 3.5 | done   |      |
-| The Dark Knight returns                                    | Batman        | 4.5 | done   |      |
-| The Killing Joke                                           | Batman        | 4.5 | done   |      |
-| The Long Halloween                                         | Batman        | 4.5 | done   |      |
-| Ultimate Iron Man                                          | Iron Man      |   3 | done   |      |
-| Ultimate Spiderman                                         | Spiderman     | 3.5 | done   |      |
-| All Star Superman                                          | Superman      | 4.5 | done   |      |
-| Birthright                                                 | Superman      | 4.5 | done   |      |
-| Brainiac                                                   | Superman      | 4.5 | done   |      |
-| Earth One Vol. 1 and 2                                     | Superman      | 3.5 | done   |      |
-| Escape from Bizarro World                                  | Superman      | 3.5 | done   |      |
-| For All Seasons                                            | Superman      | 4.5 | done   |      |
-| For The Man Who Has Everything                             | Superman      | 4.5 | done   |      |
-| Kingdom Come                                               | Superman      | 4.5 | done   |      |
-| Last Son                                                   | Superman      | 3.5 | done   |      |
-| Peace on Earth                                             | Superman      | 3.5 | done   |      |
-| Red Son                                                    | Superman      | 3.5 | done   |      |
-| Secret Identity                                            | Superman      | 4.5 | done   |      |
-| Superman and the Legion of Super Heroes                    | Superman      | 3.5 | done   |      |
-| What's So Funny About Truth, Justice and the American Way? | Superman      | 3.5 | done   |      |
-| Whatever Happened to the Man of Tomorrow?                  | Superman      | 4.5 | done   |      |
-| Ultimates (1 & 2)                                          | The Ultimates |   3 | done   |      |
-| Batman & Robin : first arc (1-17)                          | Batman        |     | todone |      |
-| Batman - Year Two                                          | Batman        |     | todone |      |
-| Batman : City of owls (8-12)                               | Batman        |     | todone |      |
-| Batman : The court of owls (1-7)                           | Batman        |     | todone |      |
-| Detective comic                                            | Batman        |     | todone |      |
-| Hush                                                       | Batman        |     | todone |      |
-| Incorporated : The Demon Star (1-13)                       | Batman        |     | todone |      |
-|                                                            |               |     |        |      |
+
+| Ultimates (1 & 2)                                          | The Ultimates |   3 | done   |   |
+| Ultimate Iron Man                                          | Iron Man      |   3 | done   |   |
+| Ultimate Spiderman                                         | Spiderman     | 3.5 | done   |   |
