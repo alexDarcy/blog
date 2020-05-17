@@ -8,15 +8,15 @@
 ** Batman
 *** READ Arkham Asylum
 **** READ A serious House
-:PROPERTIE
+:PROPERTIES:
 :rating:
 :END:
 **** READ Living Hell
-:PROPERTIE
+:PROPERTIES:
 :rating: 3
 :END:
 **** READ Madness
-:PROPERTIE
+:PROPERTIES:
 :rating: 3
 :END:
 **** READ Tales of Madness
@@ -187,22 +187,32 @@
 :END:
 
 
-
 * Marvel
-* Old Format
-| Hellboy                                                    |               |     | ?      |      |
-| Spiderman                                                  |               |     | ?      |      |
-| X-men                                                      |               |     | ?      |      |
-| Batman & Deadman : Death and Glory                         |               | 3.5 | done   |      |
-| Batman & Green Arrow : The Poison Tomorrow                 |               | 3.5 | done   |      |
-| Bruce Wayne : Fugitive                                     |               | 3.5 | done   |      |
-| Bruce Wayne : Murderer                                     |               |   4 | done   |      |
-| Daredevil - The Man without Fear                           |               |   4 | done   |      |
-| League of Extraordinary Gentleman                          |               | 3.5 | done   |      |
-| Ronin                                                      |               | 3.5 | done   | 1983 |
-| The Watchmen                                               |               | 3.5 | done   |      |
-| V for Vendetta                                             |               |   4 | done   |      |
+** Ultimates
+*** READ Ultimate Adventures (1-6)
+*** READ Ultimate Galactus
+**** READ Ultimate Nightmare
+**** READ Ultimate Secret
+**** READ Ultimate Vision
+**** READ Ultimate Extinction
+*** READ Ultimate X4
+*** READ Ultimate War (After 025)
+*** READ Ultimate X-Men 1-100
 
-| Ultimates (1 & 2)                                          | The Ultimates |   3 | done   |   |
-| Ultimate Iron Man                                          | Iron Man      |   3 | done   |   |
-| Ultimate Spiderman                                         | Spiderman     | 3.5 | done   |   |
+* Old Format
+| Hellboy                                    |   |     | ?    |      |
+| Spiderman                                  |   |     | ?    |      |
+| X-men                                      |   |     | ?    |      |
+| Batman & Deadman : Death and Glory         |   | 3.5 | done |      |
+| Batman & Green Arrow : The Poison Tomorrow |   | 3.5 | done |      |
+| Bruce Wayne : Fugitive                     |   | 3.5 | done |      |
+| Bruce Wayne : Murderer                     |   |   4 | done |      |
+| Daredevil - The Man without Fear           |   |   4 | done |      |
+| League of Extraordinary Gentleman          |   | 3.5 | done |      |
+| Ronin                                      |   | 3.5 | done | 1983 |
+| The Watchmen                               |   | 3.5 | done |      |
+| V for Vendetta                             |   |   4 | done |      |
+
+| Ultimates (1 & 2)  | The Ultimates |   3 | done |   |
+| Ultimate Iron Man  | Iron Man      |   3 | done |   |
+| Ultimate Spiderman | Spiderman     | 3.5 | done |   |
