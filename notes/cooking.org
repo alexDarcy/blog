@@ -340,14 +340,22 @@ Felder plutôt que PPAP :
       * quand on le mélange aux oeufs encore chaud, refroidir les oeufs avant ... et y aller par petite quantités avec le beurre (NB: possible de recongeler si c'est trop liquide mais éviter...)
 
 ** RETRY Mousse au chocolate
-Philippe Conticini : éviter une ganache trop liquide. Ne pas lésiner sur les blancs. Pour 5 parts :
+*** Philippe Conticini : éviter une ganache trop liquide. Ne pas lésiner sur les blancs. Pour 5 parts :
    + 37 g de sucre roux
    + 250 g de blancs d’oeuf
    + 70 g de lait demi-écrémé
    + 150 g de crème liquide
    + 180 g de chocolat noir (68%)
    + 60 g de chocolat au lait
-
+*** Au jus de pois chiches
+https://tasty.co/recipe/vegan-chocolate-mousse
+Pendant la préparation : goût encore fort, légere nausée.
+3h plus tard : ok
+Monte en neige comme des blancs normaux.
+Pour améliorer le goût :
+- Tester avec du jus maison ?
+- Meringue italienne ?
+- Plus de vanille ?
 ** RETRY Mousse de fruit
 Recette meilleur du chef
 ** RETRY Napolitain
@@ -628,6 +636,20 @@ Bien moelleux mais quantité approximative de farine et de lait (+50% ?). Trop d
 levure (1 sachet) ?
 
 ** RETRY Couscous : [[http://www.ptitecuisinedepauline.com/article-clafoutis-aux-pommes-122364862.html][recette de semoule traditionnelle]]
+*** Graine
+- Huile (6 CS pour 1Kg) + humidifier. 30min de cuisson
+- huile + eau puis  cuisson 20min
+- Eau si besoin + cuisson 15min
+*** viande
+- curcuma 1CC
+- gingembre poudre
+- sel
+- ras al nout++
+- safran
+- +/- tomates (concentré de tomate marche)
+  Cuisson : pour des cuisses de poulet et de l'épaule d'agneau en morceaux, 2H30 dont 1h45 à la pression donne une viande très fondante
+*** Légumes
+Carottes, potiron, navets, courgettes
 ** RETRY Crevettes
 *** Notes
 Pas mal, très rapide à faire. Je mets les crevettes dans la sauce directement
@@ -1004,23 +1026,16 @@ Pour une croûte : augmenter la vapeur
 *** Recette du NYT "No-Knead" fonctionne bien, avec 1/2 CC de levure pour 500g
 ** Levain
 *** RETRY Overnight country blonde (Flour, water, salt, yeast)
-Mis plus d'eau que dans la recette : la pâte semblait trop hydratée.
-Après vérification, la pâte est super collante de base...
-Temps de pousse : 2h au four mais pâte trop collante pour test au doigt.
-Au moment de la mettre dans la casserole, elle avait attaché au torchon malgré la farine donc le fond s'est déchiré.
-De plus, impossible de faire une ouverture.
-Au total, 55min de cuisson mais le pain semblait un peu humide même 30min après. Remis 15min à 250 mais une légère humidité était présente.
-Au final, pas vraiment un problème. Levain actif
-À noter que le dessous doit être collant pour façonner
-TODO
-- plus de farine sur le torchon++++ (et avant la pousse)
-- respecter l'hydratation (et comparer avec la vidéo ci-dessous)
-- plus de tension lors du façonnage ?
-- papier cuisson avant le transfert dans la marmite
-- bien vérifier que le levain est prêt (hauteur ed pousse max mais  n'est pas encore redescendu)
+Problèmes :
+- pâte difficile à façonner
+- colle au torchon malgré beaucoup de farine
+- résultat un peu plat (malgré des grosses bulles parfois
+Solutions possibles
+- torchon de lin et farine de riz pour éviter que ça ne colle
+- acheter un "coupe-pâte" pour façonner (cf "high hydratation technique"
+- diminuer l'hydratation sinon
 Source :
 https://www.youtube.com/watch?v=BJEHsvW2J6M
-
 ** Pain au sarrasin
 *** 1/3 sarassin, 2/3 farine complète : goût curieux, un peu lourd
 
