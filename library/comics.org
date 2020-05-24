@@ -80,6 +80,10 @@
 
 *** READ Batman/Hellboy/Starman
 :PROPERTIES::rating: 3.5:END:
+*** READ Batman Last Rites - The Butler
+:PROPERTIES:
+:rating:   3
+:END:
 *** READ Batman Huntress & Spoiler - Blunt Trauma
 :PROPERTIES:
 :rating:   3.5
@@ -133,7 +137,7 @@
 :PROPERTIES:
 :rating:   3.5
 :END:
-*** READ Last days of Gotham
+*** READ Batman Last Rites - Last days of Gotham
 :PROPERTIES:
 :rating:   3
 :END:
@@ -150,70 +154,78 @@
 :rating:   4.5
 :END:
 ** Superman
-*** All Star Superman
+*** READ All Star Superman
 :PROPERTIES:
 :rating:   4.5
 :END:
-*** Birthright
+*** READ Birthright
 :PROPERTIES:
 :rating:   4.5
 :END:
-*** Brainiac
+*** READ Brainiac
 :PROPERTIES:
 :rating:   4.5
 :END:
-*** Earth One Vol. 1 and 2
+*** READ Earth One Vol. 1 and 2
 :PROPERTIES:
 :rating:   3.5
 :END:
-*** Escape from Bizarro World
+*** READ Escape from Bizarro World
 :PROPERTIES:
 :rating:   3.5
 :END:
-*** For All Seasons
+*** READ For All Seasons
 :PROPERTIES:
 :rating:   4.5
 :END:
-*** For The Man Who Has Everything
+*** READ For The Man Who Has Everything
 :PROPERTIES:
 :rating:   4.5
 :END:
-*** Kingdom Come
+*** READ Kingdom Come
 :PROPERTIES:
 :rating:   4.5
 :END:
-*** Last Son
+*** READ Last Son
 :PROPERTIES:
 :rating:   3.5
 :END:
-*** Peace on Earth
+*** READ Peace on Earth
 :PROPERTIES:
 :rating:   3.5
 :END:
-*** Red Son
+*** READ Red Son
 :PROPERTIES:
 :rating:   3.5
 :END:
-*** Secret Identity
+*** READ Secret Identity
 :PROPERTIES:
 :rating:   4.5
 :END:
-*** Superman and the Legion of Super Heroes
+*** READ Superman and the Legion of Super Heroes
 :PROPERTIES:
 :rating:   3.5
 :END:
-*** What's So Funny About Truth, Justice and the American Way?
+*** READ What's So Funny About Truth, Justice and the American Way?
 :PROPERTIES:
 :rating:   3.5
 :END:
-*** Whatever Happened to the Man of Tomorrow?
+*** READ Whatever Happened to the Man of Tomorrow?
 :PROPERTIES:
 :rating:   4.5
+:END:
+*** READ Superman in Exile
+:PROPERTIES:
+:rating:   3.5
 :END:
 
 * Marvel
 ** Ultimates
 *** READ Ultimate Adventures (1-6)
+*** READ Ultimates 3
+:PROPERTIES:
+:rating:   3.5
+:END:
 *** READ Ultimate Galactus
 **** READ Ultimate Nightmare
 **** READ Ultimate Secret
@@ -222,6 +234,9 @@
 *** READ Ultimate X4
 *** READ Ultimate War (After 025)
 *** READ Ultimate X-Men 1-100
+:PROPERTIES:
+:rating:   3.5
+:END:
 *** READ Fantastic Four - X Men Annual
 :PROPERTIES:
 :rating:   2.5
@@ -231,6 +246,15 @@
 :rating:   3
 :END:
 *** READ Ultimate origins
+:PROPERTIES:
+:rating:   3
+:END:
+*** READ Ultimate human
+:PROPERTIES:
+:rating:   3
+:END:
+
+*** READ Ultimate power
 :PROPERTIES:
 :rating:   3
 :END:

@@ -214,7 +214,7 @@ Mes modifs pour 11 crepes moyennement fines :
 - bière 15cl (le double dans la recette a priori) brune 6%
 - rhum 50g
 Au final : addictives, très molles, odeur du rhum, petit arrière-goût de bière après-coup
-*** MEH Au levain (Epicurious)
+*** MEH Au levain (Epicurious) :sourdough:
 https://www.epicurious.com/recipes/food/views/sourdough-crepes
 - 6 Tbsp. (100 g) sourdough starter
 - 2 cups (250 g) all-purpose flour, divided
@@ -382,8 +382,10 @@ Ganache (diminuer les doses car il reste 1/4)
 [[https://www.youtube.com/watch?v=wAKaJRl3Ieg)][750g]] : bon mais levée sur la nuit semble préférable
 ** RETRY Pancake
 *** America test kitchen recipe. Pas mal et pas prise de tête
-*** https://www.kingarthurflour.com/recipes/classic-sourdough-waffles-or-pancakes-recipe
-Avec "restes" de levain. Pancake moelleux mais compliqués de cuire complètement l'intérieur (mettre à feu doux++)...
+*** Levain :sourdough:
+https://www.kingarthurflour.com/recipes/classic-sourdough-waffles-or-pancakes-recipe
+Avec "restes" de levain. Pancake moelleux mais bien cuire l'intérieur (mettre à feu doux++)...
+Quantité pour 12 pancakes
 
 ** RETRY Paris-Brest
 *** PPAP
@@ -1024,13 +1026,15 @@ Avec du yaourt grec : moins sec mais une petite amertume
 Pour une croûte : augmenter la vapeur
 ** Pain blanc
 *** Recette du NYT "No-Knead" fonctionne bien, avec 1/2 CC de levure pour 500g
-** Levain
+** Levain :sourdough:
 *** RETRY Overnight country blonde (Flour, water, salt, yeast)
 Problèmes :
 - pâte difficile à façonner
 - colle au torchon malgré beaucoup de farine
-- résultat un peu plat (malgré des grosses bulles parfois
+- résultat trop plat
 Solutions possibles
+- plus de folds/meilleure technique pour augmenter la "tenue"
+  https://www.youtube.com/watch?v=vmb0wWKITBQ
 - torchon de lin et farine de riz pour éviter que ça ne colle
 - acheter un "coupe-pâte" pour façonner (cf "high hydratation technique"
 - diminuer l'hydratation sinon

@@ -94,6 +94,24 @@ Dernières recos sur Lyme
   :Custom_ID: doremalen20_aeros_surfac_stabil_sars_cov
   :END:
   Viability : plastic + stainless steel = 72h, cardboard = 48h
+** DONE Poon, L. C., & Nicolaides, K. H. (2014): First-trimester maternal factors and biomarker screening for preeclampsia :gyneco:
+  :PROPERTIES:
+  :Custom_ID: poon14_first_trimes_mater_factor_biomar_screen_preec
+  :END:
+- Facteurs de risques : ne sont pas les même pour la prééclampsie < 34SG et > 34SG (maladies différentes ?)
+- Ce qui est utilisé actuellement pour prédire la prééclampsie avant 34SG et qui marche bien :
+  - maternal demographic characteristics,
+  - uterine artery pulsatility index (PI)
+  - mean arterial pressure (MAP)
+  - maternal serum pregnancy-associated plasma protein-A (PAPP-A) => intervient dans la croissance du placenta => risque de prééclampsie si bas
+  - placental growth factor (PlGF) => intervient dans l'angiogenèse => risque de prééclampsie si bas
+- Tension: une étude a montré que la MAP est meilleure pour prédire la prééclampsie que la pression systolique/diastolique
+- Uterine artery pulsatility index (PI) : si augmenté, la perfusion du placenta est sous-optimale => risque de prééclampsie. NB: association significative avec la MAP
+- Quand dépister ? Les auteurs suggèrent :
+  - à 11-13 semaines pour aspirine si besoin
+  - à 30-33 SG pour délivrance si besoin
+
+
 * Other
 ** SKIMMED Hausfather, Z., Drake, H. F., Abbott, T., & Schmidt, G. A. (2019): Evaluating the performance of past climate model projections :climate:
   :PROPERTIES:
