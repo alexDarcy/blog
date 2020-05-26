@@ -1,6 +1,6 @@
 #+TITLE: Reading list
  #+OPTIONS: H:1
-#+TODO: TOREAD(t) READING(r) HOLD(h) | READ(d)
+#+TODO: TOREAD(t) READING(r) HOLD(h) ?(?) | READ(d)
 #+COLUMNS: %120ITEM %STATUS
 #+OPTIONS: num:nil
 #+TAGS: books
@@ -83,7 +83,11 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
   :Custom_ID: brecht01_artur_ui
   :END:
 ** TOREAD Illiade
-** TOREAD Odysée
+À la maison
+** TOREAD Odyssée
+Bibliothèque Verlaine Metz
+** ? Cahiers de sainte hélène
+** ? César
 ** READ Cohen, A. (1998): Belle du seigneur
   :PROPERTIES:
   :Custom_ID: cohen98_belle_seign
@@ -554,7 +558,6 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
 | Histoire romaine, livres VI à X, la conquête de l'Italie                                                   | Livy                         | ="208070950X" |      5 |                |
 
 
-
 * Good reads done
     | If This Is a Man • The Truce                                             | Primo Levi               | ="0349100136" | 4 | 1987 |
     | The Hound of the Baskervilles                                            | Arthur Conan Doyle       | ="0451528018" | 4 | 2001 |
@@ -798,5 +801,3 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
 2080710052
 2130550010
 208070950X
-
-
