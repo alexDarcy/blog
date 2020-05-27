@@ -81,6 +81,10 @@ Intéressant pour l'intérprétation en histoire de l'art. Assez décevant en pr
   :PROPERTIES:
   :Custom_ID: Grousset1942
   :END:
+** READ Magni, C. (2003): Les olmeques : des origines au mythe
+  :PROPERTIES:
+  :Custom_ID: magni03_les
+  :END:
 * Science :science:others:
 ** TOREAD IPCC, 2019 : Summary for policymaker (draft) :climate:
 https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.pdf
@@ -202,6 +206,7 @@ Bibliothèque Verlaine Metz
   :Custom_ID: tolkien94
   :rating:   5
   :END:
+
 ** READ Tolkien, J. R. R. (2001): The hobbit, or, there and back again :fantasy:
   :PROPERTIES:
   :Custom_ID: tolkien01_there
@@ -228,6 +233,27 @@ Bibliothèque Verlaine Metz
   :Custom_ID: martin96
   :END:
 
+** READ Tolkien, J. R. R. (2012): The return of the king :fantasy:
+  :PROPERTIES:
+  :Custom_ID: tolkien12
+  :END:
+
+** READ Liu, C. (2015): The dark forest :fantasy:
+  :PROPERTIES:
+  :Custom_ID: liu15
+  :rating:   4
+  :END:
+
+** READ Liu, C. (2014): The three-body problem :sci-fi:
+  :PROPERTIES:
+  :Custom_ID: liu14
+  :rating:   4
+  :END:
+** READ Liu, C. (2016): Death's end :sci-fi:
+  :PROPERTIES:
+  :Custom_ID: liu16_death
+  :rating:   4
+  :END:
 * Fanfic
 *** Harry potter
 **** READ I Am Also Thy Brother (Sacrifices arc, #7)
@@ -678,24 +704,19 @@ Bibliothèque Verlaine Metz
 | Histoire romaine, livres VI à X, la conquête de l'Italie                                                   | Livy                         | ="208070950X" |      5 |                |
 
 
-* Good reads done
+* Good reads done (no isbn ? TODO )
     | If This Is a Man • The Truce                                 | Primo Levi         | ="0349100136" | 4 |
     | The Hound of the Baskervilles                                | Arthur Conan Doyle | ="0451528018" | 4 |
     | Dubliners                                                    | James Joyce        | ="0192839993" | 4 |
     | Plutarch's Lives: Volume I                                   | Plutarch           | ="0375756760" | 3 |
-    | Death's End (Remembrance of Earth’s Past #3)                 | Liu Cixin          | ="0765377101" | 4 |
     | Histoire de l'art                                            | E.H. Gombrich      | ="0714892076" | 5 |
-    | The Three-Body Problem (Remembrance of Earth’s Past #1)      | Liu Cixin          | ="0765377063" | 4 |
     | Foucault's Pendulum                                          | Umberto Eco        | ="015603297X" | 3 |
-    | Les Olmèques:  Des Origines Au Mythe                         | Caterina Magni     | ="2020549913" | 4 |
     | A Tale of Two Cities                                         | Charles Dickens    | ="0141439602" | 4 |
     | Dragonflight (Dragonriders of Pern, #1)                      | Anne McCaffrey     | ="0345484266" | 4 |
     | The White Dragon (Pern, #3)                                  | Anne McCaffrey     | ="0345341678" | 4 |
     | Histoire Romaine: Livres Xxxi à Xxxv                         | Livy               | ="2080709895" | 5 |
     | The Light Fantastic (Discworld, #2; Rincewind #2)            | Terry Pratchett    | ="0061020702" | 4 |
     | The Color of Magic (Discworld, #1; Rincewind, #1)            | Terry Pratchett    | ="0060855924" | 3 |
-    | A Feast for Crows (A Song of Ice and Fire, #4)               | George R.R. Martin | ="055358202X" | 3 |
-    | The Hobbit, or There and Back Again                          | J.R.R. Tolkien     | ="0618260307" | 3 |
     | Histoire Romaine: Livres Xxi à Xxv                           | Livy               | ="2080707469" | 5 |
     | Histoire romaine, livres XLI à XLV                           | Livy               | ="2080710354" | 5 |
     | Histoire romaine, livre I à V                                | Livy               | ="2080708406" | 5 |
@@ -710,109 +731,6 @@ Bibliothèque Verlaine Metz
     | Histoire Romaine                                             | Marcel Le Glay     | ="2130550010" | 5 |
     | Histoire romaine, livres VI à X, la conquête de l'Italie     | Livy               | ="208070950X" | 5 |
     | Belle du Seigneur                                            | Albert Cohen       | ="2070404021" | 1 |
-* ISBN good reads
-0375756760
-0765377101
-0714892076
-0765377063
-015603297X
-2020549913
-0141439602
-0345484266
-0345341678
-2080709895
-0061020702
-0060855924
-055358202X
-055357342X
-0553381695
-0553588486
-0618260307
-0618346260
-0618346252
-0439358078
-0545010225
-0439064864
-043965548X
-2035055350
-2744105007
-0486266893
-2080707469
-2080710354
-2080708406
-2080709402
-0812502205
-0812502108
-0812533828
-0812508440
-0812508424
-1594561796
-0375759239
-0451528921
-0812974417
-0099427869
-0140447423
-067972477X
-0142000671
-0143058142
-0142437204
-2708406337
-2080710052
-2130550010
-208070950X
-2070404021
-0349100136
-0451528018
-0192839993
-0375756760
-0765377101
-0714892076
-0765377063
-015603297X
-2020549913
-0141439602
-0345484266
-0345341678
-2080709895
-0061020702
-0060855924
-055358202X
-055357342X
-0553381695
-0553588486
-0618260307
-0618346260
-0618346252
-0439358078
-0545010225
-0439064864
-043965548X
-2035055350
-2744105007
-0486266893
-2080707469
-2080710354
-2080708406
-2080709402
-0812502205
-0812502108
-0812533828
-0812508440
-0812508424
-1594561796
-0375759239
-0451528921
-0812974417
-0099427869
-0140447423
-067972477X
-0142000671
-0143058142
-0142437204
-2708406337
-2080710052
-2130550010
-208070950X
 * Good reads done for comparison
 ** READ Pratchett, T. (2005): The color of magic : a discworld novel
   :PROPERTIES:
@@ -834,36 +752,22 @@ Bibliothèque Verlaine Metz
   :PROPERTIES:
   :Custom_ID: dickens03
   :END:
-** READ Magni, C. (2003): Les olmeques : des origines au mythe
-  :PROPERTIES:
-  :Custom_ID: magni03_les
-  :END:
 ** READ Eco, U. (1989): Foucault's pendulum
   :PROPERTIES:
   :Custom_ID: eco89_foucaul
-  :END:
-** READ Liu, C. (2014): The three-body problem
-  :PROPERTIES:
-  :Custom_ID: liu14
   :END:
 ** READ Gombrich, E. H. (1995): The story of art
   :PROPERTIES:
   :Custom_ID: gombrich95
   :END:
-** READ Liu, C. (2016): Death's end
-  :PROPERTIES:
-  :Custom_ID: liu16_death
-  :END:
 ** READ Plutarch,  (2001): Plutarch's lives
   :PROPERTIES:
   :Custom_ID: plutarch01_plutar
-  :END:
-** READ Poon, L. C., & Nicolaides, K. H. (2014): First-trimester maternal factors and biomarker screening for preeclampsia
-  :PROPERTIES:
-  :Custom_ID: poon14_first_trimes_mater_factor_biomar_screen_preec
   :END:
 ** READ Eco, U. (1983): The name of the rose
   :PROPERTIES:
   :Custom_ID: eco83
   :END:
+
+
 
