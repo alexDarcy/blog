@@ -130,10 +130,9 @@ Au total: réessayer avec de la coriandre, hydrater plus la couche supérieur de
 50min de cuisson à 180°
 5h de pousse le lendemain
 Brioche moelleuse et aérée mais goût au levain plutôt fort (plus brioche salée)
-Après avoir regardé d'autres recettes, il semblerait que les proportions soient normales.
-Peut-être essayer
-- avec du beurre de meilleure qualité (60% de matière grasses)
-- avec du sucre roux
+Après avoir regardé d'autres recettes, les autres proportions sont identiques (même pour des recette de crêpes).
+Notamment le sel...
+=> Essayer avec moins de sel !
 ** RETRY Brownie
 2 recettes :
   + https://tasty.co/recipe/ultimate-brownies
