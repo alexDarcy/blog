@@ -103,7 +103,8 @@ Au total: réessayer avec de la coriandre, hydrater plus la couche supérieur de
   + lait concentré sucré
   + chocolat noir
 ** RETRY Brioche
-[[http://www.enviedebienmanger.fr/fiche-recette/recette-brioche-pur-beurre)][Enviedebienmanger]] : bonne consistance et bon aspect. Attention, 30min est un maximum.
+*** [[http://www.enviedebienmanger.fr/fiche-recette/recette-brioche-pur-beurre)][Enviedebienmanger
+]] Bonne consistance et bon aspect. Attention, 30min est un maximum.
   + 250 g de beurre gastronomique (+30 g pour beurrer les moules)
   + 10 cl de lait entier
   + 500 g de farine T45
@@ -112,6 +113,27 @@ Au total: réessayer avec de la coriandre, hydrater plus la couche supérieur de
   + 4 oeufs
   + 1 jaune d'oeuf
   + 12 g de sel (+ 1 pincée)
+***  Au levain
+:PROPERTIES:
+:source-url: https://www.yumelise.fr/brioche-levain/
+:servings: 2 brioches
+:END:
+**** Ingredients
+- 225 grammes de levain actif
+- 500 grammes de farine T45
+- 110 grammes de cassonade sucre blond de canne
+- 8 grammes de sel
+- 3 gros oeufs
+- 200 grammes de beurre doux mou
+- lait ~50g
+**** Notes
+50min de cuisson à 180°
+5h de pousse le lendemain
+Brioche moelleuse et aérée mais goût au levain plutôt fort (plus brioche salée)
+Après avoir regardé d'autres recettes, il semblerait que les proportions soient normales.
+Peut-être essayer
+- avec du beurre de meilleure qualité (60% de matière grasses)
+- avec du sucre roux
 ** RETRY Brownie
 2 recettes :
   + https://tasty.co/recipe/ultimate-brownies

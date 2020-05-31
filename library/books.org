@@ -81,10 +81,6 @@ Intéressant pour l'intérprétation en histoire de l'art. Assez décevant en pr
   :PROPERTIES:
   :Custom_ID: Grousset1942
   :END:
-** READ Magni, C. (2003): Les olmeques : des origines au mythe
-  :PROPERTIES:
-  :Custom_ID: magni03_les
-  :END:
 * Science :science:others:
 ** TOREAD IPCC, 2019 : Summary for policymaker (draft) :climate:
 https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.pdf
@@ -103,6 +99,7 @@ Bibliothèque Verlaine Metz
 ** READ Cohen, A. (1998): Belle du seigneur
   :PROPERTIES:
   :Custom_ID: cohen98_belle_seign
+  :rating:   1
   :END:
 
 ** READ Doyle, A. (2001): The hound of the baskervilles
@@ -705,32 +702,31 @@ Bibliothèque Verlaine Metz
 
 
 * Good reads done (no isbn ? TODO )
-    | If This Is a Man • The Truce                                 | Primo Levi         | ="0349100136" | 4 |
-    | The Hound of the Baskervilles                                | Arthur Conan Doyle | ="0451528018" | 4 |
-    | Dubliners                                                    | James Joyce        | ="0192839993" | 4 |
-    | Plutarch's Lives: Volume I                                   | Plutarch           | ="0375756760" | 3 |
-    | Histoire de l'art                                            | E.H. Gombrich      | ="0714892076" | 5 |
-    | Foucault's Pendulum                                          | Umberto Eco        | ="015603297X" | 3 |
-    | A Tale of Two Cities                                         | Charles Dickens    | ="0141439602" | 4 |
-    | Dragonflight (Dragonriders of Pern, #1)                      | Anne McCaffrey     | ="0345484266" | 4 |
-    | The White Dragon (Pern, #3)                                  | Anne McCaffrey     | ="0345341678" | 4 |
-    | Histoire Romaine: Livres Xxxi à Xxxv                         | Livy               | ="2080709895" | 5 |
-    | The Light Fantastic (Discworld, #2; Rincewind #2)            | Terry Pratchett    | ="0061020702" | 4 |
-    | The Color of Magic (Discworld, #1; Rincewind, #1)            | Terry Pratchett    | ="0060855924" | 3 |
-    | Histoire Romaine: Livres Xxi à Xxv                           | Livy               | ="2080707469" | 5 |
-    | Histoire romaine, livres XLI à XLV                           | Livy               | ="2080710354" | 5 |
-    | Histoire romaine, livre I à V                                | Livy               | ="2080708406" | 5 |
-    | Histoire Romaine: Livres Xxvi à Xxx                          | Livy               | ="2080709402" | 5 |
-    | The Fall of the House of Usher                               | Edgar Allan Poe    | ="1594561796" | 3 |
-    | I, Claudius (Claudius, #1)                                   | Robert Graves      | ="067972477X" | 4 |
-    | Of Mice and Men                                              | John Steinbeck     | ="0142000671" | 3 |
-    | Crime and Punishment                                         | Fyodor Dostoyevsky | ="0143058142" | 4 |
-    | Jane Eyre                                                    | Charlotte Brontë   | ="0142437204" | 4 |
-    | armée romaine sous le Haut-Empire                            | Yann Le Bohec      | ="2708406337" | 5 |
-    | Histoire Romaine: Livres Xxxvi À XL (36-40)                  | Livy               | ="2080710052" | 5 |
-    | Histoire Romaine                                             | Marcel Le Glay     | ="2130550010" | 5 |
-    | Histoire romaine, livres VI à X, la conquête de l'Italie     | Livy               | ="208070950X" | 5 |
-    | Belle du Seigneur                                            | Albert Cohen       | ="2070404021" | 1 |
+    | If This Is a Man • The Truce                             | Primo Levi         | ="0349100136" | 4 |
+    | The Hound of the Baskervilles                            | Arthur Conan Doyle | ="0451528018" | 4 |
+    | Dubliners                                                | James Joyce        | ="0192839993" | 4 |
+    | Plutarch's Lives: Volume I                               | Plutarch           | ="0375756760" | 3 |
+    | Histoire de l'art                                        | E.H. Gombrich      | ="0714892076" | 5 |
+    | Foucault's Pendulum                                      | Umberto Eco        | ="015603297X" | 3 |
+    | A Tale of Two Cities                                     | Charles Dickens    | ="0141439602" | 4 |
+    | Dragonflight (Dragonriders of Pern, #1)                  | Anne McCaffrey     | ="0345484266" | 4 |
+    | The White Dragon (Pern, #3)                              | Anne McCaffrey     | ="0345341678" | 4 |
+    | Histoire Romaine: Livres Xxxi à Xxxv                     | Livy               | ="2080709895" | 5 |
+    | The Light Fantastic (Discworld, #2; Rincewind #2)        | Terry Pratchett    | ="0061020702" | 4 |
+    | The Color of Magic (Discworld, #1; Rincewind, #1)        | Terry Pratchett    | ="0060855924" | 3 |
+    | Histoire Romaine: Livres Xxi à Xxv                       | Livy               | ="2080707469" | 5 |
+    | Histoire romaine, livres XLI à XLV                       | Livy               | ="2080710354" | 5 |
+    | Histoire romaine, livre I à V                            | Livy               | ="2080708406" | 5 |
+    | Histoire Romaine: Livres Xxvi à Xxx                      | Livy               | ="2080709402" | 5 |
+    | The Fall of the House of Usher                           | Edgar Allan Poe    | ="1594561796" | 3 |
+    | I, Claudius (Claudius, #1)                               | Robert Graves      | ="067972477X" | 4 |
+    | Of Mice and Men                                          | John Steinbeck     | ="0142000671" | 3 |
+    | Crime and Punishment                                     | Fyodor Dostoyevsky | ="0143058142" | 4 |
+    | Jane Eyre                                                | Charlotte Brontë   | ="0142437204" | 4 |
+    | armée romaine sous le Haut-Empire                        | Yann Le Bohec      | ="2708406337" | 5 |
+    | Histoire Romaine: Livres Xxxvi À XL (36-40)              | Livy               | ="2080710052" | 5 |
+    | Histoire Romaine                                         | Marcel Le Glay     | ="2130550010" | 5 |
+    | Histoire romaine, livres VI à X, la conquête de l'Italie | Livy               | ="208070950X" | 5 |
 * Good reads done for comparison
 ** READ Pratchett, T. (2005): The color of magic : a discworld novel
   :PROPERTIES:
