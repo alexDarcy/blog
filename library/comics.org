@@ -233,7 +233,11 @@
 **** READ Ultimate Extinction
 *** READ Ultimate X4
 *** READ Ultimate War (After 025)
-*** READ Ultimate X-Men 1-100
+*** READ Ultimate X-Men 1-97
+:PROPERTIES:
+:rating:   3.5
+:END:
+*** READ Ultimate X-Men 98-100 :ultimatum:
 :PROPERTIES:
 :rating:   3.5
 :END:
@@ -258,9 +262,13 @@
 :PROPERTIES:
 :rating:   3
 :END:
-*** READ Ultimatum Fantastic four
+*** READ Ultimate Fantastic four 58-60 :ultimatum:
 :PROPERTIES:
 :rating:   3
+:END:
+*** READ Ultimate Spiderman 129-133 :ultimatum:
+:PROPERTIES:
+:rating:   3.5
 :END:
 
 * Old Format
