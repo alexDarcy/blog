@@ -129,10 +129,11 @@ Au total: réessayer avec de la coriandre, hydrater plus la couche supérieur de
 **** Notes
 50min de cuisson à 180°
 5h de pousse le lendemain
-Brioche moelleuse et aérée mais goût au levain plutôt fort (plus brioche salée)
-Après avoir regardé d'autres recettes, les autres proportions sont identiques (même pour des recette de crêpes).
-Notamment le sel...
-=> Essayer avec moins de sel !
+Brioche moelleuse et aérée mais goût au levain un peu trop fort
+Après avoir regardé d'autres recettes :
+=> Augmenter le ratio farine/levain à 2/1 (au lieu de 0.5) pour le "starter"
+Exemple
+https://homegrownhappiness.co.nz/sourdough-brioche/
 ** RETRY Brownie
 2 recettes :
   + https://tasty.co/recipe/ultimate-brownies

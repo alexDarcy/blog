@@ -258,6 +258,10 @@
 :PROPERTIES:
 :rating:   3
 :END:
+*** READ Ultimatum Fantastic four
+:PROPERTIES:
+:rating:   3
+:END:
 
 * Old Format
 | Daredevil - The Man without Fear           |   |   4 | done |      |
