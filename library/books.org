@@ -94,6 +94,9 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
 À la maison
 ** TOREAD Odyssée
 Bibliothèque Verlaine Metz
+** TOREAD La pléiade
+BU :
+https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%C3%A8que%20de%20la%20Pl%C3%A9iade,AND&tab=Everything&search_scope=MyInst_and_CI&vid=33UDL_INST:UDL&mode=advanced
 ** ? Cahiers de sainte hélène
 ** ? César
 ** READ Cohen, A. (1998): Belle du seigneur
