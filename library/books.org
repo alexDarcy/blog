@@ -81,6 +81,11 @@ Intéressant pour l'intérprétation en histoire de l'art. Assez décevant en pr
   :PROPERTIES:
   :Custom_ID: Grousset1942
   :END:
+** READ Gombrich, E. H. (1995): The story of art :art:
+  :PROPERTIES:
+  :Custom_ID: gombrich95
+  :rating:   5
+  :END:
 * Science :science:others:
 ** TOREAD IPCC, 2019 : Summary for policymaker (draft) :climate:
 https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.pdf
@@ -99,11 +104,6 @@ BU :
 https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%C3%A8que%20de%20la%20Pl%C3%A9iade,AND&tab=Everything&search_scope=MyInst_and_CI&vid=33UDL_INST:UDL&mode=advanced
 ** ? Cahiers de sainte hélène
 ** ? César
-** READ Cohen, A. (1998): Belle du seigneur
-  :PROPERTIES:
-  :Custom_ID: cohen98_belle_seign
-  :rating:   1
-  :END:
 
 ** READ Doyle, A. (2001): The hound of the baskervilles
   :PROPERTIES:
@@ -254,6 +254,55 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
   :Custom_ID: liu16_death
   :rating:   4
   :END:
+** READ Pratchett, T. (2005): The color of magic : a discworld novel :fantasy:
+  :PROPERTIES:
+  :Custom_ID: pratchett05
+  :rating:   3
+  :END:
+** READ Pratchett, T. (1986): The light fantastic :fantasy:
+  :PROPERTIES:
+  :Custom_ID: pratchett86
+  :rating:   4
+  :END:
+** READ McCaffrey, A. (1978): The white dragon :fantasy:
+  :PROPERTIES:
+  :Custom_ID: mccaffrey78
+  :rating:   4
+  :END:
+** READ McCaffrey, A. (2005): Dragonflight :fantasy:
+  :PROPERTIES:
+  :Custom_ID: mccaffrey05_dragon
+  :rating:   4
+  :END:
+** READ Dickens, C. (2003): A tale of two cities
+  :PROPERTIES:
+  :Custom_ID: dickens03
+  :rating:   3.5
+  :END:
+** READ Eco, U. (1989): Foucault's pendulum
+  :PROPERTIES:
+  :Custom_ID: eco89_foucaul
+  :rating:   3
+  :END:
+** READ Eco, U. (1983): The name of the rose
+  :PROPERTIES:
+  :Custom_ID: eco83
+  :rating:   4
+  :END:
+
+
+
+** READ Plutarch,  (2001): Plutarch's lives :rome:
+  :PROPERTIES:
+  :Custom_ID: plutarch01_plutar
+  :rating:   3
+  :END:
+** Cohen, A. (1998): Belle du seigneur
+  :PROPERTIES:
+  :Custom_ID: cohen98_belle_seign
+  :rating:   1
+  :END:
+
 * Fanfic
 *** Harry potter
 **** READ I Am Also Thy Brother (Sacrifices arc, #7)
@@ -311,397 +360,70 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
 :year:     2005
 :END:
 * Goodreads
-| Title                                                                                                      | Author                       | ISBN          | Rating | Year Published |
-| The General of the Dead Army                                                                               | Ismail Kadare                | ="1566636841" |      0 |           2005 |
-| The Origins of Totalitarianism                                                                             | Hannah Arendt                | =""           |      0 |           1973 |
-| The Horseman on the Roof                                                                                   | Jean Giono                   | ="086547060X" |      0 |           1982 |
-| The Bald Soprano and Other Plays                                                                           | Eugène Ionesco               | ="0802130798" |      0 |           1994 |
-| Being and Nothingness                                                                                      | Jean-Paul Sartre             | ="0415278481" |      0 |           2003 |
-| Belle du Seigneur                                                                                          | Albert Cohen                 | ="2070404021" |      1 |           1998 |
-| If This Is a Man • The Truce                                                                               | Primo Levi                   | ="0349100136" |      4 |           1987 |
-| The Gulag Archipelago 1918–1956 (Abridged)                                                                 | Aleksandr Solzhenitsyn       | ="0060007761" |      0 |           2002 |
-| On the Road                                                                                                | Jack Kerouac                 | ="0140042598" |      0 |           1976 |
-| Le Grand Meaulnes                                                                                          | Alain-Fournier               | =""           |      0 |           1970 |
-| The Second Sex                                                                                             | Simone de Beauvoir           | ="0679724516" |      0 |           1989 |
-| Moravagine                                                                                                 | Blaise Cendrars              | ="1590170636" |      0 |           2004 |
-| Capital of Pain                                                                                            | Paul Éluard                  | ="0976844966" |      0 |           2006 |
-| Martin Eden                                                                                                | Jack London                  | =""           |      0 |           1994 |
-| The Theater and Its Double                                                                                 | Antonin Artaud               | ="0802150306" |      0 |           1994 |
-| The Order of Things: An Archaeology of the Human Sciences                                                  | Michel Foucault              | ="0679753354" |      0 |           1994 |
-| Gone with the Wind                                                                                         | Margaret Mitchell            | ="0446675539" |      0 |           1999 |
-| The Hound of the Baskervilles                                                                              | Arthur Conan Doyle           | ="0451528018" |      4 |           2001 |
-| The Diary of a Young Girl                                                                                  | Anne Frank                   | =""           |      0 |           1993 |
-| Waiting for Godot                                                                                          | Samuel Beckett               | =""           |      0 |           2011 |
-| A Room of One's Own                                                                                        | Virginia Woolf               | ="0141183535" |      0 |           2000 |
-| The Lord of the Rings (The Lord of the Rings, #1-3)                                                        | J.R.R. Tolkien               | =""           |      5 |           2005 |
-| Journey to the End of the Night                                                                            | Louis-Ferdinand Céline       | ="0811216543" |      0 |           2006 |
-| The Notebooks of Malte Laurids Brigge                                                                      | Rainer Maria Rilke           | ="0393308812" |      0 |           1992 |
-| The Man Without Qualities                                                                                  | Robert Musil                 | ="0330349422" |      0 |           1995 |
-| The Trial                                                                                                  | Franz Kafka                  | ="0099428644" |      0 |           2001 |
-| The Little Prince                                                                                          | Antoine de Saint-Exupéry     | =""           |      4 |           2000 |
-| Mistakes Were Made (But Not by Me): Why We Justify Foolish Beliefs, Bad Decisions, and Hurtful Acts        | Carol Tavris                 | ="0151010986" |      0 |           2007 |
-| History of the Peloponnesian War                                                                           | Thucydides                   | ="0140440399" |      0 |           1972 |
-| The Histories                                                                                              | Herodotus                    | ="0140449086" |      0 |           2003 |
-| Dubliners                                                                                                  | James Joyce                  | ="0192839993" |      4 |           2001 |
-| Plutarch's Lives: Volume I                                                                                 | Plutarch                     | ="0375756760" |      3 |           2001 |
-| Death's End (Remembrance of Earth’s Past #3)                                                               | Liu Cixin                    | ="0765377101" |      4 |           2016 |
-| Gödel, Escher, Bach: An Eternal Golden Braid                                                               | Douglas R. Hofstadter        | ="0465026567" |      0 |           1999 |
-| The Feynman Lectures on Physics                                                                            | Richard P. Feynman           | ="0805390456" |      0 |           2005 |
-| The Princeton Companion to Applied Mathematics                                                             | Nicholas J.  Higham          | ="0691150397" |      0 |           2015 |
-| Dragon Wing (The Death Gate Cycle, #1)                                                                     | Margaret Weis                | ="0553286390" |      0 |           1990 |
-| The Dark Forest (Remembrance of Earth’s Past, #2)                                                          | Liu Cixin                    | =""           |      4 |           2015 |
-| Histoire de l'art                                                                                          | E.H. Gombrich                | ="0714892076" |      5 |           2001 |
-| The Three-Body Problem (Remembrance of Earth’s Past #1)                                                    | Liu Cixin                    | ="0765377063" |      4 |           2014 |
-| Périclès - 2e éd.: La démocratie athénienne à l'épreuve du grand homme (Nouvelles biographies historiques) | Vincent Azoulay              | =""           |      0 |           2016 |
-| Foucault's Pendulum                                                                                        | Umberto Eco                  | ="015603297X" |      3 |           2007 |
-| Les Olmèques:  Des Origines Au Mythe                                                                       | Caterina Magni               | ="2020549913" |      4 |                |
-| A Tale of Two Cities                                                                                       | Charles Dickens              | ="0141439602" |      4 |           2003 |
-| The Princeton Companion to Mathematics                                                                     | Timothy Gowers               | ="0691118809" |      0 |           2008 |
-| Dragonquest (Pern, #2)                                                                                     | Anne McCaffrey               | =""           |      4 |           1986 |
-| Dragonflight (Dragonriders of Pern, #1)                                                                    | Anne McCaffrey               | ="0345484266" |      4 |           2005 |
-| The White Dragon (Pern, #3)                                                                                | Anne McCaffrey               | ="0345341678" |      4 |           1986 |
-| Sparte : Géographie, mythes et histoire                                                                    | Françoise Ruzé               | =""           |      0 |           2007 |
-| Le monde grec à l'époque classique - 3e éd. : 500-323 av. J.-C. (Histoire)                                 | Patrice Brun                 | =""           |      0 |           2016 |
-| Histoire Romaine: Livres Xxxi à Xxxv                                                                       | Livy                         | ="2080709895" |      5 |           1997 |
-| Les Aztèques À La Veille De La Conquête Espagnole                                                          | Jacques Soustelle            | ="2012794378" |      0 |           2008 |
-| Atlas Shrugged                                                                                             | Ayn Rand                     | ="0452011876" |      0 |           1999 |
-| Don Quixote                                                                                                | Miguel de Cervantes Saavedra | ="0142437239" |      0 |           2003 |
-| The Comanche Empire                                                                                        | Pekka Hämäläinen             | ="0300126549" |      0 |           2008 |
-| The Light Fantastic (Discworld, #2; Rincewind #2)                                                          | Terry Pratchett              | ="0061020702" |      4 |           2000 |
-| The Color of Magic (Discworld, #1; Rincewind, #1)                                                          | Terry Pratchett              | ="0060855924" |      3 |           2005 |
-| Le Prince de Nicolas Machiavel, Traduit & Commenta(c) (A0/00d.1684)                                        | Niccolò Machiavelli          | ="2012570852" |      0 |           2012 |
-| Lady Archimedes (Arithmancer, #2)                                                                          | White Squirrel               | =""           |      4 |           2018 |
-| The Arithmancer (Arithmancer, #1)                                                                          | White Squirrel               | =""           |      4 |           2015 |
-| A Dance with Dragons (A Song of Ice and Fire, #5)                                                          | George R.R. Martin           | =""           |      4 |           2011 |
-| A Feast for Crows (A Song of Ice and Fire, #4)                                                             | George R.R. Martin           | ="055358202X" |      3 |           2011 |
-| A Storm of Swords (A Song of Ice and Fire, #3)                                                             | George R.R. Martin           | ="055357342X" |      4 |           2003 |
-| A Clash of Kings  (A Song of Ice and Fire, #2)                                                             | George R.R. Martin           | ="0553381695" |      4 |           2002 |
-| A Game of Thrones (A Song of Ice and Fire, #1)                                                             | George R.R. Martin           | ="0553588486" |      4 |           2005 |
-| The Silmarillion: The Epic History of the Elves in The Lord of the Rings                                   | J.R.R. Tolkien               | =""           |      4 |           1984 |
-| The Hobbit, or There and Back Again                                                                        | J.R.R. Tolkien               | ="0618260307" |      3 |           2002 |
-| The Return of the King (The Lord of the Rings, #3)                                                         | J.R.R. Tolkien               | =""           |      5 |           2003 |
-| The Two Towers (The Lord of the Rings, #2)                                                                 | J.R.R. Tolkien               | ="0618346260" |      5 |           2003 |
-| The Fellowship of the Ring (The Lord of the Rings, #1)                                                     | J.R.R. Tolkien               | ="0618346252" |      5 |           2003 |
-| Harry Potter and the Half-Blood Prince (Harry Potter, #6)                                                  | J.K. Rowling                 | =""           |      4 |           2006 |
-| Harry Potter and the Order of the Phoenix (Harry Potter, #5)                                               | J.K. Rowling                 | ="0439358078" |      4 |           2004 |
-| Harry Potter and the Goblet of Fire (Harry Potter, #4)                                                     | J.K. Rowling                 | =""           |      4 |           2002 |
-| Harry Potter and the Deathly Hallows (Harry Potter, #7)                                                    | J.K. Rowling                 | ="0545010225" |      4 |           2007 |
-| Harry Potter and the Chamber of Secrets (Harry Potter, #2)                                                 | J.K. Rowling                 | ="0439064864" |      4 |           1999 |
-| Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)                                                | J.K. Rowling                 | ="043965548X" |      4 |           2004 |
-| Harry Potter and the Sorcerer's Stone (Harry Potter, #1)                                                   | J.K. Rowling                 | =""           |      4 |           2003 |
-| Une Histoire Du Monde Aux Temps Modernes                                                                   | Jean Delumeau                | ="2035055350" |      4 |           2005 |
-| Histoire de la Chine                                                                                       | René Grousset                | ="2744105007" |      5 |                |
-| Frankenstein                                                                                               | Mary Wollstonecraft Shelley  | =""           |      0 |           2018 |
-| Candide                                                                                                    | Voltaire                     | ="0486266893" |      4 |           1991 |
-| Histoire Romaine: Livres Xxi à Xxv                                                                         | Livy                         | ="2080707469" |      5 |           1993 |
-| Histoire romaine, livres XLI à XLV                                                                         | Livy                         | ="2080710354" |      5 |                |
-| Histoire romaine, livre I à V                                                                              | Livy                         | ="2080708406" |      5 |                |
-| Histoire Romaine: Livres Xxvi à Xxx                                                                        | Livy                         | ="2080709402" |      5 |           1994 |
-| The Silver Spike (The Chronicles of the Black Company, #3.5)                                               | Glen Cook                    | ="0812502205" |      3 |           1989 |
-| Dreams of Steel (The Chronicles of the Black Company, #5)                                                  | Glen Cook                    | ="0812502108" |      3 |           1990 |
-| Shadow Games (The Chronicles of the Black Company, #4)                                                     | Glen Cook                    | ="0812533828" |      3 |           1989 |
-| The White Rose (The Chronicles of the Black Company, #3)                                                   | Glen Cook                    | ="0812508440" |      3 |           1985 |
-| Shadows Linger (The Chronicles of the Black Company, #2)                                                   | Glen Cook                    | ="0812508424" |      3 |           1990 |
-| The Black Company (The Chronicles of the Black Company, #1)                                                | Glen Cook                    | =""           |      4 |           1992 |
-| The Time Machine                                                                                           | H.G. Wells                   | =""           |      3 |           2002 |
-| The Fall of the House of Usher                                                                             | Edgar Allan Poe              | ="1594561796" |      3 |           2004 |
-| The War of the Worlds                                                                                      | H.G. Wells                   | ="0375759239" |      4 |           2002 |
-| Cyrano de Bergerac                                                                                         | Edmond Rostand               | ="0451528921" |      5 |           2003 |
-| At the Mountains of Madness                                                                                | H.P. Lovecraft               | ="0812974417" |      4 |           2005 |
-| Illusions: The Adventures of a Reluctant Messiah                                                           | Richard Bach                 | ="0099427869" |      4 |           2001 |
-| Germinal                                                                                                   | Émile Zola                   | ="0140447423" |      5 |           2004 |
-| Darconville’s Cat                                                                                          | Alexander Theroux            | ="0805043659" |      0 |           1996 |
-| The Tunnel                                                                                                 | William H. Gass              | ="1564782131" |      0 |           1999 |
-| Native Son                                                                                                 | Richard Wright               | ="0099282933" |      0 |           2008 |
-| Middlesex                                                                                                  | Jeffrey Eugenides            | ="0312422156" |      0 |           2003 |
-| The Death of Virgil                                                                                        | Hermann Broch                | ="0679755489" |      0 |           1995 |
-| 1919 (U.S.A., #2)                                                                                          | John Dos Passos              | ="0618056823" |      0 |           2000 |
-| Humboldt's Gift                                                                                            | Saul Bellow                  | ="0140189440" |      0 |           1996 |
-| JR                                                                                                         | William Gaddis               | ="0140187073" |      0 |           1993 |
-| Life and Fate                                                                                              | Vasily Grossman              | ="1590172019" |      0 |           2006 |
-| The Tenth Man                                                                                              | Graham Greene                | ="0671019090" |      0 |           1998 |
-| Mason & Dixon                                                                                              | Thomas Pynchon               | ="0312423209" |      0 |           2004 |
-| The Vicar of Wakefield                                                                                     | Oliver Goldsmith             | ="0192805126" |      0 |           2006 |
-| The Recognitions                                                                                           | William Gaddis               | ="0140187081" |      0 |           1993 |
-| The Tale of Genji                                                                                          | Murasaki Shikibu             | =""           |      0 |           2011 |
-| Finnegans Wake                                                                                             | James Joyce                  | ="0141181265" |      0 |           1999 |
-| Therese Raquin                                                                                             | Émile Zola                   | =""           |      0 |           2008 |
-| The Sot-Weed Factor                                                                                        | John Barth                   | ="0385240880" |      0 |           1987 |
-| The Forsyte Saga (The Forsyte Chronicles, #1-3)                                                            | John Galsworthy              | ="0192838628" |      0 |           1999 |
-| Bridge of Sighs                                                                                            | Richard Russo                | ="0375414959" |      0 |           2007 |
-| A House for Mr Biswas                                                                                      | V.S. Naipaul                 | ="0330487191" |      0 |           2003 |
-| The Stranger                                                                                               | Albert Camus                 | =""           |      0 |           1989 |
-| The Alexandria Quartet  (The Alexandria Quartet #1-4)                                                      | Lawrence Durrell             | ="0140153179" |      0 |           1991 |
-| Lost Illusions (La Comédie Humaine)                                                                        | Honoré de Balzac             | ="1406506583" |      0 |           2006 |
-| Rabbit Angstrom: The Four Novels                                                                           | John Updike                  | ="0679444599" |      0 |           1995 |
-| V.                                                                                                         | Thomas Pynchon               | ="2020418770" |      0 |           2001 |
-| Death Comes for the Archbishop                                                                             | Willa Cather                 | ="1442939885" |      0 |           2009 |
-| An American Tragedy                                                                                        | Theodore Dreiser             | ="0451527704" |      0 |           2000 |
-| The Adventures of Augie March                                                                              | Saul Bellow                  | ="0143039571" |      0 |           2006 |
-| Cat's Eye                                                                                                  | Margaret Atwood              | ="0385491026" |      0 |           1998 |
-| Gilead                                                                                                     | Marilynne Robinson           | ="031242440X" |      0 |           2006 |
-| Cancer Ward                                                                                                | Aleksandr Solzhenitsyn       | ="0099575515" |      0 |           2003 |
-| The History of Tom Jones, a Foundling                                                                      | Henry Fielding               | ="0140436227" |      0 |           2005 |
-| The Life and Opinions of Tristram Shandy, Gentleman                                                        | Laurence Sterne              | ="0141439777" |      0 |           2003 |
-| The Maltese Falcon, The Thin Man, Red Harvest                                                              | Dashiell Hammett             | ="0375411259" |      0 |           2000 |
-| Tropic of Cancer                                                                                           | Henry Miller                 | ="0802131786" |      0 |           1994 |
-| Dead Souls                                                                                                 | Nikolai Gogol                | ="0140448071" |      0 |           2004 |
-| The Magic Mountain                                                                                         | Thomas Mann                  | ="0679772871" |      0 |           1996 |
-| The House of Mirth                                                                                         | Edith Wharton                | ="1844082938" |      0 |           2006 |
-| Pale Fire                                                                                                  | Vladimir Nabokov             | ="0141185260" |      0 |           2000 |
-| To Kill a Mockingbird                                                                                      | Harper Lee                   | =""           |      0 |           2006 |
-| Ficciones                                                                                                  | Jorge Luis Borges            | ="0802130305" |      0 |           1994 |
-| Vanity Fair                                                                                                | William Makepeace Thackeray  | ="0141439831" |      0 |           2003 |
-| All the King's Men                                                                                         | Robert Penn Warren           | ="0156004801" |      0 |           1996 |
-| Light in August                                                                                            | William Faulkner             | ="0679732268" |      0 |           1991 |
-| The Tin Drum                                                                                               | Günter Grass                 | ="0099483505" |      0 |           2005 |
-| Middlemarch/Silas Marner/Amos Barton                                                                       | George Eliot                 | ="1402718853" |      0 |           2004 |
-| My Ántonia (Great Plains Trilogy, #3)                                                                      | Willa Cather                 | ="1583485090" |      0 |           2000 |
-| Infinite Jest                                                                                              | David Foster Wallace         | ="0316921173" |      0 |           2005 |
-| In Search of Lost Time (6 Volumes)                                                                         | Marcel Proust                | ="0812969642" |      0 |           2003 |
-| Their Eyes Were Watching God                                                                               | Zora Neale Hurston           | ="0061120065" |      0 |           2006 |
-| Brideshead Revisited                                                                                       | Evelyn Waugh                 | ="0316926345" |      0 |           1982 |
-| A Confederacy of Dunces                                                                                    | John Kennedy Toole           | ="0802130208" |      0 |           1994 |
-| Blindness                                                                                                  | José Saramago                | ="0156007754" |      0 |           1999 |
-| Blood Meridian, or the Evening Redness in the West                                                         | Cormac McCarthy              | =""           |      0 |           1992 |
-| The Awakening                                                                                              | Kate Chopin                  | ="0543898083" |      0 |           2006 |
-| I, Claudius (Claudius, #1)                                                                                 | Robert Graves                | ="067972477X" |      4 |           1989 |
-| The Heart Is a Lonely Hunter                                                                               | Carson McCullers             | ="0618084746" |      0 |           2000 |
-| Things Fall Apart (The African Trilogy, #1)                                                                | Chinua Achebe                | =""           |      0 |           1994 |
-| The Plague                                                                                                 | Albert Camus                 | =""           |      4 |           1991 |
-| Invisible Man                                                                                              | Ralph Ellison                | =""           |      0 |           1995 |
-| For Whom the Bell Tolls                                                                                    | Ernest Hemingway             | =""           |      0 |           1995 |
-| The Catcher in the Rye                                                                                     | J.D. Salinger                | ="0316769177" |      0 |           2001 |
-| To the Lighthouse                                                                                          | Virginia Woolf               | ="140679239X" |      0 |           1989 |
-| David Copperfield                                                                                          | Charles Dickens              | =""           |      0 |           2004 |
-| The Master and Margarita                                                                                   | Mikhail Bulgakov             | ="0679760806" |      0 |           1996 |
-| The Scarlet Letter                                                                                         | Nathaniel Hawthorne          | ="0142437263" |      0 |           2003 |
-| Ulysses                                                                                                    | James Joyce                  | =""           |      0 |           1990 |
-| All Quiet on the Western Front                                                                             | Erich Maria Remarque         | ="0449213943" |      0 |           1987 |
-| The Sound and the Fury                                                                                     | William Faulkner             | =""           |      0 |           1990 |
-| The Metamorphosis and Other Stories                                                                        | Franz Kafka                  | ="1593080298" |      0 |           2003 |
-| East of Eden                                                                                               | John Steinbeck               | ="0142000655" |      0 |           2002 |
-| Moby-Dick or, the Whale                                                                                    | Herman Melville              | ="0142437247" |      0 |           2003 |
-| War and Peace                                                                                              | Leo Tolstoy                  | =""           |      0 |           1998 |
-| The Old Man and the Sea                                                                                    | Ernest Hemingway             | ="0684830493" |      0 |           1996 |
-| Slaughterhouse-Five                                                                                        | Kurt Vonnegut Jr.            | ="0385333846" |      0 |           1999 |
-| Catch-22 (Catch-22, #1)                                                                                    | Joseph Heller                | ="0684833395" |      0 |           2004 |
-| The Grapes of Wrath                                                                                        | John Steinbeck               | =""           |      0 |           2002 |
-| Anna Karenina                                                                                              | Leo Tolstoy                  | ="0451528611" |      0 |           2002 |
-| The Brothers Karamazov                                                                                     | Fyodor Dostoyevsky           | ="0374528373" |      0 |           2002 |
-| One Hundred Years of Solitude                                                                              | Gabriel García Márquez       | =""           |      0 |           2003 |
-| Brave New World                                                                                            | Aldous Huxley                | ="0060929871" |      0 |           1998 |
-| Of Mice and Men                                                                                            | John Steinbeck               | ="0142000671" |      3 |           2002 |
-| The Count of Monte Cristo                                                                                  | Alexandre Dumas              | ="0140449264" |      0 |           2003 |
-| The Adventures of Huckleberry Finn                                                                         | Mark Twain                   | ="0142437174" |      0 |           2002 |
-| Wuthering Heights                                                                                          | Emily Brontë                 | ="0393978893" |      0 |           2002 |
-| The Great Gatsby                                                                                           | F. Scott Fitzgerald          | =""           |      0 |           2004 |
-| 1984                                                                                                       | George Orwell                | =""           |      0 |           1950 |
-| Lolita                                                                                                     | Vladimir Nabokov             | =""           |      3 |           1995 |
-| Crime and Punishment                                                                                       | Fyodor Dostoyevsky           | ="0143058142" |      4 |           2002 |
-| Jane Eyre                                                                                                  | Charlotte Brontë             | ="0142437204" |      4 |           2003 |
-| Pride and Prejudice                                                                                        | Jane Austen                  | =""           |      5 |           2000 |
-| armée romaine sous le Haut-Empire                                                                          | Yann Le Bohec                | ="2708406337" |      5 |           2002 |
-| Histoire Romaine: Livres Xxxvi À XL (36-40)                                                                | Livy                         | ="2080710052" |      5 |           1998 |
-| Histoire Romaine                                                                                           | Marcel Le Glay               | ="2130550010" |      5 |           2011 |
-| Achilles in Vietnam: Combat Trauma and the Undoing of Character                                            | Jonathan Shay                | ="0684813211" |      0 |           1995 |
-| Histoire romaine, livres VI à X, la conquête de l'Italie                                                   | Livy                         | ="208070950X" |      5 |                |
-
-| Title                                                                                                      | Author                       | ISBN          | Rating | Year Published |
-| The General of the Dead Army                                                                               | Ismail Kadare                | ="1566636841" |      0 |           2005 |
-| The Origins of Totalitarianism                                                                             | Hannah Arendt                | =""           |      0 |           1973 |
-| The Horseman on the Roof                                                                                   | Jean Giono                   | ="086547060X" |      0 |           1982 |
-| The Bald Soprano and Other Plays                                                                           | Eugène Ionesco               | ="0802130798" |      0 |           1994 |
-| Being and Nothingness                                                                                      | Jean-Paul Sartre             | ="0415278481" |      0 |           2003 |
-| Belle du Seigneur                                                                                          | Albert Cohen                 | ="2070404021" |      1 |           1998 |
-| If This Is a Man • The Truce                                                                               | Primo Levi                   | ="0349100136" |      4 |           1987 |
-| The Gulag Archipelago 1918–1956 (Abridged)                                                                 | Aleksandr Solzhenitsyn       | ="0060007761" |      0 |           2002 |
-| On the Road                                                                                                | Jack Kerouac                 | ="0140042598" |      0 |           1976 |
-| Le Grand Meaulnes                                                                                          | Alain-Fournier               | =""           |      0 |           1970 |
-| The Second Sex                                                                                             | Simone de Beauvoir           | ="0679724516" |      0 |           1989 |
-| Moravagine                                                                                                 | Blaise Cendrars              | ="1590170636" |      0 |           2004 |
-| Capital of Pain                                                                                            | Paul Éluard                  | ="0976844966" |      0 |           2006 |
-| Martin Eden                                                                                                | Jack London                  | =""           |      0 |           1994 |
-| The Theater and Its Double                                                                                 | Antonin Artaud               | ="0802150306" |      0 |           1994 |
-| The Order of Things: An Archaeology of the Human Sciences                                                  | Michel Foucault              | ="0679753354" |      0 |           1994 |
-| Gone with the Wind                                                                                         | Margaret Mitchell            | ="0446675539" |      0 |           1999 |
-| The Hound of the Baskervilles                                                                              | Arthur Conan Doyle           | ="0451528018" |      4 |           2001 |
-| The Diary of a Young Girl                                                                                  | Anne Frank                   | =""           |      0 |           1993 |
-| Waiting for Godot                                                                                          | Samuel Beckett               | =""           |      0 |           2011 |
-| A Room of One's Own                                                                                        | Virginia Woolf               | ="0141183535" |      0 |           2000 |
-| The Lord of the Rings (The Lord of the Rings, #1-3)                                                        | J.R.R. Tolkien               | =""           |      5 |           2005 |
-| Journey to the End of the Night                                                                            | Louis-Ferdinand Céline       | ="0811216543" |      0 |           2006 |
-| The Notebooks of Malte Laurids Brigge                                                                      | Rainer Maria Rilke           | ="0393308812" |      0 |           1992 |
-| The Man Without Qualities                                                                                  | Robert Musil                 | ="0330349422" |      0 |           1995 |
-| The Trial                                                                                                  | Franz Kafka                  | ="0099428644" |      0 |           2001 |
-| The Little Prince                                                                                          | Antoine de Saint-Exupéry     | =""           |      4 |           2000 |
-| Mistakes Were Made (But Not by Me): Why We Justify Foolish Beliefs, Bad Decisions, and Hurtful Acts        | Carol Tavris                 | ="0151010986" |      0 |           2007 |
-| History of the Peloponnesian War                                                                           | Thucydides                   | ="0140440399" |      0 |           1972 |
-| The Histories                                                                                              | Herodotus                    | ="0140449086" |      0 |           2003 |
-| Dubliners                                                                                                  | James Joyce                  | ="0192839993" |      4 |           2001 |
-| Plutarch's Lives: Volume I                                                                                 | Plutarch                     | ="0375756760" |      3 |           2001 |
-| Death's End (Remembrance of Earth’s Past #3)                                                               | Liu Cixin                    | ="0765377101" |      4 |           2016 |
-| Gödel, Escher, Bach: An Eternal Golden Braid                                                               | Douglas R. Hofstadter        | ="0465026567" |      0 |           1999 |
-| The Feynman Lectures on Physics                                                                            | Richard P. Feynman           | ="0805390456" |      0 |           2005 |
-| The Princeton Companion to Applied Mathematics                                                             | Nicholas J.  Higham          | ="0691150397" |      0 |           2015 |
-| Dragon Wing (The Death Gate Cycle, #1)                                                                     | Margaret Weis                | ="0553286390" |      0 |           1990 |
-| The Dark Forest (Remembrance of Earth’s Past, #2)                                                          | Liu Cixin                    | =""           |      4 |           2015 |
-| Histoire de l'art                                                                                          | E.H. Gombrich                | ="0714892076" |      5 |           2001 |
-| The Three-Body Problem (Remembrance of Earth’s Past #1)                                                    | Liu Cixin                    | ="0765377063" |      4 |           2014 |
-| Périclès - 2e éd.: La démocratie athénienne à l'épreuve du grand homme (Nouvelles biographies historiques) | Vincent Azoulay              | =""           |      0 |           2016 |
-| Foucault's Pendulum                                                                                        | Umberto Eco                  | ="015603297X" |      3 |           2007 |
-| Les Olmèques:  Des Origines Au Mythe                                                                       | Caterina Magni               | ="2020549913" |      4 |                |
-| A Tale of Two Cities                                                                                       | Charles Dickens              | ="0141439602" |      4 |           2003 |
-| The Princeton Companion to Mathematics                                                                     | Timothy Gowers               | ="0691118809" |      0 |           2008 |
-| Dragonquest (Pern, #2)                                                                                     | Anne McCaffrey               | =""           |      4 |           1986 |
-| Dragonflight (Dragonriders of Pern, #1)                                                                    | Anne McCaffrey               | ="0345484266" |      4 |           2005 |
-| The White Dragon (Pern, #3)                                                                                | Anne McCaffrey               | ="0345341678" |      4 |           1986 |
-| Sparte : Géographie, mythes et histoire                                                                    | Françoise Ruzé               | =""           |      0 |           2007 |
-| Le monde grec à l'époque classique - 3e éd. : 500-323 av. J.-C. (Histoire)                                 | Patrice Brun                 | =""           |      0 |           2016 |
-| Histoire Romaine: Livres Xxxi à Xxxv                                                                       | Livy                         | ="2080709895" |      5 |           1997 |
-| Les Aztèques À La Veille De La Conquête Espagnole                                                          | Jacques Soustelle            | ="2012794378" |      0 |           2008 |
-| Atlas Shrugged                                                                                             | Ayn Rand                     | ="0452011876" |      0 |           1999 |
-| Don Quixote                                                                                                | Miguel de Cervantes Saavedra | ="0142437239" |      0 |           2003 |
-| The Comanche Empire                                                                                        | Pekka Hämäläinen             | ="0300126549" |      0 |           2008 |
-| The Light Fantastic (Discworld, #2; Rincewind #2)                                                          | Terry Pratchett              | ="0061020702" |      4 |           2000 |
-| The Color of Magic (Discworld, #1; Rincewind, #1)                                                          | Terry Pratchett              | ="0060855924" |      3 |           2005 |
-| Le Prince de Nicolas Machiavel, Traduit & Commenta(c) (A0/00d.1684)                                        | Niccolò Machiavelli          | ="2012570852" |      0 |           2012 |
-| Lady Archimedes (Arithmancer, #2)                                                                          | White Squirrel               | =""           |      4 |           2018 |
-| The Arithmancer (Arithmancer, #1)                                                                          | White Squirrel               | =""           |      4 |           2015 |
-| A Dance with Dragons (A Song of Ice and Fire, #5)                                                          | George R.R. Martin           | =""           |      4 |           2011 |
-| A Feast for Crows (A Song of Ice and Fire, #4)                                                             | George R.R. Martin           | ="055358202X" |      3 |           2011 |
-| A Storm of Swords (A Song of Ice and Fire, #3)                                                             | George R.R. Martin           | ="055357342X" |      4 |           2003 |
-| A Clash of Kings  (A Song of Ice and Fire, #2)                                                             | George R.R. Martin           | ="0553381695" |      4 |           2002 |
-| A Game of Thrones (A Song of Ice and Fire, #1)                                                             | George R.R. Martin           | ="0553588486" |      4 |           2005 |
-| The Silmarillion: The Epic History of the Elves in The Lord of the Rings                                   | J.R.R. Tolkien               | =""           |      4 |           1984 |
-| The Hobbit, or There and Back Again                                                                        | J.R.R. Tolkien               | ="0618260307" |      3 |           2002 |
-| The Return of the King (The Lord of the Rings, #3)                                                         | J.R.R. Tolkien               | =""           |      5 |           2003 |
-| The Two Towers (The Lord of the Rings, #2)                                                                 | J.R.R. Tolkien               | ="0618346260" |      5 |           2003 |
-| The Fellowship of the Ring (The Lord of the Rings, #1)                                                     | J.R.R. Tolkien               | ="0618346252" |      5 |           2003 |
-| Harry Potter and the Half-Blood Prince (Harry Potter, #6)                                                  | J.K. Rowling                 | =""           |      4 |           2006 |
-| Harry Potter and the Order of the Phoenix (Harry Potter, #5)                                               | J.K. Rowling                 | ="0439358078" |      4 |           2004 |
-| Harry Potter and the Goblet of Fire (Harry Potter, #4)                                                     | J.K. Rowling                 | =""           |      4 |           2002 |
-| Harry Potter and the Deathly Hallows (Harry Potter, #7)                                                    | J.K. Rowling                 | ="0545010225" |      4 |           2007 |
-| Harry Potter and the Chamber of Secrets (Harry Potter, #2)                                                 | J.K. Rowling                 | ="0439064864" |      4 |           1999 |
-| Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)                                                | J.K. Rowling                 | ="043965548X" |      4 |           2004 |
-| Harry Potter and the Sorcerer's Stone (Harry Potter, #1)                                                   | J.K. Rowling                 | =""           |      4 |           2003 |
-| Une Histoire Du Monde Aux Temps Modernes                                                                   | Jean Delumeau                | ="2035055350" |      4 |           2005 |
-| Histoire de la Chine                                                                                       | René Grousset                | ="2744105007" |      5 |                |
-| Frankenstein                                                                                               | Mary Wollstonecraft Shelley  | =""           |      0 |           2018 |
-| Candide                                                                                                    | Voltaire                     | ="0486266893" |      4 |           1991 |
-| Histoire Romaine: Livres Xxi à Xxv                                                                         | Livy                         | ="2080707469" |      5 |           1993 |
-| Histoire romaine, livres XLI à XLV                                                                         | Livy                         | ="2080710354" |      5 |                |
-| Histoire romaine, livre I à V                                                                              | Livy                         | ="2080708406" |      5 |                |
-| Histoire Romaine: Livres Xxvi à Xxx                                                                        | Livy                         | ="2080709402" |      5 |           1994 |
-| The Silver Spike (The Chronicles of the Black Company, #3.5)                                               | Glen Cook                    | ="0812502205" |      3 |           1989 |
-| Dreams of Steel (The Chronicles of the Black Company, #5)                                                  | Glen Cook                    | ="0812502108" |      3 |           1990 |
-| Shadow Games (The Chronicles of the Black Company, #4)                                                     | Glen Cook                    | ="0812533828" |      3 |           1989 |
-| The White Rose (The Chronicles of the Black Company, #3)                                                   | Glen Cook                    | ="0812508440" |      3 |           1985 |
-| Shadows Linger (The Chronicles of the Black Company, #2)                                                   | Glen Cook                    | ="0812508424" |      3 |           1990 |
-| The Black Company (The Chronicles of the Black Company, #1)                                                | Glen Cook                    | =""           |      4 |           1992 |
-| The Time Machine                                                                                           | H.G. Wells                   | =""           |      3 |           2002 |
-| The Fall of the House of Usher                                                                             | Edgar Allan Poe              | ="1594561796" |      3 |           2004 |
-| The War of the Worlds                                                                                      | H.G. Wells                   | ="0375759239" |      4 |           2002 |
-| Cyrano de Bergerac                                                                                         | Edmond Rostand               | ="0451528921" |      5 |           2003 |
-| At the Mountains of Madness                                                                                | H.P. Lovecraft               | ="0812974417" |      4 |           2005 |
-| Illusions: The Adventures of a Reluctant Messiah                                                           | Richard Bach                 | ="0099427869" |      4 |           2001 |
-| Germinal                                                                                                   | Émile Zola                   | ="0140447423" |      5 |           2004 |
-| Darconville’s Cat                                                                                          | Alexander Theroux            | ="0805043659" |      0 |           1996 |
-| The Tunnel                                                                                                 | William H. Gass              | ="1564782131" |      0 |           1999 |
-| Native Son                                                                                                 | Richard Wright               | ="0099282933" |      0 |           2008 |
-| Middlesex                                                                                                  | Jeffrey Eugenides            | ="0312422156" |      0 |           2003 |
-| The Death of Virgil                                                                                        | Hermann Broch                | ="0679755489" |      0 |           1995 |
-| 1919 (U.S.A., #2)                                                                                          | John Dos Passos              | ="0618056823" |      0 |           2000 |
-| Humboldt's Gift                                                                                            | Saul Bellow                  | ="0140189440" |      0 |           1996 |
-| JR                                                                                                         | William Gaddis               | ="0140187073" |      0 |           1993 |
-| Life and Fate                                                                                              | Vasily Grossman              | ="1590172019" |      0 |           2006 |
-| The Tenth Man                                                                                              | Graham Greene                | ="0671019090" |      0 |           1998 |
-| Mason & Dixon                                                                                              | Thomas Pynchon               | ="0312423209" |      0 |           2004 |
-| The Vicar of Wakefield                                                                                     | Oliver Goldsmith             | ="0192805126" |      0 |           2006 |
-| The Recognitions                                                                                           | William Gaddis               | ="0140187081" |      0 |           1993 |
-| The Tale of Genji                                                                                          | Murasaki Shikibu             | =""           |      0 |           2011 |
-| Finnegans Wake                                                                                             | James Joyce                  | ="0141181265" |      0 |           1999 |
-| Therese Raquin                                                                                             | Émile Zola                   | =""           |      0 |           2008 |
-| The Sot-Weed Factor                                                                                        | John Barth                   | ="0385240880" |      0 |           1987 |
-| The Forsyte Saga (The Forsyte Chronicles, #1-3)                                                            | John Galsworthy              | ="0192838628" |      0 |           1999 |
-| Bridge of Sighs                                                                                            | Richard Russo                | ="0375414959" |      0 |           2007 |
-| A House for Mr Biswas                                                                                      | V.S. Naipaul                 | ="0330487191" |      0 |           2003 |
-| The Stranger                                                                                               | Albert Camus                 | =""           |      0 |           1989 |
-| The Alexandria Quartet  (The Alexandria Quartet #1-4)                                                      | Lawrence Durrell             | ="0140153179" |      0 |           1991 |
-| Lost Illusions (La Comédie Humaine)                                                                        | Honoré de Balzac             | ="1406506583" |      0 |           2006 |
-| Rabbit Angstrom: The Four Novels                                                                           | John Updike                  | ="0679444599" |      0 |           1995 |
-| V.                                                                                                         | Thomas Pynchon               | ="2020418770" |      0 |           2001 |
-| Death Comes for the Archbishop                                                                             | Willa Cather                 | ="1442939885" |      0 |           2009 |
-| An American Tragedy                                                                                        | Theodore Dreiser             | ="0451527704" |      0 |           2000 |
-| The Adventures of Augie March                                                                              | Saul Bellow                  | ="0143039571" |      0 |           2006 |
-| Cat's Eye                                                                                                  | Margaret Atwood              | ="0385491026" |      0 |           1998 |
-| Gilead                                                                                                     | Marilynne Robinson           | ="031242440X" |      0 |           2006 |
-| Cancer Ward                                                                                                | Aleksandr Solzhenitsyn       | ="0099575515" |      0 |           2003 |
-| The History of Tom Jones, a Foundling                                                                      | Henry Fielding               | ="0140436227" |      0 |           2005 |
-| The Life and Opinions of Tristram Shandy, Gentleman                                                        | Laurence Sterne              | ="0141439777" |      0 |           2003 |
-| The Maltese Falcon, The Thin Man, Red Harvest                                                              | Dashiell Hammett             | ="0375411259" |      0 |           2000 |
-| Tropic of Cancer                                                                                           | Henry Miller                 | ="0802131786" |      0 |           1994 |
-| Dead Souls                                                                                                 | Nikolai Gogol                | ="0140448071" |      0 |           2004 |
-| The Magic Mountain                                                                                         | Thomas Mann                  | ="0679772871" |      0 |           1996 |
-| The House of Mirth                                                                                         | Edith Wharton                | ="1844082938" |      0 |           2006 |
-| Pale Fire                                                                                                  | Vladimir Nabokov             | ="0141185260" |      0 |           2000 |
-| To Kill a Mockingbird                                                                                      | Harper Lee                   | =""           |      0 |           2006 |
-| Ficciones                                                                                                  | Jorge Luis Borges            | ="0802130305" |      0 |           1994 |
-| Vanity Fair                                                                                                | William Makepeace Thackeray  | ="0141439831" |      0 |           2003 |
-| All the King's Men                                                                                         | Robert Penn Warren           | ="0156004801" |      0 |           1996 |
-| Light in August                                                                                            | William Faulkner             | ="0679732268" |      0 |           1991 |
-| The Tin Drum                                                                                               | Günter Grass                 | ="0099483505" |      0 |           2005 |
-| Middlemarch/Silas Marner/Amos Barton                                                                       | George Eliot                 | ="1402718853" |      0 |           2004 |
-| My Ántonia (Great Plains Trilogy, #3)                                                                      | Willa Cather                 | ="1583485090" |      0 |           2000 |
-| Infinite Jest                                                                                              | David Foster Wallace         | ="0316921173" |      0 |           2005 |
-| In Search of Lost Time (6 Volumes)                                                                         | Marcel Proust                | ="0812969642" |      0 |           2003 |
-| Their Eyes Were Watching God                                                                               | Zora Neale Hurston           | ="0061120065" |      0 |           2006 |
-| Brideshead Revisited                                                                                       | Evelyn Waugh                 | ="0316926345" |      0 |           1982 |
-| A Confederacy of Dunces                                                                                    | John Kennedy Toole           | ="0802130208" |      0 |           1994 |
-| Blindness                                                                                                  | José Saramago                | ="0156007754" |      0 |           1999 |
-| Blood Meridian, or the Evening Redness in the West                                                         | Cormac McCarthy              | =""           |      0 |           1992 |
-| The Awakening                                                                                              | Kate Chopin                  | ="0543898083" |      0 |           2006 |
-| I, Claudius (Claudius, #1)                                                                                 | Robert Graves                | ="067972477X" |      4 |           1989 |
-| The Heart Is a Lonely Hunter                                                                               | Carson McCullers             | ="0618084746" |      0 |           2000 |
-| Things Fall Apart (The African Trilogy, #1)                                                                | Chinua Achebe                | =""           |      0 |           1994 |
-| The Plague                                                                                                 | Albert Camus                 | =""           |      4 |           1991 |
-| Invisible Man                                                                                              | Ralph Ellison                | =""           |      0 |           1995 |
-| For Whom the Bell Tolls                                                                                    | Ernest Hemingway             | =""           |      0 |           1995 |
-| The Catcher in the Rye                                                                                     | J.D. Salinger                | ="0316769177" |      0 |           2001 |
-| To the Lighthouse                                                                                          | Virginia Woolf               | ="140679239X" |      0 |           1989 |
-| David Copperfield                                                                                          | Charles Dickens              | =""           |      0 |           2004 |
-| The Master and Margarita                                                                                   | Mikhail Bulgakov             | ="0679760806" |      0 |           1996 |
-| The Scarlet Letter                                                                                         | Nathaniel Hawthorne          | ="0142437263" |      0 |           2003 |
-| Ulysses                                                                                                    | James Joyce                  | =""           |      0 |           1990 |
-| All Quiet on the Western Front                                                                             | Erich Maria Remarque         | ="0449213943" |      0 |           1987 |
-| The Sound and the Fury                                                                                     | William Faulkner             | =""           |      0 |           1990 |
-| The Metamorphosis and Other Stories                                                                        | Franz Kafka                  | ="1593080298" |      0 |           2003 |
-| East of Eden                                                                                               | John Steinbeck               | ="0142000655" |      0 |           2002 |
-| Moby-Dick or, the Whale                                                                                    | Herman Melville              | ="0142437247" |      0 |           2003 |
-| War and Peace                                                                                              | Leo Tolstoy                  | =""           |      0 |           1998 |
-| The Old Man and the Sea                                                                                    | Ernest Hemingway             | ="0684830493" |      0 |           1996 |
-| Slaughterhouse-Five                                                                                        | Kurt Vonnegut Jr.            | ="0385333846" |      0 |           1999 |
-| Catch-22 (Catch-22, #1)                                                                                    | Joseph Heller                | ="0684833395" |      0 |           2004 |
-| The Grapes of Wrath                                                                                        | John Steinbeck               | =""           |      0 |           2002 |
-| Anna Karenina                                                                                              | Leo Tolstoy                  | ="0451528611" |      0 |           2002 |
-| The Brothers Karamazov                                                                                     | Fyodor Dostoyevsky           | ="0374528373" |      0 |           2002 |
-| One Hundred Years of Solitude                                                                              | Gabriel García Márquez       | =""           |      0 |           2003 |
-| Brave New World                                                                                            | Aldous Huxley                | ="0060929871" |      0 |           1998 |
-| Of Mice and Men                                                                                            | John Steinbeck               | ="0142000671" |      3 |           2002 |
-| The Count of Monte Cristo                                                                                  | Alexandre Dumas              | ="0140449264" |      0 |           2003 |
-| The Adventures of Huckleberry Finn                                                                         | Mark Twain                   | ="0142437174" |      0 |           2002 |
-| Wuthering Heights                                                                                          | Emily Brontë                 | ="0393978893" |      0 |           2002 |
-| The Great Gatsby                                                                                           | F. Scott Fitzgerald          | =""           |      0 |           2004 |
-| 1984                                                                                                       | George Orwell                | =""           |      0 |           1950 |
-| Lolita                                                                                                     | Vladimir Nabokov             | =""           |      3 |           1995 |
-| Crime and Punishment                                                                                       | Fyodor Dostoyevsky           | ="0143058142" |      4 |           2002 |
-| Jane Eyre                                                                                                  | Charlotte Brontë             | ="0142437204" |      4 |           2003 |
-| Pride and Prejudice                                                                                        | Jane Austen                  | =""           |      5 |           2000 |
-| armée romaine sous le Haut-Empire                                                                          | Yann Le Bohec                | ="2708406337" |      5 |           2002 |
-| Histoire Romaine: Livres Xxxvi À XL (36-40)                                                                | Livy                         | ="2080710052" |      5 |           1998 |
-| Histoire Romaine                                                                                           | Marcel Le Glay               | ="2130550010" |      5 |           2011 |
-| Achilles in Vietnam: Combat Trauma and the Undoing of Character                                            | Jonathan Shay                | ="0684813211" |      0 |           1995 |
-| Histoire romaine, livres VI à X, la conquête de l'Italie                                                   | Livy                         | ="208070950X" |      5 |                |
+| Title                                                                    | Author                   | ISBN          | Rating | Year Published |
+| Belle du Seigneur                                                        | Albert Cohen             | ="2070404021" |      1 |           1998 |
+| If This Is a Man • The Truce                                             | Primo Levi               | ="0349100136" |      4 |           1987 |
+| The Hound of the Baskervilles                                            | Arthur Conan Doyle       | ="0451528018" |      4 |           2001 |
+| The Lord of the Rings (The Lord of the Rings, #1-3)                      | J.R.R. Tolkien           | =""           |      5 |           2005 |
+| The Little Prince                                                        | Antoine de Saint-Exupéry | =""           |      4 |           2000 |
+| Dubliners                                                                | James Joyce              | ="0192839993" |      4 |           2001 |
+| The Three-Body Problem (Remembrance of Earth’s Past #1)                  | Liu Cixin                | ="0765377063" |      4 |           2014 |
+| A Tale of Two Cities                                                     | Charles Dickens          | ="0141439602" |      4 |           2003 |
+| Dragonquest (Pern, #2)                                                   | Anne McCaffrey           | =""           |      4 |           1986 |
+| Dragonflight (Dragonriders of Pern, #1)                                  | Anne McCaffrey           | ="0345484266" |      4 |           2005 |
+| The White Dragon (Pern, #3)                                              | Anne McCaffrey           | ="0345341678" |      4 |           1986 |
+| Histoire Romaine: Livres Xxxi à Xxxv                                     | Livy                     | ="2080709895" |      5 |           1997 |
+| The Color of Magic (Discworld, #1; Rincewind, #1)                        | Terry Pratchett          | ="0060855924" |      3 |           2005 |
+| Lady Archimedes (Arithmancer, #2)                                        | White Squirrel           | =""           |      4 |           2018 |
+| The Arithmancer (Arithmancer, #1)                                        | White Squirrel           | =""           |      4 |           2015 |
+| A Dance with Dragons (A Song of Ice and Fire, #5)                        | George R.R. Martin       | =""           |      4 |           2011 |
+| A Feast for Crows (A Song of Ice and Fire, #4)                           | George R.R. Martin       | ="055358202X" |      3 |           2011 |
+| A Storm of Swords (A Song of Ice and Fire, #3)                           | George R.R. Martin       | ="055357342X" |      4 |           2003 |
+| A Clash of Kings  (A Song of Ice and Fire, #2)                           | George R.R. Martin       | ="0553381695" |      4 |           2002 |
+| A Game of Thrones (A Song of Ice and Fire, #1)                           | George R.R. Martin       | ="0553588486" |      4 |           2005 |
+| The Silmarillion: The Epic History of the Elves in The Lord of the Rings | J.R.R. Tolkien           | =""           |      4 |           1984 |
+| The Hobbit, or There and Back Again                                      | J.R.R. Tolkien           | ="0618260307" |      3 |           2002 |
+| The Return of the King (The Lord of the Rings, #3)                       | J.R.R. Tolkien           | =""           |      5 |           2003 |
+| The Two Towers (The Lord of the Rings, #2)                               | J.R.R. Tolkien           | ="0618346260" |      5 |           2003 |
+| The Fellowship of the Ring (The Lord of the Rings, #1)                   | J.R.R. Tolkien           | ="0618346252" |      5 |           2003 |
+| Harry Potter and the Half-Blood Prince (Harry Potter, #6)                | J.K. Rowling             | =""           |      4 |           2006 |
+| Harry Potter and the Order of the Phoenix (Harry Potter, #5)             | J.K. Rowling             | ="0439358078" |      4 |           2004 |
+| Harry Potter and the Goblet of Fire (Harry Potter, #4)                   | J.K. Rowling             | =""           |      4 |           2002 |
+| Harry Potter and the Deathly Hallows (Harry Potter, #7)                  | J.K. Rowling             | ="0545010225" |      4 |           2007 |
+| Harry Potter and the Chamber of Secrets (Harry Potter, #2)               | J.K. Rowling             | ="0439064864" |      4 |           1999 |
+| Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)              | J.K. Rowling             | ="043965548X" |      4 |           2004 |
+| Harry Potter and the Sorcerer's Stone (Harry Potter, #1)                 | J.K. Rowling             | =""           |      4 |           2003 |
+| Une Histoire Du Monde Aux Temps Modernes                                 | Jean Delumeau            | ="2035055350" |      4 |           2005 |
+| Histoire de la Chine                                                     | René Grousset            | ="2744105007" |      5 |                |
+| Candide                                                                  | Voltaire                 | ="0486266893" |      4 |           1991 |
+| Histoire Romaine: Livres Xxi à Xxv                                       | Livy                     | ="2080707469" |      5 |           1993 |
+| Histoire romaine, livres XLI à XLV                                       | Livy                     | ="2080710354" |      5 |                |
+| Histoire romaine, livre I à V                                            | Livy                     | ="2080708406" |      5 |                |
+| Histoire Romaine: Livres Xxvi à Xxx                                      | Livy                     | ="2080709402" |      5 |           1994 |
+| The Silver Spike (The Chronicles of the Black Company, #3.5)             | Glen Cook                | ="0812502205" |      3 |           1989 |
+| Dreams of Steel (The Chronicles of the Black Company, #5)                | Glen Cook                | ="0812502108" |      3 |           1990 |
+| Shadow Games (The Chronicles of the Black Company, #4)                   | Glen Cook                | ="0812533828" |      3 |           1989 |
+| The White Rose (The Chronicles of the Black Company, #3)                 | Glen Cook                | ="0812508440" |      3 |           1985 |
+| Shadows Linger (The Chronicles of the Black Company, #2)                 | Glen Cook                | ="0812508424" |      3 |           1990 |
+| The Black Company (The Chronicles of the Black Company, #1)              | Glen Cook                | =""           |      4 |           1992 |
+| The Time Machine                                                         | H.G. Wells               | =""           |      3 |           2002 |
+| The Fall of the House of Usher                                           | Edgar Allan Poe          | ="1594561796" |      3 |           2004 |
+| The War of the Worlds                                                    | H.G. Wells               | ="0375759239" |      4 |           2002 |
+| Cyrano de Bergerac                                                       | Edmond Rostand           | ="0451528921" |      5 |           2003 |
+| At the Mountains of Madness                                              | H.P. Lovecraft           | ="0812974417" |      4 |           2005 |
+| Illusions: The Adventures of a Reluctant Messiah                         | Richard Bach             | ="0099427869" |      4 |           2001 |
+| Germinal                                                                 | Émile Zola               | ="0140447423" |      5 |           2004 |
+| I, Claudius (Claudius, #1)                                               | Robert Graves            | ="067972477X" |      4 |           1989 |
+| The Plague                                                               | Albert Camus             | =""           |      4 |           1991 |
+| Of Mice and Men                                                          | John Steinbeck           | ="0142000671" |      3 |           2002 |
+| Lolita                                                                   | Vladimir Nabokov         | =""           |      3 |           1995 |
+| Crime and Punishment                                                     | Fyodor Dostoyevsky       | ="0143058142" |      4 |           2002 |
+| Jane Eyre                                                                | Charlotte Brontë         | ="0142437204" |      4 |           2003 |
+| Pride and Prejudice                                                      | Jane Austen              | =""           |      5 |           2000 |
+| armée romaine sous le Haut-Empire                                        | Yann Le Bohec            | ="2708406337" |      5 |           2002 |
+| Histoire Romaine: Livres Xxxvi À XL (36-40)                              | Livy                     | ="2080710052" |      5 |           1998 |
+| Histoire Romaine                                                         | Marcel Le Glay           | ="2130550010" |      5 |           2011 |
+| Histoire romaine, livres VI à X, la conquête de l'Italie                 | Livy                     | ="208070950X" |      5 |                |
 
 
 * Good reads done (no isbn ? TODO )
@@ -709,14 +431,10 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
     | The Hound of the Baskervilles                            | Arthur Conan Doyle | ="0451528018" | 4 |
     | Dubliners                                                | James Joyce        | ="0192839993" | 4 |
     | Plutarch's Lives: Volume I                               | Plutarch           | ="0375756760" | 3 |
-    | Histoire de l'art                                        | E.H. Gombrich      | ="0714892076" | 5 |
-    | Foucault's Pendulum                                      | Umberto Eco        | ="015603297X" | 3 |
     | A Tale of Two Cities                                     | Charles Dickens    | ="0141439602" | 4 |
     | Dragonflight (Dragonriders of Pern, #1)                  | Anne McCaffrey     | ="0345484266" | 4 |
     | The White Dragon (Pern, #3)                              | Anne McCaffrey     | ="0345341678" | 4 |
     | Histoire Romaine: Livres Xxxi à Xxxv                     | Livy               | ="2080709895" | 5 |
-    | The Light Fantastic (Discworld, #2; Rincewind #2)        | Terry Pratchett    | ="0061020702" | 4 |
-    | The Color of Magic (Discworld, #1; Rincewind, #1)        | Terry Pratchett    | ="0060855924" | 3 |
     | Histoire Romaine: Livres Xxi à Xxv                       | Livy               | ="2080707469" | 5 |
     | Histoire romaine, livres XLI à XLV                       | Livy               | ="2080710354" | 5 |
     | Histoire romaine, livre I à V                            | Livy               | ="2080708406" | 5 |
@@ -730,43 +448,4 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
     | Histoire Romaine: Livres Xxxvi À XL (36-40)              | Livy               | ="2080710052" | 5 |
     | Histoire Romaine                                         | Marcel Le Glay     | ="2130550010" | 5 |
     | Histoire romaine, livres VI à X, la conquête de l'Italie | Livy               | ="208070950X" | 5 |
-* Good reads done for comparison
-** READ Pratchett, T. (2005): The color of magic : a discworld novel
-  :PROPERTIES:
-  :Custom_ID: pratchett05
-  :END:
-** READ Pratchett, T. (1986): The light fantastic
-  :PROPERTIES:
-  :Custom_ID: pratchett86
-  :END:
-** READ McCaffrey, A. (1978): The white dragon
-  :PROPERTIES:
-  :Custom_ID: mccaffrey78
-  :END:
-** READ McCaffrey, A. (2005): Dragonflight
-  :PROPERTIES:
-  :Custom_ID: mccaffrey05_dragon
-  :END:
-** READ Dickens, C. (2003): A tale of two cities
-  :PROPERTIES:
-  :Custom_ID: dickens03
-  :END:
-** READ Eco, U. (1989): Foucault's pendulum
-  :PROPERTIES:
-  :Custom_ID: eco89_foucaul
-  :END:
-** READ Gombrich, E. H. (1995): The story of art
-  :PROPERTIES:
-  :Custom_ID: gombrich95
-  :END:
-** READ Plutarch,  (2001): Plutarch's lives
-  :PROPERTIES:
-  :Custom_ID: plutarch01_plutar
-  :END:
-** READ Eco, U. (1983): The name of the rose
-  :PROPERTIES:
-  :Custom_ID: eco83
-  :END:
-
-
 
