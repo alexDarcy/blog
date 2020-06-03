@@ -105,21 +105,6 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
 ** ? Cahiers de sainte hélène
 ** ? César
 
-** READ Doyle, A. (2001): The hound of the baskervilles
-  :PROPERTIES:
-  :Custom_ID: doyle01_basker
-  :END:
-
-** READ Levi, P. (1987): If this is a man ; and, the truce
-  :PROPERTIES:
-  :Custom_ID: levi87_if
-  :END:
-
-** READ Joyce, J. (2000): Dubliners
-  :PROPERTIES:
-  :Custom_ID: joyce00_dublin
-  :END:
-
 ** READ Zola, E. (2004): Germinal :classic:
   :PROPERTIES:
   :Custom_ID: zola04_germin
@@ -291,16 +276,38 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
   :END:
 
 
-
 ** READ Plutarch,  (2001): Plutarch's lives :rome:
   :PROPERTIES:
   :Custom_ID: plutarch01_plutar
   :rating:   3
   :END:
-** Cohen, A. (1998): Belle du seigneur
+** READ Cohen, A. (1998): Belle du seigneur
   :PROPERTIES:
   :Custom_ID: cohen98_belle_seign
   :rating:   1
+  :END:
+
+** READ Levi, P. (1987): If this is a man ; and, the truce
+  :PROPERTIES:
+  :Custom_ID: levi87_if
+  :rating:   4.5
+  :END:
+** READ Joyce, J. (2000): Dubliners
+  :PROPERTIES:
+  :Custom_ID: joyce00_dublin
+  :rating:   3:5
+  :END:
+** READ Doyle, A. (2001): The hound of the baskervilles
+  :PROPERTIES:
+  :Custom_ID: doyle01_basker
+  :rating:   4.5
+  :END:
+
+
+** McCaffrey, A. (1978): Dragonquest :fantasy:
+  :PROPERTIES:
+  :Custom_ID: mccaffrey78_dragon
+  :rating:   4
   :END:
 
 * Fanfic
@@ -360,92 +367,61 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
 :year:     2005
 :END:
 * Goodreads
-| Title                                                                    | Author                   | ISBN          | Rating | Year Published |
-| Belle du Seigneur                                                        | Albert Cohen             | ="2070404021" |      1 |           1998 |
-| If This Is a Man • The Truce                                             | Primo Levi               | ="0349100136" |      4 |           1987 |
-| The Hound of the Baskervilles                                            | Arthur Conan Doyle       | ="0451528018" |      4 |           2001 |
-| The Lord of the Rings (The Lord of the Rings, #1-3)                      | J.R.R. Tolkien           | =""           |      5 |           2005 |
-| The Little Prince                                                        | Antoine de Saint-Exupéry | =""           |      4 |           2000 |
-| Dubliners                                                                | James Joyce              | ="0192839993" |      4 |           2001 |
-| The Three-Body Problem (Remembrance of Earth’s Past #1)                  | Liu Cixin                | ="0765377063" |      4 |           2014 |
-| A Tale of Two Cities                                                     | Charles Dickens          | ="0141439602" |      4 |           2003 |
-| Dragonquest (Pern, #2)                                                   | Anne McCaffrey           | =""           |      4 |           1986 |
-| Dragonflight (Dragonriders of Pern, #1)                                  | Anne McCaffrey           | ="0345484266" |      4 |           2005 |
-| The White Dragon (Pern, #3)                                              | Anne McCaffrey           | ="0345341678" |      4 |           1986 |
-| Histoire Romaine: Livres Xxxi à Xxxv                                     | Livy                     | ="2080709895" |      5 |           1997 |
-| The Color of Magic (Discworld, #1; Rincewind, #1)                        | Terry Pratchett          | ="0060855924" |      3 |           2005 |
-| Lady Archimedes (Arithmancer, #2)                                        | White Squirrel           | =""           |      4 |           2018 |
-| The Arithmancer (Arithmancer, #1)                                        | White Squirrel           | =""           |      4 |           2015 |
-| A Dance with Dragons (A Song of Ice and Fire, #5)                        | George R.R. Martin       | =""           |      4 |           2011 |
-| A Feast for Crows (A Song of Ice and Fire, #4)                           | George R.R. Martin       | ="055358202X" |      3 |           2011 |
-| A Storm of Swords (A Song of Ice and Fire, #3)                           | George R.R. Martin       | ="055357342X" |      4 |           2003 |
-| A Clash of Kings  (A Song of Ice and Fire, #2)                           | George R.R. Martin       | ="0553381695" |      4 |           2002 |
-| A Game of Thrones (A Song of Ice and Fire, #1)                           | George R.R. Martin       | ="0553588486" |      4 |           2005 |
-| The Silmarillion: The Epic History of the Elves in The Lord of the Rings | J.R.R. Tolkien           | =""           |      4 |           1984 |
-| The Hobbit, or There and Back Again                                      | J.R.R. Tolkien           | ="0618260307" |      3 |           2002 |
-| The Return of the King (The Lord of the Rings, #3)                       | J.R.R. Tolkien           | =""           |      5 |           2003 |
-| The Two Towers (The Lord of the Rings, #2)                               | J.R.R. Tolkien           | ="0618346260" |      5 |           2003 |
-| The Fellowship of the Ring (The Lord of the Rings, #1)                   | J.R.R. Tolkien           | ="0618346252" |      5 |           2003 |
-| Harry Potter and the Half-Blood Prince (Harry Potter, #6)                | J.K. Rowling             | =""           |      4 |           2006 |
-| Harry Potter and the Order of the Phoenix (Harry Potter, #5)             | J.K. Rowling             | ="0439358078" |      4 |           2004 |
-| Harry Potter and the Goblet of Fire (Harry Potter, #4)                   | J.K. Rowling             | =""           |      4 |           2002 |
-| Harry Potter and the Deathly Hallows (Harry Potter, #7)                  | J.K. Rowling             | ="0545010225" |      4 |           2007 |
-| Harry Potter and the Chamber of Secrets (Harry Potter, #2)               | J.K. Rowling             | ="0439064864" |      4 |           1999 |
-| Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)              | J.K. Rowling             | ="043965548X" |      4 |           2004 |
-| Harry Potter and the Sorcerer's Stone (Harry Potter, #1)                 | J.K. Rowling             | =""           |      4 |           2003 |
-| Une Histoire Du Monde Aux Temps Modernes                                 | Jean Delumeau            | ="2035055350" |      4 |           2005 |
-| Histoire de la Chine                                                     | René Grousset            | ="2744105007" |      5 |                |
-| Candide                                                                  | Voltaire                 | ="0486266893" |      4 |           1991 |
-| Histoire Romaine: Livres Xxi à Xxv                                       | Livy                     | ="2080707469" |      5 |           1993 |
-| Histoire romaine, livres XLI à XLV                                       | Livy                     | ="2080710354" |      5 |                |
-| Histoire romaine, livre I à V                                            | Livy                     | ="2080708406" |      5 |                |
-| Histoire Romaine: Livres Xxvi à Xxx                                      | Livy                     | ="2080709402" |      5 |           1994 |
-| The Silver Spike (The Chronicles of the Black Company, #3.5)             | Glen Cook                | ="0812502205" |      3 |           1989 |
-| Dreams of Steel (The Chronicles of the Black Company, #5)                | Glen Cook                | ="0812502108" |      3 |           1990 |
-| Shadow Games (The Chronicles of the Black Company, #4)                   | Glen Cook                | ="0812533828" |      3 |           1989 |
-| The White Rose (The Chronicles of the Black Company, #3)                 | Glen Cook                | ="0812508440" |      3 |           1985 |
-| Shadows Linger (The Chronicles of the Black Company, #2)                 | Glen Cook                | ="0812508424" |      3 |           1990 |
-| The Black Company (The Chronicles of the Black Company, #1)              | Glen Cook                | =""           |      4 |           1992 |
-| The Time Machine                                                         | H.G. Wells               | =""           |      3 |           2002 |
-| The Fall of the House of Usher                                           | Edgar Allan Poe          | ="1594561796" |      3 |           2004 |
-| The War of the Worlds                                                    | H.G. Wells               | ="0375759239" |      4 |           2002 |
-| Cyrano de Bergerac                                                       | Edmond Rostand           | ="0451528921" |      5 |           2003 |
-| At the Mountains of Madness                                              | H.P. Lovecraft           | ="0812974417" |      4 |           2005 |
-| Illusions: The Adventures of a Reluctant Messiah                         | Richard Bach             | ="0099427869" |      4 |           2001 |
-| Germinal                                                                 | Émile Zola               | ="0140447423" |      5 |           2004 |
-| I, Claudius (Claudius, #1)                                               | Robert Graves            | ="067972477X" |      4 |           1989 |
-| The Plague                                                               | Albert Camus             | =""           |      4 |           1991 |
-| Of Mice and Men                                                          | John Steinbeck           | ="0142000671" |      3 |           2002 |
-| Lolita                                                                   | Vladimir Nabokov         | =""           |      3 |           1995 |
-| Crime and Punishment                                                     | Fyodor Dostoyevsky       | ="0143058142" |      4 |           2002 |
-| Jane Eyre                                                                | Charlotte Brontë         | ="0142437204" |      4 |           2003 |
-| Pride and Prejudice                                                      | Jane Austen              | =""           |      5 |           2000 |
-| armée romaine sous le Haut-Empire                                        | Yann Le Bohec            | ="2708406337" |      5 |           2002 |
-| Histoire Romaine: Livres Xxxvi À XL (36-40)                              | Livy                     | ="2080710052" |      5 |           1998 |
-| Histoire Romaine                                                         | Marcel Le Glay           | ="2130550010" |      5 |           2011 |
-| Histoire romaine, livres VI à X, la conquête de l'Italie                 | Livy                     | ="208070950X" |      5 |                |
-
-
-* Good reads done (no isbn ? TODO )
-    | If This Is a Man • The Truce                             | Primo Levi         | ="0349100136" | 4 |
-    | The Hound of the Baskervilles                            | Arthur Conan Doyle | ="0451528018" | 4 |
-    | Dubliners                                                | James Joyce        | ="0192839993" | 4 |
-    | Plutarch's Lives: Volume I                               | Plutarch           | ="0375756760" | 3 |
-    | A Tale of Two Cities                                     | Charles Dickens    | ="0141439602" | 4 |
-    | Dragonflight (Dragonriders of Pern, #1)                  | Anne McCaffrey     | ="0345484266" | 4 |
-    | The White Dragon (Pern, #3)                              | Anne McCaffrey     | ="0345341678" | 4 |
-    | Histoire Romaine: Livres Xxxi à Xxxv                     | Livy               | ="2080709895" | 5 |
-    | Histoire Romaine: Livres Xxi à Xxv                       | Livy               | ="2080707469" | 5 |
-    | Histoire romaine, livres XLI à XLV                       | Livy               | ="2080710354" | 5 |
-    | Histoire romaine, livre I à V                            | Livy               | ="2080708406" | 5 |
-    | Histoire Romaine: Livres Xxvi à Xxx                      | Livy               | ="2080709402" | 5 |
-    | The Fall of the House of Usher                           | Edgar Allan Poe    | ="1594561796" | 3 |
-    | I, Claudius (Claudius, #1)                               | Robert Graves      | ="067972477X" | 4 |
-    | Of Mice and Men                                          | John Steinbeck     | ="0142000671" | 3 |
-    | Crime and Punishment                                     | Fyodor Dostoyevsky | ="0143058142" | 4 |
-    | Jane Eyre                                                | Charlotte Brontë   | ="0142437204" | 4 |
-    | armée romaine sous le Haut-Empire                        | Yann Le Bohec      | ="2708406337" | 5 |
-    | Histoire Romaine: Livres Xxxvi À XL (36-40)              | Livy               | ="2080710052" | 5 |
-    | Histoire Romaine                                         | Marcel Le Glay     | ="2130550010" | 5 |
-    | Histoire romaine, livres VI à X, la conquête de l'Italie | Livy               | ="208070950X" | 5 |
+| Title                                                                    | Author                   | ISBN          | Rating |
+| A Dance with Dragons (A Song of Ice and Fire, #5)                        | George R.R. Martin       | =""           |      4 |
+| A Tale of Two Cities                                                     | Charles Dickens          | ="0141439602" |      4 |
+| At the Mountains of Madness                                              | H.P. Lovecraft           | ="0812974417" |      4 |
+| Candide                                                                  | Voltaire                 | ="0486266893" |      4 |
+| Crime and Punishment                                                     | Fyodor Dostoyevsky       | ="0143058142" |      4 |
+| Cyrano de Bergerac                                                       | Edmond Rostand           | ="0451528921" |      5 |
+| Dreams of Steel (The Chronicles of the Black Company, #5)                | Glen Cook                | ="0812502108" |      3 |
+| Germinal                                                                 | Émile Zola               | ="0140447423" |      5 |
+| Harry Potter and the Chamber of Secrets (Harry Potter, #2)               | J.K. Rowling             | ="0439064864" |      4 |
+| Harry Potter and the Deathly Hallows (Harry Potter, #7)                  | J.K. Rowling             | ="0545010225" |      4 |
+| Harry Potter and the Goblet of Fire (Harry Potter, #4)                   | J.K. Rowling             | =""           |      4 |
+| Harry Potter and the Half-Blood Prince (Harry Potter, #6)                | J.K. Rowling             | =""           |      4 |
+| Harry Potter and the Order of the Phoenix (Harry Potter, #5)             | J.K. Rowling             | ="0439358078" |      4 |
+| Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)              | J.K. Rowling             | ="043965548X" |      4 |
+| Harry Potter and the Sorcerer's Stone (Harry Potter, #1)                 | J.K. Rowling             | =""           |      4 |
+| Histoire Romaine                                                         | Marcel Le Glay           | ="2130550010" |      5 |
+| Histoire Romaine: Livres Xxi à Xxv                                       | Livy                     | ="2080707469" |      5 |
+| Histoire Romaine: Livres Xxvi à Xxx                                      | Livy                     | ="2080709402" |      5 |
+| Histoire Romaine: Livres Xxxi à Xxxv                                     | Livy                     | ="2080709895" |      5 |
+| Histoire Romaine: Livres Xxxvi À XL (36-40)                              | Livy                     | ="2080710052" |      5 |
+| Histoire de la Chine                                                     | René Grousset            | ="2744105007" |      5 |
+| Histoire romaine, livre I à V                                            | Livy                     | ="2080708406" |      5 |
+| Histoire romaine, livres VI à X, la conquête de l'Italie                 | Livy                     | ="208070950X" |      5 |
+| Histoire romaine, livres XLI à XLV                                       | Livy                     | ="2080710354" |      5 |
+| I, Claudius (Claudius, #1)                                               | Robert Graves            | ="067972477X" |      4 |
+| If This Is a Man • The Truce                                             | Primo Levi               | ="0349100136" |      4 |
+| Illusions: The Adventures of a Reluctant Messiah                         | Richard Bach             | ="0099427869" |      4 |
+| Jane Eyre                                                                | Charlotte Brontë         | ="0142437204" |      4 |
+| Lady Archimedes (Arithmancer, #2)                                        | White Squirrel           | =""           |      4 |
+| Lolita                                                                   | Vladimir Nabokov         | =""           |      3 |
+| Of Mice and Men                                                          | John Steinbeck           | ="0142000671" |      3 |
+| Plutarch's Lives: Volume I                                               | Plutarch                 | ="0375756760" |      3 |
+| Pride and Prejudice                                                      | Jane Austen              | =""           |      5 |
+| Shadow Games (The Chronicles of the Black Company, #4)                   | Glen Cook                | ="0812533828" |      3 |
+| Shadows Linger (The Chronicles of the Black Company, #2)                 | Glen Cook                | ="0812508424" |      3 |
+| The Arithmancer (Arithmancer, #1)                                        | White Squirrel           | =""           |      4 |
+| The Black Company (The Chronicles of the Black Company, #1)              | Glen Cook                | =""           |      4 |
+| The Color of Magic (Discworld, #1; Rincewind, #1)                        | Terry Pratchett          | ="0060855924" |      3 |
+| The Fall of the House of Usher                                           | Edgar Allan Poe          | ="1594561796" |      3 |
+| The Fall of the House of Usher                                           | Edgar Allan Poe          | ="1594561796" |      3 |
+| The Fellowship of the Ring (The Lord of the Rings, #1)                   | J.R.R. Tolkien           | ="0618346252" |      5 |
+| The Hobbit, or There and Back Again                                      | J.R.R. Tolkien           | ="0618260307" |      3 |
+| The Little Prince                                                        | Antoine de Saint-Exupéry | =""           |      4 |
+| The Lord of the Rings (The Lord of the Rings, #1-3)                      | J.R.R. Tolkien           | =""           |      5 |
+| The Plague                                                               | Albert Camus             | =""           |      4 |
+| The Return of the King (The Lord of the Rings, #3)                       | J.R.R. Tolkien           | =""           |      5 |
+| The Silmarillion: The Epic History of the Elves in The Lord of the Rings | J.R.R. Tolkien           | =""           |      4 |
+| The Silver Spike (The Chronicles of the Black Company, #3.5)             | Glen Cook                | ="0812502205" |      3 |
+| The Time Machine                                                         | H.G. Wells               | =""           |      3 |
+| The Two Towers (The Lord of the Rings, #2)                               | J.R.R. Tolkien           | ="0618346260" |      5 |
+| The War of the Worlds                                                    | H.G. Wells               | ="0375759239" |      4 |
+| The White Dragon (Pern, #3)                                              | Anne McCaffrey           | ="0345341678" |      4 |
+| The White Dragon (Pern, #3)                                              | Anne McCaffrey           | ="0345341678" |      4 |
+| The White Rose (The Chronicles of the Black Company, #3)                 | Glen Cook                | ="0812508440" |      3 |
+| Une Histoire Du Monde Aux Temps Modernes                                 | Jean Delumeau            | ="2035055350" |      4 |
+| Armée romaine sous le Haut-Empire                                        | Yann Le Bohec            | ="2708406337" |      5 |
 
