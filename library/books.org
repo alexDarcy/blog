@@ -125,11 +125,6 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
   :Custom_ID: zola04_germin
   :rating:   5
   :END:
-** READ Bach, R. (1998): Illusions
-  :PROPERTIES:
-  :Custom_ID: bach98_illus
-  :rating:   4
-  :END:
 ** READ Lovecraft, H. P. (2005): At the mountains of madness : the definitive edition :horror:
   :PROPERTIES:
   :Custom_ID: lovecraft05_at
@@ -318,11 +313,210 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
   :rating:   4
   :END:
 
-** READ The White Rose (The Chronicles of the Black Company, #3) :fantasy:
+** READ Cook, G. : The White Rose (The Chronicles of the Black Company, #3) :fantasy:
 :PROPERTIES:
 :rating: 3
-:author: Glen Cook
 :END:
+** READ Martin, G. : A Dance with Dragons (A Song of Ice and Fire, #5) :fantasy:
+:PROPERTIES:
+:rating: 4
+:END:
+** READ A Tale of Two Cities
+:PROPERTIES:
+:author: Charles Dickens
+:rating: 4
+:END:
+** READ At the Mountains of Madness
+:PROPERTIES:
+:author: H.P. Lovecraft
+:rating: 4
+:END:
+** READ Candide
+:PROPERTIES:
+:author: Voltaire
+:rating: 4
+:END:
+** READ Crime and Punishment
+:PROPERTIES:
+:author: Fyodor Dostoyevsky
+:rating: 4
+:END:
+** READ Cyrano de Bergerac
+:PROPERTIES:
+:author: Edmond Rostand
+:rating: 5
+:END:
+** READ Dreams of Steel (The Chronicles of the Black Company, #5)
+:PROPERTIES:
+:author: Glen Cook
+:rating: 3
+:END:
+** READ Germinal
+:PROPERTIES:
+:author: Émile Zola
+:rating: 5
+:END:
+** READ Harry Potter and the Goblet of Fire (Harry Potter, #4)
+:PROPERTIES:
+:author: J.K. Rowling
+:rating: 4
+:END:
+** READ Harry Potter and the Half-Blood Prince (Harry Potter, #6)
+:PROPERTIES:
+:author: J.K. Rowling
+:rating: 4
+:END:
+** READ Harry Potter and the Sorcerer's Stone (Harry Potter, #1)
+:PROPERTIES:
+:author: J.K. Rowling
+:rating: 4
+:END:
+** READ Histoire Romaine
+:PROPERTIES:
+:author: Marcel Le Glay
+:rating: 5
+:END:
+** READ Histoire Romaine: Livres Xxi à Xxv
+:PROPERTIES:
+:author: Livy
+:rating: 5
+:END:
+** READ Histoire Romaine: Livres Xxvi à Xxx
+:PROPERTIES:
+:author: Livy
+:rating:   5
+:END:
+** READ Histoire Romaine: Livres Xxxi à Xxxv
+:PROPERTIES:
+:author: Livy
+:rating:   5
+:END:
+** READ Histoire Romaine: Livres Xxxvi À XL (36-40)
+:PROPERTIES:
+:author: Livy
+:rating: 5
+:END:
+** READ Histoire romaine, livre I à V
+:author: Livy
+:rating: 5
+** READ Histoire romaine, livres VI à X, la conquête de l'Italie
+:author: Livy
+:rating: 5
+:END:
+** READ Histoire romaine, livres XLI à XLV
+:PROPERTIES:
+:author: Livy
+:rating: 5
+:END:
+** READ I, Claudius (Claudius, #1)
+:PROPERTIES:
+:author: Robert Graves
+:rating: 4
+:END:
+** READ If This Is a Man • The Truce
+:PROPERTIES:
+:author: Primo Levi
+:rating: 4
+:END:
+** READ Illusions : The Adventures of a Reluctant Messiah
+:PROPERTIES:
+:author: Richard Bach
+:rating: 4
+:END:
+** READ Jane Eyre
+:PROPERTIES:
+:author: Charlotte Brontë
+:rating: 4
+:END:
+** READ Lady Archimedes (Arithmancer, #2)
+:PROPERTIES:
+:author: White Squirrel
+:rating: 4
+:END:
+** READ Lolita
+:PROPERTIES:
+:author: Vladimir Nabokov
+:rating: 3
+:END:
+** READ Of Mice and Men
+:PROPERTIES:
+:author: John Steinbeck
+:rating: 3
+:END:
+** READ Pride and Prejudice
+:PROPERTIES:
+:author: Jane Austen
+:rating: 5
+:END:
+** READ Shadow Games (The Chronicles of the Black Company, #4)
+:PROPERTIES:
+:author: Glen Cook
+:rating: 3
+:END:
+** READ Shadows Linger (The Chronicles of the Black Company, #2)
+:PROPERTIES:
+:author: Glen Cook
+:rating: 3
+:END:
+** READ The Arithmancer (Arithmancer, #1)
+:PROPERTIES:
+:author: White Squirrel
+:rating: 4
+:END:
+** READ The Black Company (The Chronicles of the Black Company, #1)
+:PROPERTIES:
+:author: Glen Cook
+:rating: 4
+:END:
+** READ The Color of Magic (Discworld, #1; Rincewind, #1)
+:PROPERTIES:
+:author: Terry Pratchett
+:rating: 3
+:END:
+** READ The Fall of the House of Usher
+:PROPERTIES:
+:author: Edgar Allan Poe
+:rating: 3
+:END:
+** READ The Fall of the House of Usher
+:PROPERTIES:
+:author: Edgar Allan Poe
+:rating: 3
+:END:
+** READ The Little Prince
+:PROPERTIES:
+:author: Antoine de Saint-Exupéry
+:rating: 4
+:END:
+** READ La peste
+:PROPERTIES:
+:author: Albert Camus
+:rating: 4
+:END:
+** READ The Return of the King (The Lord of the Rings, #3)
+:PROPERTIES:
+:author: J.R.R. Tolkien
+:rating: 5
+:END:
+** READ The Silmarillion : The Epic History of the Elves in The Lord of the Rings
+:PROPERTIES:
+:author: J.R.R. Tolkien
+:rating: 4
+:END:
+** READ The Silver Spike (The Chronicles of the Black Company, #3.5)
+:PROPERTIES:
+:author: Glen Cook
+:rating: 3
+:END:
+** READ The Time Machine
+:PROPERTIES:
+:author: H.G. Wells
+:rating: 3
+:END:
+** READ The War of the Worlds
+:PROPERTIES:
+:author:   H.G. Wells
+:rating:   4
 * Fanfic
 *** Harry potter
 **** READ I Am Also Thy Brother (Sacrifices arc, #7)
@@ -378,50 +572,4 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
 :author:   Lightning on the Wave
 :rating:   5
 :year:     2005
-:END:
-* Goodreads (todo)
-** READ A Dance with Dragons (A Song of Ice and Fire, #5)                        | George R.R. Martin       | 4 |
-** READ A Tale of Two Cities                                                     | Charles Dickens          | 4 |
-** READ At the Mountains of Madness                                              | H.P. Lovecraft           | 4 |
-** READ Candide                                                                  | Voltaire                 | 4 |
-** READ Crime and Punishment                                                     | Fyodor Dostoyevsky       | 4 |
-** READ Cyrano de Bergerac                                                       | Edmond Rostand           | 5 |
-** READ Dreams of Steel (The Chronicles of the Black Company, #5)                | Glen Cook                | 3 |
-** READ Germinal                                                                 | Émile Zola               | 5 |
-** READ Harry Potter and the Goblet of Fire (Harry Potter, #4)                   | J.K. Rowling             | 4 |
-** READ Harry Potter and the Half-Blood Prince (Harry Potter, #6)                | J.K. Rowling             | 4 |
-** READ Harry Potter and the Sorcerer's Stone (Harry Potter, #1)                 | J.K. Rowling             | 4 |
-** READ Histoire Romaine                                                         | Marcel Le Glay           | 5 |
-** READ Histoire Romaine: Livres Xxi à Xxv                                       | Livy                     | 5 |
-** READ Histoire Romaine: Livres Xxvi à Xxx                                      | Livy                     | 5 |
-** READ Histoire Romaine: Livres Xxxi à Xxxv                                     | Livy                     | 5 |
-** READ Histoire Romaine: Livres Xxxvi À XL (36-40)                              | Livy                     | 5 |
-** READ Histoire romaine, livre I à V                                            | Livy                     | 5 |
-** READ Histoire romaine, livres VI à X, la conquête de l'Italie                 | Livy                     | 5 |
-** READ Histoire romaine, livres XLI à XLV                                       | Livy                     | 5 |
-** READ I, Claudius (Claudius, #1)                                               | Robert Graves            | 4 |
-** READ If This Is a Man • The Truce                                             | Primo Levi               | 4 |
-** READ Illusions: The Adventures of a Reluctant Messiah                         | Richard Bach             | 4 |
-** READ Jane Eyre                                                                | Charlotte Brontë         | 4 |
-** READ Lady Archimedes (Arithmancer, #2)                                        | White Squirrel           | 4 |
-** READ Lolita                                                                   | Vladimir Nabokov         | 3 |
-** READ Of Mice and Men                                                          | John Steinbeck           | 3 |
-** READ Pride and Prejudice                                                      | Jane Austen              | 5 |
-** READ Shadow Games (The Chronicles of the Black Company, #4)                   | Glen Cook                | 3 |
-** READ Shadows Linger (The Chronicles of the Black Company, #2)                 | Glen Cook                | 3 |
-** READ The Arithmancer (Arithmancer, #1)                                        | White Squirrel           | 4 |
-** READ The Black Company (The Chronicles of the Black Company, #1)              | Glen Cook                | 4 |
-** READ The Color of Magic (Discworld, #1; Rincewind, #1)                        | Terry Pratchett          | 3 |
-** READ The Fall of the House of Usher                                           | Edgar Allan Poe          | 3 |
-** READ The Fall of the House of Usher                                           | Edgar Allan Poe          | 3 |
-** READ The Little Prince                                                        | Antoine de Saint-Exupéry | 4 |
-** READ The Plague                                                               | Albert Camus             | 4 |
-** READ The Return of the King (The Lord of the Rings, #3)                       | J.R.R. Tolkien           | 5 |
-** READ The Silmarillion: The Epic History of the Elves in The Lord of the Rings | J.R.R. Tolkien           | 4 |
-** READ The Silver Spike (The Chronicles of the Black Company, #3.5)             | Glen Cook                | 3 |
-** READ The Time Machine                                                         | H.G. Wells               | 3 |
-** READ The War of the Worlds
-:PROPERTIES:
-:author:   H.G. Wells
-:rating:   4
 :END:
