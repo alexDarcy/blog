@@ -3,7 +3,7 @@
 #+TODO: TOREAD(t) READING(r) HOLD(h) ?(?) FORMAT(f) | DONE(d)
 #+COLUMNS: %120ITEM %STATUS
 #+OPTIONS: num:nil
-#+TAGS: books
+#+TAGS: books fantasy horror
 
 
 * Math :math:
@@ -101,6 +101,47 @@ Intéressant pour l'intérprétation en histoire de l'art. Assez décevant en pr
 :rating: 5
 :author: Yann Le Bohec
 :END:
+
+** DONE Tite-Live,  (1999): Histoire romaine, livre i à v : de la fondation de rome à l'invasion gauloise :rome:
+  :PROPERTIES:
+  :Custom_ID: TiteLiveI
+  :rating: 4
+  :END:
+** DONE Tite-Live,  (1999): Histoire romaine, livres xxxi à xxxv : la lib\'eration de la grèce :rome:
+  :PROPERTIES:
+  :Custom_ID: TiteLiveXXXI
+  :rating: 4
+  :END:
+
+** DONE Tite-Live,  (1999): Histoire romaine, livres xxi à xxv : la seconde guerre punique i :rome:
+  :PROPERTIES:
+  :Custom_ID: TiteLiveXXI
+  :rating: 4
+  :END:
+
+** DONE Tite-Live,  (1999): Histoire romaine, livres vi à x : la conqu\^ete de l'italie :rome:
+  :PROPERTIES:
+  :Custom_ID: TiteLiveVI
+  :rating: 4
+  :END:
+
+** DONE Tite-Live,  (1999): Histoire romaine, livres xli à xlv : les progrès de l'h\'eg\'emonie romaine :rome:
+  :PROPERTIES:
+  :Custom_ID: TiteLiveXLI
+  :rating: 4
+  :END:
+
+** DONE Tite-Live,  (1999): Histoire romaine, livres xxvi à xxx : la seconde guerre punique ii :rome:
+  :PROPERTIES:
+  :Custom_ID: TiteLiveXXVI
+  :rating: 4
+  :END:
+** DONE Le Glay, M., Voisin, J., & Le Bohec, Y. (1991): Histoire romaine :rome:
+  :PROPERTIES:
+  :Custom_ID: LeGlay1991
+  :rating:   5
+  :END:
+
 * Science :science:others:
 ** TOREAD IPCC, 2019 : Summary for policymaker (draft) :climate:
 https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.pdf
@@ -306,7 +347,6 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
   :rating:   4.5
   :END:
 
-
 ** DONE McCaffrey, A. (1978): Dragonquest :fantasy:
   :PROPERTIES:
   :Custom_ID: mccaffrey78_dragon
@@ -317,44 +357,12 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
 :PROPERTIES:
 :rating: 4
 :END:
-** FORMAT Dreams of Steel (The Chronicles of the Black Company, #5)
-:PROPERTIES:
-:author: Glen Cook
-:rating: 3
-:END:
-** FORMAT Histoire Romaine
-:PROPERTIES:
-:author: Marcel Le Glay
-:rating: 5
-:END:
 ** FORMAT Histoire Romaine: Livres Xxi à Xxv
 :PROPERTIES:
 :author: Livy
 :rating: 5
 :END:
-** FORMAT Histoire Romaine: Livres Xxvi à Xxx
-:PROPERTIES:
-:author: Livy
-:rating:   5
-:END:
-** FORMAT Histoire Romaine: Livres Xxxi à Xxxv
-:PROPERTIES:
-:author: Livy
-:rating:   5
-:END:
 ** FORMAT Histoire Romaine: Livres Xxxvi À XL (36-40)
-:PROPERTIES:
-:author: Livy
-:rating: 5
-:END:
-** FORMAT Histoire romaine, livre I à V
-:author: Livy
-:rating: 5
-** FORMAT Histoire romaine, livres VI à X, la conquête de l'Italie
-:author: Livy
-:rating: 5
-:END:
-** FORMAT Histoire romaine, livres XLI à XLV
 :PROPERTIES:
 :author: Livy
 :rating: 5
