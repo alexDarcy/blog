@@ -69,10 +69,7 @@ cite:RWH
   :END:
 
 Intéressant pour l'intérprétation en histoire de l'art. Assez décevant en première approche pour découvrir la civilisation
-** READING Polybe: Histoire
-:PROPERTIES:
-:Custom_ID: polybe03_histoir
-:END:
+
 ** DONE Delumeau, J. (2005): Une histoire du monde aux temps modernes
   :PROPERTIES:
   :Custom_ID: delumeau05_une_histoir
@@ -142,6 +139,11 @@ Intéressant pour l'intérprétation en histoire de l'art. Assez décevant en pr
   :rating:   5
   :END:
 
+** DONE Polybe: Histoire :rome:
+:PROPERTIES:
+:Custom_ID: polybe03_histoir
+:rating:   4
+:END:
 * Science :science:others:
 ** TOREAD IPCC, 2019 : Summary for policymaker (draft) :climate:
 https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.pdf
@@ -397,11 +399,6 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
 :author: Vladimir Nabokov
 :rating: 3
 :END:
-** FORMAT Of Mice and Men
-:PROPERTIES:
-:author: John Steinbeck
-:rating: 3
-:END:
 ** FORMAT Pride and Prejudice
 :PROPERTIES:
 :author: Jane Austen
@@ -487,6 +484,12 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
   :PROPERTIES:
   :Custom_ID: rowling98_harry_potter
   :rating:   4.5
+  :END:
+
+** DONE Steinbeck, J. (1993): Of mice and men
+  :PROPERTIES:
+  :Custom_ID: steinbeck93_of
+  :rating:   3
   :END:
 
 * Fanfic
@@ -741,6 +744,7 @@ https://udl.primo.exlibrisgroup.com/discovery/search?query=title,exact,Biblioth%
 | Histoire Romaine                                                                                           | Marcel Le Glay               | ="2130550010" |      5 |
 | Achilles in Vietnam: Combat Trauma and the Undoing of Character                                            | Jonathan Shay                | ="0684813211" |      0 |
 | Histoire romaine, livres VI à X, la conquête de l'Italie                                                   | Livy                         | ="208070950X" |      5 |
+
 
 
 
