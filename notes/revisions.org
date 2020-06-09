@@ -1,0 +1,1711 @@
+﻿#+TODO: TODO(t) LATE(l) | DONE(d) CANCELLED(c)
+#+TAGS: D1 D2 semestre1 semestre2
+
+#+FILETAGS: :revisions:
+
+#o+BEGIN: clocktable :scope file :maxlevel 2 :block today
+#+CAPTION: Clock summary at [2020-06-01 Mon 21:39], for Monday, June 01, 2020.
+| Headline             |   Time |      |
+|----------------------+--------+------|
+| *Total time*         | *4:35* |      |
+|----------------------+--------+------|
+| Cancérologie         |   3:33 |      |
+| \_  Relire fiches    |        | 3:33 |
+| Gynécologie          |   1:02 |      |
+| \_  Exercices masson |        | 1:02 |
+#+END:
+
+* Items
+:PROPERTIES:
+:COLUMNS:  %25ITEM %COLLEGE %ECNI
+:END:
+** 6 Organisation de l'exercice clinique
+:PROPERTIES:
+:ECNI:     1
+:END:
+** 7 Droits du patients
+:PROPERTIES:
+:ECNI:     1
+:END:
+** 8 Éthique médicale
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 10 Violences sexuelles
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 21 Examen pré-nuptial
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 22 Grossesse normale
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** LATE 23 Principales complications de la grossesse :nephro:retard:
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 24 Grossesse extra-utérine
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 25 Douleurs abdominales chez la femme enceinte
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 26 Prévention des risques foetaux
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 28 Risques pour la maternité
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 29 Prématurité et RCIU
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+
+** 30 Accouchement normal
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 31 Évalution du nouveau-né
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 32 Allaitement maternel
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  2
+:END:
+** 33 Suites de couches pathologiques
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** LATE 35 Contraception :uro:retard:
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 36 IVG
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  1
+:END:
+** LATE 37 Stérilité couple :uro:retard:
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 38 Assistance médicale à la procréation
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** LATE 39 Algies pelvienes chez la femme :uro:retard:
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 40 Aménorrhée
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 41 Hémorragie génitale chez la femme
+** LATE 42 Tuméfaction pelvienne chez la femme :uro:retard:
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 43 Trisomie 21, syndrome de l'X fragile
+:PROPERTIES:
+:COLLEGE:  3
+:ECNI:     3
+:END:
+** 44 Suivi d'un nourrisson. Dépistage des anomalies orthopédiques, auditives, visuelle
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  2
+:END:
+** 45 Alimentation du nourrisson et de l'enfant
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 47 Puberté
+:PROPERTIES:
+:COLLEGE:  3
+:ECNI:     2
+:END:
+** LATE 48 Cryptorchidie :uro:retard:
+:PROPERTIES:
+:COLLEGE:  3
+:ECNI:     2
+:END:
+** 49 Troubles de la miction chez l'enfant
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 50 Strabisme chez l'enfant
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 51 retard de croissance
+:PROPERTIES:
+:COLLEGE:  3
+:ECNI:     2
+:END:
+** 52 Boiteries de l'enfant
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 53 Développement psychomoteur
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 54 L'enfant handicapé
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 55 Maltraitance
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** LATE 56 Sexualité normale et ses troubles :uro:retard:
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 67 Troubles psychique de la grossesse et du post-partum
+** 68 Troubles psychique du sujet âgé
+   :PROPERTIES:
+   :COLLEGE:  1
+   :ECNI:     1
+   :END:
+** 69 Troubles des conduites alimentaires
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 72 Psychotropes
+   :PROPERTIES:
+   :COLLEGE:  1
+   :ECNI:     1
+   :END:
+** 72 Addiction
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 78 Dopage
+** 79 Altération de la fonction visuelle
+** 87 Altération de la fonction auditive
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 91 Compression médullaire non traumatique
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  2
+:END:
+** 92 Rachialgies
+   :PROPERTIES:
+   :ECNI:     2
+   :COLLEGE:  2
+   :END:
+** 93 Radiculalgies
+   :PROPERTIES:
+   :COLLEGE:  2
+   :ECNI:     2
+   :END:
+** 98 Céphalée aigüe et chronique
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 193 Épilepsie
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 106 Confusion du sujet âgé
+** 107 Troubles de la marche et de l'équilibre
+   :PROPERTIES:
+   :ECNI:     1
+   :COLLEGE:  1
+   :END:
+** 108 troubles du sommeil
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 109 Dermatoses faciales
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:     1
+:END:
+** 110 Dermatoses bulleuses
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:     1
+:END:
+** 111 Angiomes
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:     1
+:END:
+** 112 Exanthèmes
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:     1
+:END:
+** 113 Prurit
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 114 Psoriasis
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 116 Conplicaton de l'immobilité
+** 118 Rééducation
+   :PROPERTIES:
+   :ECNI:     2
+   :COLLEGE:  2
+   :END:
+** 119 Vieillissement normal
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** LATE 120 Ménopause, andropause :uro:retard:
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  2
+:END:
+** 121 Trouble de la miction :uro:
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  3
+:END:
+** LATE 122 Troubles de l'érection :uro:retard:
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** LATE 123 Hypertrophie bénigne de la prostate :uro:retard:
+** 124 Ostéopathies fragilisantes
+   :PROPERTIES:
+   :COLLEGE:  3
+   :ECNI:     2
+   :END:
+** 125 Arthrose
+   :PROPERTIES:
+   :ECNI:     2
+   :COLLEGE:  2
+   :END:
+** LATE 126 Personne agée malade :nephro:retard:
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 127 Déficit neurosensoriel chez la personne âgée
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 128 Troubles de la marche et de l'équilibre
+   :PROPERTIES:
+   :COLLEGE:  1
+   :ECNI:     1
+   :END:
+** 129 Trouble cognitifs du sujet âgé
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 130 Autonomie du sujet âgé
+   :PROPERTIES:
+   :COLLEGE:  1
+   :ECNI:     1
+   :END:
+** 131 Physiopathologie de la douleur
+   :PROPERTIES:
+   :COLLEGE:  2
+   :ECNI:     2
+   :END:
+** 132 Thérapeutiques antalgiques
+   :PROPERTIES:
+   :ECNI:     1
+   :COLLEGE:  1
+   :END:
+** 134 Douleur chez l'enfant
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 136-138 Soins palliatifs
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 143 Vaccinations
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 144 Fièvre
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 145 Sinusite
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 146 Rhinopharyngite, angine
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 148 Méningites
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 151 Infections Bronchopulmonaire communautaires
+:PROPERTIES:
+:COLLEGE:  3
+:ECNI:     2
+:END:
+** 152 Infections cutanéo-muqueuses
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 153 Infections ostéoarticulaires
+   :PROPERTIES:
+   :COLLEGE:  3
+   :ECNI:     2
+   :END:
+** 154 Choc septique
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 155 Tuberculose
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** LATE 157 Infections urinaires :nephro:uro:retard:
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 158 IST
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  3
+:END:
+** 159 Coqueluche
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 160 Éruptions fébriles
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 164 HSV
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 165 VIH
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 166 Paludisme
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 167 Gale, pediculose
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 169 Zoonoses
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 170 Pathologies infectieuses chez le migrant
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 172 Diarrhées infectieuses
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 173 Anti-infectieux
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 108 Accidents du travail
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 181 Réaction inflammatoire
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  2
+:END:
+** 182 Hypersensibilités et allergies
+:PROPERTIES:
+:COLLEGE:  3
+:ECNI:     3
+:END:
+** 183 Hypersensibilités et allergies cutanéomuqueuses
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 184 Hypersensibilités et allergies respiratoires
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 185 Déficit immunitaire
+:PROPERTIES:
+   :COLLEGE:  2
+   :ECNI:     2
+   :END:
+** 186 Fièvre prolongée
+   :PROPERTIES:
+   :COLLEGE:  1
+   :ECNI:     1
+   :END:
+** 187 Fièvre chez immunodéprimé
+   :PROPERTIES:
+   :COLLEGE:  1
+   :ECNI:     1
+   :END:
+** 188 Pathologies auto-immunes
+   :PROPERTIES:
+   :COLLEGE:  2
+   :ECNI:     3
+   :END:
+** 189 Vascularite systémique
+   :PROPERTIES:
+   :COLLEGE:  2
+   :ECNI:  2
+   :END:
+** LATE 190 Lupus erythémateux systémique :nephro:retard:
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 191 Artérite à cellules géantes
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 192 Polyrarthrite rhymatoïde
+   :PROPERTIES:
+   :COLLEGE:  1
+   :ECNI:     1
+   :END:
+** 193 Spondylarthrite inflammatoire
+   :PROPERTIES:
+   :COLLEGE:  1
+   :END:
+** 194 Arthropathie microcristalline
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 195 Syndrome douloureux régional complexe
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  2
+:END:
+** 196 Épanchement articulaire
+   :PROPERTIES:
+   :COLLEGE:  2
+   :ECNI:     2
+   :END:
+** LATE 197 Transplantation d'organes :nephro:retard:uro:
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 198 Biothérapies
+   :PROPERTIES:
+   :COLLEGE:  1
+   :ECNI:     1
+   :END:
+** 199 Dyspnée
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 200 Toux
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 201 Hémoptysie
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 202 Épanchement pleural
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 203 Opacités et masses intrathoraciques
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 204 Insuffisance respiratoire chronique
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 205 BPCO
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 206 Pneumopathies interstitielles diffuses
+** 207 Sarcoidose
+:PROPERTIES:
+:COLLEGE:  3
+:ECNI:     2
+:END:
+** 208 Hémogramme
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 209 Anémie
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  2
+:END:
+** 210 Thrombopénie
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 211 Purpura
+:PROPERTIES:
+:COLLEGE:  3
+:ECNI:  3
+:END:
+** 212 Syndrome hémorragique
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 213 Syndrome mononucléosique
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 214 Éosinophilie
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 215 Pathologie du fer
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 216 Adénopathies superficielles
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** LATE 217 Amylose :nephro:retard:
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 219, 222 Facteurs de risque cardio-vasculaire
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** LATE 221 HTA :nephro:retard:
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 222 Hypertension artérielle pulmonaire
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 224 Embolie pulmonaire
+** 226 Ulcère de jambe
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 228 Douleur thoracique
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 236 Souffle cardiaque chez l'enfant
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 237 Acrosyndrome
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 238 Hypoglycémie
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 240 Hyperthyroïdie
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 241 Hypothyroïdie
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 242 Adénome hypophysaire
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 243 Insuffisance surrénale
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 244 Gynécomastie
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** LATE 245 Diabète :nephro:retard:
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 248 Dénutrition
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 249 Amaigrissement
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 250 Troubles nutritionnels chez le sujet âgé
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 251 Obésité
+:PROPERTIES:
+:COLLEGE: 2
+:ECNI:     1
+:END:
+** 252 Nutrition et grossesse. Diabète gestationnel
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 253 Aptitude au sport, nutrition chez le sportif
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** LATE 254 Syndromes oedemateux :nephro:retard:
+** LATE 255 Élévation de la créatinine :nephro:retard:
+** 256 Protéinurie et syndrome néphrotique
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  1
+:END:
+** LATE 257 Hématurie :nephro:retard:uro:
+** LATE 258 Néphropathies glomérulaires :nephro:retard:
+** LATE 259 Néphropathies interstitielles chroniques :nephro:retard:
+** LATE 260 Néphropathies vasculaires :nephro:retard:
+** LATE 261 Insuffisance rénale chronique :nephro:retard:
+:PROPERTIES:
+:ECNI:     1
+:END:
+** LATE 262 Lithiase urinaire :uro:nephro:retard:
+** LATE 263 Polykystose rénale :nephro:retard:
+** LATE 264 Diurétiques :nephro:retard:
+** LATE 265 Hypocalcémie, dyskaliémie, hyponatrémie :nephro:retard:
+:PRSIES:
+:COS:  1
+:ENLATE KIPPED KIPPED
+** LATE 266 Hypercalcémie :nephro:retard:
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 267 Douleur abdominales/lombaires
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 268 Reflux gastro-oesophagien
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 271 Vomissements
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 272 Splénomégalie
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 279 Maladies inflammatoires chroniques de l'intestin
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 280 Constipation
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 282 Diarrhée chronique
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 283 Diarrhée aigüe
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 286 Hernie pariétale
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 287 Prévention et dépistage des cancers
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  2
+:END:
+** 288 Cancérogenèse, cancers professionnels
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 289 Diagnostic des cancers
+:PROPERTIES:
+:ID:       8c2b8ffe-8c8c-404c-84b5-6d4ecc021058
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 290 Médecin préleveur pour anatomie et cytologie pathologiques
+:PROPERTIES:
+:ID:       617107d2-e5aa-4c86-8ea4-236036a38a24
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 291 Traitement des cancers
+:PROPERTIES:
+:ID:       24c6d4d1-b22b-4a2d-90ee-fd6e9eddae7b
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 292 Prise en charge d'un malade cancéreux
+:PROPERTIES:
+:ID:       d488d9bd-335b-4c37-9c46-89f00eb3ac47
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 293 Agranulocytose médicamenteuse
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 294 Cancers de l'enfant
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  2
+:ID:       6492d39f-6f70-4692-a583-f12e0c783228
+:END:
+** 295 Tumeurs buccales, naso-sinus, VADS
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 296 Tumeurs intra-crâniennes
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 297 Tumeurs du col utérin, du corps utérin
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 298 Tumeurs du colon et du rectum
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 299 Tumeurs cutanées
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 300 Tumeurs de l'estomac
+:PROPERTIES:
+:ID:       bdba10f2-3c21-4ea7-aaf8-c29bb1757ac8
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 301 Tumeurs du foie
+:PROPERTIES:
+:ID:       60521721-92ee-4d69-8a7d-bf91887f27f8
+:END:
+** 302 Tumeurs de l'oesophage
+:PROPERTIES:
+:ID:       a17c590a-4d3b-4dff-a945-d7184ef95507
+:END:
+** 303 Tumeurs de l'ovaire
+:PROPERTIES:
+:COLLEGE:  3
+:ECNI:     2
+:ID:       65509ad3-0fe0-4c38-8f53-f9c674f70d99
+:END:
+** 304 Tumeurs des os
+:PROPERTIES:
+:COLLEGE:  3
+:ECNI:     3
+:ID:       e291ff1f-6916-4181-abe5-a65e1e34c8c9
+:END:
+** 305 Tumeurs du pancréas
+:PROPERTIES:
+:COLLEGE:  2
+:ID:       fcb51b11-39f4-43c1-b7b4-73b07f9f411a
+:ECNI:     1
+:END:
+** 306 tumeurs du poumon
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:  1
+:ID:       b4b33b55-c765-4e0b-a71c-55790953cf96
+:END:
+** 307 Tumeurs de la prostate
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  2
+:END:
+** 308 Tumeurs du rein
+:PROPERTIES:
+:ID:       cd55a873-fd7a-40ae-8d9d-d1df38e54cd3
+:ECNI:     1
+:COLLEGE:  2
+:END:
+** 309 Tumeur du sein
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  2
+:ID:       55652566-c3c0-4dd6-a1e4-fa3a076adc29
+:END:
+** LATE 310 Tumeurs du testicule :uro:retard:
+:PROPERTIES:
+:COLLEGE:  1
+:ID:       e12cb946-0005-422d-8959-0bce4dfdeec4
+:END:
+** 311 Tumeurs vésicales
+:PROPERTIES:
+:ID:       9ba221b4-ae2d-458d-ad18-28637e0f3109
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 312 Leucémie aigües
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 313 Syndromes myélodysplasiques
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 314 Syndromes myéloprolifératifs
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 315 Leucémie lymphoïde chronique
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 316 Lymphomes malins
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** LATE 317 Myélome multiple :nephro:retard:
+   :PROPERTIES:
+   :COLLEGE:  2
+   :ECNI:     2
+   :END:
+** 319 Décision thérapeutique personnalisée
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 322 Toxidermies médicamenteuses
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 325 Transfusion sanguine
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** LATE 326 Médicaments les plus courants :nephro:retard:
+:PROPERTIES:
+:COLLEGE:  3
+:ECNI:     3
+:END:
+** 327 Arrêt cardiocirculatoire
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** LATE 329 Polytraumatisé :uro:retard:
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 330 Traumatisé cranio-facial
+:PROPERTIES:
+:ECNI:     1
+:END:
+** 332 Intoxications
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 333 Oedème de Quincke
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 338 État confusionnel
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 339 Pré-éclampise
+:PROPERTIES:
+:ARCHIVE:
+:COLLEGE:  1
+:END:
+** 340 Mort inattendue du nourrisson
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 341 Convulsion chez l'enfant
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** LATE 342 Rétention aigüe d'urine :uro:retard:
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  1
+:END:
+** LATE 343 Insuffisance rénale aigüe :nephro:retard:uro:
+:PROPERTIES:
+:ECNI:     1
+:END:
+** 344 Infection aigüe des parties molles
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  nil
+:END:
+** 349 Risque et conduite suicidaire
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 345 Grosse jambe rouge aigüe
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 354 Détresse respiratoire, corps étrangers
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     1
+:END:
+** 355 Insuffisance respiratoire aigüe
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 356 Pneumothorax
+:PROPERTIES:
+:COLLEGE:  1
+:END:
+** 357 Lésions pérarticulaire du genou, cheville, épaule
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  2
+:END:
+** 358 Prothèses
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 359 Fractures fréquentes
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+** 360 Fractures de l'enfant
+:PROPERTIES:
+:COLLEGE:  2
+:ECNI:     2
+:END:
+** 361 Surveillance d'un plâtre
+:PROPERTIES:
+:ECNI:     1
+:COLLEGE:  1
+:END:
+* Cancérologie :A2:semestre2:cancero:
+  :PROPERTIES:
+  :CATEGORY: cancero
+  :END:
+** DONE Collège
+** TODO Annales
+DEADLINE: <2020-06-15 Mon> SCHEDULED: <2020-06-14 Sun>
+** TODO Conf+ [5/7]
+DEADLINE: <2020-06-15 Mon> SCHEDULED: <2020-06-14 Sun>
+:LOGBOOK:
+CLOCK: [2020-05-25 Mon 17:37]--[2020-05-25 Mon 18:10] =>  0:33
+CLOCK: [2020-05-25 Mon 15:07]--[2020-05-25 Mon 15:55] =>  0:48
+CLOCK: [2020-05-25 Mon 12:07]--[2020-05-25 Mon 12:37] =>  0:30
+CLOCK: [2020-05-25 Mon 10:38]--[2020-05-25 Mon 11:51] =>  1:13
+CLOCK: [2020-05-24 Sun 17:34]--[2020-05-24 Sun 18:34] =>  1:00
+CLOCK: [2020-05-23 Sat 17:01]--[2020-05-23 Sat 18:02] =>  1:01
+CLOCK: [2020-05-23 Sat 16:18]--[2020-05-23 Sat 16:44] =>  0:26
+CLOCK: [2020-05-23 Sat 12:57]--[2020-05-23 Sat 13:03] =>  0:06
+CLOCK: [2020-05-22 Fri 12:49]--[2020-05-22 Fri 13:14] =>  0:25
+CLOCK: [2020-05-22 Fri 11:18]--[2020-05-22 Fri 11:46] =>  0:28
+CLOCK: [2020-05-21 Thu 18:13]--[2020-05-21 Thu 18:40] =>  0:27
+CLOCK: [2020-05-21 Thu 17:04]--[2020-05-21 Thu 17:23] =>  0:19
+CLOCK: [2020-05-21 Thu 00:10]--[2020-05-21 Thu 00:28] =>  0:18
+CLOCK: [2020-05-20 Wed 22:01]--[2020-05-20 Wed 22:50] =>  0:49
+CLOCK: [2020-05-20 Wed 16:17]--[2020-05-20 Wed 17:27] =>  1:10
+CLOCK: [2020-05-20 Wed 13:18]--[2020-05-20 Wed 13:58] =>  0:40
+CLOCK: [2020-05-20 Wed 11:37]--[2020-05-20 Wed 11:48] =>  0:11
+:END:
+*** DONE DP 1 D3
+*** DONE DP 2 D3
+*** DONE QI 1 D3
+*** DONE QI 2 D3
+*** DONE QI 3 D3
+*** TODO Entraînement D3
+*** TODO Consensus D3
+** DONE Relire fiches
+DEADLINE: <2020-05-29 Fri> SCHEDULED: <2020-05-24 Sun>
+:LOGBOOK:
+CLOCK: [2020-06-01 Mon 15:20]--[2020-06-01 Mon 16:44] =>  1:24
+CLOCK: [2020-06-01 Mon 14:38]--[2020-06-01 Mon 15:03] =>  0:25
+CLOCK: [2020-06-01 Mon 12:27]--[2020-06-01 Mon 13:15] =>  0:48
+CLOCK: [2020-06-01 Mon 11:21]--[2020-06-01 Mon 12:17] =>  0:56
+CLOCK: [2020-05-31 Sun 23:32]--[2020-05-31 Sun 23:39] =>  0:07
+CLOCK: [2020-05-31 Sun 21:39]--[2020-05-31 Sun 22:46] =>  1:07
+CLOCK: [2020-05-31 Sun 17:59]--[2020-05-31 Sun 18:15] =>  0:16
+CLOCK: [2020-05-31 Sun 14:14]--[2020-05-31 Sun 15:44] =>  1:30
+CLOCK: [2020-05-31 Sun 11:00]--[2020-05-31 Sun 11:45] =>  0:45
+CLOCK: [2020-05-30 Sat 18:59]--[2020-05-30 Sat 19:24] =>  0:25
+CLOCK: [2020-05-30 Sat 16:17]--[2020-05-30 Sat 17:33] =>  1:16
+CLOCK: [2020-05-30 Sat 12:51]--[2020-05-30 Sat 13:40] =>  0:49
+CLOCK: [2020-05-29 Fri 21:56]--[2020-05-29 Fri 22:05] =>  0:09
+CLOCK: [2020-05-29 Fri 19:29]--[2020-05-29 Fri 19:51] =>  0:22
+CLOCK: [2020-05-27 Wed 16:11]--[2020-05-27 Wed 17:35] =>  1:24
+CLOCK: [2020-05-27 Wed 12:43]--[2020-05-27 Wed 13:20] =>  0:37
+CLOCK: [2020-05-27 Wed 12:12]--[2020-05-27 Wed 12:26] =>  0:14
+
+CLOCK: [2020-05-26 Tue 11:00]--[2020-05-26 Tue 12:00] =>  1:00
+CLOCK: [2020-05-25 Mon 23:06]--[2020-05-25 Mon 23:53] =>  0:47
+:END:
+Item 307
+** TODO ECN asso
+:LOGBOOK:
+CLOCK: [2020-05-31 Sun 15:28]--[2020-05-31 Sun 16:13] =>  0:45
+:END:
+*** DONE Conf du 2020-05-28
+DEADLINE: <2020-05-28 Thu>
+:LOGBOOK:
+CLOCK: [2020-05-29 Fri 16:14]--[2020-05-29 Fri 17:24] =>  1:10
+CLOCK: [2020-05-28 Thu 12:23]--[2020-05-28 Thu 13:37] =>  1:14
+CLOCK: [2020-05-28 Thu 11:23]--[2020-05-28 Thu 11:57] =>  0:34
+:END:
+**** DONE Faire la conf
+**** DONE Relire
+
+* Cardiologie :D1:
+  :PROPERTIES:
+  :CATEGORY: cardiologie
+  :END:
+* Chirurgie maxillo-faciale                               :A1:semestre2:maxillo:
+  :PROPERTIES:
+  :CATEGORY: maxillo
+  :END:
+
+** TODO Conf ecn asso
+[[file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_maxillo_corrige.pdf][file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_maxillo_corrige.pdf]]
+* Dermato                                                 :A2:semestre1:dermato:
+:PROPERTIES:
+:CATEGORY: dermato
+:END:
+** TODO UE Ecn en concours blanc 2016 [0/3]
+*** TODO Dossier 2
+*** TODO Dossier 3
+*** TODO Dossier 4
+
+* Endocrino                                             :A1:semestre1:endocrino:
+  :PROPERTIES:
+  :CATEGORY: endocrino
+  :END:
+** TODO Conf ecn asso
+*** TODO 2019-12-16
+[[file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_endoc_sujet_2019-12-16.pdf][file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_endoc_sujet_2019-12-16.pdf]]
+*** TODO <2020-05-27 Wed>
+:LOGBOOK:
+CLOCK: [2020-05-28 Thu 22:30]--[2020-05-28 Thu 23:35] =>  1:05
+CLOCK: [2020-05-28 Thu 12:47]--[2020-05-28 Thu 13:47] =>  1:00
+:END:
+**** DONE Sujet
+DEADLINE: <2020-05-26 Tue>
+:LOGBOOK:
+CLOCK: [2020-05-26 Tue 22:55]--[2020-05-26 Tue 23:42] =>  0:47
+CLOCK: [2020-05-26 Tue 20:59]--[2020-05-26 Tue 21:42] =>  0:43
+CLOCK: [2020-05-26 Tue 19:42]--[2020-05-26 Tue 20:10] =>  0:28
+CLOCK: [2020-05-26 Tue 18:49]--[2020-05-26 Tue 19:13] =>  0:24
+:END:
+**** DONE Relire
+DEADLINE: <2020-05-28 Thu>
+:LOGBOOK:
+CLOCK: [2020-05-28 Thu 17:05]--[2020-05-28 Thu 17:06] =>  0:01
+CLOCK: [2020-05-28 Thu 15:22]--[2020-05-28 Thu 16:00] =>  0:38
+CLOCK: [2020-05-27 Wed 12:45]--[2020-05-27 Wed 13:30] =>  0:45
+:END:
+**** DONE Copier diapo dès qu'elle sera disponible
+DEADLINE: <2020-05-30 Sat>
+:LOGBOOK:
+CLOCK: [2020-05-29 Fri 11:35]--[2020-05-29 Fri 11:36] =>  0:01
+:END:
+* Gériatrie :geria:A2:semestre1:
+:PROPERTIES:
+:CATEGORY: géria
+:END:
+** TODO Masson QRC [0/35]
+** TODO Ecn intensif DP et QI
+*** TODO DP 10-50 QI 0-140
+* Gynécologie :A2:semestre2:gyneco:
+  :PROPERTIES:
+  :CATEGORY: gynéco
+  :END:
+** TODO Exercices masson
+*** TODO CC [5/5]
+*** TODO DP [20/23]
+DEADLINE: <2020-06-09 Tue> SCHEDULED: <2020-06-01 Mon>
+:LOGBOOK:
+CLOCK: [2020-06-08 Mon 20:50]--[2020-06-08 Mon 21:14] =>  0:24
+CLOCK: [2020-06-08 Mon 15:40]--[2020-06-08 Mon 16:30] =>  0:50
+CLOCK: [2020-06-08 Mon 15:05]--[2020-06-08 Mon 15:36] =>  0:31
+CLOCK: [2020-06-06 Sat 21:54]--[2020-06-06 Sat 22:25] =>  0:31
+CLOCK: [2020-06-06 Sat 18:11]--[2020-06-06 Sat 18:25] =>  0:14
+CLOCK: [2020-06-06 Sat 16:22]--[2020-06-06 Sat 17:06] =>  0:44
+CLOCK: [2020-06-06 Sat 14:32]--[2020-06-06 Sat 15:57] =>  1:25
+CLOCK: [2020-06-06 Sat 13:17]--[2020-06-06 Sat 14:03] =>  0:46
+CLOCK: [2020-06-06 Sat 11:26]--[2020-06-06 Sat 12:10] =>  0:44
+CLOCK: [2020-06-05 Fri 22:51]--[2020-06-05 Fri 23:30] =>  0:39
+CLOCK: [2020-06-05 Fri 21:41]--[2020-06-05 Fri 22:02] =>  0:21
+CLOCK: [2020-06-05 Fri 12:39]--[2020-06-05 Fri 13:20] =>  0:41
+CLOCK: [2020-06-04 Thu 22:44]--[2020-06-04 Thu 23:45] =>  1:01
+CLOCK: [2020-06-04 Thu 19:46]--[2020-06-04 Thu 21:00] =>  1:14
+CLOCK: [2020-06-03 Wed 19:10]--[2020-06-03 Wed 19:39] =>  0:29
+CLOCK: [2020-06-02 Tue 21:52]--[2020-06-02 Tue 22:35] =>  0:43
+CLOCK: [2020-06-02 Tue 17:48]--[2020-06-02 Tue 18:48] =>  1:00
+CLOCK: [2020-06-02 Tue 17:10]--[2020-06-02 Tue 17:35] =>  0:25
+CLOCK: [2020-06-01 Mon 21:38]--[2020-06-01 Mon 23:12] =>  1:34
+CLOCK: [2020-06-01 Mon 18:54]--[2020-06-01 Mon 19:56] =>  1:02
+:END:
+*** TODO QI [/200]
+DEADLINE: <2020-06-09 Tue> SCHEDULED: <2020-05-01 Thu>
+** TODO Relire fiches
+DEADLINE: <2020-06-08 Mon> SCHEDULED: <2020-06-03 Wed>
+:LOGBOOK:
+CLOCK: [2020-06-09 Tue 00:00]--[2020-06-09 Tue 00:20] =>  0:20
+CLOCK: [2020-06-08 Mon 21:58]--[2020-06-08 Mon 22:16] =>  0:18
+CLOCK: [2020-06-08 Mon 21:14]--[2020-06-08 Mon 21:47] =>  0:33
+CLOCK: [2020-06-08 Mon 14:42]--[2020-06-08 Mon 14:57] =>  0:15
+CLOCK: [2020-06-08 Mon 12:38]--[2020-06-08 Mon 13:47] =>  1:09
+CLOCK: [2020-06-08 Mon 11:14]--[2020-06-08 Mon 11:34] =>  0:20
+:END:
+-> item 34 (fiches)
+Compléter items du collège
+** TODO Conf+ [0/9]
+DEADLINE: <2020-06-17 Wed> SCHEDULED: <2020-06-16 Tue>
+*** TODO DP 1 D3
+*** TODO DP 2 D3
+*** TODO DP 3 D3
+*** TODO DP 4 D3
+*** TODO QI 1 D3
+*** TODO QI 2 D3
+*** TODO QI 3 D3
+*** TODO Entraînement D3
+*** TODO Consensus D3
+** TODO ECNI intensif (disponible en ligne)
+https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gyncologieobsttrique15185761
+** TODO Pôle abdominopelvien (en ligne)
+https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-abdominopelvien-gyncologieobsttriquehpatogastroentrologiechirurgie-digestive
+** TODO Annales
+DEADLINE: <2020-06-17 Wed> SCHEDULED: <2020-06-16 Tue>
+* Hépato-Gastro :A1:semestre1:hge:
+  :PROPERTIES:
+  :COLUMNS:  %25ITEM %Lu %Fiche %QI
+  :QI_source: 1000 QROC
+  :CATEGORY: HGE
+  :END:
+* Hémato                                                   :hémato:A2:semestre1:
+:PROPERTIES:
+:CATEGORY: hémato
+:END:
+** TODO Les dossiers ECNI
+:PROPERTIES:
+:CATEGORY: hémato
+:END:
+*** TODO Dossier 13-30
+* Immunologie :immuno:A2:semestre1:
+:PROPERTIES:
+:CATEGORY: immuno
+:END:
+** TODO UE Ecn en concours blanc 2016 [0/3]
+*** TODO Dossier 2
+*** TODO Dossier 3
+*** TODO Dossier 4
+
+* LCA                                                                      :lca:
+** TODO Théophile Gautier
+** TODO Annales 2019
+*** TODO Lire les articles
+Sujet https://lyon-sud.univ-lyon1.fr/formation/corrections-ecni-2019-984317.kjsp
+*** TODO répondre aux questions
+*** TODO Corrigé live
+https://www.youtube.com/watch?v=Yck8Z7fFrt0
+** TODO LCA de Théo Pezel
+* Maladies infectieuses :D1:malinf:
+** Pilly, slides et DP
+ | Item                           | Pilly | Slides                         | Livres uECN |
+ |--------------------------------+-------+--------------------------------+-------------|
+ | UE1-4 Sécurité                 | X     | non                            |             |
+ | UE2-26 Risques foetaux         | X     | Venard                         |             |
+ | UE6-142 Surveillance           | X     | non                            | 1 QI        |
+ | UE6-143 Vaccinations           | X     |                                | 1 QI        |
+ | UE6-144 Fièvre aigüe           | X     | non                            | 1 QI        |
+ | UE6-145 Infections naso-sinus  | X     | non                            | 1 DP        |
+ | UE6-146 Angines                | X     | Jacquet                        | 1 QI        |
+ | UE6-147 Otites                 | X     | non                            | 1 DP        |
+ | UE6-148 Méningites             | X     | {Lozniewski, Legof, Schvoerer} |             |
+ | UE6-149, 150 Endocardites      | X     | Goehringer                     | 1 DP, 2 QI  |
+ | UE6-151 Infections pulmonaires | X     | Lozniewski                     |             |
+ | UE6-152 Infections cutanéo-muq | X     |                                | 1 DP        |
+ | UE6-153 Infections ostéo-art   | X     |                                |             |
+ | UE6-154 Septicémie             | X     | 1 QI                           |             |
+ | UE6-155 Tuberculose            | X     |                                | 1DP         |
+ | UE6-156 Tétanos                | X     | Non ?                          |             |
+ | UE6-157 Infections urinaires   | X     | {Lozniewski, Henard}           | 1 DP, 1 QI  |
+ | UE6-158 IST                    | X     | {Lozniewski, Jacquet}          |             |
+ | UE6-159 Coqueluche             | X     | Lozniewski                     |             |
+ | UE6-161 Oreillons              | X     | Non                            |             |
+ | UE6-160 Eruptives              | X     | {Jeulin, May}                  |             |
+ | UE6-162 Grippe                 | X     | Shroever                       |             |
+ | UE6-163 Hépatites virales      | X     |                                | 1 DP        |
+ | UE6-164 Herpès                 | X     | Jeulin                         | 1 DP        |
+ | UE6-165 VIH                    | X     | {Venard, Jeulin, May, Boyer}   |             |
+ | UE6-166 Paludisme              | X     | Debourgogne                    |             |
+ | UE6-167 Gale et pédiculose     | X     |                                |             |
+ | UE6-168 Parasitoses digestives | X     |                                | 1 DP, 1 QI  |
+ | UE6-169 Zoonose                | X     |                                | 1 QI        |
+ | UE6-170 Migrants               | X     |                                |             |
+ | UE6-171 Voyage                 | X     |                                |             |
+ | UE6-172 Diarrhées infectieuses | X     | 1 DP                           |             |
+ | UE6-173 ATB                    | X     | Pulcini                        |             |
+ | UE6-174 Risques                | X     | non                            |             |
+ | UE6-186 Fièvre prolongée       | X     |                                |             |
+ | UE6-187 Fièvre chez ID         | X     |                                |             |
+ | UE6-211 Purpuras               | X     |                                |             |
+ | UE6-213 Sd mononucléosique     | X     | Jacquet                        |             |
+ | UE6-214 Éosinophilie           | lu    |                                |             |
+ | UE6-216 Adénopathie            | lu    |                                |             |
+ | UE11-352 Péritonite            | lu    |                                |             |
+ | UE11-363 Exposition            | lu    |                                |             |
+
+** ECN Asso
+*** DONE Conf <2020-05-18 Mon>
+DEADLINE: <2020-05-19 Tue>
+:LOGBOOK:
+CLOCK: [2020-05-19 Tue 11:29]--[2020-05-19 Tue 12:42] =>  1:13
+CLOCK: [2020-05-18 Mon 23:56]--[2020-05-19 Tue 00:29] =>  0:33
+CLOCK: [2020-05-17 Sun 22:56]--[2020-05-17 Sun 23:25] =>  0:29
+:END:
+**** Relire
+DP 1 ok
+*** TODO Conf <2020-05-13 Wed>
+https://www.twitch.tv/videos/620892295
+* MPR :A1:semestre1:mpr:
+** TODO Conf ecn asso
+[[file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_mpr_corrige.pdf][file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_mpr_corrige.pdf]]
+* Nephrologie :A1:semestre2:nephro:
+  :PROPERTIES:
+  :CATEGORY: nephro
+  :END:
+** TODO [#B] Lire collège [1/23] (cf LATE et tag retard) [1/23]
+:LOGBOOK:
+CLOCK: [2020-05-10 Sun 10:39]--[2020-05-10 Sun 11:50] =>  1:11
+:END:
+*** TODO [[23 Principales complications de la grossesse]]
+*** TODO [[126 Personne agée malade]]
+*** TODO [[157 Infections urinaires]]
+*** TODO [[190 Lupus erythémateux systémique]]
+*** TODO [[197 Transplantation d'organes]]
+*** TODO [[217 Amylose]]
+*** TODO [[221 HTA]]
+*** TODO [[245 Diabète]]
+*** TODO [[254 Syndromes oedemateux]]
+*** TODO [[255 Élévation de la créatinine]]
+*** DONE [[256 Protéinurie et syndrome néphrotique]]
+*** TODO [[257 Hématurie]]
+*** TODO [[258 Néphropathies glomérulaires]]
+*** TODO [[259 Néphropathies interstitielles chroniques]]
+*** TODO [[260 Néphropathies vasculaires]]
+*** TODO [[261 Insuffisance rénale chronique]]
+*** TODO [[262 Lithiase urinaire]]
+*** TODO [[263 Polykystose rénale]]
+*** TODO [[264 Diurétiques]]
+*** TODO [[265 Hypocalcémie, dyskaliémie, hyponatrémie]]
+*** TODO [[266 Hypercalcémie]]
+*** TODO [[317 Myélome multiple]]
+*** TODO [[326 Médicaments les plus courants]]
+** TODO Annales
+** TODO Confplus
+** TODO Conf ecn asso
+[[file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_nephro_corrige_Mauvais-calcul.pdf][file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_nephro_corrige_Mauvais-calcul.pdf]]
+[[file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_nephro_corrige_intestin-et-rein.pdf][file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_nephro_corrige_intestin-et-rein.pdf]]
+[[file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_nephro_corrige_Boire-ou-ne-pas-boire-de-leau.pdf][file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_nephro_corrige_Boire-ou-ne-pas-boire-de-leau.pdf]]
+[[file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_nephro_corrige_Attention-à-lhypertension.pdf][file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_nephro_corrige_Attention-à-lhypertension.pdf]]
+[[file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_nepho_corrige_qi.pdf][file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_nepho_corrige_qi.pdf]]
+* Ophtalmologie :A1:semestre1:ophtalmo:
+  :PROPERTIES:
+  :CATEGORY: ophtalmo
+  :END:
+* ORL                                                         :A1:semestre2:orl:
+  :PROPERTIES:
+  :CATEGORY: orl
+  :END:
+** TODO Conf ecn asso
+[[file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_orl_corrige_2020-03.pdf][file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_orl_corrige_2020-03.pdf]]
+* Orthopédie  :A2:semestre2:ortho:
+  :PROPERTIES:
+  :CATEGORY: ortho
+  :END:
+** DONE Collège
+** DONE ECN asso
+*** DONE 09/04/202
+** TODO Relire fiches
+DEADLINE: <2020-06-11 Thu> SCHEDULED: <2020-06-11 Thu>
+** TODO ECNI intensif (non disponible en ligne)
+DEADLINE: <2020-06-13 Sat> SCHEDULED: <2020-06-12 Fri>
+*** TODO 2eme passe
+**** DONE DP [26/35]
+**** DONE QI [70/150]
+** TODO QCM en orthopédie (en ligne)
+http://univ.scholarvox.com.bases-doc.univ-lorraine.fr/catalog/book/docid/88830153
+** TODO Pôle locomoteur (en ligne)
+https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-locomoteur-orthopdietraumatologie-rhumatologie
+** TODO Conf+ [0/7]
+SCHEDULED: <2020-06-20 Sat> DEADLINE: <2020-06-21 Sun>
+*** TODO DP 1 D3
+*** TODO DP 2 D3
+*** TODO QI 1 D3
+*** TODO QI 2 D3
+*** TODO QI 3 D3
+*** TODO Entraînement D3
+*** TODO Consensus D3
+** TODO Annales
+DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-20 Sat>
+* Pédiatrie :A2:semestre2:pedia:
+:PROPERTIES:
+:CATEGORY: pédia
+:END:
+** DONE Collège
+** DONE Collège QI DP
+** DONE Conf ecn asso <2020-06-04 Thu>
+DEADLINE: <2020-06-04 Thu>
+:LOGBOOK:
+CLOCK: [2020-06-07 Sun 19:09]--[2020-06-07 Sun 19:41] =>  0:32
+CLOCK: [2020-06-07 Sun 17:25]--[2020-06-07 Sun 17:56] =>  0:31
+CLOCK: [2020-06-07 Sun 16:00]--[2020-06-07 Sun 17:25] =>  1:25
+CLOCK: [2020-06-04 Thu 14:59]--[2020-06-04 Thu 15:19] =>  0:20
+:END:
+*** DONE Faire conf ecn asso
+DEADLINE: <2020-06-05 Fri>
+*** DONE Reprendre corrigé conf
+DEADLINE: <2020-06-05 Fri>
+** TODO Conf+ [3/8]
+DEADLINE: <2020-06-19 Fri> SCHEDULED: <2020-06-18 Thu>
+*** DONE DP1 D3
+DEADLINE: <2020-05-02 Sat>
+:LOGBOOK:
+CLOCK: [2020-05-02 Sat 11:34]--[2020-05-02 Sat 13:13] =>  1:39
+CLOCK: [2020-05-02 Sat 10:33]--[2020-05-02 Sat 11:02] =>  0:29
+:END:
+*** DONE DP2 D3
+:LOGBOOK:
+CLOCK: [2020-05-03 Sun 21:05]--[2020-05-03 Sun 21:30] =>  0:25
+:END:
+*** DONE DP3 D3
+DEADLINE: <2020-05-09 Sat>
+:LOGBOOK:
+CLOCK: [2020-05-09 Sat 18:16]--[2020-05-09 Sat 18:30] =>  0:14
+CLOCK: [2020-05-09 Sat 16:47]--[2020-05-09 Sat 17:36] =>  0:49
+CLOCK: [2020-05-09 Sat 14:57]--[2020-05-09 Sat 15:23] =>  0:26
+:END:
+*** TODO DP4 D3
+*** TODO QI 1 D3
+*** TODO QI 2 D3
+*** TODO QI 3 D3
+*** TODO Consensus D3
+** TODO Les dossiers ECNI 2016
+*** DONE Refaire DP 1-10 [10/10]
+SCHEDULED: <2020-05-09 Sat>
+:LOGBOOK:
+CLOCK: [2020-05-16 Sat 21:28]--[2020-05-16 Sat 21:43] =>  0:15
+CLOCK: [2020-05-16 Sat 14:48]--[2020-05-16 Sat 15:05] =>  0:17
+CLOCK: [2020-05-14 Thu 17:04]--[2020-05-14 Thu 17:54] =>  0:50
+CLOCK: [2020-05-13 Wed 16:18]--[2020-05-13 Wed 17:30] =>  1:12
+CLOCK: [2020-05-12 Tue 16:51]--[2020-05-12 Tue 17:33] =>  0:42
+CLOCK: [2020-05-12 Tue 14:40]--[2020-05-12 Tue 15:56] =>  1:16
+CLOCK: [2020-05-12 Tue 14:24]--[2020-05-12 Tue 14:38] =>  0:14
+CLOCK: [2020-05-11 Mon 22:08]--[2020-05-11 Mon 22:22] =>  0:14
+CLOCK: [2020-05-10 Sun 21:21]--[2020-05-10 Sun 22:09] =>  0:48
+CLOCK: [2020-05-10 Sun 18:33]--[2020-05-10 Sun 18:50] =>  0:17
+CLOCK: [2020-05-10 Sun 15:11]--[2020-05-10 Sun 16:30] =>  1:19
+CLOCK: [2020-05-10 Sun 14:01]--[2020-05-10 Sun 14:54] =>  0:53
+CLOCK: [2020-05-09 Sat 22:26]--[2020-05-09 Sat 23:00] =>  0:34
+CLOCK: [2020-05-09 Sat 21:38]--[2020-05-09 Sat 21:49] =>  0:11
+CLOCK: [2020-05-09 Sat 18:43]--[2020-05-09 Sat 19:11] =>  0:28
+:END:
+*** DONE DP 11-15 [15/15] QI [15/15]
+DEADLINE: <2020-05-18 Mon>
+:LOGBOOK:
+CLOCK: [2020-05-19 Tue 22:30]--[2020-05-19 Tue 23:04] =>  0:34
+CLOCK: [2020-05-19 Tue 17:08]--[2020-05-19 Tue 18:19] =>  1:11
+CLOCK: [2020-05-19 Tue 15:08]--[2020-05-19 Tue 15:30] =>  0:22
+CLOCK: [2020-05-19 Tue 13:04]--[2020-05-19 Tue 13:21] =>  0:17
+CLOCK: [2020-05-18 Mon 18:34]--[2020-05-18 Mon 18:50] =>  0:16
+CLOCK: [2020-05-18 Mon 15:26]--[2020-05-18 Mon 16:40] =>  1:14
+CLOCK: [2020-05-18 Mon 15:07]--[2020-05-18 Mon 15:14] =>  0:07
+CLOCK: [2020-05-17 Sun 19:08]--[2020-05-17 Sun 19:55] =>  0:47
+CLOCK: [2020-05-17 Sun 16:59]--[2020-05-17 Sun 17:06] =>  0:07
+CLOCK: [2020-05-17 Sun 16:19]--[2020-05-17 Sun 16:29] =>  0:10
+CLOCK: [2020-05-17 Sun 14:44]--[2020-05-17 Sun 15:28] =>  0:44
+CLOCK: [2020-05-17 Sun 14:23]--[2020-05-17 Sun 14:36] =>  0:13
+CLOCK: [2020-05-17 Sun 12:13]--[2020-05-17 Sun 12:25] =>  0:12
+:END:
+*** TODO DP 16-30 QI 16-30
+** TODO Relire fiches
+DEADLINE: <2020-06-10 Wed> SCHEDULED: <2020-06-10 Wed>
+** TODO Annales
+DEADLINE: <2020-06-19 Fri> SCHEDULED: <2020-06-18 Thu>
+* Pneumologie :A1:semestre1:pneumo:
+  :PROPERTIES:
+  :CATEGORY: pneumo
+  :References: Imagerie thoracique pour l'ECN (Nice-Sophia antipolis)
+  :END:
+* Psychiatrie                                                 :A1:semestre2:psy:
+  :PROPERTIES:
+  :CATEGORY: psy
+  :END:
+** TODO Conf ecn asso D2
+https://www.youtube.com/watch?v=0qoyLdMZmDY
+* Radiologie :radio:
+** DONE Conf ECN asso du <2020-05-14 Thu>
+DEADLINE: <2020-05-19 Tue>
+:LOGBOOK:
+CLOCK: [2020-05-23 Sat 11:36]--[2020-05-23 Sat 12:38] =>  1:02
+CLOCK: [2020-05-22 Fri 14:58]--[2020-05-22 Fri 16:45] =>  1:47
+:END:
+https://www.twitch.tv/videos/620892295
+* Rhumato :A2:semestre1:rhumato:
+  :PROPERTIES:
+  :CATEGORY: rhumato
+  :END:
+** TODO Les dossiers ECNI
+*** TODO DP 13-30 QI
+* Urologie :A1:semestre1:uro:
+  :PROPERTIES:
+  :CATEGORY: uro
+  :END:
+** TODO Lire ECNI (cf TODO et tag retard) [4/20]
+*** TODO [[35 Contraception ]]
+*** TODO [[37 Stérilité couple ]]
+*** TODO [[39 Alvgies peslviene chez la femme ]]
+*** TODO [[42 Tuméfaction pelvienne chez la femme ]]
+*** TODO [[48 Cryptorchidie ]]
+*** TODO [[56 Sexualité normale et ses troubles ]]
+*** TODO [[120 Ménopause, andropause ]]
+*** DONE [[121 Trouble de la miction ]]
+*** TODO [[122 Troubles de l'érection ]]
+*** TODO [[123 Hypertrophie bénigne de la prostate ]]
+*** TODO [[157 Infections urinaires :nephro]]
+*** TODO [[197 Transplantation d'organes :nephro:retard]]
+*** TODO [[257 Hématurie :nephro:retard]]
+*** TODO [[262 Lithiase urinaire ]]
+*** DONE [[307 Tumeurs de la prostate ]]
+*** TODO [[308 Tumeurs du rein ]]
+*** TODO [[310 Tumeurs du testicule ]]
+*** DONE [[311 Tumeurs vésicaless ]]
+*** TODO [[329 Polytraumatisé ]]
+*** DONE [[342 Rétention aigüe d'urine ]]
+** TODO Lire collège (cf TODO et tag retard) [1/20]
+*** TODO [[35 Contraception ]]
+*** TODO [[37 Stérilité couple ]]
+*** TODO [[39 Algies peslviene chez la femme ]]
+*** TODO [[42 Tuméfaction pelvienne chez la femme ]]
+*** TODO [[48 Cryptorchidie ]]
+*** TODO [[56 Sexualité normale et ses troubles ]]
+*** TODO [[120 Ménopause, andropause ]]
+*** DONE [[121 Trouble de la miction ]]
+*** TODO [[122 Troubles de l'érection ]]
+*** TODO [[123 Hypertrophie bénigne de la prostate ]]
+*** TODO [[157 Infections urinaires :nephro]]
+*** TODO [[197 Transplantation d'organes :nephro:retard]]
+*** TODO [[257 Hématurie :nephro:retard]]
+*** TODO [[262 Lithiase urinaire ]]
+*** TODO [[307 Tumeurs de la prostate ]]
+*** TODO [[308 Tumeurs du rein ]]
+*** TODO [[310 Tumeurs du testicule ]]
+*** TODO [[311 Tumeurs vésicaless ]]
+*** TODO [[329 Polytraumatisé ]]
+*** TODO [[342 Rétention aigüe d'urine ]]
+
+** TODO Conf ecn asso
+[[file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_uro_corrige_2020-05.pdf][file:~/backups/hubic/Public/Cours/Medecine/FASM1/conferences/ecn_asso/D2_conf_uro_corrige_2020-05.pdf]]
+* Garde
+** Urgences
+*** TODO Positionnement ECG
+*** TODO Gas du sang
+*** TODO Examen clinique
+**** TODO Urgences vitale (ABCDe)
+*** TODO Collège d'urgence
+*** TODO Pathologies
+Colique néphrétique
+Colique hépatique
+Uro
+* Anglais :anglais:
+** DONE Article d'entraînement " Pregnancy induces persistent changes in vascular compliance in primiparous women"
+:LOGBOOK:
+CLOCK: [2020-05-18 Mon 11:54]--[2020-05-18 Mon 12:46] =>  0:52
+CLOCK: [2020-05-11 Mon 21:27]--[2020-05-11 Mon 21:50] =>  0:23
+CLOCK: [2020-05-11 Mon 16:44]--[2020-05-11 Mon 17:09] =>  0:25
+:END:
+*** DONE Lire
+*** DONE QCM
+** CANCELLED Articles Dippenweiler
+** TODO Article d'examen
+*** DONE Lire article
+DEADLINE: <2020-05-20 Wed>
+:LOGBOOK:
+CLOCK: [2020-05-21 Thu 11:57]--[2020-05-21 Thu 12:32] =>  0:35
+:END:
+*** DONE Réfléchir aux limitations
+DEADLINE: <2020-05-22 Fri>
+:LOGBOOK:
+CLOCK: [2020-05-24 Sun 21:26]--[2020-05-24 Sun 21:45] =>  0:19
+CLOCK: [2020-05-24 Sun 16:03]--[2020-05-24 Sun 16:18] =>  0:15
+CLOCK: [2020-05-24 Sun 15:22]--[2020-05-24 Sun 15:41] =>  0:19
+CLOCK: [2020-05-24 Sun 10:44]--[2020-05-24 Sun 12:26] =>  1:42
+:END:
+
+* Livres
+** TODO Abrégé des très bien classés :abrégé:
+*** DONE Pedia
+DEADLINE: <2020-05-03 Sun> SCHEDULED: <2020-05-02 Sat>
+:LOGBOOK:
+CLOCK: [2020-05-08 Fri 22:33]--[2020-05-08 Fri 22:53] =>  0:20
+CLOCK: [2020-05-08 Fri 18:03]--[2020-05-08 Fri 18:48] =>  0:45
+CLOCK: [2020-05-08 Fri 15:51]--[2020-05-08 Fri 16:51] =>  1:00
+CLOCK: [2020-05-08 Fri 15:01]--[2020-05-08 Fri 15:28] =>  0:27
+CLOCK: [2020-05-08 Fri 13:02]--[2020-05-08 Fri 13:59] =>  0:57
+CLOCK: [2020-05-03 Sun 15:50]--[2020-05-03 Sun 17:10] =>  1:20
+CLOCK: [2020-05-03 Sun 12:21]--[2020-05-03 Sun 12:54] =>  0:33
+CLOCK: [2020-05-02 Sat 23:02]--[2020-05-02 Sat 23:27] =>  0:25
+CLOCK: [2020-05-02 Sat 22:42]--[2020-05-02 Sat 22:49] =>  0:07
+CLOCK: [2020-05-02 Sat 21:32]--[2020-05-02 Sat 22:08] =>  0:36
+CLOCK: [2020-05-02 Sat 17:18]--[2020-05-02 Sat 18:11] =>  0:53
+:END:
+*** TODO Ortho
+*** DONE Cancéro
+DEADLINE: <2020-05-31 Sun>
+Item 307
+*** DONE Gynéco
+DEADLINE: <2020-04-30 Thu>
+* Autre
+** TODO Lire corrigé épreuve sémio EE44EMEB
+:LOGBOOK:
+CLOCK: [2020-05-09 Sat 18:38]--[2020-05-09 Sat 18:43] =>  0:05
+:END:
