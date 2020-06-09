@@ -1,4 +1,4 @@
-#+TITLE: misc
+#+TITLE: Divers
 
 * Ingénieur de recherche CNRS
 Regarder dates. Grilles prédéfinies mais dépendent peu du candidat. Montrer

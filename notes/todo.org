@@ -1,3 +1,4 @@
+#+TITLE: Tasks
 #+TODO: TODO(t) WAITING(w) STARTED(s) | DONE(d) | CANCELLED(c)
 
 * Autres :misc:

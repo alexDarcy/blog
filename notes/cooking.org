@@ -1,3 +1,4 @@
+#+title: Cooking
 #+TODO: TODO(t) RETRY(r) | DONE(d) AVOID(a) MEH(m) LOVEIT(l) OK(o)
 
 * Desserts

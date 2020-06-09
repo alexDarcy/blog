@@ -1,4 +1,5 @@
-﻿#+TODO: TODO(t) LATE(l) | DONE(d) CANCELLED(c)
+﻿#+TITLE: Révisions
+#+TODO: TODO(t) LATE(l) | DONE(d) CANCELLED(c)
 #+TAGS: D1 D2 semestre1 semestre2
 
 #+FILETAGS: :revisions:
