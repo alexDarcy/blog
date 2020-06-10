@@ -2,6 +2,23 @@
 
 Lecture de la version de la Pléiade (1955)
 
-* Mise à jour
-Regarder le parallèle entre la civilisation minocéenne et l'âge des héros selon homère.
-Encore valable en 2020 ?
+* Parallèle entre la civilisation minocéenne et l'âge des héros selon homère ?
+Source: [[https://www.reddit.com/r/AskHistorians/comments/14df5g/did_the_trojan_war_actually_happen/c7c3z1s/][Askhistorians]]
+1.
+#+BEGIN_QUOTE
+Very nearly all artefacts and cultural practices described in Homer match the
+late Iron Age or early Archaic periods -- i.e. centuries after Troy VIi -- and
+not the late Bronze Age. Where Homer does describe elements that are
+demonstrably earlier than the text of the epics, they are almost always more
+easily explained as false archaisms (i.e. attempts to describe a past age by
+using old-fashioned elements indiscriminately and anachronistically).
+#+END_QUOTE
+2. On a bien une destruction de Troie VI concomitante à celles dees Mycénéens
+
+* Réalité de la guerre de Troie
+Selon [[https://www.reddit.com/r/AskHistorians/comments/14df5g/did_the_trojan_war_actually_happen/c7c3z1s/][Askhistorians]], concernant la guerre de troie, plus d'arguments contre que pour.
+#+BEGIN_QUOTE
+There is some circumstantial evidence in favour of a real Trojan War, but no
+direct evidence to support it. There is no evidence at all of historical figures
+named Agamemnon, Achilleus, Hektor, etc.
+#+END_QUOTE

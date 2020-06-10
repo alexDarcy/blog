@@ -1577,6 +1577,10 @@ CLOCK: [2020-05-17 Sun 12:13]--[2020-05-17 Sun 12:25] =>  0:12
 *** TODO DP 16-30 QI 16-30
 ** TODO Relire fiches
 DEADLINE: <2020-06-10 Wed> SCHEDULED: <2020-06-10 Wed>
+ECNI 31
+:LOGBOOK:
+CLOCK: [2020-06-10 Wed 22:13]--[2020-06-10 Wed 22:34] =>  0:21
+:END:
 ** TODO Annales
 DEADLINE: <2020-06-19 Fri> SCHEDULED: <2020-06-18 Thu>
 * Pneumologie :A1:semestre1:pneumo:
