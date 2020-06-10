@@ -1,4 +1,4 @@
-#+TITLE: Reading list
+#+TITLE: Papers
 #+TODO: TOREAD(t) MAYBE(m) PENDING(p) READING(r) HOLD(h) | SKIMMED(s)  DONE(d)
 #+COLUMNS: %120ITEM %STATUS
 

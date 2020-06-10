@@ -308,11 +308,12 @@ SCHEDULED: <2020-06-02 Tue .+1d>
 - State "DONE"       from "TODO"       [2020-04-27 Mon 00:22]
 - State "DONE"       from "TODO"       [2020-04-26 Sun 00:22]
 ** TODO Handstand :daily:
-SCHEDULED: <2020-06-04 Thu .+1d>
+SCHEDULED: <2020-06-10 Wed .+1d>
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2020-06-03 Wed 21:12]
+:LAST_REPEAT: [2020-06-09 Tue 22:56]
 :END:
+- State "DONE"       from "TODO"       [2020-06-09 Tue 22:56]
 - State "DONE"       from "TODO"       [2020-06-03 Wed 21:12]
 - State "DONE"       from "TODO"       [2020-06-01 Mon 21:45]
 - State "DONE"       from "TODO"       [2020-05-31 Sun 14:06]
@@ -393,11 +394,12 @@ SCHEDULED: <2020-06-04 Thu .+1d>
 - State "DONE"       from "TODO"        [2020-01-02 Thu 12:00]
 
 ** TODO Backflip on trampoline :daily:
-   SCHEDULED: <2020-06-07 Sun .+1d>
+   SCHEDULED: <2020-06-10 Wed .+1d>
    :PROPERTIES:
    :STYLE:    habit
-   :LAST_REPEAT: [2020-06-06 Sat 17:26]
+   :LAST_REPEAT: [2020-06-09 Tue 22:56]
    :END:
+   - State "DONE"       from "TODO"       [2020-06-09 Tue 22:56]
    - State "DONE"       from "TODO"       [2020-06-06 Sat 17:26]
    - State "DONE"       from "TODO"       [2020-06-01 Mon 21:45]
    - State "DONE"       from "TODO"       [2020-05-31 Sun 21:39]

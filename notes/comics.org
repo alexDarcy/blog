@@ -1,4 +1,4 @@
-#+TITLE: title,serie,rating,status,year
+#+TITLE: Comics
 #+TODO: TOREAD(t) | READ(r)
 #+OPTIONS: num:nil
 #+OPTIONS: toc:nil
@@ -269,6 +269,18 @@
 *** READ Ultimate Spiderman 129-133 :ultimatum:
 :PROPERTIES:
 :rating:   3.5
+:END:
+*** READ Ultimate Spiderman : Requiem
+:PROPERTIES:
+:rating:   3
+:END:
+*** READ Ultimate X-men : Requiem
+:PROPERTIES:
+:rating:   3
+:END:
+*** READ Ultimate Fantastic Four : Requiem
+:PROPERTIES:
+:rating:   3
 :END:
 
 * Old Format
