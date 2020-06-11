@@ -308,11 +308,12 @@ SCHEDULED: <2020-06-02 Tue .+1d>
 - State "DONE"       from "TODO"       [2020-04-27 Mon 00:22]
 - State "DONE"       from "TODO"       [2020-04-26 Sun 00:22]
 ** TODO Handstand :daily:
-SCHEDULED: <2020-06-10 Wed .+1d>
+SCHEDULED: <2020-06-12 Fri .+1d>
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2020-06-09 Tue 22:56]
+:LAST_REPEAT: [2020-06-11 Thu 21:34]
 :END:
+- State "DONE"       from "TODO"       [2020-06-11 Thu 21:34]
 - State "DONE"       from "TODO"       [2020-06-09 Tue 22:56]
 - State "DONE"       from "TODO"       [2020-06-03 Wed 21:12]
 - State "DONE"       from "TODO"       [2020-06-01 Mon 21:45]
@@ -394,11 +395,12 @@ SCHEDULED: <2020-06-10 Wed .+1d>
 - State "DONE"       from "TODO"        [2020-01-02 Thu 12:00]
 
 ** TODO Backflip on trampoline :daily:
-   SCHEDULED: <2020-06-10 Wed .+1d>
+   SCHEDULED: <2020-06-12 Fri .+1d>
    :PROPERTIES:
    :STYLE:    habit
-   :LAST_REPEAT: [2020-06-09 Tue 22:56]
+   :LAST_REPEAT: [2020-06-11 Thu 21:34]
    :END:
+   - State "DONE"       from "TODO"       [2020-06-11 Thu 21:34]
    - State "DONE"       from "TODO"       [2020-06-09 Tue 22:56]
    - State "DONE"       from "TODO"       [2020-06-06 Sat 17:26]
    - State "DONE"       from "TODO"       [2020-06-01 Mon 21:45]
@@ -492,9 +494,9 @@ la technique
 :CATEGORY: japanese
 :END:
 ** TODO Japanesepod101
-*** DONE Beginner S1 (170)
-*** DONE Begdinner S4
-*** TODO Upper beginner S1
+*** DONE Beglnner S1 (170)
+*** DONE Beglnner S4
+*** TODO Upper beglnner S1
 **** TODO Lire leçon
 **** DONE Audio
 *** TODO Lower intermediate S1
@@ -1372,3 +1374,8 @@ SCHEDULED: <2020-05-20 Wed .+1d>
 Huile fait 12/01/2020 + filtre à huile
 *** TODO Filtre à air
 *** TODO Transmission et parallélisme roues à faire
+
+Coucou te héhé
+loucou te lolo
+loucou te
+loucou te
