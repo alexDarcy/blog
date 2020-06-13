@@ -65,7 +65,7 @@
 :END:
 ** 26 Prévention des risques foetaux
 :PROPERTIES:
-:ECNI:     1
+:ECNI:     2
 :COLLEGE:  1
 :END:
 ** 28 Risques pour la maternité
@@ -75,7 +75,7 @@
 :END:
 ** 29 Prématurité et RCIU
 :PROPERTIES:
-:ECNI:     1
+:ECNI:     2
 :COLLEGE:  1
 :END:
 
@@ -86,7 +86,7 @@
 :END:
 ** 31 Évalution du nouveau-né
 :PROPERTIES:
-:ECNI:     1
+:ECNI:     2
 :COLLEGE:  1
 :END:
 ** 32 Allaitement maternel
@@ -138,22 +138,27 @@
 ** 43 Trisomie 21, syndrome de l'X fragile
 :PROPERTIES:
 :COLLEGE:  3
-:ECNI:     3
+:ECNI:     4
 :END:
 ** 44 Suivi d'un nourrisson. Dépistage des anomalies orthopédiques, auditives, visuelle
 :PROPERTIES:
-:ECNI:     2
+:ECNI:     3
 :COLLEGE:  2
 :END:
 ** 45 Alimentation du nourrisson et de l'enfant
 :PROPERTIES:
-:ECNI:     1
+:ECNI:     2
+:COLLEGE:  1
+:END:
+** 46 Développement bucco-dentaire
+:PROPERTIES:
+:ECNI:     2
 :COLLEGE:  1
 :END:
 ** 47 Puberté
 :PROPERTIES:
 :COLLEGE:  3
-:ECNI:     2
+:ECNI:     3
 :END:
 ** LATE 48 Cryptorchidie :uro:retard:
 :PROPERTIES:
@@ -168,37 +173,41 @@
 ** 50 Strabisme chez l'enfant
 :PROPERTIES:
 :COLLEGE:  1
-:ECNI:     1
+:ECNI:     2
 :END:
 ** 51 retard de croissance
 :PROPERTIES:
 :COLLEGE:  3
-:ECNI:     2
+:ECNI:     3
 :END:
 ** 52 Boiteries de l'enfant
 :PROPERTIES:
 :COLLEGE:  2
-:ECNI:     2
+:ECNI:     3
 :END:
 ** 53 Développement psychomoteur
 :PROPERTIES:
-:ECNI:     1
+:ECNI:     2
 :COLLEGE:  1
 :END:
 ** 54 L'enfant handicapé
 :PROPERTIES:
 :COLLEGE:  1
-:ECNI:     1
+:ECNI:     2
 :END:
 ** 55 Maltraitance
 :PROPERTIES:
 :COLLEGE:  1
-:ECNI:     1
+:ECNI:     2
 :END:
 ** LATE 56 Sexualité normale et ses troubles :uro:retard:
 :PROPERTIES:
 :ECNI:     1
 :COLLEGE:  1
+:END:
+** 66 Trouble du comportement de l'adolescent
+:PROPERTIES:
+:ECNI:     1
 :END:
 ** 67 Troubles psychique de la grossesse et du post-partum
 ** 68 Troubles psychique du sujet âgé
@@ -366,7 +375,7 @@
    :END:
 ** 134 Douleur chez l'enfant
 :PROPERTIES:
-:ECNI:     1
+:ECNI:     2
 :COLLEGE:  1
 :END:
 ** 136-138 Soins palliatifs
@@ -376,7 +385,7 @@
 :END:
 ** 143 Vaccinations
 :PROPERTIES:
-:ECNI:     1
+:ECNI:     2
 :COLLEGE:  1
 :END:
 ** 144 Fièvre
@@ -391,7 +400,7 @@
 :END:
 ** 146 Rhinopharyngite, angine
 :PROPERTIES:
-:ECNI:     1
+:ECNI:     2
 :COLLEGE:  1
 :END:
 ** 148 Méningites
@@ -442,7 +451,7 @@
 ** 160 Éruptions fébriles
 :PROPERTIES:
 :COLLEGE:  1
-:ECNI:     1
+:ECNI:     2
 :END:
 ** 164 HSV
 :PROPERTIES:
@@ -580,7 +589,7 @@
 ** 199 Dyspnée
 :PROPERTIES:
 :COLLEGE:  2
-:ECNI:     1
+:ECNI:     2
 :END:
 ** 200 Toux
 :PROPERTIES:
@@ -709,6 +718,8 @@
 ** 241 Hypothyroïdie
 :PROPERTIES:
 :COLLEGE:  1
+:ID:       a4b9a99d-7ce7-4400-8cbe-6352dea489de
+:ECNI:     1
 :END:
 ** 242 Adénome hypophysaire
 :PROPERTIES:
@@ -791,7 +802,7 @@
 ** 268 Reflux gastro-oesophagien
 :PROPERTIES:
 :COLLEGE:  1
-:ECNI:     1
+:ECNI:     2
 :END:
 ** 271 Vomissements
 :PROPERTIES:
@@ -802,6 +813,11 @@
 :PROPERTIES:
 :COLLEGE:  1
 :ECNI:     1
+:END:
+** 275 Ictère
+:PROPERTIES:
+:ECNI:     2
+:COLLEGE:  1
 :END:
 ** 279 Maladies inflammatoires chroniques de l'intestin
 :PROPERTIES:
@@ -869,7 +885,7 @@
 :END:
 ** 294 Cancers de l'enfant
 :PROPERTIES:
-:ECNI:     2
+:ECNI:     3
 :COLLEGE:  2
 :ID:       6492d39f-6f70-4692-a583-f12e0c783228
 :END:
@@ -1050,7 +1066,7 @@
 :END:
 ** 340 Mort inattendue du nourrisson
 :PROPERTIES:
-:ECNI:     1
+:ECNI:     2
 :COLLEGE:  1
 :END:
 ** 341 Convulsion chez l'enfant
@@ -1078,6 +1094,11 @@
 :COLLEGE:  1
 :END:
 ** 345 Grosse jambe rouge aigüe
+:PROPERTIES:
+:COLLEGE:  1
+:ECNI:     1
+:END:
+** 348 Risque et conduite suicidaire chez l'enfant, adolescent et adulte
 :PROPERTIES:
 :COLLEGE:  1
 :ECNI:     1
@@ -1581,25 +1602,104 @@ items
 - [X] 26
 - [X] 29
 - [X] 31
-- [X] 31
-- [X] 44
 - [X] 43
+- [X] 44
 - [X] 45
 - [X] 46
 - [X] 47
+- [X] 48
+- [X] 49
 - [X] 50
 - [X] 51
+- [X] 52
 - [X] 53
 - [X] 54
 - [X] 55
 - [X] 66
+- [X] 87
+- [X] 98
+- [X] 103
+- [ ] 108
+- [X] 134
 - [X] 143
+- [ ] 144
+- [ ] 145
+- [ ] 146
+- [ ] 147
+- [ ] 148
+- [ ] 151
+- [X] 152
+- [ ] 153
+- [ ] 154
+- [ ] 155
+- [ ] 157
+- [ ] 159
+- [X] 160
+- [ ] 164
+- [ ] 165
+- [ ] 166
+- [ ] 169
+- [ ] 170
+- [ ] 171
+- [ ] 172
+- [ ] 173
+- [ ] 182
+- [ ] 184
+- [ ] 185
 - [X] 199
+- [ ] 200
+- [ ] 203
+- [ ] 205
+- [ ] 208
+- [ ] 209
+- [ ] 211
+- [ ] 212
+- [ ] 215
+- [ ] 216
+- [ ] 222
+- [ ] 236
+- [ ] 238
+- [?] 241
+- [ ] 243
+- [ ] 245
+- [ ] 247
+- [ ] 248
+- [ ] 251
+- [ ] 253
+- [ ] 256
+- [ ] 261
+- [ ] 267
 - [X] 268
+- [ ] 271
 - [X] 275
+- [ ] 279
+- [ ] 280
+- [ ] 282
+- [ ] 283
+- [ ] 286
 - [X] 294
+- [ ] 325
+- [ ] 328
+- [ ] 330
+- [ ] 332
+- [ ] 338
+- [X] 340
+- [X] 341
+- [ ] 342
 - [X] 348
+- [ ] 349
+- [ ] 350
+- [ ] 351
+- [ ] 352
+- [ ] 354
+- [ ] 355
+- [ ] 360
+- [ ] 361
 :LOGBOOK:
+CLOCK: [2020-06-13 Sat 12:11]--[2020-06-13 Sat 12:59] =>  0:48
+CLOCK: [2020-06-13 Sat 11:31]--[2020-06-13 Sat 11:45] =>  0:14
+CLOCK: [2020-06-12 Fri 22:19]--[2020-06-12 Fri 23:12] =>  0:53
+CLOCK: [2020-06-12 Fri 16:39]--[2020-06-12 Fri 17:23] =>  0:44
 CLOCK: [2020-06-11 Thu 22:36]--[2020-06-11 Thu 23:11] =>  0:35
 CLOCK: [2020-06-11 Thu 22:01]--[2020-06-11 Thu 22:15] =>  0:14
 CLOCK: [2020-06-11 Thu 19:03]--[2020-06-11 Thu 19:28] =>  0:25
@@ -1611,6 +1711,7 @@ CLOCK: [2020-06-11 Thu 12:51]--[2020-06-11 Thu 13:39] =>  0:48
 CLOCK: [2020-06-11 Thu 11:28]--[2020-06-11 Thu 11:44] =>  0:16
 CLOCK: [2020-06-10 Wed 22:13]--[2020-06-10 Wed 22:34] =>  0:21
 :END:
+*** TODO
 ** TODO Annales
 DEADLINE: <2020-06-19 Fri> SCHEDULED: <2020-06-18 Thu>
 * Pneumologie :A1:semestre1:pneumo:

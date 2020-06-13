@@ -308,11 +308,12 @@ SCHEDULED: <2020-06-02 Tue .+1d>
 - State "DONE"       from "TODO"       [2020-04-27 Mon 00:22]
 - State "DONE"       from "TODO"       [2020-04-26 Sun 00:22]
 ** TODO Handstand :daily:
-SCHEDULED: <2020-06-12 Fri .+1d>
+SCHEDULED: <2020-06-14 Sun .+1d>
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2020-06-11 Thu 21:34]
+:LAST_REPEAT: [2020-06-13 Sat 22:57]
 :END:
+- State "DONE"       from "TODO"       [2020-06-13 Sat 22:57]
 - State "DONE"       from "TODO"       [2020-06-11 Thu 21:34]
 - State "DONE"       from "TODO"       [2020-06-09 Tue 22:56]
 - State "DONE"       from "TODO"       [2020-06-03 Wed 21:12]
@@ -1374,8 +1375,3 @@ SCHEDULED: <2020-05-20 Wed .+1d>
 Huile fait 12/01/2020 + filtre à huile
 *** TODO Filtre à air
 *** TODO Transmission et parallélisme roues à faire
-
-Coucou te héhé
-loucou te lolo
-loucou te
-loucou te
