@@ -2874,3 +2874,7 @@ Passe-muraille :
 **** Handstand
  StW 10-10-26-23
  BtW 5x3-2x5
+*** 2020-06-14 Sunday
+**** Handstand
+ StW 32-25
+ BtW

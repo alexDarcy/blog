@@ -4,16 +4,14 @@
 
 #+FILETAGS: :revisions:
 
-#o+BEGIN: clocktable :scope file :maxlevel 2 :block today
-#+CAPTION: Clock summary at [2020-06-01 Mon 21:39], for Monday, June 01, 2020.
-| Headline             |   Time |      |
-|----------------------+--------+------|
-| *Total time*         | *4:35* |      |
-|----------------------+--------+------|
-| Cancérologie         |   3:33 |      |
-| \_  Relire fiches    |        | 3:33 |
-| Gynécologie          |   1:02 |      |
-| \_  Exercices masson |        | 1:02 |
+#+BEGIN: clocktable :scope file :maxlevel 2 :block today
+#+CAPTION: Clock summary at [2020-06-14 Sun 22:19], for Sunday, June 14, 2020.
+| Headline          | Time   |      |
+|-------------------+--------+------|
+| *Total time*      | *2:46* |      |
+|-------------------+--------+------|
+| Pédiatrie         | 2:46   |      |
+| \_  Relire fiches |        | 2:46 |
 #+END:
 
 * Items
@@ -1215,6 +1213,8 @@ CLOCK: [2020-05-28 Thu 11:23]--[2020-05-28 Thu 11:57] =>  0:34
 :END:
 **** DONE Faire la conf
 **** DONE Relire
+*** TODO Conf [2020-06-17 Wed]
+DEADLINE: <2020-06-17 Wed>
 
 * Cardiologie :D1:
   :PROPERTIES:
@@ -1343,6 +1343,9 @@ https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gyncologie
 https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-abdominopelvien-gyncologieobsttriquehpatogastroentrologiechirurgie-digestive
 ** TODO Annales
 DEADLINE: <2020-06-17 Wed> SCHEDULED: <2020-06-16 Tue>
+** TODO Ecn asso
+*** TODO Conf [2020-06-15 Mon]
+DEADLINE: <2020-06-15 Mon>
 * Hépato-Gastro :A1:semestre1:hge:
   :PROPERTIES:
   :COLUMNS:  %25ITEM %Lu %Fiche %QI
@@ -1492,8 +1495,10 @@ CLOCK: [2020-05-10 Sun 10:39]--[2020-05-10 Sun 11:50] =>  1:11
   :CATEGORY: ortho
   :END:
 ** DONE Collège
-** DONE ECN asso
+** TODO ECN asso
 *** DONE 09/04/202
+*** TODO Conf [2020-06-18 Thu]
+DEADLINE: <2020-06-18 Thu>
 ** TODO Relire fiches
 DEADLINE: <2020-06-11 Thu> SCHEDULED: <2020-06-11 Thu>
 ** TODO ECNI intensif (non disponible en ligne)
@@ -1619,36 +1624,37 @@ items
 - [X] 87
 - [X] 98
 - [X] 103
-- [ ] 108
+- [X] 108
 - [X] 134
 - [X] 143
-- [ ] 144
-- [ ] 145
-- [ ] 146
-- [ ] 147
-- [ ] 148
-- [ ] 151
+- [X] 144
+- [X] 145
+- [X] 146
+- [X] 147
+- [X] 148
+- [X] 151
 - [X] 152
-- [ ] 153
-- [ ] 154
-- [ ] 155
-- [ ] 157
-- [ ] 159
+- [X] 153
+- [X] 154
+- [X] 155
+- [X] 156
+- [X] 157
+- [X] 159
 - [X] 160
-- [ ] 164
-- [ ] 165
-- [ ] 166
-- [ ] 169
-- [ ] 170
-- [ ] 171
-- [ ] 172
-- [ ] 173
-- [ ] 182
-- [ ] 184
-- [ ] 185
+- [X] 164
+- [X] 165
+- [X] 166
+- [X] 169
+- [X] 170
+- [X] 171
+- [X] 172
+- [-] 173
+- [X] 182
+- [X] 184
+- [X] 185
 - [X] 199
-- [ ] 200
-- [ ] 203
+- [X] 200
+- [X] 203
 - [ ] 205
 - [ ] 208
 - [ ] 209
@@ -1696,6 +1702,12 @@ items
 - [ ] 360
 - [ ] 361
 :LOGBOOK:
+CLOCK: [2020-06-14 Sun 22:18]
+CLOCK: [2020-06-14 Sun 21:45]--[2020-06-14 Sun 22:10] =>  0:33
+CLOCK: [2020-06-14 Sun 18:06]--[2020-06-14 Sun 18:43] =>  0:37
+CLOCK: [2020-06-14 Sun 15:36]--[2020-06-14 Sun 16:13] =>  0:37
+CLOCK: [2020-06-14 Sun 15:01]--[2020-06-14 Sun 15:26] =>  0:25
+CLOCK: [2020-06-14 Sun 13:20]--[2020-06-14 Sun 14:02] =>  0:42
 CLOCK: [2020-06-13 Sat 12:11]--[2020-06-13 Sat 12:59] =>  0:48
 CLOCK: [2020-06-13 Sat 11:31]--[2020-06-13 Sat 11:45] =>  0:14
 CLOCK: [2020-06-12 Fri 22:19]--[2020-06-12 Fri 23:12] =>  0:53
@@ -1711,7 +1723,6 @@ CLOCK: [2020-06-11 Thu 12:51]--[2020-06-11 Thu 13:39] =>  0:48
 CLOCK: [2020-06-11 Thu 11:28]--[2020-06-11 Thu 11:44] =>  0:16
 CLOCK: [2020-06-10 Wed 22:13]--[2020-06-10 Wed 22:34] =>  0:21
 :END:
-*** TODO
 ** TODO Annales
 DEADLINE: <2020-06-19 Fri> SCHEDULED: <2020-06-18 Thu>
 * Pneumologie :A1:semestre1:pneumo:

@@ -1,0 +1,7 @@
+#+TITLE: Emacs tips
+
+* With Doom emacs
+Search and edit with ripgrep directly in the result !
+1. search with ripgrep, for example with `SPC s p`
+2. Put the results in a buffer with `C-c C-o` (`ivy-occur`)
+3. Edit the buffer with `i` (`ivy-wgrep-change-to-wgrep`)

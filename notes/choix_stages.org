@@ -1,0 +1,138 @@
+#+TITLE: Choix stages
+
+* 4 premiers voeux
+1. 1 E126      *Génétique*                                                             H.B.                 BONNET
+2. 9 E13       Cardiologie Médicale et Réadaptation                                   H.B.             SADOUL
+3. 6 E2        *Médecine Gériatrique Aigüe*                                           H.B.              PERRET GUILLAUME
+4. *Hématologie* E1
+* Nancy
+1. 4 E23       Rhumatologie                                                             H.B.          CHARY-VALCKENAERE
+2. 1 E128      Unité de Médecine vasculaire                                             H.B.          WAHL
+3. 5 E73       Médecine / court séjour gériatrique St-Charles                       St-Charles        LE BRUN
+4. 4 E30       Médecine physique et de réadaptation                                I.R.R.            PAYSANT
+5. 7 E46       Médecine Infantile et spécialités ambulatoires                       H.E.              SCHWEITZER
+6. 4 E82       Pôle de Psychiatrie adultes du Grand Nancy                                C.P.N.         SCHWAN
+7. 2 E83       Pôle 6 - Pôle Universitaire de Psychiatrie et Psychologie Clinique        C.P.N.         LARUELLE
+8. 7 E54       Structure d'Urgences                                                     H.C.          NACE
+9. 4 E99       Structure Urgences Pédiatriques (POSU-SUP)                               H.E.          BORSA-DORION
+10. 2 E65       Neuroradiologie Clinique                                              H.C.              BRACARD
+11. 4 E129      Onco-hémato-Pédiatrique                                               H.E.              CHASTAGNER
+12. 1 E59       ORL et Chirurgie Cervico Faciale                                          H.B.           JANKOWSKI
+13. 1 E31       Hématologie Biologique                                               H.B.              DEVIGNES
+14. 3 E64       Imagerie Brabois adultes                                             H.B.              CROISE-LAURENT
+15. 2 E63       Imagerie de la femme et de l'enfant                                  H.E.              CROISE-LAURENT
+16. 2 E55      Imagerie Guilloz                                                     H.C.              BLUM
+* Nancy, Autres
+1. 7 E18       Département de Pneumologie                                             H.B.                 CHABOT
+2. 5 E19       Néphrologie                                                           H.B.              FRIMAT
+3. 5 E44       Urologie                                                         H.B.              HUBERT
+4. 9 E20       Neurologie                                                            H.C.              DEBOUVERIE
+5. 3 E67       Centre Paul Spilmann : SSR gériatrique                                  S.J.              JONVEAUX
+6. 4 E58       Anesthésie Hôpitaux Urbains                                            H.C.             AUDIBERT
+7. 1 E540      Anesthésie ICL                                                         I.C.L.           ANCEL
+8. 3 E90       Anesthésie-Réanimation Brabois                                         H.B.             LOSSER
+9. 2 E550      Chirurgie Thoracique                                                  H.B.              SIAT
+10. 3 E35       Chirurgie Vasculaire Endoluminale                                     H.B.              MALIKOV
+11. 5 E41       Oncologie Chirurgicale - Département de Chirurgie                     I.C.L.            DOLIVET
+12. 8 E5        Endocrinologie Diabète Nutrition                                       H.B.                 GUERCI
+1. 1 E453      Evaluation et Information Médicale                                     S.J.                 JAY
+13. 1 E72       Explorations Fonctionnelles Pédiatriques                               H.E.                 DEMOULIN-ALEXIKOVA
+13. 2 E558      Gynécologie médicale                                                  Mat                  WERYHA
+44. 6 E21       Médecine Intensive et Réanimation Médicale Brabois                  H.B.              LEVY
+46. 1 E246      Médecine Légale                                                     H.B.              MARTRILLE
+47. 1 E70       Médecine Nucléaire                                                  H.B.              KARCHER
+5. 6 E24       Maladies Infectieuses et Tropicales                                  H.B.              HOEN
+* Autres
+1. 1 E169      Service de Pédopsychiatrie - CMP infanto-juvénile Briey                  C.H.R.        BERTEL
+2. 1 E164      Pédiatrie Briey                                                           C.H.R.         GRECO
+3. 3 E308      Accueil des Urgences - S.A.M.U. - S.M.U.R. Metz Mercy (non logé)       C.H.R.           BRAUN
+4. 1 E287      Cardiologie Thionville                                                  Bel Air           ALDAOUD
+5. 2 E253      Médecine orientation Cardiologie Metz Mercy                         C.H.R.            KHALIFÉ
+6. 1 E185      Cardiologie générale et réadaptation CV-Médecine polyvalente Hayange   C.H.R.           KHALIFÉ
+7. 1 E307      Accueil des Urgences Forbach                                           C.H.             CLAUSSNER
+8. 1 E159      Accueil urgences - SMUR - UHCD Mont-Saint-Martin                       C.H.             ABOTCHI
+9. 1 E503      Biochimie, biologie moléculaire, nutrition (stage recherche)           H.B.             GUÉANT
+10. 1 E12       Centre Antipoison                                                       H.C.              MANEL
+11. 5 E318      Chirurgie Cardiaque Vasculaire Transplantation                          H.B.              MAUREIRA
+12. 1 E39       Chirurgie de la Main                                                    C.C.E.G.          DAUTEL
+13. 1 E36       Chirurgie Digestive et Générale                                         H.B.              BRESLER
+14. 1 E38       Chirurgie Générale Et Urgences (CGU)                                    H.B.              PEREZ
+15. 1 E173      Chirurgie générale Toul                                                 C.H.              TORTUYAUX
+16. 1 E49       Chirurgie Infantile Orthopédique                                        H.E.              JOURNEAU
+17. 1 E50       Chirurgie Infantile Viscérale                                           H.E.              LEMELLE
+18. 2 E45       Chirurgie Maxillo Faciale                                               H.C.              SIMON
+19. 7 E40       Chirurgie Orthopédique et Traumatologique C.C.E.G.                      C.C.E.G.          SIRVEAUX
+20. 3 E33       Chirurgie Orthopédique, Traumatologique, Arthroscopique - (COTA)        H.C.              MAINARD
+21. 1 E33       Chirurgie Orthopédique, Traumatologique, Arthroscopique - (COTA)      H.C.              MAINARD
+22. 1 E172      Chirurgie plastique reconstructive et maxillo-faciale Metz Mercy      C.H.R.            TALBI
+23. 1 E271      Chirurgie thoracique et cardio vasculaire Metz Mercy                  C.H.R.            ?
+24. 1 E450      Chirurgie Urologique Thionville                                       Bel Air           ERB
+25. 1 E140      Court Séjour, SSR, HJ Gériatrique Thionville                          Bel Air           AZZEMOU
+26. 2 E256      Dermatologie-sites Thionville et Metz                                  Bel Air              MULLER
+27. 1 E135      Diabétologie, Nutrition, Maladies métaboliques Bar-le-Duc              C.H.                 JAN
+28. 1 E136      Endocrinologie-Nutrition et Diabétologie Thionville                    Bel Air              CREA
+29. 1 E191      Gastro Entérologie Sarreguemines                                       C.H.                 ARDIZZONE
+30. 4 E56       Gynécologie Obstétrique                                               Mat                  MOREL
+31. 3 E56       Gynécologie Obstétrique                                              Mat               MOREL
+32. 1 E243      Gynécologie Obstétrique Forbach                                      C.H.              ROMAC
+33. 1 E91       Gynécologie Obstétrique Verdun                                       C.H.              PANNEQUIN
+34. 1 E95       Gynécologie-obstétrique - Maternité Briey                            C.H.R.            LEMARIE
+35. 1 E417      Imagerie médicale Sarreguemines                                      C.H.              LEVEQUE Christian / ZELLER Cyrille
+36. 6 E24       Maladies Infectieuses et Tropicales                                  H.B.              HOEN
+37. 1 E92       Maternité Mont-St-Martin                                             C.H.              STAMER
+38. 1 E145      Médecine B à orientation pneumologique Saint-Dié                     C.H.              MARANGONI
+39. 1 E193      Médecine B Hépato-Gastro-Entérologie Metz Mercy                      C.H.R.            KULL
+40. 1 E139      Médecine Gériatrique Aiguë Metz Mercy                                C.H.R.            BLETTNER
+41. 5 E25       Médecine Intensive et Réanimation Médicale Central                  H.C.              BOLLAERT
+42. 1 E142      Médecine Interne et Hématologie Metz Mercy                          C.H.R.            DORVAUX Véronique / MICHEL Jessica
+43. 1 E149      Médecine interne et Pneumologie Bar-le-Duc                          C.H.              EVON
+44. 1 E150      Médecine interne Sarrebourg                                         C.H.              JOUIN
+45. 1 E151      Médecine polyvalente et gériatrique Sarreguemines                   C.H.              PEZESHKNIA Ali / BOCKEL Elisabeth
+46. 6 E53       Néonatologie, Soins Intensifs, Réanimation Néonatale                Mat               HASCOET
+47. 1 E310      Néphrologie Dialyse Metz Mercy                                        C.H.R.            SAVENKOFF
+48. 2 E43       Neurochirurgie                                                        H.C.              CIVIT
+49. 1 E408      Neurochirurgie et chirurgie de la face pédiatriques                   H.E.              KLEIN
+50. 2 E198      Neurologie Metz Mercy                                                 C.H.R.            DUCROCQ
+51. 1 E153      Oncologie médicale Metz Mercy                                             C.H.R.         LONGO
+52. 1 E201      Ophtalmologie - Site Mercy et Legouest Metz                               C.H.R.         PERONE
+53. 1 E305      ORL et chirurgie cervico-faciale Metz Mercy                               C.H.R.         STRINGINI
+54. 2 E247      Pédiatrie Metz Mercy                                                      C.H.R.         BILLAUD
+55. 1 E224      Pédiatrie Néonatologie Forbach                                            C.H.           HATAHET
+56. 1 E165      Pédiatrie Sarrebourg                                                      C.H.           SIOUALA
+57. 1 E166      Pédiatrie Sarreguemines                                                   C.H.           LOUNIS
+58. 1 E167      Pédiatrie Thionville                                                      Bel Air        SCHNEIDER
+59. 1 E252      Pneumologie Metz Mercy                                                    C.H.R.         PAILLOT
+60. 1 E203      Pneumologie Thionville                                                    Bel Air        BOTRUS
+61. 1 E143      Pôle de Médecine Site de Neufchâteau                                      C.H.           DOUART Patrick
+62. 3 E51       Pôle Infanto-juvénile n° 4 - psychiatrie de l'enfant et de l'adolescent   H.E.           KABUTH
+63. 1 E96       Pôle Mère Enfant Site de Neufchâteau                                      C.H.           OPREA
+64. 1 E289      Post-Urgences Polyvalente (UPUP)                                          H.C.           VALANCE
+65. 1 E279      Radiologie Metz Mercy                                                     C.H.R.         HENNEQUIN
+66. 1 E323      Réanimation Chirurgicale Polyvalente Central                             H.C.          AUDIBERT
+67. 2 E313      Réanimation Metz Mercy (non logé)                                        C.H.R.        GETTE
+68. 1 E100      Réanimation Pédiatrique Spécialisée                                      H.E.          BOUSSARD
+69. 1 E75       SAMU-SMUR                                                                H.C.          NACE
+70. 1 E317      SAU-UHCD Verdun (logé ?)                                                 C.H.          BAUGNON
+71. 1 E457      Service Interdisciplinaire de Soins Oncologiques de Support - Douleur    I.C.L.        ROUSSELOT
+72. 1 E11       Toxicologie Pharmacologie                                                H.B.          GILLET
+73. 2 E425      Unité d'Anatomie et Cytologie Pathologiques - service de Biopathologie   H.B.          GAUCHOTTE
+74. 1 E88       Unité d'Hospitalisation Sécurisée Interrégional (UHSI)                   H.B.          PETON
+75. 1 E8        Unité de Soins de Longue Durée (USLD)                                    S.J.          MANCIAUX
+76. 1 E162      Urgences SMUR UPATOU Site de Neufchâteau                                 C.H.          DOUART-LÉGER
+77. 1 E491      Urgences SOS Santé Saint-Avold                                   C.H.              ?
+* À éviter
+** Mi -temps
+- 7 E22       Hépato-Gastro-Entérologie                                            H.B.              BRONOWICKI
+- 3 E17       Exploration Fonctionnelle Respiratoire                                 H.B.                 CHENUEL
+** Trop loin
+- 1 E312      Accueil - urgences Epinal                                              C.H.             HOMEL
+44. 1 E94       Gynécologie-obstétrique St Dié                                       C.H.              HEID
+- 1 E160      Accueil-Urgences - SMUR Sarrebourg                                     C.H.             SCHNEIDER
+- 1 E125      Psychiatrie Infanto-Juvénile n° 2 Lunéville - CMP La Madeleine            C.P.N.         SAAD SAINT GILLES
+- 1 E183      Cardiologie Epinal                                                     C.H.             ADMANT
+- 1 E200      Neurologie Epinal                                                     C.H.              HUTTIN
+- 1 E168      Pédiatrie - Néonatologie Epinal                                           C.H.           AUBURTIN
+- 1 E161      Accueil et Réception des Urgences Sarreguemines                        C.H.             SERIS
+24. 1 E187      Cardiologie Saint-Dié                                                   C.H.              BRAGARD
+
+25. 1 E177      Chirurgie B (viscérale) Saint-Dié                                       C.H.G.            ULMER
