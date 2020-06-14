@@ -5,13 +5,13 @@
 #+FILETAGS: :revisions:
 
 #+BEGIN: clocktable :scope file :maxlevel 2 :block today
-#+CAPTION: Clock summary at [2020-06-14 Sun 22:19], for Sunday, June 14, 2020.
+#+CAPTION: Clock summary at [2020-06-14 Sun 23:21], for Sunday, June 14, 2020.
 | Headline          | Time   |      |
 |-------------------+--------+------|
-| *Total time*      | *2:46* |      |
+| *Total time*      | *3:49* |      |
 |-------------------+--------+------|
-| Pédiatrie         | 2:46   |      |
-| \_  Relire fiches |        | 2:46 |
+| Pédiatrie         | 3:49   |      |
+| \_  Relire fiches |        | 3:49 |
 #+END:
 
 * Items
@@ -1701,7 +1701,7 @@ items
 - [ ] 360
 - [ ] 361
 :LOGBOOK:
-CLOCK: [2020-06-14 Sun 22:18]
+CLOCK: [2020-06-14 Sun 22:18]--[2020-06-14 Sun 23:21] =>  1:03
 CLOCK: [2020-06-14 Sun 21:45]--[2020-06-14 Sun 22:10] =>  0:33
 CLOCK: [2020-06-14 Sun 18:06]--[2020-06-14 Sun 18:43] =>  0:37
 CLOCK: [2020-06-14 Sun 15:36]--[2020-06-14 Sun 16:13] =>  0:37
