@@ -1346,6 +1346,9 @@ DEADLINE: <2020-06-17 Wed> SCHEDULED: <2020-06-16 Tue>
 ** TODO Ecn asso
 *** TODO Conf [2020-06-15 Mon]
 DEADLINE: <2020-06-15 Mon>
+:LOGBOOK:
+CLOCK: [2020-06-15 Mon 15:11]--[2020-06-15 Mon 16:20] =>  1:09
+:END:
 * Hépato-Gastro :A1:semestre1:hge:
   :PROPERTIES:
   :COLUMNS:  %25ITEM %Lu %Fiche %QI
