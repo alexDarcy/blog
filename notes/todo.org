@@ -267,8 +267,9 @@ https://cooking.nytimes.com/recipes/1018025-sourdough-pancake-or-waffle-batter
 * Fac :fac:
 ** TODO Demande bourse 2020-2021
 *** TODO Bourse normale
-**** DONE Demande en ligne
+**** DONE Demande en ligne [2020-03-06 Fri 13:06]
 **** DONE Envoi dossier papier
+**** DONE Relancé par mail [2020-06-16 Tue]
 *** TODO Allocation spécifique annuelle
 ** TODO Ouverture de stage en génétique été 2020
 *** DONE Vérifier que stage non ouvert

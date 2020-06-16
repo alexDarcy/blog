@@ -1345,10 +1345,13 @@ https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-abdomi
 DEADLINE: <2020-06-17 Wed> SCHEDULED: <2020-06-16 Tue>
 ** TODO Ecn asso
 *** TODO Conf [2020-06-15 Mon]
-DEADLINE: <2020-06-15 Mon>
 :LOGBOOK:
 CLOCK: [2020-06-15 Mon 15:11]--[2020-06-15 Mon 16:20] =>  1:09
 :END:
+**** DONE Faire conférence
+DEADLINE: <2020-06-15 Mon>
+**** TODO Relire conférence
+DEADLINE: <2020-06-16 Tue>
 * Hépato-Gastro :A1:semestre1:hge:
   :PROPERTIES:
   :COLUMNS:  %25ITEM %Lu %Fiche %QI
@@ -1703,6 +1706,7 @@ items
 - [ ] 360
 - [ ] 361
 :LOGBOOK:
+CLOCK: [2020-06-16 Tue 10:38]--[2020-06-16 Tue 11:20] =>  0:42
 CLOCK: [2020-06-15 Mon 11:23]--[2020-06-15 Mon 11:56] =>  0:33
 CLOCK: [2020-06-14 Sun 22:18]--[2020-06-14 Sun 23:21] =>  1:03
 CLOCK: [2020-06-14 Sun 21:45]--[2020-06-14 Sun 22:10] =>  0:33
