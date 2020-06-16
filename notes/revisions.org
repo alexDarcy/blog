@@ -1358,6 +1358,10 @@ CLOCK: [2020-06-15 Mon 15:11]--[2020-06-15 Mon 16:20] =>  1:09
 DEADLINE: <2020-06-15 Mon>
 **** TODO Relire conférence
 DEADLINE: <2020-06-16 Tue>
+DP1 ok
+:LOGBOOK:
+CLOCK: [2020-06-16 Tue 22:34]--[2020-06-16 Tue 23:04] =>  0:30
+:END:
 * Hépato-Gastro :A1:semestre1:hge:
   :PROPERTIES:
   :COLUMNS:  %25ITEM %Lu %Fiche %QI
