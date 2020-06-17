@@ -205,14 +205,13 @@ Simulation fite 10/2019 : seuil trop élevé : 18 000€ sur l'année (ou 13 000
 *** DONE Demande faite <2020-05-09 Sat>
 [[file:~/backups/hubic/Private/Personal/documents/secu/DemandeComplementaireSanteSolidaire.pdf][file:~/backups/hubic/Private/Personal/documents/secu/DemandeComplementaireSanteSolidaire.pdf]]
 *** DONE Refusé le<2020-05-18 Mon> car ressources = 19201.22€
-** TODO Vendre Shiku
-*** DONE 2eme annonce
 ** TODO Remboursement voyage japon été 2020
-*** TODO Japan airlines
+*** DONE Japan airlines
 **** DONE Demande faite
 (Sans frais)
-**** TODO vérifier remboursement
+**** DONE vérifier remboursement
 *** TODO turkish airlines
+**** DONE Demande faite (open ticket) le [2020-06-17 Wed]
 * Banque :banque:
 ** TODO Importer comptes Caisse Epargne dans ledger
 *** TODO Paris
@@ -271,18 +270,11 @@ https://cooking.nytimes.com/recipes/1018025-sourdough-pancake-or-waffle-batter
 **** DONE Envoi dossier papier
 **** DONE Relancé par mail [2020-06-16 Tue]
 *** TODO Allocation spécifique annuelle
-** TODO Ouverture de stage en génétique été 2020
-*** DONE Vérifier que stage non ouvert
-*** DONE Accord chef de service
-Mail envoyé <2020-04-28 Tue>
-*** WAITING Accord de la fac (répartition)
 ** TODO Vérifier paiement gardes covid
 *** TODO Mercy mars
 Manque
 *** TODO Mercy avril
 *** DONE Nancy
-** TODO Retirer ECNI intesfi
-*** TODO Demande faite <2020-06-02 Tue>
 * Gymnastics :gym:
 ** TODO Splits :daily:
 SCHEDULED: <2020-06-02 Tue .+1d>

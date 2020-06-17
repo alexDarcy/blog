@@ -1147,6 +1147,21 @@
 ** DONE Collège
 ** TODO Annales
 DEADLINE: <2020-06-15 Mon> SCHEDULED: <2020-06-14 Sun>
+:PROPERTIES:
+:ORDERED:  t
+:END:
+*** TODO Passe 1
+
+  - [ ] [[https://side-sante.fr/playtest/classic/77722][CANCERO juin 2016]]
+  - [ ] [[https://side-sante.fr/playtest/classic/719723][CANCERO sept 2016]]
+  - [ ] [[https://side-sante.fr/playtest/classic/483106][CANCERO août 2017]]
+  - [ ] [[https://side-sante.fr/playtest/classic/2602023][CANCERO Juin 2019]]
+  - [ ] [[https://side-sante.fr/playtest/classic/5906][CANCERO juin 2015]]
+  - [ ] [[https://side-sante.fr/playtest/classic/455370][CANCERO juin 2017]]
+  - [ ] [[https://side-sante.fr/playtest/classic/1456262][cancéro 27 juin 2018]]
+  - [ ] [[https://side-sante.fr/playtest/classic/6601][CANCERO sept2015]]
+
+*** TODO Passe 2
 ** TODO Lire diapos + faire CC
 DEADLINE: <2020-06-17 Wed>
 [[file:~/Downloads/cancero][file:~/Downloads/cancero]]
@@ -1216,7 +1231,7 @@ CLOCK: [2020-05-28 Thu 11:23]--[2020-05-28 Thu 11:57] =>  0:34
 :END:
 **** DONE Faire la conf
 **** DONE Relire
-*** TODO Conf [2020-06-17 Wed]
+*** DONE Conf [2020-06-17 Wed]
 DEADLINE: <2020-06-17 Wed>
 
 * Cardiologie :D1:
@@ -1349,6 +1364,14 @@ https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gyncologie
 https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-abdominopelvien-gyncologieobsttriquehpatogastroentrologiechirurgie-digestive
 ** TODO Annales
 DEADLINE: <2020-06-17 Wed> SCHEDULED: <2020-06-16 Tue>
+  - [ ] [[https://side-sante.fr/playtest/classic/483059][GYNECO août 2017]]
+  - [ ] [[https://side-sante.fr/playtest/classic/77724][GYNECO juin 2016]]
+  - [ ] [[https://side-sante.fr/playtest/classic/358415][GYNECO sept 2016]]
+  - [ ] [[https://side-sante.fr/playtest/classic/11837][Gyneco juin 2015]]
+  - [ ] [[https://side-sante.fr/playtest/classic/455371][Gyneco juin 2017]]
+  - [ ] [[https://side-sante.fr/playtest/classic/7136][Gyneco sept 2015]]
+  - [ ] [[https://side-sante.fr/playtest/classic/2601978][Gynecologie Juin 2019]]
+  - [ ] [[https://side-sante.fr/playtest/classic/1456307][gyneco 26 juin 2018]]
 ** TODO Ecn asso
 *** TODO Conf [2020-06-15 Mon]
 :LOGBOOK:
@@ -1360,6 +1383,10 @@ DEADLINE: <2020-06-15 Mon>
 DEADLINE: <2020-06-16 Tue>
 DP1 ok
 :LOGBOOK:
+CLOCK: [2020-06-17 Wed 15:30]--[2020-06-17 Wed 15:48] =>  0:18
+CLOCK: [2020-06-17 Wed 14:16]--[2020-06-17 Wed 15:00] =>  0:44
+CLOCK: [2020-06-17 Wed 12:25]--[2020-06-17 Wed 13:17] =>  0:52
+CLOCK: [2020-06-17 Wed 09:43]--[2020-06-17 Wed 10:03] =>  0:20
 CLOCK: [2020-06-16 Tue 22:34]--[2020-06-16 Tue 23:04] =>  0:30
 :END:
 * Hépato-Gastro :A1:semestre1:hge:
@@ -1540,6 +1567,15 @@ SCHEDULED: <2020-06-20 Sat> DEADLINE: <2020-06-21 Sun>
 *** TODO Consensus D3
 ** TODO Annales
 DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-20 Sat>
+
+  - [ ] [[https://side-sante.fr/playtest/classic/358414][ORTHO sept 2016]]
+  - [ ] [[https://side-sante.fr/playtest/classic/483083][ORTHOPEDIE août 2017]]
+  - [ ] [[https://side-sante.fr/playtest/classic/77723][ORTHOPEDIE juin 2016]]
+  - [ ] [[https://side-sante.fr/playtest/classic/7029][Orthopédie  12 juin 2015]]
+  - [ ] [[https://side-sante.fr/playtest/classic/2602043][Orthopédie - Juin 2019]]
+  - [ ] [[https://side-sante.fr/playtest/classic/455373][Orthopédie juin 2017]]
+  - [ ] [[https://side-sante.fr/playtest/classic/11839][Orthopédie sept 2015]]
+  - [ ] [[https://side-sante.fr/playtest/classic/1456285][orthopédie 27 juin 2018]]
 * Pédiatrie :A2:semestre2:pedia:
 :PROPERTIES:
 :CATEGORY: pédia
@@ -1752,6 +1788,16 @@ CLOCK: [2020-06-10 Wed 22:13]--[2020-06-10 Wed 22:34] =>  0:21
 :END:
 ** TODO Annales
 DEADLINE: <2020-06-19 Fri> SCHEDULED: <2020-06-18 Thu>
+
+  - [ ] [[https://side-sante.fr/playtest/classic/483036][PEDIATRIE août 2017]]
+  - [ ] [[https://side-sante.fr/playtest/classic/77725][PEDIATRIE juin 2016]]
+  - [ ] [[https://side-sante.fr/playtest/classic/358406][PEDIATRIE sept.2016]]
+  - [ ] [[https://side-sante.fr/playtest/classic/2602001][Pédiatrie Juin 2019]]
+  - [ ] [[https://side-sante.fr/playtest/classic/6602][Pédiatrie Sept2015]]
+  - [ ] [[https://side-sante.fr/playtest/classic/5815][Pédiatrie juin 2015]]
+  - [ ] [[https://side-sante.fr/playtest/classic/455372][Pédiatrie juin 2017]]
+  - [ ] [[https://side-sante.fr/playtest/classic/1456330][pédiatrie 26 juin 2018]]
+
 * Pneumologie :A1:semestre1:pneumo:
   :PROPERTIES:
   :CATEGORY: pneumo
@@ -1890,3 +1936,10 @@ DEADLINE: <2020-04-30 Thu>
 :LOGBOOK:
 CLOCK: [2020-05-09 Sat 18:38]--[2020-05-09 Sat 18:43] =>  0:05
 :END:
+** TODO Annales
+  - [ ] [[https://side-sante.fr/playtest/classic/11840][iECN BLANC  LCA 30/04/2015 après]]
+  - [ ] [[https://side-sante.fr/playtest/classic/7138][iECN BLANC 30/04/2015 matin]]
+  - [ ] [[https://side-sante.fr/playtest/classic/3142][EST LCA-1 juin 2015]]
+  - [ ] [[https://side-sante.fr/playtest/classic/6026][EST LCA-2 sept 2015]]
+  - [ ] [[https://side-sante.fr/playtest/classic/1910][EST-1 juin 2015]]
+  - [ ] [[https://side-sante.fr/playtest/classic/6025][EST-2 sept 2015]]
