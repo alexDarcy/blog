@@ -2880,5 +2880,16 @@ Passe-muraille :
  BtW
 *** 2020-06-17 Wednesday
 **** Handstand
- StW 29-25-34
+ StW
+ - 29-25-34
+ - 23-32-26
  BtW 2-6x3-2x4
+**** Workout
+Warm-up : RTO 23-21
+Muscle-up (négatifs lents) : 3x5
+Pistols (assisted) : 3x5
+Front-lever row (advanced tuck) : 3 tentatives
+Planche push-up (advanced tuck): 3 tentatives
+Extension (lower-back) : 3x22
+Compression : 3x10
+L-sit : 4x4
