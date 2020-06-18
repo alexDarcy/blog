@@ -1171,7 +1171,6 @@ CLOCK: [2020-06-17 Wed 19:05]--[2020-06-17 Wed 19:28] =>  0:23
 DEADLINE: <2020-06-17 Wed>
 [[file:~/Downloads/cancero][file:~/Downloads/cancero]]
 ** TODO Conf+ [5/7]
-DEADLINE: <2020-06-15 Mon> SCHEDULED: <2020-06-14 Sun>
 :LOGBOOK:
 CLOCK: [2020-05-25 Mon 17:37]--[2020-05-25 Mon 18:10] =>  0:33
 CLOCK: [2020-05-25 Mon 15:07]--[2020-05-25 Mon 15:55] =>  0:48
@@ -1353,7 +1352,6 @@ CLOCK: [2020-06-08 Mon 11:14]--[2020-06-08 Mon 11:34] =>  0:20
 Ok ecni tout en un
 Compléter items du collège
 ** TODO Conf+ [0/9]
-DEADLINE: <2020-06-17 Wed> SCHEDULED: <2020-06-16 Tue>
 *** TODO DP 1 D3
 *** TODO DP 2 D3
 *** TODO DP 3 D3
@@ -1368,7 +1366,7 @@ https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gyncologie
 ** TODO Pôle abdominopelvien (en ligne)
 https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-abdominopelvien-gyncologieobsttriquehpatogastroentrologiechirurgie-digestive
 ** TODO Annales
-DEADLINE: <2020-06-19 Fri> SCHEDULED: <2020-06-16 Tue>
+SCHEDULED: <2020-06-16 Tue>
   - [ ] [[https://side-sante.fr/playtest/classic/483059][GYNECO août 2017]]
   - [ ] [[https://side-sante.fr/playtest/classic/77724][GYNECO juin 2016]]
   - [ ] [[https://side-sante.fr/playtest/classic/358415][GYNECO sept 2016]]
@@ -1384,7 +1382,7 @@ CLOCK: [2020-06-15 Mon 15:11]--[2020-06-15 Mon 16:20] =>  1:09
 :END:
 **** DONE Faire conférence
 DEADLINE: <2020-06-15 Mon>
-**** TODO Relire conférence
+**** DONE Relire conférence
 DEADLINE: <2020-06-16 Tue>
 DP1 ok
 :LOGBOOK:
@@ -1551,12 +1549,13 @@ DEADLINE: <2020-06-19 Fri>
 *** TODO Conf [2020-06-18 Thu]
 DEADLINE: <2020-06-18 Thu>
 :LOGBOOK:
-CLOCK: [2020-06-18 Thu 18:38]
+CLOCK: [2020-06-18 Thu 18:38]--[2020-06-18 Thu 19:08] =>  0:30
 CLOCK: [2020-06-18 Thu 18:01]--[2020-06-18 Thu 18:09] =>  0:08
 :END:
-** TODO Relire fiches
+** DONE Relire fiches
 DEADLINE: <2020-06-11 Thu> SCHEDULED: <2020-06-11 Thu>
 :LOGBOOK:
+CLOCK: [2020-06-18 Thu 23:31]--[2020-06-18 Thu 23:57] =>  0:26
 CLOCK: [2020-06-18 Thu 17:28]--[2020-06-18 Thu 17:51] =>  0:23
 CLOCK: [2020-06-18 Thu 12:19]--[2020-06-18 Thu 13:00] =>  0:41
 :END:
@@ -1606,7 +1605,6 @@ DEADLINE: <2020-06-05 Fri>
 DEADLINE: <2020-06-17 Wed>
 [[file:~/Downloads/pedia][file:~/Downloads/pedia]]
 ** TODO Conf+ [3/8]
-DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-18 Thu>
 *** DONE DP1 D3
 DEADLINE: <2020-05-02 Sat>
 :LOGBOOK:
