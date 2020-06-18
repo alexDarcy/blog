@@ -1151,13 +1151,15 @@ DEADLINE: <2020-06-18 Thu> SCHEDULED: <2020-06-14 Sun>
 :ORDERED:  t
 :END:
 :LOGBOOK:
+CLOCK: [2020-06-18 Thu 15:18]--[2020-06-18 Thu 16:20] =>  1:02
+CLOCK: [2020-06-18 Thu 10:52]--[2020-06-18 Thu 11:20] =>  0:28
 CLOCK: [2020-06-17 Wed 22:25]--[2020-06-17 Wed 23:40] =>  1:15
 CLOCK: [2020-06-17 Wed 19:41]--[2020-06-17 Wed 19:52] =>  0:11
 CLOCK: [2020-06-17 Wed 19:05]--[2020-06-17 Wed 19:28] =>  0:23
 :END:
 *** TODO Passe 1
 - [X] [[https://side-sante.fr/playtest/classic/2602023][CANCERO juin 2019]]
-- [ ] [[HTTPS://SIDE-SANTE.FR/PLAYTEST/CLASSIC/1456262][CANCERO juin 2018]]
+- [X] [[https://side-sante.fr/playtest/classic/1456262][CANCERO juin 2018]]
 - [ ] [[https://side-sante.fr/playtest/classic/483106][CANCERO août 2017]]
 - [ ] [[https://side-sante.fr/playtest/classic/455370][CANCERO juin 2017]]
 - [ ] [[https://side-sante.fr/playtest/classic/719723][CANCERO sept 2016]]
@@ -1548,16 +1550,21 @@ DEADLINE: <2020-06-19 Fri>
 *** DONE 09/04/202
 *** TODO Conf [2020-06-18 Thu]
 DEADLINE: <2020-06-18 Thu>
+:LOGBOOK:
+CLOCK: [2020-06-18 Thu 18:38]
+CLOCK: [2020-06-18 Thu 18:01]--[2020-06-18 Thu 18:09] =>  0:08
+:END:
 ** TODO Relire fiches
 DEADLINE: <2020-06-11 Thu> SCHEDULED: <2020-06-11 Thu>
+:LOGBOOK:
+CLOCK: [2020-06-18 Thu 17:28]--[2020-06-18 Thu 17:51] =>  0:23
+CLOCK: [2020-06-18 Thu 12:19]--[2020-06-18 Thu 13:00] =>  0:41
+:END:
+ECNI ok
 ** TODO ECNI intensif (non disponible en ligne)
 *** TODO 2eme passe
 **** DONE DP [26/35]
 **** DONE QI [70/150]
-** TODO QCM en orthopédie (en ligne)
-http://univ.scholarvox.com.bases-doc.univ-lorraine.fr/catalog/book/docid/88830153
-** TODO Pôle locomoteur (en ligne)
-https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-locomoteur-orthopdietraumatologie-rhumatologie
 ** TODO Conf+ [0/7]
 SCHEDULED: <2020-06-20 Sat> DEADLINE: <2020-06-21 Sun>
 *** TODO DP 1 D3
@@ -1569,7 +1576,6 @@ SCHEDULED: <2020-06-20 Sat> DEADLINE: <2020-06-21 Sun>
 *** TODO Consensus D3
 ** TODO Annales
 DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-20 Sat>
-
   - [ ] [[https://side-sante.fr/playtest/classic/358414][ORTHO sept 2016]]
   - [ ] [[https://side-sante.fr/playtest/classic/483083][ORTHOPEDIE août 2017]]
   - [ ] [[https://side-sante.fr/playtest/classic/77723][ORTHOPEDIE juin 2016]]

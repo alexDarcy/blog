@@ -19,11 +19,13 @@
 *** DONE Retourner anciennes (frais de transport remboursés)
 *** DONE Changer demande de remboursement : amortisseur -> butée
 *** DONE Envoyer les factures à frais.garantie@oscaro.com
-*** TODO Vérifier remboursement (1 mois, donc vers 15 août)
+*** DONE Vérifier remboursement (1 mois, donc vers 15 août)
 - Relancé par téléphone. Remboursement en attente mais a priori sera fait.
 - Mail envoyé
 - Remboursement mais seulement de la pièce (17€)
+*** TODO Demande le remboursement des frais de garagistes (150€)
 - Relancé par téléphone au 24/09 pour les frais de garagistes (150€)
+- Relancé par mail le [2020-06-18 Thu]
 ** TODO Vérifier durée concession cimetière pour thierry
 ** Blog :blog:
 *** TODO Post sur emacs :blog:
@@ -269,6 +271,8 @@ https://cooking.nytimes.com/recipes/1018025-sourdough-pancake-or-waffle-batter
 **** DONE Demande en ligne [2020-03-06 Fri 13:06]
 **** DONE Envoi dossier papier
 **** DONE Relancé par mail [2020-06-16 Tue]
+**** TODO Attente contacte par l'assistante sociale
+Cf mail du CROUS du [2020-06-18 Thu]
 *** TODO Allocation spécifique annuelle
 ** TODO Vérifier paiement gardes covid
 *** TODO Mercy mars
@@ -301,11 +305,12 @@ SCHEDULED: <2020-06-02 Tue .+1d>
 - State "DONE"       from "TODO"       [2020-04-27 Mon 00:22]
 - State "DONE"       from "TODO"       [2020-04-26 Sun 00:22]
 ** TODO Handstand :daily:
-SCHEDULED: <2020-06-14 Sun .+1d>
+SCHEDULED: <2020-06-19 Fri .+1d>
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2020-06-13 Sat 22:57]
+:LAST_REPEAT: [2020-06-18 Thu 16:18]
 :END:
+- State "DONE"       from "TODO"       [2020-06-18 Thu 16:18]
 - State "DONE"       from "TODO"       [2020-06-13 Sat 22:57]
 - State "DONE"       from "TODO"       [2020-06-11 Thu 21:34]
 - State "DONE"       from "TODO"       [2020-06-09 Tue 22:56]

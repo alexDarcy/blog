@@ -495,43 +495,54 @@ Notes :
 
 * Fanfic
 *** Harry potter
-**** DONE I Am Also Thy Brother (Sacrifices arc, #7)
+**** Sacrifice Arc
+Concept de base intéressant. J'avais des doutes sur la relation Harry-Draco mais c'est bien écrit.
+L'univers est très développé et c'est le point fort de l'ouvrage.
+Je lui reproche un peu trop de fluctuations sur les "humeurs" d'Harry et ses relations avec Severus et Draco.
+Très créatif
+***** DONE I Am Also Thy Brother (Sacrifices arc, #7)
 :PROPERTIES:
 :author:   Lightning on the Wave
 :rating:   5
 :year:     2007
 :END:
-**** DONE A Song In Time of Revolution (Sacrifices arc, #6)
+***** DONE A Song In Time of Revolution (Sacrifices arc, #6)
 :PROPERTIES:
 :author:   Lightning on the Wave
 :rating:   5
 :year:     2007
 :END:
-**** DONE Wind That Shakes the Seas and Stars (Sacrifices Arc, #5)
+***** DONE Wind That Shakes the Seas and Stars (Sacrifices Arc, #5)
 :PROPERTIES:
 :author:   Lightning on the Wave
 :rating:   5
 :year:     2006
 :END:
-**** DONE No Mouth But Some Serpent's (Sacrifices Arc, #2)
+***** DONE No Mouth But Some Serpent's (Sacrifices Arc, #2)
 :PROPERTIES:
 :author:   Lightning on the Wave
 :rating:   5
 :year:     2005
 :END:
-**** DONE Freedom And Not Peace (Sacrifices arc, #4)
+***** DONE Freedom And Not Peace (Sacrifices arc, #4)
 :PROPERTIES:
 :author:   Lightning on the Wave
 :rating:   5
 :year:     2006
 :END:
-**** DONE Comes Out of Darkness Morn (Sacrifices Arc, #3)
+***** DONE Comes Out of Darkness Morn (Sacrifices Arc, #3)
 :PROPERTIES:
 :author:   Lightning on the Wave
 :rating:   5
 :year:     2005
 :END:
-**** DONE Maze of Light (Sacrifices Arc, #3.5)
+***** DONE Maze of Light (Sacrifices Arc, #3.5)
+:PROPERTIES:
+:author:   Lightning on the Wave
+:rating:   5
+:year:     2005
+:END:
+***** DONE Saving Connor (Sacrifices Arc, #1)
 :PROPERTIES:
 :author:   Lightning on the Wave
 :rating:   5
@@ -543,12 +554,7 @@ Notes :
 :rating:   5
 :year:     2015
 :END:
-**** DONE Saving Connor (Sacrifices Arc, #1)
-:PROPERTIES:
-:author:   Lightning on the Wave
-:rating:   5
-:year:     2005
-:END:
+Intéressant pour le côté très scientifique d'Harry. J'ai vu quelques critiques notamment sur la méthode scientifique mais cela ne m'a pas choqué. Très distrayant avec quelques moments cultes.
 * Goodreads
 | Title                                                                                                      | Author                       | ISBN          | Rating |
 | The Origins of Totalitarianism                                                                             | Hannah Arendt                | =""           |      0 |
