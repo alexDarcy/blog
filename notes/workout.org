@@ -2897,3 +2897,7 @@ L-sit : 4x4
 **** Handstand
  StW 20-33-32
  BtW 5x3-4-2x5-6
+*** 2020-06-19 Friday
+**** Handstand
+ StW 48-35-31
+ BtW 2x3-3x4-5-7
