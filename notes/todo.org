@@ -181,8 +181,8 @@ Update : it seems to work without nginx with a socket ??
 ** TODO Useful tools i'v discovered
 - ripgrep
 - ripgrep-all
-- fd ? (hard to use with emacs)
-- fzf ? (less useful with doom)
+- fd : usable with emacs (fd-dired)
+- fzf : usable with emacs (fd-dired) (less useful with doom as there is a recursive search)
 ** TODO Compiler du latex avec Hakyl
 Problème : fonctionne en standalone mais pas en incluant un header (testé avec rubber)
 ** TODO Post sur config email :blog:
@@ -402,11 +402,12 @@ SCHEDULED: <2020-06-20 Sat .+1d>
 - State "DONE"       from "TODO"        [2020-01-02 Thu 12:00]
 
 ** TODO Backflip on trampoline :daily:
-   SCHEDULED: <2020-06-20 Sat .+1d>
+   SCHEDULED: <2020-06-21 Sun .+1d>
    :PROPERTIES:
    :STYLE:    habit
-   :LAST_REPEAT: [2020-06-19 Fri 22:56]
+   :LAST_REPEAT: [2020-06-20 Sat 22:00]
    :END:
+   - State "DONE"       from "TODO"       [2020-06-20 Sat 22:00]
    - State "DONE"       from "TODO"       [2020-06-11 Thu 21:34]
    - State "DONE"       from "TODO"       [2020-06-09 Tue 22:56]
    - State "DONE"       from "TODO"       [2020-06-06 Sat 17:26]
@@ -1222,68 +1223,15 @@ Ne semblent pas avoir reçu le premier mail (ou font les idiots)
 :CATEGORY: music
 :END:
 ** TODO Piano :daily:
-   :LOGBOOK:
-   - State "DONE"       from "TODO"       [2020-01-03 Fri 22:45] \\
-     Boogie 2p à 80
-     Beethoven 2p
-   - State "DONE"       from "TODO"       [2019-09-22 Sun 23:04] \\
-     Impro book : accord dans les 3 positions
-   - State "DONE"       from "TODO"       [2019-08-15 Thu 23:04] \\
-     2 mesures dans Beethoven
-   - State "DONE"       from "TODO"       [2019-08-09 Fri 22:15] \\
-     Beethoven : 3 mesures pas au rythme.
-     Test boogie à 120 à la noire : passe mais à travailler
-   - State "DONE"       from "TODO"       [2019-07-13 Sat 23:03] \\
-     Beethoven -> 170 (pas facile)
-   - State "DONE"       from "TODO"       [2019-07-12 Fri 22:33] \\
-     Beethoven : 4 mesures mais pas assez rapide...
-   - State "DONE"       from "TODO"       [2019-07-10 Wed 22:26] \\
-     Beethoven + 3 mesures (dur)
-     Boogie page 3, à 70
-   - State "DONE"       from "TODO"       [2019-07-09 Tue 22:56] \\
-     Beethoven -> 163
-   - State "DONE"       from "TODO"       [2019-07-07 Sun 22:13] \\
-     Beethoven -> 158
-   - State "DONE"       from "TODO"       [2019-07-04 Thu 23:16]
-   - State "DONE"       from "TODO"       [2019-07-03 Wed 22:58]
-   - State "DONE"       from "TODO"       [2019-06-10 Mon 22:07]
-   - State "DONE"       from "TODO"       [2019-05-28 Tue 22:14]
-   - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
-   - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
-   - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
-   - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
-   - State "DONE"       from "TODO"       [2019-07-06 Sat 21:05]\\
-     Boogie à 70
-   - State "DONE"       from "TODO"       [2019-07-04 Thu 21:05]\\
-     Beethoven
-   - State "DONE"       from "TODO"       [2019-07-03 Wed 21:05]
-   - State "DONE"       from "TODO"       [2019-05-25 Sat 23:05]
-   - State "DONE"       from "TODO"       [2019-04-24 Wed 23:05]
-   - State "DONE"       from "TODO"       [2019-04-23 Tue 16:17]
-   - State "DONE"       from "TODO"       [2019-04-22 Mon 22:09]
-   - State "DONE"       from "TODO"       [2019-02-03 Sun 22:53]
-   - State "DONE"       from "TODO"       [2019-02-02 Sat 21:45] \\
-     Travail à 60 (1ere page)
-   - State "DONE"       from "TODO"       [2019-02-01 Fri 11:04] \\
-     Reprise
-   - State "DONE"       from "TODO"       [2018-11-13 Tue 14:54]
-   - State "DONE"       from "TODO"       [2018-11-11 Sun 12:17]
-   - State "DONE"       from "TODO"       [2018-11-10 Sat 20:08] \\
-     5min
-   - State "DONE"       from "TODO"       [2018-11-09 Fri 12:10]
-   - State "DONE"       from "TODO"       [2018-11-05 Mon 19:28]
-   - State "DONE"       from "TODO"       [2018-10-21 Sun 22:49] \\
-     10 min d'impro sur une basse en blues rapide
-   - State "DONE"       from "TODO"       [2018-10-20 Sat 18:45] \\
-     Échauffement (impro + bach)
-   :END:
 *** TODO Beethoven, 3e mouvement à 70: mesures 0-29 et 109-fin ok
-SCHEDULED: <2020-06-20 Sat .+1d>
+SCHEDULED: <2020-06-21 Sun .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2020-06-19 Fri 22:56]
+:LAST_REPEAT: [2020-06-20 Sat 22:00]
 :STYLE:    habit
 :LOGGING:  lognoterepeat
 :END:
+- State "DONE"       from "TODO"       [2020-06-20 Sat 22:00] \\
+  Ok -> 29 incluse
 - State "DONE"       from "TODO"       [2020-06-19 Fri 22:56] \\
   Bach
 - State "DONE"       from "TODO"       [2020-05-19 Tue 22:18] \\
@@ -1349,6 +1297,61 @@ SCHEDULED: <2020-06-20 Sat .+1d>
   70: mesure 11*-125 mais encore à travailler
 - State "DONE"       from "TODO"       [2020-02-20 Thu 17:36] \\
   3 pages du beethoven (déchiffrage)
+  :LOGBOOK:
+  - State "DONE"       from "TODO"       [2020-01-03 Fri 22:45] \\
+    Boogie 2p à 80
+    Beethoven 2p
+  - State "DONE"       from "TODO"       [2019-09-22 Sun 23:04] \\
+    Impro book : accord dans les 3 positions
+  - State "DONE"       from "TODO"       [2019-08-15 Thu 23:04] \\
+    2 mesures dans Beethoven
+  - State "DONE"       from "TODO"       [2019-08-09 Fri 22:15] \\
+    Beethoven : 3 mesures pas au rythme.
+    Test boogie à 120 à la noire : passe mais à travailler
+  - State "DONE"       from "TODO"       [2019-07-13 Sat 23:03] \\
+    Beethoven -> 170 (pas facile)
+  - State "DONE"       from "TODO"       [2019-07-12 Fri 22:33] \\
+    Beethoven : 4 mesures mais pas assez rapide...
+  - State "DONE"       from "TODO"       [2019-07-10 Wed 22:26] \\
+    Beethoven + 3 mesures (dur)
+    Boogie page 3, à 70
+  - State "DONE"       from "TODO"       [2019-07-09 Tue 22:56] \\
+    Beethoven -> 163
+  - State "DONE"       from "TODO"       [2019-07-07 Sun 22:13] \\
+    Beethoven -> 158
+  - State "DONE"       from "TODO"       [2019-07-04 Thu 23:16]
+  - State "DONE"       from "TODO"       [2019-07-03 Wed 22:58]
+  - State "DONE"       from "TODO"       [2019-06-10 Mon 22:07]
+  - State "DONE"       from "TODO"       [2019-05-28 Tue 22:14]
+  - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
+  - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
+  - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
+  - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
+  - State "DONE"       from "TODO"       [2019-07-06 Sat 21:05]\\
+    Boogie à 70
+  - State "DONE"       from "TODO"       [2019-07-04 Thu 21:05]\\
+    Beethoven
+  - State "DONE"       from "TODO"       [2019-07-03 Wed 21:05]
+  - State "DONE"       from "TODO"       [2019-05-25 Sat 23:05]
+  - State "DONE"       from "TODO"       [2019-04-24 Wed 23:05]
+  - State "DONE"       from "TODO"       [2019-04-23 Tue 16:17]
+  - State "DONE"       from "TODO"       [2019-04-22 Mon 22:09]
+  - State "DONE"       from "TODO"       [2019-02-03 Sun 22:53]
+  - State "DONE"       from "TODO"       [2019-02-02 Sat 21:45] \\
+    Travail à 60 (1ere page)
+  - State "DONE"       from "TODO"       [2019-02-01 Fri 11:04] \\
+    Reprise
+  - State "DONE"       from "TODO"       [2018-11-13 Tue 14:54]
+  - State "DONE"       from "TODO"       [2018-11-11 Sun 12:17]
+  - State "DONE"       from "TODO"       [2018-11-10 Sat 20:08] \\
+    5min
+  - State "DONE"       from "TODO"       [2018-11-09 Fri 12:10]
+  - State "DONE"       from "TODO"       [2018-11-05 Mon 19:28]
+  - State "DONE"       from "TODO"       [2018-10-21 Sun 22:49] \\
+    10 min d'impro sur une basse en blues rapide
+  - State "DONE"       from "TODO"       [2018-10-20 Sat 18:45] \\
+    Échauffement (impro + bach)
+  :END:
 ** TODO Violon
    SCHEDULED: <2020-05-24 Sun .+1d>
    :PROPERTIES:

@@ -1543,59 +1543,65 @@ CLOCK: [2020-05-10 Sun 10:39]--[2020-05-10 Sun 11:50] =>  1:11
 ** DONE Collège
 ** TODO Lire diapos et faire CC
 DEADLINE: <2020-06-20 Sat>
+:LOGBOOK:
+CLOCK: [2020-06-21 Sun 00:32]--[2020-06-21 Sun 00:57] =>  0:25
+CLOCK: [2020-06-20 Sat 22:59]--[2020-06-20 Sat 23:16] =>  0:17
+CLOCK: [2020-06-20 Sat 19:21]--[2020-06-20 Sat 19:40] =>  0:19
+CLOCK: [2020-06-20 Sat 17:18]--[2020-06-20 Sat 17:38] =>  0:20
+:END:
 [[file:~/Downloads/ortho][file:~/Downloads/ortho]]
-** TODO ECN asso
-*** DONE 09/04/202
-*** DONE Conf [2020-06-18 Thu]
-DEADLINE: <2020-06-18 Thu>
-:LOGBOOK:
-CLOCK: [2020-06-19 Fri 22:52]--[2020-06-19 Fri 23:29] =>  0:37
-CLOCK: [2020-06-19 Fri 18:43]--[2020-06-19 Fri 19:02] =>  0:19
-CLOCK: [2020-06-19 Fri 17:21]--[2020-06-19 Fri 17:46] =>  0:25
-CLOCK: [2020-06-19 Fri 16:38]--[2020-06-19 Fri 17:12] =>  0:34
-CLOCK: [2020-06-19 Fri 14:16]--[2020-06-19 Fri 15:30] =>  1:14
-CLOCK: [2020-06-18 Thu 18:38]--[2020-06-18 Thu 19:08] =>  0:30
-CLOCK: [2020-06-18 Thu 18:01]--[2020-06-18 Thu 18:09] =>  0:08
-:END:
-** DONE Relire fiches
-DEADLINE: <2020-06-11 Thu> SCHEDULED: <2020-06-11 Thu>
-:LOGBOOK:
-CLOCK: [2020-06-18 Thu 23:31]--[2020-06-18 Thu 23:57] =>  0:26
-CLOCK: [2020-06-18 Thu 17:28]--[2020-06-18 Thu 17:51] =>  0:23
-CLOCK: [2020-06-18 Thu 12:19]--[2020-06-18 Thu 13:00] =>  0:41
-:END:
-ECNI ok
-** TODO ECNI intensif (non disponible en ligne)
+- [X] [[file:~/Downloads/ortho/329- CM - PEC hospitalière immédiate préhospitalière chez le traumatisé - Galois.pdf]]
+- [X] [[file:~/Downloads/ortho/357- CM - Pathologie de lépaule - Sirveaux.pdf]]
+- [X] [[file:~/Downloads/ortho/357- CM - Ruptures de l’appareil extenseur - Galois.pdf]]
+- [X] [[file:~/Downloads/ortho/357- CM - lésions ligam-méniscales genou - Galois.pdf]]
+- [X] [[file:~/Downloads/ortho/358- CM - Consolidation osseuse - Gallois.pdf]]
+- [X] [[file:~/Downloads/ortho/358- CM - Ostéosynthèse - Sirveaux.pdf]]
+- [X] [[file:~/Downloads/ortho/358- CM - Prothèses - Sirveaux.pdf]]
+- [X] [[file:~/Downloads/ortho/359- CM - Fractures de cheville - Galois.pdf]]
+- [ ] [[file:~/Downloads/ortho/359- CM - Fractures extrémité supérieure fémur - Galois.pdf]]
+- [ ] [[file:~/Downloads/ortho/359- CM-CC - Fractures des membres supérieurs - Sirveaux.pdf]]
+- [X] [[file:~/Downloads/ortho/361- CM-CC - Surveillance d’un malade sous plâtre - Sirveaux.pdf]]
+** TODO ECNI intensif
 *** TODO 2eme passe
 **** DONE DP [26/35]
 **** DONE QI [70/150]
-** TODO Conf+ [0/7]
+** TODO Conf+ [1/7]
 :LOGBOOK:
-CLOCK: [2020-06-20 Sat 09:30]
+CLOCK: [2020-06-20 Sat 11:31]--[2020-06-20 Sat 12:25] =>  0:54
+CLOCK: [2020-06-20 Sat 09:30]--[2020-06-20 Sat 10:30] =>  1:00
 :END:
-*** TODO DP 1 D3
-DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-20 Sat>
+*** DONE DP 1 D3
+DEADLINE: <2020-06-20 Sat>
 *** TODO DP 2 D3
-DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-20 Sat>
+DEADLINE: <2020-06-20 Sat>
 *** TODO QI 1 D3
-DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-20 Sat>
+DEADLINE: <2020-06-20 Sat>
 *** TODO QI 2 D3
-DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-20 Sat>
+DEADLINE: <2020-06-20 Sat>
 *** TODO QI 3 D3
-DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-20 Sat>
+DEADLINE: <2020-06-20 Sat>
 *** TODO Entraînement D3
 *** TODO Consensus D3
 ** TODO Annales
-DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-20 Sat>
 :LOGBOOK:
+CLOCK: [2020-06-21 Sun 00:00]--[2020-06-21 Sun 00:25] =>  0:25
+CLOCK: [2020-06-20 Sat 23:17]--[2020-06-20 Sat 23:33] =>  0:16
+CLOCK: [2020-06-20 Sat 22:08]--[2020-06-20 Sat 22:28] =>  0:20
+CLOCK: [2020-06-20 Sat 21:25]--[2020-06-20 Sat 21:42] =>  0:17
+CLOCK: [2020-06-20 Sat 18:59]--[2020-06-20 Sat 19:18] =>  0:19
+CLOCK: [2020-06-20 Sat 17:46]--[2020-06-20 Sat 18:09] =>  0:23
+CLOCK: [2020-06-20 Sat 16:39]--[2020-06-20 Sat 17:00] =>  0:21
+CLOCK: [2020-06-20 Sat 15:06]--[2020-06-20 Sat 16:00] =>  0:54
+CLOCK: [2020-06-20 Sat 13:05]--[2020-06-20 Sat 13:36] =>  0:31
 CLOCK: [2020-06-19 Fri 23:59]--[2020-06-20 Sat 00:47] =>  0:48
 :END:
+*** DONE Passe 1
   - [X] [[https://side-sante.fr/playtest/classic/2602043][Orthopédie - Juin 2019]]
-  - [ ] [[https://side-sante.fr/playtest/classic/1456285][orthopédie 27 juin 2018]]
-  - [ ] [[https://side-sante.fr/playtest/classic/483083][ORTHOPEDIE août 2017]]
-  - [ ] [[https://side-sante.fr/playtest/classic/455373][Orthopédie juin 2017]]
-  - [ ] [[https://side-sante.fr/playtest/classic/358414][ORTHO sept 2016]]
-  - [ ] [[https://side-sante.fr/playtest/classic/77723][ORTHOPEDIE juin 2016]]
+  - [X] [[https://side-sante.fr/playtest/classic/1456285][orthopédie 27 juin 2018]]
+  - [X] [[https://side-sante.fr/playtest/classic/483083][ORTHOPEDIE août 2017]]
+  - [X] [[https://side-sante.fr/playtest/classic/455373][Orthopédie juin 2017]]
+  - [X] [[https://side-sante.fr/playtest/classic/358414][ORTHO sept 2016]]
+  - [X] [[https://side-sante.fr/playtest/classic/77723][ORTHOPEDIE juin 2016]]
   - [ ] [[https://side-sante.fr/playtest/classic/11839][Orthopédie sept 2015]]
   - [ ] [[https://side-sante.fr/playtest/classic/7029][Orthopédie  12 juin 2015]]
 * Pédiatrie :A2:semestre2:pedia:
