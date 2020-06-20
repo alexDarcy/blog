@@ -27,12 +27,26 @@
 - Relancé par téléphone au 24/09 pour les frais de garagistes (150€)
 - Relancé par mail le [2020-06-18 Thu]
 ** TODO Vérifier durée concession cimetière pour thierry
-** Blog :blog:
-*** TODO Post sur emacs :blog:
-**** Emacs config from scratch : evil, org-mode
-**** Doom emacs
-**** Calc
-**** TODO Mail with mbsync :emacs:blog:
+** WAITING Inscription CMU
+*** Notes
+Simulation fite 10/2019 : seuil trop élevé : 18 000€ sur l'année (ou 13 000 si
+2 personnes dans le foyer). À refaire dans 1 mois ou 2
+*** DONE Demande faite <2020-05-09 Sat>
+[[file:~/backups/hubic/Private/Personal/documents/secu/DemandeComplementaireSanteSolidaire.pdf][file:~/backups/hubic/Private/Personal/documents/secu/DemandeComplementaireSanteSolidaire.pdf]]
+*** DONE Refusé le<2020-05-18 Mon> car ressources = 19201.22€
+** TODO Remboursement voyage japon été 2020
+*** DONE Japan airlines
+**** DONE Demande faite
+(Sans frais)
+**** DONE vérifier remboursement
+*** TODO turkish airlines
+**** DONE Demande faite (open ticket) le [2020-06-17 Wed]
+* Blog :blog:
+** TODO Post sur emacs :blog:
+*** TODO Emacs config from scratch : evil, org-mode
+*** TODO Doom emacs
+*** TODO Calc
+*** TODO Mail with mbsync :emacs:blog:
 ! Got several "duplicate ID" after using a systemd service.
 It's due to moving files (my version of archiving) and the naming scheme.
 We must use the "alternate" naming scheme to avoid duplicates.
@@ -41,8 +55,8 @@ NB: we should explain with gmail
 
 Mbsync is really faster when fetching mails the first time.Afterwards, I'm not
 sure the gain is worth it
-**** TODO Gnus
-***** TODO Global
+*** TODO Gnus
+**** TODO Global
 A bit slow with imap
 Offline usage : notmuch does not work ... See https://ding.gnus.narkive.com/kJo5yKca/nnir-and-notmuch
 We have to use mairix
@@ -52,7 +66,7 @@ https://emacs.stackexchange.com/questions/38739/how-can-i-subscribe-to-se-rss-fe
 In the end, slower than notmuch inside emacs (start + search) but I prefer it to
 read news.
 Trying it at the moment
-***** Mairix config
+**** Mairix config
 Mairixrc
 #+BEGIN_SRC
   base=~/Mail/
@@ -91,19 +105,21 @@ Follow the manual instruction. Important: do not answer "no" for hidden folder
 (setq mm-text-html-renderer 'gnus-w3m)
 (setq gnus-inhibit-images nil)
 #+END_SRC
-***** What about sent mails
+**** What about sent mails
 Initially, I wanted a copy in a maildir folder. It turns out it's already on
 Gmail server in both all mail and sent mail.
 I'm not sure anymore to need a specific "sent" folder for gmail.
 So I only sync the "sent" folder on my Free account
 
-**** TODO Post config en japo sur emacs :blog:
+*** TODO Post config en jap sur emacs :blog:
 Archlinux :
 1. installer le package "mozc" depuis emacs
    installer emacs-mozc aussi en activant le flag
    'emacs_mozc = "yes"' (sinon le "helper" n'est pas trouvé)
-**** TODO Torrents with emacs
-***** What works
+
+Update : mozc is too slow in doom emacs => activate japanese instead
+*** TODO Torrents with emacs
+**** What works
 Nginx + URL
 #+BEGIN_SRC
     server {
@@ -132,7 +148,7 @@ And in emacs
 (setq mentor-rtorrent-external-rpc "http://127.0.0.1:8000/RPC2")
 #+END_SRC
 
-***** More secure : with a socket
+**** More secure : with a socket
 We create a group to be able to write the socket
 #+BEGIN_SRC
 sudo groupadd rtorrent-socket
@@ -162,10 +178,15 @@ Emacs
 #+END_SRC
 
 Update : it seems to work without nginx with a socket ??
-*** TODO Compiler du latex avec Hakyl
+** TODO Useful tools i'v discovered
+- ripgrep
+- ripgrep-all
+- fd ? (hard to use with emacs)
+- fzf ? (less useful with doom)
+** TODO Compiler du latex avec Hakyl
 Problème : fonctionne en standalone mais pas en incluant un header (testé avec rubber)
-*** TODO Post sur config email :blog:
-*** TODO Post sur facebook messenger inside emacs
+** TODO Post sur config email :blog:
+** TODO Post sur facebook messenger inside emacs
 **** Requirements
 - bitlbee
 - erc
@@ -200,20 +221,6 @@ facebook
 If you want to autojoin a channel, it must be done in bitlbee direcly
 channel blabla set auto_join true
 NB the config file are most likely in /var/lib/bitlbee/$USER.xml
-** WAITING Inscription CMU
-*** Notes
-Simulation fite 10/2019 : seuil trop élevé : 18 000€ sur l'année (ou 13 000 si
-2 personnes dans le foyer). À refaire dans 1 mois ou 2
-*** DONE Demande faite <2020-05-09 Sat>
-[[file:~/backups/hubic/Private/Personal/documents/secu/DemandeComplementaireSanteSolidaire.pdf][file:~/backups/hubic/Private/Personal/documents/secu/DemandeComplementaireSanteSolidaire.pdf]]
-*** DONE Refusé le<2020-05-18 Mon> car ressources = 19201.22€
-** TODO Remboursement voyage japon été 2020
-*** DONE Japan airlines
-**** DONE Demande faite
-(Sans frais)
-**** DONE vérifier remboursement
-*** TODO turkish airlines
-**** DONE Demande faite (open ticket) le [2020-06-17 Wed]
 * Banque :banque:
 ** TODO Importer comptes Caisse Epargne dans ledger
 *** TODO Paris

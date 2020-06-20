@@ -1146,7 +1146,7 @@
   :END:
 ** DONE Collège
 ** TODO Annales
-DEADLINE: <2020-06-18 Thu> SCHEDULED: <2020-06-14 Sun>
+DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-21 Sun>
 :PROPERTIES:
 :ORDERED:  t
 :END:
@@ -1366,7 +1366,7 @@ https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gyncologie
 ** TODO Pôle abdominopelvien (en ligne)
 https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-abdominopelvien-gyncologieobsttriquehpatogastroentrologiechirurgie-digestive
 ** TODO Annales
-SCHEDULED: <2020-06-20 Sat> DEADLINE: <2020-06-20 Sat>
+DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-21 Sun>
   - [ ] [[https://side-sante.fr/playtest/classic/483059][GYNECO août 2017]]
   - [ ] [[https://side-sante.fr/playtest/classic/77724][GYNECO juin 2016]]
   - [ ] [[https://side-sante.fr/playtest/classic/358415][GYNECO sept 2016]]
@@ -1542,7 +1542,7 @@ CLOCK: [2020-05-10 Sun 10:39]--[2020-05-10 Sun 11:50] =>  1:11
   :END:
 ** DONE Collège
 ** TODO Lire diapos et faire CC
-DEADLINE: <2020-06-23 Tue>
+DEADLINE: <2020-06-20 Sat>
 [[file:~/Downloads/ortho][file:~/Downloads/ortho]]
 ** TODO ECN asso
 *** DONE 09/04/202
@@ -1570,15 +1570,23 @@ ECNI ok
 **** DONE DP [26/35]
 **** DONE QI [70/150]
 ** TODO Conf+ [0/7]
+:LOGBOOK:
+CLOCK: [2020-06-20 Sat 09:30]
+:END:
 *** TODO DP 1 D3
+DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-20 Sat>
 *** TODO DP 2 D3
+DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-20 Sat>
 *** TODO QI 1 D3
+DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-20 Sat>
 *** TODO QI 2 D3
+DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-20 Sat>
 *** TODO QI 3 D3
+DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-20 Sat>
 *** TODO Entraînement D3
 *** TODO Consensus D3
 ** TODO Annales
-DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-20 Sat>
+DEADLINE: <2020-06-20 Sat> SCHEDULED: <2020-06-20 Sat>
 :LOGBOOK:
 CLOCK: [2020-06-19 Fri 23:59]--[2020-06-20 Sat 00:47] =>  0:48
 :END:
@@ -1800,7 +1808,7 @@ CLOCK: [2020-06-11 Thu 11:28]--[2020-06-11 Thu 11:44] =>  0:16
 CLOCK: [2020-06-10 Wed 22:13]--[2020-06-10 Wed 22:34] =>  0:21
 :END:
 ** TODO Annales
-SCHEDULED: <2020-06-20 Sat> DEADLINE: <2020-06-20 Sat>
+DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-21 Sun>
 
   - [ ] [[https://side-sante.fr/playtest/classic/483036][PEDIATRIE août 2017]]
   - [ ] [[https://side-sante.fr/playtest/classic/77725][PEDIATRIE juin 2016]]
