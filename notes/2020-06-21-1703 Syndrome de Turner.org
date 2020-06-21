@@ -1,0 +1,4 @@
+#+TITLE: Syndrome de Turner
+
+#+attr_html: :width 400 px
+[[./img/Turner_Syndrome.jpg]]
