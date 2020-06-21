@@ -1334,11 +1334,14 @@ CLOCK: [2020-06-01 Mon 18:54]--[2020-06-01 Mon 19:56] =>  1:02
 *** TODO QI [/200]
 ** TODO Lire diapos et faire CC
 DEADLINE: <2020-06-22 Mon>
+:LOGBOOK:
+CLOCK: [2020-06-21 Sun 16:41]--[2020-06-21 Sun 17:13] =>  0:32
+CLOCK: [2020-06-21 Sun 15:59]--[2020-06-21 Sun 16:20] =>  0:21
+:END:
 # [[file:~/Downloads/gyneco][file:~/Downloads/gyneco]]
-- [ ] [[~/Downloads/gyneco/Algies pelviennes FASM2.pdf]]
-- [ ] [[~/Downloads/gyneco/Allaitement et complications.pdf]]
-- [ ] [[~/Downloads/gyneco/Aménorrhée - Mode de compatibilité.pdf]]
-- [ ] [[~/Downloads/gyneco/Aménorrhée.pdf]]
+- [X] [[~/Downloads/gyneco/Algies pelviennes FASM2.pdf]]
+- [X] [[~/Downloads/gyneco/Allaitement et complications.pdf]]
+- [X] [[~/Downloads/gyneco/Aménorrhée.pdf]]
 - [ ] [[~/Downloads/gyneco/cancer du col 2016.pdf]]
 - [ ] [[~/Downloads/gyneco/CAS CLINIQUE AMP.pptx]]
 - [ ] [[~/Downloads/gyneco/diabète.pdf]]
@@ -1355,7 +1358,6 @@ DEADLINE: <2020-06-22 Mon>
 - [ ] [[~/Downloads/gyneco/FASM 2 MTR 2018.pdf]]
 - [ ] [[~/Downloads/gyneco/FCTMAPRPM int.ppt]]
 - [ ] [[~/Downloads/gyneco/Fièvre et Grossesse.pdf]]
-- [ ] [[~/Downloads/gyneco/GEU FASM2 - Mode de compatibilité.pdf]]
 - [ ] [[~/Downloads/gyneco/GEU FASM2.pdf]]
 - [ ] [[~/Downloads/gyneco/grossesse nle et accouchement.pdf]]
 - [ ] [[~/Downloads/gyneco/HTA grossesse 2018.pdf]]
@@ -1368,7 +1370,6 @@ DEADLINE: <2020-06-22 Mon>
 - [ ] [[~/Downloads/gyneco/IVG.pdf]]
 - [ ] [[~/Downloads/gyneco/Les dysplasies cervicales 2017.pdf]]
 - [ ] [[~/Downloads/gyneco/MAP.RPM..pdf]]
-- [ ] [[~/Downloads/gyneco/Ménopause - Mode de compatibilité.pdf]]
 - [ ] [[~/Downloads/gyneco/Ménopause.pdf]]
 - [ ] [[~/Downloads/gyneco/nutrition et gross.pdf]]
 - [ ] [[~/Downloads/gyneco/Prématurité spontanée.pdf]]
@@ -1379,23 +1380,6 @@ DEADLINE: <2020-06-22 Mon>
 - [ ] [[~/Downloads/gyneco/Troubles du cycle.pdf]]
 - [ ] [[~/Downloads/gyneco/Tumeurs de l’ovaire.pdf]]
 
-** DONE Relire fiches
-DEADLINE: <2020-06-08 Mon> SCHEDULED: <2020-06-03 Wed>
-:LOGBOOK:
-CLOCK: [2020-06-09 Tue 23:32]--[2020-06-09 Tue 23:55] =>  0:23
-CLOCK: [2020-06-09 Tue 15:13]--[2020-06-09 Tue 16:02] =>  0:49
-CLOCK: [2020-06-09 Tue 14:12]--[2020-06-09 Tue 14:40] =>  0:28
-CLOCK: [2020-06-09 Tue 12:49]--[2020-06-09 Tue 13:11] =>  0:22
-CLOCK: [2020-06-09 Tue 11:28]--[2020-06-09 Tue 11:57] =>  0:29
-CLOCK: [2020-06-09 Tue 00:00]--[2020-06-09 Tue 00:20] =>  0:20
-CLOCK: [2020-06-08 Mon 21:58]--[2020-06-08 Mon 22:16] =>  0:18
-CLOCK: [2020-06-08 Mon 21:14]--[2020-06-08 Mon 21:47] =>  0:33
-CLOCK: [2020-06-08 Mon 14:42]--[2020-06-08 Mon 14:57] =>  0:15
-CLOCK: [2020-06-08 Mon 12:38]--[2020-06-08 Mon 13:47] =>  1:09
-CLOCK: [2020-06-08 Mon 11:14]--[2020-06-08 Mon 11:34] =>  0:20
-:END:
-Ok ecni tout en un
-Compléter items du collège
 ** TODO Conf+ [0/9]
 *** TODO DP 1 D3
 *** TODO DP 2 D3
@@ -1414,12 +1398,13 @@ https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-abdomi
 DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-21 Sun>
 *** TODO Passe 1
 :LOGBOOK:
+CLOCK: [2020-06-21 Sun 18:03]--[2020-06-21 Sun 19:30] =>  1:27
 CLOCK: [2020-06-21 Sun 14:04]--[2020-06-21 Sun 14:40] =>  0:36
 CLOCK: [2020-06-21 Sun 13:14]--[2020-06-21 Sun 13:22] =>  0:08
 CLOCK: [2020-06-21 Sun 12:43]--[2020-06-21 Sun 12:55] =>  0:12
 :END:
   - [X] [[https://side-sante.fr/playtest/classic/2601978][Gynecologie Juin 2019]]
-  - [ ] [[https://side-sante.fr/playtest/classic/1456307][gyneco 26 juin 2018]]
+  - [X] [[https://side-sante.fr/playtest/classic/1456307][gyneco 26 juin 2018]]
   - [ ] [[https://side-sante.fr/playtest/classic/483059][GYNECO août 2017]]
   - [ ] [[https://side-sante.fr/playtest/classic/455371][Gyneco juin 2017]]
   - [ ] [[https://side-sante.fr/playtest/classic/77724][GYNECO juin 2016]]
