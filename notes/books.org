@@ -1,6 +1,7 @@
 #+TITLE: Books
- #+OPTIONS: H:1
+#+OPTIONS: H:1
 #+TODO: TOREAD(t) READING(r) HOLD(h) ?(?) FORMAT(f) | DONE(d)
+#+STARTUP: overview
 #+COLUMNS: %120ITEM %STATUS
 #+OPTIONS: num:nil
 #+TAGS: books fantasy horror lapleiade
@@ -150,20 +151,134 @@ https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.
 
 ** TOREAD The Feynman Lectures on Physics
 * Litterature
-** TOREAD Brecht, B. (2001): The resistible rise of arturo ui
-  :PROPERTIES:
-  :Custom_ID: brecht01_artur_ui
-  :END:
-** READING Illiade :lapleiade:
-La pleiade
-Notes :
- - §2020-06-10-2209 Homère
-
-** TOREAD Odyssée :lapleiade:
 ** TOREAD Duby :lapleiade:
+** READING Homère,  (1955): Iliade ; odyssée :lapleiade:
+  :PROPERTIES:
+  :Custom_ID: homere1955
+  :END:
+*** DONE Iliade
+Assez épique, on s'y plonge bien malgré un démarrage un peu brutal si l'on ne connaît pas le contexte. Au final, raconte seulement un cours épisode de la guerre de Troie (2-3 semaines) qui est la colère d'Achille contre Agammenon, sur les 10 ans que durent la guerre. Le poème se finit sans la prise de la ville.
+Sur le style, je n'ai pas trop vu les alexandrins. Par contre, très violent !
+
+Dans l'édition de la pléiade, les notes sont parfois utile et l'introduction intéressante. La question centrale est celle de l'unicité du poète. Le traducteur pense que oui, même s'il l'a écrit en plusieurs fois.
+Argument principal : il y aura moins d'inadvertances sinon !
+L'autre thèse est celle d'un seul auteur pour 10 chants sur 14 en se fondant sur les "erreurs" du texte.
+Pas de réponse définitive donc (en 1955 mais c'est encore en débat).
+*** Contexte historique
+ - §2020-06-10-2209 Homère
+***
+
 ** ? Cahiers de sainte hélène
 ** ? César
 
+** FORMAT Martin, G. : A Dance with Dragons (A Song of Ice and Fire, #5) :fantasy:
+:PROPERTIES:
+:rating: 4
+:END:
+** FORMAT Histoire Romaine: Livres Xxi à Xxv
+:PROPERTIES:
+:author: Livy
+:rating: 5
+:END:
+** FORMAT Histoire Romaine: Livres Xxxvi À XL (36-40)
+:PROPERTIES:
+:author: Livy
+:rating: 5
+:END:
+** FORMAT I, Claudius (Claudius, #1)
+:PROPERTIES:
+:author: Robert Graves
+:rating: 4
+:END:
+** FORMAT If This Is a Man • The Truce
+:PROPERTIES:
+:author: Primo Levi
+:rating: 4
+:END:
+** FORMAT Illusions : The Adventures of a Reluctant Messiah
+:PROPERTIES:
+:author: Richard Bach
+:rating: 4
+:END:
+** FORMAT Jane Eyre
+:PROPERTIES:
+:author: Charlotte Brontë
+:rating: 4
+:END:
+** FORMAT Lady Archimedes (Arithmancer, #2)
+:PROPERTIES:
+:author: White Squirrel
+:rating: 4
+:END:
+** FORMAT Lolita
+:PROPERTIES:
+:author: Vladimir Nabokov
+:rating: 3
+:END:
+** FORMAT Pride and Prejudice
+:PROPERTIES:
+:author: Jane Austen
+:rating: 5
+:END:
+** FORMAT Shadow Games (The Chronicles of the Black Company, #4)
+:PROPERTIES:
+:author: Glen Cook
+:rating: 3
+:END:
+** FORMAT Shadows Linger (The Chronicles of the Black Company, #2)
+:PROPERTIES:
+:author: Glen Cook
+:rating: 3
+:END:
+** FORMAT The Arithmancer (Arithmancer, #1)
+:PROPERTIES:
+:author: White Squirrel
+:rating: 4
+:END:
+** FORMAT The Black Company (The Chronicles of the Black Company, #1)
+:PROPERTIES:
+:author: Glen Cook
+:rating: 4
+:END:
+** FORMAT The Color of Magic (Discworld, #1; Rincewind, #1)
+:PROPERTIES:
+:author: Terry Pratchett
+:rating: 3
+:END:
+** FORMAT The Little Prince
+:PROPERTIES:
+:author: Antoine de Saint-Exupéry
+:rating: 4
+:END:
+** FORMAT La peste
+:PROPERTIES:
+:author: Albert Camus
+:rating: 4
+:END:
+** FORMAT The Return of the King (The Lord of the Rings, #3)
+:PROPERTIES:
+:author: J.R.R. Tolkien
+:rating: 5
+:END:
+** FORMAT The Silmarillion : The Epic History of the Elves in The Lord of the Rings
+:PROPERTIES:
+:author: J.R.R. Tolkien
+:rating: 4
+:END:
+** FORMAT The Silver Spike (The Chronicles of the Black Company, #3.5)
+:PROPERTIES:
+:author: Glen Cook
+:rating: 3
+:END:
+** FORMAT The Time Machine
+:PROPERTIES:
+:author: H.G. Wells
+:rating: 3
+:END:
+** FORMAT The War of the Worlds
+:PROPERTIES:
+:author:   H.G. Wells
+:rating:   4
 ** DONE Zola, E. (2004): Germinal :classic:
   :PROPERTIES:
   :Custom_ID: zola04_germin
@@ -356,114 +471,6 @@ Notes :
   :rating:   4
   :END:
 
-** FORMAT Martin, G. : A Dance with Dragons (A Song of Ice and Fire, #5) :fantasy:
-:PROPERTIES:
-:rating: 4
-:END:
-** FORMAT Histoire Romaine: Livres Xxi à Xxv
-:PROPERTIES:
-:author: Livy
-:rating: 5
-:END:
-** FORMAT Histoire Romaine: Livres Xxxvi À XL (36-40)
-:PROPERTIES:
-:author: Livy
-:rating: 5
-:END:
-** FORMAT I, Claudius (Claudius, #1)
-:PROPERTIES:
-:author: Robert Graves
-:rating: 4
-:END:
-** FORMAT If This Is a Man • The Truce
-:PROPERTIES:
-:author: Primo Levi
-:rating: 4
-:END:
-** FORMAT Illusions : The Adventures of a Reluctant Messiah
-:PROPERTIES:
-:author: Richard Bach
-:rating: 4
-:END:
-** FORMAT Jane Eyre
-:PROPERTIES:
-:author: Charlotte Brontë
-:rating: 4
-:END:
-** FORMAT Lady Archimedes (Arithmancer, #2)
-:PROPERTIES:
-:author: White Squirrel
-:rating: 4
-:END:
-** FORMAT Lolita
-:PROPERTIES:
-:author: Vladimir Nabokov
-:rating: 3
-:END:
-** FORMAT Pride and Prejudice
-:PROPERTIES:
-:author: Jane Austen
-:rating: 5
-:END:
-** FORMAT Shadow Games (The Chronicles of the Black Company, #4)
-:PROPERTIES:
-:author: Glen Cook
-:rating: 3
-:END:
-** FORMAT Shadows Linger (The Chronicles of the Black Company, #2)
-:PROPERTIES:
-:author: Glen Cook
-:rating: 3
-:END:
-** FORMAT The Arithmancer (Arithmancer, #1)
-:PROPERTIES:
-:author: White Squirrel
-:rating: 4
-:END:
-** FORMAT The Black Company (The Chronicles of the Black Company, #1)
-:PROPERTIES:
-:author: Glen Cook
-:rating: 4
-:END:
-** FORMAT The Color of Magic (Discworld, #1; Rincewind, #1)
-:PROPERTIES:
-:author: Terry Pratchett
-:rating: 3
-:END:
-** FORMAT The Little Prince
-:PROPERTIES:
-:author: Antoine de Saint-Exupéry
-:rating: 4
-:END:
-** FORMAT La peste
-:PROPERTIES:
-:author: Albert Camus
-:rating: 4
-:END:
-** FORMAT The Return of the King (The Lord of the Rings, #3)
-:PROPERTIES:
-:author: J.R.R. Tolkien
-:rating: 5
-:END:
-** FORMAT The Silmarillion : The Epic History of the Elves in The Lord of the Rings
-:PROPERTIES:
-:author: J.R.R. Tolkien
-:rating: 4
-:END:
-** FORMAT The Silver Spike (The Chronicles of the Black Company, #3.5)
-:PROPERTIES:
-:author: Glen Cook
-:rating: 3
-:END:
-** FORMAT The Time Machine
-:PROPERTIES:
-:author: H.G. Wells
-:rating: 3
-:END:
-** FORMAT The War of the Worlds
-:PROPERTIES:
-:author:   H.G. Wells
-:rating:   4
 ** DONE Dostoyevsky, F. (1994): Crime and punishment
   :PROPERTIES:
   :Custom_ID: dostoyevsky94_crime
@@ -485,12 +492,6 @@ Notes :
   :PROPERTIES:
   :Custom_ID: rowling98_harry_potter
   :rating:   4.5
-  :END:
-
-** DONE Steinbeck, J. (1993): Of mice and men
-  :PROPERTIES:
-  :Custom_ID: steinbeck93_of
-  :rating:   3
   :END:
 
 * Fanfic
@@ -707,8 +708,6 @@ Intéressant pour le côté très scientifique d'Harry. J'ai vu quelques critiqu
 | Histoire Romaine                                                                                           | Marcel Le Glay               | ="2130550010" |      5 |
 | Achilles in Vietnam: Combat Trauma and the Undoing of Character                                            | Jonathan Shay                | ="0684813211" |      0 |
 | Histoire romaine, livres VI à X, la conquête de l'Italie                                                   | Livy                         | ="208070950X" |      5 |
-
-
 
 
 

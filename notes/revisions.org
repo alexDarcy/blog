@@ -1,5 +1,6 @@
 ﻿#+TITLE: Révisions
 #+TODO: TODO(t) LATE(l) | DONE(d) CANCELLED(c)
+#+STARTUP: overview
 #+TAGS: D1 D2 semestre1 semestre2
 
 #+FILETAGS: :revisions:
