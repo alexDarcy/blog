@@ -1334,7 +1334,51 @@ CLOCK: [2020-06-01 Mon 18:54]--[2020-06-01 Mon 19:56] =>  1:02
 *** TODO QI [/200]
 ** TODO Lire diapos et faire CC
 DEADLINE: <2020-06-22 Mon>
-[[file:~/Downloads/gyneco][file:~/Downloads/gyneco]]
+# [[file:~/Downloads/gyneco][file:~/Downloads/gyneco]]
+- [ ] [[~/Downloads/gyneco/Algies pelviennes FASM2.pdf]]
+- [ ] [[~/Downloads/gyneco/Allaitement et complications.pdf]]
+- [ ] [[~/Downloads/gyneco/Aménorrhée - Mode de compatibilité.pdf]]
+- [ ] [[~/Downloads/gyneco/Aménorrhée.pdf]]
+- [ ] [[~/Downloads/gyneco/cancer du col 2016.pdf]]
+- [ ] [[~/Downloads/gyneco/CAS CLINIQUE AMP.pptx]]
+- [ ] [[~/Downloads/gyneco/diabète.pdf]]
+- [ ] [[~/Downloads/gyneco/Douleur abdo chez la femme enceinte DU 2017.pdf]]
+- [ ] [[~/Downloads/gyneco/DP douleurs pelviennes.pptx]]
+- [ ] [[~/Downloads/gyneco/DP FCUK.pptx]]
+- [ ] [[~/Downloads/gyneco/DP fibrome.pptx]]
+- [ ] [[~/Downloads/gyneco/DP Grossesse Localisation Indéterminée.pptx]]
+- [ ] [[~/Downloads/gyneco/FASM2 - 35 - Contraception.pdf]]
+- [ ] [[~/Downloads/gyneco/FASM2 - 36 - IVG.pdf]]
+- [ ] [[~/Downloads/gyneco/FASM2 - 41 - Hémorragies génitales.pdf]]
+- [ ] [[~/Downloads/gyneco/FASM2 - 42 - Tuméfactions pelviennes.pdf]]
+- [ ] [[~/Downloads/gyneco/Fasm 2 doul pelv 20020.pptx]]
+- [ ] [[~/Downloads/gyneco/FASM 2 MTR 2018.pdf]]
+- [ ] [[~/Downloads/gyneco/FCTMAPRPM int.ppt]]
+- [ ] [[~/Downloads/gyneco/Fièvre et Grossesse.pdf]]
+- [ ] [[~/Downloads/gyneco/GEU FASM2 - Mode de compatibilité.pdf]]
+- [ ] [[~/Downloads/gyneco/GEU FASM2.pdf]]
+- [ ] [[~/Downloads/gyneco/grossesse nle et accouchement.pdf]]
+- [ ] [[~/Downloads/gyneco/HTA grossesse 2018.pdf]]
+- [ ] [[~/Downloads/gyneco/I26-FASM2.pdf]]
+- [ ] [[~/Downloads/gyneco/IGH FASM2.pdf]]
+- [ ] [[~/Downloads/gyneco/Infertilité.pdf]]
+- [ ] [[~/Downloads/gyneco/Item 22 – Grossesse normale.pdf]]
+- [ ] [[~/Downloads/gyneco/Item 29 _ prématurité et RCIU.pdf]]
+- [ ] [[~/Downloads/gyneco/Item 339_ prééclampsie.pdf]]
+- [ ] [[~/Downloads/gyneco/IVG.pdf]]
+- [ ] [[~/Downloads/gyneco/Les dysplasies cervicales 2017.pdf]]
+- [ ] [[~/Downloads/gyneco/MAP.RPM..pdf]]
+- [ ] [[~/Downloads/gyneco/Ménopause - Mode de compatibilité.pdf]]
+- [ ] [[~/Downloads/gyneco/Ménopause.pdf]]
+- [ ] [[~/Downloads/gyneco/nutrition et gross.pdf]]
+- [ ] [[~/Downloads/gyneco/Prématurité spontanée.pdf]]
+- [ ] [[~/Downloads/gyneco/Présentation HPP.pdf]]
+- [ ] [[~/Downloads/gyneco/RCIU 2018.pdf]]
+- [ ] [[~/Downloads/gyneco/suite de couches.pdf]]
+- [ ] [[~/Downloads/gyneco/Trame CS AMP.pdf]]
+- [ ] [[~/Downloads/gyneco/Troubles du cycle.pdf]]
+- [ ] [[~/Downloads/gyneco/Tumeurs de l’ovaire.pdf]]
+
 ** DONE Relire fiches
 DEADLINE: <2020-06-08 Mon> SCHEDULED: <2020-06-03 Wed>
 :LOGBOOK:
@@ -1364,18 +1408,24 @@ Compléter items du collège
 *** TODO Consensus D3
 ** TODO ECNI intensif (disponible en ligne)
 https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gyncologieobsttrique15185761
-** TODO Pôle abdominopelvien (en ligne)
+** CANCELLED Pôle abdominopelvien (en ligne)
 https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-abdominopelvien-gyncologieobsttriquehpatogastroentrologiechirurgie-digestive
 ** TODO Annales
 DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-21 Sun>
+*** TODO Passe 1
+:LOGBOOK:
+CLOCK: [2020-06-21 Sun 14:04]--[2020-06-21 Sun 14:40] =>  0:36
+CLOCK: [2020-06-21 Sun 13:14]--[2020-06-21 Sun 13:22] =>  0:08
+CLOCK: [2020-06-21 Sun 12:43]--[2020-06-21 Sun 12:55] =>  0:12
+:END:
+  - [X] [[https://side-sante.fr/playtest/classic/2601978][Gynecologie Juin 2019]]
+  - [ ] [[https://side-sante.fr/playtest/classic/1456307][gyneco 26 juin 2018]]
   - [ ] [[https://side-sante.fr/playtest/classic/483059][GYNECO août 2017]]
+  - [ ] [[https://side-sante.fr/playtest/classic/455371][Gyneco juin 2017]]
   - [ ] [[https://side-sante.fr/playtest/classic/77724][GYNECO juin 2016]]
   - [ ] [[https://side-sante.fr/playtest/classic/358415][GYNECO sept 2016]]
   - [ ] [[https://side-sante.fr/playtest/classic/11837][Gyneco juin 2015]]
-  - [ ] [[https://side-sante.fr/playtest/classic/455371][Gyneco juin 2017]]
   - [ ] [[https://side-sante.fr/playtest/classic/7136][Gyneco sept 2015]]
-  - [ ] [[https://side-sante.fr/playtest/classic/2601978][Gynecologie Juin 2019]]
-  - [ ] [[https://side-sante.fr/playtest/classic/1456307][gyneco 26 juin 2018]]
 ** TODO Ecn asso
 *** TODO Conf [2020-06-15 Mon]
 :LOGBOOK:
@@ -1542,9 +1592,10 @@ CLOCK: [2020-05-10 Sun 10:39]--[2020-05-10 Sun 11:50] =>  1:11
   :CATEGORY: ortho
   :END:
 ** DONE Collège
-** TODO Lire diapos et faire CC
+** DONE Lire diapos et faire CC
 DEADLINE: <2020-06-20 Sat>
 :LOGBOOK:
+CLOCK: [2020-06-21 Sun 11:47]--[2020-06-21 Sun 12:32] =>  0:45
 CLOCK: [2020-06-21 Sun 00:32]--[2020-06-21 Sun 00:57] =>  0:25
 CLOCK: [2020-06-20 Sat 22:59]--[2020-06-20 Sat 23:16] =>  0:17
 CLOCK: [2020-06-20 Sat 19:21]--[2020-06-20 Sat 19:40] =>  0:19
@@ -1559,8 +1610,8 @@ CLOCK: [2020-06-20 Sat 17:18]--[2020-06-20 Sat 17:38] =>  0:20
 - [X] [[file:~/Downloads/ortho/358- CM - Ostéosynthèse - Sirveaux.pdf]]
 - [X] [[file:~/Downloads/ortho/358- CM - Prothèses - Sirveaux.pdf]]
 - [X] [[file:~/Downloads/ortho/359- CM - Fractures de cheville - Galois.pdf]]
-- [ ] [[file:~/Downloads/ortho/359- CM - Fractures extrémité supérieure fémur - Galois.pdf]]
-- [ ] [[file:~/Downloads/ortho/359- CM-CC - Fractures des membres supérieurs - Sirveaux.pdf]]
+- [X] [[file:~/Downloads/ortho/359- CM - Fractures extrémité supérieure fémur - Galois.pdf]]
+- [X] [[file:~/Downloads/ortho/359- CM-CC - Fractures des membres supérieurs - Sirveaux.pdf]]
 - [X] [[file:~/Downloads/ortho/361- CM-CC - Surveillance d’un malade sous plâtre - Sirveaux.pdf]]
 ** TODO ECNI intensif
 *** TODO 2eme passe
@@ -1574,13 +1625,9 @@ CLOCK: [2020-06-20 Sat 09:30]--[2020-06-20 Sat 10:30] =>  1:00
 *** DONE DP 1 D3
 DEADLINE: <2020-06-20 Sat>
 *** TODO DP 2 D3
-DEADLINE: <2020-06-20 Sat>
 *** TODO QI 1 D3
-DEADLINE: <2020-06-20 Sat>
 *** TODO QI 2 D3
-DEADLINE: <2020-06-20 Sat>
 *** TODO QI 3 D3
-DEADLINE: <2020-06-20 Sat>
 *** TODO Entraînement D3
 *** TODO Consensus D3
 ** TODO Annales
