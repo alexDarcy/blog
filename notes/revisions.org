@@ -1399,7 +1399,7 @@ https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-abdomi
 DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-21 Sun>
 *** TODO Passe 1
 :LOGBOOK:
-CLOCK: [2020-06-22 Mon 11:16]
+CLOCK: [2020-06-22 Mon 11:16]--[2020-06-22 Mon 11:52] =>  0:36
 CLOCK: [2020-06-21 Sun 23:43]--[2020-06-22 Mon 00:25] =>  0:42
 CLOCK: [2020-06-21 Sun 22:54]--[2020-06-21 Sun 23:20] =>  0:26
 CLOCK: [2020-06-21 Sun 18:03]--[2020-06-21 Sun 19:30] =>  1:27
@@ -1409,8 +1409,7 @@ CLOCK: [2020-06-21 Sun 12:43]--[2020-06-21 Sun 12:55] =>  0:12
 :END:
   - [X] [[https://side-sante.fr/playtest/classic/2601978][Gynecologie Juin 2019]]
   - [X] [[https://side-sante.fr/playtest/classic/1456307][gyneco 26 juin 2018]]
-  - [ ] [[https://side-sante.fr/playtest/classic/483059][GYNECO août 2017]]
-    Dernier DP à finir
+  - [X] [[https://side-sante.fr/playtest/classic/483059][GYNECO août 2017]]
   - [ ] [[https://side-sante.fr/playtest/classic/455371][Gyneco juin 2017]]
   - [ ] [[https://side-sante.fr/playtest/classic/77724][GYNECO juin 2016]]
   - [ ] [[https://side-sante.fr/playtest/classic/358415][GYNECO sept 2016]]
@@ -1629,20 +1628,6 @@ CLOCK: [2020-06-19 Fri 23:59]--[2020-06-20 Sat 00:47] =>  0:48
 :PROPERTIES:
 :CATEGORY: pédia
 :END:
-** DONE Collège
-** DONE Collège QI DP
-** DONE Conf ecn asso <2020-06-04 Thu>
-DEADLINE: <2020-06-04 Thu>
-:LOGBOOK:
-CLOCK: [2020-06-07 Sun 19:09]--[2020-06-07 Sun 19:41] =>  0:32
-CLOCK: [2020-06-07 Sun 17:25]--[2020-06-07 Sun 17:56] =>  0:31
-CLOCK: [2020-06-07 Sun 16:00]--[2020-06-07 Sun 17:25] =>  1:25
-CLOCK: [2020-06-04 Thu 14:59]--[2020-06-04 Thu 15:19] =>  0:20
-:END:
-*** DONE Faire conf ecn asso
-DEADLINE: <2020-06-05 Fri>
-*** DONE Reprendre corrigé conf
-DEADLINE: <2020-06-05 Fri>
 ** TODO Lire diapos + faire CC
 DEADLINE: <2020-06-22 Mon>
 [[file:~/Downloads/pedia][file:~/Downloads/pedia]]
@@ -1710,6 +1695,7 @@ CLOCK: [2020-05-17 Sun 12:13]--[2020-05-17 Sun 12:25] =>  0:12
 ** DONE Relire fiches
 DEADLINE: <2020-06-10 Wed> SCHEDULED: <2020-06-10 Wed>
 items
+:DRAWER:
 - [X] 26
 - [X] 29
 - [X] 31
@@ -1805,6 +1791,7 @@ items
 - [X] 355
 - [X] 360
 - [X] 361
+:END:
 :LOGBOOK:
 CLOCK: [2020-06-16 Tue 20:39]--[2020-06-16 Tue 21:09] =>  0:30
 CLOCK: [2020-06-16 Tue 17:27]--[2020-06-16 Tue 19:00] =>  1:33
@@ -1836,15 +1823,20 @@ CLOCK: [2020-06-10 Wed 22:13]--[2020-06-10 Wed 22:34] =>  0:21
 :END:
 ** TODO Annales
 DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-21 Sun>
-
+:LOGBOOK:
+CLOCK: [2020-06-22 Mon 16:00]--[2020-06-22 Mon 18:00] =>  2:00
+CLOCK: [2020-06-22 Mon 14:53]--[2020-06-22 Mon 15:32] =>  0:39
+CLOCK: [2020-06-22 Mon 13:22]--[2020-06-22 Mon 14:07] =>  0:45
+CLOCK: [2020-06-22 Mon 12:40]--[2020-06-22 Mon 13:00] =>  0:20
+:END:
+  - [X] [[https://side-sante.fr/playtest/classic/2602001][Pédiatrie Juin 2019]]
+  - [X] [[https://side-sante.fr/playtest/classic/1456330][pédiatrie 26 juin 2018]]
   - [ ] [[https://side-sante.fr/playtest/classic/483036][PEDIATRIE août 2017]]
+  - [ ] [[https://side-sante.fr/playtest/classic/455372][Pédiatrie juin 2017]]
   - [ ] [[https://side-sante.fr/playtest/classic/77725][PEDIATRIE juin 2016]]
   - [ ] [[https://side-sante.fr/playtest/classic/358406][PEDIATRIE sept.2016]]
-  - [ ] [[https://side-sante.fr/playtest/classic/2602001][Pédiatrie Juin 2019]]
   - [ ] [[https://side-sante.fr/playtest/classic/6602][Pédiatrie Sept2015]]
   - [ ] [[https://side-sante.fr/playtest/classic/5815][Pédiatrie juin 2015]]
-  - [ ] [[https://side-sante.fr/playtest/classic/455372][Pédiatrie juin 2017]]
-  - [ ] [[https://side-sante.fr/playtest/classic/1456330][pédiatrie 26 juin 2018]]
 
 * Pneumologie :A1:semestre1:pneumo:
   :PROPERTIES:

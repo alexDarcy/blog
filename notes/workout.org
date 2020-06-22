@@ -2925,3 +2925,14 @@ Front-lever row (advanced tuck) : 3x{2(+1)} tentatives (attention à ne pas boug
 Planche push-up (advanced tuck): 4-3-3 tentatives
 Norwegian curls: 3x3 (15° ? douloureux...)
 Compression : 9-10
+*** 2020-06-22 Monday
+**** Handstand
+ StW 40-37-25
+ BtW 5 (travailler la posture en filmant depuis hier)
+**** Running
+:PROPERTIES:
+:type:     sprint
+:distance: 4.6km
+:duration: 24min15s
+:speed:    11.5km/h
+:END:
