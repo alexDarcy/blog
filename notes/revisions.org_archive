@@ -2706,3 +2706,29 @@ CLOCK: [2020-06-08 Mon 11:14]--[2020-06-08 Mon 11:34] =>  0:20
 :END:
 Ok ecni tout en un
 Compléter items du collège
+
+* DONE Ecn asso
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-06-22 Mon 11:16
+:ARCHIVE_FILE: ~/projects/blog/notes/revisions.org
+:ARCHIVE_OLPATH: Gynécologie
+:ARCHIVE_CATEGORY: gynéco
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: revisions A2 semestre2 gyneco
+:END:
+** DONE Conf [2020-06-15 Mon]
+:LOGBOOK:
+CLOCK: [2020-06-15 Mon 15:11]--[2020-06-15 Mon 16:20] =>  1:09
+:END:
+*** DONE Faire conférence
+DEADLINE: <2020-06-15 Mon>
+*** DONE Relire conférence
+DEADLINE: <2020-06-16 Tue>
+DP1 ok
+:LOGBOOK:
+CLOCK: [2020-06-17 Wed 15:30]--[2020-06-17 Wed 15:48] =>  0:18
+CLOCK: [2020-06-17 Wed 14:16]--[2020-06-17 Wed 15:00] =>  0:44
+CLOCK: [2020-06-17 Wed 12:25]--[2020-06-17 Wed 13:17] =>  0:52
+CLOCK: [2020-06-17 Wed 09:43]--[2020-06-17 Wed 10:03] =>  0:20
+CLOCK: [2020-06-16 Tue 22:34]--[2020-06-16 Tue 23:04] =>  0:30
+:END:

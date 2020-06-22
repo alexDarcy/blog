@@ -1302,8 +1302,8 @@ CLOCK: [2020-05-29 Fri 11:35]--[2020-05-29 Fri 11:36] =>  0:01
   :PROPERTIES:
   :CATEGORY: gynéco
   :END:
-** TODO Exercices masson
-*** TODO CC [5/5]
+** CANCELLED Exercices masson
+*** CANCELLED CC [5/5]
 *** DONE DP [23/23]
 DEADLINE: <2020-06-09 Tue> SCHEDULED: <2020-06-01 Mon>
 :LOGBOOK:
@@ -1331,7 +1331,7 @@ CLOCK: [2020-06-02 Tue 17:10]--[2020-06-02 Tue 17:35] =>  0:25
 CLOCK: [2020-06-01 Mon 21:38]--[2020-06-01 Mon 23:12] =>  1:34
 CLOCK: [2020-06-01 Mon 18:54]--[2020-06-01 Mon 19:56] =>  1:02
 :END:
-*** TODO QI [/200]
+*** CANCELLED QI [/200]
 ** TODO Lire diapos et faire CC
 DEADLINE: <2020-06-22 Mon>
 :LOGBOOK:
@@ -1391,7 +1391,7 @@ CLOCK: [2020-06-21 Sun 15:59]--[2020-06-21 Sun 16:20] =>  0:21
 *** TODO QI 3 D3
 *** TODO Entraînement D3
 *** TODO Consensus D3
-** TODO ECNI intensif (disponible en ligne)
+** CANCELLED ECNI intensif (disponible en ligne)
 https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gyncologieobsttrique15185761
 ** CANCELLED Pôle abdominopelvien (en ligne)
 https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-abdominopelvien-gyncologieobsttriquehpatogastroentrologiechirurgie-digestive
@@ -1399,6 +1399,7 @@ https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-abdomi
 DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-21 Sun>
 *** TODO Passe 1
 :LOGBOOK:
+CLOCK: [2020-06-22 Mon 11:16]
 CLOCK: [2020-06-21 Sun 23:43]--[2020-06-22 Mon 00:25] =>  0:42
 CLOCK: [2020-06-21 Sun 22:54]--[2020-06-21 Sun 23:20] =>  0:26
 CLOCK: [2020-06-21 Sun 18:03]--[2020-06-21 Sun 19:30] =>  1:27
@@ -1415,23 +1416,6 @@ CLOCK: [2020-06-21 Sun 12:43]--[2020-06-21 Sun 12:55] =>  0:12
   - [ ] [[https://side-sante.fr/playtest/classic/358415][GYNECO sept 2016]]
   - [ ] [[https://side-sante.fr/playtest/classic/11837][Gyneco juin 2015]]
   - [ ] [[https://side-sante.fr/playtest/classic/7136][Gyneco sept 2015]]
-** TODO Ecn asso
-*** TODO Conf [2020-06-15 Mon]
-:LOGBOOK:
-CLOCK: [2020-06-15 Mon 15:11]--[2020-06-15 Mon 16:20] =>  1:09
-:END:
-**** DONE Faire conférence
-DEADLINE: <2020-06-15 Mon>
-**** DONE Relire conférence
-DEADLINE: <2020-06-16 Tue>
-DP1 ok
-:LOGBOOK:
-CLOCK: [2020-06-17 Wed 15:30]--[2020-06-17 Wed 15:48] =>  0:18
-CLOCK: [2020-06-17 Wed 14:16]--[2020-06-17 Wed 15:00] =>  0:44
-CLOCK: [2020-06-17 Wed 12:25]--[2020-06-17 Wed 13:17] =>  0:52
-CLOCK: [2020-06-17 Wed 09:43]--[2020-06-17 Wed 10:03] =>  0:20
-CLOCK: [2020-06-16 Tue 22:34]--[2020-06-16 Tue 23:04] =>  0:30
-:END:
 * Hépato-Gastro :A1:semestre1:hge:
   :PROPERTIES:
   :COLUMNS:  %25ITEM %Lu %Fiche %QI
