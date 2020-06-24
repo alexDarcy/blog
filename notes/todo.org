@@ -243,9 +243,8 @@ amison, sel
 https://cooking.nytimes.com/recipes/1020851-bittersweet-brownie-shortbread
 *** TODO Mousse de chocolat au tofu
   http://www.foodnetwork.co.uk/recipes/dark-chocolate-mousse.html?utm_source=foodnetwork.com&utm_medium=domestic
-*** TODO Mousse de chocolat au jus de pois-chiche
-*** TODO Scones : livre rose. Levure mal mélangée. À refaire
 *** TODO Egyptian shortbread
+*** TODO Mousse aux fraises de raymond oliver
 ** Salé
 *** TODO Légumes fermentés (pickles)
   https://www.ancient-egypt-online.com/ancient-egyptian-recipes.html

@@ -1147,10 +1147,7 @@
   :END:
 ** DONE Collège
 ** TODO Annales
-DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-21 Sun>
-:PROPERTIES:
-:ORDERED:  t
-:END:
+SCHEDULED: <2020-06-21 Sun>
 :LOGBOOK:
 CLOCK: [2020-06-18 Thu 15:18]--[2020-06-18 Thu 16:20] =>  1:02
 CLOCK: [2020-06-18 Thu 10:52]--[2020-06-18 Thu 11:20] =>  0:28
@@ -1159,16 +1156,19 @@ CLOCK: [2020-06-17 Wed 19:41]--[2020-06-17 Wed 19:52] =>  0:11
 CLOCK: [2020-06-17 Wed 19:05]--[2020-06-17 Wed 19:28] =>  0:23
 :END:
 *** TODO Passe 1
+:LOGBOOK:
+CLOCK: [2020-06-23 Tue 20:47]--[2020-06-23 Tue 22:03] =>  1:16
+:END:
 - [X] [[https://side-sante.fr/playtest/classic/2602023][CANCERO juin 2019]]
 - [X] [[https://side-sante.fr/playtest/classic/1456262][CANCERO juin 2018]]
-- [ ] [[https://side-sante.fr/playtest/classic/483106][CANCERO août 2017]]
+- [X] [[https://side-sante.fr/playtest/classic/483106][CANCERO août 2017]]
 - [ ] [[https://side-sante.fr/playtest/classic/455370][CANCERO juin 2017]]
-- [ ] [[https://side-sante.fr/playtest/classic/719723][CANCERO sept 2016]]
-- [ ] [[https://side-sante.fr/playtest/classic/77722][CANCERO juin 2016]]
-- [ ] [[https://side-sante.fr/playtest/classic/5906][CANCERO juin 2015]]
-- [ ] [[https://side-sante.fr/playtest/classic/6601][CANCERO sept 2015]]
-*** TODO Passe 2
-** TODO Lire diapos + faire CC
+- [-] [[https://side-sante.fr/playtest/classic/719723][CANCERO sept 2016]]
+- [-] [[https://side-sante.fr/playtest/classic/77722][CANCERO juin 2016]]
+- [-] [[https://side-sante.fr/playtest/classic/5906][CANCERO juin 2015]]
+- [-] [[https://side-sante.fr/playtest/classic/6601][CANCERO sept 2015]]
+*** CANCELLED Passe 2
+** CANCELLED Lire diapos + faire CC
 DEADLINE: <2020-06-23 Tue>
 [[file:~/Downloads/cancero][file:~/Downloads/cancero]]
 ** TODO Conf+ [5/7]
@@ -1223,7 +1223,7 @@ CLOCK: [2020-05-26 Tue 11:00]--[2020-05-26 Tue 12:00] =>  1:00
 CLOCK: [2020-05-25 Mon 23:06]--[2020-05-25 Mon 23:53] =>  0:47
 :END:
 Item 307
-** TODO ECN asso
+** DONE ECN asso
 :LOGBOOK:
 CLOCK: [2020-05-31 Sun 15:28]--[2020-05-31 Sun 16:13] =>  0:45
 :END:
@@ -1333,7 +1333,6 @@ CLOCK: [2020-06-01 Mon 18:54]--[2020-06-01 Mon 19:56] =>  1:02
 :END:
 *** CANCELLED QI [/200]
 ** TODO Lire diapos et faire CC
-DEADLINE: <2020-06-22 Mon>
 :LOGBOOK:
 CLOCK: [2020-06-21 Sun 21:55]--[2020-06-21 Sun 22:51] =>  0:56
 CLOCK: [2020-06-21 Sun 16:41]--[2020-06-21 Sun 17:13] =>  0:32
@@ -1396,7 +1395,6 @@ https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gyncologie
 ** CANCELLED Pôle abdominopelvien (en ligne)
 https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/ple-abdominopelvien-gyncologieobsttriquehpatogastroentrologiechirurgie-digestive
 ** TODO Annales
-DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-21 Sun>
 *** TODO Passe 1
 :LOGBOOK:
 CLOCK: [2020-06-22 Mon 11:16]--[2020-06-22 Mon 11:52] =>  0:36
@@ -1410,11 +1408,11 @@ CLOCK: [2020-06-21 Sun 12:43]--[2020-06-21 Sun 12:55] =>  0:12
   - [X] [[https://side-sante.fr/playtest/classic/2601978][Gynecologie Juin 2019]]
   - [X] [[https://side-sante.fr/playtest/classic/1456307][gyneco 26 juin 2018]]
   - [X] [[https://side-sante.fr/playtest/classic/483059][GYNECO août 2017]]
-  - [ ] [[https://side-sante.fr/playtest/classic/455371][Gyneco juin 2017]]
-  - [ ] [[https://side-sante.fr/playtest/classic/77724][GYNECO juin 2016]]
-  - [ ] [[https://side-sante.fr/playtest/classic/358415][GYNECO sept 2016]]
-  - [ ] [[https://side-sante.fr/playtest/classic/11837][Gyneco juin 2015]]
-  - [ ] [[https://side-sante.fr/playtest/classic/7136][Gyneco sept 2015]]
+  - [-] [[https://side-sante.fr/playtest/classic/455371][Gyneco juin 2017]]
+  - [-] [[https://side-sante.fr/playtest/classic/77724][GYNECO juin 2016]]
+  - [-] [[https://side-sante.fr/playtest/classic/358415][GYNECO sept 2016]]
+  - [-] [[https://side-sante.fr/playtest/classic/11837][Gyneco juin 2015]]
+  - [-] [[https://side-sante.fr/playtest/classic/7136][Gyneco sept 2015]]
 * Hépato-Gastro :A1:semestre1:hge:
   :PROPERTIES:
   :COLUMNS:  %25ITEM %Lu %Fiche %QI
@@ -1602,7 +1600,7 @@ DEADLINE: <2020-06-20 Sat>
 *** TODO QI 3 D3
 *** TODO Entraînement D3
 *** TODO Consensus D3
-** TODO Annales
+** DONE Annales
 :LOGBOOK:
 CLOCK: [2020-06-21 Sun 00:00]--[2020-06-21 Sun 00:25] =>  0:25
 CLOCK: [2020-06-20 Sat 23:17]--[2020-06-20 Sat 23:33] =>  0:16
@@ -1622,14 +1620,13 @@ CLOCK: [2020-06-19 Fri 23:59]--[2020-06-20 Sat 00:47] =>  0:48
   - [X] [[https://side-sante.fr/playtest/classic/455373][Orthopédie juin 2017]]
   - [X] [[https://side-sante.fr/playtest/classic/358414][ORTHO sept 2016]]
   - [X] [[https://side-sante.fr/playtest/classic/77723][ORTHOPEDIE juin 2016]]
-  - [ ] [[https://side-sante.fr/playtest/classic/11839][Orthopédie sept 2015]]
-  - [ ] [[https://side-sante.fr/playtest/classic/7029][Orthopédie  12 juin 2015]]
+  - [-] [[https://side-sante.fr/playtest/classic/11839][Orthopédie sept 2015]]
+  - [-] [[https://side-sante.fr/playtest/classic/7029][Orthopédie  12 juin 2015]]
 * Pédiatrie :A2:semestre2:pedia:
 :PROPERTIES:
 :CATEGORY: pédia
 :END:
 ** TODO Lire diapos + faire CC
-DEADLINE: <2020-06-22 Mon>
 [[file:~/Downloads/pedia][file:~/Downloads/pedia]]
 ** TODO Conf+ [3/8]
 *** DONE DP1 D3
@@ -1822,8 +1819,9 @@ CLOCK: [2020-06-11 Thu 11:28]--[2020-06-11 Thu 11:44] =>  0:16
 CLOCK: [2020-06-10 Wed 22:13]--[2020-06-10 Wed 22:34] =>  0:21
 :END:
 ** TODO Annales
-DEADLINE: <2020-06-21 Sun> SCHEDULED: <2020-06-21 Sun>
+SCHEDULED: <2020-06-21 Sun>
 :LOGBOOK:
+CLOCK: [2020-06-22 Mon 20:32]--[2020-06-22 Mon 21:09] =>  0:37
 CLOCK: [2020-06-22 Mon 16:00]--[2020-06-22 Mon 18:00] =>  2:00
 CLOCK: [2020-06-22 Mon 14:53]--[2020-06-22 Mon 15:32] =>  0:39
 CLOCK: [2020-06-22 Mon 13:22]--[2020-06-22 Mon 14:07] =>  0:45
@@ -1831,12 +1829,12 @@ CLOCK: [2020-06-22 Mon 12:40]--[2020-06-22 Mon 13:00] =>  0:20
 :END:
   - [X] [[https://side-sante.fr/playtest/classic/2602001][Pédiatrie Juin 2019]]
   - [X] [[https://side-sante.fr/playtest/classic/1456330][pédiatrie 26 juin 2018]]
-  - [ ] [[https://side-sante.fr/playtest/classic/483036][PEDIATRIE août 2017]]
-  - [ ] [[https://side-sante.fr/playtest/classic/455372][Pédiatrie juin 2017]]
-  - [ ] [[https://side-sante.fr/playtest/classic/77725][PEDIATRIE juin 2016]]
-  - [ ] [[https://side-sante.fr/playtest/classic/358406][PEDIATRIE sept.2016]]
-  - [ ] [[https://side-sante.fr/playtest/classic/6602][Pédiatrie Sept2015]]
-  - [ ] [[https://side-sante.fr/playtest/classic/5815][Pédiatrie juin 2015]]
+  - [?] [[https://side-sante.fr/playtest/classic/483036][PEDIATRIE août 2017]]
+  - [-] [[https://side-sante.fr/playtest/classic/455372][Pédiatrie juin 2017]]
+  - [-] [[https://side-sante.fr/playtest/classic/77725][PEDIATRIE juin 2016]]
+  - [-] [[https://side-sante.fr/playtest/classic/358406][PEDIATRIE sept.2016]]
+  - [-] [[https://side-sante.fr/playtest/classic/6602][Pédiatrie Sept2015]]
+  - [-] [[https://side-sante.fr/playtest/classic/5815][Pédiatrie juin 2015]]
 
 * Pneumologie :A1:semestre1:pneumo:
   :PROPERTIES:
@@ -1983,3 +1981,5 @@ CLOCK: [2020-05-09 Sat 18:38]--[2020-05-09 Sat 18:43] =>  0:05
   - [ ] [[https://side-sante.fr/playtest/classic/6026][EST LCA-2 sept 2015]]
   - [ ] [[https://side-sante.fr/playtest/classic/1910][EST-1 juin 2015]]
   - [ ] [[https://side-sante.fr/playtest/classic/6025][EST-2 sept 2015]]
+* TODO
+https://www.santepubliquefrance.fr/maladies-et-traumatismes/cancers

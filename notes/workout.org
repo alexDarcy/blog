@@ -2936,3 +2936,11 @@ Compression : 9-10
 :duration: 24min15s
 :speed:    11.5km/h
 :END:
+*** 2020-06-23 Tuesday
+**** Handstand
+ StW 45-39-33)
+ BtW 4x2-4x3-2x5
+*** 2020-06-24 Wednesday
+**** Handstand
+ StW 46-32-35-30 (jambes pas assez droites et pieds trop en avant ! travailler plus près du mur)
+ BtW 2x2-2x3-4-6-8
