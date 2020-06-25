@@ -2944,3 +2944,7 @@ Compression : 9-10
 **** Handstand
  StW 46-32-35-30 (jambes pas assez droites et pieds trop en avant ! travailler plus près du mur)
  BtW 2x2-2x3-4-6-8
+*** 2020-06-26 Friday
+**** Handstand
+ StW 47-41-25
+ BtW 2-2x4-5-6
