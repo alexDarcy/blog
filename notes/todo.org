@@ -1203,14 +1203,9 @@ Rustoléum pour anti-rouille puis 2 couches de peinture glycéro
 ** TODO Vendre : porte-cd, table de couture                                     :été2019:
 ** TODO Backup photos de famille                                                :été2019:
 *** TODO Tri en cours
-** TODO Souder la cloture à l'arrière du jardin                                 :été2019:
-** WAITING Virement rente
-*** DONE Mail envoyé
-*** DONE Vérifier que la rente nous a été versé
-*** DONE Renvoyer vers le notaire pour demande de remboursement......
-*** DONE Reenvoyé à nouveau vers le notaire
-Ne semblent pas avoir reçu le premier mail (ou font les idiots)
-*** DONE Relance par mail => on fait le mort
+** CANCELLED Souder la cloture à l'arrière du jardin :été2019:
+** TODO Refaire joint salle de bain
+** TODO Construire bac pour kalala
 * Moto
 ** DONE Chaîne
    CLOSED: [2019-07-09 Tue 12:18]
