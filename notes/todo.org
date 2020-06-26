@@ -1200,7 +1200,7 @@ Rustoléum pour anti-rouille puis 2 couches de peinture glycéro
 *** Gratter
 *** Enduit
 *** Peindre
-** TODO [#A] Repeindre plafond chambre cuisine
+** DONE [#A] Repeindre plafond chambre cuisine
 ** TODO Resouder porte garage :été2019:
 ** TODO Vendre : porte-cd, table de couture                                     :été2019:
 ** TODO Backup photos de famille                                                :été2019:
@@ -1223,12 +1223,14 @@ Rustoléum pour anti-rouille puis 2 couches de peinture glycéro
 :END:
 ** TODO Piano :daily:
 *** TODO Beethoven, 3e mouvement à 70: mesures 0-29 et 109-fin ok
-SCHEDULED: <2020-06-21 Sun .+1d>
+SCHEDULED: <2020-06-27 Sat .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2020-06-20 Sat 22:00]
+:LAST_REPEAT: [2020-06-26 Fri 22:28]
 :STYLE:    habit
 :LOGGING:  lognoterepeat
 :END:
+- State "DONE"       from "TODO"       [2020-06-26 Fri 22:28] \\
+  4 mesures suivantes non ok
 - State "DONE"       from "TODO"       [2020-06-20 Sat 22:00] \\
   Ok -> 29 incluse
 - State "DONE"       from "TODO"       [2020-06-19 Fri 22:56] \\
@@ -1351,10 +1353,8 @@ SCHEDULED: <2020-06-21 Sun .+1d>
   - State "DONE"       from "TODO"       [2018-10-20 Sat 18:45] \\
     Échauffement (impro + bach)
   :END:
-** TODO Violon
-   SCHEDULED: <2020-05-24 Sun .+1d>
+** CANCELLED Violon
    :PROPERTIES:
-   :STYLE:    habit
    :LOGGING:  lognoterepeat
    :LAST_REPEAT: [2020-05-23 Sat 21:24]
    :END:
