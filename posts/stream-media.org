@@ -1,11 +1,11 @@
-Today, I'll show you how to configure FreeBSD to share media content
+#+title: Streaming media with FreeBSD
+#+date: 2021-02-07
+
+Here, I'll explain how to configure FreeBSD to share media content
 over the network using NFS, and how to configure Kodi to access it from
 your TV.
 
 ** Server
-   :PROPERTIES:
-   :CUSTOM_ID: server
-   :END:
 First define which folders will be accessible to whom. In
 =/etc/exports=, I share /media to everyone on my network (192.168.1.**)
 

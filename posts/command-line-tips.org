@@ -15,6 +15,31 @@ fd md -x pandoc git mv {} {.}.org
 =-x= run a command, where ={}= contains the result, ={.}= contains the basename.
 ** Change your shell
 Use [[https://fishshell.com/docs/current/tutorial.html][fish]]. Enough said :)
+** Manage your ssh-keys
+Simply using [[https://www.funtoo.org/Keychain][keychain]]. For fish shell, here's my configuration:
+
+#+begin_src
+# Keychain for gpg and ssh. We have to set ssh and gpg. And GPG ID...
+if status is-login
+   keychain --quiet --agents ssh,gpg id_rsa 65DCD80B3BFE5B80
+end
+
+if test -f ~/.keychain/(hostname)-gpg-fish
+    source ~/.keychain/(hostname)-gpg-fish
+end
+
+if test -f ~/.keychain/(hostname)-fish
+    source ~/.keychain/(hostname)-fish
+end
+
+# Bepo bindings for vim
+for key in h l k j
+    bind -e --user $key
+    bind -e --user -M visual $key
+end
+#+end_src
+
+
 ** Splitting large files
 Here is a simple tip for splitting a large file into small chunks on
 Linux and reassemble it on Windows. No need to install anything !

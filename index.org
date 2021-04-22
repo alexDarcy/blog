@@ -2,6 +2,7 @@
 #+date: 2011-08-15
 - [[file:posts/mail.org][Mail in the command line (updated)]]
 - [[file:posts/emacs.org][Life in Emacs]]
+- [[file:posts/stream-media.org][Streaming media in FreeBSD]]
 - [[file:posts/command-line-tips.org][Command-line tips (updated)]]
 - [[file:posts/git.org][Introduction to git]]
 - [[file:posts/irssi.org][Messaging with irssi]]
