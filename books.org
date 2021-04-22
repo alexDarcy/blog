@@ -4,6 +4,8 @@
 #+COLUMNS: %120ITEM %STATUS
 #+OPTIONS: num:nil
 #+TAGS: books fantasy horror lapleiade
+# Turn off default internal styles
+#+OPTIONS: html-style:nil html5-fancy:t
 
 * CS :cs:
 ** HOLD Seibel, P. (2005): Practical Common Lisp :lisp:
@@ -305,27 +307,10 @@ CLOSED: [2021-03-25 Thu 10:04]
   :END:
 ** DONE Harry Potter
 *** DONE Harry potter and the sorcerer's stone :fantasy:
-  :PROPER
-  :Customtter
-  :rating
-  :END:
 *** DONE Harry potter and the chamber of secrets :fantasy:
-  :PROPER
-  :Customtter_chamb_secret
-  :END:
 *** DONE Harry potter and the prisoner of azkaban :fantasy:
-  :PROPER
-  :Customtter_azkab
-  :END:
 *** DONE Harry potter and the goblet of fire :fantasy:
-  :PROPER
-  :Customtter_goblet_fire
-  :rating
-  :END:
 *** DONE Harry potter and the order of the phoenix :fantasy:
-  :PROPER
-  :Customtter_order_phoen
-  :END:
 *** DONE Harry potter and the half-blood prince :fantasy:
   :PROPERTIES:
   :Custom_ID: rowling05_harry_potter_half_blood_princ

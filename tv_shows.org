@@ -1,4 +1,4 @@
-#+TITLE: Tv_shows
+#+TITLE: TV shows
 
 * DONE 24
 * KILL Big Bang Theory

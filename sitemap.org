@@ -1,4 +1,4 @@
-#+TITLE: Sitemap for project org-notes
+#+TITLE: Sitemap for project blog
 
 - [[file:anime.org][Anime]]
 - [[file:books.org][Books]]
@@ -71,5 +71,3 @@
   - [[file:notes/20210216125552-la_pleaide.org][la pleaide]]
   - [[file:notes/20210206122652-robin.org][robin]]
   - [[file:notes/20201215122156-usenet.org][usenet]]
-- test
-  - [[file:test/coucou.org][Coucou]]
