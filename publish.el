@@ -21,6 +21,12 @@
 (setq org-html-html5-fancy t
       org-html-doctype "html5")
 
+(defun custom-preamble (plist)
+  "<nav>
+<a href='/index.html'>Home</a> ---
+<a href='/about.html'>About</a></li>
+</nav>")
+
 
 ;; ;; org-html-head blog-html-head);; Can't set it in org-publish-project-alist...
 (setq org-publish-project-alist
@@ -34,12 +40,14 @@
          :with-author "AlexisPraga"
          :exclude "notes"
          ;; Custom CSS
-         :html-style nil
-         :html5-fancy nil
+         :style-default nil ;; No other css
+         :html-head-include-scripts nil ;; No other css (both must be set)
          ;; Ugly but I can't make variables works
          :html-head "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
 <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
 <link href=\"https://taopeng.me/org-notes-style/css/notes.css\" rel=\"stylesheet\" type=\"text/css\" />"
+         ;; end of custom css
+         :html-preamble custom-preamble
          :publishing-function org-html-publish-to-html
          :headline-levels 4             ; Just the default for this project.
         )))

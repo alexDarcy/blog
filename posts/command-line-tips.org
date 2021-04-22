@@ -1,6 +1,7 @@
 #+TITLE: Command Line Tips
 #+date: 2012-06-16s
 
+
 ** A better sudo
 Use =doas= (from OpenBSD). The configuration is super easy, just write =/usr/local/etc/doas.conf= (on FreeBSD) :
 #+begin_src
