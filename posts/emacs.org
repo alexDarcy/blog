@@ -1,3 +1,5 @@
+#+title: Life in emacs
+#+date: 2020-03-01
 Here is a small summary from my journey from vim to using Emacs for
 (almost) everything ! After using ViM for a few years, I wanted to try
 Emacs. I can summarize months of trial and errors into this single
@@ -15,8 +17,7 @@ I've summarize as much as possible to avoid a long read :
 2. /Discovering evil/ felt so good to be back to vim mapping after emacs
 3. [[https://github.com/purcell/emacs.d][Using Purcell starter kit]] is
    quite nice but ...
-4. *Switching to doom emacs* This made my day/month/year. I've even
-   donated to the developer. Start here !!
+4. *Switching to doom emacs* This made my day/month/year. Start here !!
 
 ** Best plugins
    :PROPERTIES:
@@ -25,7 +26,7 @@ I've summarize as much as possible to avoid a long read :
 I've put here plugins I deem essential for everyday use. I will not try
 to convince you but install, play with it and you should be pleased :)
 Also, the plugins in
-[[file:doom-emacs][https://github.com/hlissner/doom-emacs]] are marked
+[[https://github.com/hlissner/doom-emacs][doom-emacs]] are marked
 as /(doom)/.
 
 Start here :
