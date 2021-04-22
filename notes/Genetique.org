@@ -1,0 +1,34 @@
+#+TITLE: Genetique
+* Vue d'ensemble
+[[file:./images/adn.png]]
+
+L'ADN est dans le noyau mais les réactions chimiques se passent dans le cytoplasme.
+Il faut donc un intermédiaire, l'ARN, qui va permettre le contrôle de ces réactions par l'ADN.
+** Types d'ARN
+Les ribosomes produisent des protéines dans le _cytoplasme_ à l'aide de l'*ARN
+messager* qui contient la séquence à coder, et de l'*ARN de transfert* qui transporte les
+acides aminés (= blocs servant à construire les protéines). Les ribosomes
+servent donc d'"usine" de production dans le cytoplasme.
+#+attr_html: :width 400 px
+[[file:./images/ribosomes.png]]
+L'*ARN ribosomal* construit des blocs de base des ribosomes dans le nucléole
+(appartenant au noyau) mais les ribosomes seront finis d'être assemblés dans le
+cytoplysme
+
+Le *micro-ARN* ne code pas mais sert à réguler l'expression des gènes. Il va se
+placer sur une parte de l'ARN messager avant le "traitement" par le ribosome et
+va désactiver la traduction de cette partie.
+/NB: il existe des versions synthétiques des micro-ARN (silencing ARN en anglais)/
+* Contrôle de l'activié génétique
+** Régulation génétique
+Toutes les cellules contiennent le même code génétique mais les gềnes exprimés ne sont pas les même (myocyte VS cellule rénale). L'"expression" se juge en fonction de la production des protéines (qui sont les "agents" de l'ADN)
+
+- "Promoteur" basal = le point de départ de la transcription. Or ce promoteur est influencé par un autre promoteur, en amont, qui va l'influencer via des protéines. Et va donc influencer la traduction.
+- enhancer
+- insulators : sépare les gènes désactivés des gènes activés
+* Mitose et meiose
+#+attr_html: :width 400 px
+[[./images/pcr.png]]
+* PCR
+#+attr_html: :width 400 px
+[[./images/mitose_meiose.png]]

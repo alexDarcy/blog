@@ -1,0 +1,607 @@
+#+TITLE: Movies
+#+OPTIONS: num:nil
+#+OPTIONS: toc:nil
+#+OPTIONS: prop:t
+* DONE The Lighthouse (2019)
+:PROPERTIES:
+:Director: Robert Eggers
+:Year: 2019
+:Actors: Robert Pattinson, Willem Dafoe, Valeriia Karaman, Logan Hawkes
+:Genre: Drama, Fantasy, Horror, Mystery
+:Plot: Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.
+:Runtime: 109 min
+:rating:   4
+:END:
+* DONE American Animals (2018)
+:PROPERTIES:
+:Director: Bart Layton
+:Year: 2018
+:Actors: Spencer Reinhard, Warren Lipka, Eric Borsuk, Chas Allen
+:Genre: Biography, Crime, Drama, History, Thriller
+:Plot: Four young men mistake their lives for a movie and attempt one of the most audacious heists in U.S. history.
+:Runtime: 116 min
+:rating:   4
+:END:
+* DONE Nice Guys (2000)
+:PROPERTIES:
+:Director: Shawn Hamilton
+:Year: 2000
+:Actors: Reginald James, Avery Kidd Waddell, Grege Morris
+:Genre: N/A
+:Plot: N/A
+:Runtime: N/A
+:END:
+* DONE Mustang (2015)
+:PROPERTIES:
+:Director: Deniz Gamze ErgÃ¼ven
+:Year: 2015
+:Actors: GÃ¼nes Sensoy, Doga Zeynep Doguslu, Tugba Sunguroglu, Elit Iscan
+:Genre: Drama
+:Plot: When five orphan girls are seen innocently playing with boys on a beach, their scandalized conservative guardians confine them while forced marriages are arranged.
+:Runtime: 97 min
+:rating:   4
+:END:
+* TODO Au hasard Balthazard
+* DONE Soul (2020)
+:PROPERTIES:
+:rating:   4
+:Director: Pete Docter, Kemp Powers(co-director)
+:Year: 2020
+:Actors: Jamie Foxx, Tina Fey, Graham Norton, Rachel House
+:Genre: Animation, Adventure, Comedy, Family, Fantasy, Music
+:Plot: After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.
+:Runtime: 100 min
+:END:
+* TODO Burning
+* TODO Contact
+* TODO Dallas Buyers Club
+* TODO Darkest Hour
+* TODO Dragon Ball Super: Broly
+* TODO Dragon Ball Super: Resurrection F
+* TODO Early Spring
+* TODO Fences
+* TODO Hidden Figures
+* DONE High and Low (1963)
+:PROPERTIES:
+:Director: Akira Kurosawa
+:Year: 1963
+:Actors: ToshirÃ´ Mifune, Tatsuya Nakadai, KyÃ´ko Kagawa, Tatsuya Mihashi
+:Genre: Crime, Drama, Mystery, Thriller
+:Plot: An executive of a shoe company becomes a victim of extortion when his chauffeur's son is kidnapped and held for ransom.
+:Runtime: 143 min
+:rating:   4.5
+:END:
+* TODO If Beale Street could talk
+* TODO I, Tonya
+* TODO Little Women
+* TODO Mandy
+* TODO One Child Nation
+* TODO Onward
+* TODO Paterson
+* TODO Paths of glory
+* TODO Room
+* TODO Selma
+* TODO Shaun the Sheep
+* TODO Shoplifters
+* TODO Amour (2012)
+:PROPERTIES:
+:Director: Michael Haneke
+:Year:     2012
+:Actors:   Jean-Louis Trintignant, Emmanuelle Riva, Isabelle Huppert, Alexandre Tharaud
+:Genre:    Drama, Romance
+:Plot:     Georges and Anne are an octogenarian couple. They are cultivated, retired music teachers. Their daughter, also a musician, lives in Britain with her family. One day, Anne has a stroke, and the couple's bond of love is severely tested.
+:Runtime:  127 min
+:END:
+* DONE La pianiste (2001)
+:PROPERTIES:
+:Director: Michael Haneke
+:Year: 2001
+:Actors: Isabelle Huppert, Annie Girardot, BenoÃ®t Magimel, Susanne Lothar
+:Genre: Drama
+:Plot: A young man romantically pursues his masochistic piano teacher.
+:Runtime: 131 min
+:rating:   4
+:END:
+* TODO The Chronicle of Anna Magdalena Bach
+Sa vie en musique
+* TODO The Draughtsman's Contract
+* TODO Nightwatching
+Film sur Rembrant
+* TODO Still Walking
+* TODO Stray Doy
+* TODO The Endless (2017)
+* TODO The Fifth Estate (2013)
+* TODO The Irishman
+* TODO The Jungle Book 2016
+* TODO The lives of other
+* TODO Tokyo Story
+* TODO We, the Animals
+* DONE Planet Earth: A Celebration (2020)
+:PROPERTIES:
+:Director: N/A
+:Year: 2020
+:Actors: David Attenborough
+:Genre: Documentary
+:Plot: TV special features a compilation of sequences from BBC America's 'Planet Earth II' and 'Blue Planet II' with new narration and music.
+:Runtime: N/A
+:rating:   4.5
+:END:
+* DONE Snowpiercer
+:PROPERTIES:
+:Director: Bong Joon Ho
+:Year: 2013
+:Actors: Chris Evans, Kang-ho Song, Ed Harris, John Hurt
+:Genre: Action, Drama, Sci-Fi
+:Plot: In a future where a failed climate-change experiment has killed all life except for the lucky few who boarded the Snowpiercer, a train that travels around the globe, a new class system emerges.
+:Runtime: 126 min
+:rating:   4
+:END:
+* DONE Caché (2005)
+:PROPERTIES:
+:Director: Michael Haneke
+:Year: 2005
+:Actors: Daniel Auteuil, Juliette Binoche, Maurice BÃ©nichou, Annie Girardot
+:Genre: Drama, Mystery, Thriller
+:Plot: A married couple is terrorized by a series of surveillance videotapes left on their front porch.
+:Runtime: 117 min
+:rating:   4
+:END:
+* DONE Enola Holmes (2020)
+:PROPERTIES:
+:Director: Harry Bradbeer
+:Year: 2020
+:Actors: Millie Bobby Brown, Henry Cavill, Sam Claflin, Helena Bonham Carter
+:Genre: Action, Adventure, Crime, Drama, Mystery
+:Plot: When Enola Holmes-Sherlock's teen sister-discovers her mother missing, she sets off to find her, becoming a super-sleuth in her own right as she outwits her famous brother and unravels a dangerous conspiracy around a mysterious young Lord.
+:Runtime: 123 min
+:rating:   3.8
+:END:
+* DONE 101 Dalmatians (1996)
+:PROPERTIES:
+:Director: Stephen Herek
+:Year: 1996
+:Actors: Glenn Close, Jeff Daniels, Joely Richardson, Joan Plowright
+:Genre: Adventure, Comedy, Crime, Family
+:Plot: An evil high-fashion designer plots to steal Dalmatian puppies in order to make an extravagant fur coat, but instead creates an extravagant mess.
+:Runtime: 103 min
+:rating:   3.5
+:END:
+* DONE 12 Angry Men (1957)
+:PROPERTIES:
+:Director: Sidney Lumet
+:Year: 1957
+:Actors: Martin Balsam, John Fiedler, Lee J. Cobb, E.G. Marshall
+:Genre: Drama
+:Plot: A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.
+:Runtime: 96 min
+:rating:   4.5
+:END:
+* DONE 12 Years a Slave (2013)
+:PROPERTIES:
+:Director: Steve McQueen
+:Year: 2013
+:Actors: Chiwetel Ejiofor, Dwight Henry, Dickie Gravois, Bryan Batt
+:Genre: Biography, Drama, History
+:Plot: In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.
+:Runtime: 134 min
+:rating:   4
+:END:
+* DONE 2001: A Space Odyssey
+:PROPERTIES:
+:rating: 4
+:END:
+* DONE 47 Ronin (2013)
+:PROPERTIES:
+:Director: Carl Rinsch
+:Year: 2013
+:Actors: Keanu Reeves, Hiroyuki Sanada, Ko Shibasaki, Tadanobu Asano
+:Genre: Action, Drama, Fantasy
+:Plot: A band of samurai set out to avenge the death and dishonor of their master at the hands of a ruthless shogun.
+:Runtime: 128 min
+:rating:   3.5
+:END:
+* DONE Aliens (1986)
+:PROPERTIES:
+:Director: James Cameron
+:Year: 1986
+:Actors: Sigourney Weaver, Carrie Henn, Michael Biehn, Paul Reiser
+:Genre: Action, Adventure, Sci-Fi, Thriller
+:Plot: Ellen Ripley is rescued by a deep salvage team after being in hypersleep for 57 years. The moon that the Nostromo visited has been colonized, but contact is lost. This time, colonial marines have impressive firepower, but will that be enough?
+:Runtime: 137 min
+:rating:   4.5
+:END:
+* DONE Arrival (2016)
+:PROPERTIES:
+:Director: Denis Villeneuve
+:Year: 2016
+:Actors: Amy Adams, Jeremy Renner, Forest Whitaker, Michael Stuhlbarg
+:Genre: Drama, Mystery, Sci-Fi, Thriller
+:Plot: A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.
+:Runtime: 116 min
+:rating:   4.5
+:END:
+* DONE Captain America: Civil War (2016)
+:PROPERTIES:
+:Director: Anthony Russo, Joe Russo
+:Year: 2016
+:Actors: Chris Evans, Robert Downey Jr., Scarlett Johansson, Sebastian Stan
+:Genre: Action, Adventure, Sci-Fi
+:Plot: Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.
+:Runtime: 147 min
+:rating:   3.5
+:END:
+* DONE Don't Breathe (2016)
+:PROPERTIES:
+:Director: Fede Alvarez
+:Year: 2016
+:Actors: Stephen Lang, Jane Levy, Dylan Minnette, Daniel Zovatto
+:Genre: Crime, Horror, Thriller
+:Plot: Hoping to walk away with a massive fortune, a trio of thieves break into the house of a blind man who isn't as helpless as he seems.
+:Runtime: 88 min
+:rating:   4
+:END:
+* DONE Dragon Ball Z: Battle of Gods (2013)
+:PROPERTIES:
+:Director: Masahiro Hosoda
+:Year: 2013
+:Actors: Masako Nozawa, Hiromi Tsuru, RyÃ´ Horikawa, Masaharu SatÃ´
+:Genre: Animation, Action, Adventure, Comedy, Family, Fantasy, Sci-Fi
+:Plot: The Z-Fighters must contend with Lord Beerus, the God of Destruction, but only a God can fight a God, and none of them are Gods. However with the creation of the Super Saiyan God, will the Z-Fighters be able to defeat Lord Beerus?
+:Runtime: 85 min
+:rating:   3
+:END:
+* DONE Dunkirk (2017)
+:PROPERTIES:
+:Director: Christopher Nolan
+:Year: 2017
+:Actors: Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong
+:Genre: Action, Drama, History, Thriller, War
+:Plot: Allied soldiers from Belgium, the British Empire, and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.
+:Runtime: 106 min
+:rating:   4
+:END:
+* DONE First Blood (1982)
+:PROPERTIES:
+:Director: Ted Kotcheff
+:Year: 1982
+:Actors: Sylvester Stallone, Richard Crenna, Brian Dennehy, Bill McKinney
+:Genre: Action, Adventure
+:Plot: A veteran Green Beret is forced by a cruel Sheriff and his deputies to flee into the mountains and wage an escalating one-man war against his pursuers.
+:Runtime: 93 min
+:rating:   4
+:END:
+* DONE First Man (2018)
+:PROPERTIES:
+:Director: Damien Chazelle
+:Year: 2018
+:Actors: Ryan Gosling, Claire Foy, Jason Clarke, Kyle Chandler
+:Genre: Biography, Drama, History
+:Plot: A look at the life of the astronaut, Neil Armstrong, and the legendary space mission that led him to become the first man to walk on the Moon on July 20, 1969.
+:Runtime: 141 min
+:rating:   4
+:END:
+* DONE Green Room (2015)
+:PROPERTIES:
+:Director: Jeremy Saulnier
+:Year: 2015
+:Actors: Anton Yelchin, Joe Cole, Alia Shawkat, Callum Turner
+:Genre: Horror, Music, Thriller
+:Plot: A punk rock band is forced to fight for survival after witnessing a murder at a neo-Nazi skinhead bar.
+:Runtime: 95 min
+:rating:   4
+:END:
+* DONE Iron Man (2008)
+:PROPERTIES:
+:Director: Jon Favreau
+:Year: 2008
+:Actors: Robert Downey Jr., Terrence Howard, Jeff Bridges, Gwyneth Paltrow
+:Genre: Action, Adventure, Sci-Fi
+:Plot: After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.
+:Runtime: 126 min
+:rating: 3.5
+:END:
+* DONE Iron Man 2 (2010)
+:PROPERTIES:
+:Director: Jon Favreau
+:Year: 2010
+:Actors: Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, Scarlett Johansson
+:Genre: Action, Adventure, Sci-Fi
+:Plot: With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.
+:Runtime: 124 min
+:rating: 3
+:END:
+* DONE Iron Man 3 (2013)
+:PROPERTIES:
+:Director: Shane Black
+:Year: 2013
+:Actors: Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, Guy Pearce
+:Genre: Action, Adventure, Sci-Fi
+:Plot: When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.
+:Runtime: 130 min
+:rating: 3
+:END:
+* DONE La La Land (2016)
+:PROPERTIES:
+:Director: Damien Chazelle
+:Year: 2016
+:Actors: Ryan Gosling, Emma Stone, AmiÃ©e Conn, Terry Walters
+:Genre: Comedy, Drama, Music, Musical, Romance
+:Plot: While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.
+:Runtime: 128 min
+:rating: 4
+:END:
+* DONE Leave No Trace (2018)
+:PROPERTIES:
+:Director: Debra Granik
+:Year: 2018
+:Actors: Thomasin McKenzie, Ben Foster, Jeffery Rifflard, Derek John Drescher
+:Genre: Drama
+:Plot: A father and his thirteen-year-old daughter are living an ideal existence in a vast urban park in Portland, Oregon when a small mistake derails their lives forever.
+:Runtime: 109 min
+:rating:   4
+:END:
+* DONE Logan (2017)
+:PROPERTIES:
+:Director: James Mangold
+:Year: 2017
+:Actors: Hugh Jackman, Patrick Stewart, Dafne Keen, Boyd Holbrook
+:Genre: Action, Drama, Sci-Fi, Thriller
+:Plot: In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.
+:Runtime: 137 min
+:rating: 4
+:END:
+* DONE Looper (2012)
+:PROPERTIES:
+:Director: Rian Johnson
+:Year: 2012
+:Actors: Joseph Gordon-Levitt, Bruce Willis, Emily Blunt, Paul Dano
+:Genre: Action, Adventure, Crime, Drama, Sci-Fi, Thriller
+:Plot: In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to 'close the loop' by sending back Joe's future self for assassination.
+:Runtime: 113 min
+:rating: 4
+:END:
+* DONE Manchester by the Sea (2016)
+:PROPERTIES:
+:Director: Kenneth Lonergan
+:Year: 2016
+:Actors: Casey Affleck, Ben O'Brien, Kyle Chandler, Richard Donelly
+:Genre: Drama
+:Plot: A depressed uncle is asked to take care of his teenage nephew after the boy's father dies.
+:Runtime: 137 min
+:rating: 4
+:END:
+* DONE Mission: Impossible - Fallout (2018)
+:PROPERTIES:
+:Director: Christopher McQuarrie
+:Year: 2018
+:Actors: Tom Cruise, Henry Cavill, Ving Rhames, Simon Pegg
+:Genre: Action, Adventure, Thriller
+:Plot: Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.
+:Runtime: 147 min
+:rating:   4
+:END:
+* DONE Mission: Impossible - Rogue Nation (2015)
+:PROPERTIES:
+:Director: Christopher McQuarrie
+:Year: 2015
+:Actors: Tom Cruise, Jeremy Renner, Simon Pegg, Rebecca Ferguson
+:Genre: Action, Adventure, Thriller
+:Plot: Ethan and his team take on their most impossible mission yet when they have to eradicate an international rogue organization as highly skilled as they are and committed to destroying the IMF.
+:Runtime: 131 min
+:rating:   4
+:END:
+* DONE Moana (2016)
+:PROPERTIES:
+:Director: Ron Clements, John Musker, Don Hall(co-director), Chris Williams(co-director)
+:Year: 2016
+:Actors: Auli'i Cravalho, Dwayne Johnson, Rachel House, Temuera Morrison
+:Genre: Animation, Adventure, Comedy, Family, Fantasy, Musical
+:Plot: In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod to set things right.
+:Runtime: 107 min
+:rating: 4
+:END:
+* DONE Moonlight (2016)
+:PROPERTIES:
+:Director: Barry Jenkins
+:Year: 2016
+:Actors: Mahershala Ali, Shariff Earp, Duan Sanderson, Alex R. Hibbert
+:Genre: Drama
+:Plot: A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.
+:Runtime: 111 min
+:rating: 4
+:END:
+* DONE Mother (2009)
+:PROPERTIES:
+:Director: Bong Joon Ho
+:Year: 2009
+:Actors: Hye-ja Kim, Won Bin, Goo Jin, Je-mun Yun
+:Genre: Crime, Drama, Thriller
+:Plot: A mother desperately searches for the killer who framed her son for a girl's horrific murder.
+:Runtime: 129 min
+:rating: 4
+:END:
+* DONE Portrait d'une jeune fille en feu
+:PROPERTIES:
+:Director: Céline Siamma
+:Year: 2019
+:Actors: Noémie Merlant, Adèle Haenel
+:Genre: Romance
+:Runtime: 120min
+:rating:   4.5
+:END:
+* DONE Rise of the Planet of the Apes (2011)
+:PROPERTIES:
+:Director: Rupert Wyatt
+:Year: 2011
+:Actors: Andy Serkis, Karin Konoval, Terry Notary, Richard Ridings
+:Genre: Action, Drama, Sci-Fi, Thriller
+:Plot: A substance designed to help the brain repair itself gives advanced intelligence to a chimpanzee who leads an ape uprising.
+:Runtime: 105 min
+:rating:   3.5
+:END:
+* DONE Roma (2018)
+:PROPERTIES:
+:Director: Alfonso CuarÃ³n
+:Year: 2018
+:Actors: Yalitza Aparicio, Marina de Tavira, Diego Cortina Autrey, Carlos Peralta
+:Genre: Drama
+:Plot: A year in the life of a middle-class family's maid in Mexico City in the early 1970s.
+:Runtime: 135 min
+:rating:   4.5
+:END:
+* DONE Sorry to Bother You (2018)
+:PROPERTIES:
+:Director: Boots Riley
+:Year: 2018
+:Actors: LaKeith Stanfield, Tessa Thompson, Jermaine Fowler, Omari Hardwick
+:Genre: Comedy, Fantasy, Sci-Fi
+:Plot: In an alternate present-day version of Oakland, telemarketer Cassius Green discovers a magical key to professional success, propelling him into a universe of greed.
+:Runtime: 112 min
+:rating:   4
+:END:
+* DONE Spirited Away (2001)
+:PROPERTIES:
+:Director: Hayao Miyazaki
+:Year: 2001
+:Actors: Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takashi NaitÃ´
+:Genre: Animation, Adventure, Family, Fantasy, Mystery
+:Plot: During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.
+:Runtime: 125 min
+:rating:   4.5
+:END:
+* DONE The Death of Stalin (2017)
+:PROPERTIES:
+:Director: Armando Iannucci
+:Year: 2017
+:Actors: Olga Kurylenko, Tom Brooke, Paddy Considine, Justin Edwards
+:Genre: Comedy, Drama, History
+:Plot: Moscow, 1953. After being in power for nearly thirty years, Soviet dictator Joseph Vissarionovich Stalin (Adrian McLoughlin) takes ill and quickly dies. Now the members of the Council of Ministers scramble for power.
+:Runtime: 107 min
+:rating:   4.5
+:END:
+* DONE The Endless Trench (2019)
+:PROPERTIES:
+:Director: Aitor Arregi, Jon GaraÃ±o, Jose Mari Goenaga
+:Year: 2019
+:Actors: Antonio de la Torre, BelÃ©n Cuesta, Vicente Vergara, JosÃ© Manuel Poga
+:Genre: Drama
+:Plot: 1936. A country taken by the fascism. A husband marked for the killing. A wife determined to all for saving him. An endless incarceration in his own home.
+:Runtime: 147 min
+:rating:   4
+:END:
+* DONE The Handmaiden (2016)
+:PROPERTIES:
+:Director: Chan-wook Park
+:Year: 2016
+:Actors: Min-hee Kim, Tae-ri Kim, Jung-woo Ha, Jin-woong Cho
+:Genre: Drama, Romance, Thriller
+:Plot: A woman is hired as a handmaiden to a Japanese heiress, but secretly she is involved in a plot to defraud her.
+:Runtime: 145 min
+:rating:   4
+:END:
+* DONE The Hunt (2012)
+:PROPERTIES:
+:Director: Thomas Vinterberg
+:Year: 2012
+:Actors: Mads Mikkelsen, Thomas Bo Larsen, Annika Wedderkopp, Lasse FogelstrÃ¸m
+:Genre: Drama
+:Plot: A teacher lives a lonely life, all the while struggling over his son's custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie.
+:Runtime: 115 min
+:rating:   4
+:END:
+* DONE The Shape of Water (2017)
+:PROPERTIES:
+:Director: Guillermo del Toro
+:Year: 2017
+:Actors: Sally Hawkins, Michael Shannon, Richard Jenkins, Octavia Spencer
+:Genre: Adventure, Drama, Fantasy, Romance, Thriller
+:Plot: At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.
+:Runtime: 123 min
+:rating: 4.5
+:END:
+* DONE The Shining (1980)
+:PROPERTIES:
+:Director: Stanley Kubrick
+:Year: 1980
+:Actors: Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers
+:Genre: Drama, Horror
+:Plot: A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.
+:Runtime: 146 min
+:rating:   4
+:END:
+* DONE The Witch (2015)
+:PROPERTIES:
+:Director: Robert Eggers
+:Year: 2015
+:Actors: Anya Taylor-Joy, Ralph Ineson, Kate Dickie, Harvey Scrimshaw
+:Genre: Drama, Horror, Mystery
+:Plot: A family in 1630s New England is torn apart by the forces of witchcraft, black magic, and possession.
+:Runtime: 92 min
+:rating:   4.5
+:END:
+* DONE Three Billboards Outside Ebbing, Missouri (2017)
+:PROPERTIES:
+:Director: Martin McDonagh
+:Year: 2017
+:Actors: Frances McDormand, Caleb Landry Jones, Kerry Condon, Sam Rockwell
+:Genre: Comedy, Crime, Drama
+:Plot: A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.
+:Runtime: 115 min
+:rating:   4
+:END:
+* DONE Uncut Gems (2019)
+:PROPERTIES:
+:rating:   4
+:END:
+:PROPERTIES:
+:Director: Benny Safdie, Josh Safdie
+:Year: 2019
+:Actors: Mesfin Lamengo, Sun Zhi Hua-Hilton, Liang Wei-Hui-Duncan, Sunny Wu Jin Zahao
+:Genre: Crime, Drama, Thriller
+:Plot: With his debts mounting and angry collectors closing in, a fast-talking New York City jeweler risks everything in hope of staying afloat and alive.
+:Runtime: 135 min
+* DONE When Marnie was here
+:PROPERTIES:
+:rating:   4
+:END:
+* DONE Widows (2018)
+:PROPERTIES:
+:Director: Steve McQueen
+:Year: 2018
+:Actors: Viola Davis, Liam Neeson, Jon Bernthal, Manuel Garcia-Rulfo
+:Genre: Crime, Drama, Thriller
+:Plot: Four women with nothing in common except a debt left behind by their dead husbands' criminal activities take fate into their own hands and conspire to forge a future on their own terms.
+:Runtime: 129 min
+:rating:   4
+:END:
+* DONE Wonder Woman (2017)
+:PROPERTIES:
+:Director: Patty Jenkins
+:Year: 2017
+:Actors: Gal Gadot, Chris Pine, Connie Nielsen, Robin Wright
+:Genre: Action, Adventure, Fantasy, Sci-Fi, War
+:Plot: When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.
+:Runtime: 141 min
+:rating:   4
+:END:
+* DONE Zero Dark Thirty (2012)
+:PROPERTIES:
+:Director: Kathryn Bigelow
+:Year: 2012
+:Actors: Jason Clarke, Reda Kateb, Jessica Chastain, Kyle Chandler
+:Genre: Drama, Thriller
+:Plot: A chronicle of the decade-long hunt for al-Qaeda terrorist leader Osama bin Laden after the September 2001 attacks, and his death at the hands of the Navy S.E.A.L.s Team 6 in May 2011.
+:Runtime: 157 min
+:rating:   4
+:END:
+:END:c
+* DONE Babel (2006)
+:PROPERTIES:
+:Director: Alejandro G. IÃ±Ã¡rritu
+:Year: 2006
+:Actors: Brad Pitt, Cate Blanchett, Mohamed Akhzam, Peter Wight
+:Genre: Drama
+:Plot: Tragedy strikes a married couple on vacation in the Moroccan desert, touching off an interlocking story involving four different families.
+:Runtime: 143 min
+:rating:   3.5
+:END:

@@ -1,0 +1,29 @@
+#+TITLE: Tv_shows
+
+* DONE 24
+* KILL Big Bang Theory
+** DONE Season 1
+* KILL Breaking Bad
+** DONE Season 1
+** DONE Season 2
+* DONE Deadwood
+* KILL Dexter
+** DONE Season 1
+* Elementary
+** DONE Season 1
+** DONE Season 2
+** DONE Season 3
+* Good Eats
+** DONE Season 1
+** DONE Season 2
+* KILL Lost
+Arrêt aux alentour de la saison 3
+* DONE Mythbusters
+* Planet Earth
+** Season 1
+Episode 1
+* Savage builds
+** DONE Season 1
+* DONE Rome
+* DONE Sherlock (2010)
+* DONE Weeds

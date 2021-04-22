@@ -1,0 +1,240 @@
+#+title: freebsd notes
+* Accéder à un dossier partagé depuis Windows
+Impossible d'utiliser mount_smbfs mais
+smbclient //DESKTOP-G1M6J9S/test
+
+Pour envoyer des fichiers :
+smbclient //DESKTOP-G1M6J9S/test -c "prompt off; mput *"
+
+TODO: comment envoyer un dossier complet ??
+
+On récupérer le nom du server (netbios) avec nbtscan IP
+* Scrub zfs
+Dans /etc/defaults/periodic, le faire tous les 35 jours avec:
+
+#+begin_src
+daily_scrub_zfs_enable="NO"
+daily_scrub_zfs_pools=""            # empty string selects all pools
+daily_scrub_zfs_default_threshold="35"
+#+end_src
+* Emacs nativecomp
+Installer texinfo
+Editer le makefile de lang/gcc10:
+Ajouter ".jit" :
+  LANGUAGES:=	c,c++,objc,fortran,jit
+Ajouter --enable-host-shared à CONFIGURE_ARGS
+Puis make install
+Copier à la main libgccjit.h
+sudo cp work/gcc-10.2.0/gcc/jit/libgccjit.h /usr/local/include/
+
+Compiler emacs
+git clone git://git.savannah.gnu.org/emacs.git -b feature/native-comp
+cd emacs
+./autogen.sh
+
+
+# Note: set -x CC=gcc10 ne fonctionne pas, on doit passer en root et faire
+CC=gcc10 ./configure --with-native-compilation
+make -j$(nproc)
+make install
+
+Enfin, éviter la mise à jour de GCC10 avec pkg lock gcc10
+* Mise à jour -CURRENT sur rasbperry pi 4
+** From advice on discord #embedded)
+The first time:
+i use git pull --ff-only in /usr/src
+then the ususl make buildworld & friends
+To set up src, in /usr do git clone https://git/freebsd.org/src.git
+cd /usr/src
+git checkout main
+
+subsequently, cd /usr/src && git pull --ff-only
+Then make bulidword, buildkernel as in https://docs.freebsd.org/en/books/handbook/cutting-edge/#makeworld
+
+See also: https://gist.github.com/grahamperrin/e7a266154793d0e039f9a7d52396f8d7#one-off-2021-03-10
+** HOLD Trying to cross compile
+*** Procedure
+According to https://forums.freebsd.org/threads/trying-to-perform-a-cross-compile-to-upgrade-in-a-raspberry-4-b.77430/
+
+Pour accéder au pi en local, sshfs:
+sudo pkg install fusefs-sshfs
+kldload fusefs
+doas -u root sysctl vfs.usermount=1
+Pour plus tard :
+- mettre fuse_load="YES" dans /boot/loader.conf
+- mettre vfs.usermount=1  dans /etc/sysctl.conf
+
+sshfs -o idmap=user -p 666 alex@192.168.1.78: /raspberry
+
+Récupérer src
+cd ~/softwares/raspberry-update/
+git clone -o freebsd -b main https://git.freebsd.org/src.git src
+
+Preparation
+mkdir obj
+setenv MAKEOBJDIRPREFIX ~/softwares/raspberry-update/obj/
+
+Build world:
+cd src/
+time make -j 4 TARGET=arm64 TARGET_ARCH=aarch64 buildworld
+=> 2h30
+time make -j 4 TARGET=arm64 TARGET_ARCH=aarch64 buildkernel KERNCONF=GENERIC-NODEBUG
+=> 10min (!)
+
+On a besoin de lancer les commandes comme root donc on authorise le root login dans /etc/ssh/sshd_config et on re-mount
+sudo umount /raspberry
+sshfs -o idmap=user -p 666 root@192.168.1.78:/ /raspberry
+Le "/" est important, sinon on va installer dans /root ...
+On fait une sauvegarde du kernel avant !!!
+ssh raspberry
+sudo cp /book/kernel /book/kernel.save
+
+Go:
+make TARGET_ARCH=aarch64 DESTDIR=/raspberry/ KERNCONF=GENERIC-NODEBUG  installkernel
+
+On redémarre et On croise les doigts
+
+Avant:
+#+begin_src
+uname -a
+FreeBSD generic 14.0-CURRENT FreeBSD 14.0-CURRENT #0 main-n245255-483c6da3a20: Thu Mar  4 08:04:51 UTC 2021     root@releng1.nyi.freebsd.org:/usr/obj/usr/src/arm64.aarch64/sys/GENERIC  arm64
+#+end_src
+*** KILL Latest 1663120ae452fe3783c74ce40522caf0e2327608 fails
+*** KILL Version actuelle sans debug 483c6da3a20
+(avec les optimisations de [[Utiliser la config de f451]]
+#+begin_src shell
+git clone -o freebsd -b main https://git.freebsd.org/src.git src
+git checkout -b 483c6da3a20
+mkdir obj
+setenv MAKEOBJDIRPREFIX ~/softwares/raspberry-update/obj/
+time make -j 4 TARGET=arm64 TARGET_ARCH=aarch64 buildkernel KERNCONF=GENERIC-NODEBUG
+#+end_src
+=> 10min
+
+#+begin_src shell
+sshfs -o idmap=user -p 666 root@192.168.1.78:/ /raspberry
+#+end_src
+On backup /book/kernel avant puis
+#+begin_src shell
+make TARGET_ARCH=aarch64 DESTDIR=/raspberry/ KERNCONF=GENERIC-NODEBUG  installkernel
+#+end_src
+*** TODO Causes d'echec :
+- Impossible de faire buildkernel sans buildworld ?
+** TODO Faire son propre serveur freebsd-update ??server
+Voir si c'est possible
+https://docs.freebsd.org/en/articles/freebsd-update-server/
+
+** TODO Compilation sur le pi
+Selon les conseils de f451 sur discord (4-5 h de compilation au total)
+*** TODO Utiliser un disque en usb3 plutôt que le cache => y mettre /usr/src et /usr/obj
+*** Workflow de f451
+make -j10 cleanworld && make -j10 cleandir && make -j10 clean && make -j6 buildworld && make -j6 buildkernel && make installkernel && make installworld && mergemaster -Ui
+(merge all the changes)
+then
+make check-old
+yes | make delete-old
+yes | make delete-old-libs
+reboot
+*** DONE Utiliser la config de f451
+**** DONE /etc/src.conf
+https://user.fm/files/v2-68d74fd0b799cc134536c72c766466bd/etc.src.conf.txt
+#+begin_src
+KERNCONF=[redacted]
+WITHOUT_DEBUG_FILES=
+WITH_CCACHE_BUILD=
+WITH_OPENSSL_KTLS=
+
+WITHOUT_APM=
+WITHOUT_ASSERT_DEBUG=
+WITHOUT_BLUETOOTH=
+WITHOUT_CUSE=
+WITHOUT_DICT=
+WITHOUT_DMAGENT=
+WITHOUT_FLOPPY=
+WITHOUT_FREEBSD_UPDATE=
+WITHOUT_HAST=
+WITHOUT_IPFILTER=
+WITHOUT_IPFW=
+WITHOUT_ISCSI=
+WITHOUT_KERNEL_SYMBOLS=
+WITHOUT_LLVM_TARGET_ALL=
+WITH_LLVM_TARGET_AARCH64=
+WITH_LLVM_TARGET_ARM=
+WITHOUT_LPR=
+WITHOUT_NDIS=
+WITHOUT_NETGRAPH=
+WITHOUT_NIS=
+WITHOUT_OFED=
+WITHOUT_PORTSNAP=
+WITHOUT_PPP=
+WITHOUT_RADIUS_SUPPORT=
+WITH_RATELIMIT=
+WITHOUT_RBOOTD=
+WITHOUT_ROUTED=
+WITH_SORT_THREADS=
+WITH_SVN=
+WITHOUT_TALK=
+WITHOUT_TESTS=
+WITHOUT_TFTP=
+WITHOUT_UNBOUND=
+#
+CFLAGS.clang+= -mcpu=cortex-a72
+CXXFLAGS.clang+= -mcpu=cortex-a72
+CPPFLAGS.clang+= -mcpu=cortex-a72
+ACFLAGS.arm64cpuid.S+= -mcpu=cortex-a72+crypto
+ACFLAGS.aesv8-armx.S+= -mcpu=cortex-a72+crypto
+ACFLAGS.ghashv8-armx.S+= -mcpu=cortex-a72+crypto
+#+end_src
+
+**** KILL /boot/msdos/config.txt (si ventilation !!)
+https://user.fm/files/v2-a5fdc9db09f97646da0a29e86e7615c2/config.txt
+#+begin_src
+arm_control=0x200
+dtparam=audio=on,i2c_arm=on,spi=on
+dtoverlay=mmc
+dtoverlay=pwm
+dtoverlay=disable-bt
+device_tree_address=0x4000
+kernel=u-boot.bin
+over_voltage=6
+arm_freq=2000
+sdram_freq_min=3200
+#+end_src
+**** DONE /etc/rc.conf
+powerd_enable="YES"
+powerd_flags="-r 1"
+**** DONE /etc/make.conf
+#+begin_src
+MAKE_JOBS_NUMBER=6
+WITH_CCACHE_BUILD=YES
+CCACHE_DIR=/var/cache/ccache
+WITH_MANCOMPRESS=YES
+OPTIONS_UNSET+=DEBUG
+OPTIONS_SET+=OPTIMIZED_CFLAGS
+OPTIONS_SET+=DOCS EXAMPLES MANPAGES
+#+end_src
+**** DONE Changer la taille de /tmp
+En tant que root !!
+unmount /tmp
+vi /etc/fstab
+Mettre 500M au lieu de 50M
+*** TODO Vérifier refroidessement
+*** DONE Installer ccache-static
+*** TODO MAJ
+Attention, ne pas utiliser -j6 sinon on s'expose à des erreurs "out of swap space". La bonne commande est:
+#+begin_src
+make -j3 buildworld && make -j3 buildkernel KERNCONF=GENERIC-NODEBUG
+#+end_src
+Temps de compilation
+- buildworld : 10h (2h30 avec 6 threads puis échec + 7.6h)
+- buildkernel : 1H
+Devrait diminuer pour les prochaines compilations car le kernel sera NODEBUG
+
+Echec avec just installkernel
+
+On récupéère les dernières sources et on recommence
+#+begin_src
+cd /usr/src && git pull --ff-only && make -j10 cleanworld && make -j10 cleandir && make -j10 clean
+git checkout main
+ make -j4 buildkernel KERNCONF=GENERIC-NODEBUG
+#+end_src

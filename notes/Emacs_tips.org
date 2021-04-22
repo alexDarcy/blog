@@ -1,0 +1,185 @@
+#+TITLE: Emacs_tips
+
+* TODO With Doom emacs
+Search and edit with ripgrep directly in the result !
+1. search with ripgrep, for example with `SPC s p`
+2. Put the results in a buffer with `C-c C-o` (`ivy-occur`)
+3. Edit the buffer with `i` (`ivy-wgrep-change-to-wgrep`)
+* TODO Calc
+* TODO Mail with mbsync :emacs:blog:
+! Got several "duplicate ID" after using a systemd service.
+It's due to moving files (my version of archiving) and the naming scheme.
+We must use the "alternate" naming scheme to avoid duplicates.
+Seems to work
+NB: we should explain with gmail
+
+Mbsync is really faster when fetching mails the first time.Afterwards, I'm not
+sure the gain is worth it
+* TODO Gnus
+** TODO Global
+A bit slow with imap
+Offline usage : notmuch does not work ... See https://ding.gnus.narkive.com/kJo5yKca/nnir-and-notmuch
+We have to use mairix
+
+But works well with news !
+https://emacs.stackexchange.com/questions/38739/how-can-i-subscribe-to-se-rss-feed-using-gnus
+In the end, slower than notmuch inside emacs (start + search) but I prefer it to
+read news.
+Trying it at the moment
+** Mairix config
+Mairixrc
+#+BEGIN_SRC
+  base=~/Mail/
+  maildir=gmail/inbox:gmail/archive:free/inbox:free/archive:archive
+  mformat=maildir
+  database=~/.mairix/database
+  mfolder=~/.mairix/mfolder
+#+END_SRC
+Warning: not recursive !
+
+Follow the manual instruction. Important: do not answer "no" for hidden folder
+(maildir++) !
+#+BEGIN_SRC
+(setq user-mail-address#"XX"
+      user-full-name#"Alexis Praga")
+
+(setq gnus-select-method '(nnnil ""))
+(setq gnus-secondary-select-methods
+      ;; Reading FSS feeds (not all of them works)
+      '((nntp "news.gwene.org")
+;; Too slow, we prefer notmuch
+         (nnmaildir "free"
+                    (directory "~/Mail/free/"))
+         (nnmaildir "gmail"
+                    (directory "~/Mail/gmail/")))))
+
+
+;; Does not work
+;;(setq nnir-search-engine 'notmuch)
+;; This start a notmuch request but with the wrong arguments...
+;; "(push (cons 'nnmaildir 'notmuch) nnir-method-default-engines)
+;;
+(setq message-send-mail-function 'message-send-mail-with-sendmail)
+  (setq sendmail-program "/usr/bin/msmtp")
+
+(setq mm-text-html-renderer 'gnus-w3m)
+(setq gnus-inhibit-images nil)
+#+END_SRC
+** What about sent mails
+Initially, I wanted a copy in a maildir folder. It turns out it's already on
+Gmail server in both all mail and sent mail.
+I'm not sure anymore to need a specific "sent" folder for gmail.
+So I only sync the "sent" folder on my Free account
+
+* TODO Post config en jap sur emacs :blog:
+Archlinux :
+1. installer le package "mozc" depuis emacs
+   installer emacs-mozc aussi en activant le flag
+   'emacs_mozc = "yes"' (sinon le "helper" n'est pas trouvé)
+
+Update : mozc is too slow in doom emacs => activate japanese instead
+* TODO Torrents with emacs
+** What works
+Nginx + URL
+#+BEGIN_SRC
+    server {
+        listen       8000;
+        server_name  localhost;
+
+        access_log  /var/log/nginx/rtorrent_access.log;
+        error_log  /var/log/nginx/rtorrent_error.log;
+
+        location /RPC2 {
+            root /torrents;
+            # auth_basic "Restricted";
+            # auth_basic_user_file /etc/nginx/.htpasswd;
+            scgi_pass   127.0.0.1:5000;
+            # scgi_pass   unix:/torrents/rtorrent.sock;
+            include     scgi_params;
+        }
+#+END_SRC
+And for rtorrent
+#+BEGIN_SRC
+network.scgi.open_port = 127.0.0.1:5000
+#+END_SRC
+
+And in emacs
+#+BEGIN_SRC
+(setq mentor-rtorrent-external-rpc "http://127.0.0.1:8000/RPC2")
+#+END_SRC
+
+** More secure : with a socket
+We create a group to be able to write the socket
+#+BEGIN_SRC
+sudo groupadd rtorrent-socket
+sudo gpasswd -a alex rtorrent-socket
+sudo gpasswd -a nginx rtorrent-socket
+sudo chown -R nginx:rtorrent-socket /torrents/
+sudo chmod 775 -R /torrents/
+su - alex # To be able to start
+#+END_SRC
+
+Rtorrent : hack we need to change both ownership and permissions + daemon mode
+#+BEGIN_SRC
+# For use with emacs with the mentor package
+network.scgi.open_local = /torrents/rtorrent.sock
+
+# Change ownership to propergroup
+schedule2 = scgi_permission1, 0, 0, "execute.nothrow=chown,alex:rtorrent-socket,/torrents/rtorrent.sock"
+# Make SCGI socket group-writable and secure
+schedule2 = scgi_permission2, 2, 0, "execute.nothrow=chmod,770,/torrents/rtorrent.sock"
+
+system.daemon.set = true
+#+END_SRC
+
+Emacs
+#+BEGIN_SRC
+(setq mentor-rtorrent-external-rpc "/torrents/rtorrent.sock")
+#+END_SRC
+
+Update : it seems to work without nginx with a socket ??
+* TODO Org mode
+** Export vers beamer : pour gérer des tableaux de grande taille :
+
+#+LaTeX: \resizebox{\textwidth}{!}{
+#+ATTR_LATEX: :center nil
+| a | b |
+|---+---|
+| a | b |
+#+LaTeX: }
+
+** Utiliser lulatex
+;; lualatex preview
+(setq org-latex-pdf-process
+  '("lualatex -shell-escape -interaction nonstopmode %f"
+    "lualatex -shell-escape -interaction nonstopmode %f"))
+(Attention à l'ordrer)
+* TODO Misc
+yas-describe-tables to see snippets
+* TODO Presentatin
+** org mode -> beamer
+** org-mode -> reveal.js
+#+begin_src
+REVEAL_TRANS
+#+OPTIONS: toc:nil
+#+OPTIONS: reveal_width:2100 reveal_height:1000
+#+REVEAL_TRANS: nil
+\****** TODO DP 1
+\******  DP1
+\******  homme de 54 ans, tabagique au long cours et hypertendu depuis 12 ans (traitement par inhibiteur calcique), consulte
+\****** n médecin traitant pour un épisode isolé d'hématurie macroscopique totale, sans caillot. Il a pour autre antécédent une
+\****** pendicectomie dans l'enfance. L'hémogramme est le suivant : Hb 10,4 g/dL (VGM 78 µm3), GB 8 G/L, plaquettes 247
+#+end_src
+
+Puis SPC m e v b
+* TODO Tramp
+SSH + sudo :
+ /ssh:you@remotehost|doas::
+ ou
+ /ssh:you@remotehost|sudo::
+
+Sauvegarder session :
+
+https://emacs.stackexchange.com/questions/26560/bookmarking-remote-directories-trampsudo
+(add-to-list 'tramp-default-proxies-alist
+             '("\\`mydomain\\'" "\\`root\\'" "/sshx:user@%h:"))

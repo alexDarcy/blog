@@ -1,0 +1,55 @@
+---
+layout: post
+title: Brother HL110 driver for FreeBSD 
+category: computing
+comments: false
+---
+
+How to install the Linux driver for FreeBSD 11.x.
+
+<!--more-->
+
+**Update 2021/01/25** thanks to the [FreeBSD forums](https://forums.freebsd.org/threads/port-for-brother-printer-drivers.78393/), I found out my printer can be used directly with the print/laser port.
+Instructions below are for reference (or other printers).
+
+*Disclaimer* : I followed the instructions from [this site](http://www.reynoldsnet.org/freebsd_brother_cdw.html). This post is mostly a
+copy-paste adapted to my printer.
+
+## Requirements
+Install `rpm2cpio`, `pdf2ps` and `a2ps`.
+
+Then configure CUPS [as in the FreeBSD
+manual](https://www.freebsd.org/doc/en_US.ISO8859-1/articles/cups/printing-cups-configuring-server.html).
+
+## Install
+Then it's time to port the driver. Download the 2 drivers from the Brother website (for CUPS and lpr) then, as root, run:
+
+```bash
+mkdir /usr/local/opt
+mv hl1110lpr-3.0.1-1.i386.rpm /usr/local/opt
+mv hl1110cupswrapper-3.0.1-1.i386.rpm /usr/local/opt
+cd /usr/local/opt
+# Extract the RPM
+rpm2cpio hl1110lpr-3.0.1-1.i386.rpm | cpio -idmv
+rpm2cpio hl1110cupswrapper-3.0.1-1.i386.rpm | cpio -idmv
+# Move the directory in the proper location
+mv opt/brother .
+rm -rf opt
+```
+Then replace `/opt` by `/usr/local/opt` in 
+
+- `./brother/Printers/HL1110/lpd/filter_HL1110`
+- `./brother/Printers/HL1110/cupswrapper/brother_lpdwrapper_HL1110`
+
+Note that `brother_lpdwrapper_HL1110` is a shell script serving as an installation
+executable. 
+
+Copy 2 files for CUPS :
+```bash
+cp ./brother/Printers/HL1110/cupswrapper/brother_lpdwrapper_HL1110 /usr/local/libexec/cups/filter/
+cp ./brother/Printers/HL1110/cupswrapper/brother-HL1110-cups-en.ppd /usr/local/share/cups/model/Brother 
+```
+
+Then go to `http://localhost:631`, add a new Printer and chose "Brother HL-1110"
+in the driver list. It should work. Otherwise, look at `/var/log/cups/error_log`
+and try to see if there is a mistake in `brother_lpdwrapper_HL1110`.

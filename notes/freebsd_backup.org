@@ -1,0 +1,317 @@
+#+TITLE: Freebsd Backup
+* Bepo
+Récupérer le fichier
+http://download.tuxfamily.org/dvorak/devel/fr-dvorak-bepo-kbdmap-1.0rc2.tgz
+#+begin_src shell
+mv /home/alex/Downloads/fr-dvorak-bepo-kbdmap-1.0rc2/fr-dvorak-bepo.kbd //usr/share/vt/keymaps/fr.dvorak.bepo
+#+end_src
+* rc.conf
+/etc/rc.conf
+#+begin_src shell
+hostname="ecchi"
+keymap="fr.dvorak.bepo" # Uses vt so in /usr/share/vt/keymaps
+ifconfig_re0="DHCP"
+# Static IP to be connectable in MAM
+#ifconfig_re0="inet 192.168.1.90 netmask 255.255.255.0"
+#defaultrouter="192.168.1.254" # found by the first list on netstat -r
+sshd_enable="YES"
+ntpd_enable="YES"
+powerd_enable="YES"
+# Dbus
+sysrc_dbus_enable="YES"
+hald_enable="YES" # For kobo
+# Set dumpdev to "AUTO" to enable crash dumps, "NO" to disable
+dumpdev="AUTO"
+zfs_enable="YES"
+kld_list="nvidia-modeset"
+# Cups
+cupsd_enable="YES"
+devfs_system_ruleset="system"
+musicpd_enable="YES"
+# Usenet
+nzbget_enable="YES"
+nzbhydra2_enable="YES"
+# NFS for Kodi
+# Order is important : rpcbind first, then nfs and mountd
+rpcbind_enable="YES"
+nfs_server_enable="YES"
+weak_mountd_authentication="yes"
+mountd_enable="YES"
+nfs_client_enable="YES"
+dbus_enable="YES"
+dbus_enable="YES"
+fuse_load="YES"
+#+end_src
+* /etc/sysctl.conf
+#+begin_src
+# Allow users to mount
+vfs.usermount=1
+#+end_src
+* /boot/loader.conf
+kern.geom.label.gptid.enable="0"
+opensolaris_load="YES"
+openzfs_load="YES"
+vboxdrv_load="YES"
+# Don't wait for USB (sometimes it hangs). Useful for me
+hw.usb.no_boot_wait=1
+* Brother printer
+/etc/devfs.rules :
+#+begin_src
+[system=10]
+add path 'unlpt*' mode 0660 group cups
+add path 'ulpt*' mode 0660 group cups
+add path 'lpt*' mode 0660 group cups
+add path 'usb/1.3.0' mode 0660 group cups
+#+end_src
+Installer brlaser et cups-filter
+* ZFS notes
+OpenZFS est utilisation avec 12.2 mais ne pas mettre à jour le root avant la version 13 !
+Par défaut, les autres pool ne sont pas importées donc il faut rajouter zfs import -a dans /etc/rc.d/zfs.
+* /etc/fstab
+#+begin_src shell
+# Device		Mountpoint	             FStype	Options		Dump	Pass#
+/dev/ada0p2		none	             swap	sw		0	    0
+# Linux
+/dev/ada3p2         /linux-root          ext2fs  rw      0       0
+/dev/ada3p4         /linux               ext2fs  rw      0       0
+# For OpenJDK
+fdesc               /dev/fd              fdescfs rw      0       0
+proc                /proc                procfs  rw      0       0
+# Linux emulation
+linproc             /compat/linux/proc   linprocfs  rw, late      0       0
+linsys              /compat/linux/sys    linsysfs rw,late     0       0
+tmpfs               /compat/linux/dev/shm  tmpfs   rw,mode=1777    0       0
+# Ubuntu jail
+devfs           /compat/ubuntu/dev      devfs           rw,late                      0       0
+tmpfs           /compat/ubuntu/dev/shm  tmpfs           rw,late,size=1g,mode=1777    0       0
+fdescfs         /compat/ubuntu/dev/fd   fdescfs         rw,late,linrdlnk             0       0
+linprocfs       /compat/ubuntu/proc     linprocfs       rw,late                      0       0
+linsysfs        /compat/ubuntu/sys      linsysfs        rw,late                      0       0
+/tmp            /compat/ubuntu/tmp      nullfs          rw,late                      0       0
+/home           /compat/ubuntu/home     nullfs          rw,late                      0       0
+#+end_src
+* xorg (nvidia)
+/usr/local/etc/X11/xorg.conf.d/driver-nvidia.conf
+#+begin_src shell
+Section "Device"
+	Identifier "NVIDIA card"
+	Driver "nvidia"
+EndSection
+#+end_src
+
+* nzbget
+Cf backups nzbget.conf
+* nzbhydra
+Copying indexers must be done by hand...
+Cf backups /usr/local/nzbhydra2/nzbhydra.yml
+* crontab
+#+begin_src shell
+MAILTO=""
+,*/5 *   *   *   *   /bin/sh /usr/home/alex/scripts/mbsync_notmuch.sh
+0   */3 *   *   *   /usr/local/bin/fish /usr/home/alex/backups/backup.fish
+0 * * * * DISPLAY=:0 $HOME/projects/simple-dwall/simple-dwall.fish
+@reboot /usr/local/bin/tmux new-session -d -s rtorrent '/usr/local/bin/rtorrent'
+@reboot /usr/local/bin/emacs --daemon
+
+#+end_src
+* backup
+#+begin_src shell
+#!/usr/local/bin/fish
+set root "/home/alex/backups"
+
+# Google drive and mega can be managed with rclone
+rclone -L sync --exclude 'Coopétition/' --drive-import-formats .xlsx $root/google/  google:
+rclone -L sync $root/google backblaze:unixStorage
+rclone -L sync $root/hubic hubic:
+rclone -L sync $root/hubic mega:
+# Raspberry
+rclone sync pi:/media/books/ /media/books/
+rclone sync pi:Downloads/torrents/ ~/Downloads/torrents-mam/
+rclone sync pi:Downloads/session/ ~/Downloads/session-mam/
+# Passphrase
+/usr/local/bin/pass git push
+
+#+end_src
+* Sci-hub et DNS resolv.conf
+** Sous linux
+On edite directement /etc/resolv.conf
+# OpenDNS pour sci-hub
+#nameserver 208.67.222.222
+#nameserver 208.67.220.220
+
+# Google dns
+nameserver 8.8.8.8
+nameserver  8.8.4.4
+
+# Bouygues
+#nameserver 194.158.122.10
+#nameserver 194.158.122.15
+
+# Pour accéder à la box bouygues !
+#nameserver 192.168.1.254
+** Freebsd
+/etc/resolv.conf est réécrit par dhclient.
+On met les nouveau DNS dans /etc/resolvconf.conf. Pour scihub :
+#+begin_src
+name_servers=208.67.222.222
+name_servers=208.67.220.220
+#+end_src
+Puis
+#+begin_src shell
+resolvconf -u
+#+end_src
+* musicpd
+Changer le chemin en /data/music dans /usr/local/etc/musicpd.conf
+Puis
+
+#+begin_src shell
+mkdir /var/mpd/.mpd/playlists
+touch /var/mpd/.mpd/database
+chown -R mpd /var/mpd/
+service musicpd onestart
+#+end_src
+* KILL Windows as guest
+/Plante régulièrement => virtualbox plutôt/
+Guide https://github.com/churchers/vm-bhyve/wiki/Running-Windows
+https://srobb.net/vm-bhyve.html
+
+#+begin_src
+sudo pkg install vm-bhyve
+sudo pkg install bhyve-firmware
+sudo zfs create zroot/windows
+#+end_src
+Ajouter à /etc/rc.conf
+vm_enable="YES"
+vm_dir="zfs:zroot/windows"
+
+sudo vm init
+sudo  cp /usr/local/share/examples/vm-bhyve/windows.conf /zroot/windows/.templates/
+sudo vm switch add public re0
+sudo vm create -t windows winguest
+
+sudo pkg install tigervnc-viewer
+
+# Changer mémoire
+ sudo vm configure winguest
+
+vm install myguest ~/Downloads/Win10_20H2_v2_French_x64.iso
+vncviewer localhost:5900
+
+Appuyer sur une touche pour lancer l'install
+* Latest au lieu de quartely
+/etc/pkg/FreeBSD.conf
+
+#+begin_src
+# $FreeBSD$
+#
+# To disable this repository, instead of modifying or removing this file,
+# create a /usr/local/etc/pkg/repos/FreeBSD.conf file:
+#
+#   mkdir -p /usr/local/etc/pkg/repos
+#   echo "FreeBSD: { enabled: no }" > /usr/local/etc/pkg/repos/FreeBSD.conf
+#
+
+FreeBSD: {
+  url: "pkg+http://pkg.FreeBSD.org/${ABI}/latest",
+  mirror_type: "srv",
+  signature_type: "fingerprints",
+  fingerprints: "/usr/share/keys/pkg",
+  enabled: yes
+
+#+end_src}
+
+* raspberry
+loader.conf
+
+# Configure USB OTG; see usb_template(4).
+hw.usb.template=3
+umodem_load="YES"
+# Multiple console (serial+efi gop) enabled.
+boot_multicons="YES"
+boot_serial="YES"
+# Disable the beastie menu and color
+beastie_disable="YES"
+loader_color="NO"
+
+/etc/rc.conf
+#+begin_src
+hostname="generic"
+#ifconfig_DEFAULT="DHCP"
+# Static ip for MAM
+ifconfig_genet0="inet 192.168.1.78 netmask 255.255.255.0"
+defaultrouter="192.168.1.254"
+sshd_enable="YES"
+sendmail_enable="NONE"
+sendmail_submit_enable="NO"
+sendmail_outbound_enable="NO"
+sendmail_msp_queue_enable="NO"
+growfs_enable="YES"
+ntpd_enable="YES"
+powerd_enable="YES"
+powerd_flags="-r 1"
+#+end_src
+
+/etc/ssh/sshd_config
+#+begin_src
+Port 666
+PermitRootLogin no
+AuthorizedKeysFile	.ssh/authorized_keys
+Subsystem	sftp	/usr/libexec/sftp-server
+#+end_src
+
+~/.rtorrent.rc
+#+begin_src
+# Global upload and download rate in KiB. "0" for unlimited.
+download_rate = 3500
+upload_rate = 1000
+
+# Default directory to save the downloaded torrents.
+#directory = /Data/Music
+
+# Connectable on MAM
+network.port_range.set = 49164-49164
+# Default session directory. Make sure you don't run multiple instance
+# of rtorrent using the same session directory. Perhaps using a
+# relative path?
+session =  ~/Downloads/session
+
+## Watch a directory for new torrents, and stop those that have been
+## deleted.
+schedule = watch_directory_fantasy, 10, 10, "load.start=~/Downloads/torrents/books/fantasy/*.torrent,d.directory.set=/media/books/fantasy"
+schedule = watch_directory_litterature, 10, 10, "load.start=~/Downloads/torrents/books/litterature/*.torrent,d.directory.set=/media/books/litterature"
+schedule = watch_directory_medecine, 10, 10, "load.start=~/Downloads/torrents/books/medecine/*.torrent,d.directory.set=/media/books/medecine"
+schedule = watch_directory_horror, 10, 10, "load.start=~/Downloads/torrents/books/horror/*.torrent,d.directory.set=/media/books/horror"
+schedule = watch_directory_thriller, 10, 10, "load.start=~/Downloads/torrents/books/thriller/*.torrent,d.directory.set=/media/books/thriller"
+schedule = watch_directory_history, 10, 10, "load.start=~/Downloads/torrents/books/history/*.torrent,d.directory.set=/media/books/history"
+schedule = watch_directory_cs, 10, 10, "load.start=~/Downloads/torrents/books/cs/*.torrent,d.directory.set=/media/books/cs"
+schedule = watch_directory_science, 10, 10, "load.start=~/Downloads/torrents/books/science/*.torrent,d.directory.set=/media/books/science"
+
+
+schedule = untied_directory,5,5,stop_untied=
+
+# Close torrents when diskspace is low.
+schedule = low_diskspace,5,60,close_low_diskspace=100M
+
+encoding.add = utf8
+
+# Use 'tmux -d rtorrent -s rtorrent ' instead
+# system.daemon.set = true
+#+end_src
+* poudrier config
+/usr/local/etc/poudriere.conf
+#+begin_src
+ZPOOL=zroot
+ZROOTFS=/poudriere
+FREEBSD_HOST=ftp://ftp.freebsd.org
+RESOLV_CONF=/etc/resolv.conf
+BASEFS=/usr/local/poudriere
+USE_PORTLINT=no
+USE_TMPFS=yes
+DISTFILES_CACHE=/usr/ports/distfiles
+SVN_HOST=svn.FreeBSD.org
+CCACHE_DIR=/usr/obj/ccache
+# By default : 1 build per CPU but 1 thread per build.
+# for large ports, this is not enough
+ALLOW_MAKE_JOBS=yes
+
+#+end_src

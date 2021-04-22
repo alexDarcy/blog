@@ -1,0 +1,530 @@
+
+* /linux/media/anime/:
+Hoshi_wo_Ou_Kodomo_(2011)_[1080p,BluRay,flac,x264]_-_THORA.mkv
+Neko no Ongaeshi - The Cat Returns (1080p BD) [NEETgirl] [43F3A476].mkv
+Pompoko - Multi - 1080p [69EA82AA].mkv
+The_Garden_of_Words_[1080p,BluRay,flac,x264]_-_THORA.mkv
+Violet Evergarden
+[Coalgirls]_Whisper_of_the_Heart_(1920x1038_Blu-Ray_FLAC)_[7FD2591F].mkv
+[smplstc] Another (BD 1080p x265 10-Bit Opus) [Dual-Audio]
+
+/linux/media/anime/Violet Evergarden/:
+VIOLET EVERGARDEN.pdf  Violet Evergarden volume 2.pdf
+
+/linux/media/anime/[smplstc] Another (BD 1080p x265 10-Bit Opus) [Dual-Audio]/:
+01-Rough_Sketch_[720p].ja-en.ass           09-Body_Paint_[720p].ja-en.ass        Another - 07 - Sphere Joint.mkv
+02-Blueprint_[720p].ja-en.ass              10-Glass_Eye_[720p].ja-en.ass         Another - 08 - Hair Stand.mkv
+02-Blueprint_[720p].ja-en_hiragana.ass     11-Makeup_[v2]_[720p].ja-en.ass       Another - 09 - Body Paint.mkv
+03-Bone_Work_[720p].ja-en.ass              12-Stand_By_Oneself_[720p].ja-en.ass  Another - 10 - Glass Eye.mkv
+04-Put_Flesh_[720p].ja-en.ass              Another - 01 - Rough Sketch.mkv       Another - 11 - Makeup.mkv
+05-Build_Limbs_[720p].ja-en.ass            Another - 02 - Blueprint.mkv          Another - 12 - Stand By Oneself.mkv
+06-Face_to_Face_[720p].ja-en.ass           Another - 03 - Bone Work.mkv          Another.sfv
+06-Face_to_Face_[720p].ja-en_hiragana.ass  Another - 04 - Put Flesh.mkv          credit.txt
+07-Sphere_Joint_[720p].ja-en.ass           Another - 05 - Build Limbs.mkv        test-02.ass
+08-Hair_Stand_[720p].ja-en.ass             Another - 06 - Face to Face.mkv       
+
+* /linux/media/comics/:
+06BDAA312626C7242500D902EA58D1E9FED67EBC.meta  Minutemen Masterworks Collection
+Minutemen Archives Collection                  Ultimate Comics
+
+/linux/media/comics/Minutemen Archives Collection/:
+DCP-Minutemen Archive Edition - Batman Last Rites. Last Days of Gotham (2008) (51p) (compiled by Kritter-DCP).cbr
+DCP-Minutemen Archive Edition - Batman Last Rites. The Butler (2008-DC) (50p) (compiled by Kritter-DCP).cbr
+Minutemen Archives - Superman in Exile (1989) (Minutemen-EmeraldEmpress).cbz
+Minutemen Archives - Superman-Wonder Woman - Sacrifice (2005).cbz
+Minutemen Archives - The Death of Superman Book I - Doomsday.cbz
+Minutemen Archives - The Death of Superman Book II - Funeral For a Friend.cbz
+Minutemen Archives - The Death of Superman Book III - Reign of the Supermen.cbz
+Minutemen Archives - The Death of Superman Book IV - The Return of Superman.cbz
+_Info For Torrent Sites
+_Minutemen Archives Collection - Uploaded by Doc MaKS_.nfo
+_Minutemen Archives Collection 8 Covers Preview by Doc MaKS_.jpg
+
+/linux/media/comics/Minutemen Archives Collection/_Info For Torrent Sites/:
+Torrent Downloaded From Katcr.co - Kickasstorrents.txt  Torrent downloaded from 1337x.to.txt
+Torrent Downloaded from Glodls.to.txt                   Torrent downloaded from Hon3yHD.to.txt
+Torrent Downloaded from WorldWideTorrents.me.txt        Torrent downloaded from bt-scene.cc.txt
+Torrent Downloaded from thepiratebay.org.txt            Torrent_downloaded_from_Demonoid_-_www.demonoid.pw_.txt
+
+/linux/media/comics/Minutemen Masterworks Collection/:
+MM.part1.rar  Minutemen Masterworks Collection (107 editions) - Uploaded by Doc MaKS.txt
+MM.part2.rar  __107 Minutemen Masterworks Editions Preview by Doc MaKS__.jpg
+MM.part3.rar  
+
+/linux/media/comics/Ultimate Comics/:
+1. The Beginning       3. Ultimatum       5. Death of Spider-Man       7. Divided We Fall
+2. March on Ultimatum  4. Post Ultimatum  6. Post Death of Spider-Man  8. Post Divided We Fall
+
+/linux/media/comics/Ultimate Comics/1. The Beginning/:
+Official Handbooks of the Ultimate Marvel Universe  Ultimate Galactus Trilogy + Vision  Ultimate X4
+Ultimate Adventures                                 Ultimate X-Men                      
+
+/linux/media/comics/Ultimate Comics/1. The Beginning/Official Handbooks of the Ultimate Marvel Universe/:
+Fantastic Four & Spider-Man.cbr  Ultimate Marvel Sampler (2007).cbr  Ultimate Secrets.cbr  Ultimates & X-Men.cbr
+
+/linux/media/comics/Ultimate Comics/1. The Beginning/Ultimate Adventures/:
+Ultimate Adventures #1.cbr  Ultimate Adventures #3.cbr  Ultimate Adventures #5.cbr
+Ultimate Adventures #2.cbr  Ultimate Adventures #4.cbr  Ultimate Adventures #6.cbr
+
+/linux/media/comics/Ultimate Comics/1. The Beginning/Ultimate Galactus Trilogy + Vision/:
+01 Ultimate Nightmare  02 Ultimate Secret  03 Ultimate Vision  04 Ultimate Extinction
+
+/linux/media/comics/Ultimate Comics/1. The Beginning/Ultimate Galactus Trilogy + Vision/01 Ultimate Nightmare/:
+Ultimate Nightmare #01.cbr  Ultimate Nightmare #03.cbr  Ultimate Nightmare #05.cbr
+Ultimate Nightmare #02.cbr  Ultimate Nightmare #04.cbr  
+
+/linux/media/comics/Ultimate Comics/1. The Beginning/Ultimate Galactus Trilogy + Vision/02 Ultimate Secret/:
+Ultimate Secret #01.cbr  Ultimate Secret #02.cbr  Ultimate Secret #03.cbr  Ultimate Secret #04.cbr
+
+/linux/media/comics/Ultimate Comics/1. The Beginning/Ultimate Galactus Trilogy + Vision/03 Ultimate Vision/:
+Ultimate Vision Part 1.cbr  Ultimate Vision Part 3.cbr  Ultimate Vision Part 5.cbr
+Ultimate Vision Part 2.cbr  Ultimate Vision Part 4.cbr  Ultimate Vision Part 6.cbr
+
+/linux/media/comics/Ultimate Comics/1. The Beginning/Ultimate Galactus Trilogy + Vision/04 Ultimate Extinction/:
+Ultimate Extinction #01.cbr  Ultimate Extinction #03.cbr  Ultimate Extinction #05.cbr
+Ultimate Extinction #02.cbr  Ultimate Extinction #04.cbr  
+
+/linux/media/comics/Ultimate Comics/1. The Beginning/Ultimate X-Men/:
+Ultimate War (After 025)  Ultimate X-Men 025.cbr  Ultimate X-Men 050.cbr  Ultimate X-Men 075.cbr
+Ultimate X-Men 001.cbr    Ultimate X-Men 026.cbr  Ultimate X-Men 051.cbr  Ultimate X-Men 076.cbr
+Ultimate X-Men 002.cbr    Ultimate X-Men 027.cbr  Ultimate X-Men 052.cbr  Ultimate X-Men 077.cbr
+Ultimate X-Men 003.cbr    Ultimate X-Men 028.cbr  Ultimate X-Men 053.cbr  Ultimate X-Men 078.cbr
+Ultimate X-Men 004.cbr    Ultimate X-Men 029.cbr  Ultimate X-Men 054.cbr  Ultimate X-Men 079.cbr
+Ultimate X-Men 005.cbr    Ultimate X-Men 030.cbr  Ultimate X-Men 055.cbr  Ultimate X-Men 080.cbr
+Ultimate X-Men 006.cbr    Ultimate X-Men 031.cbr  Ultimate X-Men 056.cbr  Ultimate X-Men 081.cbr
+Ultimate X-Men 007.cbr    Ultimate X-Men 032.cbr  Ultimate X-Men 057.cbr  Ultimate X-Men 082.cbr
+Ultimate X-Men 008.cbr    Ultimate X-Men 033.cbr  Ultimate X-Men 058.cbr  Ultimate X-Men 083.cbr
+Ultimate X-Men 009.cbr    Ultimate X-Men 034.cbr  Ultimate X-Men 059.cbr  Ultimate X-Men 084.cbr
+Ultimate X-Men 010.cbr    Ultimate X-Men 035.cbr  Ultimate X-Men 060.cbr  Ultimate X-Men 085.cbr
+Ultimate X-Men 011.cbr    Ultimate X-Men 036.cbr  Ultimate X-Men 061.cbr  Ultimate X-Men 086.cbr
+Ultimate X-Men 012.cbr    Ultimate X-Men 037.cbr  Ultimate X-Men 062.cbr  Ultimate X-Men 087.cbr
+Ultimate X-Men 013.cbr    Ultimate X-Men 038.cbr  Ultimate X-Men 063.cbr  Ultimate X-Men 088.cbr
+Ultimate X-Men 014.cbr    Ultimate X-Men 039.cbr  Ultimate X-Men 064.cbr  Ultimate X-Men 089.cbr
+Ultimate X-Men 015.cbr    Ultimate X-Men 040.cbr  Ultimate X-Men 065.cbr  Ultimate X-Men 090.cbr
+Ultimate X-Men 016.cbr    Ultimate X-Men 041.cbr  Ultimate X-Men 066.cbr  Ultimate X-Men 091.cbr
+Ultimate X-Men 017.cbr    Ultimate X-Men 042.cbr  Ultimate X-Men 067.cbr  Ultimate X-Men 092.cbr
+Ultimate X-Men 018.cbr    Ultimate X-Men 043.cbr  Ultimate X-Men 068.cbr  Ultimate X-Men 093.cbr
+Ultimate X-Men 019.cbr    Ultimate X-Men 044.cbr  Ultimate X-Men 069.cbr  Ultimate X-Men 098.cbr
+Ultimate X-Men 020.cbr    Ultimate X-Men 045.cbr  Ultimate X-Men 070.cbr  Ultimate X-Men 099.cbr
+Ultimate X-Men 021.cbr    Ultimate X-Men 046.cbr  Ultimate X-Men 071.cbr  Ultimate X-Men Annual 1 (After 60).cbr
+Ultimate X-Men 022.cbr    Ultimate X-Men 047.cbr  Ultimate X-Men 072.cbr  Ultimate X-Men Annual 2 (After 74).cbr
+Ultimate X-Men 023.cbr    Ultimate X-Men 048.cbr  Ultimate X-Men 073.cbr  Ultimate X-men 100.cbr
+Ultimate X-Men 024.cbr    Ultimate X-Men 049.cbr  Ultimate X-Men 074.cbr  
+
+/linux/media/comics/Ultimate Comics/1. The Beginning/Ultimate X-Men/Ultimate War (After 025)/:
+Ultimate War 01.cbr  Ultimate War 02.cbr  Ultimate War 03.cbr  Ultimate War 04.cbr
+
+/linux/media/comics/Ultimate Comics/1. The Beginning/Ultimate X4/:
+Ultimate X4 01 (of 2).cbr  Ultimate X4 02 (of 2).cbr
+
+/linux/media/comics/Ultimate Comics/2. March on Ultimatum/:
+Annuals  March on Ultimatum Saga.cbr  Ultimate Human  Ultimate Origins  Ultimate Power  Ultimates 3  X-men
+
+/linux/media/comics/Ultimate Comics/2. March on Ultimatum/Annuals/:
+Ultimate Captain America Annual 01.cbr
+Ultimate Fantastic Four -  X-Men Annual 01 (2008) (FB-DCP).CBR
+Ultimate Hulk Annual 01.cbr
+Ultimate Spider-Man Annual 03.cbr
+Ultimate X-Men - Fantastic Four Annual 01 (2008) (FB-DCP).CBR
+
+/linux/media/comics/Ultimate Comics/2. March on Ultimatum/Ultimate Human/:
+Torrent downloaded from Demonoid.com.txt  Ultimate Human 2.cbr  Ultimate Human 4.cbr
+Ultimate Human 1.cbr                      Ultimate Human 3.cbr  
+
+/linux/media/comics/Ultimate Comics/2. March on Ultimatum/Ultimate Origins/:
+Ultimate Origins 01.cbr  Ultimate Origins 03.cbr  Ultimate Origins 05.cbr
+Ultimate Origins 02.cbr  Ultimate Origins 04.cbr  
+
+/linux/media/comics/Ultimate Comics/2. March on Ultimatum/Ultimate Power/:
+Ultimate Power 01 (director's cut - new material only).cbr  Ultimate Power 04.cbr  Ultimate Power 08.cbr
+Ultimate Power 01.cbr                                       Ultimate Power 05.cbr  Ultimate Power 09.cbr
+Ultimate Power 02.cbr                                       Ultimate Power 06.cbr  
+Ultimate Power 03.cbr                                       Ultimate Power 07.cbr  
+
+/linux/media/comics/Ultimate Comics/2. March on Ultimatum/Ultimates 3/:
+Ultimates 3 001.cbr  Ultimates 3 002.cbr  Ultimates 3 003.cbr  Ultimates 3 004.cbr  Ultimates 3 005.cbr
+
+/linux/media/comics/Ultimate Comics/2. March on Ultimatum/X-men/:
+Ultimate X-Men 094.cbr  Ultimate X-Men 095.cbr  Ultimate X-Men 096.cbr  Ultimate X-Men 097.cbr
+
+/linux/media/comics/Ultimate Comics/3. Ultimatum/:
+Ultimate Fantastic Four  Ultimate Spider-Man  Ultimate X-Men  Ultimatum
+
+/linux/media/comics/Ultimate Comics/3. Ultimatum/Ultimate Fantastic Four/:
+Ultimate Fantastic Four 058 (2009) (FB-DCP).CBR  Ultimate Fantastic Four 060 (2009).cbr
+Ultimate Fantastic Four 059 (2009).cbr           
+
+/linux/media/comics/Ultimate Comics/3. Ultimatum/Ultimate Spider-Man/:
+Ultimate Spider-Man #129.cbr  Ultimate Spider-Man #131.cbr  Ultimate Spider-Man #133.cbr
+Ultimate Spider-Man #130.cbr  Ultimate Spider-Man #132.cbr  
+
+/linux/media/comics/Ultimate Comics/3. Ultimatum/Ultimate X-Men/:
+Ultimate X-Men 098.cbr  Ultimate X-Men 099.cbr  Ultimate X-men 100.cbr
+
+/linux/media/comics/Ultimate Comics/3. Ultimatum/Ultimatum/:
+Ultimatum #001.cbr  Ultimatum #002.cbr  Ultimatum #003.cbr  Ultimatum #004.cbr  Ultimatum #005.cbr
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/:
+1. Requiem  Ultimate Comics
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/1. Requiem/:
+Ultimate Fantastic Four - Requiem 01.cbz  Ultimate Spider-Man - Requiem 02.cbr
+Ultimate Spider-Man - Requiem 01.cbz      Ultimate X-Men - Requiem 01.cbr
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/:
+Armor Wars  Avengers  Captain America  Doomsday Trilogy  New Ultimates  Spider-Man  Thor  X
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/Armor Wars/:
+Ultimate Armor Wars 001 (2009).cbz  Ultimate Armor Wars 003 (2010).cbz
+Ultimate Armor Wars 002 (2009).cbz  Ultimate Armor Wars 004 (2010).cbz
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/Avengers/:
+Volume 1  Volume 2  Volume 3
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/Avengers/Volume 1/:
+Ultimate Avengers 001 (2009).cbr  Ultimate Avengers 003 (2009).cbr  Ultimate Avengers 005 (2010).cbr
+Ultimate Avengers 002 (2009).cbr  Ultimate Avengers 004 (2010).cbr  Ultimate Avengers 006 (2010).cbr
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/Avengers/Volume 2/:
+Ultimate Avengers 2 001 (2010).cbz  Ultimate Avengers 2 003 (2010).cbr  Ultimate Avengers 2 005 (2010).cbz
+Ultimate Avengers 2 002 (2010).cbz  Ultimate Avengers 2 004 (2010).cbz  Ultimate Avengers 2 006 (2010).cbz
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/Avengers/Volume 3/:
+Ultimate Avengers 3 001 (2010).cbr  Ultimate Avengers 3 003 (2010).cbr  Ultimate Avengers 3 005 (2011).cbr
+Ultimate Avengers 3 002 (2010).cbr  Ultimate Avengers 3 004 (2011).cbz  Ultimate Avengers 3 006 (2011).cbr
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/Captain America/:
+Ultimate Captain America 001 (2011).cbr  Ultimate Captain America 003 (2011).cbr
+Ultimate Captain America 002 (2011).cbr  Ultimate Captain America 004 (2011).cbr
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/Doomsday Trilogy/:
+1. Enemy  2. Mystery  3. Doom
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/Doomsday Trilogy/1. Enemy/:
+Ultimate Enemy 001 (2010).cbz  Ultimate Enemy 003 (2010).cbr
+Ultimate Enemy 002 (2010).cbr  Ultimate Enemy 004 (2010).cbz
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/Doomsday Trilogy/2. Mystery/:
+Ultimate Mystery 001 (2010).cbr  Ultimate Mystery 003 (2010).cbr
+Ultimate Mystery 002 (2010).cbr  Ultimate Mystery 004 (2010).cbr
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/Doomsday Trilogy/3. Doom/:
+Ultimate Doom 001 (2011).cbr  Ultimate Doom 003 (2011).cbr
+Ultimate Doom 002 (2011).cbr  Ultimate Doom 004 (2011).cbr
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/New Ultimates/:
+Ultimate New Ultimates 001 (2010).cbr  Ultimate New Ultimates 003 (2010).cbr  Ultimate New Ultimates 005 (2011).cbr
+Ultimate New Ultimates 002 (2010).cbr  Ultimate New Ultimates 004 (2010).cbr  
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/Spider-Man/:
+Ultimate Comics Spider-Man 001 (2009).cbz  Ultimate Comics Spider-Man 010 (2010).cbz
+Ultimate Comics Spider-Man 002 (2009).cbz  Ultimate Comics Spider-Man 011 (2010).cbz
+Ultimate Comics Spider-Man 003 (2009).cbz  Ultimate Comics Spider-Man 012 (2010).cbz
+Ultimate Comics Spider-Man 004 (2010).cbz  Ultimate Comics Spider-Man 013 (2010).cbz
+Ultimate Comics Spider-Man 005 (2010).cbz  Ultimate Comics Spider-Man 014 (2010).cbz
+Ultimate Comics Spider-Man 006 (2010).cbz  Ultimate Comics Spider-Man 015 (2010).cbz
+Ultimate Comics Spider-Man 007 (2010).cbz  Ultimate Comics Spider-Man 016 (150) (2011).cbz
+Ultimate Comics Spider-Man 008 (2010).cbz  Ultimate Comics Spider-Man 017 (151) (2011).cbz
+Ultimate Comics Spider-Man 009 (2010).cbz  Ultimate Comics Spider-Man 018 (152) (2011).cbz
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/Thor/:
+Ultimate Thor 001 (2010).cbr  Ultimate Thor 003 (2010).cbz
+Ultimate Thor 002 (2011).cbr  Ultimate Thor 004 (2011).cbr
+
+/linux/media/comics/Ultimate Comics/4. Post Ultimatum/Ultimate Comics/X/:
+Ultimate X 001 (2010).cbz  Ultimate X 003 (2010).cbr  Ultimate X 005 (2011).cbr
+Ultimate X 002 (2010).cbr  Ultimate X 004 (2011).cbr  
+
+/linux/media/comics/Ultimate Comics/5. Death of Spider-Man/:
+Avengers Vs. New Ultimates  Spider-Man
+
+/linux/media/comics/Ultimate Comics/5. Death of Spider-Man/Avengers Vs. New Ultimates/:
+Ultimate Avengers vs New Ultimates 001 (2011).cbr  Ultimate Avengers vs New Ultimates 004 (2011).cbr
+Ultimate Avengers vs New Ultimates 002 (2011).cbr  Ultimate Avengers vs New Ultimates 005 (2011).cbr
+Ultimate Avengers vs New Ultimates 003 (2011).cbr  Ultimate Avengers vs New Ultimates 006 (2011).cbr
+
+/linux/media/comics/Ultimate Comics/5. Death of Spider-Man/Spider-Man/:
+6077.cbr.ptl  6083.cbr.ptl                                     Ultimate Comics Spider-Man 023 (157) (2011).cbr
+6078.cbr.ptl  6084.cbr.ptl                                     Ultimate Comics Spider-Man 024 (158) (2011).cbr
+6079.cbr.ptl  Ultimate Comics Spider-Man 019 (153) (2011).cbr  Ultimate Comics Spider-Man 025 (159) (2011).cbr
+6080.cbr.ptl  Ultimate Comics Spider-Man 020 (154) (2011).cbr  Ultimate Comics Spider-Man 026 (160) (2011).cbr
+6081.cbr.ptl  Ultimate Comics Spider-Man 021 (155) (2011).cbr  
+6082.cbr.ptl  Ultimate Comics Spider-Man 022 (156) (2011).cbr  
+
+/linux/media/comics/Ultimate Comics/6. Post Death of Spider-Man/:
+1. Fallout  2. Hawkeye  2. Spider-Man (All-New)  2. Ultimates  2. X-Men  3. Spider-Men
+
+/linux/media/comics/Ultimate Comics/6. Post Death of Spider-Man/1. Fallout/:
+Ultimate Fallout 001 (2011).cbr  Ultimate Fallout 003 (2011).cbr  Ultimate Fallout 005 (2011).cbr
+Ultimate Fallout 002 (2011).cbr  Ultimate Fallout 004 (2011).cbr  Ultimate Fallout 006 (2011).cbr
+
+/linux/media/comics/Ultimate Comics/6. Post Death of Spider-Man/2. Hawkeye/:
+Ultimate Comics Hawkeye 001 (2011).cbr  Ultimate Comics Hawkeye 003 (2011).cbr
+Ultimate Comics Hawkeye 002 (2011).cbr  Ultimate Comics Hawkeye 004 (2012).cbr
+
+/linux/media/comics/Ultimate Comics/6. Post Death of Spider-Man/2. Spider-Man (All-New)/:
+Ultimate Comics Spider-Man 001 (2011).cbr  Ultimate Comics Spider-Man 007 (2012) (theProletariat-DCP).cbr
+Ultimate Comics Spider-Man 002 (2011).cbr  Ultimate Comics Spider-Man 008 (2012) (2 covers).cbr
+Ultimate Comics Spider-Man 003 (2011).cbr  Ultimate Comics Spider-Man 009.cbr
+Ultimate Comics Spider-Man 004 (2012).cbr  Ultimate Comics Spider-Man 010.cbr
+Ultimate Comics Spider-Man 005 (2012).cbr  Ultimate Comics Spider-Man 011.cbr
+Ultimate Comics Spider-Man 006 (2012).cbr  Ultimate Comics Spider-Man 012 (2012) (Digital) (Zone-Empire).cbr
+
+/linux/media/comics/Ultimate Comics/6. Post Death of Spider-Man/2. Ultimates/:
+Ultimate Comics Ultimates 001.cbr  Ultimate Comics Ultimates 005.cbr  Ultimate Comics Ultimates 009.cbr
+Ultimate Comics Ultimates 002.cbr  Ultimate Comics Ultimates 006.cbr  Ultimate Comics Ultimates 010.cbr
+Ultimate Comics Ultimates 003.cbr  Ultimate Comics Ultimates 007.cbr  Ultimate Comics Ultimates 011.cbr
+Ultimate Comics Ultimates 004.cbr  Ultimate Comics Ultimates 008.cbr  Ultimate Comics Ultimates 012.cbr
+
+/linux/media/comics/Ultimate Comics/6. Post Death of Spider-Man/2. X-Men/:
+6119.cbr.ptl  6128.cbr.ptl                          Ultimate Comics X-Men 006 (2012).cbr
+6120.cbr.ptl  6129.cbr.ptl                          Ultimate Comics X-Men 007 (2012).cbr
+6121.cbr.ptl  6130.cbr.ptl                          Ultimate Comics X-Men 008.cbr
+6122.cbr.ptl  6131.cbr.ptl                          Ultimate Comics X-Men 009 (2012) (Megan-Empire).cbr
+6123.cbr.ptl  Ultimate Comics X-Men 001 (2011).cbr  Ultimate Comics X-Men 010.cbr
+6124.cbr.ptl  Ultimate Comics X-Men 002 (2011).cbr  Ultimate Comics X-Men 011 (2012) (Megan-Empire).cbr
+6125.cbr.ptl  Ultimate Comics X-Men 003 (2011).cbr  Ultimate Comics X-Men 012__2012___Digital___Zone-Empire_.cbr
+6126.cbr.ptl  Ultimate Comics X-Men 004 (2012).cbr  Ultimate Comics X-Men 013 (2012) (Digital) (Zone-Empire).cbr
+6127.cbr.ptl  Ultimate Comics X-Men 005 (2012).cbr  
+
+/linux/media/comics/Ultimate Comics/6. Post Death of Spider-Man/3. Spider-Men/:
+Covers
+Spider-Men 01 (of 05) (2012) (3 covers) (theProletariat-DCP).cbr
+Spider-Men 02 (of 05) (2012) (3 covers) (2048px) (theProletariat-DCP-HD).cbr
+Spider-Men 03 (of 05) (2012) (2 covers) (2048px) (theProletariat-DCP-HD).cbr
+Spider-Men 04 (of 05) (2012) (3 covers) (theProletariat-DCP).cbr
+Spider-Men 05 (of 05) (2012) (3 covers) (theProletariat-DCP).cbr
+
+/linux/media/comics/Ultimate Comics/6. Post Death of Spider-Man/3. Spider-Men/Covers/:
+Spider-Men 01 (2012) (2nd Printing Variant) (Cover ONLY) (ScanDog).cbr
+Spider-Men 01 (2012) (Bagley Retailer Variant) (Cover ONLY) (ScanDog).cbr
+Spider-Men 02 (2012) (2nd Printing Variant) (Cover ONLY) (ScanDog).cbr
+Spider-Men 03 (2012) (Sara Pichelli Variant) (Cover ONLY) (ScanDog).cbr
+
+/linux/media/comics/Ultimate Comics/7. Divided We Fall/:
+1. Divided We Fall  2. United We Stand
+
+/linux/media/comics/Ultimate Comics/7. Divided We Fall/1. Divided We Fall/:
+Spider-Man  Ultimates  X-Men
+
+/linux/media/comics/Ultimate Comics/7. Divided We Fall/1. Divided We Fall/Spider-Man/:
+Ultimate Comics Spider-Man 013.cbr  Ultimate Comics Spider-Man 014 (2012) (2048px) (theProletariat-DCP-HD).cbr
+
+/linux/media/comics/Ultimate Comics/7. Divided We Fall/1. Divided We Fall/Ultimates/:
+Ultimate Comics Ultimates 013.cbr  Ultimate Comics Ultimates 014.cbr
+
+/linux/media/comics/Ultimate Comics/7. Divided We Fall/1. Divided We Fall/X-Men/:
+Ultimate Comics X-Men 014 (2012) (Digital) (Zone-Empire).cbr  Ultimate Comics X-Men 015.cbr
+
+/linux/media/comics/Ultimate Comics/7. Divided We Fall/2. United We Stand/:
+Spider-Man  Ultimates  X-Men
+
+/linux/media/comics/Ultimate Comics/7. Divided We Fall/2. United We Stand/Spider-Man/:
+Ultimate Comics Spider-Man 015.cbr
+Ultimate Comics Spider-Man 016 (2012) (Digital) (Zone-Empire).cbr
+Ultimate Comics Spider-Man 016.1 (2012) (theProletariat-Novus).cbr
+Ultimate Comics Spider-Man 017 (2013) (Digital) (Zone-Empire)(- Nem -).cbr
+Ultimate Comics Spider-Man 018 (2013)(digital)(Megan-Empire)(- Nem -).cbr
+
+/linux/media/comics/Ultimate Comics/7. Divided We Fall/2. United We Stand/Ultimates/:
+Ultimate Comics Ultimates 015.cbr
+Ultimate Comics Ultimates 016.cbr
+Ultimate Comics Ultimates 017 (2012) (Digital) (Zone-Empire).cbr
+Ultimate Comics Ultimates 018.1 (2013)(Digital)(Zone-Empire)(- Nem -).cbr
+Ultimate Comics Ultimates 018.cbr
+Ultimate Comics Ultimates 019 (2013)(digital)(Megan-Empire)(- Nem -).cbr
+
+/linux/media/comics/Ultimate Comics/7. Divided We Fall/2. United We Stand/X-Men/:
+Ultimate Comics X-Men 016 (2012) (2048px) (theProletariat-DCP-HD).cbr
+Ultimate Comics X-Men 017 (2012) (MaoTseTaru-DCP-HD).cbr
+Ultimate Comics X-Men 018 (2012) (Digital)_(Zone-Empire).cbr
+Ultimate Comics X-Men 018.1 (2013) (Digital) (Zone-Empire)(- Nem -).cbr
+Ultimate Comics X-Men 019 (2013) (Digital) (Zone-Empire)(- Nem -).cbr
+Ultimate Comics X-Men 020 (2013)(Digital)(Zone-Empire)(- Nem -).cbr
+
+/linux/media/comics/Ultimate Comics/8. Post Divided We Fall/:
+Iron Man  Spider-Man  Ultimates  Wolverine  X-Men
+
+/linux/media/comics/Ultimate Comics/8. Post Divided We Fall/Iron Man/:
+Ultimate Comics Iron Man 001 (2012) (digital-TheGroup).cbr
+Ultimate Comics Iron Man 002 (2013)(digital-TheGroup)(- Nem -).cbr
+Ultimate Comics Iron Man 003 (2013)(digital-TheGroup)(- Nem -).cbr
+Ultimate Comics Iron Man 004.cbr
+
+/linux/media/comics/Ultimate Comics/8. Post Divided We Fall/Spider-Man/:
+Ultimate Comics Spider-Man 019.cbr
+Ultimate Comics Spider-Man 020 - (2013) (Digital) (Zone-Empire).cbr
+Ultimate Comics Spider-Man 021 (2012) (Digital) (Zone-Empire).cbr
+
+/linux/media/comics/Ultimate Comics/8. Post Divided We Fall/Ultimates/:
+Ultimate Comics Ultimates 020 (2012) (Digital) (Zone-Empire).cbr      Ultimate Comics Ultimates 22.cbr
+Ultimate Comics Ultimates 021 (2013) (Digital) (Darkness-Empire).cbr  
+
+/linux/media/comics/Ultimate Comics/8. Post Divided We Fall/Wolverine/:
+Ultimate Comics Wolverine 001 (2013) (Digital) (Nahga-Empire).cbr
+
+/linux/media/comics/Ultimate Comics/8. Post Divided We Fall/X-Men/:
+Ultimate Comics X-Men 021.cbr                                 Ultimate Comics X-Men 024 (2013) (digital-TheGroup).cbr
+Ultimate Comics X-Men 022 (2013) (Digital) (Zone-Empire).cbr  Ultimate Comics X-Men 025.cbr
+Ultimate Comics X-Men 023 (2013) (digital-TheGroup).cbr       
+
+* /linux/media/manga/:
+Berserk Manga Vol. 1-37 HQ  Jojos Bizarre Adventure  Lone Wolf and Cub  Slam Dunk
+
+/linux/media/manga/Berserk Manga Vol. 1-37 HQ/:
+about_this_compilation.rtf         vol_16_DH.rar     vol_24_DH.rar     vol_32_DH.rar           vol_5_Hawks.rar
+berserk_artbook.rar                vol_17_DH.rar     vol_25_Hawks.rar  vol_33_Evil Genius.rar  vol_6_Hawks.rar
+berserk_prototype_Evil_Genius.rar  vol_18_Hawks.rar  vol_26_Hawks.rar  vol_34_Evil_Genius.rar  vol_7_Hawks.rar
+vol_10_Hawks.rar                   vol_19_Hawks.rar  vol_27_Hawks.rar  vol_35_Evil_Genius.rar  vol_8_Hawks.rar
+vol_11_Hawks.rar                   vol_1_DH.rar      vol_28_Hawks.rar  vol_36_Evil_Genius.rar  vol_9_Hawks.rar
+vol_12_Hawks.rar                   vol_20_Hawks.rar  vol_29_Hawks.rar  vol_37_Evil_Genius.rar  
+vol_13_Hawks.rar                   vol_21_Hawks.rar  vol_2_DH.rar      vol_38.zip              
+vol_14_DH.rar                      vol_22_Hawks.rar  vol_30_Hawks.rar  vol_3_DH.rar            
+vol_15_DH.rar                      vol_23_DH.rar     vol_31_DH.rar     vol_4_Hawks.rar         
+
+/linux/media/manga/Jojos Bizarre Adventure/:
+
+/linux/media/manga/Lone Wolf and Cub/:
+Lone Wolf and Cub v01 - The Assassin's Road (2000) [Dark Horse].cbz
+Lone Wolf and Cub v02 - The Gateless Barrier (2000) [Dark Horse].cbz
+Lone Wolf and Cub v03 - The Flute of the Fallen Tiger (2000) [Dark Horse].cbz
+Lone Wolf and Cub v04 - The Bell Warden (2000) [Dark Horse].cbz
+Lone Wolf and Cub v05 - Black Wind (2001) [Dark Horse].cbz
+Lone Wolf and Cub v06 - Lanterns for the Dead (2001) [Dark Horse].cbz
+Lone Wolf and Cub v07 - Cloud Dragon, Wind Tiger (2001) [Dark Horse].cbz
+Lone Wolf and Cub v08 - Chains of Death (2001) [Dark Horse].cbz
+Lone Wolf and Cub v09 - Echo of the Assassin (2001) [Dark Horse].cbz
+Lone Wolf and Cub v10 - Hostage Child (2001) [Dark Horse].cbz
+Lone Wolf and Cub v11 - Talisman of Hades (2001) [Dark Horse].cbz
+Lone Wolf and Cub v12 - Shattered Stones (2001) [Dark Horse].cbz
+Lone Wolf and Cub v13 - The Moon in the East, the Sun in the West (2001) [Dark Horse].cbz
+Lone Wolf and Cub v14 - Day of the Demons (2001) [Dark Horse].cbz
+Lone Wolf and Cub v15 - Brothers of the Grass (2001) [Dark Horse].cbz
+Lone Wolf and Cub v16 - Gateway Into Winter (2001) [Dark Horse].cbz
+Lone Wolf and Cub v17 - The Will of the Fang (2002) [Dark Horse].cbz
+Lone Wolf and Cub v18 - Twilight of the Kurokuwa (2002) [Dark Horse].cbz
+Lone Wolf and Cub v19 - The Moon in Our Hearts (2002) [Dark Horse].cbz
+Lone Wolf and Cub v20 - A Taste of Poison (2002) [Dark Horse].cbz
+Lone Wolf and Cub v21 - Fragrance of Deeth (2002) [Dark Horse].cbz
+Lone Wolf and Cub v22 - Heaven and Earth (2002) [Dark Horse].cbz
+Lone Wolf and Cub v23 - Tears of Ice (2002) [Dark Horse].cbz
+Lone Wolf and Cub v24 - In These Small Hands (2002) [Dark Horse].cbz
+Lone Wolf and Cub v25 - Perhaps in Deeth (2002) [Dark Horse].cbz
+Lone Wolf and Cub v26 - Struggle in the Dark (2002) [Dark Horse].cbz
+Lone Wolf and Cub v27 - Battle's Eve (2002) [Dark Horse].cbz
+Lone Wolf and Cub v28 - The Lotus Throne (2002) [Dark Horse].cbz
+
+/linux/media/manga/Slam Dunk/:
+SlamDunk!_v01_[TMP].zip  SlamDunk!_v09_[TMP].zip  SlamDunk!_v17_[TMP].zip  SlamDunk!_v25_[TMP].zip
+SlamDunk!_v02_[TMP].zip  SlamDunk!_v10_[TMP].zip  SlamDunk!_v18_[TMP].zip  SlamDunk!_v26_[TMP].zip
+SlamDunk!_v03_[TMP].zip  SlamDunk!_v11_[TMP].zip  SlamDunk!_v19_[TMP].zip  SlamDunk!_v28_[TMP].zip
+SlamDunk!_v04_[TMP].zip  SlamDunk!_v12_[TMP].zip  SlamDunk!_v20_[TMP].zip  SlamDunk!_v29_[TMP].zip
+SlamDunk!_v05_[TMP].zip  SlamDunk!_v13_[TMP].zip  SlamDunk!_v21_[TMP].zip  SlamDunk!_v30_[TMP].zip
+SlamDunk!_v06_[TMP].zip  SlamDunk!_v14_[TMP].zip  SlamDunk!_v22_[TMP].zip  SlamDunk!_v31.zip
+SlamDunk!_v07_[TMP].zip  SlamDunk!_v15_[TMP].zip  SlamDunk!_v23_[TMP].zip  SlamDunkv27%5BTMP%5D-good.zip
+SlamDunk!_v08_[TMP].zip  SlamDunk!_v16_[TMP].zip  SlamDunk!_v24_[TMP].zip  Tensai Manga Project!!!.txt
+
+/linux/media/movies/:
+3-Iron (2004)           Da 5 Bloods (2020)     Sound of Metal (2020)
+Amour.2012.BluRay.810p  Hidden Figures (2016)  Violet Evergarden Eternity and the Auto Memory Doll (2019)
+Burning (2018)          Soul (2020)            
+
+/linux/media/movies/3-Iron (2004)/:
+3-Iron.2004.1080p.BluRay.x264-PHOBOS.mkv
+
+/linux/media/movies/Amour.2012.BluRay.810p/:
+Amour.2012.BluRay.810p.DTS.x264-PRoDJi.mkv
+
+/linux/media/movies/Burning (2018)/:
+Burning.2018.1080p.WEB-DL.DD5.1.H264-SUM.en.srt  Burning.2018.1080p.WEB-DL.DD5.1.H264-SUM.mkv
+
+/linux/media/movies/Da 5 Bloods (2020)/:
+Da.5.Bloods.2020.REPACK.1080p.NF.WEB-DL.DDP5.1.x264-NTG.mkv
+
+/linux/media/movies/Hidden Figures (2016)/:
+Hidden.Figures.2016.1080p.10bit.BluRay.8CH.x265.HEVC-PSA.mkv
+
+/linux/media/movies/Soul (2020)/:
+soul.2020.1080p.web.h264-eszc.mkv
+
+/linux/media/movies/Sound of Metal (2020)/:
+Sound.of.Metal.2020.1080p.AMZN.WEB-DL.DDP5.1.H.264-CMRG.mkv
+
+/linux/media/movies/Violet Evergarden Eternity and the Auto Memory Doll (2019)/:
+Violet.Evergarden.Eternity.and.the.Auto.Memory.Doll.2019.1080p.BluRay.x264-nikt0.mkv
+
+* /linux/media/tv_shows/:
+CONFERENCE_METHODOLOGIE.mp4  Elementary  Good Eats  Makefile~  Planet Earth  The Blue Planet  Tuto_radio
+
+/linux/media/tv_shows/Elementary/:
+Season 3
+
+/linux/media/tv_shows/Elementary/Season 3/:
+Elementary - S03E03 - Just a Regular Irregular WEBDL-1080p.en.srt
+Elementary - S03E03 - Just a Regular Irregular WEBDL-1080p.mkv
+Elementary - S03E04 - Bella WEBDL-1080p.en.srt
+Elementary - S03E04 - Bella WEBDL-1080p.mkv
+Elementary - S03E05 - Rip Off WEBDL-1080p.en.srt
+Elementary - S03E05 - Rip Off WEBDL-1080p.mkv
+Elementary - S03E06 - Terra Pericolosa WEBDL-1080p.en.srt
+Elementary - S03E06 - Terra Pericolosa WEBDL-1080p.mkv
+Elementary - S03E07 - The Adventure of the Nutmeg Concoction WEBDL-1080p.en.srt
+Elementary - S03E07 - The Adventure of the Nutmeg Concoction WEBDL-1080p.mkv
+Elementary - S03E08 - End of Watch WEBDL-1080p.en.srt
+Elementary - S03E08 - End of Watch WEBDL-1080p.mkv
+Elementary - S03E09 - The Eternity Injection WEBDL-1080p.en.srt
+Elementary - S03E09 - The Eternity Injection WEBDL-1080p.mkv
+Elementary - S03E10 - Seed Money WEBDL-1080p.en.srt
+Elementary - S03E10 - Seed Money WEBDL-1080p.mkv
+Elementary - S03E11 - The Illustrious Client (1) WEBDL-1080p.en.srt
+Elementary - S03E11 - The Illustrious Client (1) WEBDL-1080p.mkv
+Elementary - S03E12 - The One That Got Away (2) WEBDL-1080p Proper.mkv
+Elementary - S03E13 - Hemlock WEBDL-1080p.en.srt
+Elementary - S03E13 - Hemlock WEBDL-1080p.mkv
+Elementary - S03E14 - The Female of the Species WEBDL-1080p.en.srt
+Elementary - S03E14 - The Female of the Species WEBDL-1080p.mkv
+Elementary - S03E15 - When Your Number's Up WEBDL-1080p.en.srt
+Elementary - S03E15 - When Your Number's Up WEBDL-1080p.mkv
+Elementary - S03E16 - For All You Know WEBDL-1080p.mkv
+Elementary - S03E17 - T-Bone and the Iceman WEBDL-1080p.mkv
+Elementary - S03E18 - The View From Olympus WEBDL-1080p.en.srt
+Elementary - S03E18 - The View From Olympus WEBDL-1080p.mkv
+Elementary - S03E19 - One Watson, One Holmes WEBDL-1080p.en.srt
+Elementary - S03E19 - One Watson, One Holmes WEBDL-1080p.mkv
+Elementary - S03E20 - A Stitch in Time WEBDL-1080p.en.srt
+Elementary - S03E20 - A Stitch in Time WEBDL-1080p.mkv
+Elementary - S03E21 - Under My Skin WEBDL-1080p.en.srt
+Elementary - S03E21 - Under My Skin WEBDL-1080p.mkv
+Elementary - S03E22 - The Best Way Out Is Always Through WEBDL-1080p.en.srt
+Elementary - S03E22 - The Best Way Out Is Always Through WEBDL-1080p.mkv
+Elementary - S03E23 - Absconded WEBDL-1080p.en.srt
+Elementary - S03E23 - Absconded WEBDL-1080p.mkv
+Elementary - S03E24 - A Controlled Descent WEBDL-1080p.en.srt
+Elementary - S03E24 - A Controlled Descent WEBDL-1080p.mkv
+
+/linux/media/tv_shows/Good Eats/:
+Season 3  Season 4
+
+/linux/media/tv_shows/Good Eats/Season 3/:
+Good Eats S03E10 Pantry Raid III - Cool Beans 480i PDTV DD2.0 MPEG2-TrollSD.ts  Good.Eats.S03E13.DVD.avi
+Good.Eats.S03E11.SDTV.avi                                                       Good.Eats.S03E14.SDTV.avi
+Good.Eats.S03E12.DVD.avi                                                        
+
+/linux/media/tv_shows/Good Eats/Season 4/:
+Good.Eats.S04E01.DVD.avi  Good.Eats.S04E02.Pressure.DVDRip.XviD-SPRiNTER.avi
+
+/linux/media/tv_shows/Planet Earth/:
+Season 1
+
+/linux/media/tv_shows/Planet Earth/Season 1/:
+Planet.Earth.2006.S01E01.Special.Edition.Hybrid.1080p.BluRay.DTS.x264-DON.mkv
+
+/linux/media/tv_shows/The Blue Planet/:
+Season 1
+
+/linux/media/tv_shows/The Blue Planet/Season 1/:
+The.Blue.Planet.S01E01.1080p.BluRay.x264-YELLOWBiRD.mkv
+
+/linux/media/tv_shows/Tuto_radio/:
+Conf Tuto Radio #10 - Cholécystite Aiguë !-BzAuXu1ibrM.webm
+Conf Tuto Radio #6  - Grossesse Extra-Utérine !-sZrr_2vbDY4.mkv

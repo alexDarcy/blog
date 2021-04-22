@@ -1,0 +1,2058 @@
+#+TITLE: Todo
+
+* Autres :misc:
+** TODO Ourlet T-shirt [1/2]
+** TODO Réparer vélo maman
+** WAIT Demande carte solidaire Grand Est
+-80% tarif de train
+Envoyé le [2021-02-13 Sat]
+Jamais arrivée à la maison, refaire demande avec attestation sur l'honneur
+** KILL Déclaration impots Laure
+   DEADLINE: <2019-05-16 Thu>
+** TODO Raccourcir manches costumes :couture:
+** TODO Vérifier durée concession cimetière pour thierry
+** DONE Inscription CMU => Accepté à partir du 01/12
+*** DONE Notes
+Simulation fite 10/2019 : seuil trop élevé : 18 000€ sur l'année (ou 13 000 si
+2 personnes dans le foyer). À refaire dans 1 mois ou 2
+*** DONE Demande faite <2020-05-09 Sat>
+[[file:~/backups/hubic/Private/Personal/documents/secu/DemandeComplementaireSanteSolidaire.pdf][file:~/backups/hubic/Private/Personal/documents/secu/DemandeComplementaireSanteSolidaire.pdf]]
+*** DONE Refusé le<2020-05-18 Mon> car ressources = 19201.22€
+*** DONE Nouvelle demande le<2020-10-05 Mon>
+*** DONE Résilier Unéo
+**** DONE Lettre envoyée en recommandée le 15/11/2020
+** TODO Échange voyage japon été 2020
+*** DONE Remborusement Japan airlines
+**** DONE Demande faite
+(Sans frais)
+**** DONE vérifier remboursement
+*** DONE turkish airlines
+**** DONE Demande faite (open ticket) le [2020-06-17 Wed]
+**** DONE Relance le [2020-07-06 Mon]
+Car laure a déjà reçu son échange
+A priori ok, cf notmuch:id:817091247.13495.1594457372183.JavaMail.bea@crmcctr01
+* Projets
+** TODO Org-chef
+*** TODO Formatter recettes existantes (cf package org-chef)
+*** TODO Parser avec haskell
+*** TODO Génerer menu sur une semaine
+*** TODO Ajouter recettes de livres connus
+*** TODO Génerer liste de courses
+* Blog :blog:
+** TODO [[file:Emacs_tips.org][Emacs_tips]] :blog:
+** TODO Freebsd 2020
+*** Nvidia 950 : 
+/etc/rc.conf:
+dbus_enable="YES"
+linux_enable="YES"  # for nvidia
+kld_list="nvidia-modeset" #nvidia does not work
+
+Et faire un xorg.conf dans /usr/local/etc/X11/xorg.conf.d/driver-nvidia.conf
+Section "Device"
+        Identifier "NVIDIA card"
+        Driver "nvidia"
+EndSection
+Source: https://forums.freebsd.org/threads/howto-setup-xorg-with-nvidias-driver.52311/
+
+*** Bepo: télécharger ici
+https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=160227
+
+Attention, ne pas le mettre dans /usr/share/syscons/keymaps/ mais  /usr/share/vt/keymaps/ !
+Puis dans /etc/rc.conf
+keymap="fr-dvorak-bepo"
+*** TODO Non résolu : grub avec Zfs on root
+*** OpenZFs on freebsd 12
+Ne pas utiliser openzfs avec pkg, mais la version des ports !!! (openzfs et openzfs-kmod)
+Ne pas upgrader la pool non plus avant Freebsd 13
+*** Emacs as daemon
+On peut utiliser rc.d (voir la discussion ici
+https://forums.freebsd.org/threads/running-emacs-as-a-daemon.78392/#post-489850)
+mais cela ralentit le démarrage.
+Le plus simple est d'utiliser crontab avec @reboot :
+
+@reboot /usr/local/bin/emacs --daemon
+*** Nzbget
+Fichiers sont dans /usr/local/share/nzbget
+Éditer le fichier  /usr/local/etc/nzbget ( NB root qui s'en occupe pour partager les fichiers avec Linux)
+Dans /etc/rc.conf:
+nzbget_enable="YES
+
+#+BEGIN_SRC shell
+#!/bin/sh
+
+. /etc/rc.subr
+
+name=nzbget
+rcvar=nzbget_enable
+
+load_rc_config ${name}
+: ${nzbget_enable:=NO}
+
+command=/usr/local/bin/nzbget
+command_args="-c /linux/nzbget/nzbget-freebsd.conf"
+
+start_cmd="${name}_start"
+stop_cmd="${name}_stop"
+
+load_rc_config $name
+: ${nzbget_enable:=no}
+: ${_msg="Nzbget daemon started."}
+
+nzbget_start()
+{
+    ${command} ${command_args} -D
+}
+nzbget_stop()
+{
+    ${command} ${command_args}  -Q
+}
+run_rc_command "$1"
+#+ENd_SRC
+
+*** Micro USB blue snowball
+Volume : mixtui + F6 pour choisir le micro + F4 pour volume
+Discord : ok sous firefox
+
+Possible sosu chrome mais avec sndio
+1. Chercher le numéro avec
+ cat /dev/sndstat
+Installed devices:
+pcm0: <NVIDIA (0x0072) (HDMI/DP 8ch)> (play)
+pcm1: <NVIDIA (0x0072) (HDMI/DP 8ch)> (play)
+pcm2: <NVIDIA (0x0072) (HDMI/DP 8ch)> (play)
+pcm3: <NVIDIA (0x0072) (HDMI/DP 8ch)> (play)
+pcm4: <Realtek ALC887 (Rear Analog 7.1/2.0)> (play/rec) default
+pcm5: <Realtek ALC887 (Front Analog)> (play/rec)
+pcm6: <Realtek ALC887 (Rear Digital)> (play)
+pcm7: <Realtek ALC887 (Onboard Digital)> (play)
+pcm8: <USB audio> (rec)
+No devices installed from userspace
+
+2. sndiod -f rsnd/8
+3. Test micro avec
+    aucat -o test.wav (+ control-c)
+    mplayer test.wav
+
+Attention, semble faire du statique avec la version firefox ... Donc non compatible.
+Si permanent :
+sndiod_enable = "YES"
+sndiod_flags = "-f rsnd/1 -F rsnd/3"
+
+/etc/rc.conf
+*** Mpd
+https://forums.freebsd.org/threads/howto-desktop-musicpd-mpd-configuration.54600/
+Ajouter au crontab : /usr/local/bin/musicpd ~/.mpd/musicpd.conf
+*** Printer HL110
+Télécharger driver cups et lpd au format .deb
+https://support.brother.com/g/b/downloadlist.aspx?c=us_ot&lang=en&prod=hl1110_us_eu_as&os=128
+
+Dans cupswrapper et lpr :
+ tar xvzf data.tar.gz -C /
+Install *psutils* and *linux_base-c7*:
+Puis (root) on lance les commande dans postinst (modifiée)
+#+BEGIN_SRC  shell
+ sed -i.bak 's/chown lp/chown root/' /opt/brother/Printers/HL1110/inf/setupPrintcap
+ sed -i.bak 's/chgrp lp/chgrp daemon/' /opt/brother/Printers/HL1110/inf/setupPrintcap
+/opt/brother/Printers/HL1110/inf/setupPrintcap HL1110 -i USB
+/opt/brother/Printers/HL1110/inf/braddprinter -i HL1110
+ echo \[psconvert2\]   >>/opt/brother/Printers/HL1110/inf/brHL1110func
+ echo pstops=/usr/local/bin/pstops  >> /opt/brother/Printers/HL1110/inf/brHL1110func
+ echo \[psconvert2\]   >>/opt/brother/Printers/HL1110/inf/brHL1110func
+ ln -s /opt/brother/Printers/HL1110/inf/brHL1110rc       /etc/opt/brother/Printers/HL1110/inf/brHL1110rc
+
+# No need for that
+#  echo "#! /bin/sh"  > /usr/local/bin/brprintconflsr3_HL1110
+# echo "/opt/brother/Printers/HL1110/lpd/brprintconflsr3 -P HL1110" '$''*'           >>/usr/local/bin/brprintconflsr3_HL1110
+#  chmod 755 /usr/local/bin/brprintconflsr3_HL1110
+
+#+END_SRC
+Because it complaints that
+/usr/local/libexec/cups/filter/brother_ldwrapper_HL1110 does not exist :
+
+#+BEGIN_SRC
+ln -s /opt/brother/Printers/HL1110/cupswrapper/brother_lpdwrapper_HL1110  /usr/local/libexec/cups/filter
+#+END_SRC
+
+** TODO Useful tools i'v discovered
+- ripgrep
+- ripgrep-all
+- fd : usable with emacs (fd-dired)
+- fzf : usable with emacs (fd-dired) (less useful with doom as there is a recursive search)
+** TODO Compiler du latex avec Hakyl
+Problème : fonctionne en standalone mais pas en incluant un header (testé avec rubber)
+** TODO Post sur config email :blog:
+Gnus vs notmuch
+Notmuch : very fast, easy to search. But you need to have scripts to rename/move mails (so a bit of setup)
+Gnus: very useful to read news and only show unread mails. Search with mairix is slow (not mairix itself) and slow at startup. Could not make notmuch work
+
+I tried notmuch, then gnus, then notmuch
+** TODO Post sur facebook messenger inside emacs
+**** Requirements
+- bitlbee
+- erc
+- bitlbee-facebook
+**** Config
+  #+BEGIN_SRC LISP
+  ;; ---- ERC
+;; A helper function to auto-start bitlbee
+(defun bitlbee-start ()
+  (interactive)
+  (erc :server "localhost" :port 6667 :nick "alex" :password "sharingan"))
+
+;; Here we start ERC at boot, with the password here for minimal coding
+(use-package! erc
+  ;; Bitlbee by default
+  :commands (bitlbee-start)
+  :config
+  ;; Autojoin must be done inside bitlbee directly
+  (setq erc-hide-list '("JOIN" "PART" "QUIT" "NICK"))
+)
+#+END_SRC LISP
+
+**** Result
+M-x bitlbee-start start bitlbee. You need to follow these instuctions
+https://wiki.bitlbee.org/HowtoFacebookMQTT
+> account add facebook <email> <password>
+> account facebook on
+> fbjoin facebook <index> <channel>
+The index is given either by fbchats facebook or must be copying manually from
+facebook
+
+If you want to autojoin a channel, it must be done in bitlbee direcly
+channel blabla set auto_join true
+NB the config file are most likely in /var/lib/bitlbee/$USER.xml
+** TODO Xmonad + conky + dzen
+Fichier "minimal" (comparé à ce qu'on trouve en ligne)
+#+begin_src haskell
+import XMonad hiding (Tall)
+import XMonad.Hooks.FadeInactive
+import XMonad.Config.Desktop
+import XMonad.Hooks.DynamicLog
+import XMonad.Hooks.SetWMName
+import XMonad.Layout.NoBorders
+import XMonad.Layout.HintedTile
+import XMonad.Hooks.ManageDocks
+import XMonad.Hooks.EwmhDesktops
+import qualified Data.Map as M -- Allow fullscreen for firefox, mcomix
+import qualified XMonad.StackSet as W
+import XMonad.Hooks.ManageHelpers -- isFullscreen ?
+import XMonad.Util.EZConfig  -- add keybindings easily
+import XMonad.Util.Run -- also
+
+-- ON freebsd, the info in xmobar do not really work... Try conky (info) + dzen (status bar)
+-- Hack : we have to set the x position manually
+-- The dock option is importsant
+rightBar = "conky | dzen2  -ta 'r' -x '1000' -w '1000' -dock  "
+leftBar = "dzen2  -x '0' -ta 'l' -w '1000' -dock  "
+
+--example call to statusBar in main.
+main = do
+  dzenLeftBar <- spawnPipe leftBar
+  dzenRightBar <- spawnPipe rightBar
+  xmonad $ docks $ ewmh $ def { -- docks to make space for dzen statusbar
+      modMask = mod4Mask,
+      workspaces = map show [1..8],
+      -- startupHook = setWMName "LG3D",
+      manageHook=manageHook def <+> manageDocks,
+      -- Allow fullscreen for firefox, mcomix (??)
+      handleEventHook = handleEventHook def <+> fullscreenEventHook,
+      -- Keep statusbar in sight (Windows-w to toggle it)
+      layoutHook = avoidStruts .smartBorders $ layoutHook def,
+      -- With this, we have the workspaces number and window name
+      logHook  = myLogHook dzenLeftBar,
+      terminal = "alacritty" -- "st"
+    } `additionalKeysP` myKeys
+
+myLogHook h = dynamicLogWithPP def {
+  ppOutput = hPutStrLn h
+ }
+
+wkspacesBepo = ["\"", "«", "»", "(", ")"]
+
+-- M4 = mod4Mask = Window key
+myKeys = [("M4-e", spawn "emacs")
+         , ("M4-d", spawn "emacsclient -nc --eval '(dired nil)'")
+         , ("M4-é", spawn "emacsclient -nc")
+         , ("M4-S-f", spawn "firefox")
+         , ("M4-s", spawn "surf")
+         , ("M4-w", sendMessage ToggleStruts) -- Hack : fullscreen do not make the status bar disapear
+         ]
+         ++
+         -- bepo layout : switch workspaces with Windows + 1-2-3...
+         -- Generate both the switch to workspace (M4-number) and the move to workspace (M4-S-number)
+         [ ("M4-" ++ s ++ x, windows $ sf (show i)) | (i, x) <- zip [1..] wkspacesBepo
+           , (s, sf) <- [("", W.greedyView), ("S-", W.shift)]]
+         ++
+         [("<XF86MonBrightnessUp>", spawn "lux -a 5%")
+         , ("<XF86MonBrightnessDown>", spawn "lux -s 5%")
+         ]
+#+end_src haskell
+
+** TODO Zsh (fresh install)
+1. Install zsh
+2. Install antibody (plugin manager). On archlinux, I like yay  :
+   #+BEGIN_SRC shell
+   yay -Sy antibody
+   #+END_SRC
+3. Create a list of plugins in ~/.zsh_plugins.txt yay  :
+   #+BEGIN_SRC shell
+   echo '# Oh my zsh: fzf
+   robbyrussell/oh-my-zsh path:plugins/fzf' > ~/.zsh_plugins.txt
+   #+END_SRC
+4. Load plugins statically (fastest)
+   #+BEGIN_SRC shell
+   antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
+   #+END_SRC
+
+   #+RESULTS:
+
+5. Minimal .zshrc :
+   #+BEGIN_SRC shell
+   echo 'source ~/.zsh_plugins.sh' > ~/.zshrc
+   #+END_SRC
+
+   My config : FZF completion "everywhere"
+   My prompt
+   https://github.com/romkatv/powerlevel10k#antibody
+   I had to default to the ascii version. Even instaling the recommended font did not work in urxvt + source code pro.
+   (yay -S ttf-meslo-nerd-font-powerlevel10k)
+** TODO Default application (archlinux)
+Get the filetype with
+xdg-mime query filetype  ~/Books/test.pdf
+Edit ~/.config/mimeapps.list
+application/pdf=evince.deskop;
+** TODO Pass on windows
+Install gopass : get the .zip, put the exe somewhere and add it to the path.
+Then edit %APPDATA%/pasff .bat
+python "%APPDATA%\passff\passff.py" %*
+
+And python file in the same directory. Replace pass with gopass and "show" with "ls" (when there are no arguments)
+
+* FreeBSD
+** WAIT MAJ nzbhydra à 3.9
+*** DONE Mail au mainteneur
+Devra être fait dans la semaine
+** TODO Google chrome (linux binary)
+
+On essaye
+https://wiki.freebsd.org/LinuxJails
+Plutôt que
+ https://forums.freebsd.org/threads/linuxulator-how-to-run-google-chrome-linux-binary-on-freebsd.77559/
+
+*** Tentative 1 : echec
+#+begin_src shell
+sudo pkg install linux-steam-utils debootstrap
+#+end_src
+(linux-stem-utils inutile ?)
+
+#+begin_src shell
+sudo debootstrap --no-check-gpg bionic /compat/ubuntu
+#+end_src
+Echec.
+cp: '/etc/resolv.conf' and '/run/systemd/resolve/stub-resolv.conf' are the same file
+
+*** Tenttative 2
+#+begin_src shell
+pkg install linux-steam-utils debootstrap pulseaudio
+debootstrap --arch=amd64 --no-check-gpg focal /compat/ubuntu
+#+end_src
+Ok pour install
+#+begin_src
+cd /compat/linux/lib64/ && rm ./ld-linux-x86-64.so.2 ; ln -s ../lib/x86_64-linux-gnu/ld-2.31.so ld-linux-x86-64.so.2
+#+end_src
+Ajouter à /etc/fstab
+#+begin_src shell
+# Ubuntu jail
+devfs           /compat/ubuntu/dev      devfs           rw,late                      0       0
+tmpfs           /compat/ubuntu/dev/shm  tmpfs           rw,late,size=1g,mode=1777    0       0
+fdescfs         /compat/ubuntu/dev/fd   fdescfs         rw,late,linrdlnk             0       0
+linprocfs       /compat/ubuntu/proc     linprocfs       rw,late                      0       0
+linsysfs        /compat/ubuntu/sys      linsysfs        rw,late                      0       0
+/tmp            /compat/ubuntu/tmp      nullfs          rw,late                      0       0
+/home           /compat/ubuntu/home     nullfs          rw,late                      0       0
+#+end_src
+#+begin_src shell
+mount -al
+printf "APT::Cache-Start 251658240;" > /compat/ubuntu/etc/apt/apt.conf.d/00aptitude
+
+printf "deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse" > /compat/ubuntu/etc/apt/sources.list
+
+# Add Chrome repository:
+printf "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /compat/ubuntu/etc/apt/sources.list.d/google-chrome.list
+fetch -o /compat/ubuntu/ https://dl.google.com/linux/linux_signing_key.pub
+chroot /compat/ubuntu /bin/bash
+#+end_src
+
+Dans le chroot
+#+begin_src shell
+apt update
+apt install gnupg
+apt-key add linux_signing_key.pub
+apt update
+apt install -y google-chrome-stable
+#+end_src
+Then
+#+begin_src shell
+touch /compat/ubuntu/bin/chrome && chmod +x /compat/ubuntu/bin/chrome
+#+end_src
+Add it
+#+begin_src shell
+#!/compat/linux/bin/bash
+
+export CHROME_PATH="/opt/google/chrome/chrome"
+export CHROME_WRAPPER="`readlink -f "$0"`"
+export LD_LIBRARY_PATH=/usr/local/steam-utils/lib64/fakeudev
+export LD_PRELOAD=/usr/local/steam-utils/lib64/webfix/webfix.so
+export LIBGL_DRI3_DISABLE=1
+
+exec -a "$0" "$CHROME_PATH" --no-sandbox --no-zygote --test-type --v=0 "$@"
+#+end_src
+
+Echec : libtinfo.so.6 cannot openshared
+=>
+#+begin_src shell
+sysctl compat.linux.emul_path=/compat/ubuntu
+# Message d'erreur
+chmod 1777 /dev/shm
+#+end_src
+Marche après reboot mais micro non reconnu par discord
+
+Essai install discord
+** TODO Man page rclone
+Tuto
+http://manpages.bsd.lv/mdoc.html
+ET surtout man 7 mdoc
+Éventuellement
+https://forums.freebsd.org/threads/howto-create-a-manpage-from-scratch.13200/
+*** KILL Conversion depuis markdown avec pandoc => trop moche
+*** DONE Synposis
+Completer avec
+https://raw.githubusercontent.com/rclone/rclone/master/docs/content/_index.md
+*** TODO Commandes
+**** DONE Résumé dans le man principal
+https://github.com/rclone/rclone/blob/master/docs/content/commands/rclone.md
+1 entrée pour chaque commande...
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/filtering.md][filtering.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/cache.md][cache.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/alias.md][alias.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/union.md][union.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/chunker.md][chunker.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/compress.md][compress.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/crypt.md][crypt.md]]
+*** TODO Backendds
+1 entrée pour chaque
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/amazonclouddrive.md][amazonclouddrive.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/azureblob.md][azureblob.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/b2.md][b2.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/jottacloud.md][jottacloud.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/koofr.md][koofr.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/local.md][local.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/mailru.md][mailru.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/mega.md][mega.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/memory.md][memory.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/onedrive.md][onedrive.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/opendrive.md][opendrive.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/pcloud.md][pcloud.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/premiumizeme.md][premiumizeme.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/privacy.md][privacy.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/putio.md][putio.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/qingstor.md][qingstor.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/seafile.md][seafile.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/s3.md][s3.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/sftp.md][sftp.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/sharefile.md][sharefile.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/sugarsync.md][sugarsync.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/swift.md][swift.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/tardigrade.md][tardigrade.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/webdav.md][webdav.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/yandex.md][yandex.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/zoho.md][zoho.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/ftp.md][ftp.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/googlecloudstorage.md][googlecloudstorage.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/googlephotos.md][googlephotos.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/hdfs.md][hdfs.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/http.md][http.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/hubic.md][hubic.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/drive.md][drive.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/dropbox.md][dropbox.md]]
+
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/fichier.md][fichier.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/filefabric.md][filefabric.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/box.md][box.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/remote_setup.md][remote_setup.md]]
+*** STRT Options
+**** DONE Résumé dans le man principal =  [[~/projects/doc-freebsd/rclone/docs/content/flags.md][flags.md]]
+**** TODO Version détaillée dans rclone-flags
+*** TODO Filters [[~/projects/doc-freebsd/rclone/docs/content/filtering.md][filtering.md]]
+*** TODO Remote control [[~/projects/doc-freebsd/rclone/docs/content/rc.md][rc.md]]
+*** Autres
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/gui.md][gui.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/authors.md][authors.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/bugs.md][bugs.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/docs.md][docs.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/faq.md][faq.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/install.md][install.md]]
+**** TODO [[~/projects/doc-freebsd/rclone/docs/content/overview.md][overview.md]]
+**** DONE [[~/projects/doc-freebsd/rclone/docs/content/_index.md][_index.md]]
+** KILL Port haskell-language-server
+*** KILL V1 Une seulle version de GHC
+ cabal new-configure
+**** KILL Version avec dépendences manuelle : echec
+ #+begin_src shell
+ cabal new-configure
+ # $FreeBSD$
+
+PORTNAME=	haskell-language-server
+DISTVERSION=	1.0.0
+CATEGORIES=	devel haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=    Integration point for ghcide and haskell-ide-engine.
+
+LICENSE=    APACHE20
+
+BUILD_DEPENDS= git:devel/git
+
+
+USES=		cabal
+
+USE_CABAL=  cabal-install-parsers-0.3.0.1_1 \
+			lukko-0.1.1.3_1 \
+			cryptohash-sha256-0.11.102.0 \
+			network-uri-2.6.4.1 \
+            tar-0.5.1.1_3
+
+USE_GITHUB=	yes
+GH_ACCOUNT=	haskell
+
+post-patch:
+	${CP} ${WRKSRC}/install.hs ${WRKSRC}/install
+.   for package in ${USE_CABAL}
+	${MV} ${WRKSRC}/${package:C/_[0-9]+//} ${WRKSRC}/install
+	echo "         ./"${package:C/_[0-9]+//} >> ${WRKSRC}/install/cabal.project
+.	endfor
+
+
+do-build:
+	cd ${WRKSRC}/install && cabal v2-build
+
+.include <bsd.port.mk>
+
+ #+end_src
+**** DONE Génerer la list des dépendences
+CABAL_HOME=$(pwd)/cabal-home
+mkdir $CABAL_HOME
+env HOME=${CABAL_HOME} cabal new-update
+env HOME=${CABAL_HOME} cabal new-configure
+env HOME=${CABAL_HOME} cabal new-build --dependencies-only
+**** Conclusion
+Port réécrit par arrowd :
+- hs-hls-install est installé par un port séparé
+- puis on l'utilise pour install hs-haskell-language-server
+Toute la difficulté vient du fait qu'on ne peut pas laisser cabal gérer
+** WAIT Port ripgrep-all
+Soumis https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=255233
+
+* Impôts
+* Banque :banque:
+** TODO Importer comptes Caisse Epargne dans ledger
+*** TODO Paris
+*** TODO Metz
+** DONE Signaler incident avec NZBgeek
+Incident reçu le <2020-12-28 Tue>
+Signalé à Boursorama le <2020-12-29 Tue>
+* Computer science
+** TODO 99 haskell [26/99]
+* Cuisine :cooking:
+** Desserts
+*** TODO Lebkuchen de Nuremberg
+25% de noisettees, noix amandes, sucre, chocolat 13%, farine de blé, glocuse,
+écorce d'orange, sucre inverti,
+oeuf x2, blanc d'oeuf, écorce de citron
+fécule de pomme de terre
+figues séchées
+caséinate (lait)
+gluten
+sirpos de sucre caramélisé,
+amison, sel
+*** TODO Brownie shortbread
+https://cooking.nytimes.com/recipes/1020851-bittersweet-brownie-shortbread
+*** TODO Mousse de chocolat au tofu
+  http://www.foodnetwork.co.uk/recipes/dark-chocolate-mousse.html?utm_source=foodnetwork.com&utm_medium=domestic
+*** TODO Egyptian shortbread
+*** TODO Mousse aux fraises de raymond oliver
+** Salé
+*** TODO Légumes fermentés (pickles)
+  https://www.ancient-egypt-online.com/ancient-egyptian-recipes.html
+*** TODO Cherry kebab
+*** TODO Yoghurt bulgur
+  https://www.reddit.com/r/52weeksofcooking/comments/9fttei/week_37_ancient_recipes_yogurt_bulgur_soup/
+*** TODO Tabouleh
+  http://www.foodnetwork.co.uk/recipes/tabbouleh.html?utm_source=foodnetwork.com&utm_medium=domestic
+*** TODO Pastramini
+** Pain
+*** TODO Pain à la pomme de terre (recette allemande)
+** Levain
+*** PROJ Brioche au levain
+*** TODO Bagel
+https://www.baked-theblog.com/new-york-style-sourdough-bagels-with-roasted-garlic-labneh/
+*** TODO Pancake v2
+https://cooking.nytimes.com/recipes/1018025-sourdough-pancake-or-waffle-batter
+** Good eats
+*** TODO Cabbage blanc selon Alton Brown
+*** TODO Cabbage rouge + pommes braisé selon Alton Brown
+*** TODO Pancake selon Alton Brown
+*** Pdt
+*** TODO Pdt entières au four
+*** TODO Mashed potatoes S1
+*** TODO Gratin (allégé)  S1
+* Fac :fac:
+* Médecine
+* Gymnastics :gym:
+** HOLD Splits :daily:
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2020-06-01 Mon 14:28]
+:END:
+- State "DONE"       from "TODO"       [2020-06-01 Mon 14:28]
+- State "DONE"       from "TODO"       [2020-05-29 Fri 00:00]
+- State "DONE"       from "TODO"       [2020-05-28 Thu 00:35]
+- State "DONE"       from "TODO"       [2020-05-26 Tue 00:28]
+- State "DONE"       from "TODO"       [2020-05-22 Fri 00:28]
+- State "DONE"       from "TODO"       [2020-05-20 Wed 00:56]
+- State "DONE"       from "TODO"       [2020-05-17 Sun 22:15]
+- State "DONE"       from "TODO"       [2020-05-16 Sat 22:15]
+- State "DONE"       from "TODO"       [2020-05-13 Wed 22:15]
+- State "DONE"       from "TODO"       [2020-05-12 Tue 22:15]
+- State "DONE"       from "TODO"       [2020-05-10 Sun 22:38]
+- State "DONE"       from "TODO"       [2020-05-09 Sat 22:38]
+- State "DONE"       from "TODO"       [2020-05-08 Fri 00:25]
+- State "DONE"       from "TODO"       [2020-05-04 Mon 00:22]
+- State "DONE"       from "TODO"       [2020-05-03 Sun 00:22]
+- State "DONE"       from "TODO"       [2020-05-02 Sat 00:22]
+- State "DONE"       from "TODO"       [2020-04-27 Mon 00:22]
+- State "DONE"       from "TODO"       [2020-04-26 Sun 00:22]
+** TODO Handstand :daily:
+SCHEDULED: <2021-04-12 Mon .+1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2021-04-11 Sun 14:53]
+:END:
+- State "DONE"       from "TODO"       [2021-04-11 Sun 14:53]
+- State "DONE"       from "TODO"       [2021-04-10 Sat 00:37]
+- State "DONE"       from "TODO"       [2021-04-09 Fri 00:37]
+- State "DONE"       from "TODO"       [2021-04-08 Thu 00:37]
+- State "DONE"       from "TODO"       [2021-03-05 Fri 00:37]
+- State "DONE"       from "TODO"       [2021-03-03 Wed 00:15]
+- State "DONE"       from "TODO"       [2021-03-01 Mon 22:28]
+- State "DONE"       from "TODO"       [2021-02-22 Mon 23:13]
+- State "DONE"       from "TODO"       [2021-02-21 Sun 21:47]
+- State "DONE"       from "TODO"       [2021-02-18 Thu 23:56]
+- State "DONE"       from "TODO"       [2021-02-18 Thu 23:56]
+- State "DONE"       from "TODO"       [2021-02-17 Wed 23:56]
+- State "DONE"       from "TODO"       [2021-02-06 Sat 20:12]
+- State "DONE"       from "TODO"       [2021-02-04 Thu 23:37]
+- State "DONE"       from "TODO"       [2021-02-03 Wed 23:37]
+- State "DONE"       from "TODO"       [2021-01-29 Fri 20:46]
+- State "DONE"       from "TODO"       [2021-01-28 Thu 20:46]
+- State "DONE"       from "TODO"       [2021-01-27 Wed 20:46]
+- State "DONE"       from "TODO"       [2021-01-04 Mon 19:04]
+- State "DONE"       from "TODO"       [2021-01-03 Sun 19:04]
+- State "DONE"       from "TODO"       [2021-01-02 Sat 19:04]
+- State "DONE"       from "TODO"       [2021-01-01 Fri 19:04]
+- State "DONE"       from "TODO"       [2020-11-05 Thu 19:04]
+- State "DONE"       from "TODO"       [2020-11-04 Mon 19:04]
+- State "DONE"       from "TODO"       [2020-09-21 Mon 19:04]
+- State "DONE"       from "TODO"       [2020-09-19 Sat 12:39]
+- State "DONE"       from "TODO"       [2020-07-21 Tue 22:21]
+- State "DONE"       from "TODO"       [2020-07-18 Sat 22:40]
+- State "DONE"       from "TODO"       [2020-07-06 Mon 22:25]
+- State "DONE"       from "TODO"       [2020-07-02 Thu 22:03]
+- State "DONE"       from "TODO"       [2020-07-01 Wed 22:11]
+- State "DONE"       from "TODO"       [2020-06-30 Tue 22:11]
+- State "DONE"       from "TODO"       [2020-06-26 Fri 00:13]
+- State "DONE"       from "TODO"       [2020-06-22 Mon 20:29]
+- State "DONE"       from "TODO"       [2020-06-21 Sun 20:29]
+- State "DONE"       from "TODO"       [2020-06-19 Fri 22:56]
+- State "DONE"       from "TODO"       [2020-06-18 Thu 16:18]
+- State "DONE"       from "TODO"       [2020-06-13 Sat 22:57]
+- State "DONE"       from "TODO"       [2020-06-11 Thu 21:34]
+- State "DONE"       from "TODO"       [2020-06-09 Tue 22:56]
+- State "DONE"       from "TODO"       [2020-06-03 Wed 21:12]
+- State "DONE"       from "TODO"       [2020-06-01 Mon 21:45]
+- State "DONE"       from "TODO"       [2020-05-31 Sun 14:06]
+- State "DONE"       from "TODO"       [2020-05-28 Thu 15:20]
+- State "DONE"       from "TODO"       [2020-05-28 Thu 00:35]
+- State "DONE"       from "TODO"       [2020-05-26 Tue 21:24]
+- State "DONE"       from "TODO"       [2020-05-23 Sat 21:24]
+- State "DONE"       from "TODO"       [2020-05-22 Fri 00:02]
+- State "DONE"       from "TODO"       [2020-05-20 Wed 21:44]
+- State "DONE"       from "TODO"       [2020-05-19 Tue 00:30]
+- State "DONE"       from "TODO"       [2020-05-13 Wed 22:14]
+- State "DONE"       from "TODO"       [2020-05-12 Tue 22:14]
+- State "DONE"       from "TODO"       [2020-05-10 Sun 22:14]
+- State "DONE"       from "TODO"       [2020-05-09 Sat 21:23]
+- State "DONE"       from "TODO"       [2020-05-08 Fri 00:25]
+- State "DONE"       from "TODO"       [2020-05-05 Tue 18:16]
+- State "DONE"       from "TODO"       [2020-05-02 Sat 22:41]
+- State "DONE"       from "TODO"       [2020-04-27 Mon 21:37]
+- State "DONE"       from "TODO"       [2020-04-26 Sun 23:09]
+- State "DONE"       from "TODO"        [2020-04-24 Fri 12:00]
+- State "DONE"       from "TODO"        [2020-04-22 Wed 12:00]
+- State "DONE"       from "TODO"        [2020-04-19 Sun 12:00]
+- State "DONE"       from "TODO"        [2020-04-18 Sat 12:00]
+- State "DONE"       from "TODO"        [2020-04-17 Fri 12:00]
+- State "DONE"       from "TODO"        [2020-04-16 Thu 12:00]
+- State "DONE"       from "TODO"        [2020-04-13 Mon 12:00]
+- State "DONE"       from "TODO"        [2020-04-10 Fri 12:00]
+- State "DONE"       from "TODO"        [2020-04-07 Tue 12:00]
+- State "DONE"       from "TODO"        [2020-04-05 Sun 12:00]
+- State "DONE"       from "TODO"        [2020-04-02 Thu 12:00]
+- State "DONE"       from "TODO"        [2020-03-30 Mon 12:00]
+- State "DONE"       from "TODO"        [2020-03-29 Sun 12:00]
+- State "DONE"       from "TODO"        [2020-03-28 Sat 12:00]
+- State "DONE"       from "TODO"        [2020-03-26 Thu 12:00]
+- State "DONE"       from "TODO"        [2020-03-25 Wed 12:00]
+- State "DONE"       from "TODO"        [2020-03-24 Tue 12:00]
+- State "DONE"       from "TODO"        [2020-03-23 Mon 12:00]
+- State "DONE"       from "TODO"        [2020-03-22 Sun 12:00]
+- State "DONE"       from "TODO"        [2020-03-21 Sat 12:00]
+- State "DONE"       from "TODO"        [2020-03-20 Fri 12:00]
+- State "DONE"       from "TODO"        [2020-03-19 Thu 12:00]
+- State "DONE"       from "TODO"        [2020-03-16 Mon 12:00]
+- State "DONE"       from "TODO"        [2020-03-14 Sat 12:00]
+- State "DONE"       from "TODO"        [2020-03-12 Thu 12:00]
+- State "DONE"       from "TODO"        [2020-03-10 Tue 12:00]
+- State "DONE"       from "TODO"        [2020-03-09 Mon 12:00]
+- State "DONE"       from "TODO"        [2020-03-07 Sat 12:00]
+- State "DONE"       from "TODO"        [2020-03-05 Thu 12:00]
+- State "DONE"       from "TODO"        [2020-03-04 Wed 12:00]
+- State "DONE"       from "TODO"        [2020-03-03 Tue 12:00]
+- State "DONE"       from "TODO"        [2020-03-02 Mon 12:00]
+- State "DONE"       from "TODO"        [2020-03-01 Sun 12:00]
+- State "DONE"       from "TODO"        [2020-02-29 Sat 12:00]
+- State "DONE"       from "TODO"        [2020-02-27 Thu 12:00]
+- State "DONE"       from "TODO"        [2020-02-23 Sun 12:00]
+- State "DONE"       from "TODO"        [2020-02-21 Fri 12:00]
+- State "DONE"       from "TODO"        [2020-02-20 Thu 12:00]
+- State "DONE"       from "TODO"        [2020-02-18 Tue 12:00]
+- State "DONE"       from "TODO"        [2020-02-17 Mon 12:00]
+- State "DONE"       from "TODO"        [2020-02-16 Sun 12:00]
+- State "DONE"       from "TODO"        [2020-02-15 Sat 12:00]
+- State "DONE"       from "TODO"        [2020-02-02 Sun 12:00]
+- State "DONE"       from "TODO"        [2020-02-01 Sat 12:00]
+- State "DONE"       from "TODO"        [2020-01-30 Thu 12:00]
+- State "DONE"       from "TODO"        [2020-01-21 Tue 12:00]
+- State "DONE"       from "TODO"        [2020-01-20 Mon 12:00]
+- State "DONE"       from "TODO"        [2020-01-19 Sun 12:00]
+- State "DONE"       from "TODO"        [2020-01-18 Sat 12:00]
+- State "DONE"       from "TODO"        [2020-01-13 Mon 12:00]
+- State "DONE"       from "TODO"        [2020-01-11 Sat 12:00]
+- State "DONE"       from "TODO"        [2020-01-09 Thu 12:00]
+- State "DONE"       from "TODO"        [2020-01-08 Wed 12:00]
+- State "DONE"       from "TODO"        [2020-01-07 Tue 12:00]
+- State "DONE"       from "TODO"        [2020-01-06 Mon 12:00]
+- State "DONE"       from "TODO"        [2020-01-05 Sun 12:00]
+- State "DONE"       from "TODO"        [2020-01-04 Sat 12:00]
+- State "DONE"       from "TODO"        [2020-01-03 Fri 12:00]
+- State "DONE"       from "TODO"        [2020-01-02 Thu 12:00]
+
+** KILL Backflip on trampoline :daily:
+   :PROPERTIES:
+   :LAST_REPEAT: [2020-06-26 Fri 00:13]
+   :END:
+   - State "DONE"       from "TODO"       [2020-06-26 Fri 00:13]
+   - State "DONE"       from "TODO"       [2020-06-21 Sun 22:00]
+   - State "DONE"       from "TODO"       [2020-06-20 Sat 22:00]
+   - State "DONE"       from "TODO"       [2020-06-11 Thu 21:34]
+   - State "DONE"       from "TODO"       [2020-06-09 Tue 22:56]
+   - State "DONE"       from "TODO"       [2020-06-06 Sat 17:26]
+   - State "DONE"       from "TODO"       [2020-06-01 Mon 21:45]
+   - State "DONE"       from "TODO"       [2020-05-31 Sun 21:39]
+   - State "DONE"       from "TODO"       [2020-05-30 Sat 00:00]
+   - State "DONE"       from "TODO"       [2020-05-23 Sat 21:24]
+   - State "DONE"       from "TODO"       [2020-05-20 Wed 21:44]
+   - State "DONE"       from "TODO"       [2020-05-19 Tue 22:19]
+   - State "DONE"       from "TODO"       [2020-05-10 Sun 22:10]
+   - State "DONE"       from "TODO"       [2020-05-05 Tue 18:16]
+   - State "DONE"       from "TODO"       [2020-05-02 Sat 22:41]
+   - State "DONE"       from "TODO"       [2020-04-26 Sun 23:09]
+   - State "DONE"       from "TODO"       [2020-04-23 Thu 23:11]
+   - State "DONE"       from "TODO"       [2020-04-18 Sat 21:56]
+   - State "DONE"       from "TODO"       [2020-04-17 Fri 21:28]
+   - State "DONE"       from "TODO"       [2020-04-07 Tue 21:55]
+   - State "DONE"       from "TODO"       [2020-04-04 Sat 00:06]
+   - State "DONE"       from "TODO"       [2020-04-03 Fri 00:06]
+   - State "DONE"       from "TODO"       [2020-03-20 Fri 00:06]
+   - State "DONE"       from "TODO"       [2020-03-19 Thu 22:17]
+   - State "DONE"       from "TODO"       [2019-12-19 Thu 17:03]
+   - State "DONE"       from "TODO"       [2019-12-16 Mon 18:41]
+   - State "DONE"       from "TODO"       [2019-12-10 Tue 19:36]
+   - State "DONE"       from "TODO"       [2019-12-07 Sat 20:19]
+   - State "DONE"       from "TODO"       [2019-12-06 Fri 20:19]
+   - State "DONE"       from "TODO"       [2019-11-30 Sat 21:22]
+   - State "DONE"       from "TODO"       [2019-11-26 Tue 20:43]
+   - State "DONE"       from "TODO"       [2019-11-24 Sun 22:43]
+   - State "DONE"       from "TODO"       [2019-11-10 Sun 20:13]
+   - State "DONE"       from "TODO"       [2019-10-28 Mon 20:13]
+   - State "DONE"       from "TODO"       [2019-10-17 Thu 22:27]
+   - State "DONE"       from "TODO"       [2019-09-05 Thu 22:59]
+   - State "DONE"       from "TODO"       [2019-09-04 Wed 22:59]
+   - State "DONE"       from "TODO"       [2019-09-01 Sun 22:59]
+   - State "DONE"       from "TODO"       [2019-08-31 Sat 22:59]
+   - State "DONE"       from "TODO"       [2019-08-30 Fri 23:07]
+   - State "DONE"       from "TODO"       [2019-08-29 Thu 23:07]
+   - State "DONE"       from "TODO"       [2019-08-24 Sat 23:07]
+   - State "DONE"       from "TODO"       [2019-08-22 Thu 23:56]
+   - State "DONE"       from "TODO"       [2019-08-19 Mon 22:19]
+   - State "DONE"       from "TODO"       [2019-08-18 Sun 16:53]\\
+     On se rapproche de la verticale !
+   - State "DONE"       from "TODO"       [2019-08-15 Thu 23:04]
+   - State "DONE"       from "TODO"       [2019-08-09 Fri 22:15]
+   - State "DONE"       from "TODO"       [2019-08-08 Thu 22:20]
+   - State "DONE"       from "TODO"       [2019-08-07 Wed 22:20]
+   - State "DONE"       from "TODO"       [2019-08-06 Tue 21:52]
+   - State "DONE"       from "TODO"       [2019-07-13 Sat 23:02]
+   - State "DONE"       from "TODO"       [2019-07-12 Fri 22:34]
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2019-07-10 Wed 22:26]
+   - State "DONE"       from "TODO"       [2019-07-09 Thu 13:10]
+   - State "DONE"       from "TODO"       [2019-07-04 Thu 13:10]
+   - State "DONE"       from "TODO"       [2019-07-03 Wed 13:10]
+   - State "DONE"       from "TODO"       [2019-06-16 Sun 13:10]
+   - State "DONE"       from "TODO"       [2019-06-15 Sat 13:10]
+   - State "DONE"       from "TODO"       [2019-06-12 Wed 22:41]
+   - State "DONE"       from "TODO"       [2019-06-07 Fri 00:53]
+   - State "DONE"       from "TODO"       [2019-05-30 Thu 00:53]
+   - State "DONE"       from "TODO"       [2019-05-28 Tue 00:53]
+   - State "DONE"       from "TODO"       [2019-05-27 Mon 00:53]
+   - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
+   - State "DONE"       from "TODO"       [2019-05-01 Wed 16:39]
+   - State "DONE"       from "TODO"       [2019-05-25 Sat 13:11]
+   - State "DONE"       from "TODO"       [2019-05-24 Fri 13:11]
+   - State "DONE"       from "TODO"       [2019-05-23 Thu 13:11]
+   - State "DONE"       from "TODO"       [2019-05-21 Tue 13:11]
+   - State "DONE"       from "TODO"       [2019-05-20 Mon 13:11]
+   - State "DONE"       from "TODO"       [2019-05-16 Thu 13:11]
+   - State "DONE"       from "TODO"       [2019-05-15 Wed 13:11]
+   - State "DONE"       from "TODO"       [2019-04-23 Tue 16:17]
+   - State "DONE"       from "TODO"       [2019-02-03 Sun 18:01]
+   - State "DONE"       from "TODO"       [2018-11-13 Tue 14:54]
+   - State "DONE"       from "TODO"       [2018-11-11 Sun 12:17] \\
+     Backflips
+   - State "DONE"       from "TODO"       [2018-11-09 Fri 16:11] \\
+Progression depuis le début avec vidéo. Pas trop mal. Front en bonne voie pour
+la technique
+   - State "DONE"       from "TODO"       [2018-11-08 Thu 16:11] \\
+     Idem, juste 2min
+   - State "DONE"       from "TODO"       [2018-11-07 Wed 16:11] \\
+   :END:
+2min, retour à la case 0
+** KILL L-sit (grease the groove) :daily:
+   SCHEDULED: <2020-03-20 Fri .+1d>
+:PROPERTIES:
+:LAST_REPEAT: [2020-03-19 Thu 22:18]
+:END:
+* Japanese :japanese:
+:PROPERTIES:
+:CATEGORY: japanese
+:END:
+** HOLD Japanesepod101
+*** DONE Beglnner S1 (170)
+*** DONE Beglnner S4
+*** TODO Upper beglnner S1
+**** TODO Lire leçon
+**** DONE Audio
+*** TODO Lower intermediate S1
+**** TODO Audio [41/]
+**** TODO PDF [8/]
+** TODO NHK Easy News :daily:
+SCHEDULED: <2021-01-25 Mon .+1d>
+:PROPERTIES:
+:STYLE:    habit
+:END:
+** TODO Visual Novel :daily:
+*** TODO Totono
+SCHEDULED: <2021-04-21 Wed .+1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2021-04-20 Tue 10:05]
+:END:
+- State "DONE"       from "TODO"       [2021-04-21 Wed 10:05]
+** KILL Vidéos Chocolate cacao
+*** KILL Tiramisu ice cream
+** TODO Anki :daily:
+SCHEDULED: <2021-03-02 Tue .+1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2021-03-01 Mon 22:55]
+:END:
+- State "DONE"       from "TODO"       [2021-03-01 Mon 22:55]
+- State "DONE"       from "TODO"       [2021-02-22 Mon 23:13]
+- State "DONE"       from "TODO"       [2021-02-18 Thu 23:56]
+- State "DONE"       from "TODO"       [2021-02-17 Wed 23:56]
+- State "DONE"       from "TODO"       [2021-02-15 Mon 23:15]
+- State "DONE"       from "TODO"       [2021-02-14 Sun 23:15]
+- State "DONE"       from "TODO"       [2021-02-11 Thu 23:57]
+- State "DONE"       from "TODO"       [2021-02-09 Tue 23:57]
+- State "DONE"       from "TODO"       [2021-02-08 Mon 23:57]
+- State "DONE"       from "TODO"       [2021-02-07 Sun 23:57]
+- State "DONE"       from "TODO"       [2021-02-04 Thu 23:37]
+- State "DONE"       from "TODO"       [2021-02-03 Wed 23:37]
+- State "DONE"       from "TODO"       [2021-02-02 Tue 21:18]
+- State "DONE"       from "TODO"       [2021-02-01 Mon 21:18]
+- State "DONE"       from "TODO"       [2021-01-31 Sun 15:44]
+- State "DONE"       from "TODO"       [2021-01-30 Sat 15:44]
+- State "DONE"       from "TODO"       [2021-01-29 Fri 10:50]
+- State "DONE"       from "TODO"       [2021-01-28 Thu 10:50]
+- State "DONE"       from "TODO"       [2021-01-27 Wed 10:50]
+** TODO Intermediate japanese (Miura) :daily:
+SCHEDULED: <2021-03-02 Tue .+1d>
+:PROPERTIES:
+:NOBLOCKING: t
+:STYLE:    habit
+:LAST_REPEAT: [2021-03-01 Mon 22:55]
+:END:
+- State "DONE"       from "TODO"       [2021-03-01 Mon 22:55]
+- State "DONE"       from "TODO"       [2021-02-22 Mon 23:13]
+- State "DONE"       from "TODO"       [2021-02-20 Sat 11:30]
+- State "DONE"       from "TODO"       [2021-02-19 Fri 11:30]
+- State "DONE"       from "TODO"       [2021-02-14 Sun 23:15]
+- State "DONE"       from "TODO"       [2021-02-09 Tue 23:57]
+- State "DONE"       from "TODO"       [2021-02-08 Mon 23:57]
+- State "DONE"       from "TODO"       [2021-02-07 Sun 23:57]
+- State "DONE"       from "TODO"       [2021-02-06 Sat 23:57]
+- State "DONE"       from "TODO"       [2021-02-03 Wed 21:18]
+- State "DONE"       from "TODO"       [2021-02-02 Tue 21:18]
+- State "DONE"       from "TODO"       [2021-02-01 Mon 21:18]
+- State "DONE"       from "TODO"       [2021-01-31 Sun 15:45]
+- State "DONE"       from "TODO"       [2021-01-30 Sat 15:45]
+- State "DONE"       from "TODO"       [2021-01-29 Fri 20:46]
+- State "DONE"       from "TODO"       [2021-01-28 Thu 20:46]
+- State "DONE"       from "TODO"       [2021-01-27 Wed 20:46]
+- State "DONE"       from "TODO"       [2021-01-26 Tue 10:47]
+- State "DONE"       from "TODO"       [2021-01-25 Mon 10:47]
+*** DONE Lesson 1
+**** DONE Dialogues
+**** DONE Grammar
+**** KILL Exercises
+**** DONE Anki
+*** TODO Lesson 2
+** HOLD Another :daily:
+** TODO Kyouiku kanji
+*** First grade (80 kanji)
+- [X] 一
+- [X] 二
+- [X] 三
+- [X] 四
+- [X] 五
+- [X] 六
+- [X] 七
+- [X] 八
+- [X] 九
+- [X] 十
+- [X] 百
+- [X] 千
+- [X] 上
+- [X] 下
+- [ ] 左
+- [ ] 右
+- [ ] 中
+- [ ] 大
+- [X] 小
+- [ ] 月
+- [ ] 日
+- [ ] 年
+- [ ] 早
+- [ ] 木
+- [ ] 林
+- [ ] 山
+- [ ] 川
+- [ ] 土
+- [ ] 空
+- [ ] 田
+- [ ] 天
+- [ ] 生
+- [ ] 花
+- [ ] 草
+- [ ] 虫
+- [ ] 犬
+- [ ] 人
+- [ ] 名
+- [ ] 女
+- [ ] 男
+- [ ] 子
+- [ ] 目
+- [ ] 耳
+- [ ] 口
+- [ ] 手
+- [ ] 足
+- [ ] 見
+- [ ] 音
+- [ ] 力
+- [ ] 気
+- [ ] 円
+- [ ] 入
+- [ ] 出
+- [ ] 立
+- [ ] 休
+- [ ] 先
+- [ ] 夕
+- [ ] 本
+- [ ] 文
+- [ ] 字
+- [ ] 学
+- [ ] 校
+- [ ] 村
+- [ ] 町
+- [ ] 森
+- [ ] 正
+- [ ] 水
+- [ ] 火
+- [ ] 玉
+- [ ] 王
+- [ ] 石
+- [ ] 竹
+- [ ] 糸
+- [ ] 貝
+- [ ] 車
+- [ ] 金
+- [X] 雨
+- [ ] 赤
+- [ ] 青
+*** Second grade
+- [ ] 数
+- [ ] 多
+- [ ] 少
+- [ ] 万
+- [ ] 半
+- [ ] 形
+- [ ] 太
+- [ ] 細
+- [ ] 広
+- [ ] 長
+- [ ] 点
+- [ ] 丸
+- [ ] 交
+- [ ] 光
+- [ ] 角
+- [ ] 計
+- [ ] 直
+- [ ] 線
+- [ ] 矢
+- [ ] 弱
+- [ ] 強
+- [ ] 高
+- [ ] 同
+- [ ] 親
+- [ ] 母
+- [ ] 父
+- [ ] 姉
+- [ ] 兄
+- [ ] 弟
+- [ ] 妹
+- [ ] 自
+- [ ] 友
+- [ ] 体
+- [ ] 毛
+- [ ] 頭
+- [ ] 顔
+- [ ] 首
+- [ ] 心
+- [ ] 時
+- [ ] 曜
+- [ ] 朝
+- [ ] 昼
+- [ ] 夜
+- [ ] 分
+- [ ] 週
+- [ ] 春
+- [ ] 夏
+- [ ] 秋
+- [ ] 冬
+- [X] 今
+- [ ] 新
+- [ ] 古
+- [ ] 間
+- [ ] 方
+- [ ] 北
+- [ ] 南
+- [ ] 東
+- [ ] 西
+- [ ] 遠
+- [ ] 近
+- [X] 前
+- [ ] 後
+- [ ] 内
+- [ ] 外
+- [ ] 場
+- [X] 地
+- [ ] 国
+- [ ] 園
+- [ ] 谷
+- [ ] 野
+- [ ] 原
+- [ ] 里
+- [ ] 市
+- [ ] 京
+- [ ] 風
+- [ ] 雪
+- [ ] 雲
+- [ ] 池
+- [ ] 海
+- [ ] 岩
+- [ ] 星
+- [ ] 室
+- [ ] 戸
+- [ ] 家
+- [ ] 寺
+- [ ] 通
+- [ ] 門
+- [ ] 道
+- [ ] 話
+- [ ] 言
+- [ ] 答
+- [ ] 声
+- [ ] 聞
+- [ ] 語
+- [ ] 読
+- [ ] 書
+- [ ] 記
+- [ ] 紙
+- [ ] 画
+- [ ] 絵
+- [ ] 図
+- [ ] 工
+- [ ] 教
+- [ ] 晴
+- [ ] 思
+- [ ] 考
+- [ ] 知
+- [ ] 才
+- [ ] 理
+- [ ] 算
+- [ ] 作
+- [ ] 元
+- [ ] 食
+- [ ] 肉
+- [ ] 馬
+- [ ] 牛
+- [ ] 魚
+- [X] 鳥
+- [ ] 羽
+- [ ] 鳴
+- [ ] 麦
+- [ ] 米
+- [ ] 茶
+- [ ] 色
+- [ ] 黄
+- [ ] 黒
+- [ ] 来
+- [ ] 行
+- [ ] 帰
+- [ ] 歩
+- [ ] 走
+- [ ] 止
+- [ ] 活
+- [ ] 店
+- [ ] 買
+- [ ] 売
+- [ ] 午
+- [ ] 汽
+- [ ] 弓
+- [ ] 回
+- [ ] 会
+- [ ] 組
+- [ ] 船
+- [ ] 明
+- [ ] 社
+- [ ] 切
+- [ ] 電
+- [ ] 毎
+- [ ] 合
+- [ ] 当
+- [ ] 台
+- [ ] 楽
+- [ ] 公
+- [ ] 引
+- [ ] 科
+- [ ] 歌
+- [ ] 刀
+- [ ] 番
+- [ ] 用
+- [ ] 何
+*** Third grade
+- [ ] 丁
+- [ ] 世
+- [ ] 両
+- [ ] 主
+- [ ] 乗
+- [ ] 予
+- [ ] 事
+- [ ] 仕
+- [ ] 他
+- [ ] 代
+- [ ] 住
+- [ ] 使
+- [ ] 係
+- [ ] 倍
+- [ ] 全
+- [ ] 具
+- [ ] 写
+- [ ] 列
+- [ ] 助
+- [ ] 勉
+- [ ] 動
+- [ ] 勝
+- [ ] 化
+- [ ] 区
+- [ ] 医
+- [ ] 去
+- [ ] 反
+- [ ] 取
+- [ ] 受
+- [ ] 号
+- [ ] 向
+- [ ] 君
+- [ ] 味
+- [ ] 命
+- [ ] 和
+- [ ] 品
+- [ ] 員
+- [ ] 商
+- [ ] 問
+- [ ] 坂
+- [ ] 央
+- [ ] 始
+- [ ] 委
+- [ ] 守
+- [ ] 安
+- [ ] 定
+- [ ] 実
+- [ ] 客
+- [ ] 宮
+- [ ] 宿
+- [ ] 寒
+- [ ] 対
+- [ ] 局
+- [ ] 屋
+- [ ] 岸
+- [ ] 島
+- [ ] 州
+- [ ] 帳
+- [ ] 平
+- [ ] 幸
+- [ ] 度
+- [ ] 庫
+- [ ] 庭
+- [ ] 式
+- [ ] 役
+- [ ] 待
+- [ ] 急
+- [ ] 息
+- [ ] 悪
+- [ ] 悲
+- [ ] 想
+- [ ] 意
+- [ ] 感
+- [ ] 所
+- [ ] 打
+- [ ] 投
+- [ ] 拾
+- [ ] 持
+- [ ] 指
+- [ ] 放
+- [ ] 整
+- [ ] 旅
+- [ ] 族
+- [ ] 昔
+- [ ] 昭
+- [ ] 暑
+- [ ] 暗
+- [ ] 曲
+- [ ] 有
+- [ ] 服
+- [ ] 期
+- [ ] 板
+- [ ] 柱
+- [ ] 根
+- [ ] 植
+- [ ] 業
+- [ ] 様
+- [ ] 横
+- [ ] 橋
+- [ ] 次
+- [ ] 歯
+- [ ] 死
+- [ ] 氷
+- [ ] 決
+- [ ] 油
+- [ ] 波
+- [ ] 注
+- [ ] 泳
+- [ ] 洋
+- [ ] 流
+- [ ] 消
+- [ ] 深
+- [ ] 温
+- [ ] 港
+- [ ] 湖
+- [ ] 湯
+- [ ] 漢
+- [ ] 炭
+- [ ] 物
+- [ ] 球
+- [ ] 由
+- [ ] 申
+- [ ] 界
+- [ ] 畑
+- [ ] 病
+- [ ] 発
+- [ ] 登
+- [ ] 皮
+- [ ] 皿
+- [ ] 相
+- [ ] 県
+- [ ] 真
+- [ ] 着
+- [ ] 短
+- [ ] 研
+- [ ] 礼
+- [ ] 神
+- [ ] 祭
+- [ ] 福
+- [ ] 秒
+- [ ] 究
+- [ ] 章
+- [ ] 童
+- [ ] 笛
+- [ ] 第
+- [ ] 筆
+- [ ] 等
+- [ ] 箱
+- [ ] 級
+- [ ] 終
+- [ ] 緑
+- [ ] 練
+- [ ] 羊
+- [ ] 美
+- [ ] 習
+- [ ] 者
+- [ ] 育
+- [ ] 苦
+- [ ] 荷
+- [ ] 落
+- [ ] 葉
+- [ ] 薬
+- [ ] 血
+- [ ] 表
+- [ ] 詩
+- [ ] 調
+- [ ] 談
+- [ ] 豆
+- [ ] 負
+- [ ] 起
+- [ ] 路
+- [ ] 身
+- [ ] 転
+- [ ] 軽
+- [ ] 農
+- [ ] 返
+- [ ] 追
+- [ ] 送
+- [ ] 速
+- [ ] 進
+- [ ] 遊
+- [ ] 運
+- [ ] 部
+- [ ] 都
+- [ ] 配
+- [ ] 酒
+- [ ] 重
+- [X] 鉄
+- [ ] 銀
+- [ ] 開
+- [ ] 院
+- [ ] 陽
+- [ ] 階
+- [ ] 集
+- [ ] 面
+- [ ] 題
+- [ ] 飲
+- [ ] 館
+- [ ] 駅
+- [ ] 鼻
+*** Fourth grade
+- [ ] 不
+- [ ] 争
+- [ ] 付
+- [ ] 令
+- [X] 以
+- [ ] 仲
+- [ ] 伝
+- [ ] 位
+- [ ] 低
+- [ ] 例
+- [ ] 便
+- [ ] 信
+- [ ] 倉
+- [ ] 候
+- [ ] 借
+- [ ] 停
+- [ ] 健
+- [ ] 側
+- [ ] 働
+- [ ] 億
+- [ ] 兆
+- [ ] 児
+- [ ] 共
+- [ ] 兵
+- [ ] 典
+- [ ] 冷
+- [ ] 初
+- [ ] 別
+- [ ] 利
+- [ ] 刷
+- [ ] 副
+- [ ] 功
+- [ ] 加
+- [ ] 努
+- [ ] 労
+- [ ] 勇
+- [ ] 包
+- [ ] 卒
+- [ ] 協
+- [ ] 単
+- [ ] 博
+- [ ] 印
+- [ ] 参
+- [ ] 史
+- [ ] 司
+- [ ] 各
+- [ ] 告
+- [ ] 周
+- [ ] 唱
+- [ ] 喜
+- [ ] 器
+- [ ] 囲
+- [ ] 固
+- [ ] 型
+- [ ] 堂
+- [ ] 塩
+- [ ] 士
+- [ ] 変
+- [ ] 夫
+- [ ] 失
+- [ ] 好
+- [ ] 季
+- [ ] 孫
+- [ ] 完
+- [X] 官
+- [ ] 害
+- [ ] 察
+- [ ] 巣
+- [ ] 差
+- [ ] 希
+- [ ] 席
+- [ ] 帯
+- [ ] 底
+- [ ] 府
+- [ ] 康
+- [ ] 建
+- [ ] 径
+- [ ] 徒
+- [ ] 得
+- [ ] 必
+- [ ] 念
+- [ ] 愛
+- [ ] 成
+- [ ] 戦
+- [ ] 折
+- [ ] 挙
+- [ ] 改
+- [ ] 救
+- [ ] 敗
+- [ ] 散
+- [ ] 料
+- [ ] 旗
+- [ ] 昨
+- [ ] 景
+- [ ] 最
+- [ ] 望
+- [ ] 未
+- [ ] 末
+- [ ] 札
+- [ ] 材
+- [ ] 束
+- [ ] 松
+- [ ] 果
+- [ ] 栄
+- [ ] 案
+- [ ] 梅
+- [ ] 械
+- [ ] 極
+- [ ] 標
+- [ ] 機
+- [ ] 欠
+- [ ] 歴
+- [ ] 残
+- [ ] 殺
+- [ ] 毒
+- [ ] 氏
+- [ ] 民
+- [ ] 求
+- [ ] 治
+- [ ] 法
+- [ ] 泣
+- [ ] 浅
+- [ ] 浴
+- [ ] 清
+- [ ] 満
+- [ ] 漁
+- [ ] 灯
+- [ ] 無
+- [ ] 然
+- [ ] 焼
+- [ ] 照
+- [ ] 熱
+- [ ] 牧
+- [ ] 特
+- [ ] 産
+- [ ] 的
+- [ ] 省
+- [ ] 祝
+- [ ] 票
+- [ ] 種
+- [ ] 積
+- [ ] 競
+- [ ] 笑
+- [ ] 管
+- [ ] 節
+- [ ] 粉
+- [ ] 紀
+- [ ] 約
+- [ ] 結
+- [ ] 給
+- [ ] 続
+- [ ] 置
+- [ ] 老
+- [ ] 胃
+- [ ] 脈
+- [ ] 腸
+- [ ] 臣
+- [ ] 航
+- [ ] 良
+- [ ] 芸
+- [ ] 芽
+- [ ] 英
+- [ ] 菜
+- [ ] 街
+- [ ] 衣
+- [ ] 要
+- [ ] 覚
+- [ ] 観
+- [ ] 訓
+- [ ] 試
+- [ ] 説
+- [ ] 課
+- [ ] 議
+- [ ] 象
+- [ ] 貨
+- [ ] 貯
+- [ ] 費
+- [ ] 賞
+- [ ] 軍
+- [X] 輪
+- [ ] 辞
+- [ ] 辺
+- [ ] 連
+- [ ] 達
+- [ ] 選
+- [ ] 郡
+- [ ] 量
+- [ ] 録
+- [ ] 鏡
+- [ ] 関
+- [ ] 陸
+- [ ] 隊
+- [ ] 静
+- [ ] 順
+- [ ] 願
+- [ ] 類
+- [ ] 飛
+- [ ] 飯
+- [ ] 養
+- [ ] 験
+** Visual novels
+*** STRT Totono
+* Lecture
+** DONE Le monde diplomatique octobre 2020
+SCHEDULED: <2020-10-14 Wed>
+[[file:~/News/le_monde_diplomatique-2020-10.pdf][file:~/News/le_monde_diplomatique-2020-10.pdf]]
+** DONE Le monde diplomatique novembre 2020
+[[file:/media/books/Le Monde Diplomatique - 2020/Le Monde Diplomatique 2020-11.pdf][file:/media/books/Le Monde Diplomatique - 2020/Le Monde Diplomatique 2020-11.pdf]]
+** TODO Le monde diplomatique décembre 2020
+[[file:/media/books/Le Monde Diplomatique - 2020/Le Monde Diplomatique 2020-12.pdf][file:/media/books/Le Monde Diplomatique - 2020/Le Monde Diplomatique 2020-12.pdf]]
+** TODO Le monde diplomatique janvier 2020
+** TODO Le monde diplomatique février 2020
+** Coût des études supérieurs aux US
+Augmentation brutale après 1981, due a priori à Reagan.
+Moins d'aide, salaires ne suivant pas...
+Avant, possibilité de ne pas avoir de dette à payer à la fin des études.
+
+Article conservateur : aide de l'Etat augmente le prix des études
+https://ballotpedia.org/Fact_check/Does_research_show_that_federal_student_aid_increases_tuition
+* Loki
+:PROPERTIES:
+:CATEGORY: loki
+:END:
+** TODO Compléments alimentaires
+DEADLINE: <2021-04-25 Sun +1w>
+:PROPERTIES:
+:LOGGING:  logrepeat
+:LAST_REPEAT: [2021-04-11 Sun 10:37]
+:END:
+- State "DONE"       from "TODO"       [2021-04-19 Sat 10:37]
+- State "DONE"       from "TODO"       [2021-04-15 Thu 10:37]
+- State "DONE"       from "TODO"       [2021-04-11 Sun 10:37]
+** TODO Compléments alimentaires
+DEADLINE: <2021-04-14 Wed +1w>
+:PROPERTIES:
+:LOGGING:  lognoterepeat
+:END:
+* Mail
+:PROPERTIES:
+:CATEGORY: mail
+:END:
+* Maison
+:ARCHIVE:
+** TODO Lasure                                                                  :été2019:
+*** TODO Tables/chaises
+    Tables OK, 3 chaises OK
+*** TODO Lasure RdC
+** TODO Repeindre chaises :été2019:
+** DONE Désherber (mousse + herbes) :été2019:
+** TODO Repeindre radiateurs :été2019:
+Enlever la peinture (sabler avec compresseur + sable ? Pas de décapage)
+Peinture pour métaux qui fasse antirouille, sur radiateur froid.
+** TODO [#A] Enlever rouille radiateurs :été2019:
+** TODO [#A] Repeindre plafond cuisine
+** TODO Resouder porte garage :été2019:
+** KILL Vendre : porte-cd, table de couture :été2019:
+** TODO Backup photos de famille                                                :été2019:
+*** TODO Tri en cours
+** KILL Souder la cloture à l'arrière du jardin :été2019:
+** DONE Construire bac pour kalala
+** TODO Toiture
+*** DONE Devis
+**** KILL Metbach (Metz)
+19 rue des framboises Metz
+Enregistré comme entreprises mais comme société de nettoyage...
+Premier devis (100m^2 estimé) : 2 500€
+15m^2 pour la toiture :
+- changement des tuiles (forfait 100 tuiles pour 50aine estimée), nettoyage au karscher, hydrofugage (moins cher que la peinture)
+- cimentation faîtier : 850€ (50€ du mètre linéaire)
+
+06 65 24 57 66
+**** KILL Frères Tudoux (Metz)
+Recommandé par Mme Karl (mais cher)
+123 Rue Fort Queuleu
+57070  Metz
+Tél. 03 87 74 14 37
+
+Appel => laissé un message
+**** DONE Matusiak (Woippy)
+https://www.entreprise-matusiak.fr/
+06 20 98 46 61
+
+RV le <2020-09-16 Wed> à 8:30
+Voulait refaire toute la toiture (zinc notamment) mais OK pour "petite" réparation :
+- changer 200 tuiles
+- hydrofugage
+- nettoyer ciment du faîtage
+Pas d'urgence mais à faire pour éviter les infiltrations
+Petit travaux donc disponible "rapidement" pour ça.
+Devis : notmuch:id:CAGwH_J2BGiwT8P60V=fDjQe5_BGhovd0udazegDYCm=4ks=gsg@mail.gmail.com
+**** KILL Hoffmann Joel (Metz)
+03675275242
+06 75 27 52 42
+En congé jusqu'au 23 août => rappeler
+
+Trop cher
+**** KILL Marly Toitures
+03 87 65 63 29
+Pas ouvert le samedi
+**** KILL Gazeaux (Fameck)
+https://artisan-couvreur-57.com
+03 72 52 01 71
+06 08 23 86 50
+
+4200€ pour 50aine de tuile (950€ nettoyage et 3200€ pour hydrofuger)
+**** KILL Moreira -> Société SBO
+Appel moreira (laissé un message) -> envoyé a SBO
+https://moreira-toiture.com/devis
+
+SBO : devis 1700€ (descendu à 1500€)
+- facture
+- changement de 50 tuiles, non hydrofugée (pas besoin sur ce genre de vieille tuiles)
+- ciment sur le faîte
+- se dit couvreur mais à l'INSEE "Conseil pour les affaires et autres conseils de gestion"
+- à faire avant l'hiver pour lui
+*** DONE Confirmer détails avec Matusiak
+DEADLINE: <2020-09-22 Tue>
+*** DONE Envoyer devis et acompte
+*** TODO Rappeler pour début travaux
+DEADLINE: <2021-04-19 Mon>
+* Moto
+** TODO Vérifier bruit de frottement
+** TODO Révisions
+** DONE Retendre la chaîne
+DEADLINE: <2020-10-11 Sun>
+** DONE Changer batterie
+*** DONE TOD La chercher à Dafy le <2020-10-12 Mon> (attendre mail)
+** DONE Changer clignotants
+SCHEDULED: <2020-10-13 Tue>
+Prise male des nouveau clignotants ne correspond passage
+Voir d'abord s'ils ont un modèle qui va bien => prise "universelle"
+Donc on met une cosse male ronde de 4mm.
+https://www.youtube.com/watch?v=wZOPN8jir48
+Besoin d'arranger un peu la jonction...
+* Music :music:
+:PROPERTIES:
+:CATEGORY: music
+:END:
+** TODO Piano
+*** TODO Beethoven
+**** TODO Technique , 3e mouvement à 70: mesures 0-106 et 109-fin ok
+# SCHEDULED: <2020-08-20 Thu .+1d>
+:PROPERTIES:
+:LAST_REPEAT: [2020-08-19 Wed 21:49]
+:STYLE:    habit
+:LOGGING:  lognoterepeat
+:END:
+- State "DONE"       from "TODO"       [2020-08-19 Wed 21:49] \\
+  beethov -> 106
+- State "DONE"       from "TODO"       [2020-08-18 Tue 21:54] \\
+  Beethov -> 97
+- State "DONE"       from "TODO"       [2020-08-16 Sun 22:03] \\
+  Bach + beethoven
+- State "DONE"       from "TODO"       [2020-07-21 Tue 22:21] \\
+  Pirate 70, page 1
+- State "DONE"       from "TODO"       [2020-07-18 Sat 22:40] \\
+  Pirates, 70
+- State "DONE"       from "TODO"       [2020-07-17 Fri 22:40] \\
+  Pirates, 70
+- State "DONE"       from "TODO"       [2020-07-14 Tue 21:59] \\
+  Bach
+  Beethoven -> 82
+- State "DONE"       from "TODO"       [2020-07-13 Mon 22:02] \\
+  Bach: déchiffrage -> 2eme ligne
+- State "DONE"       from "TODO"       [2020-07-12 Sun 22:20] \\
+  -> 72
+- State "DONE"       from "TODO"       [2020-07-08 Wed 22:13] \\
+  Déchiffrage bach BWV 916 + beethoven
+- State "DONE"       from "TODO"       [2020-07-06 Mon 22:25] \\
+  Ok -> 55
+- State "DONE"       from "TODO"       [2020-07-02 Thu 22:02] \\
+  Enfin passé passage difficile. Ok jusque 38
+- State "DONE"       from "TODO"       [2020-07-01 Wed 22:11] \\
+  Travail à 60 et 65bpm ok mais trop rapide à 70...
+- State "DONE"       from "TODO"       [2020-06-30 Tue 21:56] \\
+  Travail jusque 31: ~ ok pour vitesse mais rendu non satisfaisant
+- State "DONE"       from "TODO"       [2020-06-26 Fri 22:28] \\
+  4 mesures suivantes non ok
+- State "DONE"       from "TODO"       [2020-06-20 Sat 22:00] \\
+  Ok -> 29 incluse
+- State "DONE"       from "TODO"       [2020-06-19 Fri 22:56] \\
+  Bach
+- State "DONE"       from "TODO"       [2020-05-19 Tue 22:18] \\
+  Toujours sur les mêmes mesures (-> 29), pas satisfait du rendu
+- State "DONE"       from "TODO"       [2020-05-10 Sun 22:17] \\
+  -> 29
+- State "DONE"       from "TODO"       [2020-05-02 Sat 22:42] \\
+  -> 24
+- State "DONE"       from "TODO"       [2020-04-30 Thu 22:23] \\
+  9-21 ok
+- State "DONE"       from "TODO"       [2020-04-25 Sat 22:30] \\
+  0->9
+- State "DONE"       from "TODO"       [2020-04-23 Thu 23:11] \\
+  OK -> fin à 70
+- State "DONE"       from "TODO"       [2020-04-22 Wed 21:57]
+- State "DONE"       from "TODO"       [2020-04-18 Sat 21:57] \\
+  -> 188
+- State "DONE"       from "TODO"       [2020-04-16 Thu 22:10] \\
+  -> 171 ok !
+- State "DONE"       from "TODO"       [2020-04-15 Wed 23:26] \\
+  Bloqué à 60 sur 4 mesures
+- State "DONE"       from "TODO"       [2020-04-11 Sat 23:26] \\
+  Bloqué à 70 sur ces mesures
+- State "DONE"       from "TODO"       [2020-04-03 Fri 00:06] \\
+  4 mesures, pas encore ça
+- State "DONE"       from "TODO"       [2020-03-31 Tue 22:10] \\
+  Travaillé jusque fin
+- State "DONE"       from "TODO"       [2020-03-29 Sun 22:23] \\
+  -> 167
+- State "DONE"       from "TODO"       [2020-03-22 Sun 22:07]
+  -> 164
+- State "DONE"       from "TODO"       [2020-03-21 Sat 22:07]
+  Travail des 5 mesures suivantes
+- State "DONE"       from "TODO"       [2020-03-20 Fri 22:07]
+  -> 161
+- State "DONE"       from "TODO"       [2020-03-19 Thu 22:17] \\
+  -> 158
+- State "DONE"       from "TODO"       [2020-03-18 Wed 22:49] \\
+  Mesure 150-155 à retravailler
+- State "DONE"       from "TODO"       [2020-03-12 Thu 23:45] \\
+  145-150
+- State "DONE"       from "TODO"       [2020-03-11 Wed 23:49] \\
+  Travail -> 164
+- State "DONE"       from "TODO"       [2020-03-10 Tue 22:23] \\
+  Ok jusque 144
+- State "DONE"       from "TODO"       [2020-03-09 Mon 22:11] \\
+  Travai 137-142, retravailler main droite
+- State "DONE"       from "TODO"       [2020-03-08 Sun 22:11] \\
+  126-136 ok
+- State "DONE"       from "TODO"       [2020-03-04 Wed 22:11] \\
+  Toujours main droite sur le 126-236...
+- State "DONE"       from "TODO"       [2020-03-03 Tue 22:07] \\
+  -> 126
+- State "DONE"       from "TODO"       [2020-02-29 Sat 22:21] \\
+  Mesures 109-120 ok
+- State "DONE"       from "TODO"       [2020-02-28 Fri 22:21] \\
+  Mesures 109-120 en cours
+- State "DONE"       from "TODO"       [2020-02-27 Thu 22:18] \\
+  Mesure 100-125 : presque bon à 70 mais travailler main gauche
+- State "DONE"       from "TODO"       [2020-02-26 Wed 22:18] \\
+  Mesure 100-125
+- State "DONE"       from "TODO"       [2020-02-21 Fri 17:36] \\
+  70: mesure 11*-125 mais encore à travailler
+- State "DONE"       from "TODO"       [2020-02-20 Thu 17:36] \\
+  3 pages du beethoven (déchiffrage)
+  :LOGBOOK:
+  - State "DONE"       from "TODO"       [2020-01-03 Fri 22:45] \\
+    Boogie 2p à 80
+    Beethoven 2p
+  - State "DONE"       from "TODO"       [2019-09-22 Sun 23:04] \\
+    Impro book : accord dans les 3 positions
+  - State "DONE"       from "TODO"       [2019-08-15 Thu 23:04] \\
+    2 mesures dans Beethoven
+  - State "DONE"       from "TODO"       [2019-08-09 Fri 22:15] \\
+    Beethoven : 3 mesures pas au rythme.
+    Test boogie à 120 à la noire : passe mais à travailler
+  - State "DONE"       from "TODO"       [2019-07-13 Sat 23:03] \\
+    Beethoven -> 170 (pas facile)
+  - State "DONE"       from "TODO"       [2019-07-12 Fri 22:33] \\
+    Beethoven : 4 mesures mais pas assez rapide...
+  - State "DONE"       from "TODO"       [2019-07-10 Wed 22:26] \\
+    Beethoven + 3 mesures (dur)
+    Boogie page 3, à 70
+  - State "DONE"       from "TODO"       [2019-07-09 Tue 22:56] \\
+    Beethoven -> 163
+  - State "DONE"       from "TODO"       [2019-07-07 Sun 22:13] \\
+    Beethoven -> 158
+  - State "DONE"       from "TODO"       [2019-07-04 Thu 23:16]
+  - State "DONE"       from "TODO"       [2019-07-03 Wed 22:58]
+  - State "DONE"       from "TODO"       [2019-06-10 Mon 22:07]
+  - State "DONE"       from "TODO"       [2019-05-28 Tue 22:14]
+  - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
+  - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
+  - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
+  - State "DONE"       from "TODO"       [2019-05-25 Sat 22:05]
+  - State "DONE"       from "TODO"       [2019-07-06 Sat 21:05]\\
+    Boogie à 70
+  - State "DONE"       from "TODO"       [2019-07-04 Thu 21:05]\\
+    Beethoven
+  - State "DONE"       from "TODO"       [2019-07-03 Wed 21:05]
+  - State "DONE"       from "TODO"       [2019-05-25 Sat 23:05]
+  - State "DONE"       from "TODO"       [2019-04-24 Wed 23:05]
+  - State "DONE"       from "TODO"       [2019-04-23 Tue 16:17]
+  - State "DONE"       from "TODO"       [2019-04-22 Mon 22:09]
+  - State "DONE"       from "TODO"       [2019-02-03 Sun 22:53]
+  - State "DONE"       from "TODO"       [2019-02-02 Sat 21:45] \\
+    Travail à 60 (1ere page)
+  - State "DONE"       from "TODO"       [2019-02-01 Fri 11:04] \\
+    Reprise
+  - State "DONE"       from "TODO"       [2018-11-13 Tue 14:54]
+  - State "DONE"       from "TODO"       [2018-11-11 Sun 12:17]
+  - State "DONE"       from "TODO"       [2018-11-10 Sat 20:08] \\
+    5min
+  - State "DONE"       from "TODO"       [2018-11-09 Fri 12:10]
+  - State "DONE"       from "TODO"       [2018-11-05 Mon 19:28]
+  - State "DONE"       from "TODO"       [2018-10-21 Sun 22:49] \\
+    10 min d'impro sur une basse en blues rapide
+  - State "DONE"       from "TODO"       [2018-10-20 Sat 18:45] \\
+    Échauffement (impro + bach)
+  :END:
+**** TODO Apprendre
+Regarder les accords ?
+** TODO Violon
+:PROPERTIES:
+:LAST_REPEAT: [2020-10-22 Thu 21:04]
+:LOGGING:  lognoterepeat
+# SCHEDULED: <2020-10-23 Fri .+1d>
+:LAST_REPEAT: [2020-05-23 Sat 21:24]
+:END:
+- State "DONE"       from "TODO"       [2020-10-22 Thu 21:04]\\
+  Vivaldi : travail des gammes
+- State "DONE"       from "TODO"       [2020-10-21 Wed 21:04]\\
+  Vivaldi : travail de la première page -> mesure 22
+- State "DONE"       from "TODO"       [2020-10-20 Tue 21:04]\\
+  Vivaldi : travail de la première page -> mesure 12 à 60 à la noire
+- State "DONE"       from "TODO"       [2020-05-23 Sat 21:24] \\
+  Mississip hornpipe + drowsy maggie
+- State "DONE"       from "TODO"       [2019-08-17 Sat 22:48] \\
+  Corde de ré changées. Trop difficile de jouer suite blessure à l'ongle
+- State "DONE"       from "TODO"       [2018-11-09 Fri 12:10]
+- State "DONE"       from "TODO"       [2018-10-22 Mon 17:37] \\
+  15min. Sevcki, Handel
+** KILL Singing :banque:
+   SCHEDULED: <2019-12-02 Mon .+1d>
+   :PROPERTIES:
+   :LOGGING:  lognoterepeat
+   :LAST_REPEAT: [2019-12-01 Sun 12:37]
+   :END:
+   - State "DONE"       from "TODO"       [2019-09-25 Wed 22:14]
+* Santé
+** DONE RV Dr Rouget
+* Stage :stage:
+:ARCHIVE:
+* Video
+:PROPERTIES:
+:CATEGORY: video
+:END:
+** KILL AskHistorians Digital Conference 202
+*** KILL [[youtube:Y2ucrc59QuQ][Indigenous Histories Disrupting Yours: Sovereignties, History, and Power]]
+SCHEDULED: <2020-09-19 Sat>
+*** KILL [[youtube:MZla1_9yOko][How I Learned to Stop Worrying and Love the Apocalypse: Imagining Mass Destruction]]
+*** KILL [[youtube:bv6yA5_Zg5o][Pick Your Poison: Climate, Disease, and Human Disaster from the Middle Ages to Today]]
+*** KILL [[youtube:kooYh3xKjvM][Sinners, Saints, and Spies: Historical Women and Cultural Propaganda]]
+*** KILL [[youtube:wVLNFeM89Kw][Power and Projections of Trauma in the 19th and 20th Centuries]]
+*** KILL [[youtube:H9HqeP_OSAw][Being the Change that Others Don’t Want: Asserting and Resisting Racial Hierarchies]]
+*** KILL [[youtube:MTfkJBr_Qpw][In Whose Trenches? Violence, Voice, and the Experience of War from Below]]
+*** KILL [[youtube:ZOefYYymOwM][Building the Nation, Dreaming of War: Nation-Building through Mythologies of Conflict]]
+*** KILL [[youtube:aLby1lDkhiI][Prof. Alex Wellerstein: "The Atomic Bomb and Visions of the New Post War Order"]]
+*** KILL [[youtube:EBoeW5OoXmg][So Long, and Thanks for All the Hist: Closing Remarks on the AskHistorians 2020 Digital Conference]]
+** TODO Ninja Nerd
+*** TODO Cardiovascular
+**** TODO Blood Pressure Regulation | Hypertension | Part 2.mp4
+**** TODO Blood Pressure Regulation | Hypotension | Part 1.mp4
+**** TODO Blood Pressure | Fundamentals of Blood Pressure.mp4
+**** TODO Cardiovascular | Anatomy of the Heart | Heart Model.mp4
+**** TODO Cardiovascular | Blood Vessel Characteristics.mp4
+**** TODO Cardiovascular | Cardiac Cycle.mkv
+**** TODO Cardiovascular | Cardiac Output | Frank Starling's Law.mp4
+**** DONE Cardiovascular | ECG Basics.mp4
+**** DONE Cardiovascular | EKG's.mkv
+**** TODO Cardiovascular | Electrophysiology | Extrinsic Cardiac Conduction System.mp4
+**** TODO Cardiovascular | Electrophysiology | Intrinsic Cardiac Conduction System.mp4
+**** TODO Cardiovascular | Microcirculation.mp4
+**** TODO Cardiovascular | Structures and Layers of the Heart.mp4
+**** TODO Cardiovascular | Tunic Layers & Types of Capillaries.mp4
+**** TODO Types of Shock | Hypovolemic, Cardiogenic, & Obstructive Shock | Part 1.mp4
+**** TODO Types of Shock | Septic, Anaphylactic, & Neurogenic Shock | Part 2.mp4
+*** TODO ECG
+**** TODO Rate and Rhythm | Normal Sinus Rhythm
+**** TODO Rate and Rhythm | Sinus Bradycardia and Sinus Tachycardia
+**** DONE Rate and Rhythm | Atrial Fibrillation and Atrial Flutter
+**** TODO Rate and Rhythm | Supraventricular Tachycardia (SVT) and Wolff-Parkinson-White (WPW) Syndrome
+**** TODO Rate and Rhythm | Junctional and Idioventricular Rhythm
+**** TODO Rate and Rhythm | Premature Atrial Contraction (PAC)
+**** TODO Rate and Rhythm | Premature Ventricular Contraction (PVC)
+**** TODO Rate and Rhythm | Ventricular Tachycardia
+**** TODO Rate and Rhythm | Torsades de Pointes
+**** TODO Rate and Rhythm | Ventricular Fibrillation
+*** TODO Special senses
+**** TODO Neurology | Optic Nerve | Cranial Nerve II: Visual Pathway and Lesions.mp4
+**** TODO Special Senses | Anatomy of the Ear.mp4
+**** TODO Special Senses | Anatomy of the Eye.mp4
+**** DONE Special Senses | Anatomy of the Eye with Extraocular Muscles.mp4
+**** TODO Special Senses | Cochlea | Spiral Organ of Corti.mkv
+**** TODO Special Senses | External & Middle Ear Anatomy.mp4
+**** TODO Special Senses | Inner Ear Anatomy.mp4
+**** TODO Special Senses | Photoreceptors | Rods and Cones.mp4
+**** TODO Special Senses | Pupillary Light & Accommodation Reflex.mkv
+**** TODO Special Senses | Semicircular Canals | Cristae Ampullaris | BPPV.mkv
+**** TODO Special Senses | The Phototransduction Cascade.mp4
+**** TODO Special Senses | Vestibule | Maculae: Utricle & Saccule.mkv
+*** TODO Endocrino
+**** DONE Endocrinology | Adrenal Gland Overview.mp4
+**** TODO Endocrinology | Adrenal Gland: Aldosterone.mp4
+**** TODO Endocrinology | Adrenal Gland: Cortisol.mp4
+**** TODO Endocrinology | Adrenal Gland: Gonadocorticoids.mkv
+**** TODO Endocrinology | Adrenal Medulla | Catecholamines.mp4
+**** TODO Endocrinology | Antidiuretic Hormone (ADH).mkv
+**** TODO Endocrinology | Growth Hormone.mp4
+**** TODO Endocrinology | Hypothalamus: Anterior Pituitary Connection.mp4
+**** TODO Endocrinology | Hypothalamus: Posterior Pituitary Connection.mp4
+**** TODO Endocrinology | Oxytocin.mkv
+**** TODO Endocrinology | Pancreas Overview.mp4
+**** TODO Endocrinology | Pancreas: Glucagon Function.mp4
+**** TODO Endocrinology | Pancreas: Insulin Function.mp4
+**** TODO Endocrinology | Parathyroid Gland | Calcitonin.mkv
+**** TODO Endocrinology | Pineal gland.mp4
+**** TODO Endocrinology | Prolactin.mkv
+**** TODO Endocrinology | Receptor Pathways.mkv
+**** TODO Endocrinology | Synthesis of Thyroid Hormone.mp4
+**** TODO Endocrinology | Target Organs of the Thyroid.mp4
+**** TODO Endocrinology | Thyroid Overview.mp4
+**** TODO Female Reproductive Cycle | Menstrual Cycle.mkv
+**** TODO Female Reproductive Cycle | Ovulation.mp4
+**** TODO Female Reproductive Cycle | Ovulation & Menstrual Cycle: Overview.mkv
+**** TODO Male Reproductive System | Spermatogenesis.mp4
+*** TODO Hemato
+**** TODO Hematology | Hematocrit
+**** TODO Hematology | Erythropoiesis: Red Blood Cell Formation | Part 1
+**** TODO Hematology | Erythropoiesis: Lifespan & Destruction | Part 2
+**** TODO Hematology | Types of Anemias
+**** TODO Hematology | Polycythemias
+**** TODO Hematology | Leukopoiesis | White Blood Cell Formation
+**** TODO Hematology | Hemostasis: Coagulation Cascade
+**** TODO Hematology | Blood Typing
+*** TODO Renal
+**** DONE Renal | Kidney Anatomy Model
+**** TODO Renal | Glomerular Filtration
+**** TODO Renal | Proximal Convoluted Tubule
+**** TODO Renal | Loop of Henle
+**** TODO Renal | Distal Convoluted Tubule
+**** TODO Renal | The Collecting Duct
+**** TODO Renal | Filtration, Reabsorption, and Secretion | Overview
+**** TODO Renal | Autoregulation | Part 1
+**** TODO Renal | Autoregulation | Part 2
+**** TODO Renal | Micturition Reflex
+** TODO William Byrd on "The Most Beautiful Program Ever Written" [PWL NYC]
+https://www.youtube.com/watch?v=OyfBQmvr2Hc
+* Vacances
+* Voiture
+** Mazda 5
+*** DONE Vidange 84 800km
+Huile fait 12/01/2020 + filtre à huile
+*** DONE Filtre à air 96 900km
+*** TODO Transmission et parallélisme roues à faire
+*** KILL Diagnostic électronique
+Contexte: iphone branché sur prise jack avant de démarrer. Au moment de mettre le contact, aucun voyant d'allumé, impossible de démarrer.
+5min après, de nouveau du courant et on peut redémarrer.
+Plus de son via la prise jack.
+Appel garage des Garennes => voir avec Mazda ou spécialiste en électronique
+Mazda fermé jusque 23 août
+
+**** DONE RV le [2020-09-10 Thu]
+Pas de souci électronique hormis la "plaque électrique" (GPS, radio). Demande de devis à Marseille
+**** KILL Attendre devis
+DEADLINE: <2020-09-28 Mon>
+*** TODO Courroie de transmission
+*** DONE Brosser les cosses
+*** TODO Réparer injecteurs ?
+**** DONE Devis Garage des Garennes
+2200€
+**** DONE Devis Mazda
+1720€ pour 3, 2200€ pour les 4
+**** DONE Avis Mazda
+On change seulement le filtre à gasoil pour le moment (230€)
+*** KILL Changer les plaquettes
+DEADLINE: <2020-10-11 Sun>
+Encore bonnes
+*** DONE Révisions : liquides
+- direction assistée : OK
+- freins : OK
+- huile moteur : OK
+- refroidissement : OK

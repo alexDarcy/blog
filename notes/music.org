@@ -1,0 +1,171 @@
+#+TITLE: Music
+* TODO Bach 2000
+** TODO Vol. 01 Sacred Cantatas
+*** TODO CD 01
+*** DONE CD 02
+*** DONE CD 03
+*** DONE CD 04
+*** DONE CD 05
+*** DONE CD 06
+*** DONE CD 07
+*** DONE CD 08
+*** DONE CD 09
+*** DONE CD 10
+*** TODO CD 11
+*** TODO CD 12
+*** TODO CD 13
+*** TODO CD 14
+*** TODO CD 15
+** TODO Vol. 02 Sacred Cantatas
+*** TODO CD 01
+*** TODO CD 02
+*** TODO CD 03
+*** TODO CD 04
+*** TODO CD 05
+*** TODO CD 06
+*** TODO CD 07
+*** TODO CD 08
+*** TODO CD 09
+*** TODO CD 10
+*** TODO CD 11
+*** TODO CD 12
+*** TODO CD 13
+*** TODO CD 14
+*** TODO CD 15
+** TODO Vol. 03 Sacred Cantatas
+*** TODO CD 01
+*** TODO CD 02
+*** TODO CD 03
+*** TODO CD 04
+*** TODO CD 05
+*** TODO CD 06
+*** TODO CD 07
+*** TODO CD 08
+*** TODO CD 09
+*** TODO CD 10
+*** TODO CD 11
+*** TODO CD 12
+*** TODO CD 13
+*** TODO CD 14
+*** TODO CD 15
+
+** TODO Vol. 04 Sacred Cantatas
+*** TODO CD 01
+*** TODO CD 02
+*** TODO CD 03
+*** TODO CD 04
+*** TODO CD 05
+*** TODO CD 06
+*** TODO CD 07
+*** TODO CD 08
+*** TODO CD 09
+*** TODO CD 10
+*** TODO CD 11
+*** TODO CD 12
+*** TODO CD 13
+*** TODO CD 14
+*** TODO CD 15
+
+** TODO Vol. 05 Secular Cantatas
+*** TODO CD 01
+*** TODO CD 02
+*** TODO CD 03
+*** TODO CD 04
+*** TODO CD 05
+*** TODO CD 06
+*** TODO CD 07
+*** TODO CD 08
+*** TODO CD 09
+*** TODO CD 10
+*** TODO CD 11
+
+** TODO Vol. 06 Sacred Vocal Works, Masses, Magnificat, Passions, Oratorios
+*** TODO CD 01
+*** TODO CD 02
+*** TODO CD 03
+*** TODO CD 04
+*** TODO CD 05
+*** TODO CD 06
+*** TODO CD 07
+*** TODO CD 08
+*** TODO CD 09
+*** TODO CD 10
+*** TODO CD 11
+*** TODO CD 12
+*** TODO CD 13
+*** TODO CD 14
+
+** TODO Vol. 07 Motets, Chorales, Songs
+*** TODO CD 01
+*** TODO CD 02
+*** TODO CD 03
+*** TODO CD 04
+*** TODO CD 05
+*** TODO CD 06
+*** TODO CD 07
+** TODO Vol. 08 Organ Works
+*** TODO CD 01
+*** TODO CD 02
+*** TODO CD 03
+*** TODO CD 04
+*** TODO CD 05
+*** TODO CD 06
+*** TODO CD 07
+*** TODO CD 08
+*** TODO CD 09
+*** TODO CD 10
+*** TODO CD 11
+*** TODO CD 12
+*** TODO CD 13
+*** TODO CD 14
+*** TODO CD 15
+*** TODO CD 16
+** TODO Vol. 09 Keyboard Works I
+*** DONE CD 01
+*** DONE CD 02
+*** DONE CD 03
+*** TODO CD 04
+*** TODO CD 05
+*** TODO CD 06
+*** TODO CD 07
+*** TODO CD 08
+*** TODO CD 09
+*** TODO CD 10
+*** TODO CD 11
+** TODO Vol. 10 Keyboard works II
+*** TODO CD 01
+*** TODO CD 02
+*** TODO CD 03
+*** TODO CD 04
+*** TODO CD 05
+*** TODO CD 06
+*** TODO CD 07
+*** TODO CD 08
+*** TODO CD 09
+*** TODO CD 10
+*** TODO CD 11
+** TODO Vol. 11 Chamber Music
+*** DONE CD 01
+*** TODO CD 02
+*** TODO CD 03
+*** TODO CD 04
+*** TODO CD 05
+*** TODO CD 06
+*** TODO CD 07
+*** TODO CD 08
+*** TODO CD 09
+*** TODO CD 10
+*** TODO CD 11
+*** TODO CD 12
+*** TODO CD 13
+** TODO Vol. 12 Concertos, Orchestral Suites
+*** TODO CD 01
+*** TODO CD 02
+*** TODO CD 03
+*** TODO CD 04
+*** TODO CD 05
+*** TODO CD 06
+*** TODO CD 07
+*** TODO CD 08
+*** TODO CD 09
+*** TODO CD 10
