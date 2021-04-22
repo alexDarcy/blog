@@ -241,6 +241,7 @@ notmuch new
 MAILTO=""
 */5 * * * * $HOME/scripts/mbsync_notmuch.sh
 #+end_src
-Then I can read the email inside emacs with :
+Then I can read the email inside emacs with the =notmuch= plugin.
+
 ** What about gnus ?
 I've tried it two times because the concept was appealing: manage your mail as a newserver is cool. The major drawback is the lack of integration for notmuch. You can make it work with =mairix= but its super slow.
