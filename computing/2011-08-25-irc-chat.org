@@ -1,0 +1,144 @@
+For this part we will see how to communicate with the rest of the world.
+We will use jabber protocol to connect to Gtalk (but several others are
+available, see at the end).
+
+First, we need an application for chatting. Irssi will be our weapon of
+choice. At first it was aimed towards IRC users but some applications
+provide a tunnel to. In most Linux and BSD distribution you can find one
+of these : it is called bitlebee. The latest versions support now MSN.
+
+See the [[http://www.irssi.org/themefiles/xchat.png][xchat theme]] for
+an overview of the final result.
+
+** Setting it up
+   :PROPERTIES:
+   :CUSTOM_ID: setting-it-up
+   :END:
+After the installation of bitlbee, a local server should have been start
+(otherwise, just start it with /etc/init.d/bitlbee start).
+
+Then launch irssi. The first time, it will not connect to any server nor
+join any channel though. So we will connect manually to your local
+bitlbee :
+
+#+begin_src shell
+  /connect localhost 
+#+end_src
+
+This will display some funny message from the developper. Now register
+an account (for the bitlbee server) :
+
+#+begin_src shell
+  register yourpassword 
+#+end_src
+
+** Connecting with OAuth
+   :PROPERTIES:
+   :CUSTOM_ID: connecting-with-oauth
+   :END:
+Then you can add an Gtalk account:
+
+#+begin_src shell
+  account add jabber youraddress@gmail.com
+#+end_src
+
+You can try OAuth identification with
+
+#+begin_src shell
+  acc gtalk set oauth on 
+  acc gtalk on
+#+end_src
+
+You should have received a private message by now. Follow the link and
+get the confirmation code. Paste it in the window and it should connect
+automatically.
+
+** Connecting without OAuth
+   :PROPERTIES:
+   :CUSTOM_ID: connecting-without-oauth
+   :END:
+For other protocols :
+
+#+begin_src shell
+  account add jabber youraddress@hotmail.com msnpassword 
+#+end_src
+
+Finally, save your account with
+
+#+begin_src shell
+  register bitlbeepassword
+  save
+#+end_src
+
+This password is only used to register your bitlbee account. Do not use
+your Google password.
+
+## Configuration files If everything is allright, your contact list
+should be displayed. However we want to avoid to type anything. In fact,
+the connection should be automatic. For that purpose, edit your
+configuration file in /.irssi/config. First we connect automatically to
+the local bitlbee server. Add some line in the server list. It should
+look like this :
+
+#+begin_src shell
+  servers = ( 
+    { address = "eu.irc6.net"; chatnet = "IRCnet"; port = "6667"; },
+    {
+      address = "localhost";
+      chatnet = "Bitlbee";
+      port = "6667";
+      autoconnect = "yes";
+    }
+  ); 
+#+end_src
+
+Then the connection to the bitlbee account (and thus to your MSN
+account) should be automatic. Edit the chatnet part :
+
+#+begin_src shell
+  chatnets = { 
+  IRCnet = { 
+    type = "IRC";
+    max_kicks = "4";
+    max_msgs = "5";
+    max_whois = "4";
+    max_query_chans = "5";
+  };  
+  Bitlbee = { 
+  type = "IRC";
+  autosendcmd   = "/^msg -bitlbee &bitlbee identify bitlbeepassword; \
+      wait -bitlbee 2000";
+  }
+#+end_src
+
+Beware, it's your bitlbee passowrd so set the permissions accordingly.
+Restart irssi and you should be all set ! You can message your friends
+with
+
+#+begin_src shell
+  /msg apseudonym.
+#+end_src
+
+For more informations about the use and configuration of irssi, see this
+post.
+
+** Remarks
+   :PROPERTIES:
+   :CUSTOM_ID: remarks
+   :END:
+
+- To ignore messages from ServerMode :
+
+#+begin_src shell
+  /ignore &bitlbee MODES
+#+end_src
+
+- For Google+ contacts, you should set :
+
+#+begin_src shell
+  account gtalk set nick_format %full_name
+#+end_src
+
+- Other protocols you can use with bitlbee : Gmail, Jabber, Yahoo,
+  Twitter and even Facebook (see this page for Facebook) !
+- We have configured a local server but you can also use a public one.

@@ -1,0 +1,29 @@
+Just a quick post about my setup.
+
+Prior to Wheezy, I had to install the latest alsa from the website. Lo
+and behold, sound was working directly with the new release, Wheezy.
+Unfortunately, mpd was no longer working. The log said something like :
+
+#+begin_src shell
+  can't find alsa mixer control "PCM"
+#+end_src
+
+Looking into the system logs showed up weird messages like :
+
+#+begin_src shell
+  Unable to contact D-Bus: org.freedesktop.DBus.Error.NotSupported:
+  Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+#+end_src
+
+It turns out
+[[http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=690530][these error
+messages are normal]]. So I figured pulseaudio was causing these
+problems. But removing it would mean removing gnome (as a dependency).
+It is still possible as gnome and gnome-core are metapackages.
+
+The final step is to manage the system bell, which was still beeping.
+Pulseaudio was the only way to manage sound from the desktop preference.
+
+The solution ? Disable the bell in your terminal.
+
+And there, you're set !

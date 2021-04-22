@@ -1,0 +1,53 @@
+If you often use SSH, you can be tired to type your password each time.
+The solution is to use passphrases and to manage theme.
+
+** Generating a passphrase
+   :PROPERTIES:
+   :CUSTOM_ID: generating-a-passphrase
+   :END:
+First, check your ~/.ssh. If it is empty, you will need to generate a
+passphrase. For that, do :
+
+#+begin_src shell
+  $ ssh-keygen -t 
+#+end_src
+
+And follow the instructions. Then you need to send your public key (by
+default ~/.ssh/id_rsa.pub to the server. Do not send you private key !!!
+
+#+begin_src shell
+  $ scp .ssh/id_rsa.pub mylogin@myserver:
+#+end_src
+
+Then connect to the server and add it to the list:
+
+#+begin_src shell
+  $ cat id_rsab.pub >> .ssh/authorized_keys
+#+end_src
+
+Then logout and try again to connect to the server. Now it should ask
+for your passphrase.
+
+** Managing passphrases (1)
+   :PROPERTIES:
+   :CUSTOM_ID: managing-passphrases-1
+   :END:
+If you are only using one terminal, the easiest solution is to do the
+following:
+
+#+begin_src shell
+  $ eval `ssh-agent`
+  $ ssh-add
+#+end_src
+
+Enter your passphrase once and it will not ask for it again.
+
+** Managing passphrases (2)
+   :PROPERTIES:
+   :CUSTOM_ID: managing-passphrases-2
+   :END:
+On the contrary, if you often switch between several terminals, you will
+need a manager starting each time you open a new terminal. For that,
+follow the excellent
+[[http://www.gentoo.org/doc/en/articles/openssh-key-management-p2.xml][instructions
+of Gentoo]] for keychain.

@@ -1,0 +1,43 @@
+Today's problem : my browser spends way too much time trying to connect
+to a website.
+
+Ping is really slow when trying for Google :
+
+#+begin_src shell
+  $ time ping google.fr -c 4    
+#+end_src
+
+When trying for the IP, it's much faster :
+
+#+begin_src shell
+  $ time ping 173.194.45.55 -c 4    
+#+end_src
+
+Hmm... After googling that, it appears it's the reverse DNS which is
+causing troubles. You can check that with :
+
+#+begin_src shell
+  $ time ping -n google.fr -c 4    
+#+end_src
+
+If it's the case, you can try the suggestions from
+[[http://unix.stackexchange.com/questions/37392/reverse-dns-lookups-slowing-down-network-operations-on-lan][stackexchange]].
+Personnally, I used Google's nameserver in /etc/resolv.conf and it
+worked well. However, this file is rewritten if you use DHCP or Network
+Manager. If you use Gnome, it's probably Network Manager, so pleas refer
+to
+[[https://wiki.debian.org/NetworkConfiguration#DNS_configuration_for_network-manager][Debianwiki]]
+for instructions. Otherwise, you can check you use DHCP with
+/etc/network/interfaces. Then you should have a line along :
+
+#+begin_src shell
+  $ iface eth0 inet dhcp   
+#+end_src
+
+If that's the case, you need to edit /etc/dhcp/dhclient.conf and add :
+
+#+begin_src shell
+  $ supersede domain-name-servers 8.8.8.8, 8.8.4.4;  
+#+end_src
+
+Now, you are good to go.

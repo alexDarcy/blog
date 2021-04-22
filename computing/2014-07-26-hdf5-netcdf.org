@@ -1,0 +1,57 @@
+The main steps to compile and install parallel HDF5 and netCDF, both
+with Fortran support. This post is an attempt to properly document the
+installation of both libraires and is an extension of the previous post
+about h5py.
+
+Please note we will install everything in /usr/local.
+
+** Building parallel HDF5 1.8.13 from source for Fortran
+   :PROPERTIES:
+   :CUSTOM_ID: building-parallel-hdf5-1.8.13-from-source-for-fortran
+   :END:
+After getting the sources, configure HDF5
+
+#+begin_src shell
+  $ CC=mpicc CFLAGS=-fPIC ./configure --prefix=/usr/local --enable-fortran 
+#+end_src
+
+If you want to use h5py later on (as explained in
+[[file:%7B%%20post_url%202014-04-02-rant-h5py%20%%7D][this post]]), I
+recommend to use the following:
+
+#+begin_src shell
+  $ ./configure --enable-fortran --enable-parallel --prefix=/usr/local --enable-shared 
+  $ make
+#+end_src
+
+Then compile and install:
+
+#+begin_src shell
+  $ make
+  $ make install
+#+end_src
+
+** Building NetCDF 4.3.2 with HDF5 support
+   :PROPERTIES:
+   :CUSTOM_ID: building-netcdf-4.3.2-with-hdf5-support
+   :END:
+Get the latest C-version [[https://github.com/Unidata/netcdf-c][on
+github]] if you do not want to have an "undefined reference to
+H5Pset_fapl_mpiposix". At the time of this writing, the version was
+4.3.3-rc1. Then install it with:
+
+#+begin_src shell
+  $ CC=mpicc CPPFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib ./configure --prefix=/usr/local
+  $ make
+  $ make install
+#+end_src
+
+Then get the Fortran version of netCDF (they are now separated). I used
+the 4.4.0. Set the installation with:
+
+#+begin_src shell
+  $ export LD_LIBRARY_PATH=/usr/local/lib
+  $ ./configure --prefix=/usr/local
+#+end_src
+
+Do not forget to export LD_LIBRARY_PATH somewhere in your .bashrc too.

@@ -1,0 +1,141 @@
+Some tips I collected about FreeBSD.
+
+/Update from 2012-11-01 (FreeBSD 11.1-RELEASE)/
+
+#+begin_html
+  <!--more-->
+#+end_html
+
+** Mount LVM Linux volumes from FreeBSD
+   :PROPERTIES:
+   :CUSTOM_ID: mount-lvm-linux-volumes-from-freebsd
+   :END:
+You can have read and write access to LVM volumes, even though FreeBSD
+itself cannot use LVM :
+
+#+begin_src shell
+  kldload fuse
+  kldload /boot/kernel/geom_linux_lvm.ko # This will make /dev/linux_vm appear
+  fuse-ext2 -o rw+ /dev/linux_lvm/VolGroup00-lvhome /Linux
+#+end_src
+
+where VolGroup00 is my physical volume, lvhome is my logical volume and
+/Linux the mountpoint. -o rw+ is used for read and write access.
+
+I have also posted this information on the
+[[https://forums.freebsd.org/threads/howto-mounting-ext4-in-lvm2.29659/#post-386112][FreeBSD
+forums]].
+
+** Fix ugly fonts in Firefox
+   :PROPERTIES:
+   :CUSTOM_ID: fix-ugly-fonts-in-firefox
+   :END:
+I followed the instructions on
+[[https://www.reddit.com/r/freebsd/comments/7kqr5l/improving_firefox_fonts/][this
+reddit thread]]. What worked for me was to disable bitmap fonts
+
+#+begin_src shell
+  ln -s /usr/local/etc/fonts/conf.avail/70-no-bitmaps.conf
+  /usr/local/etc/fonts/conf.d/
+#+end_src
+
+** Redshift and Nvidia driver
+   :PROPERTIES:
+   :CUSTOM_ID: redshift-and-nvidia-driver
+   :END:
+Redshift must be started with the latitude and longitude (get it from
+Google Maps from example) :
+
+#+begin_src shell
+  redshift -l 44.148053:16.192406
+#+end_src
+
+If you have a =Failed to start adjustment method randr=, it may be
+because you are note using the Nvidia driver. Install the latest driver
+
+#+begin_src shell
+  pkg install nvidia-driver
+#+end_src
+
+And create a configuration file for Xorg by following
+[[https://forums.freebsd.org/threads/howto-setup-xorg-with-nvidias-driver.52311/][this
+thread]]. Restart X and check with nvidia-settings than you are running
+the Nvidia driver.
+
+** Uninstalling a program
+   :PROPERTIES:
+   :CUSTOM_ID: uninstalling-a-program
+   :END:
+You can go into the ports, and uninstall it manually :
+
+#+begin_src shell
+  $ cd /usr/ports/myapp && make deinstall
+#+end_src
+
+or
+
+#+begin_src shell
+  $ pkg delete myapp
+#+end_src
+
+** Extract useful information from /usr/ports/UPDATING
+   :PROPERTIES:
+   :CUSTOM_ID: extract-useful-information-from-usrportsupdating
+   :END:
+You can use pkg updating as
+[[http://forums.freebsd.org/showthread.php?t=21142][described here]].
+
+** Running Linux in Virtualbox from FreeBSD
+   :PROPERTIES:
+   :CUSTOM_ID: running-linux-in-virtualbox-from-freebsd
+   :END:
+First, you will need to install Virtualbox on FreeBSD and start it with
+Virtualbox. Then you have to install addition on the guest OS. Look in
+the Virtualbox menu, at /Install additions/. Now run:
+
+#+begin_src shell
+  $ sh ./runVirtualBoxLinux
+#+end_src
+
+If you have shared folders, mount -t vboxfs does not work. So you must
+mount them with (on Linux) :
+
+#+begin_src shell
+  $ mount.vboxfs sharedfolder folderlocation
+#+end_src
+
+Your folder will be available at folderlocation.
+
+** Command-line tips (not FreeBSD specific)
+   :PROPERTIES:
+   :CUSTOM_ID: command-line-tips-not-freebsd-specific
+   :END:
+*** Screenshot
+    :PROPERTIES:
+    :CUSTOM_ID: screenshot
+    :END:
+A screenshot can be taken with the scrot functionnality with a delay,
+for example 5 seconds :
+
+#+begin_src shell
+  $ scrot -d 5
+#+end_src
+
+*** Search files
+    :PROPERTIES:
+    :CUSTOM_ID: search-files
+    :END:
+A very useful utility for finding quickly a file is locate. You will
+need to keep its database though. For that, see
+[[http://forums.freebsd.org/showthread.php?t=16100][the following
+link]].
+
+*** FTP upload
+    :PROPERTIES:
+    :CUSTOM_ID: ftp-upload
+    :END:
+Uploading files over FTP on the command-line can be done with
+
+#+begin_src shell
+  ncftpput -u LOGIN -p PASSWD IP remote_dir local_file
+#+end_src

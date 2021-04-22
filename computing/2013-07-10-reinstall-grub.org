@@ -1,0 +1,88 @@
+Here is how to reinstall your Grub if it has been wiped out by a Windows
+install for example. This will deal with a small Debian Live USB.
+
+#+begin_html
+  <!--more-->
+#+end_html
+
+The easiest solution would be to create an Ubuntu Live USB and to follow
+[[https://help.ubuntu.com/community/RecoveringUbuntuAfterInstallingWindows][these
+instructions]]. For small USB keys, it's best to use a Debian
+netinstall, which weighs around 10M.
+
+** Create live usb
+   :PROPERTIES:
+   :CUSTOM_ID: create-live-usb
+   :END:
+First, we need to ensure the usb has a partition with the correct
+format. As a superutilisateur run:
+
+#+begin_src shell
+  $ fdisk /dev/sdc
+#+end_src
+
+whire /dev/sdc is your USB partition (the whole device, so not /dev/sdc1
+which is a partition). Then create a FAT32 partition:
+
+#+begin_src shell
+  n
+  p
+  1
+  [Enter]
+  [Enter]
+#+end_src
+
+Make it FAT32:
+
+#+begin_src shell
+  t
+  b
+#+end_src
+
+Make it bootable and write the change to disks
+
+#+begin_src shell
+  a
+  w
+#+end_src
+
+Finally, format it, just to be sure :
+
+#+begin_src shell
+  $ mkfs.vfat /dev/sdc1
+#+end_src
+
+Now we need to copy an image on it. The first solution is to use a
+program called [[http://unetbootin.sourceforge.net/][unetbootin]] and
+follow the instructions.
+
+If it does not work, get the .iso and write it on the device (not the
+partition):
+
+#+begin_src shell
+  $ dd if=my.iso of=/dev/sdc
+#+end_src
+
+** Reinstall grub
+   :PROPERTIES:
+   :CUSTOM_ID: reinstall-grub
+   :END:
+Now boot from the USB, start install and go to partitoning step. Then go
+the the shell with Alt-F2. Mount the partition containing your root
+folder, along with /dev :
+
+#+begin_src shell
+  $ mkdir /target
+  $ mount /dev/sdb1 /target
+  $ mount --bind /dev /target/dev
+#+end_src
+
+Chroot into it and reinstall grub (to the correct device, which should
+be (hd0) but do not take my word for it):
+
+#+begin_src shell
+  $ chroot /target
+  $ grub-install '(hd0)'
+#+end_src
+
+And there you are, just reboot and everything is back to normal.

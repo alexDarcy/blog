@@ -1,0 +1,27 @@
+Here are some tricks I have found for LaTeX. This section will be
+updated from time to time.
+
+** Changing fonts size
+   :PROPERTIES:
+   :CUSTOM_ID: changing-fonts-size
+   :END:
+If you are using the article class for instance, three different font
+sizes are available : 10,11,12 pt. You can use it like this :
+
+#+begin_src latex
+  \documentclass[10pt]{article}
+#+end_src
+
+What if you want to use to other sizes ? Pre-built functions like \tiny
+do not work on the section titles. The solution is to redefine fontsize:
+
+#+begin_src latex
+  \documentclass{article}
+  \begin{document}
+  \tiny
+  \def\fontsize#1#2{} 
+  This is a test (hey,hey).
+  \section{One}
+  This is a test (hey,hey).
+  \end{document}
+#+end_src

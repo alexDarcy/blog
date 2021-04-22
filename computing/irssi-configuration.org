@@ -1,0 +1,52 @@
+#+title: Irssi
+#+date: 2011-08-29
+
+** Irssi and screen
+   :PROPERTIES:
+   :CUSTOM_ID: irssi-and-screen
+   :END:
+With screen, we can create a terminal which can the be detached and
+reattached at will. So I can connect to my computer over SSH and
+reattach irssi : ta~da, I have my messaging client from the outside.
+
+We start a screen session named irssi with =screen -S irssi=.
+Then we launch irssi inside the new terminal. Now the session will be detached
+with =Ctrl-A Ctrl-D=. It will be reattached by typing =screen -raAd irssi=.
+
+** Irssi scripts
+   :PROPERTIES:
+   :CUSTOM_ID: irssi-scripts
+   :END:
+Installing a script is done by copying the script into =.irssi/scripts=
+and then loaded inside irssi with =/script load myscript.pl=.
+
+If we want to start them automatically at boot, we create a symlink in
+the =.irssi/scripts/autorun= directory :
+
+#+begin_src shell
+  $ ln -s myscript.pl autorun/
+#+end_src
+
+The scripts are available [[http://scripts.irssi.org/][here]]. I use:
+
+- bitlbee\under{}join\under{}notice.pl : tells you if a contact has reconnected in
+  your chat windows.
+- bitlbee\under{}status\under{}notice.pl : more information about the change of status
+  (how long he has been away etc.). Get it
+  [[http://github.com/msparks/irssiscripts/raw/master/bitlbee\under{}status\under{}notice.pl][here]].
+- nickcolor.pl : assing a color for each user in an IRC chat (useful for
+  large rooms).
+- screen\under{}away.pl : when my screen session is detached, I am marked as
+  away and all the messages sent to me will be stored until I reattach
+  the session.
+
+** Troubleshooting
+   :PROPERTIES:
+   :CUSTOM_ID: troubleshooting
+   :END:
+If trying to load a script results in Can't locate Time/Duration.pm,
+then you should install the time-duration library. In Debian :
+
+#+begin_src shell
+  $ apt-get install libtime-duration-parse-perl
+#+end_src

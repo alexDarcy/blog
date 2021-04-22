@@ -1,0 +1,164 @@
+Here is my configuration on a fresh install (on Archlinux but it should
+work on other Linux too). The idea is to do everything inside a
+terminal.
+
+** Mandatory
+   :PROPERTIES:
+   :CUSTOM_ID: mandatory
+   :END:
+
+- Install xmonad
+- Configure the bepo layout for french by adding the following in
+  =.xinitrc= :
+
+#+begin_src shell
+  setxkbmap fr bepo
+  setxkbmap -option "ctrl:swapcaps"
+  exec xmonad
+#+end_src
+
+** Useful programs
+   :PROPERTIES:
+   :CUSTOM_ID: useful-programs
+   :END:
+
+- stow : share easily your dotfiles across machines
+- keychain : avoid to type your passphrase for every ssh connection. See
+  [[file:2013-11-17-ssh-keys.html][this post]].
+- zsh
+- feh : for a background picture
+- tmux : manage multiple terminal sessions
+- rtorrent : manage your torrents
+
+** Music
+   :PROPERTIES:
+   :CUSTOM_ID: music
+   :END:
+Install the following (see [[file:2011-08-15-mpd-ncmcpp.html][this
+post]]).
+
+- mpd
+- ncmpcpp
+
+** Mail
+   :PROPERTIES:
+   :CUSTOM_ID: mail
+   :END:
+Install as shown in
+[[file:2011-07-23-mutt-fetchmail-procmail-msmtp.html][this post]].\\
+/Warning/ : we use offlineimap so there is no need to use fetchmail
+anymore as in the initial post.
+
+- mutt
+- prochmail
+- msmtp
+- offlineimap (hard-coded passwords)
+
+To configure offlineimap, see
+[[][http://dev.gentoo.org/~tomka/mail.html]].
+
+Passwords are stored in =.netrc=, see
+[[][https://wiki.archlinux.org/index.php/OfflineIMAP#.netrc]].
+
+To encrypt your mails with mutt, locate and copy =gpg.rc= in your
+=.muttrc=.
+
+** Backup
+   :PROPERTIES:
+   :CUSTOM_ID: backup
+   :END:
+*** ZFS
+    :PROPERTIES:
+    :CUSTOM_ID: zfs
+    :END:
+First, we configure ZFS to scrub every 2 weeks. We use =/etc/anacrontab=
+as we reboot often :
+
+#+begin_src shell
+      14      0       zpool-scrub             /usr/bin/zpool scrub Data &> /root/scrub.log
+#+end_src
+
+Then we setup backup. the backup itself by creating a =/root/backup.sh=
+:
+
+#+begin_src shell
+      rdiff-backup --exclude **.git --include-globbing-filelist files_to_backup.txt \    
+        --exclude /home/alex /home/alex /Data/Backup/home_backup  
+      rdiff-backup --remove-older-than 2W /Data/Backup/home_backup
+#+end_src
+
+where the files must have an absolute path Then update anacrontab :
+
+#+begin_src shell
+      3      15       backup                  /root/backup.sh &> /root/backup.log
+#+end_src
+
+*** Cloud
+    :PROPERTIES:
+    :CUSTOM_ID: cloud
+    :END:
+To backup on Hubic, install the command-line utility with
+
+#+begin_src shell
+  pacman -S hubic
+#+end_src
+
+For Google drive, see
+[[][https://github.com/odeke-em/drive#initializing]].
+
+** Terminal configuration
+   :PROPERTIES:
+   :CUSTOM_ID: terminal-configuration
+   :END:
+Solarized is a nice scheme. I use it with
+
+- mutt : ensure it is compiled with ncurses (check with =mutt -v=) :
+
+#+begin_src shell
+    export TERM=xterm-256color
+#+end_src
+
+- tmux
+- xressources
+
+** Japanese (archlinux)
+   :PROPERTIES:
+   :CUSTOM_ID: japanese-archlinux
+   :END:
+
+- ibus, ibus-anthy, ibus-qt (the latter is needed for xmonad)
+- adobe-source-han-sans-jp-fonts
+- ibus-setup and add japanese input
+- Add to .xinitrc :
+
+#+begin_src shell
+  export GTK_IM, QT_IM, XMODIFIERS
+   ibus-daemon --xim &
+#+end_src
+
+- Update .Xressource if you have a given font
+
+#+begin_src shell
+  xterm*faceNameDoublesize: Source Han Sans JP:style=Regular:size=11
+#+end_src
+
+** Archlinux issues
+   :PROPERTIES:
+   :CUSTOM_ID: archlinux-issues
+   :END:
+** # No sound on Skype
+   :PROPERTIES:
+   :CUSTOM_ID: no-sound-on-skype
+   :END:
+First, enable multilib. Then install skype. Then install pulseaudio and
+pulseaudio-alsa. There is no need to change mpd configuration by the
+way.
+
+*** Juniper with 64bit archlinux
+    :PROPERTIES:
+    :CUSTOM_ID: juniper-with-64bit-archlinux
+    :END:
+See
+[[][https://wiki.archlinux.org/index.php/Juniper_VPN#Alternative_Method]].
+the idea is to installer 32bit java by hand on top on a 64bit (also by
+hand).

@@ -1,0 +1,78 @@
+Following the post on chatting in MSN, here is a configuration for your
+Irssi client.
+
+** Using irssi
+   :PROPERTIES:
+   :CUSTOM_ID: using-irssi
+   :END:
+Navigating between the windows can be done with:
+
+- backward and forward: Meta-p and Meta-n
+- switch to the window number 1: Meta-1 or Esc-1
+
+Any change in irssi configuration must be saved with /save. If you want
+to switch to utf8 encoding it is done with :
+
+#+begin_src shell
+  /set term_charset UTF-8
+#+end_src
+
+Finally, exiting is done with /quit.
+
+** Irssi and IRC
+   :PROPERTIES:
+   :CUSTOM_ID: irssi-and-irc
+   :END:
+You can add a server, say irc.efnet.no, and a channel named mychan in
+irssi config. For connecting automatically, do not forget the -auto
+option :
+
+#+begin_src shell
+  /server add -auto -network EFnet irc.efnet.no 6667
+  /channel add -auto #plouf EFnet 
+#+end_src
+
+Receiving or sending files over the IRC network is done with :
+
+#+begin_src shell
+  /dcc get senderNick
+  /dcc send receiverNick myFile
+#+end_src
+
+** Customizing irssi
+   :PROPERTIES:
+   :CUSTOM_ID: customizing-irssi
+   :END:
+Several themes are available for irssi. Once you have chosen one of
+them, put it in /.irssi and activate it. If you have chose the xchat
+theme :
+
+#+begin_src shell
+  /set theme xchat 
+#+end_src
+
+** Bitlebee tips
+   :PROPERTIES:
+   :CUSTOM_ID: bitlebee-tips
+   :END:
+/Note : Bitlbee commands do not start with a slash, contrary to irssi
+commands./ First you can deactivate these annoying status change like
+
+#+begin_src shell
+  14:26 -!- ServerMode/&bitlbee [+v friend1] by localhost
+#+end_src
+
+Enter the following
+
+#+begin_src shell
+  /ignore &bitlbee MODES 
+#+end_src
+
+List all your contacts with blist. Friends are named after their mail
+address so you can rename them :
+
+#+begin_src shell
+  rename friend1 MyDearFriend 
+#+end_src
+
+Again, any change in bitlbee configuration must be saved with save.

@@ -1,0 +1,8 @@
+A small post about protecting your desktop.
+
+If you are using Gnome, you should be able to lock the screen with
+Ctr-ALt-Del.
+
+If you prefere ligthweight programs, I tried slock but did not really
+like it as it is not clear when the deskop is locked. i3Lock is similar
+but is an improved version. Finally, xtrlock is the one I use currently.

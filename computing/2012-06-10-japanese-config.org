@@ -1,0 +1,50 @@
+This posts shows how to configure your Debian system for Japanese input
+and output.
+
+** Debian
+   :PROPERTIES:
+   :CUSTOM_ID: debian
+   :END:
+First, we will need some fonts. You can install :
+
+#+begin_src shell
+  $ apt-get install otf-ipafont-mincho
+#+end_src
+
+/Note : I first installed ttf-kochi-gothic, then ttf-takao-mincho. The
+takao mincho is more beautiful in my opinion but the characters are
+rather small and difficult to read. For readability, I chose
+otf-ipafont-mincho./
+
+Now we will add Anthy for managing our Japanese input :
+
+#+begin_src shell
+  $ apt-get install ibus ibus-anthy ibus-qt4 kasumi
+#+end_src
+
+Then we start the configuration : start im-config and choose ibus in the
+options. Logout, login and start ibus (either with the menu or with
+ibus-daemon).
+
+If you cannot input circumlex accents after that, you will need to
+install another package :
+
+#+begin_src shell
+  $ apt-get install ibus-gtk
+#+end_src
+
+In the .bashrc file, you may have to add :
+
+#+begin_src shell
+  export GTK_IM_MODULE=ibus
+  export XMODIFIERS=@im=ibus
+  export QT_IM_MODULE=ibus
+#+end_src
+
+** FreeBSD
+   :PROPERTIES:
+   :CUSTOM_ID: freebsd
+   :END:
+The procedure is the same on FreeBSD.
+[[http://grumplicio.us/fbsd_japanese.html][Here is a link for the
+complete configuration]].

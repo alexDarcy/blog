@@ -1,0 +1,70 @@
+I wanted to get into Perl, and this is an excellent occasion for that.
+We want to modify the tags of all our mp3 files. Tedious to do by hand,
+so we need some script-fu.
+
+Here is what I came up with (my first perl script so it can surely be
+improved) :
+
+#+begin_src perl
+      use strict;
+      use File::Find;
+      use File::Basename;
+      
+      my $base_path = '/MyMusic/Thelonious_Monk';
+      find(\&wanted, $base_path);
+      
+      sub wanted {
+        chomp $_;
+        my @exts = qw(.mp3 .txt);
+        my ($name, $path, $ext) = fileparse($_, @exts);
+      
+        if ($ext eq ".mp3") {
+         system("id3v2","-a Thelonious Monk",$File::Find::name);
+        }
+      }
+#+end_src
+
+** What does it do ?
+   :PROPERTIES:
+   :CUSTOM_ID: what-does-it-do
+   :END:
+We first find all the files in the $base_path folder with the find
+utility. Then we use fileparse to get the extension and the basename. If
+it is an MP3 file, then we will change the ID3 tag. For that, we use a
+command-line utility called id3v2. With that, we can simply change the
+composer of a music with :
+
+#+begin_src shell
+  $ id3v2 -a Debussy Cathedrale_engloutie.mp3
+#+end_src
+
+So we only need to run this command in the shell script and voilà! Of
+course, you can use the filename to update the title tag for example.
+
+** Remarks
+   :PROPERTIES:
+   :CUSTOM_ID: remarks
+   :END:
+
+- A variable begins with a dollar sign, an array with a @.
+- The $_ is the current variable in the function.
+- The function chomp remove the ending trail.
+- At the end, wanted defines a function.
+- The strict module is for debugging
+
+** Edit
+   :PROPERTIES:
+   :CUSTOM_ID: edit
+   :END:
+I have created 3 scripts to manage huge library of .flac files, which
+[[https://github.com/alexDarcy/scripts][can be found on Github]] in the
+/Splitting music files/ section.
+
+- First, split all the .flac files with split_all.pl (edit the proper
+  variable to define the location of the folder)
+- Then, run check_split.pl to check the splitting was done properly.
+- Finallly, finalize.pl removes the temporary folders and place the
+  files in their proper location.
+
+Please note I hacked together these scripts so you may have to do some
+editing (for example, you can modify them to adapt to .ape files).

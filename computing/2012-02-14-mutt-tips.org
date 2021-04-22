@@ -1,0 +1,94 @@
+A little post following the setup of Mutt : here are some of the tips I
+have found for Mutt.
+
+** Accents are not displayed
+   :PROPERTIES:
+   :CUSTOM_ID: accents-are-not-displayed
+   :END:
+This happens when the charset is not correctly defined. Create the
+~/.mailcap file if it does not exist and put the following in it :
+
+#+begin_src shell
+  text/html; w3m -I %{charset} -T text/html -dump; copiousoutput
+#+end_src
+
+** Desktop Notification
+   :PROPERTIES:
+   :CUSTOM_ID: desktop-notification
+   :END:
+Everything is great but you cannot have mail notification ? I have tried
+to used directly notify-send on Gnome, but it does not always work, even
+when exporting the DISPLAY variable :
+
+#+begin_src shell
+      :0 ic:
+      *
+      | export DISPLAY=:0.0; /usr/bin/notify-send -i 'evolution' \
+      "New Mail"
+#+end_src
+
+So I used a script done by [[http://www.miek.nl/s/803d2aaaa1/][Miek]],
+somewhat modified. The result is
+[[https://github.com/alexDarcy/scripts/blob/master/notify.sh][here]].\\
+If you want to use it, don't forget to change the username from "alex"
+to yours.
+
+** Do not include yourself in Group reply
+   :PROPERTIES:
+   :CUSTOM_ID: do-not-include-yourself-in-group-reply
+   :END:
+Set alternates in .muttrc. Every mail inside will be remove from the
+reply.
+
+** Forward attachments also
+   :PROPERTIES:
+   :CUSTOM_ID: forward-attachments-also
+   :END:
+Use the bounce functionnality instead of forward.
+
+** Marking all unread mails as read
+   :PROPERTIES:
+   :CUSTOM_ID: marking-all-unread-mails-as-read
+   :END:
+Select all unread mails with T ~O. Then mark them as read with ;WO.
+
+/Note: An unread mail can be tagged with N instead of O, so change the
+commands accordingly./
+
+** Migrating from Thunderbird
+   :PROPERTIES:
+   :CUSTOM_ID: migrating-from-thunderbird
+   :END:
+If you have been using Thunderbird in the past, chances are that you
+want to migrate all your mails to Mutt. However Thunderbird uses the
+mbox format for storing your mails so you will have to convert the
+folder to the maildir format.\\
+Fortunately, there are several scripts for that. The best I have found
+(meaning without special librairies) is this one : mb2md. You will find
+your mail in the .thunderbirdfolder, in an 'Inbox' file. The path should
+look like this :\\
+.thunderbird/5iieiei68bdtk.default/Mail/yourserver/Inbox
+
+For some informations about the two formats, see here.
+
+** Start fetchmail at boot
+   :PROPERTIES:
+   :CUSTOM_ID: start-fetchmail-at-boot
+   :END:
+I copied my ~/.fetchmailrc to /etc/fetchmailrc. Then edit the
+permissions with
+
+#+begin_src shell
+  $ chmod 600 /etc/fetchmailrc
+#+end_src
+
+Finally, add to /etc/default/fetchmail the following :
+
+#+begin_src shell
+  START_DAEMON=yes
+  CONFFILE=/etc/fetchmailrc
+  RUNASROOT=false
+#+end_src
+
+Now you can restart fetchmail with /etc/init.d/fetchmail restart.
+Beware, this has downloaded all of my emails again !

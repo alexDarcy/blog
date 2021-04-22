@@ -1,0 +1,39 @@
+Let's see how to do incremental automated backup for your files on
+Debian.
+
+First, we will define a list of folders to backup and place it into a
+file, for example /root/folders.txt. In this example, we backup some
+folders from /home :
+
+#+begin_src shell
+  /home/john/movies
+  /home/john/perso
+  /home/john/pictures
+#+end_src
+
+After installing rdiff-backup, we can backup these folders into
+/Data/Backup with:
+
+#+begin_src shell
+  rdiff-backup  --include-globbing-filelist /root/folders.txt --exclude '**' /home/john /Data/Backup
+#+end_src
+
+The log will be available in /Data/Backup/rdiff-backup-data.
+
+** Automated backup
+   :PROPERTIES:
+   :CUSTOM_ID: automated-backup
+   :END:
+Our strategy is to backup once a week and remove backup older than a
+month. For that, let us create the complete backup script, for example
+in /root/backup.sh:
+
+#+begin_src shell
+  #!/bin/sh
+  rdiff-backup  --include-globbing-filelist /root/folders.txt --exclude '**' /home/john /Data/Backup
+  rdiff-backup --remove-older-than 1M /Data/Backup/home_backup
+#+end_src
+
+Finally, we will use anacron to run the script once a week. Contrary to
+crontab, it allows us to avoid running the computer 24hours a day and
+will run the backup the next time the computer will boot if needed.

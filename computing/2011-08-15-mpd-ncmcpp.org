@@ -1,0 +1,130 @@
+Nothing like some music for making your computer more agreable. If you
+want lightweight and fast softwares for listening to your musical
+library, do it inside a terminal ! We will need mpd, an application for
+managing your collection, and another one which will serve as an
+interface, like ncmpcpp.
+[[http://ncmpcpp.rybczak.net/screenshots.php][Here are some screenshots
+of a session]].
+
+** Mpd
+   :PROPERTIES:
+   :CUSTOM_ID: mpd
+   :END:
+All of mpd files will be placed in /home/user/.mpd, so create a
+directory :
+
+#+begin_src shell
+  $ mkdir /home/user/.mpd 
+#+end_src
+
+We will configure it as the "mpd" user. It is possible to start it as an
+user, but requires to start it yourself. With this configuration, it
+will launch automatically. Once mpd is installed, you will need to
+create a configuration file. There should be a file /etc/mpd.conf.
+Otherwise, copy the one given by the documentation, like
+/usr/share/mpd/mpd.conf.example. As a root, edit this file there and
+change only the music directory :
+
+#+begin_src shell
+  music_directory       "/home/user/music"
+#+end_src
+
+The other parameters should be left at their defaut value :
+
+#+begin_src shell
+  db_file               "/var/lib/mpd/mpd.db"
+  log_file              "/var/log/mpd/mpd.log"
+  pid_file              "/var/run/mpd/mpd.pid"
+  state_file            "/var/lib/mpd/mpdstate"
+  user                  "mpd"
+#+end_src
+
+Then we need to create the directories :
+
+#+begin_src shell
+  $ mkdir -p /var/lib/mpd/playlists /var/run/mpd 
+#+end_src
+
+Do not forget to create the files :
+
+#+begin_src shell
+  $ touch /var/lib/mpd/mpd.db /var/log/mpd/mpd.log 
+  $ touch /var/run/mpd/mpd.pid /var/lib/mpd/mpdstate
+#+end_src
+
+Allow mpd write permissions
+
+#+begin_src shell
+  $ chown -R mpd /var/lib/mpd /var/run/mpd
+#+end_src
+
+Mpd will then run in the background creating you database. It can take
+some time if you have a huge collection.
+
+** Ncmpcpp
+   :PROPERTIES:
+   :CUSTOM_ID: ncmpcpp
+   :END:
+Easy to configure : create a directory "/home/user/.ncmpcpp". Inside,
+create a file named "config". Put the following :
+
+#+begin_src shell
+  mpd_music_dir = "/home/user/music" 
+#+end_src
+
+where /home/user/music is the location of you music.
+
+And... you are done ! Some basics commands:
+
+- switch between the playlist and the browser view with Tab
+- add a folder or a music to the current playlist with Space
+- play the selected track immediately with Enter
+
+More help is avalaible with 1. You can also edit the tags, sort the
+tracks and so on.
+
+A cool feature is the ability to remote-control your music. For example,
+you can SSH to your computer and manage the music from a laptop. You
+just need a SSH server on the main computer. Even better, you can
+redirect mpd. I did not try it but instructions are available on
+[[http://mpd.wikia.com/wiki/Music_Player_Daemon_Security][mpd's wiki]].
+
+Now is the time to listen to some good music...
+
+** Troubleshooting
+   :PROPERTIES:
+   :CUSTOM_ID: troubleshooting
+   :END:
+/Connection refused/\\
+If you have this message when starting MPD, it can be corrected with
+changing the value of bind_to_address to
+
+#+begin_src shell
+  bind_to_address         "localhost"
+#+end_src
+
+/Flash incompatibily/\\
+If you are having problems with Flash compatibility, i.e you cannot play
+a music using mpd and watching a video for instance, try changing the
+following in /etc/mpd.conf :
+
+#+begin_src shell
+  audio_output {
+      type            "alsa"
+      name           "My ALSA Device"
+      options         "dev=dmixer"
+      device          "plug:dmix"
+  }
+#+end_src
+
+It should solve any issues which appears in the log like this :
+
+#+begin_src shell
+  Error opening alsa device "hw:0,0": Device or resource busy
+#+end_src
+
+If you still cannot start mpd, try commenting the bind_to_adress :
+
+#+begin_example
+  #bind_to_address        "localhost"
+#+end_example
