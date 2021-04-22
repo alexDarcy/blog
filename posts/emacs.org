@@ -74,15 +74,14 @@ Under test
 Here are a list of packages where tutorials can be found on the internet
 (or in later posts)
 
-- Mail : =gnus=/=mu4e=/=notmuch= are available (more on that on another
-  post). I switched from =notmuch= to =gnus=
-- Music (+ video) : =emms=
-- Shell : =eshell=
+- Mail : =notmuch= is awesome (see [[file:posts/mail.org][this post]])
 - Navigation: =dired= (I've tried ranger but the default dired works
   better for me)
 - Facebook messenger : =irc= + =bitlbee=
-- PDF: =pdf-tools=(I read all my pdf inside emacs now)
-
+** What I still do outside emacs
+- PDF: =pdf-tools= is nice but I prefer =zathura=, which is faster and more configurable
+- Music (+ video) : using =mpd= and =ncmpcpp=
+- Shell : =eshell= is nice but =fish shell= is easier to deal with.
 ** Community list
    :PROPERTIES:
    :CUSTOM_ID: community-list

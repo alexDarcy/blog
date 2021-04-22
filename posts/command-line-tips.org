@@ -1,0 +1,38 @@
+#+TITLE: Command Line Tips
+#+date: 2012-06-16s
+
+** A better sudo
+Use =doas= (from OpenBSD). The configuration is super easy, just write =/usr/local/etc/doas.conf= (on FreeBSD) :
+#+begin_src
+# Permit members of the wheel group to perform actions as root.
+permit nopass :wheel
+#+end_src
+** Find files easily
+Uses =fd= as a remplacement for =find=. Here is how I converted all the markdown files to org-mode :
+#+begin_src
+fd md -x pandoc git mv {} {.}.org
+#+end_src
+=-x= run a command, where ={}= contains the result, ={.}= contains the basename.
+** Change your shell
+Use [[https://fishshell.com/docs/current/tutorial.html][fish]]. Enough said :)
+** Splitting large files
+Here is a simple tip for splitting a large file into small chunks on
+Linux and reassemble it on Windows. No need to install anything !
+
+On Linux, split largefile into small files of 2040M named small00,
+small01... :
+
+#+begin_src shell
+  $ split -b 2048m -d largefile small
+#+end_src
+
+On Windows, Assembling the files is simply done inside the DOS terminal
+with :
+
+#+begin_src shell
+  $ copy /b small00 + small01 final
+#+end_src
+
+Don't forget to use the binary mode with /b, otherwise it will not work.
+** Lock your screan
+Simple use =xtrlock=

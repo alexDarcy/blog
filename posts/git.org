@@ -1,3 +1,5 @@
+#+title: Introduction to git
+#+date: 2021-07-03
 Here is a presentation of the versioning tool named Git.
 
 This is a rather succint presentation and aims only to show some tips

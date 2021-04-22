@@ -7,15 +7,8 @@
 (require 'ox-publish)
 (require 'ox-html)
 
-;; ;; Does not work
-;; (setq org-html-postamble-format
-;;       "<p class=\"author\">Author: %a (%e)</p>
-;; <p class=\"date\">Last updated: %C</p>
-;; <p class=\"date\">Created: %d</p>
-;; <p class=\"validation\">%v</p>")
-
-;; This works but we need more info
-;; https://www.john2x.com/blog/blogging-with-orgmode.html
+(setq user-full-name "Alexis Praga")
+;; Thanks to https://www.john2x.com/blog/blogging-with-orgmode.html
 (defun my-org-html-postamble (plist)
   (concat "<hr>"
           (format "<p class=\"date\">Created: %s, " (car (plist-get plist ':date)))
@@ -38,8 +31,7 @@
          :publishing-directory "~/projects/blog/html/"
          :recursive t
          :with-toc nil
-         :with-author "Alexis Praga"
-         :with-creator nil
+         :with-author "AlexisPraga"
          :exclude "notes"
          ;; Custom CSS
          :html-style nil
@@ -50,7 +42,5 @@
 <link href=\"https://taopeng.me/org-notes-style/css/notes.css\" rel=\"stylesheet\" type=\"text/css\" />"
          :publishing-function org-html-publish-to-html
          :headline-levels 4             ; Just the default for this project.
-         :auto-sitemap t
-         :sitemap-filename "index.org"
         )))
 (provide 'publish)
