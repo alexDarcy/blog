@@ -32,6 +32,7 @@ ok cancer
 ** TODO Maladies infectieuses
 DEADLINE: <2021-04-20 Tue>
 :LOGBOOK:
+CLOCK: [2021-04-22 Thu 15:34]--[2021-04-22 Thu 16:47] =>  1:13
 CLOCK: [2021-04-20 Tue 11:43]--[2021-04-20 Tue 12:08] =>  0:25
 :END:
 *** DONE 142
@@ -41,12 +42,12 @@ CLOCK: [2021-04-20 Tue 11:43]--[2021-04-20 Tue 12:08] =>  0:25
 *** DONE 149
 *** DONE 151
 *** DONE 152
-*** TODO 153
-*** TODO 154
-*** TODO 156
-*** TODO 157
-*** TODO 158
-*** TODO 161
+*** DONE 153
+*** DONE 154
+*** DONE 156
+*** DONE 157
+*** DONE 158
+*** DONE 161
 *** TODO 162
 *** TODO 163
 *** TODO 164
@@ -887,25 +888,25 @@ DEADLINE: <2021-04-25 Sun> SCHEDULED: <2021-04-22 Sat>
 :END:
 ** Tuto radio
 Source
-*** TODO [[youtube:BzAuXu1ibrM][#10: Cholécystite Aigüe !]]
+*** TODO [[https://www.youtube.com/watch?v=BzAuXu1ibrM][#10: Cholécystite Aigüe !]]
 [[file:~/TV_Shows/Tuto_radio/Conf Tuto Radio #10 - Cholécystite Aiguë !-BzAuXu1ibrM.webm][file:~/TV_Shows/Tuto_radio/Conf Tuto Radio #10 - Cholécystite Aiguë !-BzAuXu1ibrM.webm]]
 DEADLINE: <2020-10-09 Fri>
-*** DONE [[youtube:1G7P9V3s0Ao][#9 : Radiculalgie et Hernie Discale !]]
+*** DONE [[https://www.youtube.com/watch?v=1G7P9V3s0Ao][#9 : Radiculalgie et Hernie Discale !]]
 DEADLINE: <2020-10-05 Mon>
-*** DONE [[youtube:uTGvhzjW_dM][#8: Pancréatite Aigue !]]
+*** DONE [[https://www.youtube.com/watch?v=uTGvhzjW_dM][#8: Pancréatite Aigue !]]
 DEADLINE: <2020-10-12 Mon>
 [[file:~/TV_Shows/Tuto_radio/Conf Tuto Radio #8 - Pancréatite Aigue !-uTGvhzjW_dM.webm][file:~/TV_Shows/Tuto_radio/Conf Tuto Radio #8 - Pancréatite Aigue !-uTGvhzjW_dM.webm]]
-*** DONE [[youtube:TcEQSUFPUzA][#7: Hémorragie méningée non traumatique !]]
+*** DONE [[https://www.youtube.com/watch?v=TcEQSUFPUzA][#7: Hémorragie méningée non traumatique !]]
 DEADLINE: <2020-10-07 Wed>
-*** TODO [[youtube:sZrr_2vbDY4][#6 : Grossesse Extra-Utérine !]]
+*** TODO [[https://www.youtube.com/watch?v=sZrr_2vbDY4][#6 : Grossesse Extra-Utérine !]]
 [[file:~/TV_Shows/Tuto_radio/Conf Tuto Radio #6  - Grossesse Extra-Utérine !-sZrr_2vbDY4.mkv][file:~/TV_Shows/Tuto_radio/Conf Tuto Radio #6  - Grossesse Extra-Utérine !-sZrr_2vbDY4.mkv]]
 DEADLINE: <2020-10-14 Wed>
-*** DONE [[youtube:M57Sbl8k058][#5: Diverticulite aigüe !]]
+*** DONE [[https://www.youtube.com/watch?v=M57Sbl8k058][#5: Diverticulite aigüe !]]
 DEADLINE: <2020-10-11 Sun>
-*** DONE [[youtube:i5Jb22kwVBQ][#4: Spondylodiscite infectieuse !]]
-*** DONE [[youtube:6zIZq-xRus4][#3 : la Colique Néphr\u00e9tique !]]
-*** DONE [[youtube:UQgKuIoVotM][#2: Appendicite]]
-*** DONE [[youtube:K1Gw99I0zPU][#1 : Embolie pulmonaire]]
+*** DONE [[https://www.youtube.com/watch?v=i5Jb22kwVBQ][#4: Spondylodiscite infectieuse !]]
+*** DONE [[https://www.youtube.com/watch?v=6zIZq-xRus4][#3 : la Colique Néphr\u00e9tique !]]
+*** DONE [[https://www.youtube.com/watch?v=UQgKuIoVotM][#2: Appendicite]]
+*** DONE [[https://www.youtube.com/watch?v=K1Gw99I0zPU][#1 : Embolie pulmonaire]]
 
 * Items
 :PROPERTIES:
@@ -2411,12 +2412,12 @@ CLOCK: [2021-02-18 Thu 21:54]--[2021-02-18 Thu 22:43] =>  0:49
 SCHEDULED: <2021-04-24 Sat>
 *** DONE Anomalie eau sodium
 *** DONE Anomalies potassium
-*** TODO [[id:d734cf6f-938a-4b93-a2cf-3e23bc4f2b53][Items/264 Diurétiques]]
+*** TODO Items/264 Diurétiques
 *** DONE Désordre acide/base
 *** DONE HyperCa, hypoCa
 *** TODO Hématurie
 *** TODO Protéinurie
-*** TODO [[id:ee86068b-6b6b-48dc-b1e8-c6e9935dc470][Items/254 Syndromes oedemateux]]
+*** TODO Items/254 Syndromes oedemateux
 *** TODO Néphropathies glomérulaires
 *** TODO Néphropathies diabétiques
 *** TODO LES

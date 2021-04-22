@@ -1921,17 +1921,6 @@ Regarder les accords ?
 :CATEGORY: video
 :END:
 ** KILL AskHistorians Digital Conference 202
-*** KILL [[youtube:Y2ucrc59QuQ][Indigenous Histories Disrupting Yours: Sovereignties, History, and Power]]
-SCHEDULED: <2020-09-19 Sat>
-*** KILL [[youtube:MZla1_9yOko][How I Learned to Stop Worrying and Love the Apocalypse: Imagining Mass Destruction]]
-*** KILL [[youtube:bv6yA5_Zg5o][Pick Your Poison: Climate, Disease, and Human Disaster from the Middle Ages to Today]]
-*** KILL [[youtube:kooYh3xKjvM][Sinners, Saints, and Spies: Historical Women and Cultural Propaganda]]
-*** KILL [[youtube:wVLNFeM89Kw][Power and Projections of Trauma in the 19th and 20th Centuries]]
-*** KILL [[youtube:H9HqeP_OSAw][Being the Change that Others Don’t Want: Asserting and Resisting Racial Hierarchies]]
-*** KILL [[youtube:MTfkJBr_Qpw][In Whose Trenches? Violence, Voice, and the Experience of War from Below]]
-*** KILL [[youtube:ZOefYYymOwM][Building the Nation, Dreaming of War: Nation-Building through Mythologies of Conflict]]
-*** KILL [[youtube:aLby1lDkhiI][Prof. Alex Wellerstein: "The Atomic Bomb and Visions of the New Post War Order"]]
-*** KILL [[youtube:EBoeW5OoXmg][So Long, and Thanks for All the Hist: Closing Remarks on the AskHistorians 2020 Digital Conference]]
 ** TODO Ninja Nerd
 *** TODO Cardiovascular
 **** TODO Blood Pressure Regulation | Hypertension | Part 2.mp4

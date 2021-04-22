@@ -277,7 +277,7 @@ https://www.marmiton.org/recettes/recette_pate-a-crepes-simple_27121.aspx
 => décent
 *** LOVEIT Raymond Oliver
 **** Ingredients
-***** Recette initiale :  [[youtube:FUO2zmDnSe8][source]]
+***** Recette initiale :  [[https://www.youtube.com/watch?v=FUO2zmDnSe8][source]]
 - 200g farine
 - 4 oeufs (suffisament pour absorper la farine)
 - 250mL de lait
