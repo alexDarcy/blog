@@ -1,4 +1,4 @@
-#+title: Irssi
+#+title: Messaging with irssi
 #+date: 2011-08-29
 
 ** Irssi and screen
@@ -7,7 +7,8 @@
    :END:
 With screen, we can create a terminal which can the be detached and
 reattached at will. So I can connect to my computer over SSH and
-reattach irssi : ta~da, I have my messaging client from the outside.
+reattach irssi : now, we have my messaging client always running but accessible
+from the outside.
 
 We start a screen session named irssi with =screen -S irssi=.
 Then we launch irssi inside the new terminal. Now the session will be detached
@@ -44,7 +45,7 @@ The scripts are available [[http://scripts.irssi.org/][here]]. I use:
    :PROPERTIES:
    :CUSTOM_ID: troubleshooting
    :END:
-If trying to load a script results in Can't locate Time/Duration.pm,
+If trying to load a script results in =Can't locate Time/Duration.pm=,
 then you should install the time-duration library. In Debian :
 
 #+begin_src shell

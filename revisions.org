@@ -32,6 +32,7 @@ ok cancer
 ** TODO Maladies infectieuses
 DEADLINE: <2021-04-20 Tue>
 :LOGBOOK:
+CLOCK: [2021-04-22 Thu 18:18]--[2021-04-22 Thu 18:41] =>  0:23
 CLOCK: [2021-04-22 Thu 15:34]--[2021-04-22 Thu 16:47] =>  1:13
 CLOCK: [2021-04-20 Tue 11:43]--[2021-04-20 Tue 12:08] =>  0:25
 :END:
@@ -48,8 +49,8 @@ CLOCK: [2021-04-20 Tue 11:43]--[2021-04-20 Tue 12:08] =>  0:25
 *** DONE 157
 *** DONE 158
 *** DONE 161
-*** TODO 162
-*** TODO 163
+*** DONE 162
+*** DONE 163
 *** TODO 164
 *** TODO 165
 *** TODO 169

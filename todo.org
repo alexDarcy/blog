@@ -327,6 +327,10 @@ Then edit %APPDATA%/pasff .bat
 python "%APPDATA%\passff\passff.py" %*
 
 And python file in the same directory. Replace pass with gopass and "show" with "ls" (when there are no arguments)
+** TODO [#A] Porter le site en org-mode
+*** TODO Convertir posts
+*** TODO Régler le problème du footer
+*** TODO Copie locale du CSS
 
 * FreeBSD
 ** WAIT MAJ nzbhydra à 3.9

@@ -14,7 +14,7 @@ This is an easy-to-use command line utility. Just type
   $ recordydesktop
 #+end_src
 
-and the capture starts.You can stop it with Ctrl-C. Easy, right ? Of
+and the capture starts.You can stop it with =Ctrl-C=. Easy, right ? Of
 course, there are also several interesting options like
 
 #+begin_src shell
@@ -28,10 +28,11 @@ free formats. The main drawback here is the resolution of the output :I
 could not set it at the highest level. But if you do not want to make HD
 videos, this should suit you well enough.
 
-** Ffmpeg I chose this one for my captures. Albeit not perfect, it
+** Ffmpeg
+I chose this one for my captures. Albeit not perfect, it
 offers you the possibility of using several cores, leading to an
 improvement in performances. The output can however set to very good
-quality. For stopping the capture, juste type q. For example, you can
+quality. For stopping the capture, juste type =q=. For example, you can
 use it like that (refer to the man page for more details !) :
 
 #+begin_src shell
@@ -51,4 +52,4 @@ Now, what are all these options ?
 - using the H.264 encoding: =-vcodec libx264=
 - these are settings for a fast encoding: =-vpre lossless_ultrafast=
 
-You are all set for some capturing now !
+You are all set for some capturing now :)
