@@ -415,6 +415,7 @@ CLOSED: [2020-09-17 Thu 21:31]
   :Custom_ID: eco83
   :rating:   4
   :END:
+ [[file:notes/Homère.org][Illiade et Odysée]]
 ** DONE Eco, U. (1989): Foucault's pendulum
   :PROPERTIES:
   :Custom_ID: eco89_foucaul
@@ -434,7 +435,7 @@ CLOSED: [2020-07-23 Thu 21:32]
 
 ** DONE Hugo, V. :  [[file:../notes/reviews/20210216212256-notre_dame_de_paris.org][Notre-Dame de Paris]] , [[file:notes/reviews/20210423122519-les_travailleurs_de_la_mer.org][Les Travailleurs de la mer]] :lapleiade:
 CLOSED: [2021-03-16 Tue 22:35]
-** STRT [[file:../notes/reviews/20210318102410-graal.org][Le Livre du Graal]] :lapleiade:
+** STRT [[file:notes/reviews/20210318102410-graal.org][Le Livre du Graal]] :lapleiade:
 ** DONE Joyce, J. (2000): Dubliners
   :PROPERTIES:
   :Custom_ID: joyce00_dublin
