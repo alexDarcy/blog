@@ -11,3 +11,4 @@ send: clean
 
 clean:
 	find html -iname \*.html~ -exec rm {} \;
+	rsync -avz files html/

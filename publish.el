@@ -27,7 +27,6 @@
 <a href='/about.html'>About</a></li>
 </nav>")
 
-
 ;; ;; org-html-head blog-html-head);; Can't set it in org-publish-project-alist...
 (setq org-publish-project-alist
       '(
