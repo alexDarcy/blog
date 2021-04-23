@@ -222,6 +222,7 @@ FreeBSD: {
 
 * raspberry
 loader.conf
+#+begin_src
 
 # Configure USB OTG; see usb_template(4).
 hw.usb.template=3
@@ -232,6 +233,7 @@ boot_serial="YES"
 # Disable the beastie menu and color
 beastie_disable="YES"
 loader_color="NO"
+#+end_src
 
 /etc/rc.conf
 #+begin_src
@@ -296,6 +298,42 @@ encoding.add = utf8
 
 # Use 'tmux -d rtorrent -s rtorrent ' instead
 # system.daemon.set = true
+#+end_src
+
+~/.config/fish/fish.config
+#+begin_src
+# Vim binding
+fish_vi_key_bindings
+
+# Bepo bindings for vim
+for key in h l k j
+    bind -e --user $key
+    bind -e --user -M visual $key
+end
+
+bind --user c backward-char
+bind --user r forward-char
+bind --user s up-line
+bind --user t down-line
+
+bind --user -M visual c backward-char
+bind --user -M visual r forward-char
+bind --user -M visual s up-line
+bind --user -M visual t down-line
+
+# Alt-s uses doas instead of sudo
+for mode in insert default visual
+    bind --user -s -M $mode \es __fish_prepend_doas
+end
+
+alias tma="tmux a -d -t"
+alias tms="tmux new-session -s"
+alias ttorr="tmux a -d -t rtorrernt"
+
+# Allow tramp connection from emacs
+if test "$TERM" = "dumb"
+    exec sh
+end
 #+end_src
 * poudrier config
 /usr/local/etc/poudriere.conf

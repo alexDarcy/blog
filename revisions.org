@@ -29,9 +29,10 @@ DEADLINE: <2020-11-22 Sun>
 -> puberté
 
 ok cancer
-** TODO Maladies infectieuses
+** DONE Maladies infectieuses
 DEADLINE: <2021-04-20 Tue>
 :LOGBOOK:
+CLOCK: [2021-04-23 Fri 16:42]--[2021-04-23 Fri 16:55] =>  0:19
 CLOCK: [2021-04-23 Fri 13:08]--[2021-04-23 Fri 14:10] =>  1:02
 CLOCK: [2021-04-22 Thu 20:56]--[2021-04-22 Thu 21:21] =>  0:25
 CLOCK: [2021-04-22 Thu 18:18]--[2021-04-22 Thu 18:41] =>  0:23
@@ -59,9 +60,10 @@ CLOCK: [2021-04-20 Tue 11:43]--[2021-04-20 Tue 12:08] =>  0:25
 *** DONE 170
 *** DONE 171
 *** DONE 172
-*** TODO 173
-*** TODO 174
+*** DONE 173
+*** DONE 174
 ** TODO Parasitologie
+   DEADLINE: <2021-04-23 Fri>
 ** TODO Médecine interne
 *** DONE 187
 * Anesthésie-Rea :anesth:

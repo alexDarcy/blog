@@ -1,5 +1,15 @@
 #+TITLE: Emacs_tips
 
+* SSH, FTP, sudo
+Use tramp
+With fish shell, sSh can hangs so I follewed [[https://github.com/oh-my-fish/theme-bobthefish/issues/148][this advice]] (TODO: send a mail about it)
+and set in ~/.config/fish/fish.config
+#+begin_src
+if test "$TERM" = "dumb"
+    exec sh
+end
+#+end_src
+For faster access, set a bookmark to the folder <3 Otherwise it's a bit annoying to type
 * TODO Grep + sed
 Search and edit with ripgrep directly in the result !
 1. search with ripgrep, for example with `SPC s p`
