@@ -39,7 +39,7 @@ A priori ok, cf notmuch:id:817091247.13495.1594457372183.JavaMail.bea@crmcctr01
 *** TODO Ajouter recettes de livres connus
 *** TODO Génerer liste de courses
 * Blog :blog:
-** TODO [[file:Emacs_tips.org][Emacs_tips]] :blog:
+** TODO [[file:../../../../../home/alex/projects/blog/notes/Emacs_tips.org][Emacs_tips]] :blog:
 ** TODO Freebsd 2020
 *** Nvidia 950 : 
 /etc/rc.conf:

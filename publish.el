@@ -38,7 +38,8 @@
          :recursive t
          :with-toc nil
          :with-author "AlexisPraga"
-         :exclude "notes"
+         ;; Skip org roam files in notes (but not in notes/reviez). They start with 14 digits
+         :exclude "notes/\\([[:digit:]]\\)\\{14\\}.*.org"
          ;; Custom CSS
          :style-default nil ;; No other css
          :html-head-include-scripts nil ;; No other css (both must be set)

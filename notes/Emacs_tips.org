@@ -1,12 +1,12 @@
 #+TITLE: Emacs_tips
 
-* TODO With Doom emacs
+* TODO Grep + sed
 Search and edit with ripgrep directly in the result !
 1. search with ripgrep, for example with `SPC s p`
 2. Put the results in a buffer with `C-c C-o` (`ivy-occur`)
 3. Edit the buffer with `i` (`ivy-wgrep-change-to-wgrep`)
 * TODO Calc
-* TODO Mail with mbsync :emacs:blog:
+* DONE Mail with mbsync :emacs:blog:
 ! Got several "duplicate ID" after using a systemd service.
 It's due to moving files (my version of archiving) and the naming scheme.
 We must use the "alternate" naming scheme to avoid duplicates.
@@ -15,8 +15,8 @@ NB: we should explain with gmail
 
 Mbsync is really faster when fetching mails the first time.Afterwards, I'm not
 sure the gain is worth it
-* TODO Gnus
-** TODO Global
+* KILL Gnus
+** KILL Global
 A bit slow with imap
 Offline usage : notmuch does not work ... See https://ding.gnus.narkive.com/kJo5yKca/nnir-and-notmuch
 We have to use mairix
@@ -26,7 +26,7 @@ https://emacs.stackexchange.com/questions/38739/how-can-i-subscribe-to-se-rss-fe
 In the end, slower than notmuch inside emacs (start + search) but I prefer it to
 read news.
 Trying it at the moment
-** Mairix config
+** KILL Mairix config
 Mairixrc
 #+BEGIN_SRC
   base=~/Mail/
@@ -65,7 +65,7 @@ Follow the manual instruction. Important: do not answer "no" for hidden folder
 (setq mm-text-html-renderer 'gnus-w3m)
 (setq gnus-inhibit-images nil)
 #+END_SRC
-** What about sent mails
+** KILL What about sent mails
 Initially, I wanted a copy in a maildir folder. It turns out it's already on
 Gmail server in both all mail and sent mail.
 I'm not sure anymore to need a specific "sent" folder for gmail.
@@ -156,7 +156,7 @@ Update : it seems to work without nginx with a socket ??
 (Attention à l'ordrer)
 * TODO Misc
 yas-describe-tables to see snippets
-* TODO Presentatin
+* TODO Presentation
 ** org mode -> beamer
 ** org-mode -> reveal.js
 #+begin_src

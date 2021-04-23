@@ -1,4 +1,6 @@
-all:
+all: build send
+
+build:
 	emacs -Q --batch -l publish.el -f org-publish-all
 
 force:
