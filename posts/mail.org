@@ -4,7 +4,6 @@ Today, we will see how to get mails, read them, and answer them, inside
 a terminal. We will need four utilities for that :
 
 - one to synchronize our local mails with the server : =mbsync=,
-# - one for processing the mails once they are received : procmail,
 - a mail client for viewing them : emacs with =notmuch=
 - an agent for sending mails : =msmtp= a good choice (or sendmail, which
   should be installed by default on most Linux and BSD distribution )
