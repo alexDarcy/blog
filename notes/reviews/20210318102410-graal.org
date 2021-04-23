@@ -1,4 +1,5 @@
 #+title: Graal
+#+roam_tags: review
 Notes sur "Le livre du Graal" de la Pléiade.
 
 Il s'agit d'un mythe purement littéraire, sans racine biblique.

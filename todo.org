@@ -173,19 +173,26 @@ Because it complaints that
 ln -s /opt/brother/Printers/HL1110/cupswrapper/brother_lpdwrapper_HL1110  /usr/local/libexec/cups/filter
 #+END_SRC
 
-** TODO Useful tools i'v discovered
+** TODO Completer [[file:posts/command-line-tips.org][file:/usr/home/alex/projects/blog/posts/command-line-tips.org]]
 - ripgrep
 - ripgrep-all
 - fd : usable with emacs (fd-dired)
 - fzf : usable with emacs (fd-dired) (less useful with doom as there is a recursive search)
+*** TODO Default application (archlinux)
+Get the filetype with
+xdg-mime query filetype  ~/Books/test.pdf
+Edit ~/.config/mimeapps.list
+application/pdf=evince.deskop;
+** TODO Projects
+** TODO Réécrire posts
+*** STRT Computing
+*** TODO Projects
+**** TODO Haskell art
+**** TODO Mandelbrot
+**** TODO Finite-volume simulation
+**** TODO Wall of met
 ** TODO Compiler du latex avec Hakyl
 Problème : fonctionne en standalone mais pas en incluant un header (testé avec rubber)
-** TODO Post sur config email :blog:
-Gnus vs notmuch
-Notmuch : very fast, easy to search. But you need to have scripts to rename/move mails (so a bit of setup)
-Gnus: very useful to read news and only show unread mails. Search with mairix is slow (not mairix itself) and slow at startup. Could not make notmuch work
-
-I tried notmuch, then gnus, then notmuch
 ** TODO Post sur facebook messenger inside emacs
 **** Requirements
 - bitlbee
@@ -316,11 +323,6 @@ myKeys = [("M4-e", spawn "emacs")
    https://github.com/romkatv/powerlevel10k#antibody
    I had to default to the ascii version. Even instaling the recommended font did not work in urxvt + source code pro.
    (yay -S ttf-meslo-nerd-font-powerlevel10k)
-** TODO Default application (archlinux)
-Get the filetype with
-xdg-mime query filetype  ~/Books/test.pdf
-Edit ~/.config/mimeapps.list
-application/pdf=evince.deskop;
 ** TODO Pass on windows
 Install gopass : get the .zip, put the exe somewhere and add it to the path.
 Then edit %APPDATA%/pasff .bat
@@ -328,8 +330,7 @@ python "%APPDATA%\passff\passff.py" %*
 
 And python file in the same directory. Replace pass with gopass and "show" with "ls" (when there are no arguments)
 ** TODO [#A] Porter le site en org-mode
-*** TODO Convertir posts
-*** TODO Régler le problème du footer
+*** DONE Régler le problème du footer
 *** TODO Copie locale du CSS
 
 * FreeBSD
@@ -566,7 +567,7 @@ Soumis https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=255233
 Incident reçu le <2020-12-28 Tue>
 Signalé à Boursorama le <2020-12-29 Tue>
 * Computer science
-** TODO 99 haskell [26/99]
+** HOLD 99 haskell [26/99]
 * Cuisine :cooking:
 ** Desserts
 *** TODO Lebkuchen de Nuremberg

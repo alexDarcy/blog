@@ -34,10 +34,7 @@ Excellentes critiques
 * Fanfic
 *** Harry potter
 **** DONE Sacrifice Arc
-Concept de base intéressant. J'avais des doutes sur la relation Harry-Draco mais c'est bien écrit.
-L'univers est très développé et c'est le point fort de l'ouvrage.
-Je lui reproche un peu trop de fluctuations sur les "humeurs" d'Harry et ses relations avec Severus et Draco.
-Très créatif
+[[file:../../../../../home/alex/projects/blog/20210423121705-sacrifice_arc.org][Sacrifice arc review]]
 ***** DONE I Am Also Thy Brother (Sacrifices arc, #7)
 :PROPERTIES:
 :author:   Lightning on the Wave
@@ -92,7 +89,6 @@ Très créatif
 :rating:   5
 :year:     2015
 :END:
-Intéressant pour le côté très scientifique d'Harry. J'ai vu quelques critiques notamment sur la méthode scientifique mais cela ne m'a pas choqué. Très distrayant avec quelques moments cultes.
 **** DONE Arithmancer
 ***** DONE Lady Archimedes
 :PROPERTIES:
@@ -108,13 +104,11 @@ Intéressant pour le côté très scientifique d'Harry. J'ai vu quelques critiqu
 * Histoire :history:
 ** KILL Cours d'histoire 1913
 CLOSED: [2021-03-08 Mon 17:57]
-** DONE Magni, C. (2003): Les Olm\`eques: des origines au mythe :south_america:
+** DONE Magni, C. (2003): Les Olmèques: des origines au mythe :south_america:
   CLOSED: [2019-06-02 Sun 09:35]
   :PROPERTIES:
   :Custom_ID: magni2003olmeques
   :END:
-
-Intéressant pour l'intérprétation en histoire de l'art. Assez décevant en première approche pour découvrir la civilisation
 
 ** DONE Delumeau, J. (2005): Une histoire du monde aux temps modernes
   :PROPERTIES:
@@ -180,7 +174,7 @@ Intéressant pour l'intérprétation en histoire de l'art. Assez décevant en pr
   :END:
 
 
-  ** [?] Histoire Romaine: Livres Xxi à Xxv
+*** DONE Histoire Romaine: Livres Xxi à Xxv
 :PROPERTIES:
 :author: Livy
 :rating: 5
@@ -320,7 +314,7 @@ CLOSED: [2021-03-25 Thu 10:04]
   :PROPERTIES:
   :Custom_ID: rowling07_harry_potter
   :END:
-** LOTR
+** DONE Lord of the Rings
 *** DONE The fellowship of the ring : being the first part of the lord of the rings :fantasy:
   :PROPERTIES:
   :Custom_ID: tolkien65_ring
@@ -350,6 +344,13 @@ CLOSED: [2021-03-25 Thu 10:04]
   :PROPERTIES:
   :Custom_ID: tolkien12
   :END:
+** TODO Earthsea
+*** TODO 1  A Wizard of Earthsea   (1968)
+*** TODO 2  The Tombs of Atuan   (1970)
+*** TODO 3  The Farthest Shore (1972)
+*** TODO 4  Tehanu   1990
+*** TODO 5  Tales from Earthsea (2001)
+*** TODO 6  The Other Wind (2001)
 * Fiction
 ** Violet Evergarden
 *** DONE Novel 1
@@ -410,75 +411,7 @@ CLOSED: [2020-09-17 Thu 21:31]
   :PROPERTIES:
   :Custom_ID: duby19_oeuvr
   :END:
-*** DONE Leçon inaugurale du Collège de France
-Introduit sa notion d'histoire des sociétés, qui se veut englobante mais différentes de l'histoire des mentalités (mal définies)
-*** DONE Le Dimanche de Bouvines
-Intéressant car assez révolutionnaire. Prétend qu'il est illusoire de vouloir
-accéder à la réalité historique au travers des sources, car on est dépendant du
-biais de la source.
-Utilise la bataille de Bouvines (1214) pour examiner l'idéologie
-Notes :
-- les chevaliers sont passés d'un esprit de groupe à solidaire entre le début XII et début XIII
-- la bataille était vue comme une manière d'instaurer la paix en confrontant les adversaires une bonne fois pour toute
-Dans la dernière partie ("Légendaire") :
-- on voit l'évolution de l'histoire de bouvines qui se transforme en épopée épique
-- et surtout que l'histoire est instrumentalisées par le pouvoir++
-*** DONE Le Temps des Cathédrales
-L'idée de ce livre est d'évoquer sur une longue période (tout le Moyen-Âge) l'évolution de l'art en fonction de l'évolution des sociétés.
-
-En pratique, on a donc une écriture très littéraire, sans aucune référénces, hormis des citations directes des contemporains.
-L'objectif est d'immerger le lecteur dans la période et dans l'état d'esprit des contemporains.
-
-Il m'a fallut relire plusieurs fois quelques phrases donc une certaine concentration est nécessaire.
-La somme de connaissances est impressionnante même s'il n'y a aucune référence historographique.
-On a plus l'impression de voir une histoire des sociétés avec des liens ponctuels avec l'art.
-Des tournures de phrases très jolies.
-
-Sur le contenu, la théorie est que la création artistique est captée par les
-élites : d'abord les princes et l'Eglise (XIe siècle) puis les rois (de France,
-de Sicile) ou les pouvoirs locaux (communes italiennes)
-C'est un livre prévu pour illustrer des oeuvres d'art mais qui a été réédité en
-texte simple (avec quelques illustrations dans la version de la Pléiade)
-
-Partie conséquente sur les théories religieuses et leurs applications dans l'art.
-Sur la partie plus artistique, parfois un peu trop d'élans lyriques.
-
-Peut-être daté (1976) mais à relire probablement
-*** DONE Les trois ordres
-Ouvrage très dense, au style certes agréable mais nécessitant une forte concentration.
-Gagnerait à être beaucoup plus résuméet difficile à suivre (confirmé par l'auteur...)
-
-Résumé de la thèse :
-- étude de la conception des 3 "ordres" au XI-XIIe siècle dans le nord de la France
-- plusieurs conceptions s'entrecroisent, résumées en :
-  moines/clerc
-           | _
-          /   \
- chevaliers  paysans
-- ces conceptions sont des idéologies plaquées sur la société pour mieux les contrôler
-
-Plus précisément : 1ere version en 1025 (Adalbéron de Laon notamment =
-consolider un pouvoir monarchique défaillant), puis pouvoir féodal , puis
-résurgence 1.5 siècle plus tard
-*** DONE Guillaume le Maréchal
-Petit et intéressant.
-Attention, ce n'est pas un biographie
-Pourtant, personnage haut en couleur : s'est hissé dans la hiérarchie, retombé, puis remomnté pour finir steward du principe, marié à une riche héritière. Et "meilleur chevalier du monde".
-L'objet est d'exploiter une source à fond, notamment ses omissions
-*** DONE Dames du XIIe siecle
-2 arguments :
-- importance des femmes dans la transmission du patrimoine (les hommes se mariaient souvent au-dessus de leur niveau)
-- clergé et nobles avaient peur des femmes et de leurs femmes
-1 idée principale : impossible de savoir quelle était leur vie quotidienne
-Donc étude de l'image des femmes par les hommes
-NB: doute de l'authenticité des lettres Abélard <-> Héloïse. Argument : démonstration au service d'une vision de la femme (basé sur des lettres manques. TODO: vérifier)
-*** DONE Histoire des mentalités
-Article de la Pléiade.
-Définition un peu floue : ensemble des croyances, valeurs, représentations mentales des groupes. À rapprocher à la psychologie "historique"
-*** DONE Le plaisir de l'historien
-Court récit autobiographique
-*** DONE L'art, l'écrite et l'histoire
-Entretien avec Duby sur sa carrière
+[[file:../../../../../home/alex/projects/blog/20210423122400-oeuvres_de_duby.org][Oeuvres de Duby]]
 ** DONE Eco, U. (1983): The name of the rose
   :PROPERTIES:
   :Custom_ID: eco83
@@ -494,64 +427,25 @@ Entretien avec Duby sur sa carrière
 :author: Robert Graves
 :rating: 4
 :END:
-** DONE Homère,  (1955): Iliade ; odyssée :lapleiade:
+** DONE [[file:../../../../../home/alex/projects/blog/notes/Homère.org][Illiade et Odysée]] :lapleiade:
 CLOSED: [2020-07-23 Thu 21:32]
   :PROPERTIES:
   :Custom_ID: homere1955
   :rating:   4.5
   :END:
-*** DONE Iliade
-Assez épique, on s'y plonge bien malgré un démarrage un peu brutal si l'on ne connaît pas le contexte. Au final, raconte seulement un cours épisode de la guerre de Troie (2-3 semaines) qui est la colère d'Achille contre Agammenon, sur les 10 ans que durent la guerre. Le poème se finit sans la prise de la ville.
-Sur le style, je ne m'en suis rendu compte qu'après coup que le livre était écrit en alexandrins, ce qui explique le style. Par contre, combats très violents !
 
-Dans l'édition de la pléiade, les notes sont parfois utile et l'introduction intéressante. La question centrale est celle de l'unicité du poète. Le traducteur pense que oui, même s'il l'a écrit en plusieurs fois.
-Argument principal : il y aura moins d'inadvertances sinon !
-L'autre thèse est celle d'un seul auteur pour 10 chants sur 14 en se fondant sur les "erreurs" du texte.
-Pas de réponse définitive donc (en 1955 mais c'est encore en débat).
-*** DONE Odyssée
-Plus court, plus épique.
-Cependant, l'édition de la Pléaide semble avoir été exhaaustive et a mis un certain nombre de passages considérés comme des rajouts. Ceux-ci "cassent" vraiment le rythme du roman qui serait bien meilleur sans.
-Intéressant d'un point de vue historique cela dit.
-*** [[file:Homère.org][Homère]]
 ** DONE Victor Hugo, Notre-Dame de Paris, Les Travailleurs de la Mer :lapleiade:
 CLOSED: [2021-03-16 Tue 22:35]
-*** DONE Notre-Dame de Paris
-[[file:../../../../../../home/alex/projects/blog/notes/20210216212256-notre_dame_de_paris.org][Notre-Dame de Paris]]
-*** DONE Les Travailleurs de la mer
+*** DONE [[file:../../../../../../home/alex/projects/blog/notes/20210216212256-notre_dame_de_paris.org][Notre-Dame de Paris]]
+*** DONE [[file:../../../../../home/alex/projects/blog/20210423122519-les_travailleurs_de_la_mer.org][Les Travailleurs de la mer]]
 CLOSED: [2021-03-16 Tue 22:32]
-Première partie très différente de la première : semblable à un guide touristique
-en effet, il décrit de manière très positive l'ile de Guernsey. Par contre, on a plusieurs allusions ironiques dans le roman au comportement de ses habitants.
-
-La seconde contient le moment le plus épique pour moi : la lutte d'un homme face à l'océan
-L'introduction parle du combat contre la pièuvre comme apogée mais j'ai trouvé cela à moitié comique du fait des erreurs biologique (une pieuvre ne suce pas de sang avec ses ventouses), ce qui ruine l'effet dramatique.
-
-Sinon, très belle écriture mais parfois très "lourde", surtout dans les passages glauques.
-Le personnage de Giliat est très pathétique... Tous ces efforts sont pour rien !
-À noter un épisode de voyeurisme qui m'a rappelé Notre-Dame de Paris
-
-Notes de la pléiade sont utiles pour ce roman !
-À noter le parallèle entre Deruchette et la propre fille d'Hugo, Adèle, qui a fugué avec un militaire.
-** TODO Le livre du Graal :lapleiade:
-[[file:../../../../../../home/alex/projects/blog/notes/20210318102410-graal.org][Graal]]
+** TODO [[file:../../../../../../home/alex/projects/blog/notes/20210318102410-graal.org][Le Livre du Graal]] :lapleiade:
 ** DONE Joyce, J. (2000): Dubliners
   :PROPERTIES:
   :Custom_ID: joyce00_dublin
   :rating:   3:5
   :END:
-** DONE Les Mille et Une Nuits :lapleiade:
-[[file:20201216220107-milles_et_une_nuits.org][Milles et Une Nuits]]
-*** DONE 1. Nuits 1 à 327
-CLOSED: [2020-11-23 Mon 21:32]
-Conte d'Umar an Nu'mân, Sharr Kân et Daw' al-Makân = très long mais épique avec une histoire sur plusieurs générations
-Grande variété de contes : fables, comiques, drames... Parfois un langage très cru
-*** DONE 2. Nuits 328 à 719
-CLOSED: [2021-01-11 Mon 21:32]
-*** DONE 3. Nuits 720 à 100
-CLOSED: [2021-02-01 Wed 21:33]
-- Maruf le savetier : à lire pour la partie "duperie" assez énorme
-- Aladdin : en annexe car pas dans la version de Calcutta, mais celle de Galand. On a droit à du vieux français (cf vouvoiement entre Aladin et sa mère).
-L'histoire a des différences notables avec la version Disney (ce n'est pas le vizir qui veut épouser Jasmine).
-
+** DONE [[file:20201216220107-milles_et_une_nuits.org][Les Milles et Une Nuits]] :lapleiade:
 ** DONE Levi, P. (1990): Si c'est un homme
   :PROPERTIES:
   :Custom_ID: levi90_si
@@ -627,19 +521,14 @@ L'histoire a des différences notables avec la version Disney (ce n'est pas le v
 :MAM:      152712
 :END:
 ** TODO Beowulf (Michael Alexander translation)
-** TODO Earthsea
-*** TODO 1  A Wizard of Earthsea   (1968)
-*** TODO 2  The Tombs of Atuan   (1970)
-*** TODO 3  The Farthest Shore (1972)
-*** TODO 4  Tehanu   1990
-*** TODO 5  Tales from Earthsea (2001)
-*** TODO 6  The Other Wind (2001)
 * Thriller
 ** DONE The Lost Apothecary
 CLOSED: [2021-04-18 Sun 10:45]
 :PROPERTIES:
 :rating:   3.5
 :END:
+* Horror
+** STRT Pride and Prejudice and Zombies by Jane Austen
 * Philosophy
 ** STRT A History of Western Philosophy
 * Math :math:

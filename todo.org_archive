@@ -1508,3 +1508,17 @@ Envoyer carte
 :ARCHIVE_CATEGORY: todo
 :ARCHIVE_TODO: DONE
 :END:
+
+* DONE Post sur config email :blog:
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-04-23 Fri 12:01
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/todo.org
+:ARCHIVE_OLPATH: Blog
+:ARCHIVE_CATEGORY: todo
+:ARCHIVE_TODO: DONE
+:END:
+Gnus vs notmuch
+Notmuch : very fast, easy to search. But you need to have scripts to rename/move mails (so a bit of setup)
+Gnus: very useful to read news and only show unread mails. Search with mairix is slow (not mairix itself) and slow at startup. Could not make notmuch work
+
+I tried notmuch, then gnus, then notmuch

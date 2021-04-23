@@ -1,4 +1,5 @@
 #+title: Notre-Dame de Paris
+#+roam_tags: review
 
 Le roman est encadré entre une forte digression architecturale avec :
 - Livre III, chap 2 : longue description de Paris vu depuis Notre-Dame... et à vol d'oiseau. Un cours d'histoire au passage
