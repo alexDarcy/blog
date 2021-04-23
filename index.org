@@ -7,7 +7,6 @@
 - [[file:posts/command-line-tips.org][Command-line tips (updated)]]
 - [[file:posts/git.org][Introduction to git]]
 - [[file:posts/irssi.org][Messaging with irssi]]
-- [[file:posts/video-capture-on-linux.org][Video capture on Linux]]
 # - [[file:posts/2021-02-07-stream-media.org][2021-02-07-stream-media]]
 # - [[file:posts/2018-05-10-brother-freebsd.org][2018-05-10-brother-freebsd]]
 # - [[file:posts/2018-05-02-freebsd-tips.org][2018-05-02-freebsd-tips]]
