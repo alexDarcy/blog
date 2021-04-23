@@ -33,8 +33,7 @@ cite:RWH
 Excellentes critiques
 * Fanfic
 *** Harry potter
-**** DONE Sacrifice Arc
-[[file:../../../../../home/alex/projects/blog/20210423121705-sacrifice_arc.org][Sacrifice arc review]]
+**** DONE [[file:../../../../../home/alex/projects/blog/notes/reviews/20210423121705-sacrifice_arc.org][Sacrifice Arc]]
 ***** DONE I Am Also Thy Brother (Sacrifices arc, #7)
 :PROPERTIES:
 :author:   Lightning on the Wave
@@ -83,7 +82,7 @@ Excellentes critiques
 :rating:   5
 :year:     2005
 :END:
-**** DONE Harry Potter and the Methods of Rationality
+**** DONE [[file:../../../../../home/alex/projects/blog/notes/reviews/20210423121757-the_arithmancer.org][Harry Potter and the Methods of Rationality]]
 :PROPERTIES:
 :author:   Lightning on the Wave
 :rating:   5
@@ -426,16 +425,16 @@ CLOSED: [2020-09-17 Thu 21:31]
 :author: Robert Graves
 :rating: 4
 :END:
-** DONE [[file:../../../../../home/alex/projects/blog/notes/Homère.org][Illiade et Odysée]] :lapleiade:
+** DONE [[file:../../../../../home/alex/projects/blog/notes/reviews/Homère.org][Illiade et Odysée]] :lapleiade:
 CLOSED: [2020-07-23 Thu 21:32]
   :PROPERTIES:
   :Custom_ID: homere1955
   :rating:   4.5
   :END:
 
-** DONE Hugo, V. :  [[file:../../../../../../home/alex/projects/blog/notes/20210216212256-notre_dame_de_paris.org][Notre-Dame de Paris]] , [[file:../../../../../home/alex/projects/blog/20210423122519-les_travailleurs_de_la_mer.org][Les Travailleurs de la mer]] :lapleiade:
+** DONE Hugo, V. :  [[file:../../../../../../home/alex/projects/blog/notes/reviews/20210216212256-notre_dame_de_paris.org][Notre-Dame de Paris]] , [[file:../../../../../home/alex/projects/blog/20210423122519-les_travailleurs_de_la_mer.org][Les Travailleurs de la mer]] :lapleiade:
 CLOSED: [2021-03-16 Tue 22:35]
-** STRT [[file:../../../../../../home/alex/projects/blog/notes/20210318102410-graal.org][Le Livre du Graal]] :lapleiade:
+** STRT [[file:../../../../../../home/alex/projects/blog/notes/reviews/20210318102410-graal.org][Le Livre du Graal]] :lapleiade:
 ** DONE Joyce, J. (2000): Dubliners
   :PROPERTIES:
   :Custom_ID: joyce00_dublin
