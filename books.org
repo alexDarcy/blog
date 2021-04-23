@@ -406,12 +406,11 @@ CLOSED: [2021-02-20 Sat 14:08]
   :rating:   4.5
   :END:
 
-** DONE Duby, G. (2019): Oeuvres :lapleiade:
+** DONE Duby, G. (2019): [[file:../../../../../home/alex/projects/blog/20210423122400-oeuvres_de_duby.org][Oeuvres]] :lapleiade:
 CLOSED: [2020-09-17 Thu 21:31]
   :PROPERTIES:
   :Custom_ID: duby19_oeuvr
   :END:
-[[file:../../../../../home/alex/projects/blog/20210423122400-oeuvres_de_duby.org][Oeuvres de Duby]]
 ** DONE Eco, U. (1983): The name of the rose
   :PROPERTIES:
   :Custom_ID: eco83
@@ -434,12 +433,9 @@ CLOSED: [2020-07-23 Thu 21:32]
   :rating:   4.5
   :END:
 
-** DONE Victor Hugo, Notre-Dame de Paris, Les Travailleurs de la Mer :lapleiade:
+** DONE Hugo, V. :  [[file:../../../../../../home/alex/projects/blog/notes/20210216212256-notre_dame_de_paris.org][Notre-Dame de Paris]] , [[file:../../../../../home/alex/projects/blog/20210423122519-les_travailleurs_de_la_mer.org][Les Travailleurs de la mer]] :lapleiade:
 CLOSED: [2021-03-16 Tue 22:35]
-*** DONE [[file:../../../../../../home/alex/projects/blog/notes/20210216212256-notre_dame_de_paris.org][Notre-Dame de Paris]]
-*** DONE [[file:../../../../../home/alex/projects/blog/20210423122519-les_travailleurs_de_la_mer.org][Les Travailleurs de la mer]]
-CLOSED: [2021-03-16 Tue 22:32]
-** TODO [[file:../../../../../../home/alex/projects/blog/notes/20210318102410-graal.org][Le Livre du Graal]] :lapleiade:
+** STRT [[file:../../../../../../home/alex/projects/blog/notes/20210318102410-graal.org][Le Livre du Graal]] :lapleiade:
 ** DONE Joyce, J. (2000): Dubliners
   :PROPERTIES:
   :Custom_ID: joyce00_dublin
@@ -502,6 +498,7 @@ CLOSED: [2021-03-16 Tue 22:32]
 :PROPERTIES:
 :author:   H.G. Wells
 :rating:   4
+:END:
 ** DONE Wells, H. G. (1983): The war of the worlds :sci-fi:
   :PROPERTIES:
   :Custom_ID: wells83
@@ -575,9 +572,7 @@ CLOSED: [2021-04-22 Thu 12:05   ]
 ** TODO Auerbcah's wilderness medecine
 
 * Science :science:others:
-** TODO IPCC, 2019 : Summary for policymaker (draft) :climate:
-https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.pdf
-
+** TODO [[https://www.ipcc.ch/site/assets/uploads/2019/08/4.-SPM_Approved_Microsite_FINAL.pdf][IPCC, 2019 : Summary for policymaker (draft)]] :climate:
 ** TODO The Feynman Lectures on Physics
 
 # Local Variables:
