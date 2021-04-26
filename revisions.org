@@ -72,6 +72,46 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 *** DONE 152
 ** TODO Médecine interne
 *** DONE 187
+** TODO HGE
+DEADLINE: <2021-04-26 Mon>
+:LOGBOOK:
+CLOCK: [2021-04-26 Mon 21:37]--[2021-04-26 Mon 22:48] =>  1:11
+CLOCK: [2021-04-26 Mon 18:10]--[2021-04-26 Mon 18:31] =>  0:21
+CLOCK: [2021-04-26 Mon 16:42]--[2021-04-26 Mon 17:34] =>  0:52
+CLOCK: [2021-04-26 Mon 15:38]--[2021-04-26 Mon 15:54] =>  0:16
+CLOCK: [2021-04-26 Mon 15:20]--[2021-04-26 Mon 15:30] =>  0:10
+CLOCK: [2021-04-26 Mon 12:30]--[2021-04-26 Mon 12:52] =>  0:22
+:END:
+*** DONE Item 267
+*** DONE Item 268
+*** DONE Item 269
+*** DONE Item 270
+*** DONE Item 271
+*** DONE Item 272
+*** DONE Item 273
+*** DONE Item 274
+*** TODO Item 275
+*** TODO Item 276
+*** TODO Item 277
+*** TODO Item 278
+*** TODO Item 279
+*** TODO Item 280
+*** TODO Item 281
+*** TODO Item 282
+*** TODO Item 350
+*** TODO Item 353
+*** TODO Item 284
+*** TODO Item 285
+*** TODO Item 286
+*** TODO Item 298
+*** TODO Item 300
+*** TODO Item 301
+*** TODO Item 302
+*** TODO Item 305
+*** TODO Item 329
+*** TODO Item 349
+*** TODO Item 351
+*** TODO : Item 352
 * Anesthésie-Rea :anesth:
 PDF [[file:~/backups/hubic/Public/Cours/Medecine/referentiels/Anesth_college_2018.pdf][file:~/backups/hubic/Public/Cours/Medecine/referentiels/Anesth_college_2018.pdf]]
 https://drive.google.com/drive/folders/1PKMHd9yq-clAB5P1lLSnMRd7rtfOjvO7
@@ -425,7 +465,7 @@ CLOCK: [2021-02-28 Sun 15:10]--[2021-02-28 Sun 16:15] =>  1:05
   :CATEGORY: cancero
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-05-08 Sat> DEADLINE: <2021-04-25 Sun>
+DEADLINE: <2021-05-02 Sun> SCHEDULED: <2021-05-08 Sat>
 :LOGBOOK:
 CLOCK: [2021-04-04 Sun 11:34]--[2021-04-04 Sun 12:04] =>  0:30
 :END:
@@ -834,7 +874,7 @@ CLOCK: [2021-04-16 Fri 11:02]--[2021-04-16 Fri 11:20] =>  0:18
 :END:
 * Dermato :A2:dermato:
 ** TODO [#B] Relire fiches
-SCHEDULED: <2021-05-08 Sat> DEADLINE: <2021-04-24 Sat>
+DEADLINE: <2021-05-09 Sun> SCHEDULED: <2021-05-08 Sat>
 :PROPERTIES:
 :CATEGORY: dermato
 :END:
@@ -868,7 +908,7 @@ Uro
   :CATEGORY: gynéco
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-05-08 Sat> DEADLINE: <2021-04-25 Sun>
+DEADLINE: <2021-05-02 Sun> SCHEDULED: <2021-05-08 Sat>
 * Génétique
 ** TODO exercices
 DEADLINE: <2021-04-30 Fri>
@@ -892,7 +932,19 @@ DEADLINE: <2021-01-16 Sat> SCHEDULED: <2021-01-12 Tue>
   :CATEGORY: HGE
   :END:
 ** TODO Relire fiches
-DEADLINE: <2021-04-25 Sun> SCHEDULED: <2021-04-22 Sat>
+DEADLINE: <2021-04-27 Tue> SCHEDULED: <2021-04-22 Sat>
+:LOGBOOK:
+CLOCK: [2021-04-26 Mon 12:02]--[2021-04-26 Mon 12:29] =>  0:27
+CLOCK: [2021-04-26 Mon 11:22]--[2021-04-26 Mon 11:38] =>  0:16
+CLOCK: [2021-04-25 Sun 22:25]--[2021-04-25 Sun 22:44] =>  0:19
+CLOCK: [2021-04-25 Sun 21:20]--[2021-04-25 Sun 21:55] =>  0:35
+CLOCK: [2021-04-25 Sun 19:54]--[2021-04-25 Sun 20:01] =>  0:07
+CLOCK: [2021-04-25 Sun 18:49]--[2021-04-25 Sun 19:05] =>  0:16
+CLOCK: [2021-04-25 Sun 18:28]--[2021-04-25 Sun 18:40] =>  0:12
+CLOCK: [2021-04-25 Sun 16:00]--[2021-04-25 Sun 16:41] =>  0:41
+CLOCK: [2021-04-25 Sun 15:24]--[2021-04-25 Sun 15:45] =>  0:21
+CLOCK: [2021-04-25 Sun 14:41]--[2021-04-25 Sun 14:58] =>  0:17
+:END:
 * Imagerie
 :PROPERTIES:
 :CATEGORY: imagerie
@@ -2148,13 +2200,13 @@ CLOCK: [2021-04-15 Thu 20:24]--[2021-04-15 Thu 20:45] =>  0:21
 :END:
 ** TOUR1 269 Ulcère gastroduodénal, gastrites :pedia:anapath:hge:
 Gastrite à faire
-** TODO 270 Dysphagie :pedia:orl:
-** TODO 271 Vomissements du nourrisson, de l'enfant et de l'adulte
+** TOUR1 270 Dysphagie :pedia:orl:
+** TOUR1 271 Vomissements du nourrisson, de l'enfant et de l'adulte
 ** TOUR1 272 Splénomégalie :pedia:anapath:hemato:
 :PROPERTIES:
 :hemato:   t
 :END:
-** TODO 273 Hépatomégalie et masse abdominale
+** TOUR1 273 Hépatomégalie et masse abdominale
 ** TOUR1 274 Lithiase biliaire et complications
 :PROPERTIES:
 :hge:      t
@@ -2530,7 +2582,7 @@ DEADLINE: <2021-01-03 Sun>
 :CATEGORY: pédia
 :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-04-25 Sun>
+SCHEDULED: <2021-05-09 Sun>
 :LOGBOOK:
 CLOCK: [2021-03-03 Wed 15:06]--[2021-03-03 Wed 16:03] =>  0:57
 CLOCK: [2021-03-01 Mon 16:43]--[2021-03-01 Mon 16:54] =>  0:11
