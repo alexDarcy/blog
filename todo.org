@@ -638,11 +638,12 @@ https://cooking.nytimes.com/recipes/1018025-sourdough-pancake-or-waffle-batter
 - State "DONE"       from "TODO"       [2020-04-27 Mon 00:22]
 - State "DONE"       from "TODO"       [2020-04-26 Sun 00:22]
 ** TODO Handstand :daily:
-SCHEDULED: <2021-04-12 Mon .+1d>
+SCHEDULED: <2021-04-25 Sun .+1d>
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2021-04-11 Sun 14:53]
+:LAST_REPEAT: [2021-04-24 Sat 22:18]
 :END:
+- State "DONE"       from "TODO"       [2021-04-24 Sat 22:18]
 - State "DONE"       from "TODO"       [2021-04-11 Sun 14:53]
 - State "DONE"       from "TODO"       [2021-04-10 Sat 00:37]
 - State "DONE"       from "TODO"       [2021-04-09 Fri 00:37]
@@ -872,10 +873,12 @@ la technique
 **** TODO Audio [41/]
 **** TODO PDF [8/]
 ** TODO NHK Easy News :daily:
-SCHEDULED: <2021-01-25 Mon .+1d>
+SCHEDULED: <2021-04-25 Sun .+1d>
 :PROPERTIES:
 :STYLE:    habit
+:LAST_REPEAT: [2021-04-24 Sat 22:17]
 :END:
+- State "DONE"       from "TODO"       [2021-04-24 Sat 22:17]
 ** TODO Visual Novel :daily:
 *** TODO Totono
 SCHEDULED: <2021-04-21 Wed .+1d>
