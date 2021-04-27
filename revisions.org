@@ -75,6 +75,7 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 ** TODO HGE
 DEADLINE: <2021-04-26 Mon>
 :LOGBOOK:
+CLOCK: [2021-04-27 Tue 13:07]--[2021-04-27 Tue 13:37] =>  0:30
 CLOCK: [2021-04-26 Mon 21:37]--[2021-04-26 Mon 22:48] =>  1:11
 CLOCK: [2021-04-26 Mon 18:10]--[2021-04-26 Mon 18:31] =>  0:21
 CLOCK: [2021-04-26 Mon 16:42]--[2021-04-26 Mon 17:34] =>  0:52
@@ -90,7 +91,7 @@ CLOCK: [2021-04-26 Mon 12:30]--[2021-04-26 Mon 12:52] =>  0:22
 *** DONE Item 272
 *** DONE Item 273
 *** DONE Item 274
-*** TODO Item 275
+*** DONE Item 275
 *** TODO Item 276
 *** TODO Item 277
 *** TODO Item 278
