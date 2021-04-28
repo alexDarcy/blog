@@ -52,6 +52,36 @@ https://github.com/skeeto/emacsql
 https://tkf.github.io/emacs-request/
 https://fdc.nal.usda.gov/api-guide.html
 *** TODO Comparer REST et offline en performances
+REST: search renvoie vraiment trop de résultats...
+Plus logique de le faire avec le CSV mais les données sont éparpillées
+*** TODO comprendr les données
+food.csv: contient l'identifiant et le nom
+ex:
+"fdc_id","data_type","description","food_category_id","publication_date"
+"1104067","survey_fndds_food","100 GRAND Bar","5702","2020-10-30"
+
+food_nutrient.csv contient l'information intéressante
+"id","fdc_id","nutrient_id","amount","data_points","derivation_id","min","max","median","footnote","min_year_acquired"
+
+Pour notre nourriture grand bar:
+"13301423","1104067","1003","2.5","","","","","","",""
+"13301424","1104067","1004","19.33","","","","","","",""
+"13301425","1104067","1005","70.97","","","","","","",""
+"13301426","1104067","1008","468","","","","","","",""
+"13301427","1104067","1018","0","","","","","","",""
+etc
+
+Sauf que parfois, l'identifiant du nutrient n'est pas dans le csv !
+Exemple :
+
+"1105904","branded_food","WESSON Vegetable Oil 1 GAL","","2020-11-13"
+"13706913","1105904","203","0","","71","","","","",""
+"13706914","1105904","204","93.33","","71","","","","",""
+"13706915","1105904","205","0","","75","","","","",""
+"13706916","1105904","208","867","","71","","","","",""
+
+Or les nutrients commencent à 1000...
+
 * Blog :blog:
 ** TODO [[file:../../../../../home/alex/projects/blog/notes/Emacs_tips.org][Emacs_tips]] :blog:
 ** TODO Freebsd 2020
