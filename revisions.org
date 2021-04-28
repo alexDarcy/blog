@@ -73,22 +73,25 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 ** TODO Médecine interne
 *** DONE 187
 ** TODO HGE
-DEADLINE: <2021-04-26 Mon>
-:LOGBOOK:
-CLOCK: [2021-04-28 Wed 11:57]--[2021-04-28 Wed 12:02] =>  0:05
-CLOCK: [2021-04-28 Wed 11:31]--[2021-04-28 Wed 11:46] =>  0:15
-CLOCK: [2021-04-27 Tue 23:22]--[2021-04-27 Tue 23:52] =>  0:30
-CLOCK: [2021-04-27 Tue 23:04]--[2021-04-27 Tue 23:09] =>  0:05
-CLOCK: [2021-04-27 Tue 16:45]--[2021-04-27 Tue 17:06] =>  0:21
-CLOCK: [2021-04-27 Tue 14:00]--[2021-04-27 Tue 15:00] =>  1:00
-CLOCK: [2021-04-27 Tue 13:07]--[2021-04-27 Tue 13:37] =>  0:30
-CLOCK: [2021-04-26 Mon 21:37]--[2021-04-26 Mon 22:48] =>  1:11
-CLOCK: [2021-04-26 Mon 18:10]--[2021-04-26 Mon 18:31] =>  0:21
-CLOCK: [2021-04-26 Mon 16:42]--[2021-04-26 Mon 17:34] =>  0:52
-CLOCK: [2021-04-26 Mon 15:38]--[2021-04-26 Mon 15:54] =>  0:16
-CLOCK: [2021-04-26 Mon 15:20]--[2021-04-26 Mon 15:30] =>  0:10
-CLOCK: [2021-04-26 Mon 12:30]--[2021-04-26 Mon 12:52] =>  0:22
-:END:
+   DEADLINE: <2021-04-26 Mon>
+   :LOGBOOK:
+   CLOCK: [2021-04-28 Wed 22:51]--[2021-04-28 Wed 23:32] =>  0:41
+   CLOCK: [2021-04-28 Wed 18:14]--[2021-04-28 Wed 19:01] =>  0:47
+   CLOCK: [2021-04-28 Wed 17:18]--[2021-04-28 Wed 17:51] =>  0:33
+   CLOCK: [2021-04-28 Wed 11:57]--[2021-04-28 Wed 12:02] =>  0:05
+   CLOCK: [2021-04-28 Wed 11:31]--[2021-04-28 Wed 11:46] =>  0:15
+   CLOCK: [2021-04-27 Tue 23:22]--[2021-04-27 Tue 23:52] =>  0:30
+   CLOCK: [2021-04-27 Tue 23:04]--[2021-04-27 Tue 23:09] =>  0:05
+   CLOCK: [2021-04-27 Tue 16:45]--[2021-04-27 Tue 17:06] =>  0:21
+   CLOCK: [2021-04-27 Tue 14:00]--[2021-04-27 Tue 15:00] =>  1:00
+   CLOCK: [2021-04-27 Tue 13:07]--[2021-04-27 Tue 13:37] =>  0:30
+   CLOCK: [2021-04-26 Mon 21:37]--[2021-04-26 Mon 22:48] =>  1:11
+   CLOCK: [2021-04-26 Mon 18:10]--[2021-04-26 Mon 18:31] =>  0:21
+   CLOCK: [2021-04-26 Mon 16:42]--[2021-04-26 Mon 17:34] =>  0:52
+   CLOCK: [2021-04-26 Mon 15:38]--[2021-04-26 Mon 15:54] =>  0:16
+   CLOCK: [2021-04-26 Mon 15:20]--[2021-04-26 Mon 15:30] =>  0:10
+   CLOCK: [2021-04-26 Mon 12:30]--[2021-04-26 Mon 12:52] =>  0:22
+   :END:
 *** DONE Item 267
 *** DONE Item 268
 *** DONE Item 269
@@ -100,9 +103,9 @@ CLOCK: [2021-04-26 Mon 12:30]--[2021-04-26 Mon 12:52] =>  0:22
 *** DONE Item 275
 *** DONE Item 276
 *** DONE Item 277
-*** TODO Item 278
-*** TODO Item 279
-*** TODO Item 280
+*** DONE Item 278
+*** DONE Item 279
+*** TOUR1 Item 280
 *** TODO Item 281
 *** TODO Item 282
 *** TODO Item 350
@@ -617,10 +620,10 @@ DEADLINE: <2021-04-30 Fri +1d>
 - [ ] ECG 119
 - [ ] ECG 120
 ** TODO 150 ECGs Hampton [3/150]
-SCHEDULED: <2021-05-08 Sat> DEADLINE: <2021-04-11 Fri +1d>
-:LOGBOOK:
-CLOCK: [2021-04-11 Sun 11:09]--[2021-04-11 Sun 11:20] =>  0:11
-:END:
+   SCHEDULED: <2021-05-08 Sat> DEADLINE: <2021-04-11 Fri +1d>
+   :LOGBOOK:
+   CLOCK: [2021-04-11 Sun 11:09]--[2021-04-11 Sun 11:20] =>  0:11
+   :END:
 [[file:/media/books/medecine/150 ECG Problems, 4th Edition/150 ECG Problems, 4th.pdf][file:/media/books/medecine/150 ECG Problems, 4th Edition/150 ECG Problems, 4th.pdf]]
 - [X] ECG 1
 - [X] ECG 2
@@ -941,6 +944,7 @@ DEADLINE: <2021-01-16 Sat> SCHEDULED: <2021-01-12 Tue>
 ** TODO Relire fiches
 DEADLINE: <2021-04-27 Tue> SCHEDULED: <2021-04-22 Sat>
 :LOGBOOK:
+CLOCK: [2021-04-28 Wed 16:56]--[2021-04-28 Wed 17:01] =>  0:05
 CLOCK: [2021-04-28 Wed 12:10]--[2021-04-28 Wed 13:24] =>  1:14
 CLOCK: [2021-04-26 Mon 12:02]--[2021-04-26 Mon 12:29] =>  0:27
 CLOCK: [2021-04-26 Mon 11:22]--[2021-04-26 Mon 11:38] =>  0:16
@@ -2222,9 +2226,9 @@ Gastrite à faire
 ** TOUR1 275 Ictère
 ** TOUR1 276 Cirrhose et complications :pedia:anapath:hge:
 ** TOUR1 277 Ascite
-** TODO 278 Pancréatite chronique
-** TODO 279 Maladies inflammatoires chroniques de l'intestin (MICI) chez l'adulte et l'enfant :pedia:anapath:hge:
-** TODO 280 Constipation chez l'enfant et l'adulte (avec le traitement)
+** TOUR1 278 Pancréatite chronique
+** TOUR1 279 Maladies inflammatoires chroniques de l'intestin (MICI) chez l'adulte et l'enfant :pedia:anapath:hge:
+** TOUR1 280 Constipation chez l'enfant et l'adulte (avec le traitement)
 ** TODO 281 Colopathie fonctionnelle
 ** TODO 282 Diarrhée chronique chez l'adulte et l'enfant :pedia:anapath:hge:
 ** TOUR1 283 Diarrhée aiguë et déshydratation chez le nourrisson, l'enfant et l'adulte

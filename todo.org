@@ -32,12 +32,26 @@ Simulation fite 10/2019 : seuil trop élevé : 18 000€ sur l'année (ou 13 000
 Car laure a déjà reçu son échange
 A priori ok, cf notmuch:id:817091247.13495.1594457372183.JavaMail.bea@crmcctr01
 * Projets
-** TODO Org-chef
+** TODO org-maitred: générateur de menus
 *** TODO Formatter recettes existantes (cf package org-chef)
 *** TODO Parser avec haskell
 *** TODO Génerer menu sur une semaine
 *** TODO Ajouter recettes de livres connus
 *** TODO Génerer liste de courses
+** TODO Tracker de calories (lisp)
+*** Offline ?
+**** Data
+https://fdc.nal.usda.gov/download-datasets.html
+Notamment : full https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_csv_2021-04-28.zip
+**** TODO Télécharger et convertir CSV en SQL
+CSV
+https://github.com/mrc/el-csv
+SQL
+https://github.com/skeeto/emacsql
+*** REST ?
+https://tkf.github.io/emacs-request/
+https://fdc.nal.usda.gov/api-guide.html
+*** TODO Comparer REST et offline en performances
 * Blog :blog:
 ** TODO [[file:../../../../../home/alex/projects/blog/notes/Emacs_tips.org][Emacs_tips]] :blog:
 ** TODO Freebsd 2020
