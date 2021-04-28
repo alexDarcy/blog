@@ -879,14 +879,8 @@ la technique
    :LAST_REPEAT: [2021-04-27 Tue 13:39]
    :END:
    - State "DONE"       from "TODO"       [2021-04-26 Mon 13:39]
-** TODO Visual Novel :daily:
-*** TODO Totono
-SCHEDULED: <2021-04-21 Wed .+1d>
-:PROPERTIES:
-:STYLE:    habit
-:LAST_REPEAT: [2021-04-20 Tue 10:05]
-:END:
-- State "DONE"       from "TODO"       [2021-04-21 Wed 10:05]
+** TODO Visual Novel
+*** STRT Totono
 ** KILL Vidéos Chocolate cacao
 *** KILL Tiramisu ice cream
 ** TODO Anki :daily:

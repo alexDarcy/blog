@@ -75,6 +75,12 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 ** TODO HGE
 DEADLINE: <2021-04-26 Mon>
 :LOGBOOK:
+CLOCK: [2021-04-28 Wed 11:57]--[2021-04-28 Wed 12:02] =>  0:05
+CLOCK: [2021-04-28 Wed 11:31]--[2021-04-28 Wed 11:46] =>  0:15
+CLOCK: [2021-04-27 Tue 23:22]--[2021-04-27 Tue 23:52] =>  0:30
+CLOCK: [2021-04-27 Tue 23:04]--[2021-04-27 Tue 23:09] =>  0:05
+CLOCK: [2021-04-27 Tue 16:45]--[2021-04-27 Tue 17:06] =>  0:21
+CLOCK: [2021-04-27 Tue 14:00]--[2021-04-27 Tue 15:00] =>  1:00
 CLOCK: [2021-04-27 Tue 13:07]--[2021-04-27 Tue 13:37] =>  0:30
 CLOCK: [2021-04-26 Mon 21:37]--[2021-04-26 Mon 22:48] =>  1:11
 CLOCK: [2021-04-26 Mon 18:10]--[2021-04-26 Mon 18:31] =>  0:21
@@ -92,8 +98,8 @@ CLOCK: [2021-04-26 Mon 12:30]--[2021-04-26 Mon 12:52] =>  0:22
 *** DONE Item 273
 *** DONE Item 274
 *** DONE Item 275
-*** TODO Item 276
-*** TODO Item 277
+*** DONE Item 276
+*** DONE Item 277
 *** TODO Item 278
 *** TODO Item 279
 *** TODO Item 280
@@ -935,6 +941,7 @@ DEADLINE: <2021-01-16 Sat> SCHEDULED: <2021-01-12 Tue>
 ** TODO Relire fiches
 DEADLINE: <2021-04-27 Tue> SCHEDULED: <2021-04-22 Sat>
 :LOGBOOK:
+CLOCK: [2021-04-28 Wed 12:10]--[2021-04-28 Wed 13:24] =>  1:14
 CLOCK: [2021-04-26 Mon 12:02]--[2021-04-26 Mon 12:29] =>  0:27
 CLOCK: [2021-04-26 Mon 11:22]--[2021-04-26 Mon 11:38] =>  0:16
 CLOCK: [2021-04-25 Sun 22:25]--[2021-04-25 Sun 22:44] =>  0:19
@@ -2212,9 +2219,9 @@ Gastrite à faire
 :PROPERTIES:
 :hge:      t
 :END:
-** TODO 275 Ictère
+** TOUR1 275 Ictère
 ** TOUR1 276 Cirrhose et complications :pedia:anapath:hge:
-** TODO 277 Ascite
+** TOUR1 277 Ascite
 ** TODO 278 Pancréatite chronique
 ** TODO 279 Maladies inflammatoires chroniques de l'intestin (MICI) chez l'adulte et l'enfant :pedia:anapath:hge:
 ** TODO 280 Constipation chez l'enfant et l'adulte (avec le traitement)
@@ -2616,7 +2623,6 @@ DEADLINE: <2020-12-03 Thu>
 :CATEGORY: therapeutique
 :END:
 ** TODO Lire collège
-SCHEDULED: <2021-01-03 Sun>
 ** TODO Lire [[file:/usr/home/alex/backups/hubic/public/cours/Medecine/referentiels/L_essentiel ECNi Médicaments - 2018.pdf][L_essentiel ECNi Médicaments - 2018.pdf]]
 :LOGBOOK:
 CLOCK: [2021-04-23 Fri 17:28]--[2021-04-23 Fri 17:51] =>  0:23

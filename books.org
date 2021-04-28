@@ -196,7 +196,8 @@ CLOSED: [2021-03-08 Mon 17:57]
 :END:
 * Fantasy
 ** TODO Robin Hobb
-** TODO Fortress in the Eye of Time
+** TODO Fortress
+*** TODO Fortress in the Eye of Time
 ** DONE The Black Company
 *** DONE Cook, G. (1984) : The Black Company
 :PROPERTIES:
