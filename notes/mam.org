@@ -101,9 +101,10 @@ Tout à l'air deeedans
 ***** DONE Review
 ***** DONE Catégories !
 ***** KILL Seulement 100 résultats ...
-**** TODO Récupérer données depuis HTML
+**** DONE Récupérer données depuis HTML
 Tout sauf les categories...
 Le plus simple est de récupérer chaque bookshelf et de parser le HTML
+**** TODO Corriger les accents
 ** TODO Résultats sur Mam
 Rerchere automatique et fait à la main
 *** TODO Supprimer doublons sur le titre

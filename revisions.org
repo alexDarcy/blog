@@ -75,6 +75,9 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 ** TODO HGE
    DEADLINE: <2021-04-26 Mon>
    :LOGBOOK:
+   CLOCK: [2021-04-29 Thu 17:41]--[2021-04-29 Thu 18:06] =>  0:25
+   CLOCK: [2021-04-29 Thu 16:21]--[2021-04-29 Thu 17:10] =>  0:49
+   CLOCK: [2021-04-29 Thu 12:15]--[2021-04-29 Thu 13:06] =>  0:51
    CLOCK: [2021-04-28 Wed 22:51]--[2021-04-28 Wed 23:32] =>  0:41
    CLOCK: [2021-04-28 Wed 18:14]--[2021-04-28 Wed 19:01] =>  0:47
    CLOCK: [2021-04-28 Wed 17:18]--[2021-04-28 Wed 17:51] =>  0:33
@@ -105,9 +108,9 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 *** DONE Item 277
 *** DONE Item 278
 *** DONE Item 279
-*** TOUR1 Item 280
-*** TODO Item 281
-*** TODO Item 282
+*** DONE Item 280
+*** DONE Item 281
+*** DONE Item 282
 *** TODO Item 350
 *** TODO Item 353
 *** TODO Item 284
@@ -2229,8 +2232,8 @@ Gastrite à faire
 ** TOUR1 278 Pancréatite chronique
 ** TOUR1 279 Maladies inflammatoires chroniques de l'intestin (MICI) chez l'adulte et l'enfant :pedia:anapath:hge:
 ** TOUR1 280 Constipation chez l'enfant et l'adulte (avec le traitement)
-** TODO 281 Colopathie fonctionnelle
-** TODO 282 Diarrhée chronique chez l'adulte et l'enfant :pedia:anapath:hge:
+** TOUR1 281 Colopathie fonctionnelle
+** TOUR1 282 Diarrhée chronique chez l'adulte et l'enfant :pedia:anapath:hge:
 ** TOUR1 283 Diarrhée aiguë et déshydratation chez le nourrisson, l'enfant et l'adulte
 ** TODO 284 Diverticulose colique et diverticulite aiguë du sigmoïde
 ** TODO 285 Pathologie hémorroïdaire
