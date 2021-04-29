@@ -181,7 +181,9 @@
 ** 184. BARBEY D’AUREVILLY, Œuvres romanesques complètes, II.
 ** 185. GOGOL, Œuvres complètes.
 ** 186. DICKENS, La Vie et les aventures de Nicolas Nickleby – Livres de Noël.
-** 187. ZOLA, Les Rougon-Macquart, IV. 188. BOILEAU, Œuvres complètes. 189. HEMINGWAY, Œuvres romanesques, I.
+** 187. ZOLA, Les Rougon-Macquart, IV.
+** 188. BOILEAU, Œuvres complètes.
+** 189. HEMINGWAY, Œuvres romanesques, I.
 ** 190. LE CORAN.
 ** 191. HÖLDERLIN, Œuvres.
 ** 192. LESKOV – SALTYKOV-CHTCHÉDRINE, Œuvres.

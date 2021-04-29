@@ -38,7 +38,7 @@ A priori ok, cf notmuch:id:817091247.13495.1594457372183.JavaMail.bea@crmcctr01
 *** TODO Génerer menu sur une semaine
 *** TODO Ajouter recettes de livres connus
 *** TODO Génerer liste de courses
-** TODO Tracker de calories (lisp)
+** TODO org-nutrition Tracker de calories (lisp)
 *** Offline ?
 **** Data
 https://fdc.nal.usda.gov/download-datasets.html
@@ -48,40 +48,81 @@ CSV
 https://github.com/mrc/el-csv
 SQL
 https://github.com/skeeto/emacsql
-*** REST ?
+*** KILL REST ?
 https://tkf.github.io/emacs-request/
 https://fdc.nal.usda.gov/api-guide.html
-*** TODO Comparer REST et offline en performances
+*** KILL Comparer REST et offline en performances
 REST: search renvoie vraiment trop de résultats...
 Plus logique de le faire avec le CSV mais les données sont éparpillées
 *** TODO comprendr les données
-food.csv: contient l'identifiant et le nom
+**** Exploration
+Doc: https://fdc.nal.usda.gov/portal-data/external/dataDictionary
+food.csv: contient l'identifiant (fdc_id) et le nom (description)
 ex:
 "fdc_id","data_type","description","food_category_id","publication_date"
-"1104067","survey_fndds_food","100 GRAND Bar","5702","2020-10-30"
 
-food_nutrient.csv contient l'information intéressante
+food_nutrient.csv contient l'information intéressante pour l'ID (fdc_id)
 "id","fdc_id","nutrient_id","amount","data_points","derivation_id","min","max","median","footnote","min_year_acquired"
 
-Pour notre nourriture grand bar:
-"13301423","1104067","1003","2.5","","","","","","",""
-"13301424","1104067","1004","19.33","","","","","","",""
-"13301425","1104067","1005","70.97","","","","","","",""
-"13301426","1104067","1008","468","","","","","","",""
-"13301427","1104067","1018","0","","","","","","",""
-etc
-
-Sauf que parfois, l'identifiant du nutrient n'est pas dans le csv !
-Exemple :
-
+Exemple : huile WESSON (fdc_id =  1105904) :
+foods.csv:
 "1105904","branded_food","WESSON Vegetable Oil 1 GAL","","2020-11-13"
+
+A beaucoup de nutrients :
+food_nutrients.csv:
+"1009437","1105904","","","Ingredients","3"
 "13706913","1105904","203","0","","71","","","","",""
 "13706914","1105904","204","93.33","","71","","","","",""
 "13706915","1105904","205","0","","75","","","","",""
 "13706916","1105904","208","867","","71","","","","",""
+"13706917","1105904","269","0","","71","","","","",""
+"13706918","1105904","291","0","","75","","","","",""
+"13706919","1105904","301","0","","75","","","","",""
+"13706920","1105904","303","0","","75","","","","",""
+"13706921","1105904","306","0","","75","","","","",""
+"13706922","1105904","307","0","","75","","","","",""
+"13706923","1105904","318","0","","75","","","","",""
+"13706924","1105904","324","0","","75","","","","",""
+"13706925","1105904","401","0","","75","","","","",""
+"13706926","1105904","601","0","","75","","","","",""
+"13706927","1105904","605","0","","71","","","","",""
+"13706928","1105904","606","13.33","","71","","","","",""
+"13706929","1105904","645","20","","71","","","","",""
+"13706930","1105904","646","53.33","","71","","","","",""
 
-Or les nutrients commencent à 1000...
+En enlevant ceux qui sont nul (amount = 0)
+"1009437","1105904","","","Ingredients","3"
+"13706914","1105904","204","93.33","","71","","","","",""
+"13706916","1105904","208","867","","71","","","","",""
+"13706914","1105904","204","93.33","","71","","","","",""
+"13706916","1105904","208","867","","71","","","","",""
 
+En enlevant ceux qui sont redondant, on retrouve 5  (différents des 3 mentionnés ??)
+food_nutrients.csv
+"13706914","1105904","204","93.33","","71","","","","",""
+"13706916","1105904","208","867","","71","","","","",""
+"13706928","1105904","606","13.33","","71","","","","",""
+"13706929","1105904","645","20","","71","","","","",""
+"13706930","1105904","646","53.33","","71","","","","",""
+
+
+Les codes ne correspondent pas à nutrient.csv ou nutrient_incoming_name.
+mais d'après le site
+https://fdc.nal.usda.gov/fdc-app.html#/food-details/1455596/nutrients
+(au passage, l'ID est encore différent) :
+- 204 = lipid
+- 208 = énergie
+- 606 = fat total saturated
+- 645 = fat total monounsaturated
+- 646 = fat total polyunsaturated
+
+En fait, le code est donné par nutrient_nbr dans nutrients.csv (!)
+**** En résumé
+Requirements : food.csv, nutrient.csv, food_nutrients.csv
+
+1. Chercher l'ID dans food.csv (nom = description, id = fdc_id)
+2. Pour fdc_id, obtenir la liste des nutriments (nutrient_id) avec leurs valeurs (amonut) dans food_nutrients.csv
+3. Convertir l'Id nutrient (nutrient_nbr = nutrient_id) en son nom (nutrient_nbr)avec nutrient.csv
 * Blog :blog:
 ** TODO [[file:../../../../../home/alex/projects/blog/notes/Emacs_tips.org][Emacs_tips]] :blog:
 ** TODO Freebsd 2020
