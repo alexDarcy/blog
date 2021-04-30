@@ -29,7 +29,7 @@ Utiliser avec bash ...sh python2
 ** DONE Nouveau Monde (Zola)
 Récupérer liste url + titre
 * TODO Liste des livres sur askhistorians
-** TODO Parser la liste de livres
+** DONE Parser la liste de livres
 *** DONE v1 avec python sur goodreads
 *** DONE v2 avec haskell sur reddit
 Utiliser l'API de reddit
@@ -92,7 +92,7 @@ Liste : gutenberg, worlcat, archive.org
 **** KILL [[/usr/home/alex/projects/askhistorians/data/southasia.md][southasia.md]]
 **** KILL [[/usr/home/alex/projects/askhistorians/data/wwi.md][wwi.md]]
 **** KILL [[/usr/home/alex/projects/askhistorians/data/wwii.md][wwii.md]]
-*** TODO Utiliser la liste sur goodreadrs
+*** DONE Utiliser la liste sur goodreadrs
 **** KILL Récupérer liste complète à partir du RSS
 Tout à l'air deeedans
 ***** DONE Titre
@@ -104,7 +104,8 @@ Tout à l'air deeedans
 **** DONE Récupérer données depuis HTML
 Tout sauf les categories...
 Le plus simple est de récupérer chaque bookshelf et de parser le HTML
-**** TODO Corriger les accents
+**** DONE Corriger les accents
+**** DONE Gérer exceptions
 ** TODO Résultats sur Mam
 Rerchere automatique et fait à la main
 *** TODO Supprimer doublons sur le titre

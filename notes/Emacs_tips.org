@@ -164,6 +164,10 @@ Update : it seems to work without nginx with a socket ??
   '("lualatex -shell-escape -interaction nonstopmode %f"
     "lualatex -shell-escape -interaction nonstopmode %f"))
 (Attention à l'ordrer)
+* TODO Haskell
+Mode mal documenté (avec lsp)
+C-c C-l pour charger code dans ghci
+C-c C-z si on perd le popup
 * TODO Misc
 yas-describe-tables to see snippets
 * TODO Presentation
