@@ -75,6 +75,7 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 ** TODO HGE
    DEADLINE: <2021-04-26 Mon>
    :LOGBOOK:
+   CLOCK: [2021-04-30 Fri 22:49]--[2021-04-30 Fri 23:33] =>  0:44
    CLOCK: [2021-04-30 Fri 18:06]--[2021-04-30 Fri 19:08] =>  1:02
    CLOCK: [2021-04-30 Fri 16:38]--[2021-04-30 Fri 17:47] =>  1:09
    CLOCK: [2021-04-30 Fri 12:40]--[2021-04-30 Fri 13:12] =>  0:32
@@ -118,7 +119,7 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 *** DONE Item 282
 *** DONE Item 350
 *** DONE Item 353
-*** TODO Item 284
+*** DONE Item 284
 *** TODO Item 285
 *** TODO Item 286
 *** TODO Item 298
@@ -627,9 +628,10 @@ DEADLINE: <2021-04-30 Fri +1d>
 - [X] ECG 118
 - [ ] ECG 119
 - [ ] ECG 120
-** TODO 150 ECGs Hampton [3/150]
+** TODO [#B] 150 ECGs Hampton [3/150]
    SCHEDULED: <2021-05-08 Sat> DEADLINE: <2021-04-11 Fri +1d>
    :LOGBOOK:
+   CLOCK: [2021-04-30 Fri 22:49]--[2021-04-30 Fri 22:49] =>  0:00
    CLOCK: [2021-04-11 Sun 11:09]--[2021-04-11 Sun 11:20] =>  0:11
    :END:
 [[file:/media/books/medecine/150 ECG Problems, 4th Edition/150 ECG Problems, 4th.pdf][file:/media/books/medecine/150 ECG Problems, 4th Edition/150 ECG Problems, 4th.pdf]]
@@ -2240,7 +2242,7 @@ Gastrite à faire
 ** TOUR1 281 Colopathie fonctionnelle
 ** TOUR1 282 Diarrhée chronique chez l'adulte et l'enfant :pedia:anapath:hge:
 ** TOUR1 283 Diarrhée aiguë et déshydratation chez le nourrisson, l'enfant et l'adulte
-** TODO 284 Diverticulose colique et diverticulite aiguë du sigmoïde
+** TOUR1 284 Diverticulose colique et diverticulite aiguë du sigmoïde
 ** TODO 285 Pathologie hémorroïdaire
 ** TODO 286 Hernie pariétale chez l'enfant et l'adulte
 ** TODO 287 Épidémiologie des cancers :pedia:cancero:gyneco:
