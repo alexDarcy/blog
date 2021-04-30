@@ -1694,19 +1694,15 @@ https://ballotpedia.org/Fact_check/Does_research_show_that_federal_student_aid_i
 :CATEGORY: loki
 :END:
 ** TODO Compléments alimentaires
-DEADLINE: <2021-04-25 Sun +1w>
+DEADLINE: <2021-05-02 Sun +1w>
 :PROPERTIES:
 :LOGGING:  logrepeat
-:LAST_REPEAT: [2021-04-11 Sun 10:37]
+:LAST_REPEAT: [2021-04-30 Fri 22:13]
 :END:
+- State "DONE"       from "TODO"       [2021-04-30 Fri 22:13]
 - State "DONE"       from "TODO"       [2021-04-19 Sat 10:37]
 - State "DONE"       from "TODO"       [2021-04-15 Thu 10:37]
 - State "DONE"       from "TODO"       [2021-04-11 Sun 10:37]
-** TODO Compléments alimentaires
-DEADLINE: <2021-04-14 Wed +1w>
-:PROPERTIES:
-:LOGGING:  lognoterepeat
-:END:
 * Mail
 :PROPERTIES:
 :CATEGORY: mail

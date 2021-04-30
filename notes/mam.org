@@ -108,8 +108,9 @@ Le plus simple est de récupérer chaque bookshelf et de parser le HTML
 **** DONE Gérer exceptions
 ** TODO Résultats sur Mam
 Rerchere automatique et fait à la main
-*** TODO Supprimer doublons sur le titre
-*** TODO Si trop de résultats, filtrer sur l'auteur
+*** DONE Parser liste des auteurs
+*** TODO Calculer la distance de levensein sur le titre
+*** TODO Filtrer sur l'auteur (distance de levenstein ?)
 ** TODO Post final
 *** TODO Formatter depuis CSV
 
