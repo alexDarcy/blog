@@ -75,6 +75,8 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 ** TODO HGE
    DEADLINE: <2021-04-26 Mon>
    :LOGBOOK:
+   CLOCK: [2021-05-02 Sun 17:36]--[2021-05-02 Sun 18:01] =>  0:25
+   CLOCK: [2021-05-02 Sun 13:00]--[2021-05-02 Sun 13:45] =>  0:45
    CLOCK: [2021-04-30 Fri 22:49]--[2021-04-30 Fri 23:33] =>  0:44
    CLOCK: [2021-04-30 Fri 18:06]--[2021-04-30 Fri 19:08] =>  1:02
    CLOCK: [2021-04-30 Fri 16:38]--[2021-04-30 Fri 17:47] =>  1:09
@@ -120,13 +122,13 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 *** DONE Item 350
 *** DONE Item 353
 *** DONE Item 284
-*** TODO Item 285
-*** TODO Item 286
-*** TODO Item 298
-*** TODO Item 300
-*** TODO Item 301
-*** TODO Item 302
-*** TODO Item 305
+*** DONE Item 285
+*** DONE Item 286
+*** DONE Item 298
+*** DONE Item 300
+*** DONE Item 301
+*** DONE Item 302
+*** DONE Item 305
 *** TODO Item 329
 *** TODO Item 349
 *** TODO Item 351
@@ -952,21 +954,22 @@ DEADLINE: <2021-01-16 Sat> SCHEDULED: <2021-01-12 Tue>
   :CATEGORY: HGE
   :END:
 ** TODO Relire fiches
-DEADLINE: <2021-04-27 Tue> SCHEDULED: <2021-04-22 Sat>
-:LOGBOOK:
-CLOCK: [2021-04-28 Wed 16:56]--[2021-04-28 Wed 17:01] =>  0:05
-CLOCK: [2021-04-28 Wed 12:10]--[2021-04-28 Wed 13:24] =>  1:14
-CLOCK: [2021-04-26 Mon 12:02]--[2021-04-26 Mon 12:29] =>  0:27
-CLOCK: [2021-04-26 Mon 11:22]--[2021-04-26 Mon 11:38] =>  0:16
-CLOCK: [2021-04-25 Sun 22:25]--[2021-04-25 Sun 22:44] =>  0:19
-CLOCK: [2021-04-25 Sun 21:20]--[2021-04-25 Sun 21:55] =>  0:35
-CLOCK: [2021-04-25 Sun 19:54]--[2021-04-25 Sun 20:01] =>  0:07
-CLOCK: [2021-04-25 Sun 18:49]--[2021-04-25 Sun 19:05] =>  0:16
-CLOCK: [2021-04-25 Sun 18:28]--[2021-04-25 Sun 18:40] =>  0:12
-CLOCK: [2021-04-25 Sun 16:00]--[2021-04-25 Sun 16:41] =>  0:41
-CLOCK: [2021-04-25 Sun 15:24]--[2021-04-25 Sun 15:45] =>  0:21
-CLOCK: [2021-04-25 Sun 14:41]--[2021-04-25 Sun 14:58] =>  0:17
-:END:
+   DEADLINE: <2021-04-27 Tue> SCHEDULED: <2021-04-22 Sat>
+   :LOGBOOK:
+   CLOCK: [2021-05-02 Sun 11:45]--[2021-05-02 Sun 12:55] =>  1:10
+   CLOCK: [2021-04-28 Wed 16:56]--[2021-04-28 Wed 17:01] =>  0:05
+   CLOCK: [2021-04-28 Wed 12:10]--[2021-04-28 Wed 13:24] =>  1:14
+   CLOCK: [2021-04-26 Mon 12:02]--[2021-04-26 Mon 12:29] =>  0:27
+   CLOCK: [2021-04-26 Mon 11:22]--[2021-04-26 Mon 11:38] =>  0:16
+   CLOCK: [2021-04-25 Sun 22:25]--[2021-04-25 Sun 22:44] =>  0:19
+   CLOCK: [2021-04-25 Sun 21:20]--[2021-04-25 Sun 21:55] =>  0:35
+   CLOCK: [2021-04-25 Sun 19:54]--[2021-04-25 Sun 20:01] =>  0:07
+   CLOCK: [2021-04-25 Sun 18:49]--[2021-04-25 Sun 19:05] =>  0:16
+   CLOCK: [2021-04-25 Sun 18:28]--[2021-04-25 Sun 18:40] =>  0:12
+   CLOCK: [2021-04-25 Sun 16:00]--[2021-04-25 Sun 16:41] =>  0:41
+   CLOCK: [2021-04-25 Sun 15:24]--[2021-04-25 Sun 15:45] =>  0:21
+   CLOCK: [2021-04-25 Sun 14:41]--[2021-04-25 Sun 14:58] =>  0:17
+   :END:
 * Imagerie
 :PROPERTIES:
 :CATEGORY: imagerie
@@ -2243,8 +2246,8 @@ Gastrite à faire
 ** TOUR1 282 Diarrhée chronique chez l'adulte et l'enfant :pedia:anapath:hge:
 ** TOUR1 283 Diarrhée aiguë et déshydratation chez le nourrisson, l'enfant et l'adulte
 ** TOUR1 284 Diverticulose colique et diverticulite aiguë du sigmoïde
-** TODO 285 Pathologie hémorroïdaire
-** TODO 286 Hernie pariétale chez l'enfant et l'adulte
+** TOUR1 285 Pathologie hémorroïdaire
+** TOUR1 286 Hernie pariétale chez l'enfant et l'adulte
 ** TODO 287 Épidémiologie des cancers :pedia:cancero:gyneco:
 :PROPERTIES:
 :santepub: t
@@ -2278,8 +2281,8 @@ Gastrite à faire
 ** TODO 297 Tumeurs du col utérin :pedia:anapath:cancero:gyneco:
 ** TOUR1 298 Tumeurs du côlon et du rectum :pedia:anapath:cancero:hge:
 ** TODO 299 Tumeurs cutanées, épithéliales et mélaniques :pedia:anapath:cancero:dermato:
-** TODO 300 Tumeurs de l'estomac :pedia:anapath:cancero:hge:
-** TODO 301 Tumeurs du foie primitives et secondaires :pedia:anapath:cancero:hge:
+** TOUR1 300 Tumeurs de l'estomac :pedia:anapath:cancero:hge:
+** TOUR1 301 Tumeurs du foie primitives et secondaires :pedia:anapath:cancero:hge:
 ** TODO 302 Tumeurs de l'œsophage :pedia:anapath:cancero:hge:
 ** TOUR1 303 Tumeurs de l'ovaire :pedia:anapath:cancero:endoc:gyneco:
 :PROPERTIES:
@@ -2289,7 +2292,7 @@ Gastrite à faire
 :PROPERTIES:
 :anapath:  t
 :END:
-** TODO 305 Tumeurs du pancréas :pedia:anapath:cancero:endoc:hge:
+** TOUR1 305 Tumeurs du pancréas :pedia:anapath:cancero:endoc:hge:
 ** TOUR1 306 Tumeurs du poumon :pedia:anapath:cancero:pneumo:
 :PROPERTIES:
 :ID:       e8719a4c-493c-4902-a9ae-88171cbefc45

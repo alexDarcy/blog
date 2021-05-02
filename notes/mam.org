@@ -92,7 +92,7 @@ Liste : gutenberg, worlcat, archive.org
 **** KILL [[/usr/home/alex/projects/askhistorians/data/southasia.md][southasia.md]]
 **** KILL [[/usr/home/alex/projects/askhistorians/data/wwi.md][wwi.md]]
 **** KILL [[/usr/home/alex/projects/askhistorians/data/wwii.md][wwii.md]]
-*** DONE Utiliser la liste sur goodreadrs
+*** TODO Utiliser la liste sur goodreadrs
 **** KILL Récupérer liste complète à partir du RSS
 Tout à l'air deeedans
 ***** DONE Titre
@@ -106,11 +106,13 @@ Tout sauf les categories...
 Le plus simple est de récupérer chaque bookshelf et de parser le HTML
 **** DONE Corriger les accents
 **** DONE Gérer exceptions
+**** TODO Récupérer catégories
 ** TODO Résultats sur Mam
 Rerchere automatique et fait à la main
 *** DONE Parser liste des auteurs
 *** TODO Calculer la distance de levensein sur le titre
 *** TODO Filtrer sur l'auteur (distance de levenstein ?)
+*** TODO Créer un Tree avec les categories
 ** TODO Post final
 *** TODO Formatter depuis CSV
 
