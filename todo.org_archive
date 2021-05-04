@@ -1522,3 +1522,67 @@ Notmuch : very fast, easy to search. But you need to have scripts to rename/move
 Gnus: very useful to read news and only show unread mails. Search with mairix is slow (not mairix itself) and slow at startup. Could not make notmuch work
 
 I tried notmuch, then gnus, then notmuch
+
+* KILL Port haskell-language-server
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-05-04 Tue 22:53
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/todo.org
+:ARCHIVE_OLPATH: FreeBSD
+:ARCHIVE_CATEGORY: todo
+:ARCHIVE_TODO: KILL
+:END:
+** KILL V1 Une seulle version de GHC
+ cabal new-configure
+*** KILL Version avec dépendences manuelle : echec
+ #+begin_src shell
+ cabal new-configure
+ # $FreeBSD$
+
+PORTNAME=	haskell-language-server
+DISTVERSION=	1.0.0
+CATEGORIES=	devel haskell
+
+MAINTAINER=	haskell@FreeBSD.org
+COMMENT=    Integration point for ghcide and haskell-ide-engine.
+
+LICENSE=    APACHE20
+
+BUILD_DEPENDS= git:devel/git
+
+
+USES=		cabal
+
+USE_CABAL=  cabal-install-parsers-0.3.0.1_1 \
+			lukko-0.1.1.3_1 \
+			cryptohash-sha256-0.11.102.0 \
+			network-uri-2.6.4.1 \
+            tar-0.5.1.1_3
+
+USE_GITHUB=	yes
+GH_ACCOUNT=	haskell
+
+post-patch:
+	${CP} ${WRKSRC}/install.hs ${WRKSRC}/install
+.   for package in ${USE_CABAL}
+	${MV} ${WRKSRC}/${package:C/_[0-9]+//} ${WRKSRC}/install
+	echo "         ./"${package:C/_[0-9]+//} >> ${WRKSRC}/install/cabal.project
+.	endfor
+
+
+do-build:
+	cd ${WRKSRC}/install && cabal v2-build
+
+.include <bsd.port.mk>
+
+ #+end_src
+*** DONE Génerer la list des dépendences
+CABAL_HOME=$(pwd)/cabal-home
+mkdir $CABAL_HOME
+env HOME=${CABAL_HOME} cabal new-update
+env HOME=${CABAL_HOME} cabal new-configure
+env HOME=${CABAL_HOME} cabal new-build --dependencies-only
+*** Conclusion
+Port réécrit par arrowd :
+- hs-hls-install est installé par un port séparé
+- puis on l'utilise pour install hs-haskell-language-server
+Toute la difficulté vient du fait qu'on ne peut pas laisser cabal gérer

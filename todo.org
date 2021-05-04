@@ -584,62 +584,6 @@ https://github.com/rclone/rclone/blob/master/docs/content/commands/rclone.md
 **** KILL [[~/projects/doc-freebsd/rclone/docs/content/install.md][install.md]]
 **** TODO [[~/projects/doc-freebsd/rclone/docs/content/overview.md][overview.md]]
 **** DONE [[~/projects/doc-freebsd/rclone/docs/content/_index.md][_index.md]]
-** KILL Port haskell-language-server
-*** KILL V1 Une seulle version de GHC
- cabal new-configure
-**** KILL Version avec dépendences manuelle : echec
- #+begin_src shell
- cabal new-configure
- # $FreeBSD$
-
-PORTNAME=	haskell-language-server
-DISTVERSION=	1.0.0
-CATEGORIES=	devel haskell
-
-MAINTAINER=	haskell@FreeBSD.org
-COMMENT=    Integration point for ghcide and haskell-ide-engine.
-
-LICENSE=    APACHE20
-
-BUILD_DEPENDS= git:devel/git
-
-
-USES=		cabal
-
-USE_CABAL=  cabal-install-parsers-0.3.0.1_1 \
-			lukko-0.1.1.3_1 \
-			cryptohash-sha256-0.11.102.0 \
-			network-uri-2.6.4.1 \
-            tar-0.5.1.1_3
-
-USE_GITHUB=	yes
-GH_ACCOUNT=	haskell
-
-post-patch:
-	${CP} ${WRKSRC}/install.hs ${WRKSRC}/install
-.   for package in ${USE_CABAL}
-	${MV} ${WRKSRC}/${package:C/_[0-9]+//} ${WRKSRC}/install
-	echo "         ./"${package:C/_[0-9]+//} >> ${WRKSRC}/install/cabal.project
-.	endfor
-
-
-do-build:
-	cd ${WRKSRC}/install && cabal v2-build
-
-.include <bsd.port.mk>
-
- #+end_src
-**** DONE Génerer la list des dépendences
-CABAL_HOME=$(pwd)/cabal-home
-mkdir $CABAL_HOME
-env HOME=${CABAL_HOME} cabal new-update
-env HOME=${CABAL_HOME} cabal new-configure
-env HOME=${CABAL_HOME} cabal new-build --dependencies-only
-**** Conclusion
-Port réécrit par arrowd :
-- hs-hls-install est installé par un port séparé
-- puis on l'utilise pour install hs-haskell-language-server
-Toute la difficulté vient du fait qu'on ne peut pas laisser cabal gérer
 ** WAIT Port ripgrep-all
 Soumis https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=255233
 ** WAIT Port kitty
@@ -1032,11 +976,70 @@ index 000000000..f58f5922b
 +share/misc/kitty.terminfo
 
 #+end_src
-*** TODO Arriver à ulitiser linux-package
+*** DONE Arriver à ulitiser linux-package
 N'installe pas correctement avec le Makefile suivant
 #+begin_src
+PORTNAME=	   kitty
+DISTVERSION=   0.20.2
+DISTVERSIONPREFIX=   v
+CATEGORIES=	   x11
 
+USE_GITHUB=	yes
+GH_ACCOUNT=	kovidgoyal
+
+MAINTAINER=	   alexis.praga@free.fr
+COMMENT=	   Cross-platform, fast, featureful, GPU-based terminal emulator
+
+LICENSE=	GPLv3
+LICENSE_FILE=	${WRKSRC}/LICENSE
+
+LIB_DEPENDS=	libdbus-1.so:devel/dbus \
+		libfontconfig.so:x11-fonts/fontconfig \
+		libfreetype.so:print/freetype2 \
+		libxkbcommon.so:x11/libxkbcommon \
+		liblcms2.so:graphics/lcms2 \
+		libharfbuzz.so:print/harfbuzz \
+		libpng.so:graphics/png \
+		libwayland-client.so:graphics/wayland \
+		libwayland-cursor.so:graphics/wayland
+
+BUILD_DEPENDS= wayland-protocols>=0:graphics/wayland-protocols
+
+USES=		gettext-runtime gl gmake pkgconfig	python:3.5+ shebangfix xorg
+USE_GL=		gl
+USE_XORG=	x11 xcb xcursor xi xinerama xrandr
+
+SHEBANG_GLOB= *.py
+SHEBANG_FILES=	update-on-ox build-terminfo update-on-ubuntu count-lines-of-code mypy-editor-integration
+
+BINARY_ALIAS=	python=${PYTHON_CMD} python3=${PYTHON_CMD}
+
+OPTIONS_DEFINE=	DOCS
+
+INSTALL_WRKSRC=	${WRKSRC}/linux-package
+
+_STRIP_TARGETS=	lib/kitty/kitty/fast_data_types.so \
+		lib/kitty/kitty/glfw-x11.so \
+		lib/kitty/kittens/diff/diff_speedup.so \
+		lib/kitty/kittens/unicode_input/unicode_names.so \
+		lib/kitty/kitty/glfw-wayland.so \
+		lib/kitty/kittens/choose/subseq_matcher.so bin/kitty
+_EMPTY_DIRS=	kittens/choose kittens/diff kittens/unicode_input kittens kitty
+
+do-build:
+	(cd ${WRKSRC} && \
+		${SETENV} ${MAKE_ENV} ${PYTHON_CMD} setup.py --update-check-interval=0 linux-package)
+
+	${FIND} ${INSTALL_WRKSRC} -name __pycache__ -type d -exec ${RM} -r -- {} +
+
+do-install:
+	${CP} -a ${INSTALL_WRKSRC}/ ${STAGEDIR}${PREFIX}
+	@${STRIP_CMD} ${_STRIP_TARGETS:S|^|${STAGEDIR}${PREFIX}/|}
+
+.include <bsd.port.mk>
 #+end_src
+*** DONE Arriver à compiler la documentation
+*** DONE Sumbit
 
 * Impôts
 * Banque :banque:
