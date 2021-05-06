@@ -16,6 +16,7 @@ Search and edit with ripgrep directly in the result !
 2. Put the results in a buffer with `C-c C-o` (`ivy-occur`)
 3. Edit the buffer with `i` (`ivy-wgrep-change-to-wgrep`)
 * TODO Calc
+Embedded-mode : évalue formule sous le curseur
 * DONE Mail with mbsync :emacs:blog:
 ! Got several "duplicate ID" after using a systemd service.
 It's due to moving files (my version of archiving) and the naming scheme.
