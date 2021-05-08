@@ -30,7 +30,7 @@
 ;; ;; org-html-head blog-html-head);; Can't set it in org-publish-project-alist...
 (setq org-publish-project-alist
       '(
-        ("blog"
+        ("pages"
          :base-directory "~/projects/blog/"
          :base-extension "org"
          :publishing-directory "~/projects/blog/html/"
@@ -50,5 +50,15 @@
          :html-preamble custom-preamble
          :publishing-function org-html-publish-to-html
          :headline-levels 4             ; Just the default for this project.
-        )))
+        )
+        ;; Static files
+        ("files"
+         :base-directory "~/projects/blog/files/"
+         :base-extension "pdf\\|\\|png\\|jpg\\|mp4\\|tar.gz\\|jar\\|java"
+         :publishing-directory "~/html/"
+         :recursive t
+         :publishing-function org-publish-attachment
+         )
+        ("blog" :components ("pages" "files"))
+        ))
 (provide 'publish)
