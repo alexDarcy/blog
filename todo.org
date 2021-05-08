@@ -158,42 +158,9 @@ Le plus simple est d'utiliser crontab avec @reboot :
 @reboot /usr/local/bin/emacs --daemon
 *** Nzbget
 Fichiers sont dans /usr/local/share/nzbget
-Éditer le fichier  /usr/local/etc/nzbget ( NB root qui s'en occupe pour partager les fichiers avec Linux)
+Éditer le fichier  /usr/local/etc/nzbget.conf ( NB root qui s'en occupe pour partager les fichiers avec Linux)
 Dans /etc/rc.conf:
 nzbget_enable="YES
-
-#+BEGIN_SRC shell
-#!/bin/sh
-
-. /etc/rc.subr
-
-name=nzbget
-rcvar=nzbget_enable
-
-load_rc_config ${name}
-: ${nzbget_enable:=NO}
-
-command=/usr/local/bin/nzbget
-command_args="-c /linux/nzbget/nzbget-freebsd.conf"
-
-start_cmd="${name}_start"
-stop_cmd="${name}_stop"
-
-load_rc_config $name
-: ${nzbget_enable:=no}
-: ${_msg="Nzbget daemon started."}
-
-nzbget_start()
-{
-    ${command} ${command_args} -D
-}
-nzbget_stop()
-{
-    ${command} ${command_args}  -Q
-}
-run_rc_command "$1"
-#+ENd_SRC
-
 *** Micro USB blue snowball
 Volume : mixtui + F6 pour choisir le micro + F4 pour volume
 Discord : ok sous firefox
@@ -276,7 +243,7 @@ application/pdf=evince.deskop;
 **** TODO Mandelbrot
 **** TODO Finite-volume simulation
 **** TODO Wall of met
-** TODO Compiler du latex avec Hakyl
+** KILL Compiler du latex avec Hakyl
 Problème : fonctionne en standalone mais pas en incluant un header (testé avec rubber)
 ** TODO Post sur facebook messenger inside emacs
 **** Requirements
@@ -380,34 +347,6 @@ myKeys = [("M4-e", spawn "emacs")
          ]
 #+end_src haskell
 
-** TODO Zsh (fresh install)
-1. Install zsh
-2. Install antibody (plugin manager). On archlinux, I like yay  :
-   #+BEGIN_SRC shell
-   yay -Sy antibody
-   #+END_SRC
-3. Create a list of plugins in ~/.zsh_plugins.txt yay  :
-   #+BEGIN_SRC shell
-   echo '# Oh my zsh: fzf
-   robbyrussell/oh-my-zsh path:plugins/fzf' > ~/.zsh_plugins.txt
-   #+END_SRC
-4. Load plugins statically (fastest)
-   #+BEGIN_SRC shell
-   antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
-   #+END_SRC
-
-   #+RESULTS:
-
-5. Minimal .zshrc :
-   #+BEGIN_SRC shell
-   echo 'source ~/.zsh_plugins.sh' > ~/.zshrc
-   #+END_SRC
-
-   My config : FZF completion "everywhere"
-   My prompt
-   https://github.com/romkatv/powerlevel10k#antibody
-   I had to default to the ascii version. Even instaling the recommended font did not work in urxvt + source code pro.
-   (yay -S ttf-meslo-nerd-font-powerlevel10k)
 ** TODO Pass on windows
 Install gopass : get the .zip, put the exe somewhere and add it to the path.
 Then edit %APPDATA%/pasff .bat
@@ -416,98 +355,13 @@ python "%APPDATA%\passff\passff.py" %*
 And python file in the same directory. Replace pass with gopass and "show" with "ls" (when there are no arguments)
 ** TODO [#A] Porter le site en org-mode
 *** DONE Régler le problème du footer
+*** DONE Gérer les fichiers statiques
 *** TODO Copie locale du CSS
 
 * FreeBSD
 ** WAIT MAJ nzbhydra à 3.9
 *** DONE Mail au mainteneur
 Devra être fait dans la semaine
-** TODO Google chrome (linux binary)
-
-On essaye
-https://wiki.freebsd.org/LinuxJails
-Plutôt que
- https://forums.freebsd.org/threads/linuxulator-how-to-run-google-chrome-linux-binary-on-freebsd.77559/
-
-*** Tentative 1 : echec
-#+begin_src shell
-sudo pkg install linux-steam-utils debootstrap
-#+end_src
-(linux-stem-utils inutile ?)
-
-#+begin_src shell
-sudo debootstrap --no-check-gpg bionic /compat/ubuntu
-#+end_src
-Echec.
-cp: '/etc/resolv.conf' and '/run/systemd/resolve/stub-resolv.conf' are the same file
-
-*** Tenttative 2
-#+begin_src shell
-pkg install linux-steam-utils debootstrap pulseaudio
-debootstrap --arch=amd64 --no-check-gpg focal /compat/ubuntu
-#+end_src
-Ok pour install
-#+begin_src
-cd /compat/linux/lib64/ && rm ./ld-linux-x86-64.so.2 ; ln -s ../lib/x86_64-linux-gnu/ld-2.31.so ld-linux-x86-64.so.2
-#+end_src
-Ajouter à /etc/fstab
-#+begin_src shell
-# Ubuntu jail
-devfs           /compat/ubuntu/dev      devfs           rw,late                      0       0
-tmpfs           /compat/ubuntu/dev/shm  tmpfs           rw,late,size=1g,mode=1777    0       0
-fdescfs         /compat/ubuntu/dev/fd   fdescfs         rw,late,linrdlnk             0       0
-linprocfs       /compat/ubuntu/proc     linprocfs       rw,late                      0       0
-linsysfs        /compat/ubuntu/sys      linsysfs        rw,late                      0       0
-/tmp            /compat/ubuntu/tmp      nullfs          rw,late                      0       0
-/home           /compat/ubuntu/home     nullfs          rw,late                      0       0
-#+end_src
-#+begin_src shell
-mount -al
-printf "APT::Cache-Start 251658240;" > /compat/ubuntu/etc/apt/apt.conf.d/00aptitude
-
-printf "deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse" > /compat/ubuntu/etc/apt/sources.list
-
-# Add Chrome repository:
-printf "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /compat/ubuntu/etc/apt/sources.list.d/google-chrome.list
-fetch -o /compat/ubuntu/ https://dl.google.com/linux/linux_signing_key.pub
-chroot /compat/ubuntu /bin/bash
-#+end_src
-
-Dans le chroot
-#+begin_src shell
-apt update
-apt install gnupg
-apt-key add linux_signing_key.pub
-apt update
-apt install -y google-chrome-stable
-#+end_src
-Then
-#+begin_src shell
-touch /compat/ubuntu/bin/chrome && chmod +x /compat/ubuntu/bin/chrome
-#+end_src
-Add it
-#+begin_src shell
-#!/compat/linux/bin/bash
-
-export CHROME_PATH="/opt/google/chrome/chrome"
-export CHROME_WRAPPER="`readlink -f "$0"`"
-export LD_LIBRARY_PATH=/usr/local/steam-utils/lib64/fakeudev
-export LD_PRELOAD=/usr/local/steam-utils/lib64/webfix/webfix.so
-export LIBGL_DRI3_DISABLE=1
-
-exec -a "$0" "$CHROME_PATH" --no-sandbox --no-zygote --test-type --v=0 "$@"
-#+end_src
-
-Echec : libtinfo.so.6 cannot openshared
-=>
-#+begin_src shell
-sysctl compat.linux.emul_path=/compat/ubuntu
-# Message d'erreur
-chmod 1777 /dev/shm
-#+end_src
-Marche après reboot mais micro non reconnu par discord
-
-Essai install discord
 ** TODO Man page rclone
 Tuto
 http://manpages.bsd.lv/mdoc.html
@@ -584,10 +438,9 @@ https://github.com/rclone/rclone/blob/master/docs/content/commands/rclone.md
 **** KILL [[~/projects/doc-freebsd/rclone/docs/content/install.md][install.md]]
 **** TODO [[~/projects/doc-freebsd/rclone/docs/content/overview.md][overview.md]]
 **** DONE [[~/projects/doc-freebsd/rclone/docs/content/_index.md][_index.md]]
-** WAIT Port ripgrep-all
-Soumis https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=255233
-** WAIT Port kitty
-https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=233010
+** WAIT [[https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=255233][Port ripgrep-all]]
+Soumis
+** WAIT [[https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=233010][Port Kitty]]
 1ere version disponible ici https://reviews.freebsd.org/file/data/4ppgweur3ew5zt7vctb7/PHID-FILE-d3rjxttzgkq55yxdm5d2/D27239.diff
 Mais on peut l'installer simplement avec gmake
 Pour la conversion en port :
@@ -1041,61 +894,15 @@ do-install:
 *** DONE Arriver à compiler la documentation
 *** DONE Sumbit
 
-* Impôts
 * Banque :banque:
 ** TODO Importer comptes Caisse Epargne dans ledger
 *** TODO Paris
 *** TODO Metz
-** DONE Signaler incident avec NZBgeek
-Incident reçu le <2020-12-28 Tue>
-Signalé à Boursorama le <2020-12-29 Tue>
+** TODO Corriger problème d'adresse
+DEADLINE: <2021-05-10 Mon>
+CE paris ou Metz ?
 * Computer science
 ** HOLD 99 haskell [26/99]
-* Cuisine :cooking:
-** Desserts
-*** TODO Lebkuchen de Nuremberg
-25% de noisettees, noix amandes, sucre, chocolat 13%, farine de blé, glocuse,
-écorce d'orange, sucre inverti,
-oeuf x2, blanc d'oeuf, écorce de citron
-fécule de pomme de terre
-figues séchées
-caséinate (lait)
-gluten
-sirpos de sucre caramélisé,
-amison, sel
-*** TODO Brownie shortbread
-https://cooking.nytimes.com/recipes/1020851-bittersweet-brownie-shortbread
-*** TODO Mousse de chocolat au tofu
-  http://www.foodnetwork.co.uk/recipes/dark-chocolate-mousse.html?utm_source=foodnetwork.com&utm_medium=domestic
-*** TODO Egyptian shortbread
-*** TODO Mousse aux fraises de raymond oliver
-** Salé
-*** TODO Légumes fermentés (pickles)
-  https://www.ancient-egypt-online.com/ancient-egyptian-recipes.html
-*** TODO Cherry kebab
-*** TODO Yoghurt bulgur
-  https://www.reddit.com/r/52weeksofcooking/comments/9fttei/week_37_ancient_recipes_yogurt_bulgur_soup/
-*** TODO Tabouleh
-  http://www.foodnetwork.co.uk/recipes/tabbouleh.html?utm_source=foodnetwork.com&utm_medium=domestic
-*** TODO Pastramini
-** Pain
-*** TODO Pain à la pomme de terre (recette allemande)
-** Levain
-*** PROJ Brioche au levain
-*** TODO Bagel
-https://www.baked-theblog.com/new-york-style-sourdough-bagels-with-roasted-garlic-labneh/
-*** TODO Pancake v2
-https://cooking.nytimes.com/recipes/1018025-sourdough-pancake-or-waffle-batter
-** Good eats
-*** TODO Cabbage blanc selon Alton Brown
-*** TODO Cabbage rouge + pommes braisé selon Alton Brown
-*** TODO Pancake selon Alton Brown
-*** Pdt
-*** TODO Pdt entières au four
-*** TODO Mashed potatoes S1
-*** TODO Gratin (allégé)  S1
-* Fac :fac:
-* Médecine
 * Gymnastics :gym:
 ** HOLD Splits :daily:
 :PROPERTIES:
@@ -2087,20 +1894,6 @@ Avant, possibilité de ne pas avoir de dette à payer à la fin des études.
 
 Article conservateur : aide de l'Etat augmente le prix des études
 https://ballotpedia.org/Fact_check/Does_research_show_that_federal_student_aid_increases_tuition
-* Loki
-:PROPERTIES:
-:CATEGORY: loki
-:END:
-** TODO Compléments alimentaires
-DEADLINE: <2021-05-02 Sun +1w>
-:PROPERTIES:
-:LOGGING:  logrepeat
-:LAST_REPEAT: [2021-04-30 Fri 22:13]
-:END:
-- State "DONE"       from "TODO"       [2021-04-30 Fri 22:13]
-- State "DONE"       from "TODO"       [2021-04-19 Sat 10:37]
-- State "DONE"       from "TODO"       [2021-04-15 Thu 10:37]
-- State "DONE"       from "TODO"       [2021-04-11 Sun 10:37]
 * Mail
 :PROPERTIES:
 :CATEGORY: mail
@@ -2394,9 +2187,7 @@ Regarder les accords ?
    :END:
    - State "DONE"       from "TODO"       [2019-09-25 Wed 22:14]
 * Santé
-** DONE RV Dr Rouget
-* Stage :stage:
-:ARCHIVE:
+** TODO RV Dr Rouget
 * Video
 :PROPERTIES:
 :CATEGORY: video
@@ -2491,7 +2282,6 @@ Regarder les accords ?
 **** TODO Renal | Micturition Reflex
 ** TODO William Byrd on "The Most Beautiful Program Ever Written" [PWL NYC]
 https://www.youtube.com/watch?v=OyfBQmvr2Hc
-* Vacances
 * Voiture
 ** Mazda 5
 *** DONE Vidange 84 800km

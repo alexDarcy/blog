@@ -188,6 +188,10 @@ CLOCK: [2021-04-10 Sat 13:08]--[2021-04-10 Sat 13:22] =>  0:14
 **** DONE Dossier 3
 DEADLINE: <2021-04-17 Sat>
 **** TODO Dossier 4
+     DEADLINE: <2021-05-08 Sat>
+     :LOGBOOK:
+     CLOCK: [2021-05-08 Sat 16:58]--[2021-05-08 Sat 17:10] =>  0:12
+     :END:
 **** TODO Dossier 5
 **** TODO Dossier 6
 *** TODO DCP 2 [0/6]
@@ -257,8 +261,10 @@ DEADLINE: <2020-10-31 Sat>
 *** DONE LCA
 ** TODO 2019 blancs [0/1]
 *** TODO LCA
-** DONE 2018 [3/3]
-*** DONE LCA
+** DONE 2018 [2/3]
+*** TODO LCA
+    DEADLINE: <2021-05-08 Sat>
+    relire
 *** DONE DP [3/3]
 **** DONE DCP 1 [6/6]
 ***** DONE DP 1
@@ -486,7 +492,7 @@ CLOCK: [2021-02-28 Sun 15:10]--[2021-02-28 Sun 16:15] =>  1:05
   :CATEGORY: cancero
   :END:
 ** TODO Relire fiches
-DEADLINE: <2021-05-02 Sun> SCHEDULED: <2021-05-08 Sat>
+DEADLINE: <2021-05-29 Sat> SCHEDULED: <2021-05-15 Sat>
 :LOGBOOK:
 CLOCK: [2021-04-04 Sun 11:34]--[2021-04-04 Sun 12:04] =>  0:30
 :END:
@@ -506,7 +512,6 @@ CLOCK: [2020-09-26 Sat 11:36]--[2020-09-26 Sat 12:07] =>  0:31
 SCHEDULED: <2020-09-26 Sat 14:00> DEADLINE: <2020-09-26 Sat 15:00>
 ** TODO LITFL top 100 ECG  [23/120]
 https://litfl.com/top-100/ecg/
-DEADLINE: <2021-04-30 Fri +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2020-10-13 Tue 09:45]
 :END:
@@ -631,7 +636,7 @@ DEADLINE: <2021-04-30 Fri +1d>
 - [ ] ECG 119
 - [ ] ECG 120
 ** TODO [#B] 150 ECGs Hampton [3/150]
-   SCHEDULED: <2021-05-08 Sat> DEADLINE: <2021-04-11 Fri +1d>
+   SCHEDULED: <2021-05-15 Sat> DEADLINE: <2021-04-11 Fri +1d>
    :LOGBOOK:
    CLOCK: [2021-04-30 Fri 22:49]--[2021-04-30 Fri 22:49] =>  0:00
    CLOCK: [2021-04-11 Sun 11:09]--[2021-04-11 Sun 11:20] =>  0:11
@@ -896,7 +901,7 @@ CLOCK: [2021-04-16 Fri 11:02]--[2021-04-16 Fri 11:20] =>  0:18
 :END:
 * Dermato :A2:dermato:
 ** TODO [#B] Relire fiches
-DEADLINE: <2021-05-09 Sun> SCHEDULED: <2021-05-08 Sat>
+SCHEDULED: <2021-05-15 Sat> DEADLINE: <2021-05-09 Sun>
 :PROPERTIES:
 :CATEGORY: dermato
 :END:
@@ -909,7 +914,7 @@ DEADLINE: <2021-05-09 Sun> SCHEDULED: <2021-05-08 Sat>
   :CATEGORY: endocrino
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-05-08 Sat>
+SCHEDULED: <2021-05-15 Sat>
 * Garde
 ** Urgences
 *** TODO Positionnement ECG
@@ -930,10 +935,13 @@ Uro
   :CATEGORY: gynéco
   :END:
 ** TODO Relire fiches
-DEADLINE: <2021-05-02 Sun> SCHEDULED: <2021-05-08 Sat>
+DEADLINE: <2021-05-29 Sat> SCHEDULED: <2021-05-15 Sat>
 * Génétique
+  :PROPERTIES:
+  :CATEGORY: génétique
+  :END:
 ** TODO exercices
-DEADLINE: <2021-04-30 Fri>
+DEADLINE: <2021-05-29 Sat> SCHEDULED: <2021-05-15 Sat>
 Livret à la fin
 Source: https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gntique-mdicale
 * Gériatrie :geria:A2:
@@ -2478,7 +2486,7 @@ CLOCK: [2021-04-18 Sun 11:31]--[2021-04-18 Sun 11:50] =>  0:19
 :CATEGORY: immuno
 :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-05-01 Sat>
+SCHEDULED: <2021-05-15 Sat>
 * TOUR1 Médecine légale, médecine du travail
 ** DONE Lire collège
 DEADLINE: <2020-12-15 Tue>
@@ -2497,7 +2505,7 @@ CLOCK: [2021-02-18 Thu 21:54]--[2021-02-18 Thu 22:43] =>  0:49
   :CATEGORY: nephro
   :END:
 ** TODO Relire fiches pour CC
-SCHEDULED: <2021-05-01 Sat>
+SCHEDULED: <2021-05-15 Sat>
 *** DONE Anomalie eau sodium
 *** DONE Anomalies potassium
 *** TODO Items/264 Diurétiques
@@ -2575,7 +2583,7 @@ CLOCK: [2020-06-20 Sat 17:18]--[2020-06-20 Sat 17:38] =>  0:20
 - [X] [[file:~/Downloads/ortho/359- CM-CC - Fractures des membres supérieurs - Sirveaux.pdf]]
 - [X] [[file:~/Downloads/ortho/361- CM-CC - Surveillance d’un malade sous plâtre - Sirveaux.pdf]]
 ** TODO Relire fiches/collège
-SCHEDULED: <2021-05-08 Sat>
+SCHEDULED: <2021-05-15 Sat>
 :LOGBOOK:
 CLOCK: [2021-02-22 Mon 17:45]--[2021-02-22 Mon 18:13] =>  0:28
 :END:
@@ -2590,7 +2598,7 @@ DEADLINE: <2020-09-27 Sun 14:55> SCHEDULED: <2020-09-27 Sun 13:55>
 DEADLINE: <2020-11-23 Mon>
 https://semiologiepneumologique.com/
 ** TODO Dossiers progressif du CEP (2017)
-SCHEDULED: <2021-05-08 Sat>
+SCHEDULED: <2021-05-15 Sat>
 [[file:~/backups/hubic/Public/Cours/Medecine/FASM3/dp_pneumo_cep/2017][file:~/backups/hubic/Public/Cours/Medecine/FASM3/dp_pneumo_cep/2017]]
 ** TODO Questions EFR + gaz du sang
 [[file:~/backups/hubic/Public/Cours/Medecine/FASM3/dp_pneumo_cep/EFR-pourECN2017.pdf][file:~/backups/hubic/Public/Cours/Medecine/FASM3/dp_pneumo_cep/EFR-pourECN2017.pdf]]
@@ -2621,7 +2629,7 @@ CLOCK: [2021-02-24 Wed 21:36]--[2021-02-24 Wed 22:39] =>  1:03
   :CATEGORY: rhumato
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-05-08 Sat>
+SCHEDULED: <2021-05-15 Sat>
 * TOUR1 Santé publique
 :PROPERTIES:
 :CATEGORY: santepub

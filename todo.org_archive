@@ -1586,3 +1586,205 @@ Port réécrit par arrowd :
 - hs-hls-install est installé par un port séparé
 - puis on l'utilise pour install hs-haskell-language-server
 Toute la difficulté vient du fait qu'on ne peut pas laisser cabal gérer
+
+* KILL Zsh (fresh install)
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-05-08 Sat 16:50
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/todo.org
+:ARCHIVE_OLPATH: Blog
+:ARCHIVE_CATEGORY: todo
+:ARCHIVE_TODO: KILL
+:ARCHIVE_ITAGS: blog
+:END:
+1. Install zsh
+2. Install antibody (plugin manager). On archlinux, I like yay  :
+   #+BEGIN_SRC shell
+   yay -Sy antibody
+   #+END_SRC
+3. Create a list of plugins in ~/.zsh_plugins.txt yay  :
+   #+BEGIN_SRC shell
+   echo '# Oh my zsh: fzf
+   robbyrussell/oh-my-zsh path:plugins/fzf' > ~/.zsh_plugins.txt
+   #+END_SRC
+4. Load plugins statically (fastest)
+   #+BEGIN_SRC shell
+   antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
+   #+END_SRC
+
+   #+RESULTS:
+
+5. Minimal .zshrc :
+   #+BEGIN_SRC shell
+   echo 'source ~/.zsh_plugins.sh' > ~/.zshrc
+   #+END_SRC
+
+   My config : FZF completion "everywhere"
+   My prompt
+   https://github.com/romkatv/powerlevel10k#antibody
+   I had to default to the ascii version. Even instaling the recommended font did not work in urxvt + source code pro.
+   (yay -S ttf-meslo-nerd-font-powerlevel10k)
+
+* DONE Signaler incident avec NZBgeek
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-05-08 Sat 16:52
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/todo.org
+:ARCHIVE_OLPATH: Banque
+:ARCHIVE_CATEGORY: todo
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: banque
+:END:
+Incident reçu le <2020-12-28 Tue>
+Signalé à Boursorama le <2020-12-29 Tue>
+
+* KILL Compléments alimentaires
+:PROPERTIES:
+:LOGGING:  logrepeat
+:LAST_REPEAT: [2021-05-08 Sat 16:53]
+:ARCHIVE_TIME: 2021-05-08 Sat 16:54
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/todo.org
+:ARCHIVE_OLPATH: Loki
+:ARCHIVE_CATEGORY: loki
+:ARCHIVE_TODO: KILL
+:END:
+- State "DONE"       from "TODO"       [2021-04-30 Fri 22:13]
+- State "DONE"       from "TODO"       [2021-04-19 Sat 10:37]
+- State "DONE"       from "TODO"       [2021-04-15 Thu 10:37]
+- State "DONE"       from "TODO"       [2021-04-11 Sun 10:37]
+
+* Stage :stage:
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-05-08 Sat 16:54
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/todo.org
+:ARCHIVE_CATEGORY: todo
+:END:
+:ARCHIVE:
+
+* Vacances
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-05-08 Sat 16:54
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/todo.org
+:ARCHIVE_CATEGORY: todo
+:END:
+
+* Loki
+:PROPERTIES:
+:CATEGORY: loki
+:ARCHIVE_TIME: 2021-05-08 Sat 16:54
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/todo.org
+:ARCHIVE_CATEGORY: loki
+:END:
+
+* Médecine
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-05-08 Sat 16:54
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/todo.org
+:ARCHIVE_CATEGORY: todo
+:END:
+
+* Fac :fac:
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-05-08 Sat 16:54
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/todo.org
+:ARCHIVE_CATEGORY: todo
+:END:
+
+* Impôts
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-05-08 Sat 16:54
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/todo.org
+:ARCHIVE_CATEGORY: todo
+:END:
+
+* KILL Google chrome (linux binary)
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-05-08 Sat 16:54
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/todo.org
+:ARCHIVE_OLPATH: FreeBSD
+:ARCHIVE_CATEGORY: todo
+:ARCHIVE_TODO: KILL
+:END:
+
+On essaye
+https://wiki.freebsd.org/LinuxJails
+Plutôt que
+ https://forums.freebsd.org/threads/linuxulator-how-to-run-google-chrome-linux-binary-on-freebsd.77559/
+
+** Tentative 1 : echec
+#+begin_src shell
+sudo pkg install linux-steam-utils debootstrap
+#+end_src
+(linux-stem-utils inutile ?)
+
+#+begin_src shell
+sudo debootstrap --no-check-gpg bionic /compat/ubuntu
+#+end_src
+Echec.
+cp: '/etc/resolv.conf' and '/run/systemd/resolve/stub-resolv.conf' are the same file
+
+** Tenttative 2
+#+begin_src shell
+pkg install linux-steam-utils debootstrap pulseaudio
+debootstrap --arch=amd64 --no-check-gpg focal /compat/ubuntu
+#+end_src
+Ok pour install
+#+begin_src
+cd /compat/linux/lib64/ && rm ./ld-linux-x86-64.so.2 ; ln -s ../lib/x86_64-linux-gnu/ld-2.31.so ld-linux-x86-64.so.2
+#+end_src
+Ajouter à /etc/fstab
+#+begin_src shell
+# Ubuntu jail
+devfs           /compat/ubuntu/dev      devfs           rw,late                      0       0
+tmpfs           /compat/ubuntu/dev/shm  tmpfs           rw,late,size=1g,mode=1777    0       0
+fdescfs         /compat/ubuntu/dev/fd   fdescfs         rw,late,linrdlnk             0       0
+linprocfs       /compat/ubuntu/proc     linprocfs       rw,late                      0       0
+linsysfs        /compat/ubuntu/sys      linsysfs        rw,late                      0       0
+/tmp            /compat/ubuntu/tmp      nullfs          rw,late                      0       0
+/home           /compat/ubuntu/home     nullfs          rw,late                      0       0
+#+end_src
+#+begin_src shell
+mount -al
+printf "APT::Cache-Start 251658240;" > /compat/ubuntu/etc/apt/apt.conf.d/00aptitude
+
+printf "deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse" > /compat/ubuntu/etc/apt/sources.list
+
+# Add Chrome repository:
+printf "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /compat/ubuntu/etc/apt/sources.list.d/google-chrome.list
+fetch -o /compat/ubuntu/ https://dl.google.com/linux/linux_signing_key.pub
+chroot /compat/ubuntu /bin/bash
+#+end_src
+
+Dans le chroot
+#+begin_src shell
+apt update
+apt install gnupg
+apt-key add linux_signing_key.pub
+apt update
+apt install -y google-chrome-stable
+#+end_src
+Then
+#+begin_src shell
+touch /compat/ubuntu/bin/chrome && chmod +x /compat/ubuntu/bin/chrome
+#+end_src
+Add it
+#+begin_src shell
+#!/compat/linux/bin/bash
+
+export CHROME_PATH="/opt/google/chrome/chrome"
+export CHROME_WRAPPER="`readlink -f "$0"`"
+export LD_LIBRARY_PATH=/usr/local/steam-utils/lib64/fakeudev
+export LD_PRELOAD=/usr/local/steam-utils/lib64/webfix/webfix.so
+export LIBGL_DRI3_DISABLE=1
+
+exec -a "$0" "$CHROME_PATH" --no-sandbox --no-zygote --test-type --v=0 "$@"
+#+end_src
+
+Echec : libtinfo.so.6 cannot openshared
+=>
+#+begin_src shell
+sysctl compat.linux.emul_path=/compat/ubuntu
+# Message d'erreur
+chmod 1777 /dev/shm
+#+end_src
+Marche après reboot mais micro non reconnu par discord
+
+Essai install discord
