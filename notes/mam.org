@@ -107,15 +107,20 @@ Le plus simple est de récupérer chaque bookshelf et de parser le HTML
 **** DONE Corriger les accents
 **** DONE Gérer exceptions
 **** TODO Récupérer catégories
-** TODO Résultats sur Mam
+** DONE Résultats sur Mam
 Rerchere automatique et fait à la main
 *** DONE Parser liste des auteurs
-*** TODO Récupérer toute la liste
-*** TODO Filtrer résultats
-**** TODO Calculer la distance de levensein sur le titre
-**** TODO Filtrer sur l'auteur (distance de levenstein ?)
-** TODO Post final
-*** TODO Formatter depuis CSV
+*** DONE Récupérer toute la liste
+*** DONE Filtrer résultats
+**** DONE Calculer la distance de levensein sur le titre
+**** DONE Comparaison manuelle
+*** DONE Fusionner cover, review dans mam-curated
+** DONE Post final
+*** DONE Formatter depuis CSV
+*** DONE Stats : 271/939
+*** DONE Grouper par catégories
+**** DONE Arbre des catégories
+**** DONE Grouper
 
 * TODO Upload
 ** TODO Classiques Jaunes (638)

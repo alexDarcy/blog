@@ -906,6 +906,8 @@ Cuits entiers + huile + sel
 *** Notes
 Testé avec rhum : pas senti.
 Sans le surplus de sauce, ni crouton. Bonne sauce mais riche.
+** RETRY Poulet rôti (Kenji Alt-Lopez)
+Echec à 230° + spatchcock : viande trop dure !
 ** RETRY Buttermilk Cornbread :carbs:
 :PROPERTIES:
 :source-url: https://www.bonappetit.com/recipe/buttermilk-cornbread
