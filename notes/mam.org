@@ -34,9 +34,8 @@ Pour un chapitre
 L'URL pour PDF a changé. Il faut aller dans feuilleter.php?ID_ARTICLE=PERRI_MOUTO_2018_01_0011
 Et récupérer dans le javascript caché, la variable parametersViewer qui contient dans file le lien vers le PDF (avec un token que l'on ne trouve nulle par ailleur)
 
-Chaque groupe de chapitre a son ID qui est dans le HTML apparemment (data-id-article)
-<!-- Meta-Data : Numéro de revue -->
-<div id="tuile-9f7c63c406cce10bd13030c3629359591e0ad6fe606381956132b" class="media wow fadeIn isSommaire  well article-list-item" data-id-revue="PERRI_HC" date-id-numero="PERRI_MOUTO_2018_01" data-id-article="PERRI_MOUTO_2018_01_0031">
+Tous les chapitres sont listés sur les pagges "feuiller.php" à chaque fois !
+Cf <ul class="chapter-list">
 
 Ne pas oublier la présentation !
 * TODO Upload
@@ -1599,6 +1598,8 @@ Exemple de requete
 **** TODO [#A] U
 101 ouvrages
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=&collection=ARCO_U&discipline=3&orderby=titre&offset=100
+***** DONE Citoyenneté, République et Démocratie en France
+
 ** TODO [#C] Dalloz (droit)
 https://www-dalloz-bibliotheque-fr.bases-doc.univ-lorraine.fr/
 Voir pour requête (sinon trop manuel...)
