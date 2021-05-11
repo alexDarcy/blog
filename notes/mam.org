@@ -28,100 +28,17 @@ Utiliser avec bash ...sh python2
 ***** Haskell
 ** DONE Nouveau Monde (Zola)
 Récupérer liste url + titre
-* TODO Liste des livres sur askhistorians
-** DONE Parser la liste de livres
-*** DONE v1 avec python sur goodreads
-*** DONE v2 avec haskell sur reddit
-Utiliser l'API de reddit
-Doc ici
-https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example
-Example
+** TODO Cairn
+*** Algorithme
+Pour un chapitre
+L'URL pour PDF a changé. Il faut aller dans feuilleter.php?ID_ARTICLE=PERRI_MOUTO_2018_01_0011
+Et récupérer dans le javascript caché, la variable parametersViewer qui contient dans file le lien vers le PDF (avec un token que l'on ne trouve nulle par ailleur)
 
-1) Retrouver l'access token
-curl -X POST -d 'grant_type=password&username=clumsyKnife&password=TODO --user 'CLIENTID:CLIENTSECRET' https://www.reddit.com/api/v1/access_token
+Chaque groupe de chapitre a son ID qui est dans le HTML apparemment (data-id-article)
+<!-- Meta-Data : Numéro de revue -->
+<div id="tuile-9f7c63c406cce10bd13030c3629359591e0ad6fe606381956132b" class="media wow fadeIn isSommaire  well article-list-item" data-id-revue="PERRI_HC" date-id-numero="PERRI_MOUTO_2018_01" data-id-article="PERRI_MOUTO_2018_01_0031">
 
-1) Valable 1h par défaut. On utilise le token
- curl -H "Authorization: bearer 16127239-LAbyvE6sz_oHQKGPmnfxCmb-wZtl6Q" -A "ChangeMeClient/0.1 by YourUsername" https://oauth.reddit.com/api/v1/me
-*** DONE Example simple
-**** DONE titre + description
-**** DONE category
-*** DONE Vérifier page par page sur 3 exemple
-**** DONE general (11 livres)
-**** DONE Biographies
-**** DONE Historiagraphy
-*** DONE Liste des pages
-Toutes les URL sans #, et sans "documentaries"
-*** DONE API MaM
-*** KILL Récupérer l'auteur pour avoir moins de résultats
-**** DONE Parser wiki
-Très manuel
-**** KILL Requêtes google books avec l'isbn
-ISBN dans l'URL amazon, après dp
-https://www.amazon.com/Human-Past-History-Development-Societies/dp/050029335X
-*** KILL Réécrire le parser pour tenir compte des 2 syntaxes
-Nouvelle syntaxe dans /general : le titre est en italique
-Mais on reste sur l'ancienne syntaxe ailleurs...
-Nouvelle stratégie :
-on récupérer le premier lien pour chaque item, qui contient le titre
-A priori, pas besoin d'aller chercher sur le site distant
-**** DONE Récupérer les liens dans chaque items
-**** DONE Gérer les listes récursives
-**** DONE Gérer les liens sans listes
-**** KILL Gérer les items sans listes, just avec italiques
-Ex: africa
-**** KILL Extraire title depuis lien markdown
-À voir si cela suffit
-**** KILL Extraire nfo depuis amazon
-***** KILL Gérer les autres liens
-Liste : gutenberg, worlcat, archive.org
-*** KILL À la main
-**** KILL [[/usr/home/alex/projects/askhistorians/data/ageofexploration.md][ageofexploration.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/americas.md][americas.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/australia.md][australia.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/biographies.md][biographies.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/coldwar.md][coldwar.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/culturalhistory.md][culturalhistory.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/eastasia.md][eastasia.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/europe.md][europe.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/general.md][general.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/historiography.md][historiography.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/holocaust.md][holocaust.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/innerasia.md][innerasia.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/latinamerica.md][latinamerica.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/middleeast.md][middleeast.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/southasia.md][southasia.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/wwi.md][wwi.md]]
-**** KILL [[/usr/home/alex/projects/askhistorians/data/wwii.md][wwii.md]]
-*** TODO Utiliser la liste sur goodreadrs
-**** KILL Récupérer liste complète à partir du RSS
-Tout à l'air deeedans
-***** DONE Titre
-***** DONE Auteur
-***** DONE Couverture
-***** DONE Review
-***** DONE Catégories !
-***** KILL Seulement 100 résultats ...
-**** DONE Récupérer données depuis HTML
-Tout sauf les categories...
-Le plus simple est de récupérer chaque bookshelf et de parser le HTML
-**** DONE Corriger les accents
-**** DONE Gérer exceptions
-**** TODO Récupérer catégories
-** DONE Résultats sur Mam
-Rerchere automatique et fait à la main
-*** DONE Parser liste des auteurs
-*** DONE Récupérer toute la liste
-*** DONE Filtrer résultats
-**** DONE Calculer la distance de levensein sur le titre
-**** DONE Comparaison manuelle
-*** DONE Fusionner cover, review dans mam-curated
-** DONE Post final
-*** DONE Formatter depuis CSV
-*** DONE Stats : 271/939
-*** DONE Grouper par catégories
-**** DONE Arbre des catégories
-**** DONE Grouper
-
+Ne pas oublier la présentation !
 * TODO Upload
 ** TODO Classiques Jaunes (638)
 Attention, limite de téléchargement de PDF par heure
@@ -158,7 +75,7 @@ https://classiques-garnier.com/anthologie-poetique-francaise-du-xvie-siecle-tome
 https://classiques-garnier.com/anthologie-poetique-francaise-du-xvie-siecle-tome-ii-poemes-choisis.html
 **** TODO Chrestomathie du Moyen Âge
 https://classiques-garnier.com/chrestomathie-du-moyen-age-morceaux-choisis-d-auteurs-francais.html
-**** TODO La Chanson de Roland
+**** DONE La Chanson de Roland
 https://classiques-garnier.com/la-chanson-de-roland.html
 **** TODO Les Satires françaises du XVIe siècle. Tome I
 https://classiques-garnier.com/les-satires-francaises-du-xvie-siecle-tome-i.html
@@ -569,11 +486,11 @@ https://classiques-garnier.com/crebillon-claude-oeuvres-completes-tome-iv.html
 https://classiques-garnier.com/marot-clement-oeuvres-poetiques-completes-tome-i.html
 **** TODO Œuvres poétiques complètes. Tome II
 https://classiques-garnier.com/marot-clement-oeuvres-poetiques-completes-tome-ii.html
-*** TODO Condorcet
-**** TODO Écrits sur les États-Unis
+*** DONE Condorcet
+**** DONE Écrits sur les États-Unis
 https://classiques-garnier.com/ecrits-sur-les-etats-unis-1.html
-*** TODO Confucius
-**** TODO Doctrine ou les Quatre Livres de philosophie morale et politique de la Chine
+*** DONE Confucius
+**** DONE Doctrine ou les Quatre Livres de philosophie morale et politique de la Chine
 https://classiques-garnier.com/doctrine-ou-les-quatre-livres-de-philosophie-morale-et-politique-de-la-chine.html
 *** TODO Cyrano de Bergerac
 **** TODO Œuvres diverses
@@ -1674,14 +1591,7 @@ Déjà disponible
 *** TODO Histoire
 Liste ici : 1773 livres
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?editeur=&discipline=3
-URL pour PDF:
-load_pdf.php?ID_ARTICLE=PERRI_MOUTO_2018_01_0011&download=1
 
-Chaque groupe de chapitre a son ID qui est dans le HTML apparemment (data-id-article)
-<!-- Meta-Data : Numéro de revue -->
-<div id="tuile-9f7c63c406cce10bd13030c3629359591e0ad6fe606381956132b" class="media wow fadeIn isSommaire  well article-list-item" data-id-revue="PERRI_HC" date-id-numero="PERRI_MOUTO_2018_01" data-id-article="PERRI_MOUTO_2018_01_0031">
-
-Ne pas oublier la présentation !
 **** TODO [#B] Nouvelle clio
 52 livres
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=PUF&collection=PUF_NOCLI&discipline=3&orderby=titre
@@ -1697,3 +1607,12 @@ Parameters : (changer le nombre de pages)
 fct=Printparam={"shopname":"dallozbndpro","code":"004294","number":"222","pvgpuserid":"33751","referer":"https://dallozbndpro-pvgpsla6-dalloz-bibliotheque-fr.bases-doc.univ-lorraine.fr/fr/pvPageH5B.asp?puc=004294&nu=222&pa=1","page":"4|5|6|7|296|299"}
 
 Dans firefox, erreur 404...
+* TODO Askhistorians
+** Uploader avec 1lib livres manquants
+Si possible
+[[file:/usr/home/alex/projects/askhistorians/data/missing.txt][file:/usr/home/alex/projects/askhistorians/data/missing.txt]]
+*** KILL A Call to Arms: Propaganda, Public Opinion, and Newspapers in the Great War (Troy R. E. Paddock)
+*** DONE A Companion to Archaic Greece (Kurt A. Raaflaub)
+*** DONE A Companion to the Hellenistic World (Andrew Erskine)
+*** ...
+*** KILL A Social History of Truth: Civility and Science in Seventeenth-Century England (Steven Shapin)

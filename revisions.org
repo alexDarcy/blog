@@ -75,6 +75,7 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 ** TODO HGE
    DEADLINE: <2021-04-26 Mon>
    :LOGBOOK:
+   CLOCK: [2021-05-10 Mon 17:43]--[2021-05-10 Mon 19:03] =>  1:20
    CLOCK: [2021-05-02 Sun 17:36]--[2021-05-02 Sun 18:01] =>  0:25
    CLOCK: [2021-05-02 Sun 13:00]--[2021-05-02 Sun 13:45] =>  0:45
    CLOCK: [2021-04-30 Fri 22:49]--[2021-04-30 Fri 23:33] =>  0:44
@@ -130,7 +131,7 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 *** DONE Item 302
 *** DONE Item 305
 *** TODO Item 329
-*** TODO Item 349
+*** DONE Item 349
 *** TODO Item 351
 *** TODO : Item 352
 * Anesthésie-Rea :anesth:
@@ -904,6 +905,16 @@ CLOCK: [2021-04-16 Fri 13:03]--[2021-04-16 Fri 13:44] =>  0:41
 CLOCK: [2021-04-16 Fri 11:54]--[2021-04-16 Fri 12:42] =>  0:48
 CLOCK: [2021-04-16 Fri 11:02]--[2021-04-16 Fri 11:20] =>  0:18
 :END:
+*** DONE [2021-05-02 Sun] :lca:
+DEADLINE: <2021-05-10 Mon>
+:LOGBOOK:
+CLOCK: [2021-05-11 Tue 13:01]--[2021-05-11 Tue 14:00] =>  0:59
+CLOCK: [2021-05-10 Mon 23:56]--[2021-05-11 Tue 00:45] =>  0:49
+CLOCK: [2021-05-10 Mon 22:29]--[2021-05-10 Mon 22:42] =>  0:13
+:END:
+*** TODO [2021-05-11 Tue] :cardio:
+**** TODO Conf
+DEADLINE: <2021-05-11 Tue>
 * Dermato :A2:dermato:
 ** TODO [#B] Relire fiches
 DEADLINE: <2021-05-23 Sun> SCHEDULED: <2021-05-15 Sat>
@@ -2428,6 +2439,9 @@ Gastrite à faire
 ** TOUR1 347 Crise d'angoisse, attaque de panique :pedia:psy:
 ** TODO 348 Risque et conduite suicidaire :pedia:psy:
 ** TODO 349 Syndrome occlusif de l'enfant et de l'adulte
+:PROPERTIES:
+:hge:      t
+:END:
 ** TOUR1 350 Hémorragie digestive :pedia:hge:
 :PROPERTIES:
 :hge:      t

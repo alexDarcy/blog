@@ -4566,3 +4566,12 @@ Norwegian curls: 3x4
 Compression : 10-9-8
 **** Handstand
  BtW non chrono, x3
+
+*** 2021-05-11 Tuesday
+**** Running
+:PROPERTIES:
+:type: sprint
+:reps:     8
+:sprint:   50m
+:rest:     2min
+:END:

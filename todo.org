@@ -893,6 +893,31 @@ do-install:
 #+end_src
 *** DONE Arriver à compiler la documentation
 *** DONE Sumbit
+** WAIT Port pyrocore
+Patch:
+#+begin_src
+--- update-to-head.sh.orig	2021-05-11 12:49:25.311117000 +0200
++++ update-to-head.sh	2021-05-11 12:51:07.916518000 +0200
+@@ -14,7 +14,7 @@
+ # Also adapt "assert sys.version_info" below, and venv creation
+
+ set -e
+-MY_SUM=$(md5sum "$0" | cut -f1 -d' ')
++MY_SUM=$(gmd5sum "$0" | cut -f1 -d' ')
+ PROJECT_ROOT="$(command cd $(dirname "$0") >/dev/null && pwd)"
+ command cd "$PROJECT_ROOT" >/dev/null
+ echo "Installing into $PWD..."
+@@ -47,7 +47,7 @@
+     MY_SUM="let's start over"
+ fi
+
+-if test "$MY_SUM" != $(md5sum "$0" | cut -f1 -d' '); then
++if test "$MY_SUM" != $(gmd5sum "$0" | cut -f1 -d' '); then
+     echo -e "\n\n*** Update script changed, starting over ***\n"
+     exec "$0" "$@"
+ fi
+#+end_src
+bash update-to-head.sh python2.7
 
 * Banque :banque:
 ** TODO Importer comptes Caisse Epargne dans ledger

@@ -432,3 +432,104 @@ Le second identifiant est le même mais avec un tiret
 ** DONE 20
 ** DONE 21
 ** DONE Ajouter type de pdf
+
+* DONE Liste des livres sur askhistorians
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-05-10 Mon 19:29
+:ARCHIVE_FILE: /usr/home/alex/projects/blog/notes/mam.org
+:ARCHIVE_CATEGORY: mam
+:ARCHIVE_TODO: DONE
+:END:
+** DONE Parser la liste de livres
+*** DONE v1 avec python sur goodreads
+*** DONE v2 avec haskell sur reddit
+Utiliser l'API de reddit
+Doc ici
+https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example
+Example
+
+1) Retrouver l'access token
+curl -X POST -d 'grant_type=password&username=clumsyKnife&password=TODO --user 'CLIENTID:CLIENTSECRET' https://www.reddit.com/api/v1/access_token
+
+1) Valable 1h par défaut. On utilise le token
+ curl -H "Authorization: bearer 16127239-LAbyvE6sz_oHQKGPmnfxCmb-wZtl6Q" -A "ChangeMeClient/0.1 by YourUsername" https://oauth.reddit.com/api/v1/me
+*** DONE Example simple
+**** DONE titre + description
+**** DONE category
+*** DONE Vérifier page par page sur 3 exemple
+**** DONE general (11 livres)
+**** DONE Biographies
+**** DONE Historiagraphy
+*** DONE Liste des pages
+Toutes les URL sans #, et sans "documentaries"
+*** DONE API MaM
+*** KILL Récupérer l'auteur pour avoir moins de résultats
+**** DONE Parser wiki
+Très manuel
+**** KILL Requêtes google books avec l'isbn
+ISBN dans l'URL amazon, après dp
+https://www.amazon.com/Human-Past-History-Development-Societies/dp/050029335X
+*** KILL Réécrire le parser pour tenir compte des 2 syntaxes
+Nouvelle syntaxe dans /general : le titre est en italique
+Mais on reste sur l'ancienne syntaxe ailleurs...
+Nouvelle stratégie :
+on récupérer le premier lien pour chaque item, qui contient le titre
+A priori, pas besoin d'aller chercher sur le site distant
+**** DONE Récupérer les liens dans chaque items
+**** DONE Gérer les listes récursives
+**** DONE Gérer les liens sans listes
+**** KILL Gérer les items sans listes, just avec italiques
+Ex: africa
+**** KILL Extraire title depuis lien markdown
+À voir si cela suffit
+**** KILL Extraire nfo depuis amazon
+***** KILL Gérer les autres liens
+Liste : gutenberg, worlcat, archive.org
+*** KILL À la main
+**** KILL [[/usr/home/alex/projects/askhistorians/data/ageofexploration.md][ageofexploration.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/americas.md][americas.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/australia.md][australia.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/biographies.md][biographies.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/coldwar.md][coldwar.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/culturalhistory.md][culturalhistory.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/eastasia.md][eastasia.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/europe.md][europe.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/general.md][general.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/historiography.md][historiography.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/holocaust.md][holocaust.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/innerasia.md][innerasia.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/latinamerica.md][latinamerica.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/middleeast.md][middleeast.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/southasia.md][southasia.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/wwi.md][wwi.md]]
+**** KILL [[/usr/home/alex/projects/askhistorians/data/wwii.md][wwii.md]]
+*** DONE Utiliser la liste sur goodreadrs
+**** KILL Récupérer liste complète à partir du RSS
+Tout à l'air deeedans
+***** DONE Titre
+***** DONE Auteur
+***** DONE Couverture
+***** DONE Review
+***** DONE Catégories !
+***** KILL Seulement 100 résultats ...
+**** DONE Récupérer données depuis HTML
+Tout sauf les categories...
+Le plus simple est de récupérer chaque bookshelf et de parser le HTML
+**** DONE Corriger les accents
+**** DONE Gérer exceptions
+**** DONE Récupérer catégories
+** DONE Résultats sur Mam
+Rerchere automatique et fait à la main
+*** DONE Parser liste des auteurs
+*** DONE Récupérer toute la liste
+*** DONE Filtrer résultats
+**** DONE Calculer la distance de levensein sur le titre
+**** DONE Comparaison manuelle
+*** DONE Fusionner cover, review dans mam-curated
+** DONE Post final
+*** DONE Formatter depuis CSV
+*** DONE Stats : 271/939
+*** DONE Grouper par catégories
+**** DONE Arbre des catégories
+**** DONE Grouper
+
