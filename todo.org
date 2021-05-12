@@ -1923,6 +1923,10 @@ https://ballotpedia.org/Fact_check/Does_research_show_that_federal_student_aid_i
 :PROPERTIES:
 :CATEGORY: mail
 :END:
+* Faculté
+** TODO Inscription ECNi
+DEADLINE: <2021-06-06 Sun> SCHEDULED: <2021-05-18 Tue>
+Cf [[notmuch:id:1976858705.759975.1620812940797.JavaMail.zimbra@univ-lorraine.fr][Email from Anne Cioni: [medecine-fasm-3-2021] Dates importantes ECN 21]]
 * Maison
 :ARCHIVE:
 ** TODO Lasure                                                                  :été2019:
