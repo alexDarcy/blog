@@ -26,18 +26,154 @@ TODO: remplacer md5sum par gmd5sum
 Changer appels à test
 Utiliser avec bash ...sh python2
 ***** Haskell
+**** TODO Passer tout en Text
 ** DONE Nouveau Monde (Zola)
 Récupérer liste url + titre
 ** TODO Cairn
-*** Algorithme
-Pour un chapitre
-L'URL pour PDF a changé. Il faut aller dans feuilleter.php?ID_ARTICLE=PERRI_MOUTO_2018_01_0011
-Et récupérer dans le javascript caché, la variable parametersViewer qui contient dans file le lien vers le PDF (avec un token que l'on ne trouve nulle par ailleur)
+*** DONE Algorithme
+**** Type de page 1
+Lien direct vers le pdf
+url + load_pdf.php?ID_ARTICLE=XXX&download=1
+Par exemple
+url + load_pdf.php?ID_ARTICLE=ARCO_DAMET_2019_01_0001&download=1
+**** Type de page 2
+L'ID est le même mais il y a un token en plus:
+./index.php?controleur=Pages&action=loadPdfOuvrage&ID_ARTICLE=XXXX&pdfToken=609d09811c609c354b5aaa35
+
+Par exemple
+./index.php?controleur=Pages&action=loadPdfOuvrage&ID_ARTICLE=ARCO_VINCE_2009_01_0001&pdfToken=609d09811c609c354b5aaa35
+
+Le token est en dur dans feuilleter.php?ID_ARTICLE=XXXX
+Et récupérer dans le javascript caché, la variable parametersViewer qui contient l'url complet
 
 Tous les chapitres sont listés sur les pagges "feuiller.php" à chaque fois !
 Cf <ul class="chapter-list">
 
 Ne pas oublier la présentation !
+**** DONE Nouvel algorithme pour gérer les 2 versions
+Récupérer la liste des noms de fichiers dans data-id-article
+<a class="btn btn-default" data-id_article="ARCO_VINCE_2009_01_0003" >
+
+Tester téléchargement direct sur r ^. responseHeader "Content-Type"
+- Si "text/html; charset=UTF-8", stratégie 2
+- Si "application/pdf", on sauvegarde
+*** TODO Passer tout en Text
+*** TODO Ajouter présentation
+*** TODO Uploader sur le pi automatiquement
+** TODO Automatiser upload
+*** TODO Fast fillout
+*** TODO Upload automatique ??
+**** Payload
+-----------------------------187634983333377351612738275146
+Content-Disposition: form-data; name="MAX_FILE_SIZE"
+
+10000000 -----------------------------187634983333377351612738275146
+Content-Disposition: form-data; name="torrent"; filename="TORRENTFILE" Content-Type: application/octet-stream  d8:announce80:TRACKERHERE/announce10:created by13:mktorrent 1.113:creation datei1620918686e4:infod6:lengthi4575772e4:name90:Famille et sociÃ©tÃ© dans le monde grec et en Italie - V-IIe av. J.-C - AurÃ©lie Damet.pdf12:piece lengthi65536e6:pieces1400:b àPaFÒç0[¬ø
+-----------------------------187634983333377351612738275146
+Content-Disposition: form-data; name="submit"
+
+Submit -----------------------------187634983333377351612738275146--
+**** HTML as response
+**** Final forme
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="MAX_FILE_SIZE"
+
+10000000
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[ext][]"
+
+yesIexist
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[ext][]"
+
+pdf
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[torrentFileData]"
+
+ZDg6YW5ub3VuY....
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[torrentName]"
+
+Famille_et_société_dans_le_monde_grec_et_en_Italie_-_V-IIe_av._J.-C_-_Aurélie_Damet.torrent
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[isbn]"
+
+
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[title]"
+
+Famille et société dans le monde grec et en Italie. V-IIe av. J.-C
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[category]"
+
+76
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[author][]"
+
+Aurélie Damet
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[author][]"
+
+
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[series][0][name]"
+
+Collection U
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[series][0][extra]"
+
+
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[series][2][name]"
+
+
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[series][2][extra]"
+
+
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[narrator][]"
+
+
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[tags]"
+
+history, ancient world, greece, rome
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="poster"; filename=""
+Content-Type: application/octet-stream
+
+
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[posterURL]"
+
+https://www.cairn.info/vign_rev/ARCO_U/ARCO_DAMET_2019_01_L204.jpg
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[language]"
+
+36
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[description]"
+
+La question du rapport entre famille et soci&#233;t&#233;,...
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[flags][exist]"
+
+true
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[uploadVIPdays]"
+
+0
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="tor[nfo]"; filename=""
+Content-Type: application/octet-stream
+
+
+-----------------------------79130731725612778352848181660
+Content-Disposition: form-data; name="submit"
+
+Submit
+-----------------------------79130731725612778352848181660--
 * TODO Upload
 ** TODO Classiques Jaunes (638)
 Attention, limite de téléchargement de PDF par heure
@@ -1595,16 +1731,16 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?editeur
 52 livres
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=PUF&collection=PUF_NOCLI&discipline=3&orderby=titre
 Exemple de requete
-**** TODO [#A] U [/]
+**** TODO [#A] Collection U [7/101]
 101 ouvrages
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=&collection=ARCO_U&discipline=3&orderby=titre&offset=100
 ***** DONE [[https://www.cairn.info/citoyennete-republique-et-democratie-en-france--9782200294045.htm][Citoyenneté, République et Démocratie en France]]
 ***** DONE [[https://www.cairn.info/croisades-et-orient-latin--9782200264987.htm][Croisades et Orient latin : XIe-XIVe siècle]]
 ***** DONE [[https://www.cairn.info/droit-de-conquete-et-droits-des-indiens--9782200293055.htm][Droit de conquête et droits des Indiens]]
-***** TODO [[https://www.cairn.info/eglise-et-societe-en-occident--9782200355876.htm][Église et société en Occident]]
-***** TODO [[https://www.cairn.info/eglise-et-societe-en-occident-xiiie-xve-siecles--9782200267636.htm][Église et société en Occident]]
-***** TODO [[https://www.cairn.info/famille-et-societe-dans-le-monde-grec-et-en-italie--9782200625627.htm][Famille et société dans le monde grec et en Italie]]
-***** TODO [[https://www.cairn.info/film-et-histoire--9782200345570.htm][Film et histoire]]
+***** DONE [[https://www.cairn.info/eglise-et-societe-en-occident--9782200355876.htm][Église et société en Occident]]
+***** DONE [[https://www.cairn.info/eglise-et-societe-en-occident-xiiie-xve-siecles--9782200267636.htm][Église et société en Occident]]
+***** DONE [[https://www.cairn.info/famille-et-societe-dans-le-monde-grec-et-en-italie--9782200625627.htm][Famille et société dans le monde grec et en Italie]]
+***** DONE [[https://www.cairn.info/film-et-histoire--9782200345570.htm][Film et histoire]]
 ***** TODO [[https://www.cairn.info/geohistoire-de-la%20mondialisation--9782200602949.htm][Géohistoire de la mondialisation]]
 ***** TODO [[https://www.cairn.info/histoire-culturelle-de-la-france-au-xixe-siecle--9782200353278.htm][Histoire culturelle de la France au XIXe siècle]]
 ***** TODO [[https://www.cairn.info/histoire-de-l-art--9782200622350.htm][Histoire de l'art]]

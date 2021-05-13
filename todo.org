@@ -925,7 +925,8 @@ bash update-to-head.sh python2.7
 *** TODO Metz
 ** TODO Corriger problème d'adresse
 DEADLINE: <2021-05-10 Mon>
-CE paris ou Metz ?
+CE metz. Mail aenvoyé à Paris (par erreur) et Mez le <2021-05-12 Wed>
+
 * Computer science
 ** HOLD 99 haskell [26/99]
 * Gymnastics :gym:

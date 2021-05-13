@@ -18,7 +18,7 @@
 | \_  Annales d'oral Nancy |        | 2:38 |
 #+END:
 
-* TODO Abrégé des très bien classés :abrégé:
+* TODO Abrégé des très bien classés [4/30] :abrégé:
 :PROPERTIES:
 :CATEGORY: ATBC
 :END:
@@ -29,6 +29,19 @@ DEADLINE: <2020-11-22 Sun>
 -> puberté
 
 ok cancer
+** TODO Gynéco
+** TODO Psychiatrie
+** TODO Dermatologie
+DEADLINE: <2021-05-16 Sun> SCHEDULED: <2021-05-12 Wed>
+** TODO Neurologie
+
+** TODO Opthalmo
+** TODO ORL
+** TODO Chir maxillo
+** TODO Anesth
+** TODO Gériatrie
+** TODO MPR
+** TODO Médecine du traval
 ** DONE Maladies infectieuses
 DEADLINE: <2021-04-20 Tue>
 :LOGBOOK:
@@ -70,9 +83,16 @@ CLOCK: [2021-04-24 Sat 17:29]--[2021-04-24 Sat 18:46] =>  1:17
 CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 :END:
 *** DONE 152
+** TODO Hémato
 ** TODO Médecine interne
 *** DONE 187
-** TODO HGE
+** TODO Pneumo
+** TODO Cardio
+** TODO Rhumato
+** TODO Endocrino
+** TODO Nephro
+** TODO Nutrition
+** DONE HGE + chir digestive
    DEADLINE: <2021-04-26 Mon>
    :LOGBOOK:
    CLOCK: [2021-05-10 Mon 17:43]--[2021-05-10 Mon 19:03] =>  1:20
@@ -130,10 +150,17 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 *** DONE Item 301
 *** DONE Item 302
 *** DONE Item 305
-*** TODO Item 329
+*** DONE Item 329
 *** DONE Item 349
-*** TODO Item 351
-*** TODO : Item 352
+*** DONE Item 351
+*** DONE : Item 352
+
+** TODO Urologie
+** TODO Oncologie
+** TODO Pharmaco
+** TODO Réa
+** TODO Ortho
+** TODO LCA
 * Anesthésie-Rea :anesth:
 PDF [[file:~/backups/hubic/Public/Cours/Medecine/referentiels/Anesth_college_2018.pdf][file:~/backups/hubic/Public/Cours/Medecine/referentiels/Anesth_college_2018.pdf]]
 https://drive.google.com/drive/folders/1PKMHd9yq-clAB5P1lLSnMRd7rtfOjvO7
@@ -912,15 +939,33 @@ CLOCK: [2021-05-11 Tue 13:01]--[2021-05-11 Tue 14:00] =>  0:59
 CLOCK: [2021-05-10 Mon 23:56]--[2021-05-11 Tue 00:45] =>  0:49
 CLOCK: [2021-05-10 Mon 22:29]--[2021-05-10 Mon 22:42] =>  0:13
 :END:
-*** TODO [2021-05-11 Tue] :cardio:
-**** TODO Conf
+*** KILL [2021-05-11 Tue] :cardio:
+**** DONE Conf
 DEADLINE: <2021-05-11 Tue>
+**** KILL Relire
+DEADLINE: <2021-05-11 Tue>
+*** TODO [2021-05-13 Thu] :pédia:
+**** DONE Sujet
+     DEADLINE: <2021-05-13 Thu>
+     :LOGBOOK:
+     CLOCK: [2021-05-13 Thu 13:28]--[2021-05-13 Thu 13:51] =>  0:23
+     CLOCK: [2021-05-13 Thu 11:00]--[2021-05-13 Thu 12:00] =>  1:00
+     :END:
+**** TODO Conf
+     DEADLINE: <2021-05-13 Thu>
+**** TODO Relire
 * Dermato :A2:dermato:
 ** TODO [#B] Relire fiches
-DEADLINE: <2021-05-23 Sun> SCHEDULED: <2021-05-15 Sat>
+DEADLINE: <2021-05-16 Sun> SCHEDULED: <2021-05-12 Wed>
 :PROPERTIES:
 :CATEGORY: dermato
 :END:
+:LOGBOOK:
+CLOCK: [2021-05-12 Wed 22:56]--[2021-05-12 Wed 23:41] =>  0:45
+CLOCK: [2021-05-12 Wed 19:19]--[2021-05-12 Wed 19:45] =>  0:26
+:END:
+** DONE Images commentées
+DEADLINE: <2021-05-12 Wed>
 * Dernières reco (HAS)
 :PROPERTIES:
 :CATEGORY: inter-fac
@@ -971,15 +1016,16 @@ Source: https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gn
 :END:
 ** DONE Relire fiches
 DEADLINE: <2021-01-16 Sat> SCHEDULED: <2021-01-12 Tue>
-* Hépato-Gastro :A1:hge:
+* TOUR1 Hépato-Gastro :A1:hge:
   :PROPERTIES:
   :COLUMNS:  %25ITEM %Lu %Fiche %QI
   :QI_source: 1000 QROC
   :CATEGORY: HGE
   :END:
-** TODO Relire fiches
+** DONE Relire fiches
    DEADLINE: <2021-04-27 Tue> SCHEDULED: <2021-04-22 Sat>
    :LOGBOOK:
+   CLOCK: [2021-05-12 Wed 16:23]--[2021-05-12 Wed 17:10] =>  0:47
    CLOCK: [2021-05-09 Sun 22:50]--[2021-05-09 Sun 22:53] =>  0:03
    CLOCK: [2021-05-02 Sun 11:45]--[2021-05-02 Sun 12:55] =>  1:10
    CLOCK: [2021-04-28 Wed 16:56]--[2021-04-28 Wed 17:01] =>  0:05
@@ -1724,8 +1770,7 @@ DEADLINE: <2020-10-11 Sun>
 :END:
 ** TOUR1 162 Grippe :pedia:malinf:
 ** TOUR1 161 Oreillons :pedia:malinf:
-** DONE 163 Hépatites virales :pedia:anapath:hge:malinf:
-DEADLINE: <2021-04-15 Thu>
+** TOUR1 163 Hépatites virales :pedia:anapath:hge:malinf:
 :LOGBOOK:
 CLOCK: [2021-04-15 Thu 21:33]--[2021-04-15 Thu 22:45] =>  1:12
 CLOCK: [2021-04-15 Thu 20:24]--[2021-04-15 Thu 20:45] =>  0:21
@@ -2308,7 +2353,7 @@ Gastrite à faire
 ** TODO 299 Tumeurs cutanées, épithéliales et mélaniques :pedia:anapath:cancero:dermato:
 ** TOUR1 300 Tumeurs de l'estomac :pedia:anapath:cancero:hge:
 ** TOUR1 301 Tumeurs du foie primitives et secondaires :pedia:anapath:cancero:hge:
-** TODO 302 Tumeurs de l'œsophage :pedia:anapath:cancero:hge:
+** TOUR1 302 Tumeurs de l'œsophage :pedia:anapath:cancero:hge:
 ** TOUR1 303 Tumeurs de l'ovaire :pedia:anapath:cancero:endoc:gyneco:
 :PROPERTIES:
 :gyneco:   t
@@ -2446,7 +2491,7 @@ Gastrite à faire
 :PROPERTIES:
 :hge:      t
 :END:
-** TODO 351 Appendicite de l'enfant et de l'adulte :pedia:anapath:hge:
+** TOUR1 351 Appendicite de l'enfant et de l'adulte :pedia:anapath:hge:
 ** TOUR1 352 Péritonite aigüe :pedia:hge:malinf:
 ** TOUR1 353 Pancréatite aiguë :pedia:hemato:
 :PROPERTIES:
