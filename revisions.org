@@ -33,6 +33,9 @@ ok cancer
 ** TODO Psychiatrie
 ** TODO Dermatologie
 DEADLINE: <2021-05-16 Sun> SCHEDULED: <2021-05-12 Wed>
+:LOGBOOK:
+CLOCK: [2021-05-13 Thu 17:57]--[2021-05-13 Thu 18:31] =>  0:34
+:END:
 ** TODO Neurologie
 
 ** TODO Opthalmo
