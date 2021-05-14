@@ -62,14 +62,80 @@ Tester téléchargement direct sur r ^. responseHeader "Content-Type"
 *** TODO Uploader sur le pi automatiquement
 ** TODO Automatiser upload
 *** DONE Fast fillout
+*** DONE Login
+#+begin_src haskell
+optsPost = defaults
+        & header "User-Agent" .~ ["Mozilla/5.0 (X11; FreeBSD amd64; rv:87.0)"]
+
+input' t a = ["t" := T.toStrict t,
+              "a" := T.toStrict a,
+              "email" := T.toStrict "XXX",
+              "password" := T.toStrict "YYY"]
+
+parseValueT = head . dropWhile (~/= ("<input type=hidden name=t>" :: String))
+parseValueA = head . dropWhile (~/= ("<input type=hidden name=a>" :: String))
+
+testUpload = do
+   let url = "https://MMM/login.php" :: T.Text
+   sess <- S.newSession
+   r <- S.get sess url
+   let raw =  r ^. responseBody
+   let attrT = TE.decodeUtf8 . fromAttrib "value" . parseValueT $ parseTags raw
+   let attrA = TE.decodeUtf8 . fromAttrib "value" . parseValueA $ parseTags raw
+
+   let url' = "https://MMM/takelogin.php" :: T.Text
+   r <- S.postWith optsPost sess (url' :: T.Text) (input' attrT attrA)
+   print $ r ^. responseStatus
+   mapM print $ r ^. responseHeaders
+   B.writeFile "test.html" (r ^. responseBody)
+#+end_src
+
 *** TODO Upload automatique ??
-**** Payload
+**** DONE Soumettre torrent HTML as response
+#+begin_src haskell
+optsPost = defaults
+        & header "User-Agent" .~ ["Mozilla/5.0 (X11; FreeBSD amd64; rv:87.0)"]
+
+input' t a = ["t" := T.toStrict t,
+              "a" := T.toStrict a,
+              "email" := T.toStrict "EMAIL",
+              "password" := T.toStrict "PASS"]
+
+parseValueT = head . dropWhile (~/= ("<input type=hidden name=t>" :: String))
+parseValueA = head . dropWhile (~/= ("<input type=hidden name=a>" :: String))
+
+loginMAM = do
+   let url = "https://www.myanonamouse.net/login.php" :: T.Text
+   sess <- S.newSession
+   r <- S.get sess url
+   let raw =  r ^. responseBody
+   let attrT = TE.decodeUtf8 . fromAttrib "value" . parseValueT $ parseTags raw
+   let attrA = TE.decodeUtf8 . fromAttrib "value" . parseValueA $ parseTags raw
+
+   let url' = "takelogin.php" :: T.Text
+   r <- S.postWith optsPost sess (url' :: T.Text) (input' attrT attrA)
+   print $ r ^. responseStatus
+   return sess
+
+input = [partText "MAX_FILE_SIZE" "10000000",
+         partFileSource  "torrent" "TODO",
+         partText "submit" "Submit"]
+
+testUpload = do
+  sess <- loginMAM
+  let url' = "tor/upload.php" :: T.Text
+  r <- S.postWith optsPost sess (url' :: T.Text) input
+  B.writeFile "test.html" $ r ^. responseBody
+
+
+#+end_src
+***** Payload
 Content-Disposition: form-data; name="MAX_FILE_SIZE" -> 10000000
 Content-Disposition: form-data; name="torrent"; filename="TORRENTFILE" Content-Type: application/octet-stream
 ->  d8:announce80:TRACKERHERE/announce10 etc
 Content-Disposition: form-data; name="submit" -> Submit
-**** HTML as response
-**** Final forme
+**** TODO Soumission finale
+***** Payload
 Content-Disposition: form-data; name="MAX_FILE_SIZE" -> 10000000
 Content-Disposition: form-data; name="tor[ext][]" -> yesIexist
 Content-Disposition: form-data; name="tor[ext][]" -> pdf
@@ -96,66 +162,6 @@ Content-Disposition: form-data; name="tor[uploadVIPdays]" -> 0
 Content-Disposition: form-data; name="tor[nfo]"; filename=""
 Content-Type: application/octet-stream
 Content-Disposition: form-data; name="submit" -> Submit
-*** TODO Login
-**** KILL echec tentative 1
-#+begin_src haskell
-optsPost = defaults
-        & header "User-Agent" .~ ["Mozilla/5.0 (X11; FreeBSD amd64; rv:87.0)"]
-        & header "Cookie" .~ ["mam_id=XXX"]
-
-input' = ["t" := T.toStrict "???",
-           "a" := T.toStrict "???",
-           "email" := T.toStrict "email",
-           "password" := T.toStrict "pass"]
-
-testUpload = do
-   let url ="https://lol/takelogin.php"
-   sess <- S.newSession
-   r <- S.postWith optsPost sess (url :: T.Text) input'
-   print $ r ^. responseStatus
-   mapM print $ r ^. responseHeaders
-   B.writeFile "test.html" (r ^. responseBody)
-
-   -- mapM print $ T.lines $ TE.decodeUtf8 $ r ^. responseBody
-   -- r ^. responseBody . key "form" -- headers" . _String -- . key "Content-Type" . _String
-input = [partText (T.toStrict "MAX_FILE_SIZE") (T.toStrict "100"),
-         partFileSource "torrent" "Htest.torrent",
-         partText (T.toStrict "submit") (T.toStrict "Submit")]
--- input = ["filename" := ("lol"  :: String)]
-
-#+end_src
-
-**** TODO tentative 2 = success
-#+begin_src haskell
-
-optsPost = defaults
-        & header "User-Agent" .~ ["Mozilla/5.0 (X11; FreeBSD amd64; rv:87.0)"]
-
-input' t a = ["t" := T.toStrict t,
-              "a" := T.toStrict a,
-              "email" := T.toStrict "XXX",
-              "password" := T.toStrict "YYY"]
-
-parseValueT = head . dropWhile (~/= ("<input type=hidden name=t>" :: String))
-parseValueA = head . dropWhile (~/= ("<input type=hidden name=a>" :: String))
-
-testUpload = do
-   let url = "https://MMM/login.php" :: T.Text
-   sess <- S.newSession
-   r <- S.get sess url
-   let raw =  r ^. responseBody
-   let attrT = TE.decodeUtf8 . fromAttrib "value" . parseValueT $ parseTags raw
-   let attrA = TE.decodeUtf8 . fromAttrib "value" . parseValueA $ parseTags raw
-
-   let url' = "https://MMM/takelogin.php" :: T.Text
-   r <- S.postWith optsPost sess (url' :: T.Text) (input' attrT attrA)
-   print $ r ^. responseStatus
-   mapM print $ r ^. responseHeaders
-   B.writeFile "test.html" (r ^. responseBody)
-
-
-#+end_src
-
 * TODO Upload
 ** TODO Classiques Jaunes (638)
 Attention, limite de téléchargement de PDF par heure
@@ -1713,7 +1719,7 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?editeur
 52 livres
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=PUF&collection=PUF_NOCLI&discipline=3&orderby=titre
 Exemple de requete
-**** TODO [#A] Collection U [8/101]
+**** TODO [#A] Collection U [13/101]
 101 ouvrages
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=&collection=ARCO_U&discipline=3&orderby=titre&offset=100
 ***** DONE [[https://www.cairn.info/citoyennete-republique-et-democratie-en-france--9782200294045.htm][Citoyenneté, République et Démocratie en France]]
@@ -1724,11 +1730,11 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchT
 ***** DONE [[https://www.cairn.info/famille-et-societe-dans-le-monde-grec-et-en-italie--9782200625627.htm][Famille et société dans le monde grec et en Italie]]
 ***** DONE [[https://www.cairn.info/film-et-histoire--9782200345570.htm][Film et histoire]]
 ***** DONE [[https://www.cairn.info/geohistoire-de-la%20mondialisation--9782200602949.htm][Géohistoire de la mondialisation]]
-***** TODO [[https://www.cairn.info/histoire-culturelle-de-la-france-au-xixe-siecle--9782200353278.htm][Histoire culturelle de la France au XIXe siècle]]
-***** TODO [[https://www.cairn.info/histoire-de-l-art--9782200622350.htm][Histoire de l'art]]
-***** TODO [[https://www.cairn.info/histoire-de-l-autriche--9782200355906.htm][Histoire de l'Autriche]]
-***** TODO [[https://www.cairn.info/histoire-de-l-espagne-contemporaine--9782200614607.htm][Histoire de l'Espagne contemporaine]]
-***** TODO [[https://www.cairn.info/histoire-de-l-europe-de-l-est--9782200248994.htm][Histoire de l'Europe de l'Est]]
+***** DONE [[https://www.cairn.info/histoire-culturelle-de-la-france-au-xixe-siecle--9782200353278.htm][Histoire culturelle de la France au XIXe siècle]]
+***** DONE [[https://www.cairn.info/histoire-de-l-art--9782200622350.htm][Histoire de l'art]]
+***** DONE [[https://www.cairn.info/histoire-de-l-autriche--9782200355906.htm][Histoire de l'Autriche]]
+***** DONE [[https://www.cairn.info/histoire-de-l-espagne-contemporaine--9782200614607.htm][Histoire de l'Espagne contemporaine]]
+***** DONE [[https://www.cairn.info/histoire-de-l-europe-de-l-est--9782200248994.htm][Histoire de l'Europe de l'Est]]
 ***** TODO [[https://www.cairn.info/histoire-de-l-italie-depuis-1943-a-nos-jours--9782200262150.htm][Histoire de l'Italie depuis 1943 à nos jours]]
 ***** TODO [[https://www.cairn.info/histoire-de-l-oceanie--9782200601300.htm][Histoire de l'Océanie]]
 ***** TODO [[https://www.cairn.info/histoire-de-la-globalisation-financiere--9782200355388.htm][Histoire de la globalisation financière]]

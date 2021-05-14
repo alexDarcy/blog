@@ -34,10 +34,22 @@ ok cancer
 ** TODO Dermatologie
 DEADLINE: <2021-05-16 Sun> SCHEDULED: <2021-05-12 Wed>
 :LOGBOOK:
+CLOCK: [2021-05-14 Fri 11:08]--[2021-05-14 Fri 11:40] =>  0:32
+CLOCK: [2021-05-14 Fri 10:37]--[2021-05-14 Fri 11:02] =>  0:25
 CLOCK: [2021-05-14 Fri 00:13]--[2021-05-14 Fri 00:39] =>  0:26
 CLOCK: [2021-05-13 Thu 17:57]--[2021-05-13 Thu 18:31] =>  0:34
 :END:
-*** DONE 109
+*** DONE Item 109
+*** DONE Item 110
+*** DONE Item 111
+*** DONE Item 112
+*** TODO Item 113
+*** TODO Item 114
+*** TODO Item 183
+*** TODO Item 299
+*** TODO Item 345
+*** TODO Item 211
+
 ** TODO Neurologie
 
 ** TODO Opthalmo
@@ -1527,17 +1539,17 @@ DEADLINE: <2020-10-11 Sun>
 :ECNI:     1
 :COLLEGE:     1
 :END:
-** TODO 110 Dermatoses bulleuses
+** TOUR1 110 Dermatoses bulleuses
 :PROPERTIES:
 :ECNI:     1
 :COLLEGE:     1
 :END:
-** TODO 111 Angiomes
+** TOUR1 111 Angiomes
 :PROPERTIES:
 :ECNI:     1
 :COLLEGE:     1
 :END:
-** TODO 112 Exanthèmes
+** TOUR1 112 Exanthèmes
 :PROPERTIES:
 :ECNI:     1
 :COLLEGE:     1

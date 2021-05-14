@@ -10,6 +10,12 @@ if test "$TERM" = "dumb"
 end
 #+end_src
 For faster access, set a bookmark to the folder <3 Otherwise it's a bit annoying to type
+* Eshell
+C-c M-b pour completer un buffer (utile pour redirection)
+
+#+begin_src
+rga "test" lol.pdf >
+#+end_src
 * TODO Grep + sed
 Search and edit with ripgrep directly in the result !
 1. search with ripgrep, for example with `SPC s p`
