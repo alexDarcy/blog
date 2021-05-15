@@ -162,6 +162,15 @@ Content-Disposition: form-data; name="tor[uploadVIPdays]" -> 0
 Content-Disposition: form-data; name="tor[nfo]"; filename=""
 Content-Type: application/octet-stream
 Content-Disposition: form-data; name="submit" -> Submit
+***** Récupérer données manquantes dans le HTML :
+ torrentFileData:
+<input type="hidden" name="tor[torrentFileData]" value="ZDg6Y...">
+Et torrentName:
+ <input type="hidden" name="tor[torrentName]" value="test.torrent">
+*** TODO Pour info: editer
+
+GET sur edit.php?id=XXX
+Puis POST sur takeedit.php
 * TODO Upload
 ** TODO Classiques Jaunes (638)
 Attention, limite de téléchargement de PDF par heure
@@ -1719,7 +1728,7 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?editeur
 52 livres
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=PUF&collection=PUF_NOCLI&discipline=3&orderby=titre
 Exemple de requete
-**** TODO [#A] Collection U [13/101]
+**** TODO [#A] Collection U [20/101]
 101 ouvrages
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=&collection=ARCO_U&discipline=3&orderby=titre&offset=100
 ***** DONE [[https://www.cairn.info/citoyennete-republique-et-democratie-en-france--9782200294045.htm][Citoyenneté, République et Démocratie en France]]
@@ -1735,13 +1744,13 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchT
 ***** DONE [[https://www.cairn.info/histoire-de-l-autriche--9782200355906.htm][Histoire de l'Autriche]]
 ***** DONE [[https://www.cairn.info/histoire-de-l-espagne-contemporaine--9782200614607.htm][Histoire de l'Espagne contemporaine]]
 ***** DONE [[https://www.cairn.info/histoire-de-l-europe-de-l-est--9782200248994.htm][Histoire de l'Europe de l'Est]]
-***** TODO [[https://www.cairn.info/histoire-de-l-italie-depuis-1943-a-nos-jours--9782200262150.htm][Histoire de l'Italie depuis 1943 à nos jours]]
-***** TODO [[https://www.cairn.info/histoire-de-l-oceanie--9782200601300.htm][Histoire de l'Océanie]]
-***** TODO [[https://www.cairn.info/histoire-de-la-globalisation-financiere--9782200355388.htm][Histoire de la globalisation financière]]
-***** TODO [[https://www.cairn.info/histoire-de-la-presse-en-france--9782200613327.htm][Histoire de la presse en France]]
-***** TODO [[https://www.cairn.info/histoire-de-la-republique-populaire-de-chine--9782200614881.htm][Histoire de la République Populaire de Chine]]
-***** TODO [[https://www.cairn.info/histoire-des-bibliotheques--9782200616250.htm][Histoire des bibliothèques]]
-***** TODO [[https://www.cairn.info/histoire-des-etats-unis--9782200618094.htm][Histoire des États-Unis]]
+***** DONE [[https://www.cairn.info/histoire-de-l-italie-depuis-1943-a-nos-jours--9782200262150.htm][Histoire de l'Italie depuis 1943 à nos jours]]
+***** DONE [[https://www.cairn.info/histoire-de-l-oceanie--9782200601300.htm][Histoire de l'Océanie]]
+***** DONE [[https://www.cairn.info/histoire-de-la-globalisation-financiere--9782200355388.htm][Histoire de la globalisation financière]]
+***** DONE [[https://www.cairn.info/histoire-de-la-presse-en-france--9782200613327.htm][Histoire de la presse en France]]
+***** DONE [[https://www.cairn.info/histoire-de-la-republique-populaire-de-chine--9782200614881.htm][Histoire de la République Populaire de Chine]]
+***** DONE [[https://www.cairn.info/histoire-des-bibliotheques--9782200616250.htm][Histoire des bibliothèques]]
+***** DONE [[https://www.cairn.info/histoire-des-etats-unis--9782200618094.htm][Histoire des États-Unis]]
 ***** TODO [[https://www.cairn.info/histoire-des-pays-d-islam--9782200618421.htm][Histoire des pays d'Islam]]
 ***** TODO [[https://www.cairn.info/histoire-des-sciences-epoque-moderne--9782200345211.htm][Histoire des sciences à l'époque moderne]]
 ***** TODO [[https://www.cairn.info/histoire-du-christianisme-en-france--9782200290665.htm][Histoire du christianisme en France]]

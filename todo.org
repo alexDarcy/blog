@@ -1936,13 +1936,15 @@ Cf [[notmuch:id:1976858705.759975.1620812940797.JavaMail.zimbra@univ-lorraine.fr
     Tables OK, 3 chaises OK
 *** TODO Lasure RdC
 ** TODO Repeindre chaises :été2019:
+** TODO Bouygues : négocier pour baisse
+DEADLINE: <2021-05-15 Sat> SCHEDULED: <2021-05-14 Fri>
 ** DONE Désherber (mousse + herbes) :été2019:
 ** TODO Repeindre radiateurs :été2019:
 Enlever la peinture (sabler avec compresseur + sable ? Pas de décapage)
 Peinture pour métaux qui fasse antirouille, sur radiateur froid.
 ** TODO [#A] Enlever rouille radiateurs :été2019:
 ** TODO [#A] Repeindre plafond cuisine
-** TODO Resouder porte garage :été2019:
+** TODO Renforcer porte garage :été2019:
 ** KILL Vendre : porte-cd, table de couture :été2019:
 ** TODO Backup photos de famille                                                :été2019:
 *** TODO Tri en cours
