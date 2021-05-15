@@ -1728,7 +1728,7 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?editeur
 52 livres
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=PUF&collection=PUF_NOCLI&discipline=3&orderby=titre
 Exemple de requete
-**** TODO [#A] Collection U [20/101]
+**** TODO [#A] Collection U [26/101]
 101 ouvrages
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=&collection=ARCO_U&discipline=3&orderby=titre&offset=100
 ***** DONE [[https://www.cairn.info/citoyennete-republique-et-democratie-en-france--9782200294045.htm][Citoyenneté, République et Démocratie en France]]
@@ -1751,12 +1751,12 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchT
 ***** DONE [[https://www.cairn.info/histoire-de-la-republique-populaire-de-chine--9782200614881.htm][Histoire de la République Populaire de Chine]]
 ***** DONE [[https://www.cairn.info/histoire-des-bibliotheques--9782200616250.htm][Histoire des bibliothèques]]
 ***** DONE [[https://www.cairn.info/histoire-des-etats-unis--9782200618094.htm][Histoire des États-Unis]]
-***** TODO [[https://www.cairn.info/histoire-des-pays-d-islam--9782200618421.htm][Histoire des pays d'Islam]]
-***** TODO [[https://www.cairn.info/histoire-des-sciences-epoque-moderne--9782200345211.htm][Histoire des sciences à l'époque moderne]]
-***** TODO [[https://www.cairn.info/histoire-du-christianisme-en-france--9782200290665.htm][Histoire du christianisme en France]]
-***** TODO [[https://www.cairn.info/histoire-du-livre-en-occident--9782200277512.htm][Histoire du livre en Occident]]
-***** TODO [[https://www.cairn.info/histoire-economique-de-l-afrique-tropicale--9782200602642.htm][Histoire économique de l'Afrique tropicale]]
-***** TODO [[https://www.cairn.info/histoire-politique-de-la-v-e-republique--9782200346935.htm][Histoire politique de la Ve République]]
+***** DONE [[https://www.cairn.info/histoire-des-pays-d-islam--9782200618421.htm][Histoire des pays d'Islam]]
+***** DONE [[https://www.cairn.info/histoire-des-sciences-epoque-moderne--9782200345211.htm][Histoire des sciences à l'époque moderne]]
+***** DONE [[https://www.cairn.info/histoire-du-christianisme-en-france--9782200290665.htm][Histoire du christianisme en France]]
+***** DONE [[https://www.cairn.info/histoire-du-livre-en-occident--9782200277512.htm][Histoire du livre en Occident]]
+***** DONE [[https://www.cairn.info/histoire-economique-de-l-afrique-tropicale--9782200602642.htm][Histoire économique de l'Afrique tropicale]]
+***** DONE [[https://www.cairn.info/histoire-politique-de-la-v-e-republique--9782200346935.htm][Histoire politique de la Ve République]]
 ***** TODO [[https://www.cairn.info/histoire-romaine--9782200622909.htm][Histoire romaine]]
 ***** TODO [[https://www.cairn.info/hommes-et-femmes-d-egypte-ive-siecle-av-n-e--9782200346454.htm][Hommes et femmes d’Égypte (IV]]
 ***** TODO [[https://www.cairn.info/imperialisme-et-democratie-a-athenes--9782200269289.htm][Impérialisme et démocratie à Athènes]]

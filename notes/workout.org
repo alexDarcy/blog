@@ -4596,3 +4596,8 @@ Compression : 3x8
 **** Handstand
  StW 36-19
  BtW 3 -2x5-  10 (?)
+
+*** 2021-05-15 Saturday
+**** Handstand
+ StW 37-30
+ BtW 11-4

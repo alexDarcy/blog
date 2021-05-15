@@ -244,6 +244,9 @@ DEADLINE: <2021-04-17 Sat>
      :END:
 **** TODO Dossier 5
 SCHEDULED: <2021-05-14 Fri> DEADLINE: <2021-05-16 Sun>
+:LOGBOOK:
+CLOCK: [2021-05-15 Sat 22:37]--[2021-05-15 Sat 22:52] =>  0:15
+:END:
 **** TODO Dossier 6
 SCHEDULED: <2021-05-14 Fri> DEADLINE: <2021-05-16 Sun>
 *** TODO DCP 2 [0/6]
@@ -268,8 +271,18 @@ https://www.facebook.com/watch/live/?v=684259552250242
 **** DONE Article 2
 ** TODO 2020 blancs [0/2]
 *** TODO LCA
-**** TODO Article 1
+**** DONE Article 1
 SCHEDULED: <2021-05-14 Fri> DEADLINE: <2021-05-16 Sun>
+:LOGBOOK:
+CLOCK: [2021-05-15 Sat 22:31]--[2021-05-15 Sat 22:31] =>  0:00
+CLOCK: [2021-05-15 Sat 22:18]--[2021-05-15 Sat 22:31] =>  0:13
+CLOCK: [2021-05-15 Sat 21:42]--[2021-05-15 Sat 21:55] =>  0:13
+CLOCK: [2021-05-15 Sat 19:15]--[2021-05-15 Sat 19:42] =>  0:27
+CLOCK: [2021-05-15 Sat 18:17]--[2021-05-15 Sat 18:35] =>  0:18
+CLOCK: [2021-05-15 Sat 18:11]--[2021-05-15 Sat 18:14] =>  0:03
+CLOCK: [2021-05-15 Sat 17:32]--[2021-05-15 Sat 17:54] =>  0:22
+CLOCK: [2021-05-15 Sat 15:41]--[2021-05-15 Sat 16:50] =>  1:09
+:END:
 ** DONE 2019 [3/3]
 *** DONE DP [18/18]
 **** DONE Dossier 1
@@ -694,7 +707,7 @@ https://litfl.com/top-100/ecg/
 - [ ] ECG 119
 - [ ] ECG 120
 ** TODO [#B] 150 ECGs Hampton [3/150]
-   SCHEDULED: <2021-05-15 Sat> DEADLINE: <2021-04-11 Fri +1d>
+   SCHEDULED: <2021-05-14 Fri> DEADLINE: <2021-04-11 Fri +1d>
    :LOGBOOK:
    CLOCK: [2021-04-30 Fri 22:49]--[2021-04-30 Fri 22:49] =>  0:00
    CLOCK: [2021-04-11 Sun 11:09]--[2021-04-11 Sun 11:20] =>  0:11
