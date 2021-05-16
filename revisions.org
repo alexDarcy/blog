@@ -221,7 +221,7 @@ https://drive.google.com/drive/folders/1PKMHd9yq-clAB5P1lLSnMRd7rtfOjvO7
 **** TODO Article 1
 **** TODO Article 2
 ** TODO 2020 [1/5]
-*** TODO DCP 1 [4/6]
+*** TODO DCP 1 [6/6]
 **** DONE Dossier 1
 :LOGBOOK:
 CLOCK: [2021-04-03 Sat 20:10]--[2021-04-03 Sat 22:03] =>  1:53
@@ -242,13 +242,19 @@ DEADLINE: <2021-04-17 Sat>
      CLOCK: [2021-05-08 Sat 18:08]--[2021-05-08 Sat 19:00] =>  0:52
      CLOCK: [2021-05-08 Sat 16:58]--[2021-05-08 Sat 17:10] =>  0:12
      :END:
-**** TODO Dossier 5
+**** DONE Dossier 5
 SCHEDULED: <2021-05-14 Fri> DEADLINE: <2021-05-16 Sun>
 :LOGBOOK:
+CLOCK: [2021-05-16 Sun 13:35]--[2021-05-16 Sun 13:47] =>  0:12
+CLOCK: [2021-05-16 Sun 10:53]--[2021-05-16 Sun 11:55] =>  1:02
 CLOCK: [2021-05-15 Sat 22:37]--[2021-05-15 Sat 22:52] =>  0:15
 :END:
-**** TODO Dossier 6
+**** DONE Dossier 6
 SCHEDULED: <2021-05-14 Fri> DEADLINE: <2021-05-16 Sun>
+:LOGBOOK:
+CLOCK: [2021-05-16 Sun 22:07]--[2021-05-16 Sun 22:40] =>  0:33
+CLOCK: [2021-05-16 Sun 15:01]--[2021-05-16 Sun 16:06] =>  1:05
+:END:
 *** TODO DCP 2 [0/6]
 **** TODO Dossier 7
 **** TODO Dossier 8

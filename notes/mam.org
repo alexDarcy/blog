@@ -58,8 +58,8 @@ Tester téléchargement direct sur r ^. responseHeader "Content-Type"
 - Si "text/html; charset=UTF-8", stratégie 2
 - Si "application/pdf", on sauvegarde
 *** TODO Passer tout en Text
-*** TODO Ajouter présentation
-*** TODO Uploader sur le pi automatiquement
+*** DONE Ajouter présentation
+*** KILL Uploader sur le pi automatiquement
 ** TODO Automatiser upload
 *** DONE Fast fillout
 *** DONE Login
@@ -167,8 +167,16 @@ Content-Disposition: form-data; name="submit" -> Submit
 <input type="hidden" name="tor[torrentFileData]" value="ZDg6Y...">
 Et torrentName:
  <input type="hidden" name="tor[torrentName]" value="test.torrent">
-*** TODO Pour info: editer
+*** TODO Translation par batch
+API payante donc on fait un fichier texte contenant toutes les descriptions.
 
+\n et \r deviennent \ n et \ r donc il faut les remplacer. Format:
+#+begin_src
+--- test1.json: $description
+--- test2.json: $description
+#+end_src
+Haskel
+*** Pour info: editer
 GET sur edit.php?id=XXX
 Puis POST sur takeedit.php
 * TODO Upload
