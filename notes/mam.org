@@ -1736,7 +1736,7 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?editeur
 52 livres
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=PUF&collection=PUF_NOCLI&discipline=3&orderby=titre
 Exemple de requete
-**** TODO [#A] Collection U [26/101]
+**** TODO [#A] Collection U [28/101]
 101 ouvrages
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=&collection=ARCO_U&discipline=3&orderby=titre&offset=100
 ***** DONE [[https://www.cairn.info/citoyennete-republique-et-democratie-en-france--9782200294045.htm][Citoyenneté, République et Démocratie en France]]
@@ -1765,9 +1765,9 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchT
 ***** DONE [[https://www.cairn.info/histoire-du-livre-en-occident--9782200277512.htm][Histoire du livre en Occident]]
 ***** DONE [[https://www.cairn.info/histoire-economique-de-l-afrique-tropicale--9782200602642.htm][Histoire économique de l'Afrique tropicale]]
 ***** DONE [[https://www.cairn.info/histoire-politique-de-la-v-e-republique--9782200346935.htm][Histoire politique de la Ve République]]
-***** TODO [[https://www.cairn.info/histoire-romaine--9782200622909.htm][Histoire romaine]]
+***** DONE [[https://www.cairn.info/histoire-romaine--9782200622909.htm][Histoire romaine]]
 ***** TODO [[https://www.cairn.info/hommes-et-femmes-d-egypte-ive-siecle-av-n-e--9782200346454.htm][Hommes et femmes d’Égypte (IV]]
-***** TODO [[https://www.cairn.info/imperialisme-et-democratie-a-athenes--9782200269289.htm][Impérialisme et démocratie à Athènes]]
+***** DONE [[https://www.cairn.info/imperialisme-et-democratie-a-athenes--9782200269289.htm][Impérialisme et démocratie à Athènes]]
 ***** TODO [[https://www.cairn.info/l-afrique-du-20-e-siecle-a-nos-jours--9782200285074.htm][L'Afrique du 20e siècle à nos jours]]
 ***** TODO [[https://www.cairn.info/l-allemagne-de-1870-a-nos-jours--9782200285050.htm][L'Allemagne de 1870 à nos jours]]
 ***** TODO [[https://www.cairn.info/l-amerique-iberique--9782200625641.htm][L'Amérique ibérique]]
