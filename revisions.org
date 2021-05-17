@@ -454,6 +454,7 @@ SCHEDULED: <2021-04-09 Fri>
 *** TODO [#A] DP [2/3]
  SCHEDULED: <2021-04-05 Mon>
 :LOGBOOK:
+CLOCK: [2021-05-17 Mon 22:39]--[2021-05-17 Mon 23:16] =>  0:37
 CLOCK: [2021-04-11 Sun 20:30]--[2021-04-11 Sun 21:46] =>  1:16
 CLOCK: [2021-04-05 Mon 21:05]--[2021-04-05 Mon 22:11] =>  1:06
 CLOCK: [2021-04-05 Mon 18:28]--[2021-04-05 Mon 19:12] =>  0:54
@@ -490,8 +491,8 @@ CLOCK: [2021-04-15 Thu 10:52]--[2021-04-15 Thu 12:10] =>  1:18
 ***** DONE DP 4
 ***** DONE DP 5
 ***** DONE DP 6
-**** TODO DCP 3 [0/6]
-***** TODO DP 1
+**** TODO DCP 3 [1/6]
+***** DONE DP 1
 ***** TODO DP 2
 ***** TODO DP 3
 ***** TODO DP 4
@@ -1003,12 +1004,13 @@ CLOCK: [2021-05-14 Fri 18:21]--[2021-05-14 Fri 19:52] =>  1:31
 :END:
 **** TODO Relire
 * Dermato :A2:dermato:
-** TODO [#A] Relire fiches
+** DONE [#A] Relire fiches
 DEADLINE: <2021-05-16 Sun> SCHEDULED: <2021-05-12 Wed>
 :PROPERTIES:
 :CATEGORY: dermato
 :END:
 :LOGBOOK:
+CLOCK: [2021-05-17 Mon 18:00]--[2021-05-17 Mon 18:40] =>  0:40
 CLOCK: [2021-05-17 Mon 14:57]--[2021-05-17 Mon 15:53] =>  0:56
 CLOCK: [2021-05-17 Mon 12:39]--[2021-05-17 Mon 13:17] =>  0:38
 CLOCK: [2021-05-12 Wed 22:56]--[2021-05-12 Wed 23:41] =>  0:45

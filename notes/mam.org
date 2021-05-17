@@ -1736,7 +1736,7 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?editeur
 52 livres
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=PUF&collection=PUF_NOCLI&discipline=3&orderby=titre
 Exemple de requete
-**** TODO [#A] Collection U [34/101]
+**** TODO [#A] Collection U [38/101]
 101 ouvrages
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=&collection=ARCO_U&discipline=3&orderby=titre&offset=100
 ***** DONE [[https://www.cairn.info/citoyennete-republique-et-democratie-en-france--9782200294045.htm][Citoyenneté, République et Démocratie en France]]
@@ -1773,10 +1773,10 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchT
 ***** DONE [[https://www.cairn.info/l-amerique-iberique--9782200625641.htm][L'Amérique ibérique]]
 ***** DONE [[https://www.cairn.info/l-anatolie-hellenistique--9782200268329.htm][L'Anatolie hellénistique]]
 ***** DONE [[https://www.cairn.info/l-aristocratie-medievale--9782200262938.htm][L'aristocratie médiévale]]
-***** TODO [[https://www.cairn.info/l-armee-romaine--9782200276539.htm][L'armée romaine]]
-***** TODO [[https://www.cairn.info/education-physique-de-1945-a-nos-jours--9782200600686.htm][L'éducation physique de 1945 à nos jours]]
-***** TODO [[https://www.cairn.info/l-egypte-grecque-et-romaine--9782200262884.htm][L'Égypte grecque et romaine]]
-***** TODO [[https://www.cairn.info/l-empire-austro-hongrois--9782200248888.htm][L'Empire austro-hongrois]]
+***** DONE [[https://www.cairn.info/l-armee-romaine--9782200276539.htm][L'armée romaine]]
+***** DONE [[https://www.cairn.info/education-physique-de-1945-a-nos-jours--9782200600686.htm][L'éducation physique de 1945 à nos jours]]
+***** DONE [[https://www.cairn.info/l-egypte-grecque-et-romaine--9782200262884.htm][L'Égypte grecque et romaine]]
+***** DONE [[https://www.cairn.info/l-empire-austro-hongrois--9782200248888.htm][L'Empire austro-hongrois]]
 ***** TODO [[https://www.cairn.info/l-europe--9782200601386.htm][L'Europe]]
 ***** TODO [[https://www.cairn.info/l-europe-au-19-e-siecle--9782200622565.htm][L'Europe au 19]]
 ***** TODO [[https://www.cairn.info/l-europe-centrale-et-orientale--9782200602635.htm][L'Europe centrale et orientale]]
