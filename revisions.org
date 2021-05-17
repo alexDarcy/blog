@@ -1009,6 +1009,8 @@ DEADLINE: <2021-05-16 Sun> SCHEDULED: <2021-05-12 Wed>
 :CATEGORY: dermato
 :END:
 :LOGBOOK:
+CLOCK: [2021-05-17 Mon 14:57]--[2021-05-17 Mon 15:53] =>  0:56
+CLOCK: [2021-05-17 Mon 12:39]--[2021-05-17 Mon 13:17] =>  0:38
 CLOCK: [2021-05-12 Wed 22:56]--[2021-05-12 Wed 23:41] =>  0:45
 CLOCK: [2021-05-12 Wed 19:19]--[2021-05-12 Wed 19:45] =>  0:26
 :END:
@@ -1565,32 +1567,32 @@ DEADLINE: <2020-10-11 Sun>
 :ECNI:     1
 :ID:       aef7082d-145a-4513-aeab-808a4a8f74e7
 :END:
-** TOUR1 109 Dermatoses faciales
+** TOUR1 109 Dermatoses faciales :dermato:
 :PROPERTIES:
 :ECNI:     1
 :COLLEGE:     1
 :END:
-** TOUR1 110 Dermatoses bulleuses
+** TOUR1 110 Dermatoses bulleuses :dermato:
 :PROPERTIES:
 :ECNI:     1
 :COLLEGE:     1
 :END:
-** TOUR1 111 Angiomes
+** TOUR1 111 Angiomes :dermato:
 :PROPERTIES:
 :ECNI:     1
 :COLLEGE:     1
 :END:
-** TOUR1 112 Exanthèmes
+** TOUR1 112 Exanthèmes :dermato:
 :PROPERTIES:
 :ECNI:     1
 :COLLEGE:     1
 :END:
-** TOUR1 113 Prurit
+** TOUR1 113 Prurit :dermato:
 :PROPERTIES:
 :ECNI:     1
 :COLLEGE:  1
 :END:
-** TOUR1 114 Psoriasis :pedia:dermato:rhumato:
+** TOUR1 114 Psoriasis :pedia:rhumato:
 :PROPERTIES:
 :COLLEGE:  2
 :ECNI:     2
@@ -1799,7 +1801,7 @@ DEADLINE: <2020-10-11 Sun>
 :ECNI:     2
 :COLLEGE:  2
 :END:
-** TOUR1 158 IST :pedia:gyneco:malinf:
+** TOUR1 158 IST :dermato:pedia:gyneco:malinf:
 :PROPERTIES:
 :ECNI:     2
 :COLLEGE:  3
@@ -1823,13 +1825,13 @@ DEADLINE: <2020-10-11 Sun>
 CLOCK: [2021-04-15 Thu 21:33]--[2021-04-15 Thu 22:45] =>  1:12
 CLOCK: [2021-04-15 Thu 20:24]--[2021-04-15 Thu 20:45] =>  0:21
 :END:
-** TOUR1 164 HSV :pedia:malinf:neuro:
+** TOUR1 164 HSV :dermato:pedia:malinf:neuro:
 :PROPERTIES:
 :COLLEGE:  1
 :ECNI:     1
 :neuro:    t
 :END:
-** TOUR1 165 VIH :pedia:malinf:neuro:
+** TOUR1 165 VIH :dermato:pedia:malinf:neuro:
 :PROPERTIES:
 :COLLEGE:  1
 :ECNI:     1
@@ -1839,7 +1841,7 @@ CLOCK: [2021-04-15 Thu 20:24]--[2021-04-15 Thu 20:45] =>  0:21
 :ECNI:     1
 :COLLEGE:  1
 :END:
-** TOUR1 167 Gale, pediculose :pedia:malinf:
+** TOUR1 167 Gale, pediculose :dermato:pedia:malinf:
 :PROPERTIES:
 :COLLEGE:  1
 :ECNI:     1
@@ -1905,7 +1907,7 @@ CLOCK: [2021-04-15 Thu 20:24]--[2021-04-15 Thu 20:45] =>  0:21
 :ECNI:     3
 :ID:       5129e4fe-86ee-4065-a213-dbf2003a67ee
 :END:
-** TOUR1 183 Hypersensibilités et allergies cutanéomuqueuses
+** TOUR1 183 Hypersensibilités et allergies cutanéomuqueuses :dermato:
 :PROPERTIES:
 :COLLEGE:  2
 :ECNI:     2
@@ -1944,7 +1946,7 @@ CLOCK: [2021-04-15 Thu 20:24]--[2021-04-15 Thu 20:45] =>  0:21
 :ECNI:     2
 :ID:       8c07dc68-0ef5-48de-991a-c3c6a6ad8dd8
 :END:
-** TOUR1 190 Lupus erythémateux systémique :pedia:anapath:nephro:rhumato:
+** TOUR1 190 Lupus erythémateux systémique :anapath:dermato:pedia:nephro:rhumato:
 :PROPERTIES:
 :COLLEGE:  3
 :ECNI:     3
@@ -1984,7 +1986,7 @@ CLOCK: [2021-04-15 Thu 20:24]--[2021-04-15 Thu 20:45] =>  0:21
 :COLLEGE:  2
 :ECNI:     2
 :END:
-** TOUR1 197 Transplantation d'organes :pedia:nephro:ophtalmo:uro:
+** TOUR1 197 Transplantation d'organes :dermato:pedia:nephro:ophtalmo:uro:
 :PROPERTIES:
 :COLLEGE:  2
 :ECNI:     2
@@ -2042,7 +2044,7 @@ CLOCK: [2021-04-15 Thu 20:24]--[2021-04-15 Thu 20:45] =>  0:21
 :PROPERTIES:
 :ID:       4a0593d0-8ba3-44c4-89a4-0fa4f3650243
 :END:
-** TODO 207 Sarcoidose :pedia:anapath:endoc:pneumo:rhumato:
+** TODO 207 Sarcoidose :dermato:pedia:anapath:endoc:pneumo:rhumato:
 :PROPERTIES:
 :COLLEGE:  3
 :ECNI:     2
@@ -2150,7 +2152,7 @@ CLOCK: [2021-04-15 Thu 20:24]--[2021-04-15 Thu 20:45] =>  0:21
 :ID:       cad87837-907a-4e06-91ed-a7096eedb4f7
 :END:
 
-** TOUR1 226 Ulcère de jambe :pedia:cardio:
+** TOUR1 226 Ulcère de jambe :dermato:pedia:cardio:
 :PROPERTIES:
 :COLLEGE:  1
 :ECNI:     1
@@ -2195,7 +2197,7 @@ CLOCK: [2021-04-15 Thu 20:24]--[2021-04-15 Thu 20:45] =>  0:21
 :COLLEGE:  1
 :ID:       88fc644b-e045-4c65-b07d-2112e06afdfc
 :END:
-** TOUR1 237 Acrosyndrome
+** TOUR1 237 Acrosyndrome :dermato:
 :PROPERTIES:
 :COLLEGE:  1
 :END:
@@ -2398,7 +2400,7 @@ Gastrite à faire
 :END:
 ** TODO 297 Tumeurs du col utérin :pedia:anapath:cancero:gyneco:
 ** TOUR1 298 Tumeurs du côlon et du rectum :pedia:anapath:cancero:hge:
-** TODO 299 Tumeurs cutanées, épithéliales et mélaniques :pedia:anapath:cancero:dermato:
+** TOUR1 299 Tumeurs cutanées, épithéliales et mélaniques :anapath:cancero:dermato:pedia:
 ** TOUR1 300 Tumeurs de l'estomac :pedia:anapath:cancero:hge:
 ** TOUR1 301 Tumeurs du foie primitives et secondaires :pedia:anapath:cancero:hge:
 ** TOUR1 302 Tumeurs de l'œsophage :pedia:anapath:cancero:hge:
@@ -2442,7 +2444,7 @@ Gastrite à faire
 :PROPERTIES:
 :hemato:   t
 :END:
-** TOUR1 316 Lymphomes malins :pedia:anapath:cancero:hemato:
+** TOUR1 316 Lymphomes malins :anapath:cancero:dermato:pedia:hemato:
 :PROPERTIES:
 :hemato:   t
 :END:
@@ -2457,11 +2459,11 @@ Gastrite à faire
 :santepub: t
 :END:
 ** TODO 321 Éducation thérapeutique, observance et automédication
-** TODO 322 Identification et gestion des risques liés aux médicaments et aux biomatériaux, risque iatrogène, erreur médicamenteuse
+** TODO 322 Identification et gestion des risques liés aux médicaments et aux biomatériaux, risque iatrogène, erreur médicamenteuse :dermato:
 ** TODO 323 Cadre réglementaire de la prescription thérapeutique et recommandations pour le bon usage
 ** TODO 324 Thérapeutiques non médicamenteuses et dispositifs médicaux :pedia:mpr:
 ** TODO 325 Transfusions
-** TOUR1 326 Antithrombotiques :pedia:cardio:hemato:
+** TOUR1 326 Antithrombotiques :cardio:dermato:pedia:hemato:
 :PROPERTIES:
 :ID:       026482df-0663-4531-b680-84ea489af70f
 :END:
@@ -2524,7 +2526,7 @@ Gastrite à faire
 :nephro:   t
 :END:
 ** TODO 344 Infection aiguë des parties molles (abcès, panaris, phlegmon des gaines) :pedia:ortho:
-** TOUR1 345 Grosse jambe rouge aiguë
+** TOUR1 345 Grosse jambe rouge aiguë :dermato:
 :PROPERTIES:
 :malinf:   t
 :END:
