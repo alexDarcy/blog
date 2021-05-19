@@ -442,8 +442,13 @@ https://github.com/rclone/rclone/blob/master/docs/content/commands/rclone.md
 **** TODO [[~/projects/doc-freebsd/rclone/docs/content/overview.md][overview.md]]
 **** DONE [[~/projects/doc-freebsd/rclone/docs/content/_index.md][_index.md]]
 ** WAIT [[https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=255233][Port ripgrep-all]]
-Soumis
-** WAIT [[https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=233010][Port Kitty]]
+*** DONE Soumettre
+*** DONE Vérifier syntaxe
+*** TODO Vérifier build sur 11.4 et 12.
+**** DONE 13.0
+**** TODO 12.2
+**** TODO 11.4
+** TODO [[https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=233010][Port Kitty]]
 1ere version disponible ici https://reviews.freebsd.org/file/data/4ppgweur3ew5zt7vctb7/PHID-FILE-d3rjxttzgkq55yxdm5d2/D27239.diff
 Mais on peut l'installer simplement avec gmake
 Pour la conversion en port :
@@ -896,6 +901,8 @@ do-install:
 #+end_src
 *** DONE Arriver à compiler la documentation
 *** DONE Sumbit
+*** DONE Accepté
+*** TODO Ajouter freebsd à la liste des packages sur github
 ** WAIT Port pyrocore
 Patch:
 #+begin_src
@@ -1928,6 +1935,14 @@ https://ballotpedia.org/Fact_check/Does_research_show_that_federal_student_aid_i
 :PROPERTIES:
 :CATEGORY: mail
 :END:
+* Music
+** Orpheus
+*** Bach
+**** TODO Bachakademide
+Déjà disponible sur le site à  id=5943 ( 2011 - Master Music / none / CD)  mais il faut renommer les dossiers
+Et seed
+**** TODO Bach 2000
+Pas de transformation à faire
 * Faculté
 ** DONE Inscription ECNi
 DEADLINE: <2021-06-06 Sun> SCHEDULED: <2021-05-18 Tue>
