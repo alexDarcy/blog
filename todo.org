@@ -235,6 +235,9 @@ Get the filetype with
 xdg-mime query filetype  ~/Books/test.pdf
 Edit ~/.config/mimeapps.list
 application/pdf=evince.deskop;
+** TODO fish
+*** Fisher + tide (avoid slow "cd" in large git projects !!)
+*** Prepend doas with custom function
 ** TODO Projects
 ** TODO Réécrire posts
 *** STRT Computing
@@ -1926,7 +1929,7 @@ https://ballotpedia.org/Fact_check/Does_research_show_that_federal_student_aid_i
 :CATEGORY: mail
 :END:
 * Faculté
-** TODO Inscription ECNi
+** DONE Inscription ECNi
 DEADLINE: <2021-06-06 Sun> SCHEDULED: <2021-05-18 Tue>
 Cf [[notmuch:id:1976858705.759975.1620812940797.JavaMail.zimbra@univ-lorraine.fr][Email from Anne Cioni: [medecine-fasm-3-2021] Dates importantes ECN 21]]
 * Maison

@@ -185,7 +185,7 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 * Anesthésie-Rea :anesth:
 PDF [[file:~/backups/hubic/Public/Cours/Medecine/referentiels/Anesth_college_2018.pdf][file:~/backups/hubic/Public/Cours/Medecine/referentiels/Anesth_college_2018.pdf]]
 https://drive.google.com/drive/folders/1PKMHd9yq-clAB5P1lLSnMRd7rtfOjvO7
-* Annales ECN [3/13]
+* Annales ECN [4/13] :annales:
 :PROPERTIES:
 :CATEGORY: annales
 :END:
@@ -275,8 +275,8 @@ https://www.facebook.com/watch/live/?v=684259552250242
 *** DONE LCA [2/2]
 **** DONE Article 1
 **** DONE Article 2
-** TODO 2020 blancs [0/2]
-*** TODO LCA
+** TODO 2020 blancs [0/1]
+*** TODO LCA [1/2]
 **** DONE Article 1
 SCHEDULED: <2021-05-14 Fri> DEADLINE: <2021-05-16 Sun>
 :LOGBOOK:
@@ -289,6 +289,7 @@ CLOCK: [2021-05-15 Sat 18:11]--[2021-05-15 Sat 18:14] =>  0:03
 CLOCK: [2021-05-15 Sat 17:32]--[2021-05-15 Sat 17:54] =>  0:22
 CLOCK: [2021-05-15 Sat 15:41]--[2021-05-15 Sat 16:50] =>  1:09
 :END:
+**** TODO Article 2
 ** DONE 2019 [3/3]
 *** DONE DP [18/18]
 **** DONE Dossier 1
@@ -366,7 +367,7 @@ DEADLINE: <2020-10-31 Sat>
 ***** DONE DP 6
 *** DONE QI
 
-** TODO 2018 blancs [1/1]
+** DONE 2018 blancs [1/1]
 *** DONE LCA [2/2]
 **** DONE Article 1
 **** DONE Article 2
@@ -374,8 +375,8 @@ DEADLINE: <2020-10-31 Sat>
 :PROPERTIES:
 :CATEGORY: 2017
 :END:
-SCHEDULED: <2021-04-09 Fri>
 *** TODO DP [0/3]
+DEADLINE: <2021-05-31 Mon> SCHEDULED: <2021-05-29 Sat>
 **** TODO DCP 1 [0/6]
 ***** TODO DP 1
 ***** TODO DP 2
@@ -398,9 +399,14 @@ SCHEDULED: <2021-04-09 Fri>
 ***** TODO DP 5
 ***** TODO DP 6
 *** TODO QI
+DEADLINE: <2021-05-28 Fri> SCHEDULED: <2021-05-27 Thu>
 *** DONE LCA
 ** TODO 2017 blancs [0/2]
+:PROPERTIES:
+:CATEGORY: 2017blanc
+:END:
 *** TODO DP [0/3]
+DEADLINE: <2021-05-26 Wed> SCHEDULED: <2021-05-24 Mon>
 **** TODO DCP 1 [0/6]
 ***** TODO DP 1
 ***** TODO DP 2
@@ -424,7 +430,11 @@ SCHEDULED: <2021-04-09 Fri>
 ***** TODO DP 6
 *** TODO LCA
 ** TODO 2016 blancs
+:PROPERTIES:
+:CATEGORY: 2016blanc
+:END:
 *** TODO DP [0/3]
+DEADLINE: <2021-05-23 Sun> SCHEDULED: <2021-05-21 Fri>
 **** TODO DCP 1 [0/6]
 ***** TODO DP 1
 ***** TODO DP 2
@@ -452,8 +462,15 @@ SCHEDULED: <2021-04-09 Fri>
 :CATEGORY: 2016
 :END:
 *** TODO [#A] DP [2/3]
- SCHEDULED: <2021-04-05 Mon>
+ DEADLINE: <2021-05-19 Wed> SCHEDULED: <2021-04-05 Mon>
 :LOGBOOK:
+CLOCK: [2021-05-19 Wed 11:25]--[2021-05-19 Wed 11:32] =>  0:07
+CLOCK: [2021-05-19 Wed 10:50]--[2021-05-19 Wed 11:25] =>  0:35
+CLOCK: [2021-05-18 Tue 21:53]--[2021-05-18 Tue 23:02] =>  1:09
+CLOCK: [2021-05-18 Tue 18:13]--[2021-05-18 Tue 19:00] =>  0:47
+CLOCK: [2021-05-18 Tue 17:18]--[2021-05-18 Tue 17:30] =>  0:12
+CLOCK: [2021-05-18 Tue 14:00]--[2021-05-18 Tue 15:15] =>  1:15
+CLOCK: [2021-05-18 Tue 12:03]--[2021-05-18 Tue 12:40] =>  0:37
 CLOCK: [2021-05-17 Mon 22:39]--[2021-05-17 Mon 23:16] =>  0:37
 CLOCK: [2021-04-11 Sun 20:30]--[2021-04-11 Sun 21:46] =>  1:16
 CLOCK: [2021-04-05 Mon 21:05]--[2021-04-05 Mon 22:11] =>  1:06
@@ -491,14 +508,15 @@ CLOCK: [2021-04-15 Thu 10:52]--[2021-04-15 Thu 12:10] =>  1:18
 ***** DONE DP 4
 ***** DONE DP 5
 ***** DONE DP 6
-**** TODO DCP 3 [1/6]
+**** TODO DCP 3 [4/6]
 ***** DONE DP 1
-***** TODO DP 2
-***** TODO DP 3
-***** TODO DP 4
+***** DONE DP 2
+***** DONE DP 3
+***** DONE DP 4
 ***** TODO DP 5
 ***** TODO DP 6
 *** TODO QI
+SCHEDULED: <2021-05-19 Wed> DEADLINE: <2021-05-20 Thu>
 *** DONE LCA
 ** TODO LCA [5/7]
 :PROPERTIES:
@@ -565,12 +583,12 @@ CLOCK: [2021-02-28 Sun 18:36]--[2021-02-28 Sun 19:21] =>  0:45
 CLOCK: [2021-02-28 Sun 15:10]--[2021-02-28 Sun 16:15] =>  1:05
 :END:
 [[file:/usr/home/alex/backups/hubic/public/cours/Medecine/FASM3/interfac/interufr-dec2020-dcp3.pdf][file:/usr/home/alex/backups/hubic/public/cours/Medecine/FASM3/interfac/interufr-dec2020-dcp3.pdf]]
-* Cancérologie :A2:cancero:
+* Cancérologie :cancero:
+DEADLINE: <2021-06-11 Fri> SCHEDULED: <2021-06-10 Thu>
   :PROPERTIES:
   :CATEGORY: cancero
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-05-22 Sat> DEADLINE: <2021-05-29 Sat>
 :LOGBOOK:
 CLOCK: [2021-04-04 Sun 11:34]--[2021-04-04 Sun 12:04] =>  0:30
 :END:
@@ -714,7 +732,6 @@ https://litfl.com/top-100/ecg/
 - [ ] ECG 119
 - [ ] ECG 120
 ** TODO [#B] 150 ECGs Hampton [3/150]
-   SCHEDULED: <2021-05-14 Fri> DEADLINE: <2021-04-11 Fri +1d>
    :LOGBOOK:
    CLOCK: [2021-04-30 Fri 22:49]--[2021-04-30 Fri 22:49] =>  0:00
    CLOCK: [2021-04-11 Sun 11:09]--[2021-04-11 Sun 11:20] =>  0:11
@@ -881,7 +898,7 @@ https://drive.google.com/drive/folders/1PKMHd9yq-clAB5P1lLSnMRd7rtfOjvO7
 ** TODO TVP
 ** TODO AOMI
 ** TODO Insuffisance veineuse
-* TOUR1 Chirurgie maxillo-faciale :A1:maxillo:
+* TOUR1 Chirurgie maxillo-faciale :maxillo:
   :PROPERTIES:
   :CATEGORY: maxillo
   :END:
@@ -1003,7 +1020,7 @@ CLOCK: [2021-05-14 Fri 21:43]--[2021-05-14 Fri 22:23] =>  0:40
 CLOCK: [2021-05-14 Fri 18:21]--[2021-05-14 Fri 19:52] =>  1:31
 :END:
 **** TODO Relire
-* Dermato :A2:dermato:
+* TOUR1 Dermato :dermato:
 ** DONE [#A] Relire fiches
 DEADLINE: <2021-05-16 Sun> SCHEDULED: <2021-05-12 Wed>
 :PROPERTIES:
@@ -1022,12 +1039,12 @@ DEADLINE: <2021-05-12 Wed>
 :PROPERTIES:
 :CATEGORY: inter-fac
 :END:
-* Endocrino                                             :A1:endocrino:
+* Endocrino                                             :endocrino:
   :PROPERTIES:
   :CATEGORY: endocrino
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-05-22 Sat>
+DEADLINE: <2021-06-08 Tue> SCHEDULED: <2021-06-06 Sun>
 * Garde
 ** Urgences
 *** TODO Positionnement ECG
@@ -1043,32 +1060,32 @@ Uro
 :PROPERTIES:
 :CATEGORY: sémiologie
 :END:
-* Gynécologie :A2:gyneco:
+* Gynécologie :gyneco:
   :PROPERTIES:
   :CATEGORY: gynéco
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-05-22 Sat> DEADLINE: <2021-05-29 Sat>
+DEADLINE: <2021-06-05 Sat> SCHEDULED: <2021-06-03 Thu>
 * Génétique
   :PROPERTIES:
   :CATEGORY: génétique
   :END:
-** TODO exercices
-SCHEDULED: <2021-05-22 Sat> DEADLINE: <2021-05-29 Sat>
+** TODO Exercices
 Livret à la fin
 Source: https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gntique-mdicale
-* Gériatrie :geria:A2:
+* Gériatrie :geria:
 :PROPERTIES:
 :CATEGORY: géria
 :END:
 ** TODO Relire fiches
-* TOUR1 Hémato :hémato:A2:
+DEADLINE: <2021-06-02 Wed> SCHEDULED: <2021-06-02 Wed>
+* TOUR1 Hémato :hémato:
 :PROPERTIES:
 :CATEGORY: hémato
 :END:
 ** DONE Relire fiches
 DEADLINE: <2021-01-16 Sat> SCHEDULED: <2021-01-12 Tue>
-* TOUR1 Hépato-Gastro :A1:hge:
+* TOUR1 Hépato-Gastro :hge:
   :PROPERTIES:
   :COLUMNS:  %25ITEM %Lu %Fiche %QI
   :QI_source: 1000 QROC
@@ -2603,12 +2620,12 @@ CLOCK: [2021-04-18 Sun 11:31]--[2021-04-18 Sun 11:50] =>  0:19
 :CATEGORY: immuno
 :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-05-22 Sat>
+DEADLINE: <2021-06-02 Wed> SCHEDULED: <2021-05-31 Mon>
 * TOUR1 Médecine légale, médecine du travail
 ** DONE Lire collège
 DEADLINE: <2020-12-15 Tue>
 ** DONE Fiches + abrégés des très bien classés
-* TOUR1 MPR :A1:mpr:
+* TOUR1 MPR :mpr:
 :PROPERTIES:
 :CATEGORY: mpr
 :END:
@@ -2617,36 +2634,12 @@ DEADLINE: <2021-02-18 Thu> SCHEDULED: <2021-02-11 Thu>
 :LOGBOOK:
 CLOCK: [2021-02-18 Thu 21:54]--[2021-02-18 Thu 22:43] =>  0:49
 :END:
-* Nephrologie :A1:nephro:
+* Nephrologie :nephro:
   :PROPERTIES:
   :CATEGORY: nephro
   :END:
-** TODO Relire fiches pour CC
-SCHEDULED: <2021-05-22 Sat>
-*** DONE Anomalie eau sodium
-*** DONE Anomalies potassium
-*** TODO Items/264 Diurétiques
-*** DONE Désordre acide/base
-*** DONE HyperCa, hypoCa
-*** TODO Hématurie
-*** TODO Protéinurie
-*** TODO Items/254 Syndromes oedemateux
-*** TODO Néphropathies glomérulaires
-*** TODO Néphropathies diabétiques
-*** TODO LES
-*** TODO Elévation créatininémie
-*** TODO IRrénale aigue
-*** TODO IRC
-*** TODO Myélome,amylose AL
-*** TODO Polykystose  rénale
-*** TODO Néphropathies vasculaires
-*** TODO HTA
-*** TODO Complications grossesse
-*** TODO IU
-*** TODO Rein sujet âgé
-*** TODO Iatrogénie
-*** TODO Néphropathies interstitielles chroniques
-*** TODO Transplantation d'organes
+** TODO Relire fiches
+DEADLINE: <2021-05-30 Sun> SCHEDULED: <2021-05-28 Fri>
 * TOUR1 Neurochirurgie :neurochir:
 ** DONE Lire chapitres "neurochir" du Masson
 DEADLINE: <2020-10-19 Mon> SCHEDULED: <2020-10-10 Sat>
@@ -2660,21 +2653,21 @@ DEADLINE: <2020-10-17 Sat> SCHEDULED: <2020-10-10 Sat>
 :PROPERTIES:
 :CATEGORY: neuro
 :END:
-* TOUR1 Ophtalmologie :A1:ophtalmo:
+* TOUR1 Ophtalmologie :ophtalmo:
   :PROPERTIES:
   :CATEGORY: ophtalmo
   :END:
 ** DONE Relire fiches pour CC
 DEADLINE: <2020-11-26 Thu> SCHEDULED: <2020-11-26 Thu>
 *** DONE Sémiologie oculaire
-* TOUR1 ORL :A1:orl:
+* TOUR1 ORL :orl:
   :PROPERTIES:
   :CATEGORY: orl
   :END:
 ** DONE Relire fiches pour CC
 DEADLINE: <2020-10-05 Mon> SCHEDULED: <2020-10-05 Mon>
 
-* Orthopédie :A2:ortho:
+* Orthopédie :ortho:
   :PROPERTIES:
   :CATEGORY: ortho
   :END:
@@ -2699,12 +2692,12 @@ CLOCK: [2020-06-20 Sat 17:18]--[2020-06-20 Sat 17:38] =>  0:20
 - [X] [[file:~/Downloads/ortho/359- CM - Fractures extrémité supérieure fémur - Galois.pdf]]
 - [X] [[file:~/Downloads/ortho/359- CM-CC - Fractures des membres supérieurs - Sirveaux.pdf]]
 - [X] [[file:~/Downloads/ortho/361- CM-CC - Surveillance d’un malade sous plâtre - Sirveaux.pdf]]
-** TODO Relire fiches/collège
-SCHEDULED: <2021-05-22 Sat>
+** TODO Relire fiches
+DEADLINE: <2021-05-27 Thu> SCHEDULED: <2021-05-27 Thu>
 :LOGBOOK:
 CLOCK: [2021-02-22 Mon 17:45]--[2021-02-22 Mon 18:13] =>  0:28
 :END:
-* TOUR1 Pneumologie :A1:pneumo:
+* TOUR1 Pneumologie :pneumo:
   :PROPERTIES:
   :CATEGORY: pneumo
   :END:
@@ -2715,11 +2708,10 @@ DEADLINE: <2020-09-27 Sun 14:55> SCHEDULED: <2020-09-27 Sun 13:55>
 DEADLINE: <2020-11-23 Mon>
 https://semiologiepneumologique.com/
 ** TODO Dossiers progressif du CEP (2017)
-SCHEDULED: <2021-05-22 Sat>
 [[file:~/backups/hubic/Public/Cours/Medecine/FASM3/dp_pneumo_cep/2017][file:~/backups/hubic/Public/Cours/Medecine/FASM3/dp_pneumo_cep/2017]]
 ** TODO Questions EFR + gaz du sang
 [[file:~/backups/hubic/Public/Cours/Medecine/FASM3/dp_pneumo_cep/EFR-pourECN2017.pdf][file:~/backups/hubic/Public/Cours/Medecine/FASM3/dp_pneumo_cep/EFR-pourECN2017.pdf]]
-* TOUR1 Psychiatrie :A1:psy:
+* TOUR1 Psychiatrie :psy:
   :PROPERTIES:
   :CATEGORY: psy
   :END:
@@ -2727,12 +2719,12 @@ SCHEDULED: <2021-05-22 Sat>
 DEADLINE: <2021-01-26 Tue> SCHEDULED: <2021-01-21 Thu>
 ** DONE Cecil goldman
 DEADLINE: <2021-01-03 Sun>
-* Pédiatrie :A2:pedia:
+* Pédiatrie :pedia:
 :PROPERTIES:
 :CATEGORY: pédia
 :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-05-23 Sun> DEADLINE: <2021-05-23 Sun>
+DEADLINE: <2021-05-21 Fri> SCHEDULED: <2021-05-19 Wed>
 :LOGBOOK:
 CLOCK: [2021-03-03 Wed 15:06]--[2021-03-03 Wed 16:03] =>  0:57
 CLOCK: [2021-03-01 Mon 16:43]--[2021-03-01 Mon 16:54] =>  0:11
@@ -2741,12 +2733,12 @@ CLOCK: [2021-02-26 Fri 11:15]--[2021-02-26 Fri 11:36] =>  0:21
 CLOCK: [2021-02-25 Thu 21:18]--[2021-02-25 Thu 22:21] =>  1:03
 CLOCK: [2021-02-24 Wed 21:36]--[2021-02-24 Wed 22:39] =>  1:03
 :END:
-* Rhumato :A2:rhumato:
+* Rhumato :rhumato:
   :PROPERTIES:
   :CATEGORY: rhumato
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-05-22 Sat>
+SCHEDULED: <2021-05-26 Wed>
 * TOUR1 Santé publique
 :PROPERTIES:
 :CATEGORY: santepub
@@ -2825,7 +2817,9 @@ DEADLINE: <2020-12-05 Sat>
 DEADLINE: <2020-12-05 Sat>
 *** DONE Chariot d'urgence et matériel de suppléance en réanimation
 DEADLINE: <2020-12-05 Sat>
-* Urologie :A1:uro:
+* Urologie :uro:
   :PROPERTIES:
   :CATEGORY: uro
   :END:
+** TODO Relire fiches
+DEADLINE: <2021-05-23 Sun> SCHEDULED: <2021-05-22 Sat>

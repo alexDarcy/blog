@@ -238,3 +238,29 @@ cd /usr/src && git pull --ff-only && make -j10 cleanworld && make -j10 cleandir 
 git checkout main
  make -j4 buildkernel KERNCONF=GENERIC-NODEBUG
 #+end_src
+* Steam
+
+[[https://euroquis.nl//freebsd/2021/04/06/steam-freebsd][Instructions]]
+#+begin_src
+doas pkg install linux-steam-utils
+doas pkg install linux-nvidia-libs
+#+end_src
+Create a steam user, Add it to video and operator group
+#+begin_src
+doas adduser
+sysrc linux_enable=yes
+#+end_src
+Dans /etc/fstab
+
+#+begin_src
+linprocfs /compat/linux/proc     linprocfs rw 0 0
+linsysfs  /compat/linux/sys      linsysfs  rw 0 0
+tmpfs     /compat/linux/dev/shm  tmpfs     rw 0 0
+fdescfs   /dev/fd                fdescfs   rw 0 0
+#+end_src
+#+begin_src
+doas mount -a
+chown steam /compat/linux/dev/shm
+
+#+end_src
+[[https://github.com/shkhln/linuxulator-steam-utils/wiki/Compatibility][Liste des jeux compatibles]]
