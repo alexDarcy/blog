@@ -27,9 +27,15 @@
 <a href='/about.html'>About</a></li>
 </nav>")
 
+;; Warning : org-publish-project-alist must be quasi-quoted !!
+(defvar my-header
+  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
+<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+<link href=\"https://taopeng.me/org-notes-style/css/notes.css\" rel=\"stylesheet\" type=\"text/css\" />")
+
 ;; ;; org-html-head blog-html-head);; Can't set it in org-publish-project-alist...
 (setq org-publish-project-alist
-      '(
+      `(
         ("pages"
          :base-directory "~/projects/blog/"
          :base-extension "org"
@@ -43,9 +49,7 @@
          :style-default nil ;; No other css
          :html-head-include-scripts nil ;; No other css (both must be set)
          ;; Ugly but I can't make variables works
-         :html-head "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-<link href=\"https://taopeng.me/org-notes-style/css/notes.css\" rel=\"stylesheet\" type=\"text/css\" />"
+         :html-head ,my-header
          ;; end of custom css
          :html-preamble custom-preamble
          :publishing-function org-html-publish-to-html
