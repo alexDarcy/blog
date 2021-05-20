@@ -365,7 +365,7 @@ And python file in the same directory. Replace pass with gopass and "show" with 
 ** WAIT MAJ nzbhydra à 3.9
 *** DONE Mail au mainteneur
 Devra être fait dans la semaine
-** TODO Man page rclone
+** KILL Man page rclone
 Tuto
 http://manpages.bsd.lv/mdoc.html
 ET surtout man 7 mdoc
@@ -375,71 +375,71 @@ https://forums.freebsd.org/threads/howto-create-a-manpage-from-scratch.13200/
 *** DONE Synposis
 Completer avec
 https://raw.githubusercontent.com/rclone/rclone/master/docs/content/_index.md
-*** TODO Commandes
+*** KILL Commandes
 **** DONE Résumé dans le man principal
 https://github.com/rclone/rclone/blob/master/docs/content/commands/rclone.md
 1 entrée pour chaque commande...
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/filtering.md][filtering.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/cache.md][cache.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/alias.md][alias.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/union.md][union.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/chunker.md][chunker.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/compress.md][compress.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/crypt.md][crypt.md]]
-*** TODO Backendds
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/filtering.md][filtering.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/cache.md][cache.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/alias.md][alias.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/union.md][union.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/chunker.md][chunker.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/compress.md][compress.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/crypt.md][crypt.md]]
+*** KILL Backendds
 1 entrée pour chaque
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/amazonclouddrive.md][amazonclouddrive.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/azureblob.md][azureblob.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/b2.md][b2.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/jottacloud.md][jottacloud.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/koofr.md][koofr.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/local.md][local.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/mailru.md][mailru.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/mega.md][mega.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/memory.md][memory.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/onedrive.md][onedrive.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/opendrive.md][opendrive.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/pcloud.md][pcloud.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/premiumizeme.md][premiumizeme.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/privacy.md][privacy.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/putio.md][putio.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/qingstor.md][qingstor.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/seafile.md][seafile.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/s3.md][s3.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/sftp.md][sftp.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/sharefile.md][sharefile.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/sugarsync.md][sugarsync.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/swift.md][swift.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/tardigrade.md][tardigrade.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/webdav.md][webdav.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/yandex.md][yandex.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/zoho.md][zoho.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/ftp.md][ftp.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/googlecloudstorage.md][googlecloudstorage.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/googlephotos.md][googlephotos.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/hdfs.md][hdfs.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/http.md][http.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/hubic.md][hubic.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/drive.md][drive.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/dropbox.md][dropbox.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/amazonclouddrive.md][amazonclouddrive.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/azureblob.md][azureblob.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/b2.md][b2.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/jottacloud.md][jottacloud.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/koofr.md][koofr.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/local.md][local.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/mailru.md][mailru.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/mega.md][mega.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/memory.md][memory.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/onedrive.md][onedrive.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/opendrive.md][opendrive.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/pcloud.md][pcloud.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/premiumizeme.md][premiumizeme.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/privacy.md][privacy.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/putio.md][putio.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/qingstor.md][qingstor.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/seafile.md][seafile.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/s3.md][s3.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/sftp.md][sftp.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/sharefile.md][sharefile.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/sugarsync.md][sugarsync.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/swift.md][swift.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/tardigrade.md][tardigrade.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/webdav.md][webdav.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/yandex.md][yandex.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/zoho.md][zoho.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/ftp.md][ftp.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/googlecloudstorage.md][googlecloudstorage.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/googlephotos.md][googlephotos.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/hdfs.md][hdfs.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/http.md][http.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/hubic.md][hubic.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/drive.md][drive.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/dropbox.md][dropbox.md]]
 
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/fichier.md][fichier.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/filefabric.md][filefabric.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/box.md][box.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/remote_setup.md][remote_setup.md]]
-*** STRT Options
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/fichier.md][fichier.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/filefabric.md][filefabric.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/box.md][box.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/remote_setup.md][remote_setup.md]]
+*** KILL Options
 **** DONE Résumé dans le man principal =  [[~/projects/doc-freebsd/rclone/docs/content/flags.md][flags.md]]
-**** TODO Version détaillée dans rclone-flags
-*** TODO Filters [[~/projects/doc-freebsd/rclone/docs/content/filtering.md][filtering.md]]
-*** TODO Remote control [[~/projects/doc-freebsd/rclone/docs/content/rc.md][rc.md]]
+**** KILL Version détaillée dans rclone-flags
+*** KILL Filters [[~/projects/doc-freebsd/rclone/docs/content/filtering.md][filtering.md]]
+*** KILL Remote control [[~/projects/doc-freebsd/rclone/docs/content/rc.md][rc.md]]
 *** Autres
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/gui.md][gui.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/authors.md][authors.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/bugs.md][bugs.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/docs.md][docs.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/faq.md][faq.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/gui.md][gui.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/authors.md][authors.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/bugs.md][bugs.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/docs.md][docs.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/faq.md][faq.md]]
 **** KILL [[~/projects/doc-freebsd/rclone/docs/content/install.md][install.md]]
-**** TODO [[~/projects/doc-freebsd/rclone/docs/content/overview.md][overview.md]]
+**** KILL [[~/projects/doc-freebsd/rclone/docs/content/overview.md][overview.md]]
 **** DONE [[~/projects/doc-freebsd/rclone/docs/content/_index.md][_index.md]]
 ** WAIT [[https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=255233][Port ripgrep-all]]
 *** DONE Soumettre
@@ -928,6 +928,8 @@ Patch:
  fi
 #+end_src
 bash update-to-head.sh python2.7
+* Pi
+** TODO Ajouter disque dur externe 750G
 
 * Banque :banque:
 ** TODO Importer comptes Caisse Epargne dans ledger
@@ -1938,15 +1940,18 @@ https://ballotpedia.org/Fact_check/Does_research_show_that_federal_student_aid_i
 * Music
 ** Orpheus
 *** Bach
-**** TODO Bachakademide
+**** TODO Bachakademie
 Déjà disponible sur le site à  id=5943 ( 2011 - Master Music / none / CD)  mais il faut renommer les dossiers
 Et seed
-**** TODO Bach 2000
+**** DONE Bach 2000
 Pas de transformation à faire
+*** Mozart
+Ne semble pas correspondre mais à re-vérifier
+*** Liszt
+*** Beethoven
 * Faculté
 ** DONE Inscription ECNi
 DEADLINE: <2021-06-06 Sun> SCHEDULED: <2021-05-18 Tue>
-Cf [[notmuch:id:1976858705.759975.1620812940797.JavaMail.zimbra@univ-lorraine.fr][Email from Anne Cioni: [medecine-fasm-3-2021] Dates importantes ECN 21]]
 * Maison
 :ARCHIVE:
 ** TODO Lasure                                                                  :été2019:

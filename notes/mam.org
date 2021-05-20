@@ -1736,7 +1736,7 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?editeur
 52 livres
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=PUF&collection=PUF_NOCLI&discipline=3&orderby=titre
 Exemple de requete
-**** TODO [#A] Collection U [38/101]
+**** TODO [#A] Collection U [42/101]
 101 ouvrages
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=&collection=ARCO_U&discipline=3&orderby=titre&offset=100
 ***** DONE [[https://www.cairn.info/citoyennete-republique-et-democratie-en-france--9782200294045.htm][Citoyenneté, République et Démocratie en France]]
@@ -1777,9 +1777,9 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchT
 ***** DONE [[https://www.cairn.info/education-physique-de-1945-a-nos-jours--9782200600686.htm][L'éducation physique de 1945 à nos jours]]
 ***** DONE [[https://www.cairn.info/l-egypte-grecque-et-romaine--9782200262884.htm][L'Égypte grecque et romaine]]
 ***** DONE [[https://www.cairn.info/l-empire-austro-hongrois--9782200248888.htm][L'Empire austro-hongrois]]
-***** TODO [[https://www.cairn.info/l-europe--9782200601386.htm][L'Europe]]
+***** DONE [[https://www.cairn.info/l-europe--9782200601386.htm][L'Europe]]
 ***** TODO [[https://www.cairn.info/l-europe-au-19-e-siecle--9782200622565.htm][L'Europe au 19]]
-***** TODO [[https://www.cairn.info/l-europe-centrale-et-orientale--9782200602635.htm][L'Europe centrale et orientale]]
+***** DONE [[https://www.cairn.info/l-europe-centrale-et-orientale--9782200602635.htm][L'Europe centrale et orientale]]
 ***** TODO [[https://www.cairn.info/l-heritage-ambigu-de-la-colonisation--9782200281335.htm][L'héritage ambigu de la colonisation]]
 ***** TODO [[https://www.cairn.info/l-histoire-immediate--9782200277390.htm][L'histoire immédiate]]
 ***** TODO [[https://www.cairn.info/la-construction-de-l-europe--9782200353056.htm][La construction de l’Europe]]
@@ -1796,12 +1796,12 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchT
 ***** TODO [[https://www.cairn.info/La-revolution-francaise-et-l-histoire-du-monde--9782200257699.htm][La Révolution française et l'histoire du monde]]
 ***** TODO [[https://www.cairn.info/la-societe-du-haut-moyen-age--9782200265779.htm][La société du haut Moyen Âge]]
 ***** TODO [[https://www.cairn.info/la-societe-francaise-de-1945-a-nos-jours--9782200613082.htm][La société française de 1945 à nos jours]]
-***** TODO [[https://www.cairn.info/le-christianisme-antique--9782200626914.htm][Le christianisme antique]]
+***** DONE [[https://www.cairn.info/le-christianisme-antique--9782200626914.htm][Le christianisme antique]]
 ***** TODO [[https://www.cairn.info/le-christianisme-occidental-au-moyen-age--9782200251871.htm][Le christianisme occidental au Moyen Âge]]
 ***** TODO [[https://www.cairn.info/le-maghreb-par-les-textes--9782200627294.htm][Le Maghreb par les textes]]
 ***** TODO [[https://www.cairn.info/le-monde-grec-a-l-epoque-classique--9782200614713.htm][Le monde grec à l’époque classique]]
 ***** TODO [[https://www.cairn.info/monde-hellenistique--9782200618179.htm][Le monde hellénistique]]
-***** TODO [[https://www.cairn.info/le-reich-allemand--9782200262334.htm][Le Reich allemand]]
+***** DONE [[https://www.cairn.info/le-reich-allemand--9782200262334.htm][Le Reich allemand]]
 ***** TODO [[https://www.cairn.info/saint-empire-1500-1800--9782200617639.htm][Le Saint-Empire]]
 ***** TODO [[https://www.cairn.info/le-second-empire--9782200246075.htm][Le Second Empire]]
 ***** TODO [[https://www.cairn.info/le-xx-e-siecle--9782200271534.htm][Le XX]]
