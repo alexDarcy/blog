@@ -298,7 +298,7 @@ rclone sync --include "/home/alex/Downloads/torrents/**" \
     --include "/etc/**"  \
     --include "/boot/loader.conf"  pi:/ $piLocal
 # Encrypt it
-duplicity $pi-tmp raspberry
+duplicity $piLocal file:///home/alex/backups/raspberry
 
 #------- Local backup (encrypted) ----------------
 # 1. Create encrypted local version
