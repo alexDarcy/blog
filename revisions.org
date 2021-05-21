@@ -522,6 +522,8 @@ CLOCK: [2021-04-15 Thu 10:52]--[2021-04-15 Thu 12:10] =>  1:18
 *** TODO QI
 SCHEDULED: <2021-05-19 Wed> DEADLINE: <2021-05-20 Thu>
 :LOGBOOK:
+CLOCK: [2021-05-21 Fri 17:03]--[2021-05-21 Fri 17:45] =>  0:42
+CLOCK: [2021-05-21 Fri 16:31]--[2021-05-21 Fri 17:02] =>  0:31
 CLOCK: [2021-05-20 Thu 18:18]--[2021-05-20 Thu 18:39] =>  0:21
 CLOCK: [2021-05-20 Thu 15:50]--[2021-05-20 Thu 16:33] =>  0:43
 :END:
@@ -958,10 +960,10 @@ CLOCK: [2021-05-20 Thu 11:15]--[2021-05-20 Thu 11:54] =>  0:39
 :END:
 **** DONE Correction
  DEADLINE: <2021-05-20 Thu>
-**** TODO Relire
+**** DONE Relire
 DEADLINE: <2021-05-21 Fri>
 :LOGBOOK:
-CLOCK: [2021-05-21 Fri 12:00]--[2021-05-21 Fri 13:10] =>  1:20
+CLOCK: [2021-05-21 Fri 12:00]--[2021-05-21 Fri 13:10] =>  1:10
 :END:
 * TOUR1 Dermato :dermato:
 ** DONE [#A] Relire fiches

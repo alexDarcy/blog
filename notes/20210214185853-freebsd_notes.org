@@ -266,6 +266,13 @@ chown steam /compat/linux/dev/shm
 [[https://github.com/shkhln/linuxulator-steam-utils/wiki/Compatibility][Liste des jeux compatibles]]
 * Backup
 ** Rsync pour google drive, mega et hubic :
+En résumé :
+1. on récupére le pi localement avec rsync (impossible avec duplicity): rtorrent + config
+2. on encrypte les backup du pi et celles de la config freebsd du desktop avec duplicity
+3. on fait un symlink pour les upload sur le cloud
+4. on backup le tout sur google, hubic et mega avec rsync
+
+Code:
 #+begin_src
 #!/usr/local/bin/fish
 # 3 steps procedure :
@@ -332,8 +339,8 @@ rclone -L sync $root/hubic mega:
 #+end_src
 ** TODO Tarsnap
 ** KILL rsnapshot pour Freebsd: desktop + pi
-** TODO Duplicity + passphrase
+** DONE Duplicity + passphrase
 *** DONE Config files
 *** DONE Torrents
 *** DONE Pi torrents
-*** TODO Pi config file
+*** DONE Pi config file
