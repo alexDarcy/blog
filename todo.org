@@ -1933,157 +1933,143 @@ https://ballotpedia.org/Fact_check/Does_research_show_that_federal_student_aid_i
 :CATEGORY: mail
 :END:
 * Music
-** Orpheus
-*** DONE Albeniz
-**** DONE The music of isaac albeniz
+*** TODO Albeniz
+**** TODO The music of isaac albeniz
+***** DONE OPS
+***** TODO Red
 *** TODO Bartok
-**** KILL Violin concertos, ehnes
+**** TODO Violin concertos, ehnes
+***** KILL OPS
+***** TODO Red
 *** Bach
-**** DONE Bachakademie
-Déjà disponible sur le site à  id=5943 ( 2011 - Master Music / none / CD)  mais il faut renommer les dossiers
-Et seed
+**** TODO Bachakademie
+***** DONE OPS
+***** TODO Red
 **** DONE Bach 2000
-Pas de transformation à faire
+***** DONE OPS
+***** KILL Red
+re-taggé
 **** TODO Well-tempered musician
 Upload mais pas de .log ni de .cue
 vérifier spectral analysis
-*** KILL Mozart (compact) : réencodé
-**** KILL id=23618 même version mais hash différent...
-On sauvegarde les noms au cas où:
-  Philips Mozart Collection - 180 CD:
-  total used in directory 218K available 104.1 GiB
-  drwxr-xr-x 15 alex wheel 15 Mar 30  2014 Scans
-box01-Symphonies
-box02-Serenades-Dances-March cd3-13
-box03-Divertiment & Divertiment Serenades
-box04-Piano Concertos
-box05-Violin Concertos
-box06-Quintets,Quartets,Trios,Etc
-box07-String Quarter&Quintets
-box08-Violin Sonatas,String Duos & Trios
-box09-Piano Music
-box10-Missa.Requiem.Organ Sonatas & Solos
-box11- Litanies; Vespers; Oratorios; Cantatas; Masonic Music
-box12-Arias; Vocal Ensembles; Canons; Lieder; Notturni
-box13-Early Italian Operas
-box14-Middle Italian Operas
-box15-Late Italian Operas
-box16-German Operas
-box17-Theatre and Ballet Music – Rarities & Surprises
-
-Test sur volume 16/cd03
-03 - Himmel, bin ich von Sinnen?.flac
-->
- 03 - Die Gartnerin aus Liebe, K196 - Act I - No. 12 Finale - 'Himmel, bin ich von Sinnen'.flac
-
-Saving structure
-**** KILL id=231071 autre version
-*** DONE Beethoven : réencodé
+*** TODO Mozart (compact) : réencodé
+**** TODO id=23618 même version mais hash différent...
+***** KILL OPS
+***** TODO Red
+**** TODO id=231071 autre version
+***** KILL OPS
+***** TODO Red
+*** TODO Beethoven
+**** KILL OPS
+**** TODO red
 *** Liszt
+**** TODO OPS
 A priori, n'y est pas
-**** TODO Vérifier tous les logs [/]
+***** TODO Vérifier tous les logs [1/1]
 100% normalement
-***** DONE CD1
-***** DONE CD2
-***** CD3
-***** CD4
-***** CD5
-***** CD6
-***** CD7
-***** CD8
-***** CD9
-***** CD10
-***** CD11
-***** CD12
-***** CD13
-***** CD14
-***** CD15
-***** CD16
-***** CD17
-***** CD18
-***** CD19
-***** CD20
-***** CD21
-***** CD22
-***** CD23
-***** CD24
-***** CD25
-***** CD26
-***** CD27
-***** CD28
-***** CD29
-***** CD30
-***** CD31
-***** CD32
-***** CD33
-***** CD34
-***** CD35
-***** CD36
-***** CD37
-***** CD38
-***** CD39
-***** CD40
-***** CD41
-***** CD42
-***** CD43
-***** CD44
-***** CD45
-***** CD46
-***** CD47
-***** CD48
-***** CD49
-***** CD50
-***** CD51
-***** CD52
-***** CD53
-***** CD54
-***** CD55
-***** CD56
-***** CD57
-***** CD58
-***** CD59
-***** CD60
-***** CD61
-***** CD62
-***** CD63
-***** CD64
-***** CD65
-***** CD66
-***** CD67
-***** CD68
-***** CD69
-***** CD70
-***** CD71
-***** CD72
-***** CD73
-***** CD74
-***** CD75
-***** CD76
-***** CD77
-***** CD78
-***** CD79
-***** CD80
-***** CD81
-***** CD82
-***** CD83
-***** CD84
-***** CD85
-***** CD86
-***** CD87
-***** CD88
-***** CD89
-***** CD90
-***** CD91
-***** CD92
-***** CD93
-***** CD94
-***** CD95
-***** CD96
-***** CD97
-***** CD98
-***** CD99
-***** CD100
-**** TODO vérifier quelques musiques (1 par Cd)
+****** DONE CD1
+****** DONE CD2
+****** CD3
+****** CD4
+****** CD5
+****** CD6
+****** CD7
+****** CD8
+****** CD9
+****** CD10
+****** CD11
+****** CD12
+****** CD13
+****** CD14
+****** CD15
+****** CD16
+****** CD17
+****** CD18
+****** CD19
+****** CD20
+****** CD21
+****** CD22
+****** CD23
+****** CD24
+****** CD25
+****** CD26
+****** CD27
+****** CD28
+****** CD29
+****** CD30
+****** CD31
+****** CD32
+****** CD33
+****** CD34
+****** CD35
+****** CD36
+****** CD37
+****** CD38
+****** CD39
+****** CD40
+****** CD41
+****** CD42
+****** CD43
+****** CD44
+****** CD45
+****** CD46
+****** CD47
+****** CD48
+****** CD49
+****** CD50
+****** CD51
+****** CD52
+****** CD53
+****** CD54
+****** CD55
+****** CD56
+****** CD57
+****** CD58
+****** CD59
+****** CD60
+****** CD61
+****** CD62
+****** CD63
+****** CD64
+****** CD65
+****** CD66
+****** CD67
+****** CD68
+****** CD69
+****** CD70
+****** CD71
+****** CD72
+****** CD73
+****** CD74
+****** CD75
+****** CD76
+****** CD77
+****** CD78
+****** CD79
+****** CD80
+****** CD81
+****** CD82
+****** CD83
+****** CD84
+****** CD85
+****** CD86
+****** CD87
+****** CD88
+****** CD89
+****** CD90
+****** CD91
+****** CD92
+****** CD93
+****** CD94
+****** CD95
+****** CD96
+****** CD97
+****** CD98
+****** CD99
+****** CD100
+***** TODO vérifier quelques musiques (1 par Cd)
+**** DONE Red
+y est
 *** Beethoven
 * Stages
 ** TODO Dossier FFI

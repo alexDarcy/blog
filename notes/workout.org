@@ -4633,3 +4633,13 @@ Endurance sur obstacle x3
 :type:     medium
 :duration: 30min
 :END:
+
+*** 2021-05-22 Saturday
+**** Parkour
+Passe-muraille :
+- cat hang (each side) : 9
+- top out (each side) : 5
+- cat hang leg press (each side) : 0
+- cat hang pull-up (each side) : 0
+- knee raises (each side) : 6
+- passe-muraille: 10 (meilleure technique)
