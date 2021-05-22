@@ -1736,7 +1736,7 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?editeur
 52 livres
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=PUF&collection=PUF_NOCLI&discipline=3&orderby=titre
 Exemple de requete
-**** TODO [#A] Collection U [42/101]
+**** TODO [#A] Collection U [43/101]
 101 ouvrages
 https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchTermAccess=all&editeur=&collection=ARCO_U&discipline=3&orderby=titre&offset=100
 ***** DONE [[https://www.cairn.info/citoyennete-republique-et-democratie-en-france--9782200294045.htm][Citoyenneté, République et Démocratie en France]]
@@ -1788,7 +1788,7 @@ https://www-cairn-info.bases-doc.univ-lorraine.fr/liste-des-ouvrages.php?searchT
 ***** TODO [[https://www.cairn.info/la-france-a-l-epoque-moderne--9782200626181.htm][La France à l'époque moderne]]
 ***** TODO [[https://www.cairn.info/la-france-au-xix-e-siecle--9782200622596.htm][La France au XIX]]
 ***** TODO [[https://www.cairn.info/la-france-et-l-europe-de-napoleon--9782200265335.htm][La France et l'Europe de Napoléon]]
-***** TODO [[https://www.cairn.info/la-grande-bretagne-et-le-monde--9782200244576.htm][La Grande-Bretagne et le monde]]
+***** DONE [[https://www.cairn.info/la-grande-bretagne-et-le-monde--9782200244576.htm][La Grande-Bretagne et le monde]]
 ***** TODO [[https://www.cairn.info/la-guerre-dans-le-monde-grec--9782200600297.htm][La guerre dans le monde grec]]
 ***** TODO [[https://www.cairn.info/la-peninsule-iberique-aux-epoques-romaines--9782200268336.htm][La péninsule Ibérique aux époques romaines]]
 ***** TODO [[https://www.cairn.info/la-republique-romaine-et-son-empire--9782200622053.htm][La République romaine et son empire]]

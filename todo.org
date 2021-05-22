@@ -1932,145 +1932,36 @@ https://ballotpedia.org/Fact_check/Does_research_show_that_federal_student_aid_i
 :PROPERTIES:
 :CATEGORY: mail
 :END:
-* Music
+* Music : Red
 *** TODO Albeniz
 **** TODO The music of isaac albeniz
-***** DONE OPS
-***** TODO Red
+Uploader
+*** TODO Alkan
+**** KILL Organ works
 *** TODO Bartok
-**** TODO Violin concertos, ehnes
-***** KILL OPS
-***** TODO Red
+**** DONE Violin concertos, ehnes
+**** TODO Orchestral work
+upload
 *** Bach
 **** TODO Bachakademie
-***** DONE OPS
-***** TODO Red
+À uploader ?
 **** DONE Bach 2000
-***** DONE OPS
-***** KILL Red
 re-taggé
-**** TODO Well-tempered musician
-Upload mais pas de .log ni de .cue
-vérifier spectral analysis
-*** TODO Mozart (compact) : réencodé
-**** TODO id=23618 même version mais hash différent...
-***** KILL OPS
-***** TODO Red
-**** TODO id=231071 autre version
-***** KILL OPS
-***** TODO Red
-*** TODO Beethoven
-**** KILL OPS
-**** TODO red
-*** Liszt
-**** TODO OPS
-A priori, n'y est pas
-***** TODO Vérifier tous les logs [1/1]
-100% normalement
-****** DONE CD1
-****** DONE CD2
-****** CD3
-****** CD4
-****** CD5
-****** CD6
-****** CD7
-****** CD8
-****** CD9
-****** CD10
-****** CD11
-****** CD12
-****** CD13
-****** CD14
-****** CD15
-****** CD16
-****** CD17
-****** CD18
-****** CD19
-****** CD20
-****** CD21
-****** CD22
-****** CD23
-****** CD24
-****** CD25
-****** CD26
-****** CD27
-****** CD28
-****** CD29
-****** CD30
-****** CD31
-****** CD32
-****** CD33
-****** CD34
-****** CD35
-****** CD36
-****** CD37
-****** CD38
-****** CD39
-****** CD40
-****** CD41
-****** CD42
-****** CD43
-****** CD44
-****** CD45
-****** CD46
-****** CD47
-****** CD48
-****** CD49
-****** CD50
-****** CD51
-****** CD52
-****** CD53
-****** CD54
-****** CD55
-****** CD56
-****** CD57
-****** CD58
-****** CD59
-****** CD60
-****** CD61
-****** CD62
-****** CD63
-****** CD64
-****** CD65
-****** CD66
-****** CD67
-****** CD68
-****** CD69
-****** CD70
-****** CD71
-****** CD72
-****** CD73
-****** CD74
-****** CD75
-****** CD76
-****** CD77
-****** CD78
-****** CD79
-****** CD80
-****** CD81
-****** CD82
-****** CD83
-****** CD84
-****** CD85
-****** CD86
-****** CD87
-****** CD88
-****** CD89
-****** CD90
-****** CD91
-****** CD92
-****** CD93
-****** CD94
-****** CD95
-****** CD96
-****** CD97
-****** CD98
-****** CD99
-****** CD100
-***** TODO vérifier quelques musiques (1 par Cd)
-**** DONE Red
-y est
-*** Beethoven
+**** DONE Well-tempered musician
+*** DONE Beethoven
+*** TODO Britten
+**** KILL Concerto piano + violon
+*** Brahms
+uploader ??
+*** KILL Mozart (compact)
+*** DONE Liszt
+*** Vivaldi
+uploader ?
+*** Wagner
+uploader ?
+** Jazz
+*** Herbie hancock
+**** KILL Speak like a child
 * Stages
 ** TODO Dossier FFI
 [[notmuch:id:OFC1062C15.55F475EB-ONC12586DC.003FB3AD-C12586DC.003FD4E0@chr-metz-thionville.fr][Email from Madison Andrez: Dossier administratif à produire pour la nomination en qualité de FFI durant la période estivale]]

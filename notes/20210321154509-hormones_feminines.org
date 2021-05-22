@@ -14,10 +14,11 @@ Progestérone (pro-gestation)
 - prépare l'utérus pour l'implantation de l'oeuf fécondé
 - stimule développement sein pour lactation
  __ECN__: la contraception hormonale est principalement liée à la progestérone. Il y a donc 2 effets :
-1. "périphériques" (tous) : atrophie de l'endomètre, diminution de la glaire cervicale
+1. "périphériques" (tous) : atrophie de l'endomètre, diminution de la glaire cervicale [par régulation négative !]
 2. "central" (sauf les microprogestatif) par suppression du pic de LH
 
 Cycle menstruel :
-1. Prolifération de l'endomètre par oestrogène (secrété par)
+1. Prolifération de l'endomètre par oestrogène (secrété par les ovaires)
 2. Ovulation déclenchée par pic LH
-3. Développement "sécrétoire" de l'endomètre par progestérone
+3. Développement "sécrétoire" de l'endomètre par progestérone (et augmentation de l'oestrogène)
+4. 2 jours la fin du cycle, s'il n'y a pas eu de fertilization, chute de la progestérone + oestrogène => règles
