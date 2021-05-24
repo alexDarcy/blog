@@ -264,32 +264,36 @@ CLOSED: [2021-05-08 Sat 14:58]
 *** TODO Dragon Harper (by Todd McCaffrey) (2007) :fantasy:
 *** TODO Dragonheart (by Todd McCaffrey) (2008) :fantasy:
 *** TODO Dragongirl (by Todd McCaffrey) (2010 :fantasy:
-** DONE A Song of Ice and Fire
-*** DONE Martin, G. (1996): A game of thrones :fantasy:
+** R.R Martin
+*** DONE A Song of Ice and Fire
+**** DONE Martin, G. (1996): A game of thrones :fantasy:
   :PROPERTIES:
   :Custom_ID: martin96
   :END:
 
-*** DONE Martin, G. (1999): A clash of kings :fantasy:
+**** DONE Martin, G. (1999): A clash of kings :fantasy:
   :PROPERTIES:
   :Custom_ID: martin99
   :rating:   4.5
   :END:
-*** DONE Martin, G. (2000): A storm of swords :fantasy:
+**** DONE Martin, G. (2000): A storm of swords :fantasy:
   :PROPERTIES:
   :Custom_ID: martin11
   :rating:   4.5
   :END:
 
-*** DONE Martin, G. (2005): A feast for crows :fantasy:
+**** DONE Martin, G. (2005): A feast for crows :fantasy:
   :PROPERTIES:
   :Custom_ID: martin05
   :rating:   4.5
   :END:
-*** DONE Martin, G. (2011) : A Dance with Dragons :fantasy:
+**** DONE Martin, G. (2011) : A Dance with Dragons :fantasy:
 :PROPERTIES:
 :rating: 4
 :END:
+*** TODO Dreamsong
+**** STRT Vol 1
+*** TODO [#A] Fire and Blood
 ** Pratchett
 *** DONE The Color of Magic (Discworld, #1; Rincewind, #1) :fantasy:
 :PROPERTIES:

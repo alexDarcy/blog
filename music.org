@@ -1,5 +1,0 @@
-#+TITLE: Music
-* <2021-04-29 Thu> :rythm:
-Single beats :
-- 1-10 : 1min à 60 bpm
-- 1-10 : 30s à 30 bpm

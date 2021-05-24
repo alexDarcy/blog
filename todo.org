@@ -1932,36 +1932,6 @@ https://ballotpedia.org/Fact_check/Does_research_show_that_federal_student_aid_i
 :PROPERTIES:
 :CATEGORY: mail
 :END:
-* Music : Red
-*** TODO Albeniz
-**** TODO The music of isaac albeniz
-Uploader
-*** TODO Alkan
-**** KILL Organ works
-*** TODO Bartok
-**** DONE Violin concertos, ehnes
-**** TODO Orchestral work
-upload
-*** Bach
-**** TODO Bachakademie
-À uploader ?
-**** DONE Bach 2000
-re-taggé
-**** DONE Well-tempered musician
-*** DONE Beethoven
-*** TODO Britten
-**** KILL Concerto piano + violon
-*** Brahms
-uploader ??
-*** KILL Mozart (compact)
-*** DONE Liszt
-*** Vivaldi
-uploader ?
-*** Wagner
-uploader ?
-** Jazz
-*** Herbie hancock
-**** KILL Speak like a child
 * Stages
 ** TODO Dossier FFI
 [[notmuch:id:OFC1062C15.55F475EB-ONC12586DC.003FB3AD-C12586DC.003FD4E0@chr-metz-thionville.fr][Email from Madison Andrez: Dossier administratif à produire pour la nomination en qualité de FFI durant la période estivale]]

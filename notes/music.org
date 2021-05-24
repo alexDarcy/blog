@@ -169,3 +169,53 @@
 *** TODO CD 08
 *** TODO CD 09
 *** TODO CD 10
+* TODO Bach hanslerr
+* Red
+** Classical
+*** TODO Albeniz
+**** DONE The music of isaac albeniz
+Uploader
+*** TODO Alkan
+**** KILL Organ works
+*** TODO Bartok
+**** DONE Violin concertos, ehnes
+**** TODO Orchestral work
+upload
+*** DONE Bach
+**** KILL Bachakademie
+À uploader ?
+**** TODO Bach 2000
+re-taggé => message envoyé
+**** DONE Well-tempered musician
+*** DONE Beethoven
+*** TODO Britten
+**** KILL Concerto piano + violon
+*** Brahms
+uploader ??
+*** KILL Mozart (compact)
+*** DONE Liszt
+*** TODO Schubert
+**** TODO Masterworks
+uploader normalement
+***** DONE Renommer fichiers
+***** TODO MAJ tags
+Composer
+***** TODO Vérifier spectrogram
+*** TODO Tchaikovsky
+**** KILL LSO & Gergiev - 2012 - Tchaikovsky Symphonies 1-3 (WEB) (FLAC)
+
+*** Vivaldi
+uploader ?
+*** Wagner
+uploader ?
+** Jazz
+*** Herbie hancock
+**** KILL Speak like a child
+* OPS
+** DONE Bach
+** KILL Beethoven
+** DONE Liszt
+** KILL Mozart
+* Diapason d'or
+** DONE Benjamin Grosvenor - Liszt [2021] [Album]
+** DONE Dietrich Fischer-Dieskau & Gerald Moore - Winterreise

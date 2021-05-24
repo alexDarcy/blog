@@ -1338,6 +1338,12 @@ Cuisson : 15min au gaz et 45min au four (pas assez cuit sinon)
 *** Notes
 Pdt : bonnes
 Poulet : un peu sec
+** RETRY Poulet farci
+*** Instructions
+Recette de Paul Bocuse
+*** Notes
+Pour 1kg de poulet, error : 4 foies de lapin au lieu de 2 foies de volailles
+Poulet OK, bouillon OK mais farce trop forte
 ** RETRY Cuisses de poulet avec glacage soja-miel-gingembre :meat:white:
 :PROPERTIES:
 :source-url: https://cooking.nytimes.com/recipes/1019804-honey-and-soy-glazed-chicken-thighs
