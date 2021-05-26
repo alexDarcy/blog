@@ -11,8 +11,8 @@
 *** DONE CD 08
 *** DONE CD 09
 *** DONE CD 10
-*** TODO CD 11
-*** TODO CD 12
+*** DONE CD 11
+*** DONE CD 12
 *** TODO CD 13
 *** TODO CD 14
 *** TODO CD 15
@@ -136,7 +136,7 @@
 *** TODO CD 01
 *** TODO CD 02
 *** TODO CD 03
-*** TODO CD 04
+*** TODO CD 04  
 *** TODO CD 05
 *** TODO CD 06
 *** TODO CD 07
@@ -181,11 +181,20 @@ Uploader
 **** DONE Violin concertos, ehnes
 **** TODO Orchestral work
 upload
-*** DONE Bach
+*** TODO Bach
 **** KILL Bachakademie
 À uploader ?
 **** TODO Bach 2000
+     Retagger avec les fichiers envoyé : fonctionne avec :
+     metaflac --remove-all-tags
+     (conserve le vendor_string, important)
+     metaflac --import-tags-from=lol.txt
+     Attention, il faut uneligne vide à la fin, sinon il va manquer le dernier tag.
+     L'ordre est important.
+
+     Il faut donc un parser qui convertisse la  
 re-taggé => message envoyé
+Vérifier si avec les nouveau tags on a le meme hash
 **** DONE Well-tempered musician
 *** DONE Beethoven
 *** TODO Britten
@@ -199,6 +208,18 @@ uploader ??
 uploader normalement
 ***** DONE Renommer fichiers
 ***** TODO MAJ tags
+****** DONE Compositeur
+On enlève PERFORMER et ajout de COMPOSER pour tous les flac:
+#+begin_src
+  fd flac -x metaflac --remove-tag=PERFORMER {}
+  fd flac -x metaflac --set-tag="COMPOSER=Franz Schubert" {}
+  # Vérification
+  fd flac -x metaflac --list --block-type=VORBIS_COMMENT {}
+#+end_src
+****** TODO Artiste par album
+       - [X] CD1
+****** TODO Numéro du mouvement par track
+Automatiser...
 Composer
 ***** TODO Vérifier spectrogram
 *** TODO Tchaikovsky

@@ -200,7 +200,8 @@ CLOSED: [2021-03-08 Mon 17:57]
 *** TODO Fortress in the Eye of Time
 ** TODO [#B] Stardust
 ** TODO R.R Martin
-*** TODO [#A] Dreamsong 1
+*** DONE [#A] Dreamsong 1
+    CLOSED: [2021-05-26 Wed 00:00]
 ** DONE The Black Company
 *** DONE Cook, G. (1984) : The Black Company
 :PROPERTIES:

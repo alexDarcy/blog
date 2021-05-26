@@ -1,5 +1,6 @@
 ﻿#+sTITLE: Révisions
 #+STARTUP: overview
+#+TODO: TODO(t) TOUR1(1) | DONE(d)
 #+TAGS: anapath(a) cancero(c) cardio(C) dermato(d) douleur(D) endoc(e)
 #+TAGS: gyneco(g) geria(G) hemato(h) hge(H) immuno(i)
 #+TAGS: malinf(m) maxillo(M) medecinelegale(L) medecineTravail(T) mpr(R) nephro(n) neuro(N)
@@ -18,7 +19,7 @@
 | \_  Annales d'oral Nancy |        | 2:38 |
 #+END:
 
-* TODO Abrégé des très bien classés [5/30] :abrégé:
+* TODO Abrégé des très bien  classés [5/30] :abrégé:
 :PROPERTIES:
 :CATEGORY: ATBC
 :END:
@@ -26,6 +27,21 @@
 DEADLINE: <2020-11-22 Sun>
 -> item 11
 ** TODO Pédiatrie
+   SCHEDULED: <2021-05-25 Tue> DEADLINE: <2021-05-26 Wed>
+   :LOGBOOK:
+   CLOCK: [2021-05-26 Wed 23:25]--[2021-05-26 Wed 23:30] =>  0:05
+   CLOCK: [2021-05-26 Wed 22:06]--[2021-05-26 Wed 23:06] =>  1:00
+   CLOCK: [2021-05-26 Wed 18:41]--[2021-05-26 Wed 18:50] =>  0:09
+   CLOCK: [2021-05-26 Wed 18:14]--[2021-05-26 Wed 18:32] =>  0:18
+   CLOCK: [2021-05-26 Wed 17:18]--[2021-05-26 Wed 17:42] =>  0:24
+   CLOCK: [2021-05-26 Wed 16:18]--[2021-05-26 Wed 17:06] =>  0:48
+   CLOCK: [2021-05-26 Wed 12:58]--[2021-05-26 Wed 14:02] =>  1:04
+   CLOCK: [2021-05-25 Tue 23:23]--[2021-05-25 Tue 23:53] =>  0:30
+   CLOCK: [2021-05-25 Tue 18:17]--[2021-05-25 Tue 19:00] =>  0:43
+   CLOCK: [2021-05-25 Tue 18:06]--[2021-05-25 Tue 18:08] =>  0:02
+   CLOCK: [2021-05-25 Tue 16:35]--[2021-05-25 Tue 16:50] =>  0:15
+   CLOCK: [2021-05-25 Tue 13:04]--[2021-05-25 Tue 13:48] =>  0:44
+   :END:
 *** DONE Item 29,31
 ** TODO Gynéco
 ** TODO Psychiatrie
@@ -416,7 +432,7 @@ DEADLINE: <2021-05-28 Fri> SCHEDULED: <2021-05-27 Thu>
 :CATEGORY: 2017blanc
 :END:
 *** TODO DP [0/3]
-DEADLINE: <2021-05-27 Thu> SCHEDULED: <2021-05-25 Tue>
+SCHEDULED: <2021-05-28 Fri> DEADLINE: <2021-05-27 Thu>
 **** TODO DCP 1 [0/6]
 ***** TODO DP 1
 ***** TODO DP 2
@@ -1326,7 +1342,7 @@ DEADLINE: <2020-10-11 Sun>
 :pedia:    t
 :endoc:    t
 :END:
-** TODO 48 Cryptorchidie :pedia:endoc:uro:retard:
+** TOUR1 48 Cryptorchidie                            :pedia:endoc:uro:retard:
 :PROPERTIES:
 :COLLEGE:  3
 :ECNI:     2
@@ -1343,12 +1359,12 @@ DEADLINE: <2020-10-11 Sun>
 :ECNI:     2
 :ophtalmo: t
 :END:
-** TODO 51 retard de croissance :pedia:endoc:
+** TOUR1 51 retard de croissance                                :pedia:endoc:
 :PROPERTIES:
 :COLLEGE:  3
 :ECNI:     3
 :END:
-** TODO 52 Boiteries de l'enfant :pedia:ortho:rhumato:
+** TOUR1 52 Boiteries de l'enfant                       :pedia:ortho:rhumato:
 :PROPERTIES:
 :COLLEGE:  2
 :ECNI:     3
@@ -2378,7 +2394,7 @@ Gastrite à faire
 :PROPERTIES:
 :hemato:   t
 :END:
-** TODO 294 Principaux cancers de l'enfant :pedia:anapath:cancero:
+** TOUR1 294 Principaux cancers de l'enfant           :pedia:anapath:cancero:
 :PROPERTIES:
 :santepub: t
 :END:
@@ -2510,7 +2526,7 @@ Gastrite à faire
 :gyneco:   t
 :END:
 ** TOUR1 340 Agitation et délires aigüs :pedia:psy:
-** TODO 341 Convulsions chez le nourrisson et chez l'enfant
+** TOUR1 341 Convulsions chez le nourrisson et chez l'enfant
 ** TOUR1 342 Rétention aiguë d'urine
 :PROPERTIES:
 :uro:      t
@@ -2699,8 +2715,9 @@ DEADLINE: <2021-01-03 Sun>
 :CATEGORY: pédia
 :END:
 ** TODO Relire fiches
-DEADLINE: <2021-05-24 Mon> SCHEDULED: <2021-05-19 Wed>
+SCHEDULED: <2021-05-24 Mon> DEADLINE: <2021-05-24 Mon>
 :LOGBOOK:
+CLOCK: [2021-05-25 Tue 12:53]--[2021-05-25 Tue 12:56] =>  0:03
 CLOCK: [2021-05-24 Mon 22:50]--[2021-05-24 Mon 23:00] =>  0:10
 CLOCK: [2021-05-24 Mon 21:59]--[2021-05-24 Mon 22:08] =>  0:09
 CLOCK: [2021-03-03 Wed 15:06]--[2021-03-03 Wed 16:03] =>  0:57
@@ -2715,7 +2732,7 @@ CLOCK: [2021-02-24 Wed 21:36]--[2021-02-24 Wed 22:39] =>  1:03
   :CATEGORY: rhumato
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-05-26 Wed>
+SCHEDULED: <2021-06-01 Tue>
 * TOUR1 Santé publique
 :PROPERTIES:
 :CATEGORY: santepub
@@ -2799,4 +2816,4 @@ DEADLINE: <2020-12-05 Sat>
   :CATEGORY: uro
   :END:
 ** TODO Relire fiches
-DEADLINE: <2021-05-28 Fri> SCHEDULED: <2021-05-26 Wed>
+SCHEDULED: <2021-06-01 Tue> DEADLINE: <2021-05-28 Fri>
