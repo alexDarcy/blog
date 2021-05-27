@@ -33,7 +33,7 @@ cite:RWH
 Excellentes critiques
 * Fanfic
 *** Harry potter
-**** DONE [[file:notes/reviews/20210423121705-sacrifice_arc.org][Sacrifice Arc]]
+**** DONE [[file:notes/reviews/sacrifice_arc.org][Sacrifice Arc]]
 ***** DONE I Am Also Thy Brother (Sacrifices arc, #7)
 :PROPERTIES:
 :author:   Lightning on the Wave
@@ -82,7 +82,7 @@ Excellentes critiques
 :rating:   5
 :year:     2005
 :END:
-**** DONE [[file:notes/reviews/20210423121757-the_arithmancer.org][Harry Potter and the Methods of Rationality]]
+**** DONE [[file:notes/reviews/the_arithmancer.org][Harry Potter and the Methods of Rationality]]
 :PROPERTIES:
 :author:   Lightning on the Wave
 :rating:   5
@@ -108,6 +108,8 @@ CLOSED: [2021-03-08 Mon 17:57]
   :PROPERTIES:
   :Custom_ID: magni2003olmeques
   :END:
+*** Notes :noexport:
+Intéressant pour l'intérprétation en histoire de l'art. Assez décevant en première approche pour découvrir la civilisation
 
 ** DONE Delumeau, J. (2005): Une histoire du monde aux temps modernes
   :PROPERTIES:
@@ -448,7 +450,11 @@ CLOSED: [2020-07-23 Thu 21:32]
 
 ** DONE Hugo, V. :  [[file:../notes/reviews/20210216212256-notre_dame_de_paris.org][Notre-Dame de Paris]] , [[file:notes/reviews/20210423122519-les_travailleurs_de_la_mer.org][Les Travailleurs de la mer]] :lapleiade:
 CLOSED: [2021-03-16 Tue 22:35]
-** STRT [#A] [[file:notes/reviews/20210318102410-graal.org][Le Livre du Graal]] :lapleiade:
+** STRT [#A] [[file:notes/reviews/20210318102410-graal.org][Le Livre du Graal]] [1/2]                              :lapleiade:
+*** DONE Tome 1
+    CLOSED: [2021-05-27 Thu 11:27]
+*** TODO Tome 2
+*** TODO Tome 3
 ** DONE Joyce, J. (2000): Dubliners
   :PROPERTIES:
   :Custom_ID: joyce00_dublin

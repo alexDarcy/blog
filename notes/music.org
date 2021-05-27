@@ -13,7 +13,7 @@
 *** DONE CD 10
 *** DONE CD 11
 *** DONE CD 12
-*** TODO CD 13
+*** DONE CD 13
 *** TODO CD 14
 *** TODO CD 15
 ** TODO Vol. 02 Sacred Cantatas
@@ -216,8 +216,8 @@ On enlève PERFORMER et ajout de COMPOSER pour tous les flac:
   # Vérification
   fd flac -x metaflac --list --block-type=VORBIS_COMMENT {}
 #+end_src
-****** TODO Artiste par album
-       - [X] CD1
+****** TODO Artiste par album + album title + discnumber
+       -> CD 27
 ****** TODO Numéro du mouvement par track
 Automatiser...
 Composer

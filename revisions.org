@@ -29,6 +29,8 @@ DEADLINE: <2020-11-22 Sun>
 ** TODO Pédiatrie
    SCHEDULED: <2021-05-25 Tue> DEADLINE: <2021-05-26 Wed>
    :LOGBOOK:
+   CLOCK: [2021-05-27 Thu 13:09]--[2021-05-27 Thu 13:51] =>  0:42
+   CLOCK: [2021-05-27 Thu 12:58]--[2021-05-27 Thu 13:00] =>  0:02
    CLOCK: [2021-05-26 Wed 23:25]--[2021-05-26 Wed 23:30] =>  0:05
    CLOCK: [2021-05-26 Wed 22:06]--[2021-05-26 Wed 23:06] =>  1:00
    CLOCK: [2021-05-26 Wed 18:41]--[2021-05-26 Wed 18:50] =>  0:09
@@ -425,14 +427,14 @@ DEADLINE: <2021-05-31 Mon> SCHEDULED: <2021-05-29 Sat>
 ***** TODO DP 5
 ***** TODO DP 6
 *** TODO QI
-DEADLINE: <2021-05-28 Fri> SCHEDULED: <2021-05-27 Thu>
+SCHEDULED: <2021-05-29 Sat> DEADLINE: <2021-05-28 Fri>
 *** DONE LCA
 ** TODO 2017 blancs [0/2]
 :PROPERTIES:
 :CATEGORY: 2017blanc
 :END:
 *** TODO DP [0/3]
-SCHEDULED: <2021-05-28 Fri> DEADLINE: <2021-05-27 Thu>
+DEADLINE: <2021-05-31 Mon> SCHEDULED: <2021-05-29 Sat>
 **** TODO DCP 1 [0/6]
 ***** TODO DP 1
 ***** TODO DP 2
@@ -2684,7 +2686,7 @@ CLOCK: [2020-06-20 Sat 17:18]--[2020-06-20 Sat 17:38] =>  0:20
 - [X] [[file:~/Downloads/ortho/359- CM-CC - Fractures des membres supérieurs - Sirveaux.pdf]]
 - [X] [[file:~/Downloads/ortho/361- CM-CC - Surveillance d’un malade sous plâtre - Sirveaux.pdf]]
 ** TODO Relire fiches
-DEADLINE: <2021-05-27 Thu> SCHEDULED: <2021-05-27 Thu>
+DEADLINE: <2021-05-31 Mon> SCHEDULED: <2021-05-29 Sat>
 :LOGBOOK:
 CLOCK: [2021-02-22 Mon 17:45]--[2021-02-22 Mon 18:13] =>  0:28
 :END:

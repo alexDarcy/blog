@@ -1,4 +1,5 @@
 #+TITLE: Mam
+#+TODO: TODO(t) | DONE(d) KILL(k)
 #+STARTUP: overview
 
 * TODO Script
@@ -58,6 +59,34 @@ Tester téléchargement direct sur r ^. responseHeader "Content-Type"
 - Si "text/html; charset=UTF-8", stratégie 2
 - Si "application/pdf", on sauvegarde
 *** TODO Passer tout en Text
+*** TODO Version HTML ?
+ <div id="article" class="traitement-ouvcol typeart-article">       
+ Pour avoir la fin de la section, il vaut mieux couper en 2:
+1. Article: De <section id="decoupe-texte"> -> <section id="decoupe-note">
+2. Notes : de <section id="decoupe-note"> -> </section>
+   On ne peut pas utiliser /section pour 1. vu les sous-sections
+**** TODO Supprimer les numéro de paragraphes
+  <a class="no-para" href="#pa9">9</a>
+**** TODO Récupérer les images et changer les liens
+     <img src="load.php/*.jpg>
+**** TODO Ajouter un header avec le titre
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Croisades et Orient latin : XIe-XIVe siècle</title>
+  </head>
+  <body>
+...
+</body>
+</html>
+**** TODO Ajouter un titre de chapitre avec h1
+**** TODO Corriger les headings
+     2 types pour l'instant:
+     Sections  -> h2
+<section class="section section1" id="s1n4">
+Subsections -> h3
+<section class="section section2" id="s2n4">
+
 *** DONE Ajouter présentation
 *** KILL Uploader sur le pi automatiquement
 ** TODO Automatiser upload
