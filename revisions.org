@@ -1,6 +1,6 @@
 ﻿#+sTITLE: Révisions
 #+STARTUP: overview
-#+TODO: TODO(t) TOUR1(1) | DONE(d)
+#+TODO: TODO(t) | TOUR1(1) DONE(d)
 #+TAGS: anapath(a) cancero(c) cardio(C) dermato(d) douleur(D) endoc(e)
 #+TAGS: gyneco(g) geria(G) hemato(h) hge(H) immuno(i)
 #+TAGS: malinf(m) maxillo(M) medecinelegale(L) medecineTravail(T) mpr(R) nephro(n) neuro(N)
@@ -29,6 +29,8 @@ DEADLINE: <2020-11-22 Sun>
 ** TODO Pédiatrie
    SCHEDULED: <2021-05-25 Tue> DEADLINE: <2021-05-26 Wed>
    :LOGBOOK:
+   CLOCK: [2021-05-28 Fri 00:11]--[2021-05-28 Fri 00:51] =>  0:40
+   CLOCK: [2021-05-27 Thu 19:07]--[2021-05-27 Thu 19:54] =>  0:47
    CLOCK: [2021-05-27 Thu 13:09]--[2021-05-27 Thu 13:51] =>  0:42
    CLOCK: [2021-05-27 Thu 12:58]--[2021-05-27 Thu 13:00] =>  0:02
    CLOCK: [2021-05-26 Wed 23:25]--[2021-05-26 Wed 23:30] =>  0:05

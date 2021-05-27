@@ -4670,3 +4670,13 @@ Endurance
 **** Handstand
     StW 30-20
     BtW 2x2-5-7-10
+
+*** 2021-05-28 Friday
+**** Parkour
+   Passe-muraille :
+   - cat hang (each side) : 7
+   - top out (each side) : 5
+   - cat hang leg press (each side) : 4
+   - cat hang pull-up (each side) : 5
+   - knee raises (each side) : 5
+   - passe-muraille: 11 !
