@@ -34,7 +34,8 @@ cd emacs
 
 
 # Note: set -x CC=gcc10 ne fonctionne pas, on doit passer en root et faire
-CC=gcc10 ./configure --with-native-compilation
+# On en profite pour switcher de GTK à lucid (évite les crash quand X11 est tué)
+CC=gcc10 ./configure --with-native-compilation --with-x-toolkit=lucid
 make -j$(nproc)
 make install
 
