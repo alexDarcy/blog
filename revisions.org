@@ -207,7 +207,7 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 * Anesthésie-Rea :anesth:
 PDF [[file:~/backups/hubic/Public/Cours/Medecine/referentiels/Anesth_college_2018.pdf][file:~/backups/hubic/Public/Cours/Medecine/referentiels/Anesth_college_2018.pdf]]
 https://drive.google.com/drive/folders/1PKMHd9yq-clAB5P1lLSnMRd7rtfOjvO7
-* Annales ECN [4/13] :annales:
+* Annales ECN [6/13]                                                :annales:
 :PROPERTIES:
 :CATEGORY: annales
 :END:
@@ -242,8 +242,8 @@ https://drive.google.com/drive/folders/1PKMHd9yq-clAB5P1lLSnMRd7rtfOjvO7
 *** TODO LCA [0/2]
 **** TODO Article 1
 **** TODO Article 2
-** TODO 2020 [1/5]
-*** TODO DCP 1 [6/6]
+** TODO 2020 [2/5]
+*** DONE DCP 1 [6/6]
 **** DONE Dossier 1
 :LOGBOOK:
 CLOCK: [2021-04-03 Sat 20:10]--[2021-04-03 Sat 22:03] =>  1:53
@@ -277,7 +277,7 @@ SCHEDULED: <2021-05-14 Fri> DEADLINE: <2021-05-16 Sun>
 CLOCK: [2021-05-16 Sun 22:07]--[2021-05-16 Sun 22:40] =>  0:33
 CLOCK: [2021-05-16 Sun 15:01]--[2021-05-16 Sun 16:06] =>  1:05
 :END:
-*** TODO DCP 2 [2/6]
+*** TODO DCP 2 [3/6]
 **** DONE Dossier 7
 DEADLINE: <2021-05-22 Sat>
 :LOGBOOK:
@@ -293,8 +293,21 @@ CLOCK: [2021-05-23 Sun 13:22]--[2021-05-23 Sun 14:10] =>  0:48
 Déjà fait sur asclepia ?
 https://www.facebook.com/watch/live/?v=684259552250242
 DEADLINE: <2021-05-22 Sat>
-**** TODO Dossier 9
+**** DONE Dossier 9
+     DEADLINE: <2021-05-29 Sat>
+     :LOGBOOK:
+     CLOCK: [2021-05-29 Sat 23:09]--[2021-05-29 Sat 23:39] =>  0:30
+     CLOCK: [2021-05-29 Sat 19:23]--[2021-05-29 Sat 20:17] =>  0:54
+     CLOCK: [2021-05-29 Sat 18:03]--[2021-05-29 Sat 19:20] =>  1:17
+     CLOCK: [2021-05-29 Sat 15:15]--[2021-05-29 Sat 17:13] =>  1:58
+     CLOCK: [2021-05-29 Sat 14:50]--[2021-05-29 Sat 15:00] =>  0:10
+     CLOCK: [2021-05-29 Sat 12:34]--[2021-05-29 Sat 12:49] =>  0:15
+     :END:
 **** TODO Dossier 10
+     DEADLINE: <2021-05-29 Sat>
+     :LOGBOOK:
+     CLOCK: [2021-05-29 Sat 23:47]--[2021-05-30 Sun 00:18] =>  0:31
+     :END:
 **** TODO Dossier 11
 **** TODO Dossier 12
 *** TODO DCP 3 [0/6]
@@ -308,8 +321,8 @@ DEADLINE: <2021-05-22 Sat>
 *** DONE LCA [2/2]
 **** DONE Article 1
 **** DONE Article 2
-** TODO 2020 blancs [0/1]
-*** TODO LCA [2/2]
+** DONE 2020 blancs [1/1]
+*** DONE LCA [2/2]
 **** DONE Article 1
 SCHEDULED: <2021-05-14 Fri> DEADLINE: <2021-05-16 Sun>
 :LOGBOOK:
@@ -369,6 +382,9 @@ DEADLINE: <2020-10-31 Sat>
 *** DONE LCA
 ** TODO 2019 blancs [0/1]
 *** TODO LCA
+**** TODO Article 1 
+     DEADLINE: <2021-05-29 Sat>
+**** TODO Article 2
 ** DONE 2018 [3/3]
 *** DONE LCA
     DEADLINE: <2021-05-08 Sat>
@@ -410,7 +426,7 @@ DEADLINE: <2020-10-31 Sat>
 :CATEGORY: 2017
 :END:
 *** TODO DP [0/3]
-DEADLINE: <2021-05-31 Mon> SCHEDULED: <2021-05-29 Sat>
+SCHEDULED: <2021-05-31 Mon> DEADLINE: <2021-05-31 Mon>
 **** TODO DCP 1 [0/6]
 ***** TODO DP 1
 ***** TODO DP 2
@@ -433,14 +449,14 @@ DEADLINE: <2021-05-31 Mon> SCHEDULED: <2021-05-29 Sat>
 ***** TODO DP 5
 ***** TODO DP 6
 *** TODO QI
-DEADLINE: <2021-06-05 Sat> SCHEDULED: <2021-05-29 Sat>
+SCHEDULED: <2021-05-31 Mon> DEADLINE: <2021-06-05 Sat>
 *** DONE LCA
 ** TODO 2017 blancs [0/2]
 :PROPERTIES:
 :CATEGORY: 2017blanc
 :END:
 *** TODO DP [0/3]
-DEADLINE: <2021-05-31 Mon> SCHEDULED: <2021-05-29 Sat>
+SCHEDULED: <2021-05-31 Mon> DEADLINE: <2021-05-31 Mon>
 **** TODO DCP 1 [0/6]
 ***** TODO DP 1
 ***** TODO DP 2
@@ -491,7 +507,7 @@ DEADLINE: <2021-05-27 Thu> SCHEDULED: <2021-05-25 Tue>
 ***** TODO DP 5
 ***** TODO DP 6
 *** TODO LCA
-** TODO 2016 [3/3]
+** DONE 2016 [3/3]
 :PROPERTIES:
 :CATEGORY: 2016
 :END:
@@ -2692,7 +2708,7 @@ CLOCK: [2020-06-20 Sat 17:18]--[2020-06-20 Sat 17:38] =>  0:20
 - [X] [[file:~/Downloads/ortho/359- CM-CC - Fractures des membres supérieurs - Sirveaux.pdf]]
 - [X] [[file:~/Downloads/ortho/361- CM-CC - Surveillance d’un malade sous plâtre - Sirveaux.pdf]]
 ** TODO Relire fiches
-DEADLINE: <2021-05-31 Mon> SCHEDULED: <2021-05-29 Sat>
+SCHEDULED: <2021-05-31 Mon> DEADLINE: <2021-05-31 Mon>
 :LOGBOOK:
 CLOCK: [2021-02-22 Mon 17:45]--[2021-02-22 Mon 18:13] =>  0:28
 :END:

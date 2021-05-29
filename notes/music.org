@@ -17,8 +17,8 @@
 *** DONE CD 14
 *** DONE CD 15
 ** TODO Vol. 02 Sacred Cantatas
-*** TODO CD 01
-*** TODO CD 02
+*** DONE CD 01
+*** DONE CD 02
 *** TODO CD 03
 *** TODO CD 04
 *** TODO CD 05
@@ -219,7 +219,7 @@ On enlève PERFORMER et ajout de COMPOSER pour tous les flac:
 ****** DONE Artiste par album + album title + discnumber
        -> CD 27
 ****** TODO Numéro du mouvement par track
-CD 1 pui 10-14
+Ok sauf CD27: mettre nom à la main...
 ***** TODO Vérifier spectrogram
 *** TODO Tchaikovsky
 **** KILL LSO & Gergiev - 2012 - Tchaikovsky Symphonies 1-3 (WEB) (FLAC)
