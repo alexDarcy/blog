@@ -277,7 +277,7 @@ SCHEDULED: <2021-05-14 Fri> DEADLINE: <2021-05-16 Sun>
 CLOCK: [2021-05-16 Sun 22:07]--[2021-05-16 Sun 22:40] =>  0:33
 CLOCK: [2021-05-16 Sun 15:01]--[2021-05-16 Sun 16:06] =>  1:05
 :END:
-*** TODO DCP 2 [3/6]
+*** TODO DCP 2 [4/6]
 **** DONE Dossier 7
 DEADLINE: <2021-05-22 Sat>
 :LOGBOOK:
@@ -303,10 +303,11 @@ DEADLINE: <2021-05-22 Sat>
      CLOCK: [2021-05-29 Sat 14:50]--[2021-05-29 Sat 15:00] =>  0:10
      CLOCK: [2021-05-29 Sat 12:34]--[2021-05-29 Sat 12:49] =>  0:15
      :END:
-**** TODO Dossier 10
-     DEADLINE: <2021-05-29 Sat>
-     :LOGBOOK:
+**** DONE Dossier 10
+   :LOGBOOK:
      CLOCK: [2021-05-29 Sat 23:47]--[2021-05-30 Sun 00:18] =>  0:31
+     CLOCK: [2021-05-30 Sun 12:15]--[2021-05-30 Sun 12:58] =>  0:43
+     CLOCK: [2021-05-30 Sun 10:59]--[2021-05-30 Sun 12:04] =>  1:05
      :END:
 **** TODO Dossier 11
 **** TODO Dossier 12
@@ -380,11 +381,13 @@ DEADLINE: <2020-10-19 Mon>
 **** DONE 61-120
 DEADLINE: <2020-10-31 Sat>
 *** DONE LCA
+<<<<<<< HEAD
 ** TODO 2019 blancs [0/1]
 *** TODO LCA
-**** TODO Article 1 
+**** DONE Article 1 
      DEADLINE: <2021-05-29 Sat>
 **** TODO Article 2
+=======
 ** DONE 2018 [3/3]
 *** DONE LCA
     DEADLINE: <2021-05-08 Sat>
@@ -426,7 +429,11 @@ DEADLINE: <2020-10-31 Sat>
 :CATEGORY: 2017
 :END:
 *** TODO DP [0/3]
+<<<<<<< HEAD
 SCHEDULED: <2021-05-31 Mon> DEADLINE: <2021-05-31 Mon>
+=======
+SCHEDULED: <2021-06-02 Wed> DEADLINE: <2021-05-31 Mon>
+>>>>>>> 10669328f3db1a971de4cbb184c8bb5c2dfbabe0
 **** TODO DCP 1 [0/6]
 ***** TODO DP 1
 ***** TODO DP 2
@@ -449,14 +456,22 @@ SCHEDULED: <2021-05-31 Mon> DEADLINE: <2021-05-31 Mon>
 ***** TODO DP 5
 ***** TODO DP 6
 *** TODO QI
+<<<<<<< HEAD
 SCHEDULED: <2021-05-31 Mon> DEADLINE: <2021-06-05 Sat>
+=======
+SCHEDULED: <2021-06-02 Wed> DEADLINE: <2021-06-05 Sat>
+>>>>>>> 10669328f3db1a971de4cbb184c8bb5c2dfbabe0
 *** DONE LCA
 ** TODO 2017 blancs [0/2]
 :PROPERTIES:
 :CATEGORY: 2017blanc
 :END:
 *** TODO DP [0/3]
+<<<<<<< HEAD
 SCHEDULED: <2021-05-31 Mon> DEADLINE: <2021-05-31 Mon>
+=======
+SCHEDULED: <2021-06-02 Wed> DEADLINE: <2021-05-31 Mon>
+>>>>>>> 10669328f3db1a971de4cbb184c8bb5c2dfbabe0
 **** TODO DCP 1 [0/6]
 ***** TODO DP 1
 ***** TODO DP 2
@@ -2708,7 +2723,11 @@ CLOCK: [2020-06-20 Sat 17:18]--[2020-06-20 Sat 17:38] =>  0:20
 - [X] [[file:~/Downloads/ortho/359- CM-CC - Fractures des membres supérieurs - Sirveaux.pdf]]
 - [X] [[file:~/Downloads/ortho/361- CM-CC - Surveillance d’un malade sous plâtre - Sirveaux.pdf]]
 ** TODO Relire fiches
+<<<<<<< HEAD
 SCHEDULED: <2021-05-31 Mon> DEADLINE: <2021-05-31 Mon>
+=======
+SCHEDULED: <2021-06-02 Wed> DEADLINE: <2021-05-31 Mon>
+>>>>>>> 10669328f3db1a971de4cbb184c8bb5c2dfbabe0
 :LOGBOOK:
 CLOCK: [2021-02-22 Mon 17:45]--[2021-02-22 Mon 18:13] =>  0:28
 :END:
