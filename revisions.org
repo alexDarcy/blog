@@ -2650,13 +2650,32 @@ CLOCK: [2021-04-18 Sun 11:31]--[2021-04-18 Sun 11:50] =>  0:19
 :CATEGORY: immuno
 :END:
 ** TODO Relire fiches
+<<<<<<< HEAD
 DEADLINE: <2021-06-02 Wed> SCHEDULED: <2021-05-31 Mon>
+=======
+SCHEDULED: <2021-06-04 Fri> DEADLINE: <2021-06-02 Wed>
+>>>>>>> d23c27108454f1b98c1920a77327cd6d283af5a4
 * TODO Médecine légale, médecine du travail
 ** DONE Lire collège
 DEADLINE: <2020-12-15 Tue>
 ** DONE Fiches + abrégés des très bien classés
+<<<<<<< HEAD
 ** TODO DP et QI du collège
    DEADLINE: <2021-05-31 Mon>
+=======
+** TODO DP + QI collège
+    DEADLINE: <2021-05-31 Mon>
+    :LOGBOOK:
+    CLOCK: [2021-05-31 Mon 19:48]--[2021-05-31 Mon 20:13] =>  0:25
+    CLOCK: [2021-05-31 Mon 17:37]--[2021-05-31 Mon 18:36] =>  0:59
+    CLOCK: [2021-05-31 Mon 16:00]--[2021-05-31 Mon 16:20] =>  0:20
+    CLOCK: [2021-05-31 Mon 15:40]--[2021-05-31 Mon 15:48] =>  0:08
+    CLOCK: [2021-05-31 Mon 15:10]--[2021-05-31 Mon 15:31] =>  0:21
+    :END:
+*** DONE Médecine du travail
+*** TODO Médecine légale
+
+>>>>>>> d23c27108454f1b98c1920a77327cd6d283af5a4
 * TOUR1 MPR :mpr:
 :PROPERTIES:
 :CATEGORY: mpr
@@ -2671,7 +2690,7 @@ CLOCK: [2021-02-18 Thu 21:54]--[2021-02-18 Thu 22:43] =>  0:49
   :CATEGORY: nephro
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-06-03 Thu> DEADLINE: <2021-05-30 Sun>
+SCHEDULED: <2021-06-04 Fri> DEADLINE: <2021-05-30 Sun>
 * TOUR1 Neurochirurgie :neurochir:
 ** DONE Lire chapitres "neurochir" du Masson
 DEADLINE: <2020-10-19 Mon> SCHEDULED: <2020-10-10 Sat>
@@ -2725,11 +2744,7 @@ CLOCK: [2020-06-20 Sat 17:18]--[2020-06-20 Sat 17:38] =>  0:20
 - [X] [[file:~/Downloads/ortho/359- CM-CC - Fractures des membres supérieurs - Sirveaux.pdf]]
 - [X] [[file:~/Downloads/ortho/361- CM-CC - Surveillance d’un malade sous plâtre - Sirveaux.pdf]]
 ** TODO Relire fiches
-<<<<<<< HEAD
-SCHEDULED: <2021-05-31 Mon> DEADLINE: <2021-05-31 Mon>
-=======
 SCHEDULED: <2021-06-02 Wed> DEADLINE: <2021-05-31 Mon>
->>>>>>> 10669328f3db1a971de4cbb184c8bb5c2dfbabe0
 :LOGBOOK:
 CLOCK: [2021-02-22 Mon 17:45]--[2021-02-22 Mon 18:13] =>  0:28
 :END:
