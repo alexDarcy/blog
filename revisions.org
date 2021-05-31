@@ -2651,10 +2651,12 @@ CLOCK: [2021-04-18 Sun 11:31]--[2021-04-18 Sun 11:50] =>  0:19
 :END:
 ** TODO Relire fiches
 DEADLINE: <2021-06-02 Wed> SCHEDULED: <2021-05-31 Mon>
-* TOUR1 Médecine légale, médecine du travail
+* TODO Médecine légale, médecine du travail
 ** DONE Lire collège
 DEADLINE: <2020-12-15 Tue>
 ** DONE Fiches + abrégés des très bien classés
+** TODO DP et QI du collège
+   DEADLINE: <2021-05-31 Mon>
 * TOUR1 MPR :mpr:
 :PROPERTIES:
 :CATEGORY: mpr
