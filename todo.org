@@ -3,13 +3,7 @@
 * Autres :misc:
 ** TODO Ourlet T-shirt [1/2]
 ** TODO Réparer vélo maman
-** WAIT Demande carte solidaire Grand Est
--80% tarif de train
-Envoyé le [2021-02-13 Sat]
-Jamais arrivée à la maison, refaire demande avec attestation sur l'honneur
-** KILL Déclaration impots Laure
-   DEADLINE: <2019-05-16 Thu>
-** TODO Raccourcir manches costumes :couture:
+** TODO Raccourcir manches costumes                                 :couture:
 ** TODO Vérifier durée concession cimetière pour thierry
 ** DONE Inscription CMU => Accepté à partir du 01/12
 *** DONE Notes

@@ -183,7 +183,7 @@ Uploader
 **** TODO Orchestral work
 upload
 *** TODO Debussy
-**** TODO Fischer-Diesktrau - Mélodies
+**** DONE Fischer-aDiesktrau - Mélodies
      :PROPERTIES:
      :log:      -80
      :END:
@@ -219,7 +219,7 @@ Vérifier si avec les nouveau tags on a le meme hash
 **** DONE Well-tempered musician
 *** DONE Beethoven
 *** TODO Fauré
-**** TODO La Chapelle du Québec - Intégrale de la musique sacrée
+**** DONE La Chapelle du Québec - Intégrale de la musique sacrée
      :PROPERTIES:
      :log:      100
      :END:
