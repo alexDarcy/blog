@@ -1,4 +1,5 @@
 #+TITLE: Music
+#+TODO: TODO(t) | KILL(k) DONE(d)
 * TODO Bach 2000
 ** DONE Vol. 01 Sacred Cantatas
 *** DONE CD 01
@@ -181,6 +182,26 @@ Uploader
 **** DONE Violin concertos, ehnes
 **** TODO Orchestral work
 upload
+*** TODO Debussy
+**** TODO Fischer-Diesktrau - Mélodies
+     :PROPERTIES:
+     :log:      -80
+     :END:
+Erreurs avec Cueripper (secure): insufficient quality, ripper found 870 suspicious sectors
+Idem avec burst
+Track 16-19 ok => on upload la version avec EAC
+- [X] rip
+- [X] booklet
+- [X] Tags 
+**** TODO Rodd - Mélodies
+     :PROPERTIES:
+     :log:      50
+     :END:
+Log 50% (même après 2eme essai)
+Vérifier suspicious et uploader
+- [X] rip
+- [ ] booklet
+- [ ] tag
 *** TODO Bach
 **** KILL Bachakademie
 À uploader ?
@@ -197,12 +218,30 @@ re-taggé => message envoyé
 Vérifier si avec les nouveau tags on a le meme hash
 **** DONE Well-tempered musician
 *** DONE Beethoven
+*** TODO Fauré
+**** TODO La Chapelle du Québec - Intégrale de la musique sacrée
+     :PROPERTIES:
+     :log:      100
+     :END:
+- [X] rip
+- [X] booklet
+- [ ] tags
 *** TODO Britten
 **** KILL Concerto piano + violon
-*** Brahms
-uploader ??
-*** KILL Mozart (compact)
+*** TODO Brahms
+**** TODO Marlow - The Motets
+     :PROPERTIES:
+     :log:      100
+     :END:
+- [X] Rip
+- [X] booklet
+- [ ] tags
+**** TODO Intégrale
+*** TODO Mozart 
+**** KILL Mozart intégrale
 *** DONE Liszt
+*** TODO Malher
+**** KILL Ferrier, Walter - Das Lied von der Erder
 *** TODO Schubert
 **** TODO Masterworks
 uploader normalement
@@ -226,11 +265,22 @@ CD 1 pui 10-14
 
 *** Vivaldi
 uploader ?
+*** TODO Misc
+**** TODO Hendricks, Sir Davis - Berlioz - Les Nuits d'été, Britten - Les Illuminations
+Essai de correction avec cueripper: même problème
+Log 80%
+On upload avec EAC si 2 OK
+- [X] rip
+- [X] booklet
+- [ ] tag
+
 *** Wagner
 uploader ?
 ** Jazz
 *** Herbie hancock
 **** KILL Speak like a child
+*** Keith Jarrett
+**** KILL Jasmine 
 * OPS
 ** DONE Bach
 ** KILL Beethoven
