@@ -1879,7 +1879,7 @@ fct=Printparam={"shopname":"dallozbndpro","code":"004294","number":"222","pvgpus
 
 Dans firefox, erreur 404...
 * TODO Askhistorians
-** TODO Vérifier à la main [34/593]
+** TODO Vérifier à la main [42/593]
 *** KILL A Call to Arms: Propaganda, Public Opinion, and Newspapers in the Great War (Troy R. E. Paddock)
 *** KILL A Dark and Bloody Ground: The H\252rtgen Forest and the Roer River Dams, 1944-1945 (Edward G. Miller)
 *** KILL A Fatherly Eye: Indian Agents, Government Power, and Aboriginal Resistance in Ontario, 1918-1939 (Robin Jarvis Brownlie)
@@ -1913,14 +1913,14 @@ Dans firefox, erreur 404...
 *** KILL Alfred Deakin; A Biography (2 volume set) (J.A. La Nauze)
 *** KILL Aloha Betrayed: Native Hawaiian Resistance to American Colonialism (Noenoe K. Silva)
 *** KILL Ambivalent Conquests: Maya and Spaniard in Yucatan, 1517-1570 (Inga Clendinnen)
-*** TODO America Divided: The Civil War of the 1960s (Maurice Isserman)
-*** TODO America's Geisha Ally: Reimagining the Japanese Enemy (Naoko Shibusawa)
-*** TODO America's Longest War: The United States and Vietnam, 1950-1975 (George C. Herring)
-*** TODO American Babylon: Race and the Struggle for Postwar Oakland (Robert O. Self)
-*** TODO American Crucible: Race and Nation in the Twentieth Century (Gary Gerstle)
-*** TODO American Slavery: 1619-1877 (Peter Kolchin)
-*** TODO Americanos: Latin America's Struggle for Independence (John Charles Chasteen)
-*** TODO An Environmental History of the Middle Ages: The Crucible of Nature (John Aberth)
+*** KILL America Divided: The Civil War of the 1960s (Maurice Isserman)
+*** KILL America's Geisha Ally: Reimagining the Japanese Enemy (Naoko Shibusawa)
+*** KILL America's Longest War: The United States and Vietnam, 1950-1975 (George C. Herring)
+*** KILL American Babylon: Race and the Struggle for Postwar Oakland (Robert O. Self)
+*** KILL American Crucible: Race and Nation in the Twentieth Century (Gary Gerstle)
+*** KILL American Slavery: 1619-1877 (Peter Kolchin)
+*** KILL Americanos: Latin America's Struggle for Independence (John Charles Chasteen)
+*** KILL An Environmental History of the Middle Ages: The Crucible of Nature (John Aberth)
 *** TODO Ancient Egyptian Materials and Technology (Paul T. Nicholson)
 *** TODO Ancient Greece: A History in Eleven Cities (Paul Anthony Cartledge)
 *** TODO Ancient India: From the Origins to the XIII Century Ad (Marilia Albanese)

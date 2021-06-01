@@ -266,7 +266,7 @@ Ok sauf CD27: mettre nom à la main...
 *** Vivaldi
 uploader ?
 *** TODO Misc
-**** TODO Hendricks, Sir Davis - Berlioz - Les Nuits d'été, Britten - Les Illuminations
+**** DONE Hendricks, Sir Davis - Berlioz - Les Nuits d'été, Britten - Les Illuminations
 Essai de correction avec cueripper: même problème
 Log 80%
 On upload avec EAC si 2 OK
@@ -276,6 +276,10 @@ On upload avec EAC si 2 OK
 
 *** Wagner
 uploader ?
+*** Boulez
+**** TODO [#A] Complete Colombiu
+    requests.php?action=view&id=190037
+    20G
 ** Jazz
 *** Herbie hancock
 **** KILL Speak like a child

@@ -429,7 +429,7 @@ DEADLINE: <2020-10-31 Sat>
 :CATEGORY: 2017
 :END:
 *** TODO DP [0/3]
-SCHEDULED: <2021-06-02 Wed> DEADLINE: <2021-05-31 Mon>
+DEADLINE: <2021-06-05 Sat> SCHEDULED: <2021-06-03 Thu>
 **** TODO DCP 1 [0/6]
 ***** TODO DP 1
 ***** TODO DP 2
@@ -459,7 +459,7 @@ SCHEDULED: <2021-06-02 Wed> DEADLINE: <2021-06-05 Sat>
 :CATEGORY: 2017blanc
 :END:
 *** TODO DP [0/3]
-SCHEDULED: <2021-06-02 Wed> DEADLINE: <2021-05-31 Mon>
+DEADLINE: <2021-06-05 Sat> SCHEDULED: <2021-06-03 Thu>
 **** TODO DCP 1 [0/6]
 ***** TODO DP 1
 ***** TODO DP 2
@@ -2643,9 +2643,13 @@ SCHEDULED: <2021-06-04 Fri> DEADLINE: <2021-06-02 Wed>
 ** DONE Lire collège
 DEADLINE: <2020-12-15 Tue>
 ** DONE Fiches + abrégés des très bien classés
-** TODO DP + QI collège
+** DONE DP + QI collège
     DEADLINE: <2021-05-31 Mon>
     :LOGBOOK:
+    CLOCK: [2021-06-01 Tue 13:55]--[2021-06-01 Tue 14:14] =>  0:19
+    CLOCK: [2021-06-01 Tue 13:19]--[2021-06-01 Tue 13:24] =>  0:05
+    CLOCK: [2021-06-01 Tue 12:57]--[2021-06-01 Tue 13:16] =>  0:19
+    CLOCK: [2021-06-01 Tue 11:33]--[2021-06-01 Tue 12:38] =>  1:05
     CLOCK: [2021-06-01 Tue 00:21]--[2021-06-01 Tue 00:25] =>  0:04
     CLOCK: [2021-05-31 Mon 23:14]--[2021-05-31 Mon 23:46] =>  0:32
     CLOCK: [2021-05-31 Mon 19:48]--[2021-05-31 Mon 20:13] =>  0:25
@@ -2670,7 +2674,7 @@ CLOCK: [2021-02-18 Thu 21:54]--[2021-02-18 Thu 22:43] =>  0:49
   :CATEGORY: nephro
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-06-04 Fri> DEADLINE: <2021-05-30 Sun>
+DEADLINE: <2021-06-05 Sat> SCHEDULED: <2021-06-03 Thu>
 * TOUR1 Neurochirurgie :neurochir:
 ** DONE Lire chapitres "neurochir" du Masson
 DEADLINE: <2020-10-19 Mon> SCHEDULED: <2020-10-10 Sat>
@@ -2724,7 +2728,7 @@ CLOCK: [2020-06-20 Sat 17:18]--[2020-06-20 Sat 17:38] =>  0:20
 - [X] [[file:~/Downloads/ortho/359- CM-CC - Fractures des membres supérieurs - Sirveaux.pdf]]
 - [X] [[file:~/Downloads/ortho/361- CM-CC - Surveillance d’un malade sous plâtre - Sirveaux.pdf]]
 ** TODO Relire fiches
-SCHEDULED: <2021-06-02 Wed> DEADLINE: <2021-05-31 Mon>
+DEADLINE: <2021-06-05 Sat> SCHEDULED: <2021-06-03 Thu>
 :LOGBOOK:
 CLOCK: [2021-02-22 Mon 17:45]--[2021-02-22 Mon 18:13] =>  0:28
 :END:
@@ -2778,8 +2782,8 @@ CLOCK: [2021-02-24 Wed 21:36]--[2021-02-24 Wed 22:39] =>  1:03
   :CATEGORY: rhumato
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-06-01 Tue>
-* TOUR1 Santé publique
+SCHEDULED: <2021-06-07 Mon>
+* TODO Santé publique
 :PROPERTIES:
 :CATEGORY: santepub
 :END:
@@ -2792,6 +2796,21 @@ DEADLINE: <2020-12-03 Thu>
 *** DONE Chapitre 17-19
 *** DONE Chapitre 20-24
 *** DONE Chapitre 25-27
+** TODO DP et QI du collège
+   :LOGBOOK:
+   CLOCK: [2021-06-01 Tue 20:07]--[2021-06-01 Tue 20:36] =>  0:29
+   CLOCK: [2021-06-01 Tue 17:36]--[2021-06-01 Tue 17:49] =>  0:13
+   :END:
+*** DONE DP
+   DEADLINE: <2021-06-01 Tue>
+   :LOGBOOK:
+   CLOCK: [2021-06-01 Tue 22:56]--[2021-06-02 Wed 00:05] =>  1:09
+   CLOCK: [2021-06-01 Tue 21:57]--[2021-06-01 Tue 22:32] =>  0:35
+   CLOCK: [2021-06-01 Tue 21:26]--[2021-06-01 Tue 21:51] =>  0:25
+   :END:
+*** TODO Cas cliniques
+*** TODO Qi
+
 * Thérapeutique
 :PROPERTIES:
 :CATEGORY: therapeutique
@@ -2862,4 +2881,4 @@ DEADLINE: <2020-12-05 Sat>
   :CATEGORY: uro
   :END:
 ** TODO Relire fiches
-DEADLINE: <2021-06-05 Sat> SCHEDULED: <2021-06-01 Tue>
+SCHEDULED: <2021-06-07 Mon> DEADLINE: <2021-06-05 Sat>
