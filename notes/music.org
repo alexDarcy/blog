@@ -20,9 +20,9 @@
 ** TODO Vol. 02 Sacred Cantatas
 *** DONE CD 01
 *** DONE CD 02
-*** TODO CD 03
-*** TODO CD 04
-*** TODO CD 05
+*** DONE CD 03
+*** DONE CD 04
+*** DONE CD 05
 *** TODO CD 06
 *** TODO CD 07
 *** TODO CD 08
@@ -193,7 +193,7 @@ Track 16-19 ok => on upload la version avec EAC
 - [X] rip
 - [X] booklet
 - [X] Tags 
-**** TODO Rodd - Mélodies
+**** DONE Rodd - Mélodies
      :PROPERTIES:
      :log:      50
      :END:
@@ -229,7 +229,7 @@ Vérifier si avec les nouveau tags on a le meme hash
 *** TODO Britten
 **** KILL Concerto piano + violon
 *** TODO Brahms
-**** TODO Marlow - The Motets
+**** DONE Marlow - The Motets
      :PROPERTIES:
      :log:      100
      :END:

@@ -25,6 +25,10 @@ Simulation fite 10/2019 : seuil trop élevé : 18 000€ sur l'année (ou 13 000
 **** DONE Relance le [2020-07-06 Mon]
 Car laure a déjà reçu son échange
 A priori ok, cf notmuch:id:817091247.13495.1594457372183.JavaMail.bea@crmcctr01
+
+** TODO Retour apdatateur sata-ide
+   DEADLINE: <2021-06-04 Fri>
+   
 * Projets
 ** TODO org-maitred: générateur de menus
 *** TODO Formatter recettes existantes (cf package org-chef)
