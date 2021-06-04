@@ -1878,6 +1878,8 @@ Parameters : (changer le nombre de pages)
 fct=Printparam={"shopname":"dallozbndpro","code":"004294","number":"222","pvgpuserid":"33751","referer":"https://dallozbndpro-pvgpsla6-dalloz-bibliotheque-fr.bases-doc.univ-lorraine.fr/fr/pvPageH5B.asp?puc=004294&nu=222&pa=1","page":"4|5|6|7|296|299"}
 
 Dans firefox, erreur 404...
+** TODO Misc
+**** TODO Oxford ancient egypt, epub
 * TODO Askhistorians
 ** TODO Vérifier à la main [42/593]
 *** KILL A Call to Arms: Propaganda, Public Opinion, and Newspapers in the Great War (Troy R. E. Paddock)

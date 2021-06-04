@@ -140,14 +140,14 @@ rclone sync pi:/media/books/ /media/books/
 # Save torrents and config files(encrypted)
 # Warning : --include implyies everything is excluded so we need /** at the end
 # Don't forget the / in the folder too..
-set piLocal ~/backups/raspberry-local/
+set tmp ~/backups/raspberry-tmp/
 rclone sync --include "/home/alex/Downloads/torrents/**" \
     --include "/home/alex/Downloads/session/**" \
     --include "/usr/local/etc/**"  \
     --include "/etc/**"  \
-    --include "/boot/loader.conf"  pi:/ $piLocal
+    --include "/boot/loader.conf"  pi:/ $tmp
 # Encrypt it
-duplicity $piLocal file:///home/alex/backups/raspberry
+duplicity $tmp file:///home/alex/backups/raspberry
 
 #------- Local backup (encrypted) ----------------
 # 1. Create encrypted local version
@@ -177,6 +177,7 @@ rclone -L sync $root/hubic mega:
 
 #--- Passphrase
 /usr/local/bin/pass git push
+
   #+end_src 
 * Sci-hub et DNS resolv.conf
 ** Sous linux

@@ -4729,3 +4729,18 @@ Endurance
      :duration: 15min
      :END:
      Trop chaud !
+
+*** 2021-06-04 Friday
+**** Parkour
+   Passe-muraille :
+   - cat hang (each side) : 10
+   - top out (each side) : 1
+   - cat hang leg press (each side) : 6 (!)
+   - cat hang pull-up (each side) : 6 (!)
+   - knee raises (each side) : 5
+   - passe-muraille: 23 (!!!) => amélioration de la technique, meilleure synchronisation donc fatigue diminuée. Pas forcément besoin de lever le genou très haut apparement
+
+*** 2021-06-05 Saturday
+**** Handstand
+    StW 
+    BtW 4essais
