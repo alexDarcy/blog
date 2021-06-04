@@ -115,23 +115,69 @@ MAILTO=""
 
 #+end_src
 * backup
-#+begin_src shell
+  #+begin_src 
 #!/usr/local/bin/fish
+# 3 steps procedure :
+#   1. Backup from the pi using rsync
+#   2. Encrypt cofig files (rasperry + local) using duplicity
+#   2. Backup to the cloud using rsync
+#
+# Backup data either in clear or encrypted
+# - google -> to google drive (clear)
+# - hubic -> to Hubic and Mega(clear)
+# - local config files -> google and hubic (encrypted)
+# - raspberry config files -> google and hubic (encrypted)
+# - local rtorrent -> google and hubic (encrypted)
+# - raspberry rtorrent -> google and hubic (encrypted)
 set root "/home/alex/backups"
 
+# Duplicity needs a passphrase. Use pass "backup/duplicity"
+set -x PASSPHRASE (cat /home/alex/.pass.txt)
+
+# #------- Raspberry: backup -----
+# Save books
+rclone sync pi:/media/books/ /media/books/
+# Save torrents and config files(encrypted)
+# Warning : --include implyies everything is excluded so we need /** at the end
+# Don't forget the / in the folder too..
+set piLocal ~/backups/raspberry-local/
+rclone sync --include "/home/alex/Downloads/torrents/**" \
+    --include "/home/alex/Downloads/session/**" \
+    --include "/usr/local/etc/**"  \
+    --include "/etc/**"  \
+    --include "/boot/loader.conf"  pi:/ $piLocal
+# Encrypt it
+duplicity $piLocal file:///home/alex/backups/raspberry
+
+#------- Local backup (encrypted) ----------------
+# 1. Create encrypted local version
+#
+# This requires setenv PASSPHRASE in doas.conf !!
+# Due to permission, we need separate folder for doas command
+doas duplicity --include /usr/local/etc/ --include /etc/ \
+    --include /boot/loader.conf --exclude '**' \
+    / file:///home/alex/backups/desktop/root
+
+duplicity --include /home/alex/Downloads/torrents \
+    --include /home/alex/Downloads/session \
+    --exclude '**'  \
+    /home/alex/Downloads file:///home/alex/backups/desktop/rtorrent
+
+#------------ Backup all encnrypted and non encrypted
+
+# Backup is then made with rsync because there is a symlink
+# desktop -> google/desktop
+# desktop -> hubic /desktop
+#--- All
 # Google drive and mega can be managed with rclone
 rclone -L sync --exclude 'Coopétition/' --drive-import-formats .xlsx $root/google/  google:
 rclone -L sync $root/google backblaze:unixStorage
 rclone -L sync $root/hubic hubic:
 rclone -L sync $root/hubic mega:
-# Raspberry
-rclone sync pi:/media/books/ /media/books/
-rclone sync pi:Downloads/torrents/ ~/Downloads/torrents-mam/
-rclone sync pi:Downloads/session/ ~/Downloads/session-mam/
-# Passphrase
-/usr/local/bin/pass git push
 
-#+end_src
+#--- Passphrase
+/usr/local/bin/pass git push
+  #+end_src 
 * Sci-hub et DNS resolv.conf
 ** Sous linux
 On edite directement /etc/resolv.conf
