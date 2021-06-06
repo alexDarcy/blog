@@ -281,7 +281,7 @@ SCHEDULED: <2021-05-14 Fri> DEADLINE: <2021-05-16 Sun>
 CLOCK: [2021-05-16 Sun 22:07]--[2021-05-16 Sun 22:40] =>  0:33
 CLOCK: [2021-05-16 Sun 15:01]--[2021-05-16 Sun 16:06] =>  1:05
 :END:
-*** TODO DCP 2 [4/6]
+*** TODO DCP 2 [6/6]
 **** DONE Dossier 7
 DEADLINE: <2021-05-22 Sat>
 :LOGBOOK:
@@ -313,10 +313,16 @@ DEADLINE: <2021-05-22 Sat>
      CLOCK: [2021-05-30 Sun 12:15]--[2021-05-30 Sun 12:58] =>  0:43
      CLOCK: [2021-05-30 Sun 10:59]--[2021-05-30 Sun 12:04] =>  1:05
      :END:
-**** TODO Dossier 11
-**** TODO Dossier 12
+**** DONE Dossier 11
+     DEADLINE: <2021-06-05 Sat>
+     :LOGBOOK:
+     CLOCK: [2021-06-05 Sat 21:51]--[2021-06-05 Sat 22:28] =>  0:37
+     CLOCK: [2021-06-05 Sat 18:51]--[2021-06-05 Sat 19:59] =>  1:08
+     :END:
+**** DONE Dossier 12
+     DEADLINE: <2021-06-05 Sat>
 *** TODO DCP 3 [0/6]
-    DEADLINE: <2021-06-06 Sun> SCHEDULED: <2021-06-05 Sat>
+    SCHEDULED: <2021-06-07 Mon> DEADLINE: <2021-06-07 Mon>
 **** TODO Dossier 13
 **** TODO Dossier 14
 **** TODO Dossier 15
@@ -392,8 +398,13 @@ DEADLINE: <2020-10-31 Sat>
 *** TODO LCA
 **** DONE Article 1 
      DEADLINE: <2021-05-29 Sat>
-**** TODO Article 2
-=======
+**** DONE Article 2
+     DEADLINE: <2021-06-05 Sat>
+     :LOGBOOK:
+     CLOCK: [2021-06-06 Sun 13:03]--[2021-06-06 Sun 13:15] =>  0:12
+     CLOCK: [2021-06-06 Sun 12:02]--[2021-06-06 Sun 12:40] =>  0:38
+     CLOCK: [2021-06-05 Sat 23:17]--[2021-06-06 Sun 00:03] =>  0:46
+     :END:
 ** DONE 2018 [3/3]
 *** DONE LCA
     DEADLINE: <2021-05-08 Sat>
@@ -438,6 +449,14 @@ DEADLINE: <2020-10-31 Sat>
 *** TODO DP [1/3]
     DEADLINE: <2021-06-05 Sat> SCHEDULED: <2021-06-03 Thu>
     :LOGBOOK:
+    CLOCK: [2021-06-06 Sun 19:06]--[2021-06-06 Sun 21:59] =>  2:53
+    CLOCK: [2021-06-06 Sun 18:16]--[2021-06-06 Sun 18:35] =>  0:19
+    CLOCK: [2021-06-05 Sat 18:05]--[2021-06-05 Sat 18:26] =>  0:21
+    CLOCK: [2021-06-05 Sat 16:45]--[2021-06-05 Sat 17:50] =>  1:05
+    CLOCK: [2021-06-05 Sat 14:49]--[2021-06-05 Sat 15:09] =>  0:20
+    CLOCK: [2021-06-05 Sat 11:34]--[2021-06-05 Sat 11:55] =>  0:21
+    CLOCK: [2021-06-05 Sat 10:45]--[2021-06-05 Sat 10:55] =>  0:10
+    CLOCK: [2021-06-05 Sat 10:04]--[2021-06-05 Sat 10:37] =>  0:33
     CLOCK: [2021-06-04 Fri 23:36]--[2021-06-04 Fri 23:50] =>  0:14
     CLOCK: [2021-06-04 Fri 23:06]--[2021-06-04 Fri 23:10] =>  0:04
     CLOCK: [2021-06-04 Fri 22:18]--[2021-06-04 Fri 22:40] =>  0:22
@@ -464,12 +483,12 @@ DEADLINE: <2020-10-31 Sat>
 ***** DONE DP 4
 ***** DONE DP 5
 ***** DONE DP 6
-**** TODO DCP 2 [1/6]
+**** TODO DCP 2 [5/6]
 ***** DONE DP 1
-***** TODO DP 2
-***** TODO DP 3
-***** TODO DP 4
-***** TODO DP 5
+***** DONE DP 2
+***** DONE DP 3
+***** DONE DP 4
+***** DONE DP 5
 ***** TODO DP 6
 **** TODO DCP 3 [0/6]
 ***** TODO DP 1
@@ -479,14 +498,14 @@ DEADLINE: <2020-10-31 Sat>
 ***** TODO DP 5
 ***** TODO DP 6
 *** TODO QI
-SCHEDULED: <2021-06-03 Thu> DEADLINE: <2021-06-05 Sat>
+SCHEDULED: <2021-06-06 Sun> DEADLINE: <2021-06-08 Tue>
 *** DONE LCA
 ** TODO 2017 blancs [0/2]
 :PROPERTIES:
 :CATEGORY: 2017blanc
 :END:
 *** TODO DP [0/3]
-SCHEDULED: <2021-06-06 Sun> DEADLINE: <2021-06-05 Sat>
+DEADLINE: <2021-06-08 Tue> SCHEDULED: <2021-06-06 Sun>
 **** TODO DCP 1 [0/6]
 ***** TODO DP 1
 ***** TODO DP 2
@@ -1088,7 +1107,7 @@ DEADLINE: <2021-05-12 Wed>
   :CATEGORY: endocrino
   :END:
 ** TODO Relire fiches
-DEADLINE: <2021-06-08 Tue> SCHEDULED: <2021-06-06 Sun>
+DEADLINE: <2021-06-08 Tue>
 * Garde
 ** Urgences
 *** TODO Positionnement ECG
@@ -1109,12 +1128,13 @@ Uro
   :CATEGORY: gynéco
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-06-06 Sun> DEADLINE: <2021-06-05 Sat>
+DEADLINE: <2021-06-08 Tue>
 * Génétique
   :PROPERTIES:
   :CATEGORY: génétique
   :END:
 ** TODO Exercices
+   DEADLINE: <2021-06-10 Thu>
 Livret à la fin
 Source: https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gntique-mdicale
 * Gériatrie :geria:
@@ -2711,7 +2731,7 @@ CLOCK: [2021-02-18 Thu 21:54]--[2021-02-18 Thu 22:43] =>  0:49
   :CATEGORY: nephro
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-06-06 Sun> DEADLINE: <2021-06-05 Sat>
+DEADLINE: <2021-06-08 Tue>
 * TOUR1 Neurochirurgie :neurochir:
 ** DONE Lire chapitres "neurochir" du Masson
 DEADLINE: <2020-10-19 Mon> SCHEDULED: <2020-10-10 Sat>
@@ -2765,7 +2785,7 @@ CLOCK: [2020-06-20 Sat 17:18]--[2020-06-20 Sat 17:38] =>  0:20
 - [X] [[file:~/Downloads/ortho/359- CM-CC - Fractures des membres supérieurs - Sirveaux.pdf]]
 - [X] [[file:~/Downloads/ortho/361- CM-CC - Surveillance d’un malade sous plâtre - Sirveaux.pdf]]
 ** TODO Relire fiches
-SCHEDULED: <2021-06-06 Sun> DEADLINE: <2021-06-05 Sat>
+DEADLINE: <2021-06-08 Tue>
 :LOGBOOK:
 CLOCK: [2021-02-22 Mon 17:45]--[2021-02-22 Mon 18:13] =>  0:28
 :END:
@@ -2918,4 +2938,4 @@ DEADLINE: <2020-12-05 Sat>
   :CATEGORY: uro
   :END:
 ** TODO Relire fiches
-SCHEDULED: <2021-06-07 Mon> DEADLINE: <2021-06-05 Sat>
+SCHEDULED: <2021-06-09 Wed> DEADLINE: <2021-06-08 Tue>

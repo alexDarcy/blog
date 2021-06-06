@@ -297,7 +297,7 @@ uploader ?
 ** Malher
 *** TOLISTEN Klemperer, Mahler: Das Lied von der Erde
 *** TOLISTEN Schubert: Winterreise, D911
-*** TODO Janowitz, Karajan - Strauss: Vier Letzte Lieder
+*** TOLISTEN Janowitz, Karajan - Strauss: Vier Letzte Lieder
 4. Schumann: Dichterliebe, Op.48
 5. Schubert: Die Schöne Müllerin, D795
 6. Mahler: Rückertlieder

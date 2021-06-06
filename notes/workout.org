@@ -4700,7 +4700,6 @@ Endurance
    Compression : 9-7-8
 
 ** 2021-06 June
-
 *** 2021-06-01 Tuesday
 **** Handstand
      StW 41-31
@@ -4744,3 +4743,24 @@ Endurance
 **** Handstand
     StW 
     BtW 4essais
+**** Handstand
+    StW 35-37
+    BtW 2-3-415(!)-17(!!)
+**** Workout
+   RTO : 28-18
+   Skin-the-cat : 3
+   L-sit : 9-7
+   Muscle-upi l-sit bras tendus : 3x1 - 2x1 - 2x1
+   Pistols (assisted) : 3x3
+   Extension (lower-back) : 3x22
+   Front-lever row (tuck) : 3+2 - 2+2 + 2+2
+   Planche on rings (tuck): 3+2 - 2+2 - 3+2
+   Norwegian curls: 3x4
+   Compression : 8-7-7
+
+*** 2021-06-06 Sunday
+**** Running
+     :PROPERTIES:
+     :duration: 35min
+     :misc:     avec pancho
+     :END:

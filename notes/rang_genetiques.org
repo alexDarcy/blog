@@ -2,13 +2,13 @@
 À confirmer selon disponibilités mais selon les années précédentes, il y aurait :
 
 Atteignable (< 600)
-- Amiens
-- Besançon
-- Nancy
-- Reims
+- Amiens: pas ok pour laure
+- Besançon: ok pour laure
+- Nancy: non pour laure
+- Reims: non pour laure
     
 Trop dur en 2020 (> 600):
-- Anger
-- Dijon
-- Marseille
-- Tour
+- Angers: ok pour laure
+- Dijon: passable pour laure
+- Marseille: ok pour laure
+- Tour: non pour laure
