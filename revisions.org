@@ -19,7 +19,7 @@
 | \_  Annales d'oral Nancy |        | 2:38 |
 #+END:
 
-* TODO Abrégé des très bien  classés [7/30]                          :abrégé:
+* TODO Abrégé des très bien  classés [8/30]                          :abrégé:
 :PROPERTIES:
 :CATEGORY: ATBC
 :END:
@@ -206,7 +206,12 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 ** TODO Oncologie
 ** TODO Pharmaco
 ** TODO Réa
-** TODO Ortho
+** DONE Ortho
+   DEADLINE: <2021-06-07 Mon>
+   :LOGBOOK:
+   CLOCK: [2021-06-07 Mon 17:03]--[2021-06-07 Mon 17:50] =>  0:47
+   CLOCK: [2021-06-07 Mon 16:00]--[2021-06-07 Mon 16:35] =>  0:35
+   :END:
 ** TODO LCA
 * Anesthésie-Rea :anesth:
 PDF [[file:~/backups/hubic/Public/Cours/Medecine/referentiels/Anesth_college_2018.pdf][file:~/backups/hubic/Public/Cours/Medecine/referentiels/Anesth_college_2018.pdf]]
@@ -447,7 +452,7 @@ DEADLINE: <2020-10-31 Sat>
 :CATEGORY: 2017
 :END:
 *** TODO DP [2/3]
-    DEADLINE: <2021-06-05 Sat> SCHEDULED: <2021-06-03 Thu>
+    DEADLINE: <2021-06-08 Tue> SCHEDULED: <2021-06-05 Sat>
     :LOGBOOK:
     CLOCK: [2021-06-07 Mon 15:02]--[2021-06-07 Mon 15:28] =>  0:26
     CLOCK: [2021-06-07 Mon 12:21]--[2021-06-07 Mon 13:20] =>  0:59
@@ -501,7 +506,11 @@ DEADLINE: <2020-10-31 Sat>
 ***** TODO DP 5
 ***** TODO DP 6
 *** TODO QI
-SCHEDULED: <2021-06-06 Sun> DEADLINE: <2021-06-08 Tue>
+SCHEDULED: <2021-06-07 Mon> DEADLINE: <2021-06-08 Tue>
+:LOGBOOK:
+CLOCK: [2021-06-07 Mon 20:22]--[2021-06-07 Mon 21:44] =>  1:22
+CLOCK: [2021-06-07 Mon 18:54]--[2021-06-07 Mon 19:13] =>  0:19
+:END:
 *** DONE LCA
 ** TODO 2017 blancs [0/2]
 :PROPERTIES:
