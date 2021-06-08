@@ -23,8 +23,8 @@
 *** DONE CD 03
 *** DONE CD 04
 *** DONE CD 05
-*** TODO CD 06
-*** TODO CD 07
+*** DONE CD 06
+*** DONE CD 07
 *** TODO CD 08
 *** TODO CD 09
 *** TODO CD 10
@@ -286,6 +286,87 @@ uploader ?
 *** Keith Jarrett
 **** KILL Jasmine 
 * OPS
+** Classical
+*** TODO Albeniz
+**** TODO The music of isaac albeniz
+Uploader
+*** TODO Alkan
+**** KILL Organ works
+*** TODO Bartok
+**** TODO Violin concertos, ehnes
+**** TODO Orchestral work
+upload
+*** TODO Debussy
+**** TODO Fischer-aDiesktrau - Mélodies
+     :PROPERTIES:
+     :log:      -80
+     :END:
+Erreurs avec Cueripper (secure): insufficient quality, ripper found 870 suspicious sectors
+Idem avec burst
+Track 16-19 ok => on upload la version avec EAC
+- [X] rip
+- [X] booklet
+- [X] Tags 
+**** TODO Rodd - Mélodies
+     :PROPERTIES:
+     :log:      50
+     :END:
+Log 50% (même après 2eme essai)
+Vérifier suspicious et uploader
+- [X] rip
+- [ ] booklet
+- [ ] tag
+*** TODO Bach
+**** KILL Bachakademie
+À uploader ?
+**** DONE Bach 2000
+**** Well-tempered musician
+*** DONE Beethoven
+*** TODO Fauré
+**** DONE La Chapelle du Québec - Intégrale de la musique sacrée
+     :PROPERTIES:
+     :log:      100
+     :END:
+- [X] rip
+- [X] booklet
+- [ ] tags
+*** TODO Britten
+**** Concerto piano + violon
+*** TODO Brahms
+**** TODO Marlow - The Motets
+     :PROPERTIES:
+     :log:      100
+     :END:
+- [X] Rip
+- [X] booklet
+- [ ] tags
+**** TODO Intégrale
+*** TODO Mozart 
+**** KILL Mozart intégrale
+*** DONE Liszt
+*** TODO Malher
+*** TODO Schubert
+**** TODO Masterworks
+*** TODO Tchaikovsky
+****  LSO & Gergiev - 2012 - Tchaikovsky Symphonies 1-3 (WEB) (FLAC) ?
+*** Vivaldi
+    uploader ?
+*** TODO Misc
+**** TODO Hendricks, Sir Davis - Berlioz - Les Nuits d'été, Britten - Les Illuminations
+Essai de correction avec cueripper: même problème
+Log 80%
+On upload avec EAC si 2 OK
+- [X] rip
+- [X] booklet
+- [ ] tag
+
+*** Wagner
+uploader ?
+*** Boulez
+**** TODO [#A] Complete Colombiu
+    requests.php?action=view&id=190037
+    20G
+
 ** DONE Bach
 ** KILL Beethoven
 ** DONE Liszt

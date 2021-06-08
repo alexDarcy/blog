@@ -1,5 +1,5 @@
 #+TITLE: Todo
-
+#+TODO: TODO(t) | DONE(d) KILL(k)
 * Autres :misc:
 ** TODO Ourlet T-shirt [1/2]
 ** TODO Réparer vélo maman
@@ -26,7 +26,7 @@ Simulation fite 10/2019 : seuil trop élevé : 18 000€ sur l'année (ou 13 000
 Car laure a déjà reçu son échange
 A priori ok, cf notmuch:id:817091247.13495.1594457372183.JavaMail.bea@crmcctr01
 
-** TODO Retour apdatateur sata-ide
+** DONE Retour apdatateur sata-ide
    DEADLINE: <2021-06-04 Fri>
    
 * Projets
@@ -1943,7 +1943,7 @@ DEADLINE: <2021-06-06 Sun> SCHEDULED: <2021-05-18 Tue>
     Tables OK, 3 chaises OK
 *** TODO Lasure RdC
 ** TODO Repeindre chaises :été2019:
-** TODO Bouygues : négocier pour baisse
+** DONE Bouygues : négocier pour baisse
 DEADLINE: <2021-05-15 Sat> SCHEDULED: <2021-05-14 Fri>
 ** DONE Désherber (mousse + herbes) :été2019:
 ** TODO Repeindre radiateurs :été2019:
