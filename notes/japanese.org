@@ -2,12 +2,13 @@
 * Visual novel
 ** STARTED Totono
 * Novel
-** TODO 黒魔女さんが通
+** TODO 黒魔女さんが通る!! 
 *** DONE 〈ほんとうにあったこわい話〉
     :PROPERTIES:
     :char:     554
     :END:
-
+*** １　黒魔女早朝トレーニング！
+    Jusque 　目を思いっきり開くと、視界いっぱいに暑苦しい黒革のフードがひろがる。
 # Local Variables:
 # current-language-environment: "Japanese"
 # End:

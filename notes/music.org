@@ -25,7 +25,7 @@
 *** DONE CD 05
 *** DONE CD 06
 *** DONE CD 07
-*** TODO CD 08
+*** DONE CD 08
 *** TODO CD 09
 *** TODO CD 10
 *** TODO CD 11
@@ -97,7 +97,7 @@
 *** TODO CD 14
 
 ** TODO Vol. 07 Motets, Chorales, Songs
-*** TODO CD 01
+*** DONE CD 01
 *** TODO CD 02
 *** TODO CD 03
 *** TODO CD 04
