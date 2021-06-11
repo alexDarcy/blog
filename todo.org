@@ -123,7 +123,11 @@ Requirements : food.csv, nutrient.csv, food_nutrients.csv
 3. Convertir l'Id nutrient (nutrient_nbr = nutrient_id) en son nom (nutrient_nbr)avec nutrient.csv
 * Blog :blog:
 ** TODO [[file:../../../../../home/alex/projects/blog/notes/Emacs_tips.org][Emacs_tips]] :blog:
-** TODO Freebsd 2020
+** TODO Emacs from scratch
+*** TODO Magit -> vc
+    C-x v v = "next action"
+    Use keychain-envirnoment and (keychain-refresh-environment) to avoid a  ssh-askpass error
+   ** TODO Freebsd 2020
 *** Nvidia 950 : 
 /etc/rc.conf:
 dbus_enable="YES"

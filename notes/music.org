@@ -197,9 +197,6 @@
  re-taggé => message envoyé
  Vérifier si avec les nouveau tags on a le meme hash
 ***** DONE OPS
-**** TODO Well-tempered musician
-***** TODO Red
-***** TODO OPS
 *** TODO Bartok
 **** TODO Violin concertos, ehnes
 ***** DONE Red
@@ -272,7 +269,9 @@ On upload avec EAC si 2 OK
 - [X] rip
 - [X] booklet
 - [ ] tag
-
+**** DONE Well-tempered musician
+***** DONE Red
+***** DONE OPS
 *** TODO Mozart 
 **** KILL Mozart intégrale
 *** TODO Schubert
