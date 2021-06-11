@@ -332,10 +332,16 @@ DEADLINE: <2021-05-22 Sat>
      :END:
 **** DONE Dossier 12
      DEADLINE: <2021-06-05 Sat>
-*** TODO DCP 3 [0/6]
+*** TODO DCP 3 [2/6]
     DEADLINE: <2021-06-10 Thu>
-**** TODO Dossier 13
-**** TODO Dossier 14
+    :LOGBOOK:
+    CLOCK: [2021-06-11 Fri 23:42]--[2021-06-12 Sat 00:14] =>  0:32
+    CLOCK: [2021-06-11 Fri 23:20]--[2021-06-11 Fri 23:30] =>  0:10
+    CLOCK: [2021-06-11 Fri 22:15]--[2021-06-11 Fri 22:52] =>  0:37
+    CLOCK: [2021-06-11 Fri 21:44]--[2021-06-11 Fri 22:07] =>  0:23
+    :END:
+**** DONE Dossier 13
+**** DONE Dossier 14
 **** TODO Dossier 15
 **** TODO Dossier 16
 **** TODO Dossier 17
@@ -691,7 +697,7 @@ CLOCK: [2021-05-20 Thu 18:18]--[2021-05-20 Thu 18:39] =>  0:21
 CLOCK: [2021-05-20 Thu 15:50]--[2021-05-20 Thu 16:33] =>  0:43
 :END:
 *** DONE LCA
-** TODO LCA [5/7]
+** TODO LCA [6/7]
 :PROPERTIES:
 :CATEGORY: lca
 :END:
@@ -704,8 +710,13 @@ SCHEDULED: <2021-01-09 Sat> DEADLINE: <2021-01-09 Sat>
 *** DONE 2012
 DEADLINE: <2021-02-03 Wed>
 *** DONE 2011
-*** TODO 2010
+*** DONE 2010
     DEADLINE: <2021-06-11 Fri>
+    :LOGBOOK:
+    CLOCK: [2021-06-11 Fri 19:42]--[2021-06-11 Fri 20:02] =>  0:20
+    CLOCK: [2021-06-11 Fri 18:43]--[2021-06-11 Fri 19:12] =>  0:29
+    CLOCK: [2021-06-11 Fri 17:19]--[2021-06-11 Fri 17:58] =>  0:39
+    :END:
 *** TODO 2009
     DEADLINE: <2021-06-12 Sat>
 ** DONE Interfac décembre

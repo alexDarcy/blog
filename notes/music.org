@@ -262,6 +262,9 @@ Vérifier suspicious et uploader
 *** TODO Malher
 **** KILL Ferrier, Walter - Das Lied von der Erder
 *** TODO Misc
+**** TODO Celibidache
+***** KILL Red
+***** TODO ops ?
 **** DONE Hendricks, Sir Davis - Berlioz - Les Nuits d'été, Britten - Les Illuminations
 Essai de correction avec cueripper: même problème
 Log 80%
@@ -272,6 +275,10 @@ On upload avec EAC si 2 OK
 **** DONE Well-tempered musician
 ***** DONE Red
 ***** DONE OPS
+**** KILL The art of Seiji Ozama
+***** KILL OPS
+***** KILL red
+*** 
 *** TODO Mozart 
 **** KILL Mozart intégrale
 *** TODO Schubert
