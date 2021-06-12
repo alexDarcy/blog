@@ -19,7 +19,7 @@
 | \_  Annales d'oral Nancy |        | 2:38 |
 #+END:
 
-* TODO Abrégé des très bien  classés [10/30]                         :abrégé:
+* TODO Abrégé des très bien  classés [11/30]                         :abrégé:
 :PROPERTIES:
 :CATEGORY: ATBC
 :END:
@@ -136,8 +136,11 @@ CLOCK: [2021-04-24 Sat 12:23]--[2021-04-24 Sat 12:50] =>  0:27
 ** TODO Pneumo
 ** TODO Cardio
 ** TODO Rhumato
-** TODO Endocrino
+** DONE Endocrino
    DEADLINE: <2021-06-11 Fri>
+   :LOGBOOK:
+   CLOCK: [2021-06-12 Sat 10:56]--[2021-06-12 Sat 11:24] =>  0:28
+   :END:
 ** TODO Nephro
 ** TODO Nutrition
 ** DONE HGE + chir digestive
@@ -332,9 +335,13 @@ DEADLINE: <2021-05-22 Sat>
      :END:
 **** DONE Dossier 12
      DEADLINE: <2021-06-05 Sat>
-*** TODO DCP 3 [2/6]
+*** TODO DCP 3 [5/6]
     DEADLINE: <2021-06-10 Thu>
     :LOGBOOK:
+    CLOCK: [2021-06-12 Sat 19:58]--[2021-06-12 Sat 20:35] =>  0:37
+    CLOCK: [2021-06-12 Sat 19:48]--[2021-06-12 Sat 19:56] =>  0:08
+    CLOCK: [2021-06-12 Sat 12:49]--[2021-06-12 Sat 13:17] =>  0:28
+    CLOCK: [2021-06-12 Sat 11:40]--[2021-06-12 Sat 12:22] =>  0:42
     CLOCK: [2021-06-11 Fri 23:42]--[2021-06-12 Sat 00:14] =>  0:32
     CLOCK: [2021-06-11 Fri 23:20]--[2021-06-11 Fri 23:30] =>  0:10
     CLOCK: [2021-06-11 Fri 22:15]--[2021-06-11 Fri 22:52] =>  0:37
@@ -342,9 +349,9 @@ DEADLINE: <2021-05-22 Sat>
     :END:
 **** DONE Dossier 13
 **** DONE Dossier 14
-**** TODO Dossier 15
-**** TODO Dossier 16
-**** TODO Dossier 17
+**** DONE Dossier 15
+**** DONE Dossier 16
+**** DONE Dossier 17
 **** TODO Dossier 18
 *** TODO QI
     DEADLINE: <2021-06-11 Fri>
@@ -697,7 +704,7 @@ CLOCK: [2021-05-20 Thu 18:18]--[2021-05-20 Thu 18:39] =>  0:21
 CLOCK: [2021-05-20 Thu 15:50]--[2021-05-20 Thu 16:33] =>  0:43
 :END:
 *** DONE LCA
-** TODO LCA [6/7]
+** TODO LCA [7/7]
 :PROPERTIES:
 :CATEGORY: lca
 :END:
@@ -717,8 +724,14 @@ DEADLINE: <2021-02-03 Wed>
     CLOCK: [2021-06-11 Fri 18:43]--[2021-06-11 Fri 19:12] =>  0:29
     CLOCK: [2021-06-11 Fri 17:19]--[2021-06-11 Fri 17:58] =>  0:39
     :END:
-*** TODO 2009
+*** DONE 2009
     DEADLINE: <2021-06-12 Sat>
+    :LOGBOOK:
+    CLOCK: [2021-06-12 Sat 17:02]--[2021-06-12 Sat 17:16] =>  0:14
+    CLOCK: [2021-06-12 Sat 16:22]--[2021-06-12 Sat 16:30] =>  0:08
+    CLOCK: [2021-06-12 Sat 14:59]--[2021-06-12 Sat 15:20] =>  0:21
+    CLOCK: [2021-06-12 Sat 14:08]--[2021-06-12 Sat 14:42] =>  0:34
+    :END:
 ** DONE Interfac décembre
 :PROPERTIES:
 :CATEGORY: inter-fac
@@ -1174,8 +1187,11 @@ DEADLINE: <2021-05-12 Wed>
   :PROPERTIES:
   :CATEGORY: endocrino
   :END:
-** TODO Relire fiches
+** DONE Relire fiches
    DEADLINE: <2021-06-11 Fri>
+   :LOGBOOK:
+   CLOCK: [2021-06-12 Sat 17:36]--[2021-06-12 Sat 18:12] =>  0:36
+   :END:
 * Garde
 ** Urgences
 *** TODO Positionnement ECG
@@ -1201,8 +1217,11 @@ Uro
   :PROPERTIES:
   :CATEGORY: génétique
   :END:
-** TODO Exercices
+** DONE Exercices
    DEADLINE: <2021-06-12 Sat>
+   :LOGBOOK:
+   CLOCK: [2021-06-12 Sat 18:17]--[2021-06-12 Sat 19:01] =>  0:44
+   :END:
 Livret à la fin
 Source: https://www-elsevierelibrary-fr.bases-doc.univ-lorraine.fr/epubreader/gntique-mdicale
 * TOUR1 Gériatrie                                                     :geria:
