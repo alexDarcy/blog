@@ -8,7 +8,7 @@
     :char:     554
     :END:
 *** １　黒魔女早朝トレーニング！
-    Jusque 目めがくらみます
+    Jusque あたしは使命をはたさなくちゃならないの。
 # Local Variables:
 # current-language-environment: "Japanese"
 # End:
