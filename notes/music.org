@@ -315,6 +315,7 @@ uploader ?
 **** KILL Speak like a child
 *** Keith Jarrett
 **** KILL Jasmine 
+*** KILL The smithsonian anthology
 * Diapason d'or
 ** DONE Benjamin Grosvenor - Liszt [2021] [Album]
 ** DONE Dietrich Fischer-Dieskau & Gerald Moore - Winterreise

@@ -2,6 +2,12 @@
 #+OPTIONS: num:nil
 #+OPTIONS: toc:nil
 #+OPTIONS: prop:t
+
+* DONE The Irishman
+  :PROPERTIES:
+  :Year:     2019
+  :rating:   4
+  :END:
 * DONE The Lighthouse (2019)
 :PROPERTIES:
 :Director: Robert Eggers
