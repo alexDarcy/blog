@@ -3,6 +3,56 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: prop:t
 
+* TODO Au hasard Balthazard
+* TODO Burning
+* TODO Contact
+* TODO Dallas Buyers Club
+* TODO Darkest Hour
+* TODO Dragon Ball Super: Broly
+* TODO Dragon Ball Super: Resurrection F
+* TODO Early Spring
+* TODO Fences
+* TODO Hidden Figures
+* TODO If Beale Street could talk
+* TODO I, Tonya
+* TODO Little Women
+* TODO Mandy
+* TODO One Child Nation
+* TODO Onward
+* TODO Paterson
+* TODO Paths of glory
+* TODO Room
+* TODO Selma
+* TODO Shaun the Sheep
+* TODO Shoplifters
+* TODO Amour (2012)
+:PROPERTIES:
+:Director: Michael Haneke
+:Year:     2012
+:Actors:   Jean-Louis Trintignant, Emmanuelle Riva, Isabelle Huppert, Alexandre Tharaud
+:Genre:    Drama, Romance
+:Plot:     Georges and Anne are an octogenarian couple. They are cultivated, retired music teachers. Their daughter, also a musician, lives in Britain with her family. One day, Anne has a stroke, and the couple's bond of love is severely tested.
+:Runtime:  127 min
+:END:
+* TODO The Chronicle of Anna Magdalena Bach
+Sa vie en musique
+* TODO The Draughtsman's Contract
+* TODO Nightwatching
+Film sur Rembrant
+* TODO Still Walking
+* TODO Stray Doy
+* TODO The Endless (2017)
+* TODO The Fifth Estate (2013)
+* TODO The Irishman
+* TODO The Jungle Book 2016
+* TODO The lives of other
+* TODO Tokyo Story
+* TODO We, the Animals
+* DONE Plein Soleil
+  :PROPERTIES:
+  :rating:   4
+  :Year:     1960
+  :END:
 * DONE The Irishman
   :PROPERTIES:
   :Year:     2019
@@ -47,7 +97,6 @@
 :Runtime: 97 min
 :rating:   4
 :END:
-* TODO Au hasard Balthazard
 * DONE Soul (2020)
 :PROPERTIES:
 :rating:   4
@@ -58,15 +107,6 @@
 :Plot: After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.
 :Runtime: 100 min
 :END:
-* TODO Burning
-* TODO Contact
-* TODO Dallas Buyers Club
-* TODO Darkest Hour
-* TODO Dragon Ball Super: Broly
-* TODO Dragon Ball Super: Resurrection F
-* TODO Early Spring
-* TODO Fences
-* TODO Hidden Figures
 * DONE High and Low (1963)
 :PROPERTIES:
 :Director: Akira Kurosawa
@@ -76,27 +116,6 @@
 :Plot: An executive of a shoe company becomes a victim of extortion when his chauffeur's son is kidnapped and held for ransom.
 :Runtime: 143 min
 :rating:   4.5
-:END:
-* TODO If Beale Street could talk
-* TODO I, Tonya
-* TODO Little Women
-* TODO Mandy
-* TODO One Child Nation
-* TODO Onward
-* TODO Paterson
-* TODO Paths of glory
-* TODO Room
-* TODO Selma
-* TODO Shaun the Sheep
-* TODO Shoplifters
-* TODO Amour (2012)
-:PROPERTIES:
-:Director: Michael Haneke
-:Year:     2012
-:Actors:   Jean-Louis Trintignant, Emmanuelle Riva, Isabelle Huppert, Alexandre Tharaud
-:Genre:    Drama, Romance
-:Plot:     Georges and Anne are an octogenarian couple. They are cultivated, retired music teachers. Their daughter, also a musician, lives in Britain with her family. One day, Anne has a stroke, and the couple's bond of love is severely tested.
-:Runtime:  127 min
 :END:
 * DONE La pianiste (2001)
 :PROPERTIES:
@@ -108,20 +127,6 @@
 :Runtime: 131 min
 :rating:   4
 :END:
-* TODO The Chronicle of Anna Magdalena Bach
-Sa vie en musique
-* TODO The Draughtsman's Contract
-* TODO Nightwatching
-Film sur Rembrant
-* TODO Still Walking
-* TODO Stray Doy
-* TODO The Endless (2017)
-* TODO The Fifth Estate (2013)
-* TODO The Irishman
-* TODO The Jungle Book 2016
-* TODO The lives of other
-* TODO Tokyo Story
-* TODO We, the Animals
 * DONE Planet Earth: A Celebration (2020)
 :PROPERTIES:
 :Director: N/A

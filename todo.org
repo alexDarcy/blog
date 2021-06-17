@@ -451,12 +451,7 @@ https://github.com/rclone/rclone/blob/master/docs/content/commands/rclone.md
 **** DONE 12.2
 **** DONE 11.4
 ** TODO [[https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=233010][Port Kitty]]
-*** DONE MAJ v0.21
-**** DONE 11.4-RELEASE-p11 amd64         
-**** DONE 12.2-RELEASE-p8  amd64         
-**** DONE 13.0-RELEASE-p2  amd64         
-**** DONE 13.0-RELEASE-p2  arm64.aarch64 
-*** TODO v0.21.1
+*** DONE v0.21.1
 ** WAIT Port pyrocore
 Patch:
 #+begin_src

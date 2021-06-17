@@ -2341,3 +2341,16 @@ Mais on peut l'installer simplement avec gmake
 Pour la conversion en port :
 python3 setup.py linux-package
 mais les docs nécessite gmake
+
+* DONE MAJ v0.21
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2021-06-17 Thu 22:30
+  :ARCHIVE_FILE: ~/projects/blog/todo.org
+  :ARCHIVE_OLPATH: FreeBSD/Port Kitty
+  :ARCHIVE_CATEGORY: todo
+  :ARCHIVE_TODO: DONE
+  :END:
+** DONE 11.4-RELEASE-p11 amd64         
+** DONE 12.2-RELEASE-p8  amd64         
+** DONE 13.0-RELEASE-p2  amd64         
+** DONE 13.0-RELEASE-p2  arm64.aarch64 
