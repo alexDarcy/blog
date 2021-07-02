@@ -452,6 +452,12 @@ https://github.com/rclone/rclone/blob/master/docs/content/commands/rclone.md
 **** DONE 11.4
 ** TODO [[https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=233010][Port Kitty]]
 *** DONE v0.21.1
+*** v0.21
+** Notes
+   - Mettre le changlog dans URL
+   - Ne pas utiliser PORTREVISION si DISTVERSION est incrémenté (car sert aux patches freebsd)
+   - Cocher "maintainer approval" dans le patch
+
 ** WAIT Port pyrocore
 Patch:
 #+begin_src
