@@ -8,7 +8,7 @@
     :char:     554
     :END:
 *** １　黒魔女早朝トレーニング！
-    Jusque しめつけられるってしくみさ。つまり、だ。
+    Jusque     おつぎは、本だなと机のせいとん。
 
 # Local Variables:
 # current-language-environment: "Japanese"
