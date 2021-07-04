@@ -180,6 +180,10 @@
 *** TODO Alkan
 **** TODO Organ works
      Vérifier
+*** TODO Bruckner
+**** DONE Corydon Singers - Bruckner Motets
+***** DONE Red
+***** DONE Ops
 *** TODO Bach
 **** DONE Bachakademie
 ***** DONE OPS
@@ -278,7 +282,10 @@ On upload avec EAC si 2 OK
 **** KILL The art of Seiji Ozama
 ***** KILL OPS
 ***** KILL red
-*** 
+*** TODO Mendelssohn
+**** TODO Jacques Amade - Préludes et Fugues
+***** DONE Red
+***** TODO OPS
 *** TODO Mozart 
 **** KILL Mozart intégrale
 *** TODO Schubert
@@ -315,6 +322,8 @@ uploader ?
 **** KILL Speak like a child
 *** Keith Jarrett
 **** KILL Jasmine 
+*** Chick Corea
+**** TODO Everything from OPS
 *** KILL The smithsonian anthology
 * Diapason d'or
 ** DONE Benjamin Grosvenor - Liszt [2021] [Album]
