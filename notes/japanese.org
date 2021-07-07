@@ -8,7 +8,7 @@
     :char:     554
     :END:
 *** １　黒魔女早朝トレーニング！
-    Jusque     おつぎは、本だなと机のせいとん。
+    Jusque 千代子……。
 
 # Local Variables:
 # current-language-environment: "Japanese"
