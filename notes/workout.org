@@ -4835,4 +4835,8 @@ Bas : 3xhabituel
 *** 2021-07-07 Wednesday
 **** Handstand
      StW 48-37
-    BtW 
+    BtW
+
+*** 2021-07-08 Thursday
+**** Parkour
+   Technique: roll, side, kong, passe-muraille

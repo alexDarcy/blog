@@ -3,14 +3,6 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: prop:t
 
-* DONE Spiderman: Far from home
-  :PROPERTIES:
-  :rating:   3.5
-  :END:
-* DONE All About Eve
-  :PROPERTIES:
-  :rating:   4.5
-  :END:
 * TODO Au hasard Balthazard
 * TODO Burning
 * TODO Contact
@@ -56,6 +48,19 @@ Film sur Rembrant
 * TODO The lives of other
 * TODO Tokyo Story
 * TODO We, the Animals
+* DONE Us
+  :PROPERTIES:
+  :Year:     2019
+  :rating:   3.5
+  :END:
+* DONE Spiderman: Far from home
+  :PROPERTIES:
+  :rating:   3.5
+  :END:
+* DONE All About Eve
+  :PROPERTIES:
+  :rating:   4.5
+  :END:
 * DONE Plein Soleil
   :PROPERTIES:
   :rating:   4
