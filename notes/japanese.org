@@ -7,8 +7,8 @@
     :PROPERTIES:
     :char:     554
     :END:
-*** １　黒魔女早朝トレーニング！
-    Jusque 千代子……。
+*** DONE １　黒魔女早朝トレーニング！
+*** 2 メグの心霊写真
 
 # Local Variables:
 # current-language-environment: "Japanese"
