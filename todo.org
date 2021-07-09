@@ -121,6 +121,11 @@ Requirements : food.csv, nutrient.csv, food_nutrients.csv
 1. Chercher l'ID dans food.csv (nom = description, id = fdc_id)
 2. Pour fdc_id, obtenir la liste des nutriments (nutrient_id) avec leurs valeurs (amonut) dans food_nutrients.csv
 3. Convertir l'Id nutrient (nutrient_nbr = nutrient_id) en son nom (nutrient_nbr)avec nutrient.csv
+** TODO tag-flac
+   Edit tags like wdired, using this code https://www.emacswiki.org/emacs/tag.el adapted to metaflac
+*** DONE Show currents tags
+*** TODO Improve display
+*** TODO Edit tags
 * Blog :blog:
 ** TODO [[file:../../../../../home/alex/projects/blog/notes/Emacs_tips.org][Emacs_tips]] :blog:
 ** TODO Emacs from scratch

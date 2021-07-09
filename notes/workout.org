@@ -4840,3 +4840,16 @@ Bas : 3xhabituel
 *** 2021-07-08 Thursday
 **** Parkour
    Technique: roll, side, kong, passe-muraille
+
+*** 2021-07-09 Friday
+**** Handstand
+    StW 41-32
+    BtW 2-2x3-4-5-6
+    Btw (tête regardant le sol) 9
+**** Running
+     :PROPERTIES:
+     :type:     sprint
+     :reps:     8
+     :sprint:   50m
+     :rest:     2min
+     :END:

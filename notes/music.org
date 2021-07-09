@@ -26,8 +26,8 @@
 *** DONE CD 06
 *** DONE CD 07
 *** DONE CD 08
-*** TODO CD 09
-*** TODO CD 10
+*** DONE CD 09
+*** DONE CD 10
 *** TODO CD 11
 *** TODO CD 12
 *** TODO CD 13
@@ -319,11 +319,18 @@ uploader ?
     20G
 ** Jazz
 *** Herbie hancock
-**** KILL Speak like a child
+**** TODO Red
+**** DONE Ops
 *** Keith Jarrett
 **** KILL Jasmine 
 *** Chick Corea
-**** TODO Everything from OPS
+Re-dl Everything from OPS
+**** TODO My spanish heart
+***** TODO Red
+***** DONE Ops
+**** TODO Return to foverer
+***** TODO Red
+***** DONE Ops
 *** KILL The smithsonian anthology
 * Diapason d'or
 ** DONE Benjamin Grosvenor - Liszt [2021] [Album]
