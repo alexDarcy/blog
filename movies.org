@@ -4,6 +4,7 @@
 #+OPTIONS: prop:t
 
 * TODO Au hasard Balthazard
+* TODO Hard to be a god
 * TODO Burning
 * TODO Contact
 * TODO Dallas Buyers Club

@@ -283,9 +283,9 @@ On upload avec EAC si 2 OK
 ***** KILL OPS
 ***** KILL red
 *** TODO Mendelssohn
-**** TODO Jacques Amade - Préludes et Fugues
-**** DONE Red
-**** TODO Ops
+**** DONE Jacques Amade - Préludes et Fugues
+***** DONE Red
+***** DONE Ops
 *** TODO Mozart 
 **** KILL Mozart intégrale
 *** TODO Schubert

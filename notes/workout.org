@@ -4853,3 +4853,16 @@ Bas : 3xhabituel
      :sprint:   50m
      :rest:     2min
      :END:
+
+*** 2021-07-10 Saturday
+   RTO : 30-20
+**** Workout
+   Skin-the-cat : 2-2
+   L-sit : 9-9 (!)
+   Muscle-up : 3x1 (bras légèrement pliés) - 4x1 (bras tendus) - 4x1 (!!)
+   Pistols (assisted) : 3x 4#4
+   Extension (lower-back) : 3x22
+   Front-lever row (tuck) : 3x{1+1}
+   Planche on rings (tuck): 3x{3+2}
+   Norwegian curls: 2x4-5
+   Compression : 3x10

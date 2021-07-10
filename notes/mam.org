@@ -66,10 +66,10 @@ Tester téléchargement direct sur r ^. responseHeader "Content-Type"
    On ne peut pas utiliser /section pour 1. vu les sous-sections
 **** DONE Supprimer les numéro de paragraphes
   <a class="no-para" href="#pa9">9</a>
-**** TODO Récupérer les images pour pandoc
+**** DONE Récupérer les images pour pandoc
      <img src="load.php/*.jpg>
      ok pour 1 chapitre
-**** TODO Ajouter un header avec le titre
+**** DONE Ajouter un header avec le titre
 <!DOCTYPE html>
 <html>
   <head>
@@ -79,14 +79,16 @@ Tester téléchargement direct sur r ^. responseHeader "Content-Type"
 ...
 </body>
 </html>
-**** TODO Ajouter un titre de chapitre avec h1
-**** TODO Corriger les headings
+**** DONE Ajouter un titre de chapitre avec h1
+**** DONE Corriger les headings
      2 types pour l'instant:
      Sections  -> h2
 <section class="section section1" id="s1n4">
 Subsections -> h3
 <section class="section section2" id="s2n4">
-
+**** TODO Page de titre séparée + infos
+     Auteur, année etc
+**** DONE Corriger footer
 *** DONE Ajouter présentation
 *** KILL Uploader sur le pi automatiquement
 ** TODO Automatiser upload
