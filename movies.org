@@ -3,6 +3,16 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: prop:t
 
+* DONE The Lego Batman Movie
+    :PROPERTIES:
+  :rating:   4
+  :Year:     2017
+  :END:
+* DONE The GateKeepers
+  :PROPERTIES:
+  :Year:     2012
+  :rating:   4
+  :END:
 * TODO Au hasard Balthazard
 * TODO Hard to be a god
 * TODO Burning
